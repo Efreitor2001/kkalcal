@@ -1,0 +1,23 @@
+Баланс 1.0.0 — результаты проверки 08.10.2026
+
+assembleDebug / assembleRelease / lintDebug: BUILD SUCCESSFUL.
+testDebugUnitTest: 15 tests, 0 failures (StatsMathTest 11, RecipeMathTest 4).
+AndroidJUnitRunner на эмуляторе API36: OK (11 tests), 54.315 seconds.
+AppStoreTest: 7; AppFlowTest: 3; PresentationSmokeTest: 1.
+Wi-Fi и мобильные данные эмулятора были отключены.
+
+Проверены ввод дробных граммов, КБЖУ порции, редактирование и удаление,
+неизменность истории при изменении продукта, сохранение исходной точности,
+необязательные измерения, сон 6:48, невалидный ввод без частичных изменений,
+повторное чтение данных, резервная копия, невалидный импорт и отказ записи.
+Скриншоты обеих палитр и графиков сделаны на искусственных данных.
+Проверен график при 320dp/fontScale1.5, подписи нижней навигации адаптированы.
+Установка подписанного release APK и переключение системной темы проверены отдельно.
+
+Android Lint: 0 errors, 2 warnings (новая версия Gradle; Android DataExtractionRules).
+apksigner verify: success, APK signature scheme v2.
+zipalign -c -P 16 4: success.
+aapt native-code: arm64-v8a, armeabi-v7a, x86, x86_64.
+INTERNET permission отсутствует. minSdk26, targetSdk37.
+
+Физический телефон в проверке не участвовал.

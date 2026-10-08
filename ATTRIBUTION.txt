@@ -1,0 +1,167 @@
+БАЗОВЫЕ ПРОДУКТЫ ПРИЛОЖЕНИЯ «БАЛАНС»
+Подготовлено 2026-10-08.
+
+127 записей отобраны из официального USDA FoodData Central SR Legacy (финальный выпуск Standard Reference, апрель 2018).
+Исходный JSON скачан напрямую с USDA; числовые КБЖУ извлечены программно, а не набраны по памяти.
+Данные SR Legacy справочные: сорта, производители, состав и способ приготовления влияют на конкретный продукт.
+Для упакованного продукта пользователь может заменить значения на данные с этикетки.
+Все КБЖУ указаны на 100 г съедобной части; вес костей, косточек и несъедобной кожуры не включается.
+Сухая крупа и готовая каша заведены отдельными продуктами. Для готового блюда с добавленными ингредиентами учитывайте его полный состав.
+
+Официальные источники:
+https://fdc.nal.usda.gov/download-datasets/
+https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip
+https://www.nal.usda.gov/human-nutrition-and-food-safety/nutrient-lists-standard-reference-legacy-2018
+https://fdc.nal.usda.gov/Foundation_Foods_Documentation/
+https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR-Legacy/SR-Legacy_Doc.pdf
+
+Соответствие полей:
+kcal    = nutrient.id 1008 Energy, kcal
+protein = nutrient.id 1003 Protein, g
+fat     = nutrient.id 1004 Total lipid (fat), g
+carbs   = nutrient.id 1005 Carbohydrate, by difference, g
+
+Углеводы USDA (carbohydrate by difference) включают пищевые волокна. Поэтому эти значения могут отличаться от маркировки продуктов, использующей другой способ подсчёта углеводов.
+Энергия сохранена отдельным значением из USDA; она не пересчитывается по универсальной формуле 4/9/4.
+Число знаков после запятой сохранено из источника и не означает гарантированную точность для каждого экземпляра продукта.
+«Творог зернёный 2%» — cottage cheese, а не обычный сухой творог. Это явно указано в названии и примечании.
+Названия и категории переведены для приложения. Сопоставление каждой записи с оригинальным названием и FDC ID приведено ниже.
+
+Проверки:
+— 127 уникальных id и 127 уникальных названий.
+— Для каждой записи найдены все 4 нужных показателя в исходном USDA JSON.
+— Значения конечные и неотрицательные: kcal <= 1000; каждый макроэлемент <= 100 г.
+— Сумма Б+Ж+У не превышает 101 г (допуск на исходное округление); по этим продуктам фактический максимум 100 г.
+— Идентификатор seed_<NDB> сохраняет стабильную привязку к записи источника.
+— Интернет требуется только при подготовке базы; файл assets/products.json полностью автономен.
+
+Формат справочника ниже:
+id | название в приложении | оригинальное описание | kcal / Б / Ж / У на 100 г | ссылка FDC
+
+seed_9003 | Яблоко с кожурой | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) | 52.0 / 0.26 / 0.17 / 13.8 | https://fdc.nal.usda.gov/food-details/171688/nutrients
+seed_9040 | Банан без кожуры | Bananas, raw | 89.0 / 1.09 / 0.33 / 22.8 | https://fdc.nal.usda.gov/food-details/173944/nutrients
+seed_9021 | Абрикос без косточки | Apricots, raw | 48.0 / 1.4 / 0.39 / 11.1 | https://fdc.nal.usda.gov/food-details/171697/nutrients
+seed_9037 | Авокадо, мякоть | Avocados, raw, all commercial varieties | 160.0 / 2.0 / 14.7 / 8.53 | https://fdc.nal.usda.gov/food-details/171705/nutrients
+seed_9050 | Голубика | Blueberries, raw | 57.0 / 0.74 / 0.33 / 14.5 | https://fdc.nal.usda.gov/food-details/171711/nutrients
+seed_9070 | Черешня без косточки | Cherries, sweet, raw | 63.0 / 1.06 / 0.2 / 16.0 | https://fdc.nal.usda.gov/food-details/171719/nutrients
+seed_9063 | Вишня без косточки | Cherries, sour, red, raw | 50.0 / 1.0 / 0.3 / 12.2 | https://fdc.nal.usda.gov/food-details/173954/nutrients
+seed_9078 | Клюква | Cranberries, raw | 46.0 / 0.46 / 0.13 / 12.0 | https://fdc.nal.usda.gov/food-details/171722/nutrients
+seed_9083 | Смородина чёрная | Currants, european black, raw | 63.0 / 1.4 / 0.41 / 15.4 | https://fdc.nal.usda.gov/food-details/173963/nutrients
+seed_9084 | Смородина красная и белая | Currants, red and white, raw | 56.0 / 1.4 / 0.2 / 13.8 | https://fdc.nal.usda.gov/food-details/173964/nutrients
+seed_9132 | Виноград | Grapes, red or green (European type, such as Thompson seedless), raw | 69.0 / 0.72 / 0.16 / 18.1 | https://fdc.nal.usda.gov/food-details/174683/nutrients
+seed_9148 | Киви, мякоть | Kiwifruit, green, raw | 61.0 / 1.14 / 0.52 / 14.7 | https://fdc.nal.usda.gov/food-details/168153/nutrients
+seed_9150 | Лимон без кожуры | Lemons, raw, without peel | 29.0 / 1.1 / 0.3 / 9.32 | https://fdc.nal.usda.gov/food-details/167746/nutrients
+seed_9181 | Дыня канталупа, мякоть | Melons, cantaloupe, raw | 34.0 / 0.84 / 0.19 / 8.16 | https://fdc.nal.usda.gov/food-details/169092/nutrients
+seed_9200 | Апельсин, мякоть | Oranges, raw, all commercial varieties | 47.0 / 0.94 / 0.12 / 11.8 | https://fdc.nal.usda.gov/food-details/169097/nutrients
+seed_9218 | Мандарин, мякоть | Tangerines, (mandarin oranges), raw | 53.0 / 0.81 / 0.31 / 13.3 | https://fdc.nal.usda.gov/food-details/169105/nutrients
+seed_9236 | Персик без косточки | Peaches, yellow, raw | 39.0 / 0.91 / 0.25 / 9.54 | https://fdc.nal.usda.gov/food-details/169928/nutrients
+seed_9252 | Груша | Pears, raw | 57.0 / 0.36 / 0.14 / 15.2 | https://fdc.nal.usda.gov/food-details/169118/nutrients
+seed_9266 | Ананас, мякоть | Pineapple, raw, all varieties | 50.0 / 0.54 / 0.12 / 13.1 | https://fdc.nal.usda.gov/food-details/169124/nutrients
+seed_9279 | Слива без косточки | Plums, raw | 46.0 / 0.7 / 0.28 / 11.4 | https://fdc.nal.usda.gov/food-details/169949/nutrients
+seed_9286 | Гранат, зёрна | Pomegranates, raw | 83.0 / 1.67 / 1.17 / 18.7 | https://fdc.nal.usda.gov/food-details/169134/nutrients
+seed_9295 | Помело, мякоть | Pummelo, raw | 38.0 / 0.76 / 0.04 / 9.62 | https://fdc.nal.usda.gov/food-details/167754/nutrients
+seed_9302 | Малина | Raspberries, raw | 52.0 / 1.2 / 0.65 / 11.9 | https://fdc.nal.usda.gov/food-details/167755/nutrients
+seed_9316 | Клубника | Strawberries, raw | 32.0 / 0.67 / 0.3 / 7.68 | https://fdc.nal.usda.gov/food-details/167762/nutrients
+seed_9326 | Арбуз, мякоть | Watermelon, raw | 30.0 / 0.61 / 0.15 / 7.55 | https://fdc.nal.usda.gov/food-details/167765/nutrients
+seed_9191 | Нектарин без косточки | Nectarines, raw | 44.0 / 1.06 / 0.32 / 10.6 | https://fdc.nal.usda.gov/food-details/169914/nutrients
+seed_9176 | Манго, мякоть | Mangos, raw | 60.0 / 0.82 / 0.38 / 15.0 | https://fdc.nal.usda.gov/food-details/169910/nutrients
+seed_9107 | Крыжовник | Gooseberries, raw | 44.0 / 0.88 / 0.58 / 10.2 | https://fdc.nal.usda.gov/food-details/173030/nutrients
+seed_9226 | Папайя, мякоть | Papayas, raw | 43.0 / 0.47 / 0.26 / 10.8 | https://fdc.nal.usda.gov/food-details/169926/nutrients
+seed_9089 | Инжир свежий | Figs, raw | 74.0 / 0.75 / 0.3 / 19.2 | https://fdc.nal.usda.gov/food-details/173021/nutrients
+seed_9111 | Грейпфрут, мякоть | Grapefruit, raw, pink and red and white, all areas | 32.0 / 0.63 / 0.1 / 8.08 | https://fdc.nal.usda.gov/food-details/173033/nutrients
+seed_9032 | Курага без косточки | Apricots, dried, sulfured, uncooked | 241.0 / 3.39 / 0.51 / 62.6 | https://fdc.nal.usda.gov/food-details/173941/nutrients
+seed_9291 | Чернослив без косточки | Plums, dried (prunes), uncooked | 240.0 / 2.18 / 0.38 / 63.9 | https://fdc.nal.usda.gov/food-details/168162/nutrients
+seed_9087 | Финики без косточки | Dates, deglet noor | 282.0 / 2.45 / 0.39 / 75.0 | https://fdc.nal.usda.gov/food-details/171726/nutrients
+seed_9298 | Изюм тёмный без косточек | Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program) | 299.0 / 3.3 / 0.25 / 79.3 | https://fdc.nal.usda.gov/food-details/168165/nutrients
+seed_11529 | Помидор свежий | Tomatoes, red, ripe, raw, year round average | 18.0 / 0.88 / 0.2 / 3.89 | https://fdc.nal.usda.gov/food-details/170457/nutrients
+seed_11205 | Огурец с кожурой | Cucumber, with peel, raw | 15.0 / 0.65 / 0.11 / 3.63 | https://fdc.nal.usda.gov/food-details/168409/nutrients
+seed_11090 | Брокколи сырая | Broccoli, raw | 34.0 / 2.82 / 0.37 / 6.64 | https://fdc.nal.usda.gov/food-details/170379/nutrients
+seed_11109 | Капуста белокочанная сырая | Cabbage, raw | 25.0 / 1.28 / 0.1 / 5.8 | https://fdc.nal.usda.gov/food-details/169975/nutrients
+seed_11124 | Морковь сырая | Carrots, raw | 41.0 / 0.93 / 0.24 / 9.58 | https://fdc.nal.usda.gov/food-details/170393/nutrients
+seed_11135 | Капуста цветная сырая | Cauliflower, raw | 25.0 / 1.92 / 0.28 / 4.97 | https://fdc.nal.usda.gov/food-details/169986/nutrients
+seed_11143 | Сельдерей, стебли | Celery, raw | 14.0 / 0.69 / 0.17 / 2.97 | https://fdc.nal.usda.gov/food-details/169988/nutrients
+seed_11282 | Лук репчатый сырой | Onions, raw | 40.0 / 1.1 / 0.1 / 9.34 | https://fdc.nal.usda.gov/food-details/170000/nutrients
+seed_11291 | Лук зелёный | Onions, spring or scallions (includes tops and bulb), raw | 32.0 / 1.83 / 0.19 / 7.34 | https://fdc.nal.usda.gov/food-details/170005/nutrients
+seed_11304 | Горошек зелёный сырой | Peas, green, raw | 81.0 / 5.42 / 0.4 / 14.4 | https://fdc.nal.usda.gov/food-details/170419/nutrients
+seed_11333 | Перец сладкий зелёный | Peppers, sweet, green, raw | 20.0 / 0.86 / 0.17 / 4.64 | https://fdc.nal.usda.gov/food-details/170427/nutrients
+seed_11821 | Перец сладкий красный | Peppers, sweet, red, raw | 26.0 / 0.99 / 0.3 / 6.03 | https://fdc.nal.usda.gov/food-details/170108/nutrients
+seed_11352 | Картофель сырой с кожурой | Potatoes, flesh and skin, raw | 77.0 / 2.05 / 0.09 / 17.5 | https://fdc.nal.usda.gov/food-details/170026/nutrients
+seed_11367 | Картофель отварной без кожуры | Potatoes, boiled, cooked without skin, flesh, without salt | 86.0 / 1.71 / 0.1 / 20.0 | https://fdc.nal.usda.gov/food-details/170440/nutrients
+seed_11477 | Кабачок цукини сырой | Squash, summer, zucchini, includes skin, raw | 17.0 / 1.21 / 0.32 / 3.11 | https://fdc.nal.usda.gov/food-details/169291/nutrients
+seed_11209 | Баклажан сырой | Eggplant, raw | 25.0 / 0.98 / 0.18 / 5.88 | https://fdc.nal.usda.gov/food-details/169228/nutrients
+seed_11422 | Тыква сырая | Pumpkin, raw | 26.0 / 1.0 / 0.1 / 6.5 | https://fdc.nal.usda.gov/food-details/168448/nutrients
+seed_11429 | Редис | Radishes, raw | 16.0 / 0.68 / 0.1 / 3.4 | https://fdc.nal.usda.gov/food-details/169276/nutrients
+seed_11564 | Репа сырая | Turnips, raw | 28.0 / 0.9 / 0.1 / 6.43 | https://fdc.nal.usda.gov/food-details/170465/nutrients
+seed_11080 | Свёкла сырая | Beets, raw | 43.0 / 1.61 / 0.17 / 9.56 | https://fdc.nal.usda.gov/food-details/169145/nutrients
+seed_11081 | Свёкла отварная | Beets, cooked, boiled, drained | 44.0 / 1.68 / 0.18 / 9.96 | https://fdc.nal.usda.gov/food-details/169146/nutrients
+seed_11215 | Чеснок | Garlic, raw | 149.0 / 6.36 / 0.5 / 33.1 | https://fdc.nal.usda.gov/food-details/169230/nutrients
+seed_11216 | Имбирь, корень | Ginger root, raw | 80.0 / 1.82 / 0.75 / 17.8 | https://fdc.nal.usda.gov/food-details/169231/nutrients
+seed_11457 | Шпинат сырой | Spinach, raw | 23.0 / 2.86 / 0.39 / 3.63 | https://fdc.nal.usda.gov/food-details/168462/nutrients
+seed_11253 | Салат листовой | Lettuce, green leaf, raw | 15.0 / 1.36 / 0.15 / 2.87 | https://fdc.nal.usda.gov/food-details/169249/nutrients
+seed_11297 | Петрушка свежая | Parsley, fresh | 36.0 / 2.97 / 0.79 / 6.33 | https://fdc.nal.usda.gov/food-details/170416/nutrients
+seed_2045 | Укроп свежий | Dill weed, fresh | 43.0 / 3.46 / 1.12 / 7.02 | https://fdc.nal.usda.gov/food-details/172233/nutrients
+seed_11052 | Фасоль стручковая сырая | Beans, snap, green, raw | 31.0 / 1.83 / 0.22 / 6.97 | https://fdc.nal.usda.gov/food-details/169961/nutrients
+seed_11167 | Кукуруза сладкая, сырые зёрна | Corn, sweet, yellow, raw | 86.0 / 3.27 / 1.35 / 18.7 | https://fdc.nal.usda.gov/food-details/169998/nutrients
+seed_11260 | Шампиньоны сырые | Mushrooms, white, raw | 22.0 / 3.09 / 0.34 / 3.26 | https://fdc.nal.usda.gov/food-details/169251/nutrients
+seed_11261 | Шампиньоны отварные без соли | Mushrooms, white, cooked, boiled, drained, without salt | 28.0 / 2.17 / 0.47 / 5.29 | https://fdc.nal.usda.gov/food-details/169252/nutrients
+seed_11987 | Вешенки сырые | Mushrooms, oyster, raw | 33.0 / 3.31 / 0.41 / 6.09 | https://fdc.nal.usda.gov/food-details/168580/nutrients
+seed_20009 | Гречка, сухая крупа | Buckwheat groats, roasted, dry | 346.0 / 11.7 / 2.71 / 75.0 | https://fdc.nal.usda.gov/food-details/170685/nutrients
+seed_20010 | Гречка отварная на воде | Buckwheat groats, roasted, cooked | 92.0 / 3.38 / 0.62 / 19.9 | https://fdc.nal.usda.gov/food-details/170686/nutrients
+seed_20444 | Рис белый, сухая крупа | Rice, white, long-grain, regular, raw, unenriched | 365.0 / 7.13 / 0.66 / 80.0 | https://fdc.nal.usda.gov/food-details/169756/nutrients
+seed_20445 | Рис белый отварной без соли | Rice, white, long-grain, regular, unenriched, cooked without salt | 130.0 / 2.69 / 0.28 / 28.2 | https://fdc.nal.usda.gov/food-details/169757/nutrients
+seed_20036 | Рис бурый, сухая крупа | Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program) | 367.0 / 7.54 / 3.2 / 76.2 | https://fdc.nal.usda.gov/food-details/169703/nutrients
+seed_20037 | Рис бурый отварной | Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program) | 123.0 / 2.74 / 0.97 / 25.6 | https://fdc.nal.usda.gov/food-details/169704/nutrients
+seed_8120 | Овсяные хлопья сухие | Cereals, oats, regular and quick, not fortified, dry | 379.0 / 13.2 / 6.52 / 67.7 | https://fdc.nal.usda.gov/food-details/173904/nutrients
+seed_8121 | Овсяная каша на воде без соли | Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt | 71.0 / 2.54 / 1.52 / 12.0 | https://fdc.nal.usda.gov/food-details/173905/nutrients
+seed_20005 | Перловка, сухая крупа | Barley, pearled, raw | 352.0 / 9.91 / 1.16 / 77.7 | https://fdc.nal.usda.gov/food-details/170284/nutrients
+seed_20006 | Перловка отварная | Barley, pearled, cooked | 123.0 / 2.26 / 0.44 / 28.2 | https://fdc.nal.usda.gov/food-details/170285/nutrients
+seed_20031 | Пшено, сухая крупа | Millet, raw | 378.0 / 11.0 / 4.22 / 72.8 | https://fdc.nal.usda.gov/food-details/169702/nutrients
+seed_20032 | Пшено отварное | Millet, cooked | 119.0 / 3.51 / 1.0 / 23.7 | https://fdc.nal.usda.gov/food-details/168871/nutrients
+seed_20420 | Макароны сухие | Pasta, dry, unenriched | 371.0 / 13.0 / 1.51 / 74.7 | https://fdc.nal.usda.gov/food-details/168927/nutrients
+seed_20421 | Макароны отварные без соли | Pasta, cooked, unenriched, without added salt | 158.0 / 5.8 / 0.93 / 30.9 | https://fdc.nal.usda.gov/food-details/168928/nutrients
+seed_16070 | Чечевица отварная без соли | Lentils, mature seeds, cooked, boiled, without salt | 116.0 / 9.02 / 0.38 / 20.1 | https://fdc.nal.usda.gov/food-details/172421/nutrients
+seed_16057 | Нут отварной без соли | Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt | 164.0 / 8.86 / 2.59 / 27.4 | https://fdc.nal.usda.gov/food-details/173757/nutrients
+seed_16033 | Фасоль красная отварная без соли | Beans, kidney, red, mature seeds, cooked, boiled, without salt | 127.0 / 8.67 / 0.5 / 22.8 | https://fdc.nal.usda.gov/food-details/175194/nutrients
+seed_5062 | Куриная грудка сырая без кожи | Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw | 120.0 / 22.5 / 2.62 / 0.0 | https://fdc.nal.usda.gov/food-details/171077/nutrients
+seed_5064 | Куриная грудка запечённая без кожи | Chicken, broilers or fryers, breast, meat only, cooked, roasted | 165.0 / 31.0 / 3.57 / 0.0 | https://fdc.nal.usda.gov/food-details/171477/nutrients
+seed_5219 | Грудка индейки сырая без кожи | Turkey, whole, breast, meat only, raw | 114.0 / 23.7 / 1.48 / 0.14 | https://fdc.nal.usda.gov/food-details/171098/nutrients
+seed_5220 | Грудка индейки запечённая без кожи | Turkey, whole, breast, meat only, cooked, roasted | 147.0 / 30.1 / 2.08 / 0.0 | https://fdc.nal.usda.gov/food-details/171496/nutrients
+seed_23562 | Говяжий фарш 10% жира, сырой | Beef, ground, 90% lean meat / 10% fat, raw | 176.0 / 20.0 / 10.0 / 0.0 | https://fdc.nal.usda.gov/food-details/174030/nutrients
+seed_23566 | Говяжий фарш 10% жира, запечённый | Beef, ground, 90% lean meat / 10% fat, loaf, cooked, baked | 214.0 / 26.6 / 11.1 / 0.0 | https://fdc.nal.usda.gov/food-details/171795/nutrients
+seed_10060 | Свиная вырезка сырая без видимого жира | Pork, fresh, loin, tenderloin, separable lean only, raw | 109.0 / 21.0 / 2.17 / 0.0 | https://fdc.nal.usda.gov/food-details/168249/nutrients
+seed_10061 | Свиная вырезка запечённая | Pork, fresh, loin, tenderloin, separable lean only, cooked, roasted | 143.0 / 26.2 / 3.51 / 0.0 | https://fdc.nal.usda.gov/food-details/168250/nutrients
+seed_15236 | Лосось атлантический, сырой | Fish, salmon, Atlantic, farmed, raw | 208.0 / 20.4 / 13.4 / 0.0 | https://fdc.nal.usda.gov/food-details/175167/nutrients
+seed_15237 | Лосось атлантический, запечённый | Fish, salmon, Atlantic, farmed, cooked, dry heat | 206.0 / 22.1 / 12.4 / 0.0 | https://fdc.nal.usda.gov/food-details/175168/nutrients
+seed_15015 | Треска атлантическая, сырая | Fish, cod, Atlantic, raw | 82.0 / 17.8 / 0.67 / 0.0 | https://fdc.nal.usda.gov/food-details/171955/nutrients
+seed_15266 | Минтай сырой | Fish, pollock, Alaska, raw | 76.0 / 17.2 / 0.82 / 0.0 | https://fdc.nal.usda.gov/food-details/173725/nutrients
+seed_15121 | Тунец в собственном соку, без жидкости | Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program) | 86.0 / 19.4 / 0.96 / 0.0 | https://fdc.nal.usda.gov/food-details/173709/nutrients
+seed_15271 | Креветки приготовленные, очищенные | Crustaceans, shrimp, cooked | 99.0 / 24.0 / 0.28 / 0.2 | https://fdc.nal.usda.gov/food-details/175180/nutrients
+seed_1211 | Молоко 3,25% | Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D | 61.0 / 3.15 / 3.27 / 4.78 | https://fdc.nal.usda.gov/food-details/172217/nutrients
+seed_1174 | Молоко 2% | Milk, reduced fat, fluid, 2% milkfat, without added vitamin A and vitamin D | 50.0 / 3.3 / 1.98 / 4.8 | https://fdc.nal.usda.gov/food-details/172205/nutrients
+seed_1082 | Молоко 1% | Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D | 42.0 / 3.37 / 0.97 / 4.99 | https://fdc.nal.usda.gov/food-details/170872/nutrients
+seed_1116 | Йогурт натуральный цельномолочный | Yogurt, plain, whole milk | 61.0 / 3.47 / 3.25 / 4.66 | https://fdc.nal.usda.gov/food-details/171284/nutrients
+seed_1256 | Йогурт греческий обезжиренный | Yogurt, Greek, plain, nonfat (Includes foods for USDA's Food Distribution Program) | 59.0 / 10.2 / 0.39 / 3.6 | https://fdc.nal.usda.gov/food-details/170894/nutrients
+seed_1015 | Творог зернёный 2% | Cheese, cottage, lowfat, 2% milkfat | 81.0 / 10.4 / 2.27 / 4.76 | https://fdc.nal.usda.gov/food-details/172182/nutrients
+seed_1056 | Сметана около 19% жирности | Cream, sour, cultured | 198.0 / 2.44 / 19.4 / 4.63 | https://fdc.nal.usda.gov/food-details/171257/nutrients
+seed_1009 | Сыр чеддер | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 403.0 / 22.9 / 33.3 / 3.37 | https://fdc.nal.usda.gov/food-details/173414/nutrients
+seed_1026 | Сыр моцарелла из цельного молока | Cheese, mozzarella, whole milk | 299.0 / 22.2 / 22.1 / 2.4 | https://fdc.nal.usda.gov/food-details/170845/nutrients
+seed_1019 | Сыр фета | Cheese, feta | 265.0 / 14.2 / 21.5 / 3.88 | https://fdc.nal.usda.gov/food-details/173420/nutrients
+seed_1123 | Яйцо куриное сырое без скорлупы | Egg, whole, raw, fresh | 143.0 / 12.6 / 9.51 / 0.72 | https://fdc.nal.usda.gov/food-details/171287/nutrients
+seed_1129 | Яйцо куриное варёное без скорлупы | Egg, whole, cooked, hard-boiled | 155.0 / 12.6 / 10.6 / 1.12 | https://fdc.nal.usda.gov/food-details/173424/nutrients
+seed_1124 | Белок куриного яйца сырой | Egg, white, raw, fresh | 52.0 / 10.9 / 0.17 / 0.73 | https://fdc.nal.usda.gov/food-details/172183/nutrients
+seed_1001 | Масло сливочное солёное | Butter, salted | 717.0 / 0.85 / 81.1 / 0.06 | https://fdc.nal.usda.gov/food-details/173410/nutrients
+seed_4053 | Масло оливковое | Oil, olive, salad or cooking | 884.0 / 0.0 / 100.0 / 0.0 | https://fdc.nal.usda.gov/food-details/171413/nutrients
+seed_4506 | Масло подсолнечное | Oil, sunflower, linoleic, (approx. 65%) | 884.0 / 0.0 / 100.0 / 0.0 | https://fdc.nal.usda.gov/food-details/171025/nutrients
+seed_12061 | Миндаль | Nuts, almonds | 579.0 / 21.2 / 49.9 / 21.6 | https://fdc.nal.usda.gov/food-details/170567/nutrients
+seed_12155 | Грецкий орех, ядра | Nuts, walnuts, english | 654.0 / 15.2 / 65.2 / 13.7 | https://fdc.nal.usda.gov/food-details/170187/nutrients
+seed_12120 | Фундук, ядра | Nuts, hazelnuts or filberts | 628.0 / 15.0 / 60.8 / 16.7 | https://fdc.nal.usda.gov/food-details/170581/nutrients
+seed_12151 | Фисташки сырые, ядра | Nuts, pistachio nuts, raw | 560.0 / 20.2 / 45.3 / 27.2 | https://fdc.nal.usda.gov/food-details/170184/nutrients
+seed_12014 | Тыквенные семечки, сушёные ядра | Seeds, pumpkin and squash seed kernels, dried | 559.0 / 30.2 / 49.0 / 10.7 | https://fdc.nal.usda.gov/food-details/170556/nutrients
+seed_16087 | Арахис сырой очищенный | Peanuts, all types, raw | 567.0 / 25.8 / 49.2 / 16.1 | https://fdc.nal.usda.gov/food-details/172430/nutrients
+seed_18069 | Хлеб белый пшеничный | Bread, white, commercially prepared (includes soft bread crumbs) | 266.0 / 8.85 / 3.33 / 49.4 | https://fdc.nal.usda.gov/food-details/174924/nutrients
+seed_18075 | Хлеб цельнозерновой пшеничный | Bread, whole-wheat, commercially prepared | 252.0 / 12.4 / 3.5 / 42.7 | https://fdc.nal.usda.gov/food-details/172688/nutrients
+seed_18060 | Хлеб ржаной | Bread, rye | 259.0 / 8.5 / 3.3 / 48.3 | https://fdc.nal.usda.gov/food-details/172684/nutrients
+seed_19296 | Мёд | Honey | 304.0 / 0.3 / 0.0 / 82.4 | https://fdc.nal.usda.gov/food-details/169640/nutrients
+seed_19335 | Сахар | Sugars, granulated | 387.0 / 0.0 / 0.0 / 100.0 | https://fdc.nal.usda.gov/food-details/169655/nutrients
+seed_19165 | Какао-порошок без сахара | Cocoa, dry powder, unsweetened | 228.0 / 19.6 / 13.7 / 57.9 | https://fdc.nal.usda.gov/food-details/169593/nutrients
+seed_19904 | Шоколад тёмный 70–85% | Chocolate, dark, 70-85% cacao solids | 598.0 / 7.79 / 42.6 / 45.9 | https://fdc.nal.usda.gov/food-details/170273/nutrients
