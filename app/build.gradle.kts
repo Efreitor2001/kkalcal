@@ -6,7 +6,8 @@ val signing = Properties().apply { if(signingFile.exists()) signingFile.inputStr
 val integrationFile = rootProject.file("integrations.properties")
 val integrations = Properties().apply { if (integrationFile.exists()) integrationFile.inputStream().use { load(it) } }
 val publicAdUnits = Properties().apply { rootProject.file("ad-units.properties").inputStream().use { load(it) } }
-fun integration(key: String): String = integrations.getProperty(key, publicAdUnits.getProperty(key, "")).trim()
+val publicGoogleClient = Properties().apply { rootProject.file("google-client.properties").inputStream().use { load(it) } }
+fun integration(key: String): String = integrations.getProperty(key, publicGoogleClient.getProperty(key, publicAdUnits.getProperty(key, ""))).trim()
 val nativePlacements = listOf("day", "products", "diary", "stats", "more", "achievements", "cloud")
 fun quoted(value: String) = "\"" + value.replace("\\", "\\\\").replace("\"", "\\\"") + "\""
 android {
@@ -16,8 +17,8 @@ android {
         applicationId = "ru.dietdiary.offline"
         minSdk = 26
         targetSdk = 37
-        versionCode = 3
-        versionName = "1.1.0"
+        versionCode = 4
+        versionName = "1.1.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders["appAuthRedirectScheme"] = "ru.dietdiary.offline"
         buildConfigField("String", "GOOGLE_CLIENT_ID", quoted(integration("google.clientId")))
