@@ -146,7 +146,7 @@ class CloudSync private constructor(private val context: Context) {
             WorkManager.getInstance(context).cancelAllWorkByTag(WORK_TAG)
             vault.clear()
             session = null
-            preferences.edit().remove("lastHash").remove("lastSuccess").remove("seenFiles")
+            preferences.edit().remove("cacheAccount").remove("lastHash").remove("lastSuccess").remove("seenFiles")
                 .remove("pendingState").remove("pendingAt").commit()
             status = CloudStatus(automatic = status.automatic, message = "Аккаунт отключён. Данные остались на устройстве.")
         }

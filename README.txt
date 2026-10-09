@@ -1,7 +1,7 @@
 ДНЕВНИК ДИЕТЫ
 Калории, вес и прогресс
 
-Предварительная версия 1.1.1, versionCode 4.
+Предварительная версия 1.1.2, versionCode 5.
 Android 8.0+ (API 26), Kotlin и Jetpack Compose.
 applicationId/namespace: ru.dietdiary.offline.
 Один универсальный APK: ARM64, ARMv7, x86 и x86_64. AAB собирается из того же кода.
@@ -15,6 +15,7 @@ applicationId/namespace: ru.dietdiary.offline.
 — Графики за неделю, месяц, год и свой период; сравнение со вчерашним днём.
 — Ручные цели и дневные итоги, резервные JSON-копии, тема вслед за телефоном.
 — Девять достижений с прогрессом и датой получения, без игровых сервисов.
+— Политика конфиденциальности и управление удалением данных доступны в разделе «Ещё».
 Шаги и сон вводятся вручную. Связи с весами и часами нет.
 База продуктов справочная и редактируемая; источник — USDA FoodData Central,
 SR Legacy. Атрибуция и соответствие записей источнику: ATTRIBUTION.txt.
@@ -57,6 +58,9 @@ Debug по умолчанию не запрашивает рекламу; дем
 Проект
 Gradle Wrapper, AGP 9.3.3, Kotlin 2.4.20, compile/target SDK 37, JDK 17+.
 Основные задачи сборки: testDebugUnitTest, lintDebug, assembleRelease, bundleRelease.
+Release использует R8: сокращение кода и ресурсов, оптимизацию и обфускацию.
+Правила рекламного SDK сохранены; формат JSON задан явными ключами.
+Карта переименований включена в AAB и сохраняется отдельно для разбора ошибок.
 Ключ подписи и локальные конфигурации не входят в Git или исходный архив.
 Data.kt/SyncMerge.kt — хранение, миграция и объединение.
 CloudSync.kt/CloudVault.kt/DriveSnapshots.kt — авторизация, токены и транспорт.
@@ -65,4 +69,6 @@ Ads.kt/AdPolicy.kt/NativeAds.kt — реклама и ограничения п�
 MainActivity.kt, CatalogScreen.kt, Editors.kt, RecipeScreen.kt — дневник и еда.
 StatsMath.kt/StatsScreen.kt/Ui.kt — графики и интерфейс.
 Результаты и границы проверки: docs/verification.txt.
+Политика конфиденциальности: https://efreitor2001.github.io/kkalcal/privacy/
+Удаление данных: https://efreitor2001.github.io/kkalcal/privacy/data-deletion.html
 Публикация и модерация в магазинах не выполнялись.

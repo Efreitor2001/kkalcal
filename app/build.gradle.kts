@@ -17,8 +17,8 @@ android {
         applicationId = "ru.dietdiary.offline"
         minSdk = 26
         targetSdk = 37
-        versionCode = 4
-        versionName = "1.1.1"
+        versionCode = 5
+        versionName = "1.1.2"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders["appAuthRedirectScheme"] = "ru.dietdiary.offline"
         buildConfigField("String", "GOOGLE_CLIENT_ID", quoted(integration("google.clientId")))
@@ -46,7 +46,12 @@ android {
             }
             buildConfigField("String", "YANDEX_APP_OPEN_ID", quoted(if(demos) "demo-appopenad-yandex" else ""))
         }
-        release { isMinifyEnabled = false; if(signingFile.exists()) signingConfig=signingConfigs.getByName("localRelease") }
+        release {
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            if(signingFile.exists()) signingConfig=signingConfigs.getByName("localRelease")
+        }
     }
 }
 dependencies {

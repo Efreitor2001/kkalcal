@@ -99,6 +99,7 @@ class MainActivity:ComponentActivity() {
             when {
                 extraScreen=="cloud" -> CloudScreen(onBack={extraScreen=null})
                 extraScreen=="achievements" -> AchievementsScreen(store.data,onBack={extraScreen=null},footer={AdCard(AdPlacement.ACHIEVEMENTS)})
+                extraScreen=="privacy" -> PrivacyScreen(onBack={extraScreen=null})
                 recipe -> RecipeScreen(store,onBack={recipe=false},onSaved={recipe=false;tab=1;scope.launch{snack.showSnackbar("Блюдо сохранено в продуктах")}})
                 picker -> Column {
                     TextButton(onClick={picker=false}) { Text("‹  Назад к дню") }
@@ -108,7 +109,7 @@ class MainActivity:ComponentActivity() {
                 tab==1 -> CatalogScreen(store,onSelect={portionId=it.id},onEdit={editProductId=it.id},onNew={newProduct=true},onRecipe={recipe=true},onInputFocusChange={searchEditing=it})
                 tab==2 -> DiaryScreen(store,onEdit={logDate=it},onNew={logDate=LocalDate.now().toString()})
                 tab==3 -> StatsScreen(store)
-                else -> SettingsScreen(store,onGoals={showGoals=true},onCloud={extraScreen="cloud"},onAchievements={extraScreen="achievements"},onBusyChange={backupEditing=it},onError={error=it},onMessage={scope.launch{snack.showSnackbar(it)}})
+                else -> SettingsScreen(store,onGoals={showGoals=true},onCloud={extraScreen="cloud"},onAchievements={extraScreen="achievements"},onPrivacy={extraScreen="privacy"},onBusyChange={backupEditing=it},onError={error=it},onMessage={scope.launch{snack.showSnackbar(it)}})
             }
         }
     }
@@ -185,7 +186,7 @@ fun logSummary(l:DailyLog):String = listOfNotNull(l.weight?.let{"Вес ${number
     }
 }
 
-@Composable private fun SettingsScreen(store:AppStore,onGoals:()->Unit,onCloud:()->Unit,onAchievements:()->Unit,onBusyChange:(Boolean)->Unit,onError:(String)->Unit,onMessage:(String)->Unit) {
+@Composable private fun SettingsScreen(store:AppStore,onGoals:()->Unit,onCloud:()->Unit,onAchievements:()->Unit,onPrivacy:()->Unit,onBusyChange:(Boolean)->Unit,onError:(String)->Unit,onMessage:(String)->Unit) {
     val context=LocalContext.current;val scope=rememberCoroutineScope()
     var pendingImport by remember { mutableStateOf<String?>(null) };var busy by remember{mutableStateOf(false)}
     SideEffect { onBusyChange(busy || pendingImport!=null) }
@@ -209,6 +210,7 @@ fun logSummary(l:DailyLog):String = listOfNotNull(l.weight?.let{"Вес ${number
             if(busy)LinearProgressIndicator(Modifier.fillMaxWidth())
         }
         if(store.loadError!=null)Panel { ErrorText(store.loadError);Text("Запись заблокирована, чтобы сохранить исходный файл. Восстановите корректную резервную копию.") }
+        Panel { Text("О приложении и данных",fontWeight=FontWeight.Bold,fontSize=20.sp);Text("Как хранятся записи, работает синхронизация и удаляются данные.",color=Muted);OutlinedButton(onClick=onPrivacy,modifier=Modifier.fillMaxWidth().testTag("open_privacy")){Text("Конфиденциальность и удаление данных")} }
         Panel { Text("Работает без интернета",fontWeight=FontWeight.Bold,fontSize=20.sp);Text("Вход в Google необязателен. Шаги и сон вводятся вручную. Сеть нужна для подключённой синхронизации и загрузки рекламы. Записи дневника в рекламную сеть не передаются.",color=Muted) }
         Panel { Text("О продуктах",fontWeight=FontWeight.Bold);Text("Встроенные значения — справочные, на 100 г съедобной части. Уточняйте их по упаковке. Изменение продукта не пересчитывает старые записи питания.",color=Muted);Text("Источник базы: USDA FoodData Central, SR Legacy. У конкретных продуктов указано состояние и описание источника.",fontSize=12.sp,color=Muted) }
         Text("Дневник диеты · ${BuildConfig.VERSION_NAME}",fontSize=12.sp,color=Muted)
