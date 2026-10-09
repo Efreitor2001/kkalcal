@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Как удалить дневник, скрытые копии Google Drive и разрешение приложения «Дневник диеты».">
+<title>Удаление данных — Дневник диеты</title>
+<style>
+:root{color-scheme:light dark;--bg:#f6f5ed;--card:#fffef9;--ink:#20382d;--muted:#506357;--link:#236044}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:820px;margin:40px auto;padding:36px;background:var(--card);border-radius:24px}
+h1{font-size:clamp(1.7rem,5vw,2.25rem);line-height:1.2;margin-top:0}h2{font-size:1.25rem;margin-top:28px}p{margin:0 0 18px}li{margin-bottom:15px}
+a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid var(--link);outline-offset:4px}.note{color:var(--muted)}.action{display:inline-block;padding:10px 15px;border:1px solid var(--link);border-radius:12px;margin:4px 8px 4px 0}
+@media(max-width:600px){main{margin:0;padding:26px 20px;border-radius:0}}@media(prefers-color-scheme:dark){:root{--bg:#111d17;--card:#18291f;--ink:#eff2e8;--muted:#bbc9ba;--link:#b4d6ad}}
+</style>
+</head>
+<body><main>
+<h1>Удаление данных «Дневника диеты»</h1>
+<p class="note">Приложение ru.dietdiary.offline · Разработчик проекта Efreitor2001 · 9 октября 2026 года</p>
+<p>Эта страница помогает удалить данные приложения без его переустановки. Личный Google-аккаунт удалять не нужно. Разработчик не хранит дневник на собственном сервере: копии находятся на ваших устройствах, в вашем Google Drive и в самостоятельно сохранённых файлах.</p>
+
+<h2 id="delete">Как удалить все копии</h2>
+<ol>
+<li><strong>Остановите синхронизацию.</strong> Если приложение доступно, откройте «Ещё» → «Облачная синхронизация» и отключите аккаунт на всех своих устройствах. Если доступа к приложению нет, отзовите его разрешение через <a href="https://myaccount.google.com/connections">подключения Google-аккаунта</a>. Это прекращает разрешённый доступ, но не стирает уже сохранённые данные.</li>
+<li><strong>Удалите облачные снимки.</strong> Откройте <a href="https://drive.google.com/drive/settings">настройки Google Drive</a> под аккаунтом, который использовался в дневнике. В разделе «Управление приложениями» найдите «Дневник диеты» или название, показанное Google при подключении. В его параметрах выберите удаление скрытых данных приложения. На телефоне может потребоваться полная версия сайта; можно воспользоваться компьютером.</li>
+<li><strong>Отзовите доступ Google, если этого ещё не сделали.</strong> В <a href="https://myaccount.google.com/connections">списке подключений</a> выберите это приложение и удалите разрешение. Повторное подключение устройства с сохранившимся дневником может снова создать облачную копию.</li>
+<li><strong>Очистите устройства и экспортированные файлы.</strong> В настройках Android откройте сведения о приложении → хранилище → очистка данных, либо удалите приложение. Повторите на остальных устройствах. Отдельно удалите сохранённые JSON-копии из выбранных вами папок и облачных хранилищ.</li>
+</ol>
+
+<h2>Какие сведения удаляются</h2>
+<p>Очистка хранилища приложения удаляет локальное питание, измерения, заметки, продукты, цели, достижения, настройки и служебные метаданные. Удаление скрытых данных в Google Drive стирает облачные снимки этого приложения. Самостоятельно сохранённые JSON-файлы эти действия не затрагивают.</p>
+<p>Удаление отдельной записи внутри дневника скрывает её и синхронизирует отметку удаления. Старые значения могут оставаться в метаданных и резервных снимках. Для полной очистки всех копий используйте порядок выше. Автоматический срок удаления всех таких копий приложением не установлен.</p>
+
+<h2 id="help">Помощь и запрос об удалении</h2>
+<p>Если не удаётся удалить данные, обратитесь к разработчику через страницу проекта. Сообщите только, на каком шаге возникла проблема. GitHub Issues открыт для чтения другим людям: не прикладывайте сведения о здоровье, JSON-копии, email Google, пароли или токены. Разработчик не может войти в ваш Google Drive и выполнить удаление за вас.</p>
+<p><a class="action" href="https://github.com/Efreitor2001/kkalcal/issues/new?title=Помощь%20с%20удалением%20данных">Обратиться по вопросу удаления</a><a class="action" href="./index.html#deletion">Политика конфиденциальности</a></p>
+</main></body>
+</html>
+
