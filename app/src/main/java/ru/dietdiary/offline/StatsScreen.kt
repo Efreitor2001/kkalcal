@@ -30,6 +30,7 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -65,6 +66,10 @@ fun StatsScreen(store: AppStore) {
     var customStart by rememberSaveable { mutableStateOf(LocalDate.now().minusDays(29).toString()) }
     var customEnd by rememberSaveable { mutableStateOf(LocalDate.now().toString()) }
     var showMetrics by remember { mutableStateOf(false) }
+    if (showMetrics) DisposableEffect(Unit) {
+        DietAds.setModalOpen(true)
+        onDispose { DietAds.setModalOpen(false) }
+    }
     val metric = StatsMetric.valueOf(metricName)
     val today = LocalDate.now()
     val context = LocalContext.current
@@ -91,7 +96,7 @@ fun StatsScreen(store: AppStore) {
         DatePickerDialog(context, pickerTheme, { _, year, month, day -> onPicked(LocalDate.of(year, month + 1, day)) },
             currentDate.year, currentDate.monthValue - 1, currentDate.dayOfMonth).apply {
             datePicker.maxDate = today.atStartOfDay(ZoneId.systemDefault()).toInstant().toEpochMilli()
-        }.show()
+        }.showWithoutEntryAd()
     }
 
     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
@@ -254,6 +259,7 @@ fun StatsScreen(store: AppStore) {
                     }
                 }
             }
+            item { AdCard(AdPlacement.STATS) }
             item { Spacer(Modifier.height(16.dp)) }
         }
     }

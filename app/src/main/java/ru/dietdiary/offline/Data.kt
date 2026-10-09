@@ -13,6 +13,14 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream
 import java.time.LocalDate
+import java.security.MessageDigest
+import java.util.UUID
+import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asSharedFlow
+import kotlinx.coroutines.flow.asStateFlow
 
 data class Macros(
     val kcal: Double = 0.0,
@@ -74,6 +82,8 @@ data class AppData(
     val entries: List<Entry> = emptyList(),
     val logs: List<DailyLog> = emptyList(),
     val goals: Goals = Goals(),
+    val achievements: Map<String, String> = emptyMap(),
+    val settings: Map<String, String> = emptyMap(),
 )
 
 /**
@@ -84,8 +94,18 @@ data class AppData(
  * A corrupt saved journal is never automatically replaced. In this case the catalog is still
  * browsable, but mutations are disabled until the user imports a valid backup.
  */
-class AppStore(context: Context) {
+class AppStore(context: Context, private val wallClock: () -> Long = System::currentTimeMillis) {
     private val file = AtomicFile(File(context.filesDir, FILE_NAME))
+    private val directory = context.filesDir
+    private var syncState = SyncState(emptyMap())
+    private val revisionState = MutableStateFlow(0L)
+    val revision: StateFlow<Long> = revisionState.asStateFlow()
+    private val localRevisionState = MutableStateFlow(0L)
+    val localRevision: StateFlow<Long> = localRevisionState.asStateFlow()
+    private val achievementEventState = MutableSharedFlow<List<String>>(extraBufferCapacity = 32)
+    val achievementEvents: SharedFlow<List<String>> = achievementEventState.asSharedFlow()
+    var deviceId: String = ""
+        private set
     private var error by mutableStateOf<String?>(null)
     val loadError: String? get() = error
     val isReadOnly: Boolean get() = error != null
@@ -94,21 +114,45 @@ class AppStore(context: Context) {
         private set
 
     init {
-        val savedExists = file.baseFile.exists() || File(file.baseFile.path + ".bak").exists()
-        if (savedExists) {
-            try {
-                data = DataJson.decode(readLimited(file))
-            } catch (problem: Exception) {
-                error = "Не удалось прочитать дневник. Исходный файл сохранён. " +
-                    "Восстановите данные из резервной копии. ${problem.message.orEmpty()}"
-                data = runCatching { loadCatalog(context) }.getOrElse { AppData(emptyList()) }
+        try {
+            deviceId = loadDeviceId()
+            val catalog = loadCatalog(context)
+            val savedExists = file.baseFile.exists() || File(file.baseFile.path + ".bak").exists()
+            if (savedExists) {
+                val original = readBytesLimited(file)
+                val json = original.toString(Charsets.UTF_8)
+                val decoded = DataJson.decode(json)
+                if (JSONObject(json).getInt("version") == 1) {
+                    // Preserve the exact original bytes before migrating any stored user data.
+                    val hash = MessageDigest.getInstance("SHA-256").digest(original).take(8)
+                        .joinToString("") { "%02x".format(it.toInt() and 255) }
+                    val backup = AtomicFile(File(directory, "balance_data.v1-backup-$hash.json"))
+                    if (!backup.baseFile.exists()) atomicWrite(backup, original)
+                    else require(backup.readFully().contentEquals(original)) { "Не совпадает резервная копия миграции" }
+                    val awarded = withAchievements(decoded).first
+                    val state = SyncMerge.initial(awarded, catalog.products, deviceId, wallClock())
+                    write(awarded, state)
+                    data = awarded; syncState = state
+                } else {
+                    val document = SyncMerge.decode(json)
+                    data = document.data; syncState = document.state
+                    val awarded = withAchievements(data).first
+                    if (awarded != data) {
+                        val state = SyncMerge.change(data, awarded, syncState, deviceId, wallClock())
+                        write(awarded, state)
+                        data = awarded; syncState = state
+                    }
+                }
+            } else {
+                val state = SyncMerge.initial(catalog, catalog.products, deviceId, wallClock())
+                write(catalog, state)
+                data = catalog; syncState = state
             }
-        } else {
-            try {
-                data = loadCatalog(context)
-            } catch (problem: Exception) {
-                error = "Не удалось прочитать базу продуктов. ${problem.message.orEmpty()}"
-            }
+        } catch (problem: Exception) {
+            error = "Не удалось прочитать дневник. Исходный файл сохранён. " +
+                "Восстановите данные из резервной копии. ${problem.message.orEmpty()}"
+            data = runCatching { loadCatalog(context) }.getOrElse { AppData(emptyList()) }
+            syncState = SyncState(emptyMap())
         }
     }
 
@@ -144,6 +188,26 @@ class AppStore(context: Context) {
         commit(data.copy(logs = data.logs.replaceOrAppend({ it.date == log.date }, log).sortedBy { it.date }))
     }
 
+    /** Apply only edits made since the form opened; preserve fields merged in the meantime. */
+    @Synchronized
+    fun saveLog(log: DailyLog, baseline: DailyLog?) {
+        require(baseline == null || baseline.date == log.date) { "Изменилась дата редактируемой записи" }
+        val initial = baseline ?: DailyLog(log.date)
+        val current = data.logs.find { it.date == log.date } ?: DailyLog(log.date)
+        val edited = current.copy(
+            weight = if (log.weight != initial.weight) log.weight else current.weight,
+            waist = if (log.waist != initial.waist) log.waist else current.waist,
+            steps = if (log.steps != initial.steps) log.steps else current.steps,
+            sleep = if (log.sleep != initial.sleep) log.sleep else current.sleep,
+            note = if (log.note != initial.note) log.note else current.note,
+            bodyFat = if (log.bodyFat != initial.bodyFat) log.bodyFat else current.bodyFat,
+            training = if (log.training != initial.training) log.training else current.training,
+            calories = if (log.calories != initial.calories) log.calories else current.calories,
+            protein = if (log.protein != initial.protein) log.protein else current.protein,
+        )
+        saveLog(edited)
+    }
+
     @Synchronized
     fun deleteLog(date: String) {
         commit(data.copy(logs = data.logs.filterNot { it.date == date }))
@@ -155,47 +219,143 @@ class AppStore(context: Context) {
     }
 
     @Synchronized
+    fun saveGoals(goals: Goals, baseline: Goals) {
+        val current = data.goals
+        saveGoals(Goals(Macros(
+            kcal = if (goals.macros.kcal != baseline.macros.kcal) goals.macros.kcal else current.macros.kcal,
+            protein = if (goals.macros.protein != baseline.macros.protein) goals.macros.protein else current.macros.protein,
+            fat = if (goals.macros.fat != baseline.macros.fat) goals.macros.fat else current.macros.fat,
+            carbs = if (goals.macros.carbs != baseline.macros.carbs) goals.macros.carbs else current.macros.carbs,
+        ), if (goals.weight != baseline.weight) goals.weight else current.weight))
+    }
+
+    @Synchronized
+    fun saveSettings(settings: Map<String, String>) {
+        commit(data.copy(settings = settings.toMap()))
+    }
+
+    @Synchronized
     fun exportJson(): String {
         checkWritable()
-        return DataJson.encode(data)
+        return SyncMerge.encode(data, syncState)
+    }
+
+    @Synchronized
+    fun exportSyncJson(): String {
+        checkWritable()
+        return SyncMerge.encode(data, syncState, canonical = true)
+    }
+
+    /** A cloud snapshot is a merge input, never an unconditional replacement. */
+    fun mergeSyncJson(json: String): Boolean {
+        synchronized(this) { checkWritable() }
+        // Decode an untrusted snapshot before taking the mutation lock; local saves can proceed.
+        val incoming = decodeSync(json)
+        return synchronized(this) {
+            checkWritable()
+            var merged = SyncMerge.merge(syncState, incoming.state)
+            if (merged == syncState) return@synchronized false
+            var candidate = SyncMerge.materialize(merged)
+            val awarded = withAchievements(candidate).first
+            if (awarded != candidate) {
+                merged = SyncMerge.change(candidate, awarded, merged, deviceId, wallClock())
+                candidate = awarded
+            }
+            write(candidate, merged)
+            publish(candidate, merged)
+            true
+        }
     }
 
     /** Parses and validates the whole file before writing; a failed import cannot change data. */
     @Synchronized
     fun importJson(json: String) {
-        val candidate = DataJson.decode(json)
-        write(candidate)
-        data = candidate
+        require(deviceId.isNotBlank()) { "Повреждён локальный идентификатор устройства; восстановление заблокировано" }
+        val parsed = DataJson.decode(json)
+        // Validate v2 metadata even though manual restore deliberately replaces visible data.
+        val importedState = if (JSONObject(json).getInt("version") == 2) decodeSync(json).state else null
+        val candidate = withAchievements(parsed).first
+        // Observe backup clocks, never its device identity. Fresh stamps beat every known version.
+        val observed = if (importedState != null) SyncMerge.merge(syncState, importedState) else syncState
+        val state = SyncMerge.change(data, candidate, observed, deviceId, wallClock(), replaceAll = true)
+        write(candidate, state)
+        publish(candidate, state, local = true)
         error = null
     }
 
     private fun commit(candidate: AppData) {
         checkWritable()
         DataJson.validate(candidate)
-        write(candidate)
+        val (awarded, newlyEarned) = withAchievements(candidate)
+        val state = SyncMerge.change(data, awarded, syncState, deviceId, wallClock())
+        if (state == syncState) return
+        write(awarded, state)
+        publish(awarded, state, local = true)
+        if (newlyEarned.isNotEmpty()) achievementEventState.tryEmit(newlyEarned)
+    }
+
+    private fun withAchievements(candidate: AppData): Pair<AppData, List<String>> {
+        val added = AchievementEngine.evaluate(candidate, LocalDate.now())
+        val awarded = candidate.copy(achievements = candidate.achievements + added)
+        DataJson.validate(awarded)
+        return awarded to added.keys.toList()
+    }
+
+    private fun publish(candidate: AppData, state: SyncState, local: Boolean = false) {
+        syncState = state
         data = candidate
+        revisionState.value = revisionState.value + 1
+        if (local) localRevisionState.value = localRevisionState.value + 1
+    }
+
+    private fun decodeSync(json: String): SyncDocument = try {
+        SyncMerge.decode(json)
+    } catch (problem: IllegalArgumentException) {
+        throw problem
+    } catch (problem: Exception) {
+        throw IllegalArgumentException("Некорректные данные синхронизации", problem)
     }
 
     private fun checkWritable() {
         if (isReadOnly) throw IOException("Дневник защищён от перезаписи: восстановите резервную копию")
     }
 
-    private fun write(candidate: AppData) {
-        val bytes = DataJson.encode(candidate).toByteArray(Charsets.UTF_8)
+    private fun write(candidate: AppData, state: SyncState) {
+        DataJson.validate(candidate)
+        require(SyncMerge.equivalent(candidate, SyncMerge.materialize(state))) { "Нарушена согласованность дневника" }
+        val bytes = SyncMerge.encode(candidate, state).toByteArray(Charsets.UTF_8)
         require(bytes.size <= MAX_BACKUP_BYTES) { "Резервная копия слишком большая" }
+        atomicWrite(file, bytes)
+    }
+
+    private fun loadDeviceId(): String {
+        val identity = AtomicFile(File(directory, DEVICE_FILE_NAME))
+        if (identity.baseFile.exists() || File(identity.baseFile.path + ".bak").exists()) {
+            val value = readLimited(identity)
+            require(runCatching { UUID.fromString(value).toString() == value }.getOrDefault(false)) {
+                "Повреждён идентификатор установки"
+            }
+            return value
+        }
+        val id = UUID.randomUUID().toString()
+        atomicWrite(identity, id.toByteArray(Charsets.UTF_8))
+        return id
+    }
+
+    private fun atomicWrite(target: AtomicFile, bytes: ByteArray) {
         var stream: FileOutputStream? = null
         try {
-            stream = file.startWrite()
+            stream = target.startWrite()
             stream.write(bytes)
-            file.finishWrite(stream)
+            target.finishWrite(stream)
             stream = null
             // AtomicFile can report a failed rename only to Logcat on some Android releases.
             // Verify the committed bytes before publishing them to the UI.
-            if (!file.readFully().contentEquals(bytes)) {
+            if (!target.readFully().contentEquals(bytes)) {
                 throw IOException("Не удалось проверить сохранение дневника")
             }
         } catch (problem: Exception) {
-            if (stream != null) file.failWrite(stream)
+            if (stream != null) target.failWrite(stream)
             if (problem is IOException) throw problem
             throw IOException("Не удалось сохранить дневник", problem)
         }
@@ -203,7 +363,13 @@ class AppStore(context: Context) {
 
     companion object {
         const val FILE_NAME = "balance_data.json"
+        const val DEVICE_FILE_NAME = "dietdiary_installation_id"
         const val MAX_BACKUP_BYTES = 50 * 1024 * 1024
+        @Volatile private var instance: AppStore? = null
+
+        fun get(context: Context): AppStore = instance ?: synchronized(this) {
+            instance ?: AppStore(context.applicationContext).also { instance = it }
+        }
 
         /** Bounded reader for Storage Access Framework streams, compatible with Android 8. */
         fun readBackup(input: InputStream): String {
@@ -222,6 +388,11 @@ class AppStore(context: Context) {
         private fun readLimited(file: AtomicFile): String = file.openRead().use { input ->
             require(input.channel.size() <= MAX_BACKUP_BYTES) { "Файл дневника слишком большой" }
             readBackup(input)
+        }
+
+        private fun readBytesLimited(file: AtomicFile): ByteArray = file.openRead().use { input ->
+            require(input.channel.size() <= MAX_BACKUP_BYTES) { "Файл дневника слишком большой" }
+            input.readBytes()
         }
 
         private fun loadCatalog(context: Context): AppData {
@@ -264,7 +435,7 @@ internal object DataJson {
             "Резервная копия слишком большая"
         }
         val root = JSONObject(text)
-        require(root.integer("version") == 1) { "Неподдерживаемая версия резервной копии" }
+        require(root.integer("version") in 1..2) { "Неподдерживаемая версия резервной копии" }
         val products = root.array("products", MAX_PRODUCTS).mapObjects { item ->
             Product(
                 item.string("id"), item.string("name"), item.string("category"),
@@ -290,11 +461,19 @@ internal object DataJson {
         }
         val goal = root.getJSONObject("goals")
         val goals = Goals(readMacros(goal.getJSONObject("macros")), goal.nullableNumber("weight"))
-        AppData(products, entries, logs, goals).also(::validate)
+        fun stringMap(key: String): Map<String, String> {
+            if (!root.has(key)) return emptyMap()
+            val obj = root.getJSONObject(key)
+            require(obj.length() <= 100) { "Слишком много значений $key" }
+            return obj.keys().asSequence().associateWith { obj.string(it) }
+        }
+        AppData(products, entries, logs, goals, stringMap("achievements"), stringMap("settings")).also(::validate)
     }
 
     fun encode(data: AppData): String = JSONObject().apply {
         put("version", 1)
+        put("achievements", JSONObject(data.achievements.toSortedMap()))
+        put("settings", JSONObject(data.settings.toSortedMap()))
         put("products", JSONArray().apply {
             data.products.forEach { product ->
                 put(JSONObject().apply {
@@ -386,6 +565,20 @@ internal object DataJson {
         }
         validMacros(data.goals.macros, isGoal = true)
         data.goals.weight?.let { validNumber(it, 1.0, 500.0, "Целевой вес") }
+        require(data.achievements.size <= 100) { "Слишком много достижений" }
+        data.achievements.forEach { (id, date) ->
+            require(id.matches(Regex("[a-zA-Z0-9_]{1,100}"))) { "Некорректное достижение" }
+            validDate(date)
+        }
+        require(data.settings.keys.all { it in setOf("theme", "startTab", "weekStartsOn") }) { "Непереносимая настройка" }
+        data.settings.forEach { (key, value) ->
+            val allowed = when (key) {
+                "theme" -> setOf("system", "light", "dark")
+                "startTab" -> setOf("day", "products", "diary", "stats", "settings")
+                else -> setOf("monday", "sunday")
+            }
+            require(value in allowed) { "Некорректное значение настройки $key" }
+        }
     }
 
     private fun validMacros(macros: Macros, isGoal: Boolean = false) {
@@ -405,7 +598,7 @@ internal object DataJson {
         require(value.none { it.isISOControl() && it != '\n' && it != '\t' }) { "$label: недопустимый символ" }
     }
 
-    private fun validDate(value: String) {
+    internal fun validDate(value: String) {
         require(datePattern.matches(value)) { "Дата должна иметь формат ГГГГ-ММ-ДД" }
         try {
             LocalDate.parse(value)

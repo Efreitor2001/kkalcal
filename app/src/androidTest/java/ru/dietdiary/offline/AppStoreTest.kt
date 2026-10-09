@@ -82,7 +82,7 @@ class AppStoreTest {
         val bytes = File(filesDir, AppStore.FILE_NAME).readBytes()
         val valid = store.exportJson()
         val mutations: List<(JSONObject) -> Unit> = listOf(
-            { it.put("version", 2) },
+            { it.put("version", 3) },
             { it.getJSONArray("products").put(it.getJSONArray("products").getJSONObject(0)) },
             { it.getJSONArray("entries").put(it.getJSONArray("entries").getJSONObject(0)) },
             { it.getJSONArray("logs").put(it.getJSONArray("logs").getJSONObject(0)) },

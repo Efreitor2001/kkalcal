@@ -80,9 +80,10 @@ private fun inputNumber(value:Double):String = java.math.BigDecimal.valueOf(valu
     if(confirmDelete)DeletePrompt("Удалить продукт? Его записи в дневнике останутся.",{confirmDelete=false},{onDelete?.invoke()})
 }
 
-@Composable fun LogDialog(store:AppStore,initialDate:String,onDismiss:()->Unit,onSave:(DailyLog)->Unit,onDelete:(String)->Unit) {
+@Composable fun LogDialog(store:AppStore,initialDate:String,onDismiss:()->Unit,onSave:(DailyLog,DailyLog?)->Unit,onDelete:(String)->Unit) {
     var day by rememberSaveable{mutableStateOf(initialDate)}
-    val log=store.data.logs.find{it.date==day}
+    val baselineJson = rememberSaveable(day) { DataJson.encode(AppData(emptyList(), logs=store.data.logs.filter{it.date==day})) }
+    val log = remember(baselineJson) { DataJson.decode(baselineJson).logs.firstOrNull() }
     var weight by rememberSaveable(day){mutableStateOf(log?.weight?.let{inputNumber(it)}?:"")}
     var waist by rememberSaveable(day){mutableStateOf(log?.waist?.let{inputNumber(it)}?:"")}
     var steps by rememberSaveable(day){mutableStateOf(log?.steps?.toString()?:"")}
@@ -121,7 +122,7 @@ private fun inputNumber(value:Double):String = java.math.BigDecimal.valueOf(valu
                 }
                 val b=optional(bodyFat,0.0,100.0,"Процент жира");val k=optional(calories,0.0,100000.0,"Калории");val p=optional(protein,0.0,10000.0,"Белок")
                 require(listOf(w,t,s,sleep,b,k,p).any{it!=null}||training.isNotBlank()||note.isNotBlank()){ "Добавьте хотя бы один показатель или заметку" }
-                onSave(DailyLog(date=day,weight=w,waist=t,steps=s,sleep=sleep,note=note.trim(),bodyFat=b,training=training.trim(),calories=k,protein=p))
+                onSave(DailyLog(date=day,weight=w,waist=t,steps=s,sleep=sleep,note=note.trim(),bodyFat=b,training=training.trim(),calories=k,protein=p),log)
             }catch(e:IllegalArgumentException){error=e.message}
         })
         if(log!=null)TextButton(onClick={confirmDelete=true}){Text("Удалить день из дневника",color=MaterialTheme.colorScheme.error)}
@@ -129,7 +130,9 @@ private fun inputNumber(value:Double):String = java.math.BigDecimal.valueOf(valu
     if(confirmDelete)DeletePrompt("Удалить показатели за ${dateLabel(day)}? Питание останется.",{confirmDelete=false},{onDelete(day)})
 }
 
-@Composable fun GoalsDialog(goals:Goals,onDismiss:()->Unit,onSave:(Goals)->Unit) {
+@Composable fun GoalsDialog(goals:Goals,onDismiss:()->Unit,onSave:(Goals,Goals)->Unit) {
+    val baselineJson = rememberSaveable { DataJson.encode(AppData(emptyList(), goals=goals)) }
+    val baseline = remember(baselineJson) { DataJson.decode(baselineJson).goals }
     fun initial(n:Double)=if(n>0)inputNumber(n)else ""
     var kcal by rememberSaveable{mutableStateOf(initial(goals.macros.kcal))};var protein by rememberSaveable{mutableStateOf(initial(goals.macros.protein))};var fat by rememberSaveable{mutableStateOf(initial(goals.macros.fat))};var carbs by rememberSaveable{mutableStateOf(initial(goals.macros.carbs))};var weight by rememberSaveable{mutableStateOf(goals.weight?.let{number(it)}?:"")};var error by remember{mutableStateOf<String?>(null)}
     EditorDialog("Личные цели",onDismiss) {
@@ -144,7 +147,7 @@ private fun inputNumber(value:Double):String = java.math.BigDecimal.valueOf(valu
             val values=listOf(kcal,protein,fat,carbs).map{if(it.isBlank())0.0 else decimal(it)};val w=if(weight.isBlank())null else decimal(weight)
             if(values.any{it==null}||values[0]!! !in 0.0..10000.0||values.drop(1).any{it!! !in 0.0..1000.0})error="Проверьте цели: калории 0–10 000, БЖУ 0–1000 г"
             else if(weight.isNotBlank()&&(w==null||w !in 1.0..500.0))error="Желаемый вес: от 1 до 500 кг"
-            else onSave(Goals(Macros(values[0]!!,values[1]!!,values[2]!!,values[3]!!),w))
+            else onSave(Goals(Macros(values[0]!!,values[1]!!,values[2]!!,values[3]!!),w),baseline)
         })
     }
 }

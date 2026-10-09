@@ -99,11 +99,17 @@ fun sleepLabel(hours:Double):String { val m=(hours*60).roundToInt(); return "${m
     val context=LocalContext.current
     Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween,verticalAlignment=androidx.compose.ui.Alignment.CenterVertically) {
         if(arrows) TextButton(onClick={onDate(LocalDate.parse(date).minusDays(1).toString())},modifier=Modifier.width(40.dp),contentPadding=PaddingValues(0.dp)) { Text("‹",fontSize=24.sp) }
-        TextButton(modifier=Modifier.weight(1f),onClick={ val d=LocalDate.parse(date); DatePickerDialog(context,datePickerTheme(context),{_,y,m,day->onDate(LocalDate.of(y,m+1,day).toString())},d.year,d.monthValue-1,d.dayOfMonth).show() }) {
+        TextButton(modifier=Modifier.weight(1f),onClick={ val d=LocalDate.parse(date); DatePickerDialog(context,datePickerTheme(context),{_,y,m,day->onDate(LocalDate.of(y,m+1,day).toString())},d.year,d.monthValue-1,d.dayOfMonth).showWithoutEntryAd() }) {
             Text(if(date==LocalDate.now().toString()) "Сегодня · ${dateLabel(date)}" else dateLabel(date),fontWeight=FontWeight.SemiBold,textAlign=TextAlign.Center,maxLines=2)
         }
         if(arrows) TextButton(onClick={onDate(LocalDate.parse(date).plusDays(1).toString())},modifier=Modifier.width(40.dp),contentPadding=PaddingValues(0.dp)) { Text("›",fontSize=24.sp) }
     }
+}
+
+fun DatePickerDialog.showWithoutEntryAd() {
+    DietAds.setModalOpen(true)
+    setOnDismissListener { DietAds.setModalOpen(false) }
+    try { show() } catch (problem: Exception) { DietAds.setModalOpen(false); throw problem }
 }
 
 fun datePickerTheme(context:Context):Int =

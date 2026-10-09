@@ -10,19 +10,22 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-@Composable fun CatalogScreen(store:AppStore,onSelect:(Product)->Unit,onEdit:(Product)->Unit,onNew:()->Unit,onRecipe:()->Unit,picking:Boolean=false) {
+@Composable fun CatalogScreen(store:AppStore,onSelect:(Product)->Unit,onEdit:(Product)->Unit,onNew:()->Unit,onRecipe:()->Unit,picking:Boolean=false,onInputFocusChange:(Boolean)->Unit={}) {
+    val currentFocusCallback by rememberUpdatedState(onInputFocusChange)
+    DisposableEffect(Unit) { onDispose { currentFocusCallback(false) } }
     var query by rememberSaveable{mutableStateOf("")};var category by rememberSaveable{mutableStateOf("Все")}
     val products=store.data.products
     val filtered=products.filter{p-> (category=="Все"||category==p.category||(category=="Избранное"&&p.favorite)) && p.name.lowercase().replace('ё','е').contains(query.trim().lowercase().replace('ё','е')) }.sortedWith(compareByDescending<Product>{it.favorite}.thenBy{it.name})
     Column(Modifier.fillMaxSize().padding(horizontal=20.dp)) {
         PageTitle(if(picking)"Выберите еду" else "Продукты и блюда", "${products.size} в базе · КБЖУ на 100 г")
-        OutlinedTextField(query,{query=it},label={Text("Поиск продукта или блюда")},modifier=Modifier.fillMaxWidth().testTag("product_search"),singleLine=true,shape=RoundedCornerShape(16.dp))
+        OutlinedTextField(query,{query=it},label={Text("Поиск продукта или блюда")},modifier=Modifier.fillMaxWidth().onFocusChanged { currentFocusCallback(it.isFocused) }.testTag("product_search"),singleLine=true,shape=RoundedCornerShape(16.dp))
         Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(vertical=10.dp),horizontalArrangement=Arrangement.spacedBy(8.dp)) {
             (listOf("Все","Избранное")+products.map{it.category}.distinct().sorted()).forEach{cat->FilterChip(selected=cat==category,onClick={category=cat},label={Text(cat)})}
         }
@@ -44,6 +47,7 @@ import androidx.compose.ui.unit.sp
                     }
                 }
             }
+            if(!picking)item { AdCard(AdPlacement.PRODUCTS) }
         }
     }
 }
