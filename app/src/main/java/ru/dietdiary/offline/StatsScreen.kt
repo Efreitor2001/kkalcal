@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import android.app.DatePickerDialog
 import android.graphics.Paint

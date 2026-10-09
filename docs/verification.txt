@@ -1,10 +1,13 @@
-Баланс 1.0.0 — результаты проверки 08.10.2026
+Дневник диеты (подсчёт калорий) 1.0.1 — результаты проверки 09.10.2026
+applicationId/namespace: ru.dietdiary.offline, versionCode 2.
 
 assembleDebug / assembleRelease / lintDebug: BUILD SUCCESSFUL.
 testDebugUnitTest: 15 tests, 0 failures (StatsMathTest 11, RecipeMathTest 4).
-AndroidJUnitRunner на эмуляторе API36: OK (11 tests), 54.315 seconds.
+AndroidJUnitRunner на эмуляторе API36: OK (11 tests), 61.28 seconds.
 AppStoreTest: 7; AppFlowTest: 3; PresentationSmokeTest: 1.
 Wi-Fi и мобильные данные эмулятора были отключены.
+Первый запуск: 3 UI-теста прерваны окном «System UI isn't responding»
+эмулятора. После закрытия системного окна полный повтор прошёл без ошибок.
 
 Проверены ввод дробных граммов, КБЖУ порции, редактирование и удаление,
 неизменность истории при изменении продукта, сохранение исходной точности,
@@ -13,11 +16,19 @@ Wi-Fi и мобильные данные эмулятора были отклю�
 Скриншоты обеих палитр и графиков сделаны на искусственных данных.
 Проверен график при 320dp/fontScale1.5, подписи нижней навигации адаптированы.
 Установка подписанного release APK и переключение системной темы проверены отдельно.
+В настройках Android проверены полное название и адаптивная иконка блокнота.
+Формат JSON и логика хранения сохранены; Data.kt изменён только в строке package.
+Из-за нового applicationId перенос старого дневника выполняется через JSON.
 
-Android Lint: 0 errors, 2 warnings (новая версия Gradle; Android DataExtractionRules).
+Android Lint: 0 errors, 4 warnings: новая версия Gradle; Android DataExtractionRules;
+необязательный квалификатор v26 при minSdk26; отсутствие monochrome в v26-ресурсе.
+Для Android 13+ monochrome явно задан в варианте mipmap-anydpi-v33.
 apksigner verify: success, APK signature scheme v2.
+Ключ подписи сохранён от версии 1.0.0.
 zipalign -c -P 16 4: success.
 aapt native-code: arm64-v8a, armeabi-v7a, x86, x86_64.
 INTERNET permission отсутствует. minSdk26, targetSdk37.
+SHA-256 DietDiary-1.0.1-universal.apk:
+4e27f2ad7829551d1ca79c874849d451b2d3104a1b61d8d6bc49f874163eed67
 
 Физический телефон в проверке не участвовал.

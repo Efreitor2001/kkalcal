@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import android.app.DatePickerDialog
 import android.content.Context
@@ -72,7 +72,7 @@ fun decimal(v:String):Double? = v.trim().replace(',', '.').toDoubleOrNull()?.tak
 fun dateLabel(date:String):String = LocalDate.parse(date).format(DateTimeFormatter.ofPattern("d MMMM yyyy",Locale.forLanguageTag("ru")))
 fun sleepLabel(hours:Double):String { val m=(hours*60).roundToInt(); return "${m/60} ч ${m%60} мин" }
 
-@Composable fun BalanceTheme(darkTheme:Boolean=isSystemInDarkTheme(),content:@Composable ()->Unit) {
+@Composable fun DietDiaryTheme(darkTheme:Boolean=isSystemInDarkTheme(),content:@Composable ()->Unit) {
     MaterialTheme(colorScheme=if(darkTheme)DarkPalette else LightPalette, content=content)
 }
 @Composable fun PageTitle(title:String,subtitle:String) {

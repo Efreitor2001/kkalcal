@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import android.content.Context
 import android.content.ContextWrapper
@@ -54,7 +54,7 @@ class AppFlowTest {
         store = AppStore(context)
         assertFalse(store.isReadOnly)
         assertTrue(store.data.products.size >= 100)
-        compose.setContent { BalanceTheme { BalanceApp(store) } }
+        compose.setContent { DietDiaryTheme { DietDiaryApp(store) } }
     }
 
     @After

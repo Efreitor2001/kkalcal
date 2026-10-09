@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import java.time.LocalDate
 import kotlin.math.ceil

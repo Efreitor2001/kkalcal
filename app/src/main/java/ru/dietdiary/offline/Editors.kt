@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*

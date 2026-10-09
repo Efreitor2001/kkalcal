@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -34,11 +34,11 @@ class MainActivity:ComponentActivity() {
     override fun onCreate(savedInstanceState:Bundle?) {
         super.onCreate(savedInstanceState); enableEdgeToEdge()
         val store=AppStore(applicationContext)
-        setContent { BalanceTheme { BalanceApp(store) } }
+        setContent { DietDiaryTheme { DietDiaryApp(store) } }
     }
 }
 
-@Composable fun BalanceApp(store:AppStore) {
+@Composable fun DietDiaryApp(store:AppStore) {
     var tab by rememberSaveable { mutableIntStateOf(0) }
     var date by rememberSaveable { mutableStateOf(LocalDate.now().toString()) }
     var picker by rememberSaveable { mutableStateOf(false) }
@@ -93,7 +93,7 @@ class MainActivity:ComponentActivity() {
     val log=store.data.logs.find{it.date==date}
     val total=foodTotal.copy(kcal=log?.calories?:foodTotal.kcal,protein=log?.protein?:foodTotal.protein)
     LazyColumn(Modifier.fillMaxSize(),contentPadding=PaddingValues(20.dp),verticalArrangement=Arrangement.spacedBy(16.dp)) {
-        item { PageTitle("Баланс","Питание и самочувствие · всё под рукой") }
+        item { PageTitle("Дневник диеты","Подсчёт калорий · питание и самочувствие") }
         if(store.loadError!=null)item { Panel { ErrorText(store.loadError);Text("Восстановление копии доступно в разделе «Ещё».") } }
         item { DateControl(date,onDate) }
         item { Surface(color=Color(0xFF285849),shape=androidx.compose.foundation.shape.RoundedCornerShape(28.dp)) {
@@ -162,14 +162,14 @@ fun logSummary(l:DailyLog):String = listOfNotNull(l.weight?.let{"Вес ${number
         PageTitle("Ваш баланс","Настройки и сохранность данных")
         Panel { Text("Личные цели",fontWeight=FontWeight.Bold,fontSize=20.sp);Text("Калории, БЖУ и желаемый вес задаются вручную. Любую цель можно оставить пустой.",color=Muted);Button(onClick=onGoals,modifier=Modifier.fillMaxWidth()){Text("Настроить цели")} }
         Panel { Text("Резервная копия",fontWeight=FontWeight.Bold,fontSize=20.sp);Text("Продукты, питание, дневник и цели — в одном файле. Сохраните копию перед переустановкой приложения.",color=Muted)
-            OutlinedButton(onClick={export.launch("balance-${LocalDate.now()}.json")},enabled=!busy,modifier=Modifier.fillMaxWidth()){Text("Сохранить в файл")}
+            OutlinedButton(onClick={export.launch("diet-diary-${LocalDate.now()}.json")},enabled=!busy,modifier=Modifier.fillMaxWidth()){Text("Сохранить в файл")}
             OutlinedButton(onClick={import.launch(arrayOf("application/json","text/plain","application/octet-stream"))},enabled=!busy,modifier=Modifier.fillMaxWidth()){Text("Восстановить из файла")}
             if(busy)LinearProgressIndicator(Modifier.fillMaxWidth())
         }
         if(store.loadError!=null)Panel { ErrorText(store.loadError);Text("Запись заблокирована, чтобы сохранить исходный файл. Восстановите корректную резервную копию.") }
         Panel { Text("Работает без интернета",fontWeight=FontWeight.Bold,fontSize=20.sp);Text("Данные хранятся на этом устройстве. Нет регистрации, рекламы и сетевых запросов. Шаги и сон вводятся вручную.",color=Muted) }
         Panel { Text("О продуктах",fontWeight=FontWeight.Bold);Text("Встроенные значения — справочные, на 100 г съедобной части. Уточняйте их по упаковке. Изменение продукта не пересчитывает старые записи питания.",color=Muted);Text("Источник базы: USDA FoodData Central, SR Legacy. У конкретных продуктов указано состояние и описание источника.",fontSize=12.sp,color=Muted) }
-        Text("Баланс 1.0 · Сделано для ежедневного учёта",fontSize=12.sp,color=Muted)
+        Text("Дневник диеты (подсчёт калорий) · 1.0.1",fontSize=12.sp,color=Muted)
     }
     if(pendingImport!=null) AlertDialog(onDismissRequest={pendingImport=null},title={Text("Восстановить копию?")},text={Text("Текущие продукты, дневник и цели будут заменены содержимым файла. Сначала сохраните текущую копию, если хотите оставить оба набора данных.")},confirmButton={TextButton(onClick={try{store.importJson(pendingImport!!);pendingImport=null;onMessage("Копия восстановлена")}catch(e:Exception){pendingImport=null;onError(e.message?:"Неверный файл")}}){Text("Заменить данные")}},dismissButton={TextButton(onClick={pendingImport=null}){Text("Отмена")}})
 }

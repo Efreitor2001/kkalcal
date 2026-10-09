@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import android.content.Context
 import android.content.ContextWrapper

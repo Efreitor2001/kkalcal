@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 import android.content.Context
 import android.content.ContextWrapper
@@ -83,7 +83,7 @@ class PresentationSmokeTest {
             CompositionLocalProvider(LocalDensity provides Density(nativeDensity.density, if (compact.value) 1.5f else nativeDensity.fontScale)) {
                 Box(Modifier.fillMaxSize()) {
                     Box((if (compact.value) Modifier.width(320.dp).fillMaxHeight() else Modifier.fillMaxSize()).testTag("presentation_surface")) {
-                        BalanceTheme(darkTheme = dark.value) { BalanceApp(store) }
+                        DietDiaryTheme(darkTheme = dark.value) { DietDiaryApp(store) }
                     }
                 }
             }
@@ -96,7 +96,7 @@ class PresentationSmokeTest {
     }
 
     @Test fun capturesSyntheticDiaryAndChartsInBothPalettes() {
-        compose.onNodeWithText("Баланс").assertIsDisplayed()
+        compose.onNodeWithText("Дневник диеты").assertIsDisplayed()
         capture("home-light.png")
 
         compose.onNodeWithTag("tab_3").performClick()

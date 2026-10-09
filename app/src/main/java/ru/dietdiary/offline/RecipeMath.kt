@@ -1,4 +1,4 @@
-package ru.balance.offline
+package ru.dietdiary.offline
 
 internal data class RecipeIngredient(
     val key: String,

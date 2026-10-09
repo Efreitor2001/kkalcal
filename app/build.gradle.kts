@@ -4,14 +4,14 @@ plugins { id("com.android.application"); id("org.jetbrains.kotlin.plugin.compose
 val signingFile = rootProject.file("signing.properties")
 val signing = Properties().apply { if(signingFile.exists()) signingFile.inputStream().use { load(it) } }
 android {
-    namespace = "ru.balance.offline"
+    namespace = "ru.dietdiary.offline"
     compileSdk = 37
     defaultConfig {
-        applicationId = "ru.balance.offline"
+        applicationId = "ru.dietdiary.offline"
         minSdk = 26
         targetSdk = 37
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }

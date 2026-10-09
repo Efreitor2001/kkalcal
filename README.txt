@@ -1,11 +1,17 @@
-БАЛАНС — ANDROID-ПРИЛОЖЕНИЕ ДЛЯ ОФЛАЙН-УЧЁТА ПИТАНИЯ
+ДНЕВНИК ДИЕТЫ (ПОДСЧЁТ КАЛОРИЙ) — ОФЛАЙН-УЧЁТ ПИТАНИЯ
 
-Приложение: «Баланс», версия 1.0.0, applicationId ru.balance.offline.
+Приложение: «Дневник диеты (подсчёт калорий)», версия 1.0.1, versionCode 2.
+applicationId и namespace: ru.dietdiary.offline. Имя Gradle-проекта: DietDiary.
 Минимальная версия: Android 8.0 (API 26). Интерфейс на русском, Kotlin + Jetpack Compose.
 
 Установочный APK: https://github.com/Efreitor2001/kkalcal/releases/latest
 Один универсальный файл для ARM64, ARMv7, x86 и x86_64.
 Проверка сборки: docs/verification.txt. Примеры графиков: docs/stats-light.png и docs/stats-dark.png.
+
+Перенос из прежнего приложения «Баланс»
+Из-за смены applicationId с ru.balance.offline на ru.dietdiary.offline новая версия устанавливается как отдельное приложение. Она не может автоматически обновить прежний «Баланс», даже при том же ключе подписи.
+В старом приложении откройте «Ещё» → «Сохранить в файл» и сохраните JSON. Установите DietDiary-1.0.1-universal.apk, откройте новое приложение → «Ещё» → «Восстановить из файла», выберите JSON и подтвердите замену данных.
+Проверьте, что продукты, питание, дневник и цели перенеслись. Не удаляйте старое приложение до завершения переноса. Импорт заменяет данные нового приложения целиком, поэтому при наличии собственных записей сначала сохраните их отдельную копию.
 
 Возможности
 — Порции еды по граммам, дата и приём пищи, мгновенный расчёт КБЖУ, изменение и удаление записей.
@@ -27,7 +33,7 @@
 База: app/src/main/assets/products.json. Сухая/готовая крупа и сырые/готовые мясо и рыба разделены по названиям. Для блюда по рецепту вес готового выхода задаётся явно; масло и соусы нужно включать в ингредиенты.
 
 Сборка из исходников
-Распакуйте Balance-source.zip и откройте папку Balance в Android Studio либо выполняйте команды из корня проекта.
+Распакуйте DietDiary-1.0.1-source.zip и откройте папку DietDiary/ в Android Studio либо выполняйте команды из корня этой папки.
 Требуются JDK 17 или новее, Android SDK Platform 37 и инструменты Android SDK. JBR 21 из Android Studio подходит. Задайте JAVA_HOME на выбранный JDK; путь SDK укажите через ANDROID_HOME или local.properties (sdk.dir=...). Эти машинные пути не включены в исходный архив.
 Gradle Wrapper уже входит в проект. При первой сборке нужен интернет для загрузки Gradle, плагинов и библиотек. Установленное приложение от интернета не зависит.
 
@@ -44,10 +50,11 @@ Debug APK: app/build/outputs/apk/debug/app-debug.apk.
 Без signing.properties release собирается неподписанным: app/build/outputs/apk/release/app-release-unsigned.apk. Для установки такого APK сначала нужна подпись.
 
 Подпись и будущие обновления
-Переданный для установки файл называется Balance-1.0-universal.apk. Исходный архив намеренно не содержит закрытого ключа и паролей.
-Отдельный архив Balance-signing-backup.zip содержит резервную копию release-ключа и настроек подписи. Храните его отдельно от исходников и не публикуйте: тот же ключ нужен, чтобы будущая версия устанавливалась поверх существующей с сохранением данных.
-При восстановлении подписи поместите signing.properties в корень проекта и убедитесь, что его storeFile указывает на восстановленный файл ключа. Сборка читает четыре свойства: storeFile, storePassword, keyAlias, keyPassword. Пароли в эту инструкцию не включаются.
-Для собственного нового приложения можно использовать свой ключ и свои значения signing.properties. Для обновления уже установленного Balance-1.0-universal.apk требуется прежний ключ. Перед выпуском обновления увеличьте versionCode в app/build.gradle.kts.
+Файл для установки: DietDiary-1.0.1-universal.apk. Исходный архив намеренно не содержит закрытого ключа и паролей.
+Используется прежний ключ balance-release.jks, alias balance; настройки находятся в signing.properties. Ранее выданный Balance-signing-backup.zip остаётся действующей резервной копией этого ключа и настроек, новый ключ создавать не нужно.
+Храните архив подписи отдельно от исходников и не публикуйте. При восстановлении поместите signing.properties в корень проекта и убедитесь, что его storeFile указывает на восстановленный balance-release.jks. Сборка читает четыре свойства: storeFile, storePassword, keyAlias, keyPassword. Пароли в эту инструкцию не включаются.
+Для обновления установленного приложения ru.dietdiary.offline сохраняйте этот applicationId и прежний ключ подписи, увеличивайте versionCode в app/build.gradle.kts. Одинаковая подпись не превращает версию с другим applicationId в обновление: данные старого ru.balance.offline переносятся через JSON, как описано выше.
+Для отдельного собственного приложения можно использовать другой applicationId и собственный ключ.
 
 Проверки проекта
 Локальные тесты:
@@ -60,11 +67,11 @@ Debug APK: app/build/outputs/apk/debug/app-debug.apk.
 «Ещё» → «Сохранить в файл» сохраняет продукты, порции, показатели и цели. «Восстановить из файла» заменяет их целиком после подтверждения. Данные не объединяются. Перед переустановкой/очисткой приложения или заменой дневника сохраните JSON. Резервная копия пользовательских данных и архив ключа подписи — разные файлы с разным назначением.
 
 Основные файлы
-app/src/main/java/ru/balance/offline/Data.kt — модели, валидация, JSON и атомарная запись.
-app/src/main/java/ru/balance/offline/MainActivity.kt — навигация, день, дневник и настройки.
-app/src/main/java/ru/balance/offline/CatalogScreen.kt — поиск и каталог.
-app/src/main/java/ru/balance/offline/Editors.kt — формы порций, продуктов, показателей и целей.
-app/src/main/java/ru/balance/offline/RecipeScreen.kt — ингредиенты и расчёт блюда.
-app/src/main/java/ru/balance/offline/StatsMath.kt и StatsScreen.kt — агрегация и графики.
-app/src/main/java/ru/balance/offline/Ui.kt — тема и общие элементы.
-app/src/androidTest — проверки хранения и пользовательских сценариев.
+app/src/main/java/ru/dietdiary/offline/Data.kt — модели, валидация, JSON и атомарная запись.
+app/src/main/java/ru/dietdiary/offline/MainActivity.kt — навигация, день, дневник и настройки.
+app/src/main/java/ru/dietdiary/offline/CatalogScreen.kt — поиск и каталог.
+app/src/main/java/ru/dietdiary/offline/Editors.kt — формы порций, продуктов, показателей и целей.
+app/src/main/java/ru/dietdiary/offline/RecipeScreen.kt — ингредиенты и расчёт блюда.
+app/src/main/java/ru/dietdiary/offline/StatsMath.kt и StatsScreen.kt — агрегация и графики.
+app/src/main/java/ru/dietdiary/offline/Ui.kt — тема и общие элементы.
+app/src/androidTest/java/ru/dietdiary/offline/ — проверки хранения и пользовательских сценариев.
