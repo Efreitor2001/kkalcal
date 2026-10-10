@@ -9,14 +9,27 @@
 :root{color-scheme:light dark;--bg:#f6f5ed;--card:#fffef9;--ink:#20382d;--muted:#506357;--link:#236044}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:820px;margin:40px auto;padding:36px;background:var(--card);border-radius:24px}
 h1{font-size:clamp(1.7rem,5vw,2.25rem);line-height:1.2;margin-top:0}h2{font-size:1.25rem;margin-top:28px}p{margin:0 0 18px}li{margin-bottom:15px}
-a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid var(--link);outline-offset:4px}.note{color:var(--muted)}.action{display:inline-block;padding:10px 15px;border:1px solid var(--link);border-radius:12px;margin:4px 8px 4px 0}
+a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid var(--link);outline-offset:4px}.note{color:var(--muted)}.action{display:inline-block;padding:10px 15px;border:1px solid var(--link);border-radius:12px;margin:4px 8px 4px 0}.overview{border:1px solid var(--muted);padding:22px;border-radius:18px;margin:24px 0}.overview h2{margin-top:0}.overview p:last-child{margin-bottom:0}code{overflow-wrap:anywhere}
 @media(max-width:600px){main{margin:0;padding:26px 20px;border-radius:0}}@media(prefers-color-scheme:dark){:root{--bg:#111d17;--card:#18291f;--ink:#eff2e8;--muted:#bbc9ba;--link:#b4d6ad}}
 </style>
 </head>
 <body><main>
-<h1>Удаление данных «Дневника диеты»</h1>
-<p class="note">Приложение ru.dietdiary.offline · Разработчик проекта Efreitor2001 · 9 октября 2026 года</p>
+<p><a href="../">← Дневник диеты — о приложении</a> · <a href="./index.html">Политика конфиденциальности</a></p>
+<h1>«Дневник диеты»: удаление данных</h1>
+<p class="note">Приложение <code>ru.dietdiary.offline</code> · Разработчик Efreitor2001 · 10 октября 2026 года · 10.10.2026</p>
+<p>Контакт по вопросам удаления: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>.</p>
 <p>Эта страница помогает удалить данные приложения без его переустановки. Личный Google-аккаунт удалять не нужно. Разработчик не хранит дневник на собственном сервере: копии находятся на ваших устройствах, в вашем Google Drive и в самостоятельно сохранённых файлах.</p>
+<section class="overview" lang="en" aria-labelledby="english">
+<h2 id="english">Delete Diet Diary data</h2>
+<p>This page applies to <strong>“Дневник диеты” (Diet Diary)</strong> by <strong>Efreitor2001</strong>. No app login or reinstall is needed to read these instructions. Your Google account itself does not need to be deleted.</p>
+<ol>
+<li>Disconnect Google in the app on every device. If you cannot open the app, first revoke its permission in <a href="https://myaccount.google.com/connections">Google Account connections</a>.</li>
+<li>Open <a href="https://drive.google.com/drive/settings">Google Drive settings</a> for the connected account. Under <strong>Manage apps</strong>, find “Дневник диеты” (or the name shown at sign-in), then choose <strong>Options → Delete hidden app data</strong>. Use a desktop browser or desktop site mode if needed.</li>
+<li>Revoke the app’s Google permission if you have not done so. Revocation alone does not delete stored snapshots.</li>
+<li>Clear the app’s storage in Android settings or uninstall it on every device. Delete any JSON files you exported separately.</li>
+</ol>
+<p>Disconnecting keeps diary copies. Deleting a single entry may leave earlier values in synchronization metadata or older snapshots; the steps above remove those app copies as well. Reconnecting a device that still holds entries can upload them again. For help, or to request deletion of information you sent to support, email <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Never send Google passwords or tokens.</p>
+</section>
 
 <h2 id="delete">Как удалить все копии</h2>
 <ol>
@@ -27,11 +40,12 @@ a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}a:focus-vis
 </ol>
 
 <h2>Какие сведения удаляются</h2>
-<p>Очистка хранилища приложения удаляет локальное питание, измерения, заметки, продукты, цели, достижения, настройки и служебные метаданные. Удаление скрытых данных в Google Drive стирает облачные снимки этого приложения. Самостоятельно сохранённые JSON-файлы эти действия не затрагивают.</p>
+<p>Очистка хранилища приложения удаляет локальное питание, измерения, заметки, продукты, цели, достижения, настройки, служебные метаданные, внутренние резервные копии и сохранённый сеанс Google с токенами. Удаление скрытых данных в Google Drive удаляет облачные снимки этого приложения. Самостоятельно сохранённые JSON-файлы эти действия не затрагивают.</p>
 <p>Удаление отдельной записи внутри дневника скрывает её и синхронизирует отметку удаления. Старые значения могут оставаться в метаданных и резервных снимках. Для полной очистки всех копий используйте порядок выше. Автоматический срок удаления всех таких копий приложением не установлен.</p>
 
 <h2 id="help">Помощь и запрос об удалении</h2>
-<p>Если не удаётся удалить данные, обратитесь к разработчику через страницу проекта. Сообщите только, на каком шаге возникла проблема. GitHub Issues открыт для чтения другим людям: не прикладывайте сведения о здоровье, JSON-копии, email Google, пароли или токены. Разработчик не может войти в ваш Google Drive и выполнить удаление за вас.</p>
-<p><a class="action" href="https://github.com/Efreitor2001/kkalcal/issues/new?title=Помощь%20с%20удалением%20данных">Обратиться по вопросу удаления</a><a class="action" href="./index.html#deletion">Политика конфиденциальности</a></p>
+<p>Если не удаётся удалить данные, напишите разработчику Efreitor2001 на <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Укажите приложение «Дневник диеты» и шаг, на котором возникла проблема. По этому же адресу можно запросить удаление информации, которую вы ранее отправили в поддержку. Пароли, токены и полная JSON-копия дневника для обращения не нужны.</p>
+<p>Разработчик не имеет административного доступа к вашим устройствам и Google Drive и не может выполнить удаление этих копий за вас. Управление данными Яндекса и сведения о почтовых обращениях описаны в <a href="./index.html">полной политике конфиденциальности</a>. Удаление дневника не удаляет автоматически данные, которые сторонние сервисы обрабатывают самостоятельно.</p>
+<p><a class="action" href="mailto:pokimoha.123@gmail.com?subject=Удаление%20данных%20—%20Дневник%20диеты">Написать по вопросу удаления</a><a class="action" href="./index.html#deletion">Политика конфиденциальности</a></p>
 </main></body>
 </html>

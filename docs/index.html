@@ -1,7 +1,80 @@
 <!doctype html>
-<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Дневник диеты — Android-приложение для подсчёта калорий и БЖУ, питания, веса, талии, шагов и сна. Работает офлайн; синхронизация с Google Drive подключается по желанию.">
+<meta name="theme-color" content="#285849">
 <title>Дневник диеты</title>
-<style>body{max-width:700px;margin:10vh auto;padding:30px;font:18px/1.6 system-ui;background:#f7f7f0;color:#1e3027}h1{line-height:1.2}a{color:#285849}li{margin:12px 0}</style>
-<h1>Дневник диеты</h1><p>Калории, вес и прогресс. Приложение для Android.</p>
-<ul><li><a href="privacy/">Политика конфиденциальности</a></li><li><a href="privacy/data-deletion.html">Удаление данных и отключение Google</a></li><li><a href="https://github.com/Efreitor2001/kkalcal/releases">Выпуски приложения</a></li><li><a href="https://github.com/Efreitor2001/kkalcal/issues">Связаться с разработчиком</a></li></ul>
+<link rel="canonical" href="https://efreitor2001.github.io/kkalcal/">
+<link rel="icon" type="image/png" href="assets/app-icon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+<header class="header wrap">
+  <a class="brand" href="./" aria-label="Дневник диеты — главная"><img src="assets/app-icon.png" width="48" height="48" alt=""><span>Дневник диеты</span></a>
+  <nav aria-label="Навигация"><a href="#features">Возможности</a><a href="#google">Google Drive</a><a href="https://efreitor2001.github.io/kkalcal/privacy/">Конфиденциальность</a><a href="#english" lang="en">English</a></nav>
+</header>
+<main id="main" class="wrap">
+  <section class="hero" aria-labelledby="app-name">
+    <div>
+      <p class="eyebrow">Питание · Измерения · Прогресс</p>
+      <h1 id="app-name">Дневник диеты</h1>
+      <p class="lead">Считайте калории и БЖУ, записывайте вес и наблюдайте за своими привычками в одном дневнике.</p>
+      <p>Приложение для Android 8.0 и новее. Выберите продукт или готовое блюдо, введите массу в граммах — порция и её пищевая ценность появятся в дневнике выбранного дня.</p>
+      <div class="actions"><a class="button" href="https://github.com/Efreitor2001/kkalcal/releases/latest">Скачать приложение</a><a class="button secondary" href="#features">Посмотреть возможности</a></div>
+      <p class="small">Расчёты и записи работают без интернета и регистрации. Синхронизация через Google Drive подключается по желанию. Приложение содержит рекламу.</p>
+    </div>
+    <figure class="hero-screen"><img src="assets/food-diary.png" width="1080" height="1920" alt="Экран приложения: калории и БЖУ за день, список съеденных порций"><figcaption>Реальный экран · демонстрационные данные</figcaption></figure>
+  </section>
+
+  <section id="features" class="section" aria-labelledby="features-title">
+    <p class="eyebrow">Каждый день — в своём ритме</p>
+    <h2 id="features-title">От порции еды до понятного графика</h2>
+    <div class="cards">
+      <article class="card"><span class="number">01</span><h3>Питание и блюда</h3><p>Встроенная база продуктов, редактирование значений на 100 г, собственные продукты и готовые блюда. Можно собрать рецепт из ингредиентов и указать вес после приготовления.</p><p>Порции сохраняются по датам и приёмам пищи. Записи можно исправлять и удалять.</p></article>
+      <article class="card"><span class="number">02</span><h3>Личные измерения</h3><p>Вес, талия, процент жира, шаги, сон, силовая тренировка и заметка. Все показатели необязательны: достаточно записать то, что важно сегодня.</p><p>Шаги, сон и измерения вводятся вручную. Подключения к часам, весам и Health Connect нет.</p></article>
+      <article class="card"><span class="number">03</span><h3>История и цели</h3><p>Цели по калориям, БЖУ и весу, графики за неделю, месяц, год или свой период, сравнение со вчерашним днём и достижения за ведение дневника.</p><p>Светлая и тёмная темы следуют настройкам телефона.</p></article>
+    </div>
+    <div class="showcase">
+      <figure><img src="assets/weight-chart.png" width="1080" height="1920" loading="lazy" alt="График веса за месяц с историей измерений"><figcaption>История измерений на графике</figcaption></figure>
+      <div><h3>Ваши записи остаются под вашим контролем</h3><p>Основной дневник хранится на устройстве. Его можно сохранить в JSON-файл и восстановить из выбранной резервной копии.</p><p>Не нужно заполнять все поля или подключать аккаунт, чтобы начать. Значения продуктов справочные — уточняйте их по упаковке, а цели задавайте самостоятельно.</p><a href="privacy/data-deletion.html">Как управлять данными и удалить копии →</a></div>
+      <figure><img src="assets/measurements.png" width="1080" height="1920" loading="lazy" alt="Дневник веса, сна, шагов и других необязательных показателей"><figcaption>Только нужные вам показатели</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="google" class="section cloud" aria-labelledby="google-title">
+    <p class="eyebrow">Необязательная функция</p>
+    <h2 id="google-title">Для чего приложению доступ к Google</h2>
+    <p class="lead">Google Drive нужен для сохранения копий дневника и объединения записей на ваших устройствах.</p>
+    <ol class="steps"><li>В приложении откройте «Ещё» → «Облачная синхронизация» и выберите подключение Google.</li><li>В браузере Google выберите аккаунт и подтвердите запрошенные разрешения. Пароль вводится на стороне Google.</li><li>Приложение сохраняет и читает собственные JSON-снимки в скрытом хранилище этого приложения на вашем Диске. Автосинхронизацию можно выключить.</li></ol>
+    <div class="permissions">
+      <article><h3>Выбранный аккаунт</h3><p>Разрешения <code>openid</code> и <code>email</code> позволяют определить Google-аккаунт и показать его адрес в настройках подключения.</p></article>
+      <article><h3>Только данные дневника</h3><p>Разрешение <code>https://www.googleapis.com/auth/drive.appdata</code> даёт доступ к собственному хранилищу приложения. Оно не открывает обычные документы и фотографии на вашем Google Drive.</p></article>
+    </div>
+    <p>Синхронизируются продукты, питание, измерения, заметки, цели, достижения и служебные метаданные изменений. Содержимое дневника и полученные от Google данные не используются приложением для рекламного таргетинга, продажи данных или обучения ИИ. Приложение не создаёт изображения и не предоставляет функции генеративного ИИ.</p>
+    <p>При отключении аккаунта локальный дневник и облачные копии сохраняются. Для полного удаления предусмотрена отдельная <a href="privacy/data-deletion.html">инструкция по очистке данных</a>.</p>
+    <p><a href="https://efreitor2001.github.io/kkalcal/privacy/">Политика конфиденциальности: доступ, использование, хранение и передача данных →</a></p>
+  </section>
+
+  <section id="english" class="section english" lang="en" aria-labelledby="english-title">
+    <p class="eyebrow">About the app</p>
+    <h2 id="english-title"><span lang="ru">Дневник диеты</span> — Diet Diary</h2>
+    <p><strong>Дневник диеты</strong> is an Android calorie and macronutrient diary developed by Efreitor2001. Users enter food portions in grams, calculate recipes, record optional weight, waist, steps, sleep and workout information, and view their history and charts. Core features work offline without an account.</p>
+    <p>Optional Google sign-in and Google Drive synchronization use <code>openid</code>, <code>email</code> and <code>https://www.googleapis.com/auth/drive.appdata</code>. The app receives the selected account’s email address and identifier, and reads and writes its own diary snapshots in that account’s hidden app-data folder. It cannot access unrelated Drive documents or photos.</p>
+    <p>Google user data is used only for account connection and diary synchronization. It is not sold, used for advertising, or used to train AI or machine-learning models. The app has no image generation or generative AI features. There is no developer-operated server that receives diary contents.</p>
+    <p>The Android app contains Yandex advertisements. Advertising requests are separate from Google account and diary data. This informational website is public and requires no sign-in.</p>
+    <p><a href="https://efreitor2001.github.io/kkalcal/privacy/#english">Privacy policy and Google data use</a> · <a href="privacy/data-deletion.html">Data deletion</a> · <a href="mailto:pokimoha.123@gmail.com">Contact the developer</a></p>
+  </section>
+
+  <section id="contact" class="section contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">О приложении и поддержке</h2>
+    <p>Разработчик: <strong>Efreitor2001</strong>. Название приложения: <strong>Дневник диеты</strong>. Пакет Android: <code>ru.dietdiary.offline</code>.</p>
+    <p>По вопросам приложения, Google-подключения или удаления данных: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Ошибку также можно описать в <a href="https://github.com/Efreitor2001/kkalcal/issues">репозитории проекта</a>. Не прикладывайте пароли, токены и личный дневник.</p>
+    <p class="small">Приложение не является медицинским изделием. Оно не диагностирует, не лечит, не излечивает и не предотвращает заболевания. За медицинскими рекомендациями, диагностикой и лечением обращайтесь к квалифицированному врачу.</p>
+  </section>
+</main>
+<footer class="wrap footer"><span>Дневник диеты · Efreitor2001</span><a href="https://efreitor2001.github.io/kkalcal/privacy/">Конфиденциальность</a><a href="privacy/data-deletion.html">Удаление данных</a><a href="https://github.com/Efreitor2001/kkalcal">Исходный код</a></footer>
+</body>
 </html>
