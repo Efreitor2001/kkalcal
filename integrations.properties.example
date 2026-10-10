@@ -1,2 +1,37 @@
+# Shared Google OAuth client for every store. Omit this override to use google-client.properties.
 google.clientId=
+# Debug defaults to empty ad IDs for every store; true uses Yandex demo IDs only.
+# This build-type setting overrides all store-specific production ad settings below.
 ads.debugDemo=false
+
+# Optional local production overrides: uncomment only the store/placement to change.
+# Keys are case-sensitive. Blank, malformed, cross-store and duplicate IDs fail the build.
+# Legacy yandex.native.* / yandex.appOpenId keys are rejected, never shared across stores.
+# Native slots 8..10 remain unused; Huawei appOpenId uses slot 8.
+
+# yandex.googlePlay.native.day=R-M-20211635-1
+# yandex.googlePlay.native.products=R-M-20211635-2
+# yandex.googlePlay.native.diary=R-M-20211635-3
+# yandex.googlePlay.native.stats=R-M-20211635-4
+# yandex.googlePlay.native.more=R-M-20211635-5
+# yandex.googlePlay.native.achievements=R-M-20211635-6
+# yandex.googlePlay.native.cloud=R-M-20211635-7
+# yandex.googlePlay.appOpenId=R-M-20211635-11
+
+# yandex.rustore.native.day=R-M-20211679-1
+# yandex.rustore.native.products=R-M-20211679-2
+# yandex.rustore.native.diary=R-M-20211679-3
+# yandex.rustore.native.stats=R-M-20211679-4
+# yandex.rustore.native.more=R-M-20211679-5
+# yandex.rustore.native.achievements=R-M-20211679-6
+# yandex.rustore.native.cloud=R-M-20211679-7
+# yandex.rustore.appOpenId=R-M-20211679-11
+
+# yandex.huawei.native.day=R-M-20207601-1
+# yandex.huawei.native.products=R-M-20207601-2
+# yandex.huawei.native.diary=R-M-20207601-3
+# yandex.huawei.native.stats=R-M-20207601-4
+# yandex.huawei.native.more=R-M-20207601-5
+# yandex.huawei.native.achievements=R-M-20207601-6
+# yandex.huawei.native.cloud=R-M-20207601-7
+# yandex.huawei.appOpenId=R-M-20207601-8

@@ -1,10 +1,11 @@
 ДНЕВНИК ДИЕТЫ
 Калории, вес и прогресс
 
-Версия 1.1.2, versionCode 5.
+Версия 1.1.4, versionCode 7.
 Android 8.0+ (API 26), Kotlin и Jetpack Compose.
 applicationId/namespace: ru.dietdiary.offline.
-Один универсальный APK: ARM64, ARMv7, x86 и x86_64. AAB собирается из того же кода.
+Сборки Google Play, RuStore и Huawei AppGallery с одним пакетом и ключом подписи.
+Каждый APK универсальный: ARM64, ARMv7, x86 и x86_64. Для Google Play есть AAB.
 Выпуски: https://github.com/Efreitor2001/kkalcal/releases
 
 Возможности
@@ -25,16 +26,19 @@ SR Legacy. Атрибуция и соответствие записей ист�
 Реализованы необязательный браузерный OAuth с PKCE, Google Drive appDataFolder,
 WorkManager, объединение записей по ID и отдельных полей дня, отметки удалений.
 Первое подключение объединяет дневники. Токены защищены Android Keystore.
-В этом предварительном выпуске задан публичный Android OAuth Client ID проекта kkalcal.
+Задан публичный Android OAuth Client ID проекта kkalcal.
 Дневник и ручные копии работают без аккаунта.
-Живой вход, refresh token и обмен через Google на двух устройствах ещё не проверены.
+Работу входа и синхронизации через Google подтвердил владелец приложения.
 Собственного сервера, Firebase, платных баз и покупок нет.
 
 Реклама
 Yandex Mobile Ads SDK 8.5.0. Семь нативных карточек в конце прокручиваемых страниц:
 День, Продукты, Дневник, Графики, Ещё, Достижения, Облачная синхронизация.
-Публичные блоки R-M-20207601-1…7 и App Open R-M-20207601-8 заданы владельцем
-в ad-units.properties и общие для всех магазинов.
+Блоки заданы владельцем в ad-units.properties отдельно для каждого магазина:
+Google Play — R-M-20211635-1…7, App Open R-M-20211635-11;
+RuStore — R-M-20211679-1…7, App Open R-M-20211679-11;
+Huawei AppGallery — R-M-20207601-1…7, App Open R-M-20207601-8.
+Нативные блоки 8…10 у Google Play и RuStore пока не используются.
 App Open — не чаще одного фактического показа в час. SDK и загрузка делят окно
 до пяти секунд на экране открытия с возможностью пропуска. Первый запуск без рекламы.
 После ошибки, пропуска или тайм-аута поздняя загрузка не вызывает показ поверх дневника.
@@ -57,7 +61,9 @@ Debug по умолчанию не запрашивает рекламу; дем
 
 Проект
 Gradle Wrapper, AGP 9.3.3, Kotlin 2.4.20, compile/target SDK 37, JDK 17+.
-Основные задачи сборки: testDebugUnitTest, lintDebug, assembleRelease, bundleRelease.
+Варианты: googlePlay, rustore, huawei. Проверки: testGooglePlayDebugUnitTest,
+lintGooglePlayRelease. APK: assembleGooglePlayRelease, assembleRustoreRelease,
+assembleHuaweiRelease; AAB: bundleGooglePlayRelease.
 Release использует R8: сокращение кода и ресурсов, оптимизацию и обфускацию.
 Правила рекламного SDK сохранены; формат JSON задан явными ключами.
 Карта переименований включена в AAB и сохраняется отдельно для разбора ошибок.
@@ -68,7 +74,7 @@ Achievements.kt/AchievementsScreen.kt — достижения.
 Ads.kt/AdPolicy.kt/NativeAds.kt — реклама и ограничения показа.
 MainActivity.kt, CatalogScreen.kt, Editors.kt, RecipeScreen.kt — дневник и еда.
 StatsMath.kt/StatsScreen.kt/Ui.kt — графики и интерфейс.
-Результаты и границы проверки: docs/verification.txt.
+Исторический отчёт о проверке версии 1.1.2: docs/verification.txt.
 Политика конфиденциальности: https://efreitor2001.github.io/kkalcal/privacy/
 Удаление данных: https://efreitor2001.github.io/kkalcal/privacy/data-deletion.html
 Публикация и модерация в магазинах не выполнялись.
