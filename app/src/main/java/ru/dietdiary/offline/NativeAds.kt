@@ -5,6 +5,11 @@ import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.Typeface
 import android.graphics.drawable.GradientDrawable
+import android.net.ConnectivityManager
+import android.net.Network
+import android.net.NetworkCapabilities
+import android.os.Handler
+import android.os.Looper
 import android.os.SystemClock
 import android.util.Log
 import android.view.Gravity
@@ -58,17 +63,19 @@ enum class AdPlacement {
     }
 }
 
-/** One native card at the end of the page. Its empty host measures zero until binding succeeds. */
+/** One card at the page end. The one-dp empty host stays measurable in a lazy list. */
 @Composable
 fun AdCard(placement: AdPlacement, modifier: Modifier = Modifier) {
-    val id = configuredAdId(placement.unitId) ?: return
+    val testing = NativeAdsTestHooks.configuration
+    val id = if (testing != null) "test-" + placement.name else configuredAdId(placement.unitId) ?: return
     val activity = LocalContext.current.adActivity() ?: return
+    if (activity.isDestroyed || activity.isFinishing || activity !is LifecycleOwner) return
     val colors = MaterialTheme.colorScheme
     val palette = NativePalette(colors.surfaceContainerLow.toArgb(), colors.onSurface.toArgb(),
         colors.onSurfaceVariant.toArgb(), colors.primary.toArgb(), colors.onPrimary.toArgb(), colors.outlineVariant.toArgb())
-    key(activity, id) {
+    key(activity, placement, id) {
         AndroidView(
-            factory = { NativeAdHost(activity, id, palette) },
+            factory = { NativeAdHost(activity, placement, NativeAdSessions.create(activity, id), palette) },
             update = { it.updatePalette(palette) },
             modifier = modifier.fillMaxWidth(),
             onReset = null,
@@ -77,185 +84,430 @@ fun AdCard(placement: AdPlacement, modifier: Modifier = Modifier) {
     }
 }
 
-private data class NativePalette(val surface: Int, val text: Int, val muted: Int,
+internal data class NativePalette(val surface: Int, val text: Int, val muted: Int,
     val action: Int, val onAction: Int, val outline: Int)
 
-/** All SDK work is on main. A stopped/recycled screen cannot accept an old load callback. */
-private class NativeAdHost(
+internal interface NativeAdCreative {
+    /** Called once in the owning host; later navigation requests a new creative. */
+    fun bind(activity: Activity, width: Int, palette: NativePalette, onClicked: () -> Unit, onImpression: () -> Unit): View?
+    fun updatePalette(palette: NativePalette)
+    fun dispose()
+}
+
+internal interface NativeAdTransport {
+    fun whenReady(context: Context, callback: () -> Unit): () -> Unit
+    fun load(activity: Activity, unitId: String, onLoaded: (NativeAdCreative) -> Unit, onFailed: (Int) -> Unit): () -> Unit
+}
+
+internal interface NativeAdScheduler {
+    fun nowMillis(): Long
+    fun schedule(delayMillis: Long, action: () -> Unit): () -> Unit
+}
+
+internal const val NATIVE_AD_LOAD_TIMEOUT_MILLIS = 20_000L
+
+/** Instrumentation replaces transport/time only, keeping the real host, session and lifecycle. */
+internal object NativeAdsTestHooks {
+    internal data class Configuration(val transport: NativeAdTransport, val scheduler: NativeAdScheduler)
+    internal var configuration: Configuration? = null
+        private set
+
+    fun install(transport: NativeAdTransport, scheduler: NativeAdScheduler): AutoCloseable {
+        check(BuildConfig.DEBUG && Looper.myLooper() == Looper.getMainLooper())
+        NativeAdSessions.clear()
+        NativeRequestPace.clear()
+        val installed = Configuration(transport, scheduler)
+        configuration = installed
+        return AutoCloseable {
+            check(Looper.myLooper() == Looper.getMainLooper())
+            if (configuration === installed) {
+                NativeAdSessions.clear()
+                NativeRequestPace.clear()
+                configuration = null
+            }
+        }
+    }
+
+    fun networkChanged(available: Boolean) {
+        check(configuration != null && Looper.myLooper() == Looper.getMainLooper())
+        NativeAdSessions.networkChanged(available)
+    }
+}
+
+private object NativeScheduler : NativeAdScheduler {
+    private val handler = Handler(Looper.getMainLooper())
+    override fun nowMillis() = SystemClock.elapsedRealtime()
+    override fun schedule(delayMillis: Long, action: () -> Unit): () -> Unit {
+        val task = Runnable(action)
+        handler.postDelayed(task, delayMillis)
+        return { handler.removeCallbacks(task); Unit }
+    }
+}
+
+private object SdkNativeTransport : NativeAdTransport {
+    override fun whenReady(context: Context, callback: () -> Unit) = AdSdk.whenReady(context, callback)
+    override fun load(activity: Activity, unitId: String, onLoaded: (NativeAdCreative) -> Unit, onFailed: (Int) -> Unit): () -> Unit {
+        YandexAds.adVolumeController.setMuted(true)
+        val loader = NativeAdLoader(activity)
+        loader.loadAd(AdRequest.Builder(unitId).build(),
+            NativeAdOptions.Builder().setShouldLoadImagesAutomatically(true).build(),
+            object : NativeAdLoadListener {
+                override fun onAdLoaded(nativeAd: NativeAd) = onAdMain { onLoaded(SdkNativeCreative(nativeAd, loader)) }
+                override fun onAdFailedToLoad(error: AdRequestError) = onAdMain { onFailed(error.code) }
+            })
+        return { adSafely("cancel native load") { loader.cancelLoading() }; Unit }
+    }
+}
+
+/** Keep the loader and bound card alive only for the host that requested this creative. */
+private class SdkNativeCreative(private val ad: NativeAd, private val loader: NativeAdLoader) : NativeAdCreative {
+    private var card: NativeCard? = null
+    override fun bind(activity: Activity, width: Int, palette: NativePalette, onClicked: () -> Unit, onImpression: () -> Unit): View? {
+        check(card == null)
+        val next = NativeCard(activity, ad.adAssets, palette)
+        if (next.hasVideo && width - activity.nativeDp(20) < activity.nativeDp(300)) {
+            Log.i("DietDiaryAds", "Native video needs wider container")
+            return null
+        }
+        if (ad.bindNativeAd(next.binder) !is AdBindingResult.Success) {
+            Log.i("DietDiaryAds", "Native binding unavailable")
+            return null
+        }
+        ad.setNativeAdEventListener(object : NativeAdEventListener {
+            override fun onAdClicked() = onAdMain(onClicked)
+            override fun onImpression(data: ImpressionData?) = onAdMain(onImpression)
+        })
+        card = next
+        return next.view
+    }
+    override fun updatePalette(palette: NativePalette) { card?.applyPalette(palette) }
+    override fun dispose() {
+        adSafely("release native listener") { ad.setNativeAdEventListener(null) }
+        adSafely("release native loader") { loader.cancelLoading() }
+        card?.view?.let { (it.parent as? ViewGroup)?.removeView(it) }
+        card = null
+    }
+}
+
+/** Track only live hosts for test cleanup; no creative survives a host's final release. */
+private object NativeAdSessions {
+    private val sessions = mutableSetOf<NativeAdSession>()
+    fun create(activity: Activity, unitId: String): NativeAdSession {
+        val testing = NativeAdsTestHooks.configuration
+        return NativeAdSession(activity, unitId, testing?.transport ?: SdkNativeTransport,
+            testing?.scheduler ?: NativeScheduler, if (testing != null) true else null,
+            { sessions.remove(it) }).also { sessions.add(it) }
+    }
+    fun networkChanged(available: Boolean) { sessions.toList().forEach { it.networkChanged(available) } }
+    fun clear() {
+        val old = sessions.toList()
+        sessions.clear()
+        old.forEach { it.dispose() }
+    }
+}
+
+private class NativeAdSession(
     private val activity: Activity,
     private val unitId: String,
-    private var palette: NativePalette,
-) : FrameLayout(activity) {
-    private val lifecycle = (activity as? LifecycleOwner)?.lifecycle
+    private val transport: NativeAdTransport,
+    private val scheduler: NativeAdScheduler,
+    private var networkAvailable: Boolean?,
+    private val onDisposed: (NativeAdSession) -> Unit,
+) {
+    private var owner: NativeAdHost? = null
     private var disposed = false
-    private var started = false
+    private var foreground = false
     private var generation = 0L
-    private var unsubscribe: (() -> Unit)? = null
-    private var deferredLoad: Runnable? = null
-    private var loader: NativeAdLoader? = null
-    private var ad: NativeAd? = null
-    private var card: NativeCard? = null
-    private val observer = LifecycleEventObserver { _, event ->
-        when (event) {
-            Lifecycle.Event.ON_START -> start()
-            Lifecycle.Event.ON_STOP -> stop()
-            Lifecycle.Event.ON_DESTROY -> dispose()
-            else -> Unit
+    private var loading = false
+    private var terminalFailure = false
+    private var cancelReady: (() -> Unit)? = null
+    private var cancelLoad: (() -> Unit)? = null
+    private var cancelDeferred: (() -> Unit)? = null
+    private var cancelWatchdog: (() -> Unit)? = null
+    private var notBefore = 0L
+    private val retry = NativeAdRetryPolicy().apply { start(networkAvailable) }
+    private var creative: NativeAdCreative? = null
+    private var boundView: View? = null
+
+    fun attach(host: NativeAdHost) {
+        if (disposed) return
+        owner?.takeIf { it !== host }?.unmount()
+        val returning = owner == null
+        owner = host
+        if (returning) retry.start(networkAvailable)
+        if (creative != null) render() else ensureLoad()
+    }
+
+    fun detach(host: NativeAdHost) {
+        if (owner !== host) return
+        host.unmount()
+        owner = null
+        cancelPending()
+        discardCreative()
+    }
+
+    fun setForeground(value: Boolean) {
+        if (disposed) return
+        foreground = value
+        if (!value) {
+            cancelPending()
+            discardCreative()
+        }
+        else {
+            retry.start(networkAvailable)
+            notBefore = 0L
+            ensureLoad()
         }
     }
 
-    init {
-        layoutParams = ViewGroup.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT)
-        lifecycle?.addObserver(observer)
-    }
-
-    override fun onAttachedToWindow() { super.onAttachedToWindow(); start() }
-    override fun onDetachedFromWindow() { stop(); super.onDetachedFromWindow() }
-
-    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
-        if (!adSafely("measure native ad") { super.onMeasure(widthMeasureSpec, heightMeasureSpec) }) {
-            clearContent()
-            setMeasuredDimension(MeasureSpec.getSize(widthMeasureSpec), 0)
+    fun networkChanged(value: Boolean) {
+        networkAvailable = value
+        if (retry.networkChanged(value) && !terminalFailure && creative == null && !loading) {
+            notBefore = 0L
+            cancelDeferred?.invoke(); cancelDeferred = null
+            ensureLoad()
         }
     }
 
-    override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
-        if (!adSafely("layout native ad") { super.onLayout(changed, left, top, right, bottom) }) clearContent()
+    fun render() {
+        val host = owner ?: return
+        val item = creative ?: return
+        if (disposed || !foreground || !host.isAttachedToWindow || host.width <= 0) return
+        if (boundView == null) {
+            var view: View? = null
+            val success = adSafely("bind native ad") {
+                view = item.bind(activity, host.width, host.palette,
+                    { if (!disposed && foreground && owner != null && creative === item) DietAds.suppressNextEntry() },
+                    { if (!disposed && foreground && owner != null && creative === item) Log.i("DietDiaryAds", "Native impression") })
+            }
+            if (!success || view == null) {
+                discardCreative()
+                failed(-1)
+                return
+            }
+            boundView = view
+            Log.i("DietDiaryAds", "Native ad bound")
+        }
+        adSafely("style native ad") { item.updatePalette(host.palette) }
+        boundView?.let(host::mount)
     }
 
-    private fun start() {
-        if (disposed || started || !isAttachedToWindow || activity.isFinishing || activity.isDestroyed ||
-            lifecycle?.currentState?.isAtLeast(Lifecycle.State.STARTED) != true) return
-        started = true
+    fun contentFailed(host: NativeAdHost) {
+        if (owner !== host || creative == null) return
+        discardCreative()
+        failed(-1)
+    }
+
+    private fun ensureLoad() {
+        if (disposed || !foreground || owner == null || creative != null || loading || terminalFailure || cancelDeferred != null) return
+        val delay = (notBefore - scheduler.nowMillis()).coerceAtLeast(0)
+        if (delay > 0) { defer(delay); return }
+        loading = true
         val session = ++generation
-        unsubscribe = AdSdk.whenReady(activity.applicationContext) {
-            if (current(session)) requestWhenAllowed(session)
-        }
-    }
-
-    private fun current(session: Long) = !disposed && started && generation == session &&
-        isAttachedToWindow && !activity.isFinishing && !activity.isDestroyed
-
-    private fun requestWhenAllowed(session: Long) {
-        if (!current(session)) return
-        val delay = NativeRequestPace.reserveOrDelay(unitId)
-        if (delay > 0) {
-            val task = Runnable { deferredLoad = null; requestWhenAllowed(session) }
-            deferredLoad = task
-            postDelayed(task, delay)
-        } else load(session)
-    }
-
-    private fun load(session: Long) {
-        if (!adSafely("load native ad") {
-            // SDK-only volume control: never change the user's device/media volume.
-            YandexAds.adVolumeController.setMuted(true)
-            val requestLoader = NativeAdLoader(activity)
-            loader = requestLoader
-            requestLoader.loadAd(AdRequest.Builder(unitId).build(),
-                NativeAdOptions.Builder().setShouldLoadImagesAutomatically(true).build(),
-                object : NativeAdLoadListener {
-                    override fun onAdLoaded(nativeAd: NativeAd) = onAdMain {
-                        if (!current(session) || loader !== requestLoader) {
-                            release(nativeAd)
-                            return@onAdMain
-                        }
-                        if (!adSafely("bind native ad") { show(nativeAd, session) }) {
-                            release(nativeAd)
-                            clearContent()
-                        }
-                    }
-
-                    override fun onAdFailedToLoad(error: AdRequestError) = onAdMain {
-                        if (current(session) && loader === requestLoader) {
-                            clearContent()
-                            Log.i("DietDiaryAds", "Native ad unavailable code=${error.code}")
-                        }
-                        // No request loop on failure. A later screen start may try again.
-                    }
-                })
+        armWatchdog(session, "SDK readiness")
+        if (!adSafely("prepare native ad") {
+            val unsubscribe = transport.whenReady(activity.applicationContext) {
+                onAdMain {
+                    if (!current(session)) return@onAdMain
+                    cancelWatchdog?.invoke(); cancelWatchdog = null
+                    val paceDelay = NativeRequestPace.reserveOrDelay(unitId, scheduler.nowMillis())
+                    if (paceDelay > 0) {
+                        loading = false
+                        notBefore = scheduler.nowMillis() + paceDelay
+                        if (owner != null) defer(paceDelay)
+                    } else request(session)
+                }
+            }
+            if (current(session) && loading) cancelReady = unsubscribe else unsubscribe()
         }) {
-            loader?.let { adSafely("cancel native load") { it.cancelLoading() } }
-            loader = null
-            clearContent()
+            cancelPending()
+            failed(5)
         }
     }
 
-    private fun show(nativeAd: NativeAd, session: Long) {
-        clearContent()
-        val next = NativeCard(activity, nativeAd.adAssets, palette)
-        // Video requires >=300dp of unobscured media width; narrow windows cannot provide it.
-        if (next.hasVideo && width > 0 && width - context.nativeDp(20) < context.nativeDp(300)) {
-            release(nativeAd)
-            return
+    private fun request(session: Long) {
+        if (!current(session)) return
+        armWatchdog(session, "load")
+        if (!adSafely("load native ad") {
+            val cancellation = transport.load(activity, unitId,
+                { item -> onAdMain {
+                    if (!current(session)) {
+                        adSafely("release stale native ad") { item.dispose() }
+                        return@onAdMain
+                    }
+                    loading = false
+                    cancelWatchdog?.invoke(); cancelWatchdog = null
+                    cancelLoad = null
+                    cancelReady?.invoke(); cancelReady = null
+                    creative = item
+                    notBefore = 0L
+                    render()
+                } },
+                { code -> onAdMain {
+                    if (!current(session)) return@onAdMain
+                    loading = false
+                    cancelWatchdog?.invoke(); cancelWatchdog = null
+                    cancelLoad = null
+                    cancelReady?.invoke(); cancelReady = null
+                    Log.i("DietDiaryAds", "Native ad unavailable code=$code")
+                    failed(code)
+                } })
+            if (current(session) && loading) cancelLoad = cancellation
+        }) {
+            cancelPending()
+            failed(5)
         }
-        if (nativeAd.bindNativeAd(next.binder) !is AdBindingResult.Success) {
-            release(nativeAd)
-            Log.i("DietDiaryAds", "Native binding unavailable")
-            return
+    }
+
+    private fun current(session: Long) = !disposed && foreground && generation == session && loading &&
+        !activity.isFinishing && !activity.isDestroyed
+
+    private fun failed(code: Int) {
+        // SDK invalid/system errors must not be retried. Negative codes are local timeout/layout failures.
+        if (code !in setOf(3, 4, -1, -2)) { terminalFailure = true; return }
+        val delay = retry.afterFailure() ?: return
+        notBefore = scheduler.nowMillis() + delay
+        if (owner != null && foreground) defer(delay)
+    }
+
+    private fun defer(delay: Long) {
+        cancelDeferred?.invoke()
+        cancelDeferred = scheduler.schedule(delay) {
+            cancelDeferred = null
+            ensureLoad()
         }
-        nativeAd.setNativeAdEventListener(object : NativeAdEventListener {
-            override fun onAdClicked() = onAdMain {
-                if (current(session) && ad === nativeAd) DietAds.suppressNextEntry()
+    }
+
+    private fun armWatchdog(session: Long, stage: String) {
+        cancelWatchdog?.invoke()
+        cancelWatchdog = scheduler.schedule(NATIVE_AD_LOAD_TIMEOUT_MILLIS) {
+            if (current(session)) {
+                Log.i("DietDiaryAds", "Native $stage timeout")
+                cancelPending()
+                failed(-2)
             }
-            override fun onImpression(data: ImpressionData?) = onAdMain {
-                if (current(session) && ad === nativeAd) Log.i("DietDiaryAds", "Native impression")
-            }
-        })
-        ad = nativeAd
-        card = next
-        addView(next.view, LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT))
-        Log.i("DietDiaryAds", "Native ad bound")
+        }
     }
 
-    fun updatePalette(value: NativePalette) {
-        palette = value
-        card?.let { adSafely("style native ad") { it.applyPalette(value) } }
+    private fun discardCreative() {
+        owner?.unmount()
+        boundView?.let { view -> (view.parent as? ViewGroup)?.removeView(view) }
+        boundView = null
+        creative?.let { adSafely("release native creative") { it.dispose() } }
+        creative = null
     }
 
-    private fun release(value: NativeAd) {
-        adSafely("release native listener") { value.setNativeAdEventListener(null) }
-    }
-
-    private fun clearContent() {
-        val old = ad
-        ad = null
-        card = null
-        if (old != null) release(old)
-        // NativeAd has no public destroy/unbind in SDK8. Detach media and drop strong references.
-        adSafely("detach native view") { removeAllViews() }
-        requestLayout()
-    }
-
-    private fun stop() {
-        started = false
+    private fun cancelPending() {
         generation++
-        deferredLoad?.let(::removeCallbacks); deferredLoad = null
-        unsubscribe?.invoke(); unsubscribe = null
-        val oldLoader = loader
-        loader = null
-        if (oldLoader != null) adSafely("cancel native load") { oldLoader.cancelLoading() }
-        clearContent()
+        loading = false
+        cancelWatchdog?.invoke(); cancelWatchdog = null
+        cancelDeferred?.invoke(); cancelDeferred = null
+        cancelReady?.invoke(); cancelReady = null
+        cancelLoad?.invoke(); cancelLoad = null
     }
 
     fun dispose() {
         if (disposed) return
         disposed = true
-        stop()
-        lifecycle?.removeObserver(observer)
+        cancelPending()
+        discardCreative()
+        owner = null
+        onDisposed(this)
     }
 }
 
-/** Main-thread, placement-scoped pacing also survives lazy-list disposal and rapid tab changes. */
+private class NativeAdHost(
+    activity: Activity,
+    placement: AdPlacement,
+    private val session: NativeAdSession,
+    var palette: NativePalette,
+) : FrameLayout(activity) {
+    private var disposed = false
+    private val lifecycle = (activity as LifecycleOwner).lifecycle
+    private val connectivity = activity.getSystemService(ConnectivityManager::class.java)
+    private var networkCallback: ConnectivityManager.NetworkCallback? = null
+    private val observer = LifecycleEventObserver { _, event ->
+        when (event) {
+            Lifecycle.Event.ON_START -> {
+                session.setForeground(true)
+                if (isAttachedToWindow) observeNetwork()
+            }
+            Lifecycle.Event.ON_STOP -> { stopNetwork(); session.setForeground(false) }
+            Lifecycle.Event.ON_DESTROY -> dispose()
+            else -> Unit
+        }
+    }
+    init {
+        tag = "native-ad-" + placement.name
+        minimumHeight = context.nativeDp(1)
+        layoutParams = ViewGroup.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT)
+        lifecycle.addObserver(observer)
+    }
+    override fun onAttachedToWindow() {
+        super.onAttachedToWindow()
+        if (!disposed) {
+            observeNetwork()
+            session.attach(this)
+        }
+    }
+    override fun onDetachedFromWindow() { stopNetwork(); session.detach(this); super.onDetachedFromWindow() }
+    override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) { super.onSizeChanged(w, h, oldw, oldh); session.render() }
+    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
+        if (!adSafely("measure native ad") { super.onMeasure(widthMeasureSpec, heightMeasureSpec) }) {
+            session.contentFailed(this)
+            setMeasuredDimension(MeasureSpec.getSize(widthMeasureSpec), minimumHeight)
+        }
+    }
+    override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
+        if (!adSafely("layout native ad") { super.onLayout(changed, left, top, right, bottom) }) session.contentFailed(this)
+    }
+    fun mount(view: View) {
+        if (view.parent !== this) {
+            (view.parent as? ViewGroup)?.removeView(view)
+            addView(view, LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT))
+        }
+    }
+    fun unmount() { adSafely("detach native view") { removeAllViews() } }
+    fun updatePalette(value: NativePalette) { palette = value; if (!disposed) session.render() }
+    private fun observeNetwork() {
+        if (NativeAdsTestHooks.configuration != null || networkCallback != null || !lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) return
+        val manager = connectivity ?: return
+        runCatching {
+            session.networkChanged(manager.getNetworkCapabilities(manager.activeNetwork)
+                ?.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED) == true)
+        }
+        val callback = object : ConnectivityManager.NetworkCallback() {
+            override fun onCapabilitiesChanged(network: Network, capabilities: NetworkCapabilities) = onAdMain {
+                if (networkCallback === this && active()) session.networkChanged(capabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED))
+            }
+            override fun onLost(network: Network) = onAdMain { if (networkCallback === this && active()) session.networkChanged(false) }
+        }
+        if (adSafely("observe native ad connection") { manager.registerDefaultNetworkCallback(callback) }) networkCallback = callback
+    }
+    private fun active() = !disposed && isAttachedToWindow && lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)
+    private fun stopNetwork() {
+        networkCallback?.let { callback -> adSafely("stop native connection observer") { connectivity?.unregisterNetworkCallback(callback) } }
+        networkCallback = null
+    }
+    fun dispose() {
+        if (disposed) return
+        disposed = true
+        stopNetwork()
+        session.dispose()
+        lifecycle.removeObserver(observer)
+    }
+}
+
+/** Shared placement request pacing is independent of the lifetime of a Compose host. */
 private object NativeRequestPace {
     private val lastRequest = mutableMapOf<String, Long>()
-    fun reserveOrDelay(unitId: String): Long {
-        val now = SystemClock.elapsedRealtime()
+    fun reserveOrDelay(unitId: String, now: Long): Long {
         val previous = lastRequest[unitId]
-        val delay = if (previous == null) 0L else (30_000L - (now - previous)).coerceAtLeast(0L)
+        val delay = if (previous == null || now < previous) 0L else (30_000L - (now - previous)).coerceAtLeast(0L)
         if (delay == 0L) lastRequest[unitId] = now
         return delay
     }
+    fun clear() { lastRequest.clear() }
 }
 
 /** All assets belong to this NativeAdView; the SDK supplies text, images and click handling. */

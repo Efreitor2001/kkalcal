@@ -153,7 +153,7 @@ class MainActivity:ComponentActivity() {
         }
         item { Panel { Text("Мой день",fontSize=20.sp,fontWeight=FontWeight.Bold);Text(log?.let{logSummary(it)}?:"Вес, талия, шаги, сон — запишите то, что знаете.",color=Muted);OutlinedButton(onClick=onLog,modifier=Modifier.fillMaxWidth()){Text(if(log==null)"Записать показатели" else "Изменить показатели")} } }
         item { Text("Вес и КБЖУ продукта должны относиться к одному состоянию: сырому, сухому или готовому.",fontSize=12.sp,color=Muted) }
-        item { AdCard(AdPlacement.DAY) }
+        item(key = "day_ad") { AdCard(AdPlacement.DAY) }
     }
 }
 
