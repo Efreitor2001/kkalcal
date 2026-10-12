@@ -1,7 +1,7 @@
 ДНЕВНИК ДИЕТЫ
 Калории, вес и прогресс
 
-Версия 1.1.4, versionCode 7.
+Версия 1.1.5, versionCode 8.
 Android 8.0+ (API 26), Kotlin и Jetpack Compose.
 applicationId/namespace: ru.dietdiary.offline.
 Сборки Google Play, RuStore и Huawei AppGallery с одним пакетом и ключом подписи.
