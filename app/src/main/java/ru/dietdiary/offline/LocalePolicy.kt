@@ -72,3 +72,15 @@ fun parseLocalizedNumber(text: String): Double? {
 fun parseLocalizedInteger(text: String): Int? = parseLocalizedNumber(text)?.takeIf {
     it % 1.0 == 0.0 && it >= Int.MIN_VALUE.toDouble() && it <= Int.MAX_VALUE.toDouble()
 }?.toInt()
+
+/** Editable values retain every decimal digit; display rounding must not change saved data. */
+fun formatLocalizedInputNumber(value: Double, locale: Locale): String {
+    val symbols = java.text.DecimalFormatSymbols.getInstance(locale)
+    return java.math.BigDecimal.valueOf(value).stripTrailingZeros().toPlainString().map { char ->
+        when {
+            char == '.' -> symbols.decimalSeparator
+            char in '0'..'9' -> (symbols.zeroDigit.code + char.digitToInt()).toChar()
+            else -> char
+        }
+    }.joinToString("")
+}

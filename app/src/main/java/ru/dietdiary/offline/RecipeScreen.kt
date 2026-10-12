@@ -123,7 +123,7 @@ fun RecipeScreen(store: AppStore, onBack: () -> Unit, onSaved: (Product) -> Unit
                         Row {
                             TextButton(modifier = Modifier.weight(1f), onClick = {
                                 pendingJson = recipeWriteIngredients(listOf(ingredient))
-                                gramsText = recipeFormat(ingredient.grams)
+                                gramsText = formatLocalizedInputNumber(ingredient.grams, appLocale())
                                 editingKey = ingredient.key
                             }) { Text(tr(R.string.secondary_edit_weight)) }
                             Spacer(Modifier.width(8.dp))

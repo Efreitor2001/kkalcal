@@ -17,12 +17,7 @@ import java.util.UUID
 import kotlin.math.roundToInt
 
 // Display rounding must never alter an existing value when an editor is saved unchanged.
-private fun inputNumber(value:Double):String {
-    val symbols=java.text.DecimalFormatSymbols.getInstance(appLocale())
-    return java.math.BigDecimal.valueOf(value).stripTrailingZeros().toPlainString().map { char ->
-        when { char=='.' -> symbols.decimalSeparator; char in '0'..'9' -> (symbols.zeroDigit.code+char.digitToInt()).toChar(); else -> char }
-    }.joinToString("")
-}
+private fun inputNumber(value:Double):String = formatLocalizedInputNumber(value, appLocale())
 
 // Share the tested localized parser, including valid pasted grouping, but reject fractions.
 private fun inputInteger(text:String):Int? = parseLocalizedInteger(text)

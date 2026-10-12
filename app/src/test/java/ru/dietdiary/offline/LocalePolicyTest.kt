@@ -77,6 +77,16 @@ class LocalePolicyTest {
         }
     }
 
+    @Test fun reopeningAnEditableQuantityNeverRoundsTheStoredValueInAnySupportedLanguage() {
+        LocalePolicy.languages.forEach { tag ->
+            val locale = LocalePolicy.resolve(Locale.forLanguageTag(tag))
+            listOf(12.345, 0.000001, 99.99999999999999, 100000.0, -12.345, 0.0).forEach { value ->
+                val input = formatLocalizedInputNumber(value, locale)
+                assertEquals("$tag: $input", value, requireNotNull(parseLocalizedNumber(input)), 0.0)
+            }
+        }
+    }
+
     private fun assertNumber(text: String, expected: Double) {
         val actual = parseLocalizedNumber(text)
         requireNotNull(actual) { "Failed to parse localized number: $text" }
