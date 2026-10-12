@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"Diari da nutriziun"</string>
+    <string name="core_tagline" formatted="false">"Calorias, paisa e progress"</string>
+    <string name="core_open_diary" formatted="false">"Avrir il diari"</string>
+    <string name="core_save_failed" formatted="false">"Impussibel da memorisar tias datas"</string>
+    <string name="core_day" formatted="false">"Oz"</string>
+    <string name="core_products" formatted="false">"Aliments"</string>
+    <string name="core_diary" formatted="false">"Diari"</string>
+    <string name="core_charts" formatted="false">"Grafics"</string>
+    <string name="core_more" formatted="false">"Dapli"</string>
+    <string name="core_recipe_saved" formatted="false">"Tratga memorisada tar tes aliments"</string>
+    <string name="core_back_to_day" formatted="false">"Enavos a tes di"</string>
+    <string name="core_action_failed" formatted="false">"Impussibel da terminar questa acziun"</string>
+    <string name="core_understood" formatted="false">"En urden"</string>
+    <string name="core_restore_available" formatted="false">"Ti pos restaurar ina copia da segirezza sut Dapli."</string>
+    <string name="core_eaten_today" formatted="false">"MAGLIÀ OZ"</string>
+    <string name="core_set_goal_hint" formatted="false">"Ti pos definir ina finamira sut Dapli"</string>
+    <string name="core_add_food" formatted="false">"+ Agiuntar aliment"</string>
+    <string name="core_first_meal" formatted="false">"Cumenza cun tes emprim past"</string>
+    <string name="core_first_meal_help" formatted="false">"Tscherna in aliment ed endatescha sia paisa en grams per calcular las calorias ed ils macronutrients."</string>
+    <string name="core_my_day" formatted="false">"Mes di"</string>
+    <string name="core_my_day_help" formatted="false">"Paisa, vita, pass, sien — registrescha quai che ti sas."</string>
+    <string name="core_record_metrics" formatted="false">"Registrar mesiraziuns"</string>
+    <string name="core_edit_metrics" formatted="false">"Modifitgar mesiraziuns"</string>
+    <string name="core_food_state_hint" formatted="false">"La paisa e las valurs nutritivas ston sa referir al medem stadi: criv, sitg u cotg."</string>
+    <string name="core_weight" formatted="false">"Paisa"</string>
+    <string name="core_waist" formatted="false">"Vita"</string>
+    <string name="core_my_diary" formatted="false">"Mes diari"</string>
+    <string name="core_diary_tagline" formatted="false">"Mintga di en tes agen tempo"</string>
+    <string name="core_record_day" formatted="false">"+ Registrar in di"</string>
+    <string name="core_optional_diary_help" formatted="false">"Tut las mesiraziuns èn facultativas. Ti pos registrar mo tia paisa, tes sien u ina remartga. Tutga in\'endataziun per la modifitgar."</string>
+    <string name="core_history_starts" formatted="false">"Tia cronologia cumenza qua"</string>
+    <string name="core_history_help" formatted="false">"Registrescha mesiraziuns e suonda las midadas en Grafics."</string>
+    <string name="core_file_unavailable" formatted="false">"Datoteca betg disponibla"</string>
+    <string name="core_backup_saved" formatted="false">"Copia da segirezza memorisada"</string>
+    <string name="core_export_error" formatted="false">"Impussibel d\'exportar la copia da segirezza"</string>
+    <string name="core_read_error" formatted="false">"Impussibel da leger la datoteca"</string>
+    <string name="core_settings_tagline" formatted="false">"Parameters e copias da segirezza"</string>
+    <string name="core_your_progress" formatted="false">"Tes progress"</string>
+    <string name="core_achievements_help" formatted="false">"Pitschnas distincziuns per sa disar da manar in diari."</string>
+    <string name="core_achievements" formatted="false">"Distincziuns"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Ina connexiun facultativa per sincronisar tes diari tranter tes apparats."</string>
+    <string name="core_cloud_sync" formatted="false">"Sincronisaziun en il cloud"</string>
+    <string name="core_personal_goals" formatted="false">"Finamiras persunalas"</string>
+    <string name="core_personal_goals_help" formatted="false">"Definescha manualmain tias finamiras per calorias, macronutrients e paisa. Mintga finamira po restar vida."</string>
+    <string name="core_configure_goals" formatted="false">"Definir finamiras"</string>
+    <string name="core_backup" formatted="false">"Copia da segirezza"</string>
+    <string name="core_backup_help" formatted="false">"Aliments, pasts, diari, finamiras e distincziuns en ina suletta datoteca. Memorisescha ina copia da segirezza avant da reinstallar l\'app."</string>
+    <string name="core_save_file" formatted="false">"Memorisar en ina datoteca"</string>
+    <string name="core_restore_file" formatted="false">"Restaurar d\'ina datoteca"</string>
+    <string name="core_write_locked" formatted="false">"Memorisar è deactivà per proteger la datoteca originala. Restaurescha ina copia da segirezza valida."</string>
+    <string name="core_about_data" formatted="false">"Davart l\'app e tias datas"</string>
+    <string name="core_about_data_help" formatted="false">"Co che las endataziuns vegnan memorisadas, co che la sincronisaziun funcziuna e co stizzar datas."</string>
+    <string name="core_privacy" formatted="false">"Protecziun e stizzada da datas"</string>
+    <string name="core_offline" formatted="false">"Funcziuna senza internet"</string>
+    <string name="core_offline_help" formatted="false">"L\'annunzia cun Google è facultativa. Pass e sien vegnan endatads manualmain. Ina connexiun a l\'internet è necessaria per la sincronisaziun activada e per chargiar reclamas. Las endataziuns dal diari na vegnan betg tramessas a la rait da reclama."</string>
+    <string name="core_about_foods" formatted="false">"Davart ils aliments"</string>
+    <string name="core_foods_reference" formatted="false">"Las valurs integradas èn stimaziuns per 100 g da la part mangiabla. Controllescha l\'emballadi per valurs exactas. Modifitgar in aliment na recalculescha betg las endataziuns da pasts anteriurs."</string>
+    <string name="core_foods_source" formatted="false">"Funtauna da la banca da datas: USDA FoodData Central, SR Legacy. Ils singuls aliments inditgeschan lur stadi e lur funtauna."</string>
+    <string name="core_restore_title" formatted="false">"Restaurar questa copia da segirezza?"</string>
+    <string name="core_restore_warning" formatted="false">"Tes aliments, diari, finamiras e distincziuns actuals vegnan remplazzads cun il cuntegn da questa datoteca. Memorisescha l\'emprim ina copia da segirezza. Sche la sincronisaziun è connectada, vegnan las midadas restauradas er tramessas a Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Copia da segirezza restaurada"</string>
+    <string name="core_invalid_file" formatted="false">"Datoteca nunvalida"</string>
+    <string name="core_replace_data" formatted="false">"Remplazzar datas"</string>
+    <string name="core_cancel" formatted="false">"Interrumper"</string>
+    <string name="core_save" formatted="false">"Memorisar"</string>
+    <string name="core_calculate_portion" formatted="false">"Calcular ina purziun"</string>
+    <string name="core_edit_portion" formatted="false">"Modifitgar purziun"</string>
+    <string name="core_portion_weight" formatted="false">"Paisa da la purziun, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Endatescha ina paisa pli gronda che 0 e betg pli gronda che 100 000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Agiuntar al diari"</string>
+    <string name="core_delete_entry" formatted="false">"Stizzar endataziun"</string>
+    <string name="core_delete_portion_question" formatted="false">"Stizzar questa purziun da tes diari?"</string>
+    <string name="core_new_food" formatted="false">"Nov aliment u nova tratga"</string>
+    <string name="core_edit_nutrition" formatted="false">"Modifitgar valurs nutritivas"</string>
+    <string name="core_name" formatted="false">"Num"</string>
+    <string name="core_food" formatted="false">"Aliment"</string>
+    <string name="core_dish" formatted="false">"Tratga preparada"</string>
+    <string name="core_category" formatted="false">"Categoria"</string>
+    <string name="core_per100_hint" formatted="false">"Valurs per 100 g, tenor l\'emballadi u ina recepta. Endatescha 0 sch\'in nutrient manca."</string>
+    <string name="core_kcal" formatted="false">"Calorias"</string>
+    <string name="core_protein_grams" formatted="false">"Proteins, g"</string>
+    <string name="core_fat_grams" formatted="false">"Grass, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Idrats carbonics, g"</string>
+    <string name="core_food_note" formatted="false">"Remartga, ingredients (facultativ)"</string>
+    <string name="core_favorite" formatted="false">"Agiuntar als favurits"</string>
+    <string name="core_name_category_required" formatted="false">"Endatescha in num ed ina categoria"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Endatescha valurs per 100 g: calorias 0–1000; proteins, grass ed idrats carbonics 0–100 g"</string>
+    <string name="core_delete_food" formatted="false">"Stizzar dals aliments"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Las endataziuns da pasts anteriurs mantegnan lur valurs."</string>
+    <string name="core_delete_food_question" formatted="false">"Stizzar quest aliment? Sias endataziuns en il diari vegnan mantegnidas."</string>
+    <string name="core_day_entry" formatted="false">"Endataziun dal di"</string>
+    <string name="core_optional_fields" formatted="false">"Emplenescha ils champs che ti vuls. Lascha ils auters vids."</string>
+    <string name="core_editing_existing" formatted="false">"I dat gia in\'endataziun per questa data. Ti la modifitgeschas."</string>
+    <string name="core_weight_kg" formatted="false">"Paisa, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Vita, cm"</string>
+    <string name="core_steps" formatted="false">"Pass"</string>
+    <string name="core_sleep" formatted="false">"Sien"</string>
+    <string name="core_hours" formatted="false">"Uras"</string>
+    <string name="core_minutes" formatted="false">"Minutas"</string>
+    <string name="core_body_fat_optional" formatted="false">"Grass corporal tenor la stadaira, % (facultativ)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Il grass corporal inditgà da la stadaira mussa ina tendenza, betg ina mesiraziun precisa."</string>
+    <string name="core_strength_training" formatted="false">"Trenament da forza"</string>
+    <string name="core_training_example" formatted="false">"Per exempel: flexiuns dals schanugls 3×10, paisas da 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Totals nutritivs manuals"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Sche endatadas, remplazzan questas valurs ils totals dals aliments dal di. Lascha vid per il calcul automatic."</string>
+    <string name="core_daily_calories" formatted="false">"Calorias dal di"</string>
+    <string name="core_daily_protein" formatted="false">"Proteins dal di, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Remartgas e co che ti ta sentas"</string>
+    <string name="core_steps_invalid" formatted="false">"Pass: in dumber entir da 0 fin 200 000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Sien: 0–24 uras, minutas 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Grass corporal"</string>
+    <string name="core_calories" formatted="false">"Calorias"</string>
+    <string name="core_protein" formatted="false">"Proteins"</string>
+    <string name="core_entry_required" formatted="false">"Agiunta almain ina mesiraziun u ina remartga"</string>
+    <string name="core_delete_day" formatted="false">"Stizzar questa endataziun dal di"</string>
+    <string name="core_optional_goals" formatted="false">"Tut las finamiras èn facultativas. In champ vid signifitga che nagina finamira è definida."</string>
+    <string name="core_calories_per_day" formatted="false">"Calorias per di"</string>
+    <string name="core_protein_per_day" formatted="false">"Proteins per di, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Grass per di, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Idrats carbonics per di, g"</string>
+    <string name="core_target_weight" formatted="false">"Paisa giavischada, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Controllescha tias finamiras: calorias 0–10 000; proteins, grass ed idrats carbonics 0–1000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Paisa giavischada: da 1 fin 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Stizzar?"</string>
+    <string name="core_delete" formatted="false">"Stizzar"</string>
+    <string name="core_select_food" formatted="false">"Tscherner aliment"</string>
+    <string name="core_foods_dishes" formatted="false">"Aliments e tratgas"</string>
+    <string name="core_search_food" formatted="false">"Tschertgar in aliment u ina tratga"</string>
+    <string name="core_new_food_button" formatted="false">"+ Aliment / tratga"</string>
+    <string name="core_recipe_button" formatted="false">"Tenor ina recepta"</string>
+    <string name="core_no_results" formatted="false">"Nagins resultats"</string>
+    <string name="core_no_results_help" formatted="false">"Emprova in\'autra tschertga u agiunta in agen aliment u ina tratga preparada."</string>
+    <string name="core_edit" formatted="false">"Modifitgar"</string>
+    <string name="core_achievement_unlocked">"🏆 Distincziun cuntanschida! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal restan · finamira %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal sur tia finamira"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Proteins %1$s   Grass %2$s   Idrats carbonics %3$s"</string>
+    <string name="core_weight_summary">"Paisa %1$s kg"</string>
+    <string name="core_waist_summary">"Vita %1$s cm"</string>
+    <string name="core_steps_summary">"Pass: %1$s"</string>
+    <string name="core_fat_summary">"Grass corporal %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (manual)"</string>
+    <string name="core_manual_protein">"Proteins %1$s g (manual)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Sien %1$s"</string>
+    <string name="core_scale_fat">"Grass corporal tenor la stadaira %1$s%%"</string>
+    <string name="core_training_value">"Trenament: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Proteins %1$s g"</string>
+    <string name="core_app_version">"Diari da nutriziun · %1$s"</string>
+    <string name="core_per100_summary">"Per 100 g: %1$s kcal · Proteins %2$s · Grass %3$s · Idrats carbonics %4$s"</string>
+    <string name="core_range_invalid">"%1$s: endatescha ina valur da %2$s fin %3$s"</string>
+    <string name="core_delete_day_question">"Stizzar las mesiraziuns per %1$s? Las endataziuns d\'aliments vegnan mantegnidas."</string>
+    <string name="core_catalog_count">"%1$s aliments · valurs nutritivas per 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Proteins %2$s   Grass %3$s   Idrats carbonics %4$s"</string>
+    <string name="core_today_date">"Oz · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Calorias e proteins èn totals manuals da tes diari"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Las calorias èn in total manual da tes diari"</string>
+    <string name="core_manual_protein_total" formatted="false">"Ils proteins èn in total manual da tes diari"</string>
+    <string name="core_macro_goals">"Finamiras P / G / I: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (manual)"</string>
+    <string name="core_all" formatted="false">"Tuts"</string>
+    <string name="core_favorites" formatted="false">"Favurits"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Di precedent"</string>
+    <string name="core_next_day" formatted="false">"Di suandant"</string>
+    <string name="secondary_metric_weight" formatted="false">"Paisa"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Grass corporal"</string>
+    <string name="secondary_metric_waist" formatted="false">"Vita"</string>
+    <string name="secondary_metric_steps" formatted="false">"Pass"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Sien"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Calorias"</string>
+    <string name="secondary_metric_protein" formatted="false">"Proteins"</string>
+    <string name="secondary_metric_fat" formatted="false">"Grass"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Idrats carbonics"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"pass"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Perioda nunvalida"</string>
+    <string name="secondary_stats_title" formatted="false">"Tendenzas"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Tias endataziuns en grafics clers"</string>
+    <string name="secondary_metric" formatted="false">"Mesira"</string>
+    <string name="secondary_week" formatted="false">"Emna"</string>
+    <string name="secondary_month" formatted="false">"Mais"</string>
+    <string name="secondary_year" formatted="false">"Onn"</string>
+    <string name="secondary_custom_period" formatted="false">"Perioda persunalisada"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"La data iniziala na dastga betg esser suenter la data finala"</string>
+    <string name="secondary_no_records" formatted="false">"Anc naginas endataziuns"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Agiunta aliments a tes diari u tscherna in\'autra perioda."</string>
+    <string name="secondary_chart_tap" formatted="false">"Tutga il grafic per tscherner in\'endataziun"</string>
+    <string name="secondary_chart_connected" formatted="false">"La lingia collia las mesiraziuns registradas. Tranter ellas na datti naginas mesiraziuns."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Las stimaziuns da la stadaira èn utilas per suandar tendenzas."</string>
+    <string name="secondary_food_override_hint" formatted="false">"In total manual dal di remplazza il total dals aliments. Uschiglio vegnan ils aliments registrads summads. Dis senza endataziuns vegnan sursiglids."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Ils totals sa basan sin ils aliments registrads. In di senza endataziuns na vegn betg quintà sco nulla."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Dis senza endataziuns vegnan sursiglids ed exclus da la media."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Oz ed ier"</string>
+    <string name="secondary_no_today" formatted="false">"Nagina endataziun per oz"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Nagina endataziun per ier"</string>
+    <string name="secondary_partial_today" formatted="false">"Questa cumparegliaziun sa basa sin las endataziuns actualas. Las datas dad oz pon anc esser incumplettas."</string>
+    <string name="secondary_period_summary" formatted="false">"Resumaziun da la perioda"</string>
+    <string name="secondary_recorded_average" formatted="false">"Media dals dis cun endataziuns"</string>
+    <string name="secondary_recorded_days" formatted="false">"Dis cun datas"</string>
+    <string name="secondary_minimum" formatted="false">"Minimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maximum"</string>
+    <string name="secondary_first_to_last" formatted="false">"Da l\'emprima fin l\'ultima endataziun"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Per calcular ina midada dovri almain dus dis cun endataziuns."</string>
+    <string name="secondary_history" formatted="false">"Cronologia"</string>
+    <string name="secondary_history_recent" formatted="false">"Ils ultims 14 dis cun datas. Tscherna ina perioda persunalisada per endataziuns pli veglias."</string>
+    <string name="secondary_history_all" formatted="false">"Tut ils dis cun endataziuns en la perioda tschernida"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Da %1$s"</string>
+    <string name="secondary_date_until">"Fin %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s en questa perioda"</string>
+    <string name="secondary_weight_goal">"Finamira: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Agiunta ina mesiraziun a tes diari u tscherna in\'autra perioda."</string>
+    <string name="secondary_latest_record">"Ultima endataziun · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Oz: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Ier: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Midada: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d da %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Dis cun endataziuns: %2$d, da %3$s fin %4$s. Minimum %5$s, maximum %6$s %7$s. Las valurs èn enumeradas en la cronologia."</string>
+    <string name="secondary_award_first_weight" formatted="false">"L\'entschatta è fatga"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Memorisescha tia emprima mesiraziun da paisa."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Tia emprima mesiraziun da paisa è memorisada."</string>
+    <string name="secondary_award_first_food" formatted="false">"Emprima endataziun"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Registrescha tia emprima purziun da mangiar."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Tia emprima purziun da mangiar è registrada."</string>
+    <string name="secondary_award_weight_week" formatted="false">"In\'emna da datas"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Registrescha tia paisa durant 7 dis differents. Els na ston betg suandar in l\'auter."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Ti has mesiraziuns da paisa per 7 dis differents."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Constanza"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Registrescha tia paisa durant 30 dis differents."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Ti has mesiraziuns da paisa per 30 dis."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Archivist"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Memorisescha 100 purziuns da mangiar en tes diari."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Ti has memorisà 100 purziuns da mangiar."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Ina nova disa"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Registrescha aliments durant 7 dis consecutivs."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Ti has registrà aliments durant 7 dis consecutivs."</string>
+    <string name="secondary_award_steps" formatted="false">"Miracul da viandar"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Registrescha almain 10 000 pass durant in di."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Ti has registrà in di cun 10 000 pass."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Registrader perseverant"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Memorisescha 100 mesiraziuns da paisa. Ina mesiraziun quinta per data."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Ti has memorisà 100 mesiraziuns da paisa."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Veteran dal diari"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Registrescha aliments u mesiraziuns durant 90 dis differents. Els na ston betg suandar in l\'auter."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Ti has endataziuns dal diari per 90 dis differents."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"mesiraziuns"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"purziuns"</string>
+    <string name="secondary_award_unit_days" formatted="false">"dis"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"dis consecutivs"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"pass durant in di"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"dis cun endataziuns"</string>
+    <string name="secondary_back" formatted="false">"‹  Enavos"</string>
+    <string name="secondary_achievements" formatted="false">"Distincziuns"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Pitschnas passadas daventan ina disa"</string>
+    <string name="secondary_your_progress" formatted="false">"TES PROGRESS"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Distincziuns cuntanschidas restan tar tai, era sche ti modifitgeschas tias endataziuns."</string>
+    <string name="secondary_awards_regular" formatted="false">"Per constanza e per manar tes diari"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Endataziuns memorisadas fin oz inclusiv vegnan quintadas."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Distincziun zuppada"</string>
+    <string name="secondary_hidden_description" formatted="false">"Cuntinuescha a manar tes diari per cuntanscher questa distincziun."</string>
+    <string name="secondary_earned" formatted="false">"Cuntanschì"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Zuppà · serrà"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"En progress · serrà"</string>
+    <string name="secondary_locked" formatted="false">"Serrà"</string>
+    <string name="secondary_hidden_progress" formatted="false">"La cundiziun ed il progress vegnan mussads cur che ti cuntanschas questa distincziun."</string>
+    <string name="secondary_best_streak" formatted="false">"Meglia seria"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Distincziun zuppada"</string>
+    <string name="secondary_unlocked_of">"da %1$d cuntanschidas"</string>
+    <string name="secondary_unlocked_date">"Cuntanschì ils %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Enavos"</string>
+    <string name="secondary_my_recipe" formatted="false">"Mia recepta"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Paisa ils ingredients avant da cuschinar. Dovra la paisa cotga per calcular las purziuns. Includa ielis e salsas."</string>
+    <string name="secondary_recipe_name" formatted="false">"Num da la recepta"</string>
+    <string name="secondary_recipe_example" formatted="false">"Per exempel, ragut da legums"</string>
+    <string name="secondary_ingredients" formatted="false">"Ingredients"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Cumenza cun ils ingredients"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Agiunta mintga ingredient ed endatescha sia paisa en grams."</string>
+    <string name="secondary_edit_weight" formatted="false">"Modifitgar paisa"</string>
+    <string name="secondary_delete" formatted="false">"Stizzar"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Agiuntar ingredient"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Entira recepta"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Cuschinar mida la paisa, perquai che aua vegn agiuntada u persa. Paisa la tratga finida senza il recipient."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Paisa cotga, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Endatescha la paisa suenter avair cuschinà"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Endatescha ina paisa pli gronda che 0 e betg pli gronda che 100 000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"La paisa na vegn betg endatada automaticamain"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Per 100 g da la tratga cotga"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Controllescha la paisa cotga ed ils ingredients: mintga 100 g pon cuntegnair fin 1000 kcal e fin 100 g da mintga macronutrient."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Impussibel da memorisar la recepta"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Memorisar en Mias receptas"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Suenter memorisar pos ti registrar questa tratga tenor la paisa da la purziun."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Paisa da l\'ingredient avant da cuschinar"</string>
+    <string name="secondary_grams" formatted="false">"Grams"</string>
+    <string name="secondary_weight_limits" formatted="false">"Pli grond che 0 e betg pli grond che 100 000 g"</string>
+    <string name="secondary_add" formatted="false">"Agiuntar"</string>
+    <string name="secondary_save" formatted="false">"Memorisar"</string>
+    <string name="secondary_cancel" formatted="false">"Interrumper"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Tscherner in ingredient"</string>
+    <string name="secondary_search_food" formatted="false">"Tschertgar aliments"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Nagins resultats. Ti pos agiuntar in agen aliment sin il tab Aliments."</string>
+    <string name="secondary_close" formatted="false">"Serrar"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Proteins %1$s · Grass %2$s · Idrats carbonics %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Paisa dals ingredients: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Quantitad finida: %1$s g. Ingredients: %2$s"</string>
+    <string name="app_name" formatted="false">"Diari da nutriziun"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"La copia da segirezza da la migraziun na correspunda betg"</string>
+    <string name="data_entry_exists" formatted="false">"Questa endataziun d\'aliments exista gia"</string>
+    <string name="data_entry_missing" formatted="false">"Endataziun d\'aliments betg chattada"</string>
+    <string name="data_edited_date_changed" formatted="false">"La data da l\'endataziun che vegn modifitgada è sa midada"</string>
+    <string name="data_device_id_corrupt" formatted="false">"L\'identificatur local da l\'apparat è donnegià; la restauraziun è bloccada"</string>
+    <string name="data_sync_invalid" formatted="false">"Datas da sincronisaziun nunvalidas"</string>
+    <string name="data_diary_read_only" formatted="false">"Il diari è protegì cunter surscriver: restaurescha ina copia da segirezza"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Las datas dal diari èn inconsistentas"</string>
+    <string name="data_backup_too_large" formatted="false">"La copia da segirezza è memia gronda"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"L\'identificatur da l\'installaziun è donnegià"</string>
+    <string name="data_save_verification_failed" formatted="false">"Impussibel da verifitgar sche il diari è vegnì memorisà"</string>
+    <string name="data_save_failed" formatted="false">"Impussibel da memorisar il diari"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"La copia da segirezza è pli gronda che 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"La datoteca dal diari è memia gronda"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Grondezza nunvalida da la banca da datas d\'aliments"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Versiun betg sustegnida da la copia da segirezza"</string>
+    <string name="data_too_many_values">"Memia bleras valurs en %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Memia blers aliments"</string>
+    <string name="data_too_many_entries" formatted="false">"Memia bleras endataziuns d\'aliments"</string>
+    <string name="data_too_many_logs" formatted="false">"Memia bleras endataziuns dal diari"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Identificatur d\'aliment dubel"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Identificatur d\'endataziun d\'aliments dubel"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Data dubla en il diari"</string>
+    <string name="data_label_product_id" formatted="false">"Identificatur da l\'aliment"</string>
+    <string name="data_label_product_name" formatted="false">"Num da l\'aliment"</string>
+    <string name="data_label_category" formatted="false">"Categoria"</string>
+    <string name="data_label_note" formatted="false">"Remartga"</string>
+    <string name="data_label_entry_id" formatted="false">"Identificatur da l\'endataziun"</string>
+    <string name="data_label_meal" formatted="false">"Past"</string>
+    <string name="data_food_weight_range" formatted="false">"La paisa da l\'aliment sto esser pli gronda che 0 e betg pli gronda che 100000 g"</string>
+    <string name="data_label_weight" formatted="false">"Paisa"</string>
+    <string name="data_label_waist" formatted="false">"Vita"</string>
+    <string name="data_steps_range" formatted="false">"Il dumber da pass sto esser tranter 0 e 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Sien"</string>
+    <string name="data_label_body_fat" formatted="false">"Grass corporal"</string>
+    <string name="data_label_daily_calories" formatted="false">"Calorias dal di"</string>
+    <string name="data_label_daily_protein" formatted="false">"Proteins dal di"</string>
+    <string name="data_label_workout" formatted="false">"Trenament"</string>
+    <string name="data_label_log_note" formatted="false">"Remartga"</string>
+    <string name="data_log_empty" formatted="false">"Endatescha almain ina mesiraziun u ina remartga"</string>
+    <string name="data_label_goal_weight" formatted="false">"Paisa giavischada"</string>
+    <string name="data_too_many_achievements" formatted="false">"Memia bleras distincziuns"</string>
+    <string name="data_achievement_invalid" formatted="false">"Distincziun nunvalida"</string>
+    <string name="data_setting_not_portable" formatted="false">"Quest parameter na po betg vegnir transferì"</string>
+    <string name="data_setting_invalid">"Valur nunvalida per il parameter %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Calorias"</string>
+    <string name="data_label_protein" formatted="false">"Proteins"</string>
+    <string name="data_label_fat" formatted="false">"Grass"</string>
+    <string name="data_label_carbs" formatted="false">"Idrats carbonics"</string>
+    <string name="data_value_range">"%1$s: interval permess %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: lunghezza nunvalida"</string>
+    <string name="data_text_character_invalid">"%1$s: caracter nunvalid"</string>
+    <string name="data_date_format_invalid" formatted="false">"La data sto duvrar il format YYYY-MM-DD"</string>
+    <string name="data_date_nonexistent">"Data nunvalida: %1$s"</string>
+    <string name="data_field_string_required">"Il champ %1$s sto esser text"</string>
+    <string name="data_field_boolean_required">"Il champ %1$s sto esser ina valur booleana"</string>
+    <string name="data_field_number_required">"Il champ %1$s sto esser in dumber"</string>
+    <string name="data_field_finite_required">"Il champ %1$s sto esser in dumber finit"</string>
+    <string name="data_field_integer_required">"Il champ %1$s sto esser in dumber entir"</string>
+    <string name="data_too_many_items">"Memia blers elements en %1$s"</string>
+    <string name="data_data_file_invalid">"Datoteca da datas nunvalida: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"L\'identificatur da l\'apparat manca"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Il limit da l\'ura logica è cuntanschì"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Memia bleras endataziuns da sincronisaziun"</string>
+    <string name="data_sync_version_required" formatted="false">"La sincronisaziun pretenda la versiun 2 dal format"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Clav da sincronisaziun nunvalida"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Clav da sincronisaziun dubla"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Marcaziun da stizzada nunvalida"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Datas da sincronisaziun nunvalidas"</string>
+    <string name="data_record_clock_invalid" formatted="false">"La versiun da l\'endataziun surpassa l\'ura logica"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Las datas na correspundan betg a las metadatas da sincronisaziun"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Lunghezza nunvalida da la clav da sincronisaziun"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Clav da sincronisaziun cun format fallà"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Tip da sincronisaziun nunenconuschent"</string>
+    <string name="data_record_id_too_long" formatted="false">"L\'identificatur da l\'endataziun è memia lung"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Stizzada nunvalida d\'ina distincziun"</string>
+    <string name="data_log_key_invalid" formatted="false">"Clav dal diari nunvalida"</string>
+    <string name="data_log_field_unknown" formatted="false">"Champ dal diari nunenconuschent"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Marcaziun da stizzada dal diari nunvalida"</string>
+    <string name="data_goal_unknown" formatted="false">"Finamira nunenconuschenta"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"In\'endataziun stizzada cuntegna datas"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Valur da sincronisaziun nunvalida"</string>
+    <string name="data_record_id_mismatch" formatted="false">"L\'identificatur da l\'endataziun na correspunda betg a la clav"</string>
+    <string name="data_field_value_invalid" formatted="false">"Valur dal champ nunvalida"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"La data da la distincziun na correspunda betg a la clav"</string>
+    <string name="data_note_string_required" formatted="false">"La remartga sto esser text"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Remartga sincronisada nunvalida"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Ura logica nunvalida"</string>
+    <string name="data_device_invalid" formatted="false">"Apparat nunvalid"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Marcaziun da versiun nunvalida"</string>
+    <string name="data_google_login_required" formatted="false">"T\'annunzia danovamain tar Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Memia bleras copias da segirezza en il cloud"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive ha returnà ina pagina repetida"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"La copia da segirezza en il cloud è pli gronda che 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive n\'ha betg returnà in\'adressa per chargiar si"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Adressa nunvalida per chargiar si sin Google Drive"</string>
+    <string name="data_back" formatted="false">"‹  Enavos"</string>
+    <string name="data_cloud_title" formatted="false">"Sincronisaziun en il cloud"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Tes diari sin tes apparats"</string>
+    <string name="data_no_account" formatted="false">"Nagin conto connectà"</string>
+    <string name="data_cloud_intro" formatted="false">"L\'annunzia è facultativa. Aliments, pasts, mesiraziuns, finamiras e distincziuns vegnan memorisads sin tes telefon. Suenter la connexiun vegn ina copia memorisada en in ordinatur zuppà en tes Google Drive."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Las endataziuns vegnan unidas tar l\'emprima connexiun. L\'app n\'ha betg access ad autras datotecas en tes Drive."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"L\'annunzia cun Google n\'è anc betg configurada per questa versiun. Il diari e las copias da segirezza en datotecas funcziunan senza conto."</string>
+    <string name="data_connect_google" formatted="false">"Connectar Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Sincronisaziun automatica"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Cur che datas sa midan ed en il fund cur che Android permetta quai"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Impussibel da midar la planisaziun. Tias datas èn memorisadas sin quest apparat."</string>
+    <string name="data_sync_start_failed" formatted="false">"Impussibel d\'aviar la sincronisaziun. Tias datas èn memorisadas sin quest apparat."</string>
+    <string name="data_sync_now" formatted="false">"Sincronisar ussa"</string>
+    <string name="data_google_sign_in_again" formatted="false">"T\'annunzia danovamain tar Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Separar il conto"</string>
+    <string name="data_sync_never" formatted="false">"Anc nagina sincronisaziun"</string>
+    <string name="data_offline_saved_title" formatted="false">"Tias datas èn memorisadas senza internet"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Sche la sincronisaziun automatica è activada, vegnan las midadas tramessas cur ch\'ina connexiun è disponibla. Sch\'il medem champ vegn midà sin dus apparats, vegn duvrada la versiun cun la marcaziun temporala da midada pli nova. Endataziuns e champs independents vegnan unids."</string>
+    <string name="data_cloud_password_description" formatted="false">"Ti endateschas tes pled-clav mo sin la pagina da Google en tes navigatur. Ils tokens d\'access èn protegids dad Android Keystore ed exclus da las copias da segirezza."</string>
+    <string name="data_google_connection_title" formatted="false">"Connexiun cun Google"</string>
+    <string name="data_got_it" formatted="false">"Chapì"</string>
+    <string name="data_connect_drive_title" formatted="false">"Connectar Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Tes diari actual vegn unì cun las datas en il conto da Google tschernì. Dovra il medem conto persunal sin tes apparats. L\'annunzia s\'avra en tes navigatur da standard."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Impussibel d\'avrir l\'annunzia. Installescha u activescha in navigatur da standard ed emprova danovamain."</string>
+    <string name="data_continue" formatted="false">"Cuntinuar"</string>
+    <string name="data_cancel" formatted="false">"Interrumper"</string>
+    <string name="data_disconnect_title" formatted="false">"Separar il conto?"</string>
+    <string name="data_disconnect_description" formatted="false">"La sincronisaziun sa ferma sin quest apparat. Tes diari local e las copias en Google Drive vegnan mantegnids. Ti pos administrar la permissiun da l\'app en ils parameters da tes conto da Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Impussibel da separar il conto. Emprova danovamain."</string>
+    <string name="data_disconnect" formatted="false">"Separar"</string>
+    <string name="data_google_not_connected" formatted="false">"Google n\'è betg connectà"</string>
+    <string name="data_sync_ready" formatted="false">"Pront per sincronisar"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Las midadas spetgan la sincronisaziun…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Nagina connexiun a l\'internet. Las midadas èn memorisadas sin quest apparat."</string>
+    <string name="data_google_not_configured" formatted="false">"L\'annunzia cun Google n\'è anc betg configurada per questa versiun"</string>
+    <string name="data_sync_wait" formatted="false">"Spetga fin che la sincronisaziun è terminada"</string>
+    <string name="data_google_connecting" formatted="false">"Connectar Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Connexiun interrutta"</string>
+    <string name="data_connection_rejected" formatted="false">"Connexiun interrutta u refusada da Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google è connectà. Unir las endataziuns…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Impussibel da connectar Google. Controllescha tia connexiun a l\'internet ed ils parameters d\'access."</string>
+    <string name="data_account_disconnected" formatted="false">"Conto separà. Tias datas restan sin quest apparat."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Nagina connexiun a l\'internet. La sincronisaziun spetga ina connexiun."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sincronisaziun planisada…"</string>
+    <string name="data_sync_running" formatted="false">"Sincronisar…"</string>
+    <string name="data_sync_complete" formatted="false">"Sincronisaziun terminada"</string>
+    <string name="data_no_internet" formatted="false">"Nagina connexiun a l\'internet"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Impussibel da sincronisar. Tias datas èn memorisadas sin quest apparat"</string>
+    <string name="data_page_open_failed" formatted="false">"Impussibel d\'avrir la pagina. Ti pos copiar sia adressa dal text sutvart."</string>
+    <string name="data_privacy_title" formatted="false">"Protecziun da datas"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Tias endataziuns e la controlla da tias datas"</string>
+    <string name="data_app_purpose" formatted="false">"Davart questa app"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Questa app n\'è betg in apparat medicinal. Ella na diagnostitgescha, na tracta, na guarescha e na previegna nagina malsogna. Consultescha ina persuna qualifitgada dal sectur da sanadad per cussegls medicinals, diagnosas e tractaments."</string>
+    <string name="data_manage_delete_data" formatted="false">"Administrar e stizzar datas"</string>
+    <string name="data_delete_data_intro" formatted="false">"Avant da stizzar tut las datas, deactivescha la sincronisaziun sin tut tes apparats. Deinstallar l\'app da tes telefon na stizza betg las copias en Google Drive u las datotecas exportadas."</string>
+    <string name="data_manage_drive_data" formatted="false">"Administrar datas da Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Access al conto da Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Memoria da l\'app en Android"</string>
+    <string name="data_contact_developer" formatted="false">"Contactar il sviluppader"</string>
+    <string name="data_opening_page" formatted="false">"Avrir ina pagina"</string>
+    <string name="data_advertisement" formatted="false">"RECLAMA"</string>
+    <string name="data_ad_information" formatted="false">"Davart questa reclama"</string>
+    <string name="data_cloud_http_error">"Errur HTTP dal cloud %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"La resposta dal cloud è memia gronda"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Sessiun d\'annunzia criptada nunvalida"</string>
+    <string name="data_session_save_failed" formatted="false">"Impussibel da memorisar la sessiun d\'annunzia"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Impussibel da renovar l\'access a Google"</string>
+    <string name="data_diary_read_failed">"Impussibel da leger il diari. La datoteca originala è vegnida mantegnida. Restaurescha tias datas d\'ina copia da segirezza. %1$s"</string>
+    <string name="data_last_sync">"Ultima sincronisaziun: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Fritgs e puma"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Fritgs setgs"</string>
+    <string name="data_category_vegetables" formatted="false">"Legums ed ervas"</string>
+    <string name="data_category_mushrooms" formatted="false">"Bulieus"</string>
+    <string name="data_category_grains" formatted="false">"Cerealias e pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Leguminosas"</string>
+    <string name="data_category_meat" formatted="false">"Charn e giaglinom"</string>
+    <string name="data_category_fish" formatted="false">"Peschs e fritgs da mar"</string>
+    <string name="data_category_dairy" formatted="false">"Products da latg"</string>
+    <string name="data_category_eggs" formatted="false">"Ovs"</string>
+    <string name="data_category_oils" formatted="false">"Ielis e paintg"</string>
+    <string name="data_category_nuts" formatted="false">"Nuschs e sems"</string>
+    <string name="data_category_bread" formatted="false">"Paun"</string>
+    <string name="data_category_other" formatted="false">"Auters aliments"</string>
+    <string name="data_category_dishes" formatted="false">"Tratgas preparadas"</string>
+    <string name="data_category_custom" formatted="false">"Mes aliments"</string>
+    <string name="data_category_my_dishes" formatted="false">"Mias tratgas"</string>
+    <string name="data_category_other_short" formatted="false">"Auter"</string>
+    <string name="data_meal_breakfast" formatted="false">"Ensolver"</string>
+    <string name="data_meal_lunch" formatted="false">"Giantar"</string>
+    <string name="data_meal_dinner" formatted="false">"Tschaina"</string>
+    <string name="data_meal_snack" formatted="false">"Marenda"</string>
+    <string name="data_food_seed_9003" formatted="false">"Mail cun paletscha"</string>
+    <string name="data_food_seed_9040" formatted="false">"Banana senza paletscha"</string>
+    <string name="data_food_seed_9021" formatted="false">"Apricosa senza crap"</string>
+    <string name="data_food_seed_9037" formatted="false">"Pulpa d\'avocado"</string>
+    <string name="data_food_seed_9050" formatted="false">"Izuns"</string>
+    <string name="data_food_seed_9070" formatted="false">"Tschareschas dultschas senza craps"</string>
+    <string name="data_food_seed_9063" formatted="false">"Tschareschas aschas senza craps"</string>
+    <string name="data_food_seed_9078" formatted="false">"Pumaraunas grondas (Vaccinium macrocarpon)"</string>
+    <string name="data_food_seed_9083" formatted="false">"Ribes nairs"</string>
+    <string name="data_food_seed_9084" formatted="false">"Ribes cotschens ed alvs"</string>
+    <string name="data_food_seed_9132" formatted="false">"Ivas"</string>
+    <string name="data_food_seed_9148" formatted="false">"Pulpa da kiwi"</string>
+    <string name="data_food_seed_9150" formatted="false">"Citrona senza paletscha"</string>
+    <string name="data_food_seed_9181" formatted="false">"Pulpa da melona cantalup"</string>
+    <string name="data_food_seed_9200" formatted="false">"Pulpa d\'oranscha"</string>
+    <string name="data_food_seed_9218" formatted="false">"Pulpa da mandarina"</string>
+    <string name="data_food_seed_9236" formatted="false">"Pètsch senza crap"</string>
+    <string name="data_food_seed_9252" formatted="false">"Pair"</string>
+    <string name="data_food_seed_9266" formatted="false">"Pulpa d\'ananas"</string>
+    <string name="data_food_seed_9279" formatted="false">"Primbla senza crap"</string>
+    <string name="data_food_seed_9286" formatted="false">"Sems da mailgranat"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pulpa da pomelo"</string>
+    <string name="data_food_seed_9302" formatted="false">"Ampuaunas"</string>
+    <string name="data_food_seed_9316" formatted="false">"Frajas"</string>
+    <string name="data_food_seed_9326" formatted="false">"Pulpa da melona d\'aua"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nectarina senza crap"</string>
+    <string name="data_food_seed_9176" formatted="false">"Pulpa da mango"</string>
+    <string name="data_food_seed_9107" formatted="false">"Ribes spinus (Ribes uva-crispa)"</string>
+    <string name="data_food_seed_9226" formatted="false">"Pulpa da papaia"</string>
+    <string name="data_food_seed_9089" formatted="false">"Figs frestgs"</string>
+    <string name="data_food_seed_9111" formatted="false">"Pulpa da grepfrut"</string>
+    <string name="data_food_seed_9032" formatted="false">"Apricosas setgas senza craps"</string>
+    <string name="data_food_seed_9291" formatted="false">"Primblas setgas senza craps"</string>
+    <string name="data_food_seed_9087" formatted="false">"Dattels senza craps"</string>
+    <string name="data_food_seed_9298" formatted="false">"Uzettas stgiras senza sems"</string>
+    <string name="data_food_seed_11529" formatted="false">"Tomata frestga"</string>
+    <string name="data_food_seed_11205" formatted="false">"Cucumera cun paletscha"</string>
+    <string name="data_food_seed_11090" formatted="false">"Broccoli criv"</string>
+    <string name="data_food_seed_11109" formatted="false">"Giabus alv criv"</string>
+    <string name="data_food_seed_11124" formatted="false">"Carotta criva"</string>
+    <string name="data_food_seed_11135" formatted="false">"Cardifiol criv"</string>
+    <string name="data_food_seed_11143" formatted="false">"Monis da seller"</string>
+    <string name="data_food_seed_11282" formatted="false">"Tschagula criva"</string>
+    <string name="data_food_seed_11291" formatted="false">"Tschagulas da primavaira"</string>
+    <string name="data_food_seed_11304" formatted="false">"Arveglia verda criva"</string>
+    <string name="data_food_seed_11333" formatted="false">"Peperoni verd"</string>
+    <string name="data_food_seed_11821" formatted="false">"Peperoni cotschen"</string>
+    <string name="data_food_seed_11352" formatted="false">"Tartuffel criv cun paletscha"</string>
+    <string name="data_food_seed_11367" formatted="false">"Tartuffel cotg senza paletscha"</string>
+    <string name="data_food_seed_11477" formatted="false">"Zucchetti criv"</string>
+    <string name="data_food_seed_11209" formatted="false">"Aubergina criva"</string>
+    <string name="data_food_seed_11422" formatted="false">"Zitga criva"</string>
+    <string name="data_food_seed_11429" formatted="false">"Ravanella"</string>
+    <string name="data_food_seed_11564" formatted="false">"Rava criva"</string>
+    <string name="data_food_seed_11080" formatted="false">"Randen criv"</string>
+    <string name="data_food_seed_11081" formatted="false">"Randen cotg"</string>
+    <string name="data_food_seed_11215" formatted="false">"Agl"</string>
+    <string name="data_food_seed_11216" formatted="false">"Ragisch da schentsch"</string>
+    <string name="data_food_seed_11457" formatted="false">"Spinats crivs"</string>
+    <string name="data_food_seed_11253" formatted="false">"Salata da feglia"</string>
+    <string name="data_food_seed_11297" formatted="false">"Peterschigl frestg"</string>
+    <string name="data_food_seed_2045" formatted="false">"Anet frestg"</string>
+    <string name="data_food_seed_11052" formatted="false">"Fava verda criva"</string>
+    <string name="data_food_seed_11167" formatted="false">"Tirca dultscha, grauns crivs"</string>
+    <string name="data_food_seed_11260" formatted="false">"Schampignuns crivs"</string>
+    <string name="data_food_seed_11261" formatted="false">"Schampignuns cotgs senza sal"</string>
+    <string name="data_food_seed_11987" formatted="false">"Bulieus d\'ostras (Pleurotus ostreatus), crivs"</string>
+    <string name="data_food_seed_20009" formatted="false">"Graun sarrasin, sitg"</string>
+    <string name="data_food_seed_20010" formatted="false">"Graun sarrasin, cotg en aua"</string>
+    <string name="data_food_seed_20444" formatted="false">"Ris alv, sitg"</string>
+    <string name="data_food_seed_20445" formatted="false">"Ris alv cotg senza sal"</string>
+    <string name="data_food_seed_20036" formatted="false">"Ris integral, sitg"</string>
+    <string name="data_food_seed_20037" formatted="false">"Ris integral cotg"</string>
+    <string name="data_food_seed_8120" formatted="false">"Flocs d\'avaina, sitgs"</string>
+    <string name="data_food_seed_8121" formatted="false">"Buglia d\'avaina cotga en aua, senza sal"</string>
+    <string name="data_food_seed_20005" formatted="false">"Giutta, sitga"</string>
+    <string name="data_food_seed_20006" formatted="false">"Giutta cotga"</string>
+    <string name="data_food_seed_20031" formatted="false">"Panitscha, sitga"</string>
+    <string name="data_food_seed_20032" formatted="false">"Panitscha cotga"</string>
+    <string name="data_food_seed_20420" formatted="false">"Pasta, sitga"</string>
+    <string name="data_food_seed_20421" formatted="false">"Pasta cotga senza sal"</string>
+    <string name="data_food_seed_16070" formatted="false">"Lentiglias cotgas senza sal"</string>
+    <string name="data_food_seed_16057" formatted="false">"Chicras cotgas senza sal"</string>
+    <string name="data_food_seed_16033" formatted="false">"Fava cotschna cotga senza sal"</string>
+    <string name="data_food_seed_5062" formatted="false">"Pit da pulaster criv senza pel"</string>
+    <string name="data_food_seed_5064" formatted="false">"Pit da pulaster brassà senza pel"</string>
+    <string name="data_food_seed_5219" formatted="false">"Pit da galdin criv senza pel"</string>
+    <string name="data_food_seed_5220" formatted="false">"Pit da galdin brassà senza pel"</string>
+    <string name="data_food_seed_23562" formatted="false">"Charn manizzada da bov, 10% grass, criva"</string>
+    <string name="data_food_seed_23566" formatted="false">"Charn manizzada da bov, 10% grass, brassada"</string>
+    <string name="data_food_seed_10060" formatted="false">"Filet da portg criv, grass visibel allontanà"</string>
+    <string name="data_food_seed_10061" formatted="false">"Filet da portg brassà"</string>
+    <string name="data_food_seed_15236" formatted="false">"Salmuns da l\'Atlantic, criv"</string>
+    <string name="data_food_seed_15237" formatted="false">"Salmuns da l\'Atlantic, brassà"</string>
+    <string name="data_food_seed_15015" formatted="false">"Merluz da l\'Atlantic, criv"</string>
+    <string name="data_food_seed_15266" formatted="false">"Merluz d\'Alasca (Gadus chalcogrammus), criv"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuna en conserva en aua, sguttada"</string>
+    <string name="data_food_seed_15271" formatted="false">"Crevettas cotgas senza crusta"</string>
+    <string name="data_food_seed_1211" formatted="false">"Latg, 3,25% grass"</string>
+    <string name="data_food_seed_1174" formatted="false">"Latg, 2% grass"</string>
+    <string name="data_food_seed_1082" formatted="false">"Latg, 1% grass"</string>
+    <string name="data_food_seed_1116" formatted="false">"Jogurt natiral da latg entir"</string>
+    <string name="data_food_seed_1256" formatted="false">"Jogurt grec senza grass"</string>
+    <string name="data_food_seed_1015" formatted="false">"Chaschiel frestg granellus, 2% grass"</string>
+    <string name="data_food_seed_1056" formatted="false">"Groma ascha, circa 19% grass"</string>
+    <string name="data_food_seed_1009" formatted="false">"Chaschiel cheddar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mozzarella da latg entir"</string>
+    <string name="data_food_seed_1019" formatted="false">"Chaschiel feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Ov da giaglina criv senza paletscha"</string>
+    <string name="data_food_seed_1129" formatted="false">"Ov da giaglina cotg senza paletscha"</string>
+    <string name="data_food_seed_1124" formatted="false">"Alv d\'ov da giaglina criv"</string>
+    <string name="data_food_seed_1001" formatted="false">"Paintg salà"</string>
+    <string name="data_food_seed_4053" formatted="false">"Ieli d\'ulivas"</string>
+    <string name="data_food_seed_4506" formatted="false">"Ieli da flurs-sulegl"</string>
+    <string name="data_food_seed_12061" formatted="false">"Mandels"</string>
+    <string name="data_food_seed_12155" formatted="false">"Minzs da nuschs"</string>
+    <string name="data_food_seed_12120" formatted="false">"Minzs da nitscholas"</string>
+    <string name="data_food_seed_12151" formatted="false">"Minzs da pistatschas crivs"</string>
+    <string name="data_food_seed_12014" formatted="false">"Minzs da sems da zitga setgs"</string>
+    <string name="data_food_seed_16087" formatted="false">"Arachidas crivas senza paletscha"</string>
+    <string name="data_food_seed_18069" formatted="false">"Paun alv da furment"</string>
+    <string name="data_food_seed_18075" formatted="false">"Paun integral da furment"</string>
+    <string name="data_food_seed_18060" formatted="false">"Paun da seghel"</string>
+    <string name="data_food_seed_19296" formatted="false">"Mel"</string>
+    <string name="data_food_seed_19335" formatted="false">"Zutger"</string>
+    <string name="data_food_seed_19165" formatted="false">"Pulvra da cacau senza zutger"</string>
+    <string name="data_food_seed_19904" formatted="false">"Tschigulatta stgira, 70–85% cacau"</string>
+    <string name="data_catalog_note_1">"Valurs da referenza per 100 g da la part mangiabla. Aliment criv. Las valurs d\'idrats carbonics da l\'USDA includan fibras alimentaras. Ti pos adattar las valurs tenor l\'etichetta dal product. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_2">"Valurs da referenza per 100 g da la part mangiabla. Las valurs d\'idrats carbonics da l\'USDA includan fibras alimentaras. Ti pos adattar las valurs tenor l\'etichetta dal product. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_3">"Valurs da referenza per 100 g da la part mangiabla. Senza sal agiuntà. Las valurs d\'idrats carbonics da l\'USDA includan fibras alimentaras. Ti pos adattar las valurs tenor l\'etichetta dal product. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_4">"Valurs da referenza per 100 g da la part mangiabla. Graun sarrasin brassà. Las valurs d\'idrats carbonics da l\'USDA includan fibras alimentaras. Ti pos adattar las valurs tenor l\'etichetta dal product. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_5">"Valurs da referenza per 100 g da la part mangiabla. Aliment criv. Da tratga. Las valurs d\'idrats carbonics da l\'USDA includan fibras alimentaras. Ti pos adattar las valurs tenor l\'etichetta dal product. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_6">"Valurs da referenza per 100 g da la part mangiabla. Da tratga. Las valurs d\'idrats carbonics da l\'USDA includan fibras alimentaras. Ti pos adattar las valurs tenor l\'etichetta dal product. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_7">"Valurs da referenza per 100 g da la part mangiabla. Chaschiel frestg granellus; autras sorts da chaschiel frestg han autras valurs. Las valurs d\'idrats carbonics da l\'USDA includan fibras alimentaras. Ti pos adattar las valurs tenor l\'etichetta dal product. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Decleraziun da protecziun da datas per Diet Diary\nRevisiun: 9 d\'october 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"App: Diet Diary; titel en Google Play per russ: «Дневник диеты: подсчёт калорий»; pachet: ru.dietdiary.offline.\nSviluppader dal project: Efreitor2001. Per dumondas davart l\'app e l\'elavuraziun da datas, contactescha https://github.com/Efreitor2001/kkalcal/issues . Las dumondas sin GitHub èn publicas: na publitgescha là naginas datas da sanadad, copias da segirezza, pleds-clav u tokens."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Diari sin tes apparat\nPer manar in diari n\'è nagina registraziun necessaria. L\'app memorisescha aliments e lur valurs nutritivas, purziuns e datas dals pasts, paisa, mesiraziuns da la vita, procent da grass corporal, pass, sien, descripziuns da trenaments, remartgas, finamiras, distincziuns e parameters da l\'app en sia zona da memoria privata sin tes apparat. Champs facultativs pon restar vids. Pass, sien e mesiraziuns vegnan endatads manualmain; l\'app na legia betg datas da Health Connect, sensurs d\'activitad corporala u apparats medicinals."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Questas infurmaziuns vegnan duvradas per calcular calorias e macronutrients e per porscher cronologia, grafics e distincziuns. Il sviluppader na maina nagin server che retschaiva il cuntegn dal diari. Sche ti na connecteschas betg Google Drive e na cundividas betg sez ina copia da segirezza, restan tias endataziuns sin tes apparat."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Connexiun facultativa cun Google Drive\nSin tes giavisch avra l\'app l\'annunzia da Google en tes navigatur da standard e dumonda access a la memoria zuppada da questa app en tes Google Drive. Questa permissiun na dat betg access a tes documents u tias fotografias ordinarias en Drive."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Suenter la connexiun vegnan aliments, pasts, mesiraziuns dal diari, remartgas, finamiras, distincziuns, parameters transferibels e metadatas da midadas, inclus identificaturs casuals da l\'installaziun e marcaziuns temporalas, tramess a Google. Quai permetta copias da segirezza ed il reunir d\'endataziuns tranter tes apparats. Sche la sincronisaziun automatica è activada, vegnan las midadas er tramessas en il fund cur ch\'ina connexiun a la rait è disponibla. Ti pos deactivar la sincronisaziun automatica separadamain."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"L\'app retschaiva l\'adressa dad e-mail e l\'identificatur dal conto da Google tschernì per mussar la connexiun e la colliar cun la memoria correcta. Tes pled-clav da Google na vegn betg dà a l\'app. La sessiun d\'autorisaziun vegn memorisada a moda criptada sin tes apparat cun ina clav en Android Keystore. Tokens, adressas dad e-mail ed identificaturs da Google èn exclus dals exports dal diari e da las copias JSON sincronisadas."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Las datas da Google vegnan duvradas mo per l\'autorisaziun e la sincronisaziun, mai per reclama. I vala la decleraziun da protecziun da datas da Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Datotecas da segirezza\n«Memorisar en ina datoteca» creescha ina datoteca JSON en il lieu che ti tschernas. La restauraziun legia mo la datoteca che ti tschernas. Sche ti tschernas in purschider da datotecas en il cloud u cundividas ina copia cun in\'autra persuna, tschernas ti il destinatur. L\'app na criptescha betg las datotecas JSON exportadas: questas datotecas cuntegnan endataziuns persunalas e metadatas da midadas."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Reclama\nL\'app dovra il SDK Yandex Mobile Ads. Per chargiar e mussar reclamas sa connectescha tes apparat cun servetschs da reclama. Yandex po elavurar tia adressa IP ed autras infurmaziuns tecnicas davart la dumonda da rait, l\'apparat e la software, identificaturs da reclama u tecnics disponibels ed infurmaziuns davart reclamas mussadas ed interacziuns cun ellas."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"L\'app communitgescha al SDK che nagin consentiment è vegnì dà, deactivescha la registraziun dal lieu e deactivescha ils rapports dad App Ad Analytics. Ella na dumonda naginas permissiuns per il lieu precis u approximativ. Quests parameters na signifitgan betg ch\'il servetsch da reclama na fa nagina communicaziun da rait u nagina elavuraziun da datas tecnicas."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"L\'app na dovra betg endataziuns d\'aliments, paisa, mesiraziuns, remartgas, finamiras, adressas dad e-mail u identificaturs da Google per adattar reclamas e na als agiunta betg als parameters da las dumondas da reclama. Guardar reclamas n\'è betg necessari per memorisar endataziuns."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Las reglas da Yandex per l\'elavuraziun, la conservaziun e la stizzada da datas: https://yandex.ru/legal/confidential/ . Ti pos administrar tes identificatur da reclama en ils parameters dad Android, sche tia versiun dal sistem sustegna questa funcziun. La politica dal servetsch da reclama determinescha ils termins da conservaziun da sias datas tecnicas; il sviluppader dal diari na definescha nagin termin da conservaziun separà per questas datas."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Segirezza da datas\nLa communicaziun cun Google dovra HTTPS; Yandex inditgescha che las datas dal SDK vegnan tramessas cun HTTPS/TLS. Il diari local è protegì tras l\'isolaziun da las apps dad Android. L\'app na criptescha betg separadamain il cuntegn dal diari u las copias JSON; ella na porscha betg criptaziun da cap a cap tranter apparats."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"La copia da segirezza dal sistem per las datas da l\'app è deactivada. Ils protocols da diagnosa scrits dal code da l\'app cuntegnan codes da resultat senza cuntegn dal diari, adressas dad e-mail, tokens u cuntegn da respostas da rait; l\'app na trametta betg separadamain quests protocols al sviluppader."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Conservaziun e stizzada\nLas endataziuns localas restan fin che ti las modifitgeschas u stizzas, u stizzas las datas da l\'app. Stizzar in\'endataziun la allontanescha da l\'interfatscha e trametta ina marcaziun da stizzada durant la sincronisaziun. Las metadatas per reunir vegnan mantegnidas per impedir che datas veglias cumparian puspè; ellas pon cuntegnair valurs precedentas d\'ina endataziun dal diari stizzada. Valurs precedentas pon er restar en copias veglias en il cloud ed en datotecas che ti has creà pli baud. Stizzar ina suletta endataziun na stizza perquai betg cumplettamain mintga copia dad ella."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"«Separar il conto» ferma la sincronisaziun sin quest apparat e stizza la sessiun locala da Google. Il diari e las copias en Google Drive vegnan mantegnids. Separar l\'app na stizza betg tes conto da Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Per stizzar cumplettamain las datas da questa app:\n• Deactivescha la sincronisaziun sin tut tes apparats, per che copias restantas na vegnian betg chargiadas si danovamain.\n• Avra https://drive.google.com/drive/settings en in navigatur cun il conto da Google ch\'era connectà. Tscherna «Administrar apps», tschertga «Diet Diary» (u «Дневник диеты»), lura tscherna «Opziuns» → «Stizzar datas zuppadas da l\'app». Sche la pagina mobila na mussa betg questa secziun, dovra la versiun per computers da la pagina u in computer.\n• Revoca l\'access da l\'app sut https://myaccount.google.com/connections . Mo revocar l\'access na stizza betg las copias memorisadas.\n• Stizza la memoria da l\'app en ils parameters dad Android sin mintga apparat, u deinstallescha l\'app.\n• Stizza las copias da segirezza JSON memorisadas separadamain en ils ordinaturs e lieus da memoria en il cloud che ti has tschernì."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Senza tias datas d\'access na po il sviluppader betg stizzar a distanza tes diari local u datotecas en tes Google Drive persunal. Na cundivida betg tes pled-clav u tokens cun il sviluppader. Per agid cun la stizzada, contactescha il project cun la colliaziun a l\'entschatta da questa decleraziun. Ti na stos betg stizzar tes conto da Google per stizzar las datas dal diari."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Midadas e contact\nCur che funcziuns da l\'app u praticas d\'elavuraziun da datas sa midan, vegn questa decleraziun actualisada cun ina data da revisiun. Per dumondas davart l\'access, la correctura u la stizzada da datas u davart il funcziunament da l\'app, dovra il chanal da contact dal project. Las dumondas che ti tramettas vegnan elavuradas per dar ina resposta e memorisadas en GitHub; la decleraziun da GitHub è disponibla sut https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+</resources>

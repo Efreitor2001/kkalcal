@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"ບັນທຶກອາຫານ"</string>
+    <string name="core_app_name" formatted="false">"ບັນທຶກອາຫານ"</string>
+    <string name="core_tagline" formatted="false">"ແຄລໍຣີ, ນ້ຳໜັກ ແລະ ຄວາມຄືບໜ້າ"</string>
+    <string name="core_open_diary" formatted="false">"ເປີດບັນທຶກ"</string>
+    <string name="core_save_failed" formatted="false">"ບັນທຶກຂໍ້ມູນບໍ່ສຳເລັດ"</string>
+    <string name="core_day" formatted="false">"ມື້ນີ້"</string>
+    <string name="core_products" formatted="false">"ອາຫານ"</string>
+    <string name="core_diary" formatted="false">"ບັນທຶກ"</string>
+    <string name="core_charts" formatted="false">"ກຣາຟ"</string>
+    <string name="core_more" formatted="false">"ເພີ່ມເຕີມ"</string>
+    <string name="core_recipe_saved" formatted="false">"ເກັບອາຫານນີ້ໄວ້ໃນລາຍການຂອງທ່ານແລ້ວ"</string>
+    <string name="core_back_to_day" formatted="false">"ກັບໄປຫາມື້ຂອງທ່ານ"</string>
+    <string name="core_action_failed" formatted="false">"ດຳເນີນການບໍ່ສຳເລັດ"</string>
+    <string name="core_understood" formatted="false">"ຕົກລົງ"</string>
+    <string name="core_restore_available" formatted="false">"ທ່ານສາມາດກູ້ຄືນສຳເນົາສຳຮອງໄດ້ໃນພາກເພີ່ມເຕີມ."</string>
+    <string name="core_eaten_today" formatted="false">"ກິນແລ້ວມື້ນີ້"</string>
+    <string name="core_set_goal_hint" formatted="false">"ຕັ້ງເປົ້າໝາຍໄດ້ໃນພາກເພີ່ມເຕີມ"</string>
+    <string name="core_add_food" formatted="false">"+ ເພີ່ມອາຫານ"</string>
+    <string name="core_first_meal" formatted="false">"ເລີ່ມຈາກອາຫານຄາບທຳອິດ"</string>
+    <string name="core_first_meal_help" formatted="false">"ເລືອກອາຫານ ແລະ ໃສ່ນ້ຳໜັກເປັນກຣາມເພື່ອຄຳນວນແຄລໍຣີ ແລະ ສານອາຫານ."</string>
+    <string name="core_my_day" formatted="false">"ມື້ຂອງຂ້ອຍ"</string>
+    <string name="core_my_day_help" formatted="false">"ນ້ຳໜັກ, ຮອບແອວ, ກ້າວຍ່າງ, ການນອນ — ບັນທຶກຂໍ້ມູນທີ່ທ່ານມີ."</string>
+    <string name="core_record_metrics" formatted="false">"ບັນທຶກຄ່າວັດແທກ"</string>
+    <string name="core_edit_metrics" formatted="false">"ແກ້ໄຂຄ່າວັດແທກ"</string>
+    <string name="core_food_state_hint" formatted="false">"ນ້ຳໜັກ ແລະ ຄຸນຄ່າອາຫານຕ້ອງກົງກັບສະພາບອາຫານດຽວກັນ: ດິບ, ແຫ້ງ ຫຼື ປຸງສຸກແລ້ວ."</string>
+    <string name="core_weight" formatted="false">"ນ້ຳໜັກ"</string>
+    <string name="core_waist" formatted="false">"ຮອບແອວ"</string>
+    <string name="core_my_diary" formatted="false">"ບັນທຶກຂອງຂ້ອຍ"</string>
+    <string name="core_diary_tagline" formatted="false">"ແຕ່ລະມື້ຕາມຈັງຫວະຂອງທ່ານ"</string>
+    <string name="core_record_day" formatted="false">"+ ບັນທຶກມື້"</string>
+    <string name="core_optional_diary_help" formatted="false">"ທຸກຄ່າແມ່ນບໍ່ບັງຄັບ. ບັນທຶກພຽງນ້ຳໜັກ, ການນອນ ຫຼື ໝາຍເຫດກໍໄດ້. ແຕະລາຍການເພື່ອແກ້ໄຂ."</string>
+    <string name="core_history_starts" formatted="false">"ປະຫວັດຂອງທ່ານເລີ່ມທີ່ນີ້"</string>
+    <string name="core_history_help" formatted="false">"ບັນທຶກຄ່າວັດແທກ ແລະ ຕິດຕາມການປ່ຽນແປງໃນກຣາຟ."</string>
+    <string name="core_file_unavailable" formatted="false">"ບໍ່ສາມາດໃຊ້ໄຟລ໌ນີ້ໄດ້"</string>
+    <string name="core_backup_saved" formatted="false">"ເກັບສຳເນົາສຳຮອງແລ້ວ"</string>
+    <string name="core_export_error" formatted="false">"ສົ່ງອອກສຳເນົາສຳຮອງບໍ່ສຳເລັດ"</string>
+    <string name="core_read_error" formatted="false">"ອ່ານໄຟລ໌ບໍ່ສຳເລັດ"</string>
+    <string name="core_settings_tagline" formatted="false">"ການຕັ້ງຄ່າ ແລະ ສຳເນົາສຳຮອງ"</string>
+    <string name="core_your_progress" formatted="false">"ຄວາມຄືບໜ້າຂອງທ່ານ"</string>
+    <string name="core_achievements_help" formatted="false">"ຄວາມສຳເລັດນ້ອຍໆ ຊ່ວຍໃຫ້ການບັນທຶກກາຍເປັນນິໄສ."</string>
+    <string name="core_achievements" formatted="false">"ຄວາມສຳເລັດ"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"ການເຂົ້າລະບົບແມ່ນທາງເລືອກ ເພື່ອຊິງຄ໌ບັນທຶກລະຫວ່າງອຸປະກອນ."</string>
+    <string name="core_cloud_sync" formatted="false">"ການຊິງຄ໌ກັບຄລາວດ໌"</string>
+    <string name="core_personal_goals" formatted="false">"ເປົ້າໝາຍສ່ວນຕົວ"</string>
+    <string name="core_personal_goals_help" formatted="false">"ຕັ້ງເປົ້າໝາຍແຄລໍຣີ, ສານອາຫານ ແລະ ນ້ຳໜັກດ້ວຍຕົນເອງ. ທ່ານສາມາດປະຊ່ອງໃດໜຶ່ງໄວ້ຫວ່າງ."</string>
+    <string name="core_configure_goals" formatted="false">"ຕັ້ງເປົ້າໝາຍ"</string>
+    <string name="core_backup" formatted="false">"ສຳເນົາສຳຮອງ"</string>
+    <string name="core_backup_help" formatted="false">"ອາຫານ, ຄາບອາຫານ, ບັນທຶກ, ເປົ້າໝາຍ ແລະ ຄວາມສຳເລັດໃນໄຟລ໌ດຽວ. ສ້າງສຳເນົາກ່ອນຕິດຕັ້ງແອັບໃໝ່."</string>
+    <string name="core_save_file" formatted="false">"ເກັບເປັນໄຟລ໌"</string>
+    <string name="core_restore_file" formatted="false">"ກູ້ຄືນຈາກໄຟລ໌"</string>
+    <string name="core_write_locked" formatted="false">"ປິດການບັນທຶກເພື່ອປົກປ້ອງໄຟລ໌ຕົ້ນສະບັບ. ກະລຸນາກູ້ຄືນສຳເນົາສຳຮອງທີ່ຖືກຕ້ອງ."</string>
+    <string name="core_about_data" formatted="false">"ກ່ຽວກັບແອັບ ແລະ ຂໍ້ມູນຂອງທ່ານ"</string>
+    <string name="core_about_data_help" formatted="false">"ວິທີເກັບ, ຊິງຄ໌ ແລະ ລຶບບັນທຶກ."</string>
+    <string name="core_privacy" formatted="false">"ຄວາມເປັນສ່ວນຕົວ ແລະ ການລຶບຂໍ້ມູນ"</string>
+    <string name="core_offline" formatted="false">"ໃຊ້ງານໄດ້ໂດຍບໍ່ມີອິນເຕີເນັດ"</string>
+    <string name="core_offline_help" formatted="false">"ບໍ່ຈຳເປັນຕ້ອງເຂົ້າລະບົບ Google. ຈຳນວນກ້າວ ແລະ ການນອນປ້ອນດ້ວຍຕົນເອງ. ອິນເຕີເນັດຈຳເປັນສຳລັບການຊິງຄ໌ທີ່ເປີດໄວ້ ແລະ ການໂຫຼດໂຄສະນາ. ບັນທຶກບໍ່ຖືກສົ່ງໃຫ້ເຄືອຂ່າຍໂຄສະນາ."</string>
+    <string name="core_about_foods" formatted="false">"ກ່ຽວກັບອາຫານ"</string>
+    <string name="core_foods_reference" formatted="false">"ຄ່າທີ່ມີມາໃຫ້ເປັນຄ່າປະມານຕໍ່ 100 ກຣາມຂອງສ່ວນທີ່ກິນໄດ້. ກວດຄ່າທີ່ແນ່ນອນຈາກບັນຈຸພັນ. ການແກ້ໄຂອາຫານບໍ່ຄຳນວນຄາບທີ່ບັນທຶກແລ້ວຄືນໃໝ່."</string>
+    <string name="core_foods_source" formatted="false">"ແຫຼ່ງຂໍ້ມູນ: USDA FoodData Central, SR Legacy. ອາຫານແຕ່ລະລາຍການລະບຸສະພາບ ແລະ ແຫຼ່ງຂໍ້ມູນ."</string>
+    <string name="core_restore_title" formatted="false">"ກູ້ຄືນສຳເນົານີ້ບໍ?"</string>
+    <string name="core_restore_warning" formatted="false">"ອາຫານ, ບັນທຶກ, ເປົ້າໝາຍ ແລະ ຄວາມສຳເລັດປັດຈຸບັນຈະຖືກແທນທີ່ດ້ວຍຂໍ້ມູນໃນໄຟລ໌ນີ້. ສ້າງສຳເນົາສຳຮອງກ່ອນ. ຖ້າເຊື່ອມຕໍ່ການຊິງຄ໌ແລ້ວ ຂໍ້ມູນທີ່ກູ້ຄືນຈະຖືກສົ່ງໄປ Google Drive ດ້ວຍ."</string>
+    <string name="core_backup_restored" formatted="false">"ກູ້ຄືນສຳເນົາສຳຮອງແລ້ວ"</string>
+    <string name="core_invalid_file" formatted="false">"ໄຟລ໌ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="core_replace_data" formatted="false">"ແທນທີ່ຂໍ້ມູນ"</string>
+    <string name="core_cancel" formatted="false">"ຍົກເລີກ"</string>
+    <string name="core_save" formatted="false">"ບັນທຶກ"</string>
+    <string name="core_calculate_portion" formatted="false">"ຄຳນວນປະລິມານທີ່ກິນ"</string>
+    <string name="core_edit_portion" formatted="false">"ແກ້ໄຂປະລິມານທີ່ກິນ"</string>
+    <string name="core_portion_weight" formatted="false">"ນ້ຳໜັກທີ່ກິນ, ກຣາມ"</string>
+    <string name="core_portion_invalid" formatted="false">"ໃສ່ນ້ຳໜັກຫຼາຍກວ່າ 0 ແລະ ບໍ່ເກີນ 100,000 ກຣາມ"</string>
+    <string name="core_add_to_diary" formatted="false">"ເພີ່ມໃສ່ບັນທຶກ"</string>
+    <string name="core_delete_entry" formatted="false">"ລຶບລາຍການ"</string>
+    <string name="core_delete_portion_question" formatted="false">"ລຶບອາຫານສ່ວນນີ້ອອກຈາກບັນທຶກບໍ?"</string>
+    <string name="core_new_food" formatted="false">"ອາຫານ ຫຼື ອາຫານປຸງສຳເລັດໃໝ່"</string>
+    <string name="core_edit_nutrition" formatted="false">"ແກ້ໄຂຄຸນຄ່າອາຫານ"</string>
+    <string name="core_name" formatted="false">"ຊື່"</string>
+    <string name="core_food" formatted="false">"ວັດຖຸດິບ"</string>
+    <string name="core_dish" formatted="false">"ອາຫານປຸງສຳເລັດ"</string>
+    <string name="core_category" formatted="false">"ໝວດໝູ່"</string>
+    <string name="core_per100_hint" formatted="false">"ຄ່າຕໍ່ 100 ກຣາມຈາກບັນຈຸພັນ ຫຼື ສູດອາຫານ. ໃສ່ 0 ຖ້າບໍ່ມີສານອາຫານນັ້ນ."</string>
+    <string name="core_kcal" formatted="false">"ແຄລໍຣີ"</string>
+    <string name="core_protein_grams" formatted="false">"ໂປຣຕີນ, ກຣາມ"</string>
+    <string name="core_fat_grams" formatted="false">"ໄຂມັນ, ກຣາມ"</string>
+    <string name="core_carbs_grams" formatted="false">"ຄາໂບໄຮເດຣດ, ກຣາມ"</string>
+    <string name="core_food_note" formatted="false">"ໝາຍເຫດ, ສ່ວນປະກອບ (ບໍ່ບັງຄັບ)"</string>
+    <string name="core_favorite" formatted="false">"ເພີ່ມໃສ່ລາຍການມັກ"</string>
+    <string name="core_name_category_required" formatted="false">"ໃສ່ຊື່ ແລະ ໝວດໝູ່"</string>
+    <string name="core_nutrition_invalid" formatted="false">"ໃສ່ຄ່າຕໍ່ 100 ກຣາມ: ແຄລໍຣີ 0–1,000; ໂປຣຕີນ, ໄຂມັນ ແລະ ຄາໂບໄຮເດຣດ 0–100 ກຣາມ"</string>
+    <string name="core_delete_food" formatted="false">"ລຶບອອກຈາກລາຍການອາຫານ"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"ຄາບອາຫານທີ່ບັນທຶກແລ້ວຍັງຄົງຄ່າເດີມ."</string>
+    <string name="core_delete_food_question" formatted="false">"ລຶບອາຫານນີ້ບໍ? ລາຍການໃນບັນທຶກຈະຍັງຢູ່."</string>
+    <string name="core_day_entry" formatted="false">"ບັນທຶກປະຈຳມື້"</string>
+    <string name="core_optional_fields" formatted="false">"ປ້ອນສະເພາະຊ່ອງທີ່ທ່ານຕ້ອງການ. ປະຊ່ອງອື່ນໄວ້ຫວ່າງ."</string>
+    <string name="core_editing_existing" formatted="false">"ວັນທີນີ້ມີບັນທຶກແລ້ວ. ທ່ານກຳລັງແກ້ໄຂມັນ."</string>
+    <string name="core_weight_kg" formatted="false">"ນ້ຳໜັກ, ກິໂລກຣາມ"</string>
+    <string name="core_waist_cm" formatted="false">"ຮອບແອວ, ຊມ"</string>
+    <string name="core_steps" formatted="false">"ກ້າວຍ່າງ"</string>
+    <string name="core_sleep" formatted="false">"ການນອນ"</string>
+    <string name="core_hours" formatted="false">"ຊົ່ວໂມງ"</string>
+    <string name="core_minutes" formatted="false">"ນາທີ"</string>
+    <string name="core_body_fat_optional" formatted="false">"ໄຂມັນຈາກເຄື່ອງຊັ່ງ, % (ບໍ່ບັງຄັບ)"</string>
+    <string name="core_body_fat_hint" formatted="false">"ເປີເຊັນໄຂມັນຈາກເຄື່ອງຊັ່ງຊ່ວຍຕິດຕາມແນວໂນ້ມ; ບໍ່ແມ່ນຄ່າວັດແທກທີ່ແນ່ນອນ."</string>
+    <string name="core_strength_training" formatted="false">"ຝຶກກຳລັງກ້າມເນື້ອ"</string>
+    <string name="core_training_example" formatted="false">"ຕົວຢ່າງ: ສະຄວັດ 3×10, ດຳເບວ 12 ກິໂລກຣາມ"</string>
+    <string name="core_manual_nutrition" formatted="false">"ຍອດລວມອາຫານທີ່ປ້ອນເອງ"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"ຖ້າປ້ອນຄ່າເຫຼົ່ານີ້ ຈະແທນທີ່ຍອດລວມປະຈຳມື້ທີ່ຄຳນວນຈາກອາຫານ. ປະໄວ້ຫວ່າງເພື່ອຄຳນວນອັດຕະໂນມັດ."</string>
+    <string name="core_daily_calories" formatted="false">"ແຄລໍຣີປະຈຳມື້"</string>
+    <string name="core_daily_protein" formatted="false">"ໂປຣຕີນປະຈຳມື້, ກຣາມ"</string>
+    <string name="core_wellbeing_notes" formatted="false">"ໝາຍເຫດ ແລະ ຄວາມຮູ້ສຶກ"</string>
+    <string name="core_steps_invalid" formatted="false">"ກ້າວຍ່າງ: ຈຳນວນເຕັມຈາກ 0 ຫາ 200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"ການນອນ: 0–24 ຊົ່ວໂມງ, 0–59 ນາທີ"</string>
+    <string name="core_body_fat" formatted="false">"ໄຂມັນຮ່າງກາຍ"</string>
+    <string name="core_calories" formatted="false">"ແຄລໍຣີ"</string>
+    <string name="core_protein" formatted="false">"ໂປຣຕີນ"</string>
+    <string name="core_entry_required" formatted="false">"ເພີ່ມຄ່າວັດແທກ ຫຼື ໝາຍເຫດຢ່າງໜ້ອຍໜຶ່ງລາຍການ"</string>
+    <string name="core_delete_day" formatted="false">"ລຶບບັນທຶກປະຈຳມື້"</string>
+    <string name="core_optional_goals" formatted="false">"ທຸກເປົ້າໝາຍແມ່ນບໍ່ບັງຄັບ. ຊ່ອງຫວ່າງໝາຍເຖິງຍັງບໍ່ຕັ້ງເປົ້າໝາຍ."</string>
+    <string name="core_calories_per_day" formatted="false">"ແຄລໍຣີຕໍ່ມື້"</string>
+    <string name="core_protein_per_day" formatted="false">"ໂປຣຕີນຕໍ່ມື້, ກຣາມ"</string>
+    <string name="core_fat_per_day" formatted="false">"ໄຂມັນຕໍ່ມື້, ກຣາມ"</string>
+    <string name="core_carbs_per_day" formatted="false">"ຄາໂບໄຮເດຣດຕໍ່ມື້, ກຣາມ"</string>
+    <string name="core_target_weight" formatted="false">"ນ້ຳໜັກເປົ້າໝາຍ, ກິໂລກຣາມ"</string>
+    <string name="core_goals_invalid" formatted="false">"ກວດເປົ້າໝາຍ: ແຄລໍຣີ 0–10,000; ໂປຣຕີນ, ໄຂມັນ ແລະ ຄາໂບໄຮເດຣດ 0–1,000 ກຣາມ"</string>
+    <string name="core_target_weight_invalid" formatted="false">"ນ້ຳໜັກເປົ້າໝາຍ: 1–500 ກິໂລກຣາມ"</string>
+    <string name="core_delete_question" formatted="false">"ລຶບບໍ?"</string>
+    <string name="core_delete" formatted="false">"ລຶບ"</string>
+    <string name="core_select_food" formatted="false">"ເລືອກອາຫານ"</string>
+    <string name="core_foods_dishes" formatted="false">"ວັດຖຸດິບ ແລະ ອາຫານປຸງສຳເລັດ"</string>
+    <string name="core_search_food" formatted="false">"ຄົ້ນຫາອາຫານ ຫຼື ອາຫານປຸງສຳເລັດ"</string>
+    <string name="core_new_food_button" formatted="false">"+ ວັດຖຸດິບ / ອາຫານ"</string>
+    <string name="core_recipe_button" formatted="false">"ຈາກສູດອາຫານ"</string>
+    <string name="core_no_results" formatted="false">"ບໍ່ພົບລາຍການ"</string>
+    <string name="core_no_results_help" formatted="false">"ລອງຄົ້ນຫາໃໝ່ ຫຼື ເພີ່ມອາຫານ ຫຼື ອາຫານປຸງສຳເລັດຂອງທ່ານເອງ."</string>
+    <string name="core_edit" formatted="false">"ແກ້ໄຂ"</string>
+    <string name="core_achievement_unlocked">"🏆 ປົດລັອກຄວາມສຳເລັດ! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"ເຫຼືອ %1$s kcal · ເປົ້າໝາຍ %2$s"</string>
+    <string name="core_above_goal">"ເກີນເປົ້າໝາຍ %1$s kcal"</string>
+    <string name="core_portion_summary">"%1$s ກຣາມ · %2$s kcal"</string>
+    <string name="core_macros_summary">"ໂປຣຕີນ %1$s   ໄຂມັນ %2$s   ຄາໂບໄຮເດຣດ %3$s"</string>
+    <string name="core_weight_summary">"ນ້ຳໜັກ %1$s ກິໂລກຣາມ"</string>
+    <string name="core_waist_summary">"ຮອບແອວ %1$s ຊມ"</string>
+    <string name="core_steps_summary">"ກ້າວຍ່າງ: %1$s"</string>
+    <string name="core_fat_summary">"ໄຂມັນຮ່າງກາຍ %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (ປ້ອນເອງ)"</string>
+    <string name="core_manual_protein">"ໂປຣຕີນ %1$s ກຣາມ (ປ້ອນເອງ)"</string>
+    <string name="core_kg_value">"%1$s ກິໂລກຣາມ"</string>
+    <string name="core_cm_value">"%1$s ຊມ"</string>
+    <string name="core_sleep_value">"ການນອນ %1$s"</string>
+    <string name="core_scale_fat">"ໄຂມັນຈາກເຄື່ອງຊັ່ງ %1$s%%"</string>
+    <string name="core_training_value">"ຝຶກອອກກຳລັງ: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"ໂປຣຕີນ %1$s ກຣາມ"</string>
+    <string name="core_app_version">"ບັນທຶກອາຫານ · %1$s"</string>
+    <string name="core_per100_summary">"ຕໍ່ 100 ກຣາມ: %1$s kcal · ໂປຣຕີນ %2$s · ໄຂມັນ %3$s · ຄາໂບໄຮເດຣດ %4$s"</string>
+    <string name="core_range_invalid">"%1$s: ໃສ່ຄ່າຈາກ %2$s ຫາ %3$s"</string>
+    <string name="core_delete_day_question">"ລຶບຄ່າວັດແທກຂອງ %1$s ບໍ? ຄາບອາຫານຍັງຢູ່."</string>
+    <string name="core_catalog_count">"ອາຫານ: %1$s · ຄ່າຕໍ່ 100 ກຣາມ"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   ໂປຣຕີນ %2$s   ໄຂມັນ %3$s   ຄາໂບໄຮເດຣດ %4$s"</string>
+    <string name="core_today_date">"ມື້ນີ້ · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"ແຄລໍຣີ ແລະ ໂປຣຕີນແມ່ນຍອດລວມທີ່ປ້ອນເອງໃນບັນທຶກ"</string>
+    <string name="core_manual_calorie_total" formatted="false">"ແຄລໍຣີແມ່ນຍອດລວມທີ່ປ້ອນເອງໃນບັນທຶກ"</string>
+    <string name="core_manual_protein_total" formatted="false">"ໂປຣຕີນແມ່ນຍອດລວມທີ່ປ້ອນເອງໃນບັນທຶກ"</string>
+    <string name="core_macro_goals">"ເປົ້າໝາຍໂປຣຕີນ / ໄຂມັນ / ຄາໂບໄຮເດຣດ: %1$s / %2$s / %3$s ກຣາມ"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (ປ້ອນເອງ)"</string>
+    <string name="core_all" formatted="false">"ທັງໝົດ"</string>
+    <string name="core_favorites" formatted="false">"ລາຍການມັກ"</string>
+    <string name="core_sleep_duration">"%1$s ຊມ. %2$s ນາທີ"</string>
+    <string name="core_previous_day" formatted="false">"ມື້ກ່ອນ"</string>
+    <string name="core_next_day" formatted="false">"ມື້ຖັດໄປ"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"ສຳເນົາສຳລັບຍ້າຍຂໍ້ມູນບໍ່ກົງກັນ"</string>
+    <string name="data_entry_exists" formatted="false">"ມີບັນທຶກອາຫານນີ້ແລ້ວ"</string>
+    <string name="data_entry_missing" formatted="false">"ບໍ່ພົບບັນທຶກອາຫານ"</string>
+    <string name="data_edited_date_changed" formatted="false">"ວັນທີຂອງລາຍການທີ່ແກ້ໄຂປ່ຽນໄປແລ້ວ"</string>
+    <string name="data_device_id_corrupt" formatted="false">"ລະຫັດອຸປະກອນໃນເຄື່ອງເສຍຫາຍ; ປິດກັ້ນການກູ້ຄືນ"</string>
+    <string name="data_sync_invalid" formatted="false">"ຂໍ້ມູນຊິງຄ໌ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_diary_read_only" formatted="false">"ປົກປ້ອງບັນທຶກຈາກການຂຽນທັບ: ກູ້ຄືນສຳເນົາສຳຮອງ"</string>
+    <string name="data_diary_inconsistent" formatted="false">"ຂໍ້ມູນບັນທຶກບໍ່ສອດຄ່ອງກັນ"</string>
+    <string name="data_backup_too_large" formatted="false">"ສຳເນົາສຳຮອງໃຫຍ່ເກີນໄປ"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ລະຫັດການຕິດຕັ້ງເສຍຫາຍ"</string>
+    <string name="data_save_verification_failed" formatted="false">"ກວດຢືນຢັນການເກັບບັນທຶກບໍ່ສຳເລັດ"</string>
+    <string name="data_save_failed" formatted="false">"ເກັບບັນທຶກບໍ່ສຳເລັດ"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"ສຳເນົາສຳຮອງເກີນ 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"ໄຟລ໌ບັນທຶກໃຫຍ່ເກີນໄປ"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"ຂະໜາດຖານຂໍ້ມູນອາຫານບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"ບໍ່ຮອງຮັບລຸ້ນສຳເນົາສຳຮອງນີ້"</string>
+    <string name="data_too_many_values">"ມີຄ່າຫຼາຍເກີນໄປໃນ %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"ມີອາຫານຫຼາຍເກີນໄປ"</string>
+    <string name="data_too_many_entries" formatted="false">"ມີບັນທຶກອາຫານຫຼາຍເກີນໄປ"</string>
+    <string name="data_too_many_logs" formatted="false">"ມີບັນທຶກປະຈຳມື້ຫຼາຍເກີນໄປ"</string>
+    <string name="data_product_id_duplicate" formatted="false">"ລະຫັດອາຫານຊ້ຳກັນ"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"ລະຫັດບັນທຶກອາຫານຊ້ຳກັນ"</string>
+    <string name="data_log_date_duplicate" formatted="false">"ວັນທີບັນທຶກຊ້ຳກັນ"</string>
+    <string name="data_label_product_id" formatted="false">"ລະຫັດອາຫານ"</string>
+    <string name="data_label_product_name" formatted="false">"ຊື່ອາຫານ"</string>
+    <string name="data_label_category" formatted="false">"ໝວດໝູ່"</string>
+    <string name="data_label_note" formatted="false">"ໝາຍເຫດ"</string>
+    <string name="data_label_entry_id" formatted="false">"ລະຫັດລາຍການ"</string>
+    <string name="data_label_meal" formatted="false">"ຄາບອາຫານ"</string>
+    <string name="data_food_weight_range" formatted="false">"ນ້ຳໜັກອາຫານຕ້ອງຫຼາຍກວ່າ 0 ແລະ ບໍ່ເກີນ 100,000 ກຣາມ"</string>
+    <string name="data_label_weight" formatted="false">"ນ້ຳໜັກ"</string>
+    <string name="data_label_waist" formatted="false">"ຮອບແອວ"</string>
+    <string name="data_steps_range" formatted="false">"ຈຳນວນກ້າວຕ້ອງຢູ່ລະຫວ່າງ 0 ຫາ 200,000"</string>
+    <string name="data_label_sleep" formatted="false">"ການນອນ"</string>
+    <string name="data_label_body_fat" formatted="false">"ໄຂມັນຮ່າງກາຍ"</string>
+    <string name="data_label_daily_calories" formatted="false">"ແຄລໍຣີປະຈຳມື້"</string>
+    <string name="data_label_daily_protein" formatted="false">"ໂປຣຕີນປະຈຳມື້"</string>
+    <string name="data_label_workout" formatted="false">"ການອອກກຳລັງ"</string>
+    <string name="data_label_log_note" formatted="false">"ໝາຍເຫດ"</string>
+    <string name="data_log_empty" formatted="false">"ໃສ່ຄ່າວັດແທກ ຫຼື ໝາຍເຫດຢ່າງໜ້ອຍໜຶ່ງລາຍການ"</string>
+    <string name="data_label_goal_weight" formatted="false">"ນ້ຳໜັກເປົ້າໝາຍ"</string>
+    <string name="data_too_many_achievements" formatted="false">"ມີຄວາມສຳເລັດຫຼາຍເກີນໄປ"</string>
+    <string name="data_achievement_invalid" formatted="false">"ຄວາມສຳເລັດບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_setting_not_portable" formatted="false">"ບໍ່ສາມາດຍ້າຍການຕັ້ງຄ່ານີ້ໄດ້"</string>
+    <string name="data_setting_invalid">"ຄ່າຂອງການຕັ້ງຄ່າ %1$s ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_label_calories" formatted="false">"ແຄລໍຣີ"</string>
+    <string name="data_label_protein" formatted="false">"ໂປຣຕີນ"</string>
+    <string name="data_label_fat" formatted="false">"ໄຂມັນ"</string>
+    <string name="data_label_carbs" formatted="false">"ຄາໂບໄຮເດຣດ"</string>
+    <string name="data_value_range">"%1$s: ຄ່າທີ່ອະນຸຍາດຈາກ %2$s ຫາ %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: ຄວາມຍາວບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_text_character_invalid">"%1$s: ມີຕົວອັກສອນທີ່ບໍ່ອະນຸຍາດ"</string>
+    <string name="data_date_format_invalid" formatted="false">"ວັນທີຕ້ອງເປັນຮູບແບບ ປີປີປີປີ-ເດືອນເດືອນ-ວັນວັນ"</string>
+    <string name="data_date_nonexistent">"ວັນທີບໍ່ຖືກຕ້ອງ: %1$s"</string>
+    <string name="data_field_string_required">"ຊ່ອງ %1$s ຕ້ອງເປັນຂໍ້ຄວາມ"</string>
+    <string name="data_field_boolean_required">"ຊ່ອງ %1$s ຕ້ອງເປັນຄ່າຈິງ ຫຼື ເທັດ"</string>
+    <string name="data_field_number_required">"ຊ່ອງ %1$s ຕ້ອງເປັນຕົວເລກ"</string>
+    <string name="data_field_finite_required">"ຊ່ອງ %1$s ຕ້ອງເປັນຕົວເລກທີ່ມີຄ່າຈຳກັດ"</string>
+    <string name="data_field_integer_required">"ຊ່ອງ %1$s ຕ້ອງເປັນຈຳນວນເຕັມ"</string>
+    <string name="data_too_many_items">"ມີລາຍການຫຼາຍເກີນໄປໃນ %1$s"</string>
+    <string name="data_data_file_invalid">"ໄຟລ໌ຂໍ້ມູນບໍ່ຖືກຕ້ອງ: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"ບໍ່ມີລະຫັດອຸປະກອນ"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"ຮອດຂີດຈຳກັດຂອງໂມງຕັກກະແລ້ວ"</string>
+    <string name="data_too_many_sync_records" formatted="false">"ມີລາຍການຊິງຄ໌ຫຼາຍເກີນໄປ"</string>
+    <string name="data_sync_version_required" formatted="false">"ການຊິງຄ໌ຕ້ອງໃຊ້ຮູບແບບລຸ້ນ 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"ຄີຊິງຄ໌ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"ຄີຊິງຄ໌ຊ້ຳກັນ"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"ເຄື່ອງໝາຍລຶບບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_sync_data_invalid" formatted="false">"ຂໍ້ມູນຊິງຄ໌ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_record_clock_invalid" formatted="false">"ລຸ້ນຂອງລາຍການເກີນໂມງຕັກກະ"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"ຂໍ້ມູນບໍ່ກົງກັບເມຕາດາຕາການຊິງຄ໌"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"ຄວາມຍາວຄີຊິງຄ໌ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_sync_key_malformed" formatted="false">"ຮູບແບບຄີຊິງຄ໌ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_sync_type_unknown" formatted="false">"ປະເພດການຊິງຄ໌ທີ່ບໍ່ຮູ້ຈັກ"</string>
+    <string name="data_record_id_too_long" formatted="false">"ລະຫັດລາຍການຍາວເກີນໄປ"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"ການລຶບຄວາມສຳເລັດບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_log_key_invalid" formatted="false">"ຄີບັນທຶກບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_log_field_unknown" formatted="false">"ຊ່ອງບັນທຶກທີ່ບໍ່ຮູ້ຈັກ"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"ເຄື່ອງໝາຍລຶບບັນທຶກບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_goal_unknown" formatted="false">"ເປົ້າໝາຍທີ່ບໍ່ຮູ້ຈັກ"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"ລາຍການທີ່ລຶບແລ້ວຍັງມີຂໍ້ມູນ"</string>
+    <string name="data_sync_value_invalid" formatted="false">"ຄ່າຊິງຄ໌ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_record_id_mismatch" formatted="false">"ລະຫັດລາຍການບໍ່ກົງກັບຄີ"</string>
+    <string name="data_field_value_invalid" formatted="false">"ຄ່າໃນຊ່ອງບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"ວັນທີຂອງຄວາມສຳເລັດບໍ່ກົງກັບຄີ"</string>
+    <string name="data_note_string_required" formatted="false">"ໝາຍເຫດຕ້ອງເປັນຂໍ້ຄວາມ"</string>
+    <string name="data_sync_note_invalid" formatted="false">"ໝາຍເຫດທີ່ຊິງຄ໌ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"ໂມງຕັກກະບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_device_invalid" formatted="false">"ອຸປະກອນບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"ເຄື່ອງໝາຍລຸ້ນບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_google_login_required" formatted="false">"ເຂົ້າລະບົບ Google ອີກຄັ້ງ"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"ມີສຳເນົາສຳຮອງໃນຄລາວດ໌ຫຼາຍເກີນໄປ"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive ສົ່ງໜ້າຊ້ຳກັນກັບມາ"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"ສຳເນົາໃນຄລາວດ໌ເກີນ 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive ບໍ່ໄດ້ສົ່ງທີ່ຢູ່ອັບໂຫຼດກັບມາ"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"ທີ່ຢູ່ອັບໂຫຼດຂອງ Google Drive ບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_back" formatted="false">"‹  ກັບຄືນ"</string>
+    <string name="data_cloud_title" formatted="false">"ການຊິງຄ໌ກັບຄລາວດ໌"</string>
+    <string name="data_cloud_subtitle" formatted="false">"ບັນທຶກຂອງທ່ານໃນທຸກອຸປະກອນ"</string>
+    <string name="data_no_account" formatted="false">"ຍັງບໍ່ມີບັນຊີເຊື່ອມຕໍ່"</string>
+    <string name="data_cloud_intro" formatted="false">"ການເຂົ້າລະບົບບໍ່ບັງຄັບ. ອາຫານ, ຄາບອາຫານ, ຄ່າວັດແທກ, ເປົ້າໝາຍ ແລະ ຄວາມສຳເລັດເກັບໃນໂທລະສັບ. ຫຼັງເຊື່ອມຕໍ່ ສຳເນົາຈະເກັບໃນໂຟນເດີທີ່ເຊື່ອງໄວ້ໃນ Google Drive ຂອງທ່ານ."</string>
+    <string name="data_cloud_first_connection" formatted="false">"ການເຊື່ອມຕໍ່ຄັ້ງທຳອິດຈະລວມບັນທຶກເຂົ້າກັນ. ແອັບບໍ່ມີສິດເຂົ້າເຖິງໄຟລ໌ອື່ນໃນ Drive."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"ລຸ້ນນີ້ຍັງບໍ່ໄດ້ຕັ້ງຄ່າການເຂົ້າລະບົບ Google. ບັນທຶກ ແລະ ສຳເນົາໃນໄຟລ໌ໃຊ້ໄດ້ໂດຍບໍ່ມີບັນຊີ."</string>
+    <string name="data_connect_google" formatted="false">"ເຊື່ອມຕໍ່ Google"</string>
+    <string name="data_automatic_sync" formatted="false">"ຊິງຄ໌ອັດຕະໂນມັດ"</string>
+    <string name="data_automatic_sync_description" formatted="false">"ເມື່ອມີການປ່ຽນແປງ ແລະ ໃນພື້ນຫຼັງເມື່ອ Android ອະນຸຍາດ"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"ປ່ຽນຕາຕະລາງບໍ່ສຳເລັດ. ຂໍ້ມູນຂອງທ່ານເກັບໃນອຸປະກອນນີ້ແລ້ວ."</string>
+    <string name="data_sync_start_failed" formatted="false">"ເລີ່ມການຊິງຄ໌ບໍ່ສຳເລັດ. ຂໍ້ມູນຂອງທ່ານເກັບໃນອຸປະກອນນີ້ແລ້ວ."</string>
+    <string name="data_sync_now" formatted="false">"ຊິງຄ໌ດຽວນີ້"</string>
+    <string name="data_google_sign_in_again" formatted="false">"ເຂົ້າລະບົບ Google ອີກຄັ້ງ"</string>
+    <string name="data_disconnect_account" formatted="false">"ຕັດການເຊື່ອມຕໍ່ບັນຊີ"</string>
+    <string name="data_sync_never" formatted="false">"ຍັງບໍ່ເຄີຍຊິງຄ໌"</string>
+    <string name="data_offline_saved_title" formatted="false">"ຂໍ້ມູນຂອງທ່ານເກັບໄວ້ແບບອອບລາຍແລ້ວ"</string>
+    <string name="data_cloud_merge_description" formatted="false">"ເມື່ອເປີດການຊິງຄ໌ອັດຕະໂນມັດ ການປ່ຽນແປງຈະຖືກສົ່ງເມື່ອມີການເຊື່ອມຕໍ່. ຖ້າຊ່ອງດຽວກັນຖືກແກ້ໄຂໃນສອງອຸປະກອນ ຈະໃຊ້ລຸ້ນທີ່ມີເວລາແກ້ໄຂຫຼ້າສຸດ. ລາຍການ ແລະ ຊ່ອງທີ່ແຍກກັນຈະຖືກລວມ."</string>
+    <string name="data_cloud_password_description" formatted="false">"ທ່ານປ້ອນລະຫັດຜ່ານສະເພາະໃນໜ້າ Google ໃນບຣາວເຊີ. ໂທເຄັນເຂົ້າເຖິງຖືກປົກປ້ອງໂດຍ Android Keystore ແລະ ບໍ່ລວມໃນສຳເນົາສຳຮອງ."</string>
+    <string name="data_google_connection_title" formatted="false">"ການເຊື່ອມຕໍ່ Google"</string>
+    <string name="data_got_it" formatted="false">"ເຂົ້າໃຈແລ້ວ"</string>
+    <string name="data_connect_drive_title" formatted="false">"ເຊື່ອມຕໍ່ Google Drive ບໍ?"</string>
+    <string name="data_connect_drive_description" formatted="false">"ບັນທຶກປັດຈຸບັນຈະລວມກັບຂໍ້ມູນຂອງບັນຊີ Google ທີ່ເລືອກ. ໃຊ້ບັນຊີສ່ວນຕົວດຽວກັນໃນທຸກອຸປະກອນຂອງທ່ານ. ການເຂົ້າລະບົບຈະເປີດໃນບຣາວເຊີເລີ່ມຕົ້ນ."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"ເປີດການເຂົ້າລະບົບບໍ່ສຳເລັດ. ຕິດຕັ້ງ ຫຼື ເປີດໃຊ້ບຣາວເຊີເລີ່ມຕົ້ນ ແລ້ວລອງອີກຄັ້ງ."</string>
+    <string name="data_continue" formatted="false">"ສືບຕໍ່"</string>
+    <string name="data_cancel" formatted="false">"ຍົກເລີກ"</string>
+    <string name="data_disconnect_title" formatted="false">"ຕັດການເຊື່ອມຕໍ່ບັນຊີບໍ?"</string>
+    <string name="data_disconnect_description" formatted="false">"ການຊິງຄ໌ໃນອຸປະກອນນີ້ຈະຢຸດ. ບັນທຶກໃນເຄື່ອງ ແລະ ສຳເນົາໃນ Google Drive ຍັງຢູ່. ຈັດການສິດຂອງແອັບໄດ້ໃນການຕັ້ງຄ່າບັນຊີ Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"ຕັດການເຊື່ອມຕໍ່ບໍ່ສຳເລັດ. ລອງອີກຄັ້ງ."</string>
+    <string name="data_disconnect" formatted="false">"ຕັດການເຊື່ອມຕໍ່"</string>
+    <string name="data_google_not_connected" formatted="false">"ຍັງບໍ່ເຊື່ອມຕໍ່ Google"</string>
+    <string name="data_sync_ready" formatted="false">"ພ້ອມຊິງຄ໌"</string>
+    <string name="data_sync_changes_pending" formatted="false">"ການປ່ຽນແປງລໍຖ້າການຊິງຄ໌…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"ບໍ່ມີອິນເຕີເນັດ. ເກັບການປ່ຽນແປງໃນອຸປະກອນນີ້ແລ້ວ."</string>
+    <string name="data_google_not_configured" formatted="false">"ລຸ້ນນີ້ຍັງບໍ່ໄດ້ຕັ້ງຄ່າການເຂົ້າລະບົບ Google"</string>
+    <string name="data_sync_wait" formatted="false">"ກະລຸນາລໍຖ້າການຊິງຄ໌ສຳເລັດ"</string>
+    <string name="data_google_connecting" formatted="false">"ກຳລັງເຊື່ອມຕໍ່ Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"ຍົກເລີກການເຊື່ອມຕໍ່ແລ້ວ"</string>
+    <string name="data_connection_rejected" formatted="false">"ການເຊື່ອມຕໍ່ຖືກຍົກເລີກ ຫຼື Google ປະຕິເສດ"</string>
+    <string name="data_google_connected_merging" formatted="false">"ເຊື່ອມຕໍ່ Google ແລ້ວ. ກຳລັງລວມບັນທຶກ…"</string>
+    <string name="data_google_connection_failed" formatted="false">"ເຊື່ອມຕໍ່ Google ບໍ່ສຳເລັດ. ກວດອິນເຕີເນັດ ແລະ ການຕັ້ງຄ່າສິດເຂົ້າເຖິງ."</string>
+    <string name="data_account_disconnected" formatted="false">"ຕັດການເຊື່ອມຕໍ່ບັນຊີແລ້ວ. ຂໍ້ມູນຍັງຢູ່ໃນອຸປະກອນນີ້."</string>
+    <string name="data_sync_waiting_network" formatted="false">"ບໍ່ມີອິນເຕີເນັດ. ການຊິງຄ໌ກຳລັງລໍຖ້າການເຊື່ອມຕໍ່."</string>
+    <string name="data_sync_scheduled" formatted="false">"ກຳນົດເວລາຊິງຄ໌ແລ້ວ…"</string>
+    <string name="data_sync_running" formatted="false">"ກຳລັງຊິງຄ໌…"</string>
+    <string name="data_sync_complete" formatted="false">"ຊິງຄ໌ສຳເລັດ"</string>
+    <string name="data_no_internet" formatted="false">"ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ"</string>
+    <string name="data_sync_failed_saved" formatted="false">"ຊິງຄ໌ບໍ່ສຳເລັດ. ຂໍ້ມູນເກັບໃນອຸປະກອນນີ້ແລ້ວ"</string>
+    <string name="data_page_open_failed" formatted="false">"ເປີດໜ້າບໍ່ສຳເລັດ. ທ່ານສາມາດຄັດລອກທີ່ຢູ່ຈາກຂໍ້ຄວາມຂ້າງລຸ່ມ."</string>
+    <string name="data_privacy_title" formatted="false">"ຄວາມເປັນສ່ວນຕົວ"</string>
+    <string name="data_privacy_subtitle" formatted="false">"ບັນທຶກຂອງທ່ານ ແລະ ການຄວບຄຸມຂໍ້ມູນ"</string>
+    <string name="data_app_purpose" formatted="false">"ກ່ຽວກັບແອັບນີ້"</string>
+    <string name="data_medical_disclaimer" formatted="false">"ແອັບນີ້ບໍ່ແມ່ນອຸປະກອນທາງການແພດ. ບໍ່ໄດ້ວິນິດໄສ, ປິ່ນປົວ, ຮັກສາໃຫ້ຫາຍ ຫຼື ປ້ອງກັນພະຍາດ. ສຳລັບຄຳແນະນຳ, ການວິນິດໄສ ແລະ ການປິ່ນປົວ ກະລຸນາປຶກສາຜູ້ປະກອບວິຊາຊີບສຸຂະພາບທີ່ມີຄຸນສົມບັດ."</string>
+    <string name="data_manage_delete_data" formatted="false">"ຈັດການ ແລະ ລຶບຂໍ້ມູນ"</string>
+    <string name="data_delete_data_intro" formatted="false">"ກ່ອນລຶບຂໍ້ມູນທັງໝົດ ໃຫ້ປິດການຊິງຄ໌ໃນທຸກອຸປະກອນ. ການຖອນການຕິດຕັ້ງແອັບຈາກໂທລະສັບບໍ່ລຶບສຳເນົາໃນ Google Drive ຫຼື ໄຟລ໌ທີ່ສົ່ງອອກ."</string>
+    <string name="data_manage_drive_data" formatted="false">"ຈັດການຂໍ້ມູນ Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"ສິດເຂົ້າເຖິງບັນຊີ Google"</string>
+    <string name="data_android_app_storage" formatted="false">"ພື້ນທີ່ເກັບຂໍ້ມູນແອັບໃນ Android"</string>
+    <string name="data_contact_developer" formatted="false">"ຕິດຕໍ່ຜູ້ພັດທະນາ"</string>
+    <string name="data_opening_page" formatted="false">"ກຳລັງເປີດໜ້າ"</string>
+    <string name="data_advertisement" formatted="false">"ໂຄສະນາ"</string>
+    <string name="data_ad_information" formatted="false">"ກ່ຽວກັບໂຄສະນານີ້"</string>
+    <string name="data_cloud_http_error">"ຂໍ້ຜິດພາດ HTTP ຂອງຄລາວດ໌ %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"ຄຳຕອບຈາກຄລາວດ໌ໃຫຍ່ເກີນໄປ"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"ເຊດຊັນເຂົ້າລະບົບທີ່ເຂົ້າລະຫັດບໍ່ຖືກຕ້ອງ"</string>
+    <string name="data_session_save_failed" formatted="false">"ເກັບເຊດຊັນເຂົ້າລະບົບບໍ່ສຳເລັດ"</string>
+    <string name="data_token_refresh_failed" formatted="false">"ຕໍ່ອາຍຸສິດເຂົ້າເຖິງ Google ບໍ່ສຳເລັດ"</string>
+    <string name="data_diary_read_failed">"ອ່ານບັນທຶກບໍ່ສຳເລັດ. ໄຟລ໌ຕົ້ນສະບັບຍັງຖືກເກັບໄວ້. ກູ້ຄືນຂໍ້ມູນຈາກສຳເນົາສຳຮອງ. %1$s"</string>
+    <string name="data_last_sync">"ຊິງຄ໌ຫຼ້າສຸດ: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"ໝາກໄມ້ ແລະ ເບີຣີ"</string>
+    <string name="data_category_dried_fruit" formatted="false">"ໝາກໄມ້ແຫ້ງ"</string>
+    <string name="data_category_vegetables" formatted="false">"ຜັກ ແລະ ຜັກຫອມ"</string>
+    <string name="data_category_mushrooms" formatted="false">"ເຫັດ"</string>
+    <string name="data_category_grains" formatted="false">"ທັນຍາພືດ ແລະ ພາສຕາ"</string>
+    <string name="data_category_legumes" formatted="false">"ຖົ່ວ"</string>
+    <string name="data_category_meat" formatted="false">"ຊີ້ນ ແລະ ຊີ້ນສັດປີກ"</string>
+    <string name="data_category_fish" formatted="false">"ປາ ແລະ ອາຫານທະເລ"</string>
+    <string name="data_category_dairy" formatted="false">"ຜະລິດຕະພັນນົມ"</string>
+    <string name="data_category_eggs" formatted="false">"ໄຂ່"</string>
+    <string name="data_category_oils" formatted="false">"ນ້ຳມັນ ແລະ ເນີຍ"</string>
+    <string name="data_category_nuts" formatted="false">"ໝາກຖົ່ວ ແລະ ແກ່ນພືດ"</string>
+    <string name="data_category_bread" formatted="false">"ເຂົ້າຈີ່"</string>
+    <string name="data_category_other" formatted="false">"ອາຫານອື່ນ"</string>
+    <string name="data_category_dishes" formatted="false">"ອາຫານປຸງສຳເລັດ"</string>
+    <string name="data_category_custom" formatted="false">"ອາຫານຂອງຂ້ອຍ"</string>
+    <string name="data_category_other_short" formatted="false">"ອື່ນໆ"</string>
+    <string name="data_food_seed_9003" formatted="false">"ແອັບເປິນມີເປືອກ"</string>
+    <string name="data_catalog_note_1">"ຄ່າອ້າງອີງຕໍ່ 100 ກຣາມຂອງສ່ວນທີ່ກິນໄດ້. ອາຫານດິບ. ຄ່າຄາໂບໄຮເດຣດຂອງ USDA ລວມເສັ້ນໃຍ. ທ່ານປັບຄ່າຕາມສະຫຼາກອາຫານໄດ້. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"ກ້ວຍປອກເປືອກ"</string>
+    <string name="data_food_seed_9021" formatted="false">"ແອັບຣິຄອດເອົາແກ່ນອອກ"</string>
+    <string name="data_food_seed_9037" formatted="false">"ເນື້ອອາໂວຄາໂດ"</string>
+    <string name="data_food_seed_9050" formatted="false">"ບລູເບີຣີ"</string>
+    <string name="data_food_seed_9070" formatted="false">"ເຊີຣີຫວານເອົາແກ່ນອອກ"</string>
+    <string name="data_food_seed_9063" formatted="false">"ເຊີຣີສົ້ມເອົາແກ່ນອອກ"</string>
+    <string name="data_food_seed_9078" formatted="false">"ແຄຣນເບີຣີ"</string>
+    <string name="data_food_seed_9083" formatted="false">"ລູກເກດດຳສົດ"</string>
+    <string name="data_food_seed_9084" formatted="false">"ລູກເກດແດງ ແລະ ຂາວສົດ"</string>
+    <string name="data_food_seed_9132" formatted="false">"ໝາກອະງຸ່ນ"</string>
+    <string name="data_food_seed_9148" formatted="false">"ເນື້ອໝາກກີວີ"</string>
+    <string name="data_food_seed_9150" formatted="false">"ເລມອນປອກເປືອກ"</string>
+    <string name="data_food_seed_9181" formatted="false">"ເນື້ອໝາກແຄນຕາລູບ"</string>
+    <string name="data_food_seed_9200" formatted="false">"ເນື້ອໝາກກ້ຽງ"</string>
+    <string name="data_food_seed_9218" formatted="false">"ເນື້ອໝາກສົ້ມແມນດາຣິນ"</string>
+    <string name="data_food_seed_9236" formatted="false">"ໝາກພີດເອົາແກ່ນອອກ"</string>
+    <string name="data_food_seed_9252" formatted="false">"ໝາກແພ"</string>
+    <string name="data_food_seed_9266" formatted="false">"ເນື້ອໝາກນັດ"</string>
+    <string name="data_food_seed_9279" formatted="false">"ໝາກໝັ້ນເອົາແກ່ນອອກ"</string>
+    <string name="data_food_seed_9286" formatted="false">"ເມັດໝາກພິລາ"</string>
+    <string name="data_food_seed_9295" formatted="false">"ເນື້ອໝາກສົ້ມໂອ"</string>
+    <string name="data_food_seed_9302" formatted="false">"ຣາສເບີຣີ"</string>
+    <string name="data_food_seed_9316" formatted="false">"ສະຕໍເບີຣີ"</string>
+    <string name="data_food_seed_9326" formatted="false">"ເນື້ອໝາກໂມ"</string>
+    <string name="data_food_seed_9191" formatted="false">"ເນັກຕາຣິນເອົາແກ່ນອອກ"</string>
+    <string name="data_food_seed_9176" formatted="false">"ເນື້ອໝາກມ່ວງ"</string>
+    <string name="data_food_seed_9107" formatted="false">"ກູສເບີຣີ"</string>
+    <string name="data_food_seed_9226" formatted="false">"ເນື້ອໝາກຫຸ່ງ"</string>
+    <string name="data_food_seed_9089" formatted="false">"ໝາກຟິກສົດ"</string>
+    <string name="data_food_seed_9111" formatted="false">"ເນື້ອເກຣບຟຣຸດ"</string>
+    <string name="data_food_seed_9032" formatted="false">"ແອັບຣິຄອດແຫ້ງເອົາແກ່ນອອກ"</string>
+    <string name="data_catalog_note_2">"ຄ່າອ້າງອີງຕໍ່ 100 ກຣາມຂອງສ່ວນທີ່ກິນໄດ້. ຄ່າຄາໂບໄຮເດຣດຂອງ USDA ລວມເສັ້ນໃຍ. ທ່ານປັບຄ່າຕາມສະຫຼາກອາຫານໄດ້. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"ພຣູນແຫ້ງເອົາແກ່ນອອກ"</string>
+    <string name="data_food_seed_9087" formatted="false">"ອິນທະຜາລຳເອົາແກ່ນອອກ"</string>
+    <string name="data_food_seed_9298" formatted="false">"ອະງຸ່ນແຫ້ງສີເຂັ້ມບໍ່ມີແກ່ນ"</string>
+    <string name="data_food_seed_11529" formatted="false">"ໝາກເລັ່ນສົດ"</string>
+    <string name="data_food_seed_11205" formatted="false">"ໝາກແຕງມີເປືອກ"</string>
+    <string name="data_food_seed_11090" formatted="false">"ບຣອກໂຄລີດິບ"</string>
+    <string name="data_food_seed_11109" formatted="false">"ກະລ່ຳປີຂາວດິບ"</string>
+    <string name="data_food_seed_11124" formatted="false">"ກາລົດດິບ"</string>
+    <string name="data_food_seed_11135" formatted="false">"ດອກກະລ່ຳດິບ"</string>
+    <string name="data_food_seed_11143" formatted="false">"ກ້ານເຊເລີຣີ"</string>
+    <string name="data_food_seed_11282" formatted="false">"ຫົວຜັກບົ່ວດິບ"</string>
+    <string name="data_food_seed_11291" formatted="false">"ຜັກບົ່ວຂຽວ"</string>
+    <string name="data_food_seed_11304" formatted="false">"ຖົ່ວລັນເຕົາດິບ"</string>
+    <string name="data_food_seed_11333" formatted="false">"ໝາກເຜັດຫວານຂຽວ"</string>
+    <string name="data_food_seed_11821" formatted="false">"ໝາກເຜັດຫວານແດງ"</string>
+    <string name="data_food_seed_11352" formatted="false">"ມັນຝຣັ່ງດິບມີເປືອກ"</string>
+    <string name="data_food_seed_11367" formatted="false">"ມັນຝຣັ່ງຕົ້ມປອກເປືອກ"</string>
+    <string name="data_catalog_note_3">"ຄ່າອ້າງອີງຕໍ່ 100 ກຣາມຂອງສ່ວນທີ່ກິນໄດ້. ບໍ່ເພີ່ມເກືອ. ຄ່າຄາໂບໄຮເດຣດຂອງ USDA ລວມເສັ້ນໃຍ. ທ່ານປັບຄ່າຕາມສະຫຼາກອາຫານໄດ້. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"ຊູກິນີດິບ"</string>
+    <string name="data_food_seed_11209" formatted="false">"ໝາກເຂືອມ່ວງດິບ"</string>
+    <string name="data_food_seed_11422" formatted="false">"ໝາກອຶດິບ"</string>
+    <string name="data_food_seed_11429" formatted="false">"ຫົວຣາດິດ"</string>
+    <string name="data_food_seed_11564" formatted="false">"ຫົວເທີນິບດິບ"</string>
+    <string name="data_food_seed_11080" formatted="false">"ຫົວບີດດິບ"</string>
+    <string name="data_food_seed_11081" formatted="false">"ຫົວບີດຕົ້ມ"</string>
+    <string name="data_food_seed_11215" formatted="false">"ຜັກທຽມ"</string>
+    <string name="data_food_seed_11216" formatted="false">"ຫົວຂີງ"</string>
+    <string name="data_food_seed_11457" formatted="false">"ຜັກສະປິນັດດິບ"</string>
+    <string name="data_food_seed_11253" formatted="false">"ຜັກສະຫຼັດໃບ"</string>
+    <string name="data_food_seed_11297" formatted="false">"ຜັກພາສລີສົດ"</string>
+    <string name="data_food_seed_2045" formatted="false">"ຜັກຊີລາວສົດ"</string>
+    <string name="data_food_seed_11052" formatted="false">"ຖົ່ວຂຽວຝັກດິບ"</string>
+    <string name="data_food_seed_11167" formatted="false">"ເມັດສາລີຫວານດິບ"</string>
+    <string name="data_food_seed_11260" formatted="false">"ເຫັດແຊມປິຍອງດິບ"</string>
+    <string name="data_food_seed_11261" formatted="false">"ເຫັດແຊມປິຍອງຕົ້ມບໍ່ໃສ່ເກືອ"</string>
+    <string name="data_food_seed_11987" formatted="false">"ເຫັດນາງລົມດິບ"</string>
+    <string name="data_food_seed_20009" formatted="false">"ເມັດບັກວີດແຫ້ງ"</string>
+    <string name="data_catalog_note_4">"ຄ່າອ້າງອີງຕໍ່ 100 ກຣາມຂອງສ່ວນທີ່ກິນໄດ້. ເມັດບັກວີດຄົ່ວ. ຄ່າຄາໂບໄຮເດຣດຂອງ USDA ລວມເສັ້ນໃຍ. ທ່ານປັບຄ່າຕາມສະຫຼາກອາຫານໄດ້. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"ບັກວີດຕົ້ມນ້ຳ"</string>
+    <string name="data_food_seed_20444" formatted="false">"ເຂົ້າຂາວສານແຫ້ງ"</string>
+    <string name="data_food_seed_20445" formatted="false">"ເຂົ້າຂາວຫຸງບໍ່ໃສ່ເກືອ"</string>
+    <string name="data_food_seed_20036" formatted="false">"ເຂົ້າກ້ອງສານແຫ້ງ"</string>
+    <string name="data_food_seed_20037" formatted="false">"ເຂົ້າກ້ອງຫຸງ"</string>
+    <string name="data_food_seed_8120" formatted="false">"ເຂົ້າໂອດແຜ່ນແຫ້ງ"</string>
+    <string name="data_food_seed_8121" formatted="false">"ໂຈ໊ກເຂົ້າໂອດຕົ້ມນ້ຳບໍ່ໃສ່ເກືອ"</string>
+    <string name="data_food_seed_20005" formatted="false">"ເຂົ້າບາເລຂັດແຫ້ງ"</string>
+    <string name="data_food_seed_20006" formatted="false">"ເຂົ້າບາເລຂັດຕົ້ມ"</string>
+    <string name="data_food_seed_20031" formatted="false">"ເຂົ້າຟ່າງແຫ້ງ"</string>
+    <string name="data_food_seed_20032" formatted="false">"ເຂົ້າຟ່າງຕົ້ມ"</string>
+    <string name="data_food_seed_20420" formatted="false">"ພາສຕາແຫ້ງ"</string>
+    <string name="data_food_seed_20421" formatted="false">"ພາສຕາຕົ້ມບໍ່ໃສ່ເກືອ"</string>
+    <string name="data_food_seed_16070" formatted="false">"ຖົ່ວເລນທິນຕົ້ມບໍ່ໃສ່ເກືອ"</string>
+    <string name="data_food_seed_16057" formatted="false">"ຖົ່ວລູກໄກ່ຕົ້ມບໍ່ໃສ່ເກືອ"</string>
+    <string name="data_food_seed_16033" formatted="false">"ຖົ່ວແດງຕົ້ມບໍ່ໃສ່ເກືອ"</string>
+    <string name="data_food_seed_5062" formatted="false">"ເອິກໄກ່ດິບບໍ່ມີໜັງ"</string>
+    <string name="data_food_seed_5064" formatted="false">"ເອິກໄກ່ອົບບໍ່ມີໜັງ"</string>
+    <string name="data_food_seed_5219" formatted="false">"ເອິກໄກ່ງວງດິບບໍ່ມີໜັງ"</string>
+    <string name="data_food_seed_5220" formatted="false">"ເອິກໄກ່ງວງອົບບໍ່ມີໜັງ"</string>
+    <string name="data_food_seed_23562" formatted="false">"ຊີ້ນງົວບົດໄຂມັນ 10%, ດິບ"</string>
+    <string name="data_food_seed_23566" formatted="false">"ຊີ້ນງົວບົດໄຂມັນ 10%, ອົບ"</string>
+    <string name="data_food_seed_10060" formatted="false">"ສັນໃນໝູດິບເອົາໄຂມັນທີ່ເຫັນອອກ"</string>
+    <string name="data_food_seed_10061" formatted="false">"ສັນໃນໝູອົບ"</string>
+    <string name="data_food_seed_15236" formatted="false">"ປາແຊລມອນແອດແລນຕິກດິບ"</string>
+    <string name="data_catalog_note_5">"ຄ່າອ້າງອີງຕໍ່ 100 ກຣາມຂອງສ່ວນທີ່ກິນໄດ້. ອາຫານດິບ. ຈາກການລ້ຽງ. ຄ່າຄາໂບໄຮເດຣດຂອງ USDA ລວມເສັ້ນໃຍ. ທ່ານປັບຄ່າຕາມສະຫຼາກອາຫານໄດ້. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"ປາແຊລມອນແອດແລນຕິກອົບ"</string>
+    <string name="data_catalog_note_6">"ຄ່າອ້າງອີງຕໍ່ 100 ກຣາມຂອງສ່ວນທີ່ກິນໄດ້. ຈາກການລ້ຽງ. ຄ່າຄາໂບໄຮເດຣດຂອງ USDA ລວມເສັ້ນໃຍ. ທ່ານປັບຄ່າຕາມສະຫຼາກອາຫານໄດ້. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"ປາຄອດແອດແລນຕິກດິບ"</string>
+    <string name="data_food_seed_15266" formatted="false">"ປາພອລລັອກອາລາສກາດິບ"</string>
+    <string name="data_food_seed_15121" formatted="false">"ປາທູນາກະປ໋ອງໃນນ້ຳ, ຖອກນ້ຳອອກ"</string>
+    <string name="data_food_seed_15271" formatted="false">"ກຸ້ງຕົ້ມປອກເປືອກ"</string>
+    <string name="data_food_seed_1211" formatted="false">"ນົມໄຂມັນ 3.25%"</string>
+    <string name="data_food_seed_1174" formatted="false">"ນົມໄຂມັນ 2%"</string>
+    <string name="data_food_seed_1082" formatted="false">"ນົມໄຂມັນ 1%"</string>
+    <string name="data_food_seed_1116" formatted="false">"ໂຢເກີດນົມເຕັມມັນເນີຍລົດທຳມະດາ"</string>
+    <string name="data_food_seed_1256" formatted="false">"ໂຢເກີດກຣີກບໍ່ມີໄຂມັນ"</string>
+    <string name="data_food_seed_1015" formatted="false">"ເນີຍແຂງຄອດເທດໄຂມັນ 2%"</string>
+    <string name="data_catalog_note_7">"ຄ່າອ້າງອີງຕໍ່ 100 ກຣາມຂອງສ່ວນທີ່ກິນໄດ້. ເນີຍແຂງຄອດເທດແບບເມັດ; ເນີຍແຂງສົດຊະນິດອື່ນມີຄ່າຕ່າງກັນ. ຄ່າຄາໂບໄຮເດຣດຂອງ USDA ລວມເສັ້ນໃຍ. ທ່ານປັບຄ່າຕາມສະຫຼາກອາຫານໄດ້. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"ຄຣີມສົ້ມໄຂມັນປະມານ 19%"</string>
+    <string name="data_food_seed_1009" formatted="false">"ເນີຍແຂງເຊດດາ"</string>
+    <string name="data_food_seed_1026" formatted="false">"ເນີຍແຂງມອດຊາເຣລລາຈາກນົມເຕັມມັນເນີຍ"</string>
+    <string name="data_food_seed_1019" formatted="false">"ເນີຍແຂງເຟຕາ"</string>
+    <string name="data_food_seed_1123" formatted="false">"ໄຂ່ໄກ່ດິບບໍ່ມີເປືອກ"</string>
+    <string name="data_food_seed_1129" formatted="false">"ໄຂ່ໄກ່ຕົ້ມບໍ່ມີເປືອກ"</string>
+    <string name="data_food_seed_1124" formatted="false">"ໄຂ່ຂາວໄກ່ດິບ"</string>
+    <string name="data_food_seed_1001" formatted="false">"ເນີຍເຄັມ"</string>
+    <string name="data_food_seed_4053" formatted="false">"ນ້ຳມັນໝາກກອກ"</string>
+    <string name="data_food_seed_4506" formatted="false">"ນ້ຳມັນດອກຕາເວັນ"</string>
+    <string name="data_food_seed_12061" formatted="false">"ແອລມອນ"</string>
+    <string name="data_food_seed_12155" formatted="false">"ເນື້ອໝາກວອລນັດ"</string>
+    <string name="data_food_seed_12120" formatted="false">"ເນື້ອໝາກເຮເຊລນັດ"</string>
+    <string name="data_food_seed_12151" formatted="false">"ເນື້ອພິສຕາຊິໂອດິບ"</string>
+    <string name="data_food_seed_12014" formatted="false">"ແກ່ນໝາກອຶແຫ້ງປອກເປືອກ"</string>
+    <string name="data_food_seed_16087" formatted="false">"ຖົ່ວດິນດິບປອກເປືອກ"</string>
+    <string name="data_food_seed_18069" formatted="false">"ເຂົ້າຈີ່ຂາວຈາກເຂົ້າສາລີ"</string>
+    <string name="data_food_seed_18075" formatted="false">"ເຂົ້າຈີ່ເຂົ້າສາລີເຕັມເມັດ"</string>
+    <string name="data_food_seed_18060" formatted="false">"ເຂົ້າຈີ່ເຂົ້າໄຣ"</string>
+    <string name="data_food_seed_19296" formatted="false">"ນ້ຳເຜິ້ງ"</string>
+    <string name="data_food_seed_19335" formatted="false">"ນ້ຳຕານ"</string>
+    <string name="data_food_seed_19165" formatted="false">"ຜົງໂກໂກ້ບໍ່ໃສ່ນ້ຳຕານ"</string>
+    <string name="data_food_seed_19904" formatted="false">"ຊັອກໂກແລັດດຳໂກໂກ້ 70–85%"</string>
+    <string name="data_meal_breakfast" formatted="false">"ອາຫານເຊົ້າ"</string>
+    <string name="data_meal_lunch" formatted="false">"ອາຫານທ່ຽງ"</string>
+    <string name="data_meal_dinner" formatted="false">"ອາຫານແລງ"</string>
+    <string name="data_meal_snack" formatted="false">"ອາຫານວ່າງ"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ — Diet Diary\nປັບປຸງຫຼ້າສຸດ: 9 ຕຸລາ 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"ແອັບ: Diet Diary («Дневник диеты: подсчёт калорий»), ແພັກເກດ ru.dietdiary.offline.\nຜູ້ພັດທະນາ: Efreitor2001. ຕິດຕໍ່ເລື່ອງຄວາມເປັນສ່ວນຕົວໄດ້ທີ່ https://github.com/Efreitor2001/kkalcal/issues . ໜ້ານີ້ເປັນສາທາລະນະ; ຢ່າເຜີຍແຜ່ຂໍ້ມູນສຸຂະພາບ, ສຳເນົາສຳຮອງ, ລະຫັດຜ່ານ ຫຼື ໂທເຄັນເຂົ້າເຖິງ."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. ບັນທຶກໃນອຸປະກອນ\nແອັບໃຊ້ງານໄດ້ໂດຍບໍ່ລົງທະບຽນ. ຂໍ້ມູນທີ່ທ່ານປ້ອນຈະເກັບໃນອຸປະກອນ: ວັດຖຸດິບ, ອາຫານປຸງສຳເລັດ, ຄຸນຄ່າອາຫານ, ປະລິມານທີ່ກິນ, ວັນທີ, ນ້ຳໜັກ, ຮອບແອວ, ເປີເຊັນໄຂມັນ, ກ້າວຍ່າງ, ການນອນ, ລາຍລະອຽດການຝຶກ, ໝາຍເຫດ, ເປົ້າໝາຍ, ຄວາມສຳເລັດ ແລະ ການຕັ້ງຄ່າ. ຊ່ອງທີ່ບໍ່ບັງຄັບສາມາດປະໄວ້ຫວ່າງ. ຂໍ້ມູນນີ້ປ້ອນດ້ວຍຕົນເອງ; ແອັບບໍ່ອ່ານຈາກ Health Connect, ເຊັນເຊີກິດຈະກຳ ຫຼື ອຸປະກອນການແພດ."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"ຂໍ້ມູນບັນທຶກໃຊ້ເພື່ອຄຳນວນແຄລໍຣີ ແລະ ສານອາຫານ, ສະແດງປະຫວັດ ແລະ ກຣາຟ, ແລະ ຕິດຕາມຄວາມສຳເລັດ. ຜູ້ພັດທະນາບໍ່ມີເຊີບເວີທີ່ຮັບບັນທຶກນີ້. ຖ້າທ່ານບໍ່ເຊື່ອມຕໍ່ Google Drive ແລະ ບໍ່ແບ່ງປັນສຳເນົາສຳຮອງ ບັນທຶກຈະຢູ່ໃນອຸປະກອນຂອງທ່ານ."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. ການຊິງຄ໌ກັບ Google Drive ແບບທາງເລືອກ\nການເຊື່ອມຕໍ່ເລີ່ມຕາມຄຳຂໍຂອງທ່ານ. ແອັບເປີດການເຂົ້າລະບົບ Google ໃນບຣາວເຊີເລີ່ມຕົ້ນ ແລະ ຂໍສິດເຂົ້າເຖິງສະເພາະຂໍ້ມູນແອັບຂອງຕົນເອງທີ່ເຊື່ອງໄວ້ໃນ Google Drive. ບໍ່ຂໍສິດເຂົ້າເຖິງໄຟລ໌ທົ່ວໄປ, ຮູບພາບ ຫຼື ເອກະສານຂອງທ່ານໃນ Drive."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"ເມື່ອເຊື່ອມຕໍ່ Google Drive ແອັບຈະສົ່ງວັດຖຸດິບ ແລະ ອາຫານ, ບັນທຶກການກິນ, ຄ່າວັດແທກຮ່າງກາຍ, ກິດຈະກຳ, ການນອນ, ໝາຍເຫດ, ເປົ້າໝາຍ, ຄວາມສຳເລັດ, ການຕັ້ງຄ່າທີ່ຍ້າຍໄດ້ ແລະ ເມຕາດາຕາການປ່ຽນແປງໄປ Google, ລວມທັງລະຫັດການຕິດຕັ້ງແບບສຸ່ມ ແລະ ເວລາການປ່ຽນແປງ. ຂໍ້ມູນເຫຼົ່ານີ້ໃຊ້ສ້າງສຳເນົາຕາມຈຸດເວລາ ແລະ ລວມການປ່ຽນແປງຈາກອຸປະກອນຂອງທ່ານ. ຖ້າເປີດການຊິງຄ໌ອັດຕະໂນມັດ ມັນອາດເຮັດວຽກໃນພື້ນຫຼັງເມື່ອມີອິນເຕີເນັດ; ສາມາດປິດແຍກໄດ້."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"ແອັບຮັບອີເມວ ແລະ ລະຫັດບັນຊີ Google ຂອງທ່ານເພື່ອສະແດງການເຊື່ອມຕໍ່ ແລະ ຜູກບ່ອນເກັບຂໍ້ມູນຄລາວດ໌ກັບບັນຊີທີ່ຖືກຕ້ອງ. ແອັບບໍ່ຮັບລະຫັດຜ່ານ Google. ເຊດຊັນອະນຸຍາດໃນເຄື່ອງຖືກເຂົ້າລະຫັດດ້ວຍ Android Keystore. ໂທເຄັນເຂົ້າເຖິງ, ອີເມວ ແລະ ລະຫັດບັນຊີ Google ບໍ່ລວມໃນໄຟລ໌ JSON ທີ່ສົ່ງອອກ ຫຼື ສຳເນົາບັນທຶກທີ່ຊິງຄ໌."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"ຂໍ້ມູນທີ່ຮັບຈາກ Google ໃຊ້ສະເພາະການອະນຸຍາດ ແລະ ການຊິງຄ໌; ບໍ່ໃຊ້ເພື່ອໂຄສະນາ. ການປະມວນຜົນຂໍ້ມູນຂອງ Google ອະທິບາຍໄວ້ທີ່ https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. ໄຟລ໌ສຳເນົາສຳຮອງ\n“ເກັບເປັນໄຟລ໌” ສ້າງໄຟລ໌ JSON ໃນບ່ອນທີ່ທ່ານເລືອກ. ການກູ້ຄືນອ່ານສະເພາະໄຟລ໌ທີ່ທ່ານເລືອກ. ຖ້າເລືອກຜູ້ໃຫ້ບໍລິການຄລາວດ໌ ຫຼື ແບ່ງປັນໄຟລ໌ ທ່ານເປັນຜູ້ເລືອກຜູ້ຮັບ. ໄຟລ໌ JSON ທີ່ສົ່ງອອກບໍ່ເຂົ້າລະຫັດ ແລະ ອາດມີຂໍ້ມູນບັນທຶກສ່ວນຕົວ ແລະ ເມຕາດາຕາການປ່ຽນແປງ."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. ໂຄສະນາ\nແອັບໃຊ້ Yandex Mobile Ads SDK. ໃນການໂຫຼດໂຄສະນາ ອຸປະກອນຈະເຊື່ອມຕໍ່ບໍລິການໂຄສະນາ. Yandex ອາດປະມວນຜົນທີ່ຢູ່ IP, ຄຳຂໍເຄືອຂ່າຍ, ລາຍລະອຽດທາງເຕັກນິກຂອງອຸປະກອນ ແລະ ຊອບແວ, ລະຫັດໂຄສະນາ ແລະ ລະຫັດທາງເຕັກນິກທີ່ມີ, ລວມທັງຂໍ້ມູນການສະແດງ ແລະ ການໂຕ້ຕອບກັບໂຄສະນາ."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"ແອັບແຈ້ງ SDK ວ່າບໍ່ມີຄວາມຍິນຍອມສຳລັບໂຄສະນາສ່ວນບຸກຄົນ, ປິດການເກັບຕຳແໜ່ງ ແລະ App Ad Analytics, ແລະ ບໍ່ຂໍສິດຕຳແໜ່ງທີ່ແນ່ນອນ ຫຼື ໂດຍປະມານ. ນີ້ບໍ່ໄດ້ໝາຍຄວາມວ່າບໍ່ມີຄຳຂໍເຄືອຂ່າຍ ຫຼື SDK ໂຄສະນາບໍ່ປະມວນຜົນຂໍ້ມູນທາງເຕັກນິກເລີຍ."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"ບັນທຶກອາຫານ, ນ້ຳໜັກ, ຄ່າວັດແທກຮ່າງກາຍ, ໝາຍເຫດ, ເປົ້າໝາຍ, ອີເມວ ແລະ ລະຫັດບັນຊີ Google ບໍ່ຖືກໃຊ້ເພື່ອກຳນົດເປົ້າໝາຍໂຄສະນາ ຫຼື ສົ່ງເປັນພາຣາມິເຕີໃນຄຳຂໍໂຄສະນາ. ທ່ານບໍ່ຕ້ອງເບິ່ງໂຄສະນາເພື່ອເກັບບັນທຶກ."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"ການປະມວນຜົນຂໍ້ມູນຂອງ Yandex ອະທິບາຍໄວ້ທີ່ https://yandex.ru/legal/confidential/ . ຖ້າອຸປະກອນຮອງຮັບ ທ່ານຈັດການລະຫັດໂຄສະນາໄດ້ໃນການຕັ້ງຄ່າ Android. ໄລຍະເກັບຂໍ້ມູນໂຄສະນາທາງເຕັກນິກກຳນົດໂດຍຜູ້ໃຫ້ບໍລິການ, ບໍ່ແມ່ນຜູ້ພັດທະນາບັນທຶກ."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. ການປົກປ້ອງຂໍ້ມູນ\nການຕິດຕໍ່ Google ໃຊ້ HTTPS ແລະ SDK ໂຄສະນາໃຊ້ກົນໄກ HTTPS/TLS ຂອງຜູ້ໃຫ້ບໍລິການ. ໄຟລ໌ໃນເຄື່ອງຖືກປົກປ້ອງໂດຍການແຍກແອັບຂອງ Android. ບັນທຶກ ແລະ ໄຟລ໌ JSON ທີ່ສົ່ງອອກບໍ່ມີຊັ້ນເຂົ້າລະຫັດແຍກໃນແອັບ; ການຊິງຄ໌ບໍ່ມີການເຂົ້າລະຫັດຕົ້ນທາງຫາປາຍທາງລະຫວ່າງອຸປະກອນ."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"ປິດການສຳຮອງຂໍ້ມູນແອັບຂອງລະບົບແລ້ວ. ລັອກຂອງແອັບມີລະຫັດຜົນລັບ ແຕ່ບໍ່ມີບັນທຶກອາຫານ, ອີເມວ, ໂທເຄັນ ຫຼື ເນື້ອຫາຄຳຕອບເຄືອຂ່າຍ. ແອັບບໍ່ສົ່ງລັອກເຫຼົ່ານີ້ໃຫ້ຜູ້ພັດທະນາແຍກຕ່າງຫາກ."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. ການເກັບຮັກສາ ແລະ ການລຶບ\nບັນທຶກໃນເຄື່ອງຈະຢູ່ຈົນທ່ານແກ້ໄຂ, ລຶບ ຫຼື ລ້າງຂໍ້ມູນແອັບ. ການລຶບໃນໜ້າແອັບເອົາລາຍການອອກຈາກບັນທຶກ ແລະ ສົ່ງເຄື່ອງໝາຍລຶບເມື່ອຊິງຄ໌. ເມຕາດາຕາການລວມອາດຖືກເກັບໄວ້ເພື່ອບໍ່ໃຫ້ລາຍການທີ່ລຶບກັບຄືນ; ມັນອາດມີຄ່າເກົ່າຂອງລາຍການທີ່ລຶບ. ສຳເນົາເກົ່າໃນຄລາວດ໌ ແລະ ໄຟລ໌ທີ່ສົ່ງອອກອາດຍັງມີຄ່າເກົ່າ. ການລຶບໜຶ່ງລາຍການບໍ່ລຶບທຸກສຳເນົາຂອງມັນອັດຕະໂນມັດ."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“ຕັດການເຊື່ອມຕໍ່” ຢຸດການຊິງຄ໌ໃນອຸປະກອນນີ້ ແລະ ລຶບເຊດຊັນ Google ໃນເຄື່ອງ. ບັນທຶກໃນເຄື່ອງ ແລະ ສຳເນົາໃນ Google Drive ຍັງຢູ່. ການນີ້ບໍ່ລຶບບັນຊີ Google ຂອງທ່ານ."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"ເພື່ອລຶບຂໍ້ມູນແອັບນີ້ທັງໝົດ:\n• ປິດການຊິງຄ໌ໃນທຸກອຸປະກອນ ເພື່ອບໍ່ໃຫ້ສຳເນົາທີ່ເຫຼືອຖືກອັບໂຫຼດອີກ.\n• ເປີດ https://drive.google.com/drive/settings ໃນບຣາວເຊີດ້ວຍບັນຊີ Google ທີ່ເຄີຍເຊື່ອມຕໍ່. ເລືອກການຈັດການແອັບ, ຊອກຫາ Diet Diary («Дневник диеты»), ແລ້ວເລືອກລຶບຂໍ້ມູນແອັບທີ່ເຊື່ອງໄວ້ໃນຕົວເລືອກ. ຖ້າໜ້າໂທລະສັບບໍ່ສະແດງພາກນີ້ ໃຊ້ເວັບໄຊແບບຄອມພິວເຕີ ຫຼື ໃຊ້ຄອມພິວເຕີ.\n• ຖອນສິດຂອງແອັບທີ່ https://myaccount.google.com/connections . ການຖອນສິດຢ່າງດຽວບໍ່ລຶບສຳເນົາທີ່ເກັບໄວ້.\n• ລ້າງພື້ນທີ່ເກັບຂໍ້ມູນແອັບໃນການຕັ້ງຄ່າ Android ໃນແຕ່ລະອຸປະກອນ ຫຼື ຖອນການຕິດຕັ້ງແອັບ.\n• ລຶບສຳເນົາ JSON ທີ່ສົ່ງອອກແຍກຕ່າງຫາກຈາກໂຟນເດີ ແລະ ບ່ອນເກັບຄລາວດ໌ທີ່ທ່ານເລືອກ."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"ຖ້າບໍ່ມີຂໍ້ມູນເຂົ້າລະບົບຂອງທ່ານ ຜູ້ພັດທະນາບໍ່ສາມາດລຶບບັນທຶກໃນເຄື່ອງ ຫຼື ໄຟລ໌ໃນ Google Drive ສ່ວນຕົວຈາກໄລຍະໄກໄດ້. ຢ່າສົ່ງລະຫັດຜ່ານ ຫຼື ໂທເຄັນເຂົ້າເຖິງ. ຖ້າຕ້ອງການຄວາມຊ່ວຍເຫຼືອ ໃຊ້ຊ່ອງທາງຕິດຕໍ່ຕອນຕົ້ນຂອງນະໂຍບາຍ. ບໍ່ຈຳເປັນຕ້ອງລຶບບັນຊີ Google ເພື່ອລຶບຂໍ້ມູນແອັບ."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. ການປ່ຽນແປງ ແລະ ການຕິດຕໍ່\nນະໂຍບາຍອາດຖືກປັບປຸງເມື່ອຟັງຊັນ ຫຼື ວິທີປະມວນຜົນຂໍ້ມູນປ່ຽນໄປ; ວັນທີລຸ້ນຫຼ້າສຸດລະບຸໄວ້ຕອນຕົ້ນ. ສຳລັບຄຳຖາມກ່ຽວກັບການເຂົ້າເຖິງ, ແກ້ໄຂ, ລຶບ ຫຼື ການໃຊ້ແອັບ ໃຫ້ໃຊ້ຊ່ອງທາງຕິດຕໍ່ຂອງໂຄງການ. ຄຳຂໍຂອງທ່ານຖືກປະມວນຜົນເພື່ອຕອບກັບ ແລະ ເກັບຕາມນະໂຍບາຍ GitHub: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"ອາຫານປຸງສຳເລັດຂອງຂ້ອຍ"</string>
+    <string name="secondary_metric_weight" formatted="false">"ນ້ຳໜັກ"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"ໄຂມັນຮ່າງກາຍ"</string>
+    <string name="secondary_metric_waist" formatted="false">"ຮອບແອວ"</string>
+    <string name="secondary_metric_steps" formatted="false">"ກ້າວຍ່າງ"</string>
+    <string name="secondary_metric_sleep" formatted="false">"ການນອນ"</string>
+    <string name="secondary_metric_kcal" formatted="false">"ແຄລໍຣີ"</string>
+    <string name="secondary_metric_protein" formatted="false">"ໂປຣຕີນ"</string>
+    <string name="secondary_metric_fat" formatted="false">"ໄຂມັນ"</string>
+    <string name="secondary_metric_carbs" formatted="false">"ຄາໂບໄຮເດຣດ"</string>
+    <string name="secondary_unit_kg" formatted="false">"ກິໂລກຣາມ"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"ຊມ"</string>
+    <string name="secondary_unit_steps" formatted="false">"ກ້າວ"</string>
+    <string name="secondary_unit_hours" formatted="false">"ຊມ."</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"ກຣາມ"</string>
+    <string name="secondary_invalid_period" formatted="false">"ໄລຍະເວລາບໍ່ຖືກຕ້ອງ"</string>
+    <string name="secondary_stats_title" formatted="false">"ແນວໂນ້ມ"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"ຂໍ້ມູນຂອງທ່ານໃນກຣາຟທີ່ຊັດເຈນ"</string>
+    <string name="secondary_metric" formatted="false">"ຕົວຊີ້ວັດ"</string>
+    <string name="secondary_week" formatted="false">"ອາທິດ"</string>
+    <string name="secondary_month" formatted="false">"ເດືອນ"</string>
+    <string name="secondary_year" formatted="false">"ປີ"</string>
+    <string name="secondary_custom_period" formatted="false">"ເລືອກໄລຍະເວລາ"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"ວັນເລີ່ມຕົ້ນບໍ່ສາມາດຢູ່ຫຼັງວັນສິ້ນສຸດ"</string>
+    <string name="secondary_no_records" formatted="false">"ຍັງບໍ່ມີຂໍ້ມູນ"</string>
+    <string name="secondary_empty_food_period" formatted="false">"ເພີ່ມອາຫານໃສ່ບັນທຶກ ຫຼື ເລືອກໄລຍະເວລາອື່ນ."</string>
+    <string name="secondary_chart_tap" formatted="false">"ແຕະກຣາຟເພື່ອເລືອກລາຍການ"</string>
+    <string name="secondary_chart_connected" formatted="false">"ເສັ້ນເຊື່ອມຄ່າວັດແທກທີ່ບັນທຶກໄວ້. ບໍ່ມີຄ່າວັດແທກລະຫວ່າງຈຸດເຫຼົ່ານີ້."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"ຄ່າປະມານຈາກເຄື່ອງຊັ່ງມີປະໂຫຍດໃນການຕິດຕາມແນວໂນ້ມ."</string>
+    <string name="secondary_food_override_hint" formatted="false">"ຍອດລວມປະຈຳມື້ທີ່ປ້ອນເອງຈະແທນທີ່ຜົນລວມຈາກອາຫານ. ຖ້າບໍ່ປ້ອນ ຈະລວມຈາກອາຫານທີ່ບັນທຶກ. ມື້ທີ່ບໍ່ມີຂໍ້ມູນຈະຖືກຂ້າມ."</string>
+    <string name="secondary_food_total_hint" formatted="false">"ຍອດລວມຄຳນວນຈາກອາຫານທີ່ບັນທຶກ. ມື້ທີ່ບໍ່ມີຂໍ້ມູນບໍ່ຖືວ່າເປັນສູນ."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"ມື້ທີ່ບໍ່ມີຂໍ້ມູນຈະຖືກຂ້າມ ແລະ ບໍ່ລວມໃນຄ່າສະເລ່ຍ."</string>
+    <string name="secondary_today_yesterday" formatted="false">"ມື້ນີ້ ແລະ ມື້ວານ"</string>
+    <string name="secondary_no_today" formatted="false">"ບໍ່ມີຂໍ້ມູນມື້ນີ້"</string>
+    <string name="secondary_no_yesterday" formatted="false">"ບໍ່ມີຂໍ້ມູນມື້ວານ"</string>
+    <string name="secondary_partial_today" formatted="false">"ການປຽບທຽບໃຊ້ຂໍ້ມູນປັດຈຸບັນ. ຂໍ້ມູນມື້ນີ້ອາດຍັງບໍ່ຄົບ."</string>
+    <string name="secondary_period_summary" formatted="false">"ສະຫຼຸບໄລຍະເວລາ"</string>
+    <string name="secondary_recorded_average" formatted="false">"ຄ່າສະເລ່ຍຂອງມື້ທີ່ບັນທຶກ"</string>
+    <string name="secondary_recorded_days" formatted="false">"ມື້ທີ່ມີຂໍ້ມູນ"</string>
+    <string name="secondary_minimum" formatted="false">"ຕ່ຳສຸດ"</string>
+    <string name="secondary_maximum" formatted="false">"ສູງສຸດ"</string>
+    <string name="secondary_first_to_last" formatted="false">"ຈາກລາຍການທຳອິດເຖິງລາຍການສຸດທ້າຍ"</string>
+    <string name="secondary_two_days_needed" formatted="false">"ຕ້ອງມີຂໍ້ມູນຢ່າງໜ້ອຍສອງມື້ເພື່ອຄຳນວນການປ່ຽນແປງ."</string>
+    <string name="secondary_history" formatted="false">"ປະຫວັດ"</string>
+    <string name="secondary_history_recent" formatted="false">"14 ມື້ຫຼ້າສຸດທີ່ມີຂໍ້ມູນ. ເລືອກໄລຍະເວລາເອງເພື່ອເບິ່ງລາຍການເກົ່າກວ່າ."</string>
+    <string name="secondary_history_all" formatted="false">"ທຸກມື້ທີ່ບັນທຶກໃນໄລຍະເວລາທີ່ເລືອກ"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"ຈາກ %1$s"</string>
+    <string name="secondary_date_until">"ເຖິງ %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s ໃນໄລຍະນີ້"</string>
+    <string name="secondary_weight_goal">"ເປົ້າໝາຍ: %1$s ກິໂລກຣາມ"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"ເພີ່ມຄ່າວັດແທກໃສ່ບັນທຶກ ຫຼື ເລືອກໄລຍະເວລາອື່ນ."</string>
+    <string name="secondary_latest_record">"ລາຍການຫຼ້າສຸດ · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"ມື້ນີ້: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"ມື້ວານ: %1$s %2$s"</string>
+    <string name="secondary_change_value">"ການປ່ຽນແປງ: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d ຈາກ %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. ມື້ທີ່ບັນທຶກ: %2$d, ຈາກ %3$s ເຖິງ %4$s. ຕ່ຳສຸດ %5$s, ສູງສຸດ %6$s %7$s. ຄ່າລະອຽດຢູ່ໃນປະຫວັດ."</string>
+    <string name="secondary_award_first_weight" formatted="false">"ກ້າວທຳອິດ"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"ບັນທຶກນ້ຳໜັກຄັ້ງທຳອິດ."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"ບັນທຶກນ້ຳໜັກຄັ້ງທຳອິດແລ້ວ."</string>
+    <string name="secondary_award_first_food" formatted="false">"ບັນທຶກທຳອິດ"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"ບັນທຶກອາຫານສ່ວນທຳອິດ."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"ບັນທຶກອາຫານສ່ວນທຳອິດແລ້ວ."</string>
+    <string name="secondary_award_weight_week" formatted="false">"ໜຶ່ງອາທິດຂອງຂໍ້ມູນ"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"ບັນທຶກນ້ຳໜັກໃນ 7 ມື້ທີ່ຕ່າງກັນ. ບໍ່ຈຳເປັນຕ້ອງຕິດຕໍ່ກັນ."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"ທ່ານມີຄ່ານ້ຳໜັກຈາກ 7 ມື້ທີ່ຕ່າງກັນ."</string>
+    <string name="secondary_award_weight_month" formatted="false">"ຄວາມສະໝ່ຳສະເໝີ"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"ບັນທຶກນ້ຳໜັກໃນ 30 ມື້ທີ່ຕ່າງກັນ."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"ທ່ານມີຄ່ານ້ຳໜັກຈາກ 30 ມື້."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"ນັກເກັບບັນທຶກ"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"ບັນທຶກອາຫານ 100 ສ່ວນໃນບັນທຶກ."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"ທ່ານບັນທຶກອາຫານແລ້ວ 100 ສ່ວນ."</string>
+    <string name="secondary_award_food_streak" formatted="false">"ນິໄສໃໝ່"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"ບັນທຶກອາຫານ 7 ມື້ຕິດຕໍ່ກັນຕາມປະຕິທິນ."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"ທ່ານບັນທຶກອາຫານ 7 ມື້ຕິດຕໍ່ກັນແລ້ວ."</string>
+    <string name="secondary_award_steps" formatted="false">"ນັກຍ່າງຊຳນານ"</string>
+    <string name="secondary_award_steps_description" formatted="false">"ບັນທຶກຢ່າງໜ້ອຍ 10,000 ກ້າວໃນມື້ດຽວ."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"ທ່ານບັນທຶກມື້ທີ່ຍ່າງໄດ້ 10,000 ກ້າວແລ້ວ."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"ຕິດຕາມສະເໝີ"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"ບັນທຶກນ້ຳໜັກ 100 ຄັ້ງ. ນັບໜຶ່ງຄັ້ງຕໍ່ວັນທີ."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"ທ່ານບັນທຶກນ້ຳໜັກ 100 ຄັ້ງແລ້ວ."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"ນັກບັນທຶກມີປະສົບການ"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"ບັນທຶກອາຫານ ຫຼື ຄ່າວັດແທກໃນ 90 ມື້ທີ່ຕ່າງກັນ. ບໍ່ຈຳເປັນຕ້ອງຕິດຕໍ່ກັນ."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"ບັນທຶກຂອງທ່ານມີຂໍ້ມູນຂອງ 90 ມື້ທີ່ຕ່າງກັນ."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"ຄັ້ງວັດແທກ"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"ສ່ວນອາຫານ"</string>
+    <string name="secondary_award_unit_days" formatted="false">"ມື້"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"ມື້ຕິດຕໍ່ກັນ"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"ກ້າວໃນມື້ດຽວ"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"ມື້ທີ່ບັນທຶກ"</string>
+    <string name="secondary_back" formatted="false">"‹  ກັບຄືນ"</string>
+    <string name="secondary_achievements" formatted="false">"ຄວາມສຳເລັດ"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"ກ້າວນ້ອຍໆ ກາຍເປັນນິໄສ"</string>
+    <string name="secondary_your_progress" formatted="false">"ຄວາມຄືບໜ້າຂອງທ່ານ"</string>
+    <string name="secondary_awards_permanent" formatted="false">"ຄວາມສຳເລັດທີ່ໄດ້ຮັບຍັງຢູ່ ແມ່ນແຕ່ຫຼັງແກ້ໄຂບັນທຶກ."</string>
+    <string name="secondary_awards_regular" formatted="false">"ສຳລັບຄວາມສະໝ່ຳສະເໝີ ແລະ ການບັນທຶກ"</string>
+    <string name="secondary_awards_through_today" formatted="false">"ນັບລາຍການຈົນເຖິງມື້ນີ້ ລວມທັງມື້ນີ້."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"ຄວາມສຳເລັດທີ່ເຊື່ອງໄວ້"</string>
+    <string name="secondary_hidden_description" formatted="false">"ບັນທຶກຕໍ່ໄປເພື່ອປົດລັອກຄວາມສຳເລັດນີ້."</string>
+    <string name="secondary_earned" formatted="false">"ໄດ້ຮັບແລ້ວ"</string>
+    <string name="secondary_hidden_locked" formatted="false">"ເຊື່ອງໄວ້ · ລັອກຢູ່"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"ກຳລັງດຳເນີນ · ລັອກຢູ່"</string>
+    <string name="secondary_locked" formatted="false">"ລັອກຢູ່"</string>
+    <string name="secondary_hidden_progress" formatted="false">"ເງື່ອນໄຂ ແລະ ຄວາມຄືບໜ້າຈະເປີດເຜີຍເມື່ອໄດ້ຮັບຄວາມສຳເລັດນີ້."</string>
+    <string name="secondary_best_streak" formatted="false">"ຊ່ວງຕິດຕໍ່ກັນຍາວສຸດ"</string>
+    <string name="secondary_hidden_reward" formatted="false">"ລາງວັນທີ່ເຊື່ອງໄວ້"</string>
+    <string name="secondary_unlocked_of">"ປົດລັອກຈາກ %1$d"</string>
+    <string name="secondary_unlocked_date">"ປົດລັອກເມື່ອ %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← ກັບຄືນ"</string>
+    <string name="secondary_my_recipe" formatted="false">"ສູດອາຫານຂອງຂ້ອຍ"</string>
+    <string name="secondary_recipe_intro" formatted="false">"ຊັ່ງສ່ວນປະກອບກ່ອນປຸງ. ໃຊ້ນ້ຳໜັກອາຫານສຸກເພື່ອຄຳນວນແຕ່ລະສ່ວນ. ຢ່າລືມນ້ຳມັນ ແລະ ຊອດ."</string>
+    <string name="secondary_recipe_name" formatted="false">"ຊື່ສູດອາຫານ"</string>
+    <string name="secondary_recipe_example" formatted="false">"ຕົວຢ່າງ: ຜັກຕຸ໋ນ"</string>
+    <string name="secondary_ingredients" formatted="false">"ສ່ວນປະກອບ"</string>
+    <string name="secondary_start_ingredients" formatted="false">"ເລີ່ມຈາກສ່ວນປະກອບ"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"ເພີ່ມສ່ວນປະກອບແຕ່ລະຢ່າງ ແລະ ໃສ່ນ້ຳໜັກເປັນກຣາມ."</string>
+    <string name="secondary_edit_weight" formatted="false">"ແກ້ໄຂນ້ຳໜັກ"</string>
+    <string name="secondary_delete" formatted="false">"ລຶບ"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ ເພີ່ມສ່ວນປະກອບ"</string>
+    <string name="secondary_whole_recipe" formatted="false">"ທັງສູດ"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"ການປຸງປ່ຽນນ້ຳໜັກເມື່ອເພີ່ມນ້ຳ ຫຼື ນ້ຳລະເຫີຍ. ຊັ່ງອາຫານສຸກໂດຍບໍ່ລວມພາຊະນະ."</string>
+    <string name="secondary_cooked_weight" formatted="false">"ນ້ຳໜັກອາຫານສຸກ, ກຣາມ"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"ໃສ່ນ້ຳໜັກຫຼັງປຸງ"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"ໃສ່ນ້ຳໜັກຫຼາຍກວ່າ 0 ແລະ ບໍ່ເກີນ 100,000 ກຣາມ"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"ນ້ຳໜັກບໍ່ໄດ້ຖືກປ້ອນອັດຕະໂນມັດ"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"ຕໍ່ 100 ກຣາມຂອງອາຫານສຸກ"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"ກວດນ້ຳໜັກອາຫານສຸກ ແລະ ສ່ວນປະກອບ: 100 ກຣາມຕ້ອງບໍ່ເກີນ 1,000 kcal ແລະ ສານອາຫານແຕ່ລະຊະນິດບໍ່ເກີນ 100 ກຣາມ."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"ເກັບສູດອາຫານບໍ່ສຳເລັດ"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"ເກັບໃສ່ສູດອາຫານຂອງຂ້ອຍ"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"ຫຼັງເກັບແລ້ວ ສາມາດເພີ່ມອາຫານໃສ່ບັນທຶກຕາມນ້ຳໜັກທີ່ກິນ."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"ນ້ຳໜັກສ່ວນປະກອບກ່ອນປຸງ"</string>
+    <string name="secondary_grams" formatted="false">"ກຣາມ"</string>
+    <string name="secondary_weight_limits" formatted="false">"ຫຼາຍກວ່າ 0 ແລະ ບໍ່ເກີນ 100,000 ກຣາມ"</string>
+    <string name="secondary_add" formatted="false">"ເພີ່ມ"</string>
+    <string name="secondary_save" formatted="false">"ບັນທຶກ"</string>
+    <string name="secondary_cancel" formatted="false">"ຍົກເລີກ"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"ເລືອກສ່ວນປະກອບ"</string>
+    <string name="secondary_search_food" formatted="false">"ຄົ້ນຫາອາຫານ"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"ບໍ່ພົບລາຍການ. ສາມາດເພີ່ມອາຫານຂອງທ່ານເອງໃນແຖບອາຫານ."</string>
+    <string name="secondary_close" formatted="false">"ປິດ"</string>
+    <string name="secondary_portion_energy">"%1$s ກຣາມ · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"ໂປຣຕີນ %1$s · ໄຂມັນ %2$s · ຄາໂບໄຮເດຣດ %3$s ກຣາມ"</string>
+    <string name="secondary_ingredients_weight">"ນ້ຳໜັກສ່ວນປະກອບ: %1$s ກຣາມ"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s ກຣາມ"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 ກຣາມ"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s ກຣາມ"</string>
+    <string name="secondary_recipe_note">"ນ້ຳໜັກສຸດທ້າຍ: %1$s ກຣາມ. ສ່ວນປະກອບ: %2$s"</string>
+</resources>

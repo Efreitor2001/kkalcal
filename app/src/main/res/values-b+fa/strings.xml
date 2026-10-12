@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"دفترچه تغذیه"</string>
+    <string name="core_tagline" formatted="false">"کالری، وزن و روند پیشرفت"</string>
+    <string name="core_open_diary" formatted="false">"باز کردن دفترچه"</string>
+    <string name="core_save_failed" formatted="false">"ذخیرهٔ داده‌های شما انجام نشد"</string>
+    <string name="core_day" formatted="false">"امروز"</string>
+    <string name="core_products" formatted="false">"مواد غذایی"</string>
+    <string name="core_diary" formatted="false">"دفترچه"</string>
+    <string name="core_charts" formatted="false">"نمودارها"</string>
+    <string name="core_more" formatted="false">"بیشتر"</string>
+    <string name="core_recipe_saved" formatted="false">"غذا در فهرست مواد غذایی شما ذخیره شد"</string>
+    <string name="core_back_to_day" formatted="false">"بازگشت به روز"</string>
+    <string name="core_action_failed" formatted="false">"این کار انجام نشد"</string>
+    <string name="core_understood" formatted="false">"باشه"</string>
+    <string name="core_restore_available" formatted="false">"می‌توانید در بخش «بیشتر» نسخهٔ پشتیبان را بازیابی کنید."</string>
+    <string name="core_eaten_today" formatted="false">"خوراک امروز"</string>
+    <string name="core_set_goal_hint" formatted="false">"می‌توانید در بخش «بیشتر» هدف تعیین کنید"</string>
+    <string name="core_add_food" formatted="false">"+ افزودن غذا"</string>
+    <string name="core_first_meal" formatted="false">"با اولین وعدهٔ خود شروع کنید"</string>
+    <string name="core_first_meal_help" formatted="false">"مادهٔ غذایی را انتخاب و وزن آن را به گرم وارد کنید تا کالری و درشت‌مغذی‌ها محاسبه شوند."</string>
+    <string name="core_my_day" formatted="false">"روز من"</string>
+    <string name="core_my_day_help" formatted="false">"وزن، دور کمر، گام‌ها، خواب؛ هرچه می‌دانید ثبت کنید."</string>
+    <string name="core_record_metrics" formatted="false">"ثبت اندازه‌گیری‌ها"</string>
+    <string name="core_edit_metrics" formatted="false">"ویرایش اندازه‌گیری‌ها"</string>
+    <string name="core_food_state_hint" formatted="false">"وزن و ارزش غذایی باید مربوط به یک حالت باشند: خام، خشک یا پخته."</string>
+    <string name="core_weight" formatted="false">"وزن"</string>
+    <string name="core_waist" formatted="false">"دور کمر"</string>
+    <string name="core_my_diary" formatted="false">"دفترچهٔ من"</string>
+    <string name="core_diary_tagline" formatted="false">"هر روز با آهنگ خودتان"</string>
+    <string name="core_record_day" formatted="false">"+ ثبت یک روز"</string>
+    <string name="core_optional_diary_help" formatted="false">"همهٔ اندازه‌گیری‌ها اختیاری هستند. می‌توانید فقط وزن، خواب یا یادداشت ثبت کنید. برای ویرایش، روی یک ثبت بزنید."</string>
+    <string name="core_history_starts" formatted="false">"سابقهٔ شما از اینجا شروع می‌شود"</string>
+    <string name="core_history_help" formatted="false">"اندازه‌گیری‌ها را ثبت کنید و تغییرات را در نمودارها ببینید."</string>
+    <string name="core_file_unavailable" formatted="false">"فایل در دسترس نیست"</string>
+    <string name="core_backup_saved" formatted="false">"نسخهٔ پشتیبان ذخیره شد"</string>
+    <string name="core_export_error" formatted="false">"خروجی گرفتن از نسخهٔ پشتیبان انجام نشد"</string>
+    <string name="core_read_error" formatted="false">"فایل خوانده نشد"</string>
+    <string name="core_settings_tagline" formatted="false">"تنظیمات و پشتیبان‌گیری از داده‌ها"</string>
+    <string name="core_your_progress" formatted="false">"پیشرفت شما"</string>
+    <string name="core_achievements_help" formatted="false">"دستاوردهای کوچک برای عادت کردن به ثبت روزانه."</string>
+    <string name="core_achievements" formatted="false">"دستاوردها"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"اتصال اختیاری برای همگام‌سازی دفترچه بین دستگاه‌هایتان."</string>
+    <string name="core_cloud_sync" formatted="false">"همگام‌سازی ابری"</string>
+    <string name="core_personal_goals" formatted="false">"هدف‌های شخصی"</string>
+    <string name="core_personal_goals_help" formatted="false">"هدف کالری، درشت‌مغذی‌ها و وزن را خودتان تعیین کنید. هر هدفی را می‌توانید خالی بگذارید."</string>
+    <string name="core_configure_goals" formatted="false">"تعیین هدف‌ها"</string>
+    <string name="core_backup" formatted="false">"نسخهٔ پشتیبان"</string>
+    <string name="core_backup_help" formatted="false">"مواد غذایی، وعده‌ها، دفترچه، هدف‌ها و دستاوردها در یک فایل. پیش از نصب دوبارهٔ برنامه نسخهٔ پشتیبان ذخیره کنید."</string>
+    <string name="core_save_file" formatted="false">"ذخیره در فایل"</string>
+    <string name="core_restore_file" formatted="false">"بازیابی از فایل"</string>
+    <string name="core_write_locked" formatted="false">"برای محافظت از فایل اصلی، ذخیره‌سازی غیرفعال است. یک نسخهٔ پشتیبان معتبر بازیابی کنید."</string>
+    <string name="core_about_data" formatted="false">"دربارهٔ برنامه و داده‌های شما"</string>
+    <string name="core_about_data_help" formatted="false">"شیوهٔ ذخیرهٔ ثبت‌ها، همگام‌سازی و حذف داده‌ها."</string>
+    <string name="core_privacy" formatted="false">"حریم خصوصی و حذف داده‌ها"</string>
+    <string name="core_offline" formatted="false">"بدون اینترنت کار می‌کند"</string>
+    <string name="core_offline_help" formatted="false">"ورود به Google اختیاری است. گام‌ها و خواب دستی وارد می‌شوند. برای همگام‌سازی فعال و بارگیری تبلیغات به اینترنت نیاز است. ثبت‌های دفترچه به شبکهٔ تبلیغاتی ارسال نمی‌شوند."</string>
+    <string name="core_about_foods" formatted="false">"دربارهٔ مواد غذایی"</string>
+    <string name="core_foods_reference" formatted="false">"مقادیر آماده، تخمینی برای هر ۱۰۰ گرم بخش خوراکی هستند. مقادیر دقیق را روی بسته‌بندی بررسی کنید. ویرایش مادهٔ غذایی، وعده‌های قبلی را دوباره محاسبه نمی‌کند."</string>
+    <string name="core_foods_source" formatted="false">"منبع داده‌ها: USDA FoodData Central، SR Legacy. برای هر مادهٔ غذایی، حالت و جزئیات منبع ذکر شده است."</string>
+    <string name="core_restore_title" formatted="false">"این نسخهٔ پشتیبان بازیابی شود؟"</string>
+    <string name="core_restore_warning" formatted="false">"مواد غذایی، دفترچه، هدف‌ها و دستاوردهای فعلی با محتوای این فایل جایگزین می‌شوند. ابتدا نسخهٔ پشتیبان ذخیره کنید. اگر همگام‌سازی متصل باشد، تغییرات بازیابی‌شده به Google Drive هم ارسال می‌شوند."</string>
+    <string name="core_backup_restored" formatted="false">"نسخهٔ پشتیبان بازیابی شد"</string>
+    <string name="core_invalid_file" formatted="false">"فایل نامعتبر"</string>
+    <string name="core_replace_data" formatted="false">"جایگزینی داده‌ها"</string>
+    <string name="core_cancel" formatted="false">"لغو"</string>
+    <string name="core_save" formatted="false">"ذخیره"</string>
+    <string name="core_calculate_portion" formatted="false">"محاسبهٔ مقدار مصرف"</string>
+    <string name="core_edit_portion" formatted="false">"ویرایش مقدار مصرف"</string>
+    <string name="core_portion_weight" formatted="false">"وزن مقدار مصرف، گرم"</string>
+    <string name="core_portion_invalid" formatted="false">"وزنی بیشتر از ۰ و حداکثر ۱۰۰٬۰۰۰ گرم وارد کنید"</string>
+    <string name="core_add_to_diary" formatted="false">"افزودن به دفترچه"</string>
+    <string name="core_delete_entry" formatted="false">"حذف ثبت"</string>
+    <string name="core_delete_portion_question" formatted="false">"این مقدار مصرف از دفترچه حذف شود؟"</string>
+    <string name="core_new_food" formatted="false">"مادهٔ غذایی یا غذای جدید"</string>
+    <string name="core_edit_nutrition" formatted="false">"ویرایش ارزش غذایی"</string>
+    <string name="core_name" formatted="false">"نام"</string>
+    <string name="core_food" formatted="false">"مادهٔ غذایی"</string>
+    <string name="core_dish" formatted="false">"غذای آماده"</string>
+    <string name="core_category" formatted="false">"دسته‌بندی"</string>
+    <string name="core_per100_hint" formatted="false">"مقادیر هر ۱۰۰ گرم را از بسته‌بندی یا دستور غذا وارد کنید. اگر مادهٔ مغذی وجود ندارد، ۰ وارد کنید."</string>
+    <string name="core_kcal" formatted="false">"کالری"</string>
+    <string name="core_protein_grams" formatted="false">"پروتئین، گرم"</string>
+    <string name="core_fat_grams" formatted="false">"چربی، گرم"</string>
+    <string name="core_carbs_grams" formatted="false">"کربوهیدرات، گرم"</string>
+    <string name="core_food_note" formatted="false">"یادداشت، مواد اولیه (اختیاری)"</string>
+    <string name="core_favorite" formatted="false">"افزودن به علاقه‌مندی‌ها"</string>
+    <string name="core_name_category_required" formatted="false">"نام و دسته‌بندی را وارد کنید"</string>
+    <string name="core_nutrition_invalid" formatted="false">"مقادیر هر ۱۰۰ گرم: کالری ۰ تا ۱٬۰۰۰؛ پروتئین، چربی و کربوهیدرات هرکدام ۰ تا ۱۰۰ گرم"</string>
+    <string name="core_delete_food" formatted="false">"حذف از مواد غذایی"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"مقادیر وعده‌های قبلی حفظ می‌شوند."</string>
+    <string name="core_delete_food_question" formatted="false">"این مادهٔ غذایی حذف شود؟ ثبت‌های آن در دفترچه باقی می‌مانند."</string>
+    <string name="core_day_entry" formatted="false">"ثبت روزانه"</string>
+    <string name="core_optional_fields" formatted="false">"هر بخشی را که می‌خواهید پر کنید و بقیه را خالی بگذارید."</string>
+    <string name="core_editing_existing" formatted="false">"برای این تاریخ از قبل ثبت وجود دارد. در حال ویرایش همان ثبت هستید."</string>
+    <string name="core_weight_kg" formatted="false">"وزن، کیلوگرم"</string>
+    <string name="core_waist_cm" formatted="false">"دور کمر، سانتی‌متر"</string>
+    <string name="core_steps" formatted="false">"گام‌ها"</string>
+    <string name="core_sleep" formatted="false">"خواب"</string>
+    <string name="core_hours" formatted="false">"ساعت"</string>
+    <string name="core_minutes" formatted="false">"دقیقه"</string>
+    <string name="core_body_fat_optional" formatted="false">"چربی بدن از ترازو، % (اختیاری)"</string>
+    <string name="core_body_fat_hint" formatted="false">"چربی بدن از ترازو نشان‌دهندهٔ روند است، نه اندازه‌گیری دقیق."</string>
+    <string name="core_strength_training" formatted="false">"تمرین قدرتی"</string>
+    <string name="core_training_example" formatted="false">"مثلاً: اسکوات ۳×۱۰، دمبل ۱۲ کیلوگرمی"</string>
+    <string name="core_manual_nutrition" formatted="false">"مجموع تغذیه به‌صورت دستی"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"اگر وارد شوند، این مقادیر جای مجموع غذاهای روز را می‌گیرند. برای محاسبهٔ خودکار خالی بگذارید."</string>
+    <string name="core_daily_calories" formatted="false">"کالری روزانه"</string>
+    <string name="core_daily_protein" formatted="false">"پروتئین روزانه، گرم"</string>
+    <string name="core_wellbeing_notes" formatted="false">"یادداشت‌ها و حال شما"</string>
+    <string name="core_steps_invalid" formatted="false">"گام‌ها: عدد صحیح از ۰ تا ۲۰۰٬۰۰۰"</string>
+    <string name="core_sleep_invalid" formatted="false">"خواب: ۰ تا ۲۴ ساعت، دقیقه از ۰ تا ۵۹"</string>
+    <string name="core_body_fat" formatted="false">"چربی بدن"</string>
+    <string name="core_calories" formatted="false">"کالری"</string>
+    <string name="core_protein" formatted="false">"پروتئین"</string>
+    <string name="core_entry_required" formatted="false">"حداقل یک اندازه‌گیری یا یادداشت اضافه کنید"</string>
+    <string name="core_delete_day" formatted="false">"حذف این ثبت روزانه"</string>
+    <string name="core_optional_goals" formatted="false">"همهٔ هدف‌ها اختیاری‌اند. خالی بودن یک بخش یعنی هدفی تعیین نشده است."</string>
+    <string name="core_calories_per_day" formatted="false">"کالری در روز"</string>
+    <string name="core_protein_per_day" formatted="false">"پروتئین در روز، گرم"</string>
+    <string name="core_fat_per_day" formatted="false">"چربی در روز، گرم"</string>
+    <string name="core_carbs_per_day" formatted="false">"کربوهیدرات در روز، گرم"</string>
+    <string name="core_target_weight" formatted="false">"وزن هدف، کیلوگرم"</string>
+    <string name="core_goals_invalid" formatted="false">"هدف‌ها را بررسی کنید: کالری ۰ تا ۱۰٬۰۰۰؛ پروتئین، چربی و کربوهیدرات هرکدام ۰ تا ۱٬۰۰۰ گرم"</string>
+    <string name="core_target_weight_invalid" formatted="false">"وزن هدف: از ۱ تا ۵۰۰ کیلوگرم"</string>
+    <string name="core_delete_question" formatted="false">"حذف شود؟"</string>
+    <string name="core_delete" formatted="false">"حذف"</string>
+    <string name="core_select_food" formatted="false">"انتخاب مادهٔ غذایی"</string>
+    <string name="core_foods_dishes" formatted="false">"مواد غذایی و غذاها"</string>
+    <string name="core_search_food" formatted="false">"جست‌وجوی مادهٔ غذایی یا غذا"</string>
+    <string name="core_new_food_button" formatted="false">"+ مادهٔ غذایی / غذا"</string>
+    <string name="core_recipe_button" formatted="false">"از دستور غذا"</string>
+    <string name="core_no_results" formatted="false">"نتیجه‌ای پیدا نشد"</string>
+    <string name="core_no_results_help" formatted="false">"عبارت دیگری جست‌وجو کنید یا مادهٔ غذایی و غذای آمادهٔ خودتان را اضافه کنید."</string>
+    <string name="core_edit" formatted="false">"ویرایش"</string>
+    <string name="core_achievement_unlocked">"🏆 دستاورد به دست آمد! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s کیلوکالری باقی‌مانده · هدف %2$s"</string>
+    <string name="core_above_goal">"%1$s کیلوکالری بیشتر از هدف"</string>
+    <string name="core_portion_summary">"%1$s گرم · %2$s کیلوکالری"</string>
+    <string name="core_macros_summary">"پروتئین %1$s   چربی %2$s   کربوهیدرات %3$s"</string>
+    <string name="core_weight_summary">"وزن %1$s کیلوگرم"</string>
+    <string name="core_waist_summary">"دور کمر %1$s سانتی‌متر"</string>
+    <string name="core_steps_summary">"گام‌ها: %1$s"</string>
+    <string name="core_fat_summary">"چربی بدن %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s کیلوکالری (دستی)"</string>
+    <string name="core_manual_protein">"پروتئین %1$s گرم (دستی)"</string>
+    <string name="core_kg_value">"%1$s کیلوگرم"</string>
+    <string name="core_cm_value">"%1$s سانتی‌متر"</string>
+    <string name="core_sleep_value">"خواب %1$s"</string>
+    <string name="core_scale_fat">"چربی بدن از ترازو %1$s%%"</string>
+    <string name="core_training_value">"تمرین: %1$s"</string>
+    <string name="core_kcal_value">"%1$s کیلوکالری"</string>
+    <string name="core_protein_value">"پروتئین %1$s گرم"</string>
+    <string name="core_app_version">"دفترچه تغذیه · %1$s"</string>
+    <string name="core_per100_summary">"در هر ۱۰۰ گرم: %1$s کیلوکالری · پروتئین %2$s · چربی %3$s · کربوهیدرات %4$s"</string>
+    <string name="core_range_invalid">"%1$s: مقداری از %2$s تا %3$s وارد کنید"</string>
+    <string name="core_delete_day_question">"اندازه‌گیری‌های %1$s حذف شوند؟ ثبت غذاها باقی می‌مانند."</string>
+    <string name="core_catalog_count">"مواد غذایی: %1$s · ارزش غذایی در هر ۱۰۰ گرم"</string>
+    <string name="core_catalog_nutrition">"%1$s کیلوکالری   ·   پروتئین %2$s   چربی %3$s   کربوهیدرات %4$s"</string>
+    <string name="core_today_date">"امروز · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"کالری و پروتئین مجموع‌های دستی دفترچه هستند"</string>
+    <string name="core_manual_calorie_total" formatted="false">"کالری مجموع دستی دفترچه است"</string>
+    <string name="core_manual_protein_total" formatted="false">"پروتئین مجموع دستی دفترچه است"</string>
+    <string name="core_macro_goals">"هدف پروتئین / چربی / کربوهیدرات: %1$s / %2$s / %3$s گرم"</string>
+    <string name="core_kcal_unit" formatted="false">"کیلوکالری"</string>
+    <string name="core_manual_values">"%1$s (دستی)"</string>
+    <string name="core_all" formatted="false">"همه"</string>
+    <string name="core_favorites" formatted="false">"علاقه‌مندی‌ها"</string>
+    <string name="core_sleep_duration">"%1$s ساعت %2$s دقیقه"</string>
+    <string name="core_previous_day" formatted="false">"روز قبل"</string>
+    <string name="core_next_day" formatted="false">"روز بعد"</string>
+    <string name="secondary_metric_weight" formatted="false">"وزن"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"چربی بدن"</string>
+    <string name="secondary_metric_waist" formatted="false">"دور کمر"</string>
+    <string name="secondary_metric_steps" formatted="false">"گام‌ها"</string>
+    <string name="secondary_metric_sleep" formatted="false">"خواب"</string>
+    <string name="secondary_metric_kcal" formatted="false">"کالری"</string>
+    <string name="secondary_metric_protein" formatted="false">"پروتئین"</string>
+    <string name="secondary_metric_fat" formatted="false">"چربی"</string>
+    <string name="secondary_metric_carbs" formatted="false">"کربوهیدرات"</string>
+    <string name="secondary_unit_kg" formatted="false">"کیلوگرم"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"سانتی‌متر"</string>
+    <string name="secondary_unit_steps" formatted="false">"گام"</string>
+    <string name="secondary_unit_hours" formatted="false">"ساعت"</string>
+    <string name="secondary_unit_kcal" formatted="false">"کیلوکالری"</string>
+    <string name="secondary_unit_grams" formatted="false">"گرم"</string>
+    <string name="secondary_invalid_period" formatted="false">"بازهٔ تاریخ نامعتبر"</string>
+    <string name="secondary_stats_title" formatted="false">"روندها"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"ثبت‌های شما در نمودارهای روشن"</string>
+    <string name="secondary_metric" formatted="false">"شاخص"</string>
+    <string name="secondary_week" formatted="false">"هفته"</string>
+    <string name="secondary_month" formatted="false">"ماه"</string>
+    <string name="secondary_year" formatted="false">"سال"</string>
+    <string name="secondary_custom_period" formatted="false">"بازهٔ دلخواه"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"تاریخ شروع نباید پس از تاریخ پایان باشد"</string>
+    <string name="secondary_no_records" formatted="false">"هنوز ثبتی وجود ندارد"</string>
+    <string name="secondary_empty_food_period" formatted="false">"غذا به دفترچه اضافه کنید یا بازهٔ دیگری انتخاب کنید."</string>
+    <string name="secondary_chart_tap" formatted="false">"برای انتخاب یک ثبت، روی نمودار بزنید"</string>
+    <string name="secondary_chart_connected" formatted="false">"خط، اندازه‌گیری‌های ثبت‌شده را به هم وصل می‌کند. بین آن‌ها اندازه‌گیری وجود ندارد."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"تخمین ترازو برای دنبال کردن روند مفید است."</string>
+    <string name="secondary_food_override_hint" formatted="false">"مجموع دستی روز جای مجموع غذاها را می‌گیرد. در غیر این صورت غذاهای ثبت‌شده جمع می‌شوند. روزهای بدون ثبت نادیده گرفته می‌شوند."</string>
+    <string name="secondary_food_total_hint" formatted="false">"مجموع‌ها بر پایهٔ غذاهای ثبت‌شده هستند. روز بدون ثبت، صفر حساب نمی‌شود."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"روزهای بدون ثبت نادیده گرفته می‌شوند و در میانگین نیستند."</string>
+    <string name="secondary_today_yesterday" formatted="false">"امروز و دیروز"</string>
+    <string name="secondary_no_today" formatted="false">"برای امروز ثبتی نیست"</string>
+    <string name="secondary_no_yesterday" formatted="false">"برای دیروز ثبتی نیست"</string>
+    <string name="secondary_partial_today" formatted="false">"این مقایسه از ثبت‌های فعلی استفاده می‌کند. داده‌های امروز ممکن است هنوز کامل نباشند."</string>
+    <string name="secondary_period_summary" formatted="false">"خلاصهٔ بازه"</string>
+    <string name="secondary_recorded_average" formatted="false">"میانگین روزهای ثبت‌شده"</string>
+    <string name="secondary_recorded_days" formatted="false">"روزهای دارای داده"</string>
+    <string name="secondary_minimum" formatted="false">"کمترین"</string>
+    <string name="secondary_maximum" formatted="false">"بیشترین"</string>
+    <string name="secondary_first_to_last" formatted="false">"از اولین تا آخرین ثبت"</string>
+    <string name="secondary_two_days_needed" formatted="false">"برای محاسبهٔ تغییر، حداقل دو روز ثبت لازم است."</string>
+    <string name="secondary_history" formatted="false">"سابقه"</string>
+    <string name="secondary_history_recent" formatted="false">"۱۴ روز اخیر دارای داده. برای ثبت‌های قدیمی‌تر بازهٔ دلخواه انتخاب کنید."</string>
+    <string name="secondary_history_all" formatted="false">"همهٔ روزهای ثبت‌شده در بازهٔ انتخابی"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"از %1$s"</string>
+    <string name="secondary_date_until">"تا %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s در این بازه"</string>
+    <string name="secondary_weight_goal">"هدف: %1$s کیلوگرم"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"اندازه‌گیری به دفترچه اضافه کنید یا بازهٔ دیگری انتخاب کنید."</string>
+    <string name="secondary_latest_record">"آخرین ثبت · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"امروز: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"دیروز: %1$s %2$s"</string>
+    <string name="secondary_change_value">"تغییر: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d از %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. روزهای ثبت‌شده: %2$d، از %3$s تا %4$s. کمترین %5$s، بیشترین %6$s %7$s. مقادیر در سابقه آمده‌اند."</string>
+    <string name="secondary_award_first_weight" formatted="false">"آغاز راه"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"اولین اندازه‌گیری وزن خود را ذخیره کنید."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"اولین اندازه‌گیری وزن شما ذخیره شد."</string>
+    <string name="secondary_award_first_food" formatted="false">"اولین ثبت"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"اولین مقدار غذای خود را ثبت کنید."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"اولین مقدار غذای شما ثبت شد."</string>
+    <string name="secondary_award_weight_week" formatted="false">"یک هفته داده"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"در ۷ روز متفاوت وزن خود را ثبت کنید. لازم نیست پیاپی باشند."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"برای ۷ روز متفاوت، ثبت وزن دارید."</string>
+    <string name="secondary_award_weight_month" formatted="false">"پشتکار"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"در ۳۰ روز متفاوت وزن خود را ثبت کنید."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"برای ۳۰ روز، ثبت وزن دارید."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"بایگان"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"۱۰۰ مقدار غذا در دفترچه ذخیره کنید."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"۱۰۰ مقدار غذا ذخیره کرده‌اید."</string>
+    <string name="secondary_award_food_streak" formatted="false">"عادتی تازه"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"در ۷ روز تقویمی پیاپی غذا ثبت کنید."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"۷ روز پیاپی غذا ثبت کرده‌اید."</string>
+    <string name="secondary_award_steps" formatted="false">"اهل پیاده‌روی"</string>
+    <string name="secondary_award_steps_description" formatted="false">"در یک روز حداقل ۱۰٬۰۰۰ گام ثبت کنید."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"روزی با ۱۰٬۰۰۰ گام ثبت کرده‌اید."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"ثبت‌کنندهٔ پرکار"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"۱۰۰ اندازه‌گیری وزن ذخیره کنید. از هر تاریخ یک اندازه‌گیری حساب می‌شود."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"۱۰۰ اندازه‌گیری وزن ذخیره کرده‌اید."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"یار قدیمی دفترچه"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"در ۹۰ روز متفاوت غذا یا اندازه‌گیری ثبت کنید. لازم نیست پیاپی باشند."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"برای ۹۰ روز متفاوت، ثبت دفترچه دارید."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"اندازه‌گیری"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"مقدار غذا"</string>
+    <string name="secondary_award_unit_days" formatted="false">"روز"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"روز پیاپی"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"گام در یک روز"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"روز ثبت‌شده"</string>
+    <string name="secondary_back" formatted="false">"‹  بازگشت"</string>
+    <string name="secondary_achievements" formatted="false">"دستاوردها"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"گام‌های کوچک به عادت تبدیل می‌شوند"</string>
+    <string name="secondary_your_progress" formatted="false">"پیشرفت شما"</string>
+    <string name="secondary_awards_permanent" formatted="false">"دستاوردهای به‌دست‌آمده حتی پس از ویرایش ثبت‌ها باقی می‌مانند."</string>
+    <string name="secondary_awards_regular" formatted="false">"برای پشتکار و ثبت روزانه"</string>
+    <string name="secondary_awards_through_today" formatted="false">"ثبت‌های ذخیره‌شده تا امروز، شامل امروز، حساب می‌شوند."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"دستاورد پنهان"</string>
+    <string name="secondary_hidden_description" formatted="false">"برای به دست آوردن این دستاورد، استفاده از دفترچه را ادامه دهید."</string>
+    <string name="secondary_earned" formatted="false">"به دست آمده"</string>
+    <string name="secondary_hidden_locked" formatted="false">"پنهان · قفل‌شده"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"در حال پیشرفت · قفل‌شده"</string>
+    <string name="secondary_locked" formatted="false">"قفل‌شده"</string>
+    <string name="secondary_hidden_progress" formatted="false">"شرط و پیشرفت پس از به دست آوردن این دستاورد نمایان می‌شوند."</string>
+    <string name="secondary_best_streak" formatted="false">"طولانی‌ترین زنجیره"</string>
+    <string name="secondary_hidden_reward" formatted="false">"پاداش پنهان"</string>
+    <string name="secondary_unlocked_of">"از %1$d مورد به دست آمده"</string>
+    <string name="secondary_unlocked_date">"به دست آمده در %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← بازگشت"</string>
+    <string name="secondary_my_recipe" formatted="false">"دستور غذای من"</string>
+    <string name="secondary_recipe_intro" formatted="false">"مواد اولیه را پیش از پخت وزن کنید. برای محاسبهٔ مقدار مصرف، وزن پخته را به کار ببرید. روغن و سس را هم حساب کنید."</string>
+    <string name="secondary_recipe_name" formatted="false">"نام دستور غذا"</string>
+    <string name="secondary_recipe_example" formatted="false">"مثلاً خوراک سبزیجات"</string>
+    <string name="secondary_ingredients" formatted="false">"مواد اولیه"</string>
+    <string name="secondary_start_ingredients" formatted="false">"با مواد اولیه شروع کنید"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"هر ماده را اضافه کنید و وزن آن را به گرم وارد کنید."</string>
+    <string name="secondary_edit_weight" formatted="false">"ویرایش وزن"</string>
+    <string name="secondary_delete" formatted="false">"حذف"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ افزودن مادهٔ اولیه"</string>
+    <string name="secondary_whole_recipe" formatted="false">"کل دستور غذا"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"در پخت، با اضافه یا کم شدن آب وزن تغییر می‌کند. غذای آماده را بدون ظرف وزن کنید."</string>
+    <string name="secondary_cooked_weight" formatted="false">"وزن پخته، گرم"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"وزن پس از پخت را وارد کنید"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"وزنی بیشتر از ۰ و حداکثر ۱۰۰٬۰۰۰ گرم وارد کنید"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"وزن خودکار پر نمی‌شود"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"در هر ۱۰۰ گرم غذای پخته"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"وزن پخته و مواد اولیه را بررسی کنید: هر ۱۰۰ گرم حداکثر ۱٬۰۰۰ کیلوکالری و از هر درشت‌مغذی حداکثر ۱۰۰ گرم می‌تواند داشته باشد."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"دستور غذا ذخیره نشد"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"ذخیره در غذاهای من"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"پس از ذخیره، می‌توانید غذا را با وزن مقدار مصرف ثبت کنید."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"وزن مادهٔ اولیه پیش از پخت"</string>
+    <string name="secondary_grams" formatted="false">"گرم"</string>
+    <string name="secondary_weight_limits" formatted="false">"بیشتر از ۰ و حداکثر ۱۰۰٬۰۰۰ گرم"</string>
+    <string name="secondary_add" formatted="false">"افزودن"</string>
+    <string name="secondary_save" formatted="false">"ذخیره"</string>
+    <string name="secondary_cancel" formatted="false">"لغو"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"انتخاب مادهٔ اولیه"</string>
+    <string name="secondary_search_food" formatted="false">"جست‌وجوی مواد غذایی"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"نتیجه‌ای نیست. می‌توانید در زبانهٔ مواد غذایی، مادهٔ غذایی خودتان را اضافه کنید."</string>
+    <string name="secondary_close" formatted="false">"بستن"</string>
+    <string name="secondary_portion_energy">"%1$s گرم · %2$s کیلوکالری"</string>
+    <string name="secondary_portion_macros">"پروتئین %1$s · چربی %2$s · کربوهیدرات %3$s گرم"</string>
+    <string name="secondary_ingredients_weight">"وزن مواد اولیه: %1$s گرم"</string>
+    <string name="secondary_energy">"%1$s کیلوکالری"</string>
+    <string name="secondary_grams_value">"%1$s گرم"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s کیلوکالری / ۱۰۰ گرم"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s گرم"</string>
+    <string name="secondary_recipe_note">"وزن نهایی: %1$s گرم. مواد اولیه: %2$s"</string>
+    <string name="app_name" formatted="false">"دفترچه تغذیه"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"نسخهٔ پشتیبان انتقال مطابقت ندارد"</string>
+    <string name="data_entry_exists" formatted="false">"این ثبت غذا از قبل وجود دارد"</string>
+    <string name="data_entry_missing" formatted="false">"ثبت غذا پیدا نشد"</string>
+    <string name="data_edited_date_changed" formatted="false">"تاریخ ثبت در حال ویرایش تغییر کرده است"</string>
+    <string name="data_device_id_corrupt" formatted="false">"شناسهٔ محلی دستگاه خراب است؛ بازیابی مسدود شد"</string>
+    <string name="data_sync_invalid" formatted="false">"دادهٔ همگام‌سازی نامعتبر"</string>
+    <string name="data_diary_read_only" formatted="false">"دفترچه در برابر بازنویسی محافظت شده است: نسخهٔ پشتیبان بازیابی کنید"</string>
+    <string name="data_diary_inconsistent" formatted="false">"داده‌های دفترچه ناسازگارند"</string>
+    <string name="data_backup_too_large" formatted="false">"نسخهٔ پشتیبان بسیار بزرگ است"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"شناسهٔ نصب خراب است"</string>
+    <string name="data_save_verification_failed" formatted="false">"تأیید ذخیره شدن دفترچه ممکن نشد"</string>
+    <string name="data_save_failed" formatted="false">"دفترچه ذخیره نشد"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"نسخهٔ پشتیبان بزرگ‌تر از ۵۰ مگابایت است"</string>
+    <string name="data_diary_file_too_large" formatted="false">"فایل دفترچه بسیار بزرگ است"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"اندازهٔ پایگاه دادهٔ مواد غذایی نامعتبر است"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"نسخهٔ پشتیبان پشتیبانی نمی‌شود"</string>
+    <string name="data_too_many_values">"مقادیر موجود در %1$s بیش از حد است"</string>
+    <string name="data_too_many_products" formatted="false">"تعداد مواد غذایی بیش از حد است"</string>
+    <string name="data_too_many_entries" formatted="false">"تعداد ثبت‌های غذا بیش از حد است"</string>
+    <string name="data_too_many_logs" formatted="false">"تعداد ثبت‌های دفترچه بیش از حد است"</string>
+    <string name="data_product_id_duplicate" formatted="false">"شناسهٔ مادهٔ غذایی تکراری است"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"شناسهٔ ثبت غذا تکراری است"</string>
+    <string name="data_log_date_duplicate" formatted="false">"تاریخ دفترچه تکراری است"</string>
+    <string name="data_label_product_id" formatted="false">"شناسهٔ مادهٔ غذایی"</string>
+    <string name="data_label_product_name" formatted="false">"نام مادهٔ غذایی"</string>
+    <string name="data_label_category" formatted="false">"دسته‌بندی"</string>
+    <string name="data_label_note" formatted="false">"یادداشت"</string>
+    <string name="data_label_entry_id" formatted="false">"شناسهٔ ثبت"</string>
+    <string name="data_label_meal" formatted="false">"وعده"</string>
+    <string name="data_food_weight_range" formatted="false">"وزن غذا باید بیشتر از ۰ و حداکثر ۱۰۰۰۰۰ گرم باشد"</string>
+    <string name="data_label_weight" formatted="false">"وزن"</string>
+    <string name="data_label_waist" formatted="false">"دور کمر"</string>
+    <string name="data_steps_range" formatted="false">"تعداد گام‌ها باید بین ۰ و ۲۰۰۰۰۰ باشد"</string>
+    <string name="data_label_sleep" formatted="false">"خواب"</string>
+    <string name="data_label_body_fat" formatted="false">"چربی بدن"</string>
+    <string name="data_label_daily_calories" formatted="false">"کالری روزانه"</string>
+    <string name="data_label_daily_protein" formatted="false">"پروتئین روزانه"</string>
+    <string name="data_label_workout" formatted="false">"تمرین"</string>
+    <string name="data_label_log_note" formatted="false">"یادداشت"</string>
+    <string name="data_log_empty" formatted="false">"حداقل یک اندازه‌گیری یا یادداشت وارد کنید"</string>
+    <string name="data_label_goal_weight" formatted="false">"وزن هدف"</string>
+    <string name="data_too_many_achievements" formatted="false">"تعداد دستاوردها بیش از حد است"</string>
+    <string name="data_achievement_invalid" formatted="false">"دستاورد نامعتبر"</string>
+    <string name="data_setting_not_portable" formatted="false">"این تنظیم قابل انتقال نیست"</string>
+    <string name="data_setting_invalid">"مقدار تنظیم %1$s نامعتبر است"</string>
+    <string name="data_label_calories" formatted="false">"کالری"</string>
+    <string name="data_label_protein" formatted="false">"پروتئین"</string>
+    <string name="data_label_fat" formatted="false">"چربی"</string>
+    <string name="data_label_carbs" formatted="false">"کربوهیدرات"</string>
+    <string name="data_value_range">"%1$s: بازهٔ مجاز %2$s تا %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: طول نامعتبر"</string>
+    <string name="data_text_character_invalid">"%1$s: نویسهٔ نامعتبر"</string>
+    <string name="data_date_format_invalid" formatted="false">"تاریخ باید با قالب YYYY-MM-DD باشد"</string>
+    <string name="data_date_nonexistent">"تاریخ نامعتبر: %1$s"</string>
+    <string name="data_field_string_required">"فیلد %1$s باید متن باشد"</string>
+    <string name="data_field_boolean_required">"فیلد %1$s باید مقدار بولی داشته باشد"</string>
+    <string name="data_field_number_required">"فیلد %1$s باید عدد باشد"</string>
+    <string name="data_field_finite_required">"فیلد %1$s باید عدد متناهی باشد"</string>
+    <string name="data_field_integer_required">"فیلد %1$s باید عدد صحیح باشد"</string>
+    <string name="data_too_many_items">"تعداد موارد در %1$s بیش از حد است"</string>
+    <string name="data_data_file_invalid">"فایل دادهٔ نامعتبر: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"شناسهٔ دستگاه وجود ندارد"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"سقف ساعت منطقی پر شده است"</string>
+    <string name="data_too_many_sync_records" formatted="false">"تعداد رکوردهای همگام‌سازی بیش از حد است"</string>
+    <string name="data_sync_version_required" formatted="false">"همگام‌سازی به قالب نسخهٔ ۲ نیاز دارد"</string>
+    <string name="data_sync_key_invalid" formatted="false">"کلید همگام‌سازی نامعتبر"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"کلید همگام‌سازی تکراری"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"پرچم حذف نامعتبر"</string>
+    <string name="data_sync_data_invalid" formatted="false">"دادهٔ همگام‌سازی نامعتبر"</string>
+    <string name="data_record_clock_invalid" formatted="false">"نسخهٔ رکورد از ساعت منطقی جلوتر است"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"داده با فرادادهٔ همگام‌سازی مطابقت ندارد"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"طول کلید همگام‌سازی نامعتبر است"</string>
+    <string name="data_sync_key_malformed" formatted="false">"ساختار کلید همگام‌سازی نادرست است"</string>
+    <string name="data_sync_type_unknown" formatted="false">"نوع همگام‌سازی ناشناخته"</string>
+    <string name="data_record_id_too_long" formatted="false">"شناسهٔ رکورد بیش از حد طولانی است"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"حذف دستاورد نامعتبر"</string>
+    <string name="data_log_key_invalid" formatted="false">"کلید دفترچه نامعتبر"</string>
+    <string name="data_log_field_unknown" formatted="false">"فیلد دفترچه ناشناخته"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"نشانگر حذف دفترچه نامعتبر"</string>
+    <string name="data_goal_unknown" formatted="false">"هدف ناشناخته"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"رکورد حذف‌شده دارای داده است"</string>
+    <string name="data_sync_value_invalid" formatted="false">"مقدار همگام‌سازی نامعتبر"</string>
+    <string name="data_record_id_mismatch" formatted="false">"شناسهٔ رکورد با کلید مطابقت ندارد"</string>
+    <string name="data_field_value_invalid" formatted="false">"مقدار فیلد نامعتبر"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"تاریخ دستاورد با کلید مطابقت ندارد"</string>
+    <string name="data_note_string_required" formatted="false">"یادداشت باید متن باشد"</string>
+    <string name="data_sync_note_invalid" formatted="false">"یادداشت همگام‌شده نامعتبر"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"ساعت منطقی نامعتبر"</string>
+    <string name="data_device_invalid" formatted="false">"دستگاه نامعتبر"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"مهر نسخه نامعتبر"</string>
+    <string name="data_google_login_required" formatted="false">"دوباره وارد Google شوید"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"تعداد نسخه‌های پشتیبان ابری بیش از حد است"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive یک صفحهٔ تکراری برگرداند"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"نسخهٔ پشتیبان ابری بزرگ‌تر از ۵۰ مگابایت است"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive نشانی بارگذاری برنگرداند"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"نشانی بارگذاری Google Drive نامعتبر است"</string>
+    <string name="data_back" formatted="false">"‹  بازگشت"</string>
+    <string name="data_cloud_title" formatted="false">"همگام‌سازی ابری"</string>
+    <string name="data_cloud_subtitle" formatted="false">"دفترچهٔ شما در دستگاه‌های شما"</string>
+    <string name="data_no_account" formatted="false">"حسابی متصل نیست"</string>
+    <string name="data_cloud_intro" formatted="false">"ورود اختیاری است. مواد غذایی، وعده‌ها، اندازه‌گیری‌ها، هدف‌ها و دستاوردها در تلفن شما ذخیره می‌شوند. پس از اتصال، یک نسخه در پوشه‌ای پنهان در Google Drive شما نگه‌داری می‌شود."</string>
+    <string name="data_cloud_first_connection" formatted="false">"در اولین اتصال، ثبت‌ها ادغام می‌شوند. برنامه به سایر فایل‌های Drive شما دسترسی ندارد."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"ورود به Google هنوز برای این ساخت تنظیم نشده است. دفترچه و پشتیبان‌گیری در فایل بدون حساب کار می‌کنند."</string>
+    <string name="data_connect_google" formatted="false">"اتصال به Google"</string>
+    <string name="data_automatic_sync" formatted="false">"همگام‌سازی خودکار"</string>
+    <string name="data_automatic_sync_description" formatted="false">"هنگام تغییر داده‌ها و در پس‌زمینه، وقتی Android اجازه دهد"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"زمان‌بندی تغییر نکرد. داده‌های شما در این دستگاه ذخیره شده‌اند."</string>
+    <string name="data_sync_start_failed" formatted="false">"همگام‌سازی شروع نشد. داده‌های شما در این دستگاه ذخیره شده‌اند."</string>
+    <string name="data_sync_now" formatted="false">"همگام‌سازی اکنون"</string>
+    <string name="data_google_sign_in_again" formatted="false">"ورود دوباره به Google"</string>
+    <string name="data_disconnect_account" formatted="false">"قطع اتصال حساب"</string>
+    <string name="data_sync_never" formatted="false">"هنوز همگام‌سازی نشده"</string>
+    <string name="data_offline_saved_title" formatted="false">"داده‌های شما آفلاین ذخیره شده‌اند"</string>
+    <string name="data_cloud_merge_description" formatted="false">"اگر همگام‌سازی خودکار فعال باشد، تغییرات هنگام برقراری اتصال ارسال می‌شوند. اگر یک فیلد در دو دستگاه تغییر کند، نسخه‌ای با زمان تغییر جدیدتر استفاده می‌شود. ثبت‌ها و فیلدهای مستقل ادغام می‌شوند."</string>
+    <string name="data_cloud_password_description" formatted="false">"رمز عبور را فقط در صفحهٔ Google در مرورگر وارد می‌کنید. توکن‌های دسترسی با Android Keystore محافظت می‌شوند و در نسخه‌های پشتیبان نیستند."</string>
+    <string name="data_google_connection_title" formatted="false">"اتصال Google"</string>
+    <string name="data_got_it" formatted="false">"متوجه شدم"</string>
+    <string name="data_connect_drive_title" formatted="false">"به Google Drive متصل شوید؟"</string>
+    <string name="data_connect_drive_description" formatted="false">"دفترچهٔ فعلی با داده‌های حساب Google انتخاب‌شده ادغام می‌شود. در دستگاه‌هایتان از یک حساب شخصی یکسان استفاده کنید. ورود در مرورگر پیش‌فرض باز می‌شود."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"صفحهٔ ورود باز نشد. مرورگر پیش‌فرض نصب یا فعال کنید و دوباره امتحان کنید."</string>
+    <string name="data_continue" formatted="false">"ادامه"</string>
+    <string name="data_cancel" formatted="false">"لغو"</string>
+    <string name="data_disconnect_title" formatted="false">"اتصال حساب قطع شود؟"</string>
+    <string name="data_disconnect_description" formatted="false">"همگام‌سازی در این دستگاه متوقف می‌شود. دفترچهٔ محلی و نسخه‌های Google Drive باقی می‌مانند. می‌توانید مجوز برنامه را در تنظیمات حساب Google مدیریت کنید."</string>
+    <string name="data_disconnect_failed" formatted="false">"اتصال حساب قطع نشد. دوباره امتحان کنید."</string>
+    <string name="data_disconnect" formatted="false">"قطع اتصال"</string>
+    <string name="data_google_not_connected" formatted="false">"Google متصل نیست"</string>
+    <string name="data_sync_ready" formatted="false">"آمادهٔ همگام‌سازی"</string>
+    <string name="data_sync_changes_pending" formatted="false">"تغییرات در انتظار همگام‌سازی‌اند…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"اتصال اینترنت وجود ندارد. تغییرات در این دستگاه ذخیره شده‌اند."</string>
+    <string name="data_google_not_configured" formatted="false">"ورود به Google هنوز برای این ساخت تنظیم نشده است"</string>
+    <string name="data_sync_wait" formatted="false">"تا پایان همگام‌سازی صبر کنید"</string>
+    <string name="data_google_connecting" formatted="false">"در حال اتصال به Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"اتصال لغو شد"</string>
+    <string name="data_connection_rejected" formatted="false">"اتصال لغو شد یا Google آن را رد کرد"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google متصل شد. در حال ادغام ثبت‌ها…"</string>
+    <string name="data_google_connection_failed" formatted="false">"اتصال به Google انجام نشد. اینترنت و تنظیمات دسترسی را بررسی کنید."</string>
+    <string name="data_account_disconnected" formatted="false">"اتصال حساب قطع شد. داده‌ها در این دستگاه باقی می‌مانند."</string>
+    <string name="data_sync_waiting_network" formatted="false">"اینترنت متصل نیست. همگام‌سازی منتظر اتصال است."</string>
+    <string name="data_sync_scheduled" formatted="false">"همگام‌سازی زمان‌بندی شد…"</string>
+    <string name="data_sync_running" formatted="false">"در حال همگام‌سازی…"</string>
+    <string name="data_sync_complete" formatted="false">"همگام‌سازی کامل شد"</string>
+    <string name="data_no_internet" formatted="false">"اتصال اینترنت وجود ندارد"</string>
+    <string name="data_sync_failed_saved" formatted="false">"همگام‌سازی انجام نشد. داده‌های شما در این دستگاه ذخیره شده‌اند"</string>
+    <string name="data_page_open_failed" formatted="false">"صفحه باز نشد. می‌توانید نشانی آن را از متن زیر کپی کنید."</string>
+    <string name="data_privacy_title" formatted="false">"حریم خصوصی"</string>
+    <string name="data_privacy_subtitle" formatted="false">"ثبت‌های شما و کنترل داده‌ها"</string>
+    <string name="data_app_purpose" formatted="false">"دربارهٔ این برنامه"</string>
+    <string name="data_medical_disclaimer" formatted="false">"این برنامه دستگاه پزشکی نیست. هیچ بیماری را تشخیص نمی‌دهد، درمان یا مداوا نمی‌کند و از آن پیشگیری نمی‌کند. برای مشاورهٔ پزشکی، تشخیص و درمان به متخصص سلامت دارای صلاحیت مراجعه کنید."</string>
+    <string name="data_manage_delete_data" formatted="false">"مدیریت و حذف داده‌ها"</string>
+    <string name="data_delete_data_intro" formatted="false">"پیش از حذف همهٔ داده‌ها، همگام‌سازی را در همهٔ دستگاه‌ها خاموش کنید. حذف برنامه از تلفن، نسخه‌های Google Drive یا فایل‌های خروجی را حذف نمی‌کند."</string>
+    <string name="data_manage_drive_data" formatted="false">"مدیریت داده‌های Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"دسترسی حساب Google"</string>
+    <string name="data_android_app_storage" formatted="false">"فضای ذخیرهٔ برنامه در Android"</string>
+    <string name="data_contact_developer" formatted="false">"تماس با توسعه‌دهنده"</string>
+    <string name="data_opening_page" formatted="false">"باز کردن صفحه"</string>
+    <string name="data_advertisement" formatted="false">"تبلیغات"</string>
+    <string name="data_ad_information" formatted="false">"دربارهٔ این تبلیغ"</string>
+    <string name="data_cloud_http_error">"خطای HTTP ابری %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"پاسخ ابری بیش از حد بزرگ است"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"نشست ورود رمزگذاری‌شده نامعتبر است"</string>
+    <string name="data_session_save_failed" formatted="false">"نشست ورود ذخیره نشد"</string>
+    <string name="data_token_refresh_failed" formatted="false">"دسترسی به Google تمدید نشد"</string>
+    <string name="data_diary_read_failed">"دفترچه خوانده نشد. فایل اصلی حفظ شده است. داده‌ها را از نسخهٔ پشتیبان بازیابی کنید. %1$s"</string>
+    <string name="data_last_sync">"آخرین همگام‌سازی: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"میوه‌ها و توت‌ها"</string>
+    <string name="data_category_dried_fruit" formatted="false">"میوهٔ خشک"</string>
+    <string name="data_category_vegetables" formatted="false">"سبزیجات و سبزی‌های معطر"</string>
+    <string name="data_category_mushrooms" formatted="false">"قارچ‌ها"</string>
+    <string name="data_category_grains" formatted="false">"غلات و پاستا"</string>
+    <string name="data_category_legumes" formatted="false">"حبوبات"</string>
+    <string name="data_category_meat" formatted="false">"گوشت و ماکیان"</string>
+    <string name="data_category_fish" formatted="false">"ماهی و غذاهای دریایی"</string>
+    <string name="data_category_dairy" formatted="false">"لبنیات"</string>
+    <string name="data_category_eggs" formatted="false">"تخم‌مرغ"</string>
+    <string name="data_category_oils" formatted="false">"روغن و کره"</string>
+    <string name="data_category_nuts" formatted="false">"مغزها و دانه‌ها"</string>
+    <string name="data_category_bread" formatted="false">"نان"</string>
+    <string name="data_category_other" formatted="false">"سایر مواد غذایی"</string>
+    <string name="data_category_dishes" formatted="false">"غذاهای آماده"</string>
+    <string name="data_category_custom" formatted="false">"مواد غذایی من"</string>
+    <string name="data_category_other_short" formatted="false">"سایر"</string>
+    <string name="data_category_my_dishes" formatted="false">"غذاهای من"</string>
+    <string name="data_meal_breakfast" formatted="false">"صبحانه"</string>
+    <string name="data_meal_lunch" formatted="false">"ناهار"</string>
+    <string name="data_meal_dinner" formatted="false">"شام"</string>
+    <string name="data_meal_snack" formatted="false">"میان‌وعده"</string>
+    <string name="data_food_seed_9003" formatted="false">"سیب با پوست"</string>
+    <string name="data_food_seed_9040" formatted="false">"موز بدون پوست"</string>
+    <string name="data_food_seed_9021" formatted="false">"زردآلو بدون هسته"</string>
+    <string name="data_food_seed_9037" formatted="false">"گوشت آووکادو"</string>
+    <string name="data_food_seed_9050" formatted="false">"بلوبری"</string>
+    <string name="data_food_seed_9070" formatted="false">"گیلاس بدون هسته"</string>
+    <string name="data_food_seed_9063" formatted="false">"آلبالو بدون هسته"</string>
+    <string name="data_food_seed_9078" formatted="false">"کرنبری"</string>
+    <string name="data_food_seed_9083" formatted="false">"انگور فرنگی سیاه"</string>
+    <string name="data_food_seed_9084" formatted="false">"انگور فرنگی قرمز و سفید"</string>
+    <string name="data_food_seed_9132" formatted="false">"انگور"</string>
+    <string name="data_food_seed_9148" formatted="false">"گوشت کیوی"</string>
+    <string name="data_food_seed_9150" formatted="false">"لیمو بدون پوست"</string>
+    <string name="data_food_seed_9181" formatted="false">"گوشت طالبی کانتالوپ"</string>
+    <string name="data_food_seed_9200" formatted="false">"گوشت پرتقال"</string>
+    <string name="data_food_seed_9218" formatted="false">"گوشت نارنگی"</string>
+    <string name="data_food_seed_9236" formatted="false">"هلو بدون هسته"</string>
+    <string name="data_food_seed_9252" formatted="false">"گلابی"</string>
+    <string name="data_food_seed_9266" formatted="false">"گوشت آناناس"</string>
+    <string name="data_food_seed_9279" formatted="false">"آلو بدون هسته"</string>
+    <string name="data_food_seed_9286" formatted="false">"دانهٔ انار"</string>
+    <string name="data_food_seed_9295" formatted="false">"گوشت پوملو"</string>
+    <string name="data_food_seed_9302" formatted="false">"تمشک"</string>
+    <string name="data_food_seed_9316" formatted="false">"توت‌فرنگی"</string>
+    <string name="data_food_seed_9326" formatted="false">"گوشت هندوانه"</string>
+    <string name="data_food_seed_9191" formatted="false">"شلیل بدون هسته"</string>
+    <string name="data_food_seed_9176" formatted="false">"گوشت انبه"</string>
+    <string name="data_food_seed_9107" formatted="false">"انگور فرنگی خاردار"</string>
+    <string name="data_food_seed_9226" formatted="false">"گوشت پاپایا"</string>
+    <string name="data_food_seed_9089" formatted="false">"انجیر تازه"</string>
+    <string name="data_food_seed_9111" formatted="false">"گوشت گریپ‌فروت"</string>
+    <string name="data_food_seed_9032" formatted="false">"زردآلوی خشک بدون هسته"</string>
+    <string name="data_food_seed_9291" formatted="false">"آلوی خشک بدون هسته"</string>
+    <string name="data_food_seed_9087" formatted="false">"خرما بدون هسته"</string>
+    <string name="data_food_seed_9298" formatted="false">"کشمش تیرهٔ بدون دانه"</string>
+    <string name="data_food_seed_11529" formatted="false">"گوجه‌فرنگی تازه"</string>
+    <string name="data_food_seed_11205" formatted="false">"خیار با پوست"</string>
+    <string name="data_food_seed_11090" formatted="false">"بروکلی خام"</string>
+    <string name="data_food_seed_11109" formatted="false">"کلم سفید خام"</string>
+    <string name="data_food_seed_11124" formatted="false">"هویج خام"</string>
+    <string name="data_food_seed_11135" formatted="false">"گل‌کلم خام"</string>
+    <string name="data_food_seed_11143" formatted="false">"ساقهٔ کرفس"</string>
+    <string name="data_food_seed_11282" formatted="false">"پیاز خام"</string>
+    <string name="data_food_seed_11291" formatted="false">"پیازچه"</string>
+    <string name="data_food_seed_11304" formatted="false">"نخودفرنگی خام"</string>
+    <string name="data_food_seed_11333" formatted="false">"فلفل دلمه‌ای سبز"</string>
+    <string name="data_food_seed_11821" formatted="false">"فلفل دلمه‌ای قرمز"</string>
+    <string name="data_food_seed_11352" formatted="false">"سیب‌زمینی خام با پوست"</string>
+    <string name="data_food_seed_11367" formatted="false">"سیب‌زمینی آب‌پز بدون پوست"</string>
+    <string name="data_food_seed_11477" formatted="false">"کدو سبز خام"</string>
+    <string name="data_food_seed_11209" formatted="false">"بادمجان خام"</string>
+    <string name="data_food_seed_11422" formatted="false">"کدوتنبل خام"</string>
+    <string name="data_food_seed_11429" formatted="false">"تربچه"</string>
+    <string name="data_food_seed_11564" formatted="false">"شلغم خام"</string>
+    <string name="data_food_seed_11080" formatted="false">"چغندر خام"</string>
+    <string name="data_food_seed_11081" formatted="false">"چغندر آب‌پز"</string>
+    <string name="data_food_seed_11215" formatted="false">"سیر"</string>
+    <string name="data_food_seed_11216" formatted="false">"ریشهٔ زنجبیل"</string>
+    <string name="data_food_seed_11457" formatted="false">"اسفناج خام"</string>
+    <string name="data_food_seed_11253" formatted="false">"کاهوی برگی"</string>
+    <string name="data_food_seed_11297" formatted="false">"جعفری تازه"</string>
+    <string name="data_food_seed_2045" formatted="false">"شوید تازه"</string>
+    <string name="data_food_seed_11052" formatted="false">"لوبیاسبز خام"</string>
+    <string name="data_food_seed_11167" formatted="false">"دانهٔ ذرت شیرین خام"</string>
+    <string name="data_food_seed_11260" formatted="false">"قارچ دکمه‌ای خام"</string>
+    <string name="data_food_seed_11261" formatted="false">"قارچ دکمه‌ای آب‌پز بدون نمک"</string>
+    <string name="data_food_seed_11987" formatted="false">"قارچ صدفی خام"</string>
+    <string name="data_food_seed_20009" formatted="false">"دانهٔ گندم سیاه خشک"</string>
+    <string name="data_food_seed_20010" formatted="false">"گندم سیاه پخته در آب"</string>
+    <string name="data_food_seed_20444" formatted="false">"برنج سفید خشک"</string>
+    <string name="data_food_seed_20445" formatted="false">"برنج سفید آب‌پز بدون نمک"</string>
+    <string name="data_food_seed_20036" formatted="false">"برنج قهوه‌ای خشک"</string>
+    <string name="data_food_seed_20037" formatted="false">"برنج قهوه‌ای آب‌پز"</string>
+    <string name="data_food_seed_8120" formatted="false">"جو دوسر پرک خشک"</string>
+    <string name="data_food_seed_8121" formatted="false">"جو دوسر پخته در آب بدون نمک"</string>
+    <string name="data_food_seed_20005" formatted="false">"جو مرواریدی خشک"</string>
+    <string name="data_food_seed_20006" formatted="false">"جو مرواریدی آب‌پز"</string>
+    <string name="data_food_seed_20031" formatted="false">"ارزن خشک"</string>
+    <string name="data_food_seed_20032" formatted="false">"ارزن آب‌پز"</string>
+    <string name="data_food_seed_20420" formatted="false">"پاستای خشک"</string>
+    <string name="data_food_seed_20421" formatted="false">"پاستای آب‌پز بدون نمک"</string>
+    <string name="data_food_seed_16070" formatted="false">"عدس آب‌پز بدون نمک"</string>
+    <string name="data_food_seed_16057" formatted="false">"نخود آب‌پز بدون نمک"</string>
+    <string name="data_food_seed_16033" formatted="false">"لوبیاقرمز آب‌پز بدون نمک"</string>
+    <string name="data_food_seed_5062" formatted="false">"سینهٔ مرغ خام بدون پوست"</string>
+    <string name="data_food_seed_5064" formatted="false">"سینهٔ مرغ بریان بدون پوست"</string>
+    <string name="data_food_seed_5219" formatted="false">"سینهٔ بوقلمون خام بدون پوست"</string>
+    <string name="data_food_seed_5220" formatted="false">"سینهٔ بوقلمون بریان بدون پوست"</string>
+    <string name="data_food_seed_23562" formatted="false">"گوشت گاو چرخ‌کرده، ۱۰٪ چربی، خام"</string>
+    <string name="data_food_seed_23566" formatted="false">"گوشت گاو چرخ‌کرده، ۱۰٪ چربی، بریان"</string>
+    <string name="data_food_seed_10060" formatted="false">"فیلهٔ خوک خام، بدون چربی نمایان"</string>
+    <string name="data_food_seed_10061" formatted="false">"فیلهٔ خوک بریان"</string>
+    <string name="data_food_seed_15236" formatted="false">"ماهی سالمون اقیانوس اطلس، خام"</string>
+    <string name="data_food_seed_15237" formatted="false">"ماهی سالمون اقیانوس اطلس، بریان"</string>
+    <string name="data_food_seed_15015" formatted="false">"ماهی کاد اقیانوس اطلس، خام"</string>
+    <string name="data_food_seed_15266" formatted="false">"ماهی پولاک آلاسکا، خام"</string>
+    <string name="data_food_seed_15121" formatted="false">"تن ماهی کنسروی در آب، آبکش‌شده"</string>
+    <string name="data_food_seed_15271" formatted="false">"میگوی پخته بدون پوست"</string>
+    <string name="data_food_seed_1211" formatted="false">"شیر با ۳٫۲۵٪ چربی"</string>
+    <string name="data_food_seed_1174" formatted="false">"شیر با ۲٪ چربی"</string>
+    <string name="data_food_seed_1082" formatted="false">"شیر با ۱٪ چربی"</string>
+    <string name="data_food_seed_1116" formatted="false">"ماست ساده از شیر کامل"</string>
+    <string name="data_food_seed_1256" formatted="false">"ماست یونانی بدون چربی"</string>
+    <string name="data_food_seed_1015" formatted="false">"پنیر کاتیج با ۲٪ چربی"</string>
+    <string name="data_food_seed_1056" formatted="false">"خامهٔ ترش با حدود ۱۹٪ چربی"</string>
+    <string name="data_food_seed_1009" formatted="false">"پنیر چدار"</string>
+    <string name="data_food_seed_1026" formatted="false">"موتزارلا از شیر کامل"</string>
+    <string name="data_food_seed_1019" formatted="false">"پنیر فتا"</string>
+    <string name="data_food_seed_1123" formatted="false">"تخم‌مرغ خام بدون پوسته"</string>
+    <string name="data_food_seed_1129" formatted="false">"تخم‌مرغ آب‌پز بدون پوسته"</string>
+    <string name="data_food_seed_1124" formatted="false">"سفیدهٔ تخم‌مرغ خام"</string>
+    <string name="data_food_seed_1001" formatted="false">"کرهٔ نمک‌دار"</string>
+    <string name="data_food_seed_4053" formatted="false">"روغن زیتون"</string>
+    <string name="data_food_seed_4506" formatted="false">"روغن آفتابگردان"</string>
+    <string name="data_food_seed_12061" formatted="false">"بادام"</string>
+    <string name="data_food_seed_12155" formatted="false">"مغز گردو"</string>
+    <string name="data_food_seed_12120" formatted="false">"مغز فندق"</string>
+    <string name="data_food_seed_12151" formatted="false">"مغز پستهٔ خام"</string>
+    <string name="data_food_seed_12014" formatted="false">"مغز تخمهٔ کدوی خشک"</string>
+    <string name="data_food_seed_16087" formatted="false">"بادام‌زمینی خام بدون پوسته"</string>
+    <string name="data_food_seed_18069" formatted="false">"نان گندم سفید"</string>
+    <string name="data_food_seed_18075" formatted="false">"نان گندم کامل"</string>
+    <string name="data_food_seed_18060" formatted="false">"نان چاودار"</string>
+    <string name="data_food_seed_19296" formatted="false">"عسل"</string>
+    <string name="data_food_seed_19335" formatted="false">"شکر"</string>
+    <string name="data_food_seed_19165" formatted="false">"پودر کاکائوی بدون شکر"</string>
+    <string name="data_food_seed_19904" formatted="false">"شکلات تلخ با ۷۰ تا ۸۵٪ کاکائو"</string>
+    <string name="data_catalog_note_1">"مقادیر مرجع در هر ۱۰۰ گرم بخش خوراکی، برای غذای خام. مقدار کربوهیدرات USDA شامل فیبر است. می‌توانید مقادیر را بر اساس برچسب محصول تغییر دهید. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_catalog_note_2">"مقادیر مرجع در هر ۱۰۰ گرم بخش خوراکی. مقدار کربوهیدرات USDA شامل فیبر است. می‌توانید مقادیر را بر اساس برچسب محصول تغییر دهید. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_catalog_note_3">"مقادیر مرجع در هر ۱۰۰ گرم بخش خوراکی، بدون نمک افزوده. مقدار کربوهیدرات USDA شامل فیبر است. می‌توانید مقادیر را بر اساس برچسب محصول تغییر دهید. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_catalog_note_4">"مقادیر مرجع در هر ۱۰۰ گرم بخش خوراکی، برای دانهٔ بو‌دادهٔ گندم سیاه. مقدار کربوهیدرات USDA شامل فیبر است. می‌توانید مقادیر را بر اساس برچسب محصول تغییر دهید. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_catalog_note_5">"مقادیر مرجع در هر ۱۰۰ گرم بخش خوراکی، برای غذای خام و پرورشی. مقدار کربوهیدرات USDA شامل فیبر است. می‌توانید مقادیر را بر اساس برچسب محصول تغییر دهید. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_catalog_note_6">"مقادیر مرجع در هر ۱۰۰ گرم بخش خوراکی، برای غذای پرورشی. مقدار کربوهیدرات USDA شامل فیبر است. می‌توانید مقادیر را بر اساس برچسب محصول تغییر دهید. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_catalog_note_7">"مقادیر مرجع در هر ۱۰۰ گرم بخش خوراکی، برای پنیر کاتیج؛ سایر پنیرهای تازه مقادیر متفاوتی دارند. مقدار کربوهیدرات USDA شامل فیبر است. می‌توانید مقادیر را بر اساس برچسب محصول تغییر دهید. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"سیاست حریم خصوصی Diet Diary\nبازنگری: ۹ اکتبر ۲۰۲۶"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"برنامه: Diet Diary؛ عنوان روسی در Google Play: «Дневник диеты: подсчёт калорий»؛ بسته: ru.dietdiary.offline.\nتوسعه‌دهندهٔ پروژه: Efreitor2001. برای پرسش‌های مربوط به برنامه و پردازش داده‌ها از https://github.com/Efreitor2001/kkalcal/issues تماس بگیرید. موضوعات GitHub عمومی‌اند؛ سوابق سلامت، نسخه‌های پشتیبان، رمز عبور یا توکن‌ها را آنجا منتشر نکنید."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"۱. دفترچه در دستگاه شما\nبرای ثبت دفترچه نیازی به نام‌نویسی نیست. برنامه مواد غذایی و ارزش غذایی آن‌ها، مقدار مصرف و تاریخ وعده‌ها، وزن، دور کمر، درصد چربی بدن، گام‌ها، خواب، شرح تمرین، یادداشت‌ها، هدف‌ها، دستاوردها و تنظیمات را در فضای خصوصی خود در دستگاه ذخیره می‌کند. بخش‌های اختیاری را می‌توان خالی گذاشت. گام‌ها، خواب و اندازه‌گیری‌ها دستی وارد می‌شوند؛ برنامه داده‌های Health Connect، حسگرهای فعالیت بدنی یا دستگاه‌های پزشکی را نمی‌خواند."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"این اطلاعات برای محاسبهٔ کالری و درشت‌مغذی‌ها و ارائهٔ سابقه، نمودارها و دستاوردها استفاده می‌شوند. توسعه‌دهنده سروری برای دریافت محتوای دفترچه ندارد. اگر Google Drive را متصل نکنید یا خودتان نسخهٔ پشتیبان را به اشتراک نگذارید، ثبت‌ها در دستگاه می‌مانند."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"۲. اتصال اختیاری Google Drive\nبه درخواست شما، برنامه ورود به Google را در مرورگر پیش‌فرض باز می‌کند و دسترسی به فضای پنهان داده‌های همین برنامه در Google Drive شما را می‌خواهد. این مجوز، دسترسی به اسناد یا عکس‌های عادی Drive را نمی‌دهد."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"پس از اتصال، مواد غذایی، وعده‌ها، اندازه‌گیری‌های دفترچه، یادداشت‌ها، هدف‌ها، دستاوردها، تنظیمات قابل انتقال و فرادادهٔ تغییرات، شامل شناسه‌های تصادفی نصب و برچسب‌های زمانی، به Google ارسال می‌شوند. این کار برای نگه‌داری نسخه‌های پشتیبان و ادغام ثبت‌ها میان دستگاه‌ها است. اگر همگام‌سازی خودکار فعال باشد، هنگام دسترسی به شبکه تغییرات در پس‌زمینه نیز ارسال می‌شوند. می‌توانید همگام‌سازی خودکار را جداگانه خاموش کنید."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"برنامه نشانی ایمیل و شناسهٔ حساب Google انتخاب‌شده را دریافت می‌کند تا اتصال را نشان دهد و آن را به فضای ذخیرهٔ درست پیوند بزند. رمز عبور Google به برنامه داده نمی‌شود. نشست مجوزدهی با کلیدی در Android Keystore رمزگذاری و در دستگاه ذخیره می‌شود. توکن‌ها، نشانی‌های ایمیل و شناسه‌های Google در خروجی دفترچه و نسخه‌های لحظه‌ای JSON همگام‌شده نیستند."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"داده‌های Google فقط برای مجوزدهی و همگام‌سازی استفاده می‌شوند، هرگز برای تبلیغات نیستند. سیاست حریم خصوصی Google اعمال می‌شود: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"۳. فایل‌های پشتیبان\n«ذخیره در فایل» یک فایل JSON در محل انتخابی شما می‌سازد. بازیابی فقط فایل انتخاب‌شده را می‌خواند. اگر ارائه‌دهندهٔ فایل ابری را انتخاب کنید یا نسخه‌ای را برای دیگری بفرستید، دریافت‌کننده را شما تعیین می‌کنید. برنامه فایل‌های JSON خروجی را رمزگذاری نمی‌کند؛ این فایل‌ها شامل ثبت‌های شخصی و فرادادهٔ تغییرات هستند."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"۴. تبلیغات\nبرنامه از Yandex Mobile Ads SDK استفاده می‌کند. برای بارگیری و نمایش تبلیغات، دستگاه به خدمات تبلیغاتی متصل می‌شود. Yandex ممکن است نشانی IP و سایر اطلاعات فنی دربارهٔ درخواست شبکه، دستگاه و نرم‌افزار، شناسه‌های تبلیغاتی یا فنی موجود و اطلاعات نمایش و تعامل با تبلیغات را پردازش کند."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"برنامه به SDK اعلام می‌کند که رضایت داده نشده است، گردآوری موقعیت مکانی را غیرفعال می‌کند و گزارش‌دهی App Ad Analytics را خاموش می‌کند. برنامه مجوز موقعیت دقیق یا تقریبی نمی‌خواهد. این تنظیمات به معنی توقف کامل ارتباط شبکه یا پردازش داده‌های فنی توسط خدمت تبلیغاتی نیست."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"برنامه ثبت غذا، وزن، اندازه‌گیری‌ها، یادداشت‌ها، هدف‌ها، نشانی ایمیل یا شناسه‌های Google را برای هدف‌گیری تبلیغات استفاده نمی‌کند و به پارامترهای درخواست تبلیغ اضافه نمی‌کند. برای ذخیرهٔ ثبت‌ها لازم نیست تبلیغ ببینید."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"قواعد Yandex برای پردازش، نگه‌داری و حذف داده‌ها: https://yandex.ru/legal/confidential/ . اگر نسخهٔ سیستم شما پشتیبانی کند، می‌توانید شناسهٔ تبلیغاتی را در تنظیمات Android مدیریت کنید. مدت نگه‌داری داده‌های فنی خدمت تبلیغاتی را سیاست همان خدمت تعیین می‌کند؛ توسعه‌دهندهٔ دفترچه مدت جداگانه‌ای برای این داده‌ها تعیین نمی‌کند."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"۵. حفاظت از داده‌ها\nارتباط با Google از HTTPS استفاده می‌کند؛ Yandex می‌گوید داده‌های SDK با HTTPS/TLS منتقل می‌شوند. دفترچهٔ محلی با جداسازی برنامه‌ها در Android محافظت می‌شود. برنامه محتوای دفترچه یا نسخه‌های لحظه‌ای JSON را جداگانه رمزگذاری نمی‌کند و رمزگذاری سرتاسری میان دستگاه‌ها ارائه نمی‌دهد."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"پشتیبان‌گیری سیستمی از داده‌های برنامه غیرفعال است. گزارش‌های تشخیصی نوشته‌شده توسط کد خود برنامه، کدهای نتیجه دارند و شامل محتوای دفترچه، نشانی ایمیل، توکن یا متن پاسخ شبکه نیستند؛ برنامه این گزارش‌ها را جداگانه به توسعه‌دهنده نمی‌فرستد."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"۶. نگه‌داری و حذف\nثبت‌های محلی تا زمان تغییر، حذف یا پاک کردن داده‌های برنامه باقی می‌مانند. حذف یک ثبت آن را از رابط کاربری برمی‌دارد و هنگام همگام‌سازی نشانگر حذف می‌فرستد. فرادادهٔ ادغام برای جلوگیری از بازگشت داده‌های قدیمی نگه داشته می‌شود و ممکن است مقادیر قبلی یک ثبت حذف‌شده را دربر داشته باشد. مقادیر قبلی ممکن است در نسخه‌های لحظه‌ای ابری قدیمی و فایل‌هایی که قبلاً ساخته‌اید هم بمانند. بنابراین حذف یک ثبت، همهٔ نسخه‌های آن را کاملاً پاک نمی‌کند."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"«قطع اتصال حساب» همگام‌سازی را در این دستگاه متوقف و نشست محلی Google را حذف می‌کند. دفترچه و نسخه‌های لحظه‌ای ذخیره‌شده در Google Drive حفظ می‌شوند. قطع اتصال برنامه، حساب Google شما را حذف نمی‌کند."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"برای حذف کامل داده‌های این برنامه:\n• همگام‌سازی را در همهٔ دستگاه‌ها خاموش کنید تا نسخه‌های باقی‌مانده دوباره بارگذاری نشوند.\n• در مرورگر، با حساب Google که متصل بود، https://drive.google.com/drive/settings را باز کنید. «مدیریت برنامه‌ها» را انتخاب کنید، «Diet Diary» (یا «Дневник диеты») را پیدا کنید، سپس «گزینه‌ها» ← «حذف داده‌های پنهان برنامه» را بزنید. اگر صفحهٔ تلفن این بخش را ندارد، از نسخهٔ دسکتاپ سایت یا رایانه استفاده کنید.\n• در https://myaccount.google.com/connections دسترسی برنامه را لغو کنید. لغو دسترسی به‌تنهایی نسخه‌های ذخیره‌شده را پاک نمی‌کند.\n• در تنظیمات Android هر دستگاه، فضای ذخیرهٔ برنامه را پاک کنید یا برنامه را حذف نصب کنید.\n• نسخه‌های پشتیبان JSON جداگانه را از پوشه‌ها و فضای ابری انتخابی خود حذف کنید."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"بدون اطلاعات ورود شما، توسعه‌دهنده نمی‌تواند دفترچهٔ محلی یا فایل‌های Google Drive شخصی شما را از راه دور پاک کند. رمز عبور یا توکن را با توسعه‌دهنده به اشتراک نگذارید. برای راهنمایی حذف، از پیوند ابتدای این سیاست با پروژه تماس بگیرید. برای حذف داده‌های دفترچه، لازم نیست حساب Google را حذف کنید."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"۷. تغییرات و تماس\nبا تغییر امکانات برنامه یا شیوهٔ پردازش داده‌ها، این سیاست همراه با تاریخ بازنگری به‌روز می‌شود. برای پرسش دربارهٔ دسترسی، اصلاح، حذف داده‌ها یا کارکرد برنامه از راه ارتباطی پروژه استفاده کنید. درخواست‌های شما برای پاسخ‌گویی پردازش و در GitHub ذخیره می‌شوند؛ سیاست GitHub در https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement موجود است."</string>
+</resources>

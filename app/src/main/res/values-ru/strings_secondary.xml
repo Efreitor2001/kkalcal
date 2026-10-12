@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="secondary_metric_weight" formatted="false">"Вес"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Жир тела"</string>
+    <string name="secondary_metric_waist" formatted="false">"Талия"</string>
+    <string name="secondary_metric_steps" formatted="false">"Шаги"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Сон"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Калории"</string>
+    <string name="secondary_metric_protein" formatted="false">"Белки"</string>
+    <string name="secondary_metric_fat" formatted="false">"Жиры"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Углеводы"</string>
+    <string name="secondary_unit_kg" formatted="false">"кг"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"см"</string>
+    <string name="secondary_unit_steps" formatted="false">"шагов"</string>
+    <string name="secondary_unit_hours" formatted="false">"ч"</string>
+    <string name="secondary_unit_kcal" formatted="false">"ккал"</string>
+    <string name="secondary_unit_grams" formatted="false">"г"</string>
+    <string name="secondary_invalid_period" formatted="false">"Неверный период"</string>
+    <string name="secondary_stats_title" formatted="false">"Динамика"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Ваши записи в понятных графиках"</string>
+    <string name="secondary_metric" formatted="false">"Показатель"</string>
+    <string name="secondary_week" formatted="false">"Неделя"</string>
+    <string name="secondary_month" formatted="false">"Месяц"</string>
+    <string name="secondary_year" formatted="false">"Год"</string>
+    <string name="secondary_custom_period" formatted="false">"Свой период"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Начало периода должно быть не позже конца"</string>
+    <string name="secondary_no_records" formatted="false">"Пока нет записей"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Добавьте еду в дневник или выберите другой период."</string>
+    <string name="secondary_chart_tap" formatted="false">"Нажмите на график, чтобы выбрать запись"</string>
+    <string name="secondary_chart_connected" formatted="false">"Линия соединяет записи. Между ними измерений нет."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Показания весов: ориентир для тренда."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Ручной итог дня заменяет сумму еды. Без ручного итога учитываются продукты; без записей день пропущен."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Показаны суммы по внесённой еде. День без записей не считается нулём."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Дни без записи пропущены и не участвуют в среднем."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Сегодня и вчера"</string>
+    <string name="secondary_no_today" formatted="false">"Нет записи за сегодня"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Нет записи за вчера"</string>
+    <string name="secondary_partial_today" formatted="false">"Сравнение по текущим записям: сегодня данные могут быть ещё неполными."</string>
+    <string name="secondary_period_summary" formatted="false">"Итоги периода"</string>
+    <string name="secondary_recorded_average" formatted="false">"Среднее по дням с данными"</string>
+    <string name="secondary_recorded_days" formatted="false">"Дней с данными"</string>
+    <string name="secondary_minimum" formatted="false">"Минимум"</string>
+    <string name="secondary_maximum" formatted="false">"Максимум"</string>
+    <string name="secondary_first_to_last" formatted="false">"От первой до последней записи"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Для изменения за период нужны записи хотя бы за два дня."</string>
+    <string name="secondary_history" formatted="false">"История"</string>
+    <string name="secondary_history_recent" formatted="false">"Последние 14 дней с данными. Для ранних записей выберите свой период."</string>
+    <string name="secondary_history_all" formatted="false">"Все дни с данными за выбранный период"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"С %1$s"</string>
+    <string name="secondary_date_until">"По %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s за период"</string>
+    <string name="secondary_weight_goal">"Цель %1$s кг"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Добавьте измерение в дневник или выберите другой период."</string>
+    <string name="secondary_latest_record">"Последняя запись · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Сегодня: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Вчера: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Изменение: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d из %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d дней с данными, от %3$s до %4$s. Минимум %5$s, максимум %6$s %7$s. Значения перечислены в истории."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Начало положено"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Сохраните первый замер веса."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Первый замер веса записан."</string>
+    <string name="secondary_award_first_food" formatted="false">"Первая запись"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Добавьте первую порцию еды в дневник."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Первая порция еды добавлена в дневник."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Неделя данных"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Запишите вес за 7 разных дней. Дни могут идти с перерывами."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"В дневнике есть вес за 7 разных дней."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Стабильность"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Запишите вес за 30 разных дней."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Уже 30 дней с измерениями веса."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Архивариус"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Сохраните 100 порций еды в дневнике."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"В дневнике сохранено 100 порций еды."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Привычка"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Добавляйте еду в дневник 7 календарных дней подряд."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Питание записано за 7 дней подряд."</string>
+    <string name="secondary_award_steps" formatted="false">"Ходячая катастрофа"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Запишите не менее 10 000 шагов за один день."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"В дневнике есть день с 10 000 шагов."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Графоман"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Сохраните 100 замеров веса. На каждую дату учитывается один замер."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"В дневнике уже 100 замеров веса."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Ветеран дневника"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Сохраните еду или показатели за 90 разных дней. Дни могут идти с перерывами."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Дневник заполнен за 90 разных дней."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"замеров"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"порций"</string>
+    <string name="secondary_award_unit_days" formatted="false">"дней"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"дней подряд"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"шагов за день"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"дней с записями"</string>
+    <string name="secondary_back" formatted="false">"‹  Назад"</string>
+    <string name="secondary_achievements" formatted="false">"Достижения"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Маленькие шаги становятся привычкой"</string>
+    <string name="secondary_your_progress" formatted="false">"ВАШ ПРОГРЕСС"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Полученные достижения остаются с вами, даже если вы исправите записи."</string>
+    <string name="secondary_awards_regular" formatted="false">"За регулярность и заботу о дневнике"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Учитываются сохранённые записи до сегодняшнего дня включительно."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Скрытое достижение"</string>
+    <string name="secondary_hidden_description" formatted="false">"Продолжайте вести дневник, чтобы открыть."</string>
+    <string name="secondary_earned" formatted="false">"Получено"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Скрыто · пока закрыто"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"В процессе · пока закрыто"</string>
+    <string name="secondary_locked" formatted="false">"Пока закрыто"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Условие и прогресс откроются вместе с наградой."</string>
+    <string name="secondary_best_streak" formatted="false">"Лучшая серия"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Скрытая награда"</string>
+    <string name="secondary_unlocked_of">"из %1$d открыто"</string>
+    <string name="secondary_unlocked_date">"Открыто %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Назад"</string>
+    <string name="secondary_my_recipe" formatted="false">"Моё блюдо"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Ингредиенты взвешивайте до готовки; готовый вес нужен для порций. Добавьте масло и соусы."</string>
+    <string name="secondary_recipe_name" formatted="false">"Название блюда"</string>
+    <string name="secondary_recipe_example" formatted="false">"Например, овощное рагу"</string>
+    <string name="secondary_ingredients" formatted="false">"Ингредиенты"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Начните с продуктов"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Добавьте каждый ингредиент и укажите его вес в граммах."</string>
+    <string name="secondary_edit_weight" formatted="false">"Изменить вес"</string>
+    <string name="secondary_delete" formatted="false">"Удалить"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Добавить ингредиент"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Во всём блюде"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"При готовке вес меняется из-за воды. Взвесьте готовое блюдо без посуды."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Вес готового блюда, г"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Укажите после приготовления"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Введите вес больше 0 и не более 100 000 г"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Вес не подставляется автоматически"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"На 100 г готового блюда"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Проверьте готовый вес и ингредиенты: на 100 г допустимо до 1000 ккал и до 100 г каждого БЖУ."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Не удалось сохранить блюдо"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Сохранить в «Мои блюда»"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Сохранённое блюдо можно добавлять в дневник по весу порции."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Вес ингредиента до готовки"</string>
+    <string name="secondary_grams" formatted="false">"Граммы"</string>
+    <string name="secondary_weight_limits" formatted="false">"Больше 0 и не более 100 000 г"</string>
+    <string name="secondary_add" formatted="false">"Добавить"</string>
+    <string name="secondary_save" formatted="false">"Сохранить"</string>
+    <string name="secondary_cancel" formatted="false">"Отмена"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Выберите ингредиент"</string>
+    <string name="secondary_search_food" formatted="false">"Поиск продуктов"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Ничего не найдено. Свой продукт можно добавить на вкладке «Продукты»."</string>
+    <string name="secondary_close" formatted="false">"Закрыть"</string>
+    <string name="secondary_portion_energy">"%1$s г · %2$s ккал"</string>
+    <string name="secondary_portion_macros">"Б %1$s · Ж %2$s · У %3$s г"</string>
+    <string name="secondary_ingredients_weight">"Вес ингредиентов: %1$s г"</string>
+    <string name="secondary_energy">"%1$s ккал"</string>
+    <string name="secondary_grams_value">"%1$s г"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s ккал / 100 г"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s г"</string>
+    <string name="secondary_recipe_note">"Выход: %1$s г. Состав: %2$s"</string>
+</resources>

@@ -44,12 +44,14 @@ android {
         applicationId = "ru.dietdiary.offline"
         minSdk = 26
         targetSdk = 37
-        versionCode = 8
-        versionName = "1.1.5"
+        versionCode = 9
+        versionName = "1.2.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders["appAuthRedirectScheme"] = "ru.dietdiary.offline"
         buildConfigField("String", "GOOGLE_CLIENT_ID", quoted(integration("google.clientId")))
     }
+    // Keep every language installed so changing the phone language also works offline.
+    bundle { language { enableSplit = false } }
     flavorDimensions += "store"
     productFlavors {
         storeNames.forEach { (store, displayName) ->

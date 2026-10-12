@@ -31,6 +31,10 @@ import java.util.UUID
 /** Runs without credentials and never replaces the installed application's diary or session. */
 @RunWith(AndroidJUnit4::class)
 class CloudOfflineUiTest {
+    private var russianLocale: AutoCloseable? = null
+
+    @After fun restoreTestLocale() { russianLocale?.close(); russianLocale = null }
+
     @get:Rule val compose = createComposeRule()
     private lateinit var application: Context
     private lateinit var testRoot: File
@@ -40,6 +44,7 @@ class CloudOfflineUiTest {
     @Before fun setUp() {
         assumeTrue("This scenario covers a build without a Google Client ID", BuildConfig.GOOGLE_CLIENT_ID.isBlank())
         application = ApplicationProvider.getApplicationContext()
+        russianLocale = installRussianTestLocale(application)
         assumeTrue("Leave any existing Google session untouched", CloudSync.get(application).status.email == null)
         testRoot = File(application.cacheDir, "cloud-offline-ui-${UUID.randomUUID()}")
         val files = File(testRoot, "files").apply { check(mkdirs()) }
@@ -51,7 +56,7 @@ class CloudOfflineUiTest {
         val apple = Product("offline-ui-product", "Яблоко, пример", "Пример", Macros(52.0, 0.3, 0.2, 13.8))
         store.saveProduct(apple)
         store.addEntry(Entry("offline-ui-entry", today, "Перекус", apple.id, apple.name, 150.0, apple.macros))
-        compose.setContent { DietDiaryTheme(darkTheme = dark.value) { DietDiaryApp(store) } }
+        compose.setContent { RussianTestContent { DietDiaryTheme(darkTheme = dark.value) { DietDiaryApp(store) } } }
     }
 
     @After fun tearDown() {

@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"ダイエット日記"</string>
+    <string name="core_tagline" formatted="false">"カロリー、体重、変化を記録"</string>
+    <string name="core_open_diary" formatted="false">"日記を開く"</string>
+    <string name="core_save_failed" formatted="false">"データを保存できませんでした"</string>
+    <string name="core_day" formatted="false">"今日"</string>
+    <string name="core_products" formatted="false">"食品"</string>
+    <string name="core_diary" formatted="false">"日記"</string>
+    <string name="core_charts" formatted="false">"グラフ"</string>
+    <string name="core_more" formatted="false">"その他"</string>
+    <string name="core_recipe_saved" formatted="false">"料理を食品一覧に保存しました"</string>
+    <string name="core_back_to_day" formatted="false">"今日の記録に戻る"</string>
+    <string name="core_action_failed" formatted="false">"この操作を完了できませんでした"</string>
+    <string name="core_understood" formatted="false">"OK"</string>
+    <string name="core_restore_available" formatted="false">"「その他」からバックアップを復元できます。"</string>
+    <string name="core_eaten_today" formatted="false">"今日の摂取量"</string>
+    <string name="core_set_goal_hint" formatted="false">"「その他」で目標を設定できます"</string>
+    <string name="core_add_food" formatted="false">"+ 食事を追加"</string>
+    <string name="core_first_meal" formatted="false">"最初の食事を記録しましょう"</string>
+    <string name="core_first_meal_help" formatted="false">"食品を選び、重さをグラムで入力すると、カロリーと栄養素を計算できます。"</string>
+    <string name="core_my_day" formatted="false">"今日の記録"</string>
+    <string name="core_my_day_help" formatted="false">"体重、ウエスト、歩数、睡眠など、わかる項目を記録しましょう。"</string>
+    <string name="core_record_metrics" formatted="false">"測定値を記録"</string>
+    <string name="core_edit_metrics" formatted="false">"測定値を編集"</string>
+    <string name="core_food_state_hint" formatted="false">"食品の重さと栄養価は、生・乾燥・調理済みなど、同じ状態のものを使ってください。"</string>
+    <string name="core_weight" formatted="false">"体重"</string>
+    <string name="core_waist" formatted="false">"ウエスト"</string>
+    <string name="core_my_diary" formatted="false">"マイ日記"</string>
+    <string name="core_diary_tagline" formatted="false">"毎日、自分のペースで"</string>
+    <string name="core_record_day" formatted="false">"+ 1日分を記録"</string>
+    <string name="core_optional_diary_help" formatted="false">"すべての項目は任意です。体重、睡眠、メモのいずれかだけでも記録できます。記録をタップすると編集できます。"</string>
+    <string name="core_history_starts" formatted="false">"ここから記録を始めましょう"</string>
+    <string name="core_history_help" formatted="false">"測定値を記録し、「グラフ」で変化を確認できます。"</string>
+    <string name="core_file_unavailable" formatted="false">"ファイルを利用できません"</string>
+    <string name="core_backup_saved" formatted="false">"バックアップを保存しました"</string>
+    <string name="core_export_error" formatted="false">"バックアップを書き出せませんでした"</string>
+    <string name="core_read_error" formatted="false">"ファイルを読み込めませんでした"</string>
+    <string name="core_settings_tagline" formatted="false">"設定とデータのバックアップ"</string>
+    <string name="core_your_progress" formatted="false">"進捗"</string>
+    <string name="core_achievements_help" formatted="false">"日記を続ける習慣を応援する、小さな実績です。"</string>
+    <string name="core_achievements" formatted="false">"実績"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"希望する場合は、接続して複数の端末で日記を同期できます。"</string>
+    <string name="core_cloud_sync" formatted="false">"クラウド同期"</string>
+    <string name="core_personal_goals" formatted="false">"個人の目標"</string>
+    <string name="core_personal_goals_help" formatted="false">"カロリー、栄養素、目標体重を自分で設定できます。設定しない項目は空欄のままで構いません。"</string>
+    <string name="core_configure_goals" formatted="false">"目標を設定"</string>
+    <string name="core_backup" formatted="false">"バックアップ"</string>
+    <string name="core_backup_help" formatted="false">"食品、食事、日記、目標、実績を1つのファイルに保存します。アプリを再インストールする前にバックアップしてください。"</string>
+    <string name="core_save_file" formatted="false">"ファイルに保存"</string>
+    <string name="core_restore_file" formatted="false">"ファイルから復元"</string>
+    <string name="core_write_locked" formatted="false">"元のファイルを保護するため、保存を無効にしています。有効なバックアップを復元してください。"</string>
+    <string name="core_about_data" formatted="false">"アプリとデータについて"</string>
+    <string name="core_about_data_help" formatted="false">"記録の保存方法、同期の仕組み、データの削除方法を説明します。"</string>
+    <string name="core_privacy" formatted="false">"プライバシーとデータの削除"</string>
+    <string name="core_offline" formatted="false">"オフラインで利用可能"</string>
+    <string name="core_offline_help" formatted="false">"Google ログインは任意です。歩数と睡眠は手動で入力します。有効にした同期と広告の読み込みにはインターネット接続が必要です。日記の内容を広告ネットワークに送信することはありません。"</string>
+    <string name="core_about_foods" formatted="false">"食品について"</string>
+    <string name="core_foods_reference" formatted="false">"内蔵の栄養価は可食部100 gあたりの目安です。正確な値は包装の表示を確認してください。食品の値を編集しても、過去の食事記録は再計算されません。"</string>
+    <string name="core_foods_source" formatted="false">"データベースの出典：USDA FoodData Central、SR Legacy。各食品に状態と出典の詳細を記載しています。"</string>
+    <string name="core_restore_title" formatted="false">"このバックアップを復元しますか？"</string>
+    <string name="core_restore_warning" formatted="false">"現在の食品、日記、目標、実績を、このファイルの内容で置き換えます。先にバックアップを保存してください。同期に接続している場合、復元した変更内容は Google Drive にも送信されます。"</string>
+    <string name="core_backup_restored" formatted="false">"バックアップを復元しました"</string>
+    <string name="core_invalid_file" formatted="false">"無効なファイルです"</string>
+    <string name="core_replace_data" formatted="false">"データを置き換える"</string>
+    <string name="core_cancel" formatted="false">"キャンセル"</string>
+    <string name="core_save" formatted="false">"保存"</string>
+    <string name="core_calculate_portion" formatted="false">"1食分を計算"</string>
+    <string name="core_edit_portion" formatted="false">"分量を編集"</string>
+    <string name="core_portion_weight" formatted="false">"1食分の重さ（g）"</string>
+    <string name="core_portion_invalid" formatted="false">"0より大きく、100,000 g以下の重さを入力してください"</string>
+    <string name="core_add_to_diary" formatted="false">"日記に追加"</string>
+    <string name="core_delete_entry" formatted="false">"記録を削除"</string>
+    <string name="core_delete_portion_question" formatted="false">"この食事記録を日記から削除しますか？"</string>
+    <string name="core_new_food" formatted="false">"新しい食品・料理"</string>
+    <string name="core_edit_nutrition" formatted="false">"栄養価を編集"</string>
+    <string name="core_name" formatted="false">"名前"</string>
+    <string name="core_food" formatted="false">"食品"</string>
+    <string name="core_dish" formatted="false">"調理済みの料理"</string>
+    <string name="core_category" formatted="false">"カテゴリ"</string>
+    <string name="core_per100_hint" formatted="false">"包装やレシピに記載された100 gあたりの値を入力してください。含まれない栄養素には0を入力します。"</string>
+    <string name="core_kcal" formatted="false">"カロリー"</string>
+    <string name="core_protein_grams" formatted="false">"たんぱく質（g）"</string>
+    <string name="core_fat_grams" formatted="false">"脂質（g）"</string>
+    <string name="core_carbs_grams" formatted="false">"炭水化物（g）"</string>
+    <string name="core_food_note" formatted="false">"メモ・材料（任意）"</string>
+    <string name="core_favorite" formatted="false">"お気に入りに追加"</string>
+    <string name="core_name_category_required" formatted="false">"名前とカテゴリを入力してください"</string>
+    <string name="core_nutrition_invalid" formatted="false">"100 gあたりの値を入力してください：カロリー0～1,000、たんぱく質・脂質・炭水化物は各0～100 g"</string>
+    <string name="core_delete_food" formatted="false">"食品一覧から削除"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"過去の食事記録の値は変更されません。"</string>
+    <string name="core_delete_food_question" formatted="false">"この食品を削除しますか？日記内の記録は残ります。"</string>
+    <string name="core_day_entry" formatted="false">"1日の記録"</string>
+    <string name="core_optional_fields" formatted="false">"記録したい項目だけ入力し、残りは空欄にしてください。"</string>
+    <string name="core_editing_existing" formatted="false">"この日付にはすでに記録があります。その記録を編集中です。"</string>
+    <string name="core_weight_kg" formatted="false">"体重（kg）"</string>
+    <string name="core_waist_cm" formatted="false">"ウエスト（cm）"</string>
+    <string name="core_steps" formatted="false">"歩数"</string>
+    <string name="core_sleep" formatted="false">"睡眠"</string>
+    <string name="core_hours" formatted="false">"時間"</string>
+    <string name="core_minutes" formatted="false">"分"</string>
+    <string name="core_body_fat_optional" formatted="false">"体組成計の体脂肪率（%、任意）"</string>
+    <string name="core_body_fat_hint" formatted="false">"体組成計の体脂肪率は傾向を見る目安であり、正確な測定値ではありません。"</string>
+    <string name="core_strength_training" formatted="false">"筋力トレーニング"</string>
+    <string name="core_training_example" formatted="false">"例：スクワット10回×3セット、12 kgのダンベル"</string>
+    <string name="core_manual_nutrition" formatted="false">"栄養摂取量の合計を手動入力"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"入力した場合、食品から計算した1日の合計より優先されます。自動計算する場合は空欄にしてください。"</string>
+    <string name="core_daily_calories" formatted="false">"1日のカロリー"</string>
+    <string name="core_daily_protein" formatted="false">"1日のたんぱく質（g）"</string>
+    <string name="core_wellbeing_notes" formatted="false">"メモ・体調"</string>
+    <string name="core_steps_invalid" formatted="false">"歩数は0～200,000の整数で入力してください"</string>
+    <string name="core_sleep_invalid" formatted="false">"睡眠は0～24時間、分は0～59で入力してください"</string>
+    <string name="core_body_fat" formatted="false">"体脂肪率"</string>
+    <string name="core_calories" formatted="false">"カロリー"</string>
+    <string name="core_protein" formatted="false">"たんぱく質"</string>
+    <string name="core_entry_required" formatted="false">"測定値またはメモを少なくとも1つ入力してください"</string>
+    <string name="core_delete_day" formatted="false">"この日の記録を削除"</string>
+    <string name="core_optional_goals" formatted="false">"すべての目標は任意です。空欄の項目には目標を設定しません。"</string>
+    <string name="core_calories_per_day" formatted="false">"1日の目標カロリー"</string>
+    <string name="core_protein_per_day" formatted="false">"1日の目標たんぱく質（g）"</string>
+    <string name="core_fat_per_day" formatted="false">"1日の目標脂質（g）"</string>
+    <string name="core_carbs_per_day" formatted="false">"1日の目標炭水化物（g）"</string>
+    <string name="core_target_weight" formatted="false">"目標体重（kg）"</string>
+    <string name="core_goals_invalid" formatted="false">"目標値を確認してください：カロリー0～10,000、たんぱく質・脂質・炭水化物は各0～1,000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"目標体重は1～500 kgで入力してください"</string>
+    <string name="core_delete_question" formatted="false">"削除しますか？"</string>
+    <string name="core_delete" formatted="false">"削除"</string>
+    <string name="core_select_food" formatted="false">"食品を選択"</string>
+    <string name="core_foods_dishes" formatted="false">"食品と料理"</string>
+    <string name="core_search_food" formatted="false">"食品や料理を検索"</string>
+    <string name="core_new_food_button" formatted="false">"+ 食品・料理"</string>
+    <string name="core_recipe_button" formatted="false">"レシピから作成"</string>
+    <string name="core_no_results" formatted="false">"見つかりませんでした"</string>
+    <string name="core_no_results_help" formatted="false">"別の言葉で検索するか、自分の食品や料理を追加してください。"</string>
+    <string name="core_edit" formatted="false">"編集"</string>
+    <string name="core_achievement_unlocked">"🏆 実績を解除しました！ %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"残り%1$s kcal · 目標%2$s"</string>
+    <string name="core_above_goal">"目標を%1$s kcal超過"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"たんぱく質 %1$s   脂質 %2$s   炭水化物 %3$s"</string>
+    <string name="core_weight_summary">"体重 %1$s kg"</string>
+    <string name="core_waist_summary">"ウエスト %1$s cm"</string>
+    <string name="core_steps_summary">"歩数：%1$s"</string>
+    <string name="core_fat_summary">"体脂肪率 %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal（手動入力）"</string>
+    <string name="core_manual_protein">"たんぱく質 %1$s g（手動入力）"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"睡眠 %1$s"</string>
+    <string name="core_scale_fat">"体組成計の体脂肪率 %1$s%%"</string>
+    <string name="core_training_value">"トレーニング：%1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"たんぱく質 %1$s g"</string>
+    <string name="core_app_version">"ダイエット日記 · %1$s"</string>
+    <string name="core_per100_summary">"100 gあたり：%1$s kcal · たんぱく質 %2$s · 脂質 %3$s · 炭水化物 %4$s"</string>
+    <string name="core_range_invalid">"%1$s：%2$s～%3$sの値を入力してください"</string>
+    <string name="core_delete_day_question">"%1$sの測定値を削除しますか？食事記録は残ります。"</string>
+    <string name="core_catalog_count">"食品数：%1$s · 栄養価は100 gあたり"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   たんぱく質 %2$s   脂質 %3$s   炭水化物 %4$s"</string>
+    <string name="core_today_date">"今日 · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"カロリーとたんぱく質は日記に手動入力した合計です"</string>
+    <string name="core_manual_calorie_total" formatted="false">"カロリーは日記に手動入力した合計です"</string>
+    <string name="core_manual_protein_total" formatted="false">"たんぱく質は日記に手動入力した合計です"</string>
+    <string name="core_macro_goals">"P / F / Cの目標：%1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s（手動入力）"</string>
+    <string name="core_all" formatted="false">"すべて"</string>
+    <string name="core_favorites" formatted="false">"お気に入り"</string>
+    <string name="core_sleep_duration">"%1$s時間%2$s分"</string>
+    <string name="core_previous_day" formatted="false">"前の日"</string>
+    <string name="core_next_day" formatted="false">"次の日"</string>
+    <string name="secondary_metric_weight" formatted="false">"体重"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"体脂肪率"</string>
+    <string name="secondary_metric_waist" formatted="false">"ウエスト"</string>
+    <string name="secondary_metric_steps" formatted="false">"歩数"</string>
+    <string name="secondary_metric_sleep" formatted="false">"睡眠"</string>
+    <string name="secondary_metric_kcal" formatted="false">"カロリー"</string>
+    <string name="secondary_metric_protein" formatted="false">"たんぱく質"</string>
+    <string name="secondary_metric_fat" formatted="false">"脂質"</string>
+    <string name="secondary_metric_carbs" formatted="false">"炭水化物"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"歩"</string>
+    <string name="secondary_unit_hours" formatted="false">"時間"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"期間が無効です"</string>
+    <string name="secondary_stats_title" formatted="false">"変化"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"記録をわかりやすいグラフで確認"</string>
+    <string name="secondary_metric" formatted="false">"項目"</string>
+    <string name="secondary_week" formatted="false">"週"</string>
+    <string name="secondary_month" formatted="false">"月"</string>
+    <string name="secondary_year" formatted="false">"年"</string>
+    <string name="secondary_custom_period" formatted="false">"期間を指定"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"開始日は終了日以前にしてください"</string>
+    <string name="secondary_no_records" formatted="false">"まだ記録がありません"</string>
+    <string name="secondary_empty_food_period" formatted="false">"日記に食事を追加するか、別の期間を選んでください。"</string>
+    <string name="secondary_chart_tap" formatted="false">"グラフをタップすると記録を選択できます"</string>
+    <string name="secondary_chart_connected" formatted="false">"線は記録された測定値を結んでいます。その間には測定データがありません。"</string>
+    <string name="secondary_body_fat_hint" formatted="false">"体組成計の推定値は、傾向を見る目安になります。"</string>
+    <string name="secondary_food_override_hint" formatted="false">"1日の合計を手動入力した場合、その値が食品の合計に代わって使われます。入力がなければ食品を合計し、記録のない日は除外します。"</string>
+    <string name="secondary_food_total_hint" formatted="false">"入力した食品の合計を表示しています。記録のない日はゼロとして数えません。"</string>
+    <string name="secondary_missing_days_hint" formatted="false">"記録のない日は表示せず、平均の計算にも含めません。"</string>
+    <string name="secondary_today_yesterday" formatted="false">"今日と昨日"</string>
+    <string name="secondary_no_today" formatted="false">"今日の記録はありません"</string>
+    <string name="secondary_no_yesterday" formatted="false">"昨日の記録はありません"</string>
+    <string name="secondary_partial_today" formatted="false">"現在の記録を比較しています。今日のデータはまだ一部だけの場合があります。"</string>
+    <string name="secondary_period_summary" formatted="false">"期間のまとめ"</string>
+    <string name="secondary_recorded_average" formatted="false">"記録のある日の平均"</string>
+    <string name="secondary_recorded_days" formatted="false">"データのある日数"</string>
+    <string name="secondary_minimum" formatted="false">"最小"</string>
+    <string name="secondary_maximum" formatted="false">"最大"</string>
+    <string name="secondary_first_to_last" formatted="false">"最初の記録から最後の記録まで"</string>
+    <string name="secondary_two_days_needed" formatted="false">"変化を計算するには、少なくとも2日分の記録が必要です。"</string>
+    <string name="secondary_history" formatted="false">"履歴"</string>
+    <string name="secondary_history_recent" formatted="false">"データのある直近14日間です。以前の記録は期間を指定して確認してください。"</string>
+    <string name="secondary_history_all" formatted="false">"選択した期間内でデータのあるすべての日"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"開始：%1$s"</string>
+    <string name="secondary_date_until">"終了：%1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"期間内の%1$s"</string>
+    <string name="secondary_weight_goal">"目標：%1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"日記に測定値を追加するか、別の期間を選んでください。"</string>
+    <string name="secondary_latest_record">"最新の記録 · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s：%2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"今日：%1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"昨日：%1$s %2$s"</string>
+    <string name="secondary_change_value">"変化：%1$s %2$s"</string>
+    <string name="secondary_count_of">"%2$d日中%1$d日"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s。記録のある日数：%2$d日、%3$sから%4$sまで。最小%5$s、最大%6$s %7$s。各値は履歴に記載されています。"</string>
+    <string name="secondary_award_first_weight" formatted="false">"はじめの一歩"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"初めての体重測定を保存しましょう。"</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"初めての体重測定を保存しました。"</string>
+    <string name="secondary_award_first_food" formatted="false">"初めての記録"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"初めての食事を日記に記録しましょう。"</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"初めての食事を記録しました。"</string>
+    <string name="secondary_award_weight_week" formatted="false">"1週間分のデータ"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"異なる7日間に体重を記録しましょう。連続した日でなくても構いません。"</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"異なる7日間の体重を記録しました。"</string>
+    <string name="secondary_award_weight_month" formatted="false">"継続の力"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"異なる30日間に体重を記録しましょう。"</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"30日分の体重を記録しました。"</string>
+    <string name="secondary_award_food_hundred" formatted="false">"記録の達人"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"日記に食事を100件保存しましょう。"</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"食事を100件保存しました。"</string>
+    <string name="secondary_award_food_streak" formatted="false">"新しい習慣"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"7日間連続で食事を記録しましょう。"</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"7日間連続で食事を記録しました。"</string>
+    <string name="secondary_award_steps" formatted="false">"ウォーキングの達人"</string>
+    <string name="secondary_award_steps_description" formatted="false">"1日で10,000歩以上を記録しましょう。"</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"10,000歩の日を記録しました。"</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"記録を重ねて"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"体重測定を100件保存しましょう。同じ日付の測定は1件として数えます。"</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"体重測定を100件保存しました。"</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"日記のベテラン"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"異なる90日間に食事や測定値を記録しましょう。連続した日でなくても構いません。"</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"異なる90日間の日記を記録しました。"</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"件の測定"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"件の食事"</string>
+    <string name="secondary_award_unit_days" formatted="false">"日"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"日連続"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"歩／日"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"日分の記録"</string>
+    <string name="secondary_back" formatted="false">"‹  戻る"</string>
+    <string name="secondary_achievements" formatted="false">"実績"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"小さな積み重ねが習慣に"</string>
+    <string name="secondary_your_progress" formatted="false">"進捗"</string>
+    <string name="secondary_awards_permanent" formatted="false">"獲得した実績は、記録を編集しても失われません。"</string>
+    <string name="secondary_awards_regular" formatted="false">"日記を大切に続けるための実績"</string>
+    <string name="secondary_awards_through_today" formatted="false">"今日までに保存された記録が対象です。"</string>
+    <string name="secondary_hidden_achievement" formatted="false">"隠し実績"</string>
+    <string name="secondary_hidden_description" formatted="false">"日記を続けて、この実績を解除しましょう。"</string>
+    <string name="secondary_earned" formatted="false">"獲得済み"</string>
+    <string name="secondary_hidden_locked" formatted="false">"非公開 · 未解除"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"進行中 · 未解除"</string>
+    <string name="secondary_locked" formatted="false">"未解除"</string>
+    <string name="secondary_hidden_progress" formatted="false">"条件と進捗は、実績を獲得すると表示されます。"</string>
+    <string name="secondary_best_streak" formatted="false">"最長連続記録"</string>
+    <string name="secondary_hidden_reward" formatted="false">"隠し報酬"</string>
+    <string name="secondary_unlocked_of">"/ 全%1$d件を解除"</string>
+    <string name="secondary_unlocked_date">"解除日：%1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← 戻る"</string>
+    <string name="secondary_my_recipe" formatted="false">"マイレシピ"</string>
+    <string name="secondary_recipe_intro" formatted="false">"材料は調理前に量ってください。1食分の計算には調理後の重さを使います。油やソースも含めましょう。"</string>
+    <string name="secondary_recipe_name" formatted="false">"レシピ名"</string>
+    <string name="secondary_recipe_example" formatted="false">"例：野菜の煮込み"</string>
+    <string name="secondary_ingredients" formatted="false">"材料"</string>
+    <string name="secondary_start_ingredients" formatted="false">"材料を追加しましょう"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"材料を1つずつ追加し、重さをグラムで入力してください。"</string>
+    <string name="secondary_edit_weight" formatted="false">"重さを変更"</string>
+    <string name="secondary_delete" formatted="false">"削除"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ 材料を追加"</string>
+    <string name="secondary_whole_recipe" formatted="false">"料理全体"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"調理中は水分の増減で重さが変わります。容器を除いて、完成した料理を量ってください。"</string>
+    <string name="secondary_cooked_weight" formatted="false">"調理後の重さ（g）"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"調理後に重さを入力"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0より大きく、100,000 g以下の重さを入力してください"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"重さは自動入力されません"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"完成した料理100 gあたり"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"調理後の重さと材料を確認してください。100 gあたりの上限は1,000 kcal、各栄養素100 gです。"</string>
+    <string name="secondary_recipe_save_error" formatted="false">"レシピを保存できませんでした"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"「自分の料理」に保存"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"保存すると、1食分の重さを指定して日記に追加できます。"</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"調理前の材料の重さ"</string>
+    <string name="secondary_grams" formatted="false">"グラム"</string>
+    <string name="secondary_weight_limits" formatted="false">"0より大きく、100,000 g以下"</string>
+    <string name="secondary_add" formatted="false">"追加"</string>
+    <string name="secondary_save" formatted="false">"保存"</string>
+    <string name="secondary_cancel" formatted="false">"キャンセル"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"材料を選択"</string>
+    <string name="secondary_search_food" formatted="false">"食品を検索"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"見つかりませんでした。「食品」タブで自分の食品を追加できます。"</string>
+    <string name="secondary_close" formatted="false">"閉じる"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"たんぱく質 %1$s · 脂質 %2$s · 炭水化物 %3$s g"</string>
+    <string name="secondary_ingredients_weight">"材料の重さ：%1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"完成量：%1$s g。材料：%2$s"</string>
+    <string name="app_name" formatted="false">"ダイエット日記"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"移行用バックアップが一致しません"</string>
+    <string name="data_entry_exists" formatted="false">"この食事記録はすでに存在します"</string>
+    <string name="data_entry_missing" formatted="false">"食事記録が見つかりません"</string>
+    <string name="data_edited_date_changed" formatted="false">"編集中の記録の日付が変更されています"</string>
+    <string name="data_device_id_corrupt" formatted="false">"この端末のIDが破損しているため、復元できません"</string>
+    <string name="data_sync_invalid" formatted="false">"同期データが無効です"</string>
+    <string name="data_diary_read_only" formatted="false">"日記は上書きから保護されています。バックアップから復元してください"</string>
+    <string name="data_diary_inconsistent" formatted="false">"日記データに不整合があります"</string>
+    <string name="data_backup_too_large" formatted="false">"バックアップのサイズが大きすぎます"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"インストールIDが破損しています"</string>
+    <string name="data_save_verification_failed" formatted="false">"日記が保存されたことを確認できませんでした"</string>
+    <string name="data_save_failed" formatted="false">"日記を保存できませんでした"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"バックアップが50 MBを超えています"</string>
+    <string name="data_diary_file_too_large" formatted="false">"日記ファイルのサイズが大きすぎます"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"食品データベースのサイズが無効です"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"対応していないバックアップのバージョンです"</string>
+    <string name="data_too_many_values">"%1$sの値が多すぎます"</string>
+    <string name="data_too_many_products" formatted="false">"食品の数が多すぎます"</string>
+    <string name="data_too_many_entries" formatted="false">"食事記録の数が多すぎます"</string>
+    <string name="data_too_many_logs" formatted="false">"日記の記録数が多すぎます"</string>
+    <string name="data_product_id_duplicate" formatted="false">"食品IDが重複しています"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"食事記録のIDが重複しています"</string>
+    <string name="data_log_date_duplicate" formatted="false">"日記の日付が重複しています"</string>
+    <string name="data_label_product_id" formatted="false">"食品ID"</string>
+    <string name="data_label_product_name" formatted="false">"食品名"</string>
+    <string name="data_label_category" formatted="false">"カテゴリー"</string>
+    <string name="data_label_note" formatted="false">"メモ"</string>
+    <string name="data_label_entry_id" formatted="false">"記録ID"</string>
+    <string name="data_label_meal" formatted="false">"食事"</string>
+    <string name="data_food_weight_range" formatted="false">"食品の重さは0より大きく、100000 g以下にしてください"</string>
+    <string name="data_label_weight" formatted="false">"体重"</string>
+    <string name="data_label_waist" formatted="false">"ウエスト"</string>
+    <string name="data_steps_range" formatted="false">"歩数は0〜200000の範囲で入力してください"</string>
+    <string name="data_label_sleep" formatted="false">"睡眠"</string>
+    <string name="data_label_body_fat" formatted="false">"体脂肪率"</string>
+    <string name="data_label_daily_calories" formatted="false">"1日のカロリー"</string>
+    <string name="data_label_daily_protein" formatted="false">"1日のたんぱく質"</string>
+    <string name="data_label_workout" formatted="false">"運動"</string>
+    <string name="data_label_log_note" formatted="false">"メモ"</string>
+    <string name="data_log_empty" formatted="false">"測定値またはメモを1つ以上入力してください"</string>
+    <string name="data_label_goal_weight" formatted="false">"目標体重"</string>
+    <string name="data_too_many_achievements" formatted="false">"実績の数が多すぎます"</string>
+    <string name="data_achievement_invalid" formatted="false">"実績が無効です"</string>
+    <string name="data_setting_not_portable" formatted="false">"この設定は転送できません"</string>
+    <string name="data_setting_invalid">"設定「%1$s」の値が無効です"</string>
+    <string name="data_label_calories" formatted="false">"カロリー"</string>
+    <string name="data_label_protein" formatted="false">"たんぱく質"</string>
+    <string name="data_label_fat" formatted="false">"脂質"</string>
+    <string name="data_label_carbs" formatted="false">"炭水化物"</string>
+    <string name="data_value_range">"%1$s：入力できる範囲は%2$s〜%3$sです"</string>
+    <string name="data_text_length_invalid">"%1$s：文字数が無効です"</string>
+    <string name="data_text_character_invalid">"%1$s：使用できない文字があります"</string>
+    <string name="data_date_format_invalid" formatted="false">"日付はYYYY-MM-DD形式で入力してください"</string>
+    <string name="data_date_nonexistent">"無効な日付：%1$s"</string>
+    <string name="data_field_string_required">"項目「%1$s」はテキストである必要があります"</string>
+    <string name="data_field_boolean_required">"項目「%1$s」は真偽値である必要があります"</string>
+    <string name="data_field_number_required">"項目「%1$s」は数値である必要があります"</string>
+    <string name="data_field_finite_required">"項目「%1$s」は有限の数値である必要があります"</string>
+    <string name="data_field_integer_required">"項目「%1$s」は整数である必要があります"</string>
+    <string name="data_too_many_items">"%1$sの項目が多すぎます"</string>
+    <string name="data_data_file_invalid">"無効なデータファイル：%1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"端末IDがありません"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"論理時計の上限に達しました"</string>
+    <string name="data_too_many_sync_records" formatted="false">"同期レコードの数が多すぎます"</string>
+    <string name="data_sync_version_required" formatted="false">"同期には形式バージョン2が必要です"</string>
+    <string name="data_sync_key_invalid" formatted="false">"同期キーが無効です"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"同期キーが重複しています"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"削除フラグが無効です"</string>
+    <string name="data_sync_data_invalid" formatted="false">"同期データが無効です"</string>
+    <string name="data_record_clock_invalid" formatted="false">"レコードのバージョンが論理時計を超えています"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"データが同期メタデータと一致しません"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"同期キーの長さが無効です"</string>
+    <string name="data_sync_key_malformed" formatted="false">"同期キーの形式が正しくありません"</string>
+    <string name="data_sync_type_unknown" formatted="false">"不明な同期の種類です"</string>
+    <string name="data_record_id_too_long" formatted="false">"レコードIDが長すぎます"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"実績の削除が無効です"</string>
+    <string name="data_log_key_invalid" formatted="false">"日記のキーが無効です"</string>
+    <string name="data_log_field_unknown" formatted="false">"不明な日記の項目です"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"日記の削除マーカーが無効です"</string>
+    <string name="data_goal_unknown" formatted="false">"不明な目標です"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"削除済みのレコードにデータが含まれています"</string>
+    <string name="data_sync_value_invalid" formatted="false">"同期する値が無効です"</string>
+    <string name="data_record_id_mismatch" formatted="false">"レコードIDがキーと一致しません"</string>
+    <string name="data_field_value_invalid" formatted="false">"項目の値が無効です"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"実績の日付がキーと一致しません"</string>
+    <string name="data_note_string_required" formatted="false">"メモはテキストである必要があります"</string>
+    <string name="data_sync_note_invalid" formatted="false">"同期されたメモが無効です"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"論理時計が無効です"</string>
+    <string name="data_device_invalid" formatted="false">"端末が無効です"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"バージョン情報が無効です"</string>
+    <string name="data_google_login_required" formatted="false">"Googleにもう一度ログインしてください"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"クラウドバックアップの数が多すぎます"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Driveから同じページが返されました"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"クラウドバックアップが50 MBを超えています"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Driveからアップロード先のアドレスが返されませんでした"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Google Driveのアップロード先アドレスが無効です"</string>
+    <string name="data_back" formatted="false">"‹  戻る"</string>
+    <string name="data_cloud_title" formatted="false">"クラウド同期"</string>
+    <string name="data_cloud_subtitle" formatted="false">"複数の端末で日記を共有"</string>
+    <string name="data_no_account" formatted="false">"アカウントが接続されていません"</string>
+    <string name="data_cloud_intro" formatted="false">"ログインは任意です。食品、食事、測定値、目標、実績はスマートフォンに保存されます。接続すると、Google Drive内の非表示フォルダにもコピーが保存されます。"</string>
+    <string name="data_cloud_first_connection" formatted="false">"初回接続時に記録が統合されます。このアプリはDrive内のほかのファイルにはアクセスできません。"</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"このビルドではGoogleログインがまだ設定されていません。アカウントがなくても日記とファイルへのバックアップを利用できます。"</string>
+    <string name="data_connect_google" formatted="false">"Googleに接続"</string>
+    <string name="data_automatic_sync" formatted="false">"自動同期"</string>
+    <string name="data_automatic_sync_description" formatted="false">"データの変更時、およびAndroidが許可する場合にバックグラウンドで同期します"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"スケジュールを変更できませんでした。データはこの端末に保存されています。"</string>
+    <string name="data_sync_start_failed" formatted="false">"同期を開始できませんでした。データはこの端末に保存されています。"</string>
+    <string name="data_sync_now" formatted="false">"今すぐ同期"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Googleに再ログイン"</string>
+    <string name="data_disconnect_account" formatted="false">"アカウントの接続を解除"</string>
+    <string name="data_sync_never" formatted="false">"まだ同期していません"</string>
+    <string name="data_offline_saved_title" formatted="false">"データは端末に保存されています"</string>
+    <string name="data_cloud_merge_description" formatted="false">"自動同期が有効な場合、接続が利用可能になると変更内容が送信されます。同じ項目が2台の端末で変更された場合は、変更日時が新しい方が採用されます。別々の記録や項目は統合されます。"</string>
+    <string name="data_cloud_password_description" formatted="false">"パスワードはブラウザのGoogleページでのみ入力します。アクセストークンはAndroid Keystoreで保護され、バックアップには含まれません。"</string>
+    <string name="data_google_connection_title" formatted="false">"Googleとの接続"</string>
+    <string name="data_got_it" formatted="false">"確認"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Driveに接続しますか？"</string>
+    <string name="data_connect_drive_description" formatted="false">"現在の日記を、選択したGoogleアカウント内のデータと統合します。各端末で同じ個人用アカウントを使用してください。既定のブラウザでログイン画面が開きます。"</string>
+    <string name="data_sign_in_open_failed" formatted="false">"ログイン画面を開けませんでした。既定のブラウザをインストールまたは有効にして、もう一度お試しください。"</string>
+    <string name="data_continue" formatted="false">"続行"</string>
+    <string name="data_cancel" formatted="false">"キャンセル"</string>
+    <string name="data_disconnect_title" formatted="false">"アカウントの接続を解除しますか？"</string>
+    <string name="data_disconnect_description" formatted="false">"この端末での同期が停止します。端末内の日記とGoogle Drive内のコピーは保持されます。Googleアカウントの設定で、このアプリに与えた権限を管理できます。"</string>
+    <string name="data_disconnect_failed" formatted="false">"アカウントの接続を解除できませんでした。もう一度お試しください。"</string>
+    <string name="data_disconnect" formatted="false">"接続を解除"</string>
+    <string name="data_google_not_connected" formatted="false">"Googleに接続していません"</string>
+    <string name="data_sync_ready" formatted="false">"同期の準備ができました"</string>
+    <string name="data_sync_changes_pending" formatted="false">"変更内容の同期待ち…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"インターネットに接続していません。変更内容はこの端末に保存されています。"</string>
+    <string name="data_google_not_configured" formatted="false">"このビルドではGoogleログインがまだ設定されていません"</string>
+    <string name="data_sync_wait" formatted="false">"同期が完了するまでお待ちください"</string>
+    <string name="data_google_connecting" formatted="false">"Googleに接続中…"</string>
+    <string name="data_connection_cancelled" formatted="false">"接続をキャンセルしました"</string>
+    <string name="data_connection_rejected" formatted="false">"接続がキャンセルされたか、Googleに拒否されました"</string>
+    <string name="data_google_connected_merging" formatted="false">"Googleに接続しました。記録を統合中…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Googleに接続できませんでした。インターネット接続とアクセス設定を確認してください。"</string>
+    <string name="data_account_disconnected" formatted="false">"アカウントの接続を解除しました。データはこの端末に残ります。"</string>
+    <string name="data_sync_waiting_network" formatted="false">"インターネットに接続していません。同期は接続を待っています。"</string>
+    <string name="data_sync_scheduled" formatted="false">"同期を予約しました…"</string>
+    <string name="data_sync_running" formatted="false">"同期中…"</string>
+    <string name="data_sync_complete" formatted="false">"同期が完了しました"</string>
+    <string name="data_no_internet" formatted="false">"インターネット接続なし"</string>
+    <string name="data_sync_failed_saved" formatted="false">"同期できませんでした。データはこの端末に保存されています"</string>
+    <string name="data_page_open_failed" formatted="false">"ページを開けませんでした。下のテキストからアドレスをコピーできます。"</string>
+    <string name="data_privacy_title" formatted="false">"プライバシー"</string>
+    <string name="data_privacy_subtitle" formatted="false">"記録とデータの管理"</string>
+    <string name="data_app_purpose" formatted="false">"このアプリについて"</string>
+    <string name="data_medical_disclaimer" formatted="false">"このアプリは医療機器ではありません。病気の診断、治療、治癒、予防を行うものではありません。医学的な助言、診断、治療については、資格のある医療専門家にご相談ください。"</string>
+    <string name="data_manage_delete_data" formatted="false">"データの管理と削除"</string>
+    <string name="data_delete_data_intro" formatted="false">"すべてのデータを削除する前に、すべての端末で同期を無効にしてください。スマートフォンからアプリをアンインストールしても、Google Drive内のコピーや書き出したファイルは削除されません。"</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Driveのデータを管理"</string>
+    <string name="data_google_account_access" formatted="false">"Googleアカウントへのアクセス"</string>
+    <string name="data_android_app_storage" formatted="false">"Androidのアプリストレージ"</string>
+    <string name="data_contact_developer" formatted="false">"開発者に問い合わせる"</string>
+    <string name="data_opening_page" formatted="false">"ページを開く"</string>
+    <string name="data_advertisement" formatted="false">"広告"</string>
+    <string name="data_ad_information" formatted="false">"この広告について"</string>
+    <string name="data_cloud_http_error">"クラウドのHTTPエラー：%1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"クラウドからの応答が大きすぎます"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"暗号化されたログインセッションが無効です"</string>
+    <string name="data_session_save_failed" formatted="false">"ログインセッションを保存できませんでした"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Googleへのアクセスを更新できませんでした"</string>
+    <string name="data_diary_read_failed">"日記を読み込めませんでした。元のファイルは保持されています。バックアップからデータを復元してください。%1$s"</string>
+    <string name="data_last_sync">"最終同期：%1$s"</string>
+    <string name="data_category_fruit" formatted="false">"果物・ベリー"</string>
+    <string name="data_category_dried_fruit" formatted="false">"ドライフルーツ"</string>
+    <string name="data_category_vegetables" formatted="false">"野菜・ハーブ"</string>
+    <string name="data_category_mushrooms" formatted="false">"きのこ"</string>
+    <string name="data_category_grains" formatted="false">"穀類・パスタ"</string>
+    <string name="data_category_legumes" formatted="false">"豆類"</string>
+    <string name="data_category_meat" formatted="false">"肉類"</string>
+    <string name="data_category_fish" formatted="false">"魚介類"</string>
+    <string name="data_category_dairy" formatted="false">"乳製品"</string>
+    <string name="data_category_eggs" formatted="false">"卵"</string>
+    <string name="data_category_oils" formatted="false">"油・バター"</string>
+    <string name="data_category_nuts" formatted="false">"ナッツ・種子"</string>
+    <string name="data_category_bread" formatted="false">"パン"</string>
+    <string name="data_category_other" formatted="false">"その他の食品"</string>
+    <string name="data_category_dishes" formatted="false">"調理済みの料理"</string>
+    <string name="data_category_custom" formatted="false">"自分の食品"</string>
+    <string name="data_category_other_short" formatted="false">"その他"</string>
+    <string name="data_category_my_dishes" formatted="false">"自分の料理"</string>
+    <string name="data_meal_breakfast" formatted="false">"朝食"</string>
+    <string name="data_meal_lunch" formatted="false">"昼食"</string>
+    <string name="data_meal_dinner" formatted="false">"夕食"</string>
+    <string name="data_meal_snack" formatted="false">"間食"</string>
+    <string name="data_food_seed_9003" formatted="false">"りんご（皮つき）"</string>
+    <string name="data_food_seed_9040" formatted="false">"バナナ（皮なし）"</string>
+    <string name="data_food_seed_9021" formatted="false">"あんず（種なし）"</string>
+    <string name="data_food_seed_9037" formatted="false">"アボカド（果肉）"</string>
+    <string name="data_food_seed_9050" formatted="false">"ブルーベリー"</string>
+    <string name="data_food_seed_9070" formatted="false">"さくらんぼ（種なし）"</string>
+    <string name="data_food_seed_9063" formatted="false">"サワーチェリー（種なし）"</string>
+    <string name="data_food_seed_9078" formatted="false">"クランベリー"</string>
+    <string name="data_food_seed_9083" formatted="false">"カシス"</string>
+    <string name="data_food_seed_9084" formatted="false">"赤・白すぐり"</string>
+    <string name="data_food_seed_9132" formatted="false">"ぶどう"</string>
+    <string name="data_food_seed_9148" formatted="false">"キウイ（果肉）"</string>
+    <string name="data_food_seed_9150" formatted="false">"レモン（皮なし）"</string>
+    <string name="data_food_seed_9181" formatted="false">"カンタロープメロン（果肉）"</string>
+    <string name="data_food_seed_9200" formatted="false">"オレンジ（果肉）"</string>
+    <string name="data_food_seed_9218" formatted="false">"マンダリンオレンジ（果肉）"</string>
+    <string name="data_food_seed_9236" formatted="false">"桃（種なし）"</string>
+    <string name="data_food_seed_9252" formatted="false">"洋なし"</string>
+    <string name="data_food_seed_9266" formatted="false">"パイナップル（果肉）"</string>
+    <string name="data_food_seed_9279" formatted="false">"すもも（種なし）"</string>
+    <string name="data_food_seed_9286" formatted="false">"ざくろ（粒）"</string>
+    <string name="data_food_seed_9295" formatted="false">"文旦（果肉）"</string>
+    <string name="data_food_seed_9302" formatted="false">"ラズベリー"</string>
+    <string name="data_food_seed_9316" formatted="false">"いちご"</string>
+    <string name="data_food_seed_9326" formatted="false">"すいか（果肉）"</string>
+    <string name="data_food_seed_9191" formatted="false">"ネクタリン（種なし）"</string>
+    <string name="data_food_seed_9176" formatted="false">"マンゴー（果肉）"</string>
+    <string name="data_food_seed_9107" formatted="false">"グーズベリー"</string>
+    <string name="data_food_seed_9226" formatted="false">"パパイヤ（果肉）"</string>
+    <string name="data_food_seed_9089" formatted="false">"いちじく（生）"</string>
+    <string name="data_food_seed_9111" formatted="false">"グレープフルーツ（果肉）"</string>
+    <string name="data_food_seed_9032" formatted="false">"干しあんず（種なし）"</string>
+    <string name="data_food_seed_9291" formatted="false">"プルーン（種なし）"</string>
+    <string name="data_food_seed_9087" formatted="false">"デーツ（種なし）"</string>
+    <string name="data_food_seed_9298" formatted="false">"黒系レーズン（種なし）"</string>
+    <string name="data_food_seed_11529" formatted="false">"トマト（生）"</string>
+    <string name="data_food_seed_11205" formatted="false">"きゅうり（皮つき）"</string>
+    <string name="data_food_seed_11090" formatted="false">"ブロッコリー（生）"</string>
+    <string name="data_food_seed_11109" formatted="false">"キャベツ（生）"</string>
+    <string name="data_food_seed_11124" formatted="false">"にんじん（生）"</string>
+    <string name="data_food_seed_11135" formatted="false">"カリフラワー（生）"</string>
+    <string name="data_food_seed_11143" formatted="false">"セロリ（茎）"</string>
+    <string name="data_food_seed_11282" formatted="false">"玉ねぎ（生）"</string>
+    <string name="data_food_seed_11291" formatted="false">"青ねぎ"</string>
+    <string name="data_food_seed_11304" formatted="false">"グリーンピース（生）"</string>
+    <string name="data_food_seed_11333" formatted="false">"緑ピーマン"</string>
+    <string name="data_food_seed_11821" formatted="false">"赤パプリカ"</string>
+    <string name="data_food_seed_11352" formatted="false">"じゃがいも（皮つき・生）"</string>
+    <string name="data_food_seed_11367" formatted="false">"じゃがいも（皮なし・ゆで）"</string>
+    <string name="data_food_seed_11477" formatted="false">"ズッキーニ（生）"</string>
+    <string name="data_food_seed_11209" formatted="false">"なす（生）"</string>
+    <string name="data_food_seed_11422" formatted="false">"かぼちゃ（生）"</string>
+    <string name="data_food_seed_11429" formatted="false">"ラディッシュ"</string>
+    <string name="data_food_seed_11564" formatted="false">"かぶ（生）"</string>
+    <string name="data_food_seed_11080" formatted="false">"ビーツ（生）"</string>
+    <string name="data_food_seed_11081" formatted="false">"ビーツ（ゆで）"</string>
+    <string name="data_food_seed_11215" formatted="false">"にんにく"</string>
+    <string name="data_food_seed_11216" formatted="false">"しょうが"</string>
+    <string name="data_food_seed_11457" formatted="false">"ほうれん草（生）"</string>
+    <string name="data_food_seed_11253" formatted="false">"リーフレタス"</string>
+    <string name="data_food_seed_11297" formatted="false">"パセリ（生）"</string>
+    <string name="data_food_seed_2045" formatted="false">"ディル（生）"</string>
+    <string name="data_food_seed_11052" formatted="false">"さやいんげん（生）"</string>
+    <string name="data_food_seed_11167" formatted="false">"スイートコーン（粒・生）"</string>
+    <string name="data_food_seed_11260" formatted="false">"マッシュルーム（生）"</string>
+    <string name="data_food_seed_11261" formatted="false">"マッシュルーム（ゆで・無塩）"</string>
+    <string name="data_food_seed_11987" formatted="false">"ひらたけ（生）"</string>
+    <string name="data_food_seed_20009" formatted="false">"そばの実（乾燥）"</string>
+    <string name="data_food_seed_20010" formatted="false">"そばの実（水煮）"</string>
+    <string name="data_food_seed_20444" formatted="false">"白米（生米）"</string>
+    <string name="data_food_seed_20445" formatted="false">"白米（炊飯後・無塩）"</string>
+    <string name="data_food_seed_20036" formatted="false">"玄米（生米）"</string>
+    <string name="data_food_seed_20037" formatted="false">"玄米（炊飯後）"</string>
+    <string name="data_food_seed_8120" formatted="false">"ロールドオーツ（乾燥）"</string>
+    <string name="data_food_seed_8121" formatted="false">"オートミール（水煮・無塩）"</string>
+    <string name="data_food_seed_20005" formatted="false">"精白大麦（乾燥）"</string>
+    <string name="data_food_seed_20006" formatted="false">"精白大麦（ゆで）"</string>
+    <string name="data_food_seed_20031" formatted="false">"きび（乾燥）"</string>
+    <string name="data_food_seed_20032" formatted="false">"きび（ゆで）"</string>
+    <string name="data_food_seed_20420" formatted="false">"パスタ（乾燥）"</string>
+    <string name="data_food_seed_20421" formatted="false">"パスタ（ゆで・無塩）"</string>
+    <string name="data_food_seed_16070" formatted="false">"レンズ豆（ゆで・無塩）"</string>
+    <string name="data_food_seed_16057" formatted="false">"ひよこ豆（ゆで・無塩）"</string>
+    <string name="data_food_seed_16033" formatted="false">"赤いんげん豆（ゆで・無塩）"</string>
+    <string name="data_food_seed_5062" formatted="false">"鶏むね肉（皮なし・生）"</string>
+    <string name="data_food_seed_5064" formatted="false">"鶏むね肉（皮なし・ロースト）"</string>
+    <string name="data_food_seed_5219" formatted="false">"七面鳥むね肉（皮なし・生）"</string>
+    <string name="data_food_seed_5220" formatted="false">"七面鳥むね肉（皮なし・ロースト）"</string>
+    <string name="data_food_seed_23562" formatted="false">"牛ひき肉（脂肪10%・生）"</string>
+    <string name="data_food_seed_23566" formatted="false">"牛ひき肉（脂肪10%・ロースト）"</string>
+    <string name="data_food_seed_10060" formatted="false">"豚ヒレ肉（目に見える脂身を除去・生）"</string>
+    <string name="data_food_seed_10061" formatted="false">"豚ヒレ肉（ロースト）"</string>
+    <string name="data_food_seed_15236" formatted="false">"アトランティックサーモン（生）"</string>
+    <string name="data_food_seed_15237" formatted="false">"アトランティックサーモン（ロースト）"</string>
+    <string name="data_food_seed_15015" formatted="false">"タイセイヨウダラ（生）"</string>
+    <string name="data_food_seed_15266" formatted="false">"スケトウダラ（生）"</string>
+    <string name="data_food_seed_15121" formatted="false">"ツナ缶（水煮・水切り後）"</string>
+    <string name="data_food_seed_15271" formatted="false">"えび（殻なし・加熱済み）"</string>
+    <string name="data_food_seed_1211" formatted="false">"牛乳（乳脂肪3.25%）"</string>
+    <string name="data_food_seed_1174" formatted="false">"牛乳（乳脂肪2%）"</string>
+    <string name="data_food_seed_1082" formatted="false">"牛乳（乳脂肪1%）"</string>
+    <string name="data_food_seed_1116" formatted="false">"全乳プレーンヨーグルト"</string>
+    <string name="data_food_seed_1256" formatted="false">"無脂肪ギリシャヨーグルト"</string>
+    <string name="data_food_seed_1015" formatted="false">"カッテージチーズ（脂肪2%）"</string>
+    <string name="data_food_seed_1056" formatted="false">"サワークリーム（脂肪約19%）"</string>
+    <string name="data_food_seed_1009" formatted="false">"チェダーチーズ"</string>
+    <string name="data_food_seed_1026" formatted="false">"全乳モッツァレラ"</string>
+    <string name="data_food_seed_1019" formatted="false">"フェタチーズ"</string>
+    <string name="data_food_seed_1123" formatted="false">"鶏卵（殻なし・生）"</string>
+    <string name="data_food_seed_1129" formatted="false">"ゆで卵（殻なし）"</string>
+    <string name="data_food_seed_1124" formatted="false">"卵白（生）"</string>
+    <string name="data_food_seed_1001" formatted="false">"有塩バター"</string>
+    <string name="data_food_seed_4053" formatted="false">"オリーブオイル"</string>
+    <string name="data_food_seed_4506" formatted="false">"ひまわり油"</string>
+    <string name="data_food_seed_12061" formatted="false">"アーモンド"</string>
+    <string name="data_food_seed_12155" formatted="false">"くるみ（殻なし）"</string>
+    <string name="data_food_seed_12120" formatted="false">"ヘーゼルナッツ（殻なし）"</string>
+    <string name="data_food_seed_12151" formatted="false">"ピスタチオ（殻なし・生）"</string>
+    <string name="data_food_seed_12014" formatted="false">"かぼちゃの種（殻なし・乾燥）"</string>
+    <string name="data_food_seed_16087" formatted="false">"ピーナッツ（殻なし・生）"</string>
+    <string name="data_food_seed_18069" formatted="false">"小麦の白パン"</string>
+    <string name="data_food_seed_18075" formatted="false">"全粒粉パン"</string>
+    <string name="data_food_seed_18060" formatted="false">"ライ麦パン"</string>
+    <string name="data_food_seed_19296" formatted="false">"はちみつ"</string>
+    <string name="data_food_seed_19335" formatted="false">"砂糖"</string>
+    <string name="data_food_seed_19165" formatted="false">"無糖ココアパウダー"</string>
+    <string name="data_food_seed_19904" formatted="false">"ダークチョコレート（カカオ70〜85%）"</string>
+    <string name="data_catalog_note_1">"可食部100 gあたりの参考値です。生の食品。USDAの炭水化物の値には食物繊維が含まれます。商品の栄養成分表示に合わせて値を変更できます。USDA SR Legacy、FDC %1$s。"</string>
+    <string name="data_catalog_note_2">"可食部100 gあたりの参考値です。USDAの炭水化物の値には食物繊維が含まれます。商品の栄養成分表示に合わせて値を変更できます。USDA SR Legacy、FDC %1$s。"</string>
+    <string name="data_catalog_note_3">"可食部100 gあたりの参考値です。食塩無添加。USDAの炭水化物の値には食物繊維が含まれます。商品の栄養成分表示に合わせて値を変更できます。USDA SR Legacy、FDC %1$s。"</string>
+    <string name="data_catalog_note_4">"可食部100 gあたりの参考値です。焙煎したそばの実。USDAの炭水化物の値には食物繊維が含まれます。商品の栄養成分表示に合わせて値を変更できます。USDA SR Legacy、FDC %1$s。"</string>
+    <string name="data_catalog_note_5">"可食部100 gあたりの参考値です。生の養殖食品。USDAの炭水化物の値には食物繊維が含まれます。商品の栄養成分表示に合わせて値を変更できます。USDA SR Legacy、FDC %1$s。"</string>
+    <string name="data_catalog_note_6">"可食部100 gあたりの参考値です。養殖食品。USDAの炭水化物の値には食物繊維が含まれます。商品の栄養成分表示に合わせて値を変更できます。USDA SR Legacy、FDC %1$s。"</string>
+    <string name="data_catalog_note_7">"可食部100 gあたりの参考値です。カッテージチーズの値です。ほかの種類の凝乳チーズでは値が異なります。USDAの炭水化物の値には食物繊維が含まれます。商品の栄養成分表示に合わせて値を変更できます。USDA SR Legacy、FDC %1$s。"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diaryのプライバシーポリシー\n改定日：2026年10月9日"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"アプリ：Diet Diary。Google Playでのロシア語の掲載名：«Дневник диеты: подсчёт калорий»。パッケージ：ru.dietdiary.offline。\nプロジェクトの開発者：Efreitor2001。アプリおよびデータの取り扱いに関するお問い合わせは https://github.com/Efreitor2001/kkalcal/issues までお願いします。GitHubのIssueは公開されます。健康に関する記録、バックアップ、パスワード、トークンを投稿しないでください。"</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. 端末内の日記\n日記の利用に登録は必要ありません。アプリは、食品とその栄養価、食事量と食事の日付、体重、ウエスト、体脂肪率、歩数、睡眠、運動の内容、メモ、目標、実績、アプリの設定を、端末内のアプリ専用領域に保存します。任意の項目は空欄のままにできます。歩数、睡眠、測定値は手動で入力します。アプリはHealth Connect、身体活動センサー、医療機器のデータを読み取りません。"</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"これらの情報は、カロリーと主要栄養素の計算、および履歴、グラフ、実績の提供に使用します。開発者は日記の内容を受信するサーバーを運営していません。Google Driveを接続せず、ご自身でバックアップを共有しなければ、記録は端末内に保持されます。"</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. 任意のGoogle Drive接続\nご希望に応じて、アプリは既定のブラウザでGoogleログインを開き、Google Drive内にあるこのアプリ専用の非表示データ領域へのアクセス権限を要求します。この権限では、Drive内の通常の文書や写真にはアクセスできません。"</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"接続すると、食品、食事、日記の測定値、メモ、目標、実績、転送可能な設定、およびランダムなインストール識別子やタイムスタンプを含む変更メタデータがGoogleに送信されます。これにより、バックアップのスナップショットと複数端末間の記録の統合が可能になります。自動同期が有効な場合、ネットワークに接続するとバックグラウンドでも変更内容を送信します。自動同期は個別に無効にできます。"</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"アプリは、接続状態を表示して適切な保存領域に関連付けるため、選択したGoogleアカウントのメールアドレスと識別子を受け取ります。Googleのパスワードがアプリに渡されることはありません。認証セッションは、Android Keystore内の鍵を使って暗号化され、端末に保存されます。トークン、メールアドレス、Googleの識別子は、日記の書き出しファイルや同期されるJSONスナップショットには含まれません。"</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Googleのデータは認証と同期にのみ使用し、広告には使用しません。Googleのプライバシーポリシーが適用されます： https://policies.google.com/privacy 。"</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. バックアップファイル\n「ファイルに保存」は、選択した保存先にJSONファイルを作成します。復元時には、選択したファイルだけを読み込みます。クラウドのファイルサービスを選択したり、ほかの人にコピーを共有したりする場合は、ご自身で受信先を選びます。アプリは書き出したJSONファイルを暗号化しません。これらのファイルには個人の記録と変更メタデータが含まれます。"</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. 広告\nアプリはYandex Mobile Ads SDKを使用します。広告の読み込みと表示のために、端末は広告サービスに接続します。Yandexは、IPアドレス、ネットワークリクエスト、端末やソフトウェアに関するその他の技術情報、利用可能な広告識別子または技術的な識別子、広告の表示や操作に関する情報を処理する場合があります。"</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"アプリは、同意が与えられていないことをSDKに通知し、位置情報の収集とApp Ad Analyticsのレポート送信を無効にします。正確な位置情報やおおよその位置情報へのアクセス権限は要求しません。これらの設定は、広告サービスがネットワーク通信や技術データの処理を一切行わないことを意味するものではありません。"</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"アプリは、食事の記録、体重、測定値、メモ、目標、メールアドレス、Googleの識別子を広告のターゲティングに使用せず、広告リクエストのパラメータにも追加しません。記録を保存するために広告を見る必要はありません。"</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"データの処理、保持、削除に関するYandexの規定： https://yandex.ru/legal/confidential/ 。お使いのシステムのバージョンが対応している場合、Androidの設定で広告識別子を管理できます。広告サービスの技術データの保持期間は、同サービスのポリシーで定められます。日記の開発者がそのデータの保持期間を別途定めることはありません。"</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. データの保護\nGoogleとの通信にはHTTPSを使用します。Yandexは、SDKのデータをHTTPS/TLSで送信するとしています。端末内の日記は、Androidのアプリ分離機能で保護されます。アプリは日記の内容やJSONスナップショットを別途暗号化せず、端末間のエンドツーエンド暗号化も提供しません。"</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"アプリデータのシステムバックアップは無効になっています。アプリ自身のコードが記録する診断ログには結果コードが含まれますが、日記の内容、メールアドレス、トークン、ネットワーク応答の本文は含まれません。アプリがこれらのログを別途開発者に送信することはありません。"</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. 保持と削除\n端末内の記録は、変更または削除するか、アプリのデータを消去するまで保持されます。記録を削除すると画面から除かれ、同期時に削除マーカーが送信されます。古いデータが再表示されないように統合用メタデータが保持されます。このメタデータには、削除した日記の記録の以前の値が含まれる場合があります。以前の値が、古いクラウドスナップショットや過去に作成したファイルに残る場合もあります。そのため、1件の記録を削除しても、すべてのコピーから完全に消去されるわけではありません。"</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"「アカウントの接続を解除」は、この端末での同期を停止し、端末内のGoogleセッションを削除します。日記とGoogle Drive内のスナップショットは保持されます。アプリの接続を解除しても、Googleアカウントは削除されません。"</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"このアプリのデータを完全に削除するには：\n• 残っているコピーが再アップロードされないように、すべての端末で同期を無効にします。\n• 接続に使用していたGoogleアカウントで、ブラウザから https://drive.google.com/drive/settings を開きます。「アプリの管理」を選択し、「Diet Diary」（または«Дневник диеты»）を見つけ、「オプション」→「非表示のアプリデータを削除」を選びます。モバイル版のページにこの項目がない場合は、デスクトップ版のサイトかパソコンを使用してください。\n• https://myaccount.google.com/connections でアプリのアクセス権を取り消します。アクセス権を取り消すだけでは、保存済みのコピーは消去されません。\n• 各端末のAndroid設定でアプリのストレージを消去するか、アプリをアンインストールします。\n• 別途保存したJSONバックアップを、選択したフォルダやクラウドストレージから削除します。"</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"認証情報がなければ、開発者が端末内の日記や個人のGoogle Drive内のファイルを遠隔で消去することはできません。パスワードやトークンを開発者に共有しないでください。削除についてのサポートは、このポリシーの冒頭にあるリンクからプロジェクトへお問い合わせください。日記データの削除にGoogleアカウントの削除は必要ありません。"</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. 変更とお問い合わせ\nアプリの機能やデータの取り扱いが変わった場合、このポリシーを改定日とともに更新します。データへのアクセス、訂正、削除、またはアプリの動作に関するお問い合わせには、プロジェクトの連絡窓口をご利用ください。送信されたお問い合わせは、回答のために処理され、GitHubに保存されます。GitHubのポリシー： https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement 。"</string>
+</resources>

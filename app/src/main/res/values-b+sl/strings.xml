@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Prehranski dnevnik"</string>
+    <string name="core_app_name" formatted="false">"Prehranski dnevnik"</string>
+    <string name="core_tagline" formatted="false">"Kalorije, teža in napredek"</string>
+    <string name="core_open_diary" formatted="false">"Odpri dnevnik"</string>
+    <string name="core_save_failed" formatted="false">"Podatkov ni bilo mogoče shraniti"</string>
+    <string name="core_day" formatted="false">"Danes"</string>
+    <string name="core_products" formatted="false">"Živila"</string>
+    <string name="core_diary" formatted="false">"Dnevnik"</string>
+    <string name="core_charts" formatted="false">"Grafi"</string>
+    <string name="core_more" formatted="false">"Več"</string>
+    <string name="core_recipe_saved" formatted="false">"Jed je shranjena med tvojimi živili"</string>
+    <string name="core_back_to_day" formatted="false">"Nazaj na tvoj dan"</string>
+    <string name="core_action_failed" formatted="false">"Dejanja ni bilo mogoče izvesti"</string>
+    <string name="core_understood" formatted="false">"Razumem"</string>
+    <string name="core_restore_available" formatted="false">"Varnostno kopijo lahko obnoviš v razdelku Več."</string>
+    <string name="core_eaten_today" formatted="false">"DANES ZAUŽITO"</string>
+    <string name="core_set_goal_hint" formatted="false">"Cilj lahko nastaviš v razdelku Več"</string>
+    <string name="core_add_food" formatted="false">"+ Dodaj hrano"</string>
+    <string name="core_first_meal" formatted="false">"Začni s prvim obrokom"</string>
+    <string name="core_first_meal_help" formatted="false">"Izberi živilo in vnesi njegovo maso v gramih za izračun kalorij in makrohranil."</string>
+    <string name="core_my_day" formatted="false">"Moj dan"</string>
+    <string name="core_my_day_help" formatted="false">"Teža, pas, koraki, spanje — zapiši podatke, ki jih imaš."</string>
+    <string name="core_record_metrics" formatted="false">"Zapiši meritve"</string>
+    <string name="core_edit_metrics" formatted="false">"Uredi meritve"</string>
+    <string name="core_food_state_hint" formatted="false">"Masa in hranilne vrednosti morajo ustrezati istemu stanju živila: surovemu, suhemu ali pripravljenemu."</string>
+    <string name="core_weight" formatted="false">"Teža"</string>
+    <string name="core_waist" formatted="false">"Obseg pasu"</string>
+    <string name="core_my_diary" formatted="false">"Moj dnevnik"</string>
+    <string name="core_diary_tagline" formatted="false">"Vsak dan v svojem ritmu"</string>
+    <string name="core_record_day" formatted="false">"+ Zapiši dan"</string>
+    <string name="core_optional_diary_help" formatted="false">"Vse meritve so neobvezne. Zapišeš lahko samo težo, spanje ali opombo. Dotakni se zapisa, da ga urediš."</string>
+    <string name="core_history_starts" formatted="false">"Tvoja zgodovina se začne tukaj"</string>
+    <string name="core_history_help" formatted="false">"Zapisuj meritve in spremljaj spremembe na grafih."</string>
+    <string name="core_file_unavailable" formatted="false">"Datoteka ni na voljo"</string>
+    <string name="core_backup_saved" formatted="false">"Varnostna kopija je shranjena"</string>
+    <string name="core_export_error" formatted="false">"Varnostne kopije ni bilo mogoče izvoziti"</string>
+    <string name="core_read_error" formatted="false">"Datoteke ni bilo mogoče prebrati"</string>
+    <string name="core_settings_tagline" formatted="false">"Nastavitve in varnostne kopije"</string>
+    <string name="core_your_progress" formatted="false">"Tvoj napredek"</string>
+    <string name="core_achievements_help" formatted="false">"Majhni dosežki pomagajo ustvariti navado vodenja dnevnika."</string>
+    <string name="core_achievements" formatted="false">"Dosežki"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Neobvezna prijava za sinhronizacijo dnevnika med napravami."</string>
+    <string name="core_cloud_sync" formatted="false">"Sinhronizacija v oblaku"</string>
+    <string name="core_personal_goals" formatted="false">"Osebni cilji"</string>
+    <string name="core_personal_goals_help" formatted="false">"Ročno nastavi cilje kalorij, makrohranil in teže. Polj za cilje ni treba izpolniti."</string>
+    <string name="core_configure_goals" formatted="false">"Nastavi cilje"</string>
+    <string name="core_backup" formatted="false">"Varnostna kopija"</string>
+    <string name="core_backup_help" formatted="false">"Živila, obroki, dnevnik, cilji in dosežki v eni datoteki. Pred ponovno namestitvijo aplikacije ustvari varnostno kopijo."</string>
+    <string name="core_save_file" formatted="false">"Shrani v datoteko"</string>
+    <string name="core_restore_file" formatted="false">"Obnovi iz datoteke"</string>
+    <string name="core_write_locked" formatted="false">"Shranjevanje je onemogočeno zaradi zaščite izvirne datoteke. Obnovi veljavno varnostno kopijo."</string>
+    <string name="core_about_data" formatted="false">"O aplikaciji in tvojih podatkih"</string>
+    <string name="core_about_data_help" formatted="false">"Kako se zapisi shranjujejo, sinhronizirajo in brišejo."</string>
+    <string name="core_privacy" formatted="false">"Zasebnost in brisanje podatkov"</string>
+    <string name="core_offline" formatted="false">"Deluje brez interneta"</string>
+    <string name="core_offline_help" formatted="false">"Prijava z Googlom ni obvezna. Korake in spanje vnašaš ročno. Internet je potreben za omogočeno sinhronizacijo in nalaganje oglasov. Zapisi dnevnika se ne pošiljajo oglaševalskemu omrežju."</string>
+    <string name="core_about_foods" formatted="false">"O živilih"</string>
+    <string name="core_foods_reference" formatted="false">"Vgrajene vrednosti so ocene za 100 g užitnega dela. Točne vrednosti preveri na embalaži. Urejanje živila ne preračuna že zapisanih obrokov."</string>
+    <string name="core_foods_source" formatted="false">"Vir zbirke: USDA FoodData Central, SR Legacy. Vsako živilo navaja svoje stanje in vir."</string>
+    <string name="core_restore_title" formatted="false">"Obnovim to kopijo?"</string>
+    <string name="core_restore_warning" formatted="false">"Trenutna živila, dnevnik, cilji in dosežki bodo zamenjani s podatki iz te datoteke. Najprej ustvari varnostno kopijo. Če je sinhronizacija povezana, bodo obnovljeni podatki poslani tudi v Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Varnostna kopija je obnovljena"</string>
+    <string name="core_invalid_file" formatted="false">"Neveljavna datoteka"</string>
+    <string name="core_replace_data" formatted="false">"Zamenjaj podatke"</string>
+    <string name="core_cancel" formatted="false">"Prekliči"</string>
+    <string name="core_save" formatted="false">"Shrani"</string>
+    <string name="core_calculate_portion" formatted="false">"Izračunaj porcijo"</string>
+    <string name="core_edit_portion" formatted="false">"Uredi porcijo"</string>
+    <string name="core_portion_weight" formatted="false">"Masa porcije, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Vnesi maso, večjo od 0 in največ 100.000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Dodaj v dnevnik"</string>
+    <string name="core_delete_entry" formatted="false">"Izbriši zapis"</string>
+    <string name="core_delete_portion_question" formatted="false">"Izbrišem to porcijo iz dnevnika?"</string>
+    <string name="core_new_food" formatted="false">"Novo živilo ali jed"</string>
+    <string name="core_edit_nutrition" formatted="false">"Uredi hranilne vrednosti"</string>
+    <string name="core_name" formatted="false">"Ime"</string>
+    <string name="core_food" formatted="false">"Živilo"</string>
+    <string name="core_dish" formatted="false">"Pripravljena jed"</string>
+    <string name="core_category" formatted="false">"Kategorija"</string>
+    <string name="core_per100_hint" formatted="false">"Vrednosti za 100 g z embalaže ali iz recepta. Če hranila ni, vnesi 0."</string>
+    <string name="core_kcal" formatted="false">"Kalorije"</string>
+    <string name="core_protein_grams" formatted="false">"Beljakovine, g"</string>
+    <string name="core_fat_grams" formatted="false">"Maščobe, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Ogljikovi hidrati, g"</string>
+    <string name="core_food_note" formatted="false">"Opomba, sestavine (neobvezno)"</string>
+    <string name="core_favorite" formatted="false">"Dodaj med priljubljene"</string>
+    <string name="core_name_category_required" formatted="false">"Vnesi ime in kategorijo"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Vnesi vrednosti za 100 g: kalorije od 0 do 1.000; beljakovine, maščobe in ogljikovi hidrati od 0 do 100 g"</string>
+    <string name="core_delete_food" formatted="false">"Izbriši iz živil"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Že zapisani obroki ohranijo svoje vrednosti."</string>
+    <string name="core_delete_food_question" formatted="false">"Izbrišem to živilo? Njegovi zapisi v dnevniku ostanejo."</string>
+    <string name="core_day_entry" formatted="false">"Dnevni zapis"</string>
+    <string name="core_optional_fields" formatted="false">"Izpolni poljubna polja. Ostala pusti prazna."</string>
+    <string name="core_editing_existing" formatted="false">"Za ta datum že obstaja zapis. Zdaj ga urejaš."</string>
+    <string name="core_weight_kg" formatted="false">"Teža, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Obseg pasu, cm"</string>
+    <string name="core_steps" formatted="false">"Koraki"</string>
+    <string name="core_sleep" formatted="false">"Spanje"</string>
+    <string name="core_hours" formatted="false">"Ure"</string>
+    <string name="core_minutes" formatted="false">"Minute"</string>
+    <string name="core_body_fat_optional" formatted="false">"Maščoba po tehtnici, % (neobvezno)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Odstotek maščobe s tehtnice pomaga spremljati trend; ni natančna meritev."</string>
+    <string name="core_strength_training" formatted="false">"Vadba za moč"</string>
+    <string name="core_training_example" formatted="false">"Na primer: počepi 3×10, ročki po 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Ročni prehranski seštevki"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Če jih vneseš, te vrednosti nadomestijo dnevne seštevke živil. Za samodejni izračun jih pusti prazne."</string>
+    <string name="core_daily_calories" formatted="false">"Kalorije za dan"</string>
+    <string name="core_daily_protein" formatted="false">"Beljakovine za dan, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Opombe in počutje"</string>
+    <string name="core_steps_invalid" formatted="false">"Koraki: celo število od 0 do 200.000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Spanje: 0–24 ur, 0–59 minut"</string>
+    <string name="core_body_fat" formatted="false">"Telesna maščoba"</string>
+    <string name="core_calories" formatted="false">"Kalorije"</string>
+    <string name="core_protein" formatted="false">"Beljakovine"</string>
+    <string name="core_entry_required" formatted="false">"Dodaj vsaj eno meritev ali opombo"</string>
+    <string name="core_delete_day" formatted="false">"Izbriši dnevni zapis"</string>
+    <string name="core_optional_goals" formatted="false">"Vsi cilji so neobvezni. Prazno polje pomeni, da cilj ni nastavljen."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalorije na dan"</string>
+    <string name="core_protein_per_day" formatted="false">"Beljakovine na dan, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Maščobe na dan, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Ogljikovi hidrati na dan, g"</string>
+    <string name="core_target_weight" formatted="false">"Ciljna teža, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Preveri cilje: kalorije od 0 do 10.000; beljakovine, maščobe in ogljikovi hidrati od 0 do 1.000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Ciljna teža: od 1 do 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Izbrišem?"</string>
+    <string name="core_delete" formatted="false">"Izbriši"</string>
+    <string name="core_select_food" formatted="false">"Izberi živilo"</string>
+    <string name="core_foods_dishes" formatted="false">"Živila in jedi"</string>
+    <string name="core_search_food" formatted="false">"Poišči živilo ali jed"</string>
+    <string name="core_new_food_button" formatted="false">"+ Živilo / jed"</string>
+    <string name="core_recipe_button" formatted="false">"Iz recepta"</string>
+    <string name="core_no_results" formatted="false">"Ni zadetkov"</string>
+    <string name="core_no_results_help" formatted="false">"Poskusi drugačno iskanje ali dodaj svoje živilo oziroma pripravljeno jed."</string>
+    <string name="core_edit" formatted="false">"Uredi"</string>
+    <string name="core_achievement_unlocked">"🏆 Dosežek odklenjen! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Preostane %1$s kcal · cilj %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal nad ciljem"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Beljakovine %1$s   Maščobe %2$s   Ogljikovi hidrati %3$s"</string>
+    <string name="core_weight_summary">"Teža %1$s kg"</string>
+    <string name="core_waist_summary">"Pas %1$s cm"</string>
+    <string name="core_steps_summary">"Koraki: %1$s"</string>
+    <string name="core_fat_summary">"Telesna maščoba %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (ročno)"</string>
+    <string name="core_manual_protein">"Beljakovine %1$s g (ročno)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Spanje %1$s"</string>
+    <string name="core_scale_fat">"Maščoba po tehtnici %1$s%%"</string>
+    <string name="core_training_value">"Vadba: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Beljakovine %1$s g"</string>
+    <string name="core_app_version">"Prehranski dnevnik · %1$s"</string>
+    <string name="core_per100_summary">"Na 100 g: %1$s kcal · Beljakovine %2$s · Maščobe %3$s · Ogljikovi hidrati %4$s"</string>
+    <string name="core_range_invalid">"%1$s: vnesi vrednost od %2$s do %3$s"</string>
+    <string name="core_delete_day_question">"Izbrišem meritve za %1$s? Obroki ostanejo."</string>
+    <string name="core_catalog_count">"Živila: %1$s · vrednosti na 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Beljakovine %2$s   Maščobe %3$s   Ogljikovi hidrati %4$s"</string>
+    <string name="core_today_date">"Danes · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalorije in beljakovine so ročno vneseni seštevki v dnevniku"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalorije so ročno vneseni seštevek v dnevniku"</string>
+    <string name="core_manual_protein_total" formatted="false">"Beljakovine so ročno vneseni seštevek v dnevniku"</string>
+    <string name="core_macro_goals">"Cilji B / M / OH: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (ročno)"</string>
+    <string name="core_all" formatted="false">"Vsa"</string>
+    <string name="core_favorites" formatted="false">"Priljubljena"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Prejšnji dan"</string>
+    <string name="core_next_day" formatted="false">"Naslednji dan"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Migracijska kopija se ne ujema"</string>
+    <string name="data_entry_exists" formatted="false">"Ta zapis hrane že obstaja"</string>
+    <string name="data_entry_missing" formatted="false">"Zapisa hrane ni mogoče najti"</string>
+    <string name="data_edited_date_changed" formatted="false">"Datum urejanega zapisa se je spremenil"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Lokalni identifikator naprave je poškodovan; obnova je blokirana"</string>
+    <string name="data_sync_invalid" formatted="false">"Neveljavni podatki sinhronizacije"</string>
+    <string name="data_diary_read_only" formatted="false">"Dnevnik je zaščiten pred prepisom: obnovi varnostno kopijo"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Podatki dnevnika so neskladni"</string>
+    <string name="data_backup_too_large" formatted="false">"Varnostna kopija je prevelika"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Identifikator namestitve je poškodovan"</string>
+    <string name="data_save_verification_failed" formatted="false">"Shranjevanja dnevnika ni bilo mogoče preveriti"</string>
+    <string name="data_save_failed" formatted="false">"Dnevnika ni bilo mogoče shraniti"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Varnostna kopija presega 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Datoteka dnevnika je prevelika"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Neveljavna velikost zbirke živil"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Nepodprta različica varnostne kopije"</string>
+    <string name="data_too_many_values">"Preveč vrednosti v %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Preveč živil"</string>
+    <string name="data_too_many_entries" formatted="false">"Preveč zapisov hrane"</string>
+    <string name="data_too_many_logs" formatted="false">"Preveč zapisov dnevnika"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Podvojen identifikator živila"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Podvojen identifikator zapisa hrane"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Podvojen datum dnevnika"</string>
+    <string name="data_label_product_id" formatted="false">"Identifikator živila"</string>
+    <string name="data_label_product_name" formatted="false">"Ime živila"</string>
+    <string name="data_label_category" formatted="false">"Kategorija"</string>
+    <string name="data_label_note" formatted="false">"Opomba"</string>
+    <string name="data_label_entry_id" formatted="false">"Identifikator zapisa"</string>
+    <string name="data_label_meal" formatted="false">"Obrok"</string>
+    <string name="data_food_weight_range" formatted="false">"Masa hrane mora biti večja od 0 in največ 100.000 g"</string>
+    <string name="data_label_weight" formatted="false">"Teža"</string>
+    <string name="data_label_waist" formatted="false">"Obseg pasu"</string>
+    <string name="data_steps_range" formatted="false">"Število korakov mora biti od 0 do 200.000"</string>
+    <string name="data_label_sleep" formatted="false">"Spanje"</string>
+    <string name="data_label_body_fat" formatted="false">"Telesna maščoba"</string>
+    <string name="data_label_daily_calories" formatted="false">"Kalorije za dan"</string>
+    <string name="data_label_daily_protein" formatted="false">"Beljakovine za dan"</string>
+    <string name="data_label_workout" formatted="false">"Vadba"</string>
+    <string name="data_label_log_note" formatted="false">"Opomba"</string>
+    <string name="data_log_empty" formatted="false">"Vnesi vsaj eno meritev ali opombo"</string>
+    <string name="data_label_goal_weight" formatted="false">"Ciljna teža"</string>
+    <string name="data_too_many_achievements" formatted="false">"Preveč dosežkov"</string>
+    <string name="data_achievement_invalid" formatted="false">"Neveljaven dosežek"</string>
+    <string name="data_setting_not_portable" formatted="false">"Te nastavitve ni mogoče prenesti"</string>
+    <string name="data_setting_invalid">"Neveljavna vrednost nastavitve %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Kalorije"</string>
+    <string name="data_label_protein" formatted="false">"Beljakovine"</string>
+    <string name="data_label_fat" formatted="false">"Maščobe"</string>
+    <string name="data_label_carbs" formatted="false">"Ogljikovi hidrati"</string>
+    <string name="data_value_range">"%1$s: dovoljeno območje od %2$s do %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: neveljavna dolžina"</string>
+    <string name="data_text_character_invalid">"%1$s: nedovoljen znak"</string>
+    <string name="data_date_format_invalid" formatted="false">"Datum mora biti v obliki LLLL-MM-DD"</string>
+    <string name="data_date_nonexistent">"Neveljaven datum: %1$s"</string>
+    <string name="data_field_string_required">"Polje %1$s mora vsebovati besedilo"</string>
+    <string name="data_field_boolean_required">"Polje %1$s mora biti logična vrednost"</string>
+    <string name="data_field_number_required">"Polje %1$s mora biti število"</string>
+    <string name="data_field_finite_required">"Polje %1$s mora biti končno število"</string>
+    <string name="data_field_integer_required">"Polje %1$s mora biti celo število"</string>
+    <string name="data_too_many_items">"Preveč elementov v %1$s"</string>
+    <string name="data_data_file_invalid">"Neveljavna podatkovna datoteka: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Manjka identifikator naprave"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Dosežena je meja logične ure"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Preveč zapisov sinhronizacije"</string>
+    <string name="data_sync_version_required" formatted="false">"Sinhronizacija zahteva obliko različice 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Neveljaven sinhronizacijski ključ"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Podvojen sinhronizacijski ključ"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Neveljavna oznaka brisanja"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Neveljavni podatki sinhronizacije"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Različica zapisa presega logično uro"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Podatki se ne ujemajo z metapodatki sinhronizacije"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Neveljavna dolžina sinhronizacijskega ključa"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Nepravilna oblika sinhronizacijskega ključa"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Neznana vrsta sinhronizacije"</string>
+    <string name="data_record_id_too_long" formatted="false">"Identifikator zapisa je predolg"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Neveljavno brisanje dosežka"</string>
+    <string name="data_log_key_invalid" formatted="false">"Neveljaven ključ dnevnika"</string>
+    <string name="data_log_field_unknown" formatted="false">"Neznano polje dnevnika"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Neveljavna oznaka izbrisa dnevnika"</string>
+    <string name="data_goal_unknown" formatted="false">"Neznan cilj"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Izbrisan zapis vsebuje podatke"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Neveljavna vrednost sinhronizacije"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Identifikator zapisa se ne ujema s ključem"</string>
+    <string name="data_field_value_invalid" formatted="false">"Neveljavna vrednost polja"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Datum dosežka se ne ujema s ključem"</string>
+    <string name="data_note_string_required" formatted="false">"Opomba mora vsebovati besedilo"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Neveljavna sinhronizirana opomba"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Neveljavna logična ura"</string>
+    <string name="data_device_invalid" formatted="false">"Neveljavna naprava"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Neveljavna oznaka različice"</string>
+    <string name="data_google_login_required" formatted="false">"Znova se prijavi v Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Preveč varnostnih kopij v oblaku"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive je vrnil ponovljeno stran"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Kopija v oblaku presega 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive ni vrnil naslova za nalaganje"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Neveljaven naslov za nalaganje Google Drive"</string>
+    <string name="data_back" formatted="false">"‹  Nazaj"</string>
+    <string name="data_cloud_title" formatted="false">"Sinhronizacija v oblaku"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Tvoj dnevnik na vseh napravah"</string>
+    <string name="data_no_account" formatted="false">"Noben račun ni povezan"</string>
+    <string name="data_cloud_intro" formatted="false">"Prijava ni obvezna. Živila, obroki, meritve, cilji in dosežki se shranjujejo na telefonu. Po povezavi se kopija hrani v skriti mapi tvojega Google Drive."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Ob prvi povezavi se zapisi združijo. Aplikacija ne more dostopati do drugih datotek v Drivu."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Prijava z Googlom za to različico še ni nastavljena. Dnevnik in kopije v datotekah delujejo brez računa."</string>
+    <string name="data_connect_google" formatted="false">"Poveži Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Samodejna sinhronizacija"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Ob spremembah in v ozadju, ko Android to dovoli"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Urnika ni bilo mogoče spremeniti. Tvoji podatki so shranjeni v tej napravi."</string>
+    <string name="data_sync_start_failed" formatted="false">"Sinhronizacije ni bilo mogoče začeti. Tvoji podatki so shranjeni v tej napravi."</string>
+    <string name="data_sync_now" formatted="false">"Sinhroniziraj zdaj"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Znova se prijavi v Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Odklopi račun"</string>
+    <string name="data_sync_never" formatted="false">"Sinhronizacije še ni bilo"</string>
+    <string name="data_offline_saved_title" formatted="false">"Tvoji podatki so shranjeni brez povezave"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Ko je samodejna sinhronizacija vklopljena, se spremembe pošljejo ob razpoložljivi povezavi. Če isto polje spremeniš na dveh napravah, se uporabi različica s poznejšim časovnim žigom spremembe. Neodvisni zapisi in polja se združijo."</string>
+    <string name="data_cloud_password_description" formatted="false">"Geslo vneseš samo na Googlovi strani v brskalniku. Žetone za dostop ščiti Android Keystore in niso vključeni v varnostne kopije."</string>
+    <string name="data_google_connection_title" formatted="false">"Povezava z Googlom"</string>
+    <string name="data_got_it" formatted="false">"Razumem"</string>
+    <string name="data_connect_drive_title" formatted="false">"Povežem Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Trenutni dnevnik se bo združil s podatki izbranega računa Google. Na svojih napravah uporabljaj isti osebni račun. Prijava se odpre v privzetem brskalniku."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Prijave ni bilo mogoče odpreti. Namesti ali omogoči privzeti brskalnik in poskusi znova."</string>
+    <string name="data_continue" formatted="false">"Nadaljuj"</string>
+    <string name="data_cancel" formatted="false">"Prekliči"</string>
+    <string name="data_disconnect_title" formatted="false">"Odklopim račun?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sinhronizacija se bo v tej napravi ustavila. Lokalni dnevnik in kopije v Google Drive ostanejo. Dovoljenje aplikacije lahko upravljaš v nastavitvah računa Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Računa ni bilo mogoče odklopiti. Poskusi znova."</string>
+    <string name="data_disconnect" formatted="false">"Odklopi"</string>
+    <string name="data_google_not_connected" formatted="false">"Google ni povezan"</string>
+    <string name="data_sync_ready" formatted="false">"Pripravljeno za sinhronizacijo"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Spremembe čakajo na sinhronizacijo…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Ni interneta. Spremembe so shranjene v tej napravi."</string>
+    <string name="data_google_not_configured" formatted="false">"Prijava z Googlom za to različico še ni nastavljena"</string>
+    <string name="data_sync_wait" formatted="false">"Počakaj, da se sinhronizacija konča"</string>
+    <string name="data_google_connecting" formatted="false">"Povezovanje z Googlom…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Povezava preklicana"</string>
+    <string name="data_connection_rejected" formatted="false">"Povezava je bila preklicana ali jo je Google zavrnil"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google je povezan. Združevanje zapisov…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Googla ni bilo mogoče povezati. Preveri internet in nastavitve dostopa."</string>
+    <string name="data_account_disconnected" formatted="false">"Račun je odklopljen. Tvoji podatki ostanejo v tej napravi."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Ni interneta. Sinhronizacija čaka na povezavo."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sinhronizacija je načrtovana…"</string>
+    <string name="data_sync_running" formatted="false">"Sinhroniziranje…"</string>
+    <string name="data_sync_complete" formatted="false">"Sinhronizacija je končana"</string>
+    <string name="data_no_internet" formatted="false">"Ni internetne povezave"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Sinhronizacija ni uspela. Tvoji podatki so shranjeni v tej napravi"</string>
+    <string name="data_page_open_failed" formatted="false">"Strani ni bilo mogoče odpreti. Naslov lahko kopiraš iz spodnjega besedila."</string>
+    <string name="data_privacy_title" formatted="false">"Zasebnost"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Tvoji zapisi in nadzor nad podatki"</string>
+    <string name="data_app_purpose" formatted="false">"O tej aplikaciji"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Ta aplikacija ni medicinski pripomoček. Ne diagnosticira, zdravi, ozdravi ali preprečuje bolezni. Za zdravniški nasvet, diagnozo in zdravljenje se obrni na usposobljenega zdravstvenega strokovnjaka."</string>
+    <string name="data_manage_delete_data" formatted="false">"Upravljanje in brisanje podatkov"</string>
+    <string name="data_delete_data_intro" formatted="false">"Pred brisanjem vseh podatkov izklopi sinhronizacijo na vseh napravah. Odstranitev aplikacije s telefona ne izbriše kopij v Google Drive ali izvoženih datotek."</string>
+    <string name="data_manage_drive_data" formatted="false">"Upravljaj podatke Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Dostop računa Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Shramba aplikacije v Androidu"</string>
+    <string name="data_contact_developer" formatted="false">"Stik z razvijalcem"</string>
+    <string name="data_opening_page" formatted="false">"Odpiranje strani"</string>
+    <string name="data_advertisement" formatted="false">"OGLAS"</string>
+    <string name="data_ad_information" formatted="false">"O tem oglasu"</string>
+    <string name="data_cloud_http_error">"Napaka HTTP v oblaku %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Odgovor iz oblaka je prevelik"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Neveljavna šifrirana prijavna seja"</string>
+    <string name="data_session_save_failed" formatted="false">"Prijavne seje ni bilo mogoče shraniti"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Dostopa do Googla ni bilo mogoče obnoviti"</string>
+    <string name="data_diary_read_failed">"Dnevnika ni bilo mogoče prebrati. Izvirna datoteka je ohranjena. Obnovi podatke iz varnostne kopije. %1$s"</string>
+    <string name="data_last_sync">"Zadnja sinhronizacija: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Sadje in jagodičevje"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Suho sadje"</string>
+    <string name="data_category_vegetables" formatted="false">"Zelenjava in zelišča"</string>
+    <string name="data_category_mushrooms" formatted="false">"Gobe"</string>
+    <string name="data_category_grains" formatted="false">"Žita in testenine"</string>
+    <string name="data_category_legumes" formatted="false">"Stročnice"</string>
+    <string name="data_category_meat" formatted="false">"Meso in perutnina"</string>
+    <string name="data_category_fish" formatted="false">"Ribe in morski sadeži"</string>
+    <string name="data_category_dairy" formatted="false">"Mlečni izdelki"</string>
+    <string name="data_category_eggs" formatted="false">"Jajca"</string>
+    <string name="data_category_oils" formatted="false">"Olja in maslo"</string>
+    <string name="data_category_nuts" formatted="false">"Oreški in semena"</string>
+    <string name="data_category_bread" formatted="false">"Kruh"</string>
+    <string name="data_category_other" formatted="false">"Druga živila"</string>
+    <string name="data_category_dishes" formatted="false">"Pripravljene jedi"</string>
+    <string name="data_category_custom" formatted="false">"Moja živila"</string>
+    <string name="data_category_other_short" formatted="false">"Drugo"</string>
+    <string name="data_food_seed_9003" formatted="false">"Jabolko z lupino"</string>
+    <string name="data_catalog_note_1">"Referenčne vrednosti za 100 g užitnega dela. Surovo živilo. Vrednosti ogljikovih hidratov USDA vključujejo vlaknine. Vrednosti lahko prilagodiš glede na etiketo izdelka. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Olupljena banana"</string>
+    <string name="data_food_seed_9021" formatted="false">"Marelica brez koščice"</string>
+    <string name="data_food_seed_9037" formatted="false">"Meso avokada"</string>
+    <string name="data_food_seed_9050" formatted="false">"Borovnice"</string>
+    <string name="data_food_seed_9070" formatted="false">"Češnje brez koščic"</string>
+    <string name="data_food_seed_9063" formatted="false">"Višnje brez koščic"</string>
+    <string name="data_food_seed_9078" formatted="false">"Brusnice"</string>
+    <string name="data_food_seed_9083" formatted="false">"Črni ribez"</string>
+    <string name="data_food_seed_9084" formatted="false">"Rdeči in beli ribez"</string>
+    <string name="data_food_seed_9132" formatted="false">"Grozdje"</string>
+    <string name="data_food_seed_9148" formatted="false">"Meso kivija"</string>
+    <string name="data_food_seed_9150" formatted="false">"Olupljena limona"</string>
+    <string name="data_food_seed_9181" formatted="false">"Meso melone kantalupa"</string>
+    <string name="data_food_seed_9200" formatted="false">"Meso pomaranče"</string>
+    <string name="data_food_seed_9218" formatted="false">"Meso mandarine"</string>
+    <string name="data_food_seed_9236" formatted="false">"Breskev brez koščice"</string>
+    <string name="data_food_seed_9252" formatted="false">"Hruška"</string>
+    <string name="data_food_seed_9266" formatted="false">"Meso ananasa"</string>
+    <string name="data_food_seed_9279" formatted="false">"Sliva brez koščice"</string>
+    <string name="data_food_seed_9286" formatted="false">"Semena granatnega jabolka"</string>
+    <string name="data_food_seed_9295" formatted="false">"Meso pomela"</string>
+    <string name="data_food_seed_9302" formatted="false">"Maline"</string>
+    <string name="data_food_seed_9316" formatted="false">"Jagode"</string>
+    <string name="data_food_seed_9326" formatted="false">"Meso lubenice"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektarina brez koščice"</string>
+    <string name="data_food_seed_9176" formatted="false">"Meso manga"</string>
+    <string name="data_food_seed_9107" formatted="false">"Kosmulje"</string>
+    <string name="data_food_seed_9226" formatted="false">"Meso papaje"</string>
+    <string name="data_food_seed_9089" formatted="false">"Sveže fige"</string>
+    <string name="data_food_seed_9111" formatted="false">"Meso grenivke"</string>
+    <string name="data_food_seed_9032" formatted="false">"Suhe marelice brez koščic"</string>
+    <string name="data_catalog_note_2">"Referenčne vrednosti za 100 g užitnega dela. Vrednosti ogljikovih hidratov USDA vključujejo vlaknine. Vrednosti lahko prilagodiš glede na etiketo izdelka. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Suhe slive brez koščic"</string>
+    <string name="data_food_seed_9087" formatted="false">"Datlji brez koščic"</string>
+    <string name="data_food_seed_9298" formatted="false">"Temne rozine brez pešk"</string>
+    <string name="data_food_seed_11529" formatted="false">"Svež paradižnik"</string>
+    <string name="data_food_seed_11205" formatted="false">"Kumara z lupino"</string>
+    <string name="data_food_seed_11090" formatted="false">"Surov brokoli"</string>
+    <string name="data_food_seed_11109" formatted="false">"Surovo belo zelje"</string>
+    <string name="data_food_seed_11124" formatted="false">"Surovo korenje"</string>
+    <string name="data_food_seed_11135" formatted="false">"Surova cvetača"</string>
+    <string name="data_food_seed_11143" formatted="false">"Stebla zelene"</string>
+    <string name="data_food_seed_11282" formatted="false">"Surova čebula"</string>
+    <string name="data_food_seed_11291" formatted="false">"Mlada čebula"</string>
+    <string name="data_food_seed_11304" formatted="false">"Surov zeleni grah"</string>
+    <string name="data_food_seed_11333" formatted="false">"Zelena sladka paprika"</string>
+    <string name="data_food_seed_11821" formatted="false">"Rdeča sladka paprika"</string>
+    <string name="data_food_seed_11352" formatted="false">"Surov krompir z lupino"</string>
+    <string name="data_food_seed_11367" formatted="false">"Kuhan olupljen krompir"</string>
+    <string name="data_catalog_note_3">"Referenčne vrednosti za 100 g užitnega dela. Brez dodane soli. Vrednosti ogljikovih hidratov USDA vključujejo vlaknine. Vrednosti lahko prilagodiš glede na etiketo izdelka. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Surova bučka"</string>
+    <string name="data_food_seed_11209" formatted="false">"Surov jajčevec"</string>
+    <string name="data_food_seed_11422" formatted="false">"Surova buča"</string>
+    <string name="data_food_seed_11429" formatted="false">"Redkvica"</string>
+    <string name="data_food_seed_11564" formatted="false">"Surova repa"</string>
+    <string name="data_food_seed_11080" formatted="false">"Surova rdeča pesa"</string>
+    <string name="data_food_seed_11081" formatted="false">"Kuhana rdeča pesa"</string>
+    <string name="data_food_seed_11215" formatted="false">"Česen"</string>
+    <string name="data_food_seed_11216" formatted="false">"Ingverjeva korenina"</string>
+    <string name="data_food_seed_11457" formatted="false">"Surova špinača"</string>
+    <string name="data_food_seed_11253" formatted="false">"Listnata solata"</string>
+    <string name="data_food_seed_11297" formatted="false">"Svež peteršilj"</string>
+    <string name="data_food_seed_2045" formatted="false">"Svež koper"</string>
+    <string name="data_food_seed_11052" formatted="false">"Surov stročji fižol"</string>
+    <string name="data_food_seed_11167" formatted="false">"Surova zrna sladke koruze"</string>
+    <string name="data_food_seed_11260" formatted="false">"Surovi šampinjoni"</string>
+    <string name="data_food_seed_11261" formatted="false">"Kuhani šampinjoni brez soli"</string>
+    <string name="data_food_seed_11987" formatted="false">"Surovi bukovi ostrigarji"</string>
+    <string name="data_food_seed_20009" formatted="false">"Suha ajdova kaša"</string>
+    <string name="data_catalog_note_4">"Referenčne vrednosti za 100 g užitnega dela. Pražena ajdova kaša. Vrednosti ogljikovih hidratov USDA vključujejo vlaknine. Vrednosti lahko prilagodiš glede na etiketo izdelka. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Ajdova kaša, kuhana v vodi"</string>
+    <string name="data_food_seed_20444" formatted="false">"Suh beli riž"</string>
+    <string name="data_food_seed_20445" formatted="false">"Kuhan beli riž brez soli"</string>
+    <string name="data_food_seed_20036" formatted="false">"Suh rjavi riž"</string>
+    <string name="data_food_seed_20037" formatted="false">"Kuhan rjavi riž"</string>
+    <string name="data_food_seed_8120" formatted="false">"Suhi ovseni kosmiči"</string>
+    <string name="data_food_seed_8121" formatted="false">"Ovsena kaša na vodi brez soli"</string>
+    <string name="data_food_seed_20005" formatted="false">"Suh ješprenj"</string>
+    <string name="data_food_seed_20006" formatted="false">"Kuhan ješprenj"</string>
+    <string name="data_food_seed_20031" formatted="false">"Suha prosena kaša"</string>
+    <string name="data_food_seed_20032" formatted="false">"Kuhana prosena kaša"</string>
+    <string name="data_food_seed_20420" formatted="false">"Suhe testenine"</string>
+    <string name="data_food_seed_20421" formatted="false">"Kuhane testenine brez soli"</string>
+    <string name="data_food_seed_16070" formatted="false">"Kuhana leča brez soli"</string>
+    <string name="data_food_seed_16057" formatted="false">"Kuhana čičerika brez soli"</string>
+    <string name="data_food_seed_16033" formatted="false">"Kuhan rdeči fižol brez soli"</string>
+    <string name="data_food_seed_5062" formatted="false">"Surove piščančje prsi brez kože"</string>
+    <string name="data_food_seed_5064" formatted="false">"Pečene piščančje prsi brez kože"</string>
+    <string name="data_food_seed_5219" formatted="false">"Surove puranje prsi brez kože"</string>
+    <string name="data_food_seed_5220" formatted="false">"Pečene puranje prsi brez kože"</string>
+    <string name="data_food_seed_23562" formatted="false">"Surova mleta govedina z 10% maščobe"</string>
+    <string name="data_food_seed_23566" formatted="false">"Pečena mleta govedina z 10% maščobe"</string>
+    <string name="data_food_seed_10060" formatted="false">"Surova svinjska ribica brez vidne maščobe"</string>
+    <string name="data_food_seed_10061" formatted="false">"Pečena svinjska ribica"</string>
+    <string name="data_food_seed_15236" formatted="false">"Surov atlantski losos"</string>
+    <string name="data_catalog_note_5">"Referenčne vrednosti za 100 g užitnega dela. Surovo živilo. Gojeno. Vrednosti ogljikovih hidratov USDA vključujejo vlaknine. Vrednosti lahko prilagodiš glede na etiketo izdelka. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Pečen atlantski losos"</string>
+    <string name="data_catalog_note_6">"Referenčne vrednosti za 100 g užitnega dela. Gojeno. Vrednosti ogljikovih hidratov USDA vključujejo vlaknine. Vrednosti lahko prilagodiš glede na etiketo izdelka. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Surova atlantska trska"</string>
+    <string name="data_food_seed_15266" formatted="false">"Surov aljaški polak"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuna v pločevinki v vodi, odcejena"</string>
+    <string name="data_food_seed_15271" formatted="false">"Kuhane olupljene kozice"</string>
+    <string name="data_food_seed_1211" formatted="false">"Mleko s 3,25% maščobe"</string>
+    <string name="data_food_seed_1174" formatted="false">"Mleko z 2% maščobe"</string>
+    <string name="data_food_seed_1082" formatted="false">"Mleko z 1% maščobe"</string>
+    <string name="data_food_seed_1116" formatted="false">"Navaden jogurt iz polnomastnega mleka"</string>
+    <string name="data_food_seed_1256" formatted="false">"Nemasten grški jogurt"</string>
+    <string name="data_food_seed_1015" formatted="false">"Zrnati sir cottage z 2% maščobe"</string>
+    <string name="data_catalog_note_7">"Referenčne vrednosti za 100 g užitnega dela. Zrnati sir cottage; druge vrste skute imajo drugačne vrednosti. Vrednosti ogljikovih hidratov USDA vključujejo vlaknine. Vrednosti lahko prilagodiš glede na etiketo izdelka. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Kisla smetana s približno 19% maščobe"</string>
+    <string name="data_food_seed_1009" formatted="false">"Sir čedar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mocarela iz polnomastnega mleka"</string>
+    <string name="data_food_seed_1019" formatted="false">"Sir feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Surovo kokošje jajce brez lupine"</string>
+    <string name="data_food_seed_1129" formatted="false">"Kuhano kokošje jajce brez lupine"</string>
+    <string name="data_food_seed_1124" formatted="false">"Surov kokošji beljak"</string>
+    <string name="data_food_seed_1001" formatted="false">"Soljeno maslo"</string>
+    <string name="data_food_seed_4053" formatted="false">"Oljčno olje"</string>
+    <string name="data_food_seed_4506" formatted="false">"Sončnično olje"</string>
+    <string name="data_food_seed_12061" formatted="false">"Mandlji"</string>
+    <string name="data_food_seed_12155" formatted="false">"Orehova jedrca"</string>
+    <string name="data_food_seed_12120" formatted="false">"Lešnikova jedrca"</string>
+    <string name="data_food_seed_12151" formatted="false">"Surova pistacijeva jedrca"</string>
+    <string name="data_food_seed_12014" formatted="false">"Suha oluščena bučna semena"</string>
+    <string name="data_food_seed_16087" formatted="false">"Surovi oluščeni arašidi"</string>
+    <string name="data_food_seed_18069" formatted="false">"Bel pšenični kruh"</string>
+    <string name="data_food_seed_18075" formatted="false">"Polnozrnat pšenični kruh"</string>
+    <string name="data_food_seed_18060" formatted="false">"Ržen kruh"</string>
+    <string name="data_food_seed_19296" formatted="false">"Med"</string>
+    <string name="data_food_seed_19335" formatted="false">"Sladkor"</string>
+    <string name="data_food_seed_19165" formatted="false">"Nesladkan kakav v prahu"</string>
+    <string name="data_food_seed_19904" formatted="false">"Temna čokolada s 70–85% kakava"</string>
+    <string name="data_meal_breakfast" formatted="false">"Zajtrk"</string>
+    <string name="data_meal_lunch" formatted="false">"Kosilo"</string>
+    <string name="data_meal_dinner" formatted="false">"Večerja"</string>
+    <string name="data_meal_snack" formatted="false">"Malica"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Pravilnik o zasebnosti Diet Diary\nPosodobljen 9. oktobra 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Aplikacija: Diet Diary; ruski naslov v Google Play: «Дневник диеты: подсчёт калорий»; ime paketa: ru.dietdiary.offline.\nRazvijalec projekta: Efreitor2001. Za vprašanja o aplikaciji ali obdelavi podatkov uporabi https://github.com/Efreitor2001/kkalcal/issues . Zahtevki na GitHubu so javni: ne objavljaj zdravstvenih podatkov, varnostnih kopij, gesel ali žetonov."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Dnevnik v tvoji napravi\nZa vodenje dnevnika registracija ni potrebna. Aplikacija hrani živila in hranilne vrednosti, porcije in datume obrokov, težo, obseg pasu, delež telesne maščobe, korake, spanje, opise vadbe, opombe, cilje, dosežke in nastavitve v svoji zasebni shrambi v napravi. Neobvezna polja lahko ostanejo prazna. Koraki, spanje in meritve se vnašajo ročno; aplikacija ne bere podatkov iz Health Connect, tipal telesne dejavnosti ali medicinskih naprav."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Ti podatki se uporabljajo za izračun kalorij in makrohranil ter prikaz zgodovine, grafov in dosežkov. Razvijalec nima strežnika, ki bi prejemal vsebino dnevnika. Če ne povežeš Google Drive in samostojno ne deliš varnostne kopije, zapisi ostanejo v tvoji napravi."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Neobvezna povezava z Google Drive\nNa tvojo zahtevo aplikacija odpre Googlovo prijavo v privzetem brskalniku in zaprosi za dostop do svojega skritega prostora za podatke aplikacije v tvojem Google Drive. To dovoljenje ne omogoča dostopa do običajnih dokumentov in fotografij v Drivu."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Po povezavi se živila, obroki, meritve dnevnika, opombe, cilji, dosežki, prenosljive nastavitve in metapodatki sprememb, vključno z naključnimi identifikatorji namestitve in časovnimi žigi, pošljejo Googlu. Uporabljajo se za ustvarjanje varnostnih posnetkov in združevanje zapisov med napravami. Če je samodejna sinhronizacija vklopljena, se spremembe ob omrežni povezavi pošiljajo tudi v ozadju. Samodejno sinhronizacijo lahko izklopiš ločeno."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Aplikacija prejme e-poštni naslov in identifikator izbranega računa Google za prikaz povezave in povezovanje s pravo shrambo. Tvoje geslo Google se aplikaciji ne posreduje. Seja pooblastila je v napravi shranjena šifrirano s ključem v Android Keystore. Žetoni, e-poštni naslovi in identifikatorji Google so izključeni iz izvozov dnevnika in sinhroniziranih posnetkov JSON."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Googlovi podatki se uporabljajo samo za pooblastilo in sinhronizacijo, nikoli za oglaševanje. Velja Googlov pravilnik o zasebnosti: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Datoteke varnostnih kopij\n»Shrani v datoteko« ustvari datoteko JSON na izbranem mestu. Obnova prebere samo izbrano datoteko. Če izbereš ponudnika datotek v oblaku ali kopijo deliš z drugo osebo, prejemnika izbereš samostojno. Aplikacija ne šifrira izvoženih datotek JSON: vsebujejo osebne podatke in metapodatke sprememb."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Oglasi\nAplikacija uporablja Yandex Mobile Ads SDK. Za nalaganje in prikaz oglasov se naprava povezuje z oglaševalskimi storitvami. Yandex lahko obdeluje tvoj naslov IP in druge tehnične podatke o omrežni zahtevi, napravi in programski opremi, razpoložljive oglaševalske ali tehnične identifikatorje ter podatke o prikazih oglasov in interakcijah z njimi."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Aplikacija SDK-ju sporoči, da soglasje ni podano, izklopi zbiranje lokacije in poročila App Ad Analytics. Ne zahteva dovoljenj za natančno ali približno lokacijo. Te nastavitve ne pomenijo, da oglaševalska storitev sploh ne komunicira po omrežju ali ne obdeluje tehničnih podatkov."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Aplikacija ne uporablja obrokov, teže, meritev, opomb, ciljev, e-poštnih naslovov ali identifikatorjev Google za ciljanje oglasov in jih ne dodaja parametrom oglaševalskih zahtev. Za shranjevanje zapisov ni treba gledati oglasov."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandexova pravila za obdelavo, hrambo in brisanje podatkov: https://yandex.ru/legal/confidential/ . Oglaševalski identifikator lahko upravljaš v nastavitvah Androida, če to podpira različica sistema. Čas hrambe tehničnih podatkov oglaševalske storitve določa njen pravilnik; razvijalec dnevnika zanje ne določa ločenega obdobja."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Zaščita podatkov\nKomunikacija z Googlom uporablja HTTPS; Yandex navaja, da se podatki SDK prenašajo prek HTTPS/TLS. Lokalni dnevnik ščiti izolacija aplikacij v Androidu. Aplikacija ne šifrira posebej vsebine dnevnika ali posnetkov JSON; ne zagotavlja šifriranja od konca do konca med napravami."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Sistemsko varnostno kopiranje podatkov aplikacije je izklopljeno. Diagnostični dnevniki, ki jih zapisuje koda aplikacije, vsebujejo kode rezultatov brez vsebine dnevnika, e-poštnih naslovov, žetonov ali teles omrežnih odgovorov; aplikacija teh dnevnikov ne pošilja posebej razvijalcu."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Hramba in brisanje\nLokalni zapisi se hranijo, dokler jih ne urediš, izbrišeš ali počistiš podatkov aplikacije. Brisanje zapisa ga odstrani iz vmesnika in med sinhronizacijo pošlje oznako izbrisa. Metapodatki združevanja se ohranijo, da se stari podatki ne pojavijo znova; lahko vsebujejo prejšnje vrednosti izbrisanega zapisa dnevnika. Prejšnje vrednosti lahko ostanejo tudi v starih posnetkih v oblaku in prej ustvarjenih datotekah. Zato brisanje zapisa ne izbriše v celoti vseh njegovih kopij."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"»Odklopi račun« ustavi sinhronizacijo v tej napravi in izbriše lokalno Googlovo sejo. Dnevnik in posnetki v Google Drive ostanejo. Odklop aplikacije ne izbriše tvojega računa Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Za popoln izbris podatkov te aplikacije:\n• Izklopi sinhronizacijo na vseh napravah, da se preostale kopije ne naložijo znova.\n• V brskalniku odpri https://drive.google.com/drive/settings z računom Google, ki je bil povezan. Izberi »Upravljanje aplikacij«, poišči »Diet Diary« (ali »Дневник диеты«) ter izberi »Možnosti« → »Izbriši skrite podatke aplikacije«. Če mobilna stran tega razdelka ne pokaže, uporabi namizno različico strani ali računalnik.\n• Prekliči dostop aplikacije na https://myaccount.google.com/connections . Sam preklic dostopa ne izbriše shranjenih kopij.\n• Počisti shrambo aplikacije v nastavitvah Androida na vsaki napravi ali odstrani aplikacijo.\n• Izbriši ločeno shranjene varnostne kopije JSON iz izbranih map in shramb v oblaku."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Brez tvojih prijavnih podatkov razvijalec ne more na daljavo izbrisati lokalnega dnevnika ali datotek v tvojem osebnem Google Drive. Razvijalcu ne posreduj gesla ali žetonov. Za pomoč pri brisanju se obrni na projekt prek povezave na začetku tega pravilnika. Za izbris podatkov dnevnika ni treba izbrisati računa Google."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Spremembe in stik\nKo se funkcije aplikacije ali načini obdelave podatkov spremenijo, se ta pravilnik posodobi z datumom spremembe. Za vprašanja o dostopu, popravkih, brisanju podatkov ali delovanju aplikacije uporabi kontaktni kanal projekta. Poslana vprašanja se obdelujejo za pripravo odgovora in hranijo na GitHubu; pravilnik GitHuba je na https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Moje jedi"</string>
+    <string name="secondary_metric_weight" formatted="false">"Teža"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Telesna maščoba"</string>
+    <string name="secondary_metric_waist" formatted="false">"Obseg pasu"</string>
+    <string name="secondary_metric_steps" formatted="false">"Koraki"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Spanje"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalorije"</string>
+    <string name="secondary_metric_protein" formatted="false">"Beljakovine"</string>
+    <string name="secondary_metric_fat" formatted="false">"Maščobe"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Ogljikovi hidrati"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"korakov"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Neveljavno obdobje"</string>
+    <string name="secondary_stats_title" formatted="false">"Gibanje"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Tvoji podatki v preglednih grafih"</string>
+    <string name="secondary_metric" formatted="false">"Kazalnik"</string>
+    <string name="secondary_week" formatted="false">"Teden"</string>
+    <string name="secondary_month" formatted="false">"Mesec"</string>
+    <string name="secondary_year" formatted="false">"Leto"</string>
+    <string name="secondary_custom_period" formatted="false">"Lastno obdobje"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Začetni datum ne sme biti po končnem datumu"</string>
+    <string name="secondary_no_records" formatted="false">"Podatkov še ni"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Dodaj hrano v dnevnik ali izberi drugo obdobje."</string>
+    <string name="secondary_chart_tap" formatted="false">"Dotakni se grafa, da izbereš zapis"</string>
+    <string name="secondary_chart_connected" formatted="false">"Črta povezuje zapisane meritve. Med temi točkami ni meritev."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Ocene tehtnice so uporabne za spremljanje trendov."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Ročno vneseni dnevni seštevek nadomesti seštevek živil. Sicer se zapisana živila seštejejo. Dnevi brez podatkov se preskočijo."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Seštevki temeljijo na zapisanih živilih. Dan brez podatkov se ne šteje kot nič."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Dnevi brez podatkov se preskočijo in niso vključeni v povprečje."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Danes in včeraj"</string>
+    <string name="secondary_no_today" formatted="false">"Za danes ni podatkov"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Za včeraj ni podatkov"</string>
+    <string name="secondary_partial_today" formatted="false">"Primerjava uporablja trenutne podatke. Današnji podatki morda še niso popolni."</string>
+    <string name="secondary_period_summary" formatted="false">"Povzetek obdobja"</string>
+    <string name="secondary_recorded_average" formatted="false">"Povprečje zapisanih dni"</string>
+    <string name="secondary_recorded_days" formatted="false">"Dnevi s podatki"</string>
+    <string name="secondary_minimum" formatted="false">"Najmanj"</string>
+    <string name="secondary_maximum" formatted="false">"Največ"</string>
+    <string name="secondary_first_to_last" formatted="false">"Od prvega do zadnjega zapisa"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Za izračun spremembe sta potrebna vsaj dva dneva s podatki."</string>
+    <string name="secondary_history" formatted="false">"Zgodovina"</string>
+    <string name="secondary_history_recent" formatted="false">"Zadnjih 14 dni s podatki. Za starejše zapise izberi lastno obdobje."</string>
+    <string name="secondary_history_all" formatted="false">"Vsi zapisani dnevi izbranega obdobja"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Od %1$s"</string>
+    <string name="secondary_date_until">"Do %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s v tem obdobju"</string>
+    <string name="secondary_weight_goal">"Cilj: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Dodaj meritev v dnevnik ali izberi drugo obdobje."</string>
+    <string name="secondary_latest_record">"Zadnji zapis · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Danes: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Včeraj: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Sprememba: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d od %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Zapisani dnevi: %2$d, od %3$s do %4$s. Najmanj %5$s, največ %6$s %7$s. Podrobne vrednosti so v zgodovini."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Prvi korak"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Zapiši prvo meritev teže."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Prva meritev teže je zapisana."</string>
+    <string name="secondary_award_first_food" formatted="false">"Prvi zapis"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Zapiši prvo porcijo hrane."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Prva porcija hrane je zapisana."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Teden podatkov"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Zapiši težo v 7 različnih dneh. Ni treba, da si sledijo."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Imaš meritve teže za 7 različnih dni."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Doslednost"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Zapiši težo v 30 različnih dneh."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Imaš meritve teže za 30 dni."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Arhivar"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"V dnevnik zapiši 100 porcij hrane."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Imaš zapisanih 100 porcij hrane."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Nova navada"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Zapisuj hrano 7 zaporednih koledarskih dni."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Imaš zapisano hrano za 7 zaporednih dni."</string>
+    <string name="secondary_award_steps" formatted="false">"Mojster hoje"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Zapiši vsaj 10.000 korakov v enem dnevu."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Imaš zapisan dan z 10.000 koraki."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Redno spremljanje"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Zapiši 100 meritev teže. Šteje ena meritev na datum."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Imaš zapisanih 100 meritev teže."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Izkušen dnevnikar"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Zapiši obroke ali meritve v 90 različnih dneh. Ni treba, da si sledijo."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Tvoj dnevnik vsebuje zapise za 90 različnih dni."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"meritev"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porcij"</string>
+    <string name="secondary_award_unit_days" formatted="false">"dni"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"zaporednih dni"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"korakov v enem dnevu"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"zapisanih dni"</string>
+    <string name="secondary_back" formatted="false">"‹  Nazaj"</string>
+    <string name="secondary_achievements" formatted="false">"Dosežki"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Majhni koraki postanejo navada"</string>
+    <string name="secondary_your_progress" formatted="false">"TVOJ NAPREDEK"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Pridobljeni dosežki ostanejo tudi po urejanju zapisov."</string>
+    <string name="secondary_awards_regular" formatted="false">"Za rednost in vodenje dnevnika"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Upoštevajo se zapisi do vključno danes."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Skrit dosežek"</string>
+    <string name="secondary_hidden_description" formatted="false">"Nadaljuj z uporabo dnevnika, da odkleneš ta dosežek."</string>
+    <string name="secondary_earned" formatted="false">"Pridobljeno"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Skrito · zaklenjeno"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"V teku · zaklenjeno"</string>
+    <string name="secondary_locked" formatted="false">"Zaklenjeno"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Pogoj in napredek bosta razkrita ob pridobitvi tega dosežka."</string>
+    <string name="secondary_best_streak" formatted="false">"Najdaljši niz"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Skrita nagrada"</string>
+    <string name="secondary_unlocked_of">"od %1$d odklenjenih"</string>
+    <string name="secondary_unlocked_date">"Odklenjeno %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Nazaj"</string>
+    <string name="secondary_my_recipe" formatted="false">"Moj recept"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Sestavine stehtaj pred pripravo. Za izračun porcij uporabi maso pripravljene jedi. Ne pozabi olj in omak."</string>
+    <string name="secondary_recipe_name" formatted="false">"Ime recepta"</string>
+    <string name="secondary_recipe_example" formatted="false">"Na primer zelenjavna enolončnica"</string>
+    <string name="secondary_ingredients" formatted="false">"Sestavine"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Začni s sestavinami"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Dodaj vsako sestavino in vnesi njeno maso v gramih."</string>
+    <string name="secondary_edit_weight" formatted="false">"Uredi maso"</string>
+    <string name="secondary_delete" formatted="false">"Izbriši"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Dodaj sestavino"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Celoten recept"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Kuhanje spremeni maso zaradi dodane ali izparele vode. Pripravljeno jed stehtaj brez posode."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Masa pripravljene jedi, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Vnesi maso po pripravi"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Vnesi maso, večjo od 0 in največ 100.000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Masa se ne izpolni samodejno"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Na 100 g pripravljene jedi"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Preveri maso pripravljene jedi in sestavine: 100 g lahko vsebuje največ 1.000 kcal in 100 g vsakega makrohranila."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Recepta ni bilo mogoče shraniti"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Shrani med moje recepte"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Po shranjevanju lahko jed dodaš v dnevnik glede na maso porcije."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Masa sestavine pred pripravo"</string>
+    <string name="secondary_grams" formatted="false">"Grami"</string>
+    <string name="secondary_weight_limits" formatted="false">"Več kot 0 in največ 100.000 g"</string>
+    <string name="secondary_add" formatted="false">"Dodaj"</string>
+    <string name="secondary_save" formatted="false">"Shrani"</string>
+    <string name="secondary_cancel" formatted="false">"Prekliči"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Izberi sestavino"</string>
+    <string name="secondary_search_food" formatted="false">"Poišči živila"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Ni zadetkov. Svoje živilo lahko dodaš na zavihku Živila."</string>
+    <string name="secondary_close" formatted="false">"Zapri"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Beljakovine %1$s · Maščobe %2$s · Ogljikovi hidrati %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Masa sestavin: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Končna masa: %1$s g. Sestavine: %2$s"</string>
+</resources>

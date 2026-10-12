@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"غذا کی ڈائری"</string>
+    <string name="core_tagline" formatted="false">"کیلوریز، وزن اور پیش رفت"</string>
+    <string name="core_open_diary" formatted="false">"ڈائری کھولیں"</string>
+    <string name="core_save_failed" formatted="false">"آپ کا ڈیٹا محفوظ نہیں ہو سکا"</string>
+    <string name="core_day" formatted="false">"آج"</string>
+    <string name="core_products" formatted="false">"غذائی اشیا"</string>
+    <string name="core_diary" formatted="false">"ڈائری"</string>
+    <string name="core_charts" formatted="false">"گراف"</string>
+    <string name="core_more" formatted="false">"مزید"</string>
+    <string name="core_recipe_saved" formatted="false">"پکوان آپ کی غذائی فہرست میں محفوظ ہو گیا"</string>
+    <string name="core_back_to_day" formatted="false">"دن کی تفصیل پر واپس جائیں"</string>
+    <string name="core_action_failed" formatted="false">"یہ کارروائی مکمل نہیں ہو سکی"</string>
+    <string name="core_understood" formatted="false">"ٹھیک ہے"</string>
+    <string name="core_restore_available" formatted="false">"آپ مزید میں جا کر بیک اپ بحال کر سکتے ہیں۔"</string>
+    <string name="core_eaten_today" formatted="false">"آج کھایا گیا"</string>
+    <string name="core_set_goal_hint" formatted="false">"آپ مزید میں ہدف مقرر کر سکتے ہیں"</string>
+    <string name="core_add_food" formatted="false">"+ کھانا شامل کریں"</string>
+    <string name="core_first_meal" formatted="false">"اپنے پہلے کھانے سے آغاز کریں"</string>
+    <string name="core_first_meal_help" formatted="false">"غذائی شے منتخب کریں اور اس کا وزن گرام میں درج کریں تاکہ کیلوریز اور غذائی اجزا کا حساب ہو سکے۔"</string>
+    <string name="core_my_day" formatted="false">"میرا دن"</string>
+    <string name="core_my_day_help" formatted="false">"وزن، کمر، قدم، نیند — جو معلومات موجود ہوں، درج کریں۔"</string>
+    <string name="core_record_metrics" formatted="false">"پیمائشیں درج کریں"</string>
+    <string name="core_edit_metrics" formatted="false">"پیمائشیں تبدیل کریں"</string>
+    <string name="core_food_state_hint" formatted="false">"غذا کا وزن اور غذائیت کے اعداد ایک ہی حالت کے مطابق ہونے چاہئیں: کچی، خشک یا پکی ہوئی۔"</string>
+    <string name="core_weight" formatted="false">"وزن"</string>
+    <string name="core_waist" formatted="false">"کمر"</string>
+    <string name="core_my_diary" formatted="false">"میری ڈائری"</string>
+    <string name="core_diary_tagline" formatted="false">"ہر دن اپنی رفتار سے"</string>
+    <string name="core_record_day" formatted="false">"+ دن کا ریکارڈ درج کریں"</string>
+    <string name="core_optional_diary_help" formatted="false">"تمام پیمائشیں اختیاری ہیں۔ آپ صرف وزن، نیند یا نوٹ بھی درج کر سکتے ہیں۔ تبدیلی کے لیے ریکارڈ پر ٹیپ کریں۔"</string>
+    <string name="core_history_starts" formatted="false">"آپ کا ریکارڈ یہاں سے شروع ہوتا ہے"</string>
+    <string name="core_history_help" formatted="false">"پیمائشیں درج کریں اور گراف میں تبدیلیاں دیکھیں۔"</string>
+    <string name="core_file_unavailable" formatted="false">"فائل دستیاب نہیں"</string>
+    <string name="core_backup_saved" formatted="false">"بیک اپ محفوظ ہو گیا"</string>
+    <string name="core_export_error" formatted="false">"بیک اپ برآمد نہیں ہو سکا"</string>
+    <string name="core_read_error" formatted="false">"فائل پڑھی نہیں جا سکی"</string>
+    <string name="core_settings_tagline" formatted="false">"ترتیبات اور ڈیٹا کا بیک اپ"</string>
+    <string name="core_your_progress" formatted="false">"آپ کی پیش رفت"</string>
+    <string name="core_achievements_help" formatted="false">"ڈائری لکھنے کی عادت کے لیے چھوٹی کامیابیاں۔"</string>
+    <string name="core_achievements" formatted="false">"کامیابیاں"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"اپنے آلات کے درمیان ڈائری ہم وقت کرنے کے لیے اختیاری رابطہ۔"</string>
+    <string name="core_cloud_sync" formatted="false">"کلاؤڈ ہم وقت سازی"</string>
+    <string name="core_personal_goals" formatted="false">"ذاتی اہداف"</string>
+    <string name="core_personal_goals_help" formatted="false">"کیلوریز، غذائی اجزا اور مطلوبہ وزن کے اہداف خود مقرر کریں۔ کوئی بھی ہدف خالی چھوڑا جا سکتا ہے۔"</string>
+    <string name="core_configure_goals" formatted="false">"اہداف مقرر کریں"</string>
+    <string name="core_backup" formatted="false">"بیک اپ"</string>
+    <string name="core_backup_help" formatted="false">"غذائی اشیا، کھانے، ڈائری، اہداف اور کامیابیاں ایک فائل میں۔ ایپ دوبارہ انسٹال کرنے سے پہلے بیک اپ محفوظ کریں۔"</string>
+    <string name="core_save_file" formatted="false">"فائل میں محفوظ کریں"</string>
+    <string name="core_restore_file" formatted="false">"فائل سے بحال کریں"</string>
+    <string name="core_write_locked" formatted="false">"اصل فائل کی حفاظت کے لیے محفوظ کرنا بند ہے۔ درست بیک اپ بحال کریں۔"</string>
+    <string name="core_about_data" formatted="false">"ایپ اور آپ کے ڈیٹا کے بارے میں"</string>
+    <string name="core_about_data_help" formatted="false">"ریکارڈ کیسے محفوظ ہوتے ہیں، ہم وقت سازی کیسے ہوتی ہے اور ڈیٹا کیسے حذف کریں۔"</string>
+    <string name="core_privacy" formatted="false">"رازداری اور ڈیٹا حذف کرنا"</string>
+    <string name="core_offline" formatted="false">"آف لائن کام کرتی ہے"</string>
+    <string name="core_offline_help" formatted="false">"Google میں سائن ان اختیاری ہے۔ قدم اور نیند خود درج کی جاتی ہے۔ ہم وقت سازی اور اشتہارات لوڈ کرنے کے لیے انٹرنیٹ ضروری ہے۔ ڈائری کے ریکارڈ اشتہاری نیٹ ورک کو نہیں بھیجے جاتے۔"</string>
+    <string name="core_about_foods" formatted="false">"غذائی اشیا کے بارے میں"</string>
+    <string name="core_foods_reference" formatted="false">"پہلے سے موجود اعداد قابلِ خوردنی حصے کے فی 100 گرام کے تخمینے ہیں۔ درست اعداد پیکٹ پر دیکھیں۔ غذائی شے تبدیل کرنے سے پچھلے کھانوں کا حساب نہیں بدلتا۔"</string>
+    <string name="core_foods_source" formatted="false">"ڈیٹا کا ماخذ: USDA FoodData Central، SR Legacy۔ ہر غذائی شے میں اس کی حالت اور ماخذ کی تفصیل موجود ہے۔"</string>
+    <string name="core_restore_title" formatted="false">"یہ بیک اپ بحال کریں؟"</string>
+    <string name="core_restore_warning" formatted="false">"آپ کی موجودہ غذائی اشیا، ڈائری، اہداف اور کامیابیاں اس فائل کے مواد سے بدل دی جائیں گی۔ پہلے بیک اپ محفوظ کریں۔ ہم وقت سازی منسلک ہو تو بحال شدہ تبدیلیاں Google Drive کو بھی بھیجی جائیں گی۔"</string>
+    <string name="core_backup_restored" formatted="false">"بیک اپ بحال ہو گیا"</string>
+    <string name="core_invalid_file" formatted="false">"غلط فائل"</string>
+    <string name="core_replace_data" formatted="false">"ڈیٹا تبدیل کریں"</string>
+    <string name="core_cancel" formatted="false">"منسوخ کریں"</string>
+    <string name="core_save" formatted="false">"محفوظ کریں"</string>
+    <string name="core_calculate_portion" formatted="false">"خوراک کی مقدار کا حساب"</string>
+    <string name="core_edit_portion" formatted="false">"خوراک کی مقدار بدلیں"</string>
+    <string name="core_portion_weight" formatted="false">"خوراک کی مقدار کا وزن، گرام"</string>
+    <string name="core_portion_invalid" formatted="false">"0 سے زیادہ اور 100,000 گرام تک وزن درج کریں"</string>
+    <string name="core_add_to_diary" formatted="false">"ڈائری میں شامل کریں"</string>
+    <string name="core_delete_entry" formatted="false">"ریکارڈ حذف کریں"</string>
+    <string name="core_delete_portion_question" formatted="false">"خوراک کی یہ مقدار ڈائری سے حذف کریں؟"</string>
+    <string name="core_new_food" formatted="false">"نئی غذائی شے یا پکوان"</string>
+    <string name="core_edit_nutrition" formatted="false">"غذائیت کے اعداد بدلیں"</string>
+    <string name="core_name" formatted="false">"نام"</string>
+    <string name="core_food" formatted="false">"غذائی شے"</string>
+    <string name="core_dish" formatted="false">"تیار پکوان"</string>
+    <string name="core_category" formatted="false">"زمرہ"</string>
+    <string name="core_per100_hint" formatted="false">"پیکٹ یا ترکیب کے مطابق فی 100 گرام کے اعداد درج کریں۔ کوئی غذائی جز موجود نہ ہو تو 0 لکھیں۔"</string>
+    <string name="core_kcal" formatted="false">"کیلوریز"</string>
+    <string name="core_protein_grams" formatted="false">"پروٹین، گرام"</string>
+    <string name="core_fat_grams" formatted="false">"چکنائی، گرام"</string>
+    <string name="core_carbs_grams" formatted="false">"کاربوہائیڈریٹس، گرام"</string>
+    <string name="core_food_note" formatted="false">"نوٹ، اجزا (اختیاری)"</string>
+    <string name="core_favorite" formatted="false">"پسندیدہ میں شامل کریں"</string>
+    <string name="core_name_category_required" formatted="false">"نام اور زمرہ درج کریں"</string>
+    <string name="core_nutrition_invalid" formatted="false">"فی 100 گرام کے اعداد درج کریں: کیلوریز 0–1,000؛ پروٹین، چکنائی اور کاربوہائیڈریٹس 0–100 گرام"</string>
+    <string name="core_delete_food" formatted="false">"غذائی فہرست سے حذف کریں"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"پچھلے کھانوں کے ریکارڈ میں پرانے اعداد برقرار رہیں گے۔"</string>
+    <string name="core_delete_food_question" formatted="false">"یہ غذائی شے حذف کریں؟ اس کے ڈائری ریکارڈ برقرار رہیں گے۔"</string>
+    <string name="core_day_entry" formatted="false">"روزانہ کا ریکارڈ"</string>
+    <string name="core_optional_fields" formatted="false">"جو خانے چاہیں بھریں، باقی خالی چھوڑ دیں۔"</string>
+    <string name="core_editing_existing" formatted="false">"اس تاریخ کا ریکارڈ پہلے سے موجود ہے۔ آپ اسی میں تبدیلی کر رہے ہیں۔"</string>
+    <string name="core_weight_kg" formatted="false">"وزن، کلوگرام"</string>
+    <string name="core_waist_cm" formatted="false">"کمر، سینٹی میٹر"</string>
+    <string name="core_steps" formatted="false">"قدم"</string>
+    <string name="core_sleep" formatted="false">"نیند"</string>
+    <string name="core_hours" formatted="false">"گھنٹے"</string>
+    <string name="core_minutes" formatted="false">"منٹ"</string>
+    <string name="core_body_fat_optional" formatted="false">"ترازو کے مطابق جسمانی چربی، % (اختیاری)"</string>
+    <string name="core_body_fat_hint" formatted="false">"ترازو کا چربی فیصد رجحان بتاتا ہے، یہ درست پیمائش نہیں۔"</string>
+    <string name="core_strength_training" formatted="false">"طاقت کی ورزش"</string>
+    <string name="core_training_example" formatted="false">"مثلاً: اسکواٹ 3×10، 12 کلوگرام ڈمبل"</string>
+    <string name="core_manual_nutrition" formatted="false">"غذائیت کا مجموعہ خود درج کریں"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"درج کرنے پر یہ اعداد دن کے کھانے کے مجموعے کی جگہ استعمال ہوں گے۔ خودکار حساب کے لیے خالی چھوڑیں۔"</string>
+    <string name="core_daily_calories" formatted="false">"دن کی کیلوریز"</string>
+    <string name="core_daily_protein" formatted="false">"دن کی پروٹین، گرام"</string>
+    <string name="core_wellbeing_notes" formatted="false">"نوٹ اور آپ کی کیفیت"</string>
+    <string name="core_steps_invalid" formatted="false">"قدم: 0 سے 200,000 تک صحیح عدد"</string>
+    <string name="core_sleep_invalid" formatted="false">"نیند: 0–24 گھنٹے، منٹ 0–59"</string>
+    <string name="core_body_fat" formatted="false">"جسمانی چربی"</string>
+    <string name="core_calories" formatted="false">"کیلوریز"</string>
+    <string name="core_protein" formatted="false">"پروٹین"</string>
+    <string name="core_entry_required" formatted="false">"کم از کم ایک پیمائش یا نوٹ شامل کریں"</string>
+    <string name="core_delete_day" formatted="false">"اس دن کا ریکارڈ حذف کریں"</string>
+    <string name="core_optional_goals" formatted="false">"تمام اہداف اختیاری ہیں۔ خالی خانہ یعنی کوئی ہدف مقرر نہیں۔"</string>
+    <string name="core_calories_per_day" formatted="false">"روزانہ کیلوریز"</string>
+    <string name="core_protein_per_day" formatted="false">"روزانہ پروٹین، گرام"</string>
+    <string name="core_fat_per_day" formatted="false">"روزانہ چکنائی، گرام"</string>
+    <string name="core_carbs_per_day" formatted="false">"روزانہ کاربوہائیڈریٹس، گرام"</string>
+    <string name="core_target_weight" formatted="false">"مطلوبہ وزن، کلوگرام"</string>
+    <string name="core_goals_invalid" formatted="false">"اہداف جانچیں: کیلوریز 0–10,000؛ پروٹین، چکنائی اور کاربوہائیڈریٹس 0–1,000 گرام"</string>
+    <string name="core_target_weight_invalid" formatted="false">"مطلوبہ وزن: 1 سے 500 کلوگرام"</string>
+    <string name="core_delete_question" formatted="false">"حذف کریں؟"</string>
+    <string name="core_delete" formatted="false">"حذف کریں"</string>
+    <string name="core_select_food" formatted="false">"غذائی شے منتخب کریں"</string>
+    <string name="core_foods_dishes" formatted="false">"غذائی اشیا اور پکوان"</string>
+    <string name="core_search_food" formatted="false">"غذائی شے یا پکوان تلاش کریں"</string>
+    <string name="core_new_food_button" formatted="false">"+ غذائی شے / پکوان"</string>
+    <string name="core_recipe_button" formatted="false">"ترکیب سے بنائیں"</string>
+    <string name="core_no_results" formatted="false">"کوئی نتیجہ نہیں"</string>
+    <string name="core_no_results_help" formatted="false">"دوسرے الفاظ سے تلاش کریں یا اپنی غذائی شے یا تیار پکوان شامل کریں۔"</string>
+    <string name="core_edit" formatted="false">"ترمیم کریں"</string>
+    <string name="core_achievement_unlocked">"🏆 کامیابی حاصل ہوئی! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s کلوکیلوری باقی · ہدف %2$s"</string>
+    <string name="core_above_goal">"ہدف سے %1$s کلوکیلوری زیادہ"</string>
+    <string name="core_portion_summary">"%1$s گرام · %2$s کلوکیلوری"</string>
+    <string name="core_macros_summary">"پروٹین %1$s   چکنائی %2$s   کاربوہائیڈریٹس %3$s"</string>
+    <string name="core_weight_summary">"وزن %1$s کلوگرام"</string>
+    <string name="core_waist_summary">"کمر %1$s سینٹی میٹر"</string>
+    <string name="core_steps_summary">"قدم: %1$s"</string>
+    <string name="core_fat_summary">"جسمانی چربی %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s کلوکیلوری (خود درج)"</string>
+    <string name="core_manual_protein">"پروٹین %1$s گرام (خود درج)"</string>
+    <string name="core_kg_value">"%1$s کلوگرام"</string>
+    <string name="core_cm_value">"%1$s سینٹی میٹر"</string>
+    <string name="core_sleep_value">"نیند %1$s"</string>
+    <string name="core_scale_fat">"ترازو کے مطابق جسمانی چربی %1$s%%"</string>
+    <string name="core_training_value">"ورزش: %1$s"</string>
+    <string name="core_kcal_value">"%1$s کلوکیلوری"</string>
+    <string name="core_protein_value">"پروٹین %1$s گرام"</string>
+    <string name="core_app_version">"غذا کی ڈائری · %1$s"</string>
+    <string name="core_per100_summary">"فی 100 گرام: %1$s کلوکیلوری · پروٹین %2$s · چکنائی %3$s · کاربوہائیڈریٹس %4$s"</string>
+    <string name="core_range_invalid">"%1$s: %2$s سے %3$s تک کوئی قدر درج کریں"</string>
+    <string name="core_delete_day_question">"%1$s کی پیمائشیں حذف کریں؟ کھانے کے ریکارڈ برقرار رہیں گے۔"</string>
+    <string name="core_catalog_count">"غذائی اشیا: %1$s · غذائیت فی 100 گرام"</string>
+    <string name="core_catalog_nutrition">"%1$s کلوکیلوری   ·   پروٹین %2$s   چکنائی %3$s   کاربوہائیڈریٹس %4$s"</string>
+    <string name="core_today_date">"آج · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"کیلوریز اور پروٹین کے مجموعے ڈائری میں خود درج کیے گئے ہیں"</string>
+    <string name="core_manual_calorie_total" formatted="false">"کیلوریز کا مجموعہ ڈائری میں خود درج کیا گیا ہے"</string>
+    <string name="core_manual_protein_total" formatted="false">"پروٹین کا مجموعہ ڈائری میں خود درج کیا گیا ہے"</string>
+    <string name="core_macro_goals">"پروٹین / چکنائی / کاربوہائیڈریٹس کے اہداف: %1$s / %2$s / %3$s گرام"</string>
+    <string name="core_kcal_unit" formatted="false">"کلوکیلوری"</string>
+    <string name="core_manual_values">"%1$s (خود درج)"</string>
+    <string name="core_all" formatted="false">"سب"</string>
+    <string name="core_favorites" formatted="false">"پسندیدہ"</string>
+    <string name="core_sleep_duration">"%1$s گھنٹے %2$s منٹ"</string>
+    <string name="core_previous_day" formatted="false">"پچھلا دن"</string>
+    <string name="core_next_day" formatted="false">"اگلا دن"</string>
+    <string name="secondary_metric_weight" formatted="false">"وزن"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"جسمانی چربی"</string>
+    <string name="secondary_metric_waist" formatted="false">"کمر"</string>
+    <string name="secondary_metric_steps" formatted="false">"قدم"</string>
+    <string name="secondary_metric_sleep" formatted="false">"نیند"</string>
+    <string name="secondary_metric_kcal" formatted="false">"کیلوریز"</string>
+    <string name="secondary_metric_protein" formatted="false">"پروٹین"</string>
+    <string name="secondary_metric_fat" formatted="false">"چکنائی"</string>
+    <string name="secondary_metric_carbs" formatted="false">"کاربوہائیڈریٹس"</string>
+    <string name="secondary_unit_kg" formatted="false">"کلوگرام"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"سینٹی میٹر"</string>
+    <string name="secondary_unit_steps" formatted="false">"قدم"</string>
+    <string name="secondary_unit_hours" formatted="false">"گھنٹے"</string>
+    <string name="secondary_unit_kcal" formatted="false">"کلوکیلوری"</string>
+    <string name="secondary_unit_grams" formatted="false">"گرام"</string>
+    <string name="secondary_invalid_period" formatted="false">"تاریخوں کی حد غلط ہے"</string>
+    <string name="secondary_stats_title" formatted="false">"رجحانات"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"آپ کے ریکارڈ، واضح گراف میں"</string>
+    <string name="secondary_metric" formatted="false">"پیمانہ"</string>
+    <string name="secondary_week" formatted="false">"ہفتہ"</string>
+    <string name="secondary_month" formatted="false">"مہینہ"</string>
+    <string name="secondary_year" formatted="false">"سال"</string>
+    <string name="secondary_custom_period" formatted="false">"اپنی مدت منتخب کریں"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"ابتدائی تاریخ آخری تاریخ کے بعد نہیں ہو سکتی"</string>
+    <string name="secondary_no_records" formatted="false">"ابھی کوئی ریکارڈ نہیں"</string>
+    <string name="secondary_empty_food_period" formatted="false">"ڈائری میں کھانا شامل کریں یا دوسری مدت منتخب کریں۔"</string>
+    <string name="secondary_chart_tap" formatted="false">"ریکارڈ منتخب کرنے کے لیے گراف پر ٹیپ کریں"</string>
+    <string name="secondary_chart_connected" formatted="false">"لکیر درج شدہ پیمائشوں کو ملاتی ہے۔ ان کے درمیان کوئی پیمائش نہیں۔"</string>
+    <string name="secondary_body_fat_hint" formatted="false">"ترازو کے تخمینے رجحان دیکھنے میں مفید ہیں۔"</string>
+    <string name="secondary_food_override_hint" formatted="false">"خود درج کردہ روزانہ مجموعہ کھانے کے مجموعے کی جگہ استعمال ہوتا ہے۔ ورنہ درج کردہ کھانا جمع کیا جاتا ہے۔ بغیر ریکارڈ والے دن چھوڑ دیے جاتے ہیں۔"</string>
+    <string name="secondary_food_total_hint" formatted="false">"مجموعے درج کردہ کھانے پر مبنی ہیں۔ بغیر ریکارڈ والا دن صفر نہیں سمجھا جاتا۔"</string>
+    <string name="secondary_missing_days_hint" formatted="false">"بغیر ریکارڈ والے دن چھوڑ دیے جاتے ہیں اور اوسط میں شامل نہیں ہوتے۔"</string>
+    <string name="secondary_today_yesterday" formatted="false">"آج اور گزشتہ روز"</string>
+    <string name="secondary_no_today" formatted="false">"آج کا ریکارڈ نہیں"</string>
+    <string name="secondary_no_yesterday" formatted="false">"گزشتہ روز کا ریکارڈ نہیں"</string>
+    <string name="secondary_partial_today" formatted="false">"یہ موازنہ موجودہ ریکارڈ استعمال کرتا ہے۔ آج کا ڈیٹا ابھی نامکمل ہو سکتا ہے۔"</string>
+    <string name="secondary_period_summary" formatted="false">"مدت کا خلاصہ"</string>
+    <string name="secondary_recorded_average" formatted="false">"ریکارڈ والے دنوں کی اوسط"</string>
+    <string name="secondary_recorded_days" formatted="false">"ڈیٹا والے دن"</string>
+    <string name="secondary_minimum" formatted="false">"کم از کم"</string>
+    <string name="secondary_maximum" formatted="false">"زیادہ سے زیادہ"</string>
+    <string name="secondary_first_to_last" formatted="false">"پہلے سے آخری ریکارڈ تک"</string>
+    <string name="secondary_two_days_needed" formatted="false">"تبدیلی کا حساب لگانے کے لیے کم از کم دو دن کا ریکارڈ چاہیے۔"</string>
+    <string name="secondary_history" formatted="false">"سابقہ ریکارڈ"</string>
+    <string name="secondary_history_recent" formatted="false">"ڈیٹا والے تازہ ترین 14 دن۔ پرانے ریکارڈ کے لیے اپنی مدت منتخب کریں۔"</string>
+    <string name="secondary_history_all" formatted="false">"منتخب مدت کے تمام ریکارڈ والے دن"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s سے"</string>
+    <string name="secondary_date_until">"%1$s تک"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"اس مدت میں %1$s"</string>
+    <string name="secondary_weight_goal">"ہدف: %1$s کلوگرام"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"ڈائری میں پیمائش شامل کریں یا دوسری مدت منتخب کریں۔"</string>
+    <string name="secondary_latest_record">"تازہ ترین ریکارڈ · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"آج: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"گزشتہ روز: %1$s %2$s"</string>
+    <string name="secondary_change_value">"تبدیلی: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%2$d میں سے %1$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s۔ ریکارڈ والے دن: %2$d، %3$s سے %4$s تک۔ کم از کم %5$s، زیادہ سے زیادہ %6$s %7$s۔ اعداد سابقہ ریکارڈ میں درج ہیں۔"</string>
+    <string name="secondary_award_first_weight" formatted="false">"آغاز"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"وزن کی پہلی پیمائش محفوظ کریں۔"</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"وزن کی پہلی پیمائش محفوظ ہو گئی۔"</string>
+    <string name="secondary_award_first_food" formatted="false">"پہلا اندراج"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"کھانے کی پہلی مقدار درج کریں۔"</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"کھانے کی پہلی مقدار درج ہو گئی۔"</string>
+    <string name="secondary_award_weight_week" formatted="false">"ایک ہفتے کا ڈیٹا"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"7 مختلف دنوں میں وزن درج کریں۔ مسلسل ہونا ضروری نہیں۔"</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"آپ کے پاس 7 مختلف دنوں کے وزن کے ریکارڈ ہیں۔"</string>
+    <string name="secondary_award_weight_month" formatted="false">"مستقل مزاجی"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"30 مختلف دنوں میں وزن درج کریں۔"</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"آپ کے پاس 30 دنوں کے وزن کے ریکارڈ ہیں۔"</string>
+    <string name="secondary_award_food_hundred" formatted="false">"ریکارڈ جمع کرنے والے"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"ڈائری میں کھانے کی 100 مقداریں محفوظ کریں۔"</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"آپ نے کھانے کی 100 مقداریں محفوظ کر لی ہیں۔"</string>
+    <string name="secondary_award_food_streak" formatted="false">"نئی عادت"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"مسلسل 7 تقویمی دن کھانا درج کریں۔"</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"آپ نے مسلسل 7 دن کھانا درج کیا ہے۔"</string>
+    <string name="secondary_award_steps" formatted="false">"پیدل چلنے کے ماہر"</string>
+    <string name="secondary_award_steps_description" formatted="false">"ایک دن میں کم از کم 10,000 قدم درج کریں۔"</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"آپ نے 10,000 قدم والا دن درج کیا ہے۔"</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"باقاعدہ ریکارڈ رکھنے والے"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"وزن کی 100 پیمائشیں محفوظ کریں۔ ہر تاریخ کی ایک پیمائش شمار ہوگی۔"</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"آپ نے وزن کی 100 پیمائشیں محفوظ کر لی ہیں۔"</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"ڈائری کے تجربہ کار"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"90 مختلف دنوں میں کھانا یا پیمائشیں درج کریں۔ مسلسل ہونا ضروری نہیں۔"</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"آپ کے پاس 90 مختلف دنوں کے ڈائری ریکارڈ ہیں۔"</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"پیمائشیں"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"مقداریں"</string>
+    <string name="secondary_award_unit_days" formatted="false">"دن"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"مسلسل دن"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"ایک دن میں قدم"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"ریکارڈ والے دن"</string>
+    <string name="secondary_back" formatted="false">"‹  واپس"</string>
+    <string name="secondary_achievements" formatted="false">"کامیابیاں"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"چھوٹے قدم عادت بن جاتے ہیں"</string>
+    <string name="secondary_your_progress" formatted="false">"آپ کی پیش رفت"</string>
+    <string name="secondary_awards_permanent" formatted="false">"ریکارڈ بدلنے کے بعد بھی حاصل کردہ کامیابیاں برقرار رہتی ہیں۔"</string>
+    <string name="secondary_awards_regular" formatted="false">"مستقل مزاجی اور ڈائری رکھنے کے لیے"</string>
+    <string name="secondary_awards_through_today" formatted="false">"آج سمیت آج تک محفوظ کردہ ریکارڈ شمار ہوتے ہیں۔"</string>
+    <string name="secondary_hidden_achievement" formatted="false">"پوشیدہ کامیابی"</string>
+    <string name="secondary_hidden_description" formatted="false">"اس کامیابی کے لیے ڈائری استعمال کرتے رہیں۔"</string>
+    <string name="secondary_earned" formatted="false">"حاصل ہو گئی"</string>
+    <string name="secondary_hidden_locked" formatted="false">"پوشیدہ · ابھی حاصل نہیں ہوئی"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"جاری · ابھی حاصل نہیں ہوئی"</string>
+    <string name="secondary_locked" formatted="false">"ابھی حاصل نہیں ہوئی"</string>
+    <string name="secondary_hidden_progress" formatted="false">"یہ کامیابی حاصل ہونے پر شرط اور پیش رفت ظاہر ہوگی۔"</string>
+    <string name="secondary_best_streak" formatted="false">"طویل ترین تسلسل"</string>
+    <string name="secondary_hidden_reward" formatted="false">"پوشیدہ انعام"</string>
+    <string name="secondary_unlocked_of">"کل %1$d میں سے حاصل شدہ"</string>
+    <string name="secondary_unlocked_date">"%1$s کو حاصل ہوئی"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← واپس"</string>
+    <string name="secondary_my_recipe" formatted="false">"میری ترکیب"</string>
+    <string name="secondary_recipe_intro" formatted="false">"پکانے سے پہلے اجزا تولیں۔ مقدار کے حساب کے لیے پکے ہوئے وزن کو استعمال کریں۔ تیل اور ساس بھی شامل کریں۔"</string>
+    <string name="secondary_recipe_name" formatted="false">"ترکیب کا نام"</string>
+    <string name="secondary_recipe_example" formatted="false">"مثلاً، سبزیوں کا اسٹو"</string>
+    <string name="secondary_ingredients" formatted="false">"اجزا"</string>
+    <string name="secondary_start_ingredients" formatted="false">"اجزا سے شروع کریں"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"ہر جز شامل کریں اور اس کا وزن گرام میں درج کریں۔"</string>
+    <string name="secondary_edit_weight" formatted="false">"وزن بدلیں"</string>
+    <string name="secondary_delete" formatted="false">"حذف کریں"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ جز شامل کریں"</string>
+    <string name="secondary_whole_recipe" formatted="false">"پوری ترکیب"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"پکانے میں پانی بڑھنے یا کم ہونے سے وزن بدلتا ہے۔ تیار پکوان کو برتن کے بغیر تولیں۔"</string>
+    <string name="secondary_cooked_weight" formatted="false">"پکا ہوا وزن، گرام"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"پکنے کے بعد وزن درج کریں"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0 سے زیادہ اور 100,000 گرام تک وزن درج کریں"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"وزن خودکار طور پر نہیں بھرتا"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"پکے پکوان کے فی 100 گرام"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"پکے وزن اور اجزا کو جانچیں: فی 100 گرام زیادہ سے زیادہ 1,000 کلوکیلوری اور ہر بنیادی غذائی جز 100 گرام تک ہو سکتا ہے۔"</string>
+    <string name="secondary_recipe_save_error" formatted="false">"ترکیب محفوظ نہیں ہو سکی"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"میرے پکوانوں میں محفوظ کریں"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"محفوظ کرنے کے بعد آپ اس پکوان کو کھائی گئی مقدار کے وزن سے درج کر سکتے ہیں۔"</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"پکانے سے پہلے جز کا وزن"</string>
+    <string name="secondary_grams" formatted="false">"گرام"</string>
+    <string name="secondary_weight_limits" formatted="false">"0 سے زیادہ اور 100,000 گرام تک"</string>
+    <string name="secondary_add" formatted="false">"شامل کریں"</string>
+    <string name="secondary_save" formatted="false">"محفوظ کریں"</string>
+    <string name="secondary_cancel" formatted="false">"منسوخ کریں"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"جز منتخب کریں"</string>
+    <string name="secondary_search_food" formatted="false">"غذائی اشیا تلاش کریں"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"کوئی نتیجہ نہیں۔ غذائی اشیا کے ٹیب میں اپنی غذائی شے شامل کر سکتے ہیں۔"</string>
+    <string name="secondary_close" formatted="false">"بند کریں"</string>
+    <string name="secondary_portion_energy">"%1$s گرام · %2$s کلوکیلوری"</string>
+    <string name="secondary_portion_macros">"پروٹین %1$s · چکنائی %2$s · کاربوہائیڈریٹس %3$s گرام"</string>
+    <string name="secondary_ingredients_weight">"اجزا کا وزن: %1$s گرام"</string>
+    <string name="secondary_energy">"%1$s کلوکیلوری"</string>
+    <string name="secondary_grams_value">"%1$s گرام"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s کلوکیلوری / 100 گرام"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s گرام"</string>
+    <string name="secondary_recipe_note">"تیار مقدار: %1$s گرام۔ اجزا: %2$s"</string>
+    <string name="app_name" formatted="false">"غذا کی ڈائری"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"منتقلی کا بیک اپ مطابقت نہیں رکھتا"</string>
+    <string name="data_entry_exists" formatted="false">"یہ کھانے کا ریکارڈ پہلے سے موجود ہے"</string>
+    <string name="data_entry_missing" formatted="false">"کھانے کا ریکارڈ نہیں ملا"</string>
+    <string name="data_edited_date_changed" formatted="false">"ترمیم کیے جانے والے ریکارڈ کی تاریخ بدل گئی ہے"</string>
+    <string name="data_device_id_corrupt" formatted="false">"مقامی آلے کی شناخت خراب ہے؛ بحالی روک دی گئی ہے"</string>
+    <string name="data_sync_invalid" formatted="false">"ہم وقت سازی کا ڈیٹا غلط ہے"</string>
+    <string name="data_diary_read_only" formatted="false">"ڈائری کو دوبارہ لکھنے سے محفوظ کیا گیا ہے: بیک اپ بحال کریں"</string>
+    <string name="data_diary_inconsistent" formatted="false">"ڈائری کے ڈیٹا میں عدم مطابقت ہے"</string>
+    <string name="data_backup_too_large" formatted="false">"بیک اپ بہت بڑا ہے"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"انسٹالیشن کی شناخت خراب ہے"</string>
+    <string name="data_save_verification_failed" formatted="false">"ڈائری محفوظ ہونے کی تصدیق نہیں ہو سکی"</string>
+    <string name="data_save_failed" formatted="false">"ڈائری محفوظ نہیں ہو سکی"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"بیک اپ 50 MB سے بڑا ہے"</string>
+    <string name="data_diary_file_too_large" formatted="false">"ڈائری کی فائل بہت بڑی ہے"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"غذائی ڈیٹابیس کا حجم غلط ہے"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"بیک اپ کا یہ ورژن معاونت یافتہ نہیں"</string>
+    <string name="data_too_many_values">"%1$s میں بہت زیادہ قدریں ہیں"</string>
+    <string name="data_too_many_products" formatted="false">"غذائی اشیا بہت زیادہ ہیں"</string>
+    <string name="data_too_many_entries" formatted="false">"کھانے کے ریکارڈ بہت زیادہ ہیں"</string>
+    <string name="data_too_many_logs" formatted="false">"ڈائری کے ریکارڈ بہت زیادہ ہیں"</string>
+    <string name="data_product_id_duplicate" formatted="false">"غذائی شے کی شناخت دہرائی گئی ہے"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"کھانے کے ریکارڈ کی شناخت دہرائی گئی ہے"</string>
+    <string name="data_log_date_duplicate" formatted="false">"ڈائری کی تاریخ دہرائی گئی ہے"</string>
+    <string name="data_label_product_id" formatted="false">"غذائی شے کی شناخت"</string>
+    <string name="data_label_product_name" formatted="false">"غذائی شے کا نام"</string>
+    <string name="data_label_category" formatted="false">"زمرہ"</string>
+    <string name="data_label_note" formatted="false">"نوٹ"</string>
+    <string name="data_label_entry_id" formatted="false">"ریکارڈ کی شناخت"</string>
+    <string name="data_label_meal" formatted="false">"کھانا"</string>
+    <string name="data_food_weight_range" formatted="false">"غذا کا وزن 0 سے زیادہ اور 100000 گرام تک ہونا چاہیے"</string>
+    <string name="data_label_weight" formatted="false">"وزن"</string>
+    <string name="data_label_waist" formatted="false">"کمر"</string>
+    <string name="data_steps_range" formatted="false">"قدموں کی تعداد 0 سے 200000 کے درمیان ہونی چاہیے"</string>
+    <string name="data_label_sleep" formatted="false">"نیند"</string>
+    <string name="data_label_body_fat" formatted="false">"جسمانی چربی"</string>
+    <string name="data_label_daily_calories" formatted="false">"دن کی کیلوریز"</string>
+    <string name="data_label_daily_protein" formatted="false">"دن کی پروٹین"</string>
+    <string name="data_label_workout" formatted="false">"ورزش"</string>
+    <string name="data_label_log_note" formatted="false">"نوٹ"</string>
+    <string name="data_log_empty" formatted="false">"کم از کم ایک پیمائش یا نوٹ درج کریں"</string>
+    <string name="data_label_goal_weight" formatted="false">"مطلوبہ وزن"</string>
+    <string name="data_too_many_achievements" formatted="false">"کامیابیاں بہت زیادہ ہیں"</string>
+    <string name="data_achievement_invalid" formatted="false">"غلط کامیابی"</string>
+    <string name="data_setting_not_portable" formatted="false">"یہ ترتیب منتقل نہیں ہو سکتی"</string>
+    <string name="data_setting_invalid">"%1$s ترتیب کی قدر غلط ہے"</string>
+    <string name="data_label_calories" formatted="false">"کیلوریز"</string>
+    <string name="data_label_protein" formatted="false">"پروٹین"</string>
+    <string name="data_label_fat" formatted="false">"چکنائی"</string>
+    <string name="data_label_carbs" formatted="false">"کاربوہائیڈریٹس"</string>
+    <string name="data_value_range">"%1$s: اجازت یافتہ حد %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: لمبائی غلط ہے"</string>
+    <string name="data_text_character_invalid">"%1$s: غلط حرف موجود ہے"</string>
+    <string name="data_date_format_invalid" formatted="false">"تاریخ YYYY-MM-DD کی صورت میں ہونی چاہیے"</string>
+    <string name="data_date_nonexistent">"غلط تاریخ: %1$s"</string>
+    <string name="data_field_string_required">"%1$s خانے میں متن ہونا چاہیے"</string>
+    <string name="data_field_boolean_required">"%1$s خانے میں درست یا غلط کی منطقی قدر ہونی چاہیے"</string>
+    <string name="data_field_number_required">"%1$s خانے میں عدد ہونا چاہیے"</string>
+    <string name="data_field_finite_required">"%1$s خانے میں متناہی عدد ہونا چاہیے"</string>
+    <string name="data_field_integer_required">"%1$s خانے میں صحیح عدد ہونا چاہیے"</string>
+    <string name="data_too_many_items">"%1$s میں بہت زیادہ اندراجات ہیں"</string>
+    <string name="data_data_file_invalid">"ڈیٹا کی غلط فائل: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"آلے کی شناخت موجود نہیں"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"منطقی گھڑی کی حد پوری ہو گئی ہے"</string>
+    <string name="data_too_many_sync_records" formatted="false">"ہم وقت سازی کے ریکارڈ بہت زیادہ ہیں"</string>
+    <string name="data_sync_version_required" formatted="false">"ہم وقت سازی کے لیے فارمیٹ ورژن 2 چاہیے"</string>
+    <string name="data_sync_key_invalid" formatted="false">"ہم وقت سازی کی کلید غلط ہے"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"ہم وقت سازی کی کلید دہرائی گئی ہے"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"حذف کرنے کا نشان غلط ہے"</string>
+    <string name="data_sync_data_invalid" formatted="false">"ہم وقت سازی کا ڈیٹا غلط ہے"</string>
+    <string name="data_record_clock_invalid" formatted="false">"ریکارڈ کا ورژن منطقی گھڑی سے آگے ہے"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"ڈیٹا ہم وقت سازی کے میٹاڈیٹا سے مطابقت نہیں رکھتا"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"ہم وقت سازی کی کلید کی لمبائی غلط ہے"</string>
+    <string name="data_sync_key_malformed" formatted="false">"ہم وقت سازی کی کلید کی ساخت غلط ہے"</string>
+    <string name="data_sync_type_unknown" formatted="false">"ہم وقت سازی کی نامعلوم قسم"</string>
+    <string name="data_record_id_too_long" formatted="false">"ریکارڈ کی شناخت بہت لمبی ہے"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"کامیابی حذف کرنے کی کارروائی غلط ہے"</string>
+    <string name="data_log_key_invalid" formatted="false">"ڈائری کی کلید غلط ہے"</string>
+    <string name="data_log_field_unknown" formatted="false">"ڈائری کا نامعلوم خانہ"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"ڈائری حذف کرنے کا نشان غلط ہے"</string>
+    <string name="data_goal_unknown" formatted="false">"نامعلوم ہدف"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"حذف شدہ ریکارڈ میں ڈیٹا موجود ہے"</string>
+    <string name="data_sync_value_invalid" formatted="false">"ہم وقت سازی کی قدر غلط ہے"</string>
+    <string name="data_record_id_mismatch" formatted="false">"ریکارڈ کی شناخت کلید سے مطابقت نہیں رکھتی"</string>
+    <string name="data_field_value_invalid" formatted="false">"خانے کی قدر غلط ہے"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"کامیابی کی تاریخ کلید سے مطابقت نہیں رکھتی"</string>
+    <string name="data_note_string_required" formatted="false">"نوٹ میں متن ہونا چاہیے"</string>
+    <string name="data_sync_note_invalid" formatted="false">"ہم وقت کیا گیا نوٹ غلط ہے"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"منطقی گھڑی غلط ہے"</string>
+    <string name="data_device_invalid" formatted="false">"غلط آلہ"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"ورژن کا نشان غلط ہے"</string>
+    <string name="data_google_login_required" formatted="false">"Google میں دوبارہ سائن ان کریں"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"کلاؤڈ بیک اپ بہت زیادہ ہیں"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive نے وہی صفحہ دوبارہ لوٹایا"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"کلاؤڈ بیک اپ 50 MB سے بڑا ہے"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive نے اپ لوڈ کا پتہ نہیں دیا"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Google Drive کا اپ لوڈ پتہ غلط ہے"</string>
+    <string name="data_back" formatted="false">"‹  واپس"</string>
+    <string name="data_cloud_title" formatted="false">"کلاؤڈ ہم وقت سازی"</string>
+    <string name="data_cloud_subtitle" formatted="false">"آپ کی ڈائری، آپ کے تمام آلات پر"</string>
+    <string name="data_no_account" formatted="false">"کوئی اکاؤنٹ منسلک نہیں"</string>
+    <string name="data_cloud_intro" formatted="false">"سائن ان اختیاری ہے۔ غذائی اشیا، کھانے، پیمائشیں، اہداف اور کامیابیاں فون پر محفوظ ہوتی ہیں۔ منسلک ہونے کے بعد ایک نقل آپ کے Google Drive کے پوشیدہ فولڈر میں محفوظ ہوگی۔"</string>
+    <string name="data_cloud_first_connection" formatted="false">"پہلی بار منسلک ہونے پر ریکارڈ یکجا کیے جاتے ہیں۔ ایپ آپ کے Drive کی دوسری فائلوں تک رسائی نہیں رکھتی۔"</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"اس بلڈ میں Google سائن ان ابھی ترتیب نہیں دیا گیا۔ ڈائری اور فائل بیک اپ اکاؤنٹ کے بغیر کام کرتے ہیں۔"</string>
+    <string name="data_connect_google" formatted="false">"Google سے منسلک کریں"</string>
+    <string name="data_automatic_sync" formatted="false">"خودکار ہم وقت سازی"</string>
+    <string name="data_automatic_sync_description" formatted="false">"ڈیٹا بدلنے پر، اور Android کی اجازت سے پس منظر میں"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"شیڈول تبدیل نہیں ہو سکا۔ آپ کا ڈیٹا اس آلے پر محفوظ ہے۔"</string>
+    <string name="data_sync_start_failed" formatted="false">"ہم وقت سازی شروع نہیں ہو سکی۔ آپ کا ڈیٹا اس آلے پر محفوظ ہے۔"</string>
+    <string name="data_sync_now" formatted="false">"ابھی ہم وقت کریں"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Google میں دوبارہ سائن ان کریں"</string>
+    <string name="data_disconnect_account" formatted="false">"اکاؤنٹ کا رابطہ منقطع کریں"</string>
+    <string name="data_sync_never" formatted="false">"ابھی ہم وقت سازی نہیں ہوئی"</string>
+    <string name="data_offline_saved_title" formatted="false">"آپ کا ڈیٹا آف لائن محفوظ ہے"</string>
+    <string name="data_cloud_merge_description" formatted="false">"خودکار ہم وقت سازی فعال ہو تو رابطہ دستیاب ہونے پر تبدیلیاں بھیجی جاتی ہیں۔ دو آلات پر ایک ہی خانہ بدلنے کی صورت میں بعد کے وقت والی تبدیلی استعمال ہوتی ہے۔ الگ ریکارڈ اور خانے یکجا کیے جاتے ہیں۔"</string>
+    <string name="data_cloud_password_description" formatted="false">"پاس ورڈ صرف براؤزر کے Google صفحے پر درج کرتے ہیں۔ رسائی کے ٹوکن Android Keystore سے محفوظ ہیں اور بیک اپ میں شامل نہیں ہوتے۔"</string>
+    <string name="data_google_connection_title" formatted="false">"Google سے رابطہ"</string>
+    <string name="data_got_it" formatted="false">"سمجھ گیا"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive سے منسلک کریں؟"</string>
+    <string name="data_connect_drive_description" formatted="false">"موجودہ ڈائری منتخب Google اکاؤنٹ کے ڈیٹا کے ساتھ یکجا ہوگی۔ اپنے آلات پر ایک ہی ذاتی اکاؤنٹ استعمال کریں۔ سائن ان ڈیفالٹ براؤزر میں کھلے گا۔"</string>
+    <string name="data_sign_in_open_failed" formatted="false">"سائن ان نہیں کھل سکا۔ ڈیفالٹ براؤزر انسٹال یا فعال کر کے دوبارہ کوشش کریں۔"</string>
+    <string name="data_continue" formatted="false">"جاری رکھیں"</string>
+    <string name="data_cancel" formatted="false">"منسوخ کریں"</string>
+    <string name="data_disconnect_title" formatted="false">"اکاؤنٹ کا رابطہ منقطع کریں؟"</string>
+    <string name="data_disconnect_description" formatted="false">"اس آلے پر ہم وقت سازی رک جائے گی۔ مقامی ڈائری اور Google Drive کی نقول برقرار رہیں گی۔ Google اکاؤنٹ کی ترتیبات میں ایپ کی اجازت سنبھال سکتے ہیں۔"</string>
+    <string name="data_disconnect_failed" formatted="false">"اکاؤنٹ کا رابطہ منقطع نہیں ہو سکا۔ دوبارہ کوشش کریں۔"</string>
+    <string name="data_disconnect" formatted="false">"رابطہ منقطع کریں"</string>
+    <string name="data_google_not_connected" formatted="false">"Google منسلک نہیں"</string>
+    <string name="data_sync_ready" formatted="false">"ہم وقت سازی کے لیے تیار"</string>
+    <string name="data_sync_changes_pending" formatted="false">"تبدیلیاں ہم وقت سازی کی منتظر ہیں…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"انٹرنیٹ رابطہ موجود نہیں۔ تبدیلیاں اس آلے پر محفوظ ہیں۔"</string>
+    <string name="data_google_not_configured" formatted="false">"اس بلڈ میں Google سائن ان ابھی ترتیب نہیں دیا گیا"</string>
+    <string name="data_sync_wait" formatted="false">"ہم وقت سازی مکمل ہونے کا انتظار کریں"</string>
+    <string name="data_google_connecting" formatted="false">"Google سے منسلک ہو رہا ہے…"</string>
+    <string name="data_connection_cancelled" formatted="false">"رابطہ منسوخ ہو گیا"</string>
+    <string name="data_connection_rejected" formatted="false">"رابطہ منسوخ ہوا یا Google نے مسترد کر دیا"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google منسلک ہو گیا۔ ریکارڈ یکجا ہو رہے ہیں…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google سے رابطہ نہیں ہو سکا۔ انٹرنیٹ اور رسائی کی ترتیبات جانچیں۔"</string>
+    <string name="data_account_disconnected" formatted="false">"اکاؤنٹ کا رابطہ منقطع ہو گیا۔ ڈیٹا اس آلے پر موجود ہے۔"</string>
+    <string name="data_sync_waiting_network" formatted="false">"انٹرنیٹ رابطہ موجود نہیں۔ ہم وقت سازی رابطے کی منتظر ہے۔"</string>
+    <string name="data_sync_scheduled" formatted="false">"ہم وقت سازی مقرر ہو گئی…"</string>
+    <string name="data_sync_running" formatted="false">"ہم وقت سازی جاری ہے…"</string>
+    <string name="data_sync_complete" formatted="false">"ہم وقت سازی مکمل"</string>
+    <string name="data_no_internet" formatted="false">"انٹرنیٹ رابطہ موجود نہیں"</string>
+    <string name="data_sync_failed_saved" formatted="false">"ہم وقت سازی نہیں ہو سکی۔ آپ کا ڈیٹا اس آلے پر محفوظ ہے"</string>
+    <string name="data_page_open_failed" formatted="false">"صفحہ نہیں کھل سکا۔ نیچے متن سے پتہ نقل کر سکتے ہیں۔"</string>
+    <string name="data_privacy_title" formatted="false">"رازداری"</string>
+    <string name="data_privacy_subtitle" formatted="false">"آپ کے ریکارڈ اور ڈیٹا کا اختیار"</string>
+    <string name="data_app_purpose" formatted="false">"اس ایپ کے بارے میں"</string>
+    <string name="data_medical_disclaimer" formatted="false">"یہ ایپ طبی آلہ نہیں ہے۔ یہ کسی مرض کی تشخیص، علاج، مکمل شفا یا روک تھام نہیں کرتی۔ طبی مشورے، تشخیص اور علاج کے لیے مستند طبی ماہر سے رجوع کریں۔"</string>
+    <string name="data_manage_delete_data" formatted="false">"ڈیٹا سنبھالیں اور حذف کریں"</string>
+    <string name="data_delete_data_intro" formatted="false">"تمام ڈیٹا حذف کرنے سے پہلے اپنے سب آلات پر ہم وقت سازی بند کریں۔ فون سے ایپ ہٹانے پر Google Drive کی نقول یا برآمد شدہ فائلیں حذف نہیں ہوتیں۔"</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive کا ڈیٹا سنبھالیں"</string>
+    <string name="data_google_account_access" formatted="false">"Google اکاؤنٹ تک رسائی"</string>
+    <string name="data_android_app_storage" formatted="false">"Android میں ایپ کی اسٹوریج"</string>
+    <string name="data_contact_developer" formatted="false">"ڈویلپر سے رابطہ کریں"</string>
+    <string name="data_opening_page" formatted="false">"صفحہ کھولنا"</string>
+    <string name="data_advertisement" formatted="false">"اشتہار"</string>
+    <string name="data_ad_information" formatted="false">"اس اشتہار کے بارے میں"</string>
+    <string name="data_cloud_http_error">"کلاؤڈ HTTP خرابی %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"کلاؤڈ کا جواب بہت بڑا ہے"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"خفیہ کردہ سائن ان سیشن غلط ہے"</string>
+    <string name="data_session_save_failed" formatted="false">"سائن ان سیشن محفوظ نہیں ہو سکا"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google کی رسائی تازہ نہیں ہو سکی"</string>
+    <string name="data_diary_read_failed">"ڈائری پڑھی نہیں جا سکی۔ اصل فائل برقرار ہے۔ بیک اپ سے ڈیٹا بحال کریں۔ %1$s"</string>
+    <string name="data_last_sync">"آخری ہم وقت سازی: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"پھل اور بیریز"</string>
+    <string name="data_category_dried_fruit" formatted="false">"خشک پھل"</string>
+    <string name="data_category_vegetables" formatted="false">"سبزیاں اور خوشبودار بوٹیاں"</string>
+    <string name="data_category_mushrooms" formatted="false">"کھمبیاں"</string>
+    <string name="data_category_grains" formatted="false">"اناج اور پاستا"</string>
+    <string name="data_category_legumes" formatted="false">"دالیں اور پھلیاں"</string>
+    <string name="data_category_meat" formatted="false">"گوشت اور مرغی"</string>
+    <string name="data_category_fish" formatted="false">"مچھلی اور سمندری غذا"</string>
+    <string name="data_category_dairy" formatted="false">"دودھ کی مصنوعات"</string>
+    <string name="data_category_eggs" formatted="false">"انڈے"</string>
+    <string name="data_category_oils" formatted="false">"تیل اور مکھن"</string>
+    <string name="data_category_nuts" formatted="false">"گریاں اور بیج"</string>
+    <string name="data_category_bread" formatted="false">"ڈبل روٹی"</string>
+    <string name="data_category_other" formatted="false">"دیگر غذائی اشیا"</string>
+    <string name="data_category_dishes" formatted="false">"تیار پکوان"</string>
+    <string name="data_category_custom" formatted="false">"میری غذائی اشیا"</string>
+    <string name="data_category_other_short" formatted="false">"دیگر"</string>
+    <string name="data_category_my_dishes" formatted="false">"میرے پکوان"</string>
+    <string name="data_meal_breakfast" formatted="false">"ناشتہ"</string>
+    <string name="data_meal_lunch" formatted="false">"دوپہر کا کھانا"</string>
+    <string name="data_meal_dinner" formatted="false">"رات کا کھانا"</string>
+    <string name="data_meal_snack" formatted="false">"ہلکی غذا"</string>
+    <string name="data_food_seed_9003" formatted="false">"سیب، چھلکے سمیت"</string>
+    <string name="data_food_seed_9040" formatted="false">"کیلا، چھلکا اترا ہوا"</string>
+    <string name="data_food_seed_9021" formatted="false">"خوبانی، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9037" formatted="false">"ایووکاڈو کا گودا"</string>
+    <string name="data_food_seed_9050" formatted="false">"بلو بیریز"</string>
+    <string name="data_food_seed_9070" formatted="false">"میٹھی چیری، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9063" formatted="false">"کھٹی چیری، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9078" formatted="false">"کرین بیریز"</string>
+    <string name="data_food_seed_9083" formatted="false">"بلیک کرنٹ"</string>
+    <string name="data_food_seed_9084" formatted="false">"سرخ اور سفید کرنٹ"</string>
+    <string name="data_food_seed_9132" formatted="false">"انگور"</string>
+    <string name="data_food_seed_9148" formatted="false">"کیوی کا گودا"</string>
+    <string name="data_food_seed_9150" formatted="false">"لیموں، چھلکا اترا ہوا"</string>
+    <string name="data_food_seed_9181" formatted="false">"کینٹالوپ خربوزے کا گودا"</string>
+    <string name="data_food_seed_9200" formatted="false">"سنگترے کا گودا"</string>
+    <string name="data_food_seed_9218" formatted="false">"مینڈرین کا گودا"</string>
+    <string name="data_food_seed_9236" formatted="false">"آڑو، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9252" formatted="false">"ناشپاتی"</string>
+    <string name="data_food_seed_9266" formatted="false">"انناس کا گودا"</string>
+    <string name="data_food_seed_9279" formatted="false">"آلو بخارا، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9286" formatted="false">"انار کے دانے"</string>
+    <string name="data_food_seed_9295" formatted="false">"پومیلو کا گودا"</string>
+    <string name="data_food_seed_9302" formatted="false">"راسبیریز"</string>
+    <string name="data_food_seed_9316" formatted="false">"اسٹرابیریز"</string>
+    <string name="data_food_seed_9326" formatted="false">"تربوز کا گودا"</string>
+    <string name="data_food_seed_9191" formatted="false">"نیکٹرین، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9176" formatted="false">"آم کا گودا"</string>
+    <string name="data_food_seed_9107" formatted="false">"یورپی گوزبیریز"</string>
+    <string name="data_food_seed_9226" formatted="false">"پپیتے کا گودا"</string>
+    <string name="data_food_seed_9089" formatted="false">"تازہ انجیر"</string>
+    <string name="data_food_seed_9111" formatted="false">"گریپ فروٹ کا گودا"</string>
+    <string name="data_food_seed_9032" formatted="false">"خشک خوبانی، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9291" formatted="false">"خشک آلو بخارے، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9087" formatted="false">"کھجور، گٹھلی کے بغیر"</string>
+    <string name="data_food_seed_9298" formatted="false">"کالی کشمش، بیج کے بغیر"</string>
+    <string name="data_food_seed_11529" formatted="false">"تازہ ٹماٹر"</string>
+    <string name="data_food_seed_11205" formatted="false">"کھیرا، چھلکے سمیت"</string>
+    <string name="data_food_seed_11090" formatted="false">"کچی بروکلی"</string>
+    <string name="data_food_seed_11109" formatted="false">"کچی سفید بند گوبھی"</string>
+    <string name="data_food_seed_11124" formatted="false">"کچی گاجر"</string>
+    <string name="data_food_seed_11135" formatted="false">"کچی پھول گوبھی"</string>
+    <string name="data_food_seed_11143" formatted="false">"سیلری کے ڈنٹھل"</string>
+    <string name="data_food_seed_11282" formatted="false">"کچا پیاز"</string>
+    <string name="data_food_seed_11291" formatted="false">"ہرا پیاز"</string>
+    <string name="data_food_seed_11304" formatted="false">"کچے ہرے مٹر"</string>
+    <string name="data_food_seed_11333" formatted="false">"ہری شملہ مرچ"</string>
+    <string name="data_food_seed_11821" formatted="false">"سرخ شملہ مرچ"</string>
+    <string name="data_food_seed_11352" formatted="false">"کچا آلو، چھلکے سمیت"</string>
+    <string name="data_food_seed_11367" formatted="false">"ابلا آلو، چھلکا اترا ہوا"</string>
+    <string name="data_food_seed_11477" formatted="false">"کچی زوکینی"</string>
+    <string name="data_food_seed_11209" formatted="false">"کچا بینگن"</string>
+    <string name="data_food_seed_11422" formatted="false">"کچا کدو"</string>
+    <string name="data_food_seed_11429" formatted="false">"چھوٹی سرخ مولی"</string>
+    <string name="data_food_seed_11564" formatted="false">"کچا شلجم"</string>
+    <string name="data_food_seed_11080" formatted="false">"کچا چقندر"</string>
+    <string name="data_food_seed_11081" formatted="false">"ابلا چقندر"</string>
+    <string name="data_food_seed_11215" formatted="false">"لہسن"</string>
+    <string name="data_food_seed_11216" formatted="false">"ادرک"</string>
+    <string name="data_food_seed_11457" formatted="false">"کچی پالک"</string>
+    <string name="data_food_seed_11253" formatted="false">"پتوں والا سلاد"</string>
+    <string name="data_food_seed_11297" formatted="false">"تازہ پارسلے"</string>
+    <string name="data_food_seed_2045" formatted="false">"تازہ سویا ساگ"</string>
+    <string name="data_food_seed_11052" formatted="false">"کچی سبز پھلیاں"</string>
+    <string name="data_food_seed_11167" formatted="false">"میٹھی مکئی کے کچے دانے"</string>
+    <string name="data_food_seed_11260" formatted="false">"کچی بٹن کھمبیاں"</string>
+    <string name="data_food_seed_11261" formatted="false">"ابلی بٹن کھمبیاں، بغیر نمک"</string>
+    <string name="data_food_seed_11987" formatted="false">"کچی اویسٹر کھمبیاں"</string>
+    <string name="data_food_seed_20009" formatted="false">"کُٹّو کے خشک دانے"</string>
+    <string name="data_food_seed_20010" formatted="false">"پانی میں پکا کُٹّو"</string>
+    <string name="data_food_seed_20444" formatted="false">"سفید چاول، خشک"</string>
+    <string name="data_food_seed_20445" formatted="false">"ابلے سفید چاول، بغیر نمک"</string>
+    <string name="data_food_seed_20036" formatted="false">"بھورے چاول، خشک"</string>
+    <string name="data_food_seed_20037" formatted="false">"ابلے بھورے چاول"</string>
+    <string name="data_food_seed_8120" formatted="false">"چپٹے جئی کے دانے، خشک"</string>
+    <string name="data_food_seed_8121" formatted="false">"پانی میں پکی جئی، بغیر نمک"</string>
+    <string name="data_food_seed_20005" formatted="false">"چھلے ہوئے جو، خشک"</string>
+    <string name="data_food_seed_20006" formatted="false">"ابلے چھلے ہوئے جو"</string>
+    <string name="data_food_seed_20031" formatted="false">"ملٹ کے دانے، خشک"</string>
+    <string name="data_food_seed_20032" formatted="false">"ابلے ملٹ کے دانے"</string>
+    <string name="data_food_seed_20420" formatted="false">"پاستا، خشک"</string>
+    <string name="data_food_seed_20421" formatted="false">"ابلا پاستا، بغیر نمک"</string>
+    <string name="data_food_seed_16070" formatted="false">"ابلی مسور، بغیر نمک"</string>
+    <string name="data_food_seed_16057" formatted="false">"ابلے چنے، بغیر نمک"</string>
+    <string name="data_food_seed_16033" formatted="false">"ابلے سرخ راجما، بغیر نمک"</string>
+    <string name="data_food_seed_5062" formatted="false">"مرغی کا کچا سینہ، کھال کے بغیر"</string>
+    <string name="data_food_seed_5064" formatted="false">"مرغی کا بھنا سینہ، کھال کے بغیر"</string>
+    <string name="data_food_seed_5219" formatted="false">"ٹرکی کا کچا سینہ، کھال کے بغیر"</string>
+    <string name="data_food_seed_5220" formatted="false">"ٹرکی کا بھنا سینہ، کھال کے بغیر"</string>
+    <string name="data_food_seed_23562" formatted="false">"گائے کا قیمہ، 10% چکنائی، کچا"</string>
+    <string name="data_food_seed_23566" formatted="false">"گائے کا قیمہ، 10% چکنائی، بھنا ہوا"</string>
+    <string name="data_food_seed_10060" formatted="false">"سور کا کچا ٹینڈرلوئن، نظر آنے والی چربی ہٹائی ہوئی"</string>
+    <string name="data_food_seed_10061" formatted="false">"سور کا بھنا ٹینڈرلوئن"</string>
+    <string name="data_food_seed_15236" formatted="false">"اٹلانٹک سالمَن، کچی"</string>
+    <string name="data_food_seed_15237" formatted="false">"اٹلانٹک سالمَن، بھنی ہوئی"</string>
+    <string name="data_food_seed_15015" formatted="false">"اٹلانٹک کاڈ، کچی"</string>
+    <string name="data_food_seed_15266" formatted="false">"کچی الاسکا پولاک"</string>
+    <string name="data_food_seed_15121" formatted="false">"پانی میں ڈبہ بند ٹونا، پانی نتھرا ہوا"</string>
+    <string name="data_food_seed_15271" formatted="false">"پکے جھینگے، خول کے بغیر"</string>
+    <string name="data_food_seed_1211" formatted="false">"دودھ، 3.25% چکنائی"</string>
+    <string name="data_food_seed_1174" formatted="false">"دودھ، 2% چکنائی"</string>
+    <string name="data_food_seed_1082" formatted="false">"دودھ، 1% چکنائی"</string>
+    <string name="data_food_seed_1116" formatted="false">"پورے دودھ کا سادہ دہی"</string>
+    <string name="data_food_seed_1256" formatted="false">"بغیر چکنائی کا یونانی دہی"</string>
+    <string name="data_food_seed_1015" formatted="false">"کاٹیج چیز، 2% چکنائی"</string>
+    <string name="data_food_seed_1056" formatted="false">"کھٹی کریم، تقریباً 19% چکنائی"</string>
+    <string name="data_food_seed_1009" formatted="false">"چیڈر چیز"</string>
+    <string name="data_food_seed_1026" formatted="false">"پورے دودھ کی موزریلا"</string>
+    <string name="data_food_seed_1019" formatted="false">"فیٹا چیز"</string>
+    <string name="data_food_seed_1123" formatted="false">"مرغی کا کچا انڈا، چھلکے کے بغیر"</string>
+    <string name="data_food_seed_1129" formatted="false">"مرغی کا ابلا انڈا، چھلکے کے بغیر"</string>
+    <string name="data_food_seed_1124" formatted="false">"مرغی کے کچے انڈے کی سفیدی"</string>
+    <string name="data_food_seed_1001" formatted="false">"نمکین مکھن"</string>
+    <string name="data_food_seed_4053" formatted="false">"زیتون کا تیل"</string>
+    <string name="data_food_seed_4506" formatted="false">"سورج مکھی کا تیل"</string>
+    <string name="data_food_seed_12061" formatted="false">"بادام"</string>
+    <string name="data_food_seed_12155" formatted="false">"اخروٹ کی گری"</string>
+    <string name="data_food_seed_12120" formatted="false">"ہیزل نٹ کی گری"</string>
+    <string name="data_food_seed_12151" formatted="false">"کچے پستے کی گری"</string>
+    <string name="data_food_seed_12014" formatted="false">"کدو کے خشک بیج، چھلکے کے بغیر"</string>
+    <string name="data_food_seed_16087" formatted="false">"کچی مونگ پھلی، خول کے بغیر"</string>
+    <string name="data_food_seed_18069" formatted="false">"سفید گندم کی ڈبل روٹی"</string>
+    <string name="data_food_seed_18075" formatted="false">"ثابت گندم کی ڈبل روٹی"</string>
+    <string name="data_food_seed_18060" formatted="false">"رائی اناج کی ڈبل روٹی"</string>
+    <string name="data_food_seed_19296" formatted="false">"شہد"</string>
+    <string name="data_food_seed_19335" formatted="false">"چینی"</string>
+    <string name="data_food_seed_19165" formatted="false">"بغیر شکر کا کوکو پاؤڈر"</string>
+    <string name="data_food_seed_19904" formatted="false">"ڈارک چاکلیٹ، 70–85% کوکو"</string>
+    <string name="data_catalog_note_1">"قابلِ خوردنی حصے کے فی 100 گرام کے حوالہ جاتی اعداد۔ کچی غذا کے لیے۔ USDA کے کاربوہائیڈریٹ اعداد میں ریشہ شامل ہے۔ مصنوعات کے لیبل کے مطابق اعداد بدل سکتے ہیں۔ USDA SR Legacy، FDC %1$s۔"</string>
+    <string name="data_catalog_note_2">"قابلِ خوردنی حصے کے فی 100 گرام کے حوالہ جاتی اعداد۔ USDA کے کاربوہائیڈریٹ اعداد میں ریشہ شامل ہے۔ مصنوعات کے لیبل کے مطابق اعداد بدل سکتے ہیں۔ USDA SR Legacy، FDC %1$s۔"</string>
+    <string name="data_catalog_note_3">"قابلِ خوردنی حصے کے فی 100 گرام کے حوالہ جاتی اعداد۔ اضافی نمک کے بغیر۔ USDA کے کاربوہائیڈریٹ اعداد میں ریشہ شامل ہے۔ مصنوعات کے لیبل کے مطابق اعداد بدل سکتے ہیں۔ USDA SR Legacy، FDC %1$s۔"</string>
+    <string name="data_catalog_note_4">"قابلِ خوردنی حصے کے فی 100 گرام کے حوالہ جاتی اعداد۔ بھنے کُٹّو کے دانوں کے لیے۔ USDA کے کاربوہائیڈریٹ اعداد میں ریشہ شامل ہے۔ مصنوعات کے لیبل کے مطابق اعداد بدل سکتے ہیں۔ USDA SR Legacy، FDC %1$s۔"</string>
+    <string name="data_catalog_note_5">"قابلِ خوردنی حصے کے فی 100 گرام کے حوالہ جاتی اعداد۔ فارم پر پالی گئی کچی غذا کے لیے۔ USDA کے کاربوہائیڈریٹ اعداد میں ریشہ شامل ہے۔ مصنوعات کے لیبل کے مطابق اعداد بدل سکتے ہیں۔ USDA SR Legacy، FDC %1$s۔"</string>
+    <string name="data_catalog_note_6">"قابلِ خوردنی حصے کے فی 100 گرام کے حوالہ جاتی اعداد۔ فارم پر پالی گئی غذا کے لیے۔ USDA کے کاربوہائیڈریٹ اعداد میں ریشہ شامل ہے۔ مصنوعات کے لیبل کے مطابق اعداد بدل سکتے ہیں۔ USDA SR Legacy، FDC %1$s۔"</string>
+    <string name="data_catalog_note_7">"قابلِ خوردنی حصے کے فی 100 گرام کے حوالہ جاتی اعداد۔ کاٹیج چیز کے لیے؛ دوسرے تازہ پنیر کے اعداد مختلف ہوتے ہیں۔ USDA کے کاربوہائیڈریٹ اعداد میں ریشہ شامل ہے۔ مصنوعات کے لیبل کے مطابق اعداد بدل سکتے ہیں۔ USDA SR Legacy، FDC %1$s۔"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary کی رازداری کی پالیسی\nنظرثانی: 9 اکتوبر 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"ایپ: Diet Diary؛ Google Play میں روسی فہرست کا عنوان: «Дневник диеты: подсчёт калорий»؛ پیکیج: ru.dietdiary.offline۔\nمنصوبے کا ڈویلپر: Efreitor2001۔ ایپ اور ڈیٹا پراسیسنگ کے سوالات کے لیے https://github.com/Efreitor2001/kkalcal/issues پر رابطہ کریں۔ GitHub کے مسائل عوامی ہوتے ہیں: وہاں صحت کے ریکارڈ، بیک اپ، پاس ورڈ یا ٹوکن پوسٹ نہ کریں۔"</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. آپ کے آلے پر ڈائری\nڈائری رکھنے کے لیے رجسٹریشن ضروری نہیں۔ ایپ غذائی اشیا اور ان کی غذائیت، مقداریں اور کھانے کی تاریخیں، وزن، کمر کی پیمائش، جسمانی چربی کا فیصد، قدم، نیند، ورزش کی تفصیل، نوٹ، اہداف، کامیابیاں اور ترتیبات آپ کے آلے کے اپنے نجی ذخیرے میں رکھتی ہے۔ اختیاری خانے خالی چھوڑ سکتے ہیں۔ قدم، نیند اور پیمائشیں خود درج کی جاتی ہیں؛ ایپ Health Connect، جسمانی سرگرمی کے سینسر یا طبی آلات کا ڈیٹا نہیں پڑھتی۔"</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"یہ معلومات کیلوریز اور بنیادی غذائی اجزا کا حساب لگانے اور سابقہ ریکارڈ، گراف اور کامیابیاں فراہم کرنے کے لیے استعمال ہوتی ہیں۔ ڈویلپر ایسا سرور نہیں چلاتا جو ڈائری کا مواد وصول کرے۔ اگر آپ Google Drive منسلک نہ کریں اور خود بیک اپ شیئر نہ کریں تو ریکارڈ آلے پر ہی رہتے ہیں۔"</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. اختیاری Google Drive رابطہ\nآپ کی درخواست پر ایپ ڈیفالٹ براؤزر میں Google سائن ان کھولتی ہے اور آپ کے Google Drive میں اس ایپ کے پوشیدہ ڈیٹا ذخیرے تک رسائی مانگتی ہے۔ یہ اجازت آپ کے عام Drive دستاویزات یا تصاویر تک رسائی نہیں دیتی۔"</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"منسلک ہونے کے بعد غذائی اشیا، کھانے، ڈائری کی پیمائشیں، نوٹ، اہداف، کامیابیاں، منتقل ہونے والی ترتیبات اور تبدیلی کا میٹاڈیٹا Google کو بھیجا جاتا ہے۔ اس میٹاڈیٹا میں بے ترتیب انسٹالیشن شناختیں اور وقت کے نشانات بھی شامل ہوتے ہیں۔ اس سے بیک اپ اسنیپ شاٹس اور مختلف آلات کے ریکارڈ یکجا کرنا ممکن ہوتا ہے۔ خودکار ہم وقت سازی فعال ہو تو نیٹ ورک دستیاب ہونے پر پس منظر میں بھی تبدیلیاں بھیجی جاتی ہیں۔ آپ خودکار ہم وقت سازی الگ سے بند کر سکتے ہیں۔"</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"ایپ رابطہ دکھانے اور درست ذخیرے سے جوڑنے کے لیے منتخب Google اکاؤنٹ کا ای میل پتہ اور شناخت وصول کرتی ہے۔ آپ کا Google پاس ورڈ ایپ کو نہیں دیا جاتا۔ اجازت کا سیشن Android Keystore کی کلید سے خفیہ کر کے آلے پر محفوظ ہوتا ہے۔ ٹوکن، ای میل پتے اور Google شناختیں ڈائری کی برآمدات اور ہم وقت کیے گئے JSON اسنیپ شاٹس میں شامل نہیں ہوتیں۔"</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google کا ڈیٹا صرف اجازت اور ہم وقت سازی کے لیے استعمال ہوتا ہے، کبھی اشتہارات کے لیے نہیں۔ Google کی رازداری کی پالیسی لاگو ہوتی ہے: https://policies.google.com/privacy ۔"</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. بیک اپ فائلیں\n’فائل میں محفوظ کریں‘ آپ کی منتخب جگہ پر JSON فائل بناتا ہے۔ بحالی میں صرف آپ کی منتخب فائل پڑھی جاتی ہے۔ کلاؤڈ فائل فراہم کنندہ منتخب کرنے یا کسی دوسرے شخص کو نقل بھیجنے کی صورت میں وصول کنندہ آپ منتخب کرتے ہیں۔ ایپ برآمد شدہ JSON فائلوں کو خفیہ نہیں کرتی: ان فائلوں میں ذاتی ریکارڈ اور تبدیلی کا میٹاڈیٹا ہوتا ہے۔"</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. اشتہارات\nایپ Yandex Mobile Ads SDK استعمال کرتی ہے۔ اشتہارات لوڈ کرنے اور دکھانے کے لیے آلہ اشتہاری خدمات سے منسلک ہوتا ہے۔ Yandex آپ کا IP پتہ، نیٹ ورک درخواست، آلے اور سافٹ ویئر کی دیگر تکنیکی معلومات، دستیاب اشتہاری یا تکنیکی شناختیں، اور اشتہار دکھائے جانے اور اس کے ساتھ تعامل کی معلومات پراسیس کر سکتا ہے۔"</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"ایپ SDK کو بتاتی ہے کہ رضامندی نہیں دی گئی، مقام جمع کرنا بند کرتی ہے اور App Ad Analytics کی رپورٹنگ غیر فعال کرتی ہے۔ یہ درست یا تخمینی مقام کی اجازت نہیں مانگتی۔ ان ترتیبات کا مطلب یہ نہیں کہ اشتہاری خدمت کوئی نیٹ ورک رابطہ یا تکنیکی ڈیٹا پراسیسنگ نہیں کرتی۔"</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"ایپ کھانے کے ریکارڈ، وزن، پیمائشیں، نوٹ، اہداف، ای میل پتے یا Google شناختیں اشتہار کی ہدف بندی میں استعمال نہیں کرتی اور انہیں اشتہاری درخواست کے پیرامیٹرز میں شامل نہیں کرتی۔ ریکارڈ محفوظ کرنے کے لیے اشتہار دیکھنا ضروری نہیں۔"</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"ڈیٹا پراسیسنگ، برقرار رکھنے اور حذف کرنے کے لیے Yandex کے قواعد: https://yandex.ru/legal/confidential/ ۔ اگر نظام کا ورژن معاون ہو تو Android ترتیبات میں اپنا اشتہاری شناخت کنندہ سنبھال سکتے ہیں۔ اشتہاری خدمت کی تکنیکی معلومات کی مدتِ ذخیرہ اسی کی پالیسی مقرر کرتی ہے؛ ڈائری کا ڈویلپر اس ڈیٹا کے لیے الگ مدت مقرر نہیں کرتا۔"</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. ڈیٹا کی حفاظت\nGoogle سے رابطہ HTTPS استعمال کرتا ہے؛ Yandex کے مطابق SDK کا ڈیٹا HTTPS/TLS سے منتقل ہوتا ہے۔ مقامی ڈائری Android کی ایپ علیحدگی سے محفوظ ہے۔ ایپ ڈائری کے مواد یا JSON اسنیپ شاٹس کو الگ سے خفیہ نہیں کرتی؛ آلات کے درمیان سرتاسر خفیہ کاری فراہم نہیں کرتی۔"</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"ایپ ڈیٹا کا نظامی بیک اپ بند ہے۔ ایپ کے اپنے کوڈ کے تشخیصی لاگ میں نتائج کے کوڈ ہوتے ہیں، ڈائری کا مواد، ای میل پتے، ٹوکن یا نیٹ ورک جوابوں کا متن نہیں۔ ایپ یہ لاگ الگ سے ڈویلپر کو نہیں بھیجتی۔"</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. برقرار رکھنا اور حذف کرنا\nمقامی ریکارڈ اس وقت تک رہتے ہیں جب تک آپ انہیں بدلیں، حذف کریں یا ایپ کا ڈیٹا صاف کریں۔ ریکارڈ حذف کرنے پر وہ اسکرین سے ہٹ جاتا ہے اور ہم وقت سازی کے دوران حذف کرنے کا نشان بھیجا جاتا ہے۔ پرانا ڈیٹا دوبارہ آنے سے روکنے کے لیے یکجائی کا میٹاڈیٹا برقرار رہتا ہے؛ اس میں حذف شدہ ڈائری ریکارڈ کی سابقہ قدریں ہو سکتی ہیں۔ سابقہ قدریں پرانے کلاؤڈ اسنیپ شاٹس اور پہلے بنائی فائلوں میں بھی رہ سکتی ہیں۔ اس لیے ایک ریکارڈ حذف کرنے سے اس کی ہر نقل مکمل طور پر نہیں مٹتی۔"</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"’اکاؤنٹ کا رابطہ منقطع کریں‘ اس آلے پر ہم وقت سازی روکتا ہے اور مقامی Google سیشن حذف کرتا ہے۔ ڈائری اور Google Drive کے اسنیپ شاٹس برقرار رہتے ہیں۔ ایپ کا رابطہ ختم کرنے سے Google اکاؤنٹ حذف نہیں ہوتا۔"</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"اس ایپ کا ڈیٹا مکمل حذف کرنے کے لیے:\n• اپنے تمام آلات پر ہم وقت سازی بند کریں تاکہ باقی نقول دوبارہ اپ لوڈ نہ ہوں۔\n• پہلے منسلک Google اکاؤنٹ سے براؤزر میں https://drive.google.com/drive/settings کھولیں۔ ’ایپس کا نظم کریں‘ منتخب کریں، ’Diet Diary‘ (یا «Дневник диеты») تلاش کریں، پھر ’اختیارات‘ → ’پوشیدہ ایپ ڈیٹا حذف کریں‘ منتخب کریں۔ اگر موبائل صفحہ یہ حصہ نہ دکھائے تو ڈیسک ٹاپ ویب سائٹ یا کمپیوٹر استعمال کریں۔\n• https://myaccount.google.com/connections پر ایپ کی رسائی واپس لیں۔ صرف رسائی ختم کرنے سے محفوظ نقول نہیں مٹتیں۔\n• ہر آلے کی Android ترتیبات میں ایپ کی اسٹوریج صاف کریں یا ایپ اَن انسٹال کریں۔\n• الگ محفوظ کیے گئے JSON بیک اپ اپنے منتخب فولڈروں اور کلاؤڈ ذخیرے سے حذف کریں۔"</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"آپ کی لاگ ان معلومات کے بغیر ڈویلپر دور سے آپ کی مقامی ڈائری یا ذاتی Google Drive کی فائلیں نہیں مٹا سکتا۔ ڈویلپر کو اپنا پاس ورڈ یا ٹوکن نہ دیں۔ حذف کرنے میں مدد کے لیے اس پالیسی کے آغاز کے ربط سے منصوبے سے رابطہ کریں۔ ڈائری ڈیٹا حذف کرنے کے لیے Google اکاؤنٹ حذف کرنا ضروری نہیں۔"</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. تبدیلیاں اور رابطہ\nایپ کی خصوصیات یا ڈیٹا پراسیسنگ بدلنے پر یہ پالیسی نظرثانی کی تاریخ کے ساتھ تازہ کی جاتی ہے۔ ڈیٹا تک رسائی، درستگی، حذف کرنے یا ایپ کے کام سے متعلق سوالات کے لیے منصوبے کا رابطہ ذریعہ استعمال کریں۔ آپ کی درخواستیں جواب دینے کے لیے پراسیس ہوتی ہیں اور GitHub پر محفوظ رہتی ہیں؛ GitHub کی پالیسی یہاں ہے: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ۔"</string>
+</resources>

@@ -106,21 +106,21 @@ fun StatsScreen(store: AppStore) {
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             item {
-                Text("Динамика", style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Bold)
+                Text(tr(R.string.secondary_stats_title), style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Bold)
                 Spacer(Modifier.height(6.dp))
-                Text("Ваши записи в понятных графиках", style = MaterialTheme.typography.bodyMedium,
+                Text(tr(R.string.secondary_stats_subtitle), style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             item {
                 Column {
-                    Text("Показатель", style = MaterialTheme.typography.labelLarge,
+                    Text(tr(R.string.secondary_metric), style = MaterialTheme.typography.labelLarge,
                         color = MaterialTheme.colorScheme.onSurfaceVariant)
                     OutlinedButton(onClick = { showMetrics = true }, modifier = Modifier.fillMaxWidth()) {
-                        Text("${metric.title} · ${metric.unit}  ▾", style = MaterialTheme.typography.titleMedium)
+                        Text(tr(R.string.secondary_metric_picker, metric.title, metric.unit), style = MaterialTheme.typography.titleMedium)
                     }
                     DropdownMenu(expanded = showMetrics, onDismissRequest = { showMetrics = false }) {
                         StatsMetric.entries.forEach { candidate ->
-                            DropdownMenuItem(text = { Text("${candidate.title} · ${candidate.unit}") }, onClick = {
+                            DropdownMenuItem(text = { Text(tr(R.string.secondary_metric_unit, candidate.title, candidate.unit)) }, onClick = {
                                 metricName = candidate.name
                                 showMetrics = false
                             })
@@ -130,7 +130,7 @@ fun StatsScreen(store: AppStore) {
             }
             item {
                 Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    listOf("week" to "Неделя", "month" to "Месяц", "year" to "Год", "custom" to "Свой период").forEach { (key, title) ->
+                    listOf("week" to tr(R.string.secondary_week), "month" to tr(R.string.secondary_month), "year" to tr(R.string.secondary_year), "custom" to tr(R.string.secondary_custom_period)).forEach { (key, title) ->
                         FilterChip(selected = period == key, onClick = { period = key }, label = { Text(title) })
                     }
                 }
@@ -138,13 +138,13 @@ fun StatsScreen(store: AppStore) {
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         OutlinedButton(modifier = Modifier.weight(1f), onClick = {
                             pickDate(LocalDate.parse(customStart)) { customStart = it.toString() }
-                        }) { Text("С ${statsShortDate(start)}") }
+                        }) { Text(tr(R.string.secondary_date_from, statsShortDate(start))) }
                         OutlinedButton(modifier = Modifier.weight(1f), onClick = {
                             pickDate(LocalDate.parse(customEnd)) { customEnd = it.toString() }
-                        }) { Text("По ${statsShortDate(end)}") }
+                        }) { Text(tr(R.string.secondary_date_until, statsShortDate(end))) }
                     }
                 }
-                Text(if (rangeValid) "${statsFullDate(start)} — ${statsFullDate(end)}" else "Начало периода должно быть не позже конца",
+                Text(if (rangeValid) tr(R.string.secondary_date_range, statsFullDate(start), statsFullDate(end)) else tr(R.string.secondary_invalid_period_order),
                     style = MaterialTheme.typography.bodySmall,
                     color = if (rangeValid) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.error)
             }
@@ -153,47 +153,47 @@ fun StatsScreen(store: AppStore) {
                     Card(shape = RoundedCornerShape(24.dp), colors = CardDefaults.cardColors(
                         containerColor = MaterialTheme.colorScheme.surface)) {
                         Column(Modifier.fillMaxWidth().padding(18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Text("${metric.title} за период", style = MaterialTheme.typography.titleMedium,
+                            Text(tr(R.string.secondary_metric_in_period, metric.title), style = MaterialTheme.typography.titleMedium,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant)
                             if (metric == StatsMetric.WEIGHT && appData.goals.weight != null) {
-                                Text("Цель ${statsValue(appData.goals.weight, StatsMetric.WEIGHT)} кг",
+                                Text(tr(R.string.secondary_weight_goal, statsValue(appData.goals.weight, StatsMetric.WEIGHT)),
                                     style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
                             }
                             if (latest == null) {
-                                Text("Пока нет записей", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.SemiBold)
-                                Text(if (metric.food) "Добавьте еду в дневник или выберите другой период."
-                                else "Добавьте ${metric.title.lowercase(Locale.ROOT)} в дневник или выберите другой период.",
+                                Text(tr(R.string.secondary_no_records), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.SemiBold)
+                                Text(if (metric.food) tr(R.string.secondary_empty_food_period)
+                                else tr(R.string.secondary_empty_metric_period),
                                     style = MaterialTheme.typography.bodyMedium)
                             } else {
-                                Text("${statsValue(latest.value, metric)} ${metric.unit}",
+                                Text(tr(R.string.secondary_value_unit, statsValue(latest.value, metric), metric.unit),
                                     style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Bold,
                                     color = MaterialTheme.colorScheme.primary)
-                                Text("Последняя запись · ${statsFullDate(latest.date)}", style = MaterialTheme.typography.bodySmall,
+                                Text(tr(R.string.secondary_latest_record, statsFullDate(latest.date)), style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant)
                                 StatsChart(points, start, end, metric, selectedDate) { selectedDate = it.date.toString() }
                                 if (selected != null) {
-                                    Text("${statsFullDate(selected.date)}: ${statsValue(selected.value, metric)} ${metric.unit}",
+                                    Text(tr(R.string.secondary_selected_record, statsFullDate(selected.date), statsValue(selected.value, metric), metric.unit),
                                         style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
                                 } else {
-                                    Text("Нажмите на график, чтобы выбрать запись", style = MaterialTheme.typography.bodySmall,
+                                    Text(tr(R.string.secondary_chart_tap), style = MaterialTheme.typography.bodySmall,
                                         color = MaterialTheme.colorScheme.onSurfaceVariant)
                                 }
                                 if (!metric.bars && points.size > 1) {
-                                    Text("Линия соединяет записи. Между ними измерений нет.",
+                                    Text(tr(R.string.secondary_chart_connected),
                                         style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                                 }
                             }
                             if (metric == StatsMetric.BODY_FAT) {
-                                Text("Показания весов: ориентир для тренда.",
+                                Text(tr(R.string.secondary_body_fat_hint),
                                     style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                             }
                             if (metric.food) {
                                 Text(if (metric == StatsMetric.KCAL || metric == StatsMetric.PROTEIN)
-                                    "Ручной итог дня заменяет сумму еды. Без ручного итога учитываются продукты; без записей день пропущен."
-                                else "Показаны суммы по внесённой еде. День без записей не считается нулём.",
+                                    tr(R.string.secondary_food_override_hint)
+                                else tr(R.string.secondary_food_total_hint),
                                     style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                             } else {
-                                Text("Дни без записи пропущены и не участвуют в среднем.",
+                                Text(tr(R.string.secondary_missing_days_hint),
                                     style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                             }
                         }
@@ -203,19 +203,19 @@ fun StatsScreen(store: AppStore) {
                     Card(shape = RoundedCornerShape(22.dp), colors = CardDefaults.cardColors(
                         containerColor = MaterialTheme.colorScheme.primaryContainer)) {
                         Column(Modifier.fillMaxWidth().padding(18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Text("Сегодня и вчера", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-                            Text("${statsFullDate(today)} / ${statsFullDate(today.minusDays(1))}",
+                            Text(tr(R.string.secondary_today_yesterday), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                            Text(tr(R.string.secondary_comparison_dates, statsFullDate(today), statsFullDate(today.minusDays(1))),
                                 style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                            Text(if (current != null) "Сегодня: ${statsValue(current.value, metric)} ${metric.unit}"
-                            else "Нет записи за сегодня", style = MaterialTheme.typography.bodyLarge)
-                            Text(if (previous != null) "Вчера: ${statsValue(previous.value, metric)} ${metric.unit}"
-                            else "Нет записи за вчера", style = MaterialTheme.typography.bodyLarge)
+                            Text(if (current != null) tr(R.string.secondary_today_value, statsValue(current.value, metric), metric.unit)
+                            else tr(R.string.secondary_no_today), style = MaterialTheme.typography.bodyLarge)
+                            Text(if (previous != null) tr(R.string.secondary_yesterday_value, statsValue(previous.value, metric), metric.unit)
+                            else tr(R.string.secondary_no_yesterday), style = MaterialTheme.typography.bodyLarge)
                             if (current != null && previous != null) {
                                 HorizontalDivider()
-                                Text("Изменение: ${statsSigned(current.value - previous.value, metric)} ${metric.unit}",
+                                Text(tr(R.string.secondary_change_value, statsSigned(current.value - previous.value, metric), metric.unit),
                                     style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                                 if (metric.food || metric == StatsMetric.STEPS || metric == StatsMetric.SLEEP) {
-                                    Text("Сравнение по текущим записям: сегодня данные могут быть ещё неполными.",
+                                    Text(tr(R.string.secondary_partial_today),
                                         style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                                 }
                             }
@@ -227,33 +227,33 @@ fun StatsScreen(store: AppStore) {
                         Card(shape = RoundedCornerShape(22.dp), colors = CardDefaults.cardColors(
                             containerColor = MaterialTheme.colorScheme.surface)) {
                             Column(Modifier.fillMaxWidth().padding(18.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-                                Text("Итоги периода", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-                                StatsSummaryRow("Среднее по дням с данными", "${statsValue(average!!, metric)} ${metric.unit}")
-                                StatsSummaryRow("Дней с данными", "${points.size} из ${end.toEpochDay() - start.toEpochDay() + 1}")
-                                StatsSummaryRow("Минимум", "${statsValue(points.minOf { it.value }, metric)} ${metric.unit}")
-                                StatsSummaryRow("Максимум", "${statsValue(points.maxOf { it.value }, metric)} ${metric.unit}")
+                                Text(tr(R.string.secondary_period_summary), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                                StatsSummaryRow(tr(R.string.secondary_recorded_average), tr(R.string.secondary_value_unit, statsValue(average!!, metric), metric.unit))
+                                StatsSummaryRow(tr(R.string.secondary_recorded_days), tr(R.string.secondary_count_of, points.size, end.toEpochDay() - start.toEpochDay() + 1))
+                                StatsSummaryRow(tr(R.string.secondary_minimum), tr(R.string.secondary_value_unit, statsValue(points.minOf { it.value }, metric), metric.unit))
+                                StatsSummaryRow(tr(R.string.secondary_maximum), tr(R.string.secondary_value_unit, statsValue(points.maxOf { it.value }, metric), metric.unit))
                                 HorizontalDivider()
                                 if (points.size >= 2) {
-                                    StatsSummaryRow("От первой до последней записи",
-                                        "${statsSigned(points.last().value - points.first().value, metric)} ${metric.unit}")
-                                    Text("${statsFullDate(points.first().date)} → ${statsFullDate(points.last().date)}",
+                                    StatsSummaryRow(tr(R.string.secondary_first_to_last),
+                                        tr(R.string.secondary_value_unit, statsSigned(points.last().value - points.first().value, metric), metric.unit))
+                                    Text(tr(R.string.secondary_first_last_dates, statsFullDate(points.first().date), statsFullDate(points.last().date)),
                                         style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                                 } else {
-                                    Text("Для изменения за период нужны записи хотя бы за два дня.",
+                                    Text(tr(R.string.secondary_two_days_needed),
                                         style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                                 }
                             }
                         }
                     }
                     item {
-                        Text("История", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-                        Text(if (points.size > 14) "Последние 14 дней с данными. Для ранних записей выберите свой период."
-                        else "Все дни с данными за выбранный период", style = MaterialTheme.typography.bodySmall,
+                        Text(tr(R.string.secondary_history), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                        Text(if (points.size > 14) tr(R.string.secondary_history_recent)
+                        else tr(R.string.secondary_history_all), style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                     items(points.takeLast(14).asReversed(), key = { it.date.toString() }) { point ->
                         Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                            StatsSummaryRow(statsFullDate(point.date), "${statsValue(point.value, metric)} ${metric.unit}")
+                            StatsSummaryRow(statsFullDate(point.date), tr(R.string.secondary_value_unit, statsValue(point.value, metric), metric.unit))
                             HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
                         }
                     }
@@ -302,9 +302,8 @@ private fun StatsChart(
     val tickCount = ((axis.high - axis.low) / axis.step).roundToInt().coerceIn(1, 8)
     val widestLabel = (0..tickCount).maxOf { paint.measureText(statsAxisLabel(axis.low + it * axis.step)) }
     val left = max(with(density) { 44.dp.toPx() }, widestLabel + with(density) { 12.dp.toPx() })
-    val description = "${metric.title}: ${points.size} дней с данными, " +
-        "от ${statsFullDate(start)} до ${statsFullDate(end)}. " +
-        "Минимум ${statsValue(points.minOf { it.value }, metric)}, максимум ${statsValue(points.maxOf { it.value }, metric)} ${metric.unit}. Значения перечислены в истории."
+    val description = tr(R.string.secondary_chart_description, metric.title, points.size, statsFullDate(start), statsFullDate(end),
+        statsValue(points.minOf { it.value }, metric), statsValue(points.maxOf { it.value }, metric), metric.unit)
     Canvas(Modifier.fillMaxWidth().height(chartHeight).semantics { contentDescription = description }
         .pointerInput(points, start, end, metric, left, right) {
             detectTapGestures { location ->
@@ -374,7 +373,7 @@ private fun StatsChart(
     }
 }
 
-private val statsLocale = Locale.forLanguageTag("ru-RU")
+private val statsLocale: Locale get() = appLocale()
 private fun statsValue(value: Double, metric: StatsMetric): String =
     String.format(statsLocale, if (metric == StatsMetric.STEPS || metric == StatsMetric.KCAL) "%,.0f" else "%,.1f", value)
 
@@ -383,11 +382,12 @@ private fun statsSigned(value: Double, metric: StatsMetric): String {
     return if (abs(value) < threshold) statsValue(0.0, metric) else (if (value > 0) "+" else "−") + statsValue(abs(value), metric)
 }
 
-private fun statsAxisLabel(value: Double): String = when {
-    abs(value) >= 1_000_000 -> String.format(statsLocale, "%.1f млн", value / 1_000_000).replace(",0 ", " ")
-    abs(value) >= 10_000 -> String.format(statsLocale, "%.0f тыс", value / 1000)
-    else -> String.format(statsLocale, "%.1f", value).removeSuffix(",0")
-}
+private fun statsAxisLabel(value: Double): String = java.text.NumberFormat.getNumberInstance(statsLocale).apply {
+    maximumFractionDigits = 1
+    minimumFractionDigits = 0
+}.format(value)
 
-private fun statsShortDate(date: LocalDate): String = date.format(DateTimeFormatter.ofPattern("dd.MM", statsLocale))
-private fun statsFullDate(date: LocalDate): String = date.format(DateTimeFormatter.ofPattern("d MMM yyyy", statsLocale))
+private fun statsShortDate(date: LocalDate): String = date.format(DateTimeFormatter.ofLocalizedDate(java.time.format.FormatStyle.SHORT)
+    .withLocale(statsLocale).withDecimalStyle(java.time.format.DecimalStyle.of(statsLocale)))
+private fun statsFullDate(date: LocalDate): String = date.format(DateTimeFormatter.ofLocalizedDate(java.time.format.FormatStyle.MEDIUM)
+    .withLocale(statsLocale).withDecimalStyle(java.time.format.DecimalStyle.of(statsLocale)))

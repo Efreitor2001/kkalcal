@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Diari de dieta"</string>
+    <string name="core_app_name" formatted="false">"Diari de dieta"</string>
+    <string name="core_tagline" formatted="false">"Calories, pes i progrés"</string>
+    <string name="core_open_diary" formatted="false">"Agenda oberta"</string>
+    <string name="core_save_failed" formatted="false">"No s\'han pogut desar les vostres dades"</string>
+    <string name="core_day" formatted="false">"Avui"</string>
+    <string name="core_products" formatted="false">"Aliments"</string>
+    <string name="core_diary" formatted="false">"Diari"</string>
+    <string name="core_charts" formatted="false">"Gràfiques"</string>
+    <string name="core_more" formatted="false">"Més"</string>
+    <string name="core_recipe_saved" formatted="false">"Plat guardat als vostres aliments"</string>
+    <string name="core_back_to_day" formatted="false">"Torna al teu dia"</string>
+    <string name="core_action_failed" formatted="false">"No s\'ha pogut completar aquesta acció"</string>
+    <string name="core_understood" formatted="false">"D\'acord"</string>
+    <string name="core_restore_available" formatted="false">"Podeu restaurar una còpia de seguretat a Més."</string>
+    <string name="core_eaten_today" formatted="false">"MENJAT AVUI"</string>
+    <string name="core_set_goal_hint" formatted="false">"Podeu establir un objectiu a Més"</string>
+    <string name="core_add_food" formatted="false">"+ Afegeix menjar"</string>
+    <string name="core_first_meal" formatted="false">"Comença amb el teu primer àpat"</string>
+    <string name="core_first_meal_help" formatted="false">"Trieu un aliment i introduïu-ne el pes en grams per calcular calories i macros."</string>
+    <string name="core_my_day" formatted="false">"El meu dia"</string>
+    <string name="core_my_day_help" formatted="false">"Pes, cintura, passos, son: registreu el que sabeu."</string>
+    <string name="core_record_metrics" formatted="false">"Registrar les mesures"</string>
+    <string name="core_edit_metrics" formatted="false">"Edita les mesures"</string>
+    <string name="core_food_state_hint" formatted="false">"El pes dels aliments i els valors nutricionals han de referir-se al mateix estat: cru, sec o cuit."</string>
+    <string name="core_weight" formatted="false">"Pes"</string>
+    <string name="core_waist" formatted="false">"Cintura"</string>
+    <string name="core_my_diary" formatted="false">"El meu diari"</string>
+    <string name="core_diary_tagline" formatted="false">"Cada dia al teu ritme"</string>
+    <string name="core_record_day" formatted="false">"+ Grava un dia"</string>
+    <string name="core_optional_diary_help" formatted="false">"Totes les mesures són opcionals. Podeu registrar només el vostre pes, el son o una nota. Toqueu una entrada per editar-la."</string>
+    <string name="core_history_starts" formatted="false">"La teva història comença aquí"</string>
+    <string name="core_history_help" formatted="false">"Enregistreu les mesures i seguiu els canvis als gràfics."</string>
+    <string name="core_file_unavailable" formatted="false">"Fitxer no disponible"</string>
+    <string name="core_backup_saved" formatted="false">"Còpia de seguretat desada"</string>
+    <string name="core_export_error" formatted="false">"No s\'ha pogut exportar la còpia de seguretat"</string>
+    <string name="core_read_error" formatted="false">"No s\'ha pogut llegir el fitxer"</string>
+    <string name="core_settings_tagline" formatted="false">"Configuració i còpia de seguretat de dades"</string>
+    <string name="core_your_progress" formatted="false">"El teu progrés"</string>
+    <string name="core_achievements_help" formatted="false">"Petits assoliments per construir un hàbit diari."</string>
+    <string name="core_achievements" formatted="false">"Assoliments"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Una connexió opcional per sincronitzar el vostre diari entre els vostres dispositius."</string>
+    <string name="core_cloud_sync" formatted="false">"Sincronització al núvol"</string>
+    <string name="core_personal_goals" formatted="false">"Objectius personals"</string>
+    <string name="core_personal_goals_help" formatted="false">"Estableix manualment els teus objectius de calories, macro i pes objectiu. Qualsevol objectiu es pot deixar en blanc."</string>
+    <string name="core_configure_goals" formatted="false">"Establir objectius"</string>
+    <string name="core_backup" formatted="false">"Còpia de seguretat"</string>
+    <string name="core_backup_help" formatted="false">"Aliments, àpats, diari, objectius i assoliments en un sol fitxer. Deseu una còpia de seguretat abans de tornar a instal·lar l\'aplicació."</string>
+    <string name="core_save_file" formatted="false">"Desa en un fitxer"</string>
+    <string name="core_restore_file" formatted="false">"Restaurar des d\'un fitxer"</string>
+    <string name="core_write_locked" formatted="false">"L\'emmagatzematge està desactivat per protegir el fitxer original. Restaura una còpia de seguretat vàlida."</string>
+    <string name="core_about_data" formatted="false">"Sobre l\'aplicació i les vostres dades"</string>
+    <string name="core_about_data_help" formatted="false">"Com s\'emmagatzemen els registres, funciona la sincronització i s\'eliminen les dades."</string>
+    <string name="core_privacy" formatted="false">"Privadesa i supressió de dades"</string>
+    <string name="core_offline" formatted="false">"Funciona fora de línia"</string>
+    <string name="core_offline_help" formatted="false">"L\'inici de sessió a Google és opcional. Els passos i el son s\'introdueixen manualment. Es necessita una connexió a Internet per activar la sincronització i la càrrega d\'anuncis. Les entrades de l\'agenda no s\'envien a la xarxa de publicitat."</string>
+    <string name="core_about_foods" formatted="false">"Sobre els aliments"</string>
+    <string name="core_foods_reference" formatted="false">"Els valors incorporats són estimacions per 100 g de porció comestible. Comproveu els valors exactes de l\'embalatge. L\'edició d\'un aliment no recalcula les entrades de menjar anteriors."</string>
+    <string name="core_foods_source" formatted="false">"Font de la base de dades: USDA FoodData Central, SR Legacy. Els aliments individuals inclouen els detalls del seu estat i font."</string>
+    <string name="core_restore_title" formatted="false">"Voleu restaurar aquesta còpia de seguretat?"</string>
+    <string name="core_restore_warning" formatted="false">"Els vostres aliments, diari, objectius i assoliments actuals seran substituïts pel contingut d\'aquest fitxer. Deseu una còpia de seguretat primer. Si la sincronització està connectada, els canvis restaurats també s\'enviaran a Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"S\'ha restaurat la còpia de seguretat"</string>
+    <string name="core_invalid_file" formatted="false">"Fitxer no vàlid"</string>
+    <string name="core_replace_data" formatted="false">"Substitueix les dades"</string>
+    <string name="core_cancel" formatted="false">"Cancel·la"</string>
+    <string name="core_save" formatted="false">"Desa"</string>
+    <string name="core_calculate_portion" formatted="false">"Calcular una porció"</string>
+    <string name="core_edit_portion" formatted="false">"Edita la part"</string>
+    <string name="core_portion_weight" formatted="false">"Pes de la porció, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Introduïu un pes superior a 0 i no superior a 100.000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Afegir al diari"</string>
+    <string name="core_delete_entry" formatted="false">"Suprimeix l\'entrada"</string>
+    <string name="core_delete_portion_question" formatted="false">"Vols suprimir aquesta part del teu diari?"</string>
+    <string name="core_new_food" formatted="false">"Menjar o plat nou"</string>
+    <string name="core_edit_nutrition" formatted="false">"Editeu els valors nutricionals"</string>
+    <string name="core_name" formatted="false">"Nom"</string>
+    <string name="core_food" formatted="false">"Aliments"</string>
+    <string name="core_dish" formatted="false">"Plat preparat"</string>
+    <string name="core_category" formatted="false">"Categoria"</string>
+    <string name="core_per100_hint" formatted="false">"Valors per 100 g, de l\'envàs o d\'una recepta. Introduïu 0 si no hi ha un nutrient."</string>
+    <string name="core_kcal" formatted="false">"Calories"</string>
+    <string name="core_protein_grams" formatted="false">"Proteïna, g"</string>
+    <string name="core_fat_grams" formatted="false">"Greix, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Carbohidrats, g"</string>
+    <string name="core_food_note" formatted="false">"Nota, ingredients (opcional)"</string>
+    <string name="core_favorite" formatted="false">"Afegeix als preferits"</string>
+    <string name="core_name_category_required" formatted="false">"Introduïu un nom i una categoria"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Introduïu valors per 100 g: calories 0–1.000; proteïnes, greixos i carbohidrats 0-100 g"</string>
+    <string name="core_delete_food" formatted="false">"Eliminar dels aliments"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Les entrades d\'àpats anteriors mantindran els seus valors."</string>
+    <string name="core_delete_food_question" formatted="false">"Vols suprimir aquest menjar? Es conservaran les seves anotacions del diari."</string>
+    <string name="core_day_entry" formatted="false">"Entrada diària"</string>
+    <string name="core_optional_fields" formatted="false">"Ompliu els camps que vulgueu. Deixa la resta en blanc."</string>
+    <string name="core_editing_existing" formatted="false">"Ja hi ha una entrada per a aquesta data. L\'estàs editant."</string>
+    <string name="core_weight_kg" formatted="false">"Pes, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Cintura, cm"</string>
+    <string name="core_steps" formatted="false">"Passos"</string>
+    <string name="core_sleep" formatted="false">"Dormir"</string>
+    <string name="core_hours" formatted="false">"Hores"</string>
+    <string name="core_minutes" formatted="false">"Actes"</string>
+    <string name="core_body_fat_optional" formatted="false">"Escala de greix corporal, % (opcional)"</string>
+    <string name="core_body_fat_hint" formatted="false">"El greix corporal d\'una escala és un indicador de tendència, no una mesura precisa."</string>
+    <string name="core_strength_training" formatted="false">"Entrenament de força"</string>
+    <string name="core_training_example" formatted="false">"Per exemple: squats 3×10, manuelles de 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Totals de nutrició manuals"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Si s\'introdueixen, aquests valors anul·len els totals d\'aliments del dia. Deixeu en blanc per al càlcul automàtic."</string>
+    <string name="core_daily_calories" formatted="false">"Calories diàries"</string>
+    <string name="core_daily_protein" formatted="false">"Proteïna diària, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Notes i com et sents"</string>
+    <string name="core_steps_invalid" formatted="false">"Passos: un nombre sencer de 0 a 200.000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Somni: 0–24 hores, minuts 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Greix corporal"</string>
+    <string name="core_calories" formatted="false">"Calories"</string>
+    <string name="core_protein" formatted="false">"Proteïna"</string>
+    <string name="core_entry_required" formatted="false">"Afegiu almenys una mesura o una nota"</string>
+    <string name="core_delete_day" formatted="false">"Suprimeix aquesta entrada diària"</string>
+    <string name="core_optional_goals" formatted="false">"Tots els objectius són opcionals. Un camp en blanc significa que no s\'ha establert cap objectiu."</string>
+    <string name="core_calories_per_day" formatted="false">"Calories per dia"</string>
+    <string name="core_protein_per_day" formatted="false">"Proteïna per dia, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Greix per dia, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Carbohidrats per dia, g"</string>
+    <string name="core_target_weight" formatted="false">"Pes objectiu, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Comproveu els vostres objectius: calories 0–10.000; proteïnes, greixos i carbohidrats 0–1.000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Pes objectiu: d\'1 a 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Esborrar?"</string>
+    <string name="core_delete" formatted="false">"Suprimeix"</string>
+    <string name="core_select_food" formatted="false">"Trieu el menjar"</string>
+    <string name="core_foods_dishes" formatted="false">"Aliments i plats"</string>
+    <string name="core_search_food" formatted="false">"Cerca un aliment o plat"</string>
+    <string name="core_new_food_button" formatted="false">"+ Menjar / plat"</string>
+    <string name="core_recipe_button" formatted="false">"A partir d\'una recepta"</string>
+    <string name="core_no_results" formatted="false">"Sense resultats"</string>
+    <string name="core_no_results_help" formatted="false">"Proveu una altra cerca o afegiu el vostre propi menjar o plat preparat."</string>
+    <string name="core_edit" formatted="false">"Edita"</string>
+    <string name="core_achievement_unlocked">"🏆 Assoliment desbloquejat! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal esquerra · gol %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal per sobre del teu objectiu"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Proteïnes %1$s   Greixos %2$s   Hidrats de carboni %3$s"</string>
+    <string name="core_weight_summary">"Pes %1$s kg"</string>
+    <string name="core_waist_summary">"Cintura %1$s cm"</string>
+    <string name="core_steps_summary">"Passos: %1$s"</string>
+    <string name="core_fat_summary">"Greix corporal %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (manual)"</string>
+    <string name="core_manual_protein">"Proteïna %1$s g (manual)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Dormir %1$s"</string>
+    <string name="core_scale_fat">"Escala de greix corporal %1$s%%"</string>
+    <string name="core_training_value">"Formació: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Proteïna %1$s g"</string>
+    <string name="core_app_version">"Diari de dieta · %1$s"</string>
+    <string name="core_per100_summary">"Per 100 g: %1$s kcal · Proteïnes %2$s · Greixos %3$s · Hidrats de carboni %4$s"</string>
+    <string name="core_range_invalid">"%1$s: introduïu un valor de %2$s a %3$s"</string>
+    <string name="core_delete_day_question">"Vols suprimir les mesures de %1$s? Es mantindran les entrades d\'aliments."</string>
+    <string name="core_catalog_count">"Aliments: %1$s · per 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Proteïnes %2$s   Greixos %3$s   Hidrats de carboni %4$s"</string>
+    <string name="core_today_date">"Avui · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Les calories i les proteïnes són totals manuals del vostre diari"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Les calories són un total manual del vostre diari"</string>
+    <string name="core_manual_protein_total" formatted="false">"La proteïna és un total manual del vostre diari"</string>
+    <string name="core_macro_goals">"Objectius P / F / C: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (manual)"</string>
+    <string name="core_all" formatted="false">"Tot"</string>
+    <string name="core_favorites" formatted="false">"Preferits"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Dia anterior"</string>
+    <string name="core_next_day" formatted="false">"L\'endemà"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"La còpia de seguretat de la migració no coincideix"</string>
+    <string name="data_entry_exists" formatted="false">"Aquesta entrada d\'aliments ja existeix"</string>
+    <string name="data_entry_missing" formatted="false">"No s\'ha trobat l\'entrada de menjar"</string>
+    <string name="data_edited_date_changed" formatted="false">"La data de l\'entrada que s\'està editant ha canviat"</string>
+    <string name="data_device_id_corrupt" formatted="false">"El dispositiu local ID està danyat; la restauració està bloquejada"</string>
+    <string name="data_sync_invalid" formatted="false">"Dades de sincronització no vàlides"</string>
+    <string name="data_diary_read_only" formatted="false">"El diari està protegit de la sobreescritura: restaurar una còpia de seguretat"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Les dades del diari són inconsistents"</string>
+    <string name="data_backup_too_large" formatted="false">"La còpia de seguretat és massa gran"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"La instal·lació ID està danyada"</string>
+    <string name="data_save_verification_failed" formatted="false">"No s\'ha pogut verificar que el diari s\'ha desat"</string>
+    <string name="data_save_failed" formatted="false">"No s\'ha pogut desar el diari"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"La còpia de seguretat és més gran que 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"El fitxer del diari és massa gran"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Mida de la base de dades d\'aliments no vàlida"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Versió de còpia de seguretat no compatible"</string>
+    <string name="data_too_many_values">"Massa valors a %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Massa aliments"</string>
+    <string name="data_too_many_entries" formatted="false">"Massa entrades d\'aliments"</string>
+    <string name="data_too_many_logs" formatted="false">"Massa entrades del diari"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Menjar duplicat ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Entrada d\'aliment duplicat ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Data del diari duplicat"</string>
+    <string name="data_label_product_id" formatted="false">"Menjar ID"</string>
+    <string name="data_label_product_name" formatted="false">"Nom de l\'aliment"</string>
+    <string name="data_label_category" formatted="false">"Categoria"</string>
+    <string name="data_label_note" formatted="false">"Nota"</string>
+    <string name="data_label_entry_id" formatted="false">"Entrada ID"</string>
+    <string name="data_label_meal" formatted="false">"Menjar"</string>
+    <string name="data_food_weight_range" formatted="false">"El pes dels aliments ha de ser superior a 0 i no més de 100.000 g"</string>
+    <string name="data_label_weight" formatted="false">"Pes"</string>
+    <string name="data_label_waist" formatted="false">"Cintura"</string>
+    <string name="data_steps_range" formatted="false">"El nombre de passos ha d\'estar entre 0 i 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Dormir"</string>
+    <string name="data_label_body_fat" formatted="false">"Greix corporal"</string>
+    <string name="data_label_daily_calories" formatted="false">"Calories diàries"</string>
+    <string name="data_label_daily_protein" formatted="false">"Proteïna diària"</string>
+    <string name="data_label_workout" formatted="false">"Entrenament"</string>
+    <string name="data_label_log_note" formatted="false">"Nota"</string>
+    <string name="data_log_empty" formatted="false">"Introduïu almenys una mesura o nota"</string>
+    <string name="data_label_goal_weight" formatted="false">"Pes de l\'objectiu"</string>
+    <string name="data_too_many_achievements" formatted="false">"Massa assoliments"</string>
+    <string name="data_achievement_invalid" formatted="false">"Assoliment no vàlid"</string>
+    <string name="data_setting_not_portable" formatted="false">"Aquesta configuració no es pot transferir"</string>
+    <string name="data_setting_invalid">"Valor no vàlid per a la configuració %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Calories"</string>
+    <string name="data_label_protein" formatted="false">"Proteïna"</string>
+    <string name="data_label_fat" formatted="false">"Greix"</string>
+    <string name="data_label_carbs" formatted="false">"Hidrats de carboni"</string>
+    <string name="data_value_range">"%1$s: rang permès %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: longitud no vàlida"</string>
+    <string name="data_text_character_invalid">"%1$s: caràcter no vàlid"</string>
+    <string name="data_date_format_invalid" formatted="false">"La data ha d\'utilitzar el format AAAA-MM-DD"</string>
+    <string name="data_date_nonexistent">"Data no vàlida: %1$s"</string>
+    <string name="data_field_string_required">"El camp %1$s ha de ser de text"</string>
+    <string name="data_field_boolean_required">"El camp %1$s ha de ser un valor booleà"</string>
+    <string name="data_field_number_required">"El camp %1$s ha de ser un número"</string>
+    <string name="data_field_finite_required">"El camp %1$s ha de ser un nombre finit"</string>
+    <string name="data_field_integer_required">"El camp %1$s ha de ser un nombre enter"</string>
+    <string name="data_too_many_items">"Massa elements a %1$s"</string>
+    <string name="data_data_file_invalid">"Fitxer de dades no vàlid: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Falta el dispositiu ID"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"S\'ha assolit el límit del rellotge lògic"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Massa registres de sincronització"</string>
+    <string name="data_sync_version_required" formatted="false">"La sincronització requereix el format de la versió 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Clau de sincronització no vàlida"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Clau de sincronització duplicada"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Marcador d\'eliminació no vàlid"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Dades de sincronització no vàlides"</string>
+    <string name="data_record_clock_invalid" formatted="false">"La versió de registre supera el rellotge lògic"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Les dades no coincideixen amb les metadades de sincronització"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Longitud de clau de sincronització no vàlida"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Clau de sincronització mal formada"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Tipus de sincronització desconegut"</string>
+    <string name="data_record_id_too_long" formatted="false">"El registre ID és massa llarg"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"La supressió d\'assoliments no és vàlida"</string>
+    <string name="data_log_key_invalid" formatted="false">"Clau del diari no vàlida"</string>
+    <string name="data_log_field_unknown" formatted="false">"Camp del diari desconegut"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Marcador d\'eliminació del diari no vàlid"</string>
+    <string name="data_goal_unknown" formatted="false">"Objectiu desconegut"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Un registre suprimit conté dades"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Valor de sincronització no vàlid"</string>
+    <string name="data_record_id_mismatch" formatted="false">"El registre ID no coincideix amb la clau"</string>
+    <string name="data_field_value_invalid" formatted="false">"El valor del camp no és vàlid"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"La data d\'assoliment no coincideix amb la clau"</string>
+    <string name="data_note_string_required" formatted="false">"La nota ha de ser de text"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Nota sincronitzada no vàlida"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"El rellotge lògic no és vàlid"</string>
+    <string name="data_device_invalid" formatted="false">"Dispositiu no vàlid"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Segell de versió no vàlid"</string>
+    <string name="data_google_login_required" formatted="false">"Torna a iniciar la sessió a Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Massa còpies de seguretat al núvol"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive ha retornat una pàgina repetida"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"La còpia de seguretat del núvol és més gran que 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive no ha retornat cap adreça de càrrega"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"L\'adreça de càrrega Google Drive no és vàlida"</string>
+    <string name="data_back" formatted="false">"‹ Enrere"</string>
+    <string name="data_cloud_title" formatted="false">"Sincronització al núvol"</string>
+    <string name="data_cloud_subtitle" formatted="false">"El vostre diari als vostres dispositius"</string>
+    <string name="data_no_account" formatted="false">"No hi ha cap compte connectat"</string>
+    <string name="data_cloud_intro" formatted="false">"L\'inici de sessió és opcional. Els aliments, els àpats, les mesures, els objectius i els assoliments s\'emmagatzemen al vostre telèfon. Un cop connectat, s\'emmagatzemarà una còpia en una carpeta oculta del vostre Google Drive."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Les entrades es combinen a la primera connexió. L\'aplicació no pot accedir a altres fitxers de la teva unitat."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"L\'inici de sessió Google encara no s\'ha configurat per a aquesta compilació. El diari i les còpies de seguretat dels fitxers funcionen sense un compte."</string>
+    <string name="data_connect_google" formatted="false">"Connecta Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Sincronització automàtica"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Quan les dades canvien i en segon pla quan Android ho permet"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"No s\'ha pogut canviar l\'horari. Les teves dades es desen en aquest dispositiu."</string>
+    <string name="data_sync_start_failed" formatted="false">"No s\'ha pogut iniciar la sincronització. Les teves dades es desen en aquest dispositiu."</string>
+    <string name="data_sync_now" formatted="false">"Sincronitza ara"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Torna a iniciar la sessió a Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Desconnecta el compte"</string>
+    <string name="data_sync_never" formatted="false">"Encara no hi ha sincronització"</string>
+    <string name="data_offline_saved_title" formatted="false">"Les teves dades es desen fora de línia"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Amb la sincronització automàtica activada, els canvis s\'envien quan una connexió està disponible. Si el mateix camp canvia en dos dispositius, s\'utilitza la versió amb la marca de temps del canvi posterior. Les entrades i camps independents es combinen."</string>
+    <string name="data_cloud_password_description" formatted="false">"Introduïu la vostra contrasenya només a la pàgina Google del vostre navegador. Els testimonis d\'accés estan protegits per Android Keystore i s\'exclouen de les còpies de seguretat."</string>
+    <string name="data_google_connection_title" formatted="false">"Connexió Google"</string>
+    <string name="data_got_it" formatted="false">"Entenc"</string>
+    <string name="data_connect_drive_title" formatted="false">"Connectar Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"El vostre diari actual es combinarà amb les dades del compte Google seleccionat. Utilitzeu el mateix compte personal als vostres dispositius. L\'inici de sessió s\'obrirà al vostre navegador predeterminat."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"No s\'ha pogut obrir l\'inici de sessió. Instal·leu o activeu un navegador predeterminat i torneu-ho a provar."</string>
+    <string name="data_continue" formatted="false">"Continuar"</string>
+    <string name="data_cancel" formatted="false">"Cancel·la"</string>
+    <string name="data_disconnect_title" formatted="false">"Desconnectar el compte?"</string>
+    <string name="data_disconnect_description" formatted="false">"La sincronització s\'aturarà en aquest dispositiu. El vostre diari local i les còpies a Google Drive es conservaran. Pots gestionar el permís de l\'aplicació a la configuració del teu compte Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"No s\'ha pogut desconnectar el compte. Si us plau, torna-ho a provar."</string>
+    <string name="data_disconnect" formatted="false">"Desconnectar"</string>
+    <string name="data_google_not_connected" formatted="false">"Google no està connectat"</string>
+    <string name="data_sync_ready" formatted="false">"A punt per sincronitzar"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Els canvis estan esperant per sincronitzar-se..."</string>
+    <string name="data_offline_changes_saved" formatted="false">"Sense connexió a Internet. Els canvis es desen en aquest dispositiu."</string>
+    <string name="data_google_not_configured" formatted="false">"L\'inici de sessió Google encara no s\'ha configurat per a aquesta compilació"</string>
+    <string name="data_sync_wait" formatted="false">"Espereu que finalitzi la sincronització"</string>
+    <string name="data_google_connecting" formatted="false">"S\'està connectant Google..."</string>
+    <string name="data_connection_cancelled" formatted="false">"Connexió cancel·lada"</string>
+    <string name="data_connection_rejected" formatted="false">"Connexió cancel·lada o rebutjada per Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google està connectat. S\'estan combinant entrades..."</string>
+    <string name="data_google_connection_failed" formatted="false">"No s\'ha pogut connectar Google. Comproveu la vostra connexió a Internet i la configuració d\'accés."</string>
+    <string name="data_account_disconnected" formatted="false">"Compte desconnectat. Les teves dades romanen en aquest dispositiu."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Sense connexió a Internet. La sincronització està esperant una connexió."</string>
+    <string name="data_sync_scheduled" formatted="false">"La sincronització està programada..."</string>
+    <string name="data_sync_running" formatted="false">"S\'està sincronitzant..."</string>
+    <string name="data_sync_complete" formatted="false">"Sincronització completa"</string>
+    <string name="data_no_internet" formatted="false">"No hi ha connexió a Internet"</string>
+    <string name="data_sync_failed_saved" formatted="false">"No s\'ha pogut sincronitzar. Les teves dades es desen en aquest dispositiu"</string>
+    <string name="data_page_open_failed" formatted="false">"No s\'ha pogut obrir la pàgina. Podeu copiar la seva adreça des del text següent."</string>
+    <string name="data_privacy_title" formatted="false">"Privadesa"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Els vostres registres i controls de dades"</string>
+    <string name="data_app_purpose" formatted="false">"Sobre aquesta aplicació"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Aquesta aplicació no és un dispositiu mèdic. No diagnostica, tracta, cura ni prevé cap malaltia. Consulteu un professional sanitari qualificat per a assessorament mèdic, diagnòstic i tractament."</string>
+    <string name="data_manage_delete_data" formatted="false">"Gestionar i eliminar dades"</string>
+    <string name="data_delete_data_intro" formatted="false">"Abans de suprimir totes les dades, desactiveu la sincronització a tots els vostres dispositius. En desinstal·lar l\'aplicació del telèfon, no se suprimeixen les còpies a Google Drive ni els fitxers exportats."</string>
+    <string name="data_manage_drive_data" formatted="false">"Gestiona les dades Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Google Accés al compte"</string>
+    <string name="data_android_app_storage" formatted="false">"Emmagatzematge d\'aplicacions a Android"</string>
+    <string name="data_contact_developer" formatted="false">"Contacteu amb el desenvolupador"</string>
+    <string name="data_opening_page" formatted="false">"Obertura d\'una pàgina"</string>
+    <string name="data_advertisement" formatted="false">"ANUNCI"</string>
+    <string name="data_ad_information" formatted="false">"Sobre aquest anunci"</string>
+    <string name="data_cloud_http_error">"Error HTTP al núvol %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"La resposta del núvol és massa gran"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Sessió d\'inici de sessió xifrada no vàlida"</string>
+    <string name="data_session_save_failed" formatted="false">"No s\'ha pogut desar la sessió d\'inici de sessió"</string>
+    <string name="data_token_refresh_failed" formatted="false">"No s\'ha pogut actualitzar l\'accés a Google"</string>
+    <string name="data_diary_read_failed">"No s\'ha pogut llegir el diari. S\'ha conservat el fitxer original. Restaura les teves dades des d\'una còpia de seguretat. %1$s"</string>
+    <string name="data_last_sync">"Última sincronització: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Fruites i baies"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Fruita seca"</string>
+    <string name="data_category_vegetables" formatted="false">"Verdures i herbes"</string>
+    <string name="data_category_mushrooms" formatted="false">"Bolets"</string>
+    <string name="data_category_grains" formatted="false">"Cereals i pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Llegums"</string>
+    <string name="data_category_meat" formatted="false">"Carn i aus"</string>
+    <string name="data_category_fish" formatted="false">"Peix i marisc"</string>
+    <string name="data_category_dairy" formatted="false">"Lactis"</string>
+    <string name="data_category_eggs" formatted="false">"Ous"</string>
+    <string name="data_category_oils" formatted="false">"Olis i mantega"</string>
+    <string name="data_category_nuts" formatted="false">"Fruits secs i llavors"</string>
+    <string name="data_category_bread" formatted="false">"Pa"</string>
+    <string name="data_category_other" formatted="false">"Altres aliments"</string>
+    <string name="data_category_dishes" formatted="false">"Plats preparats"</string>
+    <string name="data_category_custom" formatted="false">"Els meus aliments"</string>
+    <string name="data_category_other_short" formatted="false">"Altres"</string>
+    <string name="data_food_seed_9003" formatted="false">"Poma amb pell"</string>
+    <string name="data_catalog_note_1">"Valors de referència per 100 g de la porció comestible. Aliments crus. USDA els valors d\'hidrats de carboni inclouen fibra. Podeu ajustar els valors mitjançant l\'etiqueta del producte. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Plàtan, pelat"</string>
+    <string name="data_food_seed_9021" formatted="false">"Albercoc, sense pinyol"</string>
+    <string name="data_food_seed_9037" formatted="false">"Carn d\'alvocat"</string>
+    <string name="data_food_seed_9050" formatted="false">"Nabius"</string>
+    <string name="data_food_seed_9070" formatted="false">"Cireres dolces, sense pinyol"</string>
+    <string name="data_food_seed_9063" formatted="false">"Cireres, sense pinyol"</string>
+    <string name="data_food_seed_9078" formatted="false">"Nabius"</string>
+    <string name="data_food_seed_9083" formatted="false">"Grosella negra"</string>
+    <string name="data_food_seed_9084" formatted="false">"Groselles vermelles i blanques"</string>
+    <string name="data_food_seed_9132" formatted="false">"Raïm"</string>
+    <string name="data_food_seed_9148" formatted="false">"Carn de kiwi"</string>
+    <string name="data_food_seed_9150" formatted="false">"Llimona, pelada"</string>
+    <string name="data_food_seed_9181" formatted="false">"Carn de cantalup"</string>
+    <string name="data_food_seed_9200" formatted="false">"Carn taronja"</string>
+    <string name="data_food_seed_9218" formatted="false">"Carn de mandarina"</string>
+    <string name="data_food_seed_9236" formatted="false">"Préssec, sense pinyol"</string>
+    <string name="data_food_seed_9252" formatted="false">"Pera"</string>
+    <string name="data_food_seed_9266" formatted="false">"Carn de pinya"</string>
+    <string name="data_food_seed_9279" formatted="false">"Pruna, sense pinyol"</string>
+    <string name="data_food_seed_9286" formatted="false">"Llavors de magrana"</string>
+    <string name="data_food_seed_9295" formatted="false">"Carn de pomelo"</string>
+    <string name="data_food_seed_9302" formatted="false">"Gerds"</string>
+    <string name="data_food_seed_9316" formatted="false">"Maduixes"</string>
+    <string name="data_food_seed_9326" formatted="false">"Carn de síndria"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nectarina, sense pinyol"</string>
+    <string name="data_food_seed_9176" formatted="false">"Carn de mango"</string>
+    <string name="data_food_seed_9107" formatted="false">"Groselles"</string>
+    <string name="data_food_seed_9226" formatted="false">"Carn de papaia"</string>
+    <string name="data_food_seed_9089" formatted="false">"Figues fresques"</string>
+    <string name="data_food_seed_9111" formatted="false">"Carn d\'aranja"</string>
+    <string name="data_food_seed_9032" formatted="false">"Albercocs secs, sense pinyol"</string>
+    <string name="data_catalog_note_2">"Valors de referència per 100 g de la porció comestible. USDA els valors d\'hidrats de carboni inclouen fibra. Podeu ajustar els valors mitjançant l\'etiqueta del producte. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Prunes, sense pinyol"</string>
+    <string name="data_food_seed_9087" formatted="false">"Dàtils, sense punt"</string>
+    <string name="data_food_seed_9298" formatted="false">"Panses fosques, sense llavors"</string>
+    <string name="data_food_seed_11529" formatted="false">"Tomàquet fresc"</string>
+    <string name="data_food_seed_11205" formatted="false">"Cogombre amb pell"</string>
+    <string name="data_food_seed_11090" formatted="false">"Bròquil cru"</string>
+    <string name="data_food_seed_11109" formatted="false">"Col blanca crua"</string>
+    <string name="data_food_seed_11124" formatted="false">"pastanaga crua"</string>
+    <string name="data_food_seed_11135" formatted="false">"Coliflor crua"</string>
+    <string name="data_food_seed_11143" formatted="false">"Tiges d\'api"</string>
+    <string name="data_food_seed_11282" formatted="false">"Ceba crua"</string>
+    <string name="data_food_seed_11291" formatted="false">"Ceba tendra"</string>
+    <string name="data_food_seed_11304" formatted="false">"Pèsols crus"</string>
+    <string name="data_food_seed_11333" formatted="false">"Pebrot verd"</string>
+    <string name="data_food_seed_11821" formatted="false">"Pebrot vermell"</string>
+    <string name="data_food_seed_11352" formatted="false">"Patata crua amb pell"</string>
+    <string name="data_food_seed_11367" formatted="false">"Patata bullida, pelada"</string>
+    <string name="data_catalog_note_3">"Valors de referència per 100 g de la porció comestible. Sense sal afegida. USDA els valors d\'hidrats de carboni inclouen fibra. Podeu ajustar els valors mitjançant l\'etiqueta del producte. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Carbassó cru"</string>
+    <string name="data_food_seed_11209" formatted="false">"Albergínia crua"</string>
+    <string name="data_food_seed_11422" formatted="false">"Carbassa crua"</string>
+    <string name="data_food_seed_11429" formatted="false">"Rave"</string>
+    <string name="data_food_seed_11564" formatted="false">"Nap cru"</string>
+    <string name="data_food_seed_11080" formatted="false">"Remolatxa crua"</string>
+    <string name="data_food_seed_11081" formatted="false">"Remolatxa bullida"</string>
+    <string name="data_food_seed_11215" formatted="false">"All"</string>
+    <string name="data_food_seed_11216" formatted="false">"Arrel de gingebre"</string>
+    <string name="data_food_seed_11457" formatted="false">"Espinacs crus"</string>
+    <string name="data_food_seed_11253" formatted="false">"Enciam de fulla"</string>
+    <string name="data_food_seed_11297" formatted="false">"Julivert fresc"</string>
+    <string name="data_food_seed_2045" formatted="false">"Anet fresc"</string>
+    <string name="data_food_seed_11052" formatted="false">"Mongetes verdes crues"</string>
+    <string name="data_food_seed_11167" formatted="false">"Blat de moro dolç, grans crus"</string>
+    <string name="data_food_seed_11260" formatted="false">"Bolets crus"</string>
+    <string name="data_food_seed_11261" formatted="false">"Xampinyons bullits, sense sal"</string>
+    <string name="data_food_seed_11987" formatted="false">"Bolets d\'ostra crus"</string>
+    <string name="data_food_seed_20009" formatted="false">"Grains de blat sarraí, secs"</string>
+    <string name="data_catalog_note_4">"Valors de referència per 100 g de la porció comestible. Grains de blat sarraí rostits. USDA els valors d\'hidrats de carboni inclouen fibra. Podeu ajustar els valors mitjançant l\'etiqueta del producte. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Blat sarraí, cuit en aigua"</string>
+    <string name="data_food_seed_20444" formatted="false">"Arròs blanc sec"</string>
+    <string name="data_food_seed_20445" formatted="false">"Arròs blanc bullit, sense sal"</string>
+    <string name="data_food_seed_20036" formatted="false">"Arròs integral, sec"</string>
+    <string name="data_food_seed_20037" formatted="false">"Arròs integral bullit"</string>
+    <string name="data_food_seed_8120" formatted="false">"Civada enrotllada, seca"</string>
+    <string name="data_food_seed_8121" formatted="false">"Civada cuita en aigua, sense sal"</string>
+    <string name="data_food_seed_20005" formatted="false">"Ordi perlat, sec"</string>
+    <string name="data_food_seed_20006" formatted="false">"Ordi perlat bullit"</string>
+    <string name="data_food_seed_20031" formatted="false">"Mill, sec"</string>
+    <string name="data_food_seed_20032" formatted="false">"Mill bullit"</string>
+    <string name="data_food_seed_20420" formatted="false">"Pasta, seca"</string>
+    <string name="data_food_seed_20421" formatted="false">"Pasta bullida, sense sal"</string>
+    <string name="data_food_seed_16070" formatted="false">"Llenties bullides, sense sal"</string>
+    <string name="data_food_seed_16057" formatted="false">"Cigrons bullits, sense sal"</string>
+    <string name="data_food_seed_16033" formatted="false">"Mongetes vermelles bullides, sense sal"</string>
+    <string name="data_food_seed_5062" formatted="false">"Pit de pollastre cru sense pell"</string>
+    <string name="data_food_seed_5064" formatted="false">"Pit de pollastre rostit sense pell"</string>
+    <string name="data_food_seed_5219" formatted="false">"Pit de gall dindi cru sense pell"</string>
+    <string name="data_food_seed_5220" formatted="false">"Pit de gall dindi sense pell rostit"</string>
+    <string name="data_food_seed_23562" formatted="false">"Carn mòlta de vedella, 10% de greix, crua"</string>
+    <string name="data_food_seed_23566" formatted="false">"Carn mòlta de vedella, 10% de greix, rostida"</string>
+    <string name="data_food_seed_10060" formatted="false">"Filet de porc cru, sense greix visible"</string>
+    <string name="data_food_seed_10061" formatted="false">"Filet de porc rostit"</string>
+    <string name="data_food_seed_15236" formatted="false">"Salmó atlàntic, cru"</string>
+    <string name="data_catalog_note_5">"Valors de referència per 100 g de la porció comestible. Aliments crus. Cultivat. USDA els valors d\'hidrats de carboni inclouen fibra. Podeu ajustar els valors mitjançant l\'etiqueta del producte. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Salmó atlàntic, rostit"</string>
+    <string name="data_catalog_note_6">"Valors de referència per 100 g de la porció comestible. Cultivat. USDA els valors d\'hidrats de carboni inclouen fibra. Podeu ajustar els valors mitjançant l\'etiqueta del producte. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Bacallà atlàntic, cru"</string>
+    <string name="data_food_seed_15266" formatted="false">"Abadejo cru d\'Alaska"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tonyina en conserva en aigua, escorreguda"</string>
+    <string name="data_food_seed_15271" formatted="false">"Gambes cuites, pelades"</string>
+    <string name="data_food_seed_1211" formatted="false">"Llet, 3,25% de greix"</string>
+    <string name="data_food_seed_1174" formatted="false">"Llet, 2% de greix"</string>
+    <string name="data_food_seed_1082" formatted="false">"Llet, 1% de greix"</string>
+    <string name="data_food_seed_1116" formatted="false">"Iogurt natural de llet sencera"</string>
+    <string name="data_food_seed_1256" formatted="false">"Iogurt grec sense greix"</string>
+    <string name="data_food_seed_1015" formatted="false">"Formatge cottage, 2% de greix"</string>
+    <string name="data_catalog_note_7">"Valors de referència per 100 g de la porció comestible. Formatge cottage; altres tipus de mató tenen valors diferents. USDA els valors d\'hidrats de carboni inclouen fibra. Podeu ajustar els valors mitjançant l\'etiqueta del producte. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Crema agra, aproximadament un 19% de greix"</string>
+    <string name="data_food_seed_1009" formatted="false">"Formatge cheddar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mozzarella de llet sencera"</string>
+    <string name="data_food_seed_1019" formatted="false">"Formatge feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Ou de gallina cru, sense closca"</string>
+    <string name="data_food_seed_1129" formatted="false">"Ou de gallina cuit, sense closca"</string>
+    <string name="data_food_seed_1124" formatted="false">"Clara d\'ou de gallina crua"</string>
+    <string name="data_food_seed_1001" formatted="false">"Mantega salada"</string>
+    <string name="data_food_seed_4053" formatted="false">"Oli d\'oliva"</string>
+    <string name="data_food_seed_4506" formatted="false">"Oli de gira-sol"</string>
+    <string name="data_food_seed_12061" formatted="false">"Ametlles"</string>
+    <string name="data_food_seed_12155" formatted="false">"Grans de nous"</string>
+    <string name="data_food_seed_12120" formatted="false">"Grans d\'avellana"</string>
+    <string name="data_food_seed_12151" formatted="false">"Grans de pistatxo crus"</string>
+    <string name="data_food_seed_12014" formatted="false">"Grans de llavors de carbassa secs"</string>
+    <string name="data_food_seed_16087" formatted="false">"Cacauets crus amb closca"</string>
+    <string name="data_food_seed_18069" formatted="false">"Pa de blat blanc"</string>
+    <string name="data_food_seed_18075" formatted="false">"Pa integral"</string>
+    <string name="data_food_seed_18060" formatted="false">"Pa de sègol"</string>
+    <string name="data_food_seed_19296" formatted="false">"Mel"</string>
+    <string name="data_food_seed_19335" formatted="false">"Sucre"</string>
+    <string name="data_food_seed_19165" formatted="false">"Cacau en pols sense sucre"</string>
+    <string name="data_food_seed_19904" formatted="false">"Xocolata negra, 70–85% cacau"</string>
+    <string name="data_meal_breakfast" formatted="false">"Esmorzar"</string>
+    <string name="data_meal_lunch" formatted="false">"Dinar"</string>
+    <string name="data_meal_dinner" formatted="false">"Sopar"</string>
+    <string name="data_meal_snack" formatted="false">"Berenar"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Política de privadesa per a Diet Diary\nRevisió: 9 d\'octubre de 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Aplicació: Diet Diary; Google Play títol de la llista en rus: «Дневник диеты: подсчёт калорий»; paquet: ru.dietdiary.offline.\nDesenvolupador del projecte: Efreitor2001. Per a preguntes sobre l\'aplicació i el tractament de dades, poseu-vos en contacte amb https://github.com/Efreitor2001/kkalcal/issues . Els problemes de GitHub són públics: no hi publiqueu registres de salut, còpies de seguretat, contrasenyes o testimonis."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Diari al dispositiu\nNo cal registrar-se per tenir un diari. L\'aplicació emmagatzema els aliments i els seus valors nutricionals, les porcions i les dates dels àpats, el pes, les mesures de la cintura, el percentatge de greix corporal, els passos, el son, les descripcions d\'entrenament, les notes, els objectius, els assoliments i la configuració de l\'aplicació a la seva àrea d\'emmagatzematge privada del dispositiu. Els camps opcionals es poden deixar en blanc. Els passos, el son i les mesures s\'introdueixen manualment; l\'aplicació no llegeix Health Connect, sensors d\'activitat física ni dades de dispositius mèdics."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Aquesta informació s\'utilitza per calcular calories i macronutrients i per proporcionar una història, gràfics i assoliments. El desenvolupador no opera un servidor que rebi continguts del diari. Si no connecteu Google Drive ni compartiu una còpia de seguretat, els vostres registres romandran al vostre dispositiu."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Connexió Google Drive opcional\nA la vostra sol·licitud, l\'aplicació obre la sessió Google al vostre navegador predeterminat i sol·licita accés a l\'emmagatzematge de dades ocults d\'aquesta aplicació al vostre Google Drive. Aquest permís no proporciona accés als vostres documents o fotos habituals de Drive."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Un cop connectats, els aliments, els àpats, les mesures del diari, les notes, els objectius, els assoliments, la configuració transferible i les metadades de canvi, inclosos els identificadors d\'instal·lació aleatoris i les marques de temps, s\'envien a Google. Això admet instantànies de còpia de seguretat i fusionar entrades als vostres dispositius. Si la sincronització automàtica està activada, els canvis també s\'envien en segon pla quan hi ha una connexió de xarxa disponible. Podeu desactivar la sincronització automàtica per separat."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"L\'aplicació rep l\'adreça de correu electrònic i l\'identificador del compte Google seleccionat per mostrar la connexió i enllaçar-la a l\'emmagatzematge correcte. La vostra contrasenya Google no es proporciona a l\'aplicació. La sessió d\'autorització s\'emmagatzema encriptada al vostre dispositiu mitjançant una clau a Android Keystore. Els testimonis, les adreces de correu electrònic i els identificadors Google s\'exclouen de les exportacions del diari i de les instantànies JSON sincronitzades."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Les dades Google només s\'utilitzen per a l\'autorització i la sincronització, mai per a la publicitat. S\'aplica la política de privadesa de Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Còpia de seguretat dels fitxers\n\"Desa al fitxer\" crea un fitxer JSON a la ubicació que trieu. Restaurar només llegeix el fitxer que seleccioneu. Si seleccioneu un proveïdor de fitxers al núvol o compartiu una còpia amb una altra persona, trieu el destinatari. L\'aplicació no xifra els fitxers JSON exportats: aquests fitxers contenen registres personals i canvien les metadades."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Publicitat\nL\'aplicació utilitza l\'SDK d\'anuncis mòbils Yandex. Per carregar i mostrar anuncis, el vostre dispositiu es connecta als serveis de publicitat. Yandex pot processar la vostra adreça IP i altra informació tècnica sobre la sol·licitud de xarxa, el dispositiu i el programari, la publicitat o els identificadors tècnics disponibles i la informació sobre les impressions i interaccions d\'anuncis."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"L\'aplicació indica a l\'SDK que no s\'ha donat el consentiment, desactiva la recollida d\'ubicacions i desactiva els informes d\'Analytics d\'anuncis d\'aplicacions. No demana permisos d\'ubicació precisa o aproximada. Aquesta configuració no vol dir que el servei de publicitat no realitzi cap comunicació a la xarxa ni tractament de dades tècniques."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"L\'aplicació no utilitza registres d\'aliments, pes, mesures, notes, objectius, adreces de correu electrònic o identificadors Google per a l\'orientació d\'anuncis, i no els afegeix als paràmetres de sol·licitud d\'anunci. No cal visualitzar anuncis per desar les entrades."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Normes de Yandex per al tractament, conservació i supressió de dades: https://yandex.ru/legal/confidential/ . Podeu gestionar el vostre identificador de publicitat a la configuració de Android si la versió del vostre sistema admet aquesta funció. La política del servei de publicitat determina els períodes de conservació de les seves dades tècniques; el desenvolupador del diari no estableix un període de retenció separat per a aquestes dades."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Protecció de dades\nLa comunicació amb Google utilitza HTTPS; Yandex indica que les dades de l\'SDK es transmeten mitjançant HTTPS/TLS. El diari local està protegit per l\'aïllament de l\'aplicació de Android. L\'aplicació no xifra per separat el contingut del diari ni les instantànies JSON; no proporciona xifratge d\'extrem a extrem entre dispositius."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"La còpia de seguretat del sistema de les dades de l\'aplicació està desactivada. Els registres de diagnòstic escrits pel propi codi de l\'aplicació contenen codis de resultats sense contingut del diari, adreces de correu electrònic, testimonis o cossos de resposta de xarxa; l\'aplicació no envia aquests registres per separat al desenvolupador."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Retenció i supressió\nEls registres locals romanen fins que els canvieu o suprimiu, o bé esborreu les dades de l\'aplicació. En suprimir una entrada, l\'elimina de la interfície i s\'envia un marcador d\'eliminació durant la sincronització. Les metadades de combinació es conserven per evitar que les dades antigues tornin a aparèixer; pot contenir valors anteriors d\'una entrada del diari suprimida. Els valors anteriors també poden romandre en instantànies i fitxers antics del núvol que heu creat anteriorment. Per tant, esborrar una entrada no n\'esborra completament totes les còpies."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"\"Desconnecta el compte\" atura la sincronització en aquest dispositiu i suprimeix la sessió Google local. El diari i les instantànies a Google Drive es conserven. Desconnectar l\'aplicació no suprimirà el vostre compte Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Per suprimir completament les dades d\'aquesta aplicació:\n• Desactiveu la sincronització a tots els vostres dispositius perquè les còpies restants no es tornin a carregar.\n• En un navegador, obriu https://drive.google.com/drive/settings amb el compte Google que estava connectat. Seleccioneu \"Gestiona les aplicacions\", cerqueu \"Diet Diary\" (o \"Дневник диеты\") i, a continuació, trieu \"Opcions\" → \"Suprimeix les dades de l\'aplicació oculte\". Si la pàgina mòbil no mostra aquesta secció, utilitzeu la versió d\'escriptori del lloc o un ordinador.\n• Revoca l\'accés de l\'aplicació a https://myaccount.google.com/connections . Revocar l\'accés només no esborra les còpies desades.\n• Esborra l\'emmagatzematge de l\'aplicació a la configuració Android de cada dispositiu o desinstal·la l\'aplicació.\n• Suprimeix les JSON còpies de seguretat desades per separat de les carpetes i ubicacions d\'emmagatzematge al núvol que hagis triat."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Sense les vostres credencials, el desenvolupador no pot esborrar de forma remota el vostre diari local o els fitxers del vostre Google Drive personal. No compartiu la vostra contrasenya o fitxes amb el desenvolupador. Per obtenir ajuda amb la supressió, poseu-vos en contacte amb el projecte mitjançant l\'enllaç que hi ha a l\'inici d\'aquesta política. No cal que suprimiu el vostre compte Google per suprimir les dades del diari."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Canvis i contacte\nQuan canvien les funcions de l\'aplicació o les pràctiques de processament de dades, aquesta política s\'actualitza amb una data de revisió. Per a preguntes sobre l\'accés, la correcció, la supressió de dades o el funcionament de l\'aplicació, utilitzeu el canal de contacte del projecte. Les sol·licituds que envieu es processen per donar una resposta i s\'emmagatzemen a GitHub; La política de GitHub està disponible a https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Els meus plats"</string>
+    <string name="secondary_metric_weight" formatted="false">"Pes"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Greix corporal"</string>
+    <string name="secondary_metric_waist" formatted="false">"Cintura"</string>
+    <string name="secondary_metric_steps" formatted="false">"Passos"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Dormir"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Calories"</string>
+    <string name="secondary_metric_protein" formatted="false">"Proteïna"</string>
+    <string name="secondary_metric_fat" formatted="false">"Greix"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Hidrats de carboni"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"passos"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Interval de dates no vàlid"</string>
+    <string name="secondary_stats_title" formatted="false">"Tendències"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Els vostres registres en gràfics clars"</string>
+    <string name="secondary_metric" formatted="false">"Mètrica"</string>
+    <string name="secondary_week" formatted="false">"Setmana"</string>
+    <string name="secondary_month" formatted="false">"Mes"</string>
+    <string name="secondary_year" formatted="false">"Any"</string>
+    <string name="secondary_custom_period" formatted="false">"Interval personalitzat"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"La data d\'inici no ha de ser posterior a la data de finalització"</string>
+    <string name="secondary_no_records" formatted="false">"Encara no hi ha registres"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Afegiu menjar al vostre diari o trieu un altre període."</string>
+    <string name="secondary_chart_tap" formatted="false">"Toqueu el gràfic per seleccionar un registre"</string>
+    <string name="secondary_chart_connected" formatted="false">"La línia connecta les mesures registrades. No hi ha mesures entre ells."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Les estimacions d\'escala són útils per fer un seguiment de tendències."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Un total diari manual substitueix el total d\'aliments. En cas contrari, s\'afegeixen els aliments registrats. Els dies sense registres es salten."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Els totals es basen en els aliments registrats. Un dia sense registres no es compta com a zero."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Els dies sense registres es salten i s\'exclouen de la mitjana."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Avui i ahir"</string>
+    <string name="secondary_no_today" formatted="false">"Sense registre per avui"</string>
+    <string name="secondary_no_yesterday" formatted="false">"No hi ha registre d\'ahir"</string>
+    <string name="secondary_partial_today" formatted="false">"Aquesta comparació utilitza registres actuals. Les dades d\'avui poden encara estar incompletes."</string>
+    <string name="secondary_period_summary" formatted="false">"Resum del període"</string>
+    <string name="secondary_recorded_average" formatted="false">"Mitjana dels dies registrats"</string>
+    <string name="secondary_recorded_days" formatted="false">"Dies amb dades"</string>
+    <string name="secondary_minimum" formatted="false">"Mínim"</string>
+    <string name="secondary_maximum" formatted="false">"Màxim"</string>
+    <string name="secondary_first_to_last" formatted="false">"Del primer al darrer registre"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Es necessiten almenys dos dies registrats per calcular un canvi."</string>
+    <string name="secondary_history" formatted="false">"Història"</string>
+    <string name="secondary_history_recent" formatted="false">"Els últims 14 dies amb dades. Trieu un rang personalitzat per a registres anteriors."</string>
+    <string name="secondary_history_all" formatted="false">"Tots els dies registrats en el període seleccionat"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"De %1$s"</string>
+    <string name="secondary_date_until">"A %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s en aquest període"</string>
+    <string name="secondary_weight_goal">"Objectiu: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Afegiu una mesura al vostre diari o trieu un altre període."</string>
+    <string name="secondary_latest_record">"Últim registre · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Avui: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Ahir: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Canvi: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d de %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d dies registrats, de %3$s a %4$s. Mínim %5$s, màxim %6$s %7$s. Els valors apareixen a la història."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Primers passos"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Deseu la vostra primera mesura de pes."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"La teva primera mesura de pes està desada."</string>
+    <string name="secondary_award_first_food" formatted="false">"Primera entrada"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Registreu la vostra primera porció de menjar."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"La vostra primera porció de menjar està registrada."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Una setmana de dades"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Anoteu el vostre pes en 7 dies diferents. No cal que siguin consecutius."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Teniu registres de pes durant 7 dies diferents."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Coherència"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Anoteu el vostre pes en 30 dies diferents."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Teniu registres de pes durant 30 dies."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Arxiver"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Deseu 100 porcions de menjar al vostre diari."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Heu desat 100 porcions de menjar."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Un nou hàbit"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Registrar els aliments durant 7 dies naturals consecutius."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Heu registrat menjar durant 7 dies consecutius."</string>
+    <string name="secondary_award_steps" formatted="false">"Meravella caminant"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Enregistreu almenys 10.000 passos en un dia."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Heu gravat un dia amb 10.000 passos."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Gravador prolífic"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Estalvieu 100 mesures de pes. Una mesura compta per data."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Heu desat 100 mesures de pes."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Diari veterà"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Registrar aliments o mesures en 90 dies diferents. No cal que siguin consecutius."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Teniu registres de diari de 90 dies diferents."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"mesures"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porcions"</string>
+    <string name="secondary_award_unit_days" formatted="false">"dies"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"dies consecutius"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"passos en un dia"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"dies registrats"</string>
+    <string name="secondary_back" formatted="false">"‹ Enrere"</string>
+    <string name="secondary_achievements" formatted="false">"Assoliments"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Els petits passos es converteixen en un hàbit"</string>
+    <string name="secondary_your_progress" formatted="false">"EL SEU PROGRÉS"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Els assoliments obtinguts es mantenen amb tu fins i tot si edites els teus registres."</string>
+    <string name="secondary_awards_regular" formatted="false">"Per a la coherència i mantenir el vostre diari"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Es compten els registres desats fins avui inclòs."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Assoliment ocult"</string>
+    <string name="secondary_hidden_description" formatted="false">"Segueix utilitzant el teu diari per desbloquejar aquest assoliment."</string>
+    <string name="secondary_earned" formatted="false">"Guanyat"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Ocult · bloquejat"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"En curs · bloquejat"</string>
+    <string name="secondary_locked" formatted="false">"Tancat"</string>
+    <string name="secondary_hidden_progress" formatted="false">"El requisit i el progrés es revelaran quan guanyis aquest premi."</string>
+    <string name="secondary_best_streak" formatted="false">"Millor ratxa"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Recompensa oculta"</string>
+    <string name="secondary_unlocked_of">"de %1$d desbloquejat"</string>
+    <string name="secondary_unlocked_date">"Desbloquejat %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Tornar"</string>
+    <string name="secondary_my_recipe" formatted="false">"La meva recepta"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Pesar els ingredients abans de cuinar-los. Utilitzeu el pes cuit per calcular les porcions. Inclou olis i salses."</string>
+    <string name="secondary_recipe_name" formatted="false">"Nom de la recepta"</string>
+    <string name="secondary_recipe_example" formatted="false">"Per exemple, estofat de verdures"</string>
+    <string name="secondary_ingredients" formatted="false">"Ingredients"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Comenceu amb els ingredients"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Afegiu cada ingredient i introduïu el seu pes en grams."</string>
+    <string name="secondary_edit_weight" formatted="false">"Edita el pes"</string>
+    <string name="secondary_delete" formatted="false">"Suprimeix"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Afegeix ingredient"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Recepta sencera"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"La cocció canvia el pes a mesura que s\'afegeix o es perd aigua. Pesar el plat acabat sense el seu recipient."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Pes cuit, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Introduïu el pes després de la cocció"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Introduïu un pes superior a 0 i no superior a 100.000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"El pes no s\'omple automàticament"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Per 100 g del plat cuit"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Comproveu el pes i els ingredients cuinats: cada 100 g pot contenir fins a 1.000 kcal i fins a 100 g de cada macronutrient."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"No s\'ha pogut desar la recepta"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Desa a Les meves receptes"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Un cop desat, podeu registrar aquest plat per la seva porció de pes."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Pes dels ingredients abans de la cocció"</string>
+    <string name="secondary_grams" formatted="false">"Grams"</string>
+    <string name="secondary_weight_limits" formatted="false">"Més de 0 i no més de 100.000 g"</string>
+    <string name="secondary_add" formatted="false">"Afegeix"</string>
+    <string name="secondary_save" formatted="false">"Desa"</string>
+    <string name="secondary_cancel" formatted="false">"Cancel·la"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Trieu un ingredient"</string>
+    <string name="secondary_search_food" formatted="false">"Cerca aliments"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Sense resultats. Podeu afegir el vostre propi menjar a la pestanya Aliments."</string>
+    <string name="secondary_close" formatted="false">"Tancar"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Proteïnes %1$s · Greixos %2$s · Hidrats de carboni %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Pes de l\'ingredient: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Rendiment: %1$s g. Ingredients: %2$s"</string>
+</resources>

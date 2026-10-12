@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Щоденник харчування"</string>
+    <string name="core_app_name" formatted="false">"Щоденник харчування"</string>
+    <string name="core_tagline" formatted="false">"Калорії, вага та прогрес"</string>
+    <string name="core_open_diary" formatted="false">"Відкрити щоденник"</string>
+    <string name="core_save_failed" formatted="false">"Не вдалося зберегти ваші дані"</string>
+    <string name="core_day" formatted="false">"Сьогодні"</string>
+    <string name="core_products" formatted="false">"Продукти"</string>
+    <string name="core_diary" formatted="false">"Щоденник"</string>
+    <string name="core_charts" formatted="false">"Графіки"</string>
+    <string name="core_more" formatted="false">"Ще"</string>
+    <string name="core_recipe_saved" formatted="false">"Страву збережено у ваших продуктах"</string>
+    <string name="core_back_to_day" formatted="false">"Повернутися до свого дня"</string>
+    <string name="core_action_failed" formatted="false">"Не вдалося виконати дію"</string>
+    <string name="core_understood" formatted="false">"Зрозуміло"</string>
+    <string name="core_restore_available" formatted="false">"Відновити резервну копію можна в розділі «Ще»."</string>
+    <string name="core_eaten_today" formatted="false">"З\'ЇДЕНО СЬОГОДНІ"</string>
+    <string name="core_set_goal_hint" formatted="false">"Ціль можна встановити в розділі «Ще»"</string>
+    <string name="core_add_food" formatted="false">"+ Додати їжу"</string>
+    <string name="core_first_meal" formatted="false">"Почніть із першого прийому їжі"</string>
+    <string name="core_first_meal_help" formatted="false">"Виберіть продукт і введіть його вагу в грамах, щоб розрахувати калорії та БЖВ."</string>
+    <string name="core_my_day" formatted="false">"Мій день"</string>
+    <string name="core_my_day_help" formatted="false">"Вага, талія, кроки, сон — записуйте ті дані, які маєте."</string>
+    <string name="core_record_metrics" formatted="false">"Записати показники"</string>
+    <string name="core_edit_metrics" formatted="false">"Змінити показники"</string>
+    <string name="core_food_state_hint" formatted="false">"Вага та харчова цінність мають відповідати одному стану продукту: сирому, сухому або готовому."</string>
+    <string name="core_weight" formatted="false">"Вага"</string>
+    <string name="core_waist" formatted="false">"Талія"</string>
+    <string name="core_my_diary" formatted="false">"Мій щоденник"</string>
+    <string name="core_diary_tagline" formatted="false">"Кожен день у вашому ритмі"</string>
+    <string name="core_record_day" formatted="false">"+ Записати день"</string>
+    <string name="core_optional_diary_help" formatted="false">"Усі показники необов\'язкові. Можна записати лише вагу, сон або нотатку. Натисніть на запис, щоб змінити його."</string>
+    <string name="core_history_starts" formatted="false">"Ваша історія починається тут"</string>
+    <string name="core_history_help" formatted="false">"Записуйте показники та стежте за змінами на графіках."</string>
+    <string name="core_file_unavailable" formatted="false">"Файл недоступний"</string>
+    <string name="core_backup_saved" formatted="false">"Резервну копію збережено"</string>
+    <string name="core_export_error" formatted="false">"Не вдалося експортувати резервну копію"</string>
+    <string name="core_read_error" formatted="false">"Не вдалося прочитати файл"</string>
+    <string name="core_settings_tagline" formatted="false">"Налаштування та резервні копії"</string>
+    <string name="core_your_progress" formatted="false">"Ваш прогрес"</string>
+    <string name="core_achievements_help" formatted="false">"Невеликі досягнення допомагають виробити звичку вести щоденник."</string>
+    <string name="core_achievements" formatted="false">"Досягнення"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Необов\'язковий вхід для синхронізації щоденника між пристроями."</string>
+    <string name="core_cloud_sync" formatted="false">"Хмарна синхронізація"</string>
+    <string name="core_personal_goals" formatted="false">"Особисті цілі"</string>
+    <string name="core_personal_goals_help" formatted="false">"Самостійно встановіть цілі калорій, БЖВ і ваги. Будь-яку ціль можна залишити порожньою."</string>
+    <string name="core_configure_goals" formatted="false">"Налаштувати цілі"</string>
+    <string name="core_backup" formatted="false">"Резервна копія"</string>
+    <string name="core_backup_help" formatted="false">"Продукти, прийоми їжі, щоденник, цілі та досягнення в одному файлі. Створіть копію перед перевстановленням застосунку."</string>
+    <string name="core_save_file" formatted="false">"Зберегти у файл"</string>
+    <string name="core_restore_file" formatted="false">"Відновити з файлу"</string>
+    <string name="core_write_locked" formatted="false">"Збереження вимкнено, щоб захистити початковий файл. Відновіть справну резервну копію."</string>
+    <string name="core_about_data" formatted="false">"Про застосунок і ваші дані"</string>
+    <string name="core_about_data_help" formatted="false">"Як зберігаються, синхронізуються та видаляються записи."</string>
+    <string name="core_privacy" formatted="false">"Конфіденційність і видалення даних"</string>
+    <string name="core_offline" formatted="false">"Працює без інтернету"</string>
+    <string name="core_offline_help" formatted="false">"Вхід через Google необов\'язковий. Кроки та сон вводяться вручну. Інтернет потрібен для ввімкненої синхронізації та завантаження реклами. Записи щоденника не передаються рекламній мережі."</string>
+    <string name="core_about_foods" formatted="false">"Про продукти"</string>
+    <string name="core_foods_reference" formatted="false">"Вбудовані значення приблизні, на 100 г їстівної частини. Точні дані звіряйте з упаковкою. Зміна продукту не перераховує вже записані прийоми їжі."</string>
+    <string name="core_foods_source" formatted="false">"Джерело бази: USDA FoodData Central, SR Legacy. Для кожного продукту вказано його стан і джерело."</string>
+    <string name="core_restore_title" formatted="false">"Відновити цю копію?"</string>
+    <string name="core_restore_warning" formatted="false">"Поточні продукти, щоденник, цілі та досягнення буде замінено даними з цього файлу. Спочатку створіть резервну копію. Якщо синхронізацію підключено, відновлені дані також буде надіслано в Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Резервну копію відновлено"</string>
+    <string name="core_invalid_file" formatted="false">"Некоректний файл"</string>
+    <string name="core_replace_data" formatted="false">"Замінити дані"</string>
+    <string name="core_cancel" formatted="false">"Скасувати"</string>
+    <string name="core_save" formatted="false">"Зберегти"</string>
+    <string name="core_calculate_portion" formatted="false">"Розрахувати порцію"</string>
+    <string name="core_edit_portion" formatted="false">"Змінити порцію"</string>
+    <string name="core_portion_weight" formatted="false">"Вага порції, г"</string>
+    <string name="core_portion_invalid" formatted="false">"Введіть вагу понад 0 і не більше 100 000 г"</string>
+    <string name="core_add_to_diary" formatted="false">"Додати до щоденника"</string>
+    <string name="core_delete_entry" formatted="false">"Видалити запис"</string>
+    <string name="core_delete_portion_question" formatted="false">"Видалити цю порцію зі щоденника?"</string>
+    <string name="core_new_food" formatted="false">"Новий продукт або страва"</string>
+    <string name="core_edit_nutrition" formatted="false">"Змінити харчову цінність"</string>
+    <string name="core_name" formatted="false">"Назва"</string>
+    <string name="core_food" formatted="false">"Продукт"</string>
+    <string name="core_dish" formatted="false">"Готова страва"</string>
+    <string name="core_category" formatted="false">"Категорія"</string>
+    <string name="core_per100_hint" formatted="false">"Значення на 100 г з упаковки або рецепта. Введіть 0, якщо поживна речовина відсутня."</string>
+    <string name="core_kcal" formatted="false">"Калорії"</string>
+    <string name="core_protein_grams" formatted="false">"Білки, г"</string>
+    <string name="core_fat_grams" formatted="false">"Жири, г"</string>
+    <string name="core_carbs_grams" formatted="false">"Вуглеводи, г"</string>
+    <string name="core_food_note" formatted="false">"Нотатка, склад (необов\'язково)"</string>
+    <string name="core_favorite" formatted="false">"Додати до обраного"</string>
+    <string name="core_name_category_required" formatted="false">"Введіть назву та категорію"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Введіть значення на 100 г: калорії від 0 до 1 000; білки, жири та вуглеводи від 0 до 100 г"</string>
+    <string name="core_delete_food" formatted="false">"Видалити з продуктів"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Раніше записані прийоми їжі збережуть свої значення."</string>
+    <string name="core_delete_food_question" formatted="false">"Видалити цей продукт? Його записи в щоденнику залишаться."</string>
+    <string name="core_day_entry" formatted="false">"Запис дня"</string>
+    <string name="core_optional_fields" formatted="false">"Заповнюйте будь-які поля. Решту залишайте порожніми."</string>
+    <string name="core_editing_existing" formatted="false">"На цю дату вже є запис. Зараз ви редагуєте його."</string>
+    <string name="core_weight_kg" formatted="false">"Вага, кг"</string>
+    <string name="core_waist_cm" formatted="false">"Талія, см"</string>
+    <string name="core_steps" formatted="false">"Кроки"</string>
+    <string name="core_sleep" formatted="false">"Сон"</string>
+    <string name="core_hours" formatted="false">"Години"</string>
+    <string name="core_minutes" formatted="false">"Хвилини"</string>
+    <string name="core_body_fat_optional" formatted="false">"Жир за показами ваг, % (необов\'язково)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Відсоток жиру на вагах допомагає стежити за тенденцією, але не є точним вимірюванням."</string>
+    <string name="core_strength_training" formatted="false">"Силове тренування"</string>
+    <string name="core_training_example" formatted="false">"Наприклад: присідання 3×10, гантелі по 12 кг"</string>
+    <string name="core_manual_nutrition" formatted="false">"Підсумки харчування вручну"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Якщо заповнити, ці значення замінять денні підсумки за продуктами. Залиште порожніми для автоматичного розрахунку."</string>
+    <string name="core_daily_calories" formatted="false">"Калорії за день"</string>
+    <string name="core_daily_protein" formatted="false">"Білок за день, г"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Нотатки та самопочуття"</string>
+    <string name="core_steps_invalid" formatted="false">"Кроки: ціле число від 0 до 200 000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Сон: 0–24 години, 0–59 хвилин"</string>
+    <string name="core_body_fat" formatted="false">"Жир у тілі"</string>
+    <string name="core_calories" formatted="false">"Калорії"</string>
+    <string name="core_protein" formatted="false">"Білок"</string>
+    <string name="core_entry_required" formatted="false">"Додайте хоча б один показник або нотатку"</string>
+    <string name="core_delete_day" formatted="false">"Видалити запис дня"</string>
+    <string name="core_optional_goals" formatted="false">"Усі цілі необов\'язкові. Порожнє поле означає, що ціль не встановлено."</string>
+    <string name="core_calories_per_day" formatted="false">"Калорії на день"</string>
+    <string name="core_protein_per_day" formatted="false">"Білок на день, г"</string>
+    <string name="core_fat_per_day" formatted="false">"Жири на день, г"</string>
+    <string name="core_carbs_per_day" formatted="false">"Вуглеводи на день, г"</string>
+    <string name="core_target_weight" formatted="false">"Цільова вага, кг"</string>
+    <string name="core_goals_invalid" formatted="false">"Перевірте цілі: калорії від 0 до 10 000; білки, жири та вуглеводи від 0 до 1 000 г"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Цільова вага: від 1 до 500 кг"</string>
+    <string name="core_delete_question" formatted="false">"Видалити?"</string>
+    <string name="core_delete" formatted="false">"Видалити"</string>
+    <string name="core_select_food" formatted="false">"Вибрати продукт"</string>
+    <string name="core_foods_dishes" formatted="false">"Продукти та страви"</string>
+    <string name="core_search_food" formatted="false">"Пошук продукту або страви"</string>
+    <string name="core_new_food_button" formatted="false">"+ Продукт / страва"</string>
+    <string name="core_recipe_button" formatted="false">"З рецепта"</string>
+    <string name="core_no_results" formatted="false">"Нічого не знайдено"</string>
+    <string name="core_no_results_help" formatted="false">"Спробуйте інший запит або додайте власний продукт чи готову страву."</string>
+    <string name="core_edit" formatted="false">"Змінити"</string>
+    <string name="core_achievement_unlocked">"🏆 Відкрито досягнення! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Залишилося %1$s ккал · ціль %2$s"</string>
+    <string name="core_above_goal">"На %1$s ккал понад ціль"</string>
+    <string name="core_portion_summary">"%1$s г · %2$s ккал"</string>
+    <string name="core_macros_summary">"Білки %1$s   Жири %2$s   Вуглеводи %3$s"</string>
+    <string name="core_weight_summary">"Вага %1$s кг"</string>
+    <string name="core_waist_summary">"Талія %1$s см"</string>
+    <string name="core_steps_summary">"Кроки: %1$s"</string>
+    <string name="core_fat_summary">"Жир %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s ккал (вручну)"</string>
+    <string name="core_manual_protein">"Білок %1$s г (вручну)"</string>
+    <string name="core_kg_value">"%1$s кг"</string>
+    <string name="core_cm_value">"%1$s см"</string>
+    <string name="core_sleep_value">"Сон %1$s"</string>
+    <string name="core_scale_fat">"Жир за показами ваг %1$s%%"</string>
+    <string name="core_training_value">"Тренування: %1$s"</string>
+    <string name="core_kcal_value">"%1$s ккал"</string>
+    <string name="core_protein_value">"Білок %1$s г"</string>
+    <string name="core_app_version">"Щоденник харчування · %1$s"</string>
+    <string name="core_per100_summary">"На 100 г: %1$s ккал · Білки %2$s · Жири %3$s · Вуглеводи %4$s"</string>
+    <string name="core_range_invalid">"%1$s: введіть значення від %2$s до %3$s"</string>
+    <string name="core_delete_day_question">"Видалити показники за %1$s? Прийоми їжі залишаться."</string>
+    <string name="core_catalog_count">"Продуктів: %1$s · значення на 100 г"</string>
+    <string name="core_catalog_nutrition">"%1$s ккал   ·   Білки %2$s   Жири %3$s   Вуглеводи %4$s"</string>
+    <string name="core_today_date">"Сьогодні · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Калорії та білок — це підсумки, введені вручну в щоденнику"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Калорії — це підсумок, введений вручну в щоденнику"</string>
+    <string name="core_manual_protein_total" formatted="false">"Білок — це підсумок, введений вручну в щоденнику"</string>
+    <string name="core_macro_goals">"Цілі Б / Ж / В: %1$s / %2$s / %3$s г"</string>
+    <string name="core_kcal_unit" formatted="false">"ккал"</string>
+    <string name="core_manual_values">"%1$s (вручну)"</string>
+    <string name="core_all" formatted="false">"Усі"</string>
+    <string name="core_favorites" formatted="false">"Обране"</string>
+    <string name="core_sleep_duration">"%1$s год %2$s хв"</string>
+    <string name="core_previous_day" formatted="false">"Попередній день"</string>
+    <string name="core_next_day" formatted="false">"Наступний день"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Резервна копія міграції не збігається"</string>
+    <string name="data_entry_exists" formatted="false">"Такий запис їжі вже існує"</string>
+    <string name="data_entry_missing" formatted="false">"Запис їжі не знайдено"</string>
+    <string name="data_edited_date_changed" formatted="false">"Дата редагованого запису змінилася"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Локальний ідентифікатор пристрою пошкоджено; відновлення заблоковано"</string>
+    <string name="data_sync_invalid" formatted="false">"Некоректні дані синхронізації"</string>
+    <string name="data_diary_read_only" formatted="false">"Щоденник захищено від перезапису: відновіть резервну копію"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Дані щоденника неузгоджені"</string>
+    <string name="data_backup_too_large" formatted="false">"Резервна копія завелика"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Ідентифікатор установлення пошкоджено"</string>
+    <string name="data_save_verification_failed" formatted="false">"Не вдалося перевірити збереження щоденника"</string>
+    <string name="data_save_failed" formatted="false">"Не вдалося зберегти щоденник"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Резервна копія перевищує 50 МБ"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Файл щоденника завеликий"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Некоректний розмір бази продуктів"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Непідтримувана версія резервної копії"</string>
+    <string name="data_too_many_values">"Забагато значень у %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Забагато продуктів"</string>
+    <string name="data_too_many_entries" formatted="false">"Забагато записів їжі"</string>
+    <string name="data_too_many_logs" formatted="false">"Забагато записів щоденника"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Повторний ідентифікатор продукту"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Повторний ідентифікатор запису їжі"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Повторна дата щоденника"</string>
+    <string name="data_label_product_id" formatted="false">"Ідентифікатор продукту"</string>
+    <string name="data_label_product_name" formatted="false">"Назва продукту"</string>
+    <string name="data_label_category" formatted="false">"Категорія"</string>
+    <string name="data_label_note" formatted="false">"Нотатка"</string>
+    <string name="data_label_entry_id" formatted="false">"Ідентифікатор запису"</string>
+    <string name="data_label_meal" formatted="false">"Прийом їжі"</string>
+    <string name="data_food_weight_range" formatted="false">"Вага їжі має бути понад 0 і не більше 100 000 г"</string>
+    <string name="data_label_weight" formatted="false">"Вага"</string>
+    <string name="data_label_waist" formatted="false">"Талія"</string>
+    <string name="data_steps_range" formatted="false">"Кількість кроків має бути від 0 до 200 000"</string>
+    <string name="data_label_sleep" formatted="false">"Сон"</string>
+    <string name="data_label_body_fat" formatted="false">"Жир у тілі"</string>
+    <string name="data_label_daily_calories" formatted="false">"Калорії за день"</string>
+    <string name="data_label_daily_protein" formatted="false">"Білок за день"</string>
+    <string name="data_label_workout" formatted="false">"Тренування"</string>
+    <string name="data_label_log_note" formatted="false">"Нотатка"</string>
+    <string name="data_log_empty" formatted="false">"Введіть хоча б один показник або нотатку"</string>
+    <string name="data_label_goal_weight" formatted="false">"Цільова вага"</string>
+    <string name="data_too_many_achievements" formatted="false">"Забагато досягнень"</string>
+    <string name="data_achievement_invalid" formatted="false">"Некоректне досягнення"</string>
+    <string name="data_setting_not_portable" formatted="false">"Це налаштування не можна перенести"</string>
+    <string name="data_setting_invalid">"Некоректне значення налаштування %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Калорії"</string>
+    <string name="data_label_protein" formatted="false">"Білок"</string>
+    <string name="data_label_fat" formatted="false">"Жири"</string>
+    <string name="data_label_carbs" formatted="false">"Вуглеводи"</string>
+    <string name="data_value_range">"%1$s: допустимий діапазон від %2$s до %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: некоректна довжина"</string>
+    <string name="data_text_character_invalid">"%1$s: недопустимий символ"</string>
+    <string name="data_date_format_invalid" formatted="false">"Дата має бути у форматі РРРР-ММ-ДД"</string>
+    <string name="data_date_nonexistent">"Некоректна дата: %1$s"</string>
+    <string name="data_field_string_required">"Поле %1$s має містити текст"</string>
+    <string name="data_field_boolean_required">"Поле %1$s має бути логічним значенням"</string>
+    <string name="data_field_number_required">"Поле %1$s має бути числом"</string>
+    <string name="data_field_finite_required">"Поле %1$s має бути скінченним числом"</string>
+    <string name="data_field_integer_required">"Поле %1$s має бути цілим числом"</string>
+    <string name="data_too_many_items">"Забагато елементів у %1$s"</string>
+    <string name="data_data_file_invalid">"Некоректний файл даних: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Відсутній ідентифікатор пристрою"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Досягнуто межі логічного годинника"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Забагато записів синхронізації"</string>
+    <string name="data_sync_version_required" formatted="false">"Для синхронізації потрібен формат версії 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Некоректний ключ синхронізації"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Повторний ключ синхронізації"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Некоректна ознака видалення"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Некоректні дані синхронізації"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Версія запису перевищує логічний годинник"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Дані не відповідають метаданим синхронізації"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Некоректна довжина ключа синхронізації"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Некоректний формат ключа синхронізації"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Невідомий тип синхронізації"</string>
+    <string name="data_record_id_too_long" formatted="false">"Ідентифікатор запису задовгий"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Некоректне видалення досягнення"</string>
+    <string name="data_log_key_invalid" formatted="false">"Некоректний ключ щоденника"</string>
+    <string name="data_log_field_unknown" formatted="false">"Невідоме поле щоденника"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Некоректна позначка видалення щоденника"</string>
+    <string name="data_goal_unknown" formatted="false">"Невідома ціль"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Видалений запис містить дані"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Некоректне значення синхронізації"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Ідентифікатор запису не відповідає ключу"</string>
+    <string name="data_field_value_invalid" formatted="false">"Некоректне значення поля"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Дата досягнення не відповідає ключу"</string>
+    <string name="data_note_string_required" formatted="false">"Нотатка має містити текст"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Некоректна синхронізована нотатка"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Некоректний логічний годинник"</string>
+    <string name="data_device_invalid" formatted="false">"Некоректний пристрій"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Некоректна позначка версії"</string>
+    <string name="data_google_login_required" formatted="false">"Увійдіть у Google ще раз"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Забагато хмарних резервних копій"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive повернув повторну сторінку"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Хмарна резервна копія перевищує 50 МБ"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive не повернув адресу завантаження"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Некоректна адреса завантаження Google Drive"</string>
+    <string name="data_back" formatted="false">"‹  Назад"</string>
+    <string name="data_cloud_title" formatted="false">"Хмарна синхронізація"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Ваш щоденник на всіх пристроях"</string>
+    <string name="data_no_account" formatted="false">"Обліковий запис не підключено"</string>
+    <string name="data_cloud_intro" formatted="false">"Вхід необов\'язковий. Продукти, їжа, показники, цілі та досягнення зберігаються на телефоні. Після підключення копія зберігатиметься у прихованій папці вашого Google Drive."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Під час першого підключення записи об\'єднуються. Застосунок не має доступу до інших файлів вашого Диска."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Вхід через Google ще не налаштовано для цієї версії. Щоденник і резервні копії у файлах працюють без облікового запису."</string>
+    <string name="data_connect_google" formatted="false">"Підключити Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Автоматична синхронізація"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Після змін і у фоні, коли дозволяє Android"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Не вдалося змінити розклад. Ваші дані збережено на цьому пристрої."</string>
+    <string name="data_sync_start_failed" formatted="false">"Не вдалося почати синхронізацію. Ваші дані збережено на цьому пристрої."</string>
+    <string name="data_sync_now" formatted="false">"Синхронізувати зараз"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Увійдіть у Google ще раз"</string>
+    <string name="data_disconnect_account" formatted="false">"Від\'єднати обліковий запис"</string>
+    <string name="data_sync_never" formatted="false">"Синхронізації ще не було"</string>
+    <string name="data_offline_saved_title" formatted="false">"Ваші дані збережено офлайн"</string>
+    <string name="data_cloud_merge_description" formatted="false">"За ввімкненої автоматичної синхронізації зміни надсилаються, щойно з\'являється зв\'язок. Якщо одне поле змінено на двох пристроях, використовується версія з пізнішою часовою позначкою зміни. Незалежні записи та поля об\'єднуються."</string>
+    <string name="data_cloud_password_description" formatted="false">"Пароль ви вводите лише на сторінці Google у браузері. Токени доступу захищено Android Keystore і виключено з резервних копій."</string>
+    <string name="data_google_connection_title" formatted="false">"Підключення Google"</string>
+    <string name="data_got_it" formatted="false">"Зрозуміло"</string>
+    <string name="data_connect_drive_title" formatted="false">"Підключити Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Поточний щоденник буде об\'єднано з даними вибраного облікового запису Google. Використовуйте той самий особистий обліковий запис на своїх пристроях. Вхід відкриється у типовому браузері."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Не вдалося відкрити вхід. Установіть або ввімкніть типовий браузер і спробуйте ще раз."</string>
+    <string name="data_continue" formatted="false">"Продовжити"</string>
+    <string name="data_cancel" formatted="false">"Скасувати"</string>
+    <string name="data_disconnect_title" formatted="false">"Від\'єднати обліковий запис?"</string>
+    <string name="data_disconnect_description" formatted="false">"Синхронізація на цьому пристрої зупиниться. Локальний щоденник і копії в Google Drive залишаться. Дозволом застосунку можна керувати в налаштуваннях облікового запису Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Не вдалося від\'єднати обліковий запис. Спробуйте ще раз."</string>
+    <string name="data_disconnect" formatted="false">"Від\'єднати"</string>
+    <string name="data_google_not_connected" formatted="false">"Google не підключено"</string>
+    <string name="data_sync_ready" formatted="false">"Готово до синхронізації"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Зміни очікують на синхронізацію…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Немає інтернету. Зміни збережено на цьому пристрої."</string>
+    <string name="data_google_not_configured" formatted="false">"Вхід через Google ще не налаштовано для цієї версії"</string>
+    <string name="data_sync_wait" formatted="false">"Дочекайтеся завершення синхронізації"</string>
+    <string name="data_google_connecting" formatted="false">"Підключення до Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Підключення скасовано"</string>
+    <string name="data_connection_rejected" formatted="false">"Підключення скасовано або відхилено Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google підключено. Об\'єднання записів…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Не вдалося підключити Google. Перевірте інтернет і налаштування доступу."</string>
+    <string name="data_account_disconnected" formatted="false">"Обліковий запис від\'єднано. Ваші дані залишаються на цьому пристрої."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Немає інтернету. Синхронізація очікує на з\'єднання."</string>
+    <string name="data_sync_scheduled" formatted="false">"Синхронізацію заплановано…"</string>
+    <string name="data_sync_running" formatted="false">"Синхронізація…"</string>
+    <string name="data_sync_complete" formatted="false">"Синхронізацію завершено"</string>
+    <string name="data_no_internet" formatted="false">"Немає з\'єднання з інтернетом"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Не вдалося синхронізувати. Ваші дані збережено на цьому пристрої"</string>
+    <string name="data_page_open_failed" formatted="false">"Не вдалося відкрити сторінку. Її адресу можна скопіювати з тексту нижче."</string>
+    <string name="data_privacy_title" formatted="false">"Конфіденційність"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Ваші записи та керування даними"</string>
+    <string name="data_app_purpose" formatted="false">"Про цей застосунок"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Цей застосунок не є медичним виробом. Він не діагностує, не лікує, не зцілює і не запобігає захворюванням. Для медичних порад, діагностики та лікування звертайтеся до кваліфікованого медичного фахівця."</string>
+    <string name="data_manage_delete_data" formatted="false">"Керування та видалення даних"</string>
+    <string name="data_delete_data_intro" formatted="false">"Перед повним видаленням даних вимкніть синхронізацію на всіх пристроях. Видалення застосунку з телефона не видаляє копії в Google Drive або експортовані файли."</string>
+    <string name="data_manage_drive_data" formatted="false">"Керувати даними Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Доступ облікового запису Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Сховище застосунку в Android"</string>
+    <string name="data_contact_developer" formatted="false">"Зв\'язатися з розробником"</string>
+    <string name="data_opening_page" formatted="false">"Відкриття сторінки"</string>
+    <string name="data_advertisement" formatted="false">"РЕКЛАМА"</string>
+    <string name="data_ad_information" formatted="false">"Про цю рекламу"</string>
+    <string name="data_cloud_http_error">"Помилка HTTP хмари %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Відповідь хмари завелика"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Некоректний зашифрований сеанс входу"</string>
+    <string name="data_session_save_failed" formatted="false">"Не вдалося зберегти сеанс входу"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Не вдалося поновити доступ до Google"</string>
+    <string name="data_diary_read_failed">"Не вдалося прочитати щоденник. Початковий файл збережено. Відновіть дані з резервної копії. %1$s"</string>
+    <string name="data_last_sync">"Остання синхронізація: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Фрукти та ягоди"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Сухофрукти"</string>
+    <string name="data_category_vegetables" formatted="false">"Овочі та зелень"</string>
+    <string name="data_category_mushrooms" formatted="false">"Гриби"</string>
+    <string name="data_category_grains" formatted="false">"Крупи та макарони"</string>
+    <string name="data_category_legumes" formatted="false">"Бобові"</string>
+    <string name="data_category_meat" formatted="false">"М\'ясо та птиця"</string>
+    <string name="data_category_fish" formatted="false">"Риба та морепродукти"</string>
+    <string name="data_category_dairy" formatted="false">"Молочні продукти"</string>
+    <string name="data_category_eggs" formatted="false">"Яйця"</string>
+    <string name="data_category_oils" formatted="false">"Олії та масло"</string>
+    <string name="data_category_nuts" formatted="false">"Горіхи та насіння"</string>
+    <string name="data_category_bread" formatted="false">"Хліб"</string>
+    <string name="data_category_other" formatted="false">"Інші продукти"</string>
+    <string name="data_category_dishes" formatted="false">"Готові страви"</string>
+    <string name="data_category_custom" formatted="false">"Мої продукти"</string>
+    <string name="data_category_other_short" formatted="false">"Інше"</string>
+    <string name="data_food_seed_9003" formatted="false">"Яблуко зі шкіркою"</string>
+    <string name="data_catalog_note_1">"Довідкові значення на 100 г їстівної частини. Сирий продукт. Вуглеводи за USDA включають клітковину. Значення можна змінити за етикеткою продукту. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Банан без шкірки"</string>
+    <string name="data_food_seed_9021" formatted="false">"Абрикос без кісточки"</string>
+    <string name="data_food_seed_9037" formatted="false">"М\'якоть авокадо"</string>
+    <string name="data_food_seed_9050" formatted="false">"Лохина"</string>
+    <string name="data_food_seed_9070" formatted="false">"Черешня без кісточки"</string>
+    <string name="data_food_seed_9063" formatted="false">"Вишня без кісточки"</string>
+    <string name="data_food_seed_9078" formatted="false">"Журавлина"</string>
+    <string name="data_food_seed_9083" formatted="false">"Чорна смородина"</string>
+    <string name="data_food_seed_9084" formatted="false">"Червона та біла смородина"</string>
+    <string name="data_food_seed_9132" formatted="false">"Виноград"</string>
+    <string name="data_food_seed_9148" formatted="false">"М\'якоть ківі"</string>
+    <string name="data_food_seed_9150" formatted="false">"Лимон без шкірки"</string>
+    <string name="data_food_seed_9181" formatted="false">"М\'якоть дині канталупа"</string>
+    <string name="data_food_seed_9200" formatted="false">"М\'якоть апельсина"</string>
+    <string name="data_food_seed_9218" formatted="false">"М\'якоть мандарина"</string>
+    <string name="data_food_seed_9236" formatted="false">"Персик без кісточки"</string>
+    <string name="data_food_seed_9252" formatted="false">"Груша"</string>
+    <string name="data_food_seed_9266" formatted="false">"М\'якоть ананаса"</string>
+    <string name="data_food_seed_9279" formatted="false">"Слива без кісточки"</string>
+    <string name="data_food_seed_9286" formatted="false">"Зерна граната"</string>
+    <string name="data_food_seed_9295" formatted="false">"М\'якоть помело"</string>
+    <string name="data_food_seed_9302" formatted="false">"Малина"</string>
+    <string name="data_food_seed_9316" formatted="false">"Полуниця"</string>
+    <string name="data_food_seed_9326" formatted="false">"М\'якоть кавуна"</string>
+    <string name="data_food_seed_9191" formatted="false">"Нектарин без кісточки"</string>
+    <string name="data_food_seed_9176" formatted="false">"М\'якоть манго"</string>
+    <string name="data_food_seed_9107" formatted="false">"Аґрус"</string>
+    <string name="data_food_seed_9226" formatted="false">"М\'якоть папаї"</string>
+    <string name="data_food_seed_9089" formatted="false">"Свіжий інжир"</string>
+    <string name="data_food_seed_9111" formatted="false">"М\'якоть грейпфрута"</string>
+    <string name="data_food_seed_9032" formatted="false">"Курага без кісточки"</string>
+    <string name="data_catalog_note_2">"Довідкові значення на 100 г їстівної частини. Вуглеводи за USDA включають клітковину. Значення можна змінити за етикеткою продукту. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Чорнослив без кісточки"</string>
+    <string name="data_food_seed_9087" formatted="false">"Фініки без кісточки"</string>
+    <string name="data_food_seed_9298" formatted="false">"Темні родзинки без кісточок"</string>
+    <string name="data_food_seed_11529" formatted="false">"Свіжий помідор"</string>
+    <string name="data_food_seed_11205" formatted="false">"Огірок зі шкіркою"</string>
+    <string name="data_food_seed_11090" formatted="false">"Сира броколі"</string>
+    <string name="data_food_seed_11109" formatted="false">"Сира білокачанна капуста"</string>
+    <string name="data_food_seed_11124" formatted="false">"Сира морква"</string>
+    <string name="data_food_seed_11135" formatted="false">"Сира цвітна капуста"</string>
+    <string name="data_food_seed_11143" formatted="false">"Стебла селери"</string>
+    <string name="data_food_seed_11282" formatted="false">"Сира ріпчаста цибуля"</string>
+    <string name="data_food_seed_11291" formatted="false">"Зелена цибуля"</string>
+    <string name="data_food_seed_11304" formatted="false">"Сирий зелений горошок"</string>
+    <string name="data_food_seed_11333" formatted="false">"Зелений солодкий перець"</string>
+    <string name="data_food_seed_11821" formatted="false">"Червоний солодкий перець"</string>
+    <string name="data_food_seed_11352" formatted="false">"Сира картопля зі шкіркою"</string>
+    <string name="data_food_seed_11367" formatted="false">"Варена картопля без шкірки"</string>
+    <string name="data_catalog_note_3">"Довідкові значення на 100 г їстівної частини. Без додавання солі. Вуглеводи за USDA включають клітковину. Значення можна змінити за етикеткою продукту. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Сирий кабачок"</string>
+    <string name="data_food_seed_11209" formatted="false">"Сирий баклажан"</string>
+    <string name="data_food_seed_11422" formatted="false">"Сирий гарбуз"</string>
+    <string name="data_food_seed_11429" formatted="false">"Редиска"</string>
+    <string name="data_food_seed_11564" formatted="false">"Сира ріпа"</string>
+    <string name="data_food_seed_11080" formatted="false">"Сирий буряк"</string>
+    <string name="data_food_seed_11081" formatted="false">"Варений буряк"</string>
+    <string name="data_food_seed_11215" formatted="false">"Часник"</string>
+    <string name="data_food_seed_11216" formatted="false">"Корінь імбиру"</string>
+    <string name="data_food_seed_11457" formatted="false">"Сирий шпинат"</string>
+    <string name="data_food_seed_11253" formatted="false">"Листовий салат"</string>
+    <string name="data_food_seed_11297" formatted="false">"Свіжа петрушка"</string>
+    <string name="data_food_seed_2045" formatted="false">"Свіжий кріп"</string>
+    <string name="data_food_seed_11052" formatted="false">"Сира стручкова квасоля"</string>
+    <string name="data_food_seed_11167" formatted="false">"Сирі зерна солодкої кукурудзи"</string>
+    <string name="data_food_seed_11260" formatted="false">"Сирі печериці"</string>
+    <string name="data_food_seed_11261" formatted="false">"Варені печериці без солі"</string>
+    <string name="data_food_seed_11987" formatted="false">"Сирі гливи"</string>
+    <string name="data_food_seed_20009" formatted="false">"Суха гречана крупа"</string>
+    <string name="data_catalog_note_4">"Довідкові значення на 100 г їстівної частини. Обсмажена гречана крупа. Вуглеводи за USDA включають клітковину. Значення можна змінити за етикеткою продукту. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Гречка, зварена на воді"</string>
+    <string name="data_food_seed_20444" formatted="false">"Сухий білий рис"</string>
+    <string name="data_food_seed_20445" formatted="false">"Варений білий рис без солі"</string>
+    <string name="data_food_seed_20036" formatted="false">"Сухий бурий рис"</string>
+    <string name="data_food_seed_20037" formatted="false">"Варений бурий рис"</string>
+    <string name="data_food_seed_8120" formatted="false">"Сухі вівсяні пластівці"</string>
+    <string name="data_food_seed_8121" formatted="false">"Вівсянка на воді без солі"</string>
+    <string name="data_food_seed_20005" formatted="false">"Суха перлова крупа"</string>
+    <string name="data_food_seed_20006" formatted="false">"Варена перлова крупа"</string>
+    <string name="data_food_seed_20031" formatted="false">"Сухе пшоно"</string>
+    <string name="data_food_seed_20032" formatted="false">"Варене пшоно"</string>
+    <string name="data_food_seed_20420" formatted="false">"Сухі макарони"</string>
+    <string name="data_food_seed_20421" formatted="false">"Варені макарони без солі"</string>
+    <string name="data_food_seed_16070" formatted="false">"Варена сочевиця без солі"</string>
+    <string name="data_food_seed_16057" formatted="false">"Варений нут без солі"</string>
+    <string name="data_food_seed_16033" formatted="false">"Варена червона квасоля без солі"</string>
+    <string name="data_food_seed_5062" formatted="false">"Сира куряча грудка без шкіри"</string>
+    <string name="data_food_seed_5064" formatted="false">"Запечена куряча грудка без шкіри"</string>
+    <string name="data_food_seed_5219" formatted="false">"Сира грудка індички без шкіри"</string>
+    <string name="data_food_seed_5220" formatted="false">"Запечена грудка індички без шкіри"</string>
+    <string name="data_food_seed_23562" formatted="false">"Сирий яловичий фарш, 10% жиру"</string>
+    <string name="data_food_seed_23566" formatted="false">"Запечений яловичий фарш, 10% жиру"</string>
+    <string name="data_food_seed_10060" formatted="false">"Сира свиняча вирізка без видимого жиру"</string>
+    <string name="data_food_seed_10061" formatted="false">"Запечена свиняча вирізка"</string>
+    <string name="data_food_seed_15236" formatted="false">"Сирий атлантичний лосось"</string>
+    <string name="data_catalog_note_5">"Довідкові значення на 100 г їстівної частини. Сирий продукт. Вирощений у господарстві. Вуглеводи за USDA включають клітковину. Значення можна змінити за етикеткою продукту. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Запечений атлантичний лосось"</string>
+    <string name="data_catalog_note_6">"Довідкові значення на 100 г їстівної частини. Вирощений у господарстві. Вуглеводи за USDA включають клітковину. Значення можна змінити за етикеткою продукту. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Сира атлантична тріска"</string>
+    <string name="data_food_seed_15266" formatted="false">"Сирий минтай"</string>
+    <string name="data_food_seed_15121" formatted="false">"Консервований тунець у воді, без рідини"</string>
+    <string name="data_food_seed_15271" formatted="false">"Варені очищені креветки"</string>
+    <string name="data_food_seed_1211" formatted="false">"Молоко 3,25% жирності"</string>
+    <string name="data_food_seed_1174" formatted="false">"Молоко 2% жирності"</string>
+    <string name="data_food_seed_1082" formatted="false">"Молоко 1% жирності"</string>
+    <string name="data_food_seed_1116" formatted="false">"Натуральний йогурт із незбираного молока"</string>
+    <string name="data_food_seed_1256" formatted="false">"Знежирений грецький йогурт"</string>
+    <string name="data_food_seed_1015" formatted="false">"Зернистий сир 2% жирності"</string>
+    <string name="data_catalog_note_7">"Довідкові значення на 100 г їстівної частини. Зернистий сир; інші види кисломолочного сиру мають інші значення. Вуглеводи за USDA включають клітковину. Значення можна змінити за етикеткою продукту. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Сметана приблизно 19% жирності"</string>
+    <string name="data_food_seed_1009" formatted="false">"Сир чедер"</string>
+    <string name="data_food_seed_1026" formatted="false">"Моцарела з незбираного молока"</string>
+    <string name="data_food_seed_1019" formatted="false">"Сир фета"</string>
+    <string name="data_food_seed_1123" formatted="false">"Сире куряче яйце без шкаралупи"</string>
+    <string name="data_food_seed_1129" formatted="false">"Варене куряче яйце без шкаралупи"</string>
+    <string name="data_food_seed_1124" formatted="false">"Сирий білок курячого яйця"</string>
+    <string name="data_food_seed_1001" formatted="false">"Солоне вершкове масло"</string>
+    <string name="data_food_seed_4053" formatted="false">"Оливкова олія"</string>
+    <string name="data_food_seed_4506" formatted="false">"Соняшникова олія"</string>
+    <string name="data_food_seed_12061" formatted="false">"Мигдаль"</string>
+    <string name="data_food_seed_12155" formatted="false">"Ядра волоських горіхів"</string>
+    <string name="data_food_seed_12120" formatted="false">"Ядра фундука"</string>
+    <string name="data_food_seed_12151" formatted="false">"Сирі очищені фісташки"</string>
+    <string name="data_food_seed_12014" formatted="false">"Сушене очищене гарбузове насіння"</string>
+    <string name="data_food_seed_16087" formatted="false">"Сирий очищений арахіс"</string>
+    <string name="data_food_seed_18069" formatted="false">"Білий пшеничний хліб"</string>
+    <string name="data_food_seed_18075" formatted="false">"Цільнозерновий пшеничний хліб"</string>
+    <string name="data_food_seed_18060" formatted="false">"Житній хліб"</string>
+    <string name="data_food_seed_19296" formatted="false">"Мед"</string>
+    <string name="data_food_seed_19335" formatted="false">"Цукор"</string>
+    <string name="data_food_seed_19165" formatted="false">"Какао-порошок без цукру"</string>
+    <string name="data_food_seed_19904" formatted="false">"Темний шоколад, 70–85% какао"</string>
+    <string name="data_meal_breakfast" formatted="false">"Сніданок"</string>
+    <string name="data_meal_lunch" formatted="false">"Обід"</string>
+    <string name="data_meal_dinner" formatted="false">"Вечеря"</string>
+    <string name="data_meal_snack" formatted="false">"Перекус"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Політика конфіденційності Diet Diary\nРедакція від 9 жовтня 2026 року"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Застосунок: Diet Diary; російська назва в Google Play: «Дневник диеты: подсчёт калорий»; назва пакета: ru.dietdiary.offline.\nРозробник проєкту: Efreitor2001. З питань застосунку та обробки даних звертайтеся через https://github.com/Efreitor2001/kkalcal/issues . Звернення в GitHub публічні: не публікуйте дані про здоров\'я, резервні копії, паролі або токени."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Щоденник на вашому пристрої\nДля ведення щоденника реєстрація не потрібна. Застосунок зберігає продукти та їхню харчову цінність, порції й дати прийомів їжі, вагу, талію, відсоток жиру, кроки, сон, описи тренувань, нотатки, цілі, досягнення та налаштування у своєму приватному сховищі на пристрої. Необов\'язкові поля можна залишати порожніми. Кроки, сон і показники вводяться вручну; застосунок не читає дані Health Connect, датчиків фізичної активності або медичних пристроїв."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Ці відомості використовуються для розрахунку калорій і БЖВ, показу історії, графіків та досягнень. Розробник не має сервера, який отримує вміст щоденника. Якщо ви не підключаєте Google Drive і самостійно не ділитеся резервною копією, ваші записи залишаються на пристрої."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Необов\'язкове підключення Google Drive\nНа ваш запит застосунок відкриває вхід Google у типовому браузері та запитує доступ до свого прихованого сховища даних у вашому Google Drive. Цей дозвіл не надає доступу до звичайних документів і фотографій на Диску."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Після підключення продукти, прийоми їжі, показники щоденника, нотатки, цілі, досягнення, переносні налаштування та метадані змін, зокрема випадкові ідентифікатори встановлення й часові позначки, надсилаються Google. Вони використовуються для створення резервних знімків і об\'єднання записів між вашими пристроями. Якщо ввімкнено автоматичну синхронізацію, зміни також надсилаються у фоні за наявності мережі. Автоматичну синхронізацію можна вимкнути окремо."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Застосунок отримує електронну адресу та ідентифікатор вибраного облікового запису Google, щоб показати підключення та пов\'язати його з правильним сховищем. Ваш пароль Google не передається застосунку. Сеанс авторизації зберігається на пристрої в зашифрованому вигляді за допомогою ключа в Android Keystore. Токени, електронні адреси та ідентифікатори Google виключено з експорту щоденника й синхронізованих знімків JSON."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Дані Google використовуються лише для авторизації та синхронізації, а не для реклами. Застосовується політика конфіденційності Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Файли резервних копій\n«Зберегти у файл» створює файл JSON у вибраному вами місці. Відновлення читає лише вибраний файл. Якщо ви обираєте хмарного постачальника файлів або передаєте копію іншій особі, одержувача визначаєте ви. Застосунок не шифрує експортовані файли JSON: вони містять особисті дані та метадані змін."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Реклама\nЗастосунок використовує Yandex Mobile Ads SDK. Для завантаження та показу реклами пристрій підключається до рекламних сервісів. Yandex може обробляти вашу IP-адресу й інші технічні відомості про мережевий запит, пристрій і програмне забезпечення, доступні рекламні або технічні ідентифікатори, а також відомості про покази реклами та взаємодії з нею."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Застосунок передає SDK ознаку відсутності згоди, вимикає збір геолокації та звіти App Ad Analytics. Він не запитує дозволи на точне або приблизне місцезнаходження. Ці налаштування не означають, що рекламний сервіс узагалі не здійснює мережевих звернень або обробки технічних даних."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Застосунок не використовує прийоми їжі, вагу, вимірювання, нотатки, цілі, електронні адреси або ідентифікатори Google для рекламного таргетування та не додає їх до параметрів рекламних запитів. Перегляд реклами не потрібен для збереження записів."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Правила Yandex щодо обробки, зберігання та видалення даних: https://yandex.ru/legal/confidential/ . Рекламним ідентифікатором можна керувати в налаштуваннях Android, якщо це підтримує ваша версія системи. Строк зберігання технічних даних рекламного сервісу визначає його політика; розробник щоденника не встановлює для них окремого строку."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Захист даних\nОбмін із Google використовує HTTPS; Yandex повідомляє, що дані SDK передаються через HTTPS/TLS. Локальний щоденник захищено ізоляцією застосунків Android. Застосунок не шифрує окремо вміст щоденника та знімки JSON; наскрізного шифрування між пристроями немає."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Системне резервне копіювання даних застосунку вимкнено. Діагностичні журнали, які записує код застосунку, містять коди результатів без вмісту щоденника, електронних адрес, токенів або тіл мережевих відповідей; застосунок окремо не надсилає ці журнали розробнику."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Зберігання та видалення\nЛокальні записи зберігаються до їх редагування, видалення або очищення даних застосунку. Видалення запису прибирає його з інтерфейсу та передає позначку видалення під час синхронізації. Метадані об\'єднання зберігаються, щоб старі дані не з\'являлися знову; вони можуть містити попередні значення видаленого запису щоденника. Попередні значення також можуть залишатися у старих хмарних знімках і раніше створених вами файлах. Тому видалення одного запису не означає повного видалення всіх його копій."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"«Від\'єднати обліковий запис» зупиняє синхронізацію на цьому пристрої та видаляє локальний сеанс Google. Щоденник і знімки в Google Drive зберігаються. Від\'єднання застосунку не видаляє ваш обліковий запис Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Щоб повністю видалити дані цього застосунку:\n• Вимкніть синхронізацію на всіх пристроях, щоб решта копій не завантажилася повторно.\n• У браузері відкрийте https://drive.google.com/drive/settings під тим обліковим записом Google, який був підключений. Виберіть «Керування застосунками», знайдіть «Diet Diary» (або «Дневник диеты»), потім «Параметри» → «Видалити приховані дані застосунку». Якщо мобільна сторінка не показує цей розділ, скористайтеся версією сайту для комп\'ютера або комп\'ютером.\n• Відкличте доступ застосунку на https://myaccount.google.com/connections . Саме відкликання доступу не видаляє збережені копії.\n• Очистьте сховище застосунку в налаштуваннях Android на кожному пристрої або видаліть застосунок.\n• Видаліть окремо збережені резервні копії JSON у вибраних вами папках і хмарних сховищах."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Без ваших облікових даних розробник не може віддалено стерти локальний щоденник або файли з вашого особистого Google Drive. Не повідомляйте розробнику пароль чи токени. По допомогу з видаленням звертайтеся до проєкту за посиланням на початку цієї політики. Для видалення даних щоденника не потрібно видаляти обліковий запис Google."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Зміни та зв\'язок\nКоли функції застосунку або способи обробки даних змінюються, політика оновлюється із зазначенням дати редакції. З питань доступу, виправлення, видалення даних або роботи застосунку звертайтеся через канал зв\'язку проєкту. Ваші звернення обробляються для надання відповіді та зберігаються в GitHub; політика GitHub доступна за адресою https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Мої страви"</string>
+    <string name="secondary_metric_weight" formatted="false">"Вага"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Жир у тілі"</string>
+    <string name="secondary_metric_waist" formatted="false">"Талія"</string>
+    <string name="secondary_metric_steps" formatted="false">"Кроки"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Сон"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Калорії"</string>
+    <string name="secondary_metric_protein" formatted="false">"Білок"</string>
+    <string name="secondary_metric_fat" formatted="false">"Жири"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Вуглеводи"</string>
+    <string name="secondary_unit_kg" formatted="false">"кг"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"см"</string>
+    <string name="secondary_unit_steps" formatted="false">"кроків"</string>
+    <string name="secondary_unit_hours" formatted="false">"год"</string>
+    <string name="secondary_unit_kcal" formatted="false">"ккал"</string>
+    <string name="secondary_unit_grams" formatted="false">"г"</string>
+    <string name="secondary_invalid_period" formatted="false">"Некоректний період"</string>
+    <string name="secondary_stats_title" formatted="false">"Динаміка"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Ваші дані на зрозумілих графіках"</string>
+    <string name="secondary_metric" formatted="false">"Показник"</string>
+    <string name="secondary_week" formatted="false">"Тиждень"</string>
+    <string name="secondary_month" formatted="false">"Місяць"</string>
+    <string name="secondary_year" formatted="false">"Рік"</string>
+    <string name="secondary_custom_period" formatted="false">"Власний період"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Дата початку не може бути пізнішою за дату завершення"</string>
+    <string name="secondary_no_records" formatted="false">"Поки немає даних"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Додайте їжу до щоденника або виберіть інший період."</string>
+    <string name="secondary_chart_tap" formatted="false">"Торкніться графіка, щоб вибрати запис"</string>
+    <string name="secondary_chart_connected" formatted="false">"Лінія з\'єднує записані вимірювання. Між цими точками вимірювань немає."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Оцінки ваг корисні для спостереження за тенденціями."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Денний підсумок, введений вручну, замінює суму за продуктами. Інакше підсумовуються записані продукти. Дні без даних пропускаються."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Підсумки ґрунтуються на записаних продуктах. День без даних не вважається нулем."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Дні без даних пропускаються та не входять до середнього значення."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Сьогодні та вчора"</string>
+    <string name="secondary_no_today" formatted="false">"Немає даних за сьогодні"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Немає даних за вчора"</string>
+    <string name="secondary_partial_today" formatted="false">"Порівняння використовує поточні дані. Сьогоднішні дані можуть бути ще неповними."</string>
+    <string name="secondary_period_summary" formatted="false">"Підсумок періоду"</string>
+    <string name="secondary_recorded_average" formatted="false">"Середнє за записані дні"</string>
+    <string name="secondary_recorded_days" formatted="false">"Днів із даними"</string>
+    <string name="secondary_minimum" formatted="false">"Мінімум"</string>
+    <string name="secondary_maximum" formatted="false">"Максимум"</string>
+    <string name="secondary_first_to_last" formatted="false">"Від першого до останнього запису"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Для розрахунку зміни потрібні щонайменше два дні з даними."</string>
+    <string name="secondary_history" formatted="false">"Історія"</string>
+    <string name="secondary_history_recent" formatted="false">"Останні 14 днів із даними. Для старіших записів виберіть власний період."</string>
+    <string name="secondary_history_all" formatted="false">"Усі записані дні вибраного періоду"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Від %1$s"</string>
+    <string name="secondary_date_until">"До %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s за цей період"</string>
+    <string name="secondary_weight_goal">"Ціль: %1$s кг"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Додайте показник до щоденника або виберіть інший період."</string>
+    <string name="secondary_latest_record">"Останній запис · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Сьогодні: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Учора: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Зміна: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d із %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Записаних днів: %2$d, від %3$s до %4$s. Мінімум %5$s, максимум %6$s %7$s. Докладні значення наведено в історії."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Перший крок"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Запишіть перше вимірювання ваги."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Ваше перше вимірювання ваги записано."</string>
+    <string name="secondary_award_first_food" formatted="false">"Перший запис"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Запишіть першу порцію їжі."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Вашу першу порцію їжі записано."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Тиждень даних"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Запишіть вагу протягом 7 різних днів. Вони не обов\'язково мають бути послідовними."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"У вас є вимірювання ваги за 7 різних днів."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Постійність"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Запишіть вагу протягом 30 різних днів."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"У вас є вимірювання ваги за 30 днів."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Архіваріус"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Запишіть у щоденник 100 порцій їжі."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Ви записали 100 порцій їжі."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Нова звичка"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Записуйте їжу 7 календарних днів поспіль."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Ви записували їжу 7 днів поспіль."</string>
+    <string name="secondary_award_steps" formatted="false">"Майстер ходьби"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Запишіть щонайменше 10 000 кроків за один день."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Ви записали день із 10 000 кроків."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Регулярні вимірювання"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Запишіть 100 вимірювань ваги. Враховується одне вимірювання на дату."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Ви записали 100 вимірювань ваги."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Досвідчений користувач щоденника"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Запишіть їжу або показники протягом 90 різних днів. Вони не обов\'язково мають бути послідовними."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Ваш щоденник містить записи за 90 різних днів."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"вимірювань"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"порцій"</string>
+    <string name="secondary_award_unit_days" formatted="false">"днів"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"днів поспіль"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"кроків за день"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"записаних днів"</string>
+    <string name="secondary_back" formatted="false">"‹  Назад"</string>
+    <string name="secondary_achievements" formatted="false">"Досягнення"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Маленькі кроки стають звичкою"</string>
+    <string name="secondary_your_progress" formatted="false">"ВАШ ПРОГРЕС"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Отримані досягнення залишаються навіть після редагування записів."</string>
+    <string name="secondary_awards_regular" formatted="false">"За регулярність і ведення щоденника"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Враховуються записи до сьогодні включно."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Приховане досягнення"</string>
+    <string name="secondary_hidden_description" formatted="false">"Продовжуйте вести щоденник, щоб відкрити це досягнення."</string>
+    <string name="secondary_earned" formatted="false">"Отримано"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Приховано · заблоковано"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"У процесі · заблоковано"</string>
+    <string name="secondary_locked" formatted="false">"Заблоковано"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Умова та ваш прогрес відкриються, коли ви отримаєте це досягнення."</string>
+    <string name="secondary_best_streak" formatted="false">"Найдовша серія"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Прихована нагорода"</string>
+    <string name="secondary_unlocked_of">"із %1$d відкрито"</string>
+    <string name="secondary_unlocked_date">"Відкрито %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Назад"</string>
+    <string name="secondary_my_recipe" formatted="false">"Мій рецепт"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Зважуйте інгредієнти до приготування. Для розрахунку порцій використовуйте вагу готової страви. Не забувайте про олію та соуси."</string>
+    <string name="secondary_recipe_name" formatted="false">"Назва рецепта"</string>
+    <string name="secondary_recipe_example" formatted="false">"Наприклад, овочеве рагу"</string>
+    <string name="secondary_ingredients" formatted="false">"Інгредієнти"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Почніть з інгредієнтів"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Додайте кожен інгредієнт і введіть його вагу в грамах."</string>
+    <string name="secondary_edit_weight" formatted="false">"Змінити вагу"</string>
+    <string name="secondary_delete" formatted="false">"Видалити"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Додати інгредієнт"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Увесь рецепт"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Під час приготування вага змінюється через додавання або випаровування води. Зважте готову страву без посуду."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Вага готової страви, г"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Введіть вагу після приготування"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Введіть вагу понад 0 і не більше 100 000 г"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Вага не заповнюється автоматично"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"На 100 г готової страви"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Перевірте вагу готової страви та інгредієнти: на 100 г допускається не більше 1 000 ккал і 100 г кожного макронутрієнта."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Не вдалося зберегти рецепт"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Зберегти в мої рецепти"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Після збереження страву можна додавати до щоденника за вагою порції."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Вага інгредієнта до приготування"</string>
+    <string name="secondary_grams" formatted="false">"Грами"</string>
+    <string name="secondary_weight_limits" formatted="false">"Понад 0 і не більше 100 000 г"</string>
+    <string name="secondary_add" formatted="false">"Додати"</string>
+    <string name="secondary_save" formatted="false">"Зберегти"</string>
+    <string name="secondary_cancel" formatted="false">"Скасувати"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Вибрати інгредієнт"</string>
+    <string name="secondary_search_food" formatted="false">"Пошук продуктів"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Нічого не знайдено. Можна додати власний продукт на вкладці «Продукти»."</string>
+    <string name="secondary_close" formatted="false">"Закрити"</string>
+    <string name="secondary_portion_energy">"%1$s г · %2$s ккал"</string>
+    <string name="secondary_portion_macros">"Білки %1$s · Жири %2$s · Вуглеводи %3$s г"</string>
+    <string name="secondary_ingredients_weight">"Вага інгредієнтів: %1$s г"</string>
+    <string name="secondary_energy">"%1$s ккал"</string>
+    <string name="secondary_grams_value">"%1$s г"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s ккал / 100 г"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s г"</string>
+    <string name="secondary_recipe_note">"Вага готової страви: %1$s г. Інгредієнти: %2$s"</string>
+</resources>

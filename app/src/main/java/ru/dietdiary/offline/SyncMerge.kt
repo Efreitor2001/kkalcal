@@ -29,10 +29,10 @@ internal object SyncMerge {
     private const val MAX_MILLIS = 253_402_300_799_999L // Last millisecond of year 9999.
 
     fun next(clock: SyncStamp, device: String, now: Long): SyncStamp {
-        require(device.isNotBlank()) { "Нет идентификатора устройства" }
+        require(device.isNotBlank()) { tr(R.string.data_device_id_missing) }
         val wall = maxOf(now.coerceIn(1, MAX_MILLIS), clock.millis)
         val counter = if (wall == clock.millis) Math.addExact(clock.counter, 1) else 0
-        require(counter < Long.MAX_VALUE) { "Логические часы исчерпаны" }
+        require(counter < Long.MAX_VALUE) { tr(R.string.data_logical_clock_exhausted) }
         return SyncStamp(wall, counter, device)
     }
 
@@ -42,7 +42,7 @@ internal object SyncMerge {
             val current = records[key]
             if (current == null || compare(incoming, current) > 0) records[key] = incoming
         }
-        require(records.size <= MAX_RECORDS) { "Слишком много записей синхронизации" }
+        require(records.size <= MAX_RECORDS) { tr(R.string.data_too_many_sync_records) }
         return SyncState(records.toSortedMap(), maxOf(a.clock, b.clock))
     }
 
@@ -105,7 +105,7 @@ internal object SyncMerge {
                 .map { it.substring(2).substringBefore('/') }.toSet() + after.achievements.keys
             awardIds.forEach { id -> result["a/$id/@deleted"] = SyncRecord(stamp, deleted = true) }
         }
-        require(result.size <= MAX_RECORDS) { "Слишком много записей синхронизации" }
+        require(result.size <= MAX_RECORDS) { tr(R.string.data_too_many_sync_records) }
         return SyncState(result.toSortedMap(), stamp)
     }
 
@@ -166,26 +166,26 @@ internal object SyncMerge {
     fun decode(text: String): SyncDocument {
         val data = DataJson.decode(text)
         val root = JSONObject(text)
-        require(root.getInt("version") == 2) { "Для синхронизации требуется формат версии 2" }
+        require(root.getInt("version") == 2) { tr(R.string.data_sync_version_required) }
         val metadata = root.getJSONObject("sync")
         val clock = readStamp(metadata.getJSONObject("clock"))
         val array = metadata.getJSONArray("records")
-        require(array.length() <= MAX_RECORDS) { "Слишком много записей синхронизации" }
+        require(array.length() <= MAX_RECORDS) { tr(R.string.data_too_many_sync_records) }
         val records = linkedMapOf<String, SyncRecord>()
         repeat(array.length()) { index ->
             val obj = array.getJSONObject(index)
-            val key = obj.get("key") as? String ?: throw IllegalArgumentException("Неверный ключ синхронизации")
-            require(key !in records) { "Повторяющийся ключ синхронизации" }
-            val deleted = obj.get("deleted") as? Boolean ?: throw IllegalArgumentException("Неверный флаг удаления")
+            val key = obj.get("key") as? String ?: throw IllegalArgumentException(tr(R.string.data_sync_key_invalid))
+            require(key !in records) { tr(R.string.data_sync_key_duplicate) }
+            val deleted = obj.get("deleted") as? Boolean ?: throw IllegalArgumentException(tr(R.string.data_deletion_flag_invalid))
             val value = if (obj.isNull("value")) null else obj.get("value") as? String
-                ?: throw IllegalArgumentException("Неверные данные синхронизации")
+                ?: throw IllegalArgumentException(tr(R.string.data_sync_data_invalid))
             val record = SyncRecord(readStamp(obj.getJSONObject("stamp")), deleted, value)
-            require(record.stamp <= clock) { "Версия записи превышает логические часы" }
+            require(record.stamp <= clock) { tr(R.string.data_record_clock_invalid) }
             validateRecord(key, record)
             records[key] = record
         }
         val state = SyncState(records.toSortedMap(), clock)
-        require(equivalent(data, materialize(state))) { "Данные не совпадают с метаданными синхронизации" }
+        require(equivalent(data, materialize(state))) { tr(R.string.data_sync_metadata_mismatch) }
         return SyncDocument(data, state)
     }
 
@@ -215,38 +215,38 @@ internal object SyncMerge {
     }
 
     private fun validateRecord(key: String, record: SyncRecord) {
-        require(key.length in 3..140) { "Некорректная длина ключа синхронизации" }
+        require(key.length in 3..140) { tr(R.string.data_sync_key_length_invalid) }
         val id = key.substring(2)
-        require(id.isNotBlank() && id.none { it.isISOControl() && it != '\n' && it != '\t' }) { "Некорректный ключ синхронизации" }
+        require(id.isNotBlank() && id.none { it.isISOControl() && it != '\n' && it != '\t' }) { tr(R.string.data_sync_key_malformed) }
         val kind = key.take(2)
-        require(kind in setOf("p/", "e/", "l/", "g/", "a/", "s/")) { "Неизвестный тип синхронизации" }
-        if (kind == "p/" || kind == "e/") require(id.length <= 120) { "ID записи слишком длинный" }
+        require(kind in setOf("p/", "e/", "l/", "g/", "a/", "s/")) { tr(R.string.data_sync_type_unknown) }
+        if (kind == "p/" || kind == "e/") require(id.length <= 120) { tr(R.string.data_record_id_too_long) }
         if (kind == "a/") {
             val awardId = id.substringBefore('/'); val date = id.substringAfter('/', "")
-            require(awardId.matches(Regex("[a-zA-Z0-9_]{1,100}"))) { "Некорректное достижение" }
-            if (date == "@deleted") require(record.deleted) { "Неверное удаление достижения" }
+            require(awardId.matches(Regex("[a-zA-Z0-9_]{1,100}"))) { tr(R.string.data_achievement_invalid) }
+            if (date == "@deleted") require(record.deleted) { tr(R.string.data_achievement_deletion_invalid) }
             else DataJson.validDate(date)
         }
         if (kind == "l/") {
-            require(key.length > 13 && key[12] == '/') { "Некорректный ключ дневника" }
+            require(key.length > 13 && key[12] == '/') { tr(R.string.data_log_key_invalid) }
             DataJson.validDate(key.substring(2, 12))
             val field = key.substring(13)
-            require(field in logFields || field == "@deleted") { "Неизвестное поле дневника" }
-            if (field == "@deleted") require(record.deleted) { "Неверная метка удаления дневника" }
+            require(field in logFields || field == "@deleted") { tr(R.string.data_log_field_unknown) }
+            if (field == "@deleted") require(record.deleted) { tr(R.string.data_log_deletion_invalid) }
         }
-        if (kind == "g/") require(id in goalFields && !record.deleted) { "Неизвестная цель" }
-        if (kind == "s/") require(id in portableSettings) { "Непереносимая настройка" }
+        if (kind == "g/") require(id in goalFields && !record.deleted) { tr(R.string.data_goal_unknown) }
+        if (kind == "s/") require(id in portableSettings) { tr(R.string.data_setting_not_portable) }
         if (record.deleted) {
-            require(record.value == null) { "Удалённая запись содержит данные" }
+            require(record.value == null) { tr(R.string.data_deleted_record_has_data) }
             return
         }
-        require(record.value != null && record.value.length <= 20_000) { "Неверное значение синхронизации" }
+        require(record.value != null && record.value.length <= 20_000) { tr(R.string.data_sync_value_invalid) }
         val value = JSONObject(record.value)
         when (kind) {
-            "p/", "e/" -> require(value.getString("id") == id) { "ID записи не совпадает с ключом" }
-            else -> require(value.has("v") && value.length() == 1) { "Неверное значение поля" }
+            "p/", "e/" -> require(value.getString("id") == id) { tr(R.string.data_record_id_mismatch) }
+            else -> require(value.has("v") && value.length() == 1) { tr(R.string.data_field_value_invalid) }
         }
-        if (kind == "a/") require(unScalar(record.value) == id.substringAfter('/')) { "Дата достижения не совпадает с ключом" }
+        if (kind == "a/") require(unScalar(record.value) == id.substringAfter('/')) { tr(R.string.data_achievement_date_mismatch) }
         // Validate hidden fields too: a tombstone must not hide a malformed payload in a backup.
         val validationRecords = when (kind) {
             "p/", "e/" -> mapOf(key to record)
@@ -254,9 +254,9 @@ internal object SyncMerge {
                 val v = unScalar(record.value)
                 val field = key.substring(13)
                 if (field == "note" || field == "training") {
-                    require(v is String) { "Заметка должна быть строкой" }
+                    require(v is String) { tr(R.string.data_note_string_required) }
                     require(v.length <= 2_000 && v.none { it.isISOControl() && it != '\n' && it != '\t' }) {
-                        "Некорректная заметка синхронизации"
+                        tr(R.string.data_sync_note_invalid)
                     }
                     if (v.isEmpty()) return
                 } else if (v == JSONObject.NULL) return
@@ -271,13 +271,13 @@ internal object SyncMerge {
     private fun readStamp(obj: JSONObject): SyncStamp {
         fun exactLong(key: String): Long {
             val value = obj.get(key)
-            require(value is Int || value is Long) { "Неверные логические часы" }
+            require(value is Int || value is Long) { tr(R.string.data_logical_clock_invalid) }
             return (value as Number).toLong()
         }
         val millis = exactLong("millis"); val counter = exactLong("counter")
-        val device = obj.get("device") as? String ?: throw IllegalArgumentException("Неверное устройство")
+        val device = obj.get("device") as? String ?: throw IllegalArgumentException(tr(R.string.data_device_invalid))
         require(millis in 0..MAX_MILLIS && counter in 0 until Long.MAX_VALUE &&
-            device.length in 1..120 && device.none { it.isISOControl() }) { "Неверная метка версии" }
+            device.length in 1..120 && device.none { it.isISOControl() }) { tr(R.string.data_version_stamp_invalid) }
         return SyncStamp(millis, counter, device)
     }
 

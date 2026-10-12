@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Uztura dienasgrāmata"</string>
+    <string name="core_app_name" formatted="false">"Uztura dienasgrāmata"</string>
+    <string name="core_tagline" formatted="false">"Kalorijas, svars un progress"</string>
+    <string name="core_open_diary" formatted="false">"Atvērt dienasgrāmatu"</string>
+    <string name="core_save_failed" formatted="false">"Neizdevās saglabāt datus"</string>
+    <string name="core_day" formatted="false">"Šodien"</string>
+    <string name="core_products" formatted="false">"Produkti"</string>
+    <string name="core_diary" formatted="false">"Dienasgrāmata"</string>
+    <string name="core_charts" formatted="false">"Diagrammas"</string>
+    <string name="core_more" formatted="false">"Vēl"</string>
+    <string name="core_recipe_saved" formatted="false">"Ēdiens saglabāts jūsu produktu sarakstā"</string>
+    <string name="core_back_to_day" formatted="false">"Atpakaļ uz dienu"</string>
+    <string name="core_action_failed" formatted="false">"Neizdevās veikt darbību"</string>
+    <string name="core_understood" formatted="false">"Labi"</string>
+    <string name="core_restore_available" formatted="false">"Rezerves kopiju var atjaunot sadaļā Vēl."</string>
+    <string name="core_eaten_today" formatted="false">"ŠODIEN APĒSTS"</string>
+    <string name="core_set_goal_hint" formatted="false">"Mērķi var iestatīt sadaļā Vēl"</string>
+    <string name="core_add_food" formatted="false">"+ Pievienot ēdienu"</string>
+    <string name="core_first_meal" formatted="false">"Sāciet ar pirmo maltīti"</string>
+    <string name="core_first_meal_help" formatted="false">"Izvēlieties produktu un ievadiet svaru gramos, lai aprēķinātu kalorijas un uzturvielas."</string>
+    <string name="core_my_day" formatted="false">"Mana diena"</string>
+    <string name="core_my_day_help" formatted="false">"Svars, viduklis, soļi, miegs — ierakstiet pieejamos datus."</string>
+    <string name="core_record_metrics" formatted="false">"Ierakstīt mērījumus"</string>
+    <string name="core_edit_metrics" formatted="false">"Rediģēt mērījumus"</string>
+    <string name="core_food_state_hint" formatted="false">"Svaram un uzturvērtībai jāattiecas uz vienādu produkta stāvokli: neapstrādātu, sausu vai pagatavotu."</string>
+    <string name="core_weight" formatted="false">"Svars"</string>
+    <string name="core_waist" formatted="false">"Vidukļa apkārtmērs"</string>
+    <string name="core_my_diary" formatted="false">"Mana dienasgrāmata"</string>
+    <string name="core_diary_tagline" formatted="false">"Katru dienu savā tempā"</string>
+    <string name="core_record_day" formatted="false">"+ Ierakstīt dienu"</string>
+    <string name="core_optional_diary_help" formatted="false">"Visi mērījumi ir neobligāti. Var ierakstīt tikai svaru, miegu vai piezīmi. Pieskarieties ierakstam, lai to rediģētu."</string>
+    <string name="core_history_starts" formatted="false">"Jūsu vēsture sākas šeit"</string>
+    <string name="core_history_help" formatted="false">"Ierakstiet mērījumus un sekojiet izmaiņām diagrammās."</string>
+    <string name="core_file_unavailable" formatted="false">"Fails nav pieejams"</string>
+    <string name="core_backup_saved" formatted="false">"Rezerves kopija saglabāta"</string>
+    <string name="core_export_error" formatted="false">"Neizdevās eksportēt rezerves kopiju"</string>
+    <string name="core_read_error" formatted="false">"Neizdevās nolasīt failu"</string>
+    <string name="core_settings_tagline" formatted="false">"Iestatījumi un rezerves kopijas"</string>
+    <string name="core_your_progress" formatted="false">"Jūsu progress"</string>
+    <string name="core_achievements_help" formatted="false">"Nelieli sasniegumi palīdz izveidot dienasgrāmatas rakstīšanas ieradumu."</string>
+    <string name="core_achievements" formatted="false">"Sasniegumi"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Neobligāta pierakstīšanās dienasgrāmatas sinhronizēšanai starp ierīcēm."</string>
+    <string name="core_cloud_sync" formatted="false">"Mākoņa sinhronizācija"</string>
+    <string name="core_personal_goals" formatted="false">"Personīgie mērķi"</string>
+    <string name="core_personal_goals_help" formatted="false">"Manuāli iestatiet kaloriju, uzturvielu un svara mērķus. Jebkuru mērķi var atstāt tukšu."</string>
+    <string name="core_configure_goals" formatted="false">"Iestatīt mērķus"</string>
+    <string name="core_backup" formatted="false">"Rezerves kopija"</string>
+    <string name="core_backup_help" formatted="false">"Produkti, maltītes, dienasgrāmata, mērķi un sasniegumi vienā failā. Izveidojiet kopiju pirms lietotnes pārinstalēšanas."</string>
+    <string name="core_save_file" formatted="false">"Saglabāt failā"</string>
+    <string name="core_restore_file" formatted="false">"Atjaunot no faila"</string>
+    <string name="core_write_locked" formatted="false">"Saglabāšana atspējota, lai aizsargātu sākotnējo failu. Atjaunojiet derīgu rezerves kopiju."</string>
+    <string name="core_about_data" formatted="false">"Par lietotni un jūsu datiem"</string>
+    <string name="core_about_data_help" formatted="false">"Kā ieraksti tiek glabāti, sinhronizēti un dzēsti."</string>
+    <string name="core_privacy" formatted="false">"Privātums un datu dzēšana"</string>
+    <string name="core_offline" formatted="false">"Darbojas bez interneta"</string>
+    <string name="core_offline_help" formatted="false">"Pierakstīšanās ar Google nav obligāta. Soļus un miegu ievada manuāli. Internets nepieciešams ieslēgtai sinhronizācijai un reklāmu ielādei. Dienasgrāmatas ieraksti netiek sūtīti reklāmu tīklam."</string>
+    <string name="core_about_foods" formatted="false">"Par produktiem"</string>
+    <string name="core_foods_reference" formatted="false">"Iebūvētās vērtības ir aptuvenas un norādītas uz 100 g ēdamās daļas. Precīzus datus pārbaudiet uz iepakojuma. Produkta rediģēšana nepārrēķina jau ierakstītās maltītes."</string>
+    <string name="core_foods_source" formatted="false">"Datu avots: USDA FoodData Central, SR Legacy. Katram produktam norādīts tā stāvoklis un avots."</string>
+    <string name="core_restore_title" formatted="false">"Atjaunot šo kopiju?"</string>
+    <string name="core_restore_warning" formatted="false">"Pašreizējie produkti, dienasgrāmata, mērķi un sasniegumi tiks aizstāti ar šī faila datiem. Vispirms izveidojiet rezerves kopiju. Ja sinhronizācija ir savienota, atjaunotie dati tiks nosūtīti arī uz Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Rezerves kopija atjaunota"</string>
+    <string name="core_invalid_file" formatted="false">"Nederīgs fails"</string>
+    <string name="core_replace_data" formatted="false">"Aizstāt datus"</string>
+    <string name="core_cancel" formatted="false">"Atcelt"</string>
+    <string name="core_save" formatted="false">"Saglabāt"</string>
+    <string name="core_calculate_portion" formatted="false">"Aprēķināt porciju"</string>
+    <string name="core_edit_portion" formatted="false">"Rediģēt porciju"</string>
+    <string name="core_portion_weight" formatted="false">"Porcijas svars, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Ievadiet svaru, kas lielāks par 0 un nepārsniedz 100 000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Pievienot dienasgrāmatai"</string>
+    <string name="core_delete_entry" formatted="false">"Dzēst ierakstu"</string>
+    <string name="core_delete_portion_question" formatted="false">"Dzēst šo porciju no dienasgrāmatas?"</string>
+    <string name="core_new_food" formatted="false">"Jauns produkts vai ēdiens"</string>
+    <string name="core_edit_nutrition" formatted="false">"Rediģēt uzturvērtību"</string>
+    <string name="core_name" formatted="false">"Nosaukums"</string>
+    <string name="core_food" formatted="false">"Produkts"</string>
+    <string name="core_dish" formatted="false">"Gatavs ēdiens"</string>
+    <string name="core_category" formatted="false">"Kategorija"</string>
+    <string name="core_per100_hint" formatted="false">"Vērtības uz 100 g no iepakojuma vai receptes. Ievadiet 0, ja uzturvielas nav."</string>
+    <string name="core_kcal" formatted="false">"Kalorijas"</string>
+    <string name="core_protein_grams" formatted="false">"Olbaltumvielas, g"</string>
+    <string name="core_fat_grams" formatted="false">"Tauki, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Ogļhidrāti, g"</string>
+    <string name="core_food_note" formatted="false">"Piezīme, sastāvdaļas (neobligāti)"</string>
+    <string name="core_favorite" formatted="false">"Pievienot izlasei"</string>
+    <string name="core_name_category_required" formatted="false">"Ievadiet nosaukumu un kategoriju"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Ievadiet vērtības uz 100 g: kalorijas no 0 līdz 1000; olbaltumvielas, tauki un ogļhidrāti no 0 līdz 100 g"</string>
+    <string name="core_delete_food" formatted="false">"Dzēst no produktu saraksta"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Jau ierakstītās maltītes saglabā savas vērtības."</string>
+    <string name="core_delete_food_question" formatted="false">"Dzēst šo produktu? Tā ieraksti dienasgrāmatā paliks."</string>
+    <string name="core_day_entry" formatted="false">"Dienas ieraksts"</string>
+    <string name="core_optional_fields" formatted="false">"Aizpildiet izvēlētos laukus. Pārējos atstājiet tukšus."</string>
+    <string name="core_editing_existing" formatted="false">"Šim datumam jau ir ieraksts. Jūs to rediģējat."</string>
+    <string name="core_weight_kg" formatted="false">"Svars, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Vidukļa apkārtmērs, cm"</string>
+    <string name="core_steps" formatted="false">"Soļi"</string>
+    <string name="core_sleep" formatted="false">"Miegs"</string>
+    <string name="core_hours" formatted="false">"Stundas"</string>
+    <string name="core_minutes" formatted="false">"Minūtes"</string>
+    <string name="core_body_fat_optional" formatted="false">"Svaru uzrādītie tauki, % (neobligāti)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Svaru uzrādītais tauku procents palīdz sekot tendencei; tas nav precīzs mērījums."</string>
+    <string name="core_strength_training" formatted="false">"Spēka treniņš"</string>
+    <string name="core_training_example" formatted="false">"Piemēram: pietupieni 3×10, 12 kg hanteles"</string>
+    <string name="core_manual_nutrition" formatted="false">"Manuālās uztura kopsummas"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Ja tās aizpildīsiet, šīs vērtības aizstās no produktiem aprēķinātās dienas kopsummas. Automātiskam aprēķinam atstājiet tukšu."</string>
+    <string name="core_daily_calories" formatted="false">"Dienas kalorijas"</string>
+    <string name="core_daily_protein" formatted="false">"Dienas olbaltumvielas, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Piezīmes un pašsajūta"</string>
+    <string name="core_steps_invalid" formatted="false">"Soļi: vesels skaitlis no 0 līdz 200 000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Miegs: 0–24 stundas, 0–59 minūtes"</string>
+    <string name="core_body_fat" formatted="false">"Ķermeņa tauki"</string>
+    <string name="core_calories" formatted="false">"Kalorijas"</string>
+    <string name="core_protein" formatted="false">"Olbaltumvielas"</string>
+    <string name="core_entry_required" formatted="false">"Pievienojiet vismaz vienu mērījumu vai piezīmi"</string>
+    <string name="core_delete_day" formatted="false">"Dzēst dienas ierakstu"</string>
+    <string name="core_optional_goals" formatted="false">"Visi mērķi ir neobligāti. Tukšs lauks nozīmē, ka mērķis nav iestatīts."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalorijas dienā"</string>
+    <string name="core_protein_per_day" formatted="false">"Olbaltumvielas dienā, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Tauki dienā, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Ogļhidrāti dienā, g"</string>
+    <string name="core_target_weight" formatted="false">"Mērķa svars, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Pārbaudiet mērķus: kalorijas no 0 līdz 10 000; olbaltumvielas, tauki un ogļhidrāti no 0 līdz 1000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Mērķa svars: no 1 līdz 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Dzēst?"</string>
+    <string name="core_delete" formatted="false">"Dzēst"</string>
+    <string name="core_select_food" formatted="false">"Izvēlēties produktu"</string>
+    <string name="core_foods_dishes" formatted="false">"Produkti un ēdieni"</string>
+    <string name="core_search_food" formatted="false">"Meklēt produktu vai ēdienu"</string>
+    <string name="core_new_food_button" formatted="false">"+ Produkts / ēdiens"</string>
+    <string name="core_recipe_button" formatted="false">"No receptes"</string>
+    <string name="core_no_results" formatted="false">"Nekas nav atrasts"</string>
+    <string name="core_no_results_help" formatted="false">"Mēģiniet citu meklējumu vai pievienojiet savu produktu vai gatavo ēdienu."</string>
+    <string name="core_edit" formatted="false">"Rediģēt"</string>
+    <string name="core_achievement_unlocked">"🏆 Sasniegums atbloķēts! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Atlikušas %1$s kcal · mērķis %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal virs mērķa"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Olbaltumvielas %1$s   Tauki %2$s   Ogļhidrāti %3$s"</string>
+    <string name="core_weight_summary">"Svars %1$s kg"</string>
+    <string name="core_waist_summary">"Viduklis %1$s cm"</string>
+    <string name="core_steps_summary">"Soļi: %1$s"</string>
+    <string name="core_fat_summary">"Ķermeņa tauki %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (manuāli)"</string>
+    <string name="core_manual_protein">"Olbaltumvielas %1$s g (manuāli)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Miegs %1$s"</string>
+    <string name="core_scale_fat">"Svaru uzrādītie tauki %1$s%%"</string>
+    <string name="core_training_value">"Treniņš: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Olbaltumvielas %1$s g"</string>
+    <string name="core_app_version">"Uztura dienasgrāmata · %1$s"</string>
+    <string name="core_per100_summary">"Uz 100 g: %1$s kcal · Olbaltumvielas %2$s · Tauki %3$s · Ogļhidrāti %4$s"</string>
+    <string name="core_range_invalid">"%1$s: ievadiet vērtību no %2$s līdz %3$s"</string>
+    <string name="core_delete_day_question">"Dzēst %1$s mērījumus? Maltītes paliks."</string>
+    <string name="core_catalog_count">"Produkti: %1$s · vērtības uz 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Olbaltumvielas %2$s   Tauki %3$s   Ogļhidrāti %4$s"</string>
+    <string name="core_today_date">"Šodien · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalorijas un olbaltumvielas ir dienasgrāmatā manuāli ievadītās kopsummas"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalorijas ir dienasgrāmatā manuāli ievadītā kopsumma"</string>
+    <string name="core_manual_protein_total" formatted="false">"Olbaltumvielas ir dienasgrāmatā manuāli ievadītā kopsumma"</string>
+    <string name="core_macro_goals">"Olb. / tauku / ogļh. mērķi: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (manuāli)"</string>
+    <string name="core_all" formatted="false">"Visi"</string>
+    <string name="core_favorites" formatted="false">"Izlase"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Iepriekšējā diena"</string>
+    <string name="core_next_day" formatted="false">"Nākamā diena"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Migrācijas kopija neatbilst"</string>
+    <string name="data_entry_exists" formatted="false">"Šāds ēdiena ieraksts jau pastāv"</string>
+    <string name="data_entry_missing" formatted="false">"Ēdiena ieraksts nav atrasts"</string>
+    <string name="data_edited_date_changed" formatted="false">"Rediģējamā ieraksta datums ir mainīts"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Lokālais ierīces identifikators ir bojāts; atjaunošana bloķēta"</string>
+    <string name="data_sync_invalid" formatted="false">"Nederīgi sinhronizācijas dati"</string>
+    <string name="data_diary_read_only" formatted="false">"Dienasgrāmata aizsargāta pret pārrakstīšanu: atjaunojiet rezerves kopiju"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Dienasgrāmatas dati ir nekonsekventi"</string>
+    <string name="data_backup_too_large" formatted="false">"Rezerves kopija ir pārāk liela"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Instalācijas identifikators ir bojāts"</string>
+    <string name="data_save_verification_failed" formatted="false">"Neizdevās pārbaudīt dienasgrāmatas saglabāšanu"</string>
+    <string name="data_save_failed" formatted="false">"Neizdevās saglabāt dienasgrāmatu"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Rezerves kopija pārsniedz 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Dienasgrāmatas fails ir pārāk liels"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Nederīgs produktu datubāzes izmērs"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Neatbalstīta rezerves kopijas versija"</string>
+    <string name="data_too_many_values">"Pārāk daudz vērtību laukā %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Pārāk daudz produktu"</string>
+    <string name="data_too_many_entries" formatted="false">"Pārāk daudz ēdiena ierakstu"</string>
+    <string name="data_too_many_logs" formatted="false">"Pārāk daudz dienasgrāmatas ierakstu"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Produkta identifikators atkārtojas"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Ēdiena ieraksta identifikators atkārtojas"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Dienasgrāmatas datums atkārtojas"</string>
+    <string name="data_label_product_id" formatted="false">"Produkta identifikators"</string>
+    <string name="data_label_product_name" formatted="false">"Produkta nosaukums"</string>
+    <string name="data_label_category" formatted="false">"Kategorija"</string>
+    <string name="data_label_note" formatted="false">"Piezīme"</string>
+    <string name="data_label_entry_id" formatted="false">"Ieraksta identifikators"</string>
+    <string name="data_label_meal" formatted="false">"Maltīte"</string>
+    <string name="data_food_weight_range" formatted="false">"Ēdiena svaram jābūt lielākam par 0 un ne vairāk par 100 000 g"</string>
+    <string name="data_label_weight" formatted="false">"Svars"</string>
+    <string name="data_label_waist" formatted="false">"Vidukļa apkārtmērs"</string>
+    <string name="data_steps_range" formatted="false">"Soļu skaitam jābūt no 0 līdz 200 000"</string>
+    <string name="data_label_sleep" formatted="false">"Miegs"</string>
+    <string name="data_label_body_fat" formatted="false">"Ķermeņa tauki"</string>
+    <string name="data_label_daily_calories" formatted="false">"Dienas kalorijas"</string>
+    <string name="data_label_daily_protein" formatted="false">"Dienas olbaltumvielas"</string>
+    <string name="data_label_workout" formatted="false">"Treniņš"</string>
+    <string name="data_label_log_note" formatted="false">"Piezīme"</string>
+    <string name="data_log_empty" formatted="false">"Ievadiet vismaz vienu mērījumu vai piezīmi"</string>
+    <string name="data_label_goal_weight" formatted="false">"Mērķa svars"</string>
+    <string name="data_too_many_achievements" formatted="false">"Pārāk daudz sasniegumu"</string>
+    <string name="data_achievement_invalid" formatted="false">"Nederīgs sasniegums"</string>
+    <string name="data_setting_not_portable" formatted="false">"Šo iestatījumu nevar pārnest"</string>
+    <string name="data_setting_invalid">"Nederīga iestatījuma %1$s vērtība"</string>
+    <string name="data_label_calories" formatted="false">"Kalorijas"</string>
+    <string name="data_label_protein" formatted="false">"Olbaltumvielas"</string>
+    <string name="data_label_fat" formatted="false">"Tauki"</string>
+    <string name="data_label_carbs" formatted="false">"Ogļhidrāti"</string>
+    <string name="data_value_range">"%1$s: atļautais diapazons no %2$s līdz %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: nederīgs garums"</string>
+    <string name="data_text_character_invalid">"%1$s: neatļauta rakstzīme"</string>
+    <string name="data_date_format_invalid" formatted="false">"Datumam jābūt formātā GGGG-MM-DD"</string>
+    <string name="data_date_nonexistent">"Nederīgs datums: %1$s"</string>
+    <string name="data_field_string_required">"Laukā %1$s jābūt tekstam"</string>
+    <string name="data_field_boolean_required">"Laukā %1$s jābūt loģiskai vērtībai"</string>
+    <string name="data_field_number_required">"Laukā %1$s jābūt skaitlim"</string>
+    <string name="data_field_finite_required">"Laukā %1$s jābūt galīgam skaitlim"</string>
+    <string name="data_field_integer_required">"Laukā %1$s jābūt veselam skaitlim"</string>
+    <string name="data_too_many_items">"Pārāk daudz elementu laukā %1$s"</string>
+    <string name="data_data_file_invalid">"Nederīgs datu fails: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Trūkst ierīces identifikatora"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Sasniegts loģiskā pulksteņa limits"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Pārāk daudz sinhronizācijas ierakstu"</string>
+    <string name="data_sync_version_required" formatted="false">"Sinhronizācijai vajadzīgs 2. versijas formāts"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Nederīga sinhronizācijas atslēga"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Sinhronizācijas atslēga atkārtojas"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Nederīga dzēšanas atzīme"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Nederīgi sinhronizācijas dati"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Ieraksta versija pārsniedz loģisko pulksteni"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Dati neatbilst sinhronizācijas metadatiem"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Nederīgs sinhronizācijas atslēgas garums"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Nederīgs sinhronizācijas atslēgas formāts"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Nezināms sinhronizācijas veids"</string>
+    <string name="data_record_id_too_long" formatted="false">"Ieraksta identifikators ir pārāk garš"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Nederīga sasnieguma dzēšana"</string>
+    <string name="data_log_key_invalid" formatted="false">"Nederīga dienasgrāmatas atslēga"</string>
+    <string name="data_log_field_unknown" formatted="false">"Nezināms dienasgrāmatas lauks"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Nederīga dienasgrāmatas dzēšanas atzīme"</string>
+    <string name="data_goal_unknown" formatted="false">"Nezināms mērķis"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Dzēsts ieraksts satur datus"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Nederīga sinhronizācijas vērtība"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Ieraksta identifikators neatbilst atslēgai"</string>
+    <string name="data_field_value_invalid" formatted="false">"Nederīga lauka vērtība"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Sasnieguma datums neatbilst atslēgai"</string>
+    <string name="data_note_string_required" formatted="false">"Piezīmei jābūt tekstam"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Nederīga sinhronizēta piezīme"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Nederīgs loģiskais pulkstenis"</string>
+    <string name="data_device_invalid" formatted="false">"Nederīga ierīce"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Nederīga versijas atzīme"</string>
+    <string name="data_google_login_required" formatted="false">"Pierakstieties Google vēlreiz"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Pārāk daudz mākoņa rezerves kopiju"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive atgrieza atkārtotu lapu"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Mākoņa kopija pārsniedz 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive neatgrieza augšupielādes adresi"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Nederīga Google Drive augšupielādes adrese"</string>
+    <string name="data_back" formatted="false">"‹  Atpakaļ"</string>
+    <string name="data_cloud_title" formatted="false">"Mākoņa sinhronizācija"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Jūsu dienasgrāmata visās ierīcēs"</string>
+    <string name="data_no_account" formatted="false">"Nav savienota konta"</string>
+    <string name="data_cloud_intro" formatted="false">"Pierakstīšanās nav obligāta. Produkti, maltītes, mērījumi, mērķi un sasniegumi tiek glabāti tālrunī. Pēc savienošanas kopija tiek glabāta jūsu Google Drive slēptajā mapē."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Pirmajā savienošanas reizē ieraksti tiek apvienoti. Lietotnei nav piekļuves citiem Drive failiem."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Šajā versijā pierakstīšanās ar Google vēl nav iestatīta. Dienasgrāmata un failu rezerves kopijas darbojas bez konta."</string>
+    <string name="data_connect_google" formatted="false">"Savienot Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Automātiska sinhronizācija"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Pēc izmaiņām un fonā, kad Android to atļauj"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Neizdevās mainīt grafiku. Jūsu dati ir saglabāti šajā ierīcē."</string>
+    <string name="data_sync_start_failed" formatted="false">"Neizdevās sākt sinhronizāciju. Jūsu dati ir saglabāti šajā ierīcē."</string>
+    <string name="data_sync_now" formatted="false">"Sinhronizēt tagad"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Pierakstieties Google vēlreiz"</string>
+    <string name="data_disconnect_account" formatted="false">"Atvienot kontu"</string>
+    <string name="data_sync_never" formatted="false">"Sinhronizācija vēl nav veikta"</string>
+    <string name="data_offline_saved_title" formatted="false">"Jūsu dati ir saglabāti bezsaistē"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Ja automātiskā sinhronizācija ir ieslēgta, izmaiņas tiek nosūtītas, tiklīdz pieejams savienojums. Ja viens lauks mainīts divās ierīcēs, tiek izmantota versija ar jaunāko izmaiņu laika atzīmi. Neatkarīgi ieraksti un lauki tiek apvienoti."</string>
+    <string name="data_cloud_password_description" formatted="false">"Paroli ievadāt tikai Google lapā pārlūkā. Piekļuves tokenus aizsargā Android Keystore, un tie nav iekļauti rezerves kopijās."</string>
+    <string name="data_google_connection_title" formatted="false">"Google savienojums"</string>
+    <string name="data_got_it" formatted="false">"Sapratu"</string>
+    <string name="data_connect_drive_title" formatted="false">"Savienot Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Pašreizējā dienasgrāmata tiks apvienota ar izvēlētā Google konta datiem. Savās ierīcēs izmantojiet vienu personīgo kontu. Pierakstīšanās tiks atvērta noklusējuma pārlūkā."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Neizdevās atvērt pierakstīšanos. Instalējiet vai ieslēdziet noklusējuma pārlūku un mēģiniet vēlreiz."</string>
+    <string name="data_continue" formatted="false">"Turpināt"</string>
+    <string name="data_cancel" formatted="false">"Atcelt"</string>
+    <string name="data_disconnect_title" formatted="false">"Atvienot kontu?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sinhronizācija šajā ierīcē tiks apturēta. Lokālā dienasgrāmata un Google Drive kopijas paliks. Lietotnes piekļuvi var pārvaldīt Google konta iestatījumos."</string>
+    <string name="data_disconnect_failed" formatted="false">"Neizdevās atvienot kontu. Mēģiniet vēlreiz."</string>
+    <string name="data_disconnect" formatted="false">"Atvienot"</string>
+    <string name="data_google_not_connected" formatted="false">"Google nav savienots"</string>
+    <string name="data_sync_ready" formatted="false">"Gatavs sinhronizācijai"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Izmaiņas gaida sinhronizāciju…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Nav interneta. Izmaiņas saglabātas šajā ierīcē."</string>
+    <string name="data_google_not_configured" formatted="false">"Šajā versijā pierakstīšanās ar Google vēl nav iestatīta"</string>
+    <string name="data_sync_wait" formatted="false">"Pagaidiet, līdz sinhronizācija beidzas"</string>
+    <string name="data_google_connecting" formatted="false">"Savieno ar Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Savienošana atcelta"</string>
+    <string name="data_connection_rejected" formatted="false">"Savienošana atcelta vai Google to noraidīja"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google savienots. Apvieno ierakstus…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Neizdevās savienot Google. Pārbaudiet internetu un piekļuves iestatījumus."</string>
+    <string name="data_account_disconnected" formatted="false">"Konts atvienots. Dati paliek šajā ierīcē."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Nav interneta. Sinhronizācija gaida savienojumu."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sinhronizācija ieplānota…"</string>
+    <string name="data_sync_running" formatted="false">"Sinhronizē…"</string>
+    <string name="data_sync_complete" formatted="false">"Sinhronizācija pabeigta"</string>
+    <string name="data_no_internet" formatted="false">"Nav interneta savienojuma"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Sinhronizācija neizdevās. Dati saglabāti šajā ierīcē"</string>
+    <string name="data_page_open_failed" formatted="false">"Neizdevās atvērt lapu. Adresi var nokopēt no tālāk redzamā teksta."</string>
+    <string name="data_privacy_title" formatted="false">"Privātums"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Jūsu ieraksti un kontrole pār datiem"</string>
+    <string name="data_app_purpose" formatted="false">"Par šo lietotni"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Šī lietotne nav medicīniska ierīce. Tā nenosaka diagnozes, neārstē, neizārstē un nenovērš slimības. Medicīniskam padomam, diagnozei un ārstēšanai vērsieties pie kvalificēta veselības aprūpes speciālista."</string>
+    <string name="data_manage_delete_data" formatted="false">"Datu pārvaldīšana un dzēšana"</string>
+    <string name="data_delete_data_intro" formatted="false">"Pirms visu datu dzēšanas izslēdziet sinhronizāciju visās ierīcēs. Lietotnes atinstalēšana tālrunī neizdzēš Google Drive kopijas vai eksportētos failus."</string>
+    <string name="data_manage_drive_data" formatted="false">"Pārvaldīt Google Drive datus"</string>
+    <string name="data_google_account_access" formatted="false">"Piekļuve Google kontam"</string>
+    <string name="data_android_app_storage" formatted="false">"Lietotnes krātuve Android ierīcē"</string>
+    <string name="data_contact_developer" formatted="false">"Sazināties ar izstrādātāju"</string>
+    <string name="data_opening_page" formatted="false">"Atver lapu"</string>
+    <string name="data_advertisement" formatted="false">"REKLĀMA"</string>
+    <string name="data_ad_information" formatted="false">"Par šo reklāmu"</string>
+    <string name="data_cloud_http_error">"Mākoņa HTTP kļūda %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Mākoņa atbilde ir pārāk liela"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Nederīga šifrēta pierakstīšanās sesija"</string>
+    <string name="data_session_save_failed" formatted="false">"Neizdevās saglabāt pierakstīšanās sesiju"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Neizdevās atjaunot Google piekļuvi"</string>
+    <string name="data_diary_read_failed">"Neizdevās nolasīt dienasgrāmatu. Sākotnējais fails saglabāts. Atjaunojiet datus no rezerves kopijas. %1$s"</string>
+    <string name="data_last_sync">"Pēdējā sinhronizācija: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Augļi un ogas"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Žāvēti augļi"</string>
+    <string name="data_category_vegetables" formatted="false">"Dārzeņi un zaļumi"</string>
+    <string name="data_category_mushrooms" formatted="false">"Sēnes"</string>
+    <string name="data_category_grains" formatted="false">"Graudaugi un makaroni"</string>
+    <string name="data_category_legumes" formatted="false">"Pākšaugi"</string>
+    <string name="data_category_meat" formatted="false">"Gaļa un putnu gaļa"</string>
+    <string name="data_category_fish" formatted="false">"Zivis un jūras veltes"</string>
+    <string name="data_category_dairy" formatted="false">"Piena produkti"</string>
+    <string name="data_category_eggs" formatted="false">"Olas"</string>
+    <string name="data_category_oils" formatted="false">"Eļļas un sviests"</string>
+    <string name="data_category_nuts" formatted="false">"Rieksti un sēklas"</string>
+    <string name="data_category_bread" formatted="false">"Maize"</string>
+    <string name="data_category_other" formatted="false">"Citi produkti"</string>
+    <string name="data_category_dishes" formatted="false">"Gatavi ēdieni"</string>
+    <string name="data_category_custom" formatted="false">"Mani produkti"</string>
+    <string name="data_category_other_short" formatted="false">"Cits"</string>
+    <string name="data_food_seed_9003" formatted="false">"Ābols ar mizu"</string>
+    <string name="data_catalog_note_1">"Aptuvenās vērtības uz 100 g ēdamās daļas. Neapstrādāts produkts. USDA ogļhidrātu vērtībās ietilpst šķiedrvielas. Vērtības var pielāgot produkta etiķetei. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Banāns, mizots"</string>
+    <string name="data_food_seed_9021" formatted="false">"Aprikoze bez kauliņa"</string>
+    <string name="data_food_seed_9037" formatted="false">"Avokado mīkstums"</string>
+    <string name="data_food_seed_9050" formatted="false">"Mellenes"</string>
+    <string name="data_food_seed_9070" formatted="false">"Saldie ķirši bez kauliņiem"</string>
+    <string name="data_food_seed_9063" formatted="false">"Skābie ķirši bez kauliņiem"</string>
+    <string name="data_food_seed_9078" formatted="false">"Dzērvenes"</string>
+    <string name="data_food_seed_9083" formatted="false">"Upenes"</string>
+    <string name="data_food_seed_9084" formatted="false">"Sarkanās un baltās jāņogas"</string>
+    <string name="data_food_seed_9132" formatted="false">"Vīnogas"</string>
+    <string name="data_food_seed_9148" formatted="false">"Kivi mīkstums"</string>
+    <string name="data_food_seed_9150" formatted="false">"Citrons, mizots"</string>
+    <string name="data_food_seed_9181" formatted="false">"Kantalupas melones mīkstums"</string>
+    <string name="data_food_seed_9200" formatted="false">"Apelsīna mīkstums"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mandarīna mīkstums"</string>
+    <string name="data_food_seed_9236" formatted="false">"Persiks bez kauliņa"</string>
+    <string name="data_food_seed_9252" formatted="false">"Bumbieris"</string>
+    <string name="data_food_seed_9266" formatted="false">"Ananasa mīkstums"</string>
+    <string name="data_food_seed_9279" formatted="false">"Plūme bez kauliņa"</string>
+    <string name="data_food_seed_9286" formatted="false">"Granātābola sēklas"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pomelo mīkstums"</string>
+    <string name="data_food_seed_9302" formatted="false">"Avenes"</string>
+    <string name="data_food_seed_9316" formatted="false">"Zemenes"</string>
+    <string name="data_food_seed_9326" formatted="false">"Arbūza mīkstums"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektarīns bez kauliņa"</string>
+    <string name="data_food_seed_9176" formatted="false">"Mango mīkstums"</string>
+    <string name="data_food_seed_9107" formatted="false">"Ērkšķogas"</string>
+    <string name="data_food_seed_9226" formatted="false">"Papaijas mīkstums"</string>
+    <string name="data_food_seed_9089" formatted="false">"Svaigas vīģes"</string>
+    <string name="data_food_seed_9111" formatted="false">"Greipfrūta mīkstums"</string>
+    <string name="data_food_seed_9032" formatted="false">"Žāvētas aprikozes bez kauliņiem"</string>
+    <string name="data_catalog_note_2">"Aptuvenās vērtības uz 100 g ēdamās daļas. USDA ogļhidrātu vērtībās ietilpst šķiedrvielas. Vērtības var pielāgot produkta etiķetei. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Žāvētas plūmes bez kauliņiem"</string>
+    <string name="data_food_seed_9087" formatted="false">"Dateles bez kauliņiem"</string>
+    <string name="data_food_seed_9298" formatted="false">"Tumšās rozīnes bez kauliņiem"</string>
+    <string name="data_food_seed_11529" formatted="false">"Svaigs tomāts"</string>
+    <string name="data_food_seed_11205" formatted="false">"Gurķis ar mizu"</string>
+    <string name="data_food_seed_11090" formatted="false">"Neapstrādāti brokoļi"</string>
+    <string name="data_food_seed_11109" formatted="false">"Neapstrādāti baltie kāposti"</string>
+    <string name="data_food_seed_11124" formatted="false">"Neapstrādāts burkāns"</string>
+    <string name="data_food_seed_11135" formatted="false">"Neapstrādāts ziedkāposts"</string>
+    <string name="data_food_seed_11143" formatted="false">"Selerijas kāti"</string>
+    <string name="data_food_seed_11282" formatted="false">"Neapstrādāts sīpols"</string>
+    <string name="data_food_seed_11291" formatted="false">"Lociņi"</string>
+    <string name="data_food_seed_11304" formatted="false">"Neapstrādāti zaļie zirnīši"</string>
+    <string name="data_food_seed_11333" formatted="false">"Zaļā saldā paprika"</string>
+    <string name="data_food_seed_11821" formatted="false">"Sarkanā saldā paprika"</string>
+    <string name="data_food_seed_11352" formatted="false">"Neapstrādāts kartupelis ar mizu"</string>
+    <string name="data_food_seed_11367" formatted="false">"Vārīts kartupelis bez mizas"</string>
+    <string name="data_catalog_note_3">"Aptuvenās vērtības uz 100 g ēdamās daļas. Bez pievienota sāls. USDA ogļhidrātu vērtībās ietilpst šķiedrvielas. Vērtības var pielāgot produkta etiķetei. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Neapstrādāts cukīni"</string>
+    <string name="data_food_seed_11209" formatted="false">"Neapstrādāts baklažāns"</string>
+    <string name="data_food_seed_11422" formatted="false">"Neapstrādāts ķirbis"</string>
+    <string name="data_food_seed_11429" formatted="false">"Redīss"</string>
+    <string name="data_food_seed_11564" formatted="false">"Neapstrādāts rācenis"</string>
+    <string name="data_food_seed_11080" formatted="false">"Neapstrādāta biete"</string>
+    <string name="data_food_seed_11081" formatted="false">"Vārīta biete"</string>
+    <string name="data_food_seed_11215" formatted="false">"Ķiploks"</string>
+    <string name="data_food_seed_11216" formatted="false">"Ingvera sakne"</string>
+    <string name="data_food_seed_11457" formatted="false">"Neapstrādāti spināti"</string>
+    <string name="data_food_seed_11253" formatted="false">"Lapu salāti"</string>
+    <string name="data_food_seed_11297" formatted="false">"Svaigi pētersīļi"</string>
+    <string name="data_food_seed_2045" formatted="false">"Svaigas dilles"</string>
+    <string name="data_food_seed_11052" formatted="false">"Neapstrādātas zaļās pupiņas"</string>
+    <string name="data_food_seed_11167" formatted="false">"Saldā kukurūza, neapstrādāti graudi"</string>
+    <string name="data_food_seed_11260" formatted="false">"Neapstrādāti šampinjoni"</string>
+    <string name="data_food_seed_11261" formatted="false">"Vārīti šampinjoni bez sāls"</string>
+    <string name="data_food_seed_11987" formatted="false">"Neapstrādātas austersēnes"</string>
+    <string name="data_food_seed_20009" formatted="false">"Griķi, sausi"</string>
+    <string name="data_catalog_note_4">"Aptuvenās vērtības uz 100 g ēdamās daļas. Grauzdēti griķi. USDA ogļhidrātu vērtībās ietilpst šķiedrvielas. Vērtības var pielāgot produkta etiķetei. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Ūdenī vārīti griķi"</string>
+    <string name="data_food_seed_20444" formatted="false">"Baltie rīsi, sausi"</string>
+    <string name="data_food_seed_20445" formatted="false">"Vārīti baltie rīsi bez sāls"</string>
+    <string name="data_food_seed_20036" formatted="false">"Brūnie rīsi, sausi"</string>
+    <string name="data_food_seed_20037" formatted="false">"Vārīti brūnie rīsi"</string>
+    <string name="data_food_seed_8120" formatted="false">"Auzu pārslas, sausas"</string>
+    <string name="data_food_seed_8121" formatted="false">"Auzu putra ūdenī bez sāls"</string>
+    <string name="data_food_seed_20005" formatted="false">"Pērļu grūbas, sausas"</string>
+    <string name="data_food_seed_20006" formatted="false">"Vārītas pērļu grūbas"</string>
+    <string name="data_food_seed_20031" formatted="false">"Prosa, sausa"</string>
+    <string name="data_food_seed_20032" formatted="false">"Vārīta prosa"</string>
+    <string name="data_food_seed_20420" formatted="false">"Makaroni, sausi"</string>
+    <string name="data_food_seed_20421" formatted="false">"Vārīti makaroni bez sāls"</string>
+    <string name="data_food_seed_16070" formatted="false">"Vārītas lēcas bez sāls"</string>
+    <string name="data_food_seed_16057" formatted="false">"Vārīti turku zirņi bez sāls"</string>
+    <string name="data_food_seed_16033" formatted="false">"Vārītas sarkanās pupiņas bez sāls"</string>
+    <string name="data_food_seed_5062" formatted="false">"Neapstrādāta vistas krūtiņa bez ādas"</string>
+    <string name="data_food_seed_5064" formatted="false">"Cepta vistas krūtiņa bez ādas"</string>
+    <string name="data_food_seed_5219" formatted="false">"Neapstrādāta tītara krūtiņa bez ādas"</string>
+    <string name="data_food_seed_5220" formatted="false">"Cepta tītara krūtiņa bez ādas"</string>
+    <string name="data_food_seed_23562" formatted="false">"Malta liellopa gaļa ar 10% tauku, neapstrādāta"</string>
+    <string name="data_food_seed_23566" formatted="false">"Malta liellopa gaļa ar 10% tauku, cepta"</string>
+    <string name="data_food_seed_10060" formatted="false">"Neapstrādāta cūkas fileja bez redzamiem taukiem"</string>
+    <string name="data_food_seed_10061" formatted="false">"Cepta cūkas fileja"</string>
+    <string name="data_food_seed_15236" formatted="false">"Atlantijas lasis, neapstrādāts"</string>
+    <string name="data_catalog_note_5">"Aptuvenās vērtības uz 100 g ēdamās daļas. Neapstrādāts produkts. Audzēts saimniecībā. USDA ogļhidrātu vērtībās ietilpst šķiedrvielas. Vērtības var pielāgot produkta etiķetei. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Atlantijas lasis, cepts"</string>
+    <string name="data_catalog_note_6">"Aptuvenās vērtības uz 100 g ēdamās daļas. Audzēts saimniecībā. USDA ogļhidrātu vērtībās ietilpst šķiedrvielas. Vērtības var pielāgot produkta etiķetei. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Atlantijas menca, neapstrādāta"</string>
+    <string name="data_food_seed_15266" formatted="false">"Aļaskas mintajs, neapstrādāts"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuncis konservēts ūdenī, notecināts"</string>
+    <string name="data_food_seed_15271" formatted="false">"Vārītas garneles, lobītas"</string>
+    <string name="data_food_seed_1211" formatted="false">"Piens ar 3,25% tauku"</string>
+    <string name="data_food_seed_1174" formatted="false">"Piens ar 2% tauku"</string>
+    <string name="data_food_seed_1082" formatted="false">"Piens ar 1% tauku"</string>
+    <string name="data_food_seed_1116" formatted="false">"Pilnpiena jogurts bez piedevām"</string>
+    <string name="data_food_seed_1256" formatted="false">"Beztauku grieķu jogurts"</string>
+    <string name="data_food_seed_1015" formatted="false">"Graudainais biezpiens ar 2% tauku"</string>
+    <string name="data_catalog_note_7">"Aptuvenās vērtības uz 100 g ēdamās daļas. Graudainais biezpiens; citiem svaigā siera veidiem vērtības atšķiras. USDA ogļhidrātu vērtībās ietilpst šķiedrvielas. Vērtības var pielāgot produkta etiķetei. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Skābais krējums ar aptuveni 19% tauku"</string>
+    <string name="data_food_seed_1009" formatted="false">"Čedaras siers"</string>
+    <string name="data_food_seed_1026" formatted="false">"Pilnpiena mocarella"</string>
+    <string name="data_food_seed_1019" formatted="false">"Fetas siers"</string>
+    <string name="data_food_seed_1123" formatted="false">"Neapstrādāta vistas ola bez čaumalas"</string>
+    <string name="data_food_seed_1129" formatted="false">"Vārīta vistas ola bez čaumalas"</string>
+    <string name="data_food_seed_1124" formatted="false">"Neapstrādāts vistas olas baltums"</string>
+    <string name="data_food_seed_1001" formatted="false">"Sālīts sviests"</string>
+    <string name="data_food_seed_4053" formatted="false">"Olīveļļa"</string>
+    <string name="data_food_seed_4506" formatted="false">"Saulespuķu eļļa"</string>
+    <string name="data_food_seed_12061" formatted="false">"Mandeles"</string>
+    <string name="data_food_seed_12155" formatted="false">"Valriekstu kodoli"</string>
+    <string name="data_food_seed_12120" formatted="false">"Lazdu riekstu kodoli"</string>
+    <string name="data_food_seed_12151" formatted="false">"Neapstrādāti pistāciju kodoli"</string>
+    <string name="data_food_seed_12014" formatted="false">"Žāvēti ķirbju sēklu kodoli"</string>
+    <string name="data_food_seed_16087" formatted="false">"Neapstrādāti lobīti zemesrieksti"</string>
+    <string name="data_food_seed_18069" formatted="false">"Baltā kviešu maize"</string>
+    <string name="data_food_seed_18075" formatted="false">"Pilngraudu kviešu maize"</string>
+    <string name="data_food_seed_18060" formatted="false">"Rudzu maize"</string>
+    <string name="data_food_seed_19296" formatted="false">"Medus"</string>
+    <string name="data_food_seed_19335" formatted="false">"Cukurs"</string>
+    <string name="data_food_seed_19165" formatted="false">"Nesaldināts kakao pulveris"</string>
+    <string name="data_food_seed_19904" formatted="false">"Tumšā šokolāde ar 70–85% kakao"</string>
+    <string name="data_meal_breakfast" formatted="false">"Brokastis"</string>
+    <string name="data_meal_lunch" formatted="false">"Pusdienas"</string>
+    <string name="data_meal_dinner" formatted="false">"Vakariņas"</string>
+    <string name="data_meal_snack" formatted="false">"Uzkoda"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Privātuma politika — Diet Diary\nPēdējoreiz atjaunināta: 2026. gada 9. oktobrī"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Lietotne: Diet Diary («Дневник диеты: подсчёт калорий»), pakotne ru.dietdiary.offline.\nIzstrādātājs: Efreitor2001. Saziņa privātuma jautājumos: https://github.com/Efreitor2001/kkalcal/issues . Šī ir publiska lapa; nepublicējiet veselības datus, rezerves kopijas, paroles vai piekļuves tokenus."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Lokālā dienasgrāmata\nLietotne darbojas bez reģistrācijas. Tā ierīcē glabā jūsu ievadītos produktus, ēdienus, uzturvērtības, porcijas, datumus, svaru, vidukļa apkārtmēru, tauku procentu, soļus, miegu, treniņu aprakstus, piezīmes, mērķus, sasniegumus un iestatījumus. Neobligātos laukus var atstāt tukšus. Šos datus ievada manuāli; lietotne tos nelasa no Health Connect, aktivitātes sensoriem vai medicīniskām ierīcēm."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Dienasgrāmatas dati tiek izmantoti kaloriju un uzturvielu aprēķinam, vēstures un diagrammu parādīšanai un sasniegumu uzskaitei. Izstrādātājam nav servera, kas saņemtu šos ierakstus. Ja nesavienojat Google Drive un nekopīgojat rezerves kopiju, ieraksti paliek jūsu ierīcē."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Neobligāta sinhronizācija ar Google Drive\nSavienošana sākas pēc jūsu pieprasījuma. Lietotne atver Google pierakstīšanos noklusējuma pārlūkā un pieprasa piekļuvi tikai saviem slēptajiem lietotnes datiem Google Drive. Tā nepieprasa piekļuvi jūsu parastajiem Drive failiem, fotoattēliem vai dokumentiem."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Savienojot Google Drive, lietotne nosūta Google jūsu produktus un ēdienus, uztura ierakstus, ķermeņa mērījumus, aktivitāti, miegu, piezīmes, mērķus, sasniegumus, pārnesamos iestatījumus un izmaiņu metadatus, tostarp nejaušus instalācijas identifikatorus un laika atzīmes. Šie dati tiek izmantoti rezerves momentuzņēmumu izveidei un jūsu ierīču izmaiņu apvienošanai. Ja ieslēgta automātiskā sinhronizācija, tā var darboties fonā, kad pieejams internets; to var izslēgt atsevišķi."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Lietotne saņem jūsu Google konta e-pasta adresi un identifikatoru, lai parādītu savienojumu un saistītu mākoņa krātuvi ar pareizo kontu. Tā nesaņem Google paroli. Lokālās autorizācijas sesijas aizsargā šifrēšana ar Android Keystore. Piekļuves tokeni, e-pasta adreses un Google konta identifikatori nav iekļauti eksportētajos JSON failos vai sinhronizētajos dienasgrāmatas momentuzņēmumos."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"No Google saņemtie dati tiek izmantoti tikai autorizācijai un sinhronizācijai, nevis reklāmām. Google datu apstrāde aprakstīta https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Rezerves kopiju faili\nDarbība “Saglabāt failā” izveido JSON failu jūsu izvēlētajā vietā. Atjaunošana nolasa tikai jūsu izvēlēto failu. Ja izvēlaties mākoņa pakalpojumu vai kopīgojat failu, jūs izvēlaties tā saņēmēju. Eksportētais JSON fails nav šifrēts un var saturēt personīgos dienasgrāmatas datus un izmaiņu metadatus."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Reklāmas\nLietotne izmanto Yandex Mobile Ads SDK. Reklāmu ielādei ierīce savienojas ar reklāmu pakalpojumiem. Yandex var apstrādāt IP adresi, tīkla pieprasījumus, ierīces un programmatūras tehniskos datus, pieejamos reklāmu un tehniskos identifikatorus, kā arī informāciju par reklāmu rādījumiem un mijiedarbību."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Lietotne informē SDK, ka nav piekrišanas personalizētām reklāmām, izslēdz atrašanās vietas vākšanu un App Ad Analytics un nepieprasa atļaujas precīzai vai aptuvenai atrašanās vietai. Tas nenozīmē, ka nav tīkla pieprasījumu vai reklāmu SDK vispār neapstrādā tehniskos datus."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Ēdiena ieraksti, svars, ķermeņa mērījumi, piezīmes, mērķi, e-pasta adrese un Google konta identifikators netiek izmantoti reklāmu mērķauditorijas atlasei vai sūtīti kā reklāmu pieprasījumu parametri. Lai saglabātu dienasgrāmatas ierakstu, reklāma nav jāskatās."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex datu apstrāde aprakstīta https://yandex.ru/legal/confidential/ . Ja ierīce to atbalsta, reklāmu identifikatoru var pārvaldīt Android iestatījumos. Tehnisko reklāmu datu glabāšanas termiņus nosaka pakalpojuma sniedzējs, nevis dienasgrāmatas izstrādātājs."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Datu aizsardzība\nSaziņai ar Google tiek izmantots HTTPS, bet reklāmu SDK izmanto pakalpojuma sniedzēja HTTPS/TLS mehānismus. Lokālos failus aizsargā Android lietotņu izolācija. Dienasgrāmatai un eksportētajiem JSON failiem lietotnē nav atsevišķas šifrēšanas; sinhronizācija nenodrošina pilnīgu šifrēšanu starp ierīcēm."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Lietotnes datu sistēmas rezerves kopēšana ir izslēgta. Lietotnes žurnālos ir rezultātu kodi, bet nav dienasgrāmatas ierakstu, e-pasta adrešu, tokenu vai tīkla atbilžu satura. Lietotne šos žurnālus atsevišķi nesūta izstrādātājam."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Glabāšana un dzēšana\nLokālie ieraksti tiek glabāti, līdz tos rediģējat, dzēšat vai notīrāt lietotnes datus. Dzēšana saskarnē noņem ierakstu no dienasgrāmatas un sinhronizācijā nodod dzēšanas atzīmi. Apvienošanas metadati var tikt saglabāti, lai dzēstie ieraksti neatgrieztos; tie var saturēt dzēstā ieraksta iepriekšējās vērtības. Vecajos mākoņa momentuzņēmumos un eksportētajos failos arī var būt iepriekšējās vērtības. Viena ieraksta dzēšana automātiski neizdzēš visas tā kopijas."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“Atvienot” aptur sinhronizāciju šajā ierīcē un dzēš lokālo Google sesiju. Lokālā dienasgrāmata un Google Drive momentuzņēmumi paliek. Šī darbība nedzēš jūsu Google kontu."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Lai pilnībā izdzēstu šīs lietotnes datus:\n• Izslēdziet sinhronizāciju visās ierīcēs, lai atlikušās kopijas netiktu augšupielādētas atkārtoti.\n• Pārlūkā atveriet https://drive.google.com/drive/settings ar savienoto Google kontu, izvēlieties lietotņu pārvaldību, atrodiet Diet Diary («Дневник диеты») un tās opcijās izvēlieties slēpto lietotnes datu dzēšanu. Ja tālrunī šīs sadaļas nav, izmantojiet vietnes datora versiju vai datoru.\n• Atsauciet lietotnes piekļuvi vietnē https://myaccount.google.com/connections . Piekļuves atsaukšana pati par sevi neizdzēš saglabātās kopijas.\n• Katrā ierīcē notīriet lietotnes krātuvi Android iestatījumos vai atinstalējiet lietotni.\n• Atsevišķi dzēsiet eksportētās JSON rezerves kopijas no izvēlētajām mapēm un mākoņa krātuvēm."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Bez jūsu piekļuves datiem izstrādātājs nevar attālināti izdzēst lokālos ierakstus vai failus jūsu personīgajā Google Drive. Nesūtiet paroles vai piekļuves tokenus. Palīdzībai izmantojiet šīs politikas sākumā norādīto kontaktu. Lietotnes datu dzēšanai nav jādzēš Google konts."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Izmaiņas un saziņa\nPolitika var tikt atjaunināta, mainoties funkcijām vai datu apstrādei; jaunākās versijas datums norādīts sākumā. Jautājumiem par piekļuvi, labošanu, dzēšanu vai lietotnes darbību izmantojiet projekta kontaktu. Jūsu pieprasījumi tiek apstrādāti, lai atbildētu, un glabāti saskaņā ar GitHub politiku: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Mani ēdieni"</string>
+    <string name="secondary_metric_weight" formatted="false">"Svars"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Ķermeņa tauki"</string>
+    <string name="secondary_metric_waist" formatted="false">"Vidukļa apkārtmērs"</string>
+    <string name="secondary_metric_steps" formatted="false">"Soļi"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Miegs"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalorijas"</string>
+    <string name="secondary_metric_protein" formatted="false">"Olbaltumvielas"</string>
+    <string name="secondary_metric_fat" formatted="false">"Tauki"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Ogļhidrāti"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"soļi"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Nederīgs periods"</string>
+    <string name="secondary_stats_title" formatted="false">"Tendences"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Jūsu dati pārskatāmās diagrammās"</string>
+    <string name="secondary_metric" formatted="false">"Rādītājs"</string>
+    <string name="secondary_week" formatted="false">"Nedēļa"</string>
+    <string name="secondary_month" formatted="false">"Mēnesis"</string>
+    <string name="secondary_year" formatted="false">"Gads"</string>
+    <string name="secondary_custom_period" formatted="false">"Izvēlēts periods"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Sākuma datums nevar būt pēc beigu datuma"</string>
+    <string name="secondary_no_records" formatted="false">"Vēl nav datu"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Pievienojiet ēdienu dienasgrāmatai vai izvēlieties citu periodu."</string>
+    <string name="secondary_chart_tap" formatted="false">"Pieskarieties diagrammai, lai izvēlētos ierakstu"</string>
+    <string name="secondary_chart_connected" formatted="false">"Līnija savieno ierakstītos mērījumus. Starp šiem punktiem mērījumu nav."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Svaru aplēses noder tendenču novērošanai."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Manuāli ievadīta dienas kopsumma aizstāj produktu summu. Citādi tiek saskaitīti ierakstītie produkti. Dienas bez datiem tiek izlaistas."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Kopsummas balstās uz ierakstītajiem produktiem. Diena bez datiem netiek uzskatīta par nulli."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Dienas bez datiem tiek izlaistas un netiek iekļautas vidējā vērtībā."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Šodien un vakar"</string>
+    <string name="secondary_no_today" formatted="false">"Šodienai nav datu"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Vakardienai nav datu"</string>
+    <string name="secondary_partial_today" formatted="false">"Salīdzinājumā izmantoti pašreizējie dati. Šodienas dati vēl var būt nepilnīgi."</string>
+    <string name="secondary_period_summary" formatted="false">"Perioda pārskats"</string>
+    <string name="secondary_recorded_average" formatted="false">"Ierakstīto dienu vidējā vērtība"</string>
+    <string name="secondary_recorded_days" formatted="false">"Dienas ar datiem"</string>
+    <string name="secondary_minimum" formatted="false">"Minimums"</string>
+    <string name="secondary_maximum" formatted="false">"Maksimums"</string>
+    <string name="secondary_first_to_last" formatted="false">"No pirmā līdz pēdējam ierakstam"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Izmaiņu aprēķināšanai vajadzīgas vismaz divas dienas ar datiem."</string>
+    <string name="secondary_history" formatted="false">"Vēsture"</string>
+    <string name="secondary_history_recent" formatted="false">"Pēdējās 14 dienas ar datiem. Vecākiem ierakstiem izvēlieties savu periodu."</string>
+    <string name="secondary_history_all" formatted="false">"Visas izvēlētā perioda ierakstītās dienas"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"No %1$s"</string>
+    <string name="secondary_date_until">"Līdz %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s šajā periodā"</string>
+    <string name="secondary_weight_goal">"Mērķis: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Pievienojiet mērījumu dienasgrāmatai vai izvēlieties citu periodu."</string>
+    <string name="secondary_latest_record">"Pēdējais ieraksts · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Šodien: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Vakar: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Izmaiņa: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d no %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Ierakstītās dienas: %2$d, no %3$s līdz %4$s. Minimums %5$s, maksimums %6$s %7$s. Detalizētas vērtības ir vēsturē."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Pirmais solis"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Ierakstiet pirmo svara mērījumu."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Jūsu pirmais svara mērījums ir ierakstīts."</string>
+    <string name="secondary_award_first_food" formatted="false">"Pirmais ieraksts"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Ierakstiet pirmo ēdiena porciju."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Jūsu pirmā ēdiena porcija ir ierakstīta."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Datu nedēļa"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Ierakstiet svaru 7 dažādās dienās. Tām nav jābūt secīgām."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Jums ir svara mērījumi 7 dažādās dienās."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Pastāvība"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Ierakstiet svaru 30 dažādās dienās."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Jums ir svara mērījumi 30 dienām."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Arhivārs"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Ierakstiet dienasgrāmatā 100 ēdiena porcijas."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Esat ierakstījis 100 ēdiena porcijas."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Jauns ieradums"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Ierakstiet ēdienu 7 secīgās kalendārajās dienās."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Ēdiens ierakstīts 7 dienas pēc kārtas."</string>
+    <string name="secondary_award_steps" formatted="false">"Soļošanas meistars"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Ierakstiet vismaz 10 000 soļu vienā dienā."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Esat ierakstījis dienu ar 10 000 soļiem."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Regulāra sekošana"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Ierakstiet 100 svara mērījumus. Katrā datumā skaita vienu mērījumu."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Esat ierakstījis 100 svara mērījumus."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Pieredzējis dienasgrāmatas rakstītājs"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Ierakstiet maltītes vai mērījumus 90 dažādās dienās. Tām nav jābūt secīgām."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Jūsu dienasgrāmatā ir ieraksti par 90 dažādām dienām."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"mērījumi"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porcijas"</string>
+    <string name="secondary_award_unit_days" formatted="false">"dienas"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"secīgas dienas"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"soļi vienā dienā"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"ierakstītas dienas"</string>
+    <string name="secondary_back" formatted="false">"‹  Atpakaļ"</string>
+    <string name="secondary_achievements" formatted="false">"Sasniegumi"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Nelieli soļi kļūst par ieradumu"</string>
+    <string name="secondary_your_progress" formatted="false">"JŪSU PROGRESS"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Iegūtie sasniegumi paliek arī pēc ierakstu rediģēšanas."</string>
+    <string name="secondary_awards_regular" formatted="false">"Par regularitāti un dienasgrāmatas rakstīšanu"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Tiek skaitīti ieraksti līdz šodienai ieskaitot."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Slēpts sasniegums"</string>
+    <string name="secondary_hidden_description" formatted="false">"Turpiniet rakstīt dienasgrāmatu, lai atbloķētu šo sasniegumu."</string>
+    <string name="secondary_earned" formatted="false">"Iegūts"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Slēpts · bloķēts"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Procesā · bloķēts"</string>
+    <string name="secondary_locked" formatted="false">"Bloķēts"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Nosacījums un progress tiks atklāts, kad iegūsiet šo sasniegumu."</string>
+    <string name="secondary_best_streak" formatted="false">"Garākā sērija"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Slēpta balva"</string>
+    <string name="secondary_unlocked_of">"no %1$d atbloķēti"</string>
+    <string name="secondary_unlocked_date">"Atbloķēts %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Atpakaļ"</string>
+    <string name="secondary_my_recipe" formatted="false">"Mana recepte"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Nosveriet sastāvdaļas pirms gatavošanas. Porciju aprēķinam izmantojiet gatavā ēdiena svaru. Neaizmirstiet eļļas un mērces."</string>
+    <string name="secondary_recipe_name" formatted="false">"Receptes nosaukums"</string>
+    <string name="secondary_recipe_example" formatted="false">"Piemēram, dārzeņu sautējums"</string>
+    <string name="secondary_ingredients" formatted="false">"Sastāvdaļas"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Sāciet ar sastāvdaļām"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Izvēlieties produktu un ievadiet tā svaru gramos."</string>
+    <string name="secondary_edit_weight" formatted="false">"Rediģēt svaru"</string>
+    <string name="secondary_delete" formatted="false">"Dzēst"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Pievienot sastāvdaļu"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Visa recepte"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Gatavošana maina svaru, jo tiek pievienots vai iztvaiko ūdens. Nosveriet gatavo ēdienu bez trauka."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Gatavā ēdiena svars, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Ievadiet svaru pēc gatavošanas"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Ievadiet svaru, kas lielāks par 0 un nepārsniedz 100 000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Svars netiek aizpildīts automātiski"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Uz 100 g gatavā ēdiena"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Pārbaudiet gatavā ēdiena svaru un sastāvdaļas: 100 g drīkst būt ne vairāk par 1000 kcal un 100 g katras uzturvielas."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Neizdevās saglabāt recepti"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Saglabāt manās receptēs"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Pēc saglabāšanas ēdienu var pievienot dienasgrāmatai pēc porcijas svara."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Sastāvdaļas svars pirms gatavošanas"</string>
+    <string name="secondary_grams" formatted="false">"Grami"</string>
+    <string name="secondary_weight_limits" formatted="false">"Vairāk par 0 un ne vairāk par 100 000 g"</string>
+    <string name="secondary_add" formatted="false">"Pievienot"</string>
+    <string name="secondary_save" formatted="false">"Saglabāt"</string>
+    <string name="secondary_cancel" formatted="false">"Atcelt"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Izvēlēties sastāvdaļu"</string>
+    <string name="secondary_search_food" formatted="false">"Meklēt produktus"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Nekas nav atrasts. Savu produktu var pievienot cilnē Produkti."</string>
+    <string name="secondary_close" formatted="false">"Aizvērt"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Olbaltumvielas %1$s · Tauki %2$s · Ogļhidrāti %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Sastāvdaļu svars: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Gala svars: %1$s g. Sastāvdaļas: %2$s"</string>
+</resources>

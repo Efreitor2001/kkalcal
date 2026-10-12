@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Դիետայի օրագիր"</string>
+    <string name="core_app_name" formatted="false">"Դիետայի օրագիր"</string>
+    <string name="core_tagline" formatted="false">"Կալորիաներ, քաշ և առաջընթաց"</string>
+    <string name="core_open_diary" formatted="false">"Բաց օրագիր"</string>
+    <string name="core_save_failed" formatted="false">"Չհաջողվեց պահպանել ձեր տվյալները"</string>
+    <string name="core_day" formatted="false">"Այսօր"</string>
+    <string name="core_products" formatted="false">"Սննդամթերք"</string>
+    <string name="core_diary" formatted="false">"Օրագիր"</string>
+    <string name="core_charts" formatted="false">"Դիագրամներ"</string>
+    <string name="core_more" formatted="false">"Ավելին"</string>
+    <string name="core_recipe_saved" formatted="false">"Ճաշատեսակ պահված է ձեր սննդի մեջ"</string>
+    <string name="core_back_to_day" formatted="false">"Վերադառնալ ձեր օրվան"</string>
+    <string name="core_action_failed" formatted="false">"Չհաջողվեց ավարտել այս գործողությունը"</string>
+    <string name="core_understood" formatted="false">"Լավ"</string>
+    <string name="core_restore_available" formatted="false">"Դուք կարող եք վերականգնել կրկնօրինակը Ավելին բաժնում:"</string>
+    <string name="core_eaten_today" formatted="false">"ԱՅՍՕՐ ՈՒՏՎՈՒՄ ԵՆ"</string>
+    <string name="core_set_goal_hint" formatted="false">"Դուք կարող եք նպատակ դնել More-ում"</string>
+    <string name="core_add_food" formatted="false">"+ Ավելացրեք սնունդ"</string>
+    <string name="core_first_meal" formatted="false">"Սկսեք ձեր առաջին կերակուրից"</string>
+    <string name="core_first_meal_help" formatted="false">"Ընտրեք մթերք և մուտքագրեք դրա քաշը գրամով՝ կալորիաներն ու մակրոները հաշվարկելու համար:"</string>
+    <string name="core_my_day" formatted="false">"Իմ օրը"</string>
+    <string name="core_my_day_help" formatted="false">"Քաշ, իրան, քայլեր, քուն — գրանցեք այն, ինչ գիտեք:"</string>
+    <string name="core_record_metrics" formatted="false">"Գրանցեք չափումները"</string>
+    <string name="core_edit_metrics" formatted="false">"Խմբագրել չափումները"</string>
+    <string name="core_food_state_hint" formatted="false">"Սննդի քաշը և սննդային արժեքները պետք է վերաբերվեն նույն վիճակին՝ հում, չոր կամ եփած։"</string>
+    <string name="core_weight" formatted="false">"Քաշ"</string>
+    <string name="core_waist" formatted="false">"Գոտկատեղ"</string>
+    <string name="core_my_diary" formatted="false">"Իմ օրագիրը"</string>
+    <string name="core_diary_tagline" formatted="false">"Ամեն օր ձեր սեփական տեմպերով"</string>
+    <string name="core_record_day" formatted="false">"+ Ձայնագրեք մեկ օր"</string>
+    <string name="core_optional_diary_help" formatted="false">"Բոլոր չափումները կամընտիր են: Դուք կարող եք գրանցել միայն ձեր քաշը, քունը կամ գրառումը: Հպեք մուտքագրին՝ այն խմբագրելու համար:"</string>
+    <string name="core_history_starts" formatted="false">"Ձեր պատմությունը սկսվում է այստեղից"</string>
+    <string name="core_history_help" formatted="false">"Գրանցեք չափումները և հետևեք գծապատկերների փոփոխություններին:"</string>
+    <string name="core_file_unavailable" formatted="false">"Ֆայլն անհասանելի է"</string>
+    <string name="core_backup_saved" formatted="false">"Կրկնօրինակը պահված է"</string>
+    <string name="core_export_error" formatted="false">"Չհաջողվեց արտահանել կրկնօրինակը"</string>
+    <string name="core_read_error" formatted="false">"Չհաջողվեց կարդալ ֆայլը"</string>
+    <string name="core_settings_tagline" formatted="false">"Կարգավորումներ և տվյալների կրկնօրինակում"</string>
+    <string name="core_your_progress" formatted="false">"Ձեր առաջընթացը"</string>
+    <string name="core_achievements_help" formatted="false">"Փոքր ձեռքբերումներ օրագրային սովորություն ստեղծելու համար."</string>
+    <string name="core_achievements" formatted="false">"Ձեռքբերումներ"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"կամընտիր կապ՝ ձեր օրագիրը ձեր սարքերում համաժամացնելու համար:"</string>
+    <string name="core_cloud_sync" formatted="false">"Cloud sync"</string>
+    <string name="core_personal_goals" formatted="false">"Անձնական նպատակներ"</string>
+    <string name="core_personal_goals_help" formatted="false">"Ձեռքով սահմանեք ձեր կալորիականության, մակրո և թիրախային քաշի նպատակները: Ցանկացած գոլ կարելի է դատարկ թողնել:"</string>
+    <string name="core_configure_goals" formatted="false">"Նպատակներ դրեք"</string>
+    <string name="core_backup" formatted="false">"Կրկնօրինակում"</string>
+    <string name="core_backup_help" formatted="false">"Սնունդ, սնունդ, օրագիր, նպատակներ և ձեռքբերումներ մեկ ֆայլում. Հավելվածը նորից տեղադրելուց առաջ պահեք կրկնօրինակը:"</string>
+    <string name="core_save_file" formatted="false">"Պահել ֆայլում"</string>
+    <string name="core_restore_file" formatted="false">"Վերականգնել ֆայլից"</string>
+    <string name="core_write_locked" formatted="false">"Պահումն անջատված է բնօրինակ ֆայլը պաշտպանելու համար: Վերականգնել վավեր կրկնօրինակը:"</string>
+    <string name="core_about_data" formatted="false">"Հավելվածի և ձեր տվյալների մասին"</string>
+    <string name="core_about_data_help" formatted="false">"Ինչպես են պահվում գրառումները, ինչպես է աշխատում համաժամացումը և ինչպես են ջնջվում տվյալները:"</string>
+    <string name="core_privacy" formatted="false">"Գաղտնիություն և տվյալների ջնջում"</string>
+    <string name="core_offline" formatted="false">"Աշխատում է անցանց"</string>
+    <string name="core_offline_help" formatted="false">"Google մուտքը պարտադիր չէ: Քայլերը և քունը մուտքագրվում են ձեռքով: Միացված համաժամացման և գովազդի բեռնման համար անհրաժեշտ է ինտերնետ կապ: Օրագրի գրառումները չեն ուղարկվում գովազդային ցանց:"</string>
+    <string name="core_about_foods" formatted="false">"Սննդի մասին"</string>
+    <string name="core_foods_reference" formatted="false">"Ներկառուցված արժեքները գնահատվում են 100 գ ուտելի մասի համար: Ստուգեք փաթեթավորումը ճշգրիտ արժեքների համար: Սննդամթերքի խմբագրումը չի վերահաշվարկում նախորդ ճաշի գրառումները:"</string>
+    <string name="core_foods_source" formatted="false">"Տվյալների բազայի աղբյուրը՝ USDA FoodData Central, SR Legacy: Առանձին մթերքները ներառում են դրանց վիճակի և աղբյուրի մանրամասները:"</string>
+    <string name="core_restore_title" formatted="false">"Վերականգնե՞լ այս կրկնօրինակը:"</string>
+    <string name="core_restore_warning" formatted="false">"Ձեր ընթացիկ ուտելիքները, օրագիրը, նպատակներն ու ձեռքբերումները կփոխարինվեն այս ֆայլի բովանդակությամբ: Սկզբում պահեք կրկնօրինակը: Եթե ​​համաժամացումը միացված է, վերականգնված փոփոխությունները նույնպես կուղարկվեն Google Drive հասցեին:"</string>
+    <string name="core_backup_restored" formatted="false">"Կրկնօրինակը վերականգնվեց"</string>
+    <string name="core_invalid_file" formatted="false">"Անվավեր ֆայլ"</string>
+    <string name="core_replace_data" formatted="false">"Փոխարինել տվյալները"</string>
+    <string name="core_cancel" formatted="false">"Չեղարկել"</string>
+    <string name="core_save" formatted="false">"Պահպանել"</string>
+    <string name="core_calculate_portion" formatted="false">"Հաշվեք մի մասը"</string>
+    <string name="core_edit_portion" formatted="false">"Խմբագրել մասը"</string>
+    <string name="core_portion_weight" formatted="false">"Մասի քաշը, գ"</string>
+    <string name="core_portion_invalid" formatted="false">"Մուտքագրեք 0-ից մեծ և 100000 գ-ից ոչ ավել քաշ"</string>
+    <string name="core_add_to_diary" formatted="false">"Ավելացնել օրագրին"</string>
+    <string name="core_delete_entry" formatted="false">"Ջնջել գրառումը"</string>
+    <string name="core_delete_portion_question" formatted="false">"Ջնջե՞լ այս հատվածը ձեր օրագրից:"</string>
+    <string name="core_new_food" formatted="false">"Նոր ուտելիք կամ ուտեստ"</string>
+    <string name="core_edit_nutrition" formatted="false">"Խմբագրել սննդային արժեքները"</string>
+    <string name="core_name" formatted="false">"Անուն"</string>
+    <string name="core_food" formatted="false">"Սնունդ"</string>
+    <string name="core_dish" formatted="false">"Պատրաստի ուտեստ"</string>
+    <string name="core_category" formatted="false">"Կատեգորիա"</string>
+    <string name="core_per100_hint" formatted="false">"Արժեքները 100 գ-ի համար՝ փաթեթավորումից կամ բաղադրատոմսից։ Մուտքագրեք 0, եթե սննդանյութը բացակայում է:"</string>
+    <string name="core_kcal" formatted="false">"Կալորիաներ"</string>
+    <string name="core_protein_grams" formatted="false">"Սպիտակուցներ, գ"</string>
+    <string name="core_fat_grams" formatted="false">"Ճարպ, գ"</string>
+    <string name="core_carbs_grams" formatted="false">"Ածխաջրեր, գ"</string>
+    <string name="core_food_note" formatted="false">"Նշում, բաղադրիչներ (ըստ ցանկության)"</string>
+    <string name="core_favorite" formatted="false">"Ավելացնել ընտրանի"</string>
+    <string name="core_name_category_required" formatted="false">"Մուտքագրեք անուն և կատեգորիա"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Մուտքագրեք արժեքները 100 գ-ի համար՝ կալորիա 0–1000; սպիտակուցներ, ճարպեր և ածխաջրեր 0-100 գ"</string>
+    <string name="core_delete_food" formatted="false">"Ջնջել մթերքներից"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Նախորդ ճաշի գրառումները կպահպանեն իրենց արժեքները:"</string>
+    <string name="core_delete_food_question" formatted="false">"Ջնջե՞լ այս սնունդը: Նրա օրագրային գրառումները կպահվեն:"</string>
+    <string name="core_day_entry" formatted="false">"Ամենօրյա մուտք"</string>
+    <string name="core_optional_fields" formatted="false">"Լրացրեք ցանկացած դաշտ, որը ցանկանում եք: Մնացածը դատարկ թողեք։"</string>
+    <string name="core_editing_existing" formatted="false">"Այս ամսաթվի համար արդեն գրառում կա: Դուք խմբագրում եք այն։"</string>
+    <string name="core_weight_kg" formatted="false">"Քաշ, կգ"</string>
+    <string name="core_waist_cm" formatted="false">"Գոտկատեղ, սմ"</string>
+    <string name="core_steps" formatted="false">"Քայլեր"</string>
+    <string name="core_sleep" formatted="false">"Քուն"</string>
+    <string name="core_hours" formatted="false">"Ժամ"</string>
+    <string name="core_minutes" formatted="false">"Րոպե"</string>
+    <string name="core_body_fat_optional" formatted="false">"Կշեռք մարմնի ճարպը, % (ըստ ցանկության)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Կշեռքից ստացված մարմնի ճարպը միտումի ցուցիչ է, ոչ թե ճշգրիտ չափում:"</string>
+    <string name="core_strength_training" formatted="false">"Ուժային մարզում"</string>
+    <string name="core_training_example" formatted="false">"Օրինակ՝ squats 3×10, 12 կգ համրեր"</string>
+    <string name="core_manual_nutrition" formatted="false">"Ձեռքով սնուցման ընդհանուր գումարներ"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Եթե մուտքագրված է, այս արժեքները գերազանցում են օրվա սննդի ընդհանուր գումարը: Ավտոմատ հաշվարկի համար դատարկ թողեք:"</string>
+    <string name="core_daily_calories" formatted="false">"Օրական կալորիաներ"</string>
+    <string name="core_daily_protein" formatted="false">"Օրական սպիտակուց, գ"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Նշումներ և ինչպես եք զգում"</string>
+    <string name="core_steps_invalid" formatted="false">"Քայլեր. ամբողջ թիվ 0-ից մինչև 200000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Քուն՝ 0–24 ժամ, րոպե 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Մարմնի ճարպ"</string>
+    <string name="core_calories" formatted="false">"Կալորիաներ"</string>
+    <string name="core_protein" formatted="false">"Սպիտակուցներ"</string>
+    <string name="core_entry_required" formatted="false">"Ավելացրեք առնվազն մեկ չափում կամ նշում"</string>
+    <string name="core_delete_day" formatted="false">"Ջնջել այս ամենօրյա գրառումը"</string>
+    <string name="core_optional_goals" formatted="false">"Բոլոր գոլերը կամընտիր են: Դատարկ դաշտը նշանակում է, որ նպատակ չկա:"</string>
+    <string name="core_calories_per_day" formatted="false">"Կալորիաներ մեկ օրում"</string>
+    <string name="core_protein_per_day" formatted="false">"Սպիտակուցներ օրական, գ"</string>
+    <string name="core_fat_per_day" formatted="false">"Ճարպեր օրական, գ"</string>
+    <string name="core_carbs_per_day" formatted="false">"Ածխաջրեր օրական, գ"</string>
+    <string name="core_target_weight" formatted="false">"Նպատակային քաշ, կգ"</string>
+    <string name="core_goals_invalid" formatted="false">"Ստուգեք ձեր նպատակները. կալորիա 0–10,000; սպիտակուցներ, ճարպեր և ածխաջրեր 0-1000 գ"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Նպատակային քաշը՝ 1-ից մինչև 500 կգ"</string>
+    <string name="core_delete_question" formatted="false">"Ջնջե՞լ:"</string>
+    <string name="core_delete" formatted="false">"Ջնջել"</string>
+    <string name="core_select_food" formatted="false">"Ընտրեք սնունդ"</string>
+    <string name="core_foods_dishes" formatted="false">"Մթերքներ և ուտեստներ"</string>
+    <string name="core_search_food" formatted="false">"Որոնել ուտելիք կամ ուտեստ"</string>
+    <string name="core_new_food_button" formatted="false">"+ Սնունդ / ուտեստ"</string>
+    <string name="core_recipe_button" formatted="false">"Բաղադրատոմսից"</string>
+    <string name="core_no_results" formatted="false">"Ոչ մի արդյունք"</string>
+    <string name="core_no_results_help" formatted="false">"Փորձեք մեկ այլ որոնում կամ ավելացրեք ձեր սեփական ուտելիքը կամ պատրաստված ուտեստը:"</string>
+    <string name="core_edit" formatted="false">"Խմբագրել"</string>
+    <string name="core_achievement_unlocked">"🏆 Ձեռքբերումը բացված է: %1$s - %2$s"</string>
+    <string name="core_remaining_goal">"%1$s կկալ մնաց · նպատակ %2$s"</string>
+    <string name="core_above_goal">"%1$s կկալ գերազանցում է ձեր նպատակը"</string>
+    <string name="core_portion_summary">"%1$s գ · %2$s կկալ"</string>
+    <string name="core_macros_summary">"Սպիտակուց %1$s   Ճարպ %2$s   Ածխաջրեր %3$s"</string>
+    <string name="core_weight_summary">"Քաշը %1$s կգ"</string>
+    <string name="core_waist_summary">"Իրան %1$s սմ"</string>
+    <string name="core_steps_summary">"Քայլեր՝ %1$s"</string>
+    <string name="core_fat_summary">"Մարմնի ճարպ %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s կկալ (ձեռնարկ)"</string>
+    <string name="core_manual_protein">"Սպիտակուցներ %1$s գ (ձեռնարկ)"</string>
+    <string name="core_kg_value">"%1$s կգ"</string>
+    <string name="core_cm_value">"%1$s սմ"</string>
+    <string name="core_sleep_value">"Քնել %1$s"</string>
+    <string name="core_scale_fat">"Կշռել մարմնի ճարպը %1$s%%"</string>
+    <string name="core_training_value">"Ուսուցում՝ %1$s"</string>
+    <string name="core_kcal_value">"%1$s կկալ"</string>
+    <string name="core_protein_value">"Սպիտակուցներ %1$s գ"</string>
+    <string name="core_app_version">"Դիետայի օրագիր · %1$s"</string>
+    <string name="core_per100_summary">"100 գ-ի հաշվով: %1$s kcal · Սպիտակուց %2$s · Ճարպ %3$s · Ածխաջրեր %4$s"</string>
+    <string name="core_range_invalid">"%1$s. մուտքագրեք արժեք %2$s-ից %3$s"</string>
+    <string name="core_delete_day_question">"Ջնջե՞լ %1$s-ի չափումները: Սննդի գրառումները կպահպանվեն:"</string>
+    <string name="core_catalog_count">"Մթերքներ: %1$s · 100 գ-ի հաշվով"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Սպիտակուց %2$s   Ճարպ %3$s   Ածխաջրեր %4$s"</string>
+    <string name="core_today_date">"Այսօր · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Կալորիաները և սպիտակուցները ձեռքով հավաքված են ձեր օրագրից"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Կալորիաները ձեռքով հավաքված են ձեր օրագրից"</string>
+    <string name="core_manual_protein_total" formatted="false">"Protein-ը ձեր օրագրից ստացված ընդհանուր ձեռնարկ է"</string>
+    <string name="core_macro_goals">"P / F / C նպատակներ՝ %1$s / %2$s / %3$s գ"</string>
+    <string name="core_kcal_unit" formatted="false">"կկալ"</string>
+    <string name="core_manual_values">"%1$s (ձեռնարկ)"</string>
+    <string name="core_all" formatted="false">"Բոլոր"</string>
+    <string name="core_favorites" formatted="false">"Ֆավորիտներ"</string>
+    <string name="core_sleep_duration">"%1$s ժ %2$s ր"</string>
+    <string name="core_previous_day" formatted="false">"Նախորդ օրը"</string>
+    <string name="core_next_day" formatted="false">"Հաջորդ օրը"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Միգրացիայի կրկնօրինակը չի համընկնում"</string>
+    <string name="data_entry_exists" formatted="false">"Այս սննդամթերքի մուտքն արդեն գոյություն ունի"</string>
+    <string name="data_entry_missing" formatted="false">"Սննդի մուտքագրումը չի գտնվել"</string>
+    <string name="data_edited_date_changed" formatted="false">"Խմբագրվող գրառման ամսաթիվը փոխվել է"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Տեղական ID սարքը վնասված է. վերականգնումն արգելափակված է"</string>
+    <string name="data_sync_invalid" formatted="false">"Անվավեր համաժամացման տվյալներ"</string>
+    <string name="data_diary_read_only" formatted="false">"Օրագիրը պաշտպանված է վերագրանցումից. վերականգնել կրկնօրինակը"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Օրագրի տվյալները անհամապատասխան են"</string>
+    <string name="data_backup_too_large" formatted="false">"Կրկնօրինակը չափազանց մեծ է"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ID տեղադրումը վնասված է"</string>
+    <string name="data_save_verification_failed" formatted="false">"Չհաջողվեց հաստատել, որ օրագիրը պահպանված է"</string>
+    <string name="data_save_failed" formatted="false">"Չհաջողվեց պահպանել օրագիրը"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Կրկնօրինակը 50 ՄԲ-ից մեծ է"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Օրագրի ֆայլը չափազանց մեծ է"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Սննդի տվյալների բազայի անվավեր չափ"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Չաջակցվող պահուստային տարբերակ"</string>
+    <string name="data_too_many_values">"Չափից շատ արժեքներ %1$s-ում"</string>
+    <string name="data_too_many_products" formatted="false">"Չափազանց շատ սնունդ"</string>
+    <string name="data_too_many_entries" formatted="false">"Չափից շատ սննդի մուտքագրումներ"</string>
+    <string name="data_too_many_logs" formatted="false">"Չափից շատ օրագրային գրառումներ"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Կրկնօրինակ սնունդ ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Կրկնօրինակ սննդի մուտքագրում ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Կրկնօրինակ օրագրի ամսաթիվ"</string>
+    <string name="data_label_product_id" formatted="false">"Սնունդ ID"</string>
+    <string name="data_label_product_name" formatted="false">"Սննդի անվանում"</string>
+    <string name="data_label_category" formatted="false">"Կատեգորիա"</string>
+    <string name="data_label_note" formatted="false">"Ծանոթագրություն"</string>
+    <string name="data_label_entry_id" formatted="false">"Մուտք ID"</string>
+    <string name="data_label_meal" formatted="false">"Ճաշ"</string>
+    <string name="data_food_weight_range" formatted="false">"Սննդի քաշը պետք է լինի 0-ից մեծ և ոչ ավելի, քան 100000 գ."</string>
+    <string name="data_label_weight" formatted="false">"Քաշ"</string>
+    <string name="data_label_waist" formatted="false">"Գոտկատեղ"</string>
+    <string name="data_steps_range" formatted="false">"Քայլերի թիվը պետք է լինի 0-ից մինչև 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Քուն"</string>
+    <string name="data_label_body_fat" formatted="false">"Մարմնի ճարպ"</string>
+    <string name="data_label_daily_calories" formatted="false">"Օրական կալորիաներ"</string>
+    <string name="data_label_daily_protein" formatted="false">"Օրական սպիտակուց"</string>
+    <string name="data_label_workout" formatted="false">"Մարզում"</string>
+    <string name="data_label_log_note" formatted="false">"Ծանոթագրություն"</string>
+    <string name="data_log_empty" formatted="false">"Մուտքագրեք առնվազն մեկ չափում կամ նշում"</string>
+    <string name="data_label_goal_weight" formatted="false">"Գոլային քաշ"</string>
+    <string name="data_too_many_achievements" formatted="false">"Չափազանց շատ ձեռքբերումներ"</string>
+    <string name="data_achievement_invalid" formatted="false">"Անվավեր ձեռքբերում"</string>
+    <string name="data_setting_not_portable" formatted="false">"Այս կարգավորումը չի կարող փոխանցվել"</string>
+    <string name="data_setting_invalid">"Անվավեր արժեք %1$s կարգավորելու համար"</string>
+    <string name="data_label_calories" formatted="false">"Կալորիաներ"</string>
+    <string name="data_label_protein" formatted="false">"Սպիտակուցներ"</string>
+    <string name="data_label_fat" formatted="false">"Ճարպ"</string>
+    <string name="data_label_carbs" formatted="false">"Ածխաջրեր"</string>
+    <string name="data_value_range">"%1$s՝ թույլատրելի միջակայք %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s՝ անվավեր երկարություն"</string>
+    <string name="data_text_character_invalid">"%1$s՝ անվավեր նիշ"</string>
+    <string name="data_date_format_invalid" formatted="false">"Ամսաթիվը պետք է օգտագործի YYYY-MM-DD ձևաչափը"</string>
+    <string name="data_date_nonexistent">"Անվավեր ամսաթիվ՝ %1$s"</string>
+    <string name="data_field_string_required">"%1$s դաշտը պետք է լինի տեքստ"</string>
+    <string name="data_field_boolean_required">"%1$s դաշտը պետք է լինի բուլյան արժեք"</string>
+    <string name="data_field_number_required">"%1$s դաշտը պետք է լինի թիվ"</string>
+    <string name="data_field_finite_required">"%1$s դաշտը պետք է լինի վերջավոր թիվ"</string>
+    <string name="data_field_integer_required">"%1$s դաշտը պետք է լինի ամբողջ թիվ"</string>
+    <string name="data_too_many_items">"Չափից շատ տարրեր %1$s-ում"</string>
+    <string name="data_data_file_invalid">"Անվավեր տվյալների ֆայլ՝ %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"ID սարքը բացակայում է"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Տրամաբանական ժամացույցի սահմանաչափը հասել է"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Չափից շատ համաժամացման գրառումներ"</string>
+    <string name="data_sync_version_required" formatted="false">"Համաժամացման համար անհրաժեշտ է ֆորմատի տարբերակ 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Անվավեր համաժամացման բանալի"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Կրկնվող համաժամացման բանալի"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Անվավեր ջնջման դրոշ"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Անվավեր համաժամացման տվյալներ"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Ռեկորդային տարբերակը գերազանցում է տրամաբանական ժամացույցը"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Տվյալները չեն համապատասխանում համաժամացման մետատվյալներին"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Անվավեր համաժամացման բանալու երկարություն"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Համաժամացման սխալ բանալի"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Անհայտ համաժամացման տեսակ"</string>
+    <string name="data_record_id_too_long" formatted="false">"ID գրառումը չափազանց երկար է"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Անվավեր ձեռքբերումների ջնջում"</string>
+    <string name="data_log_key_invalid" formatted="false">"Անվավեր օրագրի բանալի"</string>
+    <string name="data_log_field_unknown" formatted="false">"Անհայտ օրագրի դաշտ"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Օրագրի ջնջման անվավեր նշիչ"</string>
+    <string name="data_goal_unknown" formatted="false">"Անհայտ գոլ"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Ջնջված գրառումը պարունակում է տվյալներ"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Համաժամացման անվավեր արժեք"</string>
+    <string name="data_record_id_mismatch" formatted="false">"ID գրառումը չի համապատասխանում բանալիին"</string>
+    <string name="data_field_value_invalid" formatted="false">"Անվավեր դաշտի արժեք"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Ձեռքբերման ամսաթիվը չի համընկնում բանալիի հետ"</string>
+    <string name="data_note_string_required" formatted="false">"Նշումը պետք է լինի տեքստային"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Անվավեր համաժամանակացված նշում"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Անվավեր տրամաբանական ժամացույց"</string>
+    <string name="data_device_invalid" formatted="false">"Անվավեր սարք"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Անվավեր տարբերակի կնիք"</string>
+    <string name="data_google_login_required" formatted="false">"Նորից մուտք գործեք Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Չափից շատ ամպային կրկնօրինակումներ"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive վերադարձրեց կրկնվող էջ"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Ամպային կրկնօրինակը 50 ՄԲ-ից մեծ է"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive-ը վերբեռնման հասցե չի վերադարձրել"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Անվավեր Google Drive վերբեռնման հասցե"</string>
+    <string name="data_back" formatted="false">"‹ Վերադարձ"</string>
+    <string name="data_cloud_title" formatted="false">"Cloud sync"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Ձեր օրագիրը ձեր սարքերում"</string>
+    <string name="data_no_account" formatted="false">"Հաշիվ միացված չէ"</string>
+    <string name="data_cloud_intro" formatted="false">"Մուտքը պարտադիր չէ: Մթերքները, կերակուրները, չափումները, նպատակներն ու ձեռքբերումները պահվում են ձեր հեռախոսում: Միանալուց հետո պատճենը կպահվի ձեր Google Drive-ի թաքնված պանակում:"</string>
+    <string name="data_cloud_first_connection" formatted="false">"Գրառումները միավորվում են առաջին միացման ժամանակ: Հավելվածը չի կարող մուտք գործել ձեր Drive-ի այլ ֆայլեր:"</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Google մուտքն այս կառուցման համար դեռ կազմաձևված չէ: Օրագիրն ու ֆայլի կրկնօրինակներն աշխատում են առանց հաշվի:"</string>
+    <string name="data_connect_google" formatted="false">"Միացրեք Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Ավտոմատ համաժամացում"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Երբ տվյալները փոխվում են և հետին պլանում, երբ Android-ը դա թույլ է տալիս"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Չհաջողվեց փոխել ժամանակացույցը: Ձեր տվյալները պահվում են այս սարքում:"</string>
+    <string name="data_sync_start_failed" formatted="false">"Չհաջողվեց սկսել համաժամացումը: Ձեր տվյալները պահվում են այս սարքում:"</string>
+    <string name="data_sync_now" formatted="false">"Համաժամեցեք հիմա"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Նորից մուտք գործեք Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Անջատել հաշիվը"</string>
+    <string name="data_sync_never" formatted="false">"Դեռևս չկա համաժամացում"</string>
+    <string name="data_offline_saved_title" formatted="false">"Ձեր տվյալները պահվում են անցանց"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Երբ ավտոմատ համաժամացումը միացված է, փոփոխություններն ուղարկվում են, երբ կապը հասանելի է դառնում: Եթե ​​նույն դաշտը փոխվում է երկու սարքերում, ապա օգտագործվում է ավելի ուշ փոփոխության ժամանակի դրոշմով տարբերակը: Անկախ գրառումները և դաշտերը միաձուլվում են:"</string>
+    <string name="data_cloud_password_description" formatted="false">"Դուք մուտքագրում եք ձեր գաղտնաբառը միայն ձեր դիտարկիչի Google էջում: Մուտքի նշանները պաշտպանված են Android Keystore-ի կողմից և բացառված են կրկնօրինակումներից:"</string>
+    <string name="data_google_connection_title" formatted="false">"Google միացում"</string>
+    <string name="data_got_it" formatted="false">"Հասկացա"</string>
+    <string name="data_connect_drive_title" formatted="false">"Միացնե՞լ Google Drive-ը:"</string>
+    <string name="data_connect_drive_description" formatted="false">"Ձեր ընթացիկ օրագիրը կմիավորվի ընտրված Google հաշվի տվյալների հետ: Օգտագործեք նույն անձնական հաշիվը ձեր սարքերում: Մուտքը կբացվի ձեր կանխադրված դիտարկիչում:"</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Չհաջողվեց բացել մուտքը: Տեղադրեք կամ միացրեք կանխադրված դիտարկիչը և նորից փորձեք:"</string>
+    <string name="data_continue" formatted="false">"Շարունակեք"</string>
+    <string name="data_cancel" formatted="false">"Չեղարկել"</string>
+    <string name="data_disconnect_title" formatted="false">"Անջատե՞լ հաշիվը:"</string>
+    <string name="data_disconnect_description" formatted="false">"Համաժամացումը կդադարեցվի այս սարքում: Ձեր տեղական օրագիրը և Google Drive-ի պատճենները կպահվեն: Հավելվածի թույլտվությունը կարող եք կառավարել ձեր Google հաշվի կարգավորումներում:"</string>
+    <string name="data_disconnect_failed" formatted="false">"Չհաջողվեց անջատել հաշիվը: Խնդրում ենք կրկին փորձել:"</string>
+    <string name="data_disconnect" formatted="false">"Անջատել"</string>
+    <string name="data_google_not_connected" formatted="false">"Google-ը միացված չէ"</string>
+    <string name="data_sync_ready" formatted="false">"Պատրաստ է համաժամացման"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Փոփոխությունները սպասում են համաժամացման…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Ինտերնետ կապ չկա: Փոփոխությունները պահված են այս սարքում:"</string>
+    <string name="data_google_not_configured" formatted="false">"Google մուտքը դեռ կազմաձևված չէ այս սարքի համար"</string>
+    <string name="data_sync_wait" formatted="false">"Սպասեք համաժամացման ավարտին"</string>
+    <string name="data_google_connecting" formatted="false">"Միանում է Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Միացումը չեղարկված է"</string>
+    <string name="data_connection_rejected" formatted="false">"Կապը չեղարկվել կամ մերժվել է Google-ի կողմից"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google միացված է: Գրառումների միավորում…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Չհաջողվեց միացնել Google-ին: Ստուգեք ձեր ինտերնետ կապը և մուտքի կարգավորումները:"</string>
+    <string name="data_account_disconnected" formatted="false">"Հաշիվն անջատված է։ Ձեր տվյալները մնում են այս սարքում:"</string>
+    <string name="data_sync_waiting_network" formatted="false">"Ինտերնետ կապ չկա: Համաժամացումը սպասում է միացման:"</string>
+    <string name="data_sync_scheduled" formatted="false">"Համաժամացումը պլանավորված է…"</string>
+    <string name="data_sync_running" formatted="false">"Համաժամացում…"</string>
+    <string name="data_sync_complete" formatted="false">"Համաժամեցումն ավարտված է"</string>
+    <string name="data_no_internet" formatted="false">"Ինտերնետ կապ չկա"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Չհաջողվեց համաժամացնել: Ձեր տվյալները պահվում են այս սարքում"</string>
+    <string name="data_page_open_failed" formatted="false">"Չհաջողվեց բացել էջը: Դուք կարող եք պատճենել դրա հասցեն ստորև բերված տեքստից:"</string>
+    <string name="data_privacy_title" formatted="false">"Գաղտնիություն"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Ձեր գրառումները և տվյալների վերահսկումը"</string>
+    <string name="data_app_purpose" formatted="false">"Այս հավելվածի մասին"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Այս հավելվածը բժշկական սարք չէ: Այն չի ախտորոշում, բուժում, բուժում կամ կանխարգելում որևէ հիվանդություն: Բժշկական խորհրդատվության, ախտորոշման և բուժման համար դիմեք որակավորված բուժաշխատողի:"</string>
+    <string name="data_manage_delete_data" formatted="false">"Կառավարեք և ջնջեք տվյալները"</string>
+    <string name="data_delete_data_intro" formatted="false">"Նախքան բոլոր տվյալները ջնջելը, անջատեք համաժամացումը ձեր բոլոր սարքերում: Հավելվածը հեռախոսից հեռացնելը չի ​​ջնջի Google Drive-ի պատճենները կամ արտահանված ֆայլերը:"</string>
+    <string name="data_manage_drive_data" formatted="false">"Կառավարեք Google Drive տվյալները"</string>
+    <string name="data_google_account_access" formatted="false">"Google Հաշվի մուտք"</string>
+    <string name="data_android_app_storage" formatted="false">"Հավելվածների պահեստավորում Android-ում"</string>
+    <string name="data_contact_developer" formatted="false">"Կապվեք մշակողի հետ"</string>
+    <string name="data_opening_page" formatted="false">"Էջի բացում"</string>
+    <string name="data_advertisement" formatted="false">"ԳՈՎԱԶԴ"</string>
+    <string name="data_ad_information" formatted="false">"Այս գովազդի մասին"</string>
+    <string name="data_cloud_http_error">"Cloud HTTP սխալ %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Ամպի արձագանքը չափազանց մեծ է"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Անվավեր գաղտնագրված մուտքի աշխատաշրջան"</string>
+    <string name="data_session_save_failed" formatted="false">"Չհաջողվեց պահել մուտքի աշխատաշրջանը"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Չհաջողվեց թարմացնել մուտքը Google"</string>
+    <string name="data_diary_read_failed">"Չկարողացա կարդալ օրագիրը: Բնօրինակ ֆայլը պահվել է։ Վերականգնել ձեր տվյալները կրկնօրինակից: %1$s"</string>
+    <string name="data_last_sync">"Վերջին համաժամացումը՝ %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Մրգեր և հատապտուղներ"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Չոր"</string>
+    <string name="data_category_vegetables" formatted="false">"Բանջարեղեն և խոտաբույսեր"</string>
+    <string name="data_category_mushrooms" formatted="false">"Սունկ"</string>
+    <string name="data_category_grains" formatted="false">"Հացահատիկներ և մակարոնեղեն"</string>
+    <string name="data_category_legumes" formatted="false">"Լոբազգիներ"</string>
+    <string name="data_category_meat" formatted="false">"Միս և թռչնամիս"</string>
+    <string name="data_category_fish" formatted="false">"Ձուկ և ծովամթերք"</string>
+    <string name="data_category_dairy" formatted="false">"Կաթնամթերք"</string>
+    <string name="data_category_eggs" formatted="false">"Ձու"</string>
+    <string name="data_category_oils" formatted="false">"Յուղեր և կարագ"</string>
+    <string name="data_category_nuts" formatted="false">"Ընկույզ և սերմեր"</string>
+    <string name="data_category_bread" formatted="false">"Հաց"</string>
+    <string name="data_category_other" formatted="false">"Այլ մթերքներ"</string>
+    <string name="data_category_dishes" formatted="false">"Պատրաստի ուտեստներ"</string>
+    <string name="data_category_custom" formatted="false">"Իմ ուտելիքները"</string>
+    <string name="data_category_other_short" formatted="false">"Այլ"</string>
+    <string name="data_food_seed_9003" formatted="false">"Մաշկով խնձոր"</string>
+    <string name="data_catalog_note_1">"Հղային արժեքներ 100 գ ուտելի մասի համար. Հում սնունդ. USDA ածխաջրերի արժեքները ներառում են մանրաթել: Դուք կարող եք կարգավորել արժեքները՝ օգտագործելով ապրանքի պիտակը: USDA SR Legacy, FDC %1$s:"</string>
+    <string name="data_food_seed_9040" formatted="false">"Բանան՝ կեղևավորված"</string>
+    <string name="data_food_seed_9021" formatted="false">"Ծիրանի, առանց կորիզների"</string>
+    <string name="data_food_seed_9037" formatted="false">"Ավոկադոյի միս"</string>
+    <string name="data_food_seed_9050" formatted="false">"Հապալաս"</string>
+    <string name="data_food_seed_9070" formatted="false">"Քաղցր բալ՝ առանց կորիզների"</string>
+    <string name="data_food_seed_9063" formatted="false">"Թթու կեռաս՝ առանց կորիզների"</string>
+    <string name="data_food_seed_9078" formatted="false">"Լոռամիրգ"</string>
+    <string name="data_food_seed_9083" formatted="false">"Սև հաղարջ"</string>
+    <string name="data_food_seed_9084" formatted="false">"Կարմիր և սպիտակ հաղարջ"</string>
+    <string name="data_food_seed_9132" formatted="false">"Խաղող"</string>
+    <string name="data_food_seed_9148" formatted="false">"Կիվիի միս"</string>
+    <string name="data_food_seed_9150" formatted="false">"Կիտրոն՝ կեղևավորված"</string>
+    <string name="data_food_seed_9181" formatted="false">"Cantaloupe միս"</string>
+    <string name="data_food_seed_9200" formatted="false">"Նարնջագույն միս"</string>
+    <string name="data_food_seed_9218" formatted="false">"Մանդարինի միս"</string>
+    <string name="data_food_seed_9236" formatted="false">"Դեղձ, առանց կորիզների"</string>
+    <string name="data_food_seed_9252" formatted="false">"Տանձ"</string>
+    <string name="data_food_seed_9266" formatted="false">"Արքայախնձորի միս"</string>
+    <string name="data_food_seed_9279" formatted="false">"Սալոր, առանց կորիզների"</string>
+    <string name="data_food_seed_9286" formatted="false">"Նռան հատիկներ"</string>
+    <string name="data_food_seed_9295" formatted="false">"Պոմելոյի միս"</string>
+    <string name="data_food_seed_9302" formatted="false">"Ազնվամորի"</string>
+    <string name="data_food_seed_9316" formatted="false">"Ելակ"</string>
+    <string name="data_food_seed_9326" formatted="false">"Ձմերուկի միս"</string>
+    <string name="data_food_seed_9191" formatted="false">"Նեկտարին, առանց կորիզների"</string>
+    <string name="data_food_seed_9176" formatted="false">"Մանգոյի միս"</string>
+    <string name="data_food_seed_9107" formatted="false">"Փշահաղարջ"</string>
+    <string name="data_food_seed_9226" formatted="false">"Պապայայի միս"</string>
+    <string name="data_food_seed_9089" formatted="false">"Թարմ թուզ"</string>
+    <string name="data_food_seed_9111" formatted="false">"Գրեյպֆրուտի միս"</string>
+    <string name="data_food_seed_9032" formatted="false">"Ծիրանի չիր՝ առանց կորիզների"</string>
+    <string name="data_catalog_note_2">"Հղային արժեքներ ուտելի մասի 100 գ-ի համար. USDA ածխաջրերի արժեքները ներառում են մանրաթել: Դուք կարող եք կարգավորել արժեքները՝ օգտագործելով ապրանքի պիտակը: USDA SR Legacy, FDC %1$s:"</string>
+    <string name="data_food_seed_9291" formatted="false">"Սալորաչիր՝ առանց կորիզների"</string>
+    <string name="data_food_seed_9087" formatted="false">"Խուրմա, առանց կորիզների"</string>
+    <string name="data_food_seed_9298" formatted="false">"Մուգ չամիչ, առանց սերմերի"</string>
+    <string name="data_food_seed_11529" formatted="false">"Թարմ լոլիկ"</string>
+    <string name="data_food_seed_11205" formatted="false">"Կաշվով վարունգ"</string>
+    <string name="data_food_seed_11090" formatted="false">"Հում բրոկկոլի"</string>
+    <string name="data_food_seed_11109" formatted="false">"Հում սպիտակ կաղամբ"</string>
+    <string name="data_food_seed_11124" formatted="false">"Հում գազար"</string>
+    <string name="data_food_seed_11135" formatted="false">"Հում ծաղկակաղամբ"</string>
+    <string name="data_food_seed_11143" formatted="false">"Նեխուրի ցողուններ"</string>
+    <string name="data_food_seed_11282" formatted="false">"Հում սոխ"</string>
+    <string name="data_food_seed_11291" formatted="false">"Գարնանային սոխ"</string>
+    <string name="data_food_seed_11304" formatted="false">"Հում կանաչ ոլոռ"</string>
+    <string name="data_food_seed_11333" formatted="false">"Կանաչ բուլղարական պղպեղ"</string>
+    <string name="data_food_seed_11821" formatted="false">"Կարմիր բուլղարական պղպեղ"</string>
+    <string name="data_food_seed_11352" formatted="false">"Հում կարտոֆիլ մաշկով"</string>
+    <string name="data_food_seed_11367" formatted="false">"Եփած կարտոֆիլ՝ կեղևավորված"</string>
+    <string name="data_catalog_note_3">"Հղման արժեքները 100 գ ուտելի մասի համար. Ոչ ավելացված աղ: USDA ածխաջրերի արժեքները ներառում են մանրաթել: Դուք կարող եք կարգավորել արժեքները՝ օգտագործելով ապրանքի պիտակը: USDA SR Legacy, FDC %1$s:"</string>
+    <string name="data_food_seed_11477" formatted="false">"Հում ցուկկինի"</string>
+    <string name="data_food_seed_11209" formatted="false">"Հում սմբուկ"</string>
+    <string name="data_food_seed_11422" formatted="false">"Հում դդում"</string>
+    <string name="data_food_seed_11429" formatted="false">"Բողկ"</string>
+    <string name="data_food_seed_11564" formatted="false">"Հում շաղգամ"</string>
+    <string name="data_food_seed_11080" formatted="false">"Հում ճակնդեղ"</string>
+    <string name="data_food_seed_11081" formatted="false">"Եփած ճակնդեղ"</string>
+    <string name="data_food_seed_11215" formatted="false">"Սխտոր"</string>
+    <string name="data_food_seed_11216" formatted="false">"Կոճապղպեղի արմատ"</string>
+    <string name="data_food_seed_11457" formatted="false">"Հում սպանախ"</string>
+    <string name="data_food_seed_11253" formatted="false">"Տերեւային գազար"</string>
+    <string name="data_food_seed_11297" formatted="false">"Թարմ մաղադանոս"</string>
+    <string name="data_food_seed_2045" formatted="false">"Թարմ սամիթ"</string>
+    <string name="data_food_seed_11052" formatted="false">"Հում կանաչ լոբի"</string>
+    <string name="data_food_seed_11167" formatted="false">"Քաղցր եգիպտացորեն, հում միջուկներ"</string>
+    <string name="data_food_seed_11260" formatted="false">"Հում կոճակ սունկ"</string>
+    <string name="data_food_seed_11261" formatted="false">"Եփած կոճակ սունկ, չաղ"</string>
+    <string name="data_food_seed_11987" formatted="false">"Հում ոստրե սունկ"</string>
+    <string name="data_food_seed_20009" formatted="false">"Հնդկացորենի ձավար, չոր"</string>
+    <string name="data_catalog_note_4">"Հղման արժեքները 100 գ ուտելի մասի համար. Տապակած հնդկացորենի ձավարեղեն. USDA ածխաջրերի արժեքները ներառում են մանրաթել: Դուք կարող եք կարգավորել արժեքները՝ օգտագործելով ապրանքի պիտակը: USDA SR Legacy, FDC %1$s:"</string>
+    <string name="data_food_seed_20010" formatted="false">"Հնդկաձավար՝ եփած ջրի մեջ"</string>
+    <string name="data_food_seed_20444" formatted="false">"Սպիտակ բրինձ, չոր"</string>
+    <string name="data_food_seed_20445" formatted="false">"Եփած սպիտակ բրինձ, չաղ"</string>
+    <string name="data_food_seed_20036" formatted="false">"Շագանակագույն բրինձ, չոր"</string>
+    <string name="data_food_seed_20037" formatted="false">"Եփած շագանակագույն բրինձ"</string>
+    <string name="data_food_seed_8120" formatted="false">"Գլանափաթեթավոր վարսակ, չոր"</string>
+    <string name="data_food_seed_8121" formatted="false">"Վարսակի ալյուր՝ եփած ջրի մեջ, առանց աղի"</string>
+    <string name="data_food_seed_20005" formatted="false">"Մարգարիտ գարի, չոր"</string>
+    <string name="data_food_seed_20006" formatted="false">"Եփած մարգարիտ գարի"</string>
+    <string name="data_food_seed_20031" formatted="false">"Կորեկ, չոր"</string>
+    <string name="data_food_seed_20032" formatted="false">"Եփած կորեկ"</string>
+    <string name="data_food_seed_20420" formatted="false">"Մակարոնեղեն չոր"</string>
+    <string name="data_food_seed_20421" formatted="false">"Եփած մակարոնեղեն, չաղ"</string>
+    <string name="data_food_seed_16070" formatted="false">"Եփած ոսպ, չաղ"</string>
+    <string name="data_food_seed_16057" formatted="false">"Եփած սիսեռ, առանց աղի"</string>
+    <string name="data_food_seed_16033" formatted="false">"Եփած կարմիր լոբի, առանց աղի"</string>
+    <string name="data_food_seed_5062" formatted="false">"Հում հավի կրծքամիս առանց մաշկի"</string>
+    <string name="data_food_seed_5064" formatted="false">"Տապակած հավի կրծքամիս առանց մաշկի"</string>
+    <string name="data_food_seed_5219" formatted="false">"Հնդկահավի կուրծք չմշակված առանց մաշկի"</string>
+    <string name="data_food_seed_5220" formatted="false">"Տապակած առանց կաշի հնդկահավի կրծքամիս"</string>
+    <string name="data_food_seed_23562" formatted="false">"Տավարի աղացած միս, 10% յուղ, հում"</string>
+    <string name="data_food_seed_23566" formatted="false">"Տավարի աղացած միս՝ 10% յուղայնությամբ, բոված"</string>
+    <string name="data_food_seed_10060" formatted="false">"Հում խոզի փափկամիս, տեսանելի ճարպը հանված է"</string>
+    <string name="data_food_seed_10061" formatted="false">"Տապակած խոզի փափկամիս"</string>
+    <string name="data_food_seed_15236" formatted="false">"Ատլանտյան սաղմոն՝ հում"</string>
+    <string name="data_catalog_note_5">"Հղային արժեքներ 100 գ ուտելի մասի համար. Հում սնունդ. Հողագործվել։ USDA ածխաջրերի արժեքները ներառում են մանրաթել: Դուք կարող եք կարգավորել արժեքները՝ օգտագործելով ապրանքի պիտակը: USDA SR Legacy, FDC %1$s:"</string>
+    <string name="data_food_seed_15237" formatted="false">"Ատլանտյան սաղմոն՝ բոված"</string>
+    <string name="data_catalog_note_6">"Հղային արժեքներ 100 գ ուտելի մասի համար. Հողագործվել։ USDA ածխաջրերի արժեքները ներառում են մանրաթել: Դուք կարող եք կարգավորել արժեքները՝ օգտագործելով ապրանքի պիտակը: USDA SR Legacy, FDC %1$s:"</string>
+    <string name="data_food_seed_15015" formatted="false">"Ատլանտյան ձողաձուկ, հում"</string>
+    <string name="data_food_seed_15266" formatted="false">"Հում Ալյասկայի ցողուն"</string>
+    <string name="data_food_seed_15121" formatted="false">"Թունա պահածոյացված ջրի մեջ, ցամաքեցված"</string>
+    <string name="data_food_seed_15271" formatted="false">"Եփած ծովախեցգետին կեղևավորված"</string>
+    <string name="data_food_seed_1211" formatted="false">"Կաթ, 3,25% յուղ"</string>
+    <string name="data_food_seed_1174" formatted="false">"Կաթ, 2% յուղ"</string>
+    <string name="data_food_seed_1082" formatted="false">"Կաթ, 1% յուղ"</string>
+    <string name="data_food_seed_1116" formatted="false">"Պարզ ամբողջական կաթով մածուն"</string>
+    <string name="data_food_seed_1256" formatted="false">"Հունական անյուղ յոգուրտ"</string>
+    <string name="data_food_seed_1015" formatted="false">"Կաթնաշոռ, 2% յուղ"</string>
+    <string name="data_catalog_note_7">"Հղման արժեքները 100 գ ուտելի մասի համար. Կաթնաշոռ; Կաթնաշոռի այլ տեսակներ տարբեր արժեքներ ունեն: USDA ածխաջրերի արժեքները ներառում են մանրաթել: Դուք կարող եք կարգավորել արժեքները՝ օգտագործելով ապրանքի պիտակը: USDA SR Legacy, FDC %1$s:"</string>
+    <string name="data_food_seed_1056" formatted="false">"Թթվասեր՝ մոտ 19% յուղայնությամբ"</string>
+    <string name="data_food_seed_1009" formatted="false">"Չեդդեր պանիր"</string>
+    <string name="data_food_seed_1026" formatted="false">"Ամբողջական կաթով մոցարելլա"</string>
+    <string name="data_food_seed_1019" formatted="false">"Ֆետա պանիր"</string>
+    <string name="data_food_seed_1123" formatted="false">"Հում հավի ձու, առանց կեղևի"</string>
+    <string name="data_food_seed_1129" formatted="false">"Եփած հավի ձու՝ առանց կեղևի"</string>
+    <string name="data_food_seed_1124" formatted="false">"Հում հավի ձվի սպիտակուց"</string>
+    <string name="data_food_seed_1001" formatted="false">"Աղած կարագ"</string>
+    <string name="data_food_seed_4053" formatted="false">"Ձիթապտղի յուղ"</string>
+    <string name="data_food_seed_4506" formatted="false">"Արևածաղկի ձեթ"</string>
+    <string name="data_food_seed_12061" formatted="false">"Նուշ"</string>
+    <string name="data_food_seed_12155" formatted="false">"Ընկույզի միջուկներ"</string>
+    <string name="data_food_seed_12120" formatted="false">"Պնդուկի միջուկներ"</string>
+    <string name="data_food_seed_12151" formatted="false">"Պիստակի հում միջուկներ"</string>
+    <string name="data_food_seed_12014" formatted="false">"Չորացրած դդմի սերմի միջուկներ"</string>
+    <string name="data_food_seed_16087" formatted="false">"Հում կեղևավորված գետնանուշ"</string>
+    <string name="data_food_seed_18069" formatted="false">"Սպիտակ ցորենի հաց"</string>
+    <string name="data_food_seed_18075" formatted="false">"Ամբողջ ցորենի հաց"</string>
+    <string name="data_food_seed_18060" formatted="false">"տարեկանի հաց"</string>
+    <string name="data_food_seed_19296" formatted="false">"Մեղր"</string>
+    <string name="data_food_seed_19335" formatted="false">"Շաքար"</string>
+    <string name="data_food_seed_19165" formatted="false">"Չքաղցրած կակաոյի փոշի"</string>
+    <string name="data_food_seed_19904" formatted="false">"Մուգ շոկոլադ, 70–85% կակաո"</string>
+    <string name="data_meal_breakfast" formatted="false">"Նախաճաշ"</string>
+    <string name="data_meal_lunch" formatted="false">"Ճաշ"</string>
+    <string name="data_meal_dinner" formatted="false">"Ընթրիք"</string>
+    <string name="data_meal_snack" formatted="false">"Խորտիկ"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Գաղտնիության քաղաքականություն Diet Diary-ի համար\nՎերանայում՝ 9 հոկտեմբերի, 2026թ."</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Հավելված. Diet Diary; Google Play ցուցակի անվանումը ռուսերեն. «Дневник диеты: подсчёт калорий»; փաթեթ՝ ru.dietdiary.offline:\nՆախագծի մշակող՝ Efreitor2001: Հավելվածի և տվյալների մշակման վերաբերյալ հարցերի համար դիմեք https://github.com/Efreitor2001/kkalcal/issues : GitHub-ի խնդիրները հրապարակային են. մի փակցրեք այնտեղ առողջական գրառումներ, կրկնօրինակներ, գաղտնաբառեր կամ նշաններ:"</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Օրագիր ձեր սարքում\nՕրագիր պահելու համար գրանցում չի պահանջվում: Հավելվածը պահում է մթերքները և դրանց սննդային արժեքները, չափաբաժինները և ճաշի ժամկետները, քաշը, գոտկատեղի չափումները, մարմնի ճարպի տոկոսը, քայլերը, քունը, մարզումների նկարագրությունները, նշումները, նպատակները, ձեռքբերումները և հավելվածի կարգավորումները ձեր սարքի անձնական պահեստային տարածքում: Ընտրովի դաշտերը կարող են դատարկ մնալ: Քայլերը, քունը և չափումները մուտքագրվում են ձեռքով; հավելվածը չի կարդում Health Connect-ը, ֆիզիկական ակտիվության սենսորները կամ բժշկական սարքի տվյալները:"</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Այս տեղեկատվությունը օգտագործվում է կալորիաները և մակրոէլեմենտները հաշվարկելու և պատմությունը, գծապատկերները և ձեռքբերումները տրամադրելու համար: Մշակողը չի շահագործում օրագրի բովանդակություն ստացող սերվեր: Եթե ​​դուք չեք միացնում Google Drive-ին կամ չեք կիսում կրկնօրինակը, ձեր գրառումները մնում են ձեր սարքում:"</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Լրացուցիչ Google Drive կապ\nՁեր խնդրանքով հավելվածը բացում է Google մուտքը ձեր կանխադրված դիտարկիչում և խնդրում է մուտք գործել այս հավելվածի թաքնված տվյալների պահեստը ձեր Google Drive-ում: Այս թույլտվությունը թույլ չի տալիս մուտք գործել ձեր սովորական Drive փաստաթղթերը կամ լուսանկարները:"</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Միանալուց հետո սնունդը, սնունդը, օրագրի չափումները, նշումները, նպատակները, ձեռքբերումները, փոխանցվող կարգավորումները և փոփոխության մետատվյալները, ներառյալ տեղադրման պատահական նույնացուցիչները և ժամանակի դրոշմակնիքները, ուղարկվում են Google հասցեին: Սա աջակցում է պահուստային պատկերների և ձեր սարքերի գրառումների միաձուլմանը: Եթե ​​ավտոմատ համաժամացումը միացված է, փոփոխությունները նույնպես ուղարկվում են հետին պլանում, երբ հասանելի է ցանցային կապը: Դուք կարող եք անջատել ավտոմատ համաժամացումը առանձին:"</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Հավելվածը ստանում է ընտրված Google հաշվի էլ․ հասցեն և նույնացուցիչը՝ կապը ցույց տալու և այն ճիշտ պահեստին կապելու համար: Ձեր Google գաղտնաբառը չի տրամադրվել հավելվածին: Թույլտվության նիստը կոդավորված է պահվում ձեր սարքում՝ օգտագործելով բանալի Android Keystore-ում: Նշանները, էլփոստի հասցեները և Google նույնացուցիչները բացառված են օրագրերի արտահանումից և համաժամեցված JSON նկարներից:"</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google տվյալները օգտագործվում են միայն թույլտվության և համաժամացման համար, ոչ երբեք գովազդի համար: Կիրառվում է Google-ի գաղտնիության քաղաքականությունը՝ https://policies.google.com/privacy :"</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Պահուստային ֆայլեր\n«Պահպանել ֆայլում» ստեղծում է JSON ֆայլ ձեր ընտրած վայրում: Վերականգնումը կարդում է միայն ձեր ընտրած ֆայլը: Եթե ​​ընտրում եք ամպային ֆայլերի մատակարար կամ կիսում եք դրա պատճենը մեկ այլ անձի հետ, դուք ընտրում եք ստացողին: Հավելվածը չի գաղտնագրում արտահանված JSON ֆայլերը. այս ֆայլերը պարունակում են անձնական գրառումներ և փոխում են մետատվյալները:"</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Գովազդ\nՀավելվածն օգտագործում է Yandex Mobile Ads SDK-ն: Գովազդներ բեռնելու և ցուցադրելու համար ձեր սարքը միանում է գովազդային ծառայություններին: Yandex-ը կարող է մշակել ձեր IP հասցեն և ցանցի հարցումների, սարքի և ծրագրաշարի, հասանելի գովազդի կամ տեխնիկական նույնացուցիչների և գովազդի տպավորությունների և փոխազդեցությունների վերաբերյալ այլ տեխնիկական տեղեկություններ:"</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Հավելվածն ասում է SDK-ին, որ համաձայնությունը չի տրվել, անջատում է տեղադրության հավաքագրումը և անջատում App Ad Analytics-ի հաշվետվությունը: Այն չի պահանջում ճշգրիտ կամ մոտավոր տեղադրության թույլտվություններ: Այս կարգավորումները չեն նշանակում, որ գովազդային ծառայությունը չի իրականացնում ցանցային հաղորդակցություն կամ տեխնիկական տվյալների մշակում:"</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Հավելվածը չի օգտագործում սննդի գրառումները, քաշը, չափումները, նշումները, նպատակները, էլփոստի հասցեները կամ Google նույնացուցիչները գովազդի թիրախավորման համար և չի ավելացնում դրանք գովազդի հարցումների պարամետրերում: Գովազդի դիտումը պարտադիր չէ գրառումները պահելու համար:"</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex-ի կանոնները տվյալների մշակման, պահպանման և ջնջման համար՝ https://yandex.ru/legal/confidential/ : Դուք կարող եք կառավարել ձեր գովազդի նույնացուցիչը Android կարգավորումներում, եթե ձեր համակարգի տարբերակն աջակցում է այս գործառույթին: Գովազդային ծառայության քաղաքականությունը սահմանում է դրա տեխնիկական տվյալների պահպանման ժամկետները. օրագրի մշակողը չի սահմանում այդ տվյալների պահպանման առանձին ժամկետ:"</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Տվյալների պաշտպանություն\nՀաղորդակցությունը Google-ի հետ օգտագործում է HTTPS; Yandex-ը նշում է, որ SDK-ի տվյալները փոխանցվում են HTTPS/TLS-ի միջոցով: Տեղական օրագիրը պաշտպանված է Android հավելվածի մեկուսացմամբ: Հավելվածն առանձին չի գաղտնագրում օրագրի բովանդակությունը կամ JSON նկարները. այն չի ապահովում սարքերի միջև ծայրից ծայր ծածկագրում:"</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Հավելվածի տվյալների համակարգի կրկնօրինակումն անջատված է: Հավելվածի սեփական ծածկագրով գրված ախտորոշիչ տեղեկամատյանները պարունակում են արդյունքների կոդեր՝ առանց օրագրի բովանդակության, էլփոստի հասցեների, նշանների կամ ցանցի արձագանքման մարմինների. հավելվածն առանձին չի ուղարկում այս տեղեկամատյանները մշակողին:"</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Պահպանում և ջնջում\nՏեղական գրառումները մնում են այնքան ժամանակ, մինչև չփոխեք կամ ջնջեք դրանք, կամ ջնջեք հավելվածի տվյալները: Գրառումը ջնջելով այն հեռացնում է ինտերֆեյսից և համաժամացման ընթացքում ուղարկում է ջնջման նշիչ: Միաձուլման մետատվյալները պահպանվում են՝ կանխելու հին տվյալների նորից հայտնվելը. այն կարող է պարունակել նախորդ արժեքներ ջնջված օրագրի գրառումից: Նախորդ արժեքները կարող են մնալ նաև հին ամպային լուսանկարներում և նախկինում ստեղծած ֆայլերում: Հետևաբար, մեկ գրառում ջնջելը ամբողջությամբ չի ջնջում դրա բոլոր պատճենները:"</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"«Անջատել հաշիվը» դադարեցնում է համաժամացումը այս սարքում և ջնջում տեղական Google նիստը: Պահվում են օրագիրը և նկարները Google Drive-ում: Հավելվածի անջատումը չի ջնջի ձեր Google հաշիվը:"</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Այս հավելվածի տվյալները ամբողջությամբ ջնջելու համար՝\n• Անջատեք համաժամացումը ձեր բոլոր սարքերում, որպեսզի մնացած պատճենները նորից չվերբեռնվեն:\n• Բրաուզերում բացեք https://drive.google.com/drive/settings -ը՝ օգտագործելով Google հաշիվը, որը միացված էր: Ընտրեք «Կառավարեք հավելվածները», գտնեք «Diet Diary» (կամ «Дневник диеты»), այնուհետև ընտրեք «Ընտրանքներ» → «Ջնջել թաքնված հավելվածի տվյալները»: Եթե ​​բջջային էջը ցույց չի տալիս այս բաժինը, օգտագործեք կայքի աշխատասեղանի տարբերակը կամ համակարգիչը:\n• Չեղարկել հավելվածի մուտքը https://myaccount.google.com/connections հասցեով: Միայն մուտքի չեղարկումը չի ջնջում պահված պատճենները:\n• Մաքրել հավելվածի պահեստը յուրաքանչյուր սարքի Android կարգավորումներում կամ հեռացնել հավելվածը:\n• Ջնջեք առանձին պահպանված JSON կրկնօրինակները ձեր ընտրած պանակներից և ամպային պահեստավորման վայրերից:"</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Առանց ձեր հավատարմագրերի, մշակողը չի կարող հեռակա կարգով ջնջել ձեր տեղական օրագիրը կամ ֆայլերը ձեր անձնական Google Drive-ում: Մի կիսվեք ձեր գաղտնաբառը կամ նշանները մշակողի հետ: Ջնջման հարցում օգնության համար դիմեք նախագծին՝ օգտագործելով այս քաղաքականության սկզբում նշված հղումը: Օրագրի տվյալները ջնջելու համար ձեզ հարկավոր չէ ջնջել ձեր Google հաշիվը:"</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Փոփոխություններ և կապ\nԵրբ հավելվածի առանձնահատկությունները կամ տվյալների մշակման գործելակերպը փոխվում է, այս քաղաքականությունը թարմացվում է վերանայման ամսաթվով: Մուտքի, ուղղման, տվյալների ջնջման կամ հավելվածի աշխատանքի վերաբերյալ հարցերի համար օգտագործեք նախագծի կոնտակտային ալիքը: Ձեր կողմից ներկայացված հարցումները մշակվում են պատասխան տալու համար և պահվում են GitHub-ում; GitHub-ի քաղաքականությունը հասանելի է https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement հասցեով:"</string>
+    <string name="data_category_my_dishes" formatted="false">"Իմ ուտեստները"</string>
+    <string name="secondary_metric_weight" formatted="false">"Քաշ"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Մարմնի ճարպ"</string>
+    <string name="secondary_metric_waist" formatted="false">"Գոտկատեղ"</string>
+    <string name="secondary_metric_steps" formatted="false">"Քայլեր"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Քուն"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Կալորիաներ"</string>
+    <string name="secondary_metric_protein" formatted="false">"Սպիտակուցներ"</string>
+    <string name="secondary_metric_fat" formatted="false">"Ճարպ"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Ածխաջրեր"</string>
+    <string name="secondary_unit_kg" formatted="false">"կգ"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"սմ"</string>
+    <string name="secondary_unit_steps" formatted="false">"քայլեր"</string>
+    <string name="secondary_unit_hours" formatted="false">"ժ"</string>
+    <string name="secondary_unit_kcal" formatted="false">"կկալ"</string>
+    <string name="secondary_unit_grams" formatted="false">"գ"</string>
+    <string name="secondary_invalid_period" formatted="false">"Անվավեր ամսաթվերի միջակայք"</string>
+    <string name="secondary_stats_title" formatted="false">"Միտումներ"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Ձեր գրառումները հստակ գծապատկերներում"</string>
+    <string name="secondary_metric" formatted="false">"Մետրիկ"</string>
+    <string name="secondary_week" formatted="false">"Շաբաթ"</string>
+    <string name="secondary_month" formatted="false">"Ամիս"</string>
+    <string name="secondary_year" formatted="false">"Տարի"</string>
+    <string name="secondary_custom_period" formatted="false">"Պատվերով շրջանակ"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Մեկնարկի ամսաթիվը չպետք է լինի ավարտի ամսաթվից հետո"</string>
+    <string name="secondary_no_records" formatted="false">"Դեռևս գրառումներ չկան"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Ավելացրեք սնունդ ձեր օրագրում կամ ընտրեք մեկ այլ ժամանակահատված:"</string>
+    <string name="secondary_chart_tap" formatted="false">"Հպեք գծապատկերին՝ ձայնագրություն ընտրելու համար"</string>
+    <string name="secondary_chart_connected" formatted="false">"Գիծը միացնում է գրանցված չափումները։ Նրանց միջեւ չափումներ չկան։"</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Սանդղակի գնահատումները օգտակար են միտումներին հետևելու համար:"</string>
+    <string name="secondary_food_override_hint" formatted="false">"Ձեռնարկի օրական ընդհանուր գումարը փոխարինում է սննդի ընդհանուրը: Հակառակ դեպքում գրանցված սնունդը ավելանում է: Առանց գրառումների օրերը բաց են թողնվում:"</string>
+    <string name="secondary_food_total_hint" formatted="false">"Ընդհանուր գումարը հիմնված է գրանցված սննդի վրա: Առանց գրառումների օրը զրո չի հաշվվում։"</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Առանց գրառումների օրերը բաց են թողնում և բացառվում են միջինից:"</string>
+    <string name="secondary_today_yesterday" formatted="false">"Այսօր և երեկ"</string>
+    <string name="secondary_no_today" formatted="false">"Այսօրվա ռեկորդ չկա"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Երեկվա գրանցում չկա"</string>
+    <string name="secondary_partial_today" formatted="false">"Այս համեմատությունն օգտագործում է ընթացիկ գրառումները: Այսօրվա տվյալները կարող են դեռ թերի լինել։"</string>
+    <string name="secondary_period_summary" formatted="false">"Ժամանակաշրջանի ամփոփում"</string>
+    <string name="secondary_recorded_average" formatted="false">"Արձանագրված օրերի միջինը"</string>
+    <string name="secondary_recorded_days" formatted="false">"Տվյալներով օրեր"</string>
+    <string name="secondary_minimum" formatted="false">"Նվազագույն"</string>
+    <string name="secondary_maximum" formatted="false">"Առավելագույն"</string>
+    <string name="secondary_first_to_last" formatted="false">"Առաջինից մինչև վերջին գրառումը"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Փոփոխությունը հաշվարկելու համար անհրաժեշտ է առնվազն երկու գրանցված օր:"</string>
+    <string name="secondary_history" formatted="false">"Պատմություն"</string>
+    <string name="secondary_history_recent" formatted="false">"Վերջին 14 օրը տվյալների հետ: Ընտրեք հատուկ տիրույթ ավելի վաղ գրառումների համար:"</string>
+    <string name="secondary_history_all" formatted="false">"Ընտրված ժամանակահատվածում գրանցված բոլոր օրերը"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s-ից"</string>
+    <string name="secondary_date_until">"Դեպի %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s այս ժամանակահատվածում"</string>
+    <string name="secondary_weight_goal">"Նպատակը` %1$s կգ"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Ավելացրեք չափումներ ձեր օրագրում կամ ընտրեք մեկ այլ ժամանակահատված:"</string>
+    <string name="secondary_latest_record">"Վերջին գրառումը · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s՝ %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Այսօր՝ %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Երեկ՝ %1$s %2$s"</string>
+    <string name="secondary_change_value">"Փոփոխություն՝ %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d %2$d-ից"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s՝ %2$d գրանցված օր՝ %3$s-ից %4$s: Նվազագույնը %5$s, առավելագույնը՝ %6$s %7$s: Արժեքները թվարկված են պատմության մեջ։"</string>
+    <string name="secondary_award_first_weight" formatted="false">"Սկսում ենք"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Պահպանեք ձեր առաջին քաշի չափումը:"</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Ձեր առաջին քաշի չափումը պահպանված է:"</string>
+    <string name="secondary_award_first_food" formatted="false">"Առաջին մուտք"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Գրանցեք ձեր առաջին սննդի բաժինը:"</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Ձեր առաջին սննդի բաժինը գրանցված է:"</string>
+    <string name="secondary_award_weight_week" formatted="false">"Շաբաթվա տվյալներ"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Գրանցեք ձեր քաշը 7 տարբեր օրերի ընթացքում: Պետք չէ, որ դրանք հաջորդական լինեն։"</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Դուք ունեք քաշի ռեկորդներ 7 տարբեր օրերի համար:"</string>
+    <string name="secondary_award_weight_month" formatted="false">"Հետևողականություն"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Գրանցեք ձեր քաշը 30 տարբեր օրերի ընթացքում:"</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Դուք ունեք քաշի ռեկորդներ 30 օրվա համար:"</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Արխիվագետ"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Պահպանեք ձեր օրագրում սննդի 100 բաժին:"</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Դուք խնայել եք սննդի 100 բաժին։"</string>
+    <string name="secondary_award_food_streak" formatted="false">"Նոր սովորություն"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Սնունդ 7 օր անընդմեջ օրացուցային օրվա ընթացքում:"</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Դուք սնունդ եք մուտքագրել 7 օր անընդմեջ:"</string>
+    <string name="secondary_award_steps" formatted="false">"Քայլող հրաշք"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Գրանցեք առնվազն 10000 քայլ մեկ օրվա ընթացքում:"</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Դուք գրանցել եք 10,000 քայլով օրը:"</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Բեղուն ձայնագրիչ"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Խնայեք 100 քաշի չափումներ: Մեկ չափումը հաշվարկվում է ամսաթվի համար:"</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Դուք պահպանել եք քաշի 100 չափում:"</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Օրագրի վետերան"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Սնունդ կամ չափումներ 90 տարբեր օրերի ընթացքում: Պետք չէ, որ դրանք հաջորդական լինեն։"</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Դուք ունեք օրագրային գրառումներ 90 տարբեր օրերի համար:"</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"չափումներ"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"մասեր"</string>
+    <string name="secondary_award_unit_days" formatted="false">"օր"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"օր անընդմեջ"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"քայլերը մեկ օրում"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"գրանցված օրեր"</string>
+    <string name="secondary_back" formatted="false">"‹ Վերադարձ"</string>
+    <string name="secondary_achievements" formatted="false">"Ձեռքբերումներ"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Փոքր քայլերը դառնում են սովորություն"</string>
+    <string name="secondary_your_progress" formatted="false">"ՔՈ առաջընթացը"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Վաստակած ձեռքբերումները մնում են ձեզ հետ, նույնիսկ եթե խմբագրեք ձեր գրառումները:"</string>
+    <string name="secondary_awards_regular" formatted="false">"Հետևողականության և ձեր օրագիրը պահելու համար"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Պահված գրառումները մինչև այսօր ներառյալ հաշվվում են:"</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Թաքնված ձեռքբերում"</string>
+    <string name="secondary_hidden_description" formatted="false">"Շարունակեք օգտագործել ձեր օրագիրը՝ այս ձեռքբերումը բացելու համար:"</string>
+    <string name="secondary_earned" formatted="false">"Վաստակած"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Թաքնված · կողպված"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Ընթացքի մեջ է · կողպված է"</string>
+    <string name="secondary_locked" formatted="false">"Կողպված է"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Պահանջը և առաջընթացը կբացահայտվեն, երբ վաստակեք այս մրցանակը:"</string>
+    <string name="secondary_best_streak" formatted="false">"Լավագույն շարք"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Թաքնված պարգև"</string>
+    <string name="secondary_unlocked_of">"%1$d-ից ապակողպված է"</string>
+    <string name="secondary_unlocked_date">"Ապակողպված է %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Հետ"</string>
+    <string name="secondary_my_recipe" formatted="false">"Իմ բաղադրատոմսը"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Կշռեք բաղադրիչները եփելուց առաջ։ Օգտագործեք եփած քաշը չափաբաժինները հաշվարկելու համար: Ներառեք յուղեր և սոուսներ:"</string>
+    <string name="secondary_recipe_name" formatted="false">"Բաղադրատոմսի անվանումը"</string>
+    <string name="secondary_recipe_example" formatted="false">"Օրինակ՝ բանջարեղենային շոգեխաշել"</string>
+    <string name="secondary_ingredients" formatted="false">"Բաղադրիչներ"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Սկսեք բաղադրիչներից"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Ավելացրեք յուրաքանչյուր բաղադրիչ և մուտքագրեք դրա քաշը գրամով:"</string>
+    <string name="secondary_edit_weight" formatted="false">"Խմբագրել քաշը"</string>
+    <string name="secondary_delete" formatted="false">"Ջնջել"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Ավելացնել բաղադրիչ"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Ամբողջական բաղադրատոմս"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Խոհարարությունը փոխում է քաշը, երբ ջուրը ավելանում է կամ կորցնում: Կշռեք պատրաստի ուտեստը առանց իր տարայի։"</string>
+    <string name="secondary_cooked_weight" formatted="false">"Եփած քաշ, գ"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Մուտքագրեք քաշը եփելուց հետո"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Մուտքագրեք 0-ից մեծ և 100000 գ-ից ոչ ավել քաշ"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Քաշը ավտոմատ կերպով չի լրացվում"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Եփած ճաշատեսակի 100 գ"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Ստուգեք պատրաստված քաշը և բաղադրիչները. յուրաքանչյուր 100 գ-ը կարող է պարունակել մինչև 1000 կկալ և մինչև 100 գ յուրաքանչյուր մակրոտարր:"</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Չհաջողվեց պահպանել բաղադրատոմսը"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Պահել Իմ բաղադրատոմսերում"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Պահպանվելուց հետո դուք կարող եք գրանցել այս ուտեստն ըստ իր չափաբաժնի քաշի:"</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Բաղադրիչի քաշը եփելուց առաջ"</string>
+    <string name="secondary_grams" formatted="false">"գրամ"</string>
+    <string name="secondary_weight_limits" formatted="false">"0-ից մեծ և 100000 գ-ից ոչ ավելի"</string>
+    <string name="secondary_add" formatted="false">"Ավելացնել"</string>
+    <string name="secondary_save" formatted="false">"Պահպանել"</string>
+    <string name="secondary_cancel" formatted="false">"Չեղարկել"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Ընտրեք բաղադրիչ"</string>
+    <string name="secondary_search_food" formatted="false">"Որոնել սննդամթերք"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Ոչ մի արդյունք: Դուք կարող եք ավելացնել ձեր սեփական սնունդը «Մթերքներ» ներդիրում:"</string>
+    <string name="secondary_close" formatted="false">"Փակել"</string>
+    <string name="secondary_portion_energy">"%1$s գ · %2$s կկալ"</string>
+    <string name="secondary_portion_macros">"Սպիտակուց %1$s · Ճարպ %2$s · Ածխաջրեր %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Բաղադրիչի քաշը՝ %1$s գ"</string>
+    <string name="secondary_energy">"%1$s կկալ"</string>
+    <string name="secondary_grams_value">"%1$s գ"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s կկալ / 100 գ"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s - %2$s գ"</string>
+    <string name="secondary_recipe_note">"Բերքատվությունը՝ %1$s գ. Բաղադրություն՝ %2$s"</string>
+</resources>

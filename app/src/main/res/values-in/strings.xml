@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Catatan Diet"</string>
+    <string name="core_app_name" formatted="false">"Catatan Diet"</string>
+    <string name="core_tagline" formatted="false">"Kalori, berat badan, dan kemajuan"</string>
+    <string name="core_open_diary" formatted="false">"Buka catatan"</string>
+    <string name="core_save_failed" formatted="false">"Data Anda tidak dapat disimpan"</string>
+    <string name="core_day" formatted="false">"Hari ini"</string>
+    <string name="core_products" formatted="false">"Makanan"</string>
+    <string name="core_diary" formatted="false">"Catatan"</string>
+    <string name="core_charts" formatted="false">"Grafik"</string>
+    <string name="core_more" formatted="false">"Lainnya"</string>
+    <string name="core_recipe_saved" formatted="false">"Hidangan disimpan ke daftar makanan Anda"</string>
+    <string name="core_back_to_day" formatted="false">"Kembali ke hari Anda"</string>
+    <string name="core_action_failed" formatted="false">"Tindakan ini tidak dapat diselesaikan"</string>
+    <string name="core_understood" formatted="false">"Oke"</string>
+    <string name="core_restore_available" formatted="false">"Anda dapat memulihkan cadangan di Lainnya."</string>
+    <string name="core_eaten_today" formatted="false">"DIKONSUMSI HARI INI"</string>
+    <string name="core_set_goal_hint" formatted="false">"Anda dapat menetapkan target di Lainnya"</string>
+    <string name="core_add_food" formatted="false">"+ Tambah makanan"</string>
+    <string name="core_first_meal" formatted="false">"Mulai dengan makanan pertama Anda"</string>
+    <string name="core_first_meal_help" formatted="false">"Pilih makanan dan masukkan beratnya dalam gram untuk menghitung kalori dan makronutrien."</string>
+    <string name="core_my_day" formatted="false">"Hari saya"</string>
+    <string name="core_my_day_help" formatted="false">"Berat badan, lingkar pinggang, langkah, tidur — catat yang Anda ketahui."</string>
+    <string name="core_record_metrics" formatted="false">"Catat pengukuran"</string>
+    <string name="core_edit_metrics" formatted="false">"Edit pengukuran"</string>
+    <string name="core_food_state_hint" formatted="false">"Berat dan nilai gizi makanan harus mengacu pada kondisi yang sama: mentah, kering, atau matang."</string>
+    <string name="core_weight" formatted="false">"Berat badan"</string>
+    <string name="core_waist" formatted="false">"Lingkar pinggang"</string>
+    <string name="core_my_diary" formatted="false">"Catatan saya"</string>
+    <string name="core_diary_tagline" formatted="false">"Setiap hari sesuai ritme Anda"</string>
+    <string name="core_record_day" formatted="false">"+ Catat hari"</string>
+    <string name="core_optional_diary_help" formatted="false">"Semua pengukuran bersifat opsional. Anda dapat mencatat berat badan, tidur, atau catatan saja. Ketuk entri untuk mengeditnya."</string>
+    <string name="core_history_starts" formatted="false">"Riwayat Anda dimulai di sini"</string>
+    <string name="core_history_help" formatted="false">"Catat pengukuran dan pantau perubahan di Grafik."</string>
+    <string name="core_file_unavailable" formatted="false">"File tidak tersedia"</string>
+    <string name="core_backup_saved" formatted="false">"Cadangan disimpan"</string>
+    <string name="core_export_error" formatted="false">"Cadangan tidak dapat diekspor"</string>
+    <string name="core_read_error" formatted="false">"File tidak dapat dibaca"</string>
+    <string name="core_settings_tagline" formatted="false">"Pengaturan dan pencadangan data"</string>
+    <string name="core_your_progress" formatted="false">"Kemajuan Anda"</string>
+    <string name="core_achievements_help" formatted="false">"Pencapaian kecil untuk membangun kebiasaan mencatat."</string>
+    <string name="core_achievements" formatted="false">"Pencapaian"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Koneksi opsional untuk menyinkronkan catatan di seluruh perangkat Anda."</string>
+    <string name="core_cloud_sync" formatted="false">"Sinkronisasi cloud"</string>
+    <string name="core_personal_goals" formatted="false">"Target pribadi"</string>
+    <string name="core_personal_goals_help" formatted="false">"Tetapkan target kalori, makronutrien, dan berat badan secara manual. Target apa pun boleh dikosongkan."</string>
+    <string name="core_configure_goals" formatted="false">"Tetapkan target"</string>
+    <string name="core_backup" formatted="false">"Cadangan"</string>
+    <string name="core_backup_help" formatted="false">"Makanan, asupan, catatan, target, dan pencapaian dalam satu file. Simpan cadangan sebelum menginstal ulang aplikasi."</string>
+    <string name="core_save_file" formatted="false">"Simpan ke file"</string>
+    <string name="core_restore_file" formatted="false">"Pulihkan dari file"</string>
+    <string name="core_write_locked" formatted="false">"Penyimpanan dinonaktifkan untuk melindungi file asli. Pulihkan cadangan yang valid."</string>
+    <string name="core_about_data" formatted="false">"Tentang aplikasi dan data Anda"</string>
+    <string name="core_about_data_help" formatted="false">"Cara penyimpanan catatan, kerja sinkronisasi, dan penghapusan data."</string>
+    <string name="core_privacy" formatted="false">"Privasi dan penghapusan data"</string>
+    <string name="core_offline" formatted="false">"Berfungsi offline"</string>
+    <string name="core_offline_help" formatted="false">"Login Google bersifat opsional. Langkah dan tidur dimasukkan secara manual. Internet diperlukan untuk sinkronisasi yang diaktifkan dan pemuatan iklan. Catatan harian tidak dikirim ke jaringan iklan."</string>
+    <string name="core_about_foods" formatted="false">"Tentang makanan"</string>
+    <string name="core_foods_reference" formatted="false">"Nilai bawaan merupakan perkiraan per 100 g bagian yang dapat dimakan. Periksa kemasan untuk nilai yang tepat. Mengedit makanan tidak menghitung ulang catatan asupan sebelumnya."</string>
+    <string name="core_foods_source" formatted="false">"Sumber basis data: USDA FoodData Central, SR Legacy. Setiap makanan dilengkapi kondisi dan rincian sumbernya."</string>
+    <string name="core_restore_title" formatted="false">"Pulihkan cadangan ini?"</string>
+    <string name="core_restore_warning" formatted="false">"Makanan, catatan, target, dan pencapaian Anda saat ini akan diganti dengan isi file ini. Simpan cadangan terlebih dahulu. Jika sinkronisasi terhubung, perubahan yang dipulihkan juga akan dikirim ke Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Cadangan dipulihkan"</string>
+    <string name="core_invalid_file" formatted="false">"File tidak valid"</string>
+    <string name="core_replace_data" formatted="false">"Ganti data"</string>
+    <string name="core_cancel" formatted="false">"Batal"</string>
+    <string name="core_save" formatted="false">"Simpan"</string>
+    <string name="core_calculate_portion" formatted="false">"Hitung porsi"</string>
+    <string name="core_edit_portion" formatted="false">"Edit porsi"</string>
+    <string name="core_portion_weight" formatted="false">"Berat porsi, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Masukkan berat lebih dari 0 dan tidak lebih dari 100.000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Tambah ke catatan"</string>
+    <string name="core_delete_entry" formatted="false">"Hapus entri"</string>
+    <string name="core_delete_portion_question" formatted="false">"Hapus porsi ini dari catatan Anda?"</string>
+    <string name="core_new_food" formatted="false">"Makanan atau hidangan baru"</string>
+    <string name="core_edit_nutrition" formatted="false">"Edit nilai gizi"</string>
+    <string name="core_name" formatted="false">"Nama"</string>
+    <string name="core_food" formatted="false">"Makanan"</string>
+    <string name="core_dish" formatted="false">"Hidangan siap saji"</string>
+    <string name="core_category" formatted="false">"Kategori"</string>
+    <string name="core_per100_hint" formatted="false">"Nilai per 100 g, dari kemasan atau resep. Masukkan 0 jika zat gizi tidak ada."</string>
+    <string name="core_kcal" formatted="false">"Kalori"</string>
+    <string name="core_protein_grams" formatted="false">"Protein, g"</string>
+    <string name="core_fat_grams" formatted="false">"Lemak, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Karbohidrat, g"</string>
+    <string name="core_food_note" formatted="false">"Catatan, bahan (opsional)"</string>
+    <string name="core_favorite" formatted="false">"Tambah ke favorit"</string>
+    <string name="core_name_category_required" formatted="false">"Masukkan nama dan kategori"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Masukkan nilai per 100 g: kalori 0–1.000; protein, lemak, dan karbohidrat 0–100 g"</string>
+    <string name="core_delete_food" formatted="false">"Hapus dari makanan"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Catatan asupan sebelumnya akan mempertahankan nilainya."</string>
+    <string name="core_delete_food_question" formatted="false">"Hapus makanan ini? Catatannya dalam buku harian akan dipertahankan."</string>
+    <string name="core_day_entry" formatted="false">"Entri harian"</string>
+    <string name="core_optional_fields" formatted="false">"Isi kolom yang Anda inginkan. Biarkan sisanya kosong."</string>
+    <string name="core_editing_existing" formatted="false">"Sudah ada entri untuk tanggal ini. Anda sedang mengeditnya."</string>
+    <string name="core_weight_kg" formatted="false">"Berat badan, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Lingkar pinggang, cm"</string>
+    <string name="core_steps" formatted="false">"Langkah"</string>
+    <string name="core_sleep" formatted="false">"Tidur"</string>
+    <string name="core_hours" formatted="false">"Jam"</string>
+    <string name="core_minutes" formatted="false">"Menit"</string>
+    <string name="core_body_fat_optional" formatted="false">"Lemak tubuh dari timbangan, % (opsional)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Lemak tubuh dari timbangan merupakan indikator tren, bukan pengukuran yang presisi."</string>
+    <string name="core_strength_training" formatted="false">"Latihan kekuatan"</string>
+    <string name="core_training_example" formatted="false">"Misalnya: squat 3×10, dumbel 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Total gizi manual"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Jika diisi, nilai ini menggantikan total makanan untuk hari tersebut. Biarkan kosong untuk perhitungan otomatis."</string>
+    <string name="core_daily_calories" formatted="false">"Kalori harian"</string>
+    <string name="core_daily_protein" formatted="false">"Protein harian, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Catatan dan kondisi Anda"</string>
+    <string name="core_steps_invalid" formatted="false">"Langkah: bilangan bulat dari 0 hingga 200.000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Tidur: 0–24 jam, menit 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Lemak tubuh"</string>
+    <string name="core_calories" formatted="false">"Kalori"</string>
+    <string name="core_protein" formatted="false">"Protein"</string>
+    <string name="core_entry_required" formatted="false">"Tambahkan setidaknya satu pengukuran atau catatan"</string>
+    <string name="core_delete_day" formatted="false">"Hapus entri harian ini"</string>
+    <string name="core_optional_goals" formatted="false">"Semua target bersifat opsional. Kolom kosong berarti tidak ada target."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalori per hari"</string>
+    <string name="core_protein_per_day" formatted="false">"Protein per hari, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Lemak per hari, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Karbohidrat per hari, g"</string>
+    <string name="core_target_weight" formatted="false">"Target berat badan, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Periksa target Anda: kalori 0–10.000; protein, lemak, dan karbohidrat 0–1.000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Target berat badan: dari 1 hingga 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Hapus?"</string>
+    <string name="core_delete" formatted="false">"Hapus"</string>
+    <string name="core_select_food" formatted="false">"Pilih makanan"</string>
+    <string name="core_foods_dishes" formatted="false">"Makanan dan hidangan"</string>
+    <string name="core_search_food" formatted="false">"Cari makanan atau hidangan"</string>
+    <string name="core_new_food_button" formatted="false">"+ Makanan / hidangan"</string>
+    <string name="core_recipe_button" formatted="false">"Dari resep"</string>
+    <string name="core_no_results" formatted="false">"Tidak ada hasil"</string>
+    <string name="core_no_results_help" formatted="false">"Coba pencarian lain atau tambahkan makanan atau hidangan siap saji Anda sendiri."</string>
+    <string name="core_edit" formatted="false">"Edit"</string>
+    <string name="core_achievement_unlocked">"🏆 Pencapaian terbuka! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Tersisa %1$s kkal · target %2$s"</string>
+    <string name="core_above_goal">"%1$s kkal di atas target Anda"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kkal"</string>
+    <string name="core_macros_summary">"Protein %1$s   Lemak %2$s   Karbohidrat %3$s"</string>
+    <string name="core_weight_summary">"Berat badan %1$s kg"</string>
+    <string name="core_waist_summary">"Lingkar pinggang %1$s cm"</string>
+    <string name="core_steps_summary">"Langkah: %1$s"</string>
+    <string name="core_fat_summary">"Lemak tubuh %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kkal (manual)"</string>
+    <string name="core_manual_protein">"Protein %1$s g (manual)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Tidur %1$s"</string>
+    <string name="core_scale_fat">"Lemak tubuh dari timbangan %1$s%%"</string>
+    <string name="core_training_value">"Latihan: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kkal"</string>
+    <string name="core_protein_value">"Protein %1$s g"</string>
+    <string name="core_app_version">"Catatan Diet · %1$s"</string>
+    <string name="core_per100_summary">"Per 100 g: %1$s kkal · Protein %2$s · Lemak %3$s · Karbohidrat %4$s"</string>
+    <string name="core_range_invalid">"%1$s: masukkan nilai dari %2$s hingga %3$s"</string>
+    <string name="core_delete_day_question">"Hapus pengukuran untuk %1$s? Catatan makanan akan dipertahankan."</string>
+    <string name="core_catalog_count">"Makanan: %1$s · gizi per 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kkal   ·   Protein %2$s   Lemak %3$s   Karbohidrat %4$s"</string>
+    <string name="core_today_date">"Hari ini · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalori dan protein merupakan total manual dari catatan Anda"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalori merupakan total manual dari catatan Anda"</string>
+    <string name="core_manual_protein_total" formatted="false">"Protein merupakan total manual dari catatan Anda"</string>
+    <string name="core_macro_goals">"Target P / L / K: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kkal"</string>
+    <string name="core_manual_values">"%1$s (manual)"</string>
+    <string name="core_all" formatted="false">"Semua"</string>
+    <string name="core_favorites" formatted="false">"Favorit"</string>
+    <string name="core_sleep_duration">"%1$s jam %2$s menit"</string>
+    <string name="core_previous_day" formatted="false">"Hari sebelumnya"</string>
+    <string name="core_next_day" formatted="false">"Hari berikutnya"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Cadangan migrasi tidak cocok"</string>
+    <string name="data_entry_exists" formatted="false">"Entri makanan ini sudah ada"</string>
+    <string name="data_entry_missing" formatted="false">"Entri makanan tidak ditemukan"</string>
+    <string name="data_edited_date_changed" formatted="false">"Tanggal entri yang sedang diedit telah berubah"</string>
+    <string name="data_device_id_corrupt" formatted="false">"ID perangkat lokal rusak; pemulihan diblokir"</string>
+    <string name="data_sync_invalid" formatted="false">"Data sinkronisasi tidak valid"</string>
+    <string name="data_diary_read_only" formatted="false">"Catatan dilindungi dari penimpaan: pulihkan cadangan"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Data catatan tidak konsisten"</string>
+    <string name="data_backup_too_large" formatted="false">"Cadangan terlalu besar"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ID instalasi rusak"</string>
+    <string name="data_save_verification_failed" formatted="false">"Penyimpanan catatan tidak dapat diverifikasi"</string>
+    <string name="data_save_failed" formatted="false">"Catatan tidak dapat disimpan"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Cadangan lebih besar dari 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"File catatan terlalu besar"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Ukuran basis data makanan tidak valid"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Versi cadangan tidak didukung"</string>
+    <string name="data_too_many_values">"Terlalu banyak nilai dalam %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Terlalu banyak makanan"</string>
+    <string name="data_too_many_entries" formatted="false">"Terlalu banyak entri makanan"</string>
+    <string name="data_too_many_logs" formatted="false">"Terlalu banyak entri catatan"</string>
+    <string name="data_product_id_duplicate" formatted="false">"ID makanan duplikat"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"ID entri makanan duplikat"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Tanggal catatan duplikat"</string>
+    <string name="data_label_product_id" formatted="false">"ID makanan"</string>
+    <string name="data_label_product_name" formatted="false">"Nama makanan"</string>
+    <string name="data_label_category" formatted="false">"Kategori"</string>
+    <string name="data_label_note" formatted="false">"Catatan"</string>
+    <string name="data_label_entry_id" formatted="false">"ID entri"</string>
+    <string name="data_label_meal" formatted="false">"Waktu makan"</string>
+    <string name="data_food_weight_range" formatted="false">"Berat makanan harus lebih dari 0 dan tidak lebih dari 100000 g"</string>
+    <string name="data_label_weight" formatted="false">"Berat badan"</string>
+    <string name="data_label_waist" formatted="false">"Lingkar pinggang"</string>
+    <string name="data_steps_range" formatted="false">"Jumlah langkah harus antara 0 dan 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Tidur"</string>
+    <string name="data_label_body_fat" formatted="false">"Lemak tubuh"</string>
+    <string name="data_label_daily_calories" formatted="false">"Kalori harian"</string>
+    <string name="data_label_daily_protein" formatted="false">"Protein harian"</string>
+    <string name="data_label_workout" formatted="false">"Latihan"</string>
+    <string name="data_label_log_note" formatted="false">"Catatan"</string>
+    <string name="data_log_empty" formatted="false">"Masukkan setidaknya satu pengukuran atau catatan"</string>
+    <string name="data_label_goal_weight" formatted="false">"Target berat badan"</string>
+    <string name="data_too_many_achievements" formatted="false">"Terlalu banyak pencapaian"</string>
+    <string name="data_achievement_invalid" formatted="false">"Pencapaian tidak valid"</string>
+    <string name="data_setting_not_portable" formatted="false">"Pengaturan ini tidak dapat dipindahkan"</string>
+    <string name="data_setting_invalid">"Nilai pengaturan %1$s tidak valid"</string>
+    <string name="data_label_calories" formatted="false">"Kalori"</string>
+    <string name="data_label_protein" formatted="false">"Protein"</string>
+    <string name="data_label_fat" formatted="false">"Lemak"</string>
+    <string name="data_label_carbs" formatted="false">"Karbohidrat"</string>
+    <string name="data_value_range">"%1$s: rentang yang diizinkan %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: panjang tidak valid"</string>
+    <string name="data_text_character_invalid">"%1$s: karakter tidak valid"</string>
+    <string name="data_date_format_invalid" formatted="false">"Tanggal harus menggunakan format YYYY-MM-DD"</string>
+    <string name="data_date_nonexistent">"Tanggal tidak valid: %1$s"</string>
+    <string name="data_field_string_required">"Kolom %1$s harus berupa teks"</string>
+    <string name="data_field_boolean_required">"Kolom %1$s harus berupa nilai Boolean"</string>
+    <string name="data_field_number_required">"Kolom %1$s harus berupa angka"</string>
+    <string name="data_field_finite_required">"Kolom %1$s harus berupa bilangan berhingga"</string>
+    <string name="data_field_integer_required">"Kolom %1$s harus berupa bilangan bulat"</string>
+    <string name="data_too_many_items">"Terlalu banyak item dalam %1$s"</string>
+    <string name="data_data_file_invalid">"File data tidak valid: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"ID perangkat tidak ada"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Batas jam logis telah tercapai"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Terlalu banyak rekaman sinkronisasi"</string>
+    <string name="data_sync_version_required" formatted="false">"Sinkronisasi memerlukan format versi 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Kunci sinkronisasi tidak valid"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Kunci sinkronisasi duplikat"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Penanda penghapusan tidak valid"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Data sinkronisasi tidak valid"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Versi rekaman melampaui jam logis"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Data tidak cocok dengan metadata sinkronisasi"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Panjang kunci sinkronisasi tidak valid"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Format kunci sinkronisasi salah"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Jenis sinkronisasi tidak dikenal"</string>
+    <string name="data_record_id_too_long" formatted="false">"ID rekaman terlalu panjang"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Penghapusan pencapaian tidak valid"</string>
+    <string name="data_log_key_invalid" formatted="false">"Kunci catatan tidak valid"</string>
+    <string name="data_log_field_unknown" formatted="false">"Kolom catatan tidak dikenal"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Penanda penghapusan catatan tidak valid"</string>
+    <string name="data_goal_unknown" formatted="false">"Target tidak dikenal"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Rekaman yang dihapus berisi data"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Nilai sinkronisasi tidak valid"</string>
+    <string name="data_record_id_mismatch" formatted="false">"ID rekaman tidak cocok dengan kunci"</string>
+    <string name="data_field_value_invalid" formatted="false">"Nilai kolom tidak valid"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Tanggal pencapaian tidak cocok dengan kunci"</string>
+    <string name="data_note_string_required" formatted="false">"Catatan harus berupa teks"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Catatan yang disinkronkan tidak valid"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Jam logis tidak valid"</string>
+    <string name="data_device_invalid" formatted="false">"Perangkat tidak valid"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Penanda versi tidak valid"</string>
+    <string name="data_google_login_required" formatted="false">"Login kembali ke Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Terlalu banyak cadangan cloud"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive mengembalikan halaman yang berulang"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Cadangan cloud lebih besar dari 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive tidak mengembalikan alamat unggahan"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Alamat unggahan Google Drive tidak valid"</string>
+    <string name="data_back" formatted="false">"‹  Kembali"</string>
+    <string name="data_cloud_title" formatted="false">"Sinkronisasi cloud"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Catatan Anda di seluruh perangkat Anda"</string>
+    <string name="data_no_account" formatted="false">"Tidak ada akun yang terhubung"</string>
+    <string name="data_cloud_intro" formatted="false">"Login bersifat opsional. Makanan, asupan, pengukuran, target, dan pencapaian disimpan di ponsel Anda. Setelah terhubung, salinannya akan disimpan di folder tersembunyi dalam Google Drive Anda."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Entri digabungkan pada koneksi pertama. Aplikasi tidak dapat mengakses file lain di Drive Anda."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Login Google belum dikonfigurasi untuk versi ini. Catatan dan cadangan file tetap berfungsi tanpa akun."</string>
+    <string name="data_connect_google" formatted="false">"Hubungkan Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Sinkronisasi otomatis"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Saat data berubah dan di latar belakang jika diizinkan oleh Android"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Jadwal tidak dapat diubah. Data Anda tersimpan di perangkat ini."</string>
+    <string name="data_sync_start_failed" formatted="false">"Sinkronisasi tidak dapat dimulai. Data Anda tersimpan di perangkat ini."</string>
+    <string name="data_sync_now" formatted="false">"Sinkronkan sekarang"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Login kembali ke Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Putuskan akun"</string>
+    <string name="data_sync_never" formatted="false">"Belum pernah disinkronkan"</string>
+    <string name="data_offline_saved_title" formatted="false">"Data Anda tersimpan offline"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Jika sinkronisasi otomatis diaktifkan, perubahan dikirim ketika koneksi tersedia. Jika kolom yang sama berubah pada dua perangkat, versi dengan waktu perubahan yang lebih baru digunakan. Entri dan kolom yang terpisah digabungkan."</string>
+    <string name="data_cloud_password_description" formatted="false">"Anda hanya memasukkan kata sandi pada halaman Google di browser. Token akses dilindungi oleh Android Keystore dan tidak disertakan dalam cadangan."</string>
+    <string name="data_google_connection_title" formatted="false">"Koneksi Google"</string>
+    <string name="data_got_it" formatted="false">"Mengerti"</string>
+    <string name="data_connect_drive_title" formatted="false">"Hubungkan Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Catatan Anda saat ini akan digabungkan dengan data dalam akun Google yang dipilih. Gunakan akun pribadi yang sama di perangkat Anda. Login akan dibuka di browser default."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Login tidak dapat dibuka. Instal atau aktifkan browser default dan coba lagi."</string>
+    <string name="data_continue" formatted="false">"Lanjutkan"</string>
+    <string name="data_cancel" formatted="false">"Batal"</string>
+    <string name="data_disconnect_title" formatted="false">"Putuskan akun?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sinkronisasi akan berhenti di perangkat ini. Catatan lokal dan salinan di Google Drive akan dipertahankan. Anda dapat mengelola izin aplikasi dalam pengaturan Akun Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Akun tidak dapat diputuskan. Silakan coba lagi."</string>
+    <string name="data_disconnect" formatted="false">"Putuskan"</string>
+    <string name="data_google_not_connected" formatted="false">"Google tidak terhubung"</string>
+    <string name="data_sync_ready" formatted="false">"Siap disinkronkan"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Perubahan menunggu sinkronisasi…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Tidak ada koneksi internet. Perubahan tersimpan di perangkat ini."</string>
+    <string name="data_google_not_configured" formatted="false">"Login Google belum dikonfigurasi untuk versi ini"</string>
+    <string name="data_sync_wait" formatted="false">"Tunggu hingga sinkronisasi selesai"</string>
+    <string name="data_google_connecting" formatted="false">"Menghubungkan Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Koneksi dibatalkan"</string>
+    <string name="data_connection_rejected" formatted="false">"Koneksi dibatalkan atau ditolak oleh Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google terhubung. Menggabungkan entri…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google tidak dapat dihubungkan. Periksa koneksi internet dan pengaturan akses Anda."</string>
+    <string name="data_account_disconnected" formatted="false">"Akun diputuskan. Data Anda tetap berada di perangkat ini."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Tidak ada koneksi internet. Sinkronisasi menunggu koneksi."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sinkronisasi dijadwalkan…"</string>
+    <string name="data_sync_running" formatted="false">"Menyinkronkan…"</string>
+    <string name="data_sync_complete" formatted="false">"Sinkronisasi selesai"</string>
+    <string name="data_no_internet" formatted="false">"Tidak ada koneksi internet"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Sinkronisasi gagal. Data Anda tersimpan di perangkat ini"</string>
+    <string name="data_page_open_failed" formatted="false">"Halaman tidak dapat dibuka. Anda dapat menyalin alamatnya dari teks di bawah."</string>
+    <string name="data_privacy_title" formatted="false">"Privasi"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Catatan dan kontrol data Anda"</string>
+    <string name="data_app_purpose" formatted="false">"Tentang aplikasi ini"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Aplikasi ini bukan alat medis. Aplikasi ini tidak mendiagnosis, menangani, menyembuhkan, atau mencegah penyakit apa pun. Konsultasikan kepada tenaga kesehatan yang berkualifikasi untuk nasihat medis, diagnosis, dan pengobatan."</string>
+    <string name="data_manage_delete_data" formatted="false">"Kelola dan hapus data"</string>
+    <string name="data_delete_data_intro" formatted="false">"Sebelum menghapus semua data, nonaktifkan sinkronisasi di semua perangkat Anda. Menghapus aplikasi dari ponsel tidak menghapus salinan di Google Drive atau file yang diekspor."</string>
+    <string name="data_manage_drive_data" formatted="false">"Kelola data Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Akses Akun Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Penyimpanan aplikasi di Android"</string>
+    <string name="data_contact_developer" formatted="false">"Hubungi pengembang"</string>
+    <string name="data_opening_page" formatted="false">"Membuka halaman"</string>
+    <string name="data_advertisement" formatted="false">"IKLAN"</string>
+    <string name="data_ad_information" formatted="false">"Tentang iklan ini"</string>
+    <string name="data_cloud_http_error">"Kesalahan HTTP cloud %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Respons cloud terlalu besar"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Sesi login terenkripsi tidak valid"</string>
+    <string name="data_session_save_failed" formatted="false">"Sesi login tidak dapat disimpan"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Akses ke Google tidak dapat diperbarui"</string>
+    <string name="data_diary_read_failed">"Catatan tidak dapat dibaca. File asli telah dipertahankan. Pulihkan data Anda dari cadangan. %1$s"</string>
+    <string name="data_last_sync">"Sinkronisasi terakhir: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Buah dan beri"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Buah kering"</string>
+    <string name="data_category_vegetables" formatted="false">"Sayuran dan herba"</string>
+    <string name="data_category_mushrooms" formatted="false">"Jamur"</string>
+    <string name="data_category_grains" formatted="false">"Serealia dan pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Polong-polongan"</string>
+    <string name="data_category_meat" formatted="false">"Daging dan unggas"</string>
+    <string name="data_category_fish" formatted="false">"Ikan dan makanan laut"</string>
+    <string name="data_category_dairy" formatted="false">"Produk susu"</string>
+    <string name="data_category_eggs" formatted="false">"Telur"</string>
+    <string name="data_category_oils" formatted="false">"Minyak dan mentega"</string>
+    <string name="data_category_nuts" formatted="false">"Kacang dan biji-bijian"</string>
+    <string name="data_category_bread" formatted="false">"Roti"</string>
+    <string name="data_category_other" formatted="false">"Makanan lainnya"</string>
+    <string name="data_category_dishes" formatted="false">"Hidangan siap saji"</string>
+    <string name="data_category_custom" formatted="false">"Makanan saya"</string>
+    <string name="data_category_other_short" formatted="false">"Lainnya"</string>
+    <string name="data_food_seed_9003" formatted="false">"Apel dengan kulit"</string>
+    <string name="data_catalog_note_1">"Nilai acuan per 100 g bagian yang dapat dimakan. Makanan mentah. Nilai karbohidrat USDA mencakup serat. Anda dapat menyesuaikan nilai berdasarkan label produk. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Pisang, dikupas"</string>
+    <string name="data_food_seed_9021" formatted="false">"Aprikot tanpa biji"</string>
+    <string name="data_food_seed_9037" formatted="false">"Daging buah alpukat"</string>
+    <string name="data_food_seed_9050" formatted="false">"Bluberi"</string>
+    <string name="data_food_seed_9070" formatted="false">"Ceri manis tanpa biji"</string>
+    <string name="data_food_seed_9063" formatted="false">"Ceri asam tanpa biji"</string>
+    <string name="data_food_seed_9078" formatted="false">"Kranberi"</string>
+    <string name="data_food_seed_9083" formatted="false">"Kismis hitam segar (blackcurrant)"</string>
+    <string name="data_food_seed_9084" formatted="false">"Kismis merah dan putih segar"</string>
+    <string name="data_food_seed_9132" formatted="false">"Anggur"</string>
+    <string name="data_food_seed_9148" formatted="false">"Daging buah kiwi"</string>
+    <string name="data_food_seed_9150" formatted="false">"Lemon, dikupas"</string>
+    <string name="data_food_seed_9181" formatted="false">"Daging buah melon jingga"</string>
+    <string name="data_food_seed_9200" formatted="false">"Daging buah jeruk"</string>
+    <string name="data_food_seed_9218" formatted="false">"Daging jeruk mandarin"</string>
+    <string name="data_food_seed_9236" formatted="false">"Persik tanpa biji"</string>
+    <string name="data_food_seed_9252" formatted="false">"Pir"</string>
+    <string name="data_food_seed_9266" formatted="false">"Daging buah nanas"</string>
+    <string name="data_food_seed_9279" formatted="false">"Plum tanpa biji"</string>
+    <string name="data_food_seed_9286" formatted="false">"Biji delima"</string>
+    <string name="data_food_seed_9295" formatted="false">"Daging jeruk bali"</string>
+    <string name="data_food_seed_9302" formatted="false">"Rasberi"</string>
+    <string name="data_food_seed_9316" formatted="false">"Stroberi"</string>
+    <string name="data_food_seed_9326" formatted="false">"Daging buah semangka"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektarin tanpa biji"</string>
+    <string name="data_food_seed_9176" formatted="false">"Daging buah mangga"</string>
+    <string name="data_food_seed_9107" formatted="false">"Gooseberry"</string>
+    <string name="data_food_seed_9226" formatted="false">"Daging buah pepaya"</string>
+    <string name="data_food_seed_9089" formatted="false">"Buah tin segar"</string>
+    <string name="data_food_seed_9111" formatted="false">"Daging grapefruit"</string>
+    <string name="data_food_seed_9032" formatted="false">"Aprikot kering tanpa biji"</string>
+    <string name="data_catalog_note_2">"Nilai acuan per 100 g bagian yang dapat dimakan. Nilai karbohidrat USDA mencakup serat. Anda dapat menyesuaikan nilai berdasarkan label produk. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Prune tanpa biji"</string>
+    <string name="data_food_seed_9087" formatted="false">"Kurma tanpa biji"</string>
+    <string name="data_food_seed_9298" formatted="false">"Kismis gelap tanpa biji"</string>
+    <string name="data_food_seed_11529" formatted="false">"Tomat segar"</string>
+    <string name="data_food_seed_11205" formatted="false">"Mentimun dengan kulit"</string>
+    <string name="data_food_seed_11090" formatted="false">"Brokoli mentah"</string>
+    <string name="data_food_seed_11109" formatted="false">"Kubis putih mentah"</string>
+    <string name="data_food_seed_11124" formatted="false">"Wortel mentah"</string>
+    <string name="data_food_seed_11135" formatted="false">"Kembang kol mentah"</string>
+    <string name="data_food_seed_11143" formatted="false">"Batang seledri"</string>
+    <string name="data_food_seed_11282" formatted="false">"Bawang bombai mentah"</string>
+    <string name="data_food_seed_11291" formatted="false">"Daun bawang"</string>
+    <string name="data_food_seed_11304" formatted="false">"Kacang polong hijau mentah"</string>
+    <string name="data_food_seed_11333" formatted="false">"Paprika hijau"</string>
+    <string name="data_food_seed_11821" formatted="false">"Paprika merah"</string>
+    <string name="data_food_seed_11352" formatted="false">"Kentang mentah dengan kulit"</string>
+    <string name="data_food_seed_11367" formatted="false">"Kentang rebus, dikupas"</string>
+    <string name="data_catalog_note_3">"Nilai acuan per 100 g bagian yang dapat dimakan. Tanpa tambahan garam. Nilai karbohidrat USDA mencakup serat. Anda dapat menyesuaikan nilai berdasarkan label produk. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Zukini mentah"</string>
+    <string name="data_food_seed_11209" formatted="false">"Terung mentah"</string>
+    <string name="data_food_seed_11422" formatted="false">"Labu mentah"</string>
+    <string name="data_food_seed_11429" formatted="false">"Lobak merah bulat (radish)"</string>
+    <string name="data_food_seed_11564" formatted="false">"Lobak turnip mentah"</string>
+    <string name="data_food_seed_11080" formatted="false">"Bit mentah"</string>
+    <string name="data_food_seed_11081" formatted="false">"Bit rebus"</string>
+    <string name="data_food_seed_11215" formatted="false">"Bawang putih"</string>
+    <string name="data_food_seed_11216" formatted="false">"Jahe"</string>
+    <string name="data_food_seed_11457" formatted="false">"Bayam spinach mentah"</string>
+    <string name="data_food_seed_11253" formatted="false">"Selada daun"</string>
+    <string name="data_food_seed_11297" formatted="false">"Peterseli segar"</string>
+    <string name="data_food_seed_2045" formatted="false">"Dill segar"</string>
+    <string name="data_food_seed_11052" formatted="false">"Buncis mentah"</string>
+    <string name="data_food_seed_11167" formatted="false">"Biji jagung manis mentah"</string>
+    <string name="data_food_seed_11260" formatted="false">"Jamur kancing mentah"</string>
+    <string name="data_food_seed_11261" formatted="false">"Jamur kancing rebus tanpa garam"</string>
+    <string name="data_food_seed_11987" formatted="false">"Jamur tiram mentah"</string>
+    <string name="data_food_seed_20009" formatted="false">"Soba kupas kering"</string>
+    <string name="data_catalog_note_4">"Nilai acuan per 100 g bagian yang dapat dimakan. Soba kupas yang telah disangrai. Nilai karbohidrat USDA mencakup serat. Anda dapat menyesuaikan nilai berdasarkan label produk. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Soba, dimasak dengan air"</string>
+    <string name="data_food_seed_20444" formatted="false">"Beras putih kering"</string>
+    <string name="data_food_seed_20445" formatted="false">"Nasi putih tanpa garam"</string>
+    <string name="data_food_seed_20036" formatted="false">"Beras cokelat kering"</string>
+    <string name="data_food_seed_20037" formatted="false">"Nasi beras cokelat"</string>
+    <string name="data_food_seed_8120" formatted="false">"Havermut pipih kering"</string>
+    <string name="data_food_seed_8121" formatted="false">"Bubur havermut dimasak dengan air, tanpa garam"</string>
+    <string name="data_food_seed_20005" formatted="false">"Jelai mutiara kering"</string>
+    <string name="data_food_seed_20006" formatted="false">"Jelai mutiara rebus"</string>
+    <string name="data_food_seed_20031" formatted="false">"Milet kering"</string>
+    <string name="data_food_seed_20032" formatted="false">"Milet rebus"</string>
+    <string name="data_food_seed_20420" formatted="false">"Pasta kering"</string>
+    <string name="data_food_seed_20421" formatted="false">"Pasta rebus tanpa garam"</string>
+    <string name="data_food_seed_16070" formatted="false">"Lentil rebus tanpa garam"</string>
+    <string name="data_food_seed_16057" formatted="false">"Kacang arab rebus tanpa garam"</string>
+    <string name="data_food_seed_16033" formatted="false">"Kacang merah rebus tanpa garam"</string>
+    <string name="data_food_seed_5062" formatted="false">"Dada ayam mentah tanpa kulit"</string>
+    <string name="data_food_seed_5064" formatted="false">"Dada ayam panggang tanpa kulit"</string>
+    <string name="data_food_seed_5219" formatted="false">"Dada kalkun mentah tanpa kulit"</string>
+    <string name="data_food_seed_5220" formatted="false">"Dada kalkun panggang tanpa kulit"</string>
+    <string name="data_food_seed_23562" formatted="false">"Daging sapi giling, 10% lemak, mentah"</string>
+    <string name="data_food_seed_23566" formatted="false">"Daging sapi giling, 10% lemak, dipanggang"</string>
+    <string name="data_food_seed_10060" formatted="false">"Has dalam babi mentah, lemak yang terlihat dibuang"</string>
+    <string name="data_food_seed_10061" formatted="false">"Has dalam babi panggang"</string>
+    <string name="data_food_seed_15236" formatted="false">"Salmon Atlantik mentah"</string>
+    <string name="data_catalog_note_5">"Nilai acuan per 100 g bagian yang dapat dimakan. Makanan mentah. Hasil budidaya. Nilai karbohidrat USDA mencakup serat. Anda dapat menyesuaikan nilai berdasarkan label produk. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Salmon Atlantik panggang"</string>
+    <string name="data_catalog_note_6">"Nilai acuan per 100 g bagian yang dapat dimakan. Hasil budidaya. Nilai karbohidrat USDA mencakup serat. Anda dapat menyesuaikan nilai berdasarkan label produk. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Ikan kod Atlantik mentah"</string>
+    <string name="data_food_seed_15266" formatted="false">"Ikan pollock Alaska mentah"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuna kaleng dalam air, ditiriskan"</string>
+    <string name="data_food_seed_15271" formatted="false">"Udang matang, dikupas"</string>
+    <string name="data_food_seed_1211" formatted="false">"Susu, 3,25% lemak"</string>
+    <string name="data_food_seed_1174" formatted="false">"Susu, 2% lemak"</string>
+    <string name="data_food_seed_1082" formatted="false">"Susu, 1% lemak"</string>
+    <string name="data_food_seed_1116" formatted="false">"Yoghurt tawar dari susu penuh lemak"</string>
+    <string name="data_food_seed_1256" formatted="false">"Yoghurt Yunani tanpa lemak"</string>
+    <string name="data_food_seed_1015" formatted="false">"Keju cottage, 2% lemak"</string>
+    <string name="data_catalog_note_7">"Nilai acuan per 100 g bagian yang dapat dimakan. Keju cottage; jenis keju dadih lain memiliki nilai berbeda. Nilai karbohidrat USDA mencakup serat. Anda dapat menyesuaikan nilai berdasarkan label produk. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Krim asam, sekitar 19% lemak"</string>
+    <string name="data_food_seed_1009" formatted="false">"Keju cheddar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mozarela dari susu penuh lemak"</string>
+    <string name="data_food_seed_1019" formatted="false">"Keju feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Telur ayam mentah tanpa cangkang"</string>
+    <string name="data_food_seed_1129" formatted="false">"Telur ayam rebus tanpa cangkang"</string>
+    <string name="data_food_seed_1124" formatted="false">"Putih telur ayam mentah"</string>
+    <string name="data_food_seed_1001" formatted="false">"Mentega asin"</string>
+    <string name="data_food_seed_4053" formatted="false">"Minyak zaitun"</string>
+    <string name="data_food_seed_4506" formatted="false">"Minyak bunga matahari"</string>
+    <string name="data_food_seed_12061" formatted="false">"Almon"</string>
+    <string name="data_food_seed_12155" formatted="false">"Isi kacang walnut"</string>
+    <string name="data_food_seed_12120" formatted="false">"Isi kacang hazel"</string>
+    <string name="data_food_seed_12151" formatted="false">"Isi pistachio mentah"</string>
+    <string name="data_food_seed_12014" formatted="false">"Isi biji labu kering"</string>
+    <string name="data_food_seed_16087" formatted="false">"Kacang tanah mentah tanpa kulit"</string>
+    <string name="data_food_seed_18069" formatted="false">"Roti putih dari gandum"</string>
+    <string name="data_food_seed_18075" formatted="false">"Roti gandum utuh"</string>
+    <string name="data_food_seed_18060" formatted="false">"Roti gandum hitam"</string>
+    <string name="data_food_seed_19296" formatted="false">"Madu"</string>
+    <string name="data_food_seed_19335" formatted="false">"Gula"</string>
+    <string name="data_food_seed_19165" formatted="false">"Bubuk kakao tanpa pemanis"</string>
+    <string name="data_food_seed_19904" formatted="false">"Cokelat hitam, 70–85% kakao"</string>
+    <string name="data_meal_breakfast" formatted="false">"Sarapan"</string>
+    <string name="data_meal_lunch" formatted="false">"Makan siang"</string>
+    <string name="data_meal_dinner" formatted="false">"Makan malam"</string>
+    <string name="data_meal_snack" formatted="false">"Camilan"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Kebijakan privasi Diet Diary\nRevisi: 9 Oktober 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Aplikasi: Diet Diary; judul di Google Play dalam bahasa Rusia: «Дневник диеты: подсчёт калорий»; paket: ru.dietdiary.offline.\nPengembang proyek: Efreitor2001. Untuk pertanyaan tentang aplikasi dan pemrosesan data, hubungi https://github.com/Efreitor2001/kkalcal/issues . Isu GitHub bersifat publik: jangan unggah catatan kesehatan, cadangan, kata sandi, atau token di sana."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Catatan di perangkat Anda\nTidak diperlukan pendaftaran untuk membuat catatan. Aplikasi menyimpan makanan dan nilai gizinya, porsi dan tanggal makan, berat badan, lingkar pinggang, persentase lemak tubuh, langkah, tidur, deskripsi latihan, catatan, target, pencapaian, serta pengaturan aplikasi di area penyimpanan privat pada perangkat Anda. Kolom opsional boleh dibiarkan kosong. Langkah, tidur, dan pengukuran dimasukkan secara manual; aplikasi tidak membaca Health Connect, sensor aktivitas fisik, atau data alat medis."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Informasi ini digunakan untuk menghitung kalori dan makronutrien serta menyediakan riwayat, grafik, dan pencapaian. Pengembang tidak mengoperasikan server yang menerima isi catatan. Jika Anda tidak menghubungkan Google Drive atau membagikan cadangan sendiri, catatan tetap berada di perangkat Anda."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Koneksi Google Drive opsional\nAtas permintaan Anda, aplikasi membuka login Google di browser default dan meminta akses ke penyimpanan data tersembunyi aplikasi ini dalam Google Drive Anda. Izin ini tidak memberikan akses ke dokumen atau foto biasa di Drive Anda."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Setelah terhubung, makanan, asupan, pengukuran catatan, catatan tambahan, target, pencapaian, pengaturan yang dapat dipindahkan, dan metadata perubahan, termasuk pengenal instalasi acak dan cap waktu, dikirim ke Google. Hal ini mendukung pembuatan salinan cadangan dan penggabungan entri di seluruh perangkat Anda. Jika sinkronisasi otomatis diaktifkan, perubahan juga dikirim di latar belakang saat koneksi jaringan tersedia. Anda dapat menonaktifkan sinkronisasi otomatis secara terpisah."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Aplikasi menerima alamat email dan pengenal akun Google yang dipilih untuk menampilkan koneksi dan menghubungkannya ke penyimpanan yang tepat. Kata sandi Google Anda tidak diberikan kepada aplikasi. Sesi otorisasi disimpan secara terenkripsi di perangkat menggunakan kunci dalam Android Keystore. Token, alamat email, dan pengenal Google tidak disertakan dalam ekspor catatan dan salinan JSON yang disinkronkan."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Data Google hanya digunakan untuk otorisasi dan sinkronisasi, tidak pernah untuk iklan. Kebijakan privasi Google berlaku: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. File cadangan\n“Simpan ke file” membuat file JSON di lokasi pilihan Anda. Pemulihan hanya membaca file yang Anda pilih. Jika Anda memilih penyedia file cloud atau membagikan salinan kepada orang lain, Anda yang menentukan penerimanya. Aplikasi tidak mengenkripsi file JSON yang diekspor: file ini berisi catatan pribadi dan metadata perubahan."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Iklan\nAplikasi menggunakan Yandex Mobile Ads SDK. Untuk memuat dan menampilkan iklan, perangkat Anda terhubung ke layanan pengiklanan. Yandex dapat memproses alamat IP dan informasi teknis lain tentang permintaan jaringan, perangkat dan perangkat lunak, pengenal iklan atau teknis yang tersedia, serta informasi tentang tayangan dan interaksi iklan."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Aplikasi memberitahukan kepada SDK bahwa persetujuan belum diberikan, menonaktifkan pengumpulan lokasi, dan menonaktifkan pelaporan App Ad Analytics. Aplikasi tidak meminta izin lokasi akurat maupun perkiraan. Pengaturan ini tidak berarti bahwa layanan pengiklanan tidak melakukan komunikasi jaringan atau pemrosesan data teknis sama sekali."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Aplikasi tidak menggunakan catatan makanan, berat badan, pengukuran, catatan tambahan, target, alamat email, atau pengenal Google untuk penargetan iklan, dan tidak menambahkannya ke parameter permintaan iklan. Menonton iklan tidak diperlukan untuk menyimpan entri."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Aturan Yandex untuk pemrosesan, penyimpanan, dan penghapusan data: https://yandex.ru/legal/confidential/ . Anda dapat mengelola pengenal iklan dalam pengaturan Android jika versi sistem Anda mendukungnya. Kebijakan layanan pengiklanan menentukan masa penyimpanan data teknisnya; pengembang catatan tidak menetapkan masa penyimpanan terpisah untuk data tersebut."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Perlindungan data\nKomunikasi dengan Google menggunakan HTTPS; Yandex menyatakan bahwa data SDK dikirim menggunakan HTTPS/TLS. Catatan lokal dilindungi oleh isolasi aplikasi Android. Aplikasi tidak mengenkripsi isi catatan atau salinan JSON secara terpisah; aplikasi tidak menyediakan enkripsi ujung ke ujung antarperangkat."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Pencadangan sistem untuk data aplikasi dinonaktifkan. Log diagnostik yang ditulis oleh kode aplikasi sendiri berisi kode hasil tanpa isi catatan, alamat email, token, atau badan respons jaringan; aplikasi tidak mengirim log ini secara terpisah kepada pengembang."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Penyimpanan dan penghapusan\nCatatan lokal tetap tersimpan hingga Anda mengubah atau menghapusnya, atau mengosongkan data aplikasi. Menghapus entri menghilangkannya dari antarmuka dan mengirim penanda penghapusan saat sinkronisasi. Metadata penggabungan dipertahankan untuk mencegah data lama muncul kembali; metadata ini dapat berisi nilai sebelumnya dari entri catatan yang dihapus. Nilai sebelumnya juga dapat tetap berada dalam salinan cloud lama dan file yang pernah Anda buat. Karena itu, menghapus satu entri tidak sepenuhnya menghapus semua salinannya."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“Putuskan akun” menghentikan sinkronisasi di perangkat ini dan menghapus sesi Google lokal. Catatan dan salinan di Google Drive dipertahankan. Memutuskan aplikasi tidak menghapus akun Google Anda."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Untuk menghapus seluruh data aplikasi ini:\n• Nonaktifkan sinkronisasi di semua perangkat Anda agar salinan yang tersisa tidak diunggah kembali.\n• Di browser, buka https://drive.google.com/drive/settings menggunakan akun Google yang pernah dihubungkan. Pilih “Kelola aplikasi”, cari “Diet Diary” (atau «Дневник диеты»), lalu pilih “Opsi” → “Hapus data aplikasi tersembunyi”. Jika halaman seluler tidak menampilkan bagian ini, gunakan situs versi desktop atau komputer.\n• Cabut akses aplikasi di https://myaccount.google.com/connections . Mencabut akses saja tidak menghapus salinan yang tersimpan.\n• Kosongkan penyimpanan aplikasi dalam pengaturan Android di setiap perangkat, atau hapus instalasi aplikasi.\n• Hapus cadangan JSON yang disimpan terpisah dari folder dan lokasi penyimpanan cloud pilihan Anda."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Tanpa kredensial Anda, pengembang tidak dapat menghapus catatan lokal atau file di Google Drive pribadi Anda dari jarak jauh. Jangan bagikan kata sandi atau token Anda kepada pengembang. Untuk bantuan penghapusan, hubungi proyek melalui tautan di awal kebijakan ini. Anda tidak perlu menghapus akun Google untuk menghapus data catatan."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Perubahan dan kontak\nSaat fitur aplikasi atau praktik pemrosesan data berubah, kebijakan ini diperbarui dengan tanggal revisi. Untuk pertanyaan tentang akses, koreksi, penghapusan data, atau pengoperasian aplikasi, gunakan saluran kontak proyek. Permintaan yang Anda kirim diproses untuk memberikan tanggapan dan disimpan di GitHub; kebijakan GitHub tersedia di https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Hidangan saya"</string>
+    <string name="secondary_metric_weight" formatted="false">"Berat badan"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Lemak tubuh"</string>
+    <string name="secondary_metric_waist" formatted="false">"Lingkar pinggang"</string>
+    <string name="secondary_metric_steps" formatted="false">"Langkah"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Tidur"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalori"</string>
+    <string name="secondary_metric_protein" formatted="false">"Protein"</string>
+    <string name="secondary_metric_fat" formatted="false">"Lemak"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Karbohidrat"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"langkah"</string>
+    <string name="secondary_unit_hours" formatted="false">"jam"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kkal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Rentang tanggal tidak valid"</string>
+    <string name="secondary_stats_title" formatted="false">"Tren"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Catatan Anda dalam grafik yang jelas"</string>
+    <string name="secondary_metric" formatted="false">"Metrik"</string>
+    <string name="secondary_week" formatted="false">"Minggu"</string>
+    <string name="secondary_month" formatted="false">"Bulan"</string>
+    <string name="secondary_year" formatted="false">"Tahun"</string>
+    <string name="secondary_custom_period" formatted="false">"Rentang khusus"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Tanggal awal tidak boleh setelah tanggal akhir"</string>
+    <string name="secondary_no_records" formatted="false">"Belum ada catatan"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Tambahkan makanan ke catatan atau pilih periode lain."</string>
+    <string name="secondary_chart_tap" formatted="false">"Ketuk grafik untuk memilih catatan"</string>
+    <string name="secondary_chart_connected" formatted="false">"Garis menghubungkan pengukuran yang dicatat. Tidak ada pengukuran di antaranya."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Perkiraan dari timbangan berguna untuk memantau tren."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Total harian manual menggantikan total makanan. Jika tidak ada, makanan yang dicatat dijumlahkan. Hari tanpa catatan dilewati."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Total berdasarkan makanan yang dicatat. Hari tanpa catatan tidak dihitung sebagai nol."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Hari tanpa catatan dilewati dan tidak dimasukkan ke rata-rata."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Hari ini dan kemarin"</string>
+    <string name="secondary_no_today" formatted="false">"Tidak ada catatan untuk hari ini"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Tidak ada catatan untuk kemarin"</string>
+    <string name="secondary_partial_today" formatted="false">"Perbandingan ini menggunakan catatan saat ini. Data hari ini mungkin belum lengkap."</string>
+    <string name="secondary_period_summary" formatted="false">"Ringkasan periode"</string>
+    <string name="secondary_recorded_average" formatted="false">"Rata-rata dari hari yang dicatat"</string>
+    <string name="secondary_recorded_days" formatted="false">"Hari dengan data"</string>
+    <string name="secondary_minimum" formatted="false">"Minimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maksimum"</string>
+    <string name="secondary_first_to_last" formatted="false">"Dari catatan pertama hingga terakhir"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Diperlukan setidaknya dua hari yang dicatat untuk menghitung perubahan."</string>
+    <string name="secondary_history" formatted="false">"Riwayat"</string>
+    <string name="secondary_history_recent" formatted="false">"14 hari terakhir dengan data. Pilih rentang khusus untuk catatan yang lebih lama."</string>
+    <string name="secondary_history_all" formatted="false">"Semua hari yang dicatat dalam periode pilihan"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Dari %1$s"</string>
+    <string name="secondary_date_until">"Hingga %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s dalam periode ini"</string>
+    <string name="secondary_weight_goal">"Target: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Tambahkan pengukuran ke catatan atau pilih periode lain."</string>
+    <string name="secondary_latest_record">"Catatan terbaru · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Hari ini: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Kemarin: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Perubahan: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d dari %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Hari yang dicatat: %2$d, dari %3$s hingga %4$s. Minimum %5$s, maksimum %6$s %7$s. Nilai tercantum dalam riwayat."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Langkah awal"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Simpan pengukuran berat badan pertama Anda."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Pengukuran berat badan pertama Anda tersimpan."</string>
+    <string name="secondary_award_first_food" formatted="false">"Entri pertama"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Catat porsi makanan pertama Anda."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Porsi makanan pertama Anda tercatat."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Data seminggu"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Catat berat badan pada 7 hari berbeda. Tidak harus berturut-turut."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Anda memiliki catatan berat badan untuk 7 hari berbeda."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Konsistensi"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Catat berat badan pada 30 hari berbeda."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Anda memiliki catatan berat badan untuk 30 hari."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Pengarsip"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Simpan 100 porsi makanan dalam catatan Anda."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Anda telah menyimpan 100 porsi makanan."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Kebiasaan baru"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Catat makanan selama 7 hari kalender berturut-turut."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Anda telah mencatat makanan selama 7 hari berturut-turut."</string>
+    <string name="secondary_award_steps" formatted="false">"Jago berjalan"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Catat setidaknya 10.000 langkah dalam satu hari."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Anda telah mencatat satu hari dengan 10.000 langkah."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Pencatat rajin"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Simpan 100 pengukuran berat badan. Satu pengukuran dihitung per tanggal."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Anda telah menyimpan 100 pengukuran berat badan."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Veteran catatan"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Catat makanan atau pengukuran pada 90 hari berbeda. Tidak harus berturut-turut."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Anda memiliki catatan untuk 90 hari berbeda."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"pengukuran"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porsi"</string>
+    <string name="secondary_award_unit_days" formatted="false">"hari"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"hari berturut-turut"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"langkah dalam satu hari"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"hari yang dicatat"</string>
+    <string name="secondary_back" formatted="false">"‹  Kembali"</string>
+    <string name="secondary_achievements" formatted="false">"Pencapaian"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Langkah kecil menjadi kebiasaan"</string>
+    <string name="secondary_your_progress" formatted="false">"KEMAJUAN ANDA"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Pencapaian yang diperoleh tetap menjadi milik Anda meskipun catatan diedit."</string>
+    <string name="secondary_awards_regular" formatted="false">"Untuk konsistensi dan kebiasaan mencatat"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Catatan yang tersimpan hingga hari ini, termasuk hari ini, akan dihitung."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Pencapaian tersembunyi"</string>
+    <string name="secondary_hidden_description" formatted="false">"Terus gunakan catatan Anda untuk membuka pencapaian ini."</string>
+    <string name="secondary_earned" formatted="false">"Diperoleh"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Tersembunyi · terkunci"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Sedang berlangsung · terkunci"</string>
+    <string name="secondary_locked" formatted="false">"Terkunci"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Syarat dan kemajuan akan ditampilkan saat Anda memperoleh penghargaan ini."</string>
+    <string name="secondary_best_streak" formatted="false">"Rentetan terbaik"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Hadiah tersembunyi"</string>
+    <string name="secondary_unlocked_of">"dari %1$d terbuka"</string>
+    <string name="secondary_unlocked_date">"Terbuka pada %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Kembali"</string>
+    <string name="secondary_my_recipe" formatted="false">"Resep saya"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Timbang bahan sebelum memasak. Gunakan berat setelah dimasak untuk menghitung porsi. Sertakan minyak dan saus."</string>
+    <string name="secondary_recipe_name" formatted="false">"Nama resep"</string>
+    <string name="secondary_recipe_example" formatted="false">"Misalnya, semur sayuran"</string>
+    <string name="secondary_ingredients" formatted="false">"Bahan"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Mulai dengan bahan"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Tambahkan setiap bahan dan masukkan beratnya dalam gram."</string>
+    <string name="secondary_edit_weight" formatted="false">"Edit berat"</string>
+    <string name="secondary_delete" formatted="false">"Hapus"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Tambah bahan"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Seluruh resep"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Memasak mengubah berat karena penambahan atau hilangnya air. Timbang hidangan jadi tanpa wadahnya."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Berat setelah dimasak, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Masukkan berat setelah dimasak"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Masukkan berat lebih dari 0 dan tidak lebih dari 100.000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Berat tidak diisi secara otomatis"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Per 100 g hidangan matang"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Periksa berat setelah dimasak dan bahan: setiap 100 g dapat mengandung hingga 1.000 kkal dan hingga 100 g tiap makronutrien."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Resep tidak dapat disimpan"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Simpan ke Resep saya"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Setelah disimpan, Anda dapat mencatat hidangan ini berdasarkan berat porsinya."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Berat bahan sebelum dimasak"</string>
+    <string name="secondary_grams" formatted="false">"Gram"</string>
+    <string name="secondary_weight_limits" formatted="false">"Lebih dari 0 dan tidak lebih dari 100.000 g"</string>
+    <string name="secondary_add" formatted="false">"Tambah"</string>
+    <string name="secondary_save" formatted="false">"Simpan"</string>
+    <string name="secondary_cancel" formatted="false">"Batal"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Pilih bahan"</string>
+    <string name="secondary_search_food" formatted="false">"Cari makanan"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Tidak ada hasil. Anda dapat menambahkan makanan sendiri di tab Makanan."</string>
+    <string name="secondary_close" formatted="false">"Tutup"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kkal"</string>
+    <string name="secondary_portion_macros">"Protein %1$s · Lemak %2$s · Karbohidrat %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Berat bahan: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kkal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kkal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Hasil jadi: %1$s g. Bahan: %2$s"</string>
+</resources>

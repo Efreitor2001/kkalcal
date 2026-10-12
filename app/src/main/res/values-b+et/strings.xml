@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Toidupäevik"</string>
+    <string name="core_app_name" formatted="false">"Toidupäevik"</string>
+    <string name="core_tagline" formatted="false">"Kalorid, kaal ja progress"</string>
+    <string name="core_open_diary" formatted="false">"Avatud päevik"</string>
+    <string name="core_save_failed" formatted="false">"Teie andmeid ei saanud salvestada"</string>
+    <string name="core_day" formatted="false">"Täna"</string>
+    <string name="core_products" formatted="false">"Toidud"</string>
+    <string name="core_diary" formatted="false">"Päevik"</string>
+    <string name="core_charts" formatted="false">"Diagrammid"</string>
+    <string name="core_more" formatted="false">"Veel"</string>
+    <string name="core_recipe_saved" formatted="false">"Roog on salvestatud teie toitudesse"</string>
+    <string name="core_back_to_day" formatted="false">"Tagasi teie päeva juurde"</string>
+    <string name="core_action_failed" formatted="false">"Seda toimingut ei saanud lõpule viia"</string>
+    <string name="core_understood" formatted="false">"OK"</string>
+    <string name="core_restore_available" formatted="false">"Varukoopia saate taastada menüüs More."</string>
+    <string name="core_eaten_today" formatted="false">"SÖÖ TÄNA"</string>
+    <string name="core_set_goal_hint" formatted="false">"Saate seada eesmärgi jaotises More"</string>
+    <string name="core_add_food" formatted="false">"+ Lisa toit"</string>
+    <string name="core_first_meal" formatted="false">"Alustage oma esimese söögikorraga"</string>
+    <string name="core_first_meal_help" formatted="false">"Kalorite ja makrode arvutamiseks valige toit ja sisestage selle kaal grammides."</string>
+    <string name="core_my_day" formatted="false">"Minu päev"</string>
+    <string name="core_my_day_help" formatted="false">"Kaal, talje, sammud, uni – salvestage, mida teate."</string>
+    <string name="core_record_metrics" formatted="false">"Salvestage mõõtmised"</string>
+    <string name="core_edit_metrics" formatted="false">"Muutke mõõtmisi"</string>
+    <string name="core_food_state_hint" formatted="false">"Toidu kaal ja toiteväärtused peavad viitama samale olekule: toores, kuiv või keedetud."</string>
+    <string name="core_weight" formatted="false">"Kaal"</string>
+    <string name="core_waist" formatted="false">"Vöökoht"</string>
+    <string name="core_my_diary" formatted="false">"Minu päevik"</string>
+    <string name="core_diary_tagline" formatted="false">"Iga päev omas tempos"</string>
+    <string name="core_record_day" formatted="false">"+ Salvestage päev"</string>
+    <string name="core_optional_diary_help" formatted="false">"Kõik mõõtmised on valikulised. Saate salvestada ainult oma kaalu, une või märkme. Puudutage kirjet selle muutmiseks."</string>
+    <string name="core_history_starts" formatted="false">"Teie ajalugu algab siit"</string>
+    <string name="core_history_help" formatted="false">"Salvestage mõõtmised ja jälgige diagrammides muudatusi."</string>
+    <string name="core_file_unavailable" formatted="false">"Fail pole saadaval"</string>
+    <string name="core_backup_saved" formatted="false">"Varukoopia salvestatud"</string>
+    <string name="core_export_error" formatted="false">"Varukoopiat ei saanud eksportida"</string>
+    <string name="core_read_error" formatted="false">"Faili ei õnnestunud lugeda"</string>
+    <string name="core_settings_tagline" formatted="false">"Seadistused ja andmete varundamine"</string>
+    <string name="core_your_progress" formatted="false">"Teie edusammud"</string>
+    <string name="core_achievements_help" formatted="false">"Väikesed saavutused päeviku harjumuse kujundamisel."</string>
+    <string name="core_achievements" formatted="false">"Saavutused"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Valikuline ühendus päeviku sünkroonimiseks kõigis seadmetes."</string>
+    <string name="core_cloud_sync" formatted="false">"Pilvesünkroonimine"</string>
+    <string name="core_personal_goals" formatted="false">"Isiklikud eesmärgid"</string>
+    <string name="core_personal_goals_help" formatted="false">"Seadke oma kalori-, makro- ja sihtkaalu eesmärgid käsitsi. Iga eesmärgi võib tühjaks jätta."</string>
+    <string name="core_configure_goals" formatted="false">"Seadke eesmärgid"</string>
+    <string name="core_backup" formatted="false">"Varundus"</string>
+    <string name="core_backup_help" formatted="false">"Toidud, toidud, päevik, eesmärgid ja saavutused ühes failis. Enne rakenduse uuesti installimist salvestage varukoopia."</string>
+    <string name="core_save_file" formatted="false">"Salvestage faili"</string>
+    <string name="core_restore_file" formatted="false">"Taasta failist"</string>
+    <string name="core_write_locked" formatted="false">"Algfaili kaitsmiseks on salvestamine keelatud. Taastage kehtiv varukoopia."</string>
+    <string name="core_about_data" formatted="false">"Teave rakenduse ja teie andmete kohta"</string>
+    <string name="core_about_data_help" formatted="false">"Kuidas kirjeid salvestatakse, sünkroonitakse ja andmeid kustutatakse."</string>
+    <string name="core_privacy" formatted="false">"Privaatsus ja andmete kustutamine"</string>
+    <string name="core_offline" formatted="false">"Töötab võrguühenduseta"</string>
+    <string name="core_offline_help" formatted="false">"Google sisselogimine on valikuline. Sammud ja uni sisestatakse käsitsi. Lubatud sünkroonimiseks ja reklaamide laadimiseks on vaja Interneti-ühendust. Päeviku sissekandeid reklaamivõrku ei saadeta."</string>
+    <string name="core_about_foods" formatted="false">"Toitude kohta"</string>
+    <string name="core_foods_reference" formatted="false">"Sisseehitatud väärtused on hinnangulised 100 g söödava portsjoni kohta. Kontrollige pakendilt täpseid väärtusi. Toidu redigeerimine ei arvuta varasemaid söögikordi ümber."</string>
+    <string name="core_foods_source" formatted="false">"Andmebaasi allikas: USDA FoodData Central, SR Legacy. Üksikud toidud sisaldavad nende olekut ja päritolu üksikasju."</string>
+    <string name="core_restore_title" formatted="false">"Kas taastada see varukoopia?"</string>
+    <string name="core_restore_warning" formatted="false">"Teie praegused toidud, päevik, eesmärgid ja saavutused asendatakse selle faili sisuga. Esmalt salvestage varukoopia. Kui sünkroonimine on ühendatud, saadetakse taastatud muudatused ka aadressile Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Varukoopia taastatud"</string>
+    <string name="core_invalid_file" formatted="false">"Kehtetu fail"</string>
+    <string name="core_replace_data" formatted="false">"Asenda andmed"</string>
+    <string name="core_cancel" formatted="false">"Tühista"</string>
+    <string name="core_save" formatted="false">"Salvesta"</string>
+    <string name="core_calculate_portion" formatted="false">"Arvutage osa"</string>
+    <string name="core_edit_portion" formatted="false">"Redigeerimise osa"</string>
+    <string name="core_portion_weight" formatted="false">"Portsjoni kaal, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Sisestage kaal, mis on suurem kui 0 ja mitte rohkem kui 100 000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Lisa päevikusse"</string>
+    <string name="core_delete_entry" formatted="false">"Kustuta kirje"</string>
+    <string name="core_delete_portion_question" formatted="false">"Kas kustutada see osa oma päevikust?"</string>
+    <string name="core_new_food" formatted="false">"Uus toit või roog"</string>
+    <string name="core_edit_nutrition" formatted="false">"Toiteväärtuste muutmine"</string>
+    <string name="core_name" formatted="false">"Nimi"</string>
+    <string name="core_food" formatted="false">"Toit"</string>
+    <string name="core_dish" formatted="false">"Valmis roog"</string>
+    <string name="core_category" formatted="false">"Kategooria"</string>
+    <string name="core_per100_hint" formatted="false">"Väärtused 100 g kohta, pakendilt või retseptist. Sisestage 0, kui toitaine puudub."</string>
+    <string name="core_kcal" formatted="false">"Kalorid"</string>
+    <string name="core_protein_grams" formatted="false">"Valk, g"</string>
+    <string name="core_fat_grams" formatted="false">"Rasv, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Süsivesikud, g"</string>
+    <string name="core_food_note" formatted="false">"Märkus, koostisosad (valikuline)"</string>
+    <string name="core_favorite" formatted="false">"Lisa lemmikute hulka"</string>
+    <string name="core_name_category_required" formatted="false">"Sisestage nimi ja kategooria"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Sisestage väärtused 100 g kohta: kalorid 0–1000; valk, rasv ja süsivesikud 0-100 g"</string>
+    <string name="core_delete_food" formatted="false">"Kustutada toiduainetest"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Eelmised söögikordade sissekanded säilitavad oma väärtuse."</string>
+    <string name="core_delete_food_question" formatted="false">"Kas kustutada see toit? Selle päeviku sissekanded säilitatakse."</string>
+    <string name="core_day_entry" formatted="false">"Igapäevane sissekanne"</string>
+    <string name="core_optional_fields" formatted="false">"Täitke kõik soovitud väljad. Ülejäänu jätke tühjaks."</string>
+    <string name="core_editing_existing" formatted="false">"Selle kuupäeva kohta on juba kirje. Te muudate seda."</string>
+    <string name="core_weight_kg" formatted="false">"Kaal, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Vöökoht, cm"</string>
+    <string name="core_steps" formatted="false">"Sammud"</string>
+    <string name="core_sleep" formatted="false">"Uni"</string>
+    <string name="core_hours" formatted="false">"Tundi"</string>
+    <string name="core_minutes" formatted="false">"Protokoll"</string>
+    <string name="core_body_fat_optional" formatted="false">"Keha rasvasisaldus, % (valikuline)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Keha rasv kaalult on trendi indikaator, mitte täpne mõõt."</string>
+    <string name="core_strength_training" formatted="false">"Jõutreening"</string>
+    <string name="core_training_example" formatted="false">"Näiteks: kükid 3×10, 12 kg hantlid"</string>
+    <string name="core_manual_nutrition" formatted="false">"Manuaalsed toitumiskogused"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Kui need väärtused sisestatakse, alistavad need päeva toidukogused. Automaatse arvutamise jaoks jätke tühjaks."</string>
+    <string name="core_daily_calories" formatted="false">"Päevased kalorid"</string>
+    <string name="core_daily_protein" formatted="false">"Päevane valk, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Märkused ja kuidas te tunnete"</string>
+    <string name="core_steps_invalid" formatted="false">"Sammud: täisarv 0 kuni 200 000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Unerežiim: 0–24 tundi, minutit 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Keha rasv"</string>
+    <string name="core_calories" formatted="false">"Kalorid"</string>
+    <string name="core_protein" formatted="false">"Valk"</string>
+    <string name="core_entry_required" formatted="false">"Lisage vähemalt üks mõõtmine või märkus"</string>
+    <string name="core_delete_day" formatted="false">"Kustutage see igapäevane kirje"</string>
+    <string name="core_optional_goals" formatted="false">"Kõik eesmärgid on valikulised. Tühi väli tähendab, et eesmärki pole seatud."</string>
+    <string name="core_calories_per_day" formatted="false">"Kaloreid päevas"</string>
+    <string name="core_protein_per_day" formatted="false">"Valk päevas, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Rasv päevas, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Süsivesikud päevas, g"</string>
+    <string name="core_target_weight" formatted="false">"Sihtkaal, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Kontrollige oma eesmärke: kalorid 0–10 000; valk, rasv ja süsivesikud 0–1000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Sihtkaal: 1 kuni 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Kustutada?"</string>
+    <string name="core_delete" formatted="false">"Kustuta"</string>
+    <string name="core_select_food" formatted="false">"Valige toit"</string>
+    <string name="core_foods_dishes" formatted="false">"Toidud ja nõud"</string>
+    <string name="core_search_food" formatted="false">"Otsige toitu või rooga"</string>
+    <string name="core_new_food_button" formatted="false">"+ Toit/roog"</string>
+    <string name="core_recipe_button" formatted="false">"Retseptist"</string>
+    <string name="core_no_results" formatted="false">"Tulemusi pole"</string>
+    <string name="core_no_results_help" formatted="false">"Proovige teist otsingut või lisage oma toit või valmistatud roog."</string>
+    <string name="core_edit" formatted="false">"Redigeeri"</string>
+    <string name="core_achievement_unlocked">"🏆 Saavutus lukustamata! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal jäänud · eesmärk %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal üle teie eesmärgi"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Valgud %1$s   Rasvad %2$s   Süsivesikud %3$s"</string>
+    <string name="core_weight_summary">"Kaal %1$s kg"</string>
+    <string name="core_waist_summary">"Vöö %1$s cm"</string>
+    <string name="core_steps_summary">"Sammud: %1$s"</string>
+    <string name="core_fat_summary">"Keha rasv %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (käsitsi)"</string>
+    <string name="core_manual_protein">"Valk %1$s g (käsitsi)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Magama %1$s"</string>
+    <string name="core_scale_fat">"Keha rasvasisalduse vähendamine %1$s%%"</string>
+    <string name="core_training_value">"Koolitus: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Valk %1$s g"</string>
+    <string name="core_app_version">"Toidupäevik · %1$s"</string>
+    <string name="core_per100_summary">"100 g kohta: %1$s kcal · Valgud %2$s · Rasvad %3$s · Süsivesikud %4$s"</string>
+    <string name="core_range_invalid">"%1$s: sisestage väärtus vahemikus %2$s kuni %3$s"</string>
+    <string name="core_delete_day_question">"Kas kustutada %1$s mõõtmised? Toidu kanded jäetakse alles."</string>
+    <string name="core_catalog_count">"Toiduained: %1$s · toiteväärtus 100 g kohta"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Valgud %2$s   Rasvad %3$s   Süsivesikud %4$s"</string>
+    <string name="core_today_date">"Täna · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalorid ja valk on teie päevikust käsitsi kogutud summad"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalorid on teie päevikust käsitsi kogutud summa"</string>
+    <string name="core_manual_protein_total" formatted="false">"Valk on teie päeviku käsitsi kogutud summa"</string>
+    <string name="core_macro_goals">"P / F / C eesmärgid: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (käsitsi)"</string>
+    <string name="core_all" formatted="false">"Kõik"</string>
+    <string name="core_favorites" formatted="false">"Lemmikud"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Eelmine päev"</string>
+    <string name="core_next_day" formatted="false">"Järgmisel päeval"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Migratsiooni varukoopia ei ühti"</string>
+    <string name="data_entry_exists" formatted="false">"See toidukirje on juba olemas"</string>
+    <string name="data_entry_missing" formatted="false">"Toidukirjet ei leitud"</string>
+    <string name="data_edited_date_changed" formatted="false">"Redigeeritava kirje kuupäev on muutunud"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Kohalik seade ID on kahjustatud; taastamine on blokeeritud"</string>
+    <string name="data_sync_invalid" formatted="false">"Valed sünkroonimisandmed"</string>
+    <string name="data_diary_read_only" formatted="false">"Päevik on kaitstud ülekirjutamise eest: taastage varukoopia"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Päeviku andmed on vastuolulised"</string>
+    <string name="data_backup_too_large" formatted="false">"Varukoopia on liiga suur"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Installatsioon ID on kahjustatud"</string>
+    <string name="data_save_verification_failed" formatted="false">"Päeviku salvestamist ei õnnestunud kontrollida"</string>
+    <string name="data_save_failed" formatted="false">"Päevikut ei õnnestunud salvestada"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Varukoopia on suurem kui 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Päeviku fail on liiga suur"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Vale toidu andmebaasi suurus"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Toetamata varuversioon"</string>
+    <string name="data_too_many_values">"Liiga palju väärtusi %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Liiga palju toite"</string>
+    <string name="data_too_many_entries" formatted="false">"Liiga palju toiduaineid"</string>
+    <string name="data_too_many_logs" formatted="false">"Liiga palju päeviku sissekandeid"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Toidu dubleerimine ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Toidu dubleerimine ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Päeviku kuupäeva duplikaat"</string>
+    <string name="data_label_product_id" formatted="false">"Food ID"</string>
+    <string name="data_label_product_name" formatted="false">"Food name"</string>
+    <string name="data_label_category" formatted="false">"Kategooria"</string>
+    <string name="data_label_note" formatted="false">"Note"</string>
+    <string name="data_label_entry_id" formatted="false">"Entry ID"</string>
+    <string name="data_label_meal" formatted="false">"Meal"</string>
+    <string name="data_food_weight_range" formatted="false">"Toidu kaal peab olema suurem kui 0 ja kuni 100000 g"</string>
+    <string name="data_label_weight" formatted="false">"Kaal"</string>
+    <string name="data_label_waist" formatted="false">"Vöökoht"</string>
+    <string name="data_steps_range" formatted="false">"Sammude arv peab olema vahemikus 0 kuni 200 000"</string>
+    <string name="data_label_sleep" formatted="false">"Uni"</string>
+    <string name="data_label_body_fat" formatted="false">"Keha rasv"</string>
+    <string name="data_label_daily_calories" formatted="false">"Päevased kalorid"</string>
+    <string name="data_label_daily_protein" formatted="false">"Päevane valk"</string>
+    <string name="data_label_workout" formatted="false">"Treening"</string>
+    <string name="data_label_log_note" formatted="false">"Note"</string>
+    <string name="data_log_empty" formatted="false">"Sisestage vähemalt üks mõõtmine või märkus"</string>
+    <string name="data_label_goal_weight" formatted="false">"Eesmärgi kaal"</string>
+    <string name="data_too_many_achievements" formatted="false">"Liiga palju saavutusi"</string>
+    <string name="data_achievement_invalid" formatted="false">"Kehtetu saavutus"</string>
+    <string name="data_setting_not_portable" formatted="false">"Seda sätet ei saa üle kanda"</string>
+    <string name="data_setting_invalid">"Vale väärtus sätte %1$s jaoks"</string>
+    <string name="data_label_calories" formatted="false">"Kalorid"</string>
+    <string name="data_label_protein" formatted="false">"Valk"</string>
+    <string name="data_label_fat" formatted="false">"Rasv"</string>
+    <string name="data_label_carbs" formatted="false">"Süsivesikud"</string>
+    <string name="data_value_range">"%1$s: lubatud vahemik %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: vale pikkus"</string>
+    <string name="data_text_character_invalid">"%1$s: kehtetu märk"</string>
+    <string name="data_date_format_invalid" formatted="false">"Kuupäev peab kasutama vormingut AAAA-KK-PP"</string>
+    <string name="data_date_nonexistent">"Kehtetu kuupäev: %1$s"</string>
+    <string name="data_field_string_required">"Väli %1$s peab olema tekst"</string>
+    <string name="data_field_boolean_required">"Väli %1$s peab olema Boole\'i väärtus"</string>
+    <string name="data_field_number_required">"Väli %1$s peab olema arv"</string>
+    <string name="data_field_finite_required">"Väli %1$s peab olema lõplik arv"</string>
+    <string name="data_field_integer_required">"Väli %1$s peab olema täisarv"</string>
+    <string name="data_too_many_items">"Liiga palju üksusi kaustas %1$s"</string>
+    <string name="data_data_file_invalid">"Kehtetu andmefail: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Seade ID puudub"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Loogilise kella piirang on saavutatud"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Liiga palju sünkroonimiskirjeid"</string>
+    <string name="data_sync_version_required" formatted="false">"Sünkroonimiseks on vaja vormingu versiooni 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Kehtetu sünkroonimisvõti"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Sünkroonimisvõtme duplikaat"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Vigane kustutamislipp"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Valed sünkroonimisandmed"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Rekordiversioon ületab loogilise kella"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Andmed ei ühti sünkroonimise metaandmetega"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Vale sünkroonimisvõtme pikkus"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Vigane sünkroonimisvõti"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Tundmatu sünkroonimistüüp"</string>
+    <string name="data_record_id_too_long" formatted="false">"Kirje ID on liiga pikk"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Kehtetu saavutuse kustutamine"</string>
+    <string name="data_log_key_invalid" formatted="false">"Kehtetu päeviku võti"</string>
+    <string name="data_log_field_unknown" formatted="false">"Tundmatu päeviku väli"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Kehtetu päeviku kustutamise marker"</string>
+    <string name="data_goal_unknown" formatted="false">"Tundmatu eesmärk"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Kustutatud kirje sisaldab andmeid"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Vigane sünkroonimisväärtus"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Kirje ID ei vasta võtmele"</string>
+    <string name="data_field_value_invalid" formatted="false">"Vigane välja väärtus"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Saavutuse kuupäev ei vasta võtmele"</string>
+    <string name="data_note_string_required" formatted="false">"Märkus peab olema tekst"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Vigane sünkroonitud märkus"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Vigane loogiline kell"</string>
+    <string name="data_device_invalid" formatted="false">"Vigane seade"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Vigane versioonitähis"</string>
+    <string name="data_google_login_required" formatted="false">"Logi uuesti Google\'isse sisse"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Liiga palju pilvevarukoopiaid"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive tagastas korduva lehe"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Pilvevarukoopia on suurem kui 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive ei tagastanud üleslaadimise aadressi"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Vigane Google Drive\'i üleslaadimise aadress"</string>
+    <string name="data_back" formatted="false">"‹  Tagasi"</string>
+    <string name="data_cloud_title" formatted="false">"Pilvesünkroonimine"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Sinu päevik kõigis sinu seadmetes"</string>
+    <string name="data_no_account" formatted="false">"Ühtegi kontot pole ühendatud"</string>
+    <string name="data_cloud_intro" formatted="false">"Sisselogimine on vabatahtlik. Toiduained, toidukorrad, mõõtmised, eesmärgid ja saavutused salvestatakse telefoni. Pärast ühendamist salvestatakse koopia sinu Google Drive\'i peidetud kausta."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Esimesel ühendamisel kirjed liidetakse. Rakendus ei pääse ligi sinu Drive\'i muudele failidele."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Selles versioonis pole Google\'iga sisselogimine veel seadistatud. Päevik ja failivarukoopiad töötavad ka ilma kontota."</string>
+    <string name="data_connect_google" formatted="false">"Ühenda Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Automaatne sünkroonimine"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Andmete muutumisel ja taustal, kui Android seda lubab"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Ajakava ei saanud muuta. Andmed on sellesse seadmesse salvestatud."</string>
+    <string name="data_sync_start_failed" formatted="false">"Sünkroonimist ei saanud käivitada. Andmed on sellesse seadmesse salvestatud."</string>
+    <string name="data_sync_now" formatted="false">"Sünkrooni kohe"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Logi uuesti Google\'isse sisse"</string>
+    <string name="data_disconnect_account" formatted="false">"Katkesta konto ühendus"</string>
+    <string name="data_sync_never" formatted="false">"Veel sünkroonimata"</string>
+    <string name="data_offline_saved_title" formatted="false">"Andmed on salvestatud võrguühenduseta"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Kui automaatne sünkroonimine on sisse lülitatud, saadetakse muudatused ühenduse tekkimisel. Kui sama välja muudetakse kahes seadmes, kasutatakse hilisema muudatuse ajatempliga versiooni. Sõltumatud kirjed ja väljad liidetakse."</string>
+    <string name="data_cloud_password_description" formatted="false">"Parooli sisestad ainult brauseris Google\'i lehel. Pääsutähiseid kaitseb Android Keystore ja neid varukoopiatesse ei lisata."</string>
+    <string name="data_google_connection_title" formatted="false">"Google\'i ühendus"</string>
+    <string name="data_got_it" formatted="false">"Selge"</string>
+    <string name="data_connect_drive_title" formatted="false">"Kas ühendada Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Praegune päevik liidetakse valitud Google\'i konto andmetega. Kasuta oma seadmetes sama isiklikku kontot. Sisselogimine avaneb vaikebrauseris."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Sisselogimist ei saanud avada. Paigalda või luba vaikebrauser ja proovi uuesti."</string>
+    <string name="data_continue" formatted="false">"Jätka"</string>
+    <string name="data_cancel" formatted="false">"Tühista"</string>
+    <string name="data_disconnect_title" formatted="false">"Kas katkestada konto ühendus?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sünkroonimine selles seadmes peatub. Kohalik päevik ja Google Drive\'i koopiad säilivad. Rakenduse juurdepääsuõigust saad hallata Google\'i konto seadetes."</string>
+    <string name="data_disconnect_failed" formatted="false">"Konto ühendust ei saanud katkestada. Proovi uuesti."</string>
+    <string name="data_disconnect" formatted="false">"Katkesta ühendus"</string>
+    <string name="data_google_not_connected" formatted="false">"Google pole ühendatud"</string>
+    <string name="data_sync_ready" formatted="false">"Sünkroonimiseks valmis"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Muudatused ootavad sünkroonimist…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Internetiühendus puudub. Muudatused on sellesse seadmesse salvestatud."</string>
+    <string name="data_google_not_configured" formatted="false">"Selles versioonis pole Google\'iga sisselogimine veel seadistatud"</string>
+    <string name="data_sync_wait" formatted="false">"Oota sünkroonimise lõppu"</string>
+    <string name="data_google_connecting" formatted="false">"Google\'i ühendamine…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Ühendamine tühistatud"</string>
+    <string name="data_connection_rejected" formatted="false">"Ühendamine tühistati või Google keeldus ühendusest"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google on ühendatud. Kirjete liitmine…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google\'it ei saanud ühendada. Kontrolli internetiühendust ja juurdepääsuseadeid."</string>
+    <string name="data_account_disconnected" formatted="false">"Konto ühendus katkestatud. Andmed jäävad sellesse seadmesse."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Internetiühendus puudub. Sünkroonimine ootab ühendust."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sünkroonimine on ajastatud…"</string>
+    <string name="data_sync_running" formatted="false">"Sünkroonimine…"</string>
+    <string name="data_sync_complete" formatted="false">"Sünkroonimine lõpetatud"</string>
+    <string name="data_no_internet" formatted="false">"Internetiühendus puudub"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Sünkroonimine ebaõnnestus. Andmed on sellesse seadmesse salvestatud"</string>
+    <string name="data_page_open_failed" formatted="false">"Lehte ei saanud avada. Aadressi saad kopeerida allolevast tekstist."</string>
+    <string name="data_privacy_title" formatted="false">"Privaatsus"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Sinu kirjed ja andmete haldamine"</string>
+    <string name="data_app_purpose" formatted="false">"Rakendusest"</string>
+    <string name="data_medical_disclaimer" formatted="false">"See rakendus ei ole meditsiiniseade. See ei diagnoosi, ravi, tervenda ega enneta haigusi. Meditsiinilise nõu, diagnoosi ja ravi saamiseks pöördu pädeva tervishoiutöötaja poole."</string>
+    <string name="data_manage_delete_data" formatted="false">"Andmete haldamine ja kustutamine"</string>
+    <string name="data_delete_data_intro" formatted="false">"Enne kõigi andmete kustutamist lülita sünkroonimine kõigis oma seadmetes välja. Rakenduse eemaldamine telefonist ei kustuta Google Drive\'i koopiaid ega eksporditud faile."</string>
+    <string name="data_manage_drive_data" formatted="false">"Halda Google Drive\'i andmeid"</string>
+    <string name="data_google_account_access" formatted="false">"Google\'i konto juurdepääs"</string>
+    <string name="data_android_app_storage" formatted="false">"Rakenduse salvestusruum Androidis"</string>
+    <string name="data_contact_developer" formatted="false">"Võta arendajaga ühendust"</string>
+    <string name="data_opening_page" formatted="false">"Lehe avamine"</string>
+    <string name="data_advertisement" formatted="false">"REKLAAM"</string>
+    <string name="data_ad_information" formatted="false">"Teave selle reklaami kohta"</string>
+    <string name="data_cloud_http_error">"Pilve HTTP viga %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Pilve vastus on liiga suur"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Vigane krüpteeritud sisselogimisseanss"</string>
+    <string name="data_session_save_failed" formatted="false">"Sisselogimisseanssi ei saanud salvestada"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google\'i juurdepääsu ei saanud uuendada"</string>
+    <string name="data_diary_read_failed">"Päevikut ei saanud lugeda. Algne fail on säilitatud. Taasta andmed varukoopiast. %1$s"</string>
+    <string name="data_last_sync">"Viimane sünkroonimine: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Puuviljad ja marjad"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Kuivatatud puuviljad"</string>
+    <string name="data_category_vegetables" formatted="false">"Köögiviljad ja maitsetaimed"</string>
+    <string name="data_category_mushrooms" formatted="false">"Seened"</string>
+    <string name="data_category_grains" formatted="false">"Teraviljad ja pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Kaunviljad"</string>
+    <string name="data_category_meat" formatted="false">"Liha ja linnuliha"</string>
+    <string name="data_category_fish" formatted="false">"Kala ja mereannid"</string>
+    <string name="data_category_dairy" formatted="false">"Piimatooted"</string>
+    <string name="data_category_eggs" formatted="false">"Munad"</string>
+    <string name="data_category_oils" formatted="false">"Õlid ja või"</string>
+    <string name="data_category_nuts" formatted="false">"Pähklid ja seemned"</string>
+    <string name="data_category_bread" formatted="false">"Leib ja sai"</string>
+    <string name="data_category_other" formatted="false">"Muud toiduained"</string>
+    <string name="data_category_dishes" formatted="false">"Valmistoidud"</string>
+    <string name="data_category_custom" formatted="false">"Minu toiduained"</string>
+    <string name="data_category_other_short" formatted="false">"Muu"</string>
+    <string name="data_food_seed_9003" formatted="false">"Õun koorega"</string>
+    <string name="data_catalog_note_1">"Orienteeruvad väärtused 100 g söödava osa kohta. Toores toiduaine. USDA süsivesikute väärtused sisaldavad kiudaineid. Väärtusi saad muuta toote etiketi järgi. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Kooritud banaan"</string>
+    <string name="data_food_seed_9021" formatted="false">"Aprikoos kivita"</string>
+    <string name="data_food_seed_9037" formatted="false">"Avokaado viljaliha"</string>
+    <string name="data_food_seed_9050" formatted="false">"Mustikad"</string>
+    <string name="data_food_seed_9070" formatted="false">"Maguskirsid kivideta"</string>
+    <string name="data_food_seed_9063" formatted="false">"Hapukirsid kivideta"</string>
+    <string name="data_food_seed_9078" formatted="false">"Jõhvikad"</string>
+    <string name="data_food_seed_9083" formatted="false">"Mustad sõstrad"</string>
+    <string name="data_food_seed_9084" formatted="false">"Punased ja valged sõstrad"</string>
+    <string name="data_food_seed_9132" formatted="false">"Viinamarjad"</string>
+    <string name="data_food_seed_9148" formatted="false">"Kiivi viljaliha"</string>
+    <string name="data_food_seed_9150" formatted="false">"Kooritud sidrun"</string>
+    <string name="data_food_seed_9181" formatted="false">"Kantaluupmeloni viljaliha"</string>
+    <string name="data_food_seed_9200" formatted="false">"Apelsini viljaliha"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mandariini viljaliha"</string>
+    <string name="data_food_seed_9236" formatted="false">"Virsik kivita"</string>
+    <string name="data_food_seed_9252" formatted="false">"Pirn"</string>
+    <string name="data_food_seed_9266" formatted="false">"Ananassi viljaliha"</string>
+    <string name="data_food_seed_9279" formatted="false">"Ploom kivita"</string>
+    <string name="data_food_seed_9286" formatted="false">"Granaatõunaseemned"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pomeli viljaliha"</string>
+    <string name="data_food_seed_9302" formatted="false">"Vaarikad"</string>
+    <string name="data_food_seed_9316" formatted="false">"Maasikad"</string>
+    <string name="data_food_seed_9326" formatted="false">"Arbuusi viljaliha"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektariin kivita"</string>
+    <string name="data_food_seed_9176" formatted="false">"Mango viljaliha"</string>
+    <string name="data_food_seed_9107" formatted="false">"Karusmarjad"</string>
+    <string name="data_food_seed_9226" formatted="false">"Papaia viljaliha"</string>
+    <string name="data_food_seed_9089" formatted="false">"Värsked viigimarjad"</string>
+    <string name="data_food_seed_9111" formatted="false">"Greibi viljaliha"</string>
+    <string name="data_food_seed_9032" formatted="false">"Kuivatatud aprikoosid kivideta"</string>
+    <string name="data_catalog_note_2">"Orienteeruvad väärtused 100 g söödava osa kohta. USDA süsivesikute väärtused sisaldavad kiudaineid. Väärtusi saad muuta toote etiketi järgi. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Kuivatatud ploomid kivideta"</string>
+    <string name="data_food_seed_9087" formatted="false">"Datlid kivideta"</string>
+    <string name="data_food_seed_9298" formatted="false">"Tumedad seemneteta rosinad"</string>
+    <string name="data_food_seed_11529" formatted="false">"Värske tomat"</string>
+    <string name="data_food_seed_11205" formatted="false">"Kurk koorega"</string>
+    <string name="data_food_seed_11090" formatted="false">"Toores brokoli"</string>
+    <string name="data_food_seed_11109" formatted="false">"Toores valge peakapsas"</string>
+    <string name="data_food_seed_11124" formatted="false">"Toores porgand"</string>
+    <string name="data_food_seed_11135" formatted="false">"Toores lillkapsas"</string>
+    <string name="data_food_seed_11143" formatted="false">"Varsseller"</string>
+    <string name="data_food_seed_11282" formatted="false">"Toores sibul"</string>
+    <string name="data_food_seed_11291" formatted="false">"Roheline sibul"</string>
+    <string name="data_food_seed_11304" formatted="false">"Toored rohelised herned"</string>
+    <string name="data_food_seed_11333" formatted="false">"Roheline paprika"</string>
+    <string name="data_food_seed_11821" formatted="false">"Punane paprika"</string>
+    <string name="data_food_seed_11352" formatted="false">"Toores kartul koorega"</string>
+    <string name="data_food_seed_11367" formatted="false">"Keedetud kooritud kartul"</string>
+    <string name="data_catalog_note_3">"Orienteeruvad väärtused 100 g söödava osa kohta. Lisatud soolata. USDA süsivesikute väärtused sisaldavad kiudaineid. Väärtusi saad muuta toote etiketi järgi. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Toores suvikõrvits"</string>
+    <string name="data_food_seed_11209" formatted="false">"Toores baklažaan"</string>
+    <string name="data_food_seed_11422" formatted="false">"Toores kõrvits"</string>
+    <string name="data_food_seed_11429" formatted="false">"Redis"</string>
+    <string name="data_food_seed_11564" formatted="false">"Toores naeris"</string>
+    <string name="data_food_seed_11080" formatted="false">"Toores punapeet"</string>
+    <string name="data_food_seed_11081" formatted="false">"Keedetud punapeet"</string>
+    <string name="data_food_seed_11215" formatted="false">"Küüslauk"</string>
+    <string name="data_food_seed_11216" formatted="false">"Ingverijuur"</string>
+    <string name="data_food_seed_11457" formatted="false">"Toores spinat"</string>
+    <string name="data_food_seed_11253" formatted="false">"Lehtsalat"</string>
+    <string name="data_food_seed_11297" formatted="false">"Värske petersell"</string>
+    <string name="data_food_seed_2045" formatted="false">"Värske till"</string>
+    <string name="data_food_seed_11052" formatted="false">"Toored rohelised oakaunad"</string>
+    <string name="data_food_seed_11167" formatted="false">"Suhkrumaisi toored terad"</string>
+    <string name="data_food_seed_11260" formatted="false">"Toored šampinjonid"</string>
+    <string name="data_food_seed_11261" formatted="false">"Keedetud šampinjonid soolata"</string>
+    <string name="data_food_seed_11987" formatted="false">"Toored austerservikud"</string>
+    <string name="data_food_seed_20009" formatted="false">"Kuiv tatratang"</string>
+    <string name="data_catalog_note_4">"Orienteeruvad väärtused 100 g söödava osa kohta. Röstitud tatratang. USDA süsivesikute väärtused sisaldavad kiudaineid. Väärtusi saad muuta toote etiketi järgi. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Vees keedetud tatar"</string>
+    <string name="data_food_seed_20444" formatted="false">"Kuiv valge riis"</string>
+    <string name="data_food_seed_20445" formatted="false">"Keedetud valge riis soolata"</string>
+    <string name="data_food_seed_20036" formatted="false">"Kuiv pruun riis"</string>
+    <string name="data_food_seed_20037" formatted="false">"Keedetud pruun riis"</string>
+    <string name="data_food_seed_8120" formatted="false">"Kuivad kaerahelbed"</string>
+    <string name="data_food_seed_8121" formatted="false">"Vees keedetud kaerahelbepuder soolata"</string>
+    <string name="data_food_seed_20005" formatted="false">"Kuivad odrakruubid"</string>
+    <string name="data_food_seed_20006" formatted="false">"Keedetud odrakruubid"</string>
+    <string name="data_food_seed_20031" formatted="false">"Kuiv hirss"</string>
+    <string name="data_food_seed_20032" formatted="false">"Keedetud hirss"</string>
+    <string name="data_food_seed_20420" formatted="false">"Kuiv pasta"</string>
+    <string name="data_food_seed_20421" formatted="false">"Keedetud pasta soolata"</string>
+    <string name="data_food_seed_16070" formatted="false">"Keedetud läätsed soolata"</string>
+    <string name="data_food_seed_16057" formatted="false">"Keedetud kikerherned soolata"</string>
+    <string name="data_food_seed_16033" formatted="false">"Keedetud punased aedoad soolata"</string>
+    <string name="data_food_seed_5062" formatted="false">"Toores nahata kanarind"</string>
+    <string name="data_food_seed_5064" formatted="false">"Küpsetatud nahata kanarind"</string>
+    <string name="data_food_seed_5219" formatted="false">"Toores nahata kalkunirind"</string>
+    <string name="data_food_seed_5220" formatted="false">"Küpsetatud nahata kalkunirind"</string>
+    <string name="data_food_seed_23562" formatted="false">"Veisehakkliha, 10% rasva, toores"</string>
+    <string name="data_food_seed_23566" formatted="false">"Veisehakkliha, 10% rasva, küpsetatud"</string>
+    <string name="data_food_seed_10060" formatted="false">"Toores sea sisefilee, nähtav rasv eemaldatud"</string>
+    <string name="data_food_seed_10061" formatted="false">"Küpsetatud sea sisefilee"</string>
+    <string name="data_food_seed_15236" formatted="false">"Toores Atlandi lõhe"</string>
+    <string name="data_catalog_note_5">"Orienteeruvad väärtused 100 g söödava osa kohta. Toores toiduaine. Kasvandusest. USDA süsivesikute väärtused sisaldavad kiudaineid. Väärtusi saad muuta toote etiketi järgi. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Küpsetatud Atlandi lõhe"</string>
+    <string name="data_catalog_note_6">"Orienteeruvad väärtused 100 g söödava osa kohta. Kasvandusest. USDA süsivesikute väärtused sisaldavad kiudaineid. Väärtusi saad muuta toote etiketi järgi. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Toores Atlandi tursk"</string>
+    <string name="data_food_seed_15266" formatted="false">"Toores Alaska pollak"</string>
+    <string name="data_food_seed_15121" formatted="false">"Konserveeritud tuunikala vees, nõrutatud"</string>
+    <string name="data_food_seed_15271" formatted="false">"Keedetud kooritud krevetid"</string>
+    <string name="data_food_seed_1211" formatted="false">"Piim, 3,25% rasva"</string>
+    <string name="data_food_seed_1174" formatted="false">"Piim, 2% rasva"</string>
+    <string name="data_food_seed_1082" formatted="false">"Piim, 1% rasva"</string>
+    <string name="data_food_seed_1116" formatted="false">"Maitsestamata täispiimajogurt"</string>
+    <string name="data_food_seed_1256" formatted="false">"Rasvatu Kreeka jogurt"</string>
+    <string name="data_food_seed_1015" formatted="false">"Kodujuust, 2% rasva"</string>
+    <string name="data_catalog_note_7">"Orienteeruvad väärtused 100 g söödava osa kohta. Kodujuust; muude kohupiimatoodete väärtused erinevad. USDA süsivesikute väärtused sisaldavad kiudaineid. Väärtusi saad muuta toote etiketi järgi. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Hapukoor, umbes 19% rasva"</string>
+    <string name="data_food_seed_1009" formatted="false">"Cheddari juust"</string>
+    <string name="data_food_seed_1026" formatted="false">"Täispiimamozzarella"</string>
+    <string name="data_food_seed_1019" formatted="false">"Fetajuust"</string>
+    <string name="data_food_seed_1123" formatted="false">"Toores kanamuna kooreta"</string>
+    <string name="data_food_seed_1129" formatted="false">"Keedetud kanamuna kooreta"</string>
+    <string name="data_food_seed_1124" formatted="false">"Toores kanamunavalge"</string>
+    <string name="data_food_seed_1001" formatted="false">"Soolatud või"</string>
+    <string name="data_food_seed_4053" formatted="false">"Oliiviõli"</string>
+    <string name="data_food_seed_4506" formatted="false">"Päevalilleõli"</string>
+    <string name="data_food_seed_12061" formatted="false">"Mandlid"</string>
+    <string name="data_food_seed_12155" formatted="false">"Kreeka pähkli tuumad"</string>
+    <string name="data_food_seed_12120" formatted="false">"Sarapuupähkli tuumad"</string>
+    <string name="data_food_seed_12151" formatted="false">"Toored pistaatsiapähkli tuumad"</string>
+    <string name="data_food_seed_12014" formatted="false">"Kuivatatud kooritud kõrvitsaseemned"</string>
+    <string name="data_food_seed_16087" formatted="false">"Toored kooritud maapähklid"</string>
+    <string name="data_food_seed_18069" formatted="false">"Valge nisusai"</string>
+    <string name="data_food_seed_18075" formatted="false">"Täisteranisuleib"</string>
+    <string name="data_food_seed_18060" formatted="false">"Rukkileib"</string>
+    <string name="data_food_seed_19296" formatted="false">"Mesi"</string>
+    <string name="data_food_seed_19335" formatted="false">"Suhkur"</string>
+    <string name="data_food_seed_19165" formatted="false">"Magustamata kakaopulber"</string>
+    <string name="data_food_seed_19904" formatted="false">"Tume šokolaad, 70–85% kakaod"</string>
+    <string name="data_meal_breakfast" formatted="false">"Hommikusöök"</string>
+    <string name="data_meal_lunch" formatted="false">"Lõunasöök"</string>
+    <string name="data_meal_dinner" formatted="false">"Õhtusöök"</string>
+    <string name="data_meal_snack" formatted="false">"Vahepala"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Rakenduse Diet Diary privaatsuspoliitika\nMuudetud: 9. oktoobril 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Rakendus: Diet Diary; Google Play kirje venekeelne pealkiri: «Дневник диеты: подсчёт калорий»; pakett: ru.dietdiary.offline.\nProjekti arendaja: Efreitor2001. Rakenduse ja andmetöötluse küsimustes võta ühendust aadressil https://github.com/Efreitor2001/kkalcal/issues . GitHubi probleemiteated on avalikud: ära avalda seal terviseandmeid, varukoopiaid, paroole ega pääsutähiseid."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Päevik sinu seadmes\nPäeviku pidamiseks ei ole registreerimine vajalik. Rakendus salvestab oma privaatsesse salvestusruumi sinu seadmes toiduained ja nende toiteväärtused, portsjonid ja toidukordade kuupäevad, kehakaalu, vööümbermõõdu, keha rasvaprotsendi, sammud, une, treeningute kirjeldused, märkused, eesmärgid, saavutused ja rakenduse seaded. Vabatahtlikud väljad võib jätta tühjaks. Sammud, uni ja mõõtmised sisestatakse käsitsi; rakendus ei loe Health Connecti, liikumisandurite ega meditsiiniseadmete andmeid."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Neid andmeid kasutatakse kalorite ja makrotoitainete arvutamiseks ning ajaloo, graafikute ja saavutuste kuvamiseks. Arendaja ei halda serverit, mis saaks päeviku sisu. Kui sa ei ühenda Google Drive\'i ega jaga ise varukoopiat, jäävad kirjed sinu seadmesse."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Vabatahtlik Google Drive\'i ühendus\nSinu soovil avab rakendus Google\'i sisselogimise vaikebrauseris ja küsib juurdepääsu selle rakenduse peidetud andmehoidlale sinu Google Drive\'is. See luba ei anna juurdepääsu sinu tavalistele Drive\'i dokumentidele ega fotodele."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Pärast ühendamist saadetakse Google\'ile toiduained, toidukorrad, päeviku mõõtmised, märkused, eesmärgid, saavutused, ülekantavad seaded ja muudatuste metaandmed, sealhulgas juhuslikud paigaldusidentifikaatorid ja ajatemplid. See võimaldab luua varukoopiaid ning liita kirjeid sinu seadmete vahel. Kui automaatne sünkroonimine on sisse lülitatud, saadetakse muudatused võrguühenduse olemasolul ka taustal. Automaatse sünkroonimise saab eraldi välja lülitada."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Rakendus saab valitud Google\'i konto e-posti aadressi ja identifikaatori, et näidata ühendust ning siduda see õige andmehoidlaga. Rakendus ei saa sinu Google\'i parooli. Autoriseerimisseanss salvestatakse seadmesse krüpteeritult Android Keystore\'i võtme abil. Pääsutähiseid, e-posti aadresse ja Google\'i identifikaatoreid ei lisata päeviku eksportidesse ega sünkroonitud JSON-koopiatesse."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google\'i andmeid kasutatakse ainult autoriseerimiseks ja sünkroonimiseks, mitte kunagi reklaamiks. Kehtib Google\'i privaatsuspoliitika: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Varukoopiafailid\n„Salvesta faili“ loob JSON-faili sinu valitud asukohta. Taastamisel loetakse ainult sinu valitud faili. Kui valid pilvefailide pakkuja või jagad koopiat teise inimesega, valid saaja ise. Rakendus ei krüpteeri eksporditud JSON-faile: need sisaldavad isiklikke kirjeid ja muudatuste metaandmeid."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Reklaam\nRakendus kasutab Yandex Mobile Ads SDK-d. Reklaamide laadimiseks ja kuvamiseks loob seade ühenduse reklaamiteenustega. Yandex võib töödelda IP-aadressi ning muud tehnilist teavet võrgupäringu, seadme ja tarkvara kohta, saadaolevaid reklaami- või tehnilisi identifikaatoreid ning andmeid reklaamide kuvamiste ja nendega suhtlemise kohta."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Rakendus teatab SDK-le, et nõusolekut pole antud, keelab asukoha kogumise ning App Ad Analytics aruandluse. See ei küsi täpse ega ligikaudse asukoha õigusi. Need seaded ei tähenda, et reklaamiteenus ei kasutaks võrguühendust ega töötleks tehnilisi andmeid."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Rakendus ei kasuta reklaamide sihtimiseks toidukirjeid, kehakaalu, mõõtmisi, märkusi, eesmärke, e-posti aadresse ega Google\'i identifikaatoreid ega lisa neid reklaamipäringute parameetritesse. Kirjete salvestamiseks ei pea reklaame vaatama."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandexi andmete töötlemise, säilitamise ja kustutamise reeglid: https://yandex.ru/legal/confidential/ . Reklaamiidentifikaatorit saad hallata Androidi seadetes, kui sinu süsteemiversioon seda võimaldab. Reklaamiteenuse tehniliste andmete säilitamisajad määrab selle teenuse poliitika; päeviku arendaja ei määra neile andmetele eraldi säilitamisaega."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Andmete kaitse\nSuhtlus Google\'iga kasutab HTTPS-i; Yandexi sõnul edastatakse SDK andmed HTTPS/TLS-i kaudu. Kohalikku päevikut kaitseb Androidi rakenduste eraldatus. Rakendus ei krüpteeri eraldi päeviku sisu ega JSON-koopiaid ega paku seadmete vahel läbivat krüpteerimist."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Rakenduse andmete süsteemne varundamine on keelatud. Rakenduse enda koodi kirjutatud diagnostikalogid sisaldavad tulemusekoode ilma päeviku sisu, e-posti aadresside, pääsutähiste ja võrguvastuste sisuta; rakendus ei saada neid logisid eraldi arendajale."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Säilitamine ja kustutamine\nKohalikud kirjed säilivad, kuni neid muudad või kustutad või rakenduse andmed tühjendad. Kirje kustutamine eemaldab selle liidesest ja saadab sünkroonimisel kustutamismärke. Liitmise metaandmed säilitatakse, et vanad andmed uuesti ei ilmuks; need võivad sisaldada kustutatud päevikukirje varasemaid väärtusi. Varasemad väärtused võivad säilida ka vanades pilvekoopiates ja varem loodud failides. Ühe kirje kustutamine ei eemalda seega täielikult kõiki selle koopiaid."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"„Katkesta konto ühendus“ peatab sünkroonimise selles seadmes ja kustutab kohaliku Google\'i seansi. Päevik ja Google Drive\'i koopiad säilivad. Rakenduse lahtiühendamine ei kustuta sinu Google\'i kontot."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Selle rakenduse andmete täielikuks kustutamiseks:\n• Lülita sünkroonimine kõigis oma seadmetes välja, et allesjäänud koopiaid uuesti üles ei laaditaks.\n• Ava brauseris https://drive.google.com/drive/settings varem ühendatud Google\'i kontoga. Vali „Halda rakendusi“, leia „Diet Diary“ (või «Дневник диеты») ning vali „Valikud“ → „Kustuta rakenduse peidetud andmed“. Kui mobiililehel seda jaotist pole, kasuta saidi töölauaversiooni või arvutit.\n• Tühista rakenduse juurdepääs aadressil https://myaccount.google.com/connections . Üksnes juurdepääsu tühistamine ei kustuta salvestatud koopiaid.\n• Tühjenda rakenduse salvestusruum iga seadme Androidi seadetes või eemalda rakendus.\n• Kustuta eraldi salvestatud JSON-varukoopiad valitud kaustadest ja pilveasukohtadest."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Ilma sinu sisselogimisandmeteta ei saa arendaja kaugelt kustutada kohalikku päevikut ega faile sinu isiklikus Google Drive\'is. Ära jaga arendajaga oma parooli ega pääsutähiseid. Kustutamisel abi saamiseks võta projektiga ühendust poliitika alguses oleva lingi kaudu. Päevikuandmete kustutamiseks ei ole vaja Google\'i kontot kustutada."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Muudatused ja kontakt\nKui rakenduse funktsioonid või andmetöötlustavad muutuvad, uuendatakse seda poliitikat ja lisatakse muutmiskuupäev. Andmetele juurdepääsu, parandamise, kustutamise või rakenduse toimimise küsimustes kasuta projekti kontaktikanalit. Sinu päringuid töödeldakse vastamiseks ja säilitatakse GitHubis; GitHubi poliitika on aadressil https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Minu road"</string>
+    <string name="secondary_metric_weight" formatted="false">"Kehakaal"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Keha rasvaprotsent"</string>
+    <string name="secondary_metric_waist" formatted="false">"Vööümbermõõt"</string>
+    <string name="secondary_metric_steps" formatted="false">"Sammud"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Uni"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalorid"</string>
+    <string name="secondary_metric_protein" formatted="false">"Valgud"</string>
+    <string name="secondary_metric_fat" formatted="false">"Rasvad"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Süsivesikud"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"sammu"</string>
+    <string name="secondary_unit_hours" formatted="false">"t"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Vigane kuupäevavahemik"</string>
+    <string name="secondary_stats_title" formatted="false">"Trendid"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Sinu kirjed selgetel graafikutel"</string>
+    <string name="secondary_metric" formatted="false">"Näitaja"</string>
+    <string name="secondary_week" formatted="false">"Nädal"</string>
+    <string name="secondary_month" formatted="false">"Kuu"</string>
+    <string name="secondary_year" formatted="false">"Aasta"</string>
+    <string name="secondary_custom_period" formatted="false">"Oma ajavahemik"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Alguskuupäev ei tohi olla lõppkuupäevast hilisem"</string>
+    <string name="secondary_no_records" formatted="false">"Kirjeid veel pole"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Lisa päevikusse toit või vali teine ajavahemik."</string>
+    <string name="secondary_chart_tap" formatted="false">"Kirje valimiseks puuduta graafikut"</string>
+    <string name="secondary_chart_connected" formatted="false">"Joon ühendab salvestatud mõõtmisi. Nende vahel mõõtmised puuduvad."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Kaalu hinnangud sobivad trendide jälgimiseks."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Käsitsi sisestatud päeva kogusumma asendab toitude summa. Muidu liidetakse salvestatud toidud. Kirjeteta päevad jäetakse vahele."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Summad põhinevad salvestatud toitudel. Kirjeteta päeva ei arvestata nullina."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Kirjeteta päevad jäetakse vahele ega lähe keskmise arvutusse."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Täna ja eile"</string>
+    <string name="secondary_no_today" formatted="false">"Tänane kirje puudub"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Eilne kirje puudub"</string>
+    <string name="secondary_partial_today" formatted="false">"Võrdlus kasutab praeguseid kirjeid. Tänased andmed võivad olla veel puudulikud."</string>
+    <string name="secondary_period_summary" formatted="false">"Ajavahemiku kokkuvõte"</string>
+    <string name="secondary_recorded_average" formatted="false">"Salvestatud päevade keskmine"</string>
+    <string name="secondary_recorded_days" formatted="false">"Andmetega päevad"</string>
+    <string name="secondary_minimum" formatted="false">"Miinimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maksimum"</string>
+    <string name="secondary_first_to_last" formatted="false">"Esimesest viimase kirjeni"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Muutuse arvutamiseks on vaja vähemalt kahe päeva kirjeid."</string>
+    <string name="secondary_history" formatted="false">"Ajalugu"</string>
+    <string name="secondary_history_recent" formatted="false">"Viimased 14 andmetega päeva. Varasemate kirjete jaoks vali oma ajavahemik."</string>
+    <string name="secondary_history_all" formatted="false">"Kõik valitud ajavahemiku salvestatud päevad"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Alates %1$s"</string>
+    <string name="secondary_date_until">"Kuni %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s sel ajavahemikul"</string>
+    <string name="secondary_weight_goal">"Eesmärk: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Lisa päevikusse mõõtmine või vali teine ajavahemik."</string>
+    <string name="secondary_latest_record">"Viimane kirje · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Täna: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Eile: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Muutus: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d / %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Salvestatud päevi: %2$d, alates %3$s kuni %4$s. Miinimum %5$s, maksimum %6$s %7$s. Väärtused on loetletud ajaloos."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Algus tehtud"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Salvesta oma esimene kehakaalu mõõtmine."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Sinu esimene kehakaalu mõõtmine on salvestatud."</string>
+    <string name="secondary_award_first_food" formatted="false">"Esimene kirje"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Salvesta oma esimene toiduportsjon."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Sinu esimene toiduportsjon on salvestatud."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Nädal andmeid"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Salvesta kehakaal 7 eri päeval. Päevad ei pea olema järjestikused."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Sul on kehakaalukirjed 7 eri päevast."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Järjepidevus"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Salvesta kehakaal 30 eri päeval."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Sul on kehakaalukirjed 30 päevast."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Arhivaar"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Salvesta päevikusse 100 toiduportsjonit."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Oled salvestanud 100 toiduportsjonit."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Uus harjumus"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Salvesta toite 7 järjestikusel kalendripäeval."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Oled salvestanud toite 7 päeva järjest."</string>
+    <string name="secondary_award_steps" formatted="false">"Sammumeister"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Salvesta vähemalt 10 000 sammu ühe päeva kohta."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Oled salvestanud päeva, mil tegid 10 000 sammu."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Usin kirjapanija"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Salvesta 100 kehakaalu mõõtmist. Iga kuupäeva kohta arvestatakse üks mõõtmine."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Oled salvestanud 100 kehakaalu mõõtmist."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Päevikuveteran"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Salvesta toite või mõõtmisi 90 eri päeval. Päevad ei pea olema järjestikused."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Sul on päevikukirjed 90 eri päevast."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"mõõtmist"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"portsjonit"</string>
+    <string name="secondary_award_unit_days" formatted="false">"päeva"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"järjestikust päeva"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"sammu ühes päevas"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"salvestatud päeva"</string>
+    <string name="secondary_back" formatted="false">"‹  Tagasi"</string>
+    <string name="secondary_achievements" formatted="false">"Saavutused"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Väikestest sammudest saab harjumus"</string>
+    <string name="secondary_your_progress" formatted="false">"SINU EDUSAMMUD"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Saadud saavutused jäävad alles ka kirjete muutmisel."</string>
+    <string name="secondary_awards_regular" formatted="false">"Järjepidevuse ja päeviku pidamise eest"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Arvesse lähevad salvestatud kirjed kuni tänaseni, kaasa arvatud tänane päev."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Peidetud saavutus"</string>
+    <string name="secondary_hidden_description" formatted="false">"Selle saavutuse avamiseks jätka päeviku kasutamist."</string>
+    <string name="secondary_earned" formatted="false">"Saavutatud"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Peidetud · lukus"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Pooleli · lukus"</string>
+    <string name="secondary_locked" formatted="false">"Lukus"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Nõue ja edenemine kuvatakse pärast selle saavutuse saamist."</string>
+    <string name="secondary_best_streak" formatted="false">"Pikim seeria"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Peidetud auhind"</string>
+    <string name="secondary_unlocked_of">"/ %1$d avatud"</string>
+    <string name="secondary_unlocked_date">"Avatud %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Tagasi"</string>
+    <string name="secondary_my_recipe" formatted="false">"Minu retsept"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Kaalu koostisosad enne valmistamist. Portsjonite arvutamiseks kasuta valmisroa kaalu. Lisa ka õlid ja kastmed."</string>
+    <string name="secondary_recipe_name" formatted="false">"Retsepti nimi"</string>
+    <string name="secondary_recipe_example" formatted="false">"Näiteks köögiviljahautis"</string>
+    <string name="secondary_ingredients" formatted="false">"Koostisosad"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Alusta koostisosadest"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Lisa iga koostisosa ja sisesta selle kaal grammides."</string>
+    <string name="secondary_edit_weight" formatted="false">"Muuda kaalu"</string>
+    <string name="secondary_delete" formatted="false">"Kustuta"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Lisa koostisosa"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Kogu retsept"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Valmistamisel muutub kaal vee lisandumise või aurumise tõttu. Kaalu valmisroog ilma anumata."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Valmisroa kaal, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Sisesta kaal pärast valmistamist"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Sisesta kaal, mis on suurem kui 0 ja kuni 100 000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Kaalu ei sisestata automaatselt"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"100 g valmisroa kohta"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Kontrolli valmisroa kaalu ja koostisosi: 100 g kohta võib olla kuni 1000 kcal ja kuni 100 g iga makrotoitainet."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Retsepti ei saanud salvestada"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Salvesta minu retseptidesse"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Pärast salvestamist saad roa päevikusse lisada portsjoni kaalu järgi."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Koostisosa kaal enne valmistamist"</string>
+    <string name="secondary_grams" formatted="false">"Grammid"</string>
+    <string name="secondary_weight_limits" formatted="false">"Suurem kui 0 ja kuni 100 000 g"</string>
+    <string name="secondary_add" formatted="false">"Lisa"</string>
+    <string name="secondary_save" formatted="false">"Salvesta"</string>
+    <string name="secondary_cancel" formatted="false">"Tühista"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Vali koostisosa"</string>
+    <string name="secondary_search_food" formatted="false">"Otsi toiduaineid"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Tulemusi pole. Oma toiduaine saad lisada vahekaardil Toiduained."</string>
+    <string name="secondary_close" formatted="false">"Sule"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Valgud %1$s · Rasvad %2$s · Süsivesikud %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Koostisosade kaal: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Valmisroa kaal: %1$s g. Koostisosad: %2$s"</string>
+</resources>

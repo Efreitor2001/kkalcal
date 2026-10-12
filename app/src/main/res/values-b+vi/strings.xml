@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Nhật ký ăn uống"</string>
+    <string name="core_app_name" formatted="false">"Nhật ký ăn uống"</string>
+    <string name="core_tagline" formatted="false">"Calo, cân nặng và tiến trình"</string>
+    <string name="core_open_diary" formatted="false">"Mở nhật ký"</string>
+    <string name="core_save_failed" formatted="false">"Không thể lưu dữ liệu"</string>
+    <string name="core_day" formatted="false">"Hôm nay"</string>
+    <string name="core_products" formatted="false">"Thực phẩm"</string>
+    <string name="core_diary" formatted="false">"Nhật ký"</string>
+    <string name="core_charts" formatted="false">"Biểu đồ"</string>
+    <string name="core_more" formatted="false">"Thêm"</string>
+    <string name="core_recipe_saved" formatted="false">"Đã lưu món ăn vào danh sách thực phẩm"</string>
+    <string name="core_back_to_day" formatted="false">"Quay lại ngày của bạn"</string>
+    <string name="core_action_failed" formatted="false">"Không thể hoàn tất thao tác này"</string>
+    <string name="core_understood" formatted="false">"OK"</string>
+    <string name="core_restore_available" formatted="false">"Bạn có thể khôi phục bản sao lưu trong mục Thêm."</string>
+    <string name="core_eaten_today" formatted="false">"ĐÃ ĂN HÔM NAY"</string>
+    <string name="core_set_goal_hint" formatted="false">"Bạn có thể đặt mục tiêu trong mục Thêm"</string>
+    <string name="core_add_food" formatted="false">"+ Thêm thực phẩm"</string>
+    <string name="core_first_meal" formatted="false">"Bắt đầu với bữa ăn đầu tiên"</string>
+    <string name="core_first_meal_help" formatted="false">"Chọn thực phẩm và nhập khối lượng theo gam để tính calo và các chất dinh dưỡng đa lượng."</string>
+    <string name="core_my_day" formatted="false">"Ngày của tôi"</string>
+    <string name="core_my_day_help" formatted="false">"Cân nặng, vòng eo, bước chân, giấc ngủ — ghi lại những gì bạn biết."</string>
+    <string name="core_record_metrics" formatted="false">"Ghi số đo"</string>
+    <string name="core_edit_metrics" formatted="false">"Sửa số đo"</string>
+    <string name="core_food_state_hint" formatted="false">"Khối lượng và giá trị dinh dưỡng phải ứng với cùng một trạng thái thực phẩm: sống, khô hoặc đã nấu chín."</string>
+    <string name="core_weight" formatted="false">"Cân nặng"</string>
+    <string name="core_waist" formatted="false">"Vòng eo"</string>
+    <string name="core_my_diary" formatted="false">"Nhật ký của tôi"</string>
+    <string name="core_diary_tagline" formatted="false">"Mỗi ngày theo nhịp độ riêng"</string>
+    <string name="core_record_day" formatted="false">"+ Ghi một ngày"</string>
+    <string name="core_optional_diary_help" formatted="false">"Mọi số đo đều không bắt buộc. Bạn có thể chỉ ghi cân nặng, giấc ngủ hoặc ghi chú. Chạm vào mục để chỉnh sửa."</string>
+    <string name="core_history_starts" formatted="false">"Lịch sử của bạn bắt đầu từ đây"</string>
+    <string name="core_history_help" formatted="false">"Ghi số đo và theo dõi thay đổi trong Biểu đồ."</string>
+    <string name="core_file_unavailable" formatted="false">"Tệp không khả dụng"</string>
+    <string name="core_backup_saved" formatted="false">"Đã lưu bản sao lưu"</string>
+    <string name="core_export_error" formatted="false">"Không thể xuất bản sao lưu"</string>
+    <string name="core_read_error" formatted="false">"Không thể đọc tệp"</string>
+    <string name="core_settings_tagline" formatted="false">"Cài đặt và sao lưu dữ liệu"</string>
+    <string name="core_your_progress" formatted="false">"Tiến trình của bạn"</string>
+    <string name="core_achievements_help" formatted="false">"Những thành tích nhỏ giúp xây dựng thói quen ghi nhật ký."</string>
+    <string name="core_achievements" formatted="false">"Thành tích"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Kết nối tùy chọn để đồng bộ nhật ký giữa các thiết bị của bạn."</string>
+    <string name="core_cloud_sync" formatted="false">"Đồng bộ đám mây"</string>
+    <string name="core_personal_goals" formatted="false">"Mục tiêu cá nhân"</string>
+    <string name="core_personal_goals_help" formatted="false">"Tự đặt mục tiêu calo, chất dinh dưỡng đa lượng và cân nặng. Bạn có thể để trống bất kỳ mục tiêu nào."</string>
+    <string name="core_configure_goals" formatted="false">"Đặt mục tiêu"</string>
+    <string name="core_backup" formatted="false">"Sao lưu"</string>
+    <string name="core_backup_help" formatted="false">"Thực phẩm, bữa ăn, nhật ký, mục tiêu và thành tích trong một tệp. Hãy lưu bản sao lưu trước khi cài đặt lại ứng dụng."</string>
+    <string name="core_save_file" formatted="false">"Lưu vào tệp"</string>
+    <string name="core_restore_file" formatted="false">"Khôi phục từ tệp"</string>
+    <string name="core_write_locked" formatted="false">"Đã tắt chức năng lưu để bảo vệ tệp gốc. Hãy khôi phục một bản sao lưu hợp lệ."</string>
+    <string name="core_about_data" formatted="false">"Về ứng dụng và dữ liệu của bạn"</string>
+    <string name="core_about_data_help" formatted="false">"Cách lưu bản ghi, đồng bộ và xóa dữ liệu."</string>
+    <string name="core_privacy" formatted="false">"Quyền riêng tư và xóa dữ liệu"</string>
+    <string name="core_offline" formatted="false">"Hoạt động ngoại tuyến"</string>
+    <string name="core_offline_help" formatted="false">"Đăng nhập Google là tùy chọn. Bước chân và giấc ngủ được nhập thủ công. Cần kết nối Internet để đồng bộ khi được bật và tải quảng cáo. Các mục nhật ký không được gửi đến mạng quảng cáo."</string>
+    <string name="core_about_foods" formatted="false">"Về thực phẩm"</string>
+    <string name="core_foods_reference" formatted="false">"Giá trị có sẵn là ước tính cho mỗi 100 g phần ăn được. Xem bao bì để biết giá trị chính xác. Sửa thực phẩm không tính lại các bữa ăn đã ghi trước đó."</string>
+    <string name="core_foods_source" formatted="false">"Nguồn cơ sở dữ liệu: USDA FoodData Central, SR Legacy. Mỗi thực phẩm có trạng thái và thông tin nguồn riêng."</string>
+    <string name="core_restore_title" formatted="false">"Khôi phục bản sao lưu này?"</string>
+    <string name="core_restore_warning" formatted="false">"Thực phẩm, nhật ký, mục tiêu và thành tích hiện tại sẽ được thay thế bằng nội dung tệp này. Hãy sao lưu trước. Nếu đã kết nối đồng bộ, các thay đổi được khôi phục cũng sẽ được gửi đến Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Đã khôi phục bản sao lưu"</string>
+    <string name="core_invalid_file" formatted="false">"Tệp không hợp lệ"</string>
+    <string name="core_replace_data" formatted="false">"Thay thế dữ liệu"</string>
+    <string name="core_cancel" formatted="false">"Hủy"</string>
+    <string name="core_save" formatted="false">"Lưu"</string>
+    <string name="core_calculate_portion" formatted="false">"Tính khẩu phần"</string>
+    <string name="core_edit_portion" formatted="false">"Sửa khẩu phần"</string>
+    <string name="core_portion_weight" formatted="false">"Khối lượng khẩu phần, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Nhập khối lượng lớn hơn 0 và không quá 100.000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Thêm vào nhật ký"</string>
+    <string name="core_delete_entry" formatted="false">"Xóa mục"</string>
+    <string name="core_delete_portion_question" formatted="false">"Xóa khẩu phần này khỏi nhật ký?"</string>
+    <string name="core_new_food" formatted="false">"Thực phẩm hoặc món ăn mới"</string>
+    <string name="core_edit_nutrition" formatted="false">"Sửa giá trị dinh dưỡng"</string>
+    <string name="core_name" formatted="false">"Tên"</string>
+    <string name="core_food" formatted="false">"Thực phẩm"</string>
+    <string name="core_dish" formatted="false">"Món ăn chế biến sẵn"</string>
+    <string name="core_category" formatted="false">"Danh mục"</string>
+    <string name="core_per100_hint" formatted="false">"Giá trị cho mỗi 100 g, lấy từ bao bì hoặc công thức. Nhập 0 nếu không có chất dinh dưỡng đó."</string>
+    <string name="core_kcal" formatted="false">"Calo"</string>
+    <string name="core_protein_grams" formatted="false">"Chất đạm, g"</string>
+    <string name="core_fat_grams" formatted="false">"Chất béo, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Carbohydrat, g"</string>
+    <string name="core_food_note" formatted="false">"Ghi chú, nguyên liệu (tùy chọn)"</string>
+    <string name="core_favorite" formatted="false">"Thêm vào yêu thích"</string>
+    <string name="core_name_category_required" formatted="false">"Nhập tên và danh mục"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Nhập giá trị cho mỗi 100 g: calo 0–1.000; chất đạm, chất béo và carbohydrat 0–100 g"</string>
+    <string name="core_delete_food" formatted="false">"Xóa khỏi thực phẩm"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Các bữa ăn đã ghi trước đó sẽ giữ nguyên giá trị."</string>
+    <string name="core_delete_food_question" formatted="false">"Xóa thực phẩm này? Các mục nhật ký liên quan vẫn được giữ lại."</string>
+    <string name="core_day_entry" formatted="false">"Bản ghi trong ngày"</string>
+    <string name="core_optional_fields" formatted="false">"Điền các trường bạn muốn. Để trống những trường còn lại."</string>
+    <string name="core_editing_existing" formatted="false">"Ngày này đã có bản ghi. Bạn đang chỉnh sửa bản ghi đó."</string>
+    <string name="core_weight_kg" formatted="false">"Cân nặng, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Vòng eo, cm"</string>
+    <string name="core_steps" formatted="false">"Bước chân"</string>
+    <string name="core_sleep" formatted="false">"Giấc ngủ"</string>
+    <string name="core_hours" formatted="false">"Giờ"</string>
+    <string name="core_minutes" formatted="false">"Phút"</string>
+    <string name="core_body_fat_optional" formatted="false">"Tỷ lệ mỡ từ cân, % (tùy chọn)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Tỷ lệ mỡ từ cân chỉ phản ánh xu hướng, không phải phép đo chính xác."</string>
+    <string name="core_strength_training" formatted="false">"Tập sức mạnh"</string>
+    <string name="core_training_example" formatted="false">"Ví dụ: squat 3×10, tạ đơn 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Tổng dinh dưỡng nhập thủ công"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Nếu được nhập, các giá trị này thay thế tổng từ thực phẩm trong ngày. Để trống để tính tự động."</string>
+    <string name="core_daily_calories" formatted="false">"Calo trong ngày"</string>
+    <string name="core_daily_protein" formatted="false">"Chất đạm trong ngày, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Ghi chú và cảm nhận"</string>
+    <string name="core_steps_invalid" formatted="false">"Bước chân: số nguyên từ 0 đến 200.000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Giấc ngủ: 0–24 giờ, phút 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Mỡ cơ thể"</string>
+    <string name="core_calories" formatted="false">"Calo"</string>
+    <string name="core_protein" formatted="false">"Chất đạm"</string>
+    <string name="core_entry_required" formatted="false">"Thêm ít nhất một số đo hoặc ghi chú"</string>
+    <string name="core_delete_day" formatted="false">"Xóa bản ghi trong ngày này"</string>
+    <string name="core_optional_goals" formatted="false">"Mọi mục tiêu đều không bắt buộc. Trường trống nghĩa là chưa đặt mục tiêu."</string>
+    <string name="core_calories_per_day" formatted="false">"Calo mỗi ngày"</string>
+    <string name="core_protein_per_day" formatted="false">"Chất đạm mỗi ngày, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Chất béo mỗi ngày, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Carbohydrat mỗi ngày, g"</string>
+    <string name="core_target_weight" formatted="false">"Cân nặng mục tiêu, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Kiểm tra mục tiêu: calo 0–10.000; chất đạm, chất béo và carbohydrat 0–1.000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Cân nặng mục tiêu: từ 1 đến 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Xóa?"</string>
+    <string name="core_delete" formatted="false">"Xóa"</string>
+    <string name="core_select_food" formatted="false">"Chọn thực phẩm"</string>
+    <string name="core_foods_dishes" formatted="false">"Thực phẩm và món ăn"</string>
+    <string name="core_search_food" formatted="false">"Tìm thực phẩm hoặc món ăn"</string>
+    <string name="core_new_food_button" formatted="false">"+ Thực phẩm / món ăn"</string>
+    <string name="core_recipe_button" formatted="false">"Từ công thức"</string>
+    <string name="core_no_results" formatted="false">"Không có kết quả"</string>
+    <string name="core_no_results_help" formatted="false">"Thử tìm kiếm khác hoặc thêm thực phẩm hay món ăn chế biến sẵn của riêng bạn."</string>
+    <string name="core_edit" formatted="false">"Sửa"</string>
+    <string name="core_achievement_unlocked">"🏆 Đã đạt thành tích! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Còn %1$s kcal · mục tiêu %2$s"</string>
+    <string name="core_above_goal">"Vượt mục tiêu %1$s kcal"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Đạm %1$s   Béo %2$s   Carbohydrat %3$s"</string>
+    <string name="core_weight_summary">"Cân nặng %1$s kg"</string>
+    <string name="core_waist_summary">"Vòng eo %1$s cm"</string>
+    <string name="core_steps_summary">"Bước chân: %1$s"</string>
+    <string name="core_fat_summary">"Mỡ cơ thể %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (thủ công)"</string>
+    <string name="core_manual_protein">"Chất đạm %1$s g (thủ công)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Giấc ngủ %1$s"</string>
+    <string name="core_scale_fat">"Tỷ lệ mỡ từ cân %1$s%%"</string>
+    <string name="core_training_value">"Tập luyện: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Chất đạm %1$s g"</string>
+    <string name="core_app_version">"Nhật ký ăn uống · %1$s"</string>
+    <string name="core_per100_summary">"Mỗi 100 g: %1$s kcal · Đạm %2$s · Béo %3$s · Carbohydrat %4$s"</string>
+    <string name="core_range_invalid">"%1$s: nhập giá trị từ %2$s đến %3$s"</string>
+    <string name="core_delete_day_question">"Xóa số đo của ngày %1$s? Các mục thực phẩm vẫn được giữ lại."</string>
+    <string name="core_catalog_count">"Thực phẩm: %1$s · dinh dưỡng mỗi 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Đạm %2$s   Béo %3$s   Carbohydrat %4$s"</string>
+    <string name="core_today_date">"Hôm nay · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Calo và chất đạm là tổng được nhập thủ công trong nhật ký"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Calo là tổng được nhập thủ công trong nhật ký"</string>
+    <string name="core_manual_protein_total" formatted="false">"Chất đạm là tổng được nhập thủ công trong nhật ký"</string>
+    <string name="core_macro_goals">"Mục tiêu Đ / B / C: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (thủ công)"</string>
+    <string name="core_all" formatted="false">"Tất cả"</string>
+    <string name="core_favorites" formatted="false">"Yêu thích"</string>
+    <string name="core_sleep_duration">"%1$s giờ %2$s phút"</string>
+    <string name="core_previous_day" formatted="false">"Ngày trước"</string>
+    <string name="core_next_day" formatted="false">"Ngày sau"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Bản sao lưu chuyển đổi không khớp"</string>
+    <string name="data_entry_exists" formatted="false">"Mục thực phẩm này đã tồn tại"</string>
+    <string name="data_entry_missing" formatted="false">"Không tìm thấy mục thực phẩm"</string>
+    <string name="data_edited_date_changed" formatted="false">"Ngày của mục đang sửa đã thay đổi"</string>
+    <string name="data_device_id_corrupt" formatted="false">"ID thiết bị cục bộ bị hỏng; đã chặn khôi phục"</string>
+    <string name="data_sync_invalid" formatted="false">"Dữ liệu đồng bộ không hợp lệ"</string>
+    <string name="data_diary_read_only" formatted="false">"Nhật ký được bảo vệ khỏi ghi đè: hãy khôi phục bản sao lưu"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Dữ liệu nhật ký không nhất quán"</string>
+    <string name="data_backup_too_large" formatted="false">"Bản sao lưu quá lớn"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ID cài đặt bị hỏng"</string>
+    <string name="data_save_verification_failed" formatted="false">"Không thể xác minh nhật ký đã được lưu"</string>
+    <string name="data_save_failed" formatted="false">"Không thể lưu nhật ký"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Bản sao lưu lớn hơn 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Tệp nhật ký quá lớn"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Kích thước cơ sở dữ liệu thực phẩm không hợp lệ"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Phiên bản sao lưu không được hỗ trợ"</string>
+    <string name="data_too_many_values">"Quá nhiều giá trị trong %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Quá nhiều thực phẩm"</string>
+    <string name="data_too_many_entries" formatted="false">"Quá nhiều mục thực phẩm"</string>
+    <string name="data_too_many_logs" formatted="false">"Quá nhiều mục nhật ký"</string>
+    <string name="data_product_id_duplicate" formatted="false">"ID thực phẩm trùng lặp"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"ID mục thực phẩm trùng lặp"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Ngày nhật ký trùng lặp"</string>
+    <string name="data_label_product_id" formatted="false">"ID thực phẩm"</string>
+    <string name="data_label_product_name" formatted="false">"Tên thực phẩm"</string>
+    <string name="data_label_category" formatted="false">"Danh mục"</string>
+    <string name="data_label_note" formatted="false">"Ghi chú"</string>
+    <string name="data_label_entry_id" formatted="false">"ID mục"</string>
+    <string name="data_label_meal" formatted="false">"Bữa ăn"</string>
+    <string name="data_food_weight_range" formatted="false">"Khối lượng thực phẩm phải lớn hơn 0 và không quá 100000 g"</string>
+    <string name="data_label_weight" formatted="false">"Cân nặng"</string>
+    <string name="data_label_waist" formatted="false">"Vòng eo"</string>
+    <string name="data_steps_range" formatted="false">"Số bước phải từ 0 đến 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Giấc ngủ"</string>
+    <string name="data_label_body_fat" formatted="false">"Mỡ cơ thể"</string>
+    <string name="data_label_daily_calories" formatted="false">"Calo trong ngày"</string>
+    <string name="data_label_daily_protein" formatted="false">"Chất đạm trong ngày"</string>
+    <string name="data_label_workout" formatted="false">"Tập luyện"</string>
+    <string name="data_label_log_note" formatted="false">"Ghi chú"</string>
+    <string name="data_log_empty" formatted="false">"Nhập ít nhất một số đo hoặc ghi chú"</string>
+    <string name="data_label_goal_weight" formatted="false">"Cân nặng mục tiêu"</string>
+    <string name="data_too_many_achievements" formatted="false">"Quá nhiều thành tích"</string>
+    <string name="data_achievement_invalid" formatted="false">"Thành tích không hợp lệ"</string>
+    <string name="data_setting_not_portable" formatted="false">"Không thể chuyển cài đặt này"</string>
+    <string name="data_setting_invalid">"Giá trị không hợp lệ cho cài đặt %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Calo"</string>
+    <string name="data_label_protein" formatted="false">"Chất đạm"</string>
+    <string name="data_label_fat" formatted="false">"Chất béo"</string>
+    <string name="data_label_carbs" formatted="false">"Carbohydrat"</string>
+    <string name="data_value_range">"%1$s: khoảng cho phép %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: độ dài không hợp lệ"</string>
+    <string name="data_text_character_invalid">"%1$s: ký tự không hợp lệ"</string>
+    <string name="data_date_format_invalid" formatted="false">"Ngày phải có định dạng YYYY-MM-DD"</string>
+    <string name="data_date_nonexistent">"Ngày không hợp lệ: %1$s"</string>
+    <string name="data_field_string_required">"Trường %1$s phải là văn bản"</string>
+    <string name="data_field_boolean_required">"Trường %1$s phải là giá trị Boolean"</string>
+    <string name="data_field_number_required">"Trường %1$s phải là số"</string>
+    <string name="data_field_finite_required">"Trường %1$s phải là số hữu hạn"</string>
+    <string name="data_field_integer_required">"Trường %1$s phải là số nguyên"</string>
+    <string name="data_too_many_items">"Quá nhiều mục trong %1$s"</string>
+    <string name="data_data_file_invalid">"Tệp dữ liệu không hợp lệ: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Thiếu ID thiết bị"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Đã đạt giới hạn đồng hồ lô-gic"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Quá nhiều bản ghi đồng bộ"</string>
+    <string name="data_sync_version_required" formatted="false">"Đồng bộ yêu cầu định dạng phiên bản 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Khóa đồng bộ không hợp lệ"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Khóa đồng bộ trùng lặp"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Cờ xóa không hợp lệ"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Dữ liệu đồng bộ không hợp lệ"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Phiên bản bản ghi vượt quá đồng hồ lô-gic"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Dữ liệu không khớp với siêu dữ liệu đồng bộ"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Độ dài khóa đồng bộ không hợp lệ"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Khóa đồng bộ sai cấu trúc"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Loại đồng bộ không xác định"</string>
+    <string name="data_record_id_too_long" formatted="false">"ID bản ghi quá dài"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Thao tác xóa thành tích không hợp lệ"</string>
+    <string name="data_log_key_invalid" formatted="false">"Khóa nhật ký không hợp lệ"</string>
+    <string name="data_log_field_unknown" formatted="false">"Trường nhật ký không xác định"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Dấu xóa nhật ký không hợp lệ"</string>
+    <string name="data_goal_unknown" formatted="false">"Mục tiêu không xác định"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Bản ghi đã xóa vẫn chứa dữ liệu"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Giá trị đồng bộ không hợp lệ"</string>
+    <string name="data_record_id_mismatch" formatted="false">"ID bản ghi không khớp với khóa"</string>
+    <string name="data_field_value_invalid" formatted="false">"Giá trị trường không hợp lệ"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Ngày thành tích không khớp với khóa"</string>
+    <string name="data_note_string_required" formatted="false">"Ghi chú phải là văn bản"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Ghi chú đã đồng bộ không hợp lệ"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Đồng hồ lô-gic không hợp lệ"</string>
+    <string name="data_device_invalid" formatted="false">"Thiết bị không hợp lệ"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Dấu phiên bản không hợp lệ"</string>
+    <string name="data_google_login_required" formatted="false">"Đăng nhập lại vào Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Quá nhiều bản sao lưu đám mây"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive trả về trang trùng lặp"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Bản sao lưu đám mây lớn hơn 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive không trả về địa chỉ tải lên"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Địa chỉ tải lên Google Drive không hợp lệ"</string>
+    <string name="data_back" formatted="false">"‹  Quay lại"</string>
+    <string name="data_cloud_title" formatted="false">"Đồng bộ đám mây"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Nhật ký trên các thiết bị của bạn"</string>
+    <string name="data_no_account" formatted="false">"Chưa kết nối tài khoản"</string>
+    <string name="data_cloud_intro" formatted="false">"Đăng nhập là tùy chọn. Thực phẩm, bữa ăn, số đo, mục tiêu và thành tích được lưu trên điện thoại. Sau khi kết nối, một bản sao sẽ được lưu trong thư mục ẩn trên Google Drive của bạn."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Các mục được hợp nhất trong lần kết nối đầu tiên. Ứng dụng không thể truy cập các tệp khác trên Drive của bạn."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Đăng nhập Google chưa được cấu hình cho bản dựng này. Nhật ký và sao lưu tệp vẫn hoạt động mà không cần tài khoản."</string>
+    <string name="data_connect_google" formatted="false">"Kết nối Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Đồng bộ tự động"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Khi dữ liệu thay đổi và ở chế độ nền khi Android cho phép"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Không thể thay đổi lịch. Dữ liệu đã được lưu trên thiết bị này."</string>
+    <string name="data_sync_start_failed" formatted="false">"Không thể bắt đầu đồng bộ. Dữ liệu đã được lưu trên thiết bị này."</string>
+    <string name="data_sync_now" formatted="false">"Đồng bộ ngay"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Đăng nhập lại vào Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Ngắt kết nối tài khoản"</string>
+    <string name="data_sync_never" formatted="false">"Chưa đồng bộ"</string>
+    <string name="data_offline_saved_title" formatted="false">"Dữ liệu được lưu ngoại tuyến"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Khi bật đồng bộ tự động, các thay đổi được gửi lúc có kết nối. Nếu cùng một trường thay đổi trên hai thiết bị, phiên bản có thời điểm thay đổi muộn hơn sẽ được dùng. Các mục và trường độc lập được hợp nhất."</string>
+    <string name="data_cloud_password_description" formatted="false">"Bạn chỉ nhập mật khẩu trên trang Google trong trình duyệt. Mã thông báo truy cập được Android Keystore bảo vệ và không nằm trong bản sao lưu."</string>
+    <string name="data_google_connection_title" formatted="false">"Kết nối Google"</string>
+    <string name="data_got_it" formatted="false">"Đã hiểu"</string>
+    <string name="data_connect_drive_title" formatted="false">"Kết nối Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Nhật ký hiện tại sẽ được hợp nhất với dữ liệu trong tài khoản Google đã chọn. Dùng cùng một tài khoản cá nhân trên các thiết bị. Trang đăng nhập sẽ mở trong trình duyệt mặc định."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Không thể mở trang đăng nhập. Cài đặt hoặc bật trình duyệt mặc định rồi thử lại."</string>
+    <string name="data_continue" formatted="false">"Tiếp tục"</string>
+    <string name="data_cancel" formatted="false">"Hủy"</string>
+    <string name="data_disconnect_title" formatted="false">"Ngắt kết nối tài khoản?"</string>
+    <string name="data_disconnect_description" formatted="false">"Đồng bộ sẽ dừng trên thiết bị này. Nhật ký cục bộ và các bản sao trong Google Drive vẫn được giữ lại. Bạn có thể quản lý quyền của ứng dụng trong cài đặt Tài khoản Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Không thể ngắt kết nối tài khoản. Vui lòng thử lại."</string>
+    <string name="data_disconnect" formatted="false">"Ngắt kết nối"</string>
+    <string name="data_google_not_connected" formatted="false">"Chưa kết nối Google"</string>
+    <string name="data_sync_ready" formatted="false">"Sẵn sàng đồng bộ"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Các thay đổi đang chờ đồng bộ…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Không có Internet. Các thay đổi được lưu trên thiết bị này."</string>
+    <string name="data_google_not_configured" formatted="false">"Đăng nhập Google chưa được cấu hình cho bản dựng này"</string>
+    <string name="data_sync_wait" formatted="false">"Chờ đồng bộ hoàn tất"</string>
+    <string name="data_google_connecting" formatted="false">"Đang kết nối Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Đã hủy kết nối"</string>
+    <string name="data_connection_rejected" formatted="false">"Kết nối bị hủy hoặc bị Google từ chối"</string>
+    <string name="data_google_connected_merging" formatted="false">"Đã kết nối Google. Đang hợp nhất các mục…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Không thể kết nối Google. Kiểm tra Internet và cài đặt quyền truy cập."</string>
+    <string name="data_account_disconnected" formatted="false">"Đã ngắt kết nối tài khoản. Dữ liệu vẫn ở trên thiết bị này."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Không có Internet. Đồng bộ đang chờ kết nối."</string>
+    <string name="data_sync_scheduled" formatted="false">"Đã lên lịch đồng bộ…"</string>
+    <string name="data_sync_running" formatted="false">"Đang đồng bộ…"</string>
+    <string name="data_sync_complete" formatted="false">"Đồng bộ hoàn tất"</string>
+    <string name="data_no_internet" formatted="false">"Không có kết nối Internet"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Không thể đồng bộ. Dữ liệu đã được lưu trên thiết bị này"</string>
+    <string name="data_page_open_failed" formatted="false">"Không thể mở trang. Bạn có thể sao chép địa chỉ từ văn bản bên dưới."</string>
+    <string name="data_privacy_title" formatted="false">"Quyền riêng tư"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Bản ghi và quyền kiểm soát dữ liệu"</string>
+    <string name="data_app_purpose" formatted="false">"Về ứng dụng này"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Ứng dụng này không phải là thiết bị y tế. Ứng dụng không chẩn đoán, điều trị, chữa khỏi hoặc ngăn ngừa bất kỳ bệnh nào. Hãy tham khảo chuyên gia y tế có chuyên môn để được tư vấn, chẩn đoán và điều trị."</string>
+    <string name="data_manage_delete_data" formatted="false">"Quản lý và xóa dữ liệu"</string>
+    <string name="data_delete_data_intro" formatted="false">"Trước khi xóa toàn bộ dữ liệu, hãy tắt đồng bộ trên tất cả thiết bị. Gỡ ứng dụng khỏi điện thoại không xóa các bản sao trên Google Drive hoặc tệp đã xuất."</string>
+    <string name="data_manage_drive_data" formatted="false">"Quản lý dữ liệu Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Quyền truy cập Tài khoản Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Bộ nhớ ứng dụng trong Android"</string>
+    <string name="data_contact_developer" formatted="false">"Liên hệ nhà phát triển"</string>
+    <string name="data_opening_page" formatted="false">"Mở trang"</string>
+    <string name="data_advertisement" formatted="false">"QUẢNG CÁO"</string>
+    <string name="data_ad_information" formatted="false">"Về quảng cáo này"</string>
+    <string name="data_cloud_http_error">"Lỗi HTTP đám mây %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Phản hồi đám mây quá lớn"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Phiên đăng nhập mã hóa không hợp lệ"</string>
+    <string name="data_session_save_failed" formatted="false">"Không thể lưu phiên đăng nhập"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Không thể làm mới quyền truy cập Google"</string>
+    <string name="data_diary_read_failed">"Không thể đọc nhật ký. Tệp gốc được giữ lại. Hãy khôi phục dữ liệu từ bản sao lưu. %1$s"</string>
+    <string name="data_last_sync">"Đồng bộ lần cuối: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Trái cây và quả mọng"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Trái cây khô"</string>
+    <string name="data_category_vegetables" formatted="false">"Rau củ và rau thơm"</string>
+    <string name="data_category_mushrooms" formatted="false">"Nấm"</string>
+    <string name="data_category_grains" formatted="false">"Ngũ cốc và mì ống"</string>
+    <string name="data_category_legumes" formatted="false">"Các loại đậu"</string>
+    <string name="data_category_meat" formatted="false">"Thịt và gia cầm"</string>
+    <string name="data_category_fish" formatted="false">"Cá và hải sản"</string>
+    <string name="data_category_dairy" formatted="false">"Sản phẩm từ sữa"</string>
+    <string name="data_category_eggs" formatted="false">"Trứng"</string>
+    <string name="data_category_oils" formatted="false">"Dầu và bơ"</string>
+    <string name="data_category_nuts" formatted="false">"Quả hạch và hạt"</string>
+    <string name="data_category_bread" formatted="false">"Bánh mì"</string>
+    <string name="data_category_other" formatted="false">"Thực phẩm khác"</string>
+    <string name="data_category_dishes" formatted="false">"Món ăn chế biến sẵn"</string>
+    <string name="data_category_custom" formatted="false">"Thực phẩm của tôi"</string>
+    <string name="data_category_other_short" formatted="false">"Khác"</string>
+    <string name="data_food_seed_9003" formatted="false">"Táo còn vỏ"</string>
+    <string name="data_catalog_note_1">"Giá trị tham khảo cho mỗi 100 g phần ăn được. Thực phẩm sống. Giá trị carbohydrat của USDA bao gồm chất xơ. Bạn có thể điều chỉnh theo nhãn sản phẩm. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Chuối đã bóc vỏ"</string>
+    <string name="data_food_seed_9021" formatted="false">"Quả mơ đã bỏ hạt"</string>
+    <string name="data_food_seed_9037" formatted="false">"Thịt quả bơ"</string>
+    <string name="data_food_seed_9050" formatted="false">"Việt quất"</string>
+    <string name="data_food_seed_9070" formatted="false">"Anh đào ngọt đã bỏ hạt"</string>
+    <string name="data_food_seed_9063" formatted="false">"Anh đào chua đã bỏ hạt"</string>
+    <string name="data_food_seed_9078" formatted="false">"Nam việt quất"</string>
+    <string name="data_food_seed_9083" formatted="false">"Lý chua đen"</string>
+    <string name="data_food_seed_9084" formatted="false">"Lý chua đỏ và trắng"</string>
+    <string name="data_food_seed_9132" formatted="false">"Nho"</string>
+    <string name="data_food_seed_9148" formatted="false">"Thịt quả kiwi"</string>
+    <string name="data_food_seed_9150" formatted="false">"Chanh vàng đã bóc vỏ"</string>
+    <string name="data_food_seed_9181" formatted="false">"Thịt dưa lưới ruột cam"</string>
+    <string name="data_food_seed_9200" formatted="false">"Thịt quả cam"</string>
+    <string name="data_food_seed_9218" formatted="false">"Thịt quả quýt"</string>
+    <string name="data_food_seed_9236" formatted="false">"Đào đã bỏ hạt"</string>
+    <string name="data_food_seed_9252" formatted="false">"Lê"</string>
+    <string name="data_food_seed_9266" formatted="false">"Thịt quả dứa"</string>
+    <string name="data_food_seed_9279" formatted="false">"Mận đã bỏ hạt"</string>
+    <string name="data_food_seed_9286" formatted="false">"Hạt lựu"</string>
+    <string name="data_food_seed_9295" formatted="false">"Múi bưởi"</string>
+    <string name="data_food_seed_9302" formatted="false">"Mâm xôi đỏ"</string>
+    <string name="data_food_seed_9316" formatted="false">"Dâu tây"</string>
+    <string name="data_food_seed_9326" formatted="false">"Thịt dưa hấu"</string>
+    <string name="data_food_seed_9191" formatted="false">"Đào xuân đã bỏ hạt"</string>
+    <string name="data_food_seed_9176" formatted="false">"Thịt quả xoài"</string>
+    <string name="data_food_seed_9107" formatted="false">"Lý gai"</string>
+    <string name="data_food_seed_9226" formatted="false">"Thịt đu đủ"</string>
+    <string name="data_food_seed_9089" formatted="false">"Quả sung tươi"</string>
+    <string name="data_food_seed_9111" formatted="false">"Thịt quả bưởi chùm"</string>
+    <string name="data_food_seed_9032" formatted="false">"Mơ khô đã bỏ hạt"</string>
+    <string name="data_catalog_note_2">"Giá trị tham khảo cho mỗi 100 g phần ăn được. Giá trị carbohydrat của USDA bao gồm chất xơ. Bạn có thể điều chỉnh theo nhãn sản phẩm. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Mận khô đã bỏ hạt"</string>
+    <string name="data_food_seed_9087" formatted="false">"Chà là đã bỏ hạt"</string>
+    <string name="data_food_seed_9298" formatted="false">"Nho khô sẫm màu không hạt"</string>
+    <string name="data_food_seed_11529" formatted="false">"Cà chua tươi"</string>
+    <string name="data_food_seed_11205" formatted="false">"Dưa chuột còn vỏ"</string>
+    <string name="data_food_seed_11090" formatted="false">"Bông cải xanh sống"</string>
+    <string name="data_food_seed_11109" formatted="false">"Bắp cải trắng sống"</string>
+    <string name="data_food_seed_11124" formatted="false">"Cà rốt sống"</string>
+    <string name="data_food_seed_11135" formatted="false">"Súp lơ trắng sống"</string>
+    <string name="data_food_seed_11143" formatted="false">"Cuống cần tây"</string>
+    <string name="data_food_seed_11282" formatted="false">"Hành tây sống"</string>
+    <string name="data_food_seed_11291" formatted="false">"Hành lá"</string>
+    <string name="data_food_seed_11304" formatted="false">"Đậu Hà Lan xanh sống"</string>
+    <string name="data_food_seed_11333" formatted="false">"Ớt chuông xanh"</string>
+    <string name="data_food_seed_11821" formatted="false">"Ớt chuông đỏ"</string>
+    <string name="data_food_seed_11352" formatted="false">"Khoai tây sống còn vỏ"</string>
+    <string name="data_food_seed_11367" formatted="false">"Khoai tây luộc đã gọt vỏ"</string>
+    <string name="data_catalog_note_3">"Giá trị tham khảo cho mỗi 100 g phần ăn được. Không thêm muối. Giá trị carbohydrat của USDA bao gồm chất xơ. Bạn có thể điều chỉnh theo nhãn sản phẩm. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Bí ngòi sống"</string>
+    <string name="data_food_seed_11209" formatted="false">"Cà tím sống"</string>
+    <string name="data_food_seed_11422" formatted="false">"Bí đỏ sống"</string>
+    <string name="data_food_seed_11429" formatted="false">"Củ cải đỏ"</string>
+    <string name="data_food_seed_11564" formatted="false">"Củ cải tròn turnip sống"</string>
+    <string name="data_food_seed_11080" formatted="false">"Củ dền sống"</string>
+    <string name="data_food_seed_11081" formatted="false">"Củ dền luộc"</string>
+    <string name="data_food_seed_11215" formatted="false">"Tỏi"</string>
+    <string name="data_food_seed_11216" formatted="false">"Củ gừng"</string>
+    <string name="data_food_seed_11457" formatted="false">"Cải bó xôi sống"</string>
+    <string name="data_food_seed_11253" formatted="false">"Xà lách lá"</string>
+    <string name="data_food_seed_11297" formatted="false">"Mùi tây tươi"</string>
+    <string name="data_food_seed_2045" formatted="false">"Thì là tươi"</string>
+    <string name="data_food_seed_11052" formatted="false">"Đậu cô ve sống"</string>
+    <string name="data_food_seed_11167" formatted="false">"Hạt ngô ngọt sống"</string>
+    <string name="data_food_seed_11260" formatted="false">"Nấm mỡ sống"</string>
+    <string name="data_food_seed_11261" formatted="false">"Nấm mỡ luộc không muối"</string>
+    <string name="data_food_seed_11987" formatted="false">"Nấm bào ngư sống"</string>
+    <string name="data_food_seed_20009" formatted="false">"Hạt kiều mạch khô đã bóc vỏ"</string>
+    <string name="data_catalog_note_4">"Giá trị tham khảo cho mỗi 100 g phần ăn được. Hạt kiều mạch đã bóc vỏ và rang. Giá trị carbohydrat của USDA bao gồm chất xơ. Bạn có thể điều chỉnh theo nhãn sản phẩm. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Kiều mạch nấu với nước"</string>
+    <string name="data_food_seed_20444" formatted="false">"Gạo trắng khô"</string>
+    <string name="data_food_seed_20445" formatted="false">"Cơm trắng không muối"</string>
+    <string name="data_food_seed_20036" formatted="false">"Gạo lứt khô"</string>
+    <string name="data_food_seed_20037" formatted="false">"Cơm gạo lứt"</string>
+    <string name="data_food_seed_8120" formatted="false">"Yến mạch cán dẹt khô"</string>
+    <string name="data_food_seed_8121" formatted="false">"Cháo yến mạch nấu với nước, không muối"</string>
+    <string name="data_food_seed_20005" formatted="false">"Đại mạch ngọc trai khô"</string>
+    <string name="data_food_seed_20006" formatted="false">"Đại mạch ngọc trai luộc"</string>
+    <string name="data_food_seed_20031" formatted="false">"Hạt kê khô"</string>
+    <string name="data_food_seed_20032" formatted="false">"Hạt kê nấu chín"</string>
+    <string name="data_food_seed_20420" formatted="false">"Mì ống khô"</string>
+    <string name="data_food_seed_20421" formatted="false">"Mì ống luộc không muối"</string>
+    <string name="data_food_seed_16070" formatted="false">"Đậu lăng luộc không muối"</string>
+    <string name="data_food_seed_16057" formatted="false">"Đậu gà luộc không muối"</string>
+    <string name="data_food_seed_16033" formatted="false">"Đậu thận đỏ luộc không muối"</string>
+    <string name="data_food_seed_5062" formatted="false">"Ức gà sống bỏ da"</string>
+    <string name="data_food_seed_5064" formatted="false">"Ức gà nướng bỏ da"</string>
+    <string name="data_food_seed_5219" formatted="false">"Ức gà tây sống bỏ da"</string>
+    <string name="data_food_seed_5220" formatted="false">"Ức gà tây nướng bỏ da"</string>
+    <string name="data_food_seed_23562" formatted="false">"Thịt bò xay sống, 10% mỡ"</string>
+    <string name="data_food_seed_23566" formatted="false">"Thịt bò xay nướng, 10% mỡ"</string>
+    <string name="data_food_seed_10060" formatted="false">"Thăn nội lợn sống, bỏ phần mỡ nhìn thấy"</string>
+    <string name="data_food_seed_10061" formatted="false">"Thăn nội lợn nướng"</string>
+    <string name="data_food_seed_15236" formatted="false">"Cá hồi Đại Tây Dương sống"</string>
+    <string name="data_catalog_note_5">"Giá trị tham khảo cho mỗi 100 g phần ăn được. Thực phẩm sống. Được nuôi. Giá trị carbohydrat của USDA bao gồm chất xơ. Bạn có thể điều chỉnh theo nhãn sản phẩm. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Cá hồi Đại Tây Dương nướng"</string>
+    <string name="data_catalog_note_6">"Giá trị tham khảo cho mỗi 100 g phần ăn được. Được nuôi. Giá trị carbohydrat của USDA bao gồm chất xơ. Bạn có thể điều chỉnh theo nhãn sản phẩm. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Cá tuyết Đại Tây Dương sống"</string>
+    <string name="data_food_seed_15266" formatted="false">"Cá minh thái Alaska sống"</string>
+    <string name="data_food_seed_15121" formatted="false">"Cá ngừ hộp ngâm nước, đã để ráo"</string>
+    <string name="data_food_seed_15271" formatted="false">"Tôm chín đã bóc vỏ"</string>
+    <string name="data_food_seed_1211" formatted="false">"Sữa, 3,25% chất béo"</string>
+    <string name="data_food_seed_1174" formatted="false">"Sữa, 2% chất béo"</string>
+    <string name="data_food_seed_1082" formatted="false">"Sữa, 1% chất béo"</string>
+    <string name="data_food_seed_1116" formatted="false">"Sữa chua nguyên kem không thêm hương vị"</string>
+    <string name="data_food_seed_1256" formatted="false">"Sữa chua Hy Lạp không béo"</string>
+    <string name="data_food_seed_1015" formatted="false">"Phô mai cottage, 2% chất béo"</string>
+    <string name="data_catalog_note_7">"Giá trị tham khảo cho mỗi 100 g phần ăn được. Phô mai cottage; các loại phô mai sữa đông khác có giá trị khác. Giá trị carbohydrat của USDA bao gồm chất xơ. Bạn có thể điều chỉnh theo nhãn sản phẩm. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Kem chua, khoảng 19% chất béo"</string>
+    <string name="data_food_seed_1009" formatted="false">"Phô mai cheddar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Phô mai mozzarella từ sữa nguyên kem"</string>
+    <string name="data_food_seed_1019" formatted="false">"Phô mai feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Trứng gà sống không vỏ"</string>
+    <string name="data_food_seed_1129" formatted="false">"Trứng gà luộc không vỏ"</string>
+    <string name="data_food_seed_1124" formatted="false">"Lòng trắng trứng gà sống"</string>
+    <string name="data_food_seed_1001" formatted="false">"Bơ có muối"</string>
+    <string name="data_food_seed_4053" formatted="false">"Dầu ô liu"</string>
+    <string name="data_food_seed_4506" formatted="false">"Dầu hướng dương"</string>
+    <string name="data_food_seed_12061" formatted="false">"Hạnh nhân"</string>
+    <string name="data_food_seed_12155" formatted="false">"Nhân óc chó"</string>
+    <string name="data_food_seed_12120" formatted="false">"Nhân hạt phỉ"</string>
+    <string name="data_food_seed_12151" formatted="false">"Nhân hạt dẻ cười sống"</string>
+    <string name="data_food_seed_12014" formatted="false">"Nhân hạt bí khô"</string>
+    <string name="data_food_seed_16087" formatted="false">"Lạc sống đã bóc vỏ"</string>
+    <string name="data_food_seed_18069" formatted="false">"Bánh mì trắng từ lúa mì"</string>
+    <string name="data_food_seed_18075" formatted="false">"Bánh mì nguyên cám"</string>
+    <string name="data_food_seed_18060" formatted="false">"Bánh mì lúa mạch đen"</string>
+    <string name="data_food_seed_19296" formatted="false">"Mật ong"</string>
+    <string name="data_food_seed_19335" formatted="false">"Đường"</string>
+    <string name="data_food_seed_19165" formatted="false">"Bột ca cao không thêm chất tạo ngọt"</string>
+    <string name="data_food_seed_19904" formatted="false">"Sô cô la đen, 70–85% ca cao"</string>
+    <string name="data_meal_breakfast" formatted="false">"Bữa sáng"</string>
+    <string name="data_meal_lunch" formatted="false">"Bữa trưa"</string>
+    <string name="data_meal_dinner" formatted="false">"Bữa tối"</string>
+    <string name="data_meal_snack" formatted="false">"Bữa phụ"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Chính sách quyền riêng tư của Diet Diary\nSửa đổi: ngày 9 tháng 10 năm 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Ứng dụng: Diet Diary; tên trên Google Play bằng tiếng Nga: «Дневник диеты: подсчёт калорий»; gói: ru.dietdiary.offline.\nNhà phát triển dự án: Efreitor2001. Nếu có câu hỏi về ứng dụng và việc xử lý dữ liệu, liên hệ https://github.com/Efreitor2001/kkalcal/issues . Các vấn đề trên GitHub là công khai: không đăng hồ sơ sức khỏe, bản sao lưu, mật khẩu hoặc mã thông báo tại đó."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Nhật ký trên thiết bị\nKhông cần đăng ký để ghi nhật ký. Ứng dụng lưu thực phẩm và giá trị dinh dưỡng, khẩu phần và ngày ăn, cân nặng, số đo vòng eo, tỷ lệ mỡ cơ thể, bước chân, giấc ngủ, mô tả bài tập, ghi chú, mục tiêu, thành tích và cài đặt trong vùng lưu trữ riêng của ứng dụng trên thiết bị. Các trường tùy chọn có thể để trống. Bước chân, giấc ngủ và số đo được nhập thủ công; ứng dụng không đọc Health Connect, cảm biến hoạt động thể chất hay dữ liệu thiết bị y tế."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Thông tin này được dùng để tính calo và chất dinh dưỡng đa lượng, đồng thời cung cấp lịch sử, biểu đồ và thành tích. Nhà phát triển không vận hành máy chủ nhận nội dung nhật ký. Nếu bạn không kết nối Google Drive hoặc tự chia sẻ bản sao lưu, các bản ghi sẽ ở lại trên thiết bị."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Kết nối Google Drive tùy chọn\nTheo yêu cầu của bạn, ứng dụng mở trang đăng nhập Google trong trình duyệt mặc định và yêu cầu quyền truy cập vùng lưu trữ dữ liệu ẩn của ứng dụng này trên Google Drive. Quyền này không cho phép truy cập tài liệu hoặc ảnh thông thường trên Drive của bạn."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Sau khi kết nối, thực phẩm, bữa ăn, số đo nhật ký, ghi chú, mục tiêu, thành tích, cài đặt có thể chuyển và siêu dữ liệu thay đổi, bao gồm mã nhận dạng cài đặt ngẫu nhiên và dấu thời gian, được gửi đến Google. Việc này hỗ trợ tạo bản sao lưu tại từng thời điểm và hợp nhất các mục giữa các thiết bị. Nếu bật đồng bộ tự động, các thay đổi cũng được gửi ở chế độ nền khi có kết nối mạng. Bạn có thể tắt riêng đồng bộ tự động."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Ứng dụng nhận địa chỉ email và mã nhận dạng của tài khoản Google đã chọn để hiển thị kết nối và liên kết với đúng vùng lưu trữ. Mật khẩu Google không được cung cấp cho ứng dụng. Phiên ủy quyền được lưu dưới dạng mã hóa trên thiết bị bằng khóa trong Android Keystore. Mã thông báo, địa chỉ email và mã nhận dạng Google không nằm trong tệp xuất nhật ký và bản chụp JSON được đồng bộ."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Dữ liệu Google chỉ được dùng để ủy quyền và đồng bộ, không bao giờ dùng cho quảng cáo. Chính sách quyền riêng tư của Google được áp dụng: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Tệp sao lưu\n“Lưu vào tệp” tạo một tệp JSON tại vị trí bạn chọn. Khôi phục chỉ đọc tệp bạn chọn. Nếu chọn nhà cung cấp tệp đám mây hoặc chia sẻ bản sao với người khác, bạn là người chọn bên nhận. Ứng dụng không mã hóa các tệp JSON đã xuất: chúng chứa bản ghi cá nhân và siêu dữ liệu thay đổi."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Quảng cáo\nỨng dụng sử dụng Yandex Mobile Ads SDK. Để tải và hiển thị quảng cáo, thiết bị kết nối với các dịch vụ quảng cáo. Yandex có thể xử lý địa chỉ IP và thông tin kỹ thuật khác về yêu cầu mạng, thiết bị và phần mềm, mã nhận dạng quảng cáo hoặc kỹ thuật có sẵn, cùng thông tin về lượt hiển thị và tương tác quảng cáo."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Ứng dụng thông báo cho SDK rằng chưa có sự đồng ý, tắt thu thập vị trí và tắt báo cáo App Ad Analytics. Ứng dụng không yêu cầu quyền vị trí chính xác hoặc gần đúng. Những cài đặt này không có nghĩa là dịch vụ quảng cáo hoàn toàn không giao tiếp qua mạng hoặc xử lý dữ liệu kỹ thuật."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Ứng dụng không dùng bản ghi thực phẩm, cân nặng, số đo, ghi chú, mục tiêu, địa chỉ email hay mã nhận dạng Google để nhắm mục tiêu quảng cáo, và không thêm chúng vào tham số yêu cầu quảng cáo. Không bắt buộc xem quảng cáo để lưu bản ghi."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Quy định của Yandex về xử lý, lưu giữ và xóa dữ liệu: https://yandex.ru/legal/confidential/ . Bạn có thể quản lý mã nhận dạng quảng cáo trong cài đặt Android nếu phiên bản hệ thống hỗ trợ. Chính sách của dịch vụ quảng cáo xác định thời hạn lưu dữ liệu kỹ thuật của dịch vụ đó; nhà phát triển nhật ký không đặt thời hạn riêng cho dữ liệu này."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Bảo vệ dữ liệu\nGiao tiếp với Google sử dụng HTTPS; Yandex cho biết dữ liệu SDK được truyền bằng HTTPS/TLS. Nhật ký cục bộ được bảo vệ bằng cơ chế cách ly ứng dụng của Android. Ứng dụng không mã hóa riêng nội dung nhật ký hay bản chụp JSON; không cung cấp mã hóa đầu cuối giữa các thiết bị."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Sao lưu dữ liệu ứng dụng của hệ thống đã bị tắt. Nhật ký chẩn đoán do mã riêng của ứng dụng ghi chỉ chứa mã kết quả, không có nội dung nhật ký, địa chỉ email, mã thông báo hay phần thân phản hồi mạng; ứng dụng không gửi riêng các nhật ký này cho nhà phát triển."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Lưu giữ và xóa\nBản ghi cục bộ được giữ cho đến khi bạn sửa, xóa hoặc xóa dữ liệu ứng dụng. Xóa một mục sẽ loại mục đó khỏi giao diện và gửi dấu xóa khi đồng bộ. Siêu dữ liệu hợp nhất được giữ để tránh dữ liệu cũ xuất hiện trở lại; nó có thể chứa giá trị trước đây của mục nhật ký đã xóa. Giá trị trước đây cũng có thể còn trong bản sao đám mây cũ và các tệp bạn đã tạo. Vì vậy, xóa một mục không xóa hoàn toàn mọi bản sao của mục đó."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“Ngắt kết nối tài khoản” dừng đồng bộ trên thiết bị này và xóa phiên Google cục bộ. Nhật ký và bản sao trên Google Drive vẫn được giữ lại. Ngắt kết nối ứng dụng không xóa tài khoản Google của bạn."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Để xóa hoàn toàn dữ liệu của ứng dụng này:\n• Tắt đồng bộ trên tất cả thiết bị để các bản sao còn lại không bị tải lên lại.\n• Trong trình duyệt, mở https://drive.google.com/drive/settings bằng tài khoản Google đã kết nối. Chọn “Quản lý ứng dụng”, tìm “Diet Diary” (hoặc «Дневник диеты»), rồi chọn “Tùy chọn” → “Xóa dữ liệu ứng dụng bị ẩn”. Nếu trang di động không hiển thị phần này, dùng phiên bản trang web dành cho máy tính hoặc máy tính.\n• Thu hồi quyền truy cập của ứng dụng tại https://myaccount.google.com/connections . Chỉ thu hồi quyền truy cập không xóa các bản sao đã lưu.\n• Xóa bộ nhớ ứng dụng trong cài đặt Android trên từng thiết bị, hoặc gỡ cài đặt ứng dụng.\n• Xóa các bản sao lưu JSON đã lưu riêng khỏi thư mục và vị trí lưu trữ đám mây bạn đã chọn."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Không có thông tin đăng nhập của bạn, nhà phát triển không thể xóa từ xa nhật ký cục bộ hay tệp trên Google Drive cá nhân. Đừng chia sẻ mật khẩu hoặc mã thông báo với nhà phát triển. Để được hỗ trợ xóa dữ liệu, liên hệ dự án qua liên kết ở đầu chính sách. Bạn không cần xóa tài khoản Google để xóa dữ liệu nhật ký."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Thay đổi và liên hệ\nKhi tính năng ứng dụng hoặc cách xử lý dữ liệu thay đổi, chính sách này được cập nhật kèm ngày sửa đổi. Với câu hỏi về truy cập, sửa, xóa dữ liệu hay hoạt động của ứng dụng, hãy dùng kênh liên hệ của dự án. Yêu cầu bạn gửi được xử lý để phản hồi và được lưu trên GitHub; chính sách của GitHub có tại https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Món ăn của tôi"</string>
+    <string name="secondary_metric_weight" formatted="false">"Cân nặng"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Mỡ cơ thể"</string>
+    <string name="secondary_metric_waist" formatted="false">"Vòng eo"</string>
+    <string name="secondary_metric_steps" formatted="false">"Bước chân"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Giấc ngủ"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Calo"</string>
+    <string name="secondary_metric_protein" formatted="false">"Chất đạm"</string>
+    <string name="secondary_metric_fat" formatted="false">"Chất béo"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Carbohydrat"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"bước"</string>
+    <string name="secondary_unit_hours" formatted="false">"giờ"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Khoảng ngày không hợp lệ"</string>
+    <string name="secondary_stats_title" formatted="false">"Xu hướng"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Bản ghi trong những biểu đồ dễ hiểu"</string>
+    <string name="secondary_metric" formatted="false">"Chỉ số"</string>
+    <string name="secondary_week" formatted="false">"Tuần"</string>
+    <string name="secondary_month" formatted="false">"Tháng"</string>
+    <string name="secondary_year" formatted="false">"Năm"</string>
+    <string name="secondary_custom_period" formatted="false">"Khoảng tùy chọn"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Ngày bắt đầu không được sau ngày kết thúc"</string>
+    <string name="secondary_no_records" formatted="false">"Chưa có bản ghi"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Thêm thực phẩm vào nhật ký hoặc chọn khoảng thời gian khác."</string>
+    <string name="secondary_chart_tap" formatted="false">"Chạm vào biểu đồ để chọn bản ghi"</string>
+    <string name="secondary_chart_connected" formatted="false">"Đường nối các số đo đã ghi. Không có số đo ở giữa chúng."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Ước tính từ cân hữu ích để theo dõi xu hướng."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Tổng ngày nhập thủ công thay thế tổng từ thực phẩm. Nếu không có, thực phẩm đã ghi sẽ được cộng lại. Bỏ qua ngày không có bản ghi."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Tổng dựa trên thực phẩm đã ghi. Ngày không có bản ghi không được tính là 0."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Ngày không có bản ghi được bỏ qua và không đưa vào trung bình."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Hôm nay và hôm qua"</string>
+    <string name="secondary_no_today" formatted="false">"Chưa có bản ghi hôm nay"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Không có bản ghi hôm qua"</string>
+    <string name="secondary_partial_today" formatted="false">"So sánh này dùng các bản ghi hiện tại. Dữ liệu hôm nay có thể chưa đầy đủ."</string>
+    <string name="secondary_period_summary" formatted="false">"Tóm tắt khoảng thời gian"</string>
+    <string name="secondary_recorded_average" formatted="false">"Trung bình các ngày có bản ghi"</string>
+    <string name="secondary_recorded_days" formatted="false">"Ngày có dữ liệu"</string>
+    <string name="secondary_minimum" formatted="false">"Thấp nhất"</string>
+    <string name="secondary_maximum" formatted="false">"Cao nhất"</string>
+    <string name="secondary_first_to_last" formatted="false">"Từ bản ghi đầu đến bản ghi cuối"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Cần ít nhất hai ngày có bản ghi để tính thay đổi."</string>
+    <string name="secondary_history" formatted="false">"Lịch sử"</string>
+    <string name="secondary_history_recent" formatted="false">"14 ngày gần nhất có dữ liệu. Chọn khoảng tùy chọn để xem bản ghi cũ hơn."</string>
+    <string name="secondary_history_all" formatted="false">"Tất cả ngày có bản ghi trong khoảng đã chọn"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Từ %1$s"</string>
+    <string name="secondary_date_until">"Đến %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s trong khoảng này"</string>
+    <string name="secondary_weight_goal">"Mục tiêu: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Thêm số đo vào nhật ký hoặc chọn khoảng thời gian khác."</string>
+    <string name="secondary_latest_record">"Bản ghi mới nhất · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Hôm nay: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Hôm qua: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Thay đổi: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d trên %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Số ngày có bản ghi: %2$d, từ %3$s đến %4$s. Thấp nhất %5$s, cao nhất %6$s %7$s. Các giá trị được liệt kê trong lịch sử."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Khởi đầu"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Lưu số đo cân nặng đầu tiên."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Đã lưu số đo cân nặng đầu tiên."</string>
+    <string name="secondary_award_first_food" formatted="false">"Mục đầu tiên"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Ghi khẩu phần thực phẩm đầu tiên."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Đã ghi khẩu phần thực phẩm đầu tiên."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Một tuần dữ liệu"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Ghi cân nặng vào 7 ngày khác nhau. Không cần liên tiếp."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Bạn có bản ghi cân nặng cho 7 ngày khác nhau."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Kiên trì"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Ghi cân nặng vào 30 ngày khác nhau."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Bạn có bản ghi cân nặng cho 30 ngày."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Người lưu trữ"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Lưu 100 khẩu phần thực phẩm vào nhật ký."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Bạn đã lưu 100 khẩu phần thực phẩm."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Thói quen mới"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Ghi thực phẩm trong 7 ngày liên tiếp theo lịch."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Bạn đã ghi thực phẩm trong 7 ngày liên tiếp."</string>
+    <string name="secondary_award_steps" formatted="false">"Người đi bộ xuất sắc"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Ghi ít nhất 10.000 bước trong một ngày."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Bạn đã ghi một ngày có 10.000 bước."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Người ghi chép chăm chỉ"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Lưu 100 số đo cân nặng. Mỗi ngày chỉ tính một số đo."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Bạn đã lưu 100 số đo cân nặng."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Người viết nhật ký kỳ cựu"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Ghi thực phẩm hoặc số đo vào 90 ngày khác nhau. Không cần liên tiếp."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Bạn có bản ghi nhật ký cho 90 ngày khác nhau."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"số đo"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"khẩu phần"</string>
+    <string name="secondary_award_unit_days" formatted="false">"ngày"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"ngày liên tiếp"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"bước trong một ngày"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"ngày có bản ghi"</string>
+    <string name="secondary_back" formatted="false">"‹  Quay lại"</string>
+    <string name="secondary_achievements" formatted="false">"Thành tích"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Những bước nhỏ tạo thành thói quen"</string>
+    <string name="secondary_your_progress" formatted="false">"TIẾN TRÌNH CỦA BẠN"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Thành tích đã đạt vẫn được giữ lại ngay cả khi bạn sửa bản ghi."</string>
+    <string name="secondary_awards_regular" formatted="false">"Cho sự kiên trì và duy trì nhật ký"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Tính các bản ghi đã lưu đến hết hôm nay."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Thành tích ẩn"</string>
+    <string name="secondary_hidden_description" formatted="false">"Tiếp tục dùng nhật ký để mở khóa thành tích này."</string>
+    <string name="secondary_earned" formatted="false">"Đã đạt"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Ẩn · chưa mở khóa"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Đang thực hiện · chưa mở khóa"</string>
+    <string name="secondary_locked" formatted="false">"Chưa mở khóa"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Điều kiện và tiến trình sẽ hiện khi bạn đạt thành tích này."</string>
+    <string name="secondary_best_streak" formatted="false">"Chuỗi dài nhất"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Phần thưởng ẩn"</string>
+    <string name="secondary_unlocked_of">"trên %1$d đã mở khóa"</string>
+    <string name="secondary_unlocked_date">"Đã mở khóa %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Quay lại"</string>
+    <string name="secondary_my_recipe" formatted="false">"Công thức của tôi"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Cân nguyên liệu trước khi nấu. Dùng khối lượng đã nấu để tính khẩu phần. Tính cả dầu và nước xốt."</string>
+    <string name="secondary_recipe_name" formatted="false">"Tên công thức"</string>
+    <string name="secondary_recipe_example" formatted="false">"Ví dụ: rau củ hầm"</string>
+    <string name="secondary_ingredients" formatted="false">"Nguyên liệu"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Bắt đầu với nguyên liệu"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Thêm từng nguyên liệu và nhập khối lượng theo gam."</string>
+    <string name="secondary_edit_weight" formatted="false">"Sửa khối lượng"</string>
+    <string name="secondary_delete" formatted="false">"Xóa"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Thêm nguyên liệu"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Toàn bộ công thức"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Nấu ăn làm thay đổi khối lượng do thêm hoặc mất nước. Cân món ăn hoàn thành, không tính vật đựng."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Khối lượng sau khi nấu, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Nhập khối lượng sau khi nấu"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Nhập khối lượng lớn hơn 0 và không quá 100.000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Khối lượng không được điền tự động"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Mỗi 100 g món ăn đã nấu"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Kiểm tra khối lượng sau khi nấu và nguyên liệu: mỗi 100 g có thể chứa tối đa 1.000 kcal và 100 g mỗi chất dinh dưỡng đa lượng."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Không thể lưu công thức"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Lưu vào Công thức của tôi"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Sau khi lưu, bạn có thể ghi món này theo khối lượng khẩu phần."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Khối lượng nguyên liệu trước khi nấu"</string>
+    <string name="secondary_grams" formatted="false">"Gam"</string>
+    <string name="secondary_weight_limits" formatted="false">"Lớn hơn 0 và không quá 100.000 g"</string>
+    <string name="secondary_add" formatted="false">"Thêm"</string>
+    <string name="secondary_save" formatted="false">"Lưu"</string>
+    <string name="secondary_cancel" formatted="false">"Hủy"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Chọn nguyên liệu"</string>
+    <string name="secondary_search_food" formatted="false">"Tìm thực phẩm"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Không có kết quả. Bạn có thể thêm thực phẩm riêng trong thẻ Thực phẩm."</string>
+    <string name="secondary_close" formatted="false">"Đóng"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Đạm %1$s · Béo %2$s · Carbohydrat %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Khối lượng nguyên liệu: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Thành phẩm: %1$s g. Nguyên liệu: %2$s"</string>
+</resources>

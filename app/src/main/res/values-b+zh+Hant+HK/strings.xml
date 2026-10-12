@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"飲食日記"</string>
+    <string name="core_tagline" formatted="false">"記錄熱量、體重與變化"</string>
+    <string name="core_open_diary" formatted="false">"打開日記"</string>
+    <string name="core_save_failed" formatted="false">"無法儲存數據"</string>
+    <string name="core_day" formatted="false">"今天"</string>
+    <string name="core_products" formatted="false">"食物"</string>
+    <string name="core_diary" formatted="false">"日記"</string>
+    <string name="core_charts" formatted="false">"圖表"</string>
+    <string name="core_more" formatted="false">"更多"</string>
+    <string name="core_recipe_saved" formatted="false">"菜式已儲存到食物列表"</string>
+    <string name="core_back_to_day" formatted="false">"返回當天"</string>
+    <string name="core_action_failed" formatted="false">"無法完成此操作"</string>
+    <string name="core_understood" formatted="false">"確定"</string>
+    <string name="core_restore_available" formatted="false">"你可以在“更多”中還原備份。"</string>
+    <string name="core_eaten_today" formatted="false">"今日已攝入"</string>
+    <string name="core_set_goal_hint" formatted="false">"你可以在“更多”中設定目標"</string>
+    <string name="core_add_food" formatted="false">"+ 添加食物"</string>
+    <string name="core_first_meal" formatted="false">"從第一餐開始記錄"</string>
+    <string name="core_first_meal_help" formatted="false">"選擇食物並輸入克數，即可計算熱量和營養素。"</string>
+    <string name="core_my_day" formatted="false">"我的一天"</string>
+    <string name="core_my_day_help" formatted="false">"體重、腰圍、步數、睡眠——記錄你想記錄的項目。"</string>
+    <string name="core_record_metrics" formatted="false">"記錄測量值"</string>
+    <string name="core_edit_metrics" formatted="false">"編輯測量值"</string>
+    <string name="core_food_state_hint" formatted="false">"食物重量與營養值必須對應同一狀態：生重、乾重或熟重。"</string>
+    <string name="core_weight" formatted="false">"體重"</string>
+    <string name="core_waist" formatted="false">"腰圍"</string>
+    <string name="core_my_diary" formatted="false">"我的日記"</string>
+    <string name="core_diary_tagline" formatted="false">"每天按自己的節奏記錄"</string>
+    <string name="core_record_day" formatted="false">"+ 添加一天的記錄"</string>
+    <string name="core_optional_diary_help" formatted="false">"所有測量項目均為選填。你可以只記錄體重、睡眠或備註。點按記錄即可編輯。"</string>
+    <string name="core_history_starts" formatted="false">"從這裏開始你的記錄"</string>
+    <string name="core_history_help" formatted="false">"記錄測量值，並在圖表中查看變化。"</string>
+    <string name="core_file_unavailable" formatted="false">"檔案不可用"</string>
+    <string name="core_backup_saved" formatted="false">"備份已儲存"</string>
+    <string name="core_export_error" formatted="false">"無法匯出備份"</string>
+    <string name="core_read_error" formatted="false">"無法讀取檔案"</string>
+    <string name="core_settings_tagline" formatted="false">"設定與數據備份"</string>
+    <string name="core_your_progress" formatted="false">"你的進展"</string>
+    <string name="core_achievements_help" formatted="false">"通過小成就養成記錄日記的習慣。"</string>
+    <string name="core_achievements" formatted="false">"成就"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"可選擇連接，以便在多台裝置之間同步日記。"</string>
+    <string name="core_cloud_sync" formatted="false">"雲端同步"</string>
+    <string name="core_personal_goals" formatted="false">"個人目標"</string>
+    <string name="core_personal_goals_help" formatted="false">"手動設定熱量、營養素和目標體重。任何目標都可以留空。"</string>
+    <string name="core_configure_goals" formatted="false">"設定目標"</string>
+    <string name="core_backup" formatted="false">"備份"</string>
+    <string name="core_backup_help" formatted="false">"將食物、飲食記錄、日記、目標和成就存入一個檔案。重新安裝應用程式前請先儲存備份。"</string>
+    <string name="core_save_file" formatted="false">"儲存到檔案"</string>
+    <string name="core_restore_file" formatted="false">"從檔案還原"</string>
+    <string name="core_write_locked" formatted="false">"為保護原始檔案，儲存功能已停用。請還原有效的備份。"</string>
+    <string name="core_about_data" formatted="false">"關於應用程式和你的數據"</string>
+    <string name="core_about_data_help" formatted="false">"瞭解記錄如何儲存、同步如何運作，以及如何刪除數據。"</string>
+    <string name="core_privacy" formatted="false">"私隱與數據刪除"</string>
+    <string name="core_offline" formatted="false">"支持離線使用"</string>
+    <string name="core_offline_help" formatted="false">"Google 登入為選用功能。步數與睡眠需手動輸入。啟用同步和載入廣告需要網絡連線。日記內容不會傳送給廣告網絡。"</string>
+    <string name="core_about_foods" formatted="false">"關於食物數據"</string>
+    <string name="core_foods_reference" formatted="false">"內置數值為每 100 克可食部分的參考值。準確數值請查看包裝。編輯食物不會重新計算之前的飲食記錄。"</string>
+    <string name="core_foods_source" formatted="false">"數據來源：USDA FoodData Central，SR Legacy。每種食物均提供狀態和來源資訊。"</string>
+    <string name="core_restore_title" formatted="false">"還原此備份？"</string>
+    <string name="core_restore_warning" formatted="false">"當前的食物、日記、目標和成就將被此檔案的內容替換。請先儲存備份。如果已連接同步，還原後的更改也會發送到 Google Drive。"</string>
+    <string name="core_backup_restored" formatted="false">"備份已還原"</string>
+    <string name="core_invalid_file" formatted="false">"無效檔案"</string>
+    <string name="core_replace_data" formatted="false">"替換數據"</string>
+    <string name="core_cancel" formatted="false">"取消"</string>
+    <string name="core_save" formatted="false">"儲存"</string>
+    <string name="core_calculate_portion" formatted="false">"計算食用份量"</string>
+    <string name="core_edit_portion" formatted="false">"編輯份量"</string>
+    <string name="core_portion_weight" formatted="false">"份量重量，克"</string>
+    <string name="core_portion_invalid" formatted="false">"請輸入大於 0 且不超過 100,000 克的重量"</string>
+    <string name="core_add_to_diary" formatted="false">"添加到日記"</string>
+    <string name="core_delete_entry" formatted="false">"刪除記錄"</string>
+    <string name="core_delete_portion_question" formatted="false">"從日記中刪除這份食物記錄？"</string>
+    <string name="core_new_food" formatted="false">"新建食物或菜式"</string>
+    <string name="core_edit_nutrition" formatted="false">"編輯營養值"</string>
+    <string name="core_name" formatted="false">"名稱"</string>
+    <string name="core_food" formatted="false">"食物"</string>
+    <string name="core_dish" formatted="false">"熟食菜式"</string>
+    <string name="core_category" formatted="false">"分類"</string>
+    <string name="core_per100_hint" formatted="false">"根據包裝或食譜輸入每 100 克的數值。不含某種營養素時請輸入 0。"</string>
+    <string name="core_kcal" formatted="false">"熱量"</string>
+    <string name="core_protein_grams" formatted="false">"蛋白質，克"</string>
+    <string name="core_fat_grams" formatted="false">"脂肪，克"</string>
+    <string name="core_carbs_grams" formatted="false">"碳水化合物，克"</string>
+    <string name="core_food_note" formatted="false">"備註、配料（選填）"</string>
+    <string name="core_favorite" formatted="false">"加入收藏"</string>
+    <string name="core_name_category_required" formatted="false">"請輸入名稱和分類"</string>
+    <string name="core_nutrition_invalid" formatted="false">"請輸入每 100 克的數值：熱量 0–1,000；蛋白質、脂肪和碳水化合物各 0–100 克"</string>
+    <string name="core_delete_food" formatted="false">"從食物列表刪除"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"之前的飲食記錄將保留原有數值。"</string>
+    <string name="core_delete_food_question" formatted="false">"刪除此食物？日記中的飲食記錄會保留。"</string>
+    <string name="core_day_entry" formatted="false">"每日記錄"</string>
+    <string name="core_optional_fields" formatted="false">"只需填寫你想記錄的項目，其餘可以留空。"</string>
+    <string name="core_editing_existing" formatted="false">"該日期已有記錄。你正在編輯這條記錄。"</string>
+    <string name="core_weight_kg" formatted="false">"體重，公斤"</string>
+    <string name="core_waist_cm" formatted="false">"腰圍，厘米"</string>
+    <string name="core_steps" formatted="false">"步數"</string>
+    <string name="core_sleep" formatted="false">"睡眠"</string>
+    <string name="core_hours" formatted="false">"小時"</string>
+    <string name="core_minutes" formatted="false">"分鐘"</string>
+    <string name="core_body_fat_optional" formatted="false">"體脂秤體脂率，%（選填）"</string>
+    <string name="core_body_fat_hint" formatted="false">"體脂秤的體脂率適合用於觀察趨勢，並非精確測量值。"</string>
+    <string name="core_strength_training" formatted="false">"力量訓練"</string>
+    <string name="core_training_example" formatted="false">"例如：深蹲 3×10，12 公斤啞鈴"</string>
+    <string name="core_manual_nutrition" formatted="false">"手動輸入營養總量"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"填寫後，這些數值會替代當天食物的合計值。留空即可自動計算。"</string>
+    <string name="core_daily_calories" formatted="false">"每日熱量"</string>
+    <string name="core_daily_protein" formatted="false">"每日蛋白質，克"</string>
+    <string name="core_wellbeing_notes" formatted="false">"備註與身體感受"</string>
+    <string name="core_steps_invalid" formatted="false">"步數：0–200,000 之間的整數"</string>
+    <string name="core_sleep_invalid" formatted="false">"睡眠：0–24 小時，分鐘為 0–59"</string>
+    <string name="core_body_fat" formatted="false">"體脂率"</string>
+    <string name="core_calories" formatted="false">"熱量"</string>
+    <string name="core_protein" formatted="false">"蛋白質"</string>
+    <string name="core_entry_required" formatted="false">"請至少填寫一項測量值或備註"</string>
+    <string name="core_delete_day" formatted="false">"刪除這一天的記錄"</string>
+    <string name="core_optional_goals" formatted="false">"所有目標均為選填。留空表示未設定目標。"</string>
+    <string name="core_calories_per_day" formatted="false">"每日熱量"</string>
+    <string name="core_protein_per_day" formatted="false">"每日蛋白質，克"</string>
+    <string name="core_fat_per_day" formatted="false">"每日脂肪，克"</string>
+    <string name="core_carbs_per_day" formatted="false">"每日碳水化合物，克"</string>
+    <string name="core_target_weight" formatted="false">"目標體重，公斤"</string>
+    <string name="core_goals_invalid" formatted="false">"請檢查目標：熱量 0–10,000；蛋白質、脂肪和碳水化合物各 0–1,000 克"</string>
+    <string name="core_target_weight_invalid" formatted="false">"目標體重：1–500 公斤"</string>
+    <string name="core_delete_question" formatted="false">"刪除？"</string>
+    <string name="core_delete" formatted="false">"刪除"</string>
+    <string name="core_select_food" formatted="false">"選擇食物"</string>
+    <string name="core_foods_dishes" formatted="false">"食物與菜式"</string>
+    <string name="core_search_food" formatted="false">"搜尋食物或菜式"</string>
+    <string name="core_new_food_button" formatted="false">"+ 食物 / 菜式"</string>
+    <string name="core_recipe_button" formatted="false">"根據食譜建立"</string>
+    <string name="core_no_results" formatted="false">"沒有搜尋結果"</string>
+    <string name="core_no_results_help" formatted="false">"試試其他關鍵詞，或添加自己的食物及熟食菜式。"</string>
+    <string name="core_edit" formatted="false">"編輯"</string>
+    <string name="core_achievement_unlocked">"🏆 解鎖成就！%1$s — %2$s"</string>
+    <string name="core_remaining_goal">"還可攝入 %1$s 千卡 · 目標 %2$s"</string>
+    <string name="core_above_goal">"超出目標 %1$s 千卡"</string>
+    <string name="core_portion_summary">"%1$s 克 · %2$s 千卡"</string>
+    <string name="core_macros_summary">"蛋白質 %1$s   脂肪 %2$s   碳水化合物 %3$s"</string>
+    <string name="core_weight_summary">"體重 %1$s 公斤"</string>
+    <string name="core_waist_summary">"腰圍 %1$s 厘米"</string>
+    <string name="core_steps_summary">"步數：%1$s"</string>
+    <string name="core_fat_summary">"體脂率 %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s 千卡（手動輸入）"</string>
+    <string name="core_manual_protein">"蛋白質 %1$s 克（手動輸入）"</string>
+    <string name="core_kg_value">"%1$s 公斤"</string>
+    <string name="core_cm_value">"%1$s 厘米"</string>
+    <string name="core_sleep_value">"睡眠 %1$s"</string>
+    <string name="core_scale_fat">"體脂秤體脂率 %1$s%%"</string>
+    <string name="core_training_value">"訓練：%1$s"</string>
+    <string name="core_kcal_value">"%1$s 千卡"</string>
+    <string name="core_protein_value">"蛋白質 %1$s 克"</string>
+    <string name="core_app_version">"飲食日記 · %1$s"</string>
+    <string name="core_per100_summary">"每 100 克：%1$s 千卡 · 蛋白質 %2$s · 脂肪 %3$s · 碳水化合物 %4$s"</string>
+    <string name="core_range_invalid">"%1$s：請輸入 %2$s 至 %3$s 之間的數值"</string>
+    <string name="core_delete_day_question">"刪除 %1$s 的測量值？飲食記錄會保留。"</string>
+    <string name="core_catalog_count">"食物數量：%1$s · 營養值按每 100 克計"</string>
+    <string name="core_catalog_nutrition">"%1$s 千卡   ·   蛋白質 %2$s   脂肪 %3$s   碳水化合物 %4$s"</string>
+    <string name="core_today_date">"今天 · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"熱量和蛋白質使用日記中手動輸入的總量"</string>
+    <string name="core_manual_calorie_total" formatted="false">"熱量使用日記中手動輸入的總量"</string>
+    <string name="core_manual_protein_total" formatted="false">"蛋白質使用日記中手動輸入的總量"</string>
+    <string name="core_macro_goals">"蛋白質 / 脂肪 / 碳水化合物目標：%1$s / %2$s / %3$s 克"</string>
+    <string name="core_kcal_unit" formatted="false">"千卡"</string>
+    <string name="core_manual_values">"%1$s（手動輸入）"</string>
+    <string name="core_all" formatted="false">"全部"</string>
+    <string name="core_favorites" formatted="false">"收藏"</string>
+    <string name="core_sleep_duration">"%1$s 小時 %2$s 分鐘"</string>
+    <string name="core_previous_day" formatted="false">"前一天"</string>
+    <string name="core_next_day" formatted="false">"後一天"</string>
+    <string name="secondary_metric_weight" formatted="false">"體重"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"體脂率"</string>
+    <string name="secondary_metric_waist" formatted="false">"腰圍"</string>
+    <string name="secondary_metric_steps" formatted="false">"步數"</string>
+    <string name="secondary_metric_sleep" formatted="false">"睡眠"</string>
+    <string name="secondary_metric_kcal" formatted="false">"熱量"</string>
+    <string name="secondary_metric_protein" formatted="false">"蛋白質"</string>
+    <string name="secondary_metric_fat" formatted="false">"脂肪"</string>
+    <string name="secondary_metric_carbs" formatted="false">"碳水化合物"</string>
+    <string name="secondary_unit_kg" formatted="false">"公斤"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"厘米"</string>
+    <string name="secondary_unit_steps" formatted="false">"步"</string>
+    <string name="secondary_unit_hours" formatted="false">"小時"</string>
+    <string name="secondary_unit_kcal" formatted="false">"千卡"</string>
+    <string name="secondary_unit_grams" formatted="false">"克"</string>
+    <string name="secondary_invalid_period" formatted="false">"無效的日期範圍"</string>
+    <string name="secondary_stats_title" formatted="false">"變化趨勢"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"用清晰的圖表呈現你的記錄"</string>
+    <string name="secondary_metric" formatted="false">"指標"</string>
+    <string name="secondary_week" formatted="false">"周"</string>
+    <string name="secondary_month" formatted="false">"月"</string>
+    <string name="secondary_year" formatted="false">"年"</string>
+    <string name="secondary_custom_period" formatted="false">"自訂範圍"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"開始日期不能晚於結束日期"</string>
+    <string name="secondary_no_records" formatted="false">"暫無記錄"</string>
+    <string name="secondary_empty_food_period" formatted="false">"請在日記中添加食物，或選擇其他時間段。"</string>
+    <string name="secondary_chart_tap" formatted="false">"點按圖表可選擇一條記錄"</string>
+    <string name="secondary_chart_connected" formatted="false">"線條連接已記錄的測量值，兩點之間沒有測量數據。"</string>
+    <string name="secondary_body_fat_hint" formatted="false">"體脂秤的估算值適合用於觀察趨勢。"</string>
+    <string name="secondary_food_override_hint" formatted="false">"手動輸入的每日總量會替代食物合計值；否則按已記錄食物合計。沒有記錄的日期會被跳過。"</string>
+    <string name="secondary_food_total_hint" formatted="false">"總量根據已記錄食物計算。沒有記錄的日期不會按零計算。"</string>
+    <string name="secondary_missing_days_hint" formatted="false">"沒有記錄的日期會被跳過，也不計入平均值。"</string>
+    <string name="secondary_today_yesterday" formatted="false">"今天與昨天"</string>
+    <string name="secondary_no_today" formatted="false">"今天沒有記錄"</string>
+    <string name="secondary_no_yesterday" formatted="false">"昨天沒有記錄"</string>
+    <string name="secondary_partial_today" formatted="false">"此比較使用當前記錄。今天的數據可能尚不完整。"</string>
+    <string name="secondary_period_summary" formatted="false">"時間段摘要"</string>
+    <string name="secondary_recorded_average" formatted="false">"有記錄日期的平均值"</string>
+    <string name="secondary_recorded_days" formatted="false">"有數據的天數"</string>
+    <string name="secondary_minimum" formatted="false">"最低值"</string>
+    <string name="secondary_maximum" formatted="false">"最高值"</string>
+    <string name="secondary_first_to_last" formatted="false">"首條記錄至最後一條記錄"</string>
+    <string name="secondary_two_days_needed" formatted="false">"至少需要兩天的記錄才能計算變化。"</string>
+    <string name="secondary_history" formatted="false">"歷史記錄"</string>
+    <string name="secondary_history_recent" formatted="false">"最近 14 個有數據的日期。查看更早記錄請自定義時間範圍。"</string>
+    <string name="secondary_history_all" formatted="false">"所選時間段內所有有記錄的日期"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"從 %1$s"</string>
+    <string name="secondary_date_until">"至 %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"本時間段的%1$s"</string>
+    <string name="secondary_weight_goal">"目標：%1$s 公斤"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"請在日記中添加測量值，或選擇其他時間段。"</string>
+    <string name="secondary_latest_record">"最新記錄 · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s：%2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"今天：%1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"昨天：%1$s %2$s"</string>
+    <string name="secondary_change_value">"變化：%1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d / %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s。有記錄的天數：%2$d，從 %3$s 至 %4$s。最低值 %5$s，最高值 %6$s %7$s。具體數值見歷史記錄。"</string>
+    <string name="secondary_award_first_weight" formatted="false">"邁出第一步"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"儲存第一條體重記錄。"</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"已儲存第一條體重記錄。"</string>
+    <string name="secondary_award_first_food" formatted="false">"第一條飲食記錄"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"記錄第一份食物。"</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"已記錄第一份食物。"</string>
+    <string name="secondary_award_weight_week" formatted="false">"一週的數據"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"在 7 個不同日期記錄體重，無需連續。"</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"你已有 7 個不同日期的體重記錄。"</string>
+    <string name="secondary_award_weight_month" formatted="false">"持之以恆"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"在 30 個不同日期記錄體重。"</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"你已有 30 天的體重記錄。"</string>
+    <string name="secondary_award_food_hundred" formatted="false">"記錄收藏家"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"在日記中儲存 100 份食物記錄。"</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"你已儲存 100 份食物記錄。"</string>
+    <string name="secondary_award_food_streak" formatted="false">"新習慣"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"連續 7 個自然日記錄飲食。"</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"你已連續 7 天記錄飲食。"</string>
+    <string name="secondary_award_steps" formatted="false">"健步達人"</string>
+    <string name="secondary_award_steps_description" formatted="false">"記錄一天至少 10,000 步。"</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"你已記錄一天 10,000 步。"</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"記錄達人"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"儲存 100 條體重記錄，每個日期計一次。"</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"你已儲存 100 條體重記錄。"</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"日記老手"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"在 90 個不同日期記錄飲食或測量值，無需連續。"</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"你已有 90 個不同日期的日記記錄。"</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"次測量"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"份食物"</string>
+    <string name="secondary_award_unit_days" formatted="false">"天"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"連續天數"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"單日步數"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"有記錄的天數"</string>
+    <string name="secondary_back" formatted="false">"‹  返回"</string>
+    <string name="secondary_achievements" formatted="false">"成就"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"小小行動，養成習慣"</string>
+    <string name="secondary_your_progress" formatted="false">"你的進展"</string>
+    <string name="secondary_awards_permanent" formatted="false">"已獲得的成就不會因編輯記錄而消失。"</string>
+    <string name="secondary_awards_regular" formatted="false">"獎勵堅持與日常記錄"</string>
+    <string name="secondary_awards_through_today" formatted="false">"統計範圍包括今天及之前儲存的記錄。"</string>
+    <string name="secondary_hidden_achievement" formatted="false">"隱藏成就"</string>
+    <string name="secondary_hidden_description" formatted="false">"繼續使用日記，即可解鎖此成就。"</string>
+    <string name="secondary_earned" formatted="false">"已獲得"</string>
+    <string name="secondary_hidden_locked" formatted="false">"隱藏 · 未解鎖"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"進行中 · 未解鎖"</string>
+    <string name="secondary_locked" formatted="false">"未解鎖"</string>
+    <string name="secondary_hidden_progress" formatted="false">"獲得此成就後，將顯示條件和進度。"</string>
+    <string name="secondary_best_streak" formatted="false">"最長連續記錄"</string>
+    <string name="secondary_hidden_reward" formatted="false">"隱藏獎勵"</string>
+    <string name="secondary_unlocked_of">"已解鎖，共 %1$d 項"</string>
+    <string name="secondary_unlocked_date">"解鎖於 %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← 返回"</string>
+    <string name="secondary_my_recipe" formatted="false">"我的食譜"</string>
+    <string name="secondary_recipe_intro" formatted="false">"烹飪前稱量食材。根據成品重量計算食用份量。別忘了計入油和醬料。"</string>
+    <string name="secondary_recipe_name" formatted="false">"食譜名稱"</string>
+    <string name="secondary_recipe_example" formatted="false">"例如：蔬菜燉菜"</string>
+    <string name="secondary_ingredients" formatted="false">"食材"</string>
+    <string name="secondary_start_ingredients" formatted="false">"先添加食材"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"添加每種食材，並輸入其克數。"</string>
+    <string name="secondary_edit_weight" formatted="false">"編輯重量"</string>
+    <string name="secondary_delete" formatted="false">"刪除"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ 添加食材"</string>
+    <string name="secondary_whole_recipe" formatted="false">"整份食譜"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"烹飪過程中水分的增加或流失會改變重量。請稱量成品，不計容器重量。"</string>
+    <string name="secondary_cooked_weight" formatted="false">"成品重量，克"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"輸入烹飪後的重量"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"請輸入大於 0 且不超過 100,000 克的重量"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"重量不會自動填寫"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"每 100 克成品"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"請檢查成品重量和食材：每 100 克最多可含 1,000 千卡，每種營養素最多 100 克。"</string>
+    <string name="secondary_recipe_save_error" formatted="false">"無法儲存食譜"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"儲存到我的菜式"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"儲存後，即可按食用份量的重量記錄此菜式。"</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"烹飪前的食材重量"</string>
+    <string name="secondary_grams" formatted="false">"克"</string>
+    <string name="secondary_weight_limits" formatted="false">"大於 0 且不超過 100,000 克"</string>
+    <string name="secondary_add" formatted="false">"添加"</string>
+    <string name="secondary_save" formatted="false">"儲存"</string>
+    <string name="secondary_cancel" formatted="false">"取消"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"選擇食材"</string>
+    <string name="secondary_search_food" formatted="false">"搜尋食物"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"沒有搜尋結果。你可以在“食物”頁添加自己的食物。"</string>
+    <string name="secondary_close" formatted="false">"關閉"</string>
+    <string name="secondary_portion_energy">"%1$s 克 · %2$s 千卡"</string>
+    <string name="secondary_portion_macros">"蛋白質 %1$s · 脂肪 %2$s · 碳水化合物 %3$s 克"</string>
+    <string name="secondary_ingredients_weight">"食材重量：%1$s 克"</string>
+    <string name="secondary_energy">"%1$s 千卡"</string>
+    <string name="secondary_grams_value">"%1$s 克"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s 千卡 / 100 克"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s 克"</string>
+    <string name="secondary_recipe_note">"成品重量：%1$s 克。食材：%2$s"</string>
+    <string name="app_name" formatted="false">"飲食日記"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"遷移備份不匹配"</string>
+    <string name="data_entry_exists" formatted="false">"此飲食記錄已存在"</string>
+    <string name="data_entry_missing" formatted="false">"未找到飲食記錄"</string>
+    <string name="data_edited_date_changed" formatted="false">"正在編輯的記錄日期已更改"</string>
+    <string name="data_device_id_corrupt" formatted="false">"本機裝置 ID 已損壞，無法還原"</string>
+    <string name="data_sync_invalid" formatted="false">"無效的同步數據"</string>
+    <string name="data_diary_read_only" formatted="false">"日記已禁止覆蓋：請還原備份"</string>
+    <string name="data_diary_inconsistent" formatted="false">"日記數據不一致"</string>
+    <string name="data_backup_too_large" formatted="false">"備份過大"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"安裝 ID 已損壞"</string>
+    <string name="data_save_verification_failed" formatted="false">"無法確認日記是否已儲存"</string>
+    <string name="data_save_failed" formatted="false">"無法儲存日記"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"備份超過 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"日記檔案過大"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"食物資料庫大小無效"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"不支持此備份版本"</string>
+    <string name="data_too_many_values">"%1$s 中的數值過多"</string>
+    <string name="data_too_many_products" formatted="false">"食物數量過多"</string>
+    <string name="data_too_many_entries" formatted="false">"飲食記錄過多"</string>
+    <string name="data_too_many_logs" formatted="false">"日記記錄過多"</string>
+    <string name="data_product_id_duplicate" formatted="false">"食物 ID 重複"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"飲食記錄 ID 重複"</string>
+    <string name="data_log_date_duplicate" formatted="false">"日記日期重複"</string>
+    <string name="data_label_product_id" formatted="false">"食物 ID"</string>
+    <string name="data_label_product_name" formatted="false">"食物名稱"</string>
+    <string name="data_label_category" formatted="false">"分類"</string>
+    <string name="data_label_note" formatted="false">"備註"</string>
+    <string name="data_label_entry_id" formatted="false">"記錄 ID"</string>
+    <string name="data_label_meal" formatted="false">"餐次"</string>
+    <string name="data_food_weight_range" formatted="false">"食物重量必須大於 0 且不超過 100000 克"</string>
+    <string name="data_label_weight" formatted="false">"體重"</string>
+    <string name="data_label_waist" formatted="false">"腰圍"</string>
+    <string name="data_steps_range" formatted="false">"步數必須在 0 到 200000 之間"</string>
+    <string name="data_label_sleep" formatted="false">"睡眠"</string>
+    <string name="data_label_body_fat" formatted="false">"體脂率"</string>
+    <string name="data_label_daily_calories" formatted="false">"每日熱量"</string>
+    <string name="data_label_daily_protein" formatted="false">"每日蛋白質"</string>
+    <string name="data_label_workout" formatted="false">"訓練"</string>
+    <string name="data_label_log_note" formatted="false">"備註"</string>
+    <string name="data_log_empty" formatted="false">"請至少輸入一項測量值或備註"</string>
+    <string name="data_label_goal_weight" formatted="false">"目標體重"</string>
+    <string name="data_too_many_achievements" formatted="false">"成就數量過多"</string>
+    <string name="data_achievement_invalid" formatted="false">"無效的成就"</string>
+    <string name="data_setting_not_portable" formatted="false">"此設定無法轉移"</string>
+    <string name="data_setting_invalid">"設定 %1$s 的數值無效"</string>
+    <string name="data_label_calories" formatted="false">"熱量"</string>
+    <string name="data_label_protein" formatted="false">"蛋白質"</string>
+    <string name="data_label_fat" formatted="false">"脂肪"</string>
+    <string name="data_label_carbs" formatted="false">"碳水化合物"</string>
+    <string name="data_value_range">"%1$s：允許範圍為 %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s：長度無效"</string>
+    <string name="data_text_character_invalid">"%1$s：含有無效字符"</string>
+    <string name="data_date_format_invalid" formatted="false">"日期必須使用 YYYY-MM-DD 格式"</string>
+    <string name="data_date_nonexistent">"無效日期：%1$s"</string>
+    <string name="data_field_string_required">"欄位 %1$s 必須為文本"</string>
+    <string name="data_field_boolean_required">"欄位 %1$s 必須為布爾值"</string>
+    <string name="data_field_number_required">"欄位 %1$s 必須為數字"</string>
+    <string name="data_field_finite_required">"欄位 %1$s 必須為有限數"</string>
+    <string name="data_field_integer_required">"欄位 %1$s 必須為整數"</string>
+    <string name="data_too_many_items">"%1$s 中的項目過多"</string>
+    <string name="data_data_file_invalid">"無效的數據檔案：%1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"缺少裝置 ID"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"已達到邏輯時鐘上限"</string>
+    <string name="data_too_many_sync_records" formatted="false">"同步記錄過多"</string>
+    <string name="data_sync_version_required" formatted="false">"同步需要格式版本 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"無效的同步鍵"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"同步鍵重複"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"無效的刪除標記"</string>
+    <string name="data_sync_data_invalid" formatted="false">"無效的同步數據"</string>
+    <string name="data_record_clock_invalid" formatted="false">"記錄版本超出邏輯時鐘"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"數據與同步中繼資料不匹配"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"同步鍵長度無效"</string>
+    <string name="data_sync_key_malformed" formatted="false">"同步鍵格式錯誤"</string>
+    <string name="data_sync_type_unknown" formatted="false">"未知的同步類型"</string>
+    <string name="data_record_id_too_long" formatted="false">"記錄 ID 過長"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"無效的成就刪除操作"</string>
+    <string name="data_log_key_invalid" formatted="false">"無效的日記鍵"</string>
+    <string name="data_log_field_unknown" formatted="false">"未知的日記欄位"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"無效的日記刪除標記"</string>
+    <string name="data_goal_unknown" formatted="false">"未知目標"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"已刪除的記錄仍包含數據"</string>
+    <string name="data_sync_value_invalid" formatted="false">"無效的同步值"</string>
+    <string name="data_record_id_mismatch" formatted="false">"記錄 ID 與鍵不匹配"</string>
+    <string name="data_field_value_invalid" formatted="false">"無效的欄位值"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"成就日期與鍵不匹配"</string>
+    <string name="data_note_string_required" formatted="false">"備註必須為文本"</string>
+    <string name="data_sync_note_invalid" formatted="false">"無效的同步備註"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"無效的邏輯時鐘"</string>
+    <string name="data_device_invalid" formatted="false">"無效裝置"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"無效的版本標記"</string>
+    <string name="data_google_login_required" formatted="false">"請重新登入 Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"雲端備份過多"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive 返回了重複的頁面"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"雲端備份超過 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive 未返回上傳地址"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"無效的 Google Drive 上傳地址"</string>
+    <string name="data_back" formatted="false">"‹  返回"</string>
+    <string name="data_cloud_title" formatted="false">"雲端同步"</string>
+    <string name="data_cloud_subtitle" formatted="false">"在多台裝置上使用同一本日記"</string>
+    <string name="data_no_account" formatted="false">"未連接帳戶"</string>
+    <string name="data_cloud_intro" formatted="false">"登入為可選項。食物、飲食記錄、測量值、目標和成就儲存在手機上。連接後，副本會儲存到你的 Google Drive 隱藏資料夾中。"</string>
+    <string name="data_cloud_first_connection" formatted="false">"首次連線時會合併記錄。應用程式無法存取 Drive 中的其他檔案。"</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"此版本尚未配置 Google 登入。無需帳戶也可以使用日記和檔案備份。"</string>
+    <string name="data_connect_google" formatted="false">"連接 Google"</string>
+    <string name="data_automatic_sync" formatted="false">"自動同步"</string>
+    <string name="data_automatic_sync_description" formatted="false">"數據更改時同步，並在 Android 允許時於後台同步"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"無法更改計劃。你的數據已儲存在此裝置上。"</string>
+    <string name="data_sync_start_failed" formatted="false">"無法開始同步。你的數據已儲存在此裝置上。"</string>
+    <string name="data_sync_now" formatted="false">"立即同步"</string>
+    <string name="data_google_sign_in_again" formatted="false">"重新登入 Google"</string>
+    <string name="data_disconnect_account" formatted="false">"中斷帳戶連接"</string>
+    <string name="data_sync_never" formatted="false">"尚未同步"</string>
+    <string name="data_offline_saved_title" formatted="false">"你的數據已離線儲存"</string>
+    <string name="data_cloud_merge_description" formatted="false">"啟用自動同步後，有可用連接時便會發送更改。如果兩台裝置修改了同一欄位，會採用修改時間較晚的版本。不同記錄和欄位會合並保留。"</string>
+    <string name="data_cloud_password_description" formatted="false">"你只需在瀏覽器的 Google 頁面輸入密碼。存取權杖由 Android Keystore 保護，不包含在備份中。"</string>
+    <string name="data_google_connection_title" formatted="false">"Google 連接"</string>
+    <string name="data_got_it" formatted="false">"知道了"</string>
+    <string name="data_connect_drive_title" formatted="false">"連接 Google Drive？"</string>
+    <string name="data_connect_drive_description" formatted="false">"目前日記將與所選 Google 帳戶中的資料合併。請在各台裝置上使用同一個個人帳戶。登入頁面會在預設瀏覽器中開啟。"</string>
+    <string name="data_sign_in_open_failed" formatted="false">"無法打開登入頁面。請安裝或啟用預設瀏覽器後重試。"</string>
+    <string name="data_continue" formatted="false">"繼續"</string>
+    <string name="data_cancel" formatted="false">"取消"</string>
+    <string name="data_disconnect_title" formatted="false">"中斷帳戶連接？"</string>
+    <string name="data_disconnect_description" formatted="false">"此裝置將停止同步。本機日記和 Google Drive 中的副本會保留。你可以在 Google 帳戶設定中管理應用程式權限。"</string>
+    <string name="data_disconnect_failed" formatted="false">"無法中斷帳戶連接，請重試。"</string>
+    <string name="data_disconnect" formatted="false">"中斷連接"</string>
+    <string name="data_google_not_connected" formatted="false">"未連接 Google"</string>
+    <string name="data_sync_ready" formatted="false">"已準備好同步"</string>
+    <string name="data_sync_changes_pending" formatted="false">"更改正等待同步…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"沒有互聯網連接。更改已儲存在此裝置上。"</string>
+    <string name="data_google_not_configured" formatted="false">"此版本尚未配置 Google 登入"</string>
+    <string name="data_sync_wait" formatted="false">"請等待同步完成"</string>
+    <string name="data_google_connecting" formatted="false">"正在連接 Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"連接已取消"</string>
+    <string name="data_connection_rejected" formatted="false">"連接已取消或被 Google 拒絕"</string>
+    <string name="data_google_connected_merging" formatted="false">"已連接 Google，正在合併記錄…"</string>
+    <string name="data_google_connection_failed" formatted="false">"無法連接 Google。請檢查網絡連接和存取權限設定。"</string>
+    <string name="data_account_disconnected" formatted="false">"帳戶已中斷連接。數據仍保留在此裝置上。"</string>
+    <string name="data_sync_waiting_network" formatted="false">"沒有互聯網連接。同步正在等待網絡連接。"</string>
+    <string name="data_sync_scheduled" formatted="false">"已安排同步…"</string>
+    <string name="data_sync_running" formatted="false">"正在同步…"</string>
+    <string name="data_sync_complete" formatted="false">"同步完成"</string>
+    <string name="data_no_internet" formatted="false">"沒有互聯網連接"</string>
+    <string name="data_sync_failed_saved" formatted="false">"無法同步。你的數據已儲存在此裝置上"</string>
+    <string name="data_page_open_failed" formatted="false">"無法打開頁面。你可以從下方文字中複製地址。"</string>
+    <string name="data_privacy_title" formatted="false">"私隱"</string>
+    <string name="data_privacy_subtitle" formatted="false">"記錄與數據管理"</string>
+    <string name="data_app_purpose" formatted="false">"應用程式介紹"</string>
+    <string name="data_medical_disclaimer" formatted="false">"本應用程式不是醫療器械，不用於診斷、治療、治癒或預防任何疾病。如需醫療建議、診斷或治療，請諮詢具備資質的醫療專業人員。"</string>
+    <string name="data_manage_delete_data" formatted="false">"管理與刪除數據"</string>
+    <string name="data_delete_data_intro" formatted="false">"刪除所有數據之前，請先關閉所有裝置上的同步。卸載手機上的應用程式不會刪除 Google Drive 中的副本或已匯出的檔案。"</string>
+    <string name="data_manage_drive_data" formatted="false">"管理 Google Drive 數據"</string>
+    <string name="data_google_account_access" formatted="false">"Google 帳戶存取權"</string>
+    <string name="data_android_app_storage" formatted="false">"Android 應用程式儲存空間"</string>
+    <string name="data_contact_developer" formatted="false">"聯絡開發者"</string>
+    <string name="data_opening_page" formatted="false">"打開頁面"</string>
+    <string name="data_advertisement" formatted="false">"廣告"</string>
+    <string name="data_ad_information" formatted="false">"關於此廣告"</string>
+    <string name="data_cloud_http_error">"雲端 HTTP 錯誤 %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"雲端回應過大"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"無效的加密登入工作階段"</string>
+    <string name="data_session_save_failed" formatted="false">"無法儲存登入工作階段"</string>
+    <string name="data_token_refresh_failed" formatted="false">"無法刷新 Google 存取權限"</string>
+    <string name="data_diary_read_failed">"無法讀取日記。原始檔案已保留。請從備份還原數據。%1$s"</string>
+    <string name="data_last_sync">"上次同步：%1$s"</string>
+    <string name="data_category_fruit" formatted="false">"水果與漿果"</string>
+    <string name="data_category_dried_fruit" formatted="false">"果乾"</string>
+    <string name="data_category_vegetables" formatted="false">"蔬菜與香草"</string>
+    <string name="data_category_mushrooms" formatted="false">"蘑菇"</string>
+    <string name="data_category_grains" formatted="false">"穀物與意粉"</string>
+    <string name="data_category_legumes" formatted="false">"豆類"</string>
+    <string name="data_category_meat" formatted="false">"肉類與禽類"</string>
+    <string name="data_category_fish" formatted="false">"魚類與海鮮"</string>
+    <string name="data_category_dairy" formatted="false">"乳製品"</string>
+    <string name="data_category_eggs" formatted="false">"蛋類"</string>
+    <string name="data_category_oils" formatted="false">"食用油與牛油"</string>
+    <string name="data_category_nuts" formatted="false">"堅果與種子"</string>
+    <string name="data_category_bread" formatted="false">"麪包"</string>
+    <string name="data_category_other" formatted="false">"其他食物"</string>
+    <string name="data_category_dishes" formatted="false">"熟食菜式"</string>
+    <string name="data_category_custom" formatted="false">"我的食物"</string>
+    <string name="data_category_other_short" formatted="false">"其他"</string>
+    <string name="data_category_my_dishes" formatted="false">"我的菜式"</string>
+    <string name="data_meal_breakfast" formatted="false">"早餐"</string>
+    <string name="data_meal_lunch" formatted="false">"午餐"</string>
+    <string name="data_meal_dinner" formatted="false">"晚餐"</string>
+    <string name="data_meal_snack" formatted="false">"小食"</string>
+    <string name="data_food_seed_9003" formatted="false">"蘋果，帶皮"</string>
+    <string name="data_food_seed_9040" formatted="false">"香蕉，去皮"</string>
+    <string name="data_food_seed_9021" formatted="false">"杏，去核"</string>
+    <string name="data_food_seed_9037" formatted="false">"牛油果果肉"</string>
+    <string name="data_food_seed_9050" formatted="false">"藍莓"</string>
+    <string name="data_food_seed_9070" formatted="false">"甜車厘子，去核"</string>
+    <string name="data_food_seed_9063" formatted="false">"酸車厘子，去核"</string>
+    <string name="data_food_seed_9078" formatted="false">"蔓越莓"</string>
+    <string name="data_food_seed_9083" formatted="false">"黑加侖子"</string>
+    <string name="data_food_seed_9084" formatted="false">"紅加侖子與白加侖子"</string>
+    <string name="data_food_seed_9132" formatted="false">"葡萄"</string>
+    <string name="data_food_seed_9148" formatted="false">"奇異果果肉"</string>
+    <string name="data_food_seed_9150" formatted="false">"檸檬，去皮"</string>
+    <string name="data_food_seed_9181" formatted="false">"網紋蜜瓜果肉"</string>
+    <string name="data_food_seed_9200" formatted="false">"橙肉"</string>
+    <string name="data_food_seed_9218" formatted="false">"柑肉"</string>
+    <string name="data_food_seed_9236" formatted="false">"桃，去核"</string>
+    <string name="data_food_seed_9252" formatted="false">"梨"</string>
+    <string name="data_food_seed_9266" formatted="false">"菠蘿果肉"</string>
+    <string name="data_food_seed_9279" formatted="false">"布冧，去核"</string>
+    <string name="data_food_seed_9286" formatted="false">"石榴籽"</string>
+    <string name="data_food_seed_9295" formatted="false">"柚子果肉"</string>
+    <string name="data_food_seed_9302" formatted="false">"紅桑子"</string>
+    <string name="data_food_seed_9316" formatted="false">"士多啤梨"</string>
+    <string name="data_food_seed_9326" formatted="false">"西瓜果肉"</string>
+    <string name="data_food_seed_9191" formatted="false">"油桃，去核"</string>
+    <string name="data_food_seed_9176" formatted="false">"芒果果肉"</string>
+    <string name="data_food_seed_9107" formatted="false">"醋栗（鵝莓）"</string>
+    <string name="data_food_seed_9226" formatted="false">"木瓜果肉"</string>
+    <string name="data_food_seed_9089" formatted="false">"新鮮無花果"</string>
+    <string name="data_food_seed_9111" formatted="false">"西柚果肉"</string>
+    <string name="data_food_seed_9032" formatted="false">"杏幹，去核"</string>
+    <string name="data_food_seed_9291" formatted="false">"西梅乾，去核"</string>
+    <string name="data_food_seed_9087" formatted="false">"椰棗，去核"</string>
+    <string name="data_food_seed_9298" formatted="false">"深色葡萄乾，無籽"</string>
+    <string name="data_food_seed_11529" formatted="false">"新鮮番茄"</string>
+    <string name="data_food_seed_11205" formatted="false">"青瓜，連皮"</string>
+    <string name="data_food_seed_11090" formatted="false">"西蘭花，生"</string>
+    <string name="data_food_seed_11109" formatted="false">"椰菜，生"</string>
+    <string name="data_food_seed_11124" formatted="false">"紅蘿蔔，生"</string>
+    <string name="data_food_seed_11135" formatted="false">"椰菜花，生"</string>
+    <string name="data_food_seed_11143" formatted="false">"西芹莖"</string>
+    <string name="data_food_seed_11282" formatted="false">"洋葱，生"</string>
+    <string name="data_food_seed_11291" formatted="false">"青葱"</string>
+    <string name="data_food_seed_11304" formatted="false">"青豆，生"</string>
+    <string name="data_food_seed_11333" formatted="false">"青椒"</string>
+    <string name="data_food_seed_11821" formatted="false">"紅甜椒"</string>
+    <string name="data_food_seed_11352" formatted="false">"薯仔，連皮，生"</string>
+    <string name="data_food_seed_11367" formatted="false">"水煮薯仔，去皮"</string>
+    <string name="data_food_seed_11477" formatted="false">"翠玉瓜，生"</string>
+    <string name="data_food_seed_11209" formatted="false">"茄子，生"</string>
+    <string name="data_food_seed_11422" formatted="false">"南瓜，生"</string>
+    <string name="data_food_seed_11429" formatted="false">"櫻桃蘿蔔"</string>
+    <string name="data_food_seed_11564" formatted="false">"蕪菁，生"</string>
+    <string name="data_food_seed_11080" formatted="false">"甜菜根，生"</string>
+    <string name="data_food_seed_11081" formatted="false">"水煮甜菜根"</string>
+    <string name="data_food_seed_11215" formatted="false">"大蒜"</string>
+    <string name="data_food_seed_11216" formatted="false">"生薑"</string>
+    <string name="data_food_seed_11457" formatted="false">"菠菜，生"</string>
+    <string name="data_food_seed_11253" formatted="false">"葉生菜"</string>
+    <string name="data_food_seed_11297" formatted="false">"新鮮番茜"</string>
+    <string name="data_food_seed_2045" formatted="false">"新鮮蒔蘿"</string>
+    <string name="data_food_seed_11052" formatted="false">"四季豆，生"</string>
+    <string name="data_food_seed_11167" formatted="false">"甜粟米粒，生"</string>
+    <string name="data_food_seed_11260" formatted="false">"白蘑菇，生"</string>
+    <string name="data_food_seed_11261" formatted="false">"水煮白蘑菇，無鹽"</string>
+    <string name="data_food_seed_11987" formatted="false">"蠔菇，生"</string>
+    <string name="data_food_seed_20009" formatted="false">"蕎麥米，幹"</string>
+    <string name="data_food_seed_20010" formatted="false">"水煮蕎麥"</string>
+    <string name="data_food_seed_20444" formatted="false">"白米，幹"</string>
+    <string name="data_food_seed_20445" formatted="false">"煮熟白米飯，無鹽"</string>
+    <string name="data_food_seed_20036" formatted="false">"糙米，幹"</string>
+    <string name="data_food_seed_20037" formatted="false">"煮熟糙米飯"</string>
+    <string name="data_food_seed_8120" formatted="false">"壓片燕麥，幹"</string>
+    <string name="data_food_seed_8121" formatted="false">"水煮燕麥粥，無鹽"</string>
+    <string name="data_food_seed_20005" formatted="false">"珍珠大麥，幹"</string>
+    <string name="data_food_seed_20006" formatted="false">"水煮珍珠大麥"</string>
+    <string name="data_food_seed_20031" formatted="false">"小米，幹"</string>
+    <string name="data_food_seed_20032" formatted="false">"煮熟小米"</string>
+    <string name="data_food_seed_20420" formatted="false">"意粉，乾"</string>
+    <string name="data_food_seed_20421" formatted="false">"水煮意粉，無鹽"</string>
+    <string name="data_food_seed_16070" formatted="false">"水煮小扁豆，無鹽"</string>
+    <string name="data_food_seed_16057" formatted="false">"水煮鷹嘴豆，無鹽"</string>
+    <string name="data_food_seed_16033" formatted="false">"水煮紅腰豆，無鹽"</string>
+    <string name="data_food_seed_5062" formatted="false">"去皮雞胸肉，生"</string>
+    <string name="data_food_seed_5064" formatted="false">"烤去皮雞胸肉"</string>
+    <string name="data_food_seed_5219" formatted="false">"去皮火雞胸肉，生"</string>
+    <string name="data_food_seed_5220" formatted="false">"烤去皮火雞胸肉"</string>
+    <string name="data_food_seed_23562" formatted="false">"免治牛肉，脂肪 10%，生"</string>
+    <string name="data_food_seed_23566" formatted="false">"焗免治牛肉，脂肪 10%"</string>
+    <string name="data_food_seed_10060" formatted="false">"豬柳，去除可見脂肪，生"</string>
+    <string name="data_food_seed_10061" formatted="false">"焗豬柳"</string>
+    <string name="data_food_seed_15236" formatted="false">"大西洋三文魚，生"</string>
+    <string name="data_food_seed_15237" formatted="false">"焗大西洋三文魚"</string>
+    <string name="data_food_seed_15015" formatted="false">"大西洋鱈魚，生"</string>
+    <string name="data_food_seed_15266" formatted="false">"阿拉斯加狹鱈，生"</string>
+    <string name="data_food_seed_15121" formatted="false">"水浸吞拿魚罐頭，瀝乾"</string>
+    <string name="data_food_seed_15271" formatted="false">"熟蝦仁"</string>
+    <string name="data_food_seed_1211" formatted="false">"牛奶，脂肪 3.25%"</string>
+    <string name="data_food_seed_1174" formatted="false">"牛奶，脂肪 2%"</string>
+    <string name="data_food_seed_1082" formatted="false">"牛奶，脂肪 1%"</string>
+    <string name="data_food_seed_1116" formatted="false">"原味全脂乳酪"</string>
+    <string name="data_food_seed_1256" formatted="false">"脫脂希臘乳酪"</string>
+    <string name="data_food_seed_1015" formatted="false">"茅屋芝士，脂肪 2%"</string>
+    <string name="data_food_seed_1056" formatted="false">"酸忌廉，脂肪約 19%"</string>
+    <string name="data_food_seed_1009" formatted="false">"車打芝士"</string>
+    <string name="data_food_seed_1026" formatted="false">"全脂莫扎里拉芝士"</string>
+    <string name="data_food_seed_1019" formatted="false">"菲達芝士"</string>
+    <string name="data_food_seed_1123" formatted="false">"生雞蛋，去殼"</string>
+    <string name="data_food_seed_1129" formatted="false">"煮雞蛋，去殼"</string>
+    <string name="data_food_seed_1124" formatted="false">"生蛋白"</string>
+    <string name="data_food_seed_1001" formatted="false">"有鹽牛油"</string>
+    <string name="data_food_seed_4053" formatted="false">"橄欖油"</string>
+    <string name="data_food_seed_4506" formatted="false">"葵花籽油"</string>
+    <string name="data_food_seed_12061" formatted="false">"杏仁"</string>
+    <string name="data_food_seed_12155" formatted="false">"合桃仁"</string>
+    <string name="data_food_seed_12120" formatted="false">"榛子仁"</string>
+    <string name="data_food_seed_12151" formatted="false">"開心果仁，生"</string>
+    <string name="data_food_seed_12014" formatted="false">"幹南瓜籽仁"</string>
+    <string name="data_food_seed_16087" formatted="false">"去殼生花生"</string>
+    <string name="data_food_seed_18069" formatted="false">"白小麥麪包"</string>
+    <string name="data_food_seed_18075" formatted="false">"全麥麪包"</string>
+    <string name="data_food_seed_18060" formatted="false">"黑麥麪包"</string>
+    <string name="data_food_seed_19296" formatted="false">"蜂蜜"</string>
+    <string name="data_food_seed_19335" formatted="false">"砂糖"</string>
+    <string name="data_food_seed_19165" formatted="false">"無糖可可粉"</string>
+    <string name="data_food_seed_19904" formatted="false">"黑朱古力，可可含量 70–85%"</string>
+    <string name="data_catalog_note_1">"每 100 克可食部分的參考值，按生食材計。USDA 的碳水化合物數值包含膳食纖維。你可以根據產品標籤調整數值。USDA SR Legacy，FDC %1$s。"</string>
+    <string name="data_catalog_note_2">"每 100 克可食部分的參考值。USDA 的碳水化合物數值包含膳食纖維。你可以根據產品標籤調整數值。USDA SR Legacy，FDC %1$s。"</string>
+    <string name="data_catalog_note_3">"每 100 克可食部分的參考值，未添加鹽。USDA 的碳水化合物數值包含膳食纖維。你可以根據產品標籤調整數值。USDA SR Legacy，FDC %1$s。"</string>
+    <string name="data_catalog_note_4">"每 100 克可食部分的參考值，按烘烤過的蕎麥米計。USDA 的碳水化合物數值包含膳食纖維。你可以根據產品標籤調整數值。USDA SR Legacy，FDC %1$s。"</string>
+    <string name="data_catalog_note_5">"每 100 克可食部分的參考值，按生的養殖食材計。USDA 的碳水化合物數值包含膳食纖維。你可以根據產品標籤調整數值。USDA SR Legacy，FDC %1$s。"</string>
+    <string name="data_catalog_note_6">"每 100 克可食部分的參考值，按養殖食材計。USDA 的碳水化合物數值包含膳食纖維。你可以根據產品標籤調整數值。USDA SR Legacy，FDC %1$s。"</string>
+    <string name="data_catalog_note_7">"每 100 克可食部分的參考值，以茅屋芝士為準，其他凝乳芝士的數值不同。USDA 的碳水化合物數值包含膳食纖維。你可以按產品標籤調整数值。USDA SR Legacy，FDC %1$s。"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary 私隱政策\n修訂日期：2026 年 10 月 9 日"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"應用程式：Diet Diary；Google Play 的俄語上架名稱：«Дневник диеты: подсчёт калорий»；套件：ru.dietdiary.offline。\n項目開發者：Efreitor2001。如有應用程式或數據處理方面的問題，請通過 https://github.com/Efreitor2001/kkalcal/issues 聯絡。GitHub 問題是公開的，請勿在那裏發佈健康記錄、備份、密碼或權杖。"</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. 裝置上的日記\n使用日記無需註冊。應用程式在裝置的專用儲存區域儲存食物及其營養值、份量和用餐日期、體重、腰圍、體脂率、步數、睡眠、訓練描述、備註、目標、成就和應用程式設定。選填項目可以留空。步數、睡眠和測量值均為手動輸入；應用程式不讀取 Health Connect、身體活動感應器或醫療裝置數據。"</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"這些資訊用於計算熱量和主要營養素，並提供歷史記錄、圖表和成就。開發者不運營接收日記內容的伺服器。如果你不連接 Google Drive，也不自行分享備份，記錄將保留在裝置上。"</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. 可選的 Google Drive 連接\n根據你的選擇，應用程式會在預設瀏覽器中打開 Google 登入，並請求存取 Google Drive 中本應用程式的隱藏數據儲存區域。此權限不允許存取你在 Drive 中的一般文檔或照片。"</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"連接後，食物、飲食記錄、日記測量值、備註、目標、成就、可轉移的設定和更改中繼資料將發送給 Google。更改中繼資料包括隨機安裝識別碼和時間戳。這用於儲存備份快照及合併不同裝置上的記錄。如果啟用自動同步，有網絡連接時也會在後台發送更改。你可以單獨關閉自動同步。"</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"應用程式會接收所選 Google 帳戶的電子郵件地址和識別碼，以顯示連接狀態並關聯到正確的儲存區域。你的 Google 密碼不會提供給應用程式。授權工作階段使用 Android Keystore 中的密鑰加密後儲存在裝置上。權杖、電子郵件地址和 Google 識別碼不會包含在日記匯出檔案或同步的 JSON 快照中。"</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google 數據僅用於授權與同步，絕不用於廣告。適用 Google 私隱政策： https://policies.google.com/privacy 。"</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. 備份檔案\n“儲存到檔案”會在你選擇的位置建立 JSON 檔案。還原時只讀取你選定的檔案。如果選擇雲端檔案服務，或將副本分享給他人，接收方由你決定。應用程式不會加密匯出的 JSON 檔案：這些檔案包含個人記錄和更改中繼資料。"</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. 廣告\n應用程式使用 Yandex Mobile Ads SDK。為載入和展示廣告，裝置會連接廣告服務。Yandex 可能處理你的 IP 地址、網絡請求、裝置及軟件的其他技術資訊、可用的廣告或技術識別碼，以及廣告展示和互動資訊。"</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"應用程式向 SDK 表明未獲得同意，並關閉位置收集和 App Ad Analytics 報告。應用程式不請求精確或大致位置權限。這些設定並不意味着廣告服務完全不進行網絡通訊或技術數據處理。"</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"應用程式不會將飲食記錄、體重、測量值、備註、目標、電子郵件地址或 Google 識別碼用於廣告定向，也不會將它們加入廣告請求參數。儲存記錄不要求觀看廣告。"</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex 關於數據處理、保留和刪除的規則： https://yandex.ru/legal/confidential/ 。如果系統版本支持，你可以在 Android 設定中管理廣告識別碼。廣告服務的技術數據保留期限由其政策決定，日記開發者不會為該數據另行規定保留期限。"</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. 數據保護\n與 Google 的通訊使用 HTTPS；Yandex 聲明 SDK 數據通過 HTTPS/TLS 傳輸。本機日記由 Android 的應用程式隔離機制保護。應用程式不會單獨加密日記內容或 JSON 快照，也不提供裝置之間的端到端加密。"</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"應用程式數據的系統備份已關閉。應用程式自身代碼寫入的診斷記錄檔包含結果代碼，不包含日記內容、電子郵件地址、權杖或網絡回應正文；應用程式不會將這些記錄檔另行發送給開發者。"</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. 保留與刪除\n本機記錄會保留到你修改、刪除記錄或清除應用程式數據為止。刪除記錄後，它會從界面中移除，並在同步時發送刪除標記。為防止舊數據重新出現，合併中繼資料會保留，其中可能包含已刪除日記記錄的舊值。舊值也可能保留在過去的雲端快照和你以前建立的檔案中。因此，刪除一條記錄並不會徹底清除它的所有副本。"</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“中斷帳戶連接”會停止此裝置上的同步，並刪除本機 Google 工作階段。日記和 Google Drive 中的快照會保留。中斷應用程式連接不會刪除你的 Google 帳戶。"</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"如需徹底刪除本應用程式的數據：\n• 關閉所有裝置上的同步，以免剩餘副本再次上傳。\n• 在瀏覽器中使用之前連接的 Google 帳戶打開 https://drive.google.com/drive/settings 。選擇“管理應用程式”，找到“Diet Diary”（或 «Дневник диеты»），再選擇“選項”→“刪除隱藏的應用程式數據”。如果流動版頁面沒有此部分，請使用電腦版網站或電腦。\n• 在 https://myaccount.google.com/connections 撤回應用程式存取權限。僅撤回權限不會清除已儲存的副本。\n• 在每台裝置的 Android 設定中清除應用程式儲存空間，或卸載應用程式。\n• 刪除你在自選資料夾和雲端儲存中單獨儲存的 JSON 備份。"</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"沒有你的登入憑證，開發者無法遠程清除本機日記或你個人 Google Drive 中的檔案。請勿向開發者提供密碼或權杖。如需刪除方面的幫助，請通過本政策開頭的連結聯絡項目。刪除日記數據不需要刪除 Google 帳戶。"</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. 變更與聯絡\n應用程式功能或數據處理方式改變時，本政策會更新並標註修訂日期。如有數據存取、更正、刪除或應用程式運行方面的問題，請使用項目的聯絡渠道。你提交的請求會為提供答覆而處理，並儲存在 GitHub 中；GitHub 政策見 https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement 。"</string>
+</resources>

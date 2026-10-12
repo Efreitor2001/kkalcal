@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Étrendnapló"</string>
+    <string name="core_app_name" formatted="false">"Étrendnapló"</string>
+    <string name="core_tagline" formatted="false">"Kalóriák, testsúly és fejlődés"</string>
+    <string name="core_open_diary" formatted="false">"Napló megnyitása"</string>
+    <string name="core_save_failed" formatted="false">"Az adatokat nem sikerült menteni"</string>
+    <string name="core_day" formatted="false">"Ma"</string>
+    <string name="core_products" formatted="false">"Élelmiszerek"</string>
+    <string name="core_diary" formatted="false">"Napló"</string>
+    <string name="core_charts" formatted="false">"Grafikonok"</string>
+    <string name="core_more" formatted="false">"Továbbiak"</string>
+    <string name="core_recipe_saved" formatted="false">"Az étel bekerült az élelmiszerek közé"</string>
+    <string name="core_back_to_day" formatted="false">"Vissza a napodhoz"</string>
+    <string name="core_action_failed" formatted="false">"A művelet nem sikerült"</string>
+    <string name="core_understood" formatted="false">"Rendben"</string>
+    <string name="core_restore_available" formatted="false">"A biztonsági másolatot a Továbbiak menüben állíthatod vissza."</string>
+    <string name="core_eaten_today" formatted="false">"MA ELFOGYASZTVA"</string>
+    <string name="core_set_goal_hint" formatted="false">"A Továbbiak menüben állíthatsz be célt"</string>
+    <string name="core_add_food" formatted="false">"+ Étel hozzáadása"</string>
+    <string name="core_first_meal" formatted="false">"Kezdd az első étkezéseddel"</string>
+    <string name="core_first_meal_help" formatted="false">"Válassz élelmiszert, majd add meg a tömegét grammban a kalóriák és makrotápanyagok kiszámításához."</string>
+    <string name="core_my_day" formatted="false">"A napom"</string>
+    <string name="core_my_day_help" formatted="false">"Testsúly, derékbőség, lépések, alvás — jegyezd fel, amiről van adatod."</string>
+    <string name="core_record_metrics" formatted="false">"Mérések rögzítése"</string>
+    <string name="core_edit_metrics" formatted="false">"Mérések szerkesztése"</string>
+    <string name="core_food_state_hint" formatted="false">"A tömegnek és a tápértékeknek az élelmiszer azonos állapotára kell vonatkozniuk: nyers, száraz vagy elkészített."</string>
+    <string name="core_weight" formatted="false">"Testsúly"</string>
+    <string name="core_waist" formatted="false">"Derékbőség"</string>
+    <string name="core_my_diary" formatted="false">"A naplóm"</string>
+    <string name="core_diary_tagline" formatted="false">"Minden nap a saját ritmusodban"</string>
+    <string name="core_record_day" formatted="false">"+ Nap rögzítése"</string>
+    <string name="core_optional_diary_help" formatted="false">"Minden mérés megadása opcionális. Csak a testsúlyodat, alvásodat vagy egy megjegyzést is rögzíthetsz. Szerkesztéshez koppints egy bejegyzésre."</string>
+    <string name="core_history_starts" formatted="false">"Itt kezdődik a történeted"</string>
+    <string name="core_history_help" formatted="false">"Rögzítsd a méréseidet, és kövesd a változásokat a Grafikonok között."</string>
+    <string name="core_file_unavailable" formatted="false">"A fájl nem érhető el"</string>
+    <string name="core_backup_saved" formatted="false">"Biztonsági másolat mentve"</string>
+    <string name="core_export_error" formatted="false">"A biztonsági másolatot nem sikerült exportálni"</string>
+    <string name="core_read_error" formatted="false">"A fájlt nem sikerült beolvasni"</string>
+    <string name="core_settings_tagline" formatted="false">"Beállítások és biztonsági mentés"</string>
+    <string name="core_your_progress" formatted="false">"Fejlődésed"</string>
+    <string name="core_achievements_help" formatted="false">"Apró eredmények, amelyek segítenek szokássá tenni a naplózást."</string>
+    <string name="core_achievements" formatted="false">"Eredmények"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Opcionális bejelentkezés a napló eszközök közötti szinkronizálásához."</string>
+    <string name="core_cloud_sync" formatted="false">"Felhőszinkronizálás"</string>
+    <string name="core_personal_goals" formatted="false">"Személyes célok"</string>
+    <string name="core_personal_goals_help" formatted="false">"Állíts be saját kalória-, makrotápanyag- és testsúlycélokat. Bármelyik célt üresen hagyhatod."</string>
+    <string name="core_configure_goals" formatted="false">"Célok beállítása"</string>
+    <string name="core_backup" formatted="false">"Biztonsági mentés"</string>
+    <string name="core_backup_help" formatted="false">"Élelmiszerek, étkezések, napló, célok és eredmények egyetlen fájlban. Az alkalmazás újratelepítése előtt készíts biztonsági másolatot."</string>
+    <string name="core_save_file" formatted="false">"Mentés fájlba"</string>
+    <string name="core_restore_file" formatted="false">"Visszaállítás fájlból"</string>
+    <string name="core_write_locked" formatted="false">"A mentés le van tiltva az eredeti fájl védelmében. Állíts vissza egy érvényes biztonsági másolatot."</string>
+    <string name="core_about_data" formatted="false">"Az alkalmazásról és az adataidról"</string>
+    <string name="core_about_data_help" formatted="false">"A bejegyzések tárolása, szinkronizálása és törlése."</string>
+    <string name="core_privacy" formatted="false">"Adatvédelem és adatok törlése"</string>
+    <string name="core_offline" formatted="false">"Internet nélkül is működik"</string>
+    <string name="core_offline_help" formatted="false">"A Google-bejelentkezés opcionális. A lépések és az alvás kézzel adhatók meg. Internet az engedélyezett szinkronizáláshoz és a hirdetések betöltéséhez szükséges. A naplóbejegyzések nem kerülnek a hirdetési hálózathoz."</string>
+    <string name="core_about_foods" formatted="false">"Az élelmiszerekről"</string>
+    <string name="core_foods_reference" formatted="false">"A beépített értékek becslések, 100 g ehető részre vonatkoznak. A pontos értékeket ellenőrizd a csomagoláson. Egy élelmiszer szerkesztése nem számolja újra a korábban rögzített étkezéseket."</string>
+    <string name="core_foods_source" formatted="false">"Az adatbázis forrása: USDA FoodData Central, SR Legacy. Minden élelmiszernél szerepel az állapota és a forrása."</string>
+    <string name="core_restore_title" formatted="false">"Visszaállítod ezt a másolatot?"</string>
+    <string name="core_restore_warning" formatted="false">"A jelenlegi élelmiszereidet, naplódat, céljaidat és eredményeidet a fájl tartalma váltja fel. Előbb készíts biztonsági másolatot. Ha a szinkronizálás csatlakoztatva van, a visszaállított adatok a Google Drive-ba is elküldésre kerülnek."</string>
+    <string name="core_backup_restored" formatted="false">"Biztonsági másolat visszaállítva"</string>
+    <string name="core_invalid_file" formatted="false">"Érvénytelen fájl"</string>
+    <string name="core_replace_data" formatted="false">"Adatok cseréje"</string>
+    <string name="core_cancel" formatted="false">"Mégse"</string>
+    <string name="core_save" formatted="false">"Mentés"</string>
+    <string name="core_calculate_portion" formatted="false">"Adag kiszámítása"</string>
+    <string name="core_edit_portion" formatted="false">"Adag szerkesztése"</string>
+    <string name="core_portion_weight" formatted="false">"Adag tömege, g"</string>
+    <string name="core_portion_invalid" formatted="false">"0-nál nagyobb, legfeljebb 100 000 g tömeget adj meg"</string>
+    <string name="core_add_to_diary" formatted="false">"Hozzáadás a naplóhoz"</string>
+    <string name="core_delete_entry" formatted="false">"Bejegyzés törlése"</string>
+    <string name="core_delete_portion_question" formatted="false">"Törlöd ezt az adagot a naplódból?"</string>
+    <string name="core_new_food" formatted="false">"Új élelmiszer vagy étel"</string>
+    <string name="core_edit_nutrition" formatted="false">"Tápértékek szerkesztése"</string>
+    <string name="core_name" formatted="false">"Név"</string>
+    <string name="core_food" formatted="false">"Élelmiszer"</string>
+    <string name="core_dish" formatted="false">"Készétel"</string>
+    <string name="core_category" formatted="false">"Kategória"</string>
+    <string name="core_per100_hint" formatted="false">"100 g-ra vonatkozó értékek a csomagolásról vagy receptből. Ha egy tápanyag nincs jelen, adj meg 0-t."</string>
+    <string name="core_kcal" formatted="false">"Kalória"</string>
+    <string name="core_protein_grams" formatted="false">"Fehérje, g"</string>
+    <string name="core_fat_grams" formatted="false">"Zsír, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Szénhidrát, g"</string>
+    <string name="core_food_note" formatted="false">"Megjegyzés, összetevők (opcionális)"</string>
+    <string name="core_favorite" formatted="false">"Hozzáadás a kedvencekhez"</string>
+    <string name="core_name_category_required" formatted="false">"Adj meg nevet és kategóriát"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Add meg a 100 g-ra vonatkozó értékeket: kalória 0–1000; fehérje, zsír és szénhidrát 0–100 g"</string>
+    <string name="core_delete_food" formatted="false">"Törlés az élelmiszerek közül"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"A már rögzített étkezések értékei változatlanok maradnak."</string>
+    <string name="core_delete_food_question" formatted="false">"Törlöd ezt az élelmiszert? A naplóban szereplő bejegyzései megmaradnak."</string>
+    <string name="core_day_entry" formatted="false">"Napi bejegyzés"</string>
+    <string name="core_optional_fields" formatted="false">"Töltsd ki a kívánt mezőket. A többit hagyd üresen."</string>
+    <string name="core_editing_existing" formatted="false">"Ehhez a dátumhoz már tartozik bejegyzés. Most azt szerkeszted."</string>
+    <string name="core_weight_kg" formatted="false">"Testsúly, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Derékbőség, cm"</string>
+    <string name="core_steps" formatted="false">"Lépések"</string>
+    <string name="core_sleep" formatted="false">"Alvás"</string>
+    <string name="core_hours" formatted="false">"Óra"</string>
+    <string name="core_minutes" formatted="false">"Perc"</string>
+    <string name="core_body_fat_optional" formatted="false">"Mérleg szerinti testzsír, % (opcionális)"</string>
+    <string name="core_body_fat_hint" formatted="false">"A mérleg által jelzett testzsírszázalék a tendencia követésére alkalmas; nem pontos mérés."</string>
+    <string name="core_strength_training" formatted="false">"Erősítő edzés"</string>
+    <string name="core_training_example" formatted="false">"Például: guggolás 3×10, 12 kg-os kézisúlyzók"</string>
+    <string name="core_manual_nutrition" formatted="false">"Kézi táplálkozási összesítések"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Ha kitöltöd, ezek az értékek felülírják az élelmiszerekből számolt napi összegeket. Automatikus számításhoz hagyd üresen."</string>
+    <string name="core_daily_calories" formatted="false">"Napi kalória"</string>
+    <string name="core_daily_protein" formatted="false">"Napi fehérje, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Megjegyzések és közérzet"</string>
+    <string name="core_steps_invalid" formatted="false">"Lépések: 0 és 200 000 közötti egész szám"</string>
+    <string name="core_sleep_invalid" formatted="false">"Alvás: 0–24 óra, 0–59 perc"</string>
+    <string name="core_body_fat" formatted="false">"Testzsír"</string>
+    <string name="core_calories" formatted="false">"Kalória"</string>
+    <string name="core_protein" formatted="false">"Fehérje"</string>
+    <string name="core_entry_required" formatted="false">"Adj meg legalább egy mérést vagy megjegyzést"</string>
+    <string name="core_delete_day" formatted="false">"Napi bejegyzés törlése"</string>
+    <string name="core_optional_goals" formatted="false">"Minden cél opcionális. Az üres mező azt jelenti, hogy nincs beállítva cél."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalória naponta"</string>
+    <string name="core_protein_per_day" formatted="false">"Fehérje naponta, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Zsír naponta, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Szénhidrát naponta, g"</string>
+    <string name="core_target_weight" formatted="false">"Céltestsúly, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Ellenőrizd a célokat: kalória 0–10 000; fehérje, zsír és szénhidrát 0–1000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Céltestsúly: 1–500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Törlöd?"</string>
+    <string name="core_delete" formatted="false">"Törlés"</string>
+    <string name="core_select_food" formatted="false">"Élelmiszer kiválasztása"</string>
+    <string name="core_foods_dishes" formatted="false">"Élelmiszerek és ételek"</string>
+    <string name="core_search_food" formatted="false">"Élelmiszer vagy étel keresése"</string>
+    <string name="core_new_food_button" formatted="false">"+ Élelmiszer / étel"</string>
+    <string name="core_recipe_button" formatted="false">"Receptből"</string>
+    <string name="core_no_results" formatted="false">"Nincs találat"</string>
+    <string name="core_no_results_help" formatted="false">"Próbálj más keresést, vagy adj hozzá saját élelmiszert vagy készételt."</string>
+    <string name="core_edit" formatted="false">"Szerkesztés"</string>
+    <string name="core_achievement_unlocked">"🏆 Új eredményt értél el! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Még %1$s kcal · cél %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal-val a cél felett"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Fehérje %1$s   Zsír %2$s   Szénhidrát %3$s"</string>
+    <string name="core_weight_summary">"Testsúly %1$s kg"</string>
+    <string name="core_waist_summary">"Derékbőség %1$s cm"</string>
+    <string name="core_steps_summary">"Lépések: %1$s"</string>
+    <string name="core_fat_summary">"Testzsír %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (kézzel megadva)"</string>
+    <string name="core_manual_protein">"Fehérje %1$s g (kézzel megadva)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Alvás %1$s"</string>
+    <string name="core_scale_fat">"Mérleg szerinti testzsír %1$s%%"</string>
+    <string name="core_training_value">"Edzés: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Fehérje %1$s g"</string>
+    <string name="core_app_version">"Étrendnapló · %1$s"</string>
+    <string name="core_per100_summary">"100 g-ban: %1$s kcal · Fehérje %2$s · Zsír %3$s · Szénhidrát %4$s"</string>
+    <string name="core_range_invalid">"%1$s: adj meg %2$s és %3$s közötti értéket"</string>
+    <string name="core_delete_day_question">"Törlöd a(z) %1$s napi méréseket? Az étkezések megmaradnak."</string>
+    <string name="core_catalog_count">"Élelmiszerek: %1$s · 100 g-ra vonatkozó értékek"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Fehérje %2$s   Zsír %3$s   Szénhidrát %4$s"</string>
+    <string name="core_today_date">"Ma · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"A kalória és a fehérje a naplóban kézzel megadott összeg"</string>
+    <string name="core_manual_calorie_total" formatted="false">"A kalória a naplóban kézzel megadott összeg"</string>
+    <string name="core_manual_protein_total" formatted="false">"A fehérje a naplóban kézzel megadott összeg"</string>
+    <string name="core_macro_goals">"F / Zs / Sz célok: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (kézzel megadva)"</string>
+    <string name="core_all" formatted="false">"Összes"</string>
+    <string name="core_favorites" formatted="false">"Kedvencek"</string>
+    <string name="core_sleep_duration">"%1$s ó %2$s p"</string>
+    <string name="core_previous_day" formatted="false">"Előző nap"</string>
+    <string name="core_next_day" formatted="false">"Következő nap"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Az áttelepítési biztonsági másolat nem egyezik"</string>
+    <string name="data_entry_exists" formatted="false">"Ez az ételbejegyzés már létezik"</string>
+    <string name="data_entry_missing" formatted="false">"Az ételbejegyzés nem található"</string>
+    <string name="data_edited_date_changed" formatted="false">"A szerkesztett bejegyzés dátuma megváltozott"</string>
+    <string name="data_device_id_corrupt" formatted="false">"A helyi eszközazonosító sérült; a visszaállítás le van tiltva"</string>
+    <string name="data_sync_invalid" formatted="false">"Érvénytelen szinkronizálási adatok"</string>
+    <string name="data_diary_read_only" formatted="false">"A napló felülírás ellen védett: állíts vissza egy biztonsági másolatot"</string>
+    <string name="data_diary_inconsistent" formatted="false">"A napló adatai ellentmondásosak"</string>
+    <string name="data_backup_too_large" formatted="false">"A biztonsági másolat túl nagy"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"A telepítési azonosító sérült"</string>
+    <string name="data_save_verification_failed" formatted="false">"A napló mentését nem sikerült ellenőrizni"</string>
+    <string name="data_save_failed" formatted="false">"A naplót nem sikerült menteni"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"A biztonsági másolat meghaladja az 50 MB-ot"</string>
+    <string name="data_diary_file_too_large" formatted="false">"A naplófájl túl nagy"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Érvénytelen élelmiszer-adatbázisméret"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Nem támogatott biztonságimásolat-verzió"</string>
+    <string name="data_too_many_values">"Túl sok érték itt: %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Túl sok élelmiszer"</string>
+    <string name="data_too_many_entries" formatted="false">"Túl sok ételbejegyzés"</string>
+    <string name="data_too_many_logs" formatted="false">"Túl sok naplóbejegyzés"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Ismétlődő élelmiszer-azonosító"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Ismétlődő ételbejegyzés-azonosító"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Ismétlődő naplódátum"</string>
+    <string name="data_label_product_id" formatted="false">"Élelmiszer-azonosító"</string>
+    <string name="data_label_product_name" formatted="false">"Élelmiszer neve"</string>
+    <string name="data_label_category" formatted="false">"Kategória"</string>
+    <string name="data_label_note" formatted="false">"Megjegyzés"</string>
+    <string name="data_label_entry_id" formatted="false">"Bejegyzésazonosító"</string>
+    <string name="data_label_meal" formatted="false">"Étkezés"</string>
+    <string name="data_food_weight_range" formatted="false">"Az étel tömege 0-nál nagyobb és legfeljebb 100 000 g lehet"</string>
+    <string name="data_label_weight" formatted="false">"Testsúly"</string>
+    <string name="data_label_waist" formatted="false">"Derékbőség"</string>
+    <string name="data_steps_range" formatted="false">"A lépések száma 0 és 200 000 között lehet"</string>
+    <string name="data_label_sleep" formatted="false">"Alvás"</string>
+    <string name="data_label_body_fat" formatted="false">"Testzsír"</string>
+    <string name="data_label_daily_calories" formatted="false">"Napi kalória"</string>
+    <string name="data_label_daily_protein" formatted="false">"Napi fehérje"</string>
+    <string name="data_label_workout" formatted="false">"Edzés"</string>
+    <string name="data_label_log_note" formatted="false">"Megjegyzés"</string>
+    <string name="data_log_empty" formatted="false">"Adj meg legalább egy mérést vagy megjegyzést"</string>
+    <string name="data_label_goal_weight" formatted="false">"Céltestsúly"</string>
+    <string name="data_too_many_achievements" formatted="false">"Túl sok eredmény"</string>
+    <string name="data_achievement_invalid" formatted="false">"Érvénytelen eredmény"</string>
+    <string name="data_setting_not_portable" formatted="false">"Ez a beállítás nem vihető át"</string>
+    <string name="data_setting_invalid">"Érvénytelen érték ehhez a beállításhoz: %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Kalória"</string>
+    <string name="data_label_protein" formatted="false">"Fehérje"</string>
+    <string name="data_label_fat" formatted="false">"Zsír"</string>
+    <string name="data_label_carbs" formatted="false">"Szénhidrát"</string>
+    <string name="data_value_range">"%1$s: megengedett tartomány %2$s és %3$s között"</string>
+    <string name="data_text_length_invalid">"%1$s: érvénytelen hossz"</string>
+    <string name="data_text_character_invalid">"%1$s: nem megengedett karakter"</string>
+    <string name="data_date_format_invalid" formatted="false">"A dátum formátuma ÉÉÉÉ-HH-NN legyen"</string>
+    <string name="data_date_nonexistent">"Érvénytelen dátum: %1$s"</string>
+    <string name="data_field_string_required">"A(z) %1$s mezőnek szöveget kell tartalmaznia"</string>
+    <string name="data_field_boolean_required">"A(z) %1$s mezőnek logikai értéknek kell lennie"</string>
+    <string name="data_field_number_required">"A(z) %1$s mezőnek számnak kell lennie"</string>
+    <string name="data_field_finite_required">"A(z) %1$s mezőnek véges számnak kell lennie"</string>
+    <string name="data_field_integer_required">"A(z) %1$s mezőnek egész számnak kell lennie"</string>
+    <string name="data_too_many_items">"Túl sok elem itt: %1$s"</string>
+    <string name="data_data_file_invalid">"Érvénytelen adatfájl: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Hiányzik az eszközazonosító"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"A logikai óra elérte a határértéket"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Túl sok szinkronizálási rekord"</string>
+    <string name="data_sync_version_required" formatted="false">"A szinkronizáláshoz a 2-es verziójú formátum szükséges"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Érvénytelen szinkronizálási kulcs"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Ismétlődő szinkronizálási kulcs"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Érvénytelen törlésjelző"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Érvénytelen szinkronizálási adatok"</string>
+    <string name="data_record_clock_invalid" formatted="false">"A rekord verziója meghaladja a logikai órát"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Az adatok nem egyeznek a szinkronizálási metaadatokkal"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Érvénytelen szinkronizálásikulcs-hossz"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Hibás formátumú szinkronizálási kulcs"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Ismeretlen szinkronizálási típus"</string>
+    <string name="data_record_id_too_long" formatted="false">"A rekordazonosító túl hosszú"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Érvénytelen eredménytörlés"</string>
+    <string name="data_log_key_invalid" formatted="false">"Érvénytelen naplókulcs"</string>
+    <string name="data_log_field_unknown" formatted="false">"Ismeretlen naplómező"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Érvénytelen naplótörlési jelölő"</string>
+    <string name="data_goal_unknown" formatted="false">"Ismeretlen cél"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Egy törölt rekord adatokat tartalmaz"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Érvénytelen szinkronizálási érték"</string>
+    <string name="data_record_id_mismatch" formatted="false">"A rekordazonosító nem egyezik a kulccsal"</string>
+    <string name="data_field_value_invalid" formatted="false">"Érvénytelen mezőérték"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Az eredmény dátuma nem egyezik a kulccsal"</string>
+    <string name="data_note_string_required" formatted="false">"A megjegyzésnek szöveget kell tartalmaznia"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Érvénytelen szinkronizált megjegyzés"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Érvénytelen logikai óra"</string>
+    <string name="data_device_invalid" formatted="false">"Érvénytelen eszköz"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Érvénytelen verzióbélyeg"</string>
+    <string name="data_google_login_required" formatted="false">"Jelentkezz be újra a Google-ba"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Túl sok felhőbeli biztonsági másolat"</string>
+    <string name="data_drive_page_repeated" formatted="false">"A Google Drive ismétlődő oldalt adott vissza"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"A felhőbeli másolat meghaladja az 50 MB-ot"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"A Google Drive nem adott vissza feltöltési címet"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Érvénytelen Google Drive-feltöltési cím"</string>
+    <string name="data_back" formatted="false">"‹  Vissza"</string>
+    <string name="data_cloud_title" formatted="false">"Felhőszinkronizálás"</string>
+    <string name="data_cloud_subtitle" formatted="false">"A naplód minden eszközödön"</string>
+    <string name="data_no_account" formatted="false">"Nincs csatlakoztatott fiók"</string>
+    <string name="data_cloud_intro" formatted="false">"A bejelentkezés opcionális. Az élelmiszerek, étkezések, mérések, célok és eredmények a telefonodon tárolódnak. Csatlakoztatás után egy másolat a Google Drive rejtett mappájába kerül."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Az első csatlakozáskor a bejegyzések összeolvadnak. Az alkalmazás nem fér hozzá a Drive többi fájljához."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Ehhez a verzióhoz még nincs beállítva a Google-bejelentkezés. A napló és a fájlba mentett biztonsági másolat fiók nélkül is működik."</string>
+    <string name="data_connect_google" formatted="false">"Google csatlakoztatása"</string>
+    <string name="data_automatic_sync" formatted="false">"Automatikus szinkronizálás"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Módosításkor és a háttérben, amikor az Android engedélyezi"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Az ütemezést nem sikerült módosítani. Az adataid ezen az eszközön mentve vannak."</string>
+    <string name="data_sync_start_failed" formatted="false">"A szinkronizálást nem sikerült elindítani. Az adataid ezen az eszközön mentve vannak."</string>
+    <string name="data_sync_now" formatted="false">"Szinkronizálás most"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Jelentkezz be újra a Google-ba"</string>
+    <string name="data_disconnect_account" formatted="false">"Fiók leválasztása"</string>
+    <string name="data_sync_never" formatted="false">"Még nem történt szinkronizálás"</string>
+    <string name="data_offline_saved_title" formatted="false">"Az adataid offline is mentve vannak"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Bekapcsolt automatikus szinkronizálásnál a módosítások elérhető kapcsolat esetén elküldésre kerülnek. Ha ugyanazt a mezőt két eszközön módosítod, a későbbi módosítási időbélyegű verzió érvényesül. A független bejegyzések és mezők egyesülnek."</string>
+    <string name="data_cloud_password_description" formatted="false">"A jelszavadat csak a böngésző Google-oldalán adod meg. A hozzáférési tokeneket az Android Keystore védi, és nem kerülnek a biztonsági másolatokba."</string>
+    <string name="data_google_connection_title" formatted="false">"Google-kapcsolat"</string>
+    <string name="data_got_it" formatted="false">"Értem"</string>
+    <string name="data_connect_drive_title" formatted="false">"Csatlakoztatod a Google Drive-ot?"</string>
+    <string name="data_connect_drive_description" formatted="false">"A jelenlegi naplód egyesül a kiválasztott Google-fiók adataival. Eszközeiden ugyanazt a személyes fiókot használd. A bejelentkezés az alapértelmezett böngészőben nyílik meg."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"A bejelentkezést nem sikerült megnyitni. Telepíts vagy engedélyezz alapértelmezett böngészőt, majd próbáld újra."</string>
+    <string name="data_continue" formatted="false">"Folytatás"</string>
+    <string name="data_cancel" formatted="false">"Mégse"</string>
+    <string name="data_disconnect_title" formatted="false">"Leválasztod a fiókot?"</string>
+    <string name="data_disconnect_description" formatted="false">"Ezen az eszközön leáll a szinkronizálás. A helyi napló és a Google Drive másolatai megmaradnak. Az alkalmazás engedélyét a Google-fiókod beállításaiban kezelheted."</string>
+    <string name="data_disconnect_failed" formatted="false">"A fiókot nem sikerült leválasztani. Próbáld újra."</string>
+    <string name="data_disconnect" formatted="false">"Leválasztás"</string>
+    <string name="data_google_not_connected" formatted="false">"A Google nincs csatlakoztatva"</string>
+    <string name="data_sync_ready" formatted="false">"Szinkronizálásra kész"</string>
+    <string name="data_sync_changes_pending" formatted="false">"A módosítások szinkronizálásra várnak…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Nincs internet. A módosítások ezen az eszközön mentve vannak."</string>
+    <string name="data_google_not_configured" formatted="false">"Ehhez a verzióhoz még nincs beállítva a Google-bejelentkezés"</string>
+    <string name="data_sync_wait" formatted="false">"Várd meg a szinkronizálás végét"</string>
+    <string name="data_google_connecting" formatted="false">"Csatlakozás a Google-hoz…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Csatlakozás megszakítva"</string>
+    <string name="data_connection_rejected" formatted="false">"A csatlakozást megszakították, vagy a Google elutasította"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google csatlakoztatva. Bejegyzések egyesítése…"</string>
+    <string name="data_google_connection_failed" formatted="false">"A Google-t nem sikerült csatlakoztatni. Ellenőrizd az internetet és a hozzáférési beállításokat."</string>
+    <string name="data_account_disconnected" formatted="false">"Fiók leválasztva. Az adataid ezen az eszközön maradnak."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Nincs internet. A szinkronizálás kapcsolatra vár."</string>
+    <string name="data_sync_scheduled" formatted="false">"Szinkronizálás ütemezve…"</string>
+    <string name="data_sync_running" formatted="false">"Szinkronizálás…"</string>
+    <string name="data_sync_complete" formatted="false">"Szinkronizálás kész"</string>
+    <string name="data_no_internet" formatted="false">"Nincs internetkapcsolat"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Nem sikerült szinkronizálni. Az adataid ezen az eszközön mentve vannak"</string>
+    <string name="data_page_open_failed" formatted="false">"Az oldalt nem sikerült megnyitni. A címét kimásolhatod az alábbi szövegből."</string>
+    <string name="data_privacy_title" formatted="false">"Adatvédelem"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Bejegyzéseid és az adataid kezelése"</string>
+    <string name="data_app_purpose" formatted="false">"Az alkalmazásról"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Ez az alkalmazás nem orvostechnikai eszköz. Nem diagnosztizál, kezel, gyógyít vagy előz meg betegséget. Orvosi tanácsért, diagnózisért és kezelésért fordulj képzett egészségügyi szakemberhez."</string>
+    <string name="data_manage_delete_data" formatted="false">"Adatok kezelése és törlése"</string>
+    <string name="data_delete_data_intro" formatted="false">"Az összes adat törlése előtt minden eszközön kapcsold ki a szinkronizálást. Az alkalmazás eltávolítása a telefonról nem törli a Google Drive másolatait vagy az exportált fájlokat."</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive-adatok kezelése"</string>
+    <string name="data_google_account_access" formatted="false">"Google-fiók hozzáférése"</string>
+    <string name="data_android_app_storage" formatted="false">"Alkalmazástárhely az Androidban"</string>
+    <string name="data_contact_developer" formatted="false">"Kapcsolat a fejlesztővel"</string>
+    <string name="data_opening_page" formatted="false">"Oldal megnyitása"</string>
+    <string name="data_advertisement" formatted="false">"HIRDETÉS"</string>
+    <string name="data_ad_information" formatted="false">"A hirdetésről"</string>
+    <string name="data_cloud_http_error">"Felhőbeli HTTP-hiba: %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"A felhő válasza túl nagy"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Érvénytelen titkosított bejelentkezési munkamenet"</string>
+    <string name="data_session_save_failed" formatted="false">"A bejelentkezési munkamenetet nem sikerült menteni"</string>
+    <string name="data_token_refresh_failed" formatted="false">"A Google-hozzáférést nem sikerült megújítani"</string>
+    <string name="data_diary_read_failed">"A naplót nem sikerült beolvasni. Az eredeti fájl megmaradt. Állítsd vissza az adataidat egy biztonsági másolatból. %1$s"</string>
+    <string name="data_last_sync">"Utolsó szinkronizálás: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Gyümölcsök és bogyósok"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Aszalt gyümölcsök"</string>
+    <string name="data_category_vegetables" formatted="false">"Zöldségek és zöldfűszerek"</string>
+    <string name="data_category_mushrooms" formatted="false">"Gombák"</string>
+    <string name="data_category_grains" formatted="false">"Gabonák és tészták"</string>
+    <string name="data_category_legumes" formatted="false">"Hüvelyesek"</string>
+    <string name="data_category_meat" formatted="false">"Hús és szárnyasok"</string>
+    <string name="data_category_fish" formatted="false">"Halak és tenger gyümölcsei"</string>
+    <string name="data_category_dairy" formatted="false">"Tejtermékek"</string>
+    <string name="data_category_eggs" formatted="false">"Tojások"</string>
+    <string name="data_category_oils" formatted="false">"Olajok és vaj"</string>
+    <string name="data_category_nuts" formatted="false">"Diófélék és magvak"</string>
+    <string name="data_category_bread" formatted="false">"Kenyér"</string>
+    <string name="data_category_other" formatted="false">"Egyéb élelmiszerek"</string>
+    <string name="data_category_dishes" formatted="false">"Készételek"</string>
+    <string name="data_category_custom" formatted="false">"Saját élelmiszereim"</string>
+    <string name="data_category_other_short" formatted="false">"Egyéb"</string>
+    <string name="data_food_seed_9003" formatted="false">"Alma héjjal"</string>
+    <string name="data_catalog_note_1">"Referenciaértékek 100 g ehető részre. Nyers élelmiszer. Az USDA szénhidrátértékei a rostot is tartalmazzák. Az értékeket a termék címkéje alapján módosíthatod. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Hámozott banán"</string>
+    <string name="data_food_seed_9021" formatted="false">"Kimagozott sárgabarack"</string>
+    <string name="data_food_seed_9037" formatted="false">"Avokádó húsa"</string>
+    <string name="data_food_seed_9050" formatted="false">"Kék áfonya"</string>
+    <string name="data_food_seed_9070" formatted="false">"Kimagozott cseresznye"</string>
+    <string name="data_food_seed_9063" formatted="false">"Kimagozott meggy"</string>
+    <string name="data_food_seed_9078" formatted="false">"Tőzegáfonya"</string>
+    <string name="data_food_seed_9083" formatted="false">"Fekete ribizli"</string>
+    <string name="data_food_seed_9084" formatted="false">"Piros és fehér ribizli"</string>
+    <string name="data_food_seed_9132" formatted="false">"Szőlő"</string>
+    <string name="data_food_seed_9148" formatted="false">"Kivi húsa"</string>
+    <string name="data_food_seed_9150" formatted="false">"Hámozott citrom"</string>
+    <string name="data_food_seed_9181" formatted="false">"Kantalup sárgadinnye húsa"</string>
+    <string name="data_food_seed_9200" formatted="false">"Narancs húsa"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mandarin húsa"</string>
+    <string name="data_food_seed_9236" formatted="false">"Kimagozott őszibarack"</string>
+    <string name="data_food_seed_9252" formatted="false">"Körte"</string>
+    <string name="data_food_seed_9266" formatted="false">"Ananász húsa"</string>
+    <string name="data_food_seed_9279" formatted="false">"Kimagozott szilva"</string>
+    <string name="data_food_seed_9286" formatted="false">"Gránátalmamagok"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pomeló húsa"</string>
+    <string name="data_food_seed_9302" formatted="false">"Málna"</string>
+    <string name="data_food_seed_9316" formatted="false">"Eper"</string>
+    <string name="data_food_seed_9326" formatted="false">"Görögdinnye húsa"</string>
+    <string name="data_food_seed_9191" formatted="false">"Kimagozott nektarin"</string>
+    <string name="data_food_seed_9176" formatted="false">"Mangó húsa"</string>
+    <string name="data_food_seed_9107" formatted="false">"Egres"</string>
+    <string name="data_food_seed_9226" formatted="false">"Papaja húsa"</string>
+    <string name="data_food_seed_9089" formatted="false">"Friss füge"</string>
+    <string name="data_food_seed_9111" formatted="false">"Grépfrút húsa"</string>
+    <string name="data_food_seed_9032" formatted="false">"Kimagozott aszalt sárgabarack"</string>
+    <string name="data_catalog_note_2">"Referenciaértékek 100 g ehető részre. Az USDA szénhidrátértékei a rostot is tartalmazzák. Az értékeket a termék címkéje alapján módosíthatod. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Kimagozott aszalt szilva"</string>
+    <string name="data_food_seed_9087" formatted="false">"Kimagozott datolya"</string>
+    <string name="data_food_seed_9298" formatted="false">"Sötét, mag nélküli mazsola"</string>
+    <string name="data_food_seed_11529" formatted="false">"Friss paradicsom"</string>
+    <string name="data_food_seed_11205" formatted="false">"Uborka héjjal"</string>
+    <string name="data_food_seed_11090" formatted="false">"Nyers brokkoli"</string>
+    <string name="data_food_seed_11109" formatted="false">"Nyers fejes káposzta"</string>
+    <string name="data_food_seed_11124" formatted="false">"Nyers sárgarépa"</string>
+    <string name="data_food_seed_11135" formatted="false">"Nyers karfiol"</string>
+    <string name="data_food_seed_11143" formatted="false">"Zellerszár"</string>
+    <string name="data_food_seed_11282" formatted="false">"Nyers vöröshagyma"</string>
+    <string name="data_food_seed_11291" formatted="false">"Újhagyma"</string>
+    <string name="data_food_seed_11304" formatted="false">"Nyers zöldborsó"</string>
+    <string name="data_food_seed_11333" formatted="false">"Zöld kaliforniai paprika"</string>
+    <string name="data_food_seed_11821" formatted="false">"Piros kaliforniai paprika"</string>
+    <string name="data_food_seed_11352" formatted="false">"Nyers burgonya héjjal"</string>
+    <string name="data_food_seed_11367" formatted="false">"Hámozott főtt burgonya"</string>
+    <string name="data_catalog_note_3">"Referenciaértékek 100 g ehető részre. Hozzáadott só nélkül. Az USDA szénhidrátértékei a rostot is tartalmazzák. Az értékeket a termék címkéje alapján módosíthatod. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Nyers cukkini"</string>
+    <string name="data_food_seed_11209" formatted="false">"Nyers padlizsán"</string>
+    <string name="data_food_seed_11422" formatted="false">"Nyers sütőtök"</string>
+    <string name="data_food_seed_11429" formatted="false">"Retek"</string>
+    <string name="data_food_seed_11564" formatted="false">"Nyers tarlórépa"</string>
+    <string name="data_food_seed_11080" formatted="false">"Nyers cékla"</string>
+    <string name="data_food_seed_11081" formatted="false">"Főtt cékla"</string>
+    <string name="data_food_seed_11215" formatted="false">"Fokhagyma"</string>
+    <string name="data_food_seed_11216" formatted="false">"Gyömbérgyökér"</string>
+    <string name="data_food_seed_11457" formatted="false">"Nyers spenót"</string>
+    <string name="data_food_seed_11253" formatted="false">"Leveles saláta"</string>
+    <string name="data_food_seed_11297" formatted="false">"Friss petrezselyem"</string>
+    <string name="data_food_seed_2045" formatted="false">"Friss kapor"</string>
+    <string name="data_food_seed_11052" formatted="false">"Nyers zöldbab"</string>
+    <string name="data_food_seed_11167" formatted="false">"Nyers csemegekukorica-szemek"</string>
+    <string name="data_food_seed_11260" formatted="false">"Nyers csiperke"</string>
+    <string name="data_food_seed_11261" formatted="false">"Főtt csiperke só nélkül"</string>
+    <string name="data_food_seed_11987" formatted="false">"Nyers laskagomba"</string>
+    <string name="data_food_seed_20009" formatted="false">"Száraz hajdina"</string>
+    <string name="data_catalog_note_4">"Referenciaértékek 100 g ehető részre. Pirított hajdinamag. Az USDA szénhidrátértékei a rostot is tartalmazzák. Az értékeket a termék címkéje alapján módosíthatod. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Vízben főtt hajdina"</string>
+    <string name="data_food_seed_20444" formatted="false">"Száraz fehér rizs"</string>
+    <string name="data_food_seed_20445" formatted="false">"Főtt fehér rizs só nélkül"</string>
+    <string name="data_food_seed_20036" formatted="false">"Száraz barna rizs"</string>
+    <string name="data_food_seed_20037" formatted="false">"Főtt barna rizs"</string>
+    <string name="data_food_seed_8120" formatted="false">"Száraz zabpehely"</string>
+    <string name="data_food_seed_8121" formatted="false">"Vízben főtt zabkása só nélkül"</string>
+    <string name="data_food_seed_20005" formatted="false">"Száraz árpagyöngy"</string>
+    <string name="data_food_seed_20006" formatted="false">"Főtt árpagyöngy"</string>
+    <string name="data_food_seed_20031" formatted="false">"Száraz köles"</string>
+    <string name="data_food_seed_20032" formatted="false">"Főtt köles"</string>
+    <string name="data_food_seed_20420" formatted="false">"Száraztészta"</string>
+    <string name="data_food_seed_20421" formatted="false">"Főtt tészta só nélkül"</string>
+    <string name="data_food_seed_16070" formatted="false">"Főtt lencse só nélkül"</string>
+    <string name="data_food_seed_16057" formatted="false">"Főtt csicseriborsó só nélkül"</string>
+    <string name="data_food_seed_16033" formatted="false">"Főtt vörösbab só nélkül"</string>
+    <string name="data_food_seed_5062" formatted="false">"Nyers, bőr nélküli csirkemell"</string>
+    <string name="data_food_seed_5064" formatted="false">"Sült, bőr nélküli csirkemell"</string>
+    <string name="data_food_seed_5219" formatted="false">"Nyers, bőr nélküli pulykamell"</string>
+    <string name="data_food_seed_5220" formatted="false">"Sült, bőr nélküli pulykamell"</string>
+    <string name="data_food_seed_23562" formatted="false">"Nyers darált marhahús, 10% zsírtartalom"</string>
+    <string name="data_food_seed_23566" formatted="false">"Sült darált marhahús, 10% zsírtartalom"</string>
+    <string name="data_food_seed_10060" formatted="false">"Nyers sertésszűz látható zsír nélkül"</string>
+    <string name="data_food_seed_10061" formatted="false">"Sült sertésszűz"</string>
+    <string name="data_food_seed_15236" formatted="false">"Nyers atlanti lazac"</string>
+    <string name="data_catalog_note_5">"Referenciaértékek 100 g ehető részre. Nyers élelmiszer. Tenyésztett. Az USDA szénhidrátértékei a rostot is tartalmazzák. Az értékeket a termék címkéje alapján módosíthatod. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Sült atlanti lazac"</string>
+    <string name="data_catalog_note_6">"Referenciaértékek 100 g ehető részre. Tenyésztett. Az USDA szénhidrátértékei a rostot is tartalmazzák. Az értékeket a termék címkéje alapján módosíthatod. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Nyers atlanti tőkehal"</string>
+    <string name="data_food_seed_15266" formatted="false">"Nyers alaszkai tőkehal"</string>
+    <string name="data_food_seed_15121" formatted="false">"Vízben eltett tonhalkonzerv, lecsepegtetve"</string>
+    <string name="data_food_seed_15271" formatted="false">"Főtt, tisztított garnéla"</string>
+    <string name="data_food_seed_1211" formatted="false">"3,25%-os tej"</string>
+    <string name="data_food_seed_1174" formatted="false">"2%-os tej"</string>
+    <string name="data_food_seed_1082" formatted="false">"1%-os tej"</string>
+    <string name="data_food_seed_1116" formatted="false">"Natúr joghurt teljes tejből"</string>
+    <string name="data_food_seed_1256" formatted="false">"Zsírmentes görög joghurt"</string>
+    <string name="data_food_seed_1015" formatted="false">"2%-os cottage cheese"</string>
+    <string name="data_catalog_note_7">"Referenciaértékek 100 g ehető részre. Cottage cheese; más túrófélék értékei eltérnek. Az USDA szénhidrátértékei a rostot is tartalmazzák. Az értékeket a termék címkéje alapján módosíthatod. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Körülbelül 19%-os tejföl"</string>
+    <string name="data_food_seed_1009" formatted="false">"Cheddar sajt"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mozzarella teljes tejből"</string>
+    <string name="data_food_seed_1019" formatted="false">"Feta sajt"</string>
+    <string name="data_food_seed_1123" formatted="false">"Nyers tyúktojás héj nélkül"</string>
+    <string name="data_food_seed_1129" formatted="false">"Főtt tyúktojás héj nélkül"</string>
+    <string name="data_food_seed_1124" formatted="false">"Nyers tyúktojásfehérje"</string>
+    <string name="data_food_seed_1001" formatted="false">"Sós vaj"</string>
+    <string name="data_food_seed_4053" formatted="false">"Olívaolaj"</string>
+    <string name="data_food_seed_4506" formatted="false">"Napraforgóolaj"</string>
+    <string name="data_food_seed_12061" formatted="false">"Mandula"</string>
+    <string name="data_food_seed_12155" formatted="false">"Dióbél"</string>
+    <string name="data_food_seed_12120" formatted="false">"Törökmogyoró-bél"</string>
+    <string name="data_food_seed_12151" formatted="false">"Nyers pisztáciabél"</string>
+    <string name="data_food_seed_12014" formatted="false">"Szárított, hántolt tökmag"</string>
+    <string name="data_food_seed_16087" formatted="false">"Nyers, hántolt földimogyoró"</string>
+    <string name="data_food_seed_18069" formatted="false">"Fehér búzakenyér"</string>
+    <string name="data_food_seed_18075" formatted="false">"Teljes kiőrlésű búzakenyér"</string>
+    <string name="data_food_seed_18060" formatted="false">"Rozskenyér"</string>
+    <string name="data_food_seed_19296" formatted="false">"Méz"</string>
+    <string name="data_food_seed_19335" formatted="false">"Cukor"</string>
+    <string name="data_food_seed_19165" formatted="false">"Cukrozatlan kakaópor"</string>
+    <string name="data_food_seed_19904" formatted="false">"Étcsokoládé, 70–85% kakaó"</string>
+    <string name="data_meal_breakfast" formatted="false">"Reggeli"</string>
+    <string name="data_meal_lunch" formatted="false">"Ebéd"</string>
+    <string name="data_meal_dinner" formatted="false">"Vacsora"</string>
+    <string name="data_meal_snack" formatted="false">"Kisétkezés"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"A Diet Diary adatvédelmi tájékoztatója\nFelülvizsgálva: 2026. október 9."</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Alkalmazás: Diet Diary; a Google Play orosz nyelvű címe: «Дневник диеты: подсчёт калорий»; csomagnév: ru.dietdiary.offline.\nA projekt fejlesztője: Efreitor2001. Az alkalmazással vagy az adatkezeléssel kapcsolatos kérdésekkel itt léphetsz kapcsolatba velünk: https://github.com/Efreitor2001/kkalcal/issues . A GitHub-bejelentések nyilvánosak: ne tegyél közzé egészségügyi adatokat, biztonsági másolatokat, jelszavakat vagy tokeneket."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Napló az eszközödön\nA napló vezetéséhez nem szükséges regisztráció. Az alkalmazás az élelmiszereket és tápértékeiket, az adagokat és az étkezések dátumát, a testsúlyt, derékbőséget, testzsírszázalékot, lépéseket, alvást, edzésleírásokat, megjegyzéseket, célokat, eredményeket és beállításokat az eszközöd privát alkalmazástárhelyén tárolja. Az opcionális mezők üresen hagyhatók. A lépések, alvás és mérések kézzel kerülnek be; az alkalmazás nem olvas adatokat a Health Connectből, fizikai aktivitást mérő érzékelőkből vagy orvostechnikai eszközökből."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Ezek az adatok a kalóriák és makrotápanyagok kiszámítását, valamint az előzmények, grafikonok és eredmények megjelenítését szolgálják. A fejlesztőnek nincs olyan szervere, amely a napló tartalmát fogadná. Ha nem csatlakoztatod a Google Drive-ot, és magad sem osztasz meg biztonsági másolatot, a bejegyzéseid az eszközödön maradnak."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Opcionális Google Drive-kapcsolat\nKérésedre az alkalmazás megnyitja a Google-bejelentkezést az alapértelmezett böngészőben, és hozzáférést kér a Google Drive rejtett alkalmazásadat-területéhez. Ez az engedély nem biztosít hozzáférést a Drive szokásos dokumentumaihoz és fényképeihez."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Csatlakoztatás után az élelmiszerek, étkezések, naplómérések, megjegyzések, célok, eredmények, átvihető beállítások és módosítási metaadatok, köztük véletlenszerű telepítési azonosítók és időbélyegek a Google-hoz kerülnek. Ezek biztonsági pillanatképek készítését és a bejegyzések eszközök közötti egyesítését szolgálják. Ha az automatikus szinkronizálás aktív, hálózati kapcsolat esetén a módosítások a háttérben is elküldésre kerülnek. Az automatikus szinkronizálás külön kikapcsolható."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Az alkalmazás megkapja a kiválasztott Google-fiók e-mail-címét és azonosítóját, hogy megjelenítse a kapcsolatot, és a megfelelő tárhelyhez rendelje. Google-jelszavad nem kerül az alkalmazáshoz. Az engedélyezési munkamenet az eszközön titkosítva, az Android Keystore kulcsával tárolódik. A tokenek, e-mail-címek és Google-azonosítók nem kerülnek a naplóexportokba és a szinkronizált JSON-pillanatképekbe."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"A Google-adatokat kizárólag engedélyezésre és szinkronizálásra használjuk, hirdetésekre soha. A Google adatvédelmi tájékoztatója érvényes: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Biztonsági másolatok fájlban\nA „Mentés fájlba” JSON-fájlt hoz létre az általad választott helyen. A visszaállítás csak a kiválasztott fájlt olvassa be. Ha felhőalapú fájlszolgáltatót választasz, vagy másnak megosztasz egy másolatot, a címzettről te döntesz. Az alkalmazás nem titkosítja az exportált JSON-fájlokat: azok személyes adatokat és módosítási metaadatokat tartalmaznak."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Hirdetések\nAz alkalmazás a Yandex Mobile Ads SDK-t használja. A hirdetések betöltéséhez és megjelenítéséhez az eszköz hirdetési szolgáltatásokhoz csatlakozik. A Yandex feldolgozhatja az IP-címedet és a hálózati kérésre, eszközre és szoftverre vonatkozó egyéb technikai adatokat, az elérhető hirdetési vagy technikai azonosítókat, valamint a hirdetésmegjelenítések és interakciók adatait."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Az alkalmazás azt jelzi az SDK-nak, hogy nem történt hozzájárulás, kikapcsolja a helyadatgyűjtést és az App Ad Analytics jelentéseit. Nem kér pontos vagy hozzávetőleges helymeghatározási engedélyt. Ezek a beállítások nem jelentik azt, hogy a hirdetési szolgáltatás egyáltalán nem végez hálózati kommunikációt vagy technikai adatfeldolgozást."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Az alkalmazás nem használja az étkezéseket, testsúlyt, méréseket, megjegyzéseket, célokat, e-mail-címeket vagy Google-azonosítókat hirdetési célzásra, és nem adja hozzá őket a hirdetési kérések paramétereihez. Bejegyzések mentéséhez nem kell hirdetést megtekintened."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"A Yandex adatfeldolgozási, megőrzési és törlési szabályai: https://yandex.ru/legal/confidential/ . A hirdetési azonosítót az Android beállításaiban kezelheted, ha a rendszerverziód támogatja. A hirdetési szolgáltatás technikai adatainak megőrzési idejét a saját szabályzata határozza meg; a napló fejlesztője ezekhez nem állapít meg külön időtartamot."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Adatbiztonság\nA Google-lal folytatott kommunikáció HTTPS-t használ; a Yandex szerint az SDK adatai HTTPS/TLS-en keresztül továbbítódnak. A helyi naplót az Android alkalmazáselkülönítése védi. Az alkalmazás nem titkosítja külön a napló tartalmát vagy a JSON-pillanatképeket; nem biztosít végpontok közötti titkosítást az eszközök között."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Az alkalmazásadatok rendszerszintű biztonsági mentése ki van kapcsolva. Az alkalmazáskód által írt diagnosztikai naplók eredménykódokat tartalmaznak, de naplótartalmat, e-mail-címeket, tokeneket vagy hálózati választesteket nem; az alkalmazás ezeket a naplókat külön nem küldi el a fejlesztőnek."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Megőrzés és törlés\nA helyi bejegyzések szerkesztésükig, törlésükig vagy az alkalmazásadatok törléséig maradnak meg. Egy bejegyzés törlése eltávolítja azt a felületről, és szinkronizáláskor törlési jelölőt továbbít. Az egyesítési metaadatok megmaradnak, hogy a régi adatok ne jelenjenek meg újra; tartalmazhatják egy törölt naplóbejegyzés korábbi értékeit. Korábbi értékek régi felhőpillanatképekben és korábban létrehozott fájlokban is megmaradhatnak. Egy bejegyzés törlése ezért nem törli teljesen annak minden másolatát."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"A „Fiók leválasztása” leállítja a szinkronizálást ezen az eszközön, és törli a helyi Google-munkamenetet. A napló és a Google Drive-pillanatképek megmaradnak. Az alkalmazás leválasztása nem törli a Google-fiókodat."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Az alkalmazás adatainak teljes törléséhez:\n• Minden eszközödön kapcsold ki a szinkronizálást, hogy a megmaradt másolatok ne töltődjenek fel újra.\n• Böngészőben nyisd meg a https://drive.google.com/drive/settings oldalt a korábban csatlakoztatott Google-fiókkal. Válaszd az „Alkalmazások kezelése” menüt, keresd meg a „Diet Diary” (vagy „Дневник диеты”) alkalmazást, majd válaszd a „Beállítások” → „Rejtett alkalmazásadatok törlése” lehetőséget. Ha a mobiloldal nem mutatja ezt a részt, használd a webhely asztali változatát vagy egy számítógépet.\n• Vond vissza az alkalmazás hozzáférését itt: https://myaccount.google.com/connections . A hozzáférés visszavonása önmagában nem törli a mentett másolatokat.\n• Minden eszköz Android-beállításaiban töröld az alkalmazás tárhelyét, vagy távolítsd el az alkalmazást.\n• Töröld a külön mentett JSON-másolatokat a választott mappákból és felhőtárhelyekről."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Hitelesítő adataid nélkül a fejlesztő nem tudja távolról törölni a helyi naplódat vagy a személyes Google Drive-fájljaidat. Ne add át a jelszavadat vagy tokenjeidet a fejlesztőnek. Törléssel kapcsolatos segítségért a tájékoztató elején található linken léphetsz kapcsolatba a projekttel. A naplóadatok törléséhez nem szükséges a Google-fiók törlése."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Változások és kapcsolat\nAz alkalmazás funkcióinak vagy adatkezelési gyakorlatának változásakor ez a tájékoztató új felülvizsgálati dátummal frissül. Hozzáféréssel, helyesbítéssel, adattörléssel vagy az alkalmazás működésével kapcsolatos kérdésekkel a projekt kapcsolattartási csatornáját használd. A beküldött megkereséseket válaszadás céljából kezeljük és a GitHubon őrizzük; a GitHub tájékoztatója itt érhető el: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Saját ételeim"</string>
+    <string name="secondary_metric_weight" formatted="false">"Testsúly"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Testzsír"</string>
+    <string name="secondary_metric_waist" formatted="false">"Derékbőség"</string>
+    <string name="secondary_metric_steps" formatted="false">"Lépések"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Alvás"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalória"</string>
+    <string name="secondary_metric_protein" formatted="false">"Fehérje"</string>
+    <string name="secondary_metric_fat" formatted="false">"Zsír"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Szénhidrát"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"lépés"</string>
+    <string name="secondary_unit_hours" formatted="false">"ó"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Érvénytelen időszak"</string>
+    <string name="secondary_stats_title" formatted="false">"Alakulás"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Adataid érthető grafikonokon"</string>
+    <string name="secondary_metric" formatted="false">"Mutató"</string>
+    <string name="secondary_week" formatted="false">"Hét"</string>
+    <string name="secondary_month" formatted="false">"Hónap"</string>
+    <string name="secondary_year" formatted="false">"Év"</string>
+    <string name="secondary_custom_period" formatted="false">"Egyéni időszak"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"A kezdő dátum nem lehet későbbi a záró dátumnál"</string>
+    <string name="secondary_no_records" formatted="false">"Még nincsenek adatok"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Adj ételt a naplóhoz, vagy válassz másik időszakot."</string>
+    <string name="secondary_chart_tap" formatted="false">"Bejegyzés kiválasztásához koppints a grafikonra"</string>
+    <string name="secondary_chart_connected" formatted="false">"A vonal a rögzített méréseket köti össze. E pontok között nincsenek mérések."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"A mérleg becslései a tendenciák követésére hasznosak."</string>
+    <string name="secondary_food_override_hint" formatted="false">"A kézzel megadott napi összeg felülírja az élelmiszerek összegét. Egyébként a rögzített élelmiszerek összeadódnak. Az adatok nélküli napok kimaradnak."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Az összesítés a rögzített élelmiszereken alapul. Az adat nélküli nap nem számít nullának."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Az adat nélküli napok kimaradnak, és nem számítanak bele az átlagba."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Ma és tegnap"</string>
+    <string name="secondary_no_today" formatted="false">"Mára nincsenek adatok"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Tegnapra nincsenek adatok"</string>
+    <string name="secondary_partial_today" formatted="false">"Az összehasonlítás a jelenlegi adatokat használja. A mai adatok még hiányosak lehetnek."</string>
+    <string name="secondary_period_summary" formatted="false">"Időszak összegzése"</string>
+    <string name="secondary_recorded_average" formatted="false">"Rögzített napok átlaga"</string>
+    <string name="secondary_recorded_days" formatted="false">"Adatot tartalmazó napok"</string>
+    <string name="secondary_minimum" formatted="false">"Minimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maximum"</string>
+    <string name="secondary_first_to_last" formatted="false">"Az első bejegyzéstől az utolsóig"</string>
+    <string name="secondary_two_days_needed" formatted="false">"A változás kiszámításához legalább két rögzített nap szükséges."</string>
+    <string name="secondary_history" formatted="false">"Előzmények"</string>
+    <string name="secondary_history_recent" formatted="false">"Az utolsó 14 adatot tartalmazó nap. Régebbi bejegyzésekhez válassz egyéni időszakot."</string>
+    <string name="secondary_history_all" formatted="false">"A kiválasztott időszak összes rögzített napja"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Kezdete: %1$s"</string>
+    <string name="secondary_date_until">"Vége: %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s ebben az időszakban"</string>
+    <string name="secondary_weight_goal">"Cél: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Adj mérést a naplóhoz, vagy válassz másik időszakot."</string>
+    <string name="secondary_latest_record">"Legutóbbi bejegyzés · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Ma: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Tegnap: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Változás: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d / %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Rögzített napok: %2$d, %3$s és %4$s között. Minimum %5$s, maximum %6$s %7$s. A részletes értékek az előzményekben láthatók."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Első lépés"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Rögzítsd az első testsúlymérésedet."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Az első testsúlymérésedet rögzítetted."</string>
+    <string name="secondary_award_first_food" formatted="false">"Első bejegyzés"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Rögzítsd az első ételadagodat."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Az első ételadagodat rögzítetted."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Egy hét adatai"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Rögzíts testsúlyt 7 különböző napon. Nem kell egymást követniük."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"7 különböző napról vannak testsúlyméréseid."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Következetesség"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Rögzíts testsúlyt 30 különböző napon."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"30 napról vannak testsúlyméréseid."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Archiváló"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Rögzíts 100 ételadagot a naplódban."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"100 ételadagot rögzítettél."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Új szokás"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Rögzíts ételt 7 egymást követő naptári napon."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"7 egymást követő napon rögzítettél ételt."</string>
+    <string name="secondary_award_steps" formatted="false">"Gyaloglóbajnok"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Rögzíts legalább 10 000 lépést egyetlen napon."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Rögzítettél egy 10 000 lépéses napot."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Kitartó követés"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Rögzíts 100 testsúlymérést. Dátumonként egy mérés számít."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"100 testsúlymérést rögzítettél."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Naplórutin"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Rögzíts étkezést vagy mérést 90 különböző napon. Nem kell egymást követniük."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"A naplódban 90 különböző napról vannak bejegyzések."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"mérés"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"adag"</string>
+    <string name="secondary_award_unit_days" formatted="false">"nap"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"egymást követő nap"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"lépés egy napon"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"rögzített nap"</string>
+    <string name="secondary_back" formatted="false">"‹  Vissza"</string>
+    <string name="secondary_achievements" formatted="false">"Eredmények"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Az apró lépések szokássá válnak"</string>
+    <string name="secondary_your_progress" formatted="false">"FEJLŐDÉSED"</string>
+    <string name="secondary_awards_permanent" formatted="false">"A megszerzett eredmények a bejegyzések szerkesztése után is megmaradnak."</string>
+    <string name="secondary_awards_regular" formatted="false">"A rendszerességért és a naplózásért"</string>
+    <string name="secondary_awards_through_today" formatted="false">"A mai napig rögzített bejegyzések számítanak, a maiakkal együtt."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Rejtett eredmény"</string>
+    <string name="secondary_hidden_description" formatted="false">"Az eredmény feloldásához használd tovább a naplódat."</string>
+    <string name="secondary_earned" formatted="false">"Megszerzett"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Rejtett · zárolt"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Folyamatban · zárolt"</string>
+    <string name="secondary_locked" formatted="false">"Zárolt"</string>
+    <string name="secondary_hidden_progress" formatted="false">"A feltétel és az előrehaladás az eredmény megszerzésekor válik láthatóvá."</string>
+    <string name="secondary_best_streak" formatted="false">"Leghosszabb sorozat"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Rejtett jutalom"</string>
+    <string name="secondary_unlocked_of">"/ %1$d feloldva"</string>
+    <string name="secondary_unlocked_date">"Feloldva: %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Vissza"</string>
+    <string name="secondary_my_recipe" formatted="false">"A receptem"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Az összetevőket elkészítés előtt mérd le. Az adagok számításához az elkészült étel tömegét használd. Az olajokról és szószokról se feledkezz meg."</string>
+    <string name="secondary_recipe_name" formatted="false">"Recept neve"</string>
+    <string name="secondary_recipe_example" formatted="false">"Például zöldségragu"</string>
+    <string name="secondary_ingredients" formatted="false">"Összetevők"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Kezdd az összetevőkkel"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Add hozzá az összetevőket, és add meg a tömegüket grammban."</string>
+    <string name="secondary_edit_weight" formatted="false">"Tömeg szerkesztése"</string>
+    <string name="secondary_delete" formatted="false">"Törlés"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Összetevő hozzáadása"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Teljes recept"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Főzéskor a hozzáadott vagy elpárolgó víz módosítja a tömeget. Az elkészült ételt az edény nélkül mérd le."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Elkészült étel tömege, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Add meg az elkészítés utáni tömeget"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0-nál nagyobb, legfeljebb 100 000 g tömeget adj meg"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"A tömeg nem töltődik ki automatikusan"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"100 g elkészült ételben"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Ellenőrizd az elkészült étel tömegét és az összetevőket: 100 g legfeljebb 1000 kcal-t és makrotápanyagonként 100 g-ot tartalmazhat."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"A receptet nem sikerült menteni"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Mentés a receptjeim közé"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Mentés után az ételt az adag tömege alapján adhatod a naplóhoz."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Összetevő tömege elkészítés előtt"</string>
+    <string name="secondary_grams" formatted="false">"Gramm"</string>
+    <string name="secondary_weight_limits" formatted="false">"0-nál nagyobb, legfeljebb 100 000 g"</string>
+    <string name="secondary_add" formatted="false">"Hozzáadás"</string>
+    <string name="secondary_save" formatted="false">"Mentés"</string>
+    <string name="secondary_cancel" formatted="false">"Mégse"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Összetevő kiválasztása"</string>
+    <string name="secondary_search_food" formatted="false">"Élelmiszerek keresése"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Nincs találat. Az Élelmiszerek lapon hozzáadhatod a saját élelmiszeredet."</string>
+    <string name="secondary_close" formatted="false">"Bezárás"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Fehérje %1$s · Zsír %2$s · Szénhidrát %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Összetevők tömege: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Végső tömeg: %1$s g. Összetevők: %2$s"</string>
+</resources>

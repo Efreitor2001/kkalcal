@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"يوميات النظام الغذائي"</string>
+    <string name="core_app_name" formatted="false">"يوميات النظام الغذائي"</string>
+    <string name="core_tagline" formatted="false">"السعرات الحرارية والوزن والتقدم"</string>
+    <string name="core_open_diary" formatted="false">"اليوميات المفتوحة"</string>
+    <string name="core_save_failed" formatted="false">"تعذر حفظ بياناتك"</string>
+    <string name="core_day" formatted="false">"اليوم"</string>
+    <string name="core_products" formatted="false">"الأطعمة"</string>
+    <string name="core_diary" formatted="false">"يوميات"</string>
+    <string name="core_charts" formatted="false">"المخططات"</string>
+    <string name="core_more" formatted="false">"المزيد"</string>
+    <string name="core_recipe_saved" formatted="false">"طبق محفوظ في الأطعمة الخاصة بك"</string>
+    <string name="core_back_to_day" formatted="false">"العودة إلى يومك"</string>
+    <string name="core_action_failed" formatted="false">"لا يمكن إكمال هذا الإجراء"</string>
+    <string name="core_understood" formatted="false">"حسنًا"</string>
+    <string name="core_restore_available" formatted="false">"يمكنك استعادة نسخة احتياطية في المزيد."</string>
+    <string name="core_eaten_today" formatted="false">"المتناول اليوم"</string>
+    <string name="core_set_goal_hint" formatted="false">"يمكنك تحديد هدف في المزيد"</string>
+    <string name="core_add_food" formatted="false">"+ إضافة الطعام"</string>
+    <string name="core_first_meal" formatted="false">"ابدأ بوجبتك الأولى"</string>
+    <string name="core_first_meal_help" formatted="false">"اختر طعامًا وأدخل وزنه بالغرام لحساب السعرات الحرارية والعناصر الغذائية الكبرى."</string>
+    <string name="core_my_day" formatted="false">"يومي"</string>
+    <string name="core_my_day_help" formatted="false">"الوزن والخصر والخطوات والنوم — سجل ما تعرفه."</string>
+    <string name="core_record_metrics" formatted="false">"سجل القياسات"</string>
+    <string name="core_edit_metrics" formatted="false">"تحرير القياسات"</string>
+    <string name="core_food_state_hint" formatted="false">"يجب أن يشير وزن الطعام وقيم التغذية إلى نفس الحالة: خام أو جاف أو مطبوخ."</string>
+    <string name="core_weight" formatted="false">"الوزن"</string>
+    <string name="core_waist" formatted="false">"الخصر"</string>
+    <string name="core_my_diary" formatted="false">"يومياتي"</string>
+    <string name="core_diary_tagline" formatted="false">"كل يوم بالسرعة التي تناسبك"</string>
+    <string name="core_record_day" formatted="false">"+ سجل يوميا"</string>
+    <string name="core_optional_diary_help" formatted="false">"جميع القياسات اختيارية. يمكنك تسجيل وزنك أو نومك أو ملاحظة فقط. اضغط على إدخال لتحريره."</string>
+    <string name="core_history_starts" formatted="false">"يبدأ تاريخك هنا"</string>
+    <string name="core_history_help" formatted="false">"قم بتسجيل القياسات ومتابعة التغييرات في المخططات."</string>
+    <string name="core_file_unavailable" formatted="false">"الملف غير متوفر"</string>
+    <string name="core_backup_saved" formatted="false">"تم حفظ النسخة الاحتياطية"</string>
+    <string name="core_export_error" formatted="false">"تعذر تصدير النسخة الاحتياطية"</string>
+    <string name="core_read_error" formatted="false">"لا يمكن قراءة الملف"</string>
+    <string name="core_settings_tagline" formatted="false">"الإعدادات والنسخ الاحتياطي للبيانات"</string>
+    <string name="core_your_progress" formatted="false">"تقدمك"</string>
+    <string name="core_achievements_help" formatted="false">"إنجازات صغيرة لبناء عادة يومية."</string>
+    <string name="core_achievements" formatted="false">"الإنجازات"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"اتصال اختياري لمزامنة يومياتك عبر أجهزتك."</string>
+    <string name="core_cloud_sync" formatted="false">"المزامنة السحابية"</string>
+    <string name="core_personal_goals" formatted="false">"الأهداف الشخصية"</string>
+    <string name="core_personal_goals_help" formatted="false">"حدّد أهداف السعرات الحرارية والعناصر الغذائية الكبرى والوزن المستهدف يدويًا. يمكنك ترك أي هدف فارغًا."</string>
+    <string name="core_configure_goals" formatted="false">"تحديد الأهداف"</string>
+    <string name="core_backup" formatted="false">"النسخ الاحتياطي"</string>
+    <string name="core_backup_help" formatted="false">"الأطعمة والوجبات والمذكرات والأهداف والإنجازات في ملف واحد. احفظ نسخة احتياطية قبل إعادة تثبيت التطبيق."</string>
+    <string name="core_save_file" formatted="false">"حفظ إلى ملف"</string>
+    <string name="core_restore_file" formatted="false">"الاستعادة من ملف"</string>
+    <string name="core_write_locked" formatted="false">"تم تعطيل الحفظ لحماية الملف الأصلي. استعادة نسخة احتياطية صالحة."</string>
+    <string name="core_about_data" formatted="false">"حول التطبيق وبياناتك"</string>
+    <string name="core_about_data_help" formatted="false">"كيفية تخزين السجلات وعمل المزامنة وحذف البيانات."</string>
+    <string name="core_privacy" formatted="false">"الخصوصية وحذف البيانات"</string>
+    <string name="core_offline" formatted="false">"يعمل دون اتصال"</string>
+    <string name="core_offline_help" formatted="false">"Google تسجيل الدخول اختياري. يتم إدخال الخطوات والنوم يدويًا. يلزم وجود اتصال بالإنترنت لتمكين المزامنة وتحميل الإعلانات. لا يتم إرسال إدخالات اليوميات إلى شبكة الإعلانات."</string>
+    <string name="core_about_foods" formatted="false">"حول الأطعمة"</string>
+    <string name="core_foods_reference" formatted="false">"القيم المضمنة هي تقديرات لكل 100 جرام من الجزء الصالح للأكل. تحقق من العبوة لمعرفة القيم الدقيقة. لا يؤدي تحرير الطعام إلى إعادة حساب إدخالات الوجبة السابقة."</string>
+    <string name="core_foods_source" formatted="false">"مصدر قاعدة البيانات: USDA FoodData Central, SR Legacy. تتضمن الأطعمة الفردية تفاصيل حالتها ومصدرها."</string>
+    <string name="core_restore_title" formatted="false">"هل تريد استعادة هذه النسخة الاحتياطية؟"</string>
+    <string name="core_restore_warning" formatted="false">"سيتم استبدال أطعمتك ومذكراتك وأهدافك وإنجازاتك الحالية بمحتويات هذا الملف. احفظ نسخة احتياطية أولاً. إذا كانت المزامنة متصلة، فسيتم أيضًا إرسال التغييرات المستعادة إلى Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"تمت استعادة النسخة الاحتياطية"</string>
+    <string name="core_invalid_file" formatted="false">"ملف غير صالح"</string>
+    <string name="core_replace_data" formatted="false">"استبدال البيانات"</string>
+    <string name="core_cancel" formatted="false">"إلغاء"</string>
+    <string name="core_save" formatted="false">"حفظ"</string>
+    <string name="core_calculate_portion" formatted="false">"حساب جزء"</string>
+    <string name="core_edit_portion" formatted="false">"تحرير الجزء"</string>
+    <string name="core_portion_weight" formatted="false">"وزن الجزء، جم"</string>
+    <string name="core_portion_invalid" formatted="false">"أدخل وزنًا أكبر من 0 ولا يزيد عن 100.000 جم"</string>
+    <string name="core_add_to_diary" formatted="false">"أضف إلى اليوميات"</string>
+    <string name="core_delete_entry" formatted="false">"حذف الإدخال"</string>
+    <string name="core_delete_portion_question" formatted="false">"هل تريد حذف هذا الجزء من يومياتك؟"</string>
+    <string name="core_new_food" formatted="false">"طعام أو طبق جديد"</string>
+    <string name="core_edit_nutrition" formatted="false">"تحرير قيم التغذية"</string>
+    <string name="core_name" formatted="false">"الاسم"</string>
+    <string name="core_food" formatted="false">"الغذاء"</string>
+    <string name="core_dish" formatted="false">"طبق محضر"</string>
+    <string name="core_category" formatted="false">"الفئة"</string>
+    <string name="core_per100_hint" formatted="false">"القيم لكل 100 جرام، من العبوة أو الوصفة. أدخل 0 في حالة غياب أحد العناصر الغذائية."</string>
+    <string name="core_kcal" formatted="false">"السعرات الحرارية"</string>
+    <string name="core_protein_grams" formatted="false">"البروتين، غ"</string>
+    <string name="core_fat_grams" formatted="false">"الدهون، غ"</string>
+    <string name="core_carbs_grams" formatted="false">"الكربوهيدرات، غ"</string>
+    <string name="core_food_note" formatted="false">"ملاحظة، المكونات (اختياري)"</string>
+    <string name="core_favorite" formatted="false">"أضف إلى المفضلة"</string>
+    <string name="core_name_category_required" formatted="false">"أدخل الاسم والفئة"</string>
+    <string name="core_nutrition_invalid" formatted="false">"أدخل القيم لكل 100 جرام: السعرات الحرارية 0-1000؛ البروتين والدهون والكربوهيدرات 0-100 جرام"</string>
+    <string name="core_delete_food" formatted="false">"حذف من الأطعمة"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"ستحتفظ إدخالات الوجبة السابقة بقيمها."</string>
+    <string name="core_delete_food_question" formatted="false">"حذف هذا الطعام؟ سيتم الاحتفاظ بإدخالات يومياته."</string>
+    <string name="core_day_entry" formatted="false">"الإدخال اليومي"</string>
+    <string name="core_optional_fields" formatted="false">"املأ أي حقول تريدها. اترك الباقي فارغا."</string>
+    <string name="core_editing_existing" formatted="false">"يوجد بالفعل إدخال لهذا التاريخ. أنت تقوم بتحريره."</string>
+    <string name="core_weight_kg" formatted="false">"الوزن، كجم"</string>
+    <string name="core_waist_cm" formatted="false">"الخصر، سم"</string>
+    <string name="core_steps" formatted="false">"الخطوات"</string>
+    <string name="core_sleep" formatted="false">"النوم"</string>
+    <string name="core_hours" formatted="false">"ساعات"</string>
+    <string name="core_minutes" formatted="false">"المحضر"</string>
+    <string name="core_body_fat_optional" formatted="false">"مقياس الدهون في الجسم، % (اختياري)"</string>
+    <string name="core_body_fat_hint" formatted="false">"تعتبر نسبة الدهون في الجسم من الميزان مؤشر اتجاه، وليست قياسًا دقيقًا."</string>
+    <string name="core_strength_training" formatted="false">"تدريب القوة"</string>
+    <string name="core_training_example" formatted="false">"على سبيل المثال: تمرين القرفصاء 3×10، دمبل 12 كجم"</string>
+    <string name="core_manual_nutrition" formatted="false">"مجاميع التغذية اليدوية"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"إذا تم إدخالها، فستتجاوز هذه القيم إجماليات الطعام لهذا اليوم. اتركه فارغًا للحساب التلقائي."</string>
+    <string name="core_daily_calories" formatted="false">"السعرات الحرارية اليومية"</string>
+    <string name="core_daily_protein" formatted="false">"البروتين اليومي، جم"</string>
+    <string name="core_wellbeing_notes" formatted="false">"ملاحظات وما تشعر به"</string>
+    <string name="core_steps_invalid" formatted="false">"الخطوات: عدد صحيح من 0 إلى 200000"</string>
+    <string name="core_sleep_invalid" formatted="false">"النوم: 0–24 ساعة، الدقائق 0–59"</string>
+    <string name="core_body_fat" formatted="false">"دهون الجسم"</string>
+    <string name="core_calories" formatted="false">"السعرات الحرارية"</string>
+    <string name="core_protein" formatted="false">"البروتين"</string>
+    <string name="core_entry_required" formatted="false">"قم بإضافة قياس أو ملاحظة واحدة على الأقل"</string>
+    <string name="core_delete_day" formatted="false">"احذف هذا الإدخال اليومي"</string>
+    <string name="core_optional_goals" formatted="false">"جميع الأهداف اختيارية. الحقل الفارغ يعني عدم تحديد أي هدف."</string>
+    <string name="core_calories_per_day" formatted="false">"السعرات الحرارية في اليوم"</string>
+    <string name="core_protein_per_day" formatted="false">"بروتين يوميًا، جم"</string>
+    <string name="core_fat_per_day" formatted="false">"الدهون في اليوم، غ"</string>
+    <string name="core_carbs_per_day" formatted="false">"كربوهيدرات في اليوم، جم"</string>
+    <string name="core_target_weight" formatted="false">"الوزن المستهدف، كجم"</string>
+    <string name="core_goals_invalid" formatted="false">"تحقق من أهدافك: السعرات الحرارية 0-10000؛ البروتين والدهون والكربوهيدرات 0-1000 جرام"</string>
+    <string name="core_target_weight_invalid" formatted="false">"الوزن المستهدف: من 1 إلى 500 كجم"</string>
+    <string name="core_delete_question" formatted="false">"حذف؟"</string>
+    <string name="core_delete" formatted="false">"حذف"</string>
+    <string name="core_select_food" formatted="false">"اختر الطعام"</string>
+    <string name="core_foods_dishes" formatted="false">"الأطعمة والأطباق"</string>
+    <string name="core_search_food" formatted="false">"ابحث عن طعام أو طبق"</string>
+    <string name="core_new_food_button" formatted="false">"+ طعام / طبق"</string>
+    <string name="core_recipe_button" formatted="false">"من وصفة"</string>
+    <string name="core_no_results" formatted="false">"لا توجد نتائج"</string>
+    <string name="core_no_results_help" formatted="false">"حاول إجراء بحث آخر أو أضف طعامك أو طبقك المجهز."</string>
+    <string name="core_edit" formatted="false">"تحرير"</string>
+    <string name="core_achievement_unlocked">"🏆 تم فتح الإنجاز! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s سعر حراري متبقي · الهدف %2$s"</string>
+    <string name="core_above_goal">"%1$s سعر حراري فوق هدفك"</string>
+    <string name="core_portion_summary">"%1$s جم · %2$s سعر حراري"</string>
+    <string name="core_macros_summary">"البروتين %1$s   الدهون %2$s   الكربوهيدرات %3$s"</string>
+    <string name="core_weight_summary">"الوزن %1$s كجم"</string>
+    <string name="core_waist_summary">"الخصر %1$s سم"</string>
+    <string name="core_steps_summary">"الخطوات: %1$s"</string>
+    <string name="core_fat_summary">"دهون الجسم %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s سعر حراري (يدوي)"</string>
+    <string name="core_manual_protein">"البروتين %1$s جم (يدويًا)"</string>
+    <string name="core_kg_value">"%1$s كجم"</string>
+    <string name="core_cm_value">"%1$s سم"</string>
+    <string name="core_sleep_value">"النوم %1$s"</string>
+    <string name="core_scale_fat">"مقياس الدهون في الجسم %1$s%%"</string>
+    <string name="core_training_value">"التدريب: %1$s"</string>
+    <string name="core_kcal_value">"%1$s سعر حراري"</string>
+    <string name="core_protein_value">"البروتين %1$s غ"</string>
+    <string name="core_app_version">"يوميات النظام الغذائي · %1$s"</string>
+    <string name="core_per100_summary">"لكل 100 غ: %1$s kcal · البروتين %2$s · الدهون %3$s · الكربوهيدرات %4$s"</string>
+    <string name="core_range_invalid">"%1$s: أدخل قيمة من %2$s إلى %3$s"</string>
+    <string name="core_delete_day_question">"حذف قياسات %1$s؟ سيتم الاحتفاظ بإدخالات الطعام."</string>
+    <string name="core_catalog_count">"الأطعمة: %1$s · لكل 100 غ"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   البروتين %2$s   الدهون %3$s   الكربوهيدرات %4$s"</string>
+    <string name="core_today_date">"اليوم · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"السعرات الحرارية والبروتين هي مجاميع يدوية من يومياتك"</string>
+    <string name="core_manual_calorie_total" formatted="false">"السعرات الحرارية هي مجموع يدوي من يومياتك"</string>
+    <string name="core_manual_protein_total" formatted="false">"البروتين عبارة عن إجمالي يدوي من يومياتك"</string>
+    <string name="core_macro_goals">"أهداف البروتين / الدهون / الكربوهيدرات: %1$s / %2$s / %3$s غ"</string>
+    <string name="core_kcal_unit" formatted="false">"سعر حراري"</string>
+    <string name="core_manual_values">"%1$s (دليل)"</string>
+    <string name="core_all" formatted="false">"الكل"</string>
+    <string name="core_favorites" formatted="false">"المفضلة"</string>
+    <string name="core_sleep_duration">"%1$s ح %2$s دقيقة"</string>
+    <string name="core_previous_day" formatted="false">"اليوم السابق"</string>
+    <string name="core_next_day" formatted="false">"اليوم التالي"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"النسخة الاحتياطية للترحيل غير متطابقة"</string>
+    <string name="data_entry_exists" formatted="false">"إدخال الطعام هذا موجود بالفعل"</string>
+    <string name="data_entry_missing" formatted="false">"لم يتم العثور على إدخال الطعام"</string>
+    <string name="data_edited_date_changed" formatted="false">"تم تغيير تاريخ الإدخال الذي يتم تحريره"</string>
+    <string name="data_device_id_corrupt" formatted="false">"الجهاز المحلي ID تالف؛ تم حظر الاستعادة"</string>
+    <string name="data_sync_invalid" formatted="false">"بيانات المزامنة غير صالحة"</string>
+    <string name="data_diary_read_only" formatted="false">"اليوميات محمية من الكتابة الفوقية: قم باستعادة نسخة احتياطية"</string>
+    <string name="data_diary_inconsistent" formatted="false">"بيانات اليوميات غير متناسقة"</string>
+    <string name="data_backup_too_large" formatted="false">"النسخة الاحتياطية كبيرة جدًا"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"التثبيت ID تالف"</string>
+    <string name="data_save_verification_failed" formatted="false">"لا يمكن التحقق من حفظ اليوميات"</string>
+    <string name="data_save_failed" formatted="false">"تعذر حفظ اليوميات"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"حجم النسخة الاحتياطية أكبر من 50 ميجابايت"</string>
+    <string name="data_diary_file_too_large" formatted="false">"ملف اليوميات كبير جدًا"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"حجم قاعدة بيانات الطعام غير صالح"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"نسخة احتياطية غير مدعومة"</string>
+    <string name="data_too_many_values">"قيم كثيرة جدًا في %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"الكثير من الأطعمة"</string>
+    <string name="data_too_many_entries" formatted="false">"إدخالات طعام كثيرة جدًا"</string>
+    <string name="data_too_many_logs" formatted="false">"عدد كبير جدًا من إدخالات اليوميات"</string>
+    <string name="data_product_id_duplicate" formatted="false">"طعام مكرر ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"إدخال طعام مكرر ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"تاريخ يوميات مكرر"</string>
+    <string name="data_label_product_id" formatted="false">"الغذاء ID"</string>
+    <string name="data_label_product_name" formatted="false">"اسم الغذاء"</string>
+    <string name="data_label_category" formatted="false">"الفئة"</string>
+    <string name="data_label_note" formatted="false">"ملاحظة"</string>
+    <string name="data_label_entry_id" formatted="false">"الإدخال ID"</string>
+    <string name="data_label_meal" formatted="false">"وجبة"</string>
+    <string name="data_food_weight_range" formatted="false">"يجب أن يكون وزن الطعام أكبر من 0 ولا يزيد عن 100000 جم"</string>
+    <string name="data_label_weight" formatted="false">"الوزن"</string>
+    <string name="data_label_waist" formatted="false">"الخصر"</string>
+    <string name="data_steps_range" formatted="false">"يجب أن يتراوح عدد الخطوات بين 0 و200000"</string>
+    <string name="data_label_sleep" formatted="false">"النوم"</string>
+    <string name="data_label_body_fat" formatted="false">"دهون الجسم"</string>
+    <string name="data_label_daily_calories" formatted="false">"السعرات الحرارية اليومية"</string>
+    <string name="data_label_daily_protein" formatted="false">"البروتين اليومي"</string>
+    <string name="data_label_workout" formatted="false">"تجريب"</string>
+    <string name="data_label_log_note" formatted="false">"ملاحظة"</string>
+    <string name="data_log_empty" formatted="false">"أدخل قياسًا أو ملاحظة واحدة على الأقل"</string>
+    <string name="data_label_goal_weight" formatted="false">"وزن الهدف"</string>
+    <string name="data_too_many_achievements" formatted="false">"إنجازات كثيرة جدًا"</string>
+    <string name="data_achievement_invalid" formatted="false">"إنجاز غير صالح"</string>
+    <string name="data_setting_not_portable" formatted="false">"لا يمكن نقل هذا الإعداد"</string>
+    <string name="data_setting_invalid">"قيمة غير صالحة لإعداد %1$s"</string>
+    <string name="data_label_calories" formatted="false">"السعرات الحرارية"</string>
+    <string name="data_label_protein" formatted="false">"البروتين"</string>
+    <string name="data_label_fat" formatted="false">"الدهون"</string>
+    <string name="data_label_carbs" formatted="false">"الكربوهيدرات"</string>
+    <string name="data_value_range">"%1$s: النطاق المسموح به %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: طول غير صالح"</string>
+    <string name="data_text_character_invalid">"%1$s: حرف غير صالح"</string>
+    <string name="data_date_format_invalid" formatted="false">"يجب أن يستخدم التاريخ التنسيق YYYY-MM-DD"</string>
+    <string name="data_date_nonexistent">"تاريخ غير صالح: %1$s"</string>
+    <string name="data_field_string_required">"الحقل %1$s يجب أن يكون نصًا"</string>
+    <string name="data_field_boolean_required">"يجب أن يكون الحقل %1$s قيمة منطقية"</string>
+    <string name="data_field_number_required">"الحقل %1$s يجب أن يكون رقمًا"</string>
+    <string name="data_field_finite_required">"يجب أن يكون الحقل %1$s عددًا منتهيًا"</string>
+    <string name="data_field_integer_required">"يجب أن يكون الحقل %1$s عددًا صحيحًا"</string>
+    <string name="data_too_many_items">"عناصر كثيرة جدًا في %1$s"</string>
+    <string name="data_data_file_invalid">"ملف بيانات غير صالح: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"الجهاز ID مفقود"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"تم الوصول إلى حد الساعة المنطقية"</string>
+    <string name="data_too_many_sync_records" formatted="false">"عدد كبير جدًا من سجلات المزامنة"</string>
+    <string name="data_sync_version_required" formatted="false">"تتطلب المزامنة تنسيق الإصدار 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"مفتاح المزامنة غير صالح"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"مفتاح المزامنة المكرر"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"علامة الحذف غير صالحة"</string>
+    <string name="data_sync_data_invalid" formatted="false">"بيانات المزامنة غير صالحة"</string>
+    <string name="data_record_clock_invalid" formatted="false">"يتجاوز الإصدار القياسي الساعة المنطقية"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"البيانات لا تتطابق مع بيانات تعريف المزامنة"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"طول مفتاح المزامنة غير صالح"</string>
+    <string name="data_sync_key_malformed" formatted="false">"مفتاح المزامنة مشوه"</string>
+    <string name="data_sync_type_unknown" formatted="false">"نوع المزامنة غير معروف"</string>
+    <string name="data_record_id_too_long" formatted="false">"السجل ID طويل جدًا"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"حذف الإنجاز غير صالح"</string>
+    <string name="data_log_key_invalid" formatted="false">"مفتاح اليوميات غير صالح"</string>
+    <string name="data_log_field_unknown" formatted="false">"حقل مذكرات غير معروف"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"علامة حذف اليوميات غير صالحة"</string>
+    <string name="data_goal_unknown" formatted="false">"هدف غير معروف"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"سجل محذوف يحتوي على بيانات"</string>
+    <string name="data_sync_value_invalid" formatted="false">"قيمة المزامنة غير صالحة"</string>
+    <string name="data_record_id_mismatch" formatted="false">"السجل ID لا يطابق المفتاح"</string>
+    <string name="data_field_value_invalid" formatted="false">"قيمة الحقل غير صالحة"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"تاريخ الإنجاز لا يتطابق مع المفتاح"</string>
+    <string name="data_note_string_required" formatted="false">"يجب أن تكون الملاحظة نصية"</string>
+    <string name="data_sync_note_invalid" formatted="false">"ملاحظة متزامنة غير صالحة"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"الساعة المنطقية غير صالحة"</string>
+    <string name="data_device_invalid" formatted="false">"جهاز غير صالح"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"ختم الإصدار غير صالح"</string>
+    <string name="data_google_login_required" formatted="false">"قم بتسجيل الدخول إلى Google مرة أخرى"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"عدد كبير جدًا من النسخ الاحتياطية السحابية"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive قام بإرجاع صفحة متكررة"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"حجم النسخة الاحتياطية السحابية أكبر من 50 ميجابايت"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive لم يُرجع عنوان التحميل"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"عنوان التحميل Google Drive غير صالح"</string>
+    <string name="data_back" formatted="false">"‹ العودة"</string>
+    <string name="data_cloud_title" formatted="false">"المزامنة السحابية"</string>
+    <string name="data_cloud_subtitle" formatted="false">"يومياتك عبر أجهزتك"</string>
+    <string name="data_no_account" formatted="false">"لا يوجد حساب متصل"</string>
+    <string name="data_cloud_intro" formatted="false">"تسجيل الدخول اختياري. يتم تخزين الأطعمة والوجبات والقياسات والأهداف والإنجازات على هاتفك. بمجرد الاتصال، سيتم تخزين نسخة في مجلد مخفي في Google Drive الخاص بك."</string>
+    <string name="data_cloud_first_connection" formatted="false">"يتم دمج الإدخالات عند الاتصال الأول. لا يمكن للتطبيق الوصول إلى الملفات الأخرى في Drive."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"لم يتم تكوين تسجيل الدخول Google لهذا الإصدار بعد. تعمل النسخ الاحتياطية للمذكرات والملفات بدون حساب."</string>
+    <string name="data_connect_google" formatted="false">"الاتصال Google"</string>
+    <string name="data_automatic_sync" formatted="false">"المزامنة التلقائية"</string>
+    <string name="data_automatic_sync_description" formatted="false">"عندما تتغير البيانات وفي الخلفية عندما يسمح Android بذلك"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"لا يمكن تغيير الجدول. يتم حفظ بياناتك على هذا الجهاز."</string>
+    <string name="data_sync_start_failed" formatted="false">"تعذر بدء المزامنة. يتم حفظ بياناتك على هذا الجهاز."</string>
+    <string name="data_sync_now" formatted="false">"المزامنة الآن"</string>
+    <string name="data_google_sign_in_again" formatted="false">"قم بتسجيل الدخول إلى Google مرة أخرى"</string>
+    <string name="data_disconnect_account" formatted="false">"قطع الاتصال بالحساب"</string>
+    <string name="data_sync_never" formatted="false">"لا توجد مزامنة بعد"</string>
+    <string name="data_offline_saved_title" formatted="false">"يتم حفظ بياناتك دون اتصال"</string>
+    <string name="data_cloud_merge_description" formatted="false">"مع تمكين المزامنة التلقائية، يتم إرسال التغييرات عندما يصبح الاتصال متاحًا. إذا تغير نفس الحقل على جهازين، فسيتم استخدام الإصدار ذو الطابع الزمني للتغيير الأحدث. يتم دمج الإدخالات والحقول المستقلة."</string>
+    <string name="data_cloud_password_description" formatted="false">"تقوم بإدخال كلمة المرور الخاصة بك فقط في صفحة Google في متصفحك. رموز الوصول محمية بواسطة Android Keystore ويتم استبعادها من النسخ الاحتياطية."</string>
+    <string name="data_google_connection_title" formatted="false">"Google اتصال"</string>
+    <string name="data_got_it" formatted="false">"فهمت"</string>
+    <string name="data_connect_drive_title" formatted="false">"ربط Google Drive؟"</string>
+    <string name="data_connect_drive_description" formatted="false">"سيتم دمج يومياتك الحالية مع البيانات الموجودة في حساب Google المحدد. استخدم نفس الحساب الشخصي على أجهزتك. سيتم فتح تسجيل الدخول في متصفحك الافتراضي."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"تعذر فتح تسجيل الدخول. قم بتثبيت المتصفح الافتراضي أو تمكينه وحاول مرة أخرى."</string>
+    <string name="data_continue" formatted="false">"تابع"</string>
+    <string name="data_cancel" formatted="false">"إلغاء"</string>
+    <string name="data_disconnect_title" formatted="false">"قطع الحساب؟"</string>
+    <string name="data_disconnect_description" formatted="false">"ستتوقف المزامنة على هذا الجهاز. سيتم الاحتفاظ بمذكراتك المحلية والنسخ الموجودة في Google Drive. يمكنك إدارة إذن التطبيق في إعدادات حساب Google الخاص بك."</string>
+    <string name="data_disconnect_failed" formatted="false">"لا يمكن قطع الاتصال بالحساب. يرجى المحاولة مرة أخرى."</string>
+    <string name="data_disconnect" formatted="false">"قطع الاتصال"</string>
+    <string name="data_google_not_connected" formatted="false">"Google غير متصل"</string>
+    <string name="data_sync_ready" formatted="false">"جاهز للمزامنة"</string>
+    <string name="data_sync_changes_pending" formatted="false">"التغييرات في انتظار المزامنة..."</string>
+    <string name="data_offline_changes_saved" formatted="false">"لا يوجد اتصال بالإنترنت. يتم حفظ التغييرات على هذا الجهاز."</string>
+    <string name="data_google_not_configured" formatted="false">"لم يتم تكوين تسجيل الدخول Google لهذا الإصدار بعد"</string>
+    <string name="data_sync_wait" formatted="false">"انتظر حتى تنتهي المزامنة"</string>
+    <string name="data_google_connecting" formatted="false">"جارٍ الاتصال Google..."</string>
+    <string name="data_connection_cancelled" formatted="false">"تم إلغاء الاتصال"</string>
+    <string name="data_connection_rejected" formatted="false">"تم إلغاء الاتصال أو رفضه بواسطة Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google متصل. دمج الإدخالات..."</string>
+    <string name="data_google_connection_failed" formatted="false">"لا يمكن الاتصال Google. تحقق من اتصالك بالإنترنت وإعدادات الوصول."</string>
+    <string name="data_account_disconnected" formatted="false">"تم قطع اتصال الحساب. تبقى بياناتك على هذا الجهاز."</string>
+    <string name="data_sync_waiting_network" formatted="false">"لا يوجد اتصال بالإنترنت. المزامنة في انتظار الاتصال."</string>
+    <string name="data_sync_scheduled" formatted="false">"تمت جدولة المزامنة..."</string>
+    <string name="data_sync_running" formatted="false">"المزامنة…"</string>
+    <string name="data_sync_complete" formatted="false">"اكتملت المزامنة"</string>
+    <string name="data_no_internet" formatted="false">"لا يوجد اتصال بالإنترنت"</string>
+    <string name="data_sync_failed_saved" formatted="false">"لا يمكن المزامنة. يتم حفظ بياناتك على هذا الجهاز"</string>
+    <string name="data_page_open_failed" formatted="false">"لا يمكن فتح الصفحة. يمكنك نسخ عنوانه من النص أدناه."</string>
+    <string name="data_privacy_title" formatted="false">"الخصوصية"</string>
+    <string name="data_privacy_subtitle" formatted="false">"ضوابط السجلات والبيانات الخاصة بك"</string>
+    <string name="data_app_purpose" formatted="false">"حول هذا التطبيق"</string>
+    <string name="data_medical_disclaimer" formatted="false">"هذا التطبيق ليس جهازًا طبيًا. ولا يقوم بتشخيص أو علاج أو علاج أو منع أي مرض. استشر أخصائي رعاية صحية مؤهل للحصول على المشورة الطبية والتشخيص والعلاج."</string>
+    <string name="data_manage_delete_data" formatted="false">"إدارة البيانات وحذفها"</string>
+    <string name="data_delete_data_intro" formatted="false">"قبل حذف جميع البيانات، قم بإيقاف تشغيل المزامنة على جميع أجهزتك. لا يؤدي إلغاء تثبيت التطبيق من هاتفك إلى حذف النسخ الموجودة في Google Drive أو الملفات المصدرة."</string>
+    <string name="data_manage_drive_data" formatted="false">"إدارة بيانات Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Google الوصول إلى الحساب"</string>
+    <string name="data_android_app_storage" formatted="false">"تخزين التطبيقات في Android"</string>
+    <string name="data_contact_developer" formatted="false">"اتصل بالمطور"</string>
+    <string name="data_opening_page" formatted="false">"فتح صفحة"</string>
+    <string name="data_advertisement" formatted="false">"إعلان"</string>
+    <string name="data_ad_information" formatted="false">"نبذة عن هذا الإعلان"</string>
+    <string name="data_cloud_http_error">"خطأ HTTP السحابي %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"استجابة السحابة كبيرة جدًا"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"جلسة تسجيل الدخول المشفرة غير صالحة"</string>
+    <string name="data_session_save_failed" formatted="false">"تعذر حفظ جلسة تسجيل الدخول"</string>
+    <string name="data_token_refresh_failed" formatted="false">"تعذر تحديث الوصول إلى Google"</string>
+    <string name="data_diary_read_failed">"لا يمكن قراءة اليوميات. تم الاحتفاظ بالملف الأصلي. استعادة البيانات الخاصة بك من نسخة احتياطية. %1$s"</string>
+    <string name="data_last_sync">"آخر مزامنة: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"الفواكه والتوت"</string>
+    <string name="data_category_dried_fruit" formatted="false">"فواكه مجففة"</string>
+    <string name="data_category_vegetables" formatted="false">"الخضار والأعشاب"</string>
+    <string name="data_category_mushrooms" formatted="false">"الفطر"</string>
+    <string name="data_category_grains" formatted="false">"الحبوب والمعكرونة"</string>
+    <string name="data_category_legumes" formatted="false">"البقوليات"</string>
+    <string name="data_category_meat" formatted="false">"اللحوم والدواجن"</string>
+    <string name="data_category_fish" formatted="false">"الأسماك والمأكولات البحرية"</string>
+    <string name="data_category_dairy" formatted="false">"منتجات الألبان"</string>
+    <string name="data_category_eggs" formatted="false">"البيض"</string>
+    <string name="data_category_oils" formatted="false">"الزيوت والزبدة"</string>
+    <string name="data_category_nuts" formatted="false">"المكسرات والبذور"</string>
+    <string name="data_category_bread" formatted="false">"الخبز"</string>
+    <string name="data_category_other" formatted="false">"أغذية أخرى"</string>
+    <string name="data_category_dishes" formatted="false">"الأطباق المحضرة"</string>
+    <string name="data_category_custom" formatted="false">"أطعمتي"</string>
+    <string name="data_category_other_short" formatted="false">"أخرى"</string>
+    <string name="data_food_seed_9003" formatted="false">"التفاح مع الجلد"</string>
+    <string name="data_catalog_note_1">"القيم المرجعية لكل 100 جرام من الجزء الصالح للأكل. الطعام الخام. USDA تشمل قيم الكربوهيدرات الألياف. يمكنك ضبط القيم باستخدام ملصق المنتج. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"موزة مقشرة"</string>
+    <string name="data_food_seed_9021" formatted="false">"مشمش، منزوع النوى"</string>
+    <string name="data_food_seed_9037" formatted="false">"لحم الأفوكادو"</string>
+    <string name="data_food_seed_9050" formatted="false">"التوت"</string>
+    <string name="data_food_seed_9070" formatted="false">"كرز حلو، منزوع النوى"</string>
+    <string name="data_food_seed_9063" formatted="false">"الكرز الحامض، منزوع النوى"</string>
+    <string name="data_food_seed_9078" formatted="false">"التوت البري"</string>
+    <string name="data_food_seed_9083" formatted="false">"الكشمش الأسود"</string>
+    <string name="data_food_seed_9084" formatted="false">"الكشمش الأحمر والأبيض"</string>
+    <string name="data_food_seed_9132" formatted="false">"العنب"</string>
+    <string name="data_food_seed_9148" formatted="false">"لحم الكيوي"</string>
+    <string name="data_food_seed_9150" formatted="false">"ليمون مقشر"</string>
+    <string name="data_food_seed_9181" formatted="false">"لحم الشمام"</string>
+    <string name="data_food_seed_9200" formatted="false">"لحم برتقالي"</string>
+    <string name="data_food_seed_9218" formatted="false">"لحم الماندرين"</string>
+    <string name="data_food_seed_9236" formatted="false">"خوخ، منزوع النوى"</string>
+    <string name="data_food_seed_9252" formatted="false">"الكمثرى"</string>
+    <string name="data_food_seed_9266" formatted="false">"لحم الأناناس"</string>
+    <string name="data_food_seed_9279" formatted="false">"البرقوق، منزوع النوى"</string>
+    <string name="data_food_seed_9286" formatted="false">"بذور الرمان"</string>
+    <string name="data_food_seed_9295" formatted="false">"لحم البوميلو"</string>
+    <string name="data_food_seed_9302" formatted="false">"التوت"</string>
+    <string name="data_food_seed_9316" formatted="false">"الفراولة"</string>
+    <string name="data_food_seed_9326" formatted="false">"لحم البطيخ"</string>
+    <string name="data_food_seed_9191" formatted="false">"النكتارين، منزوع النوى"</string>
+    <string name="data_food_seed_9176" formatted="false">"لحم المانجو"</string>
+    <string name="data_food_seed_9107" formatted="false">"عنب الثعلب"</string>
+    <string name="data_food_seed_9226" formatted="false">"لحم البابايا"</string>
+    <string name="data_food_seed_9089" formatted="false">"تين طازج"</string>
+    <string name="data_food_seed_9111" formatted="false">"لحم الجريب فروت"</string>
+    <string name="data_food_seed_9032" formatted="false">"مشمش مجفف منزوع النوى"</string>
+    <string name="data_catalog_note_2">"القيم المرجعية لكل 100 جرام من الجزء الصالح للأكل. USDA تشمل قيم الكربوهيدرات الألياف. يمكنك ضبط القيم باستخدام ملصق المنتج. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"البرقوق، منزوع النوى"</string>
+    <string name="data_food_seed_9087" formatted="false">"تمر، منزوع النوى"</string>
+    <string name="data_food_seed_9298" formatted="false">"زبيب غامق، بدون بذور"</string>
+    <string name="data_food_seed_11529" formatted="false">"طماطم طازجة"</string>
+    <string name="data_food_seed_11205" formatted="false">"خيار بالقشر"</string>
+    <string name="data_food_seed_11090" formatted="false">"البروكلي الخام"</string>
+    <string name="data_food_seed_11109" formatted="false">"ملفوف أبيض خام"</string>
+    <string name="data_food_seed_11124" formatted="false">"الجزر الخام"</string>
+    <string name="data_food_seed_11135" formatted="false">"القرنبيط الخام"</string>
+    <string name="data_food_seed_11143" formatted="false">"أعواد الكرفس"</string>
+    <string name="data_food_seed_11282" formatted="false">"بصل خام"</string>
+    <string name="data_food_seed_11291" formatted="false">"بصل أخضر"</string>
+    <string name="data_food_seed_11304" formatted="false">"بازلاء خضراء خام"</string>
+    <string name="data_food_seed_11333" formatted="false">"فلفل أخضر حلو"</string>
+    <string name="data_food_seed_11821" formatted="false">"فلفل أحمر حلو"</string>
+    <string name="data_food_seed_11352" formatted="false">"البطاطس النيئة مع الجلد"</string>
+    <string name="data_food_seed_11367" formatted="false">"بطاطس مسلوقة مقشرة"</string>
+    <string name="data_catalog_note_3">"القيم المرجعية لكل 100 جرام من الجزء الصالح للأكل. لا يوجد ملح مضاف. USDA تشمل قيم الكربوهيدرات الألياف. يمكنك ضبط القيم باستخدام ملصق المنتج. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"كوسة خام"</string>
+    <string name="data_food_seed_11209" formatted="false">"الباذنجان الخام"</string>
+    <string name="data_food_seed_11422" formatted="false">"اليقطين الخام"</string>
+    <string name="data_food_seed_11429" formatted="false">"الفجل"</string>
+    <string name="data_food_seed_11564" formatted="false">"اللفت الخام"</string>
+    <string name="data_food_seed_11080" formatted="false">"الشمندر الخام"</string>
+    <string name="data_food_seed_11081" formatted="false">"شمندر مسلوق"</string>
+    <string name="data_food_seed_11215" formatted="false">"الثوم"</string>
+    <string name="data_food_seed_11216" formatted="false">"جذر الزنجبيل"</string>
+    <string name="data_food_seed_11457" formatted="false">"السبانخ الخام"</string>
+    <string name="data_food_seed_11253" formatted="false">"أوراق الخس"</string>
+    <string name="data_food_seed_11297" formatted="false">"بقدونس طازج"</string>
+    <string name="data_food_seed_2045" formatted="false">"الشبت الطازج"</string>
+    <string name="data_food_seed_11052" formatted="false">"الفاصوليا الخضراء الخام"</string>
+    <string name="data_food_seed_11167" formatted="false">"ذرة حلوة، حبات خام"</string>
+    <string name="data_food_seed_11260" formatted="false">"فطر الزر الخام"</string>
+    <string name="data_food_seed_11261" formatted="false">"فطر مسلوق، غير مملح"</string>
+    <string name="data_food_seed_11987" formatted="false">"فطر المحار الخام"</string>
+    <string name="data_food_seed_20009" formatted="false">"جريش الحنطة السوداء، جاف"</string>
+    <string name="data_catalog_note_4">"القيم المرجعية لكل 100 جم من الجزء الصالح للأكل. جريش الحنطة السوداء المحمصة. USDA تشمل قيم الكربوهيدرات الألياف. يمكنك ضبط القيم باستخدام ملصق المنتج. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"الحنطة السوداء، المطبوخة في الماء"</string>
+    <string name="data_food_seed_20444" formatted="false">"أرز أبيض، جاف"</string>
+    <string name="data_food_seed_20445" formatted="false">"أرز أبيض مسلوق، غير مملح"</string>
+    <string name="data_food_seed_20036" formatted="false">"أرز بني، جاف"</string>
+    <string name="data_food_seed_20037" formatted="false">"أرز بني مسلوق"</string>
+    <string name="data_food_seed_8120" formatted="false">"شوفان ملفوف، جاف"</string>
+    <string name="data_food_seed_8121" formatted="false">"دقيق الشوفان المطبوخ في الماء، غير مملح"</string>
+    <string name="data_food_seed_20005" formatted="false">"الشعير اللؤلؤي، جاف"</string>
+    <string name="data_food_seed_20006" formatted="false">"الشعير المسلوق"</string>
+    <string name="data_food_seed_20031" formatted="false">"الدخن، جاف"</string>
+    <string name="data_food_seed_20032" formatted="false">"الدخن المسلوق"</string>
+    <string name="data_food_seed_20420" formatted="false">"معكرونة جافة"</string>
+    <string name="data_food_seed_20421" formatted="false">"معكرونة مسلوقة، غير مملحة"</string>
+    <string name="data_food_seed_16070" formatted="false">"عدس مسلوق، غير مملح"</string>
+    <string name="data_food_seed_16057" formatted="false">"حمص مسلوق، غير مملح"</string>
+    <string name="data_food_seed_16033" formatted="false">"فاصوليا حمراء مسلوقة، غير مملحة"</string>
+    <string name="data_food_seed_5062" formatted="false">"صدر دجاج خام منزوع الجلد"</string>
+    <string name="data_food_seed_5064" formatted="false">"صدر دجاج مشوي منزوع الجلد"</string>
+    <string name="data_food_seed_5219" formatted="false">"صدر ديك رومي خام منزوع الجلد"</string>
+    <string name="data_food_seed_5220" formatted="false">"صدر ديك رومي مشوي منزوع الجلد"</string>
+    <string name="data_food_seed_23562" formatted="false">"لحم بقري مفروم، 10% دهون، خام"</string>
+    <string name="data_food_seed_23566" formatted="false">"لحم بقري مفروم، 10% دسم، مشوي"</string>
+    <string name="data_food_seed_10060" formatted="false">"لحم الخنزير النيء، منزوع الدهن المرئي"</string>
+    <string name="data_food_seed_10061" formatted="false">"لحم الخنزير المشوي"</string>
+    <string name="data_food_seed_15236" formatted="false">"سلمون الأطلسي، خام"</string>
+    <string name="data_catalog_note_5">"القيم المرجعية لكل 100 جرام من الجزء الصالح للأكل. الطعام الخام. مزروعة. USDA تشمل قيم الكربوهيدرات الألياف. يمكنك ضبط القيم باستخدام ملصق المنتج. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"سمك السلمون الأطلسي، مشوي"</string>
+    <string name="data_catalog_note_6">"القيم المرجعية لكل 100 جرام من الجزء الصالح للأكل. مزروعة. USDA تشمل قيم الكربوهيدرات الألياف. يمكنك ضبط القيم باستخدام ملصق المنتج. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"سمك القد الأطلسي، خام"</string>
+    <string name="data_food_seed_15266" formatted="false">"بولوك ألاسكا الخام"</string>
+    <string name="data_food_seed_15121" formatted="false">"التونة المعلبة في الماء، ومصفاة"</string>
+    <string name="data_food_seed_15271" formatted="false">"جمبري مطبوخ، مقشر"</string>
+    <string name="data_food_seed_1211" formatted="false">"حليب، 3.25% دسم"</string>
+    <string name="data_food_seed_1174" formatted="false">"حليب، 2% دسم"</string>
+    <string name="data_food_seed_1082" formatted="false">"حليب، 1% دسم"</string>
+    <string name="data_food_seed_1116" formatted="false">"زبادي عادي كامل الدسم"</string>
+    <string name="data_food_seed_1256" formatted="false">"الزبادي اليوناني خالي الدسم"</string>
+    <string name="data_food_seed_1015" formatted="false">"جبنة قريش، 2% دسم"</string>
+    <string name="data_catalog_note_7">"القيم المرجعية لكل 100 جرام من الجزء الصالح للأكل. جبن؛ الأنواع الأخرى من الجبن الرائب لها قيم مختلفة. USDA تشمل قيم الكربوهيدرات الألياف. يمكنك ضبط القيم باستخدام ملصق المنتج. USDA SR Legacy، FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"قشدة حامضة، حوالي 19% دهون"</string>
+    <string name="data_food_seed_1009" formatted="false">"جبنة الشيدر"</string>
+    <string name="data_food_seed_1026" formatted="false">"موزاريلا الحليب كامل الدسم"</string>
+    <string name="data_food_seed_1019" formatted="false">"جبنة الفيتا"</string>
+    <string name="data_food_seed_1123" formatted="false">"بيض دجاج خام، بدون قشرة"</string>
+    <string name="data_food_seed_1129" formatted="false">"بيضة دجاج مسلوقة، بدون قشر"</string>
+    <string name="data_food_seed_1124" formatted="false">"بياض بيض الدجاج الخام"</string>
+    <string name="data_food_seed_1001" formatted="false">"زبدة مملحة"</string>
+    <string name="data_food_seed_4053" formatted="false">"زيت الزيتون"</string>
+    <string name="data_food_seed_4506" formatted="false">"زيت دوار الشمس"</string>
+    <string name="data_food_seed_12061" formatted="false">"اللوز"</string>
+    <string name="data_food_seed_12155" formatted="false">"حبات الجوز"</string>
+    <string name="data_food_seed_12120" formatted="false">"حبات البندق"</string>
+    <string name="data_food_seed_12151" formatted="false">"حبات الفستق الخام"</string>
+    <string name="data_food_seed_12014" formatted="false">"حبات بذور اليقطين المجففة"</string>
+    <string name="data_food_seed_16087" formatted="false">"الفول السوداني الخام المقشر"</string>
+    <string name="data_food_seed_18069" formatted="false">"خبز القمح الأبيض"</string>
+    <string name="data_food_seed_18075" formatted="false">"خبز القمح الكامل"</string>
+    <string name="data_food_seed_18060" formatted="false">"خبز الجاودار"</string>
+    <string name="data_food_seed_19296" formatted="false">"العسل"</string>
+    <string name="data_food_seed_19335" formatted="false">"السكر"</string>
+    <string name="data_food_seed_19165" formatted="false">"مسحوق الكاكاو غير المحلى"</string>
+    <string name="data_food_seed_19904" formatted="false">"الشوكولاتة الداكنة، 70-85% كاكاو"</string>
+    <string name="data_meal_breakfast" formatted="false">"الإفطار"</string>
+    <string name="data_meal_lunch" formatted="false">"الغداء"</string>
+    <string name="data_meal_dinner" formatted="false">"العشاء"</string>
+    <string name="data_meal_snack" formatted="false">"وجبة خفيفة"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"سياسة الخصوصية الخاصة بـ Diet Diary\nالمراجعة: 9 أكتوبر 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"التطبيق: Diet Diary؛ Google Play عنوان القائمة باللغة الروسية: «Дневник диеты: подсчёт калорий»; الحزمة: ru.dietdiary.offline.\nمطور المشروع: Efreitor2001. للأسئلة حول التطبيق ومعالجة البيانات، اتصل بـ https://github.com/Efreitor2001/kkalcal/issues . مشكلات GitHub عامة: لا تنشر السجلات الصحية أو النسخ الاحتياطية أو كلمات المرور أو الرموز المميزة هناك."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. مذكرة على جهازك\nلا يلزم التسجيل للاحتفاظ بالمذكرات. يقوم التطبيق بتخزين الأطعمة وقيمها الغذائية والحصص وتواريخ الوجبات والوزن وقياسات الخصر ونسبة الدهون في الجسم والخطوات والنوم وأوصاف التمارين والملاحظات والأهداف والإنجازات وإعدادات التطبيق في منطقة التخزين الخاصة بجهازك. يمكن ترك الحقول الاختيارية فارغة. يتم إدخال الخطوات والنوم والقياسات يدويا. لا يقرأ التطبيق Health Connect أو أجهزة استشعار النشاط البدني أو بيانات الأجهزة الطبية."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"يتم استخدام هذه المعلومات لحساب السعرات الحرارية والمغذيات الكبيرة وتوفير التاريخ والمخططات والإنجازات. لا يقوم المطور بتشغيل خادم يتلقى محتويات اليوميات. إذا لم تقم بالاتصال بـ Google Drive أو مشاركة نسخة احتياطية بنفسك، فستظل سجلاتك على جهازك."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. اتصال Google Drive اختياري\nبناءً على طلبك، يفتح التطبيق تسجيل الدخول Google في متصفحك الافتراضي ويطلب الوصول إلى مخزن البيانات المخفية لهذا التطبيق في Google Drive. لا يوفر هذا الإذن إمكانية الوصول إلى مستنداتك أو صورك العادية في Drive."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"بمجرد الاتصال، يتم إرسال الأطعمة والوجبات وقياسات اليوميات والملاحظات والأهداف والإنجازات والإعدادات القابلة للتحويل وتغيير بيانات التعريف، بما في ذلك معرفات التثبيت العشوائية والطوابع الزمنية، إلى Google. وهذا يدعم اللقطات الاحتياطية ودمج الإدخالات عبر أجهزتك. إذا تم تمكين المزامنة التلقائية، فسيتم أيضًا إرسال التغييرات في الخلفية عند توفر اتصال بالشبكة. يمكنك إيقاف تشغيل المزامنة التلقائية بشكل منفصل."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"يتلقى التطبيق عنوان البريد الإلكتروني والمعرف الخاص بحساب Google المحدد لإظهار الاتصال وربطه بالتخزين الصحيح. لم يتم توفير كلمة المرور Google الخاصة بك إلى التطبيق. يتم تخزين جلسة التفويض مشفرة على جهازك باستخدام مفتاح في Android Keystore. يتم استبعاد الرموز وعناوين البريد الإلكتروني ومعرفات Google من عمليات تصدير اليوميات ولقطات JSON المتزامنة."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"يتم استخدام بيانات Google فقط للتفويض والمزامنة، وليس للإعلان أبدًا. تنطبق سياسة خصوصية Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. ملفات النسخ الاحتياطي\n\"حفظ في ملف\" ينشئ ملف JSON في الموقع الذي تختاره. تقوم الاستعادة بقراءة الملف الذي تحدده فقط. إذا قمت بتحديد موفر ملف سحابي أو مشاركة نسخة مع شخص آخر، فإنك تختار المستلم. لا يقوم التطبيق بتشفير ملفات JSON المصدرة: تحتوي هذه الملفات على سجلات شخصية وتغيير البيانات الوصفية."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. الإعلان\nيستخدم التطبيق Yandex SDK لإعلانات الهاتف المحمول. لتحميل الإعلانات وعرضها، يتصل جهازك بالخدمات الإعلانية. قد يقوم Yandex بمعالجة عنوان IP الخاص بك والمعلومات الفنية الأخرى حول طلب الشبكة والجهاز والبرامج والإعلانات المتاحة أو المعرفات الفنية والمعلومات حول مرات ظهور الإعلان وتفاعلاته."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"يخبر التطبيق SDK بأنه لم يتم منح الموافقة، ويعطل جمع الموقع ويعطل تقارير تحليلات إعلانات التطبيقات. ولا يطلب أذونات موقع دقيقة أو تقريبية. لا تعني هذه الإعدادات أن خدمة الإعلان لا تجري أي اتصال بالشبكة أو معالجة فنية للبيانات."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"لا يستخدم التطبيق سجلات الطعام أو الوزن أو القياسات أو الملاحظات أو الأهداف أو عناوين البريد الإلكتروني أو معرفات Google لاستهداف الإعلانات، ولا يضيفها إلى معلمات طلب الإعلان. عرض الإعلانات غير مطلوب لحفظ الإدخالات."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"قواعد Yandex لمعالجة البيانات والاحتفاظ بها وحذفها: https://yandex.ru/legal/confidential/ . يمكنك إدارة معرف الإعلان الخاص بك في إعدادات Android إذا كان إصدار نظامك يدعم هذه الميزة. تحدد سياسة الخدمة الإعلانية فترات الاحتفاظ ببياناتها الفنية؛ لا يقوم مطور اليوميات بتعيين فترة احتفاظ منفصلة لتلك البيانات."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. حماية البيانات\nالاتصال مع Google يستخدم HTTPS؛ ينص Yandex على أن بيانات SDK يتم نقلها باستخدام HTTPS/TLS. اليوميات المحلية محمية من خلال عزل تطبيق Android. لا يقوم التطبيق بتشفير محتويات اليوميات أو لقطات JSON بشكل منفصل؛ ولا يوفر تشفيرًا شاملاً بين الأجهزة."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"تم تعطيل النسخ الاحتياطي للنظام لبيانات التطبيق. تحتوي سجلات التشخيص المكتوبة بواسطة الكود الخاص بالتطبيق على رموز النتائج بدون محتويات اليوميات أو عناوين البريد الإلكتروني أو الرموز المميزة أو هيئات استجابة الشبكة؛ ولا يرسل التطبيق هذه السجلات بشكل منفصل إلى المطور."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. الاحتفاظ والحذف\nتظل السجلات المحلية حتى تقوم بتغييرها أو حذفها، أو مسح بيانات التطبيق. يؤدي حذف إدخال إلى إزالته من الواجهة وإرسال علامة الحذف أثناء المزامنة. يتم الاحتفاظ ببيانات تعريف الدمج لمنع ظهور البيانات القديمة مرة أخرى؛ قد يحتوي على قيم سابقة من إدخال يوميات محذوف. قد تظل القيم السابقة أيضًا في لقطات السحابة القديمة والملفات التي قمت بإنشائها مسبقًا. وبالتالي فإن حذف إدخال واحد لا يؤدي إلى مسح كل نسخة منه بشكل كامل."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"\"قطع اتصال الحساب\" يوقف المزامنة على هذا الجهاز ويحذف جلسة Google المحلية. يتم الاحتفاظ بالمذكرات واللقطات الموجودة في Google Drive. لا يؤدي قطع الاتصال بالتطبيق إلى حذف حسابك في Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"لحذف بيانات هذا التطبيق بالكامل:\n• قم بإيقاف تشغيل المزامنة على جميع أجهزتك حتى لا يتم تحميل النسخ المتبقية مرة أخرى.\n• في المتصفح، افتح https://drive.google.com/drive/settings باستخدام حساب Google الذي كان متصلاً. حدد \"إدارة التطبيقات\"، وابحث عن \"Diet Diary\" (أو \"Дневник диеты\")، ثم اختر \"خيارات\" ← \"حذف بيانات التطبيق المخفية\". إذا لم تظهر صفحة الجوال هذا القسم، فاستخدم إصدار سطح المكتب من الموقع أو جهاز الكمبيوتر.\n• قم بإلغاء وصول التطبيق إلى https://myaccount.google.com/connections . لا يؤدي إبطال الوصول وحده إلى مسح النسخ المحفوظة.\n• امسح مساحة تخزين التطبيق في إعدادات Android على كل جهاز، أو قم بإلغاء تثبيت التطبيق.\n• احذف النسخ الاحتياطية JSON المحفوظة بشكل منفصل من المجلدات ومواقع التخزين السحابية التي اخترتها."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"بدون بيانات الاعتماد الخاصة بك، لا يمكن للمطور مسح مذكراتك المحلية أو ملفاتك الموجودة في Google Drive عن بعد. لا تشارك كلمة المرور أو الرموز المميزة الخاصة بك مع المطور. للمساعدة في الحذف، اتصل بالمشروع باستخدام الرابط الموجود في بداية هذه السياسة. لا تحتاج إلى حذف حساب Google الخاص بك لحذف بيانات اليوميات."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. التغييرات والاتصال\nعندما تتغير ميزات التطبيق أو ممارسات معالجة البيانات، يتم تحديث هذه السياسة بتاريخ المراجعة. للأسئلة حول الوصول إلى البيانات أو تصحيحها أو حذفها أو تشغيل التطبيق، استخدم قناة الاتصال الخاصة بالمشروع. تتم معالجة الطلبات التي ترسلها لتقديم استجابة ويتم تخزينها في GitHub؛ سياسة GitHub متاحة على https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"أطباقي"</string>
+    <string name="secondary_metric_weight" formatted="false">"الوزن"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"دهون الجسم"</string>
+    <string name="secondary_metric_waist" formatted="false">"الخصر"</string>
+    <string name="secondary_metric_steps" formatted="false">"الخطوات"</string>
+    <string name="secondary_metric_sleep" formatted="false">"النوم"</string>
+    <string name="secondary_metric_kcal" formatted="false">"السعرات الحرارية"</string>
+    <string name="secondary_metric_protein" formatted="false">"البروتين"</string>
+    <string name="secondary_metric_fat" formatted="false">"الدهون"</string>
+    <string name="secondary_metric_carbs" formatted="false">"الكربوهيدرات"</string>
+    <string name="secondary_unit_kg" formatted="false">"كجم"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"سم"</string>
+    <string name="secondary_unit_steps" formatted="false">"الخطوات"</string>
+    <string name="secondary_unit_hours" formatted="false">"ح"</string>
+    <string name="secondary_unit_kcal" formatted="false">"سعر حراري"</string>
+    <string name="secondary_unit_grams" formatted="false">"غ"</string>
+    <string name="secondary_invalid_period" formatted="false">"نطاق التاريخ غير صالح"</string>
+    <string name="secondary_stats_title" formatted="false">"الاتجاهات"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"سجلاتك في مخططات واضحة"</string>
+    <string name="secondary_metric" formatted="false">"متري"</string>
+    <string name="secondary_week" formatted="false">"الأسبوع"</string>
+    <string name="secondary_month" formatted="false">"الشهر"</string>
+    <string name="secondary_year" formatted="false">"السنة"</string>
+    <string name="secondary_custom_period" formatted="false">"النطاق المخصص"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"يجب ألا يكون تاريخ البدء بعد تاريخ الانتهاء"</string>
+    <string name="secondary_no_records" formatted="false">"لا توجد سجلات حتى الآن"</string>
+    <string name="secondary_empty_food_period" formatted="false">"أضف الطعام إلى يومياتك أو اختر فترة أخرى."</string>
+    <string name="secondary_chart_tap" formatted="false">"اضغط على المخطط لتحديد سجل"</string>
+    <string name="secondary_chart_connected" formatted="false">"يربط الخط القياسات المسجلة. لا يوجد قياسات بينهما."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"تعتبر تقديرات المقياس مفيدة لتتبع الاتجاهات."</string>
+    <string name="secondary_food_override_hint" formatted="false">"يحل الإجمالي اليومي اليدوي محل إجمالي الطعام. وبخلاف ذلك، تتم إضافة الطعام المسجل. يتم تخطي الأيام التي لا تحتوي على سجلات."</string>
+    <string name="secondary_food_total_hint" formatted="false">"تعتمد الإجماليات على الطعام المسجل. اليوم بدون سجلات لا يحسب صفراً."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"يتم تخطي الأيام التي لا تحتوي على سجلات واستبعادها من المتوسط."</string>
+    <string name="secondary_today_yesterday" formatted="false">"اليوم وأمس"</string>
+    <string name="secondary_no_today" formatted="false">"لا يوجد سجل لهذا اليوم"</string>
+    <string name="secondary_no_yesterday" formatted="false">"لا يوجد سجل ليوم أمس"</string>
+    <string name="secondary_partial_today" formatted="false">"تستخدم هذه المقارنة السجلات الحالية. ربما لا تزال بيانات اليوم غير مكتملة."</string>
+    <string name="secondary_period_summary" formatted="false">"ملخص الفترة"</string>
+    <string name="secondary_recorded_average" formatted="false">"المتوسط عبر الأيام المسجلة"</string>
+    <string name="secondary_recorded_days" formatted="false">"الأيام مع البيانات"</string>
+    <string name="secondary_minimum" formatted="false">"الحد الأدنى"</string>
+    <string name="secondary_maximum" formatted="false">"الحد الأقصى"</string>
+    <string name="secondary_first_to_last" formatted="false">"من السجل الأول إلى الأخير"</string>
+    <string name="secondary_two_days_needed" formatted="false">"يلزم وجود يومين مسجلين على الأقل لحساب التغيير."</string>
+    <string name="secondary_history" formatted="false">"التاريخ"</string>
+    <string name="secondary_history_recent" formatted="false">"آخر 14 يومًا بالبيانات. اختر نطاقًا مخصصًا للسجلات السابقة."</string>
+    <string name="secondary_history_all" formatted="false">"جميع الأيام المسجلة في الفترة المحددة"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"من %1$s"</string>
+    <string name="secondary_date_until">"إلى %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s في هذه الفترة"</string>
+    <string name="secondary_weight_goal">"الهدف: %1$s كجم"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"أضف قياسًا إلى يومياتك أو اختر فترة أخرى."</string>
+    <string name="secondary_latest_record">"أحدث سجل · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"اليوم: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"أمس: %1$s %2$s"</string>
+    <string name="secondary_change_value">"التغيير: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d من %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d الأيام المسجلة، من %3$s إلى %4$s. الحد الأدنى %5$s، الحد الأقصى %6$s %7$s. يتم سرد القيم في التاريخ."</string>
+    <string name="secondary_award_first_weight" formatted="false">"البدء"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"احفظ قياس وزنك الأول."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"تم حفظ قياس وزنك الأول."</string>
+    <string name="secondary_award_first_food" formatted="false">"الإدخال الأول"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"قم بتسجيل الجزء الغذائي الأول الخاص بك."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"تم تسجيل الجزء الأول من طعامك."</string>
+    <string name="secondary_award_weight_week" formatted="false">"أسبوع من البيانات"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"سجل وزنك في 7 أيام مختلفة. لا يحتاجون إلى أن يكونوا متتابعين."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"لديك سجلات وزن لمدة 7 أيام مختلفة."</string>
+    <string name="secondary_award_weight_month" formatted="false">"الاتساق"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"قم بتسجيل وزنك خلال 30 يومًا مختلفًا."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"لديك سجلات وزن لمدة 30 يومًا."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"أمين المحفوظات"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"قم بحفظ 100 حصة طعام في يومياتك."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"لقد قمت بحفظ 100 حصة غذائية."</string>
+    <string name="secondary_award_food_streak" formatted="false">"عادة جديدة"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"قم بتسجيل الطعام لمدة 7 أيام تقويمية متتالية."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"لقد قمت بتسجيل الطعام لمدة 7 أيام متتالية."</string>
+    <string name="secondary_award_steps" formatted="false">"المشي العجب"</string>
+    <string name="secondary_award_steps_description" formatted="false">"قم بتسجيل 10000 خطوة على الأقل في يوم واحد."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"لقد قمت بتسجيل يوم بـ 10.000 خطوة."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"مسجل غزير الإنتاج"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"توفير 100 قياس للوزن. قياس واحد مهم لكل تاريخ."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"لقد قمت بحفظ 100 قياس للوزن."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"يوميات المخضرم"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"قم بتسجيل الطعام أو القياسات في 90 يومًا مختلفًا. لا يحتاجون إلى أن يكونوا متتابعين."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"لديك سجلات مذكرات لمدة 90 يومًا مختلفًا."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"القياسات"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"الأجزاء"</string>
+    <string name="secondary_award_unit_days" formatted="false">"يوما"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"أيام متتالية"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"خطوات في يوم واحد"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"الأيام المسجلة"</string>
+    <string name="secondary_back" formatted="false">"‹ العودة"</string>
+    <string name="secondary_achievements" formatted="false">"الإنجازات"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"الخطوات الصغيرة تصبح عادة"</string>
+    <string name="secondary_your_progress" formatted="false">"تقدمك"</string>
+    <string name="secondary_awards_permanent" formatted="false">"تظل الإنجازات المكتسبة معك حتى إذا قمت بتحرير سجلاتك."</string>
+    <string name="secondary_awards_regular" formatted="false">"من أجل الاتساق والحفاظ على يومياتك"</string>
+    <string name="secondary_awards_through_today" formatted="false">"يتم حساب السجلات المحفوظة حتى يومنا هذا."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"الإنجاز المخفي"</string>
+    <string name="secondary_hidden_description" formatted="false">"استمر في استخدام مذكراتك لفتح هذا الإنجاز."</string>
+    <string name="secondary_earned" formatted="false">"حصل"</string>
+    <string name="secondary_hidden_locked" formatted="false">"مخفي · مغلق"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"قيد التقدم · مقفل"</string>
+    <string name="secondary_locked" formatted="false">"مغلق"</string>
+    <string name="secondary_hidden_progress" formatted="false">"سيتم الكشف عن المتطلبات والتقدم عندما تحصل على هذه الجائزة."</string>
+    <string name="secondary_best_streak" formatted="false">"أفضل خط"</string>
+    <string name="secondary_hidden_reward" formatted="false">"المكافأة المخفية"</string>
+    <string name="secondary_unlocked_of">"من %1$d مفتوح"</string>
+    <string name="secondary_unlocked_date">"مفتوح %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← العودة"</string>
+    <string name="secondary_my_recipe" formatted="false">"وصفتي"</string>
+    <string name="secondary_recipe_intro" formatted="false">"قم بوزن المكونات قبل الطهي. استخدم الوزن المطبوخ لحساب الأجزاء. تشمل الزيوت والصلصات."</string>
+    <string name="secondary_recipe_name" formatted="false">"اسم الوصفة"</string>
+    <string name="secondary_recipe_example" formatted="false">"على سبيل المثال، يخنة الخضار"</string>
+    <string name="secondary_ingredients" formatted="false">"المكونات"</string>
+    <string name="secondary_start_ingredients" formatted="false">"ابدأ بالمكونات"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"أضف كل مكون وأدخل وزنه بالجرام."</string>
+    <string name="secondary_edit_weight" formatted="false">"تحرير الوزن"</string>
+    <string name="secondary_delete" formatted="false">"حذف"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ إضافة مكون"</string>
+    <string name="secondary_whole_recipe" formatted="false">"الوصفة الكاملة"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"يؤدي الطهي إلى تغيير الوزن مع إضافة الماء أو فقده. قم بوزن الطبق النهائي بدون الحاوية الخاصة به."</string>
+    <string name="secondary_cooked_weight" formatted="false">"الوزن المطبوخ، جم"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"أدخل الوزن بعد الطهي"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"أدخل وزنًا أكبر من 0 ولا يزيد عن 100.000 جم"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"لا تتم تعبئة الوزن تلقائيًا"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"لكل 100 جرام من الطبق المطبوخ"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"التحقق من الوزن المطبوخ والمكونات: يمكن أن تحتوي كل 100 جرام على ما يصل إلى 1000 سعرة حرارية وما يصل إلى 100 جرام من كل مغذيات كبيرة."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"تعذر حفظ الوصفة"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"حفظ في وصفاتي"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"بمجرد حفظه، يمكنك تسجيل هذا الطبق حسب وزن حصته."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"وزن المكون قبل الطهي"</string>
+    <string name="secondary_grams" formatted="false">"جرام"</string>
+    <string name="secondary_weight_limits" formatted="false">"أكبر من 0 ولا يزيد عن 100.000 جم"</string>
+    <string name="secondary_add" formatted="false">"إضافة"</string>
+    <string name="secondary_save" formatted="false">"حفظ"</string>
+    <string name="secondary_cancel" formatted="false">"إلغاء"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"اختر أحد المكونات"</string>
+    <string name="secondary_search_food" formatted="false">"البحث عن الأطعمة"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"لا توجد نتائج. يمكنك إضافة طعامك الخاص في علامة تبويب الأطعمة."</string>
+    <string name="secondary_close" formatted="false">"إغلاق"</string>
+    <string name="secondary_portion_energy">"%1$s جم · %2$s سعر حراري"</string>
+    <string name="secondary_portion_macros">"البروتين %1$s · الدهون %2$s · الكربوهيدرات %3$s g"</string>
+    <string name="secondary_ingredients_weight">"وزن المكون: %1$s جم"</string>
+    <string name="secondary_energy">"%1$s سعر حراري"</string>
+    <string name="secondary_grams_value">"%1$s غ"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s كيلو كالوري / 100 جم"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s غ"</string>
+    <string name="secondary_recipe_note">"العائد: %1$s غ. المكونات: %2$s"</string>
+</resources>

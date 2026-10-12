@@ -53,30 +53,30 @@ fun AchievementsScreen(
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         item {
-            TextButton(onClick = onBack, contentPadding = PaddingValues(0.dp)) { Text("‹  Назад") }
-            PageTitle("Достижения", "Маленькие шаги становятся привычкой")
+            TextButton(onClick = onBack, contentPadding = PaddingValues(0.dp)) { BackNavigationLabel(tr(R.string.secondary_back)) }
+            PageTitle(tr(R.string.secondary_achievements), tr(R.string.secondary_achievements_subtitle))
         }
         item {
             Surface(color = MaterialTheme.colorScheme.primaryContainer, shape = RoundedCornerShape(28.dp)) {
                 Column(Modifier.fillMaxWidth().padding(22.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Text("ВАШ ПРОГРЕСС", fontSize = 11.sp, letterSpacing = 1.4.sp,
+                    Text(tr(R.string.secondary_your_progress), fontSize = 11.sp, letterSpacing = 1.4.sp,
                         color = MaterialTheme.colorScheme.onPrimaryContainer)
                     Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text("$earned", fontSize = 40.sp, fontWeight = FontWeight.Bold,
+                        Text(java.text.NumberFormat.getIntegerInstance(appLocale()).format(earned), fontSize = 40.sp, fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.onPrimaryContainer)
-                        Text("из ${progress.size} открыто", modifier = Modifier.weight(1f).padding(bottom = 7.dp),
+                        Text(tr(R.string.secondary_unlocked_of, progress.size), modifier = Modifier.weight(1f).padding(bottom = 7.dp),
                             color = MaterialTheme.colorScheme.onPrimaryContainer)
                     }
                     LinearProgressIndicator(progress = { earned.toFloat() / progress.size }, modifier = Modifier.fillMaxWidth(),
                         color = MaterialTheme.colorScheme.primary, trackColor = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.12f))
-                    Text("Полученные достижения остаются с вами, даже если вы исправите записи.",
+                    Text(tr(R.string.secondary_awards_permanent),
                         style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onPrimaryContainer)
                 }
             }
         }
         item {
-            Text("За регулярность и заботу о дневнике", fontWeight = FontWeight.SemiBold, color = Ink)
-            Text("Учитываются сохранённые записи до сегодняшнего дня включительно.",
+            Text(tr(R.string.secondary_awards_regular), fontWeight = FontWeight.SemiBold, color = Ink)
+            Text(tr(R.string.secondary_awards_through_today),
                 modifier = Modifier.padding(top = 4.dp), style = MaterialTheme.typography.bodySmall, color = Muted)
         }
         items(progress, key = { it.definition.id }) { item -> AchievementCard(item) }
@@ -88,37 +88,37 @@ fun AchievementsScreen(
 private fun AchievementCard(progress: AchievementProgress) {
     val achievement = progress.definition
     val hidden = progress.isHidden
-    val title = if (hidden) "Скрытое достижение" else achievement.title
-    val description = if (hidden) "Продолжайте вести дневник, чтобы открыть." else achievement.description
+    val title = if (hidden) tr(R.string.secondary_hidden_achievement) else achievement.title
+    val description = if (hidden) tr(R.string.secondary_hidden_description) else achievement.description
     Panel(Modifier.testTag("achievement_${achievement.id}")) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             AchievementBadge(achievement.symbol, hidden, progress.isEarned)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text(title, fontSize = 19.sp, fontWeight = FontWeight.SemiBold, color = Ink)
                 Text(when {
-                    progress.isEarned -> "Получено"
-                    hidden -> "Скрыто · пока закрыто"
-                    achievement.kind == AchievementKind.PROGRESSIVE -> "В процессе · пока закрыто"
-                    else -> "Пока закрыто"
+                    progress.isEarned -> tr(R.string.secondary_earned)
+                    hidden -> tr(R.string.secondary_hidden_locked)
+                    achievement.kind == AchievementKind.PROGRESSIVE -> tr(R.string.secondary_in_progress_locked)
+                    else -> tr(R.string.secondary_locked)
                 }, fontSize = 11.sp, color = if (progress.isEarned) Green else Muted)
             }
         }
         Text(description, style = MaterialTheme.typography.bodyMedium, color = Muted)
         if (progress.isEarned) {
-            val date = remember(progress.earnedAt) {
+            val date = remember(progress.earnedAt, appLocale()) {
                 runCatching { dateLabel(progress.earnedAt!!) }.getOrElse { progress.earnedAt.orEmpty() }
             }
-            Text("Открыто $date", fontSize = 12.sp, fontWeight = FontWeight.Medium, color = Green)
+            Text(tr(R.string.secondary_unlocked_date, date), fontSize = 12.sp, fontWeight = FontWeight.Medium, color = Green)
         } else if (hidden) {
-            Text("Условие и прогресс откроются вместе с наградой.", style = MaterialTheme.typography.bodySmall, color = Muted)
+            Text(tr(R.string.secondary_hidden_progress), style = MaterialTheme.typography.bodySmall, color = Muted)
         } else {
             val shown = progress.current.coerceAtMost(achievement.target)
             LinearProgressIndicator(progress = { progress.fraction }, modifier = Modifier.fillMaxWidth(),
                 trackColor = MaterialTheme.colorScheme.surfaceContainerHighest)
             Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                Text("$shown / ${achievement.target} ${achievement.unit}", fontSize = 12.sp, color = Green)
+                Text(tr(R.string.secondary_award_progress, shown, achievement.target, achievement.unit), fontSize = 12.sp, color = Green)
                 if (achievement.id == AchievementEngine.FOOD_7_DAY_STREAK) {
-                    Text("Лучшая серия", fontSize = 11.sp, color = Muted)
+                    Text(tr(R.string.secondary_best_streak), fontSize = 11.sp, color = Muted)
                 }
             }
         }
@@ -134,7 +134,7 @@ private fun AchievementBadge(symbol: AchievementSymbol, hidden: Boolean, earned:
         Box(Modifier.size(58.dp), contentAlignment = Alignment.Center) {
             if (hidden) {
                 Text("?", fontSize = 28.sp, fontWeight = FontWeight.Bold, color = foreground,
-                    modifier = Modifier.semantics { contentDescription = "Скрытая награда" })
+                    modifier = Modifier.semantics { contentDescription = tr(R.string.secondary_hidden_reward) })
             } else Canvas(Modifier.size(32.dp)) {
                 val u = size.width / 32f
                 val stroke = Stroke(1.8f * u, cap = StrokeCap.Round)

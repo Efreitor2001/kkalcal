@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"יומן תזונה"</string>
+    <string name="core_app_name" formatted="false">"יומן תזונה"</string>
+    <string name="core_tagline" formatted="false">"קלוריות, משקל והתקדמות"</string>
+    <string name="core_open_diary" formatted="false">"פתיחת היומן"</string>
+    <string name="core_save_failed" formatted="false">"לא ניתן לשמור את הנתונים"</string>
+    <string name="core_day" formatted="false">"היום"</string>
+    <string name="core_products" formatted="false">"מזונות"</string>
+    <string name="core_diary" formatted="false">"יומן"</string>
+    <string name="core_charts" formatted="false">"תרשימים"</string>
+    <string name="core_more" formatted="false">"עוד"</string>
+    <string name="core_recipe_saved" formatted="false">"המנה נשמרה ברשימת המזונות שלך"</string>
+    <string name="core_back_to_day" formatted="false">"חזרה ליום שלך"</string>
+    <string name="core_action_failed" formatted="false">"לא ניתן לבצע את הפעולה"</string>
+    <string name="core_understood" formatted="false">"אישור"</string>
+    <string name="core_restore_available" formatted="false">"אפשר לשחזר גיבוי דרך עוד."</string>
+    <string name="core_eaten_today" formatted="false">"נאכל היום"</string>
+    <string name="core_set_goal_hint" formatted="false">"אפשר להגדיר יעד דרך עוד"</string>
+    <string name="core_add_food" formatted="false">"+ הוספת מזון"</string>
+    <string name="core_first_meal" formatted="false">"מתחילים בארוחה הראשונה"</string>
+    <string name="core_first_meal_help" formatted="false">"יש לבחור מזון ולהזין את משקלו בגרמים לחישוב קלוריות ואבות המזון."</string>
+    <string name="core_my_day" formatted="false">"היום שלי"</string>
+    <string name="core_my_day_help" formatted="false">"משקל, היקף מותניים, צעדים ושינה — אפשר לרשום את הנתונים שיש לך."</string>
+    <string name="core_record_metrics" formatted="false">"רישום מדידות"</string>
+    <string name="core_edit_metrics" formatted="false">"עריכת מדידות"</string>
+    <string name="core_food_state_hint" formatted="false">"המשקל והערכים התזונתיים צריכים להתייחס לאותו מצב של המזון: נא, יבש או מבושל."</string>
+    <string name="core_weight" formatted="false">"משקל"</string>
+    <string name="core_waist" formatted="false">"היקף מותניים"</string>
+    <string name="core_my_diary" formatted="false">"היומן שלי"</string>
+    <string name="core_diary_tagline" formatted="false">"כל יום בקצב שלך"</string>
+    <string name="core_record_day" formatted="false">"+ רישום יום"</string>
+    <string name="core_optional_diary_help" formatted="false">"כל המדידות הן רשות. אפשר לרשום רק משקל, שינה או הערה. יש ללחוץ על רשומה כדי לערוך אותה."</string>
+    <string name="core_history_starts" formatted="false">"ההיסטוריה שלך מתחילה כאן"</string>
+    <string name="core_history_help" formatted="false">"אפשר לרשום מדידות ולעקוב אחר השינויים בתרשימים."</string>
+    <string name="core_file_unavailable" formatted="false">"הקובץ אינו זמין"</string>
+    <string name="core_backup_saved" formatted="false">"הגיבוי נשמר"</string>
+    <string name="core_export_error" formatted="false">"לא ניתן לייצא את הגיבוי"</string>
+    <string name="core_read_error" formatted="false">"לא ניתן לקרוא את הקובץ"</string>
+    <string name="core_settings_tagline" formatted="false">"הגדרות וגיבוי נתונים"</string>
+    <string name="core_your_progress" formatted="false">"ההתקדמות שלך"</string>
+    <string name="core_achievements_help" formatted="false">"הישגים קטנים שעוזרים להפוך את הרישום להרגל."</string>
+    <string name="core_achievements" formatted="false">"הישגים"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"חיבור לבחירתך לסנכרון היומן בין המכשירים שלך."</string>
+    <string name="core_cloud_sync" formatted="false">"סנכרון בענן"</string>
+    <string name="core_personal_goals" formatted="false">"יעדים אישיים"</string>
+    <string name="core_personal_goals_help" formatted="false">"אפשר להגדיר ידנית יעדי קלוריות, אבות מזון ומשקל. אפשר להשאיר כל יעד ריק."</string>
+    <string name="core_configure_goals" formatted="false">"הגדרת יעדים"</string>
+    <string name="core_backup" formatted="false">"גיבוי"</string>
+    <string name="core_backup_help" formatted="false">"מזונות, ארוחות, יומן, יעדים והישגים בקובץ אחד. כדאי ליצור גיבוי לפני התקנה מחדש של האפליקציה."</string>
+    <string name="core_save_file" formatted="false">"שמירה לקובץ"</string>
+    <string name="core_restore_file" formatted="false">"שחזור מקובץ"</string>
+    <string name="core_write_locked" formatted="false">"השמירה מושבתת כדי להגן על הקובץ המקורי. יש לשחזר גיבוי תקין."</string>
+    <string name="core_about_data" formatted="false">"על האפליקציה והנתונים שלך"</string>
+    <string name="core_about_data_help" formatted="false">"איך הרשומות נשמרות, מסתנכרנות ונמחקות."</string>
+    <string name="core_privacy" formatted="false">"פרטיות ומחיקת נתונים"</string>
+    <string name="core_offline" formatted="false">"פועל ללא אינטרנט"</string>
+    <string name="core_offline_help" formatted="false">"ההתחברות ל-Google היא רשות. צעדים ושינה מוזנים ידנית. חיבור לאינטרנט נדרש לסנכרון כשהוא מופעל ולטעינת פרסומות. רשומות היומן אינן נשלחות לרשת הפרסום."</string>
+    <string name="core_about_foods" formatted="false">"על המזונות"</string>
+    <string name="core_foods_reference" formatted="false">"הערכים המובנים הם הערכות ל-100 גרם של החלק האכיל. לערכים מדויקים יש לבדוק את האריזה. עריכת מזון אינה מחשבת מחדש ארוחות שכבר נרשמו."</string>
+    <string name="core_foods_source" formatted="false">"מקור מאגר המזונות: USDA FoodData Central, SR Legacy. בכל מזון מצוינים מצבו והמקור שלו."</string>
+    <string name="core_restore_title" formatted="false">"לשחזר את הגיבוי הזה?"</string>
+    <string name="core_restore_warning" formatted="false">"המזונות, היומן, היעדים וההישגים הקיימים יוחלפו בנתוני הקובץ. יש ליצור קודם גיבוי. אם הסנכרון מחובר, הנתונים ששוחזרו יישלחו גם ל-Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"הגיבוי שוחזר"</string>
+    <string name="core_invalid_file" formatted="false">"קובץ לא תקין"</string>
+    <string name="core_replace_data" formatted="false">"החלפת נתונים"</string>
+    <string name="core_cancel" formatted="false">"ביטול"</string>
+    <string name="core_save" formatted="false">"שמירה"</string>
+    <string name="core_calculate_portion" formatted="false">"חישוב מנה"</string>
+    <string name="core_edit_portion" formatted="false">"עריכת מנה"</string>
+    <string name="core_portion_weight" formatted="false">"משקל המנה, גרם"</string>
+    <string name="core_portion_invalid" formatted="false">"יש להזין משקל גדול מ-0 ועד 100,000 גרם"</string>
+    <string name="core_add_to_diary" formatted="false">"הוספה ליומן"</string>
+    <string name="core_delete_entry" formatted="false">"מחיקת הרשומה"</string>
+    <string name="core_delete_portion_question" formatted="false">"למחוק את המנה מהיומן?"</string>
+    <string name="core_new_food" formatted="false">"מזון או מנה חדשים"</string>
+    <string name="core_edit_nutrition" formatted="false">"עריכת ערכים תזונתיים"</string>
+    <string name="core_name" formatted="false">"שם"</string>
+    <string name="core_food" formatted="false">"מזון"</string>
+    <string name="core_dish" formatted="false">"מנה מוכנה"</string>
+    <string name="core_category" formatted="false">"קטגוריה"</string>
+    <string name="core_per100_hint" formatted="false">"ערכים ל-100 גרם מהאריזה או ממתכון. יש להזין 0 אם רכיב תזונתי אינו קיים."</string>
+    <string name="core_kcal" formatted="false">"קלוריות"</string>
+    <string name="core_protein_grams" formatted="false">"חלבון, גרם"</string>
+    <string name="core_fat_grams" formatted="false">"שומן, גרם"</string>
+    <string name="core_carbs_grams" formatted="false">"פחמימות, גרם"</string>
+    <string name="core_food_note" formatted="false">"הערה, רכיבים (רשות)"</string>
+    <string name="core_favorite" formatted="false">"הוספה למועדפים"</string>
+    <string name="core_name_category_required" formatted="false">"יש להזין שם וקטגוריה"</string>
+    <string name="core_nutrition_invalid" formatted="false">"יש להזין ערכים ל-100 גרם: קלוריות בין 0 ל-1,000; חלבון, שומן ופחמימות בין 0 ל-100 גרם"</string>
+    <string name="core_delete_food" formatted="false">"מחיקה מרשימת המזונות"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"הארוחות שכבר נרשמו ישמרו על הערכים שלהן."</string>
+    <string name="core_delete_food_question" formatted="false">"למחוק את המזון? הרשומות שלו ביומן יישמרו."</string>
+    <string name="core_day_entry" formatted="false">"רשומה יומית"</string>
+    <string name="core_optional_fields" formatted="false">"אפשר למלא כל שדה שרוצים ולהשאיר את השאר ריקים."</string>
+    <string name="core_editing_existing" formatted="false">"כבר קיימת רשומה לתאריך זה. כעת עורכים אותה."</string>
+    <string name="core_weight_kg" formatted="false">"משקל, ק״ג"</string>
+    <string name="core_waist_cm" formatted="false">"היקף מותניים, ס״מ"</string>
+    <string name="core_steps" formatted="false">"צעדים"</string>
+    <string name="core_sleep" formatted="false">"שינה"</string>
+    <string name="core_hours" formatted="false">"שעות"</string>
+    <string name="core_minutes" formatted="false">"דקות"</string>
+    <string name="core_body_fat_optional" formatted="false">"אחוז שומן לפי המשקל, % (רשות)"</string>
+    <string name="core_body_fat_hint" formatted="false">"אחוז השומן שמציג המשקל מתאים למעקב אחר מגמה, ואינו מדידה מדויקת."</string>
+    <string name="core_strength_training" formatted="false">"אימון כוח"</string>
+    <string name="core_training_example" formatted="false">"לדוגמה: סקוואט 3×10, משקולות של 12 ק״ג"</string>
+    <string name="core_manual_nutrition" formatted="false">"סיכום תזונה ידני"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"אם מזינים ערכים אלה, הם מחליפים את הסכומים היומיים של המזונות. לחישוב אוטומטי יש להשאיר ריק."</string>
+    <string name="core_daily_calories" formatted="false">"קלוריות ביום"</string>
+    <string name="core_daily_protein" formatted="false">"חלבון ביום, גרם"</string>
+    <string name="core_wellbeing_notes" formatted="false">"הערות והרגשה"</string>
+    <string name="core_steps_invalid" formatted="false">"צעדים: מספר שלם בין 0 ל-200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"שינה: 0–24 שעות, 0–59 דקות"</string>
+    <string name="core_body_fat" formatted="false">"שומן גוף"</string>
+    <string name="core_calories" formatted="false">"קלוריות"</string>
+    <string name="core_protein" formatted="false">"חלבון"</string>
+    <string name="core_entry_required" formatted="false">"יש להוסיף לפחות מדידה אחת או הערה"</string>
+    <string name="core_delete_day" formatted="false">"מחיקת הרשומה היומית"</string>
+    <string name="core_optional_goals" formatted="false">"כל היעדים הם רשות. שדה ריק פירושו שלא הוגדר יעד."</string>
+    <string name="core_calories_per_day" formatted="false">"קלוריות ליום"</string>
+    <string name="core_protein_per_day" formatted="false">"חלבון ליום, גרם"</string>
+    <string name="core_fat_per_day" formatted="false">"שומן ליום, גרם"</string>
+    <string name="core_carbs_per_day" formatted="false">"פחמימות ליום, גרם"</string>
+    <string name="core_target_weight" formatted="false">"משקל יעד, ק״ג"</string>
+    <string name="core_goals_invalid" formatted="false">"יש לבדוק את היעדים: קלוריות בין 0 ל-10,000; חלבון, שומן ופחמימות בין 0 ל-1,000 גרם"</string>
+    <string name="core_target_weight_invalid" formatted="false">"משקל יעד: בין 1 ל-500 ק״ג"</string>
+    <string name="core_delete_question" formatted="false">"למחוק?"</string>
+    <string name="core_delete" formatted="false">"מחיקה"</string>
+    <string name="core_select_food" formatted="false">"בחירת מזון"</string>
+    <string name="core_foods_dishes" formatted="false">"מזונות ומנות"</string>
+    <string name="core_search_food" formatted="false">"חיפוש מזון או מנה"</string>
+    <string name="core_new_food_button" formatted="false">"+ מזון / מנה"</string>
+    <string name="core_recipe_button" formatted="false">"לפי מתכון"</string>
+    <string name="core_no_results" formatted="false">"לא נמצאו תוצאות"</string>
+    <string name="core_no_results_help" formatted="false">"אפשר לנסות חיפוש אחר או להוסיף מזון או מנה מוכנה משלך."</string>
+    <string name="core_edit" formatted="false">"עריכה"</string>
+    <string name="core_achievement_unlocked">"🏆 הישג חדש! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"נותרו %1$s קק״ל · יעד %2$s"</string>
+    <string name="core_above_goal">"%1$s קק״ל מעל היעד"</string>
+    <string name="core_portion_summary">"%1$s גרם · %2$s קק״ל"</string>
+    <string name="core_macros_summary">"חלבון %1$s   שומן %2$s   פחמימות %3$s"</string>
+    <string name="core_weight_summary">"משקל %1$s ק״ג"</string>
+    <string name="core_waist_summary">"היקף מותניים %1$s ס״מ"</string>
+    <string name="core_steps_summary">"צעדים: %1$s"</string>
+    <string name="core_fat_summary">"שומן גוף %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s קק״ל (ידני)"</string>
+    <string name="core_manual_protein">"חלבון %1$s גרם (ידני)"</string>
+    <string name="core_kg_value">"%1$s ק״ג"</string>
+    <string name="core_cm_value">"%1$s ס״מ"</string>
+    <string name="core_sleep_value">"שינה %1$s"</string>
+    <string name="core_scale_fat">"שומן לפי המשקל %1$s%%"</string>
+    <string name="core_training_value">"אימון: %1$s"</string>
+    <string name="core_kcal_value">"%1$s קק״ל"</string>
+    <string name="core_protein_value">"חלבון %1$s גרם"</string>
+    <string name="core_app_version">"יומן תזונה · %1$s"</string>
+    <string name="core_per100_summary">"ל-100 גרם: %1$s קק״ל · חלבון %2$s · שומן %3$s · פחמימות %4$s"</string>
+    <string name="core_range_invalid">"%1$s: יש להזין ערך בין %2$s ל-%3$s"</string>
+    <string name="core_delete_day_question">"למחוק את המדידות של %1$s? הארוחות יישמרו."</string>
+    <string name="core_catalog_count">"מזונות: %1$s · ערכים ל-100 גרם"</string>
+    <string name="core_catalog_nutrition">"%1$s קק״ל   ·   חלבון %2$s   שומן %3$s   פחמימות %4$s"</string>
+    <string name="core_today_date">"היום · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"הקלוריות והחלבון הם הסכומים שהוזנו ידנית ביומן"</string>
+    <string name="core_manual_calorie_total" formatted="false">"הקלוריות הן הסכום שהוזן ידנית ביומן"</string>
+    <string name="core_manual_protein_total" formatted="false">"החלבון הוא הסכום שהוזן ידנית ביומן"</string>
+    <string name="core_macro_goals">"יעדי חלבון / שומן / פחמימות: %1$s / %2$s / %3$s גרם"</string>
+    <string name="core_kcal_unit" formatted="false">"קק״ל"</string>
+    <string name="core_manual_values">"%1$s (ידני)"</string>
+    <string name="core_all" formatted="false">"הכול"</string>
+    <string name="core_favorites" formatted="false">"מועדפים"</string>
+    <string name="core_sleep_duration">"%1$s שעות %2$s דקות"</string>
+    <string name="core_previous_day" formatted="false">"היום הקודם"</string>
+    <string name="core_next_day" formatted="false">"היום הבא"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"גיבוי ההעברה אינו תואם"</string>
+    <string name="data_entry_exists" formatted="false">"רשומת המזון הזו כבר קיימת"</string>
+    <string name="data_entry_missing" formatted="false">"רשומת המזון לא נמצאה"</string>
+    <string name="data_edited_date_changed" formatted="false">"התאריך של הרשומה הנערכת השתנה"</string>
+    <string name="data_device_id_corrupt" formatted="false">"מזהה המכשיר המקומי פגום; השחזור נחסם"</string>
+    <string name="data_sync_invalid" formatted="false">"נתוני סנכרון לא תקינים"</string>
+    <string name="data_diary_read_only" formatted="false">"היומן מוגן מפני דריסה: יש לשחזר גיבוי"</string>
+    <string name="data_diary_inconsistent" formatted="false">"נתוני היומן אינם עקביים"</string>
+    <string name="data_backup_too_large" formatted="false">"הגיבוי גדול מדי"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"מזהה ההתקנה פגום"</string>
+    <string name="data_save_verification_failed" formatted="false">"לא ניתן לוודא שהיומן נשמר"</string>
+    <string name="data_save_failed" formatted="false">"לא ניתן לשמור את היומן"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"הגיבוי גדול מ-50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"קובץ היומן גדול מדי"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"גודל מאגר המזונות אינו תקין"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"גרסת הגיבוי אינה נתמכת"</string>
+    <string name="data_too_many_values">"יותר מדי ערכים ב-%1$s"</string>
+    <string name="data_too_many_products" formatted="false">"יותר מדי מזונות"</string>
+    <string name="data_too_many_entries" formatted="false">"יותר מדי רשומות מזון"</string>
+    <string name="data_too_many_logs" formatted="false">"יותר מדי רשומות יומן"</string>
+    <string name="data_product_id_duplicate" formatted="false">"מזהה מזון כפול"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"מזהה רשומת מזון כפול"</string>
+    <string name="data_log_date_duplicate" formatted="false">"תאריך יומן כפול"</string>
+    <string name="data_label_product_id" formatted="false">"מזהה מזון"</string>
+    <string name="data_label_product_name" formatted="false">"שם מזון"</string>
+    <string name="data_label_category" formatted="false">"קטגוריה"</string>
+    <string name="data_label_note" formatted="false">"הערה"</string>
+    <string name="data_label_entry_id" formatted="false">"מזהה רשומה"</string>
+    <string name="data_label_meal" formatted="false">"ארוחה"</string>
+    <string name="data_food_weight_range" formatted="false">"משקל המזון חייב להיות גדול מ-0 ועד 100,000 גרם"</string>
+    <string name="data_label_weight" formatted="false">"משקל"</string>
+    <string name="data_label_waist" formatted="false">"היקף מותניים"</string>
+    <string name="data_steps_range" formatted="false">"מספר הצעדים חייב להיות בין 0 ל-200,000"</string>
+    <string name="data_label_sleep" formatted="false">"שינה"</string>
+    <string name="data_label_body_fat" formatted="false">"שומן גוף"</string>
+    <string name="data_label_daily_calories" formatted="false">"קלוריות ביום"</string>
+    <string name="data_label_daily_protein" formatted="false">"חלבון ביום"</string>
+    <string name="data_label_workout" formatted="false">"אימון"</string>
+    <string name="data_label_log_note" formatted="false">"הערה"</string>
+    <string name="data_log_empty" formatted="false">"יש להזין לפחות מדידה אחת או הערה"</string>
+    <string name="data_label_goal_weight" formatted="false">"משקל יעד"</string>
+    <string name="data_too_many_achievements" formatted="false">"יותר מדי הישגים"</string>
+    <string name="data_achievement_invalid" formatted="false">"הישג לא תקין"</string>
+    <string name="data_setting_not_portable" formatted="false">"לא ניתן להעביר הגדרה זו"</string>
+    <string name="data_setting_invalid">"ערך לא תקין להגדרה %1$s"</string>
+    <string name="data_label_calories" formatted="false">"קלוריות"</string>
+    <string name="data_label_protein" formatted="false">"חלבון"</string>
+    <string name="data_label_fat" formatted="false">"שומן"</string>
+    <string name="data_label_carbs" formatted="false">"פחמימות"</string>
+    <string name="data_value_range">"%1$s: הטווח המותר הוא בין %2$s ל-%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: אורך לא תקין"</string>
+    <string name="data_text_character_invalid">"%1$s: תו שאינו מותר"</string>
+    <string name="data_date_format_invalid" formatted="false">"התאריך חייב להיות בתבנית YYYY-MM-DD"</string>
+    <string name="data_date_nonexistent">"תאריך לא תקין: %1$s"</string>
+    <string name="data_field_string_required">"השדה %1$s חייב להכיל טקסט"</string>
+    <string name="data_field_boolean_required">"השדה %1$s חייב להיות ערך בוליאני"</string>
+    <string name="data_field_number_required">"השדה %1$s חייב להיות מספר"</string>
+    <string name="data_field_finite_required">"השדה %1$s חייב להיות מספר סופי"</string>
+    <string name="data_field_integer_required">"השדה %1$s חייב להיות מספר שלם"</string>
+    <string name="data_too_many_items">"יותר מדי פריטים ב-%1$s"</string>
+    <string name="data_data_file_invalid">"קובץ נתונים לא תקין: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"מזהה המכשיר חסר"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"השעון הלוגי הגיע למגבלה"</string>
+    <string name="data_too_many_sync_records" formatted="false">"יותר מדי רשומות סנכרון"</string>
+    <string name="data_sync_version_required" formatted="false">"הסנכרון דורש פורמט בגרסה 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"מפתח סנכרון לא תקין"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"מפתח סנכרון כפול"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"סימון מחיקה לא תקין"</string>
+    <string name="data_sync_data_invalid" formatted="false">"נתוני סנכרון לא תקינים"</string>
+    <string name="data_record_clock_invalid" formatted="false">"גרסת הרשומה חורגת מהשעון הלוגי"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"הנתונים אינם תואמים למטא-נתוני הסנכרון"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"אורך מפתח הסנכרון אינו תקין"</string>
+    <string name="data_sync_key_malformed" formatted="false">"מבנה מפתח הסנכרון אינו תקין"</string>
+    <string name="data_sync_type_unknown" formatted="false">"סוג סנכרון לא מוכר"</string>
+    <string name="data_record_id_too_long" formatted="false">"מזהה הרשומה ארוך מדי"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"מחיקת הישג לא תקינה"</string>
+    <string name="data_log_key_invalid" formatted="false">"מפתח יומן לא תקין"</string>
+    <string name="data_log_field_unknown" formatted="false">"שדה יומן לא מוכר"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"סמן מחיקת יומן לא תקין"</string>
+    <string name="data_goal_unknown" formatted="false">"יעד לא מוכר"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"רשומה שנמחקה מכילה נתונים"</string>
+    <string name="data_sync_value_invalid" formatted="false">"ערך סנכרון לא תקין"</string>
+    <string name="data_record_id_mismatch" formatted="false">"מזהה הרשומה אינו תואם למפתח"</string>
+    <string name="data_field_value_invalid" formatted="false">"ערך שדה לא תקין"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"תאריך ההישג אינו תואם למפתח"</string>
+    <string name="data_note_string_required" formatted="false">"ההערה חייבת להכיל טקסט"</string>
+    <string name="data_sync_note_invalid" formatted="false">"הערה מסונכרנת לא תקינה"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"שעון לוגי לא תקין"</string>
+    <string name="data_device_invalid" formatted="false">"מכשיר לא תקין"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"חותמת גרסה לא תקינה"</string>
+    <string name="data_google_login_required" formatted="false">"יש להתחבר שוב ל-Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"יותר מדי גיבויים בענן"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive החזיר דף שכבר התקבל"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"הגיבוי בענן גדול מ-50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive לא החזיר כתובת להעלאה"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"כתובת ההעלאה של Google Drive אינה תקינה"</string>
+    <string name="data_back" formatted="false">"‹  חזרה"</string>
+    <string name="data_cloud_title" formatted="false">"סנכרון בענן"</string>
+    <string name="data_cloud_subtitle" formatted="false">"היומן שלך בכל המכשירים"</string>
+    <string name="data_no_account" formatted="false">"לא מחובר חשבון"</string>
+    <string name="data_cloud_intro" formatted="false">"ההתחברות היא רשות. מזונות, ארוחות, מדידות, יעדים והישגים נשמרים בטלפון. אחרי ההתחברות, עותק יישמר בתיקייה מוסתרת ב-Google Drive שלך."</string>
+    <string name="data_cloud_first_connection" formatted="false">"הרשומות ממוזגות בחיבור הראשון. לאפליקציה אין גישה לקבצים אחרים ב-Drive שלך."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"ההתחברות ל-Google עדיין לא הוגדרה לגרסה זו. היומן וגיבויים בקבצים פועלים ללא חשבון."</string>
+    <string name="data_connect_google" formatted="false">"חיבור Google"</string>
+    <string name="data_automatic_sync" formatted="false">"סנכרון אוטומטי"</string>
+    <string name="data_automatic_sync_description" formatted="false">"בעת שינויים וברקע, כש-Android מאפשר זאת"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"לא ניתן לשנות את לוח הזמנים. הנתונים נשמרו במכשיר הזה."</string>
+    <string name="data_sync_start_failed" formatted="false">"לא ניתן להתחיל את הסנכרון. הנתונים נשמרו במכשיר הזה."</string>
+    <string name="data_sync_now" formatted="false">"סנכרון עכשיו"</string>
+    <string name="data_google_sign_in_again" formatted="false">"יש להתחבר שוב ל-Google"</string>
+    <string name="data_disconnect_account" formatted="false">"ניתוק החשבון"</string>
+    <string name="data_sync_never" formatted="false">"עדיין לא בוצע סנכרון"</string>
+    <string name="data_offline_saved_title" formatted="false">"הנתונים שלך נשמרים גם ללא אינטרנט"</string>
+    <string name="data_cloud_merge_description" formatted="false">"כשהסנכרון האוטומטי פעיל, שינויים נשלחים כשיש חיבור. אם אותו שדה נערך בשני מכשירים, נעשה שימוש בגרסה עם חותמת זמן השינוי המאוחרת יותר. רשומות ושדות עצמאיים ממוזגים."</string>
+    <string name="data_cloud_password_description" formatted="false">"הסיסמה מוזנת רק בדף Google בדפדפן. אסימוני הגישה מוגנים באמצעות Android Keystore ואינם נכללים בגיבויים."</string>
+    <string name="data_google_connection_title" formatted="false">"חיבור Google"</string>
+    <string name="data_got_it" formatted="false">"הבנתי"</string>
+    <string name="data_connect_drive_title" formatted="false">"לחבר את Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"היומן הנוכחי ימוזג עם הנתונים בחשבון Google שנבחר. יש להשתמש באותו חשבון אישי במכשירים שלך. ההתחברות תיפתח בדפדפן ברירת המחדל."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"לא ניתן לפתוח את ההתחברות. יש להתקין או להפעיל דפדפן ברירת מחדל ולנסות שוב."</string>
+    <string name="data_continue" formatted="false">"המשך"</string>
+    <string name="data_cancel" formatted="false">"ביטול"</string>
+    <string name="data_disconnect_title" formatted="false">"לנתק את החשבון?"</string>
+    <string name="data_disconnect_description" formatted="false">"הסנכרון ייפסק במכשיר הזה. היומן המקומי והעותקים ב-Google Drive יישמרו. אפשר לנהל את הרשאת האפליקציה בהגדרות חשבון Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"לא ניתן לנתק את החשבון. יש לנסות שוב."</string>
+    <string name="data_disconnect" formatted="false">"ניתוק"</string>
+    <string name="data_google_not_connected" formatted="false">"Google אינו מחובר"</string>
+    <string name="data_sync_ready" formatted="false">"מוכן לסנכרון"</string>
+    <string name="data_sync_changes_pending" formatted="false">"שינויים ממתינים לסנכרון…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"אין אינטרנט. השינויים נשמרו במכשיר הזה."</string>
+    <string name="data_google_not_configured" formatted="false">"ההתחברות ל-Google עדיין לא הוגדרה לגרסה זו"</string>
+    <string name="data_sync_wait" formatted="false">"יש להמתין לסיום הסנכרון"</string>
+    <string name="data_google_connecting" formatted="false">"מתבצע חיבור ל-Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"ההתחברות בוטלה"</string>
+    <string name="data_connection_rejected" formatted="false">"ההתחברות בוטלה או נדחתה על ידי Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google מחובר. הרשומות מתמזגות…"</string>
+    <string name="data_google_connection_failed" formatted="false">"לא ניתן לחבר את Google. יש לבדוק את החיבור לאינטרנט ואת הגדרות הגישה."</string>
+    <string name="data_account_disconnected" formatted="false">"החשבון נותק. הנתונים נשארים במכשיר הזה."</string>
+    <string name="data_sync_waiting_network" formatted="false">"אין אינטרנט. הסנכרון ממתין לחיבור."</string>
+    <string name="data_sync_scheduled" formatted="false">"הסנכרון תוזמן…"</string>
+    <string name="data_sync_running" formatted="false">"מתבצע סנכרון…"</string>
+    <string name="data_sync_complete" formatted="false">"הסנכרון הושלם"</string>
+    <string name="data_no_internet" formatted="false">"אין חיבור לאינטרנט"</string>
+    <string name="data_sync_failed_saved" formatted="false">"לא ניתן לסנכרן. הנתונים נשמרו במכשיר הזה"</string>
+    <string name="data_page_open_failed" formatted="false">"לא ניתן לפתוח את הדף. אפשר להעתיק את הכתובת מהטקסט שלמטה."</string>
+    <string name="data_privacy_title" formatted="false">"פרטיות"</string>
+    <string name="data_privacy_subtitle" formatted="false">"הרשומות שלך ושליטה בנתונים"</string>
+    <string name="data_app_purpose" formatted="false">"על האפליקציה"</string>
+    <string name="data_medical_disclaimer" formatted="false">"האפליקציה אינה מכשיר רפואי. היא אינה מאבחנת, מטפלת, מרפאת או מונעת מחלות. לייעוץ רפואי, אבחון וטיפול יש לפנות לאיש מקצוע רפואי מוסמך."</string>
+    <string name="data_manage_delete_data" formatted="false">"ניהול ומחיקת נתונים"</string>
+    <string name="data_delete_data_intro" formatted="false">"לפני מחיקת כל הנתונים יש לכבות את הסנכרון בכל המכשירים. הסרת האפליקציה מהטלפון אינה מוחקת עותקים ב-Google Drive או קבצים שיוצאו."</string>
+    <string name="data_manage_drive_data" formatted="false">"ניהול נתונים ב-Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"גישה לחשבון Google"</string>
+    <string name="data_android_app_storage" formatted="false">"אחסון האפליקציה ב-Android"</string>
+    <string name="data_contact_developer" formatted="false">"יצירת קשר עם המפתח"</string>
+    <string name="data_opening_page" formatted="false">"פתיחת דף"</string>
+    <string name="data_advertisement" formatted="false">"פרסומת"</string>
+    <string name="data_ad_information" formatted="false">"על הפרסומת הזו"</string>
+    <string name="data_cloud_http_error">"שגיאת HTTP בענן %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"תגובת הענן גדולה מדי"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"סשן ההתחברות המוצפן אינו תקין"</string>
+    <string name="data_session_save_failed" formatted="false">"לא ניתן לשמור את סשן ההתחברות"</string>
+    <string name="data_token_refresh_failed" formatted="false">"לא ניתן לחדש את הגישה ל-Google"</string>
+    <string name="data_diary_read_failed">"לא ניתן לקרוא את היומן. הקובץ המקורי נשמר. יש לשחזר את הנתונים מגיבוי. %1$s"</string>
+    <string name="data_last_sync">"סנכרון אחרון: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"פירות ופירות יער"</string>
+    <string name="data_category_dried_fruit" formatted="false">"פירות מיובשים"</string>
+    <string name="data_category_vegetables" formatted="false">"ירקות ועשבי תיבול"</string>
+    <string name="data_category_mushrooms" formatted="false">"פטריות"</string>
+    <string name="data_category_grains" formatted="false">"דגנים ופסטה"</string>
+    <string name="data_category_legumes" formatted="false">"קטניות"</string>
+    <string name="data_category_meat" formatted="false">"בשר ועוף"</string>
+    <string name="data_category_fish" formatted="false">"דגים ופירות ים"</string>
+    <string name="data_category_dairy" formatted="false">"מוצרי חלב"</string>
+    <string name="data_category_eggs" formatted="false">"ביצים"</string>
+    <string name="data_category_oils" formatted="false">"שמנים וחמאה"</string>
+    <string name="data_category_nuts" formatted="false">"אגוזים וזרעים"</string>
+    <string name="data_category_bread" formatted="false">"לחם"</string>
+    <string name="data_category_other" formatted="false">"מזונות אחרים"</string>
+    <string name="data_category_dishes" formatted="false">"מנות מוכנות"</string>
+    <string name="data_category_custom" formatted="false">"המזונות שלי"</string>
+    <string name="data_category_other_short" formatted="false">"אחר"</string>
+    <string name="data_food_seed_9003" formatted="false">"תפוח עם קליפה"</string>
+    <string name="data_catalog_note_1">"ערכי ייחוס ל-100 גרם מהחלק האכיל. מזון נא. ערכי הפחמימות של USDA כוללים סיבים. אפשר להתאים את הערכים לפי תווית המוצר. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"בננה קלופה"</string>
+    <string name="data_food_seed_9021" formatted="false">"משמש ללא גלעין"</string>
+    <string name="data_food_seed_9037" formatted="false">"בשר אבוקדו"</string>
+    <string name="data_food_seed_9050" formatted="false">"אוכמניות"</string>
+    <string name="data_food_seed_9070" formatted="false">"דובדבנים מתוקים ללא גלעין"</string>
+    <string name="data_food_seed_9063" formatted="false">"דובדבנים חמוצים ללא גלעין"</string>
+    <string name="data_food_seed_9078" formatted="false">"חמוציות"</string>
+    <string name="data_food_seed_9083" formatted="false">"דומדמניות שחורות"</string>
+    <string name="data_food_seed_9084" formatted="false">"דומדמניות אדומות ולבנות"</string>
+    <string name="data_food_seed_9132" formatted="false">"ענבים"</string>
+    <string name="data_food_seed_9148" formatted="false">"בשר קיווי"</string>
+    <string name="data_food_seed_9150" formatted="false">"לימון קלוף"</string>
+    <string name="data_food_seed_9181" formatted="false">"בשר מלון קנטלופ"</string>
+    <string name="data_food_seed_9200" formatted="false">"בשר תפוז"</string>
+    <string name="data_food_seed_9218" formatted="false">"בשר מנדרינה"</string>
+    <string name="data_food_seed_9236" formatted="false">"אפרסק ללא גלעין"</string>
+    <string name="data_food_seed_9252" formatted="false">"אגס"</string>
+    <string name="data_food_seed_9266" formatted="false">"בשר אננס"</string>
+    <string name="data_food_seed_9279" formatted="false">"שזיף ללא גלעין"</string>
+    <string name="data_food_seed_9286" formatted="false">"גרגרי רימון"</string>
+    <string name="data_food_seed_9295" formatted="false">"בשר פומלה"</string>
+    <string name="data_food_seed_9302" formatted="false">"פטל"</string>
+    <string name="data_food_seed_9316" formatted="false">"תות שדה"</string>
+    <string name="data_food_seed_9326" formatted="false">"בשר אבטיח"</string>
+    <string name="data_food_seed_9191" formatted="false">"נקטרינה ללא גלעין"</string>
+    <string name="data_food_seed_9176" formatted="false">"בשר מנגו"</string>
+    <string name="data_food_seed_9107" formatted="false">"חזרזר"</string>
+    <string name="data_food_seed_9226" formatted="false">"בשר פפאיה"</string>
+    <string name="data_food_seed_9089" formatted="false">"תאנים טריות"</string>
+    <string name="data_food_seed_9111" formatted="false">"בשר אשכולית"</string>
+    <string name="data_food_seed_9032" formatted="false">"משמשים מיובשים ללא גלעין"</string>
+    <string name="data_catalog_note_2">"ערכי ייחוס ל-100 גרם מהחלק האכיל. ערכי הפחמימות של USDA כוללים סיבים. אפשר להתאים את הערכים לפי תווית המוצר. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"שזיפים מיובשים ללא גלעין"</string>
+    <string name="data_food_seed_9087" formatted="false">"תמרים ללא גלעין"</string>
+    <string name="data_food_seed_9298" formatted="false">"צימוקים כהים ללא חרצנים"</string>
+    <string name="data_food_seed_11529" formatted="false">"עגבנייה טרייה"</string>
+    <string name="data_food_seed_11205" formatted="false">"מלפפון עם קליפה"</string>
+    <string name="data_food_seed_11090" formatted="false">"ברוקולי נא"</string>
+    <string name="data_food_seed_11109" formatted="false">"כרוב לבן נא"</string>
+    <string name="data_food_seed_11124" formatted="false">"גזר נא"</string>
+    <string name="data_food_seed_11135" formatted="false">"כרובית נא"</string>
+    <string name="data_food_seed_11143" formatted="false">"גבעולי סלרי"</string>
+    <string name="data_food_seed_11282" formatted="false">"בצל נא"</string>
+    <string name="data_food_seed_11291" formatted="false">"בצל ירוק"</string>
+    <string name="data_food_seed_11304" formatted="false">"אפונה ירוקה נא"</string>
+    <string name="data_food_seed_11333" formatted="false">"פלפל ירוק מתוק"</string>
+    <string name="data_food_seed_11821" formatted="false">"פלפל אדום מתוק"</string>
+    <string name="data_food_seed_11352" formatted="false">"תפוח אדמה נא עם קליפה"</string>
+    <string name="data_food_seed_11367" formatted="false">"תפוח אדמה מבושל וקלוף"</string>
+    <string name="data_catalog_note_3">"ערכי ייחוס ל-100 גרם מהחלק האכיל. ללא תוספת מלח. ערכי הפחמימות של USDA כוללים סיבים. אפשר להתאים את הערכים לפי תווית המוצר. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"קישוא נא"</string>
+    <string name="data_food_seed_11209" formatted="false">"חציל נא"</string>
+    <string name="data_food_seed_11422" formatted="false">"דלעת נא"</string>
+    <string name="data_food_seed_11429" formatted="false">"צנונית"</string>
+    <string name="data_food_seed_11564" formatted="false">"לפת נא"</string>
+    <string name="data_food_seed_11080" formatted="false">"סלק נא"</string>
+    <string name="data_food_seed_11081" formatted="false">"סלק מבושל"</string>
+    <string name="data_food_seed_11215" formatted="false">"שום"</string>
+    <string name="data_food_seed_11216" formatted="false">"שורש ג׳ינג׳ר"</string>
+    <string name="data_food_seed_11457" formatted="false">"תרד נא"</string>
+    <string name="data_food_seed_11253" formatted="false">"חסה עלים"</string>
+    <string name="data_food_seed_11297" formatted="false">"פטרוזיליה טרייה"</string>
+    <string name="data_food_seed_2045" formatted="false">"שמיר טרי"</string>
+    <string name="data_food_seed_11052" formatted="false">"שעועית ירוקה נא"</string>
+    <string name="data_food_seed_11167" formatted="false">"גרגרי תירס מתוק נא"</string>
+    <string name="data_food_seed_11260" formatted="false">"פטריות שמפיניון נא"</string>
+    <string name="data_food_seed_11261" formatted="false">"פטריות שמפיניון מבושלות ללא מלח"</string>
+    <string name="data_food_seed_11987" formatted="false">"פטריות צדף נא"</string>
+    <string name="data_food_seed_20009" formatted="false">"גרגרי כוסמת יבשים"</string>
+    <string name="data_catalog_note_4">"ערכי ייחוס ל-100 גרם מהחלק האכיל. גרגרי כוסמת קלויים. ערכי הפחמימות של USDA כוללים סיבים. אפשר להתאים את הערכים לפי תווית המוצר. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"כוסמת מבושלת במים"</string>
+    <string name="data_food_seed_20444" formatted="false">"אורז לבן יבש"</string>
+    <string name="data_food_seed_20445" formatted="false">"אורז לבן מבושל ללא מלח"</string>
+    <string name="data_food_seed_20036" formatted="false">"אורז מלא יבש"</string>
+    <string name="data_food_seed_20037" formatted="false">"אורז מלא מבושל"</string>
+    <string name="data_food_seed_8120" formatted="false">"פתיתי שיבולת שועל יבשים"</string>
+    <string name="data_food_seed_8121" formatted="false">"דייסת שיבולת שועל במים ללא מלח"</string>
+    <string name="data_food_seed_20005" formatted="false">"גריסי פנינה יבשים"</string>
+    <string name="data_food_seed_20006" formatted="false">"גריסי פנינה מבושלים"</string>
+    <string name="data_food_seed_20031" formatted="false">"דוחן יבש"</string>
+    <string name="data_food_seed_20032" formatted="false">"דוחן מבושל"</string>
+    <string name="data_food_seed_20420" formatted="false">"פסטה יבשה"</string>
+    <string name="data_food_seed_20421" formatted="false">"פסטה מבושלת ללא מלח"</string>
+    <string name="data_food_seed_16070" formatted="false">"עדשים מבושלות ללא מלח"</string>
+    <string name="data_food_seed_16057" formatted="false">"גרגרי חומוס מבושלים ללא מלח"</string>
+    <string name="data_food_seed_16033" formatted="false">"שעועית אדומה מבושלת ללא מלח"</string>
+    <string name="data_food_seed_5062" formatted="false">"חזה עוף נא ללא עור"</string>
+    <string name="data_food_seed_5064" formatted="false">"חזה עוף צלוי ללא עור"</string>
+    <string name="data_food_seed_5219" formatted="false">"חזה הודו נא ללא עור"</string>
+    <string name="data_food_seed_5220" formatted="false">"חזה הודו צלוי ללא עור"</string>
+    <string name="data_food_seed_23562" formatted="false">"בשר בקר טחון עם 10% שומן, נא"</string>
+    <string name="data_food_seed_23566" formatted="false">"בשר בקר טחון עם 10% שומן, צלוי"</string>
+    <string name="data_food_seed_10060" formatted="false">"פילה חזיר נא ללא שומן גלוי"</string>
+    <string name="data_food_seed_10061" formatted="false">"פילה חזיר צלוי"</string>
+    <string name="data_food_seed_15236" formatted="false">"סלמון אטלנטי נא"</string>
+    <string name="data_catalog_note_5">"ערכי ייחוס ל-100 גרם מהחלק האכיל. מזון נא. מגידול חקלאי. ערכי הפחמימות של USDA כוללים סיבים. אפשר להתאים את הערכים לפי תווית המוצר. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"סלמון אטלנטי צלוי"</string>
+    <string name="data_catalog_note_6">"ערכי ייחוס ל-100 גרם מהחלק האכיל. מגידול חקלאי. ערכי הפחמימות של USDA כוללים סיבים. אפשר להתאים את הערכים לפי תווית המוצר. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"בקלה אטלנטית נא"</string>
+    <string name="data_food_seed_15266" formatted="false">"פולוק אלסקה נא"</string>
+    <string name="data_food_seed_15121" formatted="false">"טונה משומרת במים, מסוננת"</string>
+    <string name="data_food_seed_15271" formatted="false">"שרימפס מבושלים וקלופים"</string>
+    <string name="data_food_seed_1211" formatted="false">"חלב עם 3.25% שומן"</string>
+    <string name="data_food_seed_1174" formatted="false">"חלב עם 2% שומן"</string>
+    <string name="data_food_seed_1082" formatted="false">"חלב עם 1% שומן"</string>
+    <string name="data_food_seed_1116" formatted="false">"יוגורט טבעי מחלב מלא"</string>
+    <string name="data_food_seed_1256" formatted="false">"יוגורט יווני ללא שומן"</string>
+    <string name="data_food_seed_1015" formatted="false">"גבינת קוטג׳ עם 2% שומן"</string>
+    <string name="data_catalog_note_7">"ערכי ייחוס ל-100 גרם מהחלק האכיל. גבינת קוטג׳; לסוגים אחרים של גבינה טרייה יש ערכים שונים. ערכי הפחמימות של USDA כוללים סיבים. אפשר להתאים את הערכים לפי תווית המוצר. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"שמנת חמוצה עם כ-19% שומן"</string>
+    <string name="data_food_seed_1009" formatted="false">"גבינת צ׳דר"</string>
+    <string name="data_food_seed_1026" formatted="false">"מוצרלה מחלב מלא"</string>
+    <string name="data_food_seed_1019" formatted="false">"גבינת פטה"</string>
+    <string name="data_food_seed_1123" formatted="false">"ביצת תרנגולת נא ללא קליפה"</string>
+    <string name="data_food_seed_1129" formatted="false">"ביצת תרנגולת קשה ללא קליפה"</string>
+    <string name="data_food_seed_1124" formatted="false">"חלבון ביצת תרנגולת נא"</string>
+    <string name="data_food_seed_1001" formatted="false">"חמאה מלוחה"</string>
+    <string name="data_food_seed_4053" formatted="false">"שמן זית"</string>
+    <string name="data_food_seed_4506" formatted="false">"שמן חמניות"</string>
+    <string name="data_food_seed_12061" formatted="false">"שקדים"</string>
+    <string name="data_food_seed_12155" formatted="false">"אגוזי מלך קלופים"</string>
+    <string name="data_food_seed_12120" formatted="false">"אגוזי לוז קלופים"</string>
+    <string name="data_food_seed_12151" formatted="false">"פיסטוקים נאים קלופים"</string>
+    <string name="data_food_seed_12014" formatted="false">"גרעיני דלעת מיובשים וקלופים"</string>
+    <string name="data_food_seed_16087" formatted="false">"בוטנים נאים קלופים"</string>
+    <string name="data_food_seed_18069" formatted="false">"לחם חיטה לבן"</string>
+    <string name="data_food_seed_18075" formatted="false">"לחם מחיטה מלאה"</string>
+    <string name="data_food_seed_18060" formatted="false">"לחם שיפון"</string>
+    <string name="data_food_seed_19296" formatted="false">"דבש"</string>
+    <string name="data_food_seed_19335" formatted="false">"סוכר"</string>
+    <string name="data_food_seed_19165" formatted="false">"אבקת קקאו ללא סוכר"</string>
+    <string name="data_food_seed_19904" formatted="false">"שוקולד מריר עם 70–85% קקאו"</string>
+    <string name="data_meal_breakfast" formatted="false">"ארוחת בוקר"</string>
+    <string name="data_meal_lunch" formatted="false">"ארוחת צהריים"</string>
+    <string name="data_meal_dinner" formatted="false">"ארוחת ערב"</string>
+    <string name="data_meal_snack" formatted="false">"ארוחת ביניים"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"מדיניות הפרטיות של Diet Diary\nעודכנה ב-9 באוקטובר 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"אפליקציה: Diet Diary; שם הרשומה ברוסית ב-Google Play: «Дневник диеты: подсчёт калорий»; שם החבילה: ru.dietdiary.offline.\nמפתח הפרויקט: Efreitor2001. לשאלות על האפליקציה או על עיבוד הנתונים אפשר לפנות דרך https://github.com/Efreitor2001/kkalcal/issues . הפניות ב-GitHub הן ציבוריות: אין לפרסם בהן נתוני בריאות, גיבויים, סיסמאות או אסימונים."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. היומן במכשיר שלך\nאין צורך בהרשמה כדי לנהל יומן. האפליקציה שומרת מזונות וערכים תזונתיים, מנות ותאריכי ארוחות, משקל, היקף מותניים, אחוז שומן, צעדים, שינה, תיאורי אימונים, הערות, יעדים, הישגים והגדרות באחסון הפרטי שלה במכשיר. אפשר להשאיר שדות שאינם חובה ריקים. צעדים, שינה ומדידות מוזנים ידנית; האפליקציה אינה קוראת נתונים מ-Health Connect, מחיישני פעילות גופנית או ממכשירים רפואיים."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"המידע משמש לחישוב קלוריות ואבות מזון ולהצגת היסטוריה, תרשימים והישגים. למפתח אין שרת שמקבל את תוכן היומן. אם לא מחברים את Google Drive ולא משתפים גיבוי באופן יזום, הרשומות נשארות במכשיר."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. חיבור אופציונלי ל-Google Drive\nלפי בקשתך, האפליקציה פותחת התחברות Google בדפדפן ברירת המחדל ומבקשת גישה לאזור נתוני האפליקציה המוסתר ב-Google Drive שלך. הרשאה זו אינה מעניקה גישה למסמכים ולתמונות הרגילים שלך ב-Drive."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"לאחר החיבור, מזונות, ארוחות, מדידות יומן, הערות, יעדים, הישגים, הגדרות הניתנות להעברה ומטא-נתוני שינויים, כולל מזהי התקנה אקראיים וחותמות זמן, נשלחים ל-Google. הם משמשים ליצירת תמונות מצב לגיבוי ולמיזוג רשומות בין המכשירים שלך. כאשר סנכרון אוטומטי פעיל, שינויים נשלחים גם ברקע כשיש חיבור לרשת. אפשר לכבות את הסנכרון האוטומטי בנפרד."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"האפליקציה מקבלת את כתובת האימייל ומזהה חשבון Google שנבחר, כדי להציג את החיבור ולשייך אותו לאחסון הנכון. סיסמת Google אינה נמסרת לאפליקציה. סשן ההרשאה נשמר במכשיר בצורה מוצפנת, באמצעות מפתח ב-Android Keystore. אסימונים, כתובות אימייל ומזהי Google אינם נכללים בייצוא היומן ובתמונות המצב המסונכרנות בפורמט JSON."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"נתוני Google משמשים רק להרשאה ולסנכרון, ולעולם לא לפרסום. מדיניות הפרטיות של Google חלה: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. קובצי גיבוי\n״שמירה לקובץ״ יוצרת קובץ JSON במיקום שנבחר. השחזור קורא רק את הקובץ שבחרת. אם בחרת ספק קבצים בענן או שיתפת עותק עם אדם אחר, בחירת הנמען היא שלך. האפליקציה אינה מצפינה קובצי JSON מיוצאים: הם מכילים נתונים אישיים ומטא-נתוני שינויים."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. פרסומות\nהאפליקציה משתמשת ב-Yandex Mobile Ads SDK. כדי לטעון ולהציג פרסומות, המכשיר מתחבר לשירותי פרסום. Yandex עשויה לעבד את כתובת ה-IP שלך ומידע טכני נוסף על בקשת הרשת, המכשיר והתוכנה, מזהי פרסום או מזהים טכניים זמינים, וכן מידע על הצגת פרסומות ועל אינטראקציות איתן."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"האפליקציה מגדירה ב-SDK שלא ניתנה הסכמה, מכבה איסוף מיקום ומכבה דוחות App Ad Analytics. היא אינה מבקשת הרשאות מיקום מדויק או משוער. הגדרות אלה אינן אומרות ששירות הפרסום אינו מבצע כלל תקשורת רשת או עיבוד נתונים טכניים."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"האפליקציה אינה משתמשת בארוחות, במשקל, במדידות, בהערות, ביעדים, בכתובות אימייל או במזהי Google לצורך מיקוד פרסומות ואינה מוסיפה אותם לפרמטרים של בקשות פרסום. אין צורך לצפות בפרסומות כדי לשמור רשומות."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"הכללים של Yandex לעיבוד, לשמירה ולמחיקה של נתונים נמצאים בכתובת https://yandex.ru/legal/confidential/ . אפשר לנהל את מזהה הפרסום בהגדרות Android, אם גרסת המערכת תומכת בכך. מדיניות שירות הפרסום קובעת את משך שמירת הנתונים הטכניים שלו; מפתח היומן אינו קובע להם תקופת שמירה נפרדת."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. הגנה על הנתונים\nהתקשורת עם Google משתמשת ב-HTTPS; לפי Yandex, נתוני ה-SDK מועברים באמצעות HTTPS/TLS. היומן המקומי מוגן באמצעות בידוד האפליקציות של Android. האפליקציה אינה מצפינה בנפרד את תוכן היומן או את תמונות המצב בפורמט JSON; היא אינה מספקת הצפנה מקצה לקצה בין מכשירים."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"גיבוי המערכת לנתוני האפליקציה מושבת. יומני האבחון שנכתבים על ידי קוד האפליקציה מכילים קודי תוצאה, ללא תוכן היומן, כתובות אימייל, אסימונים או גופי תגובות רשת; האפליקציה אינה שולחת יומנים אלה בנפרד למפתח."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. שמירה ומחיקה\nהרשומות המקומיות נשמרות עד לעריכה, למחיקה או לניקוי נתוני האפליקציה. מחיקת רשומה מסירה אותה מהממשק ומעבירה סמן מחיקה במהלך הסנכרון. מטא-נתוני המיזוג נשמרים כדי למנוע הופעה מחדש של נתונים ישנים; הם עשויים להכיל ערכים קודמים של רשומת יומן שנמחקה. ערכים קודמים עשויים להישאר גם בתמונות מצב ישנות בענן ובקבצים שיצרת קודם. לכן מחיקת רשומה אינה מוחקת באופן מלא את כל העותקים שלה."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"״ניתוק החשבון״ מפסיק את הסנכרון במכשיר הזה ומוחק את סשן Google המקומי. היומן ותמונות המצב ב-Google Drive נשמרים. ניתוק האפליקציה אינו מוחק את חשבון Google שלך."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"למחיקה מלאה של נתוני האפליקציה:\n• יש לכבות את הסנכרון בכל המכשירים כדי שעותקים שנותרו לא יועלו שוב.\n• יש לפתוח בדפדפן את https://drive.google.com/drive/settings באמצעות חשבון Google שהיה מחובר. יש לבחור ״ניהול אפליקציות״, למצוא את ״Diet Diary״ (או ״Дневник диеты״) ולבחור ״אפשרויות״ ← ״מחיקת נתוני אפליקציה מוסתרים״. אם הדף בנייד אינו מציג את החלק הזה, יש להשתמש בגרסת האתר למחשב או במחשב.\n• יש לבטל את גישת האפליקציה בכתובת https://myaccount.google.com/connections . ביטול הגישה לבדו אינו מוחק עותקים שנשמרו.\n• יש לנקות את אחסון האפליקציה בהגדרות Android בכל מכשיר, או להסיר את האפליקציה.\n• יש למחוק גיבויי JSON שנשמרו בנפרד בתיקיות ובאחסון הענן שבחרת."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"ללא פרטי ההתחברות שלך, המפתח אינו יכול למחוק מרחוק את היומן המקומי או קבצים ב-Google Drive האישי שלך. אין למסור למפתח סיסמה או אסימונים. לעזרה במחיקה אפשר לפנות לפרויקט דרך הקישור שבתחילת המדיניות. אין צורך למחוק את חשבון Google כדי למחוק את נתוני היומן."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. שינויים ויצירת קשר\nכאשר תכונות האפליקציה או נוהלי עיבוד הנתונים משתנים, המדיניות מתעדכנת עם תאריך עדכון. לשאלות בנוגע לגישה, תיקון, מחיקת נתונים או פעולת האפליקציה, יש להשתמש בערוץ הקשר של הפרויקט. פניותיך מעובדות לצורך מענה ונשמרות ב-GitHub; המדיניות של GitHub זמינה בכתובת https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"המנות שלי"</string>
+    <string name="secondary_metric_weight" formatted="false">"משקל"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"שומן גוף"</string>
+    <string name="secondary_metric_waist" formatted="false">"היקף מותניים"</string>
+    <string name="secondary_metric_steps" formatted="false">"צעדים"</string>
+    <string name="secondary_metric_sleep" formatted="false">"שינה"</string>
+    <string name="secondary_metric_kcal" formatted="false">"קלוריות"</string>
+    <string name="secondary_metric_protein" formatted="false">"חלבון"</string>
+    <string name="secondary_metric_fat" formatted="false">"שומן"</string>
+    <string name="secondary_metric_carbs" formatted="false">"פחמימות"</string>
+    <string name="secondary_unit_kg" formatted="false">"ק״ג"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"ס״מ"</string>
+    <string name="secondary_unit_steps" formatted="false">"צעדים"</string>
+    <string name="secondary_unit_hours" formatted="false">"שעות"</string>
+    <string name="secondary_unit_kcal" formatted="false">"קק״ל"</string>
+    <string name="secondary_unit_grams" formatted="false">"גרם"</string>
+    <string name="secondary_invalid_period" formatted="false">"תקופה לא תקינה"</string>
+    <string name="secondary_stats_title" formatted="false">"מגמות"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"הנתונים שלך בתרשימים ברורים"</string>
+    <string name="secondary_metric" formatted="false">"מדד"</string>
+    <string name="secondary_week" formatted="false">"שבוע"</string>
+    <string name="secondary_month" formatted="false">"חודש"</string>
+    <string name="secondary_year" formatted="false">"שנה"</string>
+    <string name="secondary_custom_period" formatted="false">"תקופה מותאמת"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"תאריך ההתחלה לא יכול להיות אחרי תאריך הסיום"</string>
+    <string name="secondary_no_records" formatted="false">"אין עדיין נתונים"</string>
+    <string name="secondary_empty_food_period" formatted="false">"יש להוסיף מזונות ליומן או לבחור תקופה אחרת."</string>
+    <string name="secondary_chart_tap" formatted="false">"יש ללחוץ על התרשים כדי לבחור רשומה"</string>
+    <string name="secondary_chart_connected" formatted="false">"הקו מחבר בין המדידות שנרשמו. אין מדידות בין הנקודות האלה."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"הערכות המשקל שימושיות למעקב אחר מגמות."</string>
+    <string name="secondary_food_override_hint" formatted="false">"סכום יומי שהוזן ידנית מחליף את סכום המזונות. אחרת, המזונות שנרשמו מסוכמים. ימים ללא נתונים אינם נכללים."</string>
+    <string name="secondary_food_total_hint" formatted="false">"הסכומים מבוססים על המזונות שנרשמו. יום ללא נתונים אינו נחשב כאפס."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"ימים ללא נתונים אינם נכללים בחישוב הממוצע."</string>
+    <string name="secondary_today_yesterday" formatted="false">"היום ואתמול"</string>
+    <string name="secondary_no_today" formatted="false">"אין נתונים להיום"</string>
+    <string name="secondary_no_yesterday" formatted="false">"אין נתונים לאתמול"</string>
+    <string name="secondary_partial_today" formatted="false">"ההשוואה מבוססת על הנתונים הנוכחיים. ייתכן שנתוני היום עדיין אינם מלאים."</string>
+    <string name="secondary_period_summary" formatted="false">"סיכום התקופה"</string>
+    <string name="secondary_recorded_average" formatted="false">"ממוצע לימים שנרשמו"</string>
+    <string name="secondary_recorded_days" formatted="false">"ימים עם נתונים"</string>
+    <string name="secondary_minimum" formatted="false">"מינימום"</string>
+    <string name="secondary_maximum" formatted="false">"מקסימום"</string>
+    <string name="secondary_first_to_last" formatted="false">"מהרשומה הראשונה לאחרונה"</string>
+    <string name="secondary_two_days_needed" formatted="false">"נדרשים לפחות שני ימים עם נתונים לחישוב השינוי."</string>
+    <string name="secondary_history" formatted="false">"היסטוריה"</string>
+    <string name="secondary_history_recent" formatted="false">"14 הימים האחרונים עם נתונים. אפשר לבחור תקופה מותאמת להצגת רשומות ישנות יותר."</string>
+    <string name="secondary_history_all" formatted="false">"כל הימים עם נתונים בתקופה שנבחרה"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"מ-%1$s"</string>
+    <string name="secondary_date_until">"עד %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s בתקופה זו"</string>
+    <string name="secondary_weight_goal">"יעד: %1$s ק״ג"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"יש להוסיף מדידה ליומן או לבחור תקופה אחרת."</string>
+    <string name="secondary_latest_record">"הרשומה האחרונה · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"היום: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"אתמול: %1$s %2$s"</string>
+    <string name="secondary_change_value">"שינוי: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d מתוך %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. ימים שנרשמו: %2$d, מ-%3$s עד %4$s. מינימום %5$s, מקסימום %6$s %7$s. הערכים המפורטים מוצגים בהיסטוריה."</string>
+    <string name="secondary_award_first_weight" formatted="false">"הצעד הראשון"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"יש לרשום את מדידת המשקל הראשונה."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"מדידת המשקל הראשונה שלך נרשמה."</string>
+    <string name="secondary_award_first_food" formatted="false">"הרשומה הראשונה"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"יש לרשום את מנת המזון הראשונה."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"מנת המזון הראשונה שלך נרשמה."</string>
+    <string name="secondary_award_weight_week" formatted="false">"שבוע של נתונים"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"יש לרשום משקל ב-7 ימים שונים. הם לא חייבים להיות רצופים."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"יש לך מדידות משקל ל-7 ימים שונים."</string>
+    <string name="secondary_award_weight_month" formatted="false">"עקביות"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"יש לרשום משקל ב-30 ימים שונים."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"יש לך מדידות משקל ל-30 ימים."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"ארכיון אישי"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"יש לרשום 100 מנות מזון ביומן."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"רשמת 100 מנות מזון."</string>
+    <string name="secondary_award_food_streak" formatted="false">"הרגל חדש"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"יש לרשום מזון במשך 7 ימים קלנדריים רצופים."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"רשמת מזון במשך 7 ימים רצופים."</string>
+    <string name="secondary_award_steps" formatted="false">"אליפות בהליכה"</string>
+    <string name="secondary_award_steps_description" formatted="false">"יש לרשום לפחות 10,000 צעדים ביום אחד."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"רשמת יום עם 10,000 צעדים."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"מעקב מתמיד"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"יש לרשום 100 מדידות משקל. נספרת מדידה אחת לכל תאריך."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"רשמת 100 מדידות משקל."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"התמדה ביומן"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"יש לרשום ארוחות או מדידות ב-90 ימים שונים. הם לא חייבים להיות רצופים."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"היומן שלך מכיל רשומות מ-90 ימים שונים."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"מדידות"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"מנות"</string>
+    <string name="secondary_award_unit_days" formatted="false">"ימים"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"ימים רצופים"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"צעדים ביום אחד"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"ימים שנרשמו"</string>
+    <string name="secondary_back" formatted="false">"‹  חזרה"</string>
+    <string name="secondary_achievements" formatted="false">"הישגים"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"צעדים קטנים הופכים להרגל"</string>
+    <string name="secondary_your_progress" formatted="false">"ההתקדמות שלך"</string>
+    <string name="secondary_awards_permanent" formatted="false">"הישגים שנצברו נשמרים גם אחרי עריכת הרשומות."</string>
+    <string name="secondary_awards_regular" formatted="false">"על עקביות וניהול היומן"</string>
+    <string name="secondary_awards_through_today" formatted="false">"נספרות רשומות שנשמרו עד היום, כולל היום."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"הישג נסתר"</string>
+    <string name="secondary_hidden_description" formatted="false">"המשך שימוש ביומן יאפשר לפתוח את ההישג הזה."</string>
+    <string name="secondary_earned" formatted="false">"הושג"</string>
+    <string name="secondary_hidden_locked" formatted="false">"נסתר · נעול"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"בתהליך · נעול"</string>
+    <string name="secondary_locked" formatted="false">"נעול"</string>
+    <string name="secondary_hidden_progress" formatted="false">"התנאי וההתקדמות ייחשפו כשההישג יושג."</string>
+    <string name="secondary_best_streak" formatted="false">"הרצף הארוך ביותר"</string>
+    <string name="secondary_hidden_reward" formatted="false">"פרס נסתר"</string>
+    <string name="secondary_unlocked_of">"מתוך %1$d נפתחו"</string>
+    <string name="secondary_unlocked_date">"נפתח ב-%1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← חזרה"</string>
+    <string name="secondary_my_recipe" formatted="false">"המתכון שלי"</string>
+    <string name="secondary_recipe_intro" formatted="false">"יש לשקול את הרכיבים לפני הבישול. משקל המנה המוכנה משמש לחישוב המנות. חשוב לכלול שמנים ורטבים."</string>
+    <string name="secondary_recipe_name" formatted="false">"שם המתכון"</string>
+    <string name="secondary_recipe_example" formatted="false">"לדוגמה, תבשיל ירקות"</string>
+    <string name="secondary_ingredients" formatted="false">"רכיבים"</string>
+    <string name="secondary_start_ingredients" formatted="false">"מתחילים ברכיבים"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"יש להוסיף כל רכיב ולהזין את משקלו בגרמים."</string>
+    <string name="secondary_edit_weight" formatted="false">"עריכת משקל"</string>
+    <string name="secondary_delete" formatted="false">"מחיקה"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ הוספת רכיב"</string>
+    <string name="secondary_whole_recipe" formatted="false">"המתכון כולו"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"הבישול משנה את המשקל כשמוסיפים מים או כשהם מתאדים. יש לשקול את המנה המוכנה ללא הכלי."</string>
+    <string name="secondary_cooked_weight" formatted="false">"משקל המנה המוכנה, גרם"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"יש להזין את המשקל לאחר הבישול"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"יש להזין משקל גדול מ-0 ועד 100,000 גרם"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"המשקל אינו מתמלא אוטומטית"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"ל-100 גרם של המנה המוכנה"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"יש לבדוק את משקל המנה המוכנה והרכיבים: ב-100 גרם יכולים להיות לכל היותר 1,000 קק״ל ו-100 גרם מכל אב מזון."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"לא ניתן לשמור את המתכון"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"שמירה במתכונים שלי"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"אחרי השמירה אפשר להוסיף את המנה ליומן לפי משקל המנה שנאכלה."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"משקל הרכיב לפני הבישול"</string>
+    <string name="secondary_grams" formatted="false">"גרמים"</string>
+    <string name="secondary_weight_limits" formatted="false">"גדול מ-0 ועד 100,000 גרם"</string>
+    <string name="secondary_add" formatted="false">"הוספה"</string>
+    <string name="secondary_save" formatted="false">"שמירה"</string>
+    <string name="secondary_cancel" formatted="false">"ביטול"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"בחירת רכיב"</string>
+    <string name="secondary_search_food" formatted="false">"חיפוש מזונות"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"לא נמצאו תוצאות. אפשר להוסיף מזון משלך בלשונית מזונות."</string>
+    <string name="secondary_close" formatted="false">"סגירה"</string>
+    <string name="secondary_portion_energy">"%1$s גרם · %2$s קק״ל"</string>
+    <string name="secondary_portion_macros">"חלבון %1$s · שומן %2$s · פחמימות %3$s גרם"</string>
+    <string name="secondary_ingredients_weight">"משקל הרכיבים: %1$s גרם"</string>
+    <string name="secondary_energy">"%1$s קק״ל"</string>
+    <string name="secondary_grams_value">"%1$s גרם"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s קק״ל / 100 גרם"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s גרם"</string>
+    <string name="secondary_recipe_note">"משקל סופי: %1$s גרם. רכיבים: %2$s"</string>
+</resources>

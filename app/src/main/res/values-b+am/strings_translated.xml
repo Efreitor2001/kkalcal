@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"አመጋገብ ማስታወሻ ደብተር"</string>
+    <string name="core_app_name" formatted="false">"አመጋገብ ማስታወሻ ደብተር"</string>
+    <string name="core_tagline" formatted="false">"ካሎሪዎች, ክብደት እና እድገት"</string>
+    <string name="core_open_diary" formatted="false">"ክፍት ማስታወሻ ደብተር"</string>
+    <string name="core_save_failed" formatted="false">"የእርስዎን ውሂብ ማስቀመጥ አልተቻለም"</string>
+    <string name="core_day" formatted="false">"ዛሬ"</string>
+    <string name="core_products" formatted="false">"ምግቦች"</string>
+    <string name="core_diary" formatted="false">"ማስታወሻ ደብተር"</string>
+    <string name="core_charts" formatted="false">"ገበታዎች"</string>
+    <string name="core_more" formatted="false">"ተጨማሪ"</string>
+    <string name="core_recipe_saved" formatted="false">"ምግብዎ ላይ ተቀምጧል"</string>
+    <string name="core_back_to_day" formatted="false">"ወደ ቀንህ ተመለስ"</string>
+    <string name="core_action_failed" formatted="false">"ይህን እርምጃ ማጠናቀቅ አልተቻለም"</string>
+    <string name="core_understood" formatted="false">"እሺ"</string>
+    <string name="core_restore_available" formatted="false">"ተጨማሪ ውስጥ ምትኬን ወደነበረበት መመለስ ይችላሉ።"</string>
+    <string name="core_eaten_today" formatted="false">"ዛሬ ተበላ"</string>
+    <string name="core_set_goal_hint" formatted="false">"ተጨማሪ ውስጥ ግብ ማዘጋጀት ይችላሉ።"</string>
+    <string name="core_add_food" formatted="false">"+ ምግብ ጨምር"</string>
+    <string name="core_first_meal" formatted="false">"በመጀመሪያ ምግብዎ ይጀምሩ"</string>
+    <string name="core_first_meal_help" formatted="false">"ካሎሪዎችን እና ማክሮዎችን ለማስላት ምግብ ይምረጡ እና ክብደቱን በግራም ያስገቡ።"</string>
+    <string name="core_my_day" formatted="false">"የኔ ቀን"</string>
+    <string name="core_my_day_help" formatted="false">"ክብደት፣ ወገብ፣ ደረጃዎች፣ እንቅልፍ - የሚያውቁትን ይመዝግቡ።"</string>
+    <string name="core_record_metrics" formatted="false">"መለኪያዎችን ይመዝግቡ"</string>
+    <string name="core_edit_metrics" formatted="false">"ልኬቶችን ያርትዑ"</string>
+    <string name="core_food_state_hint" formatted="false">"የምግብ ክብደት እና የተመጣጠነ ምግብ ዋጋዎች አንድ አይነት ሁኔታን ማመላከት አለባቸው፡ ጥሬ፣ ደረቅ ወይም የበሰለ።"</string>
+    <string name="core_weight" formatted="false">"ክብደት"</string>
+    <string name="core_waist" formatted="false">"ወገብ"</string>
+    <string name="core_my_diary" formatted="false">"የእኔ ማስታወሻ ደብተር"</string>
+    <string name="core_diary_tagline" formatted="false">"በየቀኑ በእራስዎ ፍጥነት"</string>
+    <string name="core_record_day" formatted="false">"+ ቀን ይቅረጹ"</string>
+    <string name="core_optional_diary_help" formatted="false">"ሁሉም መለኪያዎች አማራጭ ናቸው። የእርስዎን ክብደት፣ እንቅልፍ ወይም ማስታወሻ ብቻ መመዝገብ ይችላሉ። ለማርትዕ ግቤትን መታ ያድርጉ።"</string>
+    <string name="core_history_starts" formatted="false">"ታሪክህ እዚህ ይጀምራል"</string>
+    <string name="core_history_help" formatted="false">"መለኪያዎችን ይመዝግቡ እና በገበታዎች ላይ ለውጦችን ይከተሉ።"</string>
+    <string name="core_file_unavailable" formatted="false">"ፋይል የለም።"</string>
+    <string name="core_backup_saved" formatted="false">"ምትኬ ተቀምጧል"</string>
+    <string name="core_export_error" formatted="false">"ምትኬን ወደ ውጭ መላክ አልተቻለም"</string>
+    <string name="core_read_error" formatted="false">"ፋይሉን ማንበብ አልተቻለም"</string>
+    <string name="core_settings_tagline" formatted="false">"ቅንብሮች እና የውሂብ ምትኬ"</string>
+    <string name="core_your_progress" formatted="false">"የእርስዎ እድገት"</string>
+    <string name="core_achievements_help" formatted="false">"የማስታወሻ ደብተር ልማድን ለመገንባት ትናንሽ ስኬቶች።"</string>
+    <string name="core_achievements" formatted="false">"ስኬቶች"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"ማስታወሻ ደብተርዎን በመሳሪያዎችዎ ላይ ለማመሳሰል አማራጭ ግንኙነት።"</string>
+    <string name="core_cloud_sync" formatted="false">"የደመና ማመሳሰል"</string>
+    <string name="core_personal_goals" formatted="false">"የግል ግቦች"</string>
+    <string name="core_personal_goals_help" formatted="false">"ካሎሪዎን፣ ማክሮዎን እና የክብደት ግቦችዎን በእጅ ያዘጋጁ። ማንኛውም ግብ ባዶ መተው ይቻላል."</string>
+    <string name="core_configure_goals" formatted="false">"ግቦችን አውጣ"</string>
+    <string name="core_backup" formatted="false">"ምትኬ"</string>
+    <string name="core_backup_help" formatted="false">"ምግቦች፣ ምግቦች፣ ማስታወሻ ደብተር፣ ግቦች እና ስኬቶች በአንድ ፋይል ውስጥ። መተግበሪያውን እንደገና ከመጫንዎ በፊት ምትኬን ያስቀምጡ።"</string>
+    <string name="core_save_file" formatted="false">"ወደ ፋይል አስቀምጥ"</string>
+    <string name="core_restore_file" formatted="false">"ከፋይል እነበረበት መልስ"</string>
+    <string name="core_write_locked" formatted="false">"ዋናውን ፋይል ለመጠበቅ ማስቀመጥ ተሰናክሏል። የሚሰራ ምትኬን ወደነበረበት መልስ።"</string>
+    <string name="core_about_data" formatted="false">"ስለ መተግበሪያው እና የእርስዎ ውሂብ"</string>
+    <string name="core_about_data_help" formatted="false">"መዝገቦች እንዴት እንደሚቀመጡ፣ ማመሳሰል ይሰራል እና ውሂብ ይሰረዛል።"</string>
+    <string name="core_privacy" formatted="false">"ግላዊነት እና የውሂብ መሰረዝ"</string>
+    <string name="core_offline" formatted="false">"ከመስመር ውጭ ይሰራል"</string>
+    <string name="core_offline_help" formatted="false">"Google መግባት አማራጭ ነው። ደረጃዎች እና እንቅልፍ በእጅ ገብተዋል. ለማመሳሰል እና ማስታወቂያዎችን ለመጫን የበይነመረብ ግንኙነት ያስፈልጋል። ማስታወሻ ደብተር ግቤቶች ወደ ማስታወቂያ አውታር አይላኩም።"</string>
+    <string name="core_about_foods" formatted="false">"ስለ ምግቦች"</string>
+    <string name="core_foods_reference" formatted="false">"አብሮገነብ እሴቶች በ100 ግራም የሚበላ ክፍል ግምቶች ናቸው። ለትክክለኛ ዋጋዎች ማሸጊያውን ያረጋግጡ. ምግብን ማስተካከል የቀደመውን የምግብ ግቤቶችን አያሰላም።"</string>
+    <string name="core_foods_source" formatted="false">"የውሂብ ጎታ ምንጭ፡USDA FoodData Central፣ SR Legacy። የግለሰብ ምግቦች የግዛታቸውን እና የምንጭ ዝርዝሮችን ያካትታሉ."</string>
+    <string name="core_restore_title" formatted="false">"ይህ ምትኬ ወደነበረበት ይመለስ?"</string>
+    <string name="core_restore_warning" formatted="false">"አሁን ያሉት ምግቦችዎ፣ ማስታወሻ ደብተርዎ፣ ግቦችዎ እና ስኬቶችዎ በዚህ ፋይል ይዘቶች ይተካሉ። መጀመሪያ ምትኬን ያስቀምጡ። ማመሳሰል ከተገናኘ፣ የተመለሱት ለውጦች እንዲሁ ወደ Google Drive ይላካሉ።"</string>
+    <string name="core_backup_restored" formatted="false">"ምትኬ ወደነበረበት ተመልሷል"</string>
+    <string name="core_invalid_file" formatted="false">"ልክ ያልሆነ ፋይል"</string>
+    <string name="core_replace_data" formatted="false">"ውሂብ ተካ"</string>
+    <string name="core_cancel" formatted="false">"ሰርዝ"</string>
+    <string name="core_save" formatted="false">"አስቀምጥ"</string>
+    <string name="core_calculate_portion" formatted="false">"አንድ ክፍል አስላ"</string>
+    <string name="core_edit_portion" formatted="false">"ክፍል አርትዕ"</string>
+    <string name="core_portion_weight" formatted="false">"የክፍል ክብደት፣ ሰ"</string>
+    <string name="core_portion_invalid" formatted="false">"ከ 0 በላይ እና ከ 100,000 ግ የማይበልጥ ክብደት አስገባ"</string>
+    <string name="core_add_to_diary" formatted="false">"ወደ ማስታወሻ ደብተር ጨምር"</string>
+    <string name="core_delete_entry" formatted="false">"ግቤትን ሰርዝ"</string>
+    <string name="core_delete_portion_question" formatted="false">"ይህ ክፍል ከማስታወሻ ደብተርዎ ይሰረዝ?"</string>
+    <string name="core_new_food" formatted="false">"አዲስ ምግብ ወይም ምግብ"</string>
+    <string name="core_edit_nutrition" formatted="false">"የአመጋገብ ዋጋዎችን ያርትዑ"</string>
+    <string name="core_name" formatted="false">"ስም"</string>
+    <string name="core_food" formatted="false">"ምግብ"</string>
+    <string name="core_dish" formatted="false">"የተዘጋጀ ምግብ"</string>
+    <string name="core_category" formatted="false">"ምድብ"</string>
+    <string name="core_per100_hint" formatted="false">"ዋጋዎች በ 100 ግራም፣ ከማሸጊያው ወይም የምግብ አሰራር። አንድ ንጥረ ነገር ከሌለ 0 ያስገቡ።"</string>
+    <string name="core_kcal" formatted="false">"ካሎሪዎች"</string>
+    <string name="core_protein_grams" formatted="false">"ፕሮቲን፣ ሰ"</string>
+    <string name="core_fat_grams" formatted="false">"ስብ፣ ሰ"</string>
+    <string name="core_carbs_grams" formatted="false">"ካርቦሃይድሬት, ሰ"</string>
+    <string name="core_food_note" formatted="false">"ማስታወሻ፣ ንጥረ ነገሮች (አማራጭ)"</string>
+    <string name="core_favorite" formatted="false">"ወደ ተወዳጆች ያክሉ"</string>
+    <string name="core_name_category_required" formatted="false">"ስም እና ምድብ ያስገቡ"</string>
+    <string name="core_nutrition_invalid" formatted="false">"በ 100 ግራም ዋጋዎችን ያስገቡ: ካሎሪዎች 0-1,000; ፕሮቲን, ስብ እና ካርቦሃይድሬት 0-100 ግ"</string>
+    <string name="core_delete_food" formatted="false">"ከምግብ ይሰርዙ"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"ከዚህ ቀደም የገቡ ምግቦች እሴቶቻቸውን ይጠብቃሉ።"</string>
+    <string name="core_delete_food_question" formatted="false">"ይህ ምግብ ይሰረዝ? የማስታወሻ ደብተሩ ግቤቶች ይቀመጣሉ።"</string>
+    <string name="core_day_entry" formatted="false">"ዕለታዊ መግቢያ"</string>
+    <string name="core_optional_fields" formatted="false">"የሚፈልጉትን ማንኛውንም መስክ ይሙሉ። የቀረውን ባዶ ይተውት."</string>
+    <string name="core_editing_existing" formatted="false">"ለዚህ ቀን አስቀድሞ መግቢያ አለ። እያስተካከሉት ነው።"</string>
+    <string name="core_weight_kg" formatted="false">"ክብደት፣ ኪ.ግ"</string>
+    <string name="core_waist_cm" formatted="false">"ወገብ፣ ሴሜ"</string>
+    <string name="core_steps" formatted="false">"ደረጃዎች"</string>
+    <string name="core_sleep" formatted="false">"እንቅልፍ"</string>
+    <string name="core_hours" formatted="false">"ሰዓታት"</string>
+    <string name="core_minutes" formatted="false">"ደቂቃዎች"</string>
+    <string name="core_body_fat_optional" formatted="false">"የሰውነት ስብ መጠን፣ % (አማራጭ)"</string>
+    <string name="core_body_fat_hint" formatted="false">"የሰውነት ስብ ከመለካት የአዝማሚያ አመላካች እንጂ ትክክለኛ መለኪያ አይደለም።"</string>
+    <string name="core_strength_training" formatted="false">"የጥንካሬ ስልጠና"</string>
+    <string name="core_training_example" formatted="false">"ለምሳሌ: squats 3×10, 12 kg dumbbells"</string>
+    <string name="core_manual_nutrition" formatted="false">"በእጅ የተመጣጠነ አመጋገብ አጠቃላይ"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"ከገቡ፣ እነዚህ እሴቶች የእለቱን አጠቃላይ የምግብ ድምር ይሽራሉ። ለራስ-ሰር ስሌት ባዶ ይተዉት።"</string>
+    <string name="core_daily_calories" formatted="false">"ዕለታዊ ካሎሪዎች"</string>
+    <string name="core_daily_protein" formatted="false">"ዕለታዊ ፕሮቲን፣ ሰ"</string>
+    <string name="core_wellbeing_notes" formatted="false">"ማስታወሻዎች እና ምን እንደሚሰማዎት"</string>
+    <string name="core_steps_invalid" formatted="false">"ደረጃዎች: ሙሉ ቁጥር ከ 0 እስከ 200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"እንቅልፍ: 0-24 ሰዓታት, ደቂቃዎች 0-59"</string>
+    <string name="core_body_fat" formatted="false">"የሰውነት ስብ"</string>
+    <string name="core_calories" formatted="false">"ካሎሪዎች"</string>
+    <string name="core_protein" formatted="false">"ፕሮቲን"</string>
+    <string name="core_entry_required" formatted="false">"ቢያንስ አንድ መለኪያ ወይም ማስታወሻ ጨምር"</string>
+    <string name="core_delete_day" formatted="false">"ይህን ዕለታዊ ግቤት ሰርዝ"</string>
+    <string name="core_optional_goals" formatted="false">"ሁሉም ግቦች አማራጭ ናቸው። ባዶ ሜዳ ማለት ግብ አልተዘጋጀም ማለት ነው።"</string>
+    <string name="core_calories_per_day" formatted="false">"ካሎሪዎች በቀን"</string>
+    <string name="core_protein_per_day" formatted="false">"ፕሮቲን በቀን፣ ሰ"</string>
+    <string name="core_fat_per_day" formatted="false">"በቀን ስብ፣ ሰ"</string>
+    <string name="core_carbs_per_day" formatted="false">"ካርቦሃይድሬት በቀን፣ ሰ"</string>
+    <string name="core_target_weight" formatted="false">"የዒላማ ክብደት፣ ኪ.ግ"</string>
+    <string name="core_goals_invalid" formatted="false">"ግቦችዎን ይፈትሹ: ካሎሪዎች 0–10,000; ፕሮቲን, ስብ እና ካርቦሃይድሬት 0-1,000 ግ"</string>
+    <string name="core_target_weight_invalid" formatted="false">"የዒላማ ክብደት: ከ 1 እስከ 500 ኪ.ግ"</string>
+    <string name="core_delete_question" formatted="false">"ይሰረዝ?"</string>
+    <string name="core_delete" formatted="false">"ሰርዝ"</string>
+    <string name="core_select_food" formatted="false">"ምግብ ይምረጡ"</string>
+    <string name="core_foods_dishes" formatted="false">"ምግቦች እና ምግቦች"</string>
+    <string name="core_search_food" formatted="false">"ምግብ ወይም ምግብ ይፈልጉ"</string>
+    <string name="core_new_food_button" formatted="false">"+ ምግብ / ምግብ"</string>
+    <string name="core_recipe_button" formatted="false">"ከምግብ አሰራር"</string>
+    <string name="core_no_results" formatted="false">"ምንም ውጤቶች የሉም"</string>
+    <string name="core_no_results_help" formatted="false">"ሌላ ፍለጋ ይሞክሩ ወይም የራስዎን ምግብ ወይም የተዘጋጀ ምግብ ያክሉ።"</string>
+    <string name="core_edit" formatted="false">"አርትዕ"</string>
+    <string name="core_achievement_unlocked">"🏆 ስኬት ተከፍቷል! %1$s - %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal ይቀራል · ግብ %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal ከግብዎ በላይ"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"ፕሮቲን %1$s   ስብ %2$s   ካርቦሃይድሬት %3$s"</string>
+    <string name="core_weight_summary">"ክብደት %1$s ኪ.ግ"</string>
+    <string name="core_waist_summary">"ወገብ %1$s ሴሜ"</string>
+    <string name="core_steps_summary">"ደረጃዎች፡ %1$s"</string>
+    <string name="core_fat_summary">"የሰውነት ስብ %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (በእጅ)"</string>
+    <string name="core_manual_protein">"ፕሮቲን %1$s g (በእጅ)"</string>
+    <string name="core_kg_value">"%1$s ኪ.ግ"</string>
+    <string name="core_cm_value">"%1$s ሴሜ"</string>
+    <string name="core_sleep_value">"እንቅልፍ %1$s"</string>
+    <string name="core_scale_fat">"የሰውነት ስብ መጠን %1$s%%"</string>
+    <string name="core_training_value">"ስልጠና፡ %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"ፕሮቲን %1$s ግ"</string>
+    <string name="core_app_version">"የአመጋገብ ማስታወሻ ደብተር · %1$s"</string>
+    <string name="core_per100_summary">"በ100 ግራም: %1$s kcal · ፕሮቲን %2$s · ስብ %3$s · ካርቦሃይድሬት %4$s"</string>
+    <string name="core_range_invalid">"%1$s: እሴት ያስገቡ ከ%2$s ወደ %3$s"</string>
+    <string name="core_delete_day_question">"የ%1$s መለኪያዎች ይሰረዙ? የምግብ ምዝግቦች ይቀመጣሉ."</string>
+    <string name="core_catalog_count">"ምግቦች: %1$s · በ100 ግራም"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   ፕሮቲን %2$s   ስብ %3$s   ካርቦሃይድሬት %4$s"</string>
+    <string name="core_today_date">"ዛሬ · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"ካሎሪዎች እና ፕሮቲኖች ከማስታወሻዎ ውስጥ በእጅ የተያዙ ናቸው።"</string>
+    <string name="core_manual_calorie_total" formatted="false">"ካሎሪዎች ከማስታወሻ ደብተርዎ ውስጥ በእጅ የተያዙ ናቸው።"</string>
+    <string name="core_manual_protein_total" formatted="false">"ፕሮቲን ከማስታወሻ ደብተርዎ የተገኘ አጠቃላይ መመሪያ ነው።"</string>
+    <string name="core_macro_goals">"ፒ / ኤፍ / ሲ ግቦች፡ %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (በእጅ)"</string>
+    <string name="core_all" formatted="false">"ሁሉም"</string>
+    <string name="core_favorites" formatted="false">"ተወዳጆች"</string>
+    <string name="core_sleep_duration">"%1$s ሰ %2$s ደቂቃ"</string>
+    <string name="core_previous_day" formatted="false">"ያለፈው ቀን"</string>
+    <string name="core_next_day" formatted="false">"በሚቀጥለው ቀን"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"የፍልሰት ምትኬ አይዛመድም።"</string>
+    <string name="data_entry_exists" formatted="false">"ይህ የምግብ መግቢያ አስቀድሞ አለ።"</string>
+    <string name="data_entry_missing" formatted="false">"የምግብ መግቢያ አልተገኘም።"</string>
+    <string name="data_edited_date_changed" formatted="false">"የሚስተካከልበት ቀን ተቀይሯል።"</string>
+    <string name="data_device_id_corrupt" formatted="false">"የአካባቢው መሳሪያ ID ተጎድቷል፤ መልሶ ማቋቋም ታግዷል"</string>
+    <string name="data_sync_invalid" formatted="false">"ልክ ያልሆነ የማመሳሰል ውሂብ"</string>
+    <string name="data_diary_read_only" formatted="false">"ማስታወሻ ደብተሩ ከመፃፍ የተጠበቀ ነው፡ ምትኬን ወደነበረበት ይመልሱ"</string>
+    <string name="data_diary_inconsistent" formatted="false">"የማስታወሻ ደብተር መረጃው ወጥነት የለውም"</string>
+    <string name="data_backup_too_large" formatted="false">"መጠባበቂያው በጣም ትልቅ ነው።"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ID መጫኑ ተጎድቷል።"</string>
+    <string name="data_save_verification_failed" formatted="false">"ማስታወሻ ደብተሩ መቀመጡን ማረጋገጥ አልተቻለም"</string>
+    <string name="data_save_failed" formatted="false">"ማስታወሻ ደብተር ማስቀመጥ አልተቻለም"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"መጠባበቂያው ከ50 ሜባ ይበልጣል"</string>
+    <string name="data_diary_file_too_large" formatted="false">"የማስታወሻ ደብተሩ በጣም ትልቅ ነው።"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"ልክ ያልሆነ የምግብ ዳታቤዝ መጠን"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"የማይደገፍ የመጠባበቂያ ስሪት"</string>
+    <string name="data_too_many_values">"በ%1$s ውስጥ በጣም ብዙ እሴቶች"</string>
+    <string name="data_too_many_products" formatted="false">"በጣም ብዙ ምግቦች"</string>
+    <string name="data_too_many_entries" formatted="false">"በጣም ብዙ የምግብ ግቤቶች"</string>
+    <string name="data_too_many_logs" formatted="false">"በጣም ብዙ ማስታወሻ ደብተር ግቤቶች"</string>
+    <string name="data_product_id_duplicate" formatted="false">"የተባዛ ምግብ ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"የተባዛ የምግብ ግቤት ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"የተባዛ ማስታወሻ ደብተር ቀን"</string>
+    <string name="data_label_product_id" formatted="false">"ምግብ ID"</string>
+    <string name="data_label_product_name" formatted="false">"የምግብ ስም"</string>
+    <string name="data_label_category" formatted="false">"ምድብ"</string>
+    <string name="data_label_note" formatted="false">"ማስታወሻ"</string>
+    <string name="data_label_entry_id" formatted="false">"ግቤት ID"</string>
+    <string name="data_label_meal" formatted="false">"ምግብ"</string>
+    <string name="data_food_weight_range" formatted="false">"የምግብ ክብደት ከ 0 በላይ እና ከ 100000 ግ ያልበለጠ መሆን አለበት።"</string>
+    <string name="data_label_weight" formatted="false">"ክብደት"</string>
+    <string name="data_label_waist" formatted="false">"ወገብ"</string>
+    <string name="data_steps_range" formatted="false">"የእርምጃዎች ብዛት በ0 እና 200000 መካከል መሆን አለበት።"</string>
+    <string name="data_label_sleep" formatted="false">"እንቅልፍ"</string>
+    <string name="data_label_body_fat" formatted="false">"የሰውነት ስብ"</string>
+    <string name="data_label_daily_calories" formatted="false">"ዕለታዊ ካሎሪዎች"</string>
+    <string name="data_label_daily_protein" formatted="false">"ዕለታዊ ፕሮቲን"</string>
+    <string name="data_label_workout" formatted="false">"የአካል ብቃት እንቅስቃሴ"</string>
+    <string name="data_label_log_note" formatted="false">"ማስታወሻ"</string>
+    <string name="data_log_empty" formatted="false">"ቢያንስ አንድ መለኪያ ወይም ማስታወሻ ያስገቡ"</string>
+    <string name="data_label_goal_weight" formatted="false">"የግብ ክብደት"</string>
+    <string name="data_too_many_achievements" formatted="false">"በጣም ብዙ ስኬቶች"</string>
+    <string name="data_achievement_invalid" formatted="false">"ልክ ያልሆነ ስኬት"</string>
+    <string name="data_setting_not_portable" formatted="false">"ይህ ቅንብር ሊተላለፍ አይችልም።"</string>
+    <string name="data_setting_invalid">"%1$sን ለማቀናበር ልክ ያልሆነ እሴት"</string>
+    <string name="data_label_calories" formatted="false">"ካሎሪዎች"</string>
+    <string name="data_label_protein" formatted="false">"ፕሮቲን"</string>
+    <string name="data_label_fat" formatted="false">"ስብ"</string>
+    <string name="data_label_carbs" formatted="false">"ካርቦሃይድሬትስ"</string>
+    <string name="data_value_range">"%1$s: የሚፈቀደው ክልል %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: ልክ ያልሆነ ርዝመት"</string>
+    <string name="data_text_character_invalid">"%1$s: ልክ ያልሆነ ቁምፊ"</string>
+    <string name="data_date_format_invalid" formatted="false">"ቀኑ ዓዓዓ-ወወ-ቀቀን መጠቀም አለበት።"</string>
+    <string name="data_date_nonexistent">"ልክ ያልሆነ ቀን፡ %1$s"</string>
+    <string name="data_field_string_required">"መስክ %1$s ጽሑፍ መሆን አለበት።"</string>
+    <string name="data_field_boolean_required">"መስክ %1$s የቦሊያን እሴት መሆን አለበት።"</string>
+    <string name="data_field_number_required">"መስክ %1$s ቁጥር መሆን አለበት።"</string>
+    <string name="data_field_finite_required">"መስክ %1$s የተወሰነ ቁጥር መሆን አለበት።"</string>
+    <string name="data_field_integer_required">"መስክ %1$s ኢንቲጀር መሆን አለበት።"</string>
+    <string name="data_too_many_items">"በ%1$s ውስጥ በጣም ብዙ እቃዎች"</string>
+    <string name="data_data_file_invalid">"ልክ ያልሆነ የውሂብ ፋይል፡ %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"መሳሪያ ID ጠፍቷል"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"አመክንዮአዊ የሰዓት ገደቡ ላይ ደርሷል"</string>
+    <string name="data_too_many_sync_records" formatted="false">"በጣም ብዙ የማመሳሰል መዝገቦች"</string>
+    <string name="data_sync_version_required" formatted="false">"ማመሳሰል 2 ቅርጸት ያስፈልገዋል"</string>
+    <string name="data_sync_key_invalid" formatted="false">"ልክ ያልሆነ የማመሳሰል ቁልፍ"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"የተባዛ የማመሳሰል ቁልፍ"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"ልክ ያልሆነ የስረዛ ባንዲራ"</string>
+    <string name="data_sync_data_invalid" formatted="false">"ልክ ያልሆነ የማመሳሰል ውሂብ"</string>
+    <string name="data_record_clock_invalid" formatted="false">"የመዝገብ ስሪቱ ከሎጂካዊ ሰዓት ይበልጣል"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"ውሂብ ከማመሳሰል ዲበ ዳታ ጋር አይዛመድም።"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"ልክ ያልሆነ የማመሳሰል ቁልፍ ርዝመት"</string>
+    <string name="data_sync_key_malformed" formatted="false">"የተሳሳተ የማመሳሰል ቁልፍ"</string>
+    <string name="data_sync_type_unknown" formatted="false">"ያልታወቀ የማመሳሰል አይነት"</string>
+    <string name="data_record_id_too_long" formatted="false">"ሪኮርዱ ID በጣም ረጅም ነው።"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"ልክ ያልሆነ የስኬት ስረዛ"</string>
+    <string name="data_log_key_invalid" formatted="false">"ልክ ያልሆነ የማስታወሻ ቁልፍ"</string>
+    <string name="data_log_field_unknown" formatted="false">"ያልታወቀ ማስታወሻ ደብተር መስክ"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"ልክ ያልሆነ ማስታወሻ ደብተር ስረዛ ምልክት"</string>
+    <string name="data_goal_unknown" formatted="false">"ያልታወቀ ግብ"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"የተሰረዘ መዝገብ ውሂብ ይዟል"</string>
+    <string name="data_sync_value_invalid" formatted="false">"ልክ ያልሆነ የማመሳሰል ዋጋ"</string>
+    <string name="data_record_id_mismatch" formatted="false">"መዝገቡ ID ከቁልፉ ጋር አይዛመድም።"</string>
+    <string name="data_field_value_invalid" formatted="false">"ልክ ያልሆነ የመስክ ዋጋ"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"የስኬት ቀን ከቁልፉ ጋር አይዛመድም።"</string>
+    <string name="data_note_string_required" formatted="false">"ማስታወሻው ጽሑፍ መሆን አለበት።"</string>
+    <string name="data_sync_note_invalid" formatted="false">"ልክ ያልሆነ የተመሳሰለ ማስታወሻ"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"ልክ ያልሆነ ምክንያታዊ ሰዓት"</string>
+    <string name="data_device_invalid" formatted="false">"ልክ ያልሆነ መሣሪያ"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"ልክ ያልሆነ የስሪት ማህተም"</string>
+    <string name="data_google_login_required" formatted="false">"እንደገና ወደ Google ይግቡ"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"በጣም ብዙ የደመና ምትኬዎች"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive ተደጋጋሚ ገጽ መልሷል"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"የደመና መጠባበቂያ ከ50 ሜባ ይበልጣል"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive የሰቀላ አድራሻ አልመለሰም።"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"ልክ ያልሆነ Google Drive ሰቀላ አድራሻ"</string>
+    <string name="data_back" formatted="false">"‹ ተመለስ"</string>
+    <string name="data_cloud_title" formatted="false">"የደመና ማመሳሰል"</string>
+    <string name="data_cloud_subtitle" formatted="false">"ማስታወሻ ደብተርዎ በመሳሪያዎችዎ ላይ"</string>
+    <string name="data_no_account" formatted="false">"ምንም መለያ አልተገናኘም።"</string>
+    <string name="data_cloud_intro" formatted="false">"መግባት አማራጭ ነው። ምግቦች፣ ምግቦች፣ መለኪያዎች፣ ግቦች እና ስኬቶች በስልክዎ ላይ ተቀምጠዋል። አንዴ ከተገናኘ፣ ቅጂ በእርስዎ Google Drive ውስጥ በተደበቀ አቃፊ ውስጥ ይከማቻል።"</string>
+    <string name="data_cloud_first_connection" formatted="false">"ግቤቶች በመጀመሪያው ግንኙነት ላይ ተዋህደዋል። መተግበሪያው በእርስዎ Drive ውስጥ ያሉ ሌሎች ፋይሎችን መድረስ አይችልም።"</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Google መግባት እስካሁን ለዚህ ግንባታ አልተዋቀረም። ማስታወሻ ደብተር እና የፋይል መጠባበቂያዎች ያለ መለያ ይሰራሉ።"</string>
+    <string name="data_connect_google" formatted="false">"አገናኝ Google"</string>
+    <string name="data_automatic_sync" formatted="false">"ራስ-ሰር ማመሳሰል"</string>
+    <string name="data_automatic_sync_description" formatted="false">"ውሂብ ሲቀየር እና ከበስተጀርባ Android ሲፈቅድ"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"መርሐ ግብሩን መቀየር አልተቻለም። የእርስዎ ውሂብ በዚህ መሣሪያ ላይ ተቀምጧል።"</string>
+    <string name="data_sync_start_failed" formatted="false">"ማመሳሰልን መጀመር አልተቻለም። የእርስዎ ውሂብ በዚህ መሣሪያ ላይ ተቀምጧል።"</string>
+    <string name="data_sync_now" formatted="false">"አሁን አስምር"</string>
+    <string name="data_google_sign_in_again" formatted="false">"እንደገና ወደ Google ይግቡ"</string>
+    <string name="data_disconnect_account" formatted="false">"መለያን ያላቅቁ"</string>
+    <string name="data_sync_never" formatted="false">"እስካሁን ምንም ማመሳሰል የለም።"</string>
+    <string name="data_offline_saved_title" formatted="false">"የእርስዎ ውሂብ ከመስመር ውጭ ተቀምጧል"</string>
+    <string name="data_cloud_merge_description" formatted="false">"አውቶማቲክ ማመሳሰል በነቃ፣ ግንኙነት ሲኖር ለውጦች ይላካሉ። ተመሳሳዩ መስክ በሁለት መሳሪያዎች ላይ ከተቀየረ, የኋለኛው ለውጥ የጊዜ ማህተም ያለው ስሪት ጥቅም ላይ ይውላል. ገለልተኛ ግቤቶች እና መስኮች ተዋህደዋል።"</string>
+    <string name="data_cloud_password_description" formatted="false">"የይለፍ ቃልዎን በአሳሽዎ ውስጥ በGoogle ገጽ ላይ ብቻ ነው ያስገቡት። የመዳረሻ ቶከኖች በAndroid በቁልፍ ማከማቻ የተጠበቁ እና ከመጠባበቂያ ቅጂዎች የተገለሉ ናቸው።"</string>
+    <string name="data_google_connection_title" formatted="false">"Google ግንኙነት"</string>
+    <string name="data_got_it" formatted="false">"ገባኝ።"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive ይገናኙ?"</string>
+    <string name="data_connect_drive_description" formatted="false">"የአሁኑ ማስታወሻ ደብተርህ በተመረጠው Google መለያ ውስጥ ካለው ውሂብ ጋር ይዋሃዳል። በመሳሪያዎችዎ ላይ ተመሳሳይ የግል መለያ ይጠቀሙ። በመለያ መግባት በነባሪ አሳሽዎ ውስጥ ይከፈታል።"</string>
+    <string name="data_sign_in_open_failed" formatted="false">"መግባትን መክፈት አልተቻለም። ነባሪ አሳሽ ጫን ወይም አንቃ እና እንደገና ሞክር።"</string>
+    <string name="data_continue" formatted="false">"ቀጥል"</string>
+    <string name="data_cancel" formatted="false">"ሰርዝ"</string>
+    <string name="data_disconnect_title" formatted="false">"መለያ ግንኙነቱ ይቋረጥ?"</string>
+    <string name="data_disconnect_description" formatted="false">"ማመሳሰል በዚህ መሳሪያ ላይ ይቆማል። የአካባቢዎ ማስታወሻ ደብተር እና ቅጂዎች በGoogle Drive ይቀመጣሉ። የመተግበሪያውን ፈቃድ በGoogle መለያ ቅንብሮችዎ ውስጥ ማስተዳደር ይችላሉ።"</string>
+    <string name="data_disconnect_failed" formatted="false">"መለያውን ማላቀቅ አልተቻለም። እባክህ እንደገና ሞክር።"</string>
+    <string name="data_disconnect" formatted="false">"ግንኙነት አቋርጥ"</string>
+    <string name="data_google_not_connected" formatted="false">"Google አልተገናኘም።"</string>
+    <string name="data_sync_ready" formatted="false">"ለማመሳሰል ዝግጁ"</string>
+    <string name="data_sync_changes_pending" formatted="false">"ለውጦች ለማመሳሰል እየጠበቁ ናቸው…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"ምንም የበይነመረብ ግንኙነት የለም። ለውጦች በዚህ መሣሪያ ላይ ተቀምጠዋል።"</string>
+    <string name="data_google_not_configured" formatted="false">"Google መግባት እስካሁን ለዚህ ግንባታ አልተዋቀረም።"</string>
+    <string name="data_sync_wait" formatted="false">"ማመሳሰል እስኪጠናቀቅ ይጠብቁ"</string>
+    <string name="data_google_connecting" formatted="false">"Googleን በማገናኘት ላይ…"</string>
+    <string name="data_connection_cancelled" formatted="false">"ግንኙነት ተሰርዟል።"</string>
+    <string name="data_connection_rejected" formatted="false">"ግንኙነት በGoogle ተሰርዟል ወይም ውድቅ ተደርጓል"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google ተገናኝቷል። ግቤቶችን በማዋሃድ ላይ…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Googleን ማገናኘት አልተቻለም። የበይነመረብ ግንኙነትዎን እና የመዳረሻ ቅንብሮችዎን ያረጋግጡ።"</string>
+    <string name="data_account_disconnected" formatted="false">"መለያ ግንኙነቱ ተቋርጧል። የእርስዎ ውሂብ በዚህ መሣሪያ ላይ ይቀራል።"</string>
+    <string name="data_sync_waiting_network" formatted="false">"ምንም የበይነመረብ ግንኙነት የለም። ማመሳሰል ግንኙነትን እየጠበቀ ነው።"</string>
+    <string name="data_sync_scheduled" formatted="false">"ማመሳሰል መርሐግብር ተይዞለታል…"</string>
+    <string name="data_sync_running" formatted="false">"በማመሳሰል ላይ…"</string>
+    <string name="data_sync_complete" formatted="false">"ማመሳሰል ተጠናቅቋል"</string>
+    <string name="data_no_internet" formatted="false">"ምንም የበይነመረብ ግንኙነት የለም።"</string>
+    <string name="data_sync_failed_saved" formatted="false">"ማመሳሰል አልተቻለም። የእርስዎ ውሂብ በዚህ መሣሪያ ላይ ተቀምጧል"</string>
+    <string name="data_page_open_failed" formatted="false">"ገጹን መክፈት አልተቻለም። አድራሻውን ከታች ካለው ጽሑፍ መቅዳት ይችላሉ።"</string>
+    <string name="data_privacy_title" formatted="false">"ግላዊነት"</string>
+    <string name="data_privacy_subtitle" formatted="false">"የእርስዎ መዝገቦች እና የውሂብ መቆጣጠሪያዎች"</string>
+    <string name="data_app_purpose" formatted="false">"ስለዚህ መተግበሪያ"</string>
+    <string name="data_medical_disclaimer" formatted="false">"ይህ መተግበሪያ የሕክምና መሣሪያ አይደለም። ምንም አይነት በሽታን አይመረምርም, አያክም, አያድነውም ወይም አይከላከልም. ለህክምና ምክር፣ ምርመራ እና ህክምና ብቁ የሆነ የጤና እንክብካቤ ባለሙያ ያማክሩ።"</string>
+    <string name="data_manage_delete_data" formatted="false">"መረጃን አስተዳድር እና ሰርዝ"</string>
+    <string name="data_delete_data_intro" formatted="false">"ሁሉንም ውሂብ ከመሰረዝዎ በፊት በሁሉም መሳሪያዎችዎ ላይ ማመሳሰልን ያጥፉ። መተግበሪያውን ከስልክዎ ማራገፍ በGoogle Drive ውስጥ ያሉ ቅጂዎችን ወይም ወደ ውጭ የተላኩ ፋይሎችን አይሰርዝም።"</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive ውሂብን አስተዳድር"</string>
+    <string name="data_google_account_access" formatted="false">"Google የመለያ መዳረሻ"</string>
+    <string name="data_android_app_storage" formatted="false">"የመተግበሪያ ማከማቻ በAndroid ውስጥ"</string>
+    <string name="data_contact_developer" formatted="false">"ገንቢውን ያነጋግሩ"</string>
+    <string name="data_opening_page" formatted="false">"ገጽ መክፈት"</string>
+    <string name="data_advertisement" formatted="false">"ማስታወቂያ"</string>
+    <string name="data_ad_information" formatted="false">"ስለዚህ ማስታወቂያ"</string>
+    <string name="data_cloud_http_error">"የደመና HTTP ስህተት %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"የደመና ምላሽ በጣም ትልቅ ነው።"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"ልክ ያልሆነ የተመሰጠረ የመግቢያ ክፍለ ጊዜ"</string>
+    <string name="data_session_save_failed" formatted="false">"የመግባት ክፍለ ጊዜን ማስቀመጥ አልተቻለም"</string>
+    <string name="data_token_refresh_failed" formatted="false">"የGoogle መዳረሻን ማደስ አልተቻለም"</string>
+    <string name="data_diary_read_failed">"ማስታወሻ ደብተር ማንበብ አልተቻለም። ዋናው ፋይል ተቀምጧል። ውሂብዎን ከመጠባበቂያ ቅጂ ወደነበረበት ይመልሱ። %1$s"</string>
+    <string name="data_last_sync">"የመጨረሻው የተመሳሰለው: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"ፍራፍሬ እና ቤሪ"</string>
+    <string name="data_category_dried_fruit" formatted="false">"የደረቀ ፍሬ"</string>
+    <string name="data_category_vegetables" formatted="false">"አትክልቶች እና ዕፅዋት"</string>
+    <string name="data_category_mushrooms" formatted="false">"እንጉዳይ"</string>
+    <string name="data_category_grains" formatted="false">"እህሎች እና ፓስታ"</string>
+    <string name="data_category_legumes" formatted="false">"ጥራጥሬዎች"</string>
+    <string name="data_category_meat" formatted="false">"ሥጋ እና የዶሮ እርባታ"</string>
+    <string name="data_category_fish" formatted="false">"ዓሳ እና የባህር ምግቦች"</string>
+    <string name="data_category_dairy" formatted="false">"የወተት ምርቶች"</string>
+    <string name="data_category_eggs" formatted="false">"እንቁላል"</string>
+    <string name="data_category_oils" formatted="false">"ዘይት እና ቅቤ"</string>
+    <string name="data_category_nuts" formatted="false">"ለውዝ እና ዘሮች"</string>
+    <string name="data_category_bread" formatted="false">"ዳቦ"</string>
+    <string name="data_category_other" formatted="false">"ሌሎች ምግቦች"</string>
+    <string name="data_category_dishes" formatted="false">"የተዘጋጁ ምግቦች"</string>
+    <string name="data_category_custom" formatted="false">"የእኔ ምግቦች"</string>
+    <string name="data_category_other_short" formatted="false">"ሌላ"</string>
+    <string name="data_food_seed_9003" formatted="false">"አፕል ከቆዳ ጋር"</string>
+    <string name="data_catalog_note_1">"የማጣቀሻ ዋጋዎች በ100 ግራም ከሚበላው ክፍል። ጥሬ ምግብ. USDA የካርቦሃይድሬት ዋጋዎች ፋይበርን ያካትታሉ። የምርት መለያውን በመጠቀም እሴቶቹን ማስተካከል ይችላሉ. USDA SR Legacy፣ FDC %1$s።"</string>
+    <string name="data_food_seed_9040" formatted="false">"ሙዝ፣ የተላጠ"</string>
+    <string name="data_food_seed_9021" formatted="false">"አፕሪኮት, ጉድጓድ"</string>
+    <string name="data_food_seed_9037" formatted="false">"የአቮካዶ ሥጋ"</string>
+    <string name="data_food_seed_9050" formatted="false">"ብሉቤሪ"</string>
+    <string name="data_food_seed_9070" formatted="false">"ጣፋጭ ቼሪ, ጉድጓድ"</string>
+    <string name="data_food_seed_9063" formatted="false">"ጎምዛዛ ቼሪ, ጉድጓድ"</string>
+    <string name="data_food_seed_9078" formatted="false">"ክራንቤሪ"</string>
+    <string name="data_food_seed_9083" formatted="false">"Blackcurrants"</string>
+    <string name="data_food_seed_9084" formatted="false">"ቀይ እና ነጭ ከረንት"</string>
+    <string name="data_food_seed_9132" formatted="false">"ወይን"</string>
+    <string name="data_food_seed_9148" formatted="false">"ኪዊ ሥጋ"</string>
+    <string name="data_food_seed_9150" formatted="false">"ሎሚ፣ የተላጠ"</string>
+    <string name="data_food_seed_9181" formatted="false">"የካንታሎፔ ሥጋ"</string>
+    <string name="data_food_seed_9200" formatted="false">"ብርቱካን ሥጋ"</string>
+    <string name="data_food_seed_9218" formatted="false">"የማንዳሪን ሥጋ"</string>
+    <string name="data_food_seed_9236" formatted="false">"ፒች ፣ የተከተፈ"</string>
+    <string name="data_food_seed_9252" formatted="false">"ፒር"</string>
+    <string name="data_food_seed_9266" formatted="false">"አናናስ ሥጋ"</string>
+    <string name="data_food_seed_9279" formatted="false">"ፕለም ፣ ጉድጓድ"</string>
+    <string name="data_food_seed_9286" formatted="false">"የሮማን ፍሬዎች"</string>
+    <string name="data_food_seed_9295" formatted="false">"ፖሜሎ ሥጋ"</string>
+    <string name="data_food_seed_9302" formatted="false">"Raspberries"</string>
+    <string name="data_food_seed_9316" formatted="false">"እንጆሪ"</string>
+    <string name="data_food_seed_9326" formatted="false">"የውሃ-ሐብሐብ ሥጋ"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nectarine, ጉድጓድ"</string>
+    <string name="data_food_seed_9176" formatted="false">"የማንጎ ሥጋ"</string>
+    <string name="data_food_seed_9107" formatted="false">"Gooseberries"</string>
+    <string name="data_food_seed_9226" formatted="false">"የፓፓያ ሥጋ"</string>
+    <string name="data_food_seed_9089" formatted="false">"ትኩስ በለስ"</string>
+    <string name="data_food_seed_9111" formatted="false">"የወይን ፍሬ ሥጋ"</string>
+    <string name="data_food_seed_9032" formatted="false">"የደረቁ አፕሪኮቶች ፣ የተከተፉ"</string>
+    <string name="data_catalog_note_2">"የማጣቀሻ ዋጋዎች በ100 ግራም ከሚበላው ክፍል። USDA የካርቦሃይድሬት ዋጋዎች ፋይበርን ያካትታሉ። የምርት መለያውን በመጠቀም እሴቶቹን ማስተካከል ይችላሉ. USDA SR Legacy፣ FDC %1$s።"</string>
+    <string name="data_food_seed_9291" formatted="false">"Prunes, ጉድጓድ"</string>
+    <string name="data_food_seed_9087" formatted="false">"ቀኖች, ጉድጓድ"</string>
+    <string name="data_food_seed_9298" formatted="false">"ጥቁር ዘቢብ፣ ዘር የሌለው"</string>
+    <string name="data_food_seed_11529" formatted="false">"ትኩስ ቲማቲም"</string>
+    <string name="data_food_seed_11205" formatted="false">"ኪያር ከቆዳ ጋር"</string>
+    <string name="data_food_seed_11090" formatted="false">"ጥሬ ብሮኮሊ"</string>
+    <string name="data_food_seed_11109" formatted="false">"ጥሬ ነጭ ጎመን"</string>
+    <string name="data_food_seed_11124" formatted="false">"ጥሬ ካሮት"</string>
+    <string name="data_food_seed_11135" formatted="false">"ጥሬ አበባ ጎመን"</string>
+    <string name="data_food_seed_11143" formatted="false">"የሴሊየሪ ግንድ"</string>
+    <string name="data_food_seed_11282" formatted="false">"ጥሬ ሽንኩርት"</string>
+    <string name="data_food_seed_11291" formatted="false">"ስፕሪንግ ሽንኩርት"</string>
+    <string name="data_food_seed_11304" formatted="false">"ጥሬ አረንጓዴ አተር"</string>
+    <string name="data_food_seed_11333" formatted="false">"አረንጓዴ ደወል በርበሬ"</string>
+    <string name="data_food_seed_11821" formatted="false">"ቀይ ደወል በርበሬ"</string>
+    <string name="data_food_seed_11352" formatted="false">"ጥሬ ድንች ከቆዳ ጋር"</string>
+    <string name="data_food_seed_11367" formatted="false">"የተቀቀለ ድንች፣ የተላጠ"</string>
+    <string name="data_catalog_note_3">"የማጣቀሻ ዋጋዎች በ100 ግራም ከሚበላው ክፍል። ጨው አልጨመረም. USDA የካርቦሃይድሬት ዋጋዎች ፋይበርን ያካትታሉ። የምርት መለያውን በመጠቀም እሴቶቹን ማስተካከል ይችላሉ. USDA SR Legacy፣ FDC %1$s።"</string>
+    <string name="data_food_seed_11477" formatted="false">"ጥሬ zucchini"</string>
+    <string name="data_food_seed_11209" formatted="false">"ጥሬ የእንቁላል ፍሬ"</string>
+    <string name="data_food_seed_11422" formatted="false">"ጥሬ ዱባ"</string>
+    <string name="data_food_seed_11429" formatted="false">"ራዲሽ"</string>
+    <string name="data_food_seed_11564" formatted="false">"ጥሬ ሽንብራ"</string>
+    <string name="data_food_seed_11080" formatted="false">"ጥሬ beetroot"</string>
+    <string name="data_food_seed_11081" formatted="false">"የተቀቀለ beetroot"</string>
+    <string name="data_food_seed_11215" formatted="false">"ነጭ ሽንኩርት"</string>
+    <string name="data_food_seed_11216" formatted="false">"ዝንጅብል ሥር"</string>
+    <string name="data_food_seed_11457" formatted="false">"ጥሬ ስፒናች"</string>
+    <string name="data_food_seed_11253" formatted="false">"ቅጠል ሰላጣ"</string>
+    <string name="data_food_seed_11297" formatted="false">"ትኩስ parsley"</string>
+    <string name="data_food_seed_2045" formatted="false">"ትኩስ ዲል"</string>
+    <string name="data_food_seed_11052" formatted="false">"ጥሬ አረንጓዴ ባቄላ"</string>
+    <string name="data_food_seed_11167" formatted="false">"ስዊትኮርን, ጥሬ ከርነሎች"</string>
+    <string name="data_food_seed_11260" formatted="false">"ጥሬ አዝራር እንጉዳዮች"</string>
+    <string name="data_food_seed_11261" formatted="false">"የተቀቀለ አዝራር እንጉዳዮች, ጨው አልባ"</string>
+    <string name="data_food_seed_11987" formatted="false">"ጥሬ የኦይስተር እንጉዳዮች"</string>
+    <string name="data_food_seed_20009" formatted="false">"Buckwheat groats, ደረቅ"</string>
+    <string name="data_catalog_note_4">"የማጣቀሻ ዋጋዎች በ100 ግራም ከሚበላው ክፍል። የተጠበሰ buckwheat groats. USDA የካርቦሃይድሬት ዋጋዎች ፋይበርን ያካትታሉ። የምርት መለያውን በመጠቀም እሴቶቹን ማስተካከል ይችላሉ. USDA SR Legacy፣ FDC %1$s።"</string>
+    <string name="data_food_seed_20010" formatted="false">"Buckwheat, በውሃ ውስጥ የበሰለ"</string>
+    <string name="data_food_seed_20444" formatted="false">"ነጭ ሩዝ፣ ደረቅ"</string>
+    <string name="data_food_seed_20445" formatted="false">"የተቀቀለ ነጭ ሩዝ፣ ጨዋማ ያልሆነ"</string>
+    <string name="data_food_seed_20036" formatted="false">"ቡናማ ሩዝ፣ ደረቅ"</string>
+    <string name="data_food_seed_20037" formatted="false">"የተቀቀለ ቡናማ ሩዝ"</string>
+    <string name="data_food_seed_8120" formatted="false">"የተጠቀለለ አጃ፣ ደረቅ"</string>
+    <string name="data_food_seed_8121" formatted="false">"በውሃ ውስጥ የተቀቀለ ኦትሜል ፣ ጨዋማ ያልሆነ"</string>
+    <string name="data_food_seed_20005" formatted="false">"የፐርል ገብስ, ደረቅ"</string>
+    <string name="data_food_seed_20006" formatted="false">"የተቀቀለ ዕንቁ ገብስ"</string>
+    <string name="data_food_seed_20031" formatted="false">"ማሽላ፣ ደረቅ"</string>
+    <string name="data_food_seed_20032" formatted="false">"የተቀቀለ ማሾ"</string>
+    <string name="data_food_seed_20420" formatted="false">"ፓስታ፣ ደረቅ"</string>
+    <string name="data_food_seed_20421" formatted="false">"የተቀቀለ ፓስታ፣ ጨዋማ ያልሆነ"</string>
+    <string name="data_food_seed_16070" formatted="false">"የተቀቀለ ምስር፣ ጨዋማ ያልሆነ"</string>
+    <string name="data_food_seed_16057" formatted="false">"የተቀቀለ ሽምብራ፣ ጨዋማ ያልሆነ"</string>
+    <string name="data_food_seed_16033" formatted="false">"የተቀቀለ ቀይ የኩላሊት ባቄላ፣ ጨዋማ ያልሆነ"</string>
+    <string name="data_food_seed_5062" formatted="false">"ጥሬ ቆዳ የሌለው የዶሮ ጡት"</string>
+    <string name="data_food_seed_5064" formatted="false">"ቆዳ የሌለው የተጠበሰ የዶሮ ጡት"</string>
+    <string name="data_food_seed_5219" formatted="false">"ቆዳ የሌለው ጥሬ የቱርክ ጡት"</string>
+    <string name="data_food_seed_5220" formatted="false">"ቆዳ የሌለው የተጠበሰ የቱርክ ጡት"</string>
+    <string name="data_food_seed_23562" formatted="false">"የበሬ ሥጋ፣ 10% ቅባት፣ ጥሬ"</string>
+    <string name="data_food_seed_23566" formatted="false">"የበሬ ሥጋ፣ 10% ቅባት፣ የተጠበሰ"</string>
+    <string name="data_food_seed_10060" formatted="false">"ጥሬ የአሳማ ሥጋ፣ የሚታይ ስብ ተወግዷል"</string>
+    <string name="data_food_seed_10061" formatted="false">"የተጠበሰ የአሳማ ሥጋ"</string>
+    <string name="data_food_seed_15236" formatted="false">"አትላንቲክ ሳልሞን, ጥሬ"</string>
+    <string name="data_catalog_note_5">"የማጣቀሻ ዋጋዎች በ100 ግራም ከሚበላው ክፍል። ጥሬ ምግብ. እርባታ. USDA የካርቦሃይድሬት ዋጋዎች ፋይበርን ያካትታሉ። የምርት መለያውን በመጠቀም እሴቶቹን ማስተካከል ይችላሉ. USDA SR Legacy፣ FDC %1$s።"</string>
+    <string name="data_food_seed_15237" formatted="false">"አትላንቲክ ሳልሞን, የተጠበሰ"</string>
+    <string name="data_catalog_note_6">"የማጣቀሻ ዋጋዎች በ100 ግራም ከሚበላው ክፍል። እርባታ. USDA የካርቦሃይድሬት ዋጋዎች ፋይበርን ያካትታሉ። የምርት መለያውን በመጠቀም እሴቶቹን ማስተካከል ይችላሉ. USDA SR Legacy፣ FDC %1$s።"</string>
+    <string name="data_food_seed_15015" formatted="false">"አትላንቲክ ኮድ, ጥሬ"</string>
+    <string name="data_food_seed_15266" formatted="false">"ጥሬ አላስካ pollock"</string>
+    <string name="data_food_seed_15121" formatted="false">"ቱና የታሸገ ውሃ ውስጥ፣ ፈሰሰ"</string>
+    <string name="data_food_seed_15271" formatted="false">"የበሰለ ሽሪምፕ፣ የተላጠ"</string>
+    <string name="data_food_seed_1211" formatted="false">"ወተት, 3.25% ቅባት"</string>
+    <string name="data_food_seed_1174" formatted="false">"ወተት, 2% ቅባት"</string>
+    <string name="data_food_seed_1082" formatted="false">"ወተት, 1% ቅባት"</string>
+    <string name="data_food_seed_1116" formatted="false">"ተራ ሙሉ-ወተት እርጎ"</string>
+    <string name="data_food_seed_1256" formatted="false">"ወፍራም ያልሆነ የግሪክ እርጎ"</string>
+    <string name="data_food_seed_1015" formatted="false">"የጎጆ አይብ፣ 2% ቅባት"</string>
+    <string name="data_catalog_note_7">"የማጣቀሻ ዋጋዎች በ100 ግራም ከሚበላው ክፍል። የጎጆ ጥብስ; ሌሎች የኩርድ አይብ ዓይነቶች የተለያዩ እሴቶች አሏቸው። USDA የካርቦሃይድሬት ዋጋዎች ፋይበርን ያካትታሉ። የምርት መለያውን በመጠቀም እሴቶቹን ማስተካከል ይችላሉ. USDA SR Legacy፣ FDC %1$s።"</string>
+    <string name="data_food_seed_1056" formatted="false">"ጎምዛዛ ክሬም፣ ወደ 19% ቅባት"</string>
+    <string name="data_food_seed_1009" formatted="false">"Cheddar አይብ"</string>
+    <string name="data_food_seed_1026" formatted="false">"ሙሉ-ወተት mozzarella"</string>
+    <string name="data_food_seed_1019" formatted="false">"Feta አይብ"</string>
+    <string name="data_food_seed_1123" formatted="false">"ጥሬ የዶሮ እንቁላል፣ ያለ ሼል"</string>
+    <string name="data_food_seed_1129" formatted="false">"የተቀቀለ የዶሮ እንቁላል, ያለ ሼል"</string>
+    <string name="data_food_seed_1124" formatted="false">"ጥሬ የዶሮ እንቁላል ነጭ"</string>
+    <string name="data_food_seed_1001" formatted="false">"ጨዋማ ቅቤ"</string>
+    <string name="data_food_seed_4053" formatted="false">"የወይራ ዘይት"</string>
+    <string name="data_food_seed_4506" formatted="false">"የሱፍ አበባ ዘይት"</string>
+    <string name="data_food_seed_12061" formatted="false">"ለውዝ"</string>
+    <string name="data_food_seed_12155" formatted="false">"የዋልኑት ፍሬዎች"</string>
+    <string name="data_food_seed_12120" formatted="false">"Hazelnut kernels"</string>
+    <string name="data_food_seed_12151" formatted="false">"ጥሬ ፒስታስዮ አስኳሎች"</string>
+    <string name="data_food_seed_12014" formatted="false">"የደረቁ የዱባ ዘር ፍሬዎች"</string>
+    <string name="data_food_seed_16087" formatted="false">"ጥሬ ቅርፊት ኦቾሎኒ"</string>
+    <string name="data_food_seed_18069" formatted="false">"ነጭ የስንዴ ዳቦ"</string>
+    <string name="data_food_seed_18075" formatted="false">"ሙሉ-ስንዴ ዳቦ"</string>
+    <string name="data_food_seed_18060" formatted="false">"አጃ ዳቦ"</string>
+    <string name="data_food_seed_19296" formatted="false">"ማር"</string>
+    <string name="data_food_seed_19335" formatted="false">"ስኳር"</string>
+    <string name="data_food_seed_19165" formatted="false">"ያልጣፈጠ የኮኮዋ ዱቄት"</string>
+    <string name="data_food_seed_19904" formatted="false">"ጥቁር ቸኮሌት, 70-85% ኮኮዋ"</string>
+    <string name="data_meal_breakfast" formatted="false">"ቁርስ"</string>
+    <string name="data_meal_lunch" formatted="false">"ምሳ"</string>
+    <string name="data_meal_dinner" formatted="false">"እራት"</string>
+    <string name="data_meal_snack" formatted="false">"መክሰስ"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"የግላዊነት መመሪያ ለDiet Diary\nክለሳ፡ ጥቅምት 9፣ 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"መተግበሪያ፡ Diet Diary; Google Play የዝርዝር ርዕስ በሩሲያኛ፡ «Дневник диеты: подсчёт калорий»; ጥቅል: ru.dietdiary.offline.\nፕሮጀክት አዘጋጅ፡ Efreitor2001. ስለመተግበሪያው እና ስለመረጃ ሂደት ጥያቄዎች፣ https://github.com/Efreitor2001/kkalcal/issues ን ያነጋግሩ። የ GitHub ጉዳዮች ይፋዊ ናቸው፡ የጤና መዝገቦችን፣ ምትኬዎችን፣ የይለፍ ቃላትን ወይም ቶከኖችን አትለጥፉ።"</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. ማስታወሻ ደብተር በመሳሪያዎ ላይ\nማስታወሻ ደብተር ለመያዝ ምንም ምዝገባ አያስፈልግም። መተግበሪያው ምግቦችን እና የአመጋገብ እሴቶቻቸውን፣ ክፍሎች እና የምግብ ቀኖችን፣ ክብደትን፣ የወገብ መለኪያዎችን፣ የሰውነት ስብ መቶኛን፣ ደረጃዎችን፣ እንቅልፍን፣ የአካል ብቃት እንቅስቃሴ መግለጫዎችን፣ ማስታወሻዎችን፣ ግቦችን፣ ስኬቶችን እና የመተግበሪያ ቅንጅቶችን በመሣሪያዎ ላይ ባለው የማከማቻ ቦታ ላይ ያከማቻል። አማራጭ መስኮች ባዶ ሊተዉ ይችላሉ። ደረጃዎች, እንቅልፍ እና ልኬቶች በእጅ ገብተዋል; መተግበሪያው የጤና ግንኙነትን፣ የአካል ብቃት እንቅስቃሴ ዳሳሾችን ወይም የህክምና መሳሪያ መረጃዎችን አያነብም።"</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"ይህ መረጃ ካሎሪዎችን እና ማክሮ ኤለመንቶችን ለማስላት እና ታሪክን፣ ገበታዎችን እና ስኬቶችን ለማቅረብ ያገለግላል። ገንቢው የማስታወሻ ደብተር ይዘቶችን የሚቀበል አገልጋይ አይሰራም። Google Driveን ካላገናኙ ወይም ምትኬን እራስዎ ካላጋሩ መዝገቦችዎ በመሳሪያዎ ላይ ይቀራሉ።"</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. አማራጭ የGoogle Drive ግንኙነት\nበጥያቄዎ መሰረት መተግበሪያው በነባሪ አሳሽዎ ውስጥ Google መግባትን ይከፍታል እና የዚህ መተግበሪያ ድብቅ የውሂብ ማከማቻ በእርስዎ Google Drive ውስጥ እንዲደርስ ይጠይቃል። ይህ ፈቃድ የእርስዎን ተራ የDrive ሰነዶች ወይም ፎቶዎች መዳረሻ አይሰጥም።"</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"አንዴ ከተገናኘ፣ ምግቦች፣ ምግቦች፣ ማስታወሻ ደብተር መለኪያዎች፣ ማስታወሻዎች፣ ግቦች፣ ስኬቶች፣ ሊተላለፉ የሚችሉ መቼቶች እና ለውጦች ዲበ ዳታ፣ የዘፈቀደ የመጫኛ መለያዎችን እና የጊዜ ማህተሞችን ጨምሮ ወደ Google ይላካሉ። ይህ የምትኬ ቅጽበተ-ፎቶዎችን እና ግቤቶችን በማዋሃድ በእርስዎ መሳሪያዎች ላይ ይደግፋል። ራስ-ሰር ማመሳሰል ከነቃ፣ የአውታረ መረብ ግንኙነት ሲኖር ለውጦች እንዲሁ ከበስተጀርባ ይላካሉ። ራስ-ሰር ማመሳሰልን በተናጥል ማጥፋት ይችላሉ።"</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"መተግበሪያው ግንኙነቱን ለማሳየት እና ከትክክለኛው ማከማቻ ጋር ለማገናኘት የኢሜይል አድራሻውን እና የተመረጠውን Google መለያ ይቀበላል። የእርስዎ Google ይለፍ ቃል ለመተግበሪያው አልቀረበም። የፈቀዳ ክፍለ ጊዜ በAndroid በቁልፍ ማከማቻ ውስጥ ያለውን ቁልፍ በመጠቀም በመሳሪያዎ ላይ ተመስጥሮ ተቀምጧል። ቶከኖች፣ ኢሜል አድራሻዎች እና Google ለዪዎች ከማስታወሻ ደብተር ወደ ውጭ መላክ እና ከተመሳሰሉ JSON ቅጽበተ-ፎቶዎች የተገለሉ ናቸው።"</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google ውሂብ ለፍቃድ እና ለማመሳሰል ብቻ ጥቅም ላይ ይውላል፣ ለማስታወቂያ በጭራሽ። የGoogle የግላዊነት ፖሊሲ ተግባራዊ ይሆናል፡ https://policies.google.com/privacy ።"</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. የመጠባበቂያ ፋይሎች\n\"ወደ ፋይል አስቀምጥ\" በመረጡት ቦታ JSON ፋይል ይፈጥራል። እነበረበት መልስ የሚነበበው የመረጡትን ፋይል ብቻ ነው። የደመና ፋይል አቅራቢን ከመረጡ ወይም ቅጂውን ለሌላ ሰው ካጋሩ፣ ተቀባዩን ይመርጣሉ። መተግበሪያው ወደ ውጭ የተላኩ JSON ፋይሎችን አያመሰጥርም፡ እነዚህ ፋይሎች የግል መዝገቦችን ይይዛሉ እና ሜታዳታ ይቀይራሉ።"</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. ማስተዋወቅ\nመተግበሪያው Yandex የሞባይል ማስታወቂያዎች ኤስዲኬን ይጠቀማል። ማስታወቂያዎችን ለመጫን እና ለማሳየት መሳሪያዎ ከማስታወቂያ አገልግሎቶች ጋር ይገናኛል። Yandex ስለ አውታረ መረብ ጥያቄ፣ መሳሪያ እና ሶፍትዌር፣ ስላሉት ማስታወቂያ ወይም ቴክኒካል ለዪዎች እና ስለማስታወቂያ ግንዛቤዎች እና ግንኙነቶች መረጃ የእርስዎን የአይ ፒ አድራሻ እና ሌሎች ቴክኒካል መረጃዎችን ሊያስኬድ ይችላል።"</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"መተግበሪያው ፈቃድ እንዳልተሰጠው ለኤስዲኬ ይነግረዋል፣ አካባቢ መሰብሰብን ያሰናክላል እና የመተግበሪያ ማስታወቂያ ትንታኔዎችን ሪፖርት ማድረግን ያሰናክላል። ትክክለኛ ወይም ግምታዊ የአካባቢ ፈቃዶችን አይጠይቅም። እነዚህ መቼቶች የማስታወቂያ አገልግሎቱ ምንም አይነት የኔትወርክ ግንኙነት ወይም ቴክኒካል ዳታ ሂደትን አያከናውንም ማለት አይደለም።"</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"መተግበሪያው የምግብ መዝገቦችን፣ ክብደትን፣ መለኪያዎችን፣ ማስታወሻዎችን፣ ግቦችን፣ የኢሜይል አድራሻዎችን ወይም Google መለያዎችን ለማስታወቂያ ኢላማ አይጠቀምም እና ወደ ማስታወቂያ ጥያቄ መለኪያዎች አይጨምርም። ግቤቶችን ለማስቀመጥ ማስታወቂያዎችን መመልከት አያስፈልግም።"</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex የውሂብ ሂደት፣ ማቆየት እና መሰረዝ ህጎች፡ https://yandex.ru/legal/confidential/ ። የስርዓትዎ ስሪት ይህን ባህሪ የሚደግፍ ከሆነ የማስታወቂያ መለያዎን በAndroid ቅንብሮች ውስጥ ማስተዳደር ይችላሉ። የማስታወቂያ አገልግሎት ፖሊሲ ለቴክኒካዊ ውሂቡ የማቆያ ጊዜዎችን ይወስናል; ማስታወሻ ደብተር ገንቢው ለዚያ ውሂብ የተለየ የማቆያ ጊዜ አላዘጋጀም።"</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. የውሂብ ጥበቃ\nከGoogle ጋር መገናኘት HTTPS ይጠቀማል; Yandex የኤስዲኬ ውሂብ HTTPS/TLS በመጠቀም እንደሚተላለፍ ይገልጻል። የአካባቢ ማስታወሻ ደብተር በAndroid መተግበሪያ ማግለል የተጠበቀ ነው። መተግበሪያው የማስታወሻ ደብተር ይዘቶችን ወይም JSON ቅጽበተ-ፎቶዎችን በተናጠል አያመሰጥርም፤ በመሳሪያዎች መካከል ከጫፍ እስከ ጫፍ ምስጠራን አይሰጥም."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"የመተግበሪያ ውሂብ የስርዓት ምትኬ ተሰናክሏል። በመተግበሪያው በራሱ ኮድ የተፃፉ የምርመራ ምዝግብ ማስታወሻዎች ያለ ማስታወሻ ደብተር ይዘቶች፣ ኢሜል አድራሻዎች፣ ቶከኖች ወይም የአውታረ መረብ ምላሽ አካላት ያለ የውጤት ኮድ ይይዛሉ። መተግበሪያው እነዚህን ምዝግብ ማስታወሻዎች ለብቻው ወደ ገንቢው አይልክም።"</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. ማቆየት እና መሰረዝ\nየአካባቢ መዛግብት እስኪቀይሩ ወይም እስኪሰርዟቸው ወይም የመተግበሪያውን ውሂብ እስኪያጽዱ ድረስ ይቆያሉ። ግቤትን መሰረዝ ከበይነገጽ ያስወግደዋል እና በማመሳሰል ጊዜ የስረዛ ምልክት ይልካል። የድሮ ውሂብ ዳግም እንዳይታይ ለመከላከል ሜታዳታ አዋህድ ተይዟል፤ ከተሰረዘ የማስታወሻ ደብተር ግቤት ቀዳሚ እሴቶችን ሊይዝ ይችላል። የቀደሙት እሴቶች እንዲሁ ቀደም ብለው በፈጠሯቸው የድሮ የደመና ቅጽበታዊ ገጽ እይታዎች እና ፋይሎች ላይ ሊቆዩ ይችላሉ። ስለዚህ አንድ ግቤት መሰረዝ እያንዳንዱን ቅጂ ሙሉ በሙሉ አያጠፋውም።"</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"\"መለያ አቋርጥ\" በዚህ መሳሪያ ላይ ማመሳሰልን ያቆማል እና የአካባቢውን Google ክፍለ ጊዜ ይሰርዛል። ማስታወሻ ደብተር እና ቅጽበተ-ፎቶዎች በGoogle Drive ውስጥ ተቀምጠዋል። የመተግበሪያውን ግንኙነት ማቋረጥ የGoogle መለያዎን አይሰርዘውም።"</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"የዚህን መተግበሪያ ውሂብ ሙሉ ለሙሉ ለመሰረዝ፡\n• የተቀሩት ቅጂዎች እንደገና እንዳይሰቀሉ በሁሉም መሳሪያዎችዎ ላይ ማመሳሰልን ያጥፉ።\n• በአሳሽ ውስጥ፣ የተገናኘውን Google መለያ በመጠቀም https://drive.google.com/drive/settings ይክፈቱ። “መተግበሪያዎችን አስተዳድር” ን ይምረጡ፣ “Diet Diary” (ወይም “Дневник диеты”) ያግኙ፣ ከዚያ “አማራጮች” → “የተደበቀ የመተግበሪያ ውሂብን ሰርዝ” የሚለውን ይምረጡ። የሞባይል ገጹ ይህንን ክፍል ካላሳየ የጣቢያውን የዴስክቶፕ ሥሪት ወይም ኮምፒተርን ይጠቀሙ።\n• የመተግበሪያውን መዳረሻ በ https://myaccount.google.com/connections ይሰርዙ። መዳረሻን መሻር ብቻውን የተቀመጡ ቅጂዎችን አያጠፋም።\n• በእያንዳንዱ መሳሪያ ላይ የመተግበሪያውን ማከማቻ በAndroid ቅንብሮች ውስጥ ያጽዱ ወይም መተግበሪያውን ያራግፉ።\n• ከመረጧቸው አቃፊዎች እና የደመና ማከማቻ ስፍራዎች በተለየ የተቀመጡ JSON ምትኬዎችን ሰርዝ።"</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"ያለእርስዎ ምስክርነቶች፣ ገንቢው የእርስዎን የአካባቢ ማስታወሻ ደብተር ወይም በግል Google Drive ውስጥ ያሉ ፋይሎችን በርቀት መደምሰስ አይችልም። የይለፍ ቃልህን ወይም ቶከኖችህን ከገንቢው ጋር አታጋራ። በመሰረዝ ላይ እገዛ ለማግኘት በዚህ መመሪያ መጀመሪያ ላይ ያለውን ማገናኛ በመጠቀም ፕሮጀክቱን ያነጋግሩ። የማስታወሻ ደብተር ውሂብን ለመሰረዝ የGoogle መለያዎን መሰረዝ አያስፈልግዎትም።"</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. ለውጦች እና\nን ያነጋግሩ የመተግበሪያ ባህሪያት ወይም የውሂብ ማስኬጃ ልምምዶች ሲቀየሩ ይህ መመሪያ ከክለሳ ቀን ጋር ይዘምናል። ስለመዳረሻ፣ እርማት፣ የውሂብ መሰረዝ ወይም የመተግበሪያውን አሠራር ለሚመለከቱ ጥያቄዎች የፕሮጀክቱን የእውቂያ ጣቢያ ይጠቀሙ። የሚያስገቧቸው ጥያቄዎች ምላሽ ለመስጠት ተስተናግደው በ GitHub ውስጥ ተከማችተዋል፤ የ GitHub ፖሊሲ https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ላይ ይገኛል።"</string>
+    <string name="data_category_my_dishes" formatted="false">"የእኔ ምግቦች"</string>
+    <string name="secondary_metric_weight" formatted="false">"ክብደት"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"የሰውነት ስብ"</string>
+    <string name="secondary_metric_waist" formatted="false">"ወገብ"</string>
+    <string name="secondary_metric_steps" formatted="false">"ደረጃዎች"</string>
+    <string name="secondary_metric_sleep" formatted="false">"እንቅልፍ"</string>
+    <string name="secondary_metric_kcal" formatted="false">"ካሎሪዎች"</string>
+    <string name="secondary_metric_protein" formatted="false">"ፕሮቲን"</string>
+    <string name="secondary_metric_fat" formatted="false">"ስብ"</string>
+    <string name="secondary_metric_carbs" formatted="false">"ካርቦሃይድሬትስ"</string>
+    <string name="secondary_unit_kg" formatted="false">"ኪ.ግ"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"ሴ.ሜ"</string>
+    <string name="secondary_unit_steps" formatted="false">"ደረጃዎች"</string>
+    <string name="secondary_unit_hours" formatted="false">"ሰ"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"ግ"</string>
+    <string name="secondary_invalid_period" formatted="false">"ልክ ያልሆነ የቀን ክልል"</string>
+    <string name="secondary_stats_title" formatted="false">"አዝማሚያዎች"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"የእርስዎ መዝገቦች ግልጽ በሆኑ ገበታዎች ውስጥ"</string>
+    <string name="secondary_metric" formatted="false">"መለኪያ"</string>
+    <string name="secondary_week" formatted="false">"ሳምንት"</string>
+    <string name="secondary_month" formatted="false">"ወር"</string>
+    <string name="secondary_year" formatted="false">"ዓመት"</string>
+    <string name="secondary_custom_period" formatted="false">"ብጁ ክልል"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"የመጀመርያው ቀን ከመጨረሻው ቀን በኋላ መሆን የለበትም"</string>
+    <string name="secondary_no_records" formatted="false">"እስካሁን ምንም መዝገቦች የሉም"</string>
+    <string name="secondary_empty_food_period" formatted="false">"ምግብ ወደ ማስታወሻ ደብተርዎ ያክሉ ወይም ሌላ የወር አበባ ይምረጡ።"</string>
+    <string name="secondary_chart_tap" formatted="false">"መዝገብ ለመምረጥ ገበታውን ይንኩ።"</string>
+    <string name="secondary_chart_connected" formatted="false">"መስመሩ የተቀዳውን መለኪያዎች ያገናኛል። በመካከላቸው ምንም መለኪያዎች የሉም."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"የመጠን ግምቶች አዝማሚያዎችን ለመከታተል ጠቃሚ ናቸው።"</string>
+    <string name="secondary_food_override_hint" formatted="false">"ዕለታዊ አጠቃላይ የምግብ አጠቃላይውን ይተካል። ያለበለዚያ ፣ የተዘገበ ምግብ ይጨመራል። መዝገቦች የሌሉባቸው ቀናት ተዘለዋል።"</string>
+    <string name="secondary_food_total_hint" formatted="false">"ድምር በተመዘገበ ምግብ ላይ የተመሰረተ ነው። መዝገብ የሌለበት ቀን እንደ ዜሮ አይቆጠርም።"</string>
+    <string name="secondary_missing_days_hint" formatted="false">"መዝገቦች የሌላቸው ቀኖች ተዘለዋል እና ከአማካይ ተገለሉ።"</string>
+    <string name="secondary_today_yesterday" formatted="false">"ዛሬ እና ትናንት"</string>
+    <string name="secondary_no_today" formatted="false">"ለዛሬ ምንም ሪከርድ የለም።"</string>
+    <string name="secondary_no_yesterday" formatted="false">"ትናንት ምንም ሪከርድ የለም።"</string>
+    <string name="secondary_partial_today" formatted="false">"ይህ ንጽጽር የአሁኑን መዛግብት ይጠቀማል። የዛሬው መረጃ አሁንም ያልተሟላ ሊሆን ይችላል።"</string>
+    <string name="secondary_period_summary" formatted="false">"የጊዜ ማጠቃለያ"</string>
+    <string name="secondary_recorded_average" formatted="false">"በአማካይ በተመዘገቡ ቀናት"</string>
+    <string name="secondary_recorded_days" formatted="false">"ቀኖች ውሂብ ጋር"</string>
+    <string name="secondary_minimum" formatted="false">"ዝቅተኛ"</string>
+    <string name="secondary_maximum" formatted="false">"ከፍተኛ"</string>
+    <string name="secondary_first_to_last" formatted="false">"ከመጀመሪያው እስከ መጨረሻው መዝገብ"</string>
+    <string name="secondary_two_days_needed" formatted="false">"ለውጥን ለማስላት ቢያንስ ሁለት የተመዘገቡ ቀናት ያስፈልጋሉ።"</string>
+    <string name="secondary_history" formatted="false">"ታሪክ"</string>
+    <string name="secondary_history_recent" formatted="false">"የቅርብ ጊዜዎቹ 14 ቀናት ከውሂብ ጋር። ለቀደሙት መዝገቦች ብጁ ክልል ይምረጡ።"</string>
+    <string name="secondary_history_all" formatted="false">"በተመረጠው ጊዜ ውስጥ ሁሉም የተመዘገቡ ቀናት"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"ከ%1$s"</string>
+    <string name="secondary_date_until">"ለ%1$s"</string>
+    <string name="secondary_date_range">"%1$s - %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s በዚህ ጊዜ ውስጥ"</string>
+    <string name="secondary_weight_goal">"ግብ፡ %1$s ኪ.ግ"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"ወደ ማስታወሻ ደብተርዎ መለኪያ ያክሉ ወይም ሌላ ጊዜ ይምረጡ።"</string>
+    <string name="secondary_latest_record">"የቅርብ ጊዜ ሪከርድ · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"ዛሬ: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"ትናንት: %1$s %2$s"</string>
+    <string name="secondary_change_value">"ለውጥ፡ %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d ከ%2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d የተመዘገቡ ቀናት፣ ከ%3$s እስከ %4$s። ዝቅተኛው %5$s፣ ከፍተኛው %6$s %7$s። እሴቶች በታሪክ ውስጥ ተዘርዝረዋል."</string>
+    <string name="secondary_award_first_weight" formatted="false">"በመጀመር ላይ"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"የመጀመሪያውን የክብደት መለኪያዎን ያስቀምጡ።"</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"የመጀመሪያው የክብደት መለኪያዎ ተቀምጧል።"</string>
+    <string name="secondary_award_first_food" formatted="false">"የመጀመሪያ ግቤት"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"የመጀመሪያውን የምግብ ክፍልዎን ይመዝግቡ።"</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"የመጀመሪያው የምግብ ክፍልዎ ተመዝግቧል።"</string>
+    <string name="secondary_award_weight_week" formatted="false">"የአንድ ሳምንት ውሂብ"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"ክብደትዎን በ7 የተለያዩ ቀናት ይመዝግቡ። ተከታታይ መሆን አያስፈልጋቸውም።"</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"ለ 7 የተለያዩ ቀናት የክብደት መዝገቦች አሉዎት።"</string>
+    <string name="secondary_award_weight_month" formatted="false">"ወጥነት"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"ክብደትዎን በ30 የተለያዩ ቀናት ይመዝግቡ።"</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"ለ 30 ቀናት የክብደት መዝገቦች አሉዎት።"</string>
+    <string name="secondary_award_food_hundred" formatted="false">"አርኪቭስት"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"100 የምግብ ክፍሎችን በማስታወሻ ደብተርዎ ውስጥ ያስቀምጡ።"</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"100 የምግብ ክፍሎችን አስቀምጠዋል።"</string>
+    <string name="secondary_award_food_streak" formatted="false">"አዲስ ልማድ"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"ለ 7 ተከታታይ የቀን መቁጠሪያ ቀናት ምግብ ይመዝግቡ።"</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"ለ 7 ተከታታይ ቀናት ምግብ አስመዝግበሃል።"</string>
+    <string name="secondary_award_steps" formatted="false">"አስደናቂ የእግር ጉዞ"</string>
+    <string name="secondary_award_steps_description" formatted="false">"ቢያንስ 10,000 እርምጃዎችን በአንድ ቀን ውስጥ ይመዝግቡ።"</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"አንድ ቀን በ10,000 እርምጃዎች መዝግበዋል።"</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"ጥሩ መቅጃ"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"100 የክብደት መለኪያዎችን ይቆጥቡ። አንድ መለኪያ በቀን ይቆጠራል።"</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"100 የክብደት መለኪያዎችን አስቀምጠዋል።"</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"የዲያሪ አርበኛ"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"ምግብን ወይም መለኪያዎችን በ90 የተለያዩ ቀናት ይመዝገቡ። ተከታታይ መሆን አያስፈልጋቸውም።"</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"ለ90 የተለያዩ ቀናት የማስታወሻ ደብተር አለዎት።"</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"መለኪያዎች"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"ክፍሎች"</string>
+    <string name="secondary_award_unit_days" formatted="false">"ቀናት"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"ተከታታይ ቀናት"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"እርምጃዎች በአንድ ቀን ውስጥ"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"የተመዘገቡ ቀናት"</string>
+    <string name="secondary_back" formatted="false">"‹ ተመለስ"</string>
+    <string name="secondary_achievements" formatted="false">"ስኬቶች"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"ትናንሽ እርምጃዎች ልማድ ይሆናሉ"</string>
+    <string name="secondary_your_progress" formatted="false">"የእርስዎ እድገት"</string>
+    <string name="secondary_awards_permanent" formatted="false">"የተገኙ ስኬቶች መዝገቦችዎን ቢያስተካክሉም ከእርስዎ ጋር ይቆያሉ።"</string>
+    <string name="secondary_awards_regular" formatted="false">"ለ ወጥነት እና ማስታወሻ ደብተርዎን ለመጠበቅ"</string>
+    <string name="secondary_awards_through_today" formatted="false">"እስከ ዛሬ ድረስ የተቀመጡ እና የተቀመጡ መዝገቦች ተቆጥረዋል።"</string>
+    <string name="secondary_hidden_achievement" formatted="false">"የተደበቀ ስኬት"</string>
+    <string name="secondary_hidden_description" formatted="false">"ይህንን ስኬት ለመክፈት ማስታወሻ ደብተርዎን መጠቀምዎን ይቀጥሉ።"</string>
+    <string name="secondary_earned" formatted="false">"ተገኘ"</string>
+    <string name="secondary_hidden_locked" formatted="false">"ተደብቋል · ተቆልፏል"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"በሂደት ላይ · ተቆልፏል"</string>
+    <string name="secondary_locked" formatted="false">"ተቆልፏል"</string>
+    <string name="secondary_hidden_progress" formatted="false">"መስፈርቱ እና መሻሻል የሚገለጸው ይህንን ሽልማት ሲያገኙ ነው።"</string>
+    <string name="secondary_best_streak" formatted="false">"ምርጥ ጅምር"</string>
+    <string name="secondary_hidden_reward" formatted="false">"የተደበቀ ሽልማት"</string>
+    <string name="secondary_unlocked_of">"ከ%1$d ተከፍቷል።"</string>
+    <string name="secondary_unlocked_date">"ተከፍቷል %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← ተመለስ"</string>
+    <string name="secondary_my_recipe" formatted="false">"የእኔ አዘገጃጀት"</string>
+    <string name="secondary_recipe_intro" formatted="false">"ምግብ ከማብሰልዎ በፊት ንጥረ ነገሮችን ይመዝኑ። ክፍሎችን ለማስላት የበሰለውን ክብደት ይጠቀሙ. ዘይቶችን እና ሾርባዎችን ያካትቱ."</string>
+    <string name="secondary_recipe_name" formatted="false">"የምግብ አዘገጃጀት ስም"</string>
+    <string name="secondary_recipe_example" formatted="false">"ለምሳሌ የአትክልት ወጥ"</string>
+    <string name="secondary_ingredients" formatted="false">"ግብዓቶች"</string>
+    <string name="secondary_start_ingredients" formatted="false">"ከዕቃዎቹ ይጀምሩ"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"እያንዳንዱን ንጥረ ነገር ይጨምሩ እና ክብደቱን በግራም ያስገቡ።"</string>
+    <string name="secondary_edit_weight" formatted="false">"ክብደትን ያርትዑ"</string>
+    <string name="secondary_delete" formatted="false">"ሰርዝ"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ ንጥረ ነገር ያክሉ"</string>
+    <string name="secondary_whole_recipe" formatted="false">"ሙሉ የምግብ አሰራር"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"ውሃ ሲጨመር ወይም ሲጠፋ ምግብ ማብሰል ክብደቱን ይለውጣል። የተጠናቀቀውን ምግብ ያለ መያዣው ይመዝኑ."</string>
+    <string name="secondary_cooked_weight" formatted="false">"የበሰለ ክብደት፣ ሰ"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"ምግብ ካበስሉ በኋላ ክብደቱን ያስገቡ"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"ከ 0 በላይ እና ከ 100,000 ግ የማይበልጥ ክብደት አስገባ"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"ክብደቱ በራስ-ሰር አይሞላም።"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"በ 100 ግራም የበሰለ ምግብ"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"የበሰለውን ክብደት እና ንጥረ ነገሮችን ይመልከቱ፡ እያንዳንዱ 100 ግራም እስከ 1,000 kcal እና እስከ 100 ግራም የእያንዳንዱ ማክሮ ኤነርጂ ንጥረ ነገር ሊይዝ ይችላል።"</string>
+    <string name="secondary_recipe_save_error" formatted="false">"የምግብ አዘገጃጀቱን ማስቀመጥ አልተቻለም"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"ወደ የእኔ የምግብ አዘገጃጀት አስቀምጥ"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"አንዴ ከተቀመጡ፣ ይህን ምግብ በክፍሉ ክብደት መመዝገብ ይችላሉ።"</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"ምግብ ከማብሰልዎ በፊት የንጥረ ነገር ክብደት"</string>
+    <string name="secondary_grams" formatted="false">"ግራም"</string>
+    <string name="secondary_weight_limits" formatted="false">"ከ 0 በላይ እና ከ 100,000 ግ አይበልጥም"</string>
+    <string name="secondary_add" formatted="false">"ጨምር"</string>
+    <string name="secondary_save" formatted="false">"አስቀምጥ"</string>
+    <string name="secondary_cancel" formatted="false">"ሰርዝ"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"አንድ ንጥረ ነገር ይምረጡ"</string>
+    <string name="secondary_search_food" formatted="false">"ምግቦችን ይፈልጉ"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"ምንም ውጤቶች የሉም። በምግብ ትር ላይ የራስዎን ምግብ ማከል ይችላሉ።"</string>
+    <string name="secondary_close" formatted="false">"ዝጋ"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"ፕሮቲን %1$s · ስብ %2$s · ካርቦሃይድሬት %3$s g"</string>
+    <string name="secondary_ingredients_weight">"የንጥረ ነገር ክብደት፡ %1$s ግ"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s ግ"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 ግ"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s - %2$s ሰ"</string>
+    <string name="secondary_recipe_note">"ምርት: %1$s ግ. ግብዓቶች፡ %2$s"</string>
+</resources>

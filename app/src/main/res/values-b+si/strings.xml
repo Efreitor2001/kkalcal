@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"ආහාර දිනපොත"</string>
+    <string name="core_app_name" formatted="false">"ආහාර දිනපොත"</string>
+    <string name="core_tagline" formatted="false">"කැලරි, බර සහ ප්‍රගතිය"</string>
+    <string name="core_open_diary" formatted="false">"දිනපොත විවෘත කරන්න"</string>
+    <string name="core_save_failed" formatted="false">"දත්ත සුරැකීමට නොහැකි විය"</string>
+    <string name="core_day" formatted="false">"අද"</string>
+    <string name="core_products" formatted="false">"ආහාර"</string>
+    <string name="core_diary" formatted="false">"දිනපොත"</string>
+    <string name="core_charts" formatted="false">"ප්‍රස්තාර"</string>
+    <string name="core_more" formatted="false">"තවත්"</string>
+    <string name="core_recipe_saved" formatted="false">"කෑම ඔබේ ආහාර ලැයිස්තුවට සුරැකිණි"</string>
+    <string name="core_back_to_day" formatted="false">"ඔබේ දවසට ආපසු"</string>
+    <string name="core_action_failed" formatted="false">"ක්‍රියාව සිදු කිරීමට නොහැකි විය"</string>
+    <string name="core_understood" formatted="false">"හරි"</string>
+    <string name="core_restore_available" formatted="false">"තවත් කොටසෙන් උපස්ථය ප්‍රතිසාධනය කළ හැක."</string>
+    <string name="core_eaten_today" formatted="false">"අද ආහාරයට ගත් ප්‍රමාණය"</string>
+    <string name="core_set_goal_hint" formatted="false">"තවත් කොටසෙන් ඉලක්කයක් සකසන්න"</string>
+    <string name="core_add_food" formatted="false">"+ ආහාර එක් කරන්න"</string>
+    <string name="core_first_meal" formatted="false">"පළමු ආහාර වේලෙන් අරඹන්න"</string>
+    <string name="core_first_meal_help" formatted="false">"කැලරි සහ පෝෂක ගණනය කිරීමට ආහාරයක් තෝරා බර ග්‍රෑම්වලින් ඇතුළත් කරන්න."</string>
+    <string name="core_my_day" formatted="false">"මගේ දවස"</string>
+    <string name="core_my_day_help" formatted="false">"බර, ඉණ වටය, පියවර, නින්ද — ඔබ සතු දත්ත සටහන් කරන්න."</string>
+    <string name="core_record_metrics" formatted="false">"මිනුම් සටහන් කරන්න"</string>
+    <string name="core_edit_metrics" formatted="false">"මිනුම් සංස්කරණය කරන්න"</string>
+    <string name="core_food_state_hint" formatted="false">"බර සහ පෝෂණ අගයන් එකම ආහාර තත්ත්වයට අදාළ විය යුතුය: අමු, වියළි හෝ පිසූ."</string>
+    <string name="core_weight" formatted="false">"බර"</string>
+    <string name="core_waist" formatted="false">"ඉණ වටය"</string>
+    <string name="core_my_diary" formatted="false">"මගේ දිනපොත"</string>
+    <string name="core_diary_tagline" formatted="false">"සෑම දිනකම ඔබේම වේගයෙන්"</string>
+    <string name="core_record_day" formatted="false">"+ දවස සටහන් කරන්න"</string>
+    <string name="core_optional_diary_help" formatted="false">"සියලු මිනුම් විකල්පය. බර, නින්ද හෝ සටහනක් පමණක් ඇතුළත් කළ හැක. සංස්කරණයට සටහනක් තට්ටු කරන්න."</string>
+    <string name="core_history_starts" formatted="false">"ඔබේ ඉතිහාසය මෙතැනින් ඇරඹේ"</string>
+    <string name="core_history_help" formatted="false">"මිනුම් සටහන් කර ප්‍රස්තාරවල වෙනස්කම් බලන්න."</string>
+    <string name="core_file_unavailable" formatted="false">"ගොනුව නොමැත"</string>
+    <string name="core_backup_saved" formatted="false">"උපස්ථය සුරැකිණි"</string>
+    <string name="core_export_error" formatted="false">"උපස්ථය අපනයනය කිරීමට නොහැකි විය"</string>
+    <string name="core_read_error" formatted="false">"ගොනුව කියවීමට නොහැකි විය"</string>
+    <string name="core_settings_tagline" formatted="false">"සැකසුම් සහ උපස්ථ"</string>
+    <string name="core_your_progress" formatted="false">"ඔබේ ප්‍රගතිය"</string>
+    <string name="core_achievements_help" formatted="false">"කුඩා ජයග්‍රහණ දිනපොත පවත්වාගෙන යාමේ පුරුද්ද ගොඩනඟයි."</string>
+    <string name="core_achievements" formatted="false">"ජයග්‍රහණ"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"උපාංග අතර දිනපොත සමමුහුර්ත කිරීමට විකල්ප පුරනය වීම."</string>
+    <string name="core_cloud_sync" formatted="false">"වලාකුළු සමමුහුර්තකරණය"</string>
+    <string name="core_personal_goals" formatted="false">"පෞද්ගලික ඉලක්ක"</string>
+    <string name="core_personal_goals_help" formatted="false">"කැලරි, පෝෂක සහ බර ඉලක්ක අතින් සකසන්න. ඕනෑම ඉලක්කයක් හිස්ව තැබිය හැක."</string>
+    <string name="core_configure_goals" formatted="false">"ඉලක්ක සකසන්න"</string>
+    <string name="core_backup" formatted="false">"උපස්ථය"</string>
+    <string name="core_backup_help" formatted="false">"ආහාර, ආහාර වේල්, දිනපොත, ඉලක්ක සහ ජයග්‍රහණ එක් ගොනුවක. යෙදුම නැවත ස්ථාපනය කිරීමට පෙර පිටපතක් සාදන්න."</string>
+    <string name="core_save_file" formatted="false">"ගොනුවකට සුරකින්න"</string>
+    <string name="core_restore_file" formatted="false">"ගොනුවකින් ප්‍රතිසාධනය කරන්න"</string>
+    <string name="core_write_locked" formatted="false">"මුල් ගොනුව ආරක්ෂා කිරීමට සුරැකීම අක්‍රිය කර ඇත. වලංගු උපස්ථයක් ප්‍රතිසාධනය කරන්න."</string>
+    <string name="core_about_data" formatted="false">"යෙදුම සහ ඔබේ දත්ත ගැන"</string>
+    <string name="core_about_data_help" formatted="false">"සටහන් සුරැකීම, සමමුහුර්ත කිරීම සහ මැකීම සිදුවන ආකාරය."</string>
+    <string name="core_privacy" formatted="false">"පෞද්ගලිකත්වය සහ දත්ත මැකීම"</string>
+    <string name="core_offline" formatted="false">"අන්තර්ජාලය නොමැතිව ක්‍රියා කරයි"</string>
+    <string name="core_offline_help" formatted="false">"Google පුරනය වීම විකල්පය. පියවර සහ නින්ද අතින් ඇතුළත් කරයි. සක්‍රිය සමමුහුර්තකරණයට සහ දැන්වීම් පූරණයට අන්තර්ජාලය අවශ්‍යය. දිනපොතේ සටහන් දැන්වීම් ජාලයට යවන්නේ නැත."</string>
+    <string name="core_about_foods" formatted="false">"ආහාර ගැන"</string>
+    <string name="core_foods_reference" formatted="false">"ඇතුළත් අගයන් ආහාරයට ගත හැකි කොටසේ ග්‍රෑම් 100කට ආසන්න අගයන්ය. නිවැරදි දත්ත ඇසුරුමෙන් බලන්න. ආහාරයක් වෙනස් කිරීමෙන් පෙර සටහන් කළ ආහාර වේල් නැවත ගණනය නොවේ."</string>
+    <string name="core_foods_source" formatted="false">"දත්ත මූලාශ්‍රය: USDA FoodData Central, SR Legacy. එක් එක් ආහාරයේ තත්ත්වය සහ මූලාශ්‍රය දක්වා ඇත."</string>
+    <string name="core_restore_title" formatted="false">"මෙම පිටපත ප්‍රතිසාධනය කරන්නද?"</string>
+    <string name="core_restore_warning" formatted="false">"දැනට ඇති ආහාර, දිනපොත, ඉලක්ක සහ ජයග්‍රහණ මෙම ගොනුවේ දත්තවලින් ප්‍රතිස්ථාපනය වේ. පළමුව උපස්ථයක් සාදන්න. සමමුහුර්තකරණය සම්බන්ධ කර ඇත්නම් ප්‍රතිසාධනය කළ දත්ත Google Drive වෙතත් යැවේ."</string>
+    <string name="core_backup_restored" formatted="false">"උපස්ථය ප්‍රතිසාධනය කළා"</string>
+    <string name="core_invalid_file" formatted="false">"වලංගු නොවන ගොනුවකි"</string>
+    <string name="core_replace_data" formatted="false">"දත්ත ප්‍රතිස්ථාපනය කරන්න"</string>
+    <string name="core_cancel" formatted="false">"අවලංගු කරන්න"</string>
+    <string name="core_save" formatted="false">"සුරකින්න"</string>
+    <string name="core_calculate_portion" formatted="false">"ආහාර කොටස ගණනය කරන්න"</string>
+    <string name="core_edit_portion" formatted="false">"ආහාර කොටස සංස්කරණය කරන්න"</string>
+    <string name="core_portion_weight" formatted="false">"ආහාර කොටසේ බර, ග්‍රෑම්"</string>
+    <string name="core_portion_invalid" formatted="false">"0ට වැඩි සහ ග්‍රෑම් 100,000ට නොවැඩි බරක් ඇතුළත් කරන්න"</string>
+    <string name="core_add_to_diary" formatted="false">"දිනපොතට එක් කරන්න"</string>
+    <string name="core_delete_entry" formatted="false">"සටහන මකන්න"</string>
+    <string name="core_delete_portion_question" formatted="false">"මෙම ආහාර කොටස දිනපොතෙන් මකන්නද?"</string>
+    <string name="core_new_food" formatted="false">"නව ආහාරයක් හෝ පිළියෙළ කළ කෑමක්"</string>
+    <string name="core_edit_nutrition" formatted="false">"පෝෂණ අගයන් සංස්කරණය කරන්න"</string>
+    <string name="core_name" formatted="false">"නම"</string>
+    <string name="core_food" formatted="false">"ආහාර ද්‍රව්‍යය"</string>
+    <string name="core_dish" formatted="false">"පිළියෙළ කළ කෑම"</string>
+    <string name="core_category" formatted="false">"ප්‍රවර්ගය"</string>
+    <string name="core_per100_hint" formatted="false">"ඇසුරුමෙන් හෝ වට්ටෝරුවෙන් ග්‍රෑම් 100කට අගයන්. පෝෂකය නොමැති නම් 0 ඇතුළත් කරන්න."</string>
+    <string name="core_kcal" formatted="false">"කැලරි"</string>
+    <string name="core_protein_grams" formatted="false">"ප්‍රෝටීන්, ග්‍රෑම්"</string>
+    <string name="core_fat_grams" formatted="false">"මේදය, ග්‍රෑම්"</string>
+    <string name="core_carbs_grams" formatted="false">"කාබෝහයිඩ්‍රේට්, ග්‍රෑම්"</string>
+    <string name="core_food_note" formatted="false">"සටහන, අමුද්‍රව්‍ය (විකල්ප)"</string>
+    <string name="core_favorite" formatted="false">"ප්‍රියතමයන්ට එක් කරන්න"</string>
+    <string name="core_name_category_required" formatted="false">"නම සහ ප්‍රවර්ගය ඇතුළත් කරන්න"</string>
+    <string name="core_nutrition_invalid" formatted="false">"ග්‍රෑම් 100කට අගයන් ඇතුළත් කරන්න: කැලරි 0–1,000; ප්‍රෝටීන්, මේදය සහ කාබෝහයිඩ්‍රේට් ග්‍රෑම් 0–100"</string>
+    <string name="core_delete_food" formatted="false">"ආහාර ලැයිස්තුවෙන් මකන්න"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"දැනටමත් සටහන් කළ ආහාර වේල්වල අගයන් වෙනස් නොවේ."</string>
+    <string name="core_delete_food_question" formatted="false">"මෙම ආහාරය මකන්නද? එහි දිනපොත් සටහන් පවතී."</string>
+    <string name="core_day_entry" formatted="false">"දින සටහන"</string>
+    <string name="core_optional_fields" formatted="false">"ඔබට අවශ්‍ය ක්ෂේත්‍ර පුරවන්න. ඉතිරිය හිස්ව තබන්න."</string>
+    <string name="core_editing_existing" formatted="false">"මෙම දිනයට සටහනක් දැනටමත් ඇත. ඔබ එය සංස්කරණය කරයි."</string>
+    <string name="core_weight_kg" formatted="false">"බර, කිග්‍රෑ"</string>
+    <string name="core_waist_cm" formatted="false">"ඉණ වටය, සෙමී"</string>
+    <string name="core_steps" formatted="false">"පියවර"</string>
+    <string name="core_sleep" formatted="false">"නින්ද"</string>
+    <string name="core_hours" formatted="false">"පැය"</string>
+    <string name="core_minutes" formatted="false">"මිනිත්තු"</string>
+    <string name="core_body_fat_optional" formatted="false">"තරාදියෙන් මනින මේදය, % (විකල්ප)"</string>
+    <string name="core_body_fat_hint" formatted="false">"තරාදියෙන් ලැබෙන මේද ප්‍රතිශතය ප්‍රවණතාව නිරීක්ෂණයට උපකාරී වේ; එය නිරවද්‍ය මිනුමක් නොවේ."</string>
+    <string name="core_strength_training" formatted="false">"ශක්ති පුහුණුව"</string>
+    <string name="core_training_example" formatted="false">"උදාහරණයක්: ස්කොට් 3×10, කිග්‍රෑ 12 ඩම්බල්"</string>
+    <string name="core_manual_nutrition" formatted="false">"අතින් ඇතුළත් පෝෂණ එකතුව"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"පුරවා ඇත්නම් මෙම අගයන් ආහාරවලින් ගණනය කළ දෛනික එකතුව ප්‍රතිස්ථාපනය කරයි. ස්වයංක්‍රීය ගණනය සඳහා හිස්ව තබන්න."</string>
+    <string name="core_daily_calories" formatted="false">"දවසේ කැලරි"</string>
+    <string name="core_daily_protein" formatted="false">"දවසේ ප්‍රෝටීන්, ග්‍රෑම්"</string>
+    <string name="core_wellbeing_notes" formatted="false">"සටහන් සහ සුවතාව"</string>
+    <string name="core_steps_invalid" formatted="false">"පියවර: 0 සිට 200,000 දක්වා පූර්ණ සංඛ්‍යාවක්"</string>
+    <string name="core_sleep_invalid" formatted="false">"නින්ද: පැය 0–24, මිනිත්තු 0–59"</string>
+    <string name="core_body_fat" formatted="false">"ශරීර මේදය"</string>
+    <string name="core_calories" formatted="false">"කැලරි"</string>
+    <string name="core_protein" formatted="false">"ප්‍රෝටීන්"</string>
+    <string name="core_entry_required" formatted="false">"අවම වශයෙන් එක් මිනුමක් හෝ සටහනක් එක් කරන්න"</string>
+    <string name="core_delete_day" formatted="false">"දින සටහන මකන්න"</string>
+    <string name="core_optional_goals" formatted="false">"සියලු ඉලක්ක විකල්පය. හිස් ක්ෂේත්‍රයක් යනු ඉලක්කයක් සකසා නැති බවයි."</string>
+    <string name="core_calories_per_day" formatted="false">"දිනකට කැලරි"</string>
+    <string name="core_protein_per_day" formatted="false">"දිනකට ප්‍රෝටීන්, ග්‍රෑම්"</string>
+    <string name="core_fat_per_day" formatted="false">"දිනකට මේදය, ග්‍රෑම්"</string>
+    <string name="core_carbs_per_day" formatted="false">"දිනකට කාබෝහයිඩ්‍රේට්, ග්‍රෑම්"</string>
+    <string name="core_target_weight" formatted="false">"ඉලක්ක බර, කිග්‍රෑ"</string>
+    <string name="core_goals_invalid" formatted="false">"ඉලක්ක පරීක්ෂා කරන්න: කැලරි 0–10,000; ප්‍රෝටීන්, මේදය සහ කාබෝහයිඩ්‍රේට් ග්‍රෑම් 0–1,000"</string>
+    <string name="core_target_weight_invalid" formatted="false">"ඉලක්ක බර: කිග්‍රෑ 1 සිට 500 දක්වා"</string>
+    <string name="core_delete_question" formatted="false">"මකන්නද?"</string>
+    <string name="core_delete" formatted="false">"මකන්න"</string>
+    <string name="core_select_food" formatted="false">"ආහාරයක් තෝරන්න"</string>
+    <string name="core_foods_dishes" formatted="false">"ආහාර ද්‍රව්‍ය සහ පිළියෙළ කළ කෑම"</string>
+    <string name="core_search_food" formatted="false">"ආහාරයක් හෝ කෑමක් සොයන්න"</string>
+    <string name="core_new_food_button" formatted="false">"+ ආහාරය / කෑම"</string>
+    <string name="core_recipe_button" formatted="false">"වට්ටෝරුවකින්"</string>
+    <string name="core_no_results" formatted="false">"කිසිවක් හමු නොවීය"</string>
+    <string name="core_no_results_help" formatted="false">"වෙනත් සෙවුමක් උත්සාහ කරන්න හෝ ඔබේම ආහාරයක් හෝ පිළියෙළ කළ කෑමක් එක් කරන්න."</string>
+    <string name="core_edit" formatted="false">"සංස්කරණය කරන්න"</string>
+    <string name="core_achievement_unlocked">"🏆 ජයග්‍රහණයක් විවෘත කළා! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"තවත් kcal %1$s · ඉලක්කය %2$s"</string>
+    <string name="core_above_goal">"ඉලක්කයට වඩා kcal %1$s වැඩියි"</string>
+    <string name="core_portion_summary">"ග්‍රෑම් %1$s · kcal %2$s"</string>
+    <string name="core_macros_summary">"ප්‍රෝටීන් %1$s   මේදය %2$s   කාබෝහයිඩ්‍රේට් %3$s"</string>
+    <string name="core_weight_summary">"බර කිග්‍රෑ %1$s"</string>
+    <string name="core_waist_summary">"ඉණ සෙමී %1$s"</string>
+    <string name="core_steps_summary">"පියවර: %1$s"</string>
+    <string name="core_fat_summary">"ශරීර මේදය %1$s%%"</string>
+    <string name="core_manual_calories">"kcal %1$s (අතින්)"</string>
+    <string name="core_manual_protein">"ප්‍රෝටීන් ග්‍රෑම් %1$s (අතින්)"</string>
+    <string name="core_kg_value">"කිග්‍රෑ %1$s"</string>
+    <string name="core_cm_value">"සෙමී %1$s"</string>
+    <string name="core_sleep_value">"නින්ද %1$s"</string>
+    <string name="core_scale_fat">"තරාදියෙන් මනින මේදය %1$s%%"</string>
+    <string name="core_training_value">"පුහුණුව: %1$s"</string>
+    <string name="core_kcal_value">"kcal %1$s"</string>
+    <string name="core_protein_value">"ප්‍රෝටීන් ග්‍රෑම් %1$s"</string>
+    <string name="core_app_version">"ආහාර දිනපොත · %1$s"</string>
+    <string name="core_per100_summary">"ග්‍රෑම් 100කට: kcal %1$s · ප්‍රෝටීන් %2$s · මේදය %3$s · කාබෝහයිඩ්‍රේට් %4$s"</string>
+    <string name="core_range_invalid">"%1$s: %2$s සිට %3$s දක්වා අගයක් ඇතුළත් කරන්න"</string>
+    <string name="core_delete_day_question">"%1$s සඳහා මිනුම් මකන්නද? ආහාර වේල් පවතී."</string>
+    <string name="core_catalog_count">"ආහාර: %1$s · ග්‍රෑම් 100කට අගයන්"</string>
+    <string name="core_catalog_nutrition">"kcal %1$s   ·   ප්‍රෝටීන් %2$s   මේදය %3$s   කාබෝහයිඩ්‍රේට් %4$s"</string>
+    <string name="core_today_date">"අද · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"කැලරි සහ ප්‍රෝටීන් යනු දිනපොතට අතින් ඇතුළත් කළ එකතුය"</string>
+    <string name="core_manual_calorie_total" formatted="false">"කැලරි යනු දිනපොතට අතින් ඇතුළත් කළ එකතුවයි"</string>
+    <string name="core_manual_protein_total" formatted="false">"ප්‍රෝටීන් යනු දිනපොතට අතින් ඇතුළත් කළ එකතුවයි"</string>
+    <string name="core_macro_goals">"ප්‍රෝටීන් / මේද / කාබෝහයිඩ්‍රේට් ඉලක්ක: ග්‍රෑම් %1$s / %2$s / %3$s"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (අතින්)"</string>
+    <string name="core_all" formatted="false">"සියල්ල"</string>
+    <string name="core_favorites" formatted="false">"ප්‍රියතමයන්"</string>
+    <string name="core_sleep_duration">"පැය %1$s මිනිත්තු %2$s"</string>
+    <string name="core_previous_day" formatted="false">"පෙර දවස"</string>
+    <string name="core_next_day" formatted="false">"ඊළඟ දවස"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"සංක්‍රමණ උපස්ථය නොගැළපේ"</string>
+    <string name="data_entry_exists" formatted="false">"මෙම ආහාර සටහන දැනටමත් ඇත"</string>
+    <string name="data_entry_missing" formatted="false">"ආහාර සටහන හමු නොවීය"</string>
+    <string name="data_edited_date_changed" formatted="false">"සංස්කරණය කරන සටහනේ දිනය වෙනස් වී ඇත"</string>
+    <string name="data_device_id_corrupt" formatted="false">"දේශීය උපාංග හැඳුනුම හානි වී ඇත; ප්‍රතිසාධනය අවහිර කර ඇත"</string>
+    <string name="data_sync_invalid" formatted="false">"වලංගු නොවන සමමුහුර්ත දත්ත"</string>
+    <string name="data_diary_read_only" formatted="false">"දිනපොත නැවත ලිවීමෙන් ආරක්ෂා කර ඇත: උපස්ථයක් ප්‍රතිසාධනය කරන්න"</string>
+    <string name="data_diary_inconsistent" formatted="false">"දිනපොතේ දත්ත එකිනෙකට නොගැළපේ"</string>
+    <string name="data_backup_too_large" formatted="false">"උපස්ථය ඉතා විශාලය"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ස්ථාපන හැඳුනුම හානි වී ඇත"</string>
+    <string name="data_save_verification_failed" formatted="false">"දිනපොත සුරැකීම තහවුරු කිරීමට නොහැකි විය"</string>
+    <string name="data_save_failed" formatted="false">"දිනපොත සුරැකීමට නොහැකි විය"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"උපස්ථය MB 50 ඉක්මවයි"</string>
+    <string name="data_diary_file_too_large" formatted="false">"දිනපොත් ගොනුව ඉතා විශාලය"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"ආහාර දත්ත ගබඩාවේ ප්‍රමාණය වලංගු නොවේ"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"මෙම උපස්ථ අනුවාදයට සහය නොදක්වයි"</string>
+    <string name="data_too_many_values">"%1$s තුළ අගයන් වැඩියි"</string>
+    <string name="data_too_many_products" formatted="false">"ආහාර ගණන වැඩියි"</string>
+    <string name="data_too_many_entries" formatted="false">"ආහාර සටහන් ගණන වැඩියි"</string>
+    <string name="data_too_many_logs" formatted="false">"දිනපොත් සටහන් ගණන වැඩියි"</string>
+    <string name="data_product_id_duplicate" formatted="false">"නැවත ඇති ආහාර හැඳුනුමකි"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"නැවත ඇති ආහාර සටහන් හැඳුනුමකි"</string>
+    <string name="data_log_date_duplicate" formatted="false">"නැවත ඇති දිනපොත් දිනයකි"</string>
+    <string name="data_label_product_id" formatted="false">"ආහාර හැඳුනුම"</string>
+    <string name="data_label_product_name" formatted="false">"ආහාරයේ නම"</string>
+    <string name="data_label_category" formatted="false">"ප්‍රවර්ගය"</string>
+    <string name="data_label_note" formatted="false">"සටහන"</string>
+    <string name="data_label_entry_id" formatted="false">"සටහන් හැඳුනුම"</string>
+    <string name="data_label_meal" formatted="false">"ආහාර වේල"</string>
+    <string name="data_food_weight_range" formatted="false">"ආහාරයේ බර 0ට වැඩි සහ ග්‍රෑම් 100,000ට නොවැඩි විය යුතුය"</string>
+    <string name="data_label_weight" formatted="false">"බර"</string>
+    <string name="data_label_waist" formatted="false">"ඉණ වටය"</string>
+    <string name="data_steps_range" formatted="false">"පියවර ගණන 0 සිට 200,000 දක්වා විය යුතුය"</string>
+    <string name="data_label_sleep" formatted="false">"නින්ද"</string>
+    <string name="data_label_body_fat" formatted="false">"ශරීර මේදය"</string>
+    <string name="data_label_daily_calories" formatted="false">"දවසේ කැලරි"</string>
+    <string name="data_label_daily_protein" formatted="false">"දවසේ ප්‍රෝටීන්"</string>
+    <string name="data_label_workout" formatted="false">"පුහුණුව"</string>
+    <string name="data_label_log_note" formatted="false">"සටහන"</string>
+    <string name="data_log_empty" formatted="false">"අවම වශයෙන් එක් මිනුමක් හෝ සටහනක් ඇතුළත් කරන්න"</string>
+    <string name="data_label_goal_weight" formatted="false">"ඉලක්ක බර"</string>
+    <string name="data_too_many_achievements" formatted="false">"ජයග්‍රහණ ගණන වැඩියි"</string>
+    <string name="data_achievement_invalid" formatted="false">"වලංගු නොවන ජයග්‍රහණයකි"</string>
+    <string name="data_setting_not_portable" formatted="false">"මෙම සැකසුම මාරු කළ නොහැක"</string>
+    <string name="data_setting_invalid">"%1$s සැකසුමේ අගය වලංගු නොවේ"</string>
+    <string name="data_label_calories" formatted="false">"කැලරි"</string>
+    <string name="data_label_protein" formatted="false">"ප්‍රෝටීන්"</string>
+    <string name="data_label_fat" formatted="false">"මේදය"</string>
+    <string name="data_label_carbs" formatted="false">"කාබෝහයිඩ්‍රේට්"</string>
+    <string name="data_value_range">"%1$s: අවසර ඇති පරාසය %2$s සිට %3$s දක්වා"</string>
+    <string name="data_text_length_invalid">"%1$s: දිග වලංගු නොවේ"</string>
+    <string name="data_text_character_invalid">"%1$s: අවසර නොමැති අක්ෂරයකි"</string>
+    <string name="data_date_format_invalid" formatted="false">"දිනය YYYY-MM-DD ආකෘතියෙන් විය යුතුය"</string>
+    <string name="data_date_nonexistent">"වලංගු නොවන දිනය: %1$s"</string>
+    <string name="data_field_string_required">"%1$s ක්ෂේත්‍රය පෙළ විය යුතුය"</string>
+    <string name="data_field_boolean_required">"%1$s ක්ෂේත්‍රය සත්‍ය හෝ අසත්‍ය අගයක් විය යුතුය"</string>
+    <string name="data_field_number_required">"%1$s ක්ෂේත්‍රය සංඛ්‍යාවක් විය යුතුය"</string>
+    <string name="data_field_finite_required">"%1$s ක්ෂේත්‍රය සීමිත සංඛ්‍යාවක් විය යුතුය"</string>
+    <string name="data_field_integer_required">"%1$s ක්ෂේත්‍රය පූර්ණ සංඛ්‍යාවක් විය යුතුය"</string>
+    <string name="data_too_many_items">"%1$s තුළ අයිතම වැඩියි"</string>
+    <string name="data_data_file_invalid">"වලංගු නොවන දත්ත ගොනුව: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"උපාංග හැඳුනුම නැත"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"තාර්කික ඔරලෝසුවේ සීමාවට ළඟා වී ඇත"</string>
+    <string name="data_too_many_sync_records" formatted="false">"සමමුහුර්ත සටහන් ගණන වැඩියි"</string>
+    <string name="data_sync_version_required" formatted="false">"සමමුහුර්තකරණයට 2 වන අනුවාදයේ ආකෘතිය අවශ්‍යය"</string>
+    <string name="data_sync_key_invalid" formatted="false">"සමමුහුර්ත යතුර වලංගු නොවේ"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"නැවත ඇති සමමුහුර්ත යතුරකි"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"මැකීමේ සලකුණ වලංගු නොවේ"</string>
+    <string name="data_sync_data_invalid" formatted="false">"වලංගු නොවන සමමුහුර්ත දත්ත"</string>
+    <string name="data_record_clock_invalid" formatted="false">"සටහනේ අනුවාදය තාර්කික ඔරලෝසුව ඉක්මවයි"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"දත්ත සමමුහුර්ත පාරදත්ත සමඟ නොගැළපේ"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"සමමුහුර්ත යතුරේ දිග වලංගු නොවේ"</string>
+    <string name="data_sync_key_malformed" formatted="false">"සමමුහුර්ත යතුරේ ආකෘතිය වලංගු නොවේ"</string>
+    <string name="data_sync_type_unknown" formatted="false">"නොදන්නා සමමුහුර්ත වර්ගයකි"</string>
+    <string name="data_record_id_too_long" formatted="false">"සටහන් හැඳුනුම ඉතා දිගුය"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"ජයග්‍රහණ මැකීම වලංගු නොවේ"</string>
+    <string name="data_log_key_invalid" formatted="false">"දිනපොත් යතුර වලංගු නොවේ"</string>
+    <string name="data_log_field_unknown" formatted="false">"නොදන්නා දිනපොත් ක්ෂේත්‍රයකි"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"දිනපොත් මැකීමේ සලකුණ වලංගු නොවේ"</string>
+    <string name="data_goal_unknown" formatted="false">"නොදන්නා ඉලක්කයකි"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"මැකූ සටහනක දත්ත ඇත"</string>
+    <string name="data_sync_value_invalid" formatted="false">"සමමුහුර්ත අගය වලංගු නොවේ"</string>
+    <string name="data_record_id_mismatch" formatted="false">"සටහන් හැඳුනුම යතුරට නොගැළපේ"</string>
+    <string name="data_field_value_invalid" formatted="false">"ක්ෂේත්‍ර අගය වලංගු නොවේ"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"ජයග්‍රහණයේ දිනය යතුරට නොගැළපේ"</string>
+    <string name="data_note_string_required" formatted="false">"සටහන පෙළ විය යුතුය"</string>
+    <string name="data_sync_note_invalid" formatted="false">"සමමුහුර්ත කළ සටහන වලංගු නොවේ"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"තාර්කික ඔරලෝසුව වලංගු නොවේ"</string>
+    <string name="data_device_invalid" formatted="false">"වලංගු නොවන උපාංගයකි"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"අනුවාද සලකුණ වලංගු නොවේ"</string>
+    <string name="data_google_login_required" formatted="false">"Google වෙත නැවත පුරනය වන්න"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"වලාකුළු උපස්ථ ගණන වැඩියි"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive නැවත එකම පිටුව ලබා දුනි"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"වලාකුළු උපස්ථය MB 50 ඉක්මවයි"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive උඩුගත කිරීමේ ලිපිනයක් ලබා නොදුනි"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Google Drive උඩුගත කිරීමේ ලිපිනය වලංගු නොවේ"</string>
+    <string name="data_back" formatted="false">"‹  ආපසු"</string>
+    <string name="data_cloud_title" formatted="false">"වලාකුළු සමමුහුර්තකරණය"</string>
+    <string name="data_cloud_subtitle" formatted="false">"ඔබේ සියලු උපාංගවල දිනපොත"</string>
+    <string name="data_no_account" formatted="false">"ගිණුමක් සම්බන්ධ කර නැත"</string>
+    <string name="data_cloud_intro" formatted="false">"පුරනය වීම විකල්පය. ආහාර, ආහාර වේල්, මිනුම්, ඉලක්ක සහ ජයග්‍රහණ දුරකථනයේ සුරැකේ. සම්බන්ධ වූ පසු පිටපතක් ඔබේ Google Drive හි සැඟවුණු ෆෝල්ඩරයක සුරැකේ."</string>
+    <string name="data_cloud_first_connection" formatted="false">"පළමු සම්බන්ධතාවේදී සටහන් ඒකාබද්ධ වේ. යෙදුමට Drive හි වෙනත් ගොනුවලට ප්‍රවේශයක් නැත."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"මෙම අනුවාදයට Google පුරනය වීම තවම සකසා නැත. දිනපොත සහ ගොනු උපස්ථ ගිණුමක් නැතිව ක්‍රියා කරයි."</string>
+    <string name="data_connect_google" formatted="false">"Google සම්බන්ධ කරන්න"</string>
+    <string name="data_automatic_sync" formatted="false">"ස්වයංක්‍රීය සමමුහුර්තකරණය"</string>
+    <string name="data_automatic_sync_description" formatted="false">"වෙනස්කම්වලදී සහ Android අවසර දෙන විට පසුබිමේ"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"කාලසටහන වෙනස් කිරීමට නොහැකි විය. ඔබේ දත්ත මෙම උපාංගයේ සුරැකී ඇත."</string>
+    <string name="data_sync_start_failed" formatted="false">"සමමුහුර්තකරණය ඇරඹීමට නොහැකි විය. ඔබේ දත්ත මෙම උපාංගයේ සුරැකී ඇත."</string>
+    <string name="data_sync_now" formatted="false">"දැන් සමමුහුර්ත කරන්න"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Google වෙත නැවත පුරනය වන්න"</string>
+    <string name="data_disconnect_account" formatted="false">"ගිණුම විසන්ධි කරන්න"</string>
+    <string name="data_sync_never" formatted="false">"තවම සමමුහුර්ත කර නැත"</string>
+    <string name="data_offline_saved_title" formatted="false">"ඔබේ දත්ත නොබැඳිව සුරැකී ඇත"</string>
+    <string name="data_cloud_merge_description" formatted="false">"ස්වයංක්‍රීය සමමුහුර්තකරණය සක්‍රිය නම් සම්බන්ධතාවයක් ලැබුණු විට වෙනස්කම් යවයි. එකම ක්ෂේත්‍රය උපාංග දෙකක වෙනස් කර ඇත්නම් පසුව වෙනස් කළ කාල සලකුණ ඇති අනුවාදය භාවිතා කරයි. ස්වාධීන සටහන් සහ ක්ෂේත්‍ර ඒකාබද්ධ වේ."</string>
+    <string name="data_cloud_password_description" formatted="false">"ඔබ මුරපදය ඇතුළත් කරන්නේ බ්‍රවුසරයේ Google පිටුවේ පමණි. ප්‍රවේශ ටෝකන Android Keystore මගින් ආරක්ෂා වන අතර උපස්ථවලට ඇතුළත් නොවේ."</string>
+    <string name="data_google_connection_title" formatted="false">"Google සම්බන්ධතාවය"</string>
+    <string name="data_got_it" formatted="false">"තේරුණා"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive සම්බන්ධ කරන්නද?"</string>
+    <string name="data_connect_drive_description" formatted="false">"දැනට ඇති දිනපොත තෝරාගත් Google ගිණුමේ දත්ත සමඟ ඒකාබද්ධ වේ. ඔබේ උපාංගවල එකම පෞද්ගලික ගිණුම භාවිතා කරන්න. පුරනය වීම පෙරනිමි බ්‍රවුසරයේ විවෘත වේ."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"පුරනය වීම විවෘත කිරීමට නොහැකි විය. පෙරනිමි බ්‍රවුසරයක් ස්ථාපනය කර හෝ සක්‍රිය කර නැවත උත්සාහ කරන්න."</string>
+    <string name="data_continue" formatted="false">"ඉදිරියට"</string>
+    <string name="data_cancel" formatted="false">"අවලංගු කරන්න"</string>
+    <string name="data_disconnect_title" formatted="false">"ගිණුම විසන්ධි කරන්නද?"</string>
+    <string name="data_disconnect_description" formatted="false">"මෙම උපාංගයේ සමමුහුර්තකරණය නවතී. දේශීය දිනපොත සහ Google Drive පිටපත් පවතී. Google ගිණුම් සැකසුම්වලින් යෙදුමේ ප්‍රවේශය පාලනය කළ හැක."</string>
+    <string name="data_disconnect_failed" formatted="false">"ගිණුම විසන්ධි කිරීමට නොහැකි විය. නැවත උත්සාහ කරන්න."</string>
+    <string name="data_disconnect" formatted="false">"විසන්ධි කරන්න"</string>
+    <string name="data_google_not_connected" formatted="false">"Google සම්බන්ධ කර නැත"</string>
+    <string name="data_sync_ready" formatted="false">"සමමුහුර්ත කිරීමට සූදානම්"</string>
+    <string name="data_sync_changes_pending" formatted="false">"වෙනස්කම් සමමුහුර්තකරණය බලා සිටී…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"අන්තර්ජාලය නැත. වෙනස්කම් මෙම උපාංගයේ සුරැකිණි."</string>
+    <string name="data_google_not_configured" formatted="false">"මෙම අනුවාදයට Google පුරනය වීම තවම සකසා නැත"</string>
+    <string name="data_sync_wait" formatted="false">"සමමුහුර්තකරණය අවසන් වන තෙක් රැඳී සිටින්න"</string>
+    <string name="data_google_connecting" formatted="false">"Google වෙත සම්බන්ධ වෙමින්…"</string>
+    <string name="data_connection_cancelled" formatted="false">"සම්බන්ධතාවය අවලංගු කළා"</string>
+    <string name="data_connection_rejected" formatted="false">"සම්බන්ධතාවය අවලංගු කර හෝ Google විසින් ප්‍රතික්ෂේප කර ඇත"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google සම්බන්ධයි. සටහන් ඒකාබද්ධ වෙමින්…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google සම්බන්ධ කිරීමට නොහැකි විය. අන්තර්ජාලය සහ ප්‍රවේශ සැකසුම් පරීක්ෂා කරන්න."</string>
+    <string name="data_account_disconnected" formatted="false">"ගිණුම විසන්ධි කළා. දත්ත මෙම උපාංගයේ පවතී."</string>
+    <string name="data_sync_waiting_network" formatted="false">"අන්තර්ජාලය නැත. සමමුහුර්තකරණය සම්බන්ධතාවයක් බලා සිටී."</string>
+    <string name="data_sync_scheduled" formatted="false">"සමමුහුර්තකරණය සැලසුම් කර ඇත…"</string>
+    <string name="data_sync_running" formatted="false">"සමමුහුර්ත වෙමින්…"</string>
+    <string name="data_sync_complete" formatted="false">"සමමුහුර්තකරණය අවසන්"</string>
+    <string name="data_no_internet" formatted="false">"අන්තර්ජාල සම්බන්ධතාවයක් නැත"</string>
+    <string name="data_sync_failed_saved" formatted="false">"සමමුහුර්තකරණය අසාර්ථක විය. දත්ත මෙම උපාංගයේ සුරැකී ඇත"</string>
+    <string name="data_page_open_failed" formatted="false">"පිටුව විවෘත කිරීමට නොහැකි විය. පහත පෙළෙන් ලිපිනය පිටපත් කළ හැක."</string>
+    <string name="data_privacy_title" formatted="false">"පෞද්ගලිකත්වය"</string>
+    <string name="data_privacy_subtitle" formatted="false">"ඔබේ සටහන් සහ දත්ත පාලනය"</string>
+    <string name="data_app_purpose" formatted="false">"මෙම යෙදුම ගැන"</string>
+    <string name="data_medical_disclaimer" formatted="false">"මෙම යෙදුම වෛද්‍ය උපකරණයක් නොවේ. එය රෝග නිර්ණය, ප්‍රතිකාර, සුව කිරීම හෝ වැළැක්වීම සිදු නොකරයි. වෛද්‍ය උපදෙස්, රෝග නිර්ණය සහ ප්‍රතිකාර සඳහා සුදුසුකම් ලත් සෞඛ්‍ය වෘත්තිකයෙකු හමුවන්න."</string>
+    <string name="data_manage_delete_data" formatted="false">"දත්ත කළමනාකරණය සහ මැකීම"</string>
+    <string name="data_delete_data_intro" formatted="false">"සියලු දත්ත මැකීමට පෙර සියලු උපාංගවල සමමුහුර්තකරණය අක්‍රිය කරන්න. දුරකථනයෙන් යෙදුම අස්ථාපනය කිරීමෙන් Google Drive පිටපත් හෝ අපනයනය කළ ගොනු මැකෙන්නේ නැත."</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive දත්ත කළමනාකරණය කරන්න"</string>
+    <string name="data_google_account_access" formatted="false">"Google ගිණුමට ප්‍රවේශය"</string>
+    <string name="data_android_app_storage" formatted="false">"Android යෙදුම් ආචයනය"</string>
+    <string name="data_contact_developer" formatted="false">"සංවර්ධකයා අමතන්න"</string>
+    <string name="data_opening_page" formatted="false">"පිටුව විවෘත වෙමින්"</string>
+    <string name="data_advertisement" formatted="false">"දැන්වීම"</string>
+    <string name="data_ad_information" formatted="false">"මෙම දැන්වීම ගැන"</string>
+    <string name="data_cloud_http_error">"වලාකුළු HTTP දෝෂය %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"වලාකුළු ප්‍රතිචාරය ඉතා විශාලය"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"සංකේතනය කළ පුරනය වීමේ සැසිය වලංගු නොවේ"</string>
+    <string name="data_session_save_failed" formatted="false">"පුරනය වීමේ සැසිය සුරැකීමට නොහැකි විය"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google ප්‍රවේශය අලුත් කිරීමට නොහැකි විය"</string>
+    <string name="data_diary_read_failed">"දිනපොත කියවීමට නොහැකි විය. මුල් ගොනුව සුරැකී ඇත. උපස්ථයකින් දත්ත ප්‍රතිසාධනය කරන්න. %1$s"</string>
+    <string name="data_last_sync">"අවසන් සමමුහුර්තකරණය: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"පලතුරු සහ බෙරි"</string>
+    <string name="data_category_dried_fruit" formatted="false">"වියළි පලතුරු"</string>
+    <string name="data_category_vegetables" formatted="false">"එළවළු සහ පලා"</string>
+    <string name="data_category_mushrooms" formatted="false">"හතු"</string>
+    <string name="data_category_grains" formatted="false">"ධාන්‍ය සහ පැස්ටා"</string>
+    <string name="data_category_legumes" formatted="false">"රනිල බෝග"</string>
+    <string name="data_category_meat" formatted="false">"මස් සහ කුකුළු මස්"</string>
+    <string name="data_category_fish" formatted="false">"මාළු සහ මුහුදු ආහාර"</string>
+    <string name="data_category_dairy" formatted="false">"කිරි නිෂ්පාදන"</string>
+    <string name="data_category_eggs" formatted="false">"බිත්තර"</string>
+    <string name="data_category_oils" formatted="false">"තෙල් සහ බටර්"</string>
+    <string name="data_category_nuts" formatted="false">"ඇට වර්ග සහ බීජ"</string>
+    <string name="data_category_bread" formatted="false">"පාන්"</string>
+    <string name="data_category_other" formatted="false">"වෙනත් ආහාර"</string>
+    <string name="data_category_dishes" formatted="false">"පිළියෙළ කළ කෑම"</string>
+    <string name="data_category_custom" formatted="false">"මගේ ආහාර"</string>
+    <string name="data_category_other_short" formatted="false">"වෙනත්"</string>
+    <string name="data_food_seed_9003" formatted="false">"පොත්ත සහිත ඇපල්"</string>
+    <string name="data_catalog_note_1">"ආහාරයට ගත හැකි කොටසේ ග්‍රෑම් 100කට යොමු අගයන්. අමු ආහාරය. USDA කාබෝහයිඩ්‍රේට් අගයන්ට තන්තු ඇතුළත් වේ. ඇසුරුමේ ලේබලයට අනුව අගයන් වෙනස් කළ හැක. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"පොතු ඉවත් කළ කෙසෙල්"</string>
+    <string name="data_food_seed_9021" formatted="false">"ඇට ඉවත් කළ ඇප්රිකොට්"</string>
+    <string name="data_food_seed_9037" formatted="false">"අලිගැටපේර මදය"</string>
+    <string name="data_food_seed_9050" formatted="false">"බ්ලූබෙරි"</string>
+    <string name="data_food_seed_9070" formatted="false">"ඇට ඉවත් කළ පැණි චෙරි"</string>
+    <string name="data_food_seed_9063" formatted="false">"ඇට ඉවත් කළ ඇඹුල් චෙරි"</string>
+    <string name="data_food_seed_9078" formatted="false">"ක්‍රැන්බෙරි"</string>
+    <string name="data_food_seed_9083" formatted="false">"කළු කරන්ට්"</string>
+    <string name="data_food_seed_9084" formatted="false">"රතු සහ සුදු කරන්ට්"</string>
+    <string name="data_food_seed_9132" formatted="false">"මිදි"</string>
+    <string name="data_food_seed_9148" formatted="false">"කිවි මදය"</string>
+    <string name="data_food_seed_9150" formatted="false">"පොතු ඉවත් කළ ලෙමන්"</string>
+    <string name="data_food_seed_9181" formatted="false">"කැන්ටලූප් කොමඩු මදය"</string>
+    <string name="data_food_seed_9200" formatted="false">"දොඩම් මදය"</string>
+    <string name="data_food_seed_9218" formatted="false">"මැන්ඩරින් දොඩම් මදය"</string>
+    <string name="data_food_seed_9236" formatted="false">"ඇට ඉවත් කළ පීච්"</string>
+    <string name="data_food_seed_9252" formatted="false">"පෙයාර්ස්"</string>
+    <string name="data_food_seed_9266" formatted="false">"අන්නාසි මදය"</string>
+    <string name="data_food_seed_9279" formatted="false">"ඇට ඉවත් කළ ප්ලම්"</string>
+    <string name="data_food_seed_9286" formatted="false">"දෙළුම් බීජ"</string>
+    <string name="data_food_seed_9295" formatted="false">"ජම්බෝල මදය"</string>
+    <string name="data_food_seed_9302" formatted="false">"රාස්ප්බෙරි"</string>
+    <string name="data_food_seed_9316" formatted="false">"ස්ට්‍රෝබෙරි"</string>
+    <string name="data_food_seed_9326" formatted="false">"පැණි කොමඩු මදය"</string>
+    <string name="data_food_seed_9191" formatted="false">"ඇට ඉවත් කළ නෙක්ටරින්"</string>
+    <string name="data_food_seed_9176" formatted="false">"අඹ මදය"</string>
+    <string name="data_food_seed_9107" formatted="false">"ගූස්බෙරි"</string>
+    <string name="data_food_seed_9226" formatted="false">"පැපොල් මදය"</string>
+    <string name="data_food_seed_9089" formatted="false">"නැවුම් අත්තික්කා"</string>
+    <string name="data_food_seed_9111" formatted="false">"ග්‍රේප්ෆෘට් මදය"</string>
+    <string name="data_food_seed_9032" formatted="false">"ඇට ඉවත් කළ වියළි ඇප්රිකොට්"</string>
+    <string name="data_catalog_note_2">"ආහාරයට ගත හැකි කොටසේ ග්‍රෑම් 100කට යොමු අගයන්. USDA කාබෝහයිඩ්‍රේට් අගයන්ට තන්තු ඇතුළත් වේ. ඇසුරුමේ ලේබලයට අනුව අගයන් වෙනස් කළ හැක. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"ඇට ඉවත් කළ වියළි ප්‍රූන්"</string>
+    <string name="data_food_seed_9087" formatted="false">"ඇට ඉවත් කළ රටඉඳි"</string>
+    <string name="data_food_seed_9298" formatted="false">"බීජ රහිත තද පැහැති වියළි මිදි"</string>
+    <string name="data_food_seed_11529" formatted="false">"නැවුම් තක්කාලි"</string>
+    <string name="data_food_seed_11205" formatted="false">"පොත්ත සහිත පිපිඤ්ඤා"</string>
+    <string name="data_food_seed_11090" formatted="false">"අමු බ්‍රොකලි"</string>
+    <string name="data_food_seed_11109" formatted="false">"අමු සුදු ගෝවා"</string>
+    <string name="data_food_seed_11124" formatted="false">"අමු කැරට්"</string>
+    <string name="data_food_seed_11135" formatted="false">"අමු මල්ගෝවා"</string>
+    <string name="data_food_seed_11143" formatted="false">"සැල්දිරි දඬු"</string>
+    <string name="data_food_seed_11282" formatted="false">"අමු ලූනු"</string>
+    <string name="data_food_seed_11291" formatted="false">"ළූනු කොළ"</string>
+    <string name="data_food_seed_11304" formatted="false">"අමු ග්‍රීන් පීස්"</string>
+    <string name="data_food_seed_11333" formatted="false">"කොළ බෙල් පෙපර්"</string>
+    <string name="data_food_seed_11821" formatted="false">"රතු බෙල් පෙපර්"</string>
+    <string name="data_food_seed_11352" formatted="false">"පොත්ත සහිත අමු අර්තාපල්"</string>
+    <string name="data_food_seed_11367" formatted="false">"පොතු ඉවත් කළ තම්බාගත් අර්තාපල්"</string>
+    <string name="data_catalog_note_3">"ආහාරයට ගත හැකි කොටසේ ග්‍රෑම් 100කට යොමු අගයන්. ලුණු එක් කර නැත. USDA කාබෝහයිඩ්‍රේට් අගයන්ට තන්තු ඇතුළත් වේ. ඇසුරුමේ ලේබලයට අනුව අගයන් වෙනස් කළ හැක. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"අමු සුකිනි"</string>
+    <string name="data_food_seed_11209" formatted="false">"අමු වම්බටු"</string>
+    <string name="data_food_seed_11422" formatted="false">"අමු වට්ටක්කා"</string>
+    <string name="data_food_seed_11429" formatted="false">"රාබු"</string>
+    <string name="data_food_seed_11564" formatted="false">"අමු ටර්නිප්"</string>
+    <string name="data_food_seed_11080" formatted="false">"අමු බීට්රූට්"</string>
+    <string name="data_food_seed_11081" formatted="false">"තම්බාගත් බීට්රූට්"</string>
+    <string name="data_food_seed_11215" formatted="false">"සුදුලූනු"</string>
+    <string name="data_food_seed_11216" formatted="false">"ඉඟුරු අල"</string>
+    <string name="data_food_seed_11457" formatted="false">"අමු නිවිති"</string>
+    <string name="data_food_seed_11253" formatted="false">"කොළ ලෙටස්"</string>
+    <string name="data_food_seed_11297" formatted="false">"නැවුම් පාස්ලි"</string>
+    <string name="data_food_seed_2045" formatted="false">"නැවුම් ඩිල්"</string>
+    <string name="data_food_seed_11052" formatted="false">"අමු කොළ බෝංචි"</string>
+    <string name="data_food_seed_11167" formatted="false">"අමු පැණි බඩඉරිඟු ඇට"</string>
+    <string name="data_food_seed_11260" formatted="false">"අමු බොත්තම් හතු"</string>
+    <string name="data_food_seed_11261" formatted="false">"ලුණු නැතිව තම්බාගත් බොත්තම් හතු"</string>
+    <string name="data_food_seed_11987" formatted="false">"අමු ඔයිස්ටර් හතු"</string>
+    <string name="data_food_seed_20009" formatted="false">"වියළි බක්වීට් ධාන්‍ය"</string>
+    <string name="data_catalog_note_4">"ආහාරයට ගත හැකි කොටසේ ග්‍රෑම් 100කට යොමු අගයන්. බැදපු බක්වීට් ධාන්‍ය. USDA කාබෝහයිඩ්‍රේට් අගයන්ට තන්තු ඇතුළත් වේ. ඇසුරුමේ ලේබලයට අනුව අගයන් වෙනස් කළ හැක. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"වතුරෙන් පිසූ බක්වීට්"</string>
+    <string name="data_food_seed_20444" formatted="false">"වියළි සුදු සහල්"</string>
+    <string name="data_food_seed_20445" formatted="false">"ලුණු නැතිව පිසූ සුදු බත්"</string>
+    <string name="data_food_seed_20036" formatted="false">"වියළි දුඹුරු සහල්"</string>
+    <string name="data_food_seed_20037" formatted="false">"පිසූ දුඹුරු බත්"</string>
+    <string name="data_food_seed_8120" formatted="false">"වියළි තැළූ ඕට්ස්"</string>
+    <string name="data_food_seed_8121" formatted="false">"ලුණු නැතිව වතුරෙන් පිසූ ඕට්ස් කැඳ"</string>
+    <string name="data_food_seed_20005" formatted="false">"වියළි මුතු බාර්ලි"</string>
+    <string name="data_food_seed_20006" formatted="false">"තම්බාගත් මුතු බාර්ලි"</string>
+    <string name="data_food_seed_20031" formatted="false">"වියළි මෙනේරි"</string>
+    <string name="data_food_seed_20032" formatted="false">"තම්බාගත් මෙනේරි"</string>
+    <string name="data_food_seed_20420" formatted="false">"වියළි පැස්ටා"</string>
+    <string name="data_food_seed_20421" formatted="false">"ලුණු නැතිව තම්බාගත් පැස්ටා"</string>
+    <string name="data_food_seed_16070" formatted="false">"ලුණු නැතිව තම්බාගත් පරිප්පු"</string>
+    <string name="data_food_seed_16057" formatted="false">"ලුණු නැතිව තම්බාගත් කඩල"</string>
+    <string name="data_food_seed_16033" formatted="false">"ලුණු නැතිව තම්බාගත් රතු කිඩ්නි බෝංචි"</string>
+    <string name="data_food_seed_5062" formatted="false">"සම ඉවත් කළ අමු කුකුළු ළය මස්"</string>
+    <string name="data_food_seed_5064" formatted="false">"සම ඉවත් කළ අවන්වල පිසූ කුකුළු ළය මස්"</string>
+    <string name="data_food_seed_5219" formatted="false">"සම ඉවත් කළ අමු කළුකුම් ළය මස්"</string>
+    <string name="data_food_seed_5220" formatted="false">"සම ඉවත් කළ අවන්වල පිසූ කළුකුම් ළය මස්"</string>
+    <string name="data_food_seed_23562" formatted="false">"මේදය 10% සහිත අමු අඹරාගත් හරක් මස්"</string>
+    <string name="data_food_seed_23566" formatted="false">"මේදය 10% සහිත අවන්වල පිසූ අඹරාගත් හරක් මස්"</string>
+    <string name="data_food_seed_10060" formatted="false">"පෙනෙන මේදය ඉවත් කළ අමු ඌරු ටෙන්ඩර්ලොයින්"</string>
+    <string name="data_food_seed_10061" formatted="false">"අවන්වල පිසූ ඌරු ටෙන්ඩර්ලොයින්"</string>
+    <string name="data_food_seed_15236" formatted="false">"අමු අත්ලාන්තික් සැමන්"</string>
+    <string name="data_catalog_note_5">"ආහාරයට ගත හැකි කොටසේ ග්‍රෑම් 100කට යොමු අගයන්. අමු ආහාරය. ගොවිපොළක ඇති කළ. USDA කාබෝහයිඩ්‍රේට් අගයන්ට තන්තු ඇතුළත් වේ. ඇසුරුමේ ලේබලයට අනුව අගයන් වෙනස් කළ හැක. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"අවන්වල පිසූ අත්ලාන්තික් සැමන්"</string>
+    <string name="data_catalog_note_6">"ආහාරයට ගත හැකි කොටසේ ග්‍රෑම් 100කට යොමු අගයන්. ගොවිපොළක ඇති කළ. USDA කාබෝහයිඩ්‍රේට් අගයන්ට තන්තු ඇතුළත් වේ. ඇසුරුමේ ලේබලයට අනුව අගයන් වෙනස් කළ හැක. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"අමු අත්ලාන්තික් කොඩ් මාළු"</string>
+    <string name="data_food_seed_15266" formatted="false">"අමු ඇලස්කා පොලොක් මාළු"</string>
+    <string name="data_food_seed_15121" formatted="false">"වතුරේ ටින් කළ ටූනා, දියර ඉවත් කළ"</string>
+    <string name="data_food_seed_15271" formatted="false">"තම්බා පොතු ඉවත් කළ ඉස්සන්"</string>
+    <string name="data_food_seed_1211" formatted="false">"මේදය 3.25% සහිත කිරි"</string>
+    <string name="data_food_seed_1174" formatted="false">"මේදය 2% සහිත කිරි"</string>
+    <string name="data_food_seed_1082" formatted="false">"මේදය 1% සහිත කිරි"</string>
+    <string name="data_food_seed_1116" formatted="false">"සම්පූර්ණ මේද කිරිවලින් සාදන සරල යෝගට්"</string>
+    <string name="data_food_seed_1256" formatted="false">"මේද රහිත ග්‍රීක යෝගට්"</string>
+    <string name="data_food_seed_1015" formatted="false">"මේදය 2% සහිත කොටේජ් චීස්"</string>
+    <string name="data_catalog_note_7">"ආහාරයට ගත හැකි කොටසේ ග්‍රෑම් 100කට යොමු අගයන්. කැටි සහිත කොටේජ් චීස්; වෙනත් නැවුම් චීස් වර්ගවල අගයන් වෙනස්ය. USDA කාබෝහයිඩ්‍රේට් අගයන්ට තන්තු ඇතුළත් වේ. ඇසුරුමේ ලේබලයට අනුව අගයන් වෙනස් කළ හැක. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"මේදය ආසන්නව 19% සහිත ඇඹුල් ක්‍රීම්"</string>
+    <string name="data_food_seed_1009" formatted="false">"චෙඩාර් චීස්"</string>
+    <string name="data_food_seed_1026" formatted="false">"සම්පූර්ණ මේද කිරිවලින් සාදන මොසරැල්ලා"</string>
+    <string name="data_food_seed_1019" formatted="false">"ෆෙටා චීස්"</string>
+    <string name="data_food_seed_1123" formatted="false">"කටුව නැති අමු කිකිළි බිත්තරය"</string>
+    <string name="data_food_seed_1129" formatted="false">"කටුව නැති තම්බාගත් කිකිළි බිත්තරය"</string>
+    <string name="data_food_seed_1124" formatted="false">"අමු කිකිළි බිත්තර සුදු මදය"</string>
+    <string name="data_food_seed_1001" formatted="false">"ලුණු සහිත බටර්"</string>
+    <string name="data_food_seed_4053" formatted="false">"ඔලිව් තෙල්"</string>
+    <string name="data_food_seed_4506" formatted="false">"සූරියකාන්ත තෙල්"</string>
+    <string name="data_food_seed_12061" formatted="false">"ආමන්ඩ්"</string>
+    <string name="data_food_seed_12155" formatted="false">"වොල්නට් මද"</string>
+    <string name="data_food_seed_12120" formatted="false">"හේසල්නට් මද"</string>
+    <string name="data_food_seed_12151" formatted="false">"අමු පිස්ටා මද"</string>
+    <string name="data_food_seed_12014" formatted="false">"වියළි වට්ටක්කා බීජ මද"</string>
+    <string name="data_food_seed_16087" formatted="false">"පොතු ඉවත් කළ අමු රටකජු"</string>
+    <string name="data_food_seed_18069" formatted="false">"සුදු තිරිඟු පාන්"</string>
+    <string name="data_food_seed_18075" formatted="false">"සම්පූර්ණ තිරිඟු පාන්"</string>
+    <string name="data_food_seed_18060" formatted="false">"රයි පාන්"</string>
+    <string name="data_food_seed_19296" formatted="false">"මී පැණි"</string>
+    <string name="data_food_seed_19335" formatted="false">"සීනි"</string>
+    <string name="data_food_seed_19165" formatted="false">"සීනි රහිත කොකෝවා කුඩු"</string>
+    <string name="data_food_seed_19904" formatted="false">"කොකෝවා 70–85% සහිත කළු චොකලට්"</string>
+    <string name="data_meal_breakfast" formatted="false">"උදෑසන ආහාරය"</string>
+    <string name="data_meal_lunch" formatted="false">"දිවා ආහාරය"</string>
+    <string name="data_meal_dinner" formatted="false">"රාත්‍රී ආහාරය"</string>
+    <string name="data_meal_snack" formatted="false">"සුළු ආහාරය"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"පෞද්ගලිකත්ව ප්‍රතිපත්තිය — Diet Diary\nඅවසන් යාවත්කාලීනය: 2026 ඔක්තෝබර් 9"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"යෙදුම: Diet Diary («Дневник диеты: подсчёт калорий»), පැකේජය ru.dietdiary.offline.\nසංවර්ධකයා: Efreitor2001. පෞද්ගලිකත්ව ප්‍රශ්න සඳහා සම්බන්ධතාවය: https://github.com/Efreitor2001/kkalcal/issues . මෙය පොදු පිටුවකි; සෞඛ්‍ය දත්ත, උපස්ථ, මුරපද හෝ ප්‍රවේශ ටෝකන පළ නොකරන්න."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. දේශීය දිනපොත\nයෙදුම ලියාපදිංචි වීමකින් තොරව ක්‍රියා කරයි. ඔබ ඇතුළත් කරන ආහාර ද්‍රව්‍ය, පිළියෙළ කළ කෑම, පෝෂණ අගයන්, ආහාර කොටස්, දින, බර, ඉණ වටය, මේද ප්‍රතිශතය, පියවර, නින්ද, පුහුණු විස්තර, සටහන්, ඉලක්ක, ජයග්‍රහණ සහ සැකසුම් උපාංගයේ සුරැකේ. විකල්ප ක්ෂේත්‍ර හිස්ව තැබිය හැක. දත්ත අතින් ඇතුළත් කරයි; යෙදුම Health Connect, ක්‍රියාකාරකම් සංවේදක හෝ වෛද්‍ය උපකරණවලින් ඒවා කියවන්නේ නැත."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"දිනපොත් දත්ත කැලරි සහ පෝෂක ගණනයට, ඉතිහාසය සහ ප්‍රස්තාර පෙන්වීමට සහ ජයග්‍රහණ නිරීක්ෂණයට භාවිතා කරයි. මෙම සටහන් ලබන සේවාදායකයක් සංවර්ධකයා සතුව නැත. ඔබ Google Drive සම්බන්ධ නොකරන්නේ නම් සහ උපස්ථයක් බෙදා නොගන්නේ නම් සටහන් ඔබේ උපාංගයේ පවතී."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. විකල්ප Google Drive සමමුහුර්තකරණය\nසම්බන්ධ කිරීම ඔබේ ඉල්ලීම මත ඇරඹේ. යෙදුම පෙරනිමි බ්‍රවුසරයේ Google පුරනය වීම විවෘත කර Google Drive තුළ තමන්ගේම සැඟවුණු යෙදුම් දත්තවලට පමණක් ප්‍රවේශය ඉල්ලයි. එය ඔබේ සාමාන්‍ය Drive ගොනු, ඡායාරූප හෝ ලේඛනවලට ප්‍රවේශය ඉල්ලන්නේ නැත."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Google Drive සම්බන්ධ කළ විට යෙදුම ඔබේ ආහාර ද්‍රව්‍ය සහ කෑම, ආහාර සටහන්, ශරීර මිනුම්, ක්‍රියාකාරකම්, නින්ද, සටහන්, ඉලක්ක, ජයග්‍රහණ, මාරු කළ හැකි සැකසුම් සහ වෙනස්කම් පිළිබඳ පාරදත්ත Google වෙත යවයි. එයට අහඹු ස්ථාපන හැඳුනුම් සහ කාල සලකුණු ඇතුළත් වේ. මේ දත්ත උපස්ථ පිටපත් සෑදීමට සහ ඔබේ උපාංගවල වෙනස්කම් ඒකාබද්ධ කිරීමට භාවිතා කරයි. සක්‍රිය කර ඇත්නම් ස්වයංක්‍රීය සමමුහුර්තකරණය අන්තර්ජාලය ඇති විට පසුබිමේ ක්‍රියා කළ හැක; එය වෙනම අක්‍රිය කළ හැක."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"සම්බන්ධතාවය පෙන්වීමට සහ වලාකුළු ආචයනය නිවැරදි ගිණුමට සම්බන්ධ කිරීමට යෙදුම ඔබේ Google ගිණුමේ ඊමේල් ලිපිනය සහ හැඳුනුම ලබයි. Google මුරපදය එයට නොලැබේ. දේශීය අවසර සැසි Android Keystore භාවිතා කර සංකේතනයෙන් ආරක්ෂා කරයි. ප්‍රවේශ ටෝකන, ඊමේල් ලිපින සහ Google ගිණුම් හැඳුනුම් අපනයනය කළ JSON ගොනුවලට හෝ සමමුහුර්ත දිනපොත් පිටපත්වලට ඇතුළත් නොවේ."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google වෙතින් ලැබෙන දත්ත අවසර දීම සහ සමමුහුර්තකරණය සඳහා පමණක් භාවිතා කරයි; දැන්වීම් සඳහා භාවිතා නොකරයි. Google දත්ත සැකසීම https://policies.google.com/privacy හි විස්තර කර ඇත."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. උපස්ථ ගොනු\n“ගොනුවකට සුරකින්න” ඔබ තෝරාගත් ස්ථානයේ JSON ගොනුවක් සාදයි. ප්‍රතිසාධනය කියවන්නේ ඔබ තෝරාගත් ගොනුව පමණි. වලාකුළු සේවා සපයන්නෙකු තෝරාගන්නේ නම් හෝ ගොනුව බෙදාගන්නේ නම් ලබන්නා තෝරන්නේ ඔබයි. අපනයනය කළ JSON ගොනුව සංකේතනය කර නැති අතර පෞද්ගලික දිනපොත් දත්ත සහ වෙනස්කම් පිළිබඳ පාරදත්ත අඩංගු විය හැක."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. දැන්වීම්\nයෙදුම Yandex Mobile Ads SDK භාවිතා කරයි. දැන්වීම් පූරණයට උපාංගය දැන්වීම් සේවාවලට සම්බන්ධ වේ. Yandex විසින් IP ලිපිනය, ජාල ඉල්ලීම්, උපාංගයේ සහ මෘදුකාංගයේ තාක්ෂණික තොරතුරු, ලබාගත හැකි දැන්වීම් හා තාක්ෂණික හැඳුනුම් සහ දැන්වීම් පෙන්වීම් හා අන්තර්ක්‍රියා පිළිබඳ තොරතුරු සැකසිය හැක."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"යෙදුම පුද්ගලීකරණය කළ දැන්වීම් සඳහා කැමැත්ත නැති බව SDK වෙත දන්වයි, ස්ථාන දත්ත එකතු කිරීම සහ App Ad Analytics අක්‍රිය කරයි, සහ නිරවද්‍ය හෝ ආසන්න ස්ථාන අවසර ඉල්ලන්නේ නැත. මෙයින් ජාල ඉල්ලීම් නොමැති බව හෝ දැන්වීම් SDK කිසිදු තාක්ෂණික දත්තයක් සකසන්නේ නැති බව අදහස් නොවේ."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"ආහාර සටහන්, බර, ශරීර මිනුම්, සටහන්, ඉලක්ක, ඊමේල් ලිපිනය සහ Google ගිණුම් හැඳුනුම දැන්වීම් ඉලක්ක කිරීමට භාවිතා නොකරන අතර දැන්වීම් ඉල්ලීම් පරාමිති ලෙස යවන්නේ නැත. දිනපොත් සටහනක් සුරැකීමට දැන්වීමක් නැරඹීම අවශ්‍ය නැත."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex දත්ත සැකසීම https://yandex.ru/legal/confidential/ හි විස්තර කර ඇත. උපාංගය සහය දක්වන්නේ නම් Android සැකසුම්වලින් දැන්වීම් හැඳුනුම පාලනය කළ හැක. තාක්ෂණික දැන්වීම් දත්ත රඳවාගන්නා කාලය නියම කරන්නේ සේවා සපයන්නාය, දිනපොත් සංවර්ධකයා නොවේ."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. දත්ත ආරක්ෂාව\nGoogle සමඟ සන්නිවේදනය HTTPS භාවිතා කරන අතර දැන්වීම් SDK සපයන්නාගේ HTTPS/TLS ක්‍රම භාවිතා කරයි. දේශීය ගොනු Android යෙදුම් හුදකලා කිරීමෙන් ආරක්ෂා වේ. දිනපොත සහ අපනයනය කළ JSON ගොනු සඳහා යෙදුම තුළ වෙනම සංකේතන ස්තරයක් නැත; සමමුහුර්තකරණය උපාංග අතර අන්තයේ සිට අන්තයට සංකේතනය ලබා නොදෙයි."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"යෙදුම් දත්තවල පද්ධති උපස්ථය අක්‍රිය කර ඇත. යෙදුම් ලොග්වල ප්‍රතිඵල කේත ඇතත් දිනපොත් සටහන්, ඊමේල් ලිපින, ටෝකන හෝ ජාල ප්‍රතිචාරවල අන්තර්ගතය නැත. යෙදුම මෙම ලොග් සංවර්ධකයාට වෙනම යවන්නේ නැත."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. රඳවා ගැනීම සහ මැකීම\nඔබ සංස්කරණය කරන, මකන හෝ යෙදුම් දත්ත හිස් කරන තෙක් දේශීය සටහන් පවතී. අතුරුමුහුණතේ මැකීමෙන් සටහන දිනපොතෙන් ඉවත් කර සමමුහුර්තකරණයේදී මැකීමේ සලකුණක් යවයි. මැකූ සටහන් නැවත මතු වීම වැළැක්වීමට ඒකාබද්ධ පාරදත්ත තබාගත හැකි අතර ඒවායේ මැකූ සටහනේ පෙර අගයන් තිබිය හැක. පැරණි වලාකුළු පිටපත් සහ අපනයනය කළ ගොනුවලත් පෙර අගයන් තිබිය හැක. එක් සටහනක් මැකීමෙන් එහි සියලු පිටපත් ස්වයංක්‍රීයව මැකෙන්නේ නැත."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“විසන්ධි කරන්න” මෙම උපාංගයේ සමමුහුර්තකරණය නවතා දේශීය Google සැසිය මකයි. දේශීය දිනපොත සහ Google Drive පිටපත් පවතී. මෙම ක්‍රියාව ඔබේ Google ගිණුම මකන්නේ නැත."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"මෙම යෙදුමේ දත්ත සම්පූර්ණයෙන් මැකීමට:\n• ඉතිරි පිටපත් නැවත උඩුගත නොවීමට සියලු උපාංගවල සමමුහුර්තකරණය අක්‍රිය කරන්න.\n• සම්බන්ධ කළ Google ගිණුමෙන් බ්‍රවුසරයේ https://drive.google.com/drive/settings විවෘත කරන්න. යෙදුම් කළමනාකරණය තෝරා Diet Diary («Дневник диеты») සොයා එහි විකල්පවලින් සැඟවුණු යෙදුම් දත්ත මැකීම තෝරන්න. ජංගම පිටුවේ එම කොටස නැත්නම් වෙබ් අඩවියේ ඩෙස්ක්ටොප් අනුවාදය හෝ පරිගණකයක් භාවිතා කරන්න.\n• https://myaccount.google.com/connections වෙත ගොස් යෙදුමේ ප්‍රවේශය අවලංගු කරන්න. ප්‍රවේශය අවලංගු කිරීම පමණක් සුරැකි පිටපත් මකන්නේ නැත.\n• එක් එක් උපාංගයේ Android සැකසුම්වලින් යෙදුම් ආචයනය හිස් කරන්න හෝ යෙදුම අස්ථාපනය කරන්න.\n• ඔබ තෝරාගත් ෆෝල්ඩර සහ වලාකුළු ආචයනවල වෙනම සුරැකි JSON උපස්ථ මකන්න."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"ඔබේ පුරනය වීමේ තොරතුරු නොමැතිව සංවර්ධකයාට දේශීය සටහන් හෝ ඔබේ පෞද්ගලික Google Drive ගොනු දුරස්ථව මැකිය නොහැක. මුරපද හෝ ප්‍රවේශ ටෝකන යවන්න එපා. උදව් සඳහා මෙම ප්‍රතිපත්තියේ මුල සඳහන් සම්බන්ධතාවය භාවිතා කරන්න. යෙදුම් දත්ත මැකීමට Google ගිණුම මැකීම අවශ්‍ය නැත."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. වෙනස්කම් සහ සම්බන්ධතාවය\nවිශේෂාංග හෝ දත්ත සැකසීම වෙනස් වන විට ප්‍රතිපත්තිය යාවත්කාලීන විය හැක; නවතම අනුවාදයේ දිනය මුල දැක්වේ. ප්‍රවේශය, නිවැරදි කිරීම, මැකීම හෝ යෙදුමේ ක්‍රියාකාරිත්වය පිළිබඳ ප්‍රශ්න සඳහා ව්‍යාපෘතියේ සම්බන්ධතාවය භාවිතා කරන්න. ඔබේ ඉල්ලීම් පිළිතුරු දීමට සකසන අතර GitHub ප්‍රතිපත්තිය අනුව ගබඩා කරයි: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"මගේ පිළියෙළ කළ කෑම"</string>
+    <string name="secondary_metric_weight" formatted="false">"බර"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"ශරීර මේදය"</string>
+    <string name="secondary_metric_waist" formatted="false">"ඉණ වටය"</string>
+    <string name="secondary_metric_steps" formatted="false">"පියවර"</string>
+    <string name="secondary_metric_sleep" formatted="false">"නින්ද"</string>
+    <string name="secondary_metric_kcal" formatted="false">"කැලරි"</string>
+    <string name="secondary_metric_protein" formatted="false">"ප්‍රෝටීන්"</string>
+    <string name="secondary_metric_fat" formatted="false">"මේදය"</string>
+    <string name="secondary_metric_carbs" formatted="false">"කාබෝහයිඩ්‍රේට්"</string>
+    <string name="secondary_unit_kg" formatted="false">"කිග්‍රෑ"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"සෙමී"</string>
+    <string name="secondary_unit_steps" formatted="false">"පියවර"</string>
+    <string name="secondary_unit_hours" formatted="false">"පැය"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"ග්‍රෑම්"</string>
+    <string name="secondary_invalid_period" formatted="false">"වලංගු නොවන කාල පරාසයකි"</string>
+    <string name="secondary_stats_title" formatted="false">"ප්‍රවණතා"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"පැහැදිලි ප්‍රස්තාරවල ඔබේ දත්ත"</string>
+    <string name="secondary_metric" formatted="false">"දර්ශකය"</string>
+    <string name="secondary_week" formatted="false">"සතිය"</string>
+    <string name="secondary_month" formatted="false">"මාසය"</string>
+    <string name="secondary_year" formatted="false">"වසර"</string>
+    <string name="secondary_custom_period" formatted="false">"අභිරුචි කාල පරාසය"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"ආරම්භක දිනය අවසන් දිනයට පසුව විය නොහැක"</string>
+    <string name="secondary_no_records" formatted="false">"තවම දත්ත නැත"</string>
+    <string name="secondary_empty_food_period" formatted="false">"දිනපොතට ආහාර එක් කරන්න හෝ වෙනත් කාල පරාසයක් තෝරන්න."</string>
+    <string name="secondary_chart_tap" formatted="false">"සටහනක් තෝරා ගැනීමට ප්‍රස්තාරය තට්ටු කරන්න"</string>
+    <string name="secondary_chart_connected" formatted="false">"රේඛාව සටහන් කළ මිනුම් සම්බන්ධ කරයි. එම ලක්ෂ්‍ය අතර මිනුම් නොමැත."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"තරාදියේ ඇස්තමේන්තු ප්‍රවණතා නිරීක්ෂණයට ප්‍රයෝජනවත්ය."</string>
+    <string name="secondary_food_override_hint" formatted="false">"අතින් ඇතුළත් දෛනික එකතුව ආහාරවල එකතුව ප්‍රතිස්ථාපනය කරයි. එසේ නොමැති නම් සටහන් කළ ආහාර එකතු කරයි. දත්ත නැති දින මඟ හරී."</string>
+    <string name="secondary_food_total_hint" formatted="false">"එකතු සටහන් කළ ආහාර මත පදනම් වේ. දත්ත නැති දිනයක් ශුන්‍ය ලෙස නොගනී."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"දත්ත නැති දින මඟ හරින අතර සාමාන්‍යයට ඇතුළත් නොවේ."</string>
+    <string name="secondary_today_yesterday" formatted="false">"අද සහ ඊයේ"</string>
+    <string name="secondary_no_today" formatted="false">"අද සඳහා දත්ත නැත"</string>
+    <string name="secondary_no_yesterday" formatted="false">"ඊයේ සඳහා දත්ත නැත"</string>
+    <string name="secondary_partial_today" formatted="false">"සැසඳීම වත්මන් දත්ත භාවිතා කරයි. අද දත්ත තවම සම්පූර්ණ නොවිය හැක."</string>
+    <string name="secondary_period_summary" formatted="false">"කාල පරාසයේ සාරාංශය"</string>
+    <string name="secondary_recorded_average" formatted="false">"සටහන් කළ දිනවල සාමාන්‍යය"</string>
+    <string name="secondary_recorded_days" formatted="false">"දත්ත ඇති දින"</string>
+    <string name="secondary_minimum" formatted="false">"අවමය"</string>
+    <string name="secondary_maximum" formatted="false">"උපරිමය"</string>
+    <string name="secondary_first_to_last" formatted="false">"පළමු සටහනේ සිට අවසාන සටහන දක්වා"</string>
+    <string name="secondary_two_days_needed" formatted="false">"වෙනස ගණනය කිරීමට දත්ත ඇති දින අවම වශයෙන් දෙකක් අවශ්‍යය."</string>
+    <string name="secondary_history" formatted="false">"ඉතිහාසය"</string>
+    <string name="secondary_history_recent" formatted="false">"දත්ත ඇති අවසන් දින 14. පැරණි සටහන් සඳහා අභිරුචි කාල පරාසයක් තෝරන්න."</string>
+    <string name="secondary_history_all" formatted="false">"තෝරාගත් කාල පරාසයේ සටහන් කළ සියලු දින"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s සිට"</string>
+    <string name="secondary_date_until">"%1$s දක්වා"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"මෙම කාල පරාසයේ %1$s"</string>
+    <string name="secondary_weight_goal">"ඉලක්කය: කිග්‍රෑ %1$s"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"දිනපොතට මිනුමක් එක් කරන්න හෝ වෙනත් කාල පරාසයක් තෝරන්න."</string>
+    <string name="secondary_latest_record">"අවසන් සටහන · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"අද: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"ඊයේ: %1$s %2$s"</string>
+    <string name="secondary_change_value">"වෙනස: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%2$d න් %1$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. සටහන් කළ දින: %2$d, %3$s සිට %4$s දක්වා. අවමය %5$s, උපරිමය %6$s %7$s. විස්තරාත්මක අගයන් ඉතිහාසයේ ඇත."</string>
+    <string name="secondary_award_first_weight" formatted="false">"පළමු පියවර"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"පළමු බර මිනුම සටහන් කරන්න."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"ඔබේ පළමු බර මිනුම සටහන් කර ඇත."</string>
+    <string name="secondary_award_first_food" formatted="false">"පළමු සටහන"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"පළමු ආහාර කොටස සටහන් කරන්න."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"ඔබේ පළමු ආහාර කොටස සටහන් කර ඇත."</string>
+    <string name="secondary_award_weight_week" formatted="false">"දත්ත සතියක්"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"වෙනස් දින 7ක බර සටහන් කරන්න. ඒවා අඛණ්ඩ දින වීම අවශ්‍ය නැත."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"ඔබට වෙනස් දින 7ක බර මිනුම් ඇත."</string>
+    <string name="secondary_award_weight_month" formatted="false">"නිරන්තර බව"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"වෙනස් දින 30ක බර සටහන් කරන්න."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"ඔබට දින 30ක බර මිනුම් ඇත."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"සංරක්ෂකයා"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"ආහාර කොටස් 100ක් දිනපොතේ සටහන් කරන්න."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"ඔබ ආහාර කොටස් 100ක් සටහන් කර ඇත."</string>
+    <string name="secondary_award_food_streak" formatted="false">"නව පුරුද්දක්"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"අඛණ්ඩ දින දර්ශන දින 7ක් ආහාර සටහන් කරන්න."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"ඔබ අඛණ්ඩ දින 7ක් ආහාර සටහන් කර ඇත."</string>
+    <string name="secondary_award_steps" formatted="false">"ඇවිදීමේ දක්ෂයා"</string>
+    <string name="secondary_award_steps_description" formatted="false">"එක් දිනක අවම වශයෙන් පියවර 10,000ක් සටහන් කරන්න."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"පියවර 10,000ක දවසක් සටහන් කර ඇත."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"නිතිපතා නිරීක්ෂණය"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"බර මිනුම් 100ක් සටහන් කරන්න. එක් දිනයකට එක් මිනුමක් ගණන් කරයි."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"ඔබ බර මිනුම් 100ක් සටහන් කර ඇත."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"පළපුරුදු දිනපොත් රචකයා"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"වෙනස් දින 90ක ආහාර වේල් හෝ මිනුම් සටහන් කරන්න. ඒවා අඛණ්ඩ දින වීම අවශ්‍ය නැත."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"ඔබේ දිනපොතේ වෙනස් දින 90ක සටහන් ඇත."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"මිනුම්"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"ආහාර කොටස්"</string>
+    <string name="secondary_award_unit_days" formatted="false">"දින"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"අඛණ්ඩ දින"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"එක් දිනක පියවර"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"සටහන් කළ දින"</string>
+    <string name="secondary_back" formatted="false">"‹  ආපසු"</string>
+    <string name="secondary_achievements" formatted="false">"ජයග්‍රහණ"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"කුඩා පියවර පුරුද්දක් බවට පත් වේ"</string>
+    <string name="secondary_your_progress" formatted="false">"ඔබේ ප්‍රගතිය"</string>
+    <string name="secondary_awards_permanent" formatted="false">"සටහන් සංස්කරණයෙන් පසුවත් ලබාගත් ජයග්‍රහණ පවතී."</string>
+    <string name="secondary_awards_regular" formatted="false">"නිතිපතා දිනපොත පවත්වාගෙන යාම වෙනුවෙන්"</string>
+    <string name="secondary_awards_through_today" formatted="false">"අද ඇතුළුව අද දක්වා සටහන් ගණන් කරයි."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"සැඟවුණු ජයග්‍රහණය"</string>
+    <string name="secondary_hidden_description" formatted="false">"මෙම ජයග්‍රහණය විවෘත කිරීමට දිනපොත දිගටම පවත්වාගෙන යන්න."</string>
+    <string name="secondary_earned" formatted="false">"ලබාගෙන ඇත"</string>
+    <string name="secondary_hidden_locked" formatted="false">"සැඟවුණු · අගුළු දමා ඇත"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"ක්‍රියාත්මක · අගුළු දමා ඇත"</string>
+    <string name="secondary_locked" formatted="false">"අගුළු දමා ඇත"</string>
+    <string name="secondary_hidden_progress" formatted="false">"ජයග්‍රහණය ලබාගත් විට කොන්දේසිය සහ ප්‍රගතිය හෙළි වේ."</string>
+    <string name="secondary_best_streak" formatted="false">"දිගම අඛණ්ඩ කාලය"</string>
+    <string name="secondary_hidden_reward" formatted="false">"සැඟවුණු ත්‍යාගය"</string>
+    <string name="secondary_unlocked_of">"%1$d කින් විවෘත කළ ගණන"</string>
+    <string name="secondary_unlocked_date">"%1$s දින විවෘත කළා"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← ආපසු"</string>
+    <string name="secondary_my_recipe" formatted="false">"මගේ වට්ටෝරුව"</string>
+    <string name="secondary_recipe_intro" formatted="false">"පිසීමට පෙර අමුද්‍රව්‍ය කිරන්න. ආහාර කොටස් ගණනයට පිසූ කෑමේ බර භාවිතා කරන්න. තෙල් සහ සෝස් අමතක නොකරන්න."</string>
+    <string name="secondary_recipe_name" formatted="false">"වට්ටෝරුවේ නම"</string>
+    <string name="secondary_recipe_example" formatted="false">"උදාහරණයක්, එළවළු ස්ටූ"</string>
+    <string name="secondary_ingredients" formatted="false">"අමුද්‍රව්‍ය"</string>
+    <string name="secondary_start_ingredients" formatted="false">"අමුද්‍රව්‍යවලින් අරඹන්න"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"එක් එක් අමුද්‍රව්‍යය එක් කර එහි බර ග්‍රෑම්වලින් ඇතුළත් කරන්න."</string>
+    <string name="secondary_edit_weight" formatted="false">"බර සංස්කරණය කරන්න"</string>
+    <string name="secondary_delete" formatted="false">"මකන්න"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ අමුද්‍රව්‍යයක් එක් කරන්න"</string>
+    <string name="secondary_whole_recipe" formatted="false">"සම්පූර්ණ වට්ටෝරුව"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"ජලය එක්වීම හෝ වාෂ්ප වීම නිසා පිසීමේදී බර වෙනස් වේ. භාජනය නැතිව පිසූ කෑම කිරන්න."</string>
+    <string name="secondary_cooked_weight" formatted="false">"පිසූ කෑමේ බර, ග්‍රෑම්"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"පිසීමෙන් පසු බර ඇතුළත් කරන්න"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0ට වැඩි සහ ග්‍රෑම් 100,000ට නොවැඩි බරක් ඇතුළත් කරන්න"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"බර ස්වයංක්‍රීයව පුරවන්නේ නැත"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"පිසූ කෑම ග්‍රෑම් 100කට"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"පිසූ කෑමේ බර සහ අමුද්‍රව්‍ය පරීක්ෂා කරන්න: ග්‍රෑම් 100ක kcal 1,000ට සහ එක් එක් පෝෂකය ග්‍රෑම් 100ට වඩා තිබිය නොහැක."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"වට්ටෝරුව සුරැකීමට නොහැකි විය"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"මගේ වට්ටෝරුවල සුරකින්න"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"සුරැකීමෙන් පසු ආහාර කොටසේ බර අනුව කෑම දිනපොතට එක් කළ හැක."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"පිසීමට පෙර අමුද්‍රව්‍යයේ බර"</string>
+    <string name="secondary_grams" formatted="false">"ග්‍රෑම්"</string>
+    <string name="secondary_weight_limits" formatted="false">"0ට වැඩි සහ ග්‍රෑම් 100,000ට නොවැඩි"</string>
+    <string name="secondary_add" formatted="false">"එක් කරන්න"</string>
+    <string name="secondary_save" formatted="false">"සුරකින්න"</string>
+    <string name="secondary_cancel" formatted="false">"අවලංගු කරන්න"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"අමුද්‍රව්‍යයක් තෝරන්න"</string>
+    <string name="secondary_search_food" formatted="false">"ආහාර සොයන්න"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"කිසිවක් හමු නොවීය. ආහාර ටැබයෙන් ඔබේම ආහාරයක් එක් කළ හැක."</string>
+    <string name="secondary_close" formatted="false">"වසන්න"</string>
+    <string name="secondary_portion_energy">"ග්‍රෑම් %1$s · kcal %2$s"</string>
+    <string name="secondary_portion_macros">"ප්‍රෝටීන් %1$s · මේදය %2$s · කාබෝහයිඩ්‍රේට් %3$s ග්‍රෑම්"</string>
+    <string name="secondary_ingredients_weight">"අමුද්‍රව්‍යවල බර: ග්‍රෑම් %1$s"</string>
+    <string name="secondary_energy">"kcal %1$s"</string>
+    <string name="secondary_grams_value">"ග්‍රෑම් %1$s"</string>
+    <string name="secondary_food_per_hundred">"%1$s · ග්‍රෑම් 100කට kcal %2$s"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — ග්‍රෑම් %2$s"</string>
+    <string name="secondary_recipe_note">"අවසන් බර: ග්‍රෑම් %1$s. අමුද්‍රව්‍ය: %2$s"</string>
+</resources>

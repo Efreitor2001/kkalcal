@@ -16,6 +16,8 @@ import kotlinx.coroutines.launch
 import java.time.Instant
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
+import java.time.format.DecimalStyle
+import java.time.format.FormatStyle
 
 @Composable
 fun CloudScreen(onBack: () -> Unit) {
@@ -31,60 +33,63 @@ fun CloudScreen(onBack: () -> Unit) {
     }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)) {
-        TextButton(onClick = onBack) { Text("‹  Назад") }
-        PageTitle("Облачная синхронизация", "Ваш дневник на ваших устройствах")
+        TextButton(onClick = onBack) {
+            BackNavigationLabel(tr(R.string.data_back))
+        }
+        PageTitle(tr(R.string.data_cloud_title), tr(R.string.data_cloud_subtitle))
         Panel {
-            Text(status.email ?: "Без аккаунта", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            Text("Вход необязателен. Продукты, еда, измерения, цели и достижения хранятся на телефоне. После подключения копия будет в скрытой папке вашего Google Drive.", color = Muted)
-            Text("При первом подключении записи объединяются. Другие файлы на вашем Диске приложению недоступны.", color = Muted)
+            Text(status.email ?: tr(R.string.data_no_account), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(tr(R.string.data_cloud_intro), color = Muted)
+            Text(tr(R.string.data_cloud_first_connection), color = Muted)
             if (status.email == null) {
                 Button(modifier = Modifier.fillMaxWidth().testTag("connect_google"), enabled = !status.busy, onClick = {
-                    if (!cloud.configured) notice = "Подключение Google ещё не настроено для этой сборки. Дневник и резервные копии работают без аккаунта."
+                    if (!cloud.configured) notice = tr(R.string.data_cloud_not_configured_notice)
                     else confirmConnect = true
-                }) { Text("Подключить Google") }
+                }) { Text(tr(R.string.data_connect_google)) }
             } else {
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
                     Column(Modifier.weight(1f)) {
-                        Text("Автоматическая синхронизация", fontWeight = FontWeight.SemiBold)
-                        Text("При изменениях и в фоне, когда разрешает Android", style = MaterialTheme.typography.bodySmall, color = Muted)
+                        Text(tr(R.string.data_automatic_sync), fontWeight = FontWeight.SemiBold)
+                        Text(tr(R.string.data_automatic_sync_description), style = MaterialTheme.typography.bodySmall, color = Muted)
                     }
                     Switch(checked = status.automatic, onCheckedChange = {
-                        try { cloud.setAutomatic(it) } catch (_: Exception) { notice = "Не удалось изменить расписание. Данные сохранены на устройстве." }
+                        try { cloud.setAutomatic(it) } catch (_: Exception) { notice = tr(R.string.data_sync_schedule_failed) }
                     }, enabled = !status.busy)
                 }
                 Button(onClick = {
-                    try { cloud.syncNow() } catch (_: Exception) { notice = "Не удалось запустить синхронизацию. Данные сохранены на устройстве." }
-                }, enabled = !status.busy, modifier = Modifier.fillMaxWidth()) { Text("Синхронизировать сейчас") }
-                OutlinedButton(onClick = { confirmConnect = true }, enabled = !status.busy, modifier = Modifier.fillMaxWidth()) { Text("Повторный вход в Google") }
-                TextButton(onClick = { confirmDisconnect = true }, enabled = !status.busy, modifier = Modifier.fillMaxWidth()) { Text("Отключить аккаунт") }
+                    try { cloud.syncNow() } catch (_: Exception) { notice = tr(R.string.data_sync_start_failed) }
+                }, enabled = !status.busy, modifier = Modifier.fillMaxWidth()) { Text(tr(R.string.data_sync_now)) }
+                OutlinedButton(onClick = { confirmConnect = true }, enabled = !status.busy, modifier = Modifier.fillMaxWidth()) { Text(tr(R.string.data_google_sign_in_again)) }
+                TextButton(onClick = { confirmDisconnect = true }, enabled = !status.busy, modifier = Modifier.fillMaxWidth()) { Text(tr(R.string.data_disconnect_account)) }
             }
             if (status.busy) LinearProgressIndicator(Modifier.fillMaxWidth())
-            Text(status.message, color = if (status.message.startsWith("Не ")) MaterialTheme.colorScheme.error else Green,
+            Text(status.message, color = if (status.failed) MaterialTheme.colorScheme.error else Green,
                 modifier = Modifier.testTag("cloud_status"))
-            Text(if (status.lastSuccess > 0) "Последняя синхронизация: " +
-                DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm").withZone(ZoneId.systemDefault())
-                    .format(Instant.ofEpochMilli(status.lastSuccess)) else "Синхронизаций пока не было", style = MaterialTheme.typography.bodySmall, color = Muted)
+            Text(if (status.lastSuccess > 0) tr(R.string.data_last_sync,
+                DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT).withLocale(appLocale())
+                    .withDecimalStyle(DecimalStyle.of(appLocale())).withZone(ZoneId.systemDefault())
+                    .format(Instant.ofEpochMilli(status.lastSuccess))) else tr(R.string.data_sync_never), style = MaterialTheme.typography.bodySmall, color = Muted)
         }
         Panel {
-            Text("Без интернета всё сохраняется", fontWeight = FontWeight.Bold)
-            Text("С включённой автосинхронизацией изменения отправятся после появления сети. Если один и тот же показатель изменён на двух устройствах, применяется версия с более поздней отметкой изменения. Независимые записи и поля объединяются.", color = Muted)
-            Text("Пароль вводится только на странице Google в браузере. Токены доступа защищены хранилищем ключей Android и не включаются в резервные копии.", color = Muted)
+            Text(tr(R.string.data_offline_saved_title), fontWeight = FontWeight.Bold)
+            Text(tr(R.string.data_cloud_merge_description), color = Muted)
+            Text(tr(R.string.data_cloud_password_description), color = Muted)
         }
         AdCard(AdPlacement.CLOUD)
     }
-    if (notice != null) AlertDialog(onDismissRequest = { notice = null }, title = { Text("Подключение Google") },
-        text = { Text(notice!!) }, confirmButton = { TextButton(onClick = { notice = null }) { Text("Понятно") } })
-    if (confirmConnect) AlertDialog(onDismissRequest = { confirmConnect = false }, title = { Text("Подключить Google Drive?") },
-        text = { Text("Текущий дневник будет объединён с данными выбранного Google-аккаунта. Используйте один личный аккаунт на своих устройствах. Вход откроется в системном браузере.") },
+    if (notice != null) AlertDialog(onDismissRequest = { notice = null }, title = { Text(tr(R.string.data_google_connection_title)) },
+        text = { Text(notice!!) }, confirmButton = { TextButton(onClick = { notice = null }) { Text(tr(R.string.data_got_it)) } })
+    if (confirmConnect) AlertDialog(onDismissRequest = { confirmConnect = false }, title = { Text(tr(R.string.data_connect_drive_title)) },
+        text = { Text(tr(R.string.data_connect_drive_description)) },
         confirmButton = { TextButton(onClick = {
             confirmConnect = false
             try { DietAds.suppressNextEntry(); authorization.launch(cloud.authorizationIntent()) }
-            catch (_: Exception) { notice = "Не удалось открыть вход. Установите или включите системный браузер и повторите попытку." }
-        }) { Text("Продолжить") } }, dismissButton = { TextButton(onClick = { confirmConnect = false }) { Text("Отмена") } })
-    if (confirmDisconnect) AlertDialog(onDismissRequest = { confirmDisconnect = false }, title = { Text("Отключить аккаунт?") },
-        text = { Text("Синхронизация на этом устройстве остановится. Локальный дневник и копии в Google Drive сохранятся. Управлять разрешением приложения можно в настройках Google-аккаунта.") },
+            catch (_: Exception) { notice = tr(R.string.data_sign_in_open_failed) }
+        }) { Text(tr(R.string.data_continue)) } }, dismissButton = { TextButton(onClick = { confirmConnect = false }) { Text(tr(R.string.data_cancel)) } })
+    if (confirmDisconnect) AlertDialog(onDismissRequest = { confirmDisconnect = false }, title = { Text(tr(R.string.data_disconnect_title)) },
+        text = { Text(tr(R.string.data_disconnect_description)) },
         confirmButton = { TextButton(onClick = { confirmDisconnect = false; scope.launch {
-            try { cloud.disconnect() } catch (_: Exception) { notice = "Не удалось отключить аккаунт. Повторите попытку." }
-        } }) { Text("Отключить") } },
-        dismissButton = { TextButton(onClick = { confirmDisconnect = false }) { Text("Отмена") } })
+            try { cloud.disconnect() } catch (_: Exception) { notice = tr(R.string.data_disconnect_failed) }
+        } }) { Text(tr(R.string.data_disconnect)) } },
+        dismissButton = { TextButton(onClick = { confirmDisconnect = false }) { Text(tr(R.string.data_cancel)) } })
 }

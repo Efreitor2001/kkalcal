@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"다이어트 일기"</string>
+    <string name="core_tagline" formatted="false">"칼로리, 체중과 변화 기록"</string>
+    <string name="core_open_diary" formatted="false">"일기 열기"</string>
+    <string name="core_save_failed" formatted="false">"데이터를 저장하지 못했습니다"</string>
+    <string name="core_day" formatted="false">"오늘"</string>
+    <string name="core_products" formatted="false">"식품"</string>
+    <string name="core_diary" formatted="false">"일기"</string>
+    <string name="core_charts" formatted="false">"그래프"</string>
+    <string name="core_more" formatted="false">"더보기"</string>
+    <string name="core_recipe_saved" formatted="false">"요리를 식품 목록에 저장했습니다"</string>
+    <string name="core_back_to_day" formatted="false">"하루 기록으로 돌아가기"</string>
+    <string name="core_action_failed" formatted="false">"작업을 완료하지 못했습니다"</string>
+    <string name="core_understood" formatted="false">"확인"</string>
+    <string name="core_restore_available" formatted="false">"더보기에서 백업을 복원할 수 있습니다."</string>
+    <string name="core_eaten_today" formatted="false">"오늘 먹은 음식"</string>
+    <string name="core_set_goal_hint" formatted="false">"더보기에서 목표를 설정할 수 있습니다"</string>
+    <string name="core_add_food" formatted="false">"+ 음식 추가"</string>
+    <string name="core_first_meal" formatted="false">"첫 식사부터 기록해 보세요"</string>
+    <string name="core_first_meal_help" formatted="false">"식품을 선택하고 무게를 그램 단위로 입력하면 칼로리와 영양소가 계산됩니다."</string>
+    <string name="core_my_day" formatted="false">"나의 하루"</string>
+    <string name="core_my_day_help" formatted="false">"체중, 허리둘레, 걸음 수, 수면 — 알고 있는 항목을 기록하세요."</string>
+    <string name="core_record_metrics" formatted="false">"측정값 기록"</string>
+    <string name="core_edit_metrics" formatted="false">"측정값 수정"</string>
+    <string name="core_food_state_hint" formatted="false">"식품 무게와 영양가는 동일한 상태를 기준으로 해야 합니다. 생것, 건조 상태, 조리 후를 구분하세요."</string>
+    <string name="core_weight" formatted="false">"체중"</string>
+    <string name="core_waist" formatted="false">"허리둘레"</string>
+    <string name="core_my_diary" formatted="false">"나의 일기"</string>
+    <string name="core_diary_tagline" formatted="false">"매일 나만의 속도로"</string>
+    <string name="core_record_day" formatted="false">"+ 하루 기록"</string>
+    <string name="core_optional_diary_help" formatted="false">"모든 측정 항목은 선택 사항입니다. 체중, 수면 또는 메모만 기록해도 됩니다. 기록을 누르면 수정할 수 있습니다."</string>
+    <string name="core_history_starts" formatted="false">"여기서 기록을 시작하세요"</string>
+    <string name="core_history_help" formatted="false">"측정값을 기록하고 그래프에서 변화를 확인하세요."</string>
+    <string name="core_file_unavailable" formatted="false">"파일을 사용할 수 없습니다"</string>
+    <string name="core_backup_saved" formatted="false">"백업을 저장했습니다"</string>
+    <string name="core_export_error" formatted="false">"백업을 내보내지 못했습니다"</string>
+    <string name="core_read_error" formatted="false">"파일을 읽지 못했습니다"</string>
+    <string name="core_settings_tagline" formatted="false">"설정 및 데이터 백업"</string>
+    <string name="core_your_progress" formatted="false">"나의 진행 상황"</string>
+    <string name="core_achievements_help" formatted="false">"일기 쓰는 습관을 기르는 작은 업적입니다."</string>
+    <string name="core_achievements" formatted="false">"업적"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"여러 기기에서 일기를 동기화하려면 선택적으로 연결하세요."</string>
+    <string name="core_cloud_sync" formatted="false">"클라우드 동기화"</string>
+    <string name="core_personal_goals" formatted="false">"개인 목표"</string>
+    <string name="core_personal_goals_help" formatted="false">"칼로리, 영양소, 목표 체중을 직접 설정하세요. 모든 목표는 비워 두어도 됩니다."</string>
+    <string name="core_configure_goals" formatted="false">"목표 설정"</string>
+    <string name="core_backup" formatted="false">"백업"</string>
+    <string name="core_backup_help" formatted="false">"식품, 식사, 일기, 목표, 업적을 하나의 파일에 저장합니다. 앱을 다시 설치하기 전에 백업하세요."</string>
+    <string name="core_save_file" formatted="false">"파일로 저장"</string>
+    <string name="core_restore_file" formatted="false">"파일에서 복원"</string>
+    <string name="core_write_locked" formatted="false">"원본 파일을 보호하기 위해 저장이 중지되었습니다. 유효한 백업을 복원하세요."</string>
+    <string name="core_about_data" formatted="false">"앱 및 데이터 안내"</string>
+    <string name="core_about_data_help" formatted="false">"기록 저장, 동기화, 데이터 삭제 방식에 대해 알아보세요."</string>
+    <string name="core_privacy" formatted="false">"개인정보 및 데이터 삭제"</string>
+    <string name="core_offline" formatted="false">"오프라인 사용 가능"</string>
+    <string name="core_offline_help" formatted="false">"Google 로그인은 선택 사항입니다. 걸음 수와 수면은 직접 입력합니다. 동기화와 광고 불러오기에는 인터넷 연결이 필요합니다. 일기 내용은 광고 네트워크로 전송되지 않습니다."</string>
+    <string name="core_about_foods" formatted="false">"식품 정보 안내"</string>
+    <string name="core_foods_reference" formatted="false">"내장된 수치는 가식부 100 g당 참고값입니다. 정확한 값은 포장지에서 확인하세요. 식품 정보를 수정해도 기존 식사 기록은 다시 계산되지 않습니다."</string>
+    <string name="core_foods_source" formatted="false">"데이터 출처: USDA FoodData Central, SR Legacy. 각 식품에 상태와 출처 정보가 표시됩니다."</string>
+    <string name="core_restore_title" formatted="false">"이 백업을 복원할까요?"</string>
+    <string name="core_restore_warning" formatted="false">"현재 식품, 일기, 목표, 업적이 이 파일의 내용으로 대체됩니다. 먼저 백업을 저장하세요. 동기화가 연결되어 있다면 복원된 변경 내용도 Google Drive로 전송됩니다."</string>
+    <string name="core_backup_restored" formatted="false">"백업을 복원했습니다"</string>
+    <string name="core_invalid_file" formatted="false">"유효하지 않은 파일입니다"</string>
+    <string name="core_replace_data" formatted="false">"데이터 대체"</string>
+    <string name="core_cancel" formatted="false">"취소"</string>
+    <string name="core_save" formatted="false">"저장"</string>
+    <string name="core_calculate_portion" formatted="false">"섭취량 계산"</string>
+    <string name="core_edit_portion" formatted="false">"섭취량 수정"</string>
+    <string name="core_portion_weight" formatted="false">"섭취량, g"</string>
+    <string name="core_portion_invalid" formatted="false">"0보다 크고 100,000 g 이하인 무게를 입력하세요"</string>
+    <string name="core_add_to_diary" formatted="false">"일기에 추가"</string>
+    <string name="core_delete_entry" formatted="false">"기록 삭제"</string>
+    <string name="core_delete_portion_question" formatted="false">"이 섭취 기록을 일기에서 삭제할까요?"</string>
+    <string name="core_new_food" formatted="false">"새 식품 또는 요리"</string>
+    <string name="core_edit_nutrition" formatted="false">"영양가 수정"</string>
+    <string name="core_name" formatted="false">"이름"</string>
+    <string name="core_food" formatted="false">"식품"</string>
+    <string name="core_dish" formatted="false">"완성된 요리"</string>
+    <string name="core_category" formatted="false">"분류"</string>
+    <string name="core_per100_hint" formatted="false">"포장지나 레시피의 100 g당 수치를 입력하세요. 해당 영양소가 없으면 0을 입력하세요."</string>
+    <string name="core_kcal" formatted="false">"칼로리"</string>
+    <string name="core_protein_grams" formatted="false">"단백질, g"</string>
+    <string name="core_fat_grams" formatted="false">"지방, g"</string>
+    <string name="core_carbs_grams" formatted="false">"탄수화물, g"</string>
+    <string name="core_food_note" formatted="false">"메모, 재료(선택)"</string>
+    <string name="core_favorite" formatted="false">"즐겨찾기에 추가"</string>
+    <string name="core_name_category_required" formatted="false">"이름과 분류를 입력하세요"</string>
+    <string name="core_nutrition_invalid" formatted="false">"100 g당 수치를 입력하세요. 칼로리 0~1,000, 단백질·지방·탄수화물 각각 0~100 g"</string>
+    <string name="core_delete_food" formatted="false">"식품 목록에서 삭제"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"기존 식사 기록의 수치는 유지됩니다."</string>
+    <string name="core_delete_food_question" formatted="false">"이 식품을 삭제할까요? 일기의 섭취 기록은 유지됩니다."</string>
+    <string name="core_day_entry" formatted="false">"하루 기록"</string>
+    <string name="core_optional_fields" formatted="false">"원하는 항목만 입력하고 나머지는 비워 두세요."</string>
+    <string name="core_editing_existing" formatted="false">"이 날짜의 기록이 이미 있습니다. 기존 기록을 수정하고 있습니다."</string>
+    <string name="core_weight_kg" formatted="false">"체중, kg"</string>
+    <string name="core_waist_cm" formatted="false">"허리둘레, cm"</string>
+    <string name="core_steps" formatted="false">"걸음 수"</string>
+    <string name="core_sleep" formatted="false">"수면"</string>
+    <string name="core_hours" formatted="false">"시간"</string>
+    <string name="core_minutes" formatted="false">"분"</string>
+    <string name="core_body_fat_optional" formatted="false">"체중계 체지방률, %(선택)"</string>
+    <string name="core_body_fat_hint" formatted="false">"체중계의 체지방률은 정확한 측정값보다 변화 추이를 보는 지표로 활용하세요."</string>
+    <string name="core_strength_training" formatted="false">"근력 운동"</string>
+    <string name="core_training_example" formatted="false">"예: 스쿼트 3×10, 12 kg 덤벨"</string>
+    <string name="core_manual_nutrition" formatted="false">"영양 섭취량 직접 입력"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"입력하면 해당 날짜의 식품 합계 대신 이 수치를 사용합니다. 자동 계산하려면 비워 두세요."</string>
+    <string name="core_daily_calories" formatted="false">"하루 칼로리"</string>
+    <string name="core_daily_protein" formatted="false">"하루 단백질, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"메모 및 몸 상태"</string>
+    <string name="core_steps_invalid" formatted="false">"걸음 수: 0~200,000 사이의 정수"</string>
+    <string name="core_sleep_invalid" formatted="false">"수면: 0~24시간, 분은 0~59"</string>
+    <string name="core_body_fat" formatted="false">"체지방률"</string>
+    <string name="core_calories" formatted="false">"칼로리"</string>
+    <string name="core_protein" formatted="false">"단백질"</string>
+    <string name="core_entry_required" formatted="false">"측정값 또는 메모를 하나 이상 입력하세요"</string>
+    <string name="core_delete_day" formatted="false">"이 하루 기록 삭제"</string>
+    <string name="core_optional_goals" formatted="false">"모든 목표는 선택 사항입니다. 비어 있는 항목은 목표가 설정되지 않은 상태입니다."</string>
+    <string name="core_calories_per_day" formatted="false">"하루 칼로리"</string>
+    <string name="core_protein_per_day" formatted="false">"하루 단백질, g"</string>
+    <string name="core_fat_per_day" formatted="false">"하루 지방, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"하루 탄수화물, g"</string>
+    <string name="core_target_weight" formatted="false">"목표 체중, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"목표를 확인하세요. 칼로리 0~10,000, 단백질·지방·탄수화물 각각 0~1,000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"목표 체중: 1~500 kg"</string>
+    <string name="core_delete_question" formatted="false">"삭제할까요?"</string>
+    <string name="core_delete" formatted="false">"삭제"</string>
+    <string name="core_select_food" formatted="false">"식품 선택"</string>
+    <string name="core_foods_dishes" formatted="false">"식품과 요리"</string>
+    <string name="core_search_food" formatted="false">"식품 또는 요리 검색"</string>
+    <string name="core_new_food_button" formatted="false">"+ 식품 / 요리"</string>
+    <string name="core_recipe_button" formatted="false">"레시피로 만들기"</string>
+    <string name="core_no_results" formatted="false">"검색 결과가 없습니다"</string>
+    <string name="core_no_results_help" formatted="false">"다른 검색어를 입력하거나 나만의 식품 또는 요리를 추가하세요."</string>
+    <string name="core_edit" formatted="false">"수정"</string>
+    <string name="core_achievement_unlocked">"🏆 업적 달성! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"남은 칼로리 %1$s kcal · 목표 %2$s"</string>
+    <string name="core_above_goal">"목표보다 %1$s kcal 초과"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"단백질 %1$s   지방 %2$s   탄수화물 %3$s"</string>
+    <string name="core_weight_summary">"체중 %1$s kg"</string>
+    <string name="core_waist_summary">"허리둘레 %1$s cm"</string>
+    <string name="core_steps_summary">"걸음 수: %1$s"</string>
+    <string name="core_fat_summary">"체지방률 %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal(직접 입력)"</string>
+    <string name="core_manual_protein">"단백질 %1$s g(직접 입력)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"수면 %1$s"</string>
+    <string name="core_scale_fat">"체중계 체지방률 %1$s%%"</string>
+    <string name="core_training_value">"운동: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"단백질 %1$s g"</string>
+    <string name="core_app_version">"다이어트 일기 · %1$s"</string>
+    <string name="core_per100_summary">"100 g당: %1$s kcal · 단백질 %2$s · 지방 %3$s · 탄수화물 %4$s"</string>
+    <string name="core_range_invalid">"%1$s: %2$s~%3$s 사이의 값을 입력하세요"</string>
+    <string name="core_delete_day_question">"%1$s의 측정값을 삭제할까요? 식사 기록은 유지됩니다."</string>
+    <string name="core_catalog_count">"식품 수: %1$s · 영양가 기준 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   단백질 %2$s   지방 %3$s   탄수화물 %4$s"</string>
+    <string name="core_today_date">"오늘 · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"칼로리와 단백질은 일기에 직접 입력한 합계입니다"</string>
+    <string name="core_manual_calorie_total" formatted="false">"칼로리는 일기에 직접 입력한 합계입니다"</string>
+    <string name="core_manual_protein_total" formatted="false">"단백질은 일기에 직접 입력한 합계입니다"</string>
+    <string name="core_macro_goals">"단백질 / 지방 / 탄수화물 목표: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s(직접 입력)"</string>
+    <string name="core_all" formatted="false">"전체"</string>
+    <string name="core_favorites" formatted="false">"즐겨찾기"</string>
+    <string name="core_sleep_duration">"%1$s시간 %2$s분"</string>
+    <string name="core_previous_day" formatted="false">"이전 날"</string>
+    <string name="core_next_day" formatted="false">"다음 날"</string>
+    <string name="secondary_metric_weight" formatted="false">"체중"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"체지방률"</string>
+    <string name="secondary_metric_waist" formatted="false">"허리둘레"</string>
+    <string name="secondary_metric_steps" formatted="false">"걸음 수"</string>
+    <string name="secondary_metric_sleep" formatted="false">"수면"</string>
+    <string name="secondary_metric_kcal" formatted="false">"칼로리"</string>
+    <string name="secondary_metric_protein" formatted="false">"단백질"</string>
+    <string name="secondary_metric_fat" formatted="false">"지방"</string>
+    <string name="secondary_metric_carbs" formatted="false">"탄수화물"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"걸음"</string>
+    <string name="secondary_unit_hours" formatted="false">"시간"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"유효하지 않은 기간입니다"</string>
+    <string name="secondary_stats_title" formatted="false">"변화 추이"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"기록을 한눈에 보는 그래프"</string>
+    <string name="secondary_metric" formatted="false">"항목"</string>
+    <string name="secondary_week" formatted="false">"주"</string>
+    <string name="secondary_month" formatted="false">"월"</string>
+    <string name="secondary_year" formatted="false">"년"</string>
+    <string name="secondary_custom_period" formatted="false">"기간 지정"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"시작일은 종료일보다 늦을 수 없습니다"</string>
+    <string name="secondary_no_records" formatted="false">"아직 기록이 없습니다"</string>
+    <string name="secondary_empty_food_period" formatted="false">"일기에 음식을 추가하거나 다른 기간을 선택하세요."</string>
+    <string name="secondary_chart_tap" formatted="false">"그래프를 눌러 기록을 선택하세요"</string>
+    <string name="secondary_chart_connected" formatted="false">"선은 기록된 측정값을 연결합니다. 그 사이에는 측정값이 없습니다."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"체중계의 추정치는 변화 추이를 확인하는 데 유용합니다."</string>
+    <string name="secondary_food_override_hint" formatted="false">"직접 입력한 하루 합계가 있으면 식품 합계 대신 사용합니다. 그 외에는 기록된 음식을 합산합니다. 기록이 없는 날은 제외됩니다."</string>
+    <string name="secondary_food_total_hint" formatted="false">"기록한 음식을 기준으로 합산합니다. 기록이 없는 날을 0으로 계산하지 않습니다."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"기록이 없는 날은 제외되며 평균에도 포함되지 않습니다."</string>
+    <string name="secondary_today_yesterday" formatted="false">"오늘과 어제"</string>
+    <string name="secondary_no_today" formatted="false">"오늘 기록이 없습니다"</string>
+    <string name="secondary_no_yesterday" formatted="false">"어제 기록이 없습니다"</string>
+    <string name="secondary_partial_today" formatted="false">"현재 기록을 기준으로 비교합니다. 오늘 데이터는 아직 완성되지 않았을 수 있습니다."</string>
+    <string name="secondary_period_summary" formatted="false">"기간 요약"</string>
+    <string name="secondary_recorded_average" formatted="false">"기록된 날의 평균"</string>
+    <string name="secondary_recorded_days" formatted="false">"데이터가 있는 날"</string>
+    <string name="secondary_minimum" formatted="false">"최솟값"</string>
+    <string name="secondary_maximum" formatted="false">"최댓값"</string>
+    <string name="secondary_first_to_last" formatted="false">"첫 기록부터 마지막 기록까지"</string>
+    <string name="secondary_two_days_needed" formatted="false">"변화를 계산하려면 최소 이틀의 기록이 필요합니다."</string>
+    <string name="secondary_history" formatted="false">"기록 내역"</string>
+    <string name="secondary_history_recent" formatted="false">"데이터가 있는 최근 14일입니다. 이전 기록은 기간을 지정해 확인하세요."</string>
+    <string name="secondary_history_all" formatted="false">"선택한 기간 내 모든 기록일"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"시작: %1$s"</string>
+    <string name="secondary_date_until">"종료: %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"이 기간의 %1$s"</string>
+    <string name="secondary_weight_goal">"목표: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"일기에 측정값을 추가하거나 다른 기간을 선택하세요."</string>
+    <string name="secondary_latest_record">"최근 기록 · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"오늘: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"어제: %1$s %2$s"</string>
+    <string name="secondary_change_value">"변화: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%2$d일 중 %1$d일"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. 기록된 날: %2$d일, %3$s부터 %4$s까지. 최솟값 %5$s, 최댓값 %6$s %7$s. 각 값은 기록 내역에 표시됩니다."</string>
+    <string name="secondary_award_first_weight" formatted="false">"첫걸음"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"첫 체중 측정값을 저장하세요."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"첫 체중 측정값을 저장했습니다."</string>
+    <string name="secondary_award_first_food" formatted="false">"첫 기록"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"첫 음식 섭취량을 기록하세요."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"첫 음식 섭취량을 기록했습니다."</string>
+    <string name="secondary_award_weight_week" formatted="false">"일주일의 데이터"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"서로 다른 7일에 체중을 기록하세요. 연속일 필요는 없습니다."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"서로 다른 7일의 체중 기록이 있습니다."</string>
+    <string name="secondary_award_weight_month" formatted="false">"꾸준함"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"서로 다른 30일에 체중을 기록하세요."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"30일의 체중 기록이 있습니다."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"기록 수집가"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"일기에 음식 섭취 기록 100개를 저장하세요."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"음식 섭취 기록 100개를 저장했습니다."</string>
+    <string name="secondary_award_food_streak" formatted="false">"새로운 습관"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"7일 연속으로 음식을 기록하세요."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"7일 연속으로 음식을 기록했습니다."</string>
+    <string name="secondary_award_steps" formatted="false">"걷기의 달인"</string>
+    <string name="secondary_award_steps_description" formatted="false">"하루에 10,000걸음 이상을 기록하세요."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"10,000걸음을 걸은 날을 기록했습니다."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"기록의 달인"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"체중 측정값 100개를 저장하세요. 날짜마다 한 번씩 인정됩니다."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"체중 측정값 100개를 저장했습니다."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"일기 베테랑"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"서로 다른 90일에 음식이나 측정값을 기록하세요. 연속일 필요는 없습니다."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"서로 다른 90일의 일기 기록이 있습니다."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"측정"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"섭취 기록"</string>
+    <string name="secondary_award_unit_days" formatted="false">"일"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"연속 기록일"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"하루 걸음 수"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"기록일"</string>
+    <string name="secondary_back" formatted="false">"‹  뒤로"</string>
+    <string name="secondary_achievements" formatted="false">"업적"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"작은 실천이 습관이 됩니다"</string>
+    <string name="secondary_your_progress" formatted="false">"나의 진행 상황"</string>
+    <string name="secondary_awards_permanent" formatted="false">"달성한 업적은 기록을 수정해도 유지됩니다."</string>
+    <string name="secondary_awards_regular" formatted="false">"꾸준한 일기 기록을 위한 업적"</string>
+    <string name="secondary_awards_through_today" formatted="false">"오늘까지 저장된 기록이 집계됩니다."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"숨겨진 업적"</string>
+    <string name="secondary_hidden_description" formatted="false">"일기를 계속 사용하면 이 업적을 달성할 수 있습니다."</string>
+    <string name="secondary_earned" formatted="false">"달성"</string>
+    <string name="secondary_hidden_locked" formatted="false">"숨김 · 잠김"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"진행 중 · 잠김"</string>
+    <string name="secondary_locked" formatted="false">"잠김"</string>
+    <string name="secondary_hidden_progress" formatted="false">"이 업적을 달성하면 조건과 진행 상황이 공개됩니다."</string>
+    <string name="secondary_best_streak" formatted="false">"최장 연속 기록"</string>
+    <string name="secondary_hidden_reward" formatted="false">"숨겨진 보상"</string>
+    <string name="secondary_unlocked_of">"전체 %1$d개 중 달성"</string>
+    <string name="secondary_unlocked_date">"%1$s 달성"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← 뒤로"</string>
+    <string name="secondary_my_recipe" formatted="false">"나의 레시피"</string>
+    <string name="secondary_recipe_intro" formatted="false">"조리 전에 재료의 무게를 재세요. 섭취량은 조리 후 무게로 계산합니다. 기름과 소스도 포함하세요."</string>
+    <string name="secondary_recipe_name" formatted="false">"레시피 이름"</string>
+    <string name="secondary_recipe_example" formatted="false">"예: 채소 스튜"</string>
+    <string name="secondary_ingredients" formatted="false">"재료"</string>
+    <string name="secondary_start_ingredients" formatted="false">"재료부터 추가하세요"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"각 재료를 추가하고 무게를 그램 단위로 입력하세요."</string>
+    <string name="secondary_edit_weight" formatted="false">"무게 수정"</string>
+    <string name="secondary_delete" formatted="false">"삭제"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ 재료 추가"</string>
+    <string name="secondary_whole_recipe" formatted="false">"레시피 전체"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"조리 중 수분이 더해지거나 줄어들어 무게가 변합니다. 용기를 제외한 완성된 요리의 무게를 재세요."</string>
+    <string name="secondary_cooked_weight" formatted="false">"조리 후 무게, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"조리 후 무게를 입력하세요"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0보다 크고 100,000 g 이하인 무게를 입력하세요"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"무게는 자동으로 입력되지 않습니다"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"완성된 요리 100 g당"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"조리 후 무게와 재료를 확인하세요. 100 g당 최대 1,000 kcal, 각 영양소는 최대 100 g까지 입력할 수 있습니다."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"레시피를 저장하지 못했습니다"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"나의 요리에 저장"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"저장하면 섭취량의 무게로 이 요리를 기록할 수 있습니다."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"조리 전 재료의 무게"</string>
+    <string name="secondary_grams" formatted="false">"그램"</string>
+    <string name="secondary_weight_limits" formatted="false">"0보다 크고 100,000 g 이하"</string>
+    <string name="secondary_add" formatted="false">"추가"</string>
+    <string name="secondary_save" formatted="false">"저장"</string>
+    <string name="secondary_cancel" formatted="false">"취소"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"재료 선택"</string>
+    <string name="secondary_search_food" formatted="false">"식품 검색"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"검색 결과가 없습니다. 식품 탭에서 나만의 식품을 추가할 수 있습니다."</string>
+    <string name="secondary_close" formatted="false">"닫기"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"단백질 %1$s · 지방 %2$s · 탄수화물 %3$s g"</string>
+    <string name="secondary_ingredients_weight">"재료 무게: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"완성량: %1$s g. 재료: %2$s"</string>
+    <string name="app_name" formatted="false">"다이어트 일기"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"이전용 백업이 일치하지 않습니다"</string>
+    <string name="data_entry_exists" formatted="false">"이 음식 기록이 이미 있습니다"</string>
+    <string name="data_entry_missing" formatted="false">"음식 기록을 찾을 수 없습니다"</string>
+    <string name="data_edited_date_changed" formatted="false">"수정 중인 기록의 날짜가 변경되었습니다"</string>
+    <string name="data_device_id_corrupt" formatted="false">"기기 ID가 손상되어 복원이 차단되었습니다"</string>
+    <string name="data_sync_invalid" formatted="false">"유효하지 않은 동기화 데이터입니다"</string>
+    <string name="data_diary_read_only" formatted="false">"일기가 덮어쓰기로부터 보호되어 있습니다. 백업을 복원하세요"</string>
+    <string name="data_diary_inconsistent" formatted="false">"일기 데이터가 일관되지 않습니다"</string>
+    <string name="data_backup_too_large" formatted="false">"백업 용량이 너무 큽니다"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"설치 ID가 손상되었습니다"</string>
+    <string name="data_save_verification_failed" formatted="false">"일기가 저장되었는지 확인하지 못했습니다"</string>
+    <string name="data_save_failed" formatted="false">"일기를 저장하지 못했습니다"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"백업이 50 MB를 초과합니다"</string>
+    <string name="data_diary_file_too_large" formatted="false">"일기 파일이 너무 큽니다"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"식품 데이터베이스의 크기가 유효하지 않습니다"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"지원하지 않는 백업 버전입니다"</string>
+    <string name="data_too_many_values">"%1$s의 값이 너무 많습니다"</string>
+    <string name="data_too_many_products" formatted="false">"식품 수가 너무 많습니다"</string>
+    <string name="data_too_many_entries" formatted="false">"음식 기록이 너무 많습니다"</string>
+    <string name="data_too_many_logs" formatted="false">"일기 기록이 너무 많습니다"</string>
+    <string name="data_product_id_duplicate" formatted="false">"식품 ID가 중복됩니다"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"음식 기록 ID가 중복됩니다"</string>
+    <string name="data_log_date_duplicate" formatted="false">"일기 날짜가 중복됩니다"</string>
+    <string name="data_label_product_id" formatted="false">"식품 ID"</string>
+    <string name="data_label_product_name" formatted="false">"식품 이름"</string>
+    <string name="data_label_category" formatted="false">"분류"</string>
+    <string name="data_label_note" formatted="false">"메모"</string>
+    <string name="data_label_entry_id" formatted="false">"기록 ID"</string>
+    <string name="data_label_meal" formatted="false">"식사"</string>
+    <string name="data_food_weight_range" formatted="false">"식품 무게는 0보다 크고 100000 g 이하여야 합니다"</string>
+    <string name="data_label_weight" formatted="false">"체중"</string>
+    <string name="data_label_waist" formatted="false">"허리둘레"</string>
+    <string name="data_steps_range" formatted="false">"걸음 수는 0~200000 사이여야 합니다"</string>
+    <string name="data_label_sleep" formatted="false">"수면"</string>
+    <string name="data_label_body_fat" formatted="false">"체지방률"</string>
+    <string name="data_label_daily_calories" formatted="false">"하루 칼로리"</string>
+    <string name="data_label_daily_protein" formatted="false">"하루 단백질"</string>
+    <string name="data_label_workout" formatted="false">"운동"</string>
+    <string name="data_label_log_note" formatted="false">"메모"</string>
+    <string name="data_log_empty" formatted="false">"측정값 또는 메모를 하나 이상 입력하세요"</string>
+    <string name="data_label_goal_weight" formatted="false">"목표 체중"</string>
+    <string name="data_too_many_achievements" formatted="false">"업적 수가 너무 많습니다"</string>
+    <string name="data_achievement_invalid" formatted="false">"유효하지 않은 업적입니다"</string>
+    <string name="data_setting_not_portable" formatted="false">"이 설정은 전송할 수 없습니다"</string>
+    <string name="data_setting_invalid">"%1$s 설정값이 유효하지 않습니다"</string>
+    <string name="data_label_calories" formatted="false">"칼로리"</string>
+    <string name="data_label_protein" formatted="false">"단백질"</string>
+    <string name="data_label_fat" formatted="false">"지방"</string>
+    <string name="data_label_carbs" formatted="false">"탄수화물"</string>
+    <string name="data_value_range">"%1$s: 허용 범위 %2$s~%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: 유효하지 않은 길이입니다"</string>
+    <string name="data_text_character_invalid">"%1$s: 유효하지 않은 문자가 있습니다"</string>
+    <string name="data_date_format_invalid" formatted="false">"날짜는 YYYY-MM-DD 형식이어야 합니다"</string>
+    <string name="data_date_nonexistent">"유효하지 않은 날짜: %1$s"</string>
+    <string name="data_field_string_required">"%1$s 항목은 텍스트여야 합니다"</string>
+    <string name="data_field_boolean_required">"%1$s 항목은 참/거짓 값이어야 합니다"</string>
+    <string name="data_field_number_required">"%1$s 항목은 숫자여야 합니다"</string>
+    <string name="data_field_finite_required">"%1$s 항목은 유한한 숫자여야 합니다"</string>
+    <string name="data_field_integer_required">"%1$s 항목은 정수여야 합니다"</string>
+    <string name="data_too_many_items">"%1$s의 항목이 너무 많습니다"</string>
+    <string name="data_data_file_invalid">"유효하지 않은 데이터 파일: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"기기 ID가 없습니다"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"논리 시계의 한도에 도달했습니다"</string>
+    <string name="data_too_many_sync_records" formatted="false">"동기화 기록이 너무 많습니다"</string>
+    <string name="data_sync_version_required" formatted="false">"동기화에는 형식 버전 2가 필요합니다"</string>
+    <string name="data_sync_key_invalid" formatted="false">"유효하지 않은 동기화 키입니다"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"동기화 키가 중복됩니다"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"유효하지 않은 삭제 플래그입니다"</string>
+    <string name="data_sync_data_invalid" formatted="false">"유효하지 않은 동기화 데이터입니다"</string>
+    <string name="data_record_clock_invalid" formatted="false">"기록 버전이 논리 시계를 초과합니다"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"데이터가 동기화 메타데이터와 일치하지 않습니다"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"동기화 키 길이가 유효하지 않습니다"</string>
+    <string name="data_sync_key_malformed" formatted="false">"동기화 키 형식이 잘못되었습니다"</string>
+    <string name="data_sync_type_unknown" formatted="false">"알 수 없는 동기화 유형입니다"</string>
+    <string name="data_record_id_too_long" formatted="false">"기록 ID가 너무 깁니다"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"유효하지 않은 업적 삭제입니다"</string>
+    <string name="data_log_key_invalid" formatted="false">"유효하지 않은 일기 키입니다"</string>
+    <string name="data_log_field_unknown" formatted="false">"알 수 없는 일기 항목입니다"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"유효하지 않은 일기 삭제 표시입니다"</string>
+    <string name="data_goal_unknown" formatted="false">"알 수 없는 목표입니다"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"삭제된 기록에 데이터가 포함되어 있습니다"</string>
+    <string name="data_sync_value_invalid" formatted="false">"유효하지 않은 동기화 값입니다"</string>
+    <string name="data_record_id_mismatch" formatted="false">"기록 ID가 키와 일치하지 않습니다"</string>
+    <string name="data_field_value_invalid" formatted="false">"항목의 값이 유효하지 않습니다"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"업적 날짜가 키와 일치하지 않습니다"</string>
+    <string name="data_note_string_required" formatted="false">"메모는 텍스트여야 합니다"</string>
+    <string name="data_sync_note_invalid" formatted="false">"동기화된 메모가 유효하지 않습니다"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"유효하지 않은 논리 시계입니다"</string>
+    <string name="data_device_invalid" formatted="false">"유효하지 않은 기기입니다"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"유효하지 않은 버전 정보입니다"</string>
+    <string name="data_google_login_required" formatted="false">"Google에 다시 로그인하세요"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"클라우드 백업이 너무 많습니다"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive가 같은 페이지를 반복해서 반환했습니다"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"클라우드 백업이 50 MB를 초과합니다"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive가 업로드 주소를 반환하지 않았습니다"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"유효하지 않은 Google Drive 업로드 주소입니다"</string>
+    <string name="data_back" formatted="false">"‹  뒤로"</string>
+    <string name="data_cloud_title" formatted="false">"클라우드 동기화"</string>
+    <string name="data_cloud_subtitle" formatted="false">"여러 기기에서 같은 일기 사용"</string>
+    <string name="data_no_account" formatted="false">"연결된 계정이 없습니다"</string>
+    <string name="data_cloud_intro" formatted="false">"로그인은 선택 사항입니다. 식품, 식사, 측정값, 목표, 업적은 휴대전화에 저장됩니다. 연결하면 Google Drive의 숨겨진 폴더에도 사본이 저장됩니다."</string>
+    <string name="data_cloud_first_connection" formatted="false">"처음 연결하면 기록이 병합됩니다. 앱은 Drive의 다른 파일에 접근할 수 없습니다."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"이 빌드에는 아직 Google 로그인이 설정되지 않았습니다. 계정 없이도 일기와 파일 백업을 사용할 수 있습니다."</string>
+    <string name="data_connect_google" formatted="false">"Google 연결"</string>
+    <string name="data_automatic_sync" formatted="false">"자동 동기화"</string>
+    <string name="data_automatic_sync_description" formatted="false">"데이터 변경 시, 그리고 Android가 허용할 때 백그라운드에서 동기화합니다"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"일정을 변경하지 못했습니다. 데이터는 이 기기에 저장되어 있습니다."</string>
+    <string name="data_sync_start_failed" formatted="false">"동기화를 시작하지 못했습니다. 데이터는 이 기기에 저장되어 있습니다."</string>
+    <string name="data_sync_now" formatted="false">"지금 동기화"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Google에 다시 로그인"</string>
+    <string name="data_disconnect_account" formatted="false">"계정 연결 해제"</string>
+    <string name="data_sync_never" formatted="false">"아직 동기화하지 않았습니다"</string>
+    <string name="data_offline_saved_title" formatted="false">"데이터가 기기에 저장되어 있습니다"</string>
+    <string name="data_cloud_merge_description" formatted="false">"자동 동기화가 켜져 있으면 연결이 가능할 때 변경 사항이 전송됩니다. 두 기기에서 같은 항목이 변경되면 변경 시각이 더 늦은 버전을 사용합니다. 서로 다른 기록과 항목은 병합됩니다."</string>
+    <string name="data_cloud_password_description" formatted="false">"비밀번호는 브라우저의 Google 페이지에서만 입력합니다. 액세스 토큰은 Android Keystore로 보호되며 백업에 포함되지 않습니다."</string>
+    <string name="data_google_connection_title" formatted="false">"Google 연결"</string>
+    <string name="data_got_it" formatted="false">"확인"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive에 연결할까요?"</string>
+    <string name="data_connect_drive_description" formatted="false">"현재 일기가 선택한 Google 계정의 데이터와 병합됩니다. 각 기기에서 같은 개인 계정을 사용하세요. 기본 브라우저에서 로그인 화면이 열립니다."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"로그인 화면을 열지 못했습니다. 기본 브라우저를 설치하거나 사용 설정한 뒤 다시 시도하세요."</string>
+    <string name="data_continue" formatted="false">"계속"</string>
+    <string name="data_cancel" formatted="false">"취소"</string>
+    <string name="data_disconnect_title" formatted="false">"계정 연결을 해제할까요?"</string>
+    <string name="data_disconnect_description" formatted="false">"이 기기의 동기화가 중지됩니다. 기기 내 일기와 Google Drive의 사본은 유지됩니다. Google 계정 설정에서 앱 권한을 관리할 수 있습니다."</string>
+    <string name="data_disconnect_failed" formatted="false">"계정 연결을 해제하지 못했습니다. 다시 시도하세요."</string>
+    <string name="data_disconnect" formatted="false">"연결 해제"</string>
+    <string name="data_google_not_connected" formatted="false">"Google이 연결되지 않았습니다"</string>
+    <string name="data_sync_ready" formatted="false">"동기화 준비 완료"</string>
+    <string name="data_sync_changes_pending" formatted="false">"변경 사항 동기화 대기 중…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"인터넷에 연결되어 있지 않습니다. 변경 사항은 이 기기에 저장되었습니다."</string>
+    <string name="data_google_not_configured" formatted="false">"이 빌드에는 아직 Google 로그인이 설정되지 않았습니다"</string>
+    <string name="data_sync_wait" formatted="false">"동기화가 완료될 때까지 기다리세요"</string>
+    <string name="data_google_connecting" formatted="false">"Google에 연결 중…"</string>
+    <string name="data_connection_cancelled" formatted="false">"연결이 취소되었습니다"</string>
+    <string name="data_connection_rejected" formatted="false">"연결이 취소되었거나 Google에서 거부했습니다"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google이 연결되었습니다. 기록 병합 중…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google에 연결하지 못했습니다. 인터넷 연결과 접근 설정을 확인하세요."</string>
+    <string name="data_account_disconnected" formatted="false">"계정 연결이 해제되었습니다. 데이터는 이 기기에 남아 있습니다."</string>
+    <string name="data_sync_waiting_network" formatted="false">"인터넷에 연결되어 있지 않습니다. 동기화가 연결을 기다리고 있습니다."</string>
+    <string name="data_sync_scheduled" formatted="false">"동기화가 예약되었습니다…"</string>
+    <string name="data_sync_running" formatted="false">"동기화 중…"</string>
+    <string name="data_sync_complete" formatted="false">"동기화 완료"</string>
+    <string name="data_no_internet" formatted="false">"인터넷 연결 없음"</string>
+    <string name="data_sync_failed_saved" formatted="false">"동기화하지 못했습니다. 데이터는 이 기기에 저장되어 있습니다"</string>
+    <string name="data_page_open_failed" formatted="false">"페이지를 열지 못했습니다. 아래 텍스트에서 주소를 복사할 수 있습니다."</string>
+    <string name="data_privacy_title" formatted="false">"개인정보"</string>
+    <string name="data_privacy_subtitle" formatted="false">"기록 및 데이터 관리"</string>
+    <string name="data_app_purpose" formatted="false">"앱 소개"</string>
+    <string name="data_medical_disclaimer" formatted="false">"이 앱은 의료 기기가 아닙니다. 질병을 진단, 치료, 완치하거나 예방하지 않습니다. 의학적 조언, 진단 및 치료는 자격을 갖춘 의료 전문가와 상담하세요."</string>
+    <string name="data_manage_delete_data" formatted="false">"데이터 관리 및 삭제"</string>
+    <string name="data_delete_data_intro" formatted="false">"모든 데이터를 삭제하기 전에 모든 기기에서 동기화를 끄세요. 휴대전화에서 앱을 삭제해도 Google Drive의 사본이나 내보낸 파일은 삭제되지 않습니다."</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive 데이터 관리"</string>
+    <string name="data_google_account_access" formatted="false">"Google 계정 접근 권한"</string>
+    <string name="data_android_app_storage" formatted="false">"Android 앱 저장공간"</string>
+    <string name="data_contact_developer" formatted="false">"개발자에게 문의"</string>
+    <string name="data_opening_page" formatted="false">"페이지 열기"</string>
+    <string name="data_advertisement" formatted="false">"광고"</string>
+    <string name="data_ad_information" formatted="false">"이 광고 정보"</string>
+    <string name="data_cloud_http_error">"클라우드 HTTP 오류 %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"클라우드 응답이 너무 큽니다"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"암호화된 로그인 세션이 유효하지 않습니다"</string>
+    <string name="data_session_save_failed" formatted="false">"로그인 세션을 저장하지 못했습니다"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google 접근 권한을 갱신하지 못했습니다"</string>
+    <string name="data_diary_read_failed">"일기를 읽지 못했습니다. 원본 파일은 유지됩니다. 백업에서 데이터를 복원하세요. %1$s"</string>
+    <string name="data_last_sync">"최근 동기화: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"과일 및 베리류"</string>
+    <string name="data_category_dried_fruit" formatted="false">"말린 과일"</string>
+    <string name="data_category_vegetables" formatted="false">"채소 및 허브"</string>
+    <string name="data_category_mushrooms" formatted="false">"버섯"</string>
+    <string name="data_category_grains" formatted="false">"곡류 및 파스타"</string>
+    <string name="data_category_legumes" formatted="false">"콩류"</string>
+    <string name="data_category_meat" formatted="false">"육류 및 가금류"</string>
+    <string name="data_category_fish" formatted="false">"생선 및 해산물"</string>
+    <string name="data_category_dairy" formatted="false">"유제품"</string>
+    <string name="data_category_eggs" formatted="false">"달걀"</string>
+    <string name="data_category_oils" formatted="false">"기름 및 버터"</string>
+    <string name="data_category_nuts" formatted="false">"견과류 및 씨앗"</string>
+    <string name="data_category_bread" formatted="false">"빵"</string>
+    <string name="data_category_other" formatted="false">"기타 식품"</string>
+    <string name="data_category_dishes" formatted="false">"완성된 요리"</string>
+    <string name="data_category_custom" formatted="false">"나의 식품"</string>
+    <string name="data_category_other_short" formatted="false">"기타"</string>
+    <string name="data_category_my_dishes" formatted="false">"나의 요리"</string>
+    <string name="data_meal_breakfast" formatted="false">"아침"</string>
+    <string name="data_meal_lunch" formatted="false">"점심"</string>
+    <string name="data_meal_dinner" formatted="false">"저녁"</string>
+    <string name="data_meal_snack" formatted="false">"간식"</string>
+    <string name="data_food_seed_9003" formatted="false">"사과, 껍질 포함"</string>
+    <string name="data_food_seed_9040" formatted="false">"바나나, 껍질 제거"</string>
+    <string name="data_food_seed_9021" formatted="false">"살구, 씨 제거"</string>
+    <string name="data_food_seed_9037" formatted="false">"아보카도 과육"</string>
+    <string name="data_food_seed_9050" formatted="false">"블루베리"</string>
+    <string name="data_food_seed_9070" formatted="false">"스위트체리, 씨 제거"</string>
+    <string name="data_food_seed_9063" formatted="false">"사워체리, 씨 제거"</string>
+    <string name="data_food_seed_9078" formatted="false">"크랜베리"</string>
+    <string name="data_food_seed_9083" formatted="false">"블랙커런트"</string>
+    <string name="data_food_seed_9084" formatted="false">"레드커런트 및 화이트커런트"</string>
+    <string name="data_food_seed_9132" formatted="false">"포도"</string>
+    <string name="data_food_seed_9148" formatted="false">"키위 과육"</string>
+    <string name="data_food_seed_9150" formatted="false">"레몬, 껍질 제거"</string>
+    <string name="data_food_seed_9181" formatted="false">"칸탈루프 멜론 과육"</string>
+    <string name="data_food_seed_9200" formatted="false">"오렌지 과육"</string>
+    <string name="data_food_seed_9218" formatted="false">"만다린 과육"</string>
+    <string name="data_food_seed_9236" formatted="false">"복숭아, 씨 제거"</string>
+    <string name="data_food_seed_9252" formatted="false">"서양배"</string>
+    <string name="data_food_seed_9266" formatted="false">"파인애플 과육"</string>
+    <string name="data_food_seed_9279" formatted="false">"자두, 씨 제거"</string>
+    <string name="data_food_seed_9286" formatted="false">"석류 알맹이"</string>
+    <string name="data_food_seed_9295" formatted="false">"포멜로 과육"</string>
+    <string name="data_food_seed_9302" formatted="false">"라즈베리"</string>
+    <string name="data_food_seed_9316" formatted="false">"딸기"</string>
+    <string name="data_food_seed_9326" formatted="false">"수박 과육"</string>
+    <string name="data_food_seed_9191" formatted="false">"천도복숭아, 씨 제거"</string>
+    <string name="data_food_seed_9176" formatted="false">"망고 과육"</string>
+    <string name="data_food_seed_9107" formatted="false">"구스베리"</string>
+    <string name="data_food_seed_9226" formatted="false">"파파야 과육"</string>
+    <string name="data_food_seed_9089" formatted="false">"생무화과"</string>
+    <string name="data_food_seed_9111" formatted="false">"자몽 과육"</string>
+    <string name="data_food_seed_9032" formatted="false">"말린 살구, 씨 제거"</string>
+    <string name="data_food_seed_9291" formatted="false">"푸룬, 씨 제거"</string>
+    <string name="data_food_seed_9087" formatted="false">"대추야자, 씨 제거"</string>
+    <string name="data_food_seed_9298" formatted="false">"검은 건포도, 씨 없음"</string>
+    <string name="data_food_seed_11529" formatted="false">"생토마토"</string>
+    <string name="data_food_seed_11205" formatted="false">"오이, 껍질 포함"</string>
+    <string name="data_food_seed_11090" formatted="false">"생브로콜리"</string>
+    <string name="data_food_seed_11109" formatted="false">"생양배추"</string>
+    <string name="data_food_seed_11124" formatted="false">"생당근"</string>
+    <string name="data_food_seed_11135" formatted="false">"생콜리플라워"</string>
+    <string name="data_food_seed_11143" formatted="false">"셀러리 줄기"</string>
+    <string name="data_food_seed_11282" formatted="false">"생양파"</string>
+    <string name="data_food_seed_11291" formatted="false">"실파"</string>
+    <string name="data_food_seed_11304" formatted="false">"생완두콩"</string>
+    <string name="data_food_seed_11333" formatted="false">"초록 피망"</string>
+    <string name="data_food_seed_11821" formatted="false">"빨간 파프리카"</string>
+    <string name="data_food_seed_11352" formatted="false">"생감자, 껍질 포함"</string>
+    <string name="data_food_seed_11367" formatted="false">"삶은 감자, 껍질 제거"</string>
+    <string name="data_food_seed_11477" formatted="false">"생주키니"</string>
+    <string name="data_food_seed_11209" formatted="false">"생가지"</string>
+    <string name="data_food_seed_11422" formatted="false">"생호박"</string>
+    <string name="data_food_seed_11429" formatted="false">"래디시"</string>
+    <string name="data_food_seed_11564" formatted="false">"생순무"</string>
+    <string name="data_food_seed_11080" formatted="false">"생비트"</string>
+    <string name="data_food_seed_11081" formatted="false">"삶은 비트"</string>
+    <string name="data_food_seed_11215" formatted="false">"마늘"</string>
+    <string name="data_food_seed_11216" formatted="false">"생강"</string>
+    <string name="data_food_seed_11457" formatted="false">"생시금치"</string>
+    <string name="data_food_seed_11253" formatted="false">"잎상추"</string>
+    <string name="data_food_seed_11297" formatted="false">"생파슬리"</string>
+    <string name="data_food_seed_2045" formatted="false">"생딜"</string>
+    <string name="data_food_seed_11052" formatted="false">"생그린빈"</string>
+    <string name="data_food_seed_11167" formatted="false">"스위트콘, 생알갱이"</string>
+    <string name="data_food_seed_11260" formatted="false">"생양송이버섯"</string>
+    <string name="data_food_seed_11261" formatted="false">"삶은 양송이버섯, 무염"</string>
+    <string name="data_food_seed_11987" formatted="false">"생느타리버섯"</string>
+    <string name="data_food_seed_20009" formatted="false">"메밀쌀, 건조"</string>
+    <string name="data_food_seed_20010" formatted="false">"물에 익힌 메밀"</string>
+    <string name="data_food_seed_20444" formatted="false">"백미, 생쌀"</string>
+    <string name="data_food_seed_20445" formatted="false">"삶은 백미, 무염"</string>
+    <string name="data_food_seed_20036" formatted="false">"현미, 생쌀"</string>
+    <string name="data_food_seed_20037" formatted="false">"삶은 현미"</string>
+    <string name="data_food_seed_8120" formatted="false">"압착 귀리, 건조"</string>
+    <string name="data_food_seed_8121" formatted="false">"물에 끓인 오트밀, 무염"</string>
+    <string name="data_food_seed_20005" formatted="false">"도정 보리, 건조"</string>
+    <string name="data_food_seed_20006" formatted="false">"삶은 도정 보리"</string>
+    <string name="data_food_seed_20031" formatted="false">"기장, 건조"</string>
+    <string name="data_food_seed_20032" formatted="false">"삶은 기장"</string>
+    <string name="data_food_seed_20420" formatted="false">"파스타, 건조"</string>
+    <string name="data_food_seed_20421" formatted="false">"삶은 파스타, 무염"</string>
+    <string name="data_food_seed_16070" formatted="false">"삶은 렌틸콩, 무염"</string>
+    <string name="data_food_seed_16057" formatted="false">"삶은 병아리콩, 무염"</string>
+    <string name="data_food_seed_16033" formatted="false">"삶은 붉은 강낭콩, 무염"</string>
+    <string name="data_food_seed_5062" formatted="false">"생닭가슴살, 껍질 제거"</string>
+    <string name="data_food_seed_5064" formatted="false">"구운 닭가슴살, 껍질 제거"</string>
+    <string name="data_food_seed_5219" formatted="false">"생칠면조 가슴살, 껍질 제거"</string>
+    <string name="data_food_seed_5220" formatted="false">"구운 칠면조 가슴살, 껍질 제거"</string>
+    <string name="data_food_seed_23562" formatted="false">"다진 쇠고기, 지방 10%, 생것"</string>
+    <string name="data_food_seed_23566" formatted="false">"다진 쇠고기, 지방 10%, 구운 것"</string>
+    <string name="data_food_seed_10060" formatted="false">"생돼지 안심, 보이는 지방 제거"</string>
+    <string name="data_food_seed_10061" formatted="false">"구운 돼지 안심"</string>
+    <string name="data_food_seed_15236" formatted="false">"대서양 연어, 생것"</string>
+    <string name="data_food_seed_15237" formatted="false">"대서양 연어, 구운 것"</string>
+    <string name="data_food_seed_15015" formatted="false">"대서양 대구, 생것"</string>
+    <string name="data_food_seed_15266" formatted="false">"생명태"</string>
+    <string name="data_food_seed_15121" formatted="false">"물에 담긴 참치 통조림, 물기 제거"</string>
+    <string name="data_food_seed_15271" formatted="false">"익힌 새우, 껍질 제거"</string>
+    <string name="data_food_seed_1211" formatted="false">"우유, 지방 3.25%"</string>
+    <string name="data_food_seed_1174" formatted="false">"우유, 지방 2%"</string>
+    <string name="data_food_seed_1082" formatted="false">"우유, 지방 1%"</string>
+    <string name="data_food_seed_1116" formatted="false">"전유 플레인 요거트"</string>
+    <string name="data_food_seed_1256" formatted="false">"무지방 그릭 요거트"</string>
+    <string name="data_food_seed_1015" formatted="false">"코티지치즈, 지방 2%"</string>
+    <string name="data_food_seed_1056" formatted="false">"사워크림, 지방 약 19%"</string>
+    <string name="data_food_seed_1009" formatted="false">"체더치즈"</string>
+    <string name="data_food_seed_1026" formatted="false">"전유 모차렐라"</string>
+    <string name="data_food_seed_1019" formatted="false">"페타치즈"</string>
+    <string name="data_food_seed_1123" formatted="false">"생달걀, 껍데기 제거"</string>
+    <string name="data_food_seed_1129" formatted="false">"삶은 달걀, 껍데기 제거"</string>
+    <string name="data_food_seed_1124" formatted="false">"생달걀 흰자"</string>
+    <string name="data_food_seed_1001" formatted="false">"가염 버터"</string>
+    <string name="data_food_seed_4053" formatted="false">"올리브유"</string>
+    <string name="data_food_seed_4506" formatted="false">"해바라기유"</string>
+    <string name="data_food_seed_12061" formatted="false">"아몬드"</string>
+    <string name="data_food_seed_12155" formatted="false">"호두 알맹이"</string>
+    <string name="data_food_seed_12120" formatted="false">"헤이즐넛 알맹이"</string>
+    <string name="data_food_seed_12151" formatted="false">"생피스타치오 알맹이"</string>
+    <string name="data_food_seed_12014" formatted="false">"말린 호박씨, 껍질 제거"</string>
+    <string name="data_food_seed_16087" formatted="false">"생땅콩, 껍데기 제거"</string>
+    <string name="data_food_seed_18069" formatted="false">"흰 밀빵"</string>
+    <string name="data_food_seed_18075" formatted="false">"통밀빵"</string>
+    <string name="data_food_seed_18060" formatted="false">"호밀빵"</string>
+    <string name="data_food_seed_19296" formatted="false">"꿀"</string>
+    <string name="data_food_seed_19335" formatted="false">"설탕"</string>
+    <string name="data_food_seed_19165" formatted="false">"무가당 코코아 가루"</string>
+    <string name="data_food_seed_19904" formatted="false">"다크초콜릿, 카카오 70~85%"</string>
+    <string name="data_catalog_note_1">"가식부 100 g당 참고값입니다. 생식품 기준입니다. USDA 탄수화물 값에는 식이섬유가 포함됩니다. 제품의 영양정보에 맞게 값을 조정할 수 있습니다. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_2">"가식부 100 g당 참고값입니다. USDA 탄수화물 값에는 식이섬유가 포함됩니다. 제품의 영양정보에 맞게 값을 조정할 수 있습니다. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_3">"가식부 100 g당 참고값입니다. 소금을 첨가하지 않은 기준입니다. USDA 탄수화물 값에는 식이섬유가 포함됩니다. 제품의 영양정보에 맞게 값을 조정할 수 있습니다. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_4">"가식부 100 g당 참고값입니다. 볶은 메밀쌀 기준입니다. USDA 탄수화물 값에는 식이섬유가 포함됩니다. 제품의 영양정보에 맞게 값을 조정할 수 있습니다. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_5">"가식부 100 g당 참고값입니다. 양식한 생식품 기준입니다. USDA 탄수화물 값에는 식이섬유가 포함됩니다. 제품의 영양정보에 맞게 값을 조정할 수 있습니다. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_6">"가식부 100 g당 참고값입니다. 양식 식품 기준입니다. USDA 탄수화물 값에는 식이섬유가 포함됩니다. 제품의 영양정보에 맞게 값을 조정할 수 있습니다. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_7">"가식부 100 g당 참고값입니다. 코티지치즈 기준이며 다른 커드 치즈의 값은 다릅니다. USDA 탄수화물 값에는 식이섬유가 포함됩니다. 제품의 영양정보에 맞게 값을 조정할 수 있습니다. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary 개인정보 처리방침\n개정일: 2026년 10월 9일"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"앱: Diet Diary. Google Play의 러시아어 등록 제목: «Дневник диеты: подсчёт калорий». 패키지: ru.dietdiary.offline.\n프로젝트 개발자: Efreitor2001. 앱과 데이터 처리에 관한 문의: https://github.com/Efreitor2001/kkalcal/issues . GitHub 이슈는 공개되므로 건강 기록, 백업, 비밀번호 또는 토큰을 게시하지 마세요."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. 기기에 저장되는 일기\n일기를 쓰는 데 가입은 필요하지 않습니다. 앱은 식품과 영양가, 섭취량과 식사 날짜, 체중, 허리둘레, 체지방률, 걸음 수, 수면, 운동 내용, 메모, 목표, 업적, 앱 설정을 기기의 앱 전용 저장공간에 저장합니다. 선택 항목은 비워 둘 수 있습니다. 걸음 수, 수면, 측정값은 직접 입력하며, 앱은 Health Connect, 신체 활동 센서 또는 의료 기기의 데이터를 읽지 않습니다."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"이 정보는 칼로리와 주요 영양소를 계산하고 기록 내역, 그래프, 업적을 제공하는 데 사용됩니다. 개발자는 일기 내용을 수신하는 서버를 운영하지 않습니다. Google Drive를 연결하거나 직접 백업을 공유하지 않으면 기록은 기기에 남습니다."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. 선택적인 Google Drive 연결\n사용자의 요청에 따라 앱은 기본 브라우저에서 Google 로그인 화면을 열고 Google Drive 내 이 앱의 숨겨진 데이터 저장공간에 대한 접근 권한을 요청합니다. 이 권한으로는 Drive의 일반 문서나 사진에 접근할 수 없습니다."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"연결하면 식품, 식사, 일기 측정값, 메모, 목표, 업적, 이전 가능한 설정과 변경 메타데이터가 Google로 전송됩니다. 변경 메타데이터에는 무작위 설치 식별자와 타임스탬프가 포함됩니다. 이를 통해 백업 스냅샷과 여러 기기 간 기록 병합을 지원합니다. 자동 동기화가 켜져 있으면 네트워크 연결 시 백그라운드에서도 변경 사항을 전송합니다. 자동 동기화는 별도로 끌 수 있습니다."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"앱은 연결 상태를 표시하고 올바른 저장공간에 연결하기 위해 선택한 Google 계정의 이메일 주소와 식별자를 받습니다. Google 비밀번호는 앱에 제공되지 않습니다. 인증 세션은 Android Keystore의 키를 사용해 암호화되어 기기에 저장됩니다. 토큰, 이메일 주소, Google 식별자는 일기 내보내기와 동기화된 JSON 스냅샷에 포함되지 않습니다."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google 데이터는 인증 및 동기화에만 사용하며 광고에는 사용하지 않습니다. Google 개인정보 처리방침이 적용됩니다: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. 백업 파일\n‘파일로 저장’은 선택한 위치에 JSON 파일을 생성합니다. 복원은 선택한 파일만 읽습니다. 클라우드 파일 제공업체를 선택하거나 다른 사람에게 사본을 공유할 경우 수신자는 사용자가 선택합니다. 앱은 내보낸 JSON 파일을 암호화하지 않습니다. 이 파일에는 개인 기록과 변경 메타데이터가 포함됩니다."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. 광고\n앱은 Yandex Mobile Ads SDK를 사용합니다. 광고를 불러오고 표시하기 위해 기기가 광고 서비스에 연결됩니다. Yandex는 IP 주소, 네트워크 요청·기기·소프트웨어에 관한 기타 기술 정보, 사용 가능한 광고 또는 기술 식별자, 광고 노출 및 상호작용 정보를 처리할 수 있습니다."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"앱은 동의가 제공되지 않았음을 SDK에 알리고 위치 수집과 App Ad Analytics 보고를 비활성화합니다. 정확한 위치나 대략적인 위치 권한을 요청하지 않습니다. 이 설정이 광고 서비스의 모든 네트워크 통신이나 기술 데이터 처리를 중단한다는 뜻은 아닙니다."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"앱은 식사 기록, 체중, 측정값, 메모, 목표, 이메일 주소 또는 Google 식별자를 광고 타기팅에 사용하지 않으며 광고 요청 매개변수에도 추가하지 않습니다. 기록을 저장하기 위해 광고를 볼 필요는 없습니다."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex의 데이터 처리·보관·삭제 규정: https://yandex.ru/legal/confidential/ . 시스템 버전에서 지원하는 경우 Android 설정에서 광고 식별자를 관리할 수 있습니다. 광고 서비스의 기술 데이터 보관 기간은 해당 서비스의 정책에 따르며, 일기 개발자는 이 데이터에 별도의 보관 기간을 설정하지 않습니다."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. 데이터 보호\nGoogle과의 통신에는 HTTPS를 사용하며, Yandex는 SDK 데이터가 HTTPS/TLS를 통해 전송된다고 명시합니다. 기기 내 일기는 Android의 앱 격리 기능으로 보호됩니다. 앱은 일기 내용이나 JSON 스냅샷을 별도로 암호화하지 않으며 기기 간 종단 간 암호화를 제공하지 않습니다."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"앱 데이터의 시스템 백업은 비활성화되어 있습니다. 앱 자체 코드가 작성하는 진단 로그에는 결과 코드가 포함되지만 일기 내용, 이메일 주소, 토큰 또는 네트워크 응답 본문은 포함되지 않습니다. 앱은 이 로그를 별도로 개발자에게 보내지 않습니다."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. 보관 및 삭제\n기기 내 기록은 사용자가 수정·삭제하거나 앱 데이터를 지울 때까지 유지됩니다. 기록을 삭제하면 화면에서 제거되고 동기화 시 삭제 표시가 전송됩니다. 이전 데이터가 다시 나타나지 않도록 병합 메타데이터가 유지되며, 여기에는 삭제된 일기 기록의 이전 값이 포함될 수 있습니다. 이전 값이 오래된 클라우드 스냅샷이나 과거에 만든 파일에 남아 있을 수도 있습니다. 따라서 기록 하나를 삭제해도 모든 사본에서 완전히 지워지는 것은 아닙니다."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"‘계정 연결 해제’는 이 기기에서 동기화를 중지하고 기기에 저장된 Google 세션을 삭제합니다. 일기와 Google Drive의 스냅샷은 유지됩니다. 앱 연결을 해제해도 Google 계정은 삭제되지 않습니다."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"이 앱의 데이터를 완전히 삭제하려면:\n• 남아 있는 사본이 다시 업로드되지 않도록 모든 기기에서 동기화를 끕니다.\n• 연결했던 Google 계정으로 브라우저에서 https://drive.google.com/drive/settings 를 엽니다. ‘앱 관리’에서 ‘Diet Diary’(또는 «Дневник диеты»)를 찾은 뒤 ‘옵션’ → ‘숨겨진 앱 데이터 삭제’를 선택합니다. 모바일 페이지에 이 항목이 없다면 데스크톱 사이트나 컴퓨터를 사용하세요.\n• https://myaccount.google.com/connections 에서 앱의 접근 권한을 취소합니다. 접근 권한을 취소하는 것만으로 저장된 사본이 지워지지는 않습니다.\n• 각 기기의 Android 설정에서 앱 저장공간을 지우거나 앱을 삭제합니다.\n• 별도로 저장한 JSON 백업을 선택했던 폴더 및 클라우드 저장공간에서 삭제합니다."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"사용자의 인증 정보 없이는 개발자가 기기의 일기나 개인 Google Drive의 파일을 원격으로 지울 수 없습니다. 개발자에게 비밀번호나 토큰을 공유하지 마세요. 삭제 지원은 이 방침 앞부분의 링크로 프로젝트에 문의하세요. 일기 데이터를 삭제하기 위해 Google 계정을 삭제할 필요는 없습니다."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. 변경 및 문의\n앱 기능이나 데이터 처리 방식이 바뀌면 개정일과 함께 이 방침을 업데이트합니다. 데이터 접근, 수정, 삭제 또는 앱 동작에 관한 문의는 프로젝트의 연락 창구를 이용하세요. 제출한 문의는 답변을 제공하기 위해 처리되며 GitHub에 저장됩니다. GitHub 정책: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+</resources>

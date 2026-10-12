@@ -2,6 +2,7 @@ package ru.dietdiary.offline
 
 import android.app.DatePickerDialog
 import android.content.Context
+import android.content.DialogInterface
 import android.content.res.Configuration
 import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -15,21 +16,38 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
-import java.util.Locale
+import java.time.format.FormatStyle
+import java.time.format.DecimalStyle
+import java.text.NumberFormat
 import kotlin.math.roundToInt
 
 val Green: Color @Composable @ReadOnlyComposable get() = MaterialTheme.colorScheme.primary
 val Cream: Color @Composable @ReadOnlyComposable get() = MaterialTheme.colorScheme.background
 val Ink: Color @Composable @ReadOnlyComposable get() = MaterialTheme.colorScheme.onSurface
 val Muted: Color @Composable @ReadOnlyComposable get() = MaterialTheme.colorScheme.onSurfaceVariant
+
+@Composable
+fun BackNavigationLabel(label: String) {
+    val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
+    Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+        // Keep the arrow LTR internally so Unicode bidi mirroring cannot flip it twice.
+        Text(if (rtl) "→" else "←", style = LocalTextStyle.current.copy(textDirection = TextDirection.Ltr))
+        Text(label.trimStart('‹', '›', '←', '→', ' '))
+    }
+}
 
 private val LightPalette = lightColorScheme(
     primary = Color(0xFF285849), onPrimary = Color.White,
@@ -67,10 +85,14 @@ private val DarkPalette = darkColorScheme(
     error = Color(0xFFFFB4AB), onError = Color(0xFF690005),
     errorContainer = Color(0xFF93000A), onErrorContainer = Color(0xFFFFDAD6),
 )
-fun number(v:Double, digits:Int=1):String = String.format(Locale.forLanguageTag("ru"), "%.${digits}f",v).removeSuffix(",0")
-fun decimal(v:String):Double? = v.trim().replace(',', '.').toDoubleOrNull()?.takeIf { it.isFinite() }
-fun dateLabel(date:String):String = LocalDate.parse(date).format(DateTimeFormatter.ofPattern("d MMMM yyyy",Locale.forLanguageTag("ru")))
-fun sleepLabel(hours:Double):String { val m=(hours*60).roundToInt(); return "${m/60} ч ${m%60} мин" }
+fun number(v:Double, digits:Int=1):String = NumberFormat.getNumberInstance(appLocale()).apply {
+    isGroupingUsed=false
+    minimumFractionDigits=0
+    maximumFractionDigits=digits.coerceAtLeast(0)
+}.format(v)
+fun decimal(v:String):Double? = parseLocalizedNumber(v)
+fun dateLabel(date:String):String = LocalDate.parse(date).format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(appLocale()).withDecimalStyle(DecimalStyle.of(appLocale())))
+fun sleepLabel(hours:Double):String { val m=(hours*60).roundToInt(); return tr(R.string.core_sleep_duration, number((m/60).toDouble(),0), number((m%60).toDouble(),0)) }
 
 @Composable fun DietDiaryTheme(darkTheme:Boolean=isSystemInDarkTheme(),content:@Composable ()->Unit) {
     MaterialTheme(colorScheme=if(darkTheme)DarkPalette else LightPalette, content=content)
@@ -90,26 +112,33 @@ fun sleepLabel(hours:Double):String { val m=(hours*60).roundToInt(); return "${m
     val fatColor=if(dark)Color(0xFFE6C18A)else Color(0xFF85602A)
     val carbColor=if(dark)Color(0xFFD5B2E4)else Color(0xFF80528E)
     Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween) {
-        listOf(Triple("ккал",m.kcal,Green),Triple("белки",m.protein,proteinColor),Triple("жиры",m.fat,fatColor),Triple("углеводы",m.carbs,carbColor)).forEach { (label,value,color) ->
-            Column { Text(number(value),fontSize=if(large)24.sp else 18.sp,fontWeight=FontWeight.Bold,color=color); Text(if(label=="ккал")label else "$label, г",fontSize=11.sp,color=Muted) }
+        listOf(Triple(tr(R.string.core_kcal_unit),m.kcal,Green),Triple(tr(R.string.core_protein_grams),m.protein,proteinColor),Triple(tr(R.string.core_fat_grams),m.fat,fatColor),Triple(tr(R.string.core_carbs_grams),m.carbs,carbColor)).forEach { (label,value,color) ->
+            Column(Modifier.weight(1f).padding(end=4.dp)) { Text(number(value),fontSize=if(large)24.sp else 18.sp,fontWeight=FontWeight.Bold,color=color); Text(label,fontSize=11.sp,color=Muted) }
         }
     }
 }
 @Composable fun DateControl(date:String,onDate:(String)->Unit,arrows:Boolean=true) {
     val context=LocalContext.current
+    val rtl=LocalLayoutDirection.current==LayoutDirection.Rtl
     Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween,verticalAlignment=androidx.compose.ui.Alignment.CenterVertically) {
-        if(arrows) TextButton(onClick={onDate(LocalDate.parse(date).minusDays(1).toString())},modifier=Modifier.width(40.dp),contentPadding=PaddingValues(0.dp)) { Text("‹",fontSize=24.sp) }
+        if(arrows) TextButton(onClick={onDate(LocalDate.parse(date).minusDays(1).toString())},modifier=Modifier.width(48.dp).semantics{contentDescription=tr(R.string.core_previous_day)},contentPadding=PaddingValues(0.dp)) { Text(if(rtl)"›" else "‹",fontSize=24.sp,style=LocalTextStyle.current.copy(textDirection=TextDirection.Ltr)) }
         TextButton(modifier=Modifier.weight(1f),onClick={ val d=LocalDate.parse(date); DatePickerDialog(context,datePickerTheme(context),{_,y,m,day->onDate(LocalDate.of(y,m+1,day).toString())},d.year,d.monthValue-1,d.dayOfMonth).showWithoutEntryAd() }) {
-            Text(if(date==LocalDate.now().toString()) "Сегодня · ${dateLabel(date)}" else dateLabel(date),fontWeight=FontWeight.SemiBold,textAlign=TextAlign.Center,maxLines=2)
+            Text(if(date==LocalDate.now().toString()) tr(R.string.core_today_date, dateLabel(date)) else dateLabel(date),fontWeight=FontWeight.SemiBold,textAlign=TextAlign.Center)
         }
-        if(arrows) TextButton(onClick={onDate(LocalDate.parse(date).plusDays(1).toString())},modifier=Modifier.width(40.dp),contentPadding=PaddingValues(0.dp)) { Text("›",fontSize=24.sp) }
+        if(arrows) TextButton(onClick={onDate(LocalDate.parse(date).plusDays(1).toString())},modifier=Modifier.width(48.dp).semantics{contentDescription=tr(R.string.core_next_day)},contentPadding=PaddingValues(0.dp)) { Text(if(rtl)"‹" else "›",fontSize=24.sp,style=LocalTextStyle.current.copy(textDirection=TextDirection.Ltr)) }
     }
 }
 
 fun DatePickerDialog.showWithoutEntryAd() {
     DietAds.setModalOpen(true)
     setOnDismissListener { DietAds.setModalOpen(false) }
-    try { show() } catch (problem: Exception) { DietAds.setModalOpen(false); throw problem }
+    try {
+        // Platform button translations are not available for every supported app language.
+        // Keep DatePickerDialog's own listener so confirming still validates and returns the date.
+        setButton(DialogInterface.BUTTON_POSITIVE,tr(R.string.core_understood),this)
+        setButton(DialogInterface.BUTTON_NEGATIVE,tr(R.string.core_cancel),this)
+        show()
+    } catch (problem: Exception) { DietAds.setModalOpen(false); throw problem }
 }
 
 fun datePickerTheme(context:Context):Int =

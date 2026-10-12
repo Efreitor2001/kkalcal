@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Talaan ng Diyeta"</string>
+    <string name="core_app_name" formatted="false">"Talaan ng Diyeta"</string>
+    <string name="core_tagline" formatted="false">"Kaloriya, timbang at pag-unlad"</string>
+    <string name="core_open_diary" formatted="false">"Buksan ang talaan"</string>
+    <string name="core_save_failed" formatted="false">"Hindi mai-save ang iyong data"</string>
+    <string name="core_day" formatted="false">"Ngayon"</string>
+    <string name="core_products" formatted="false">"Mga pagkain"</string>
+    <string name="core_diary" formatted="false">"Talaan"</string>
+    <string name="core_charts" formatted="false">"Mga tsart"</string>
+    <string name="core_more" formatted="false">"Higit pa"</string>
+    <string name="core_recipe_saved" formatted="false">"Na-save ang putahe sa iyong mga pagkain"</string>
+    <string name="core_back_to_day" formatted="false">"Bumalik sa iyong araw"</string>
+    <string name="core_action_failed" formatted="false">"Hindi makumpleto ang pagkilos na ito"</string>
+    <string name="core_understood" formatted="false">"OK"</string>
+    <string name="core_restore_available" formatted="false">"Maaari kang magpanumbalik ng backup sa Higit pa."</string>
+    <string name="core_eaten_today" formatted="false">"KINAIN NGAYON"</string>
+    <string name="core_set_goal_hint" formatted="false">"Maaari kang magtakda ng layunin sa Higit pa"</string>
+    <string name="core_add_food" formatted="false">"+ Magdagdag ng pagkain"</string>
+    <string name="core_first_meal" formatted="false">"Magsimula sa unang pagkain mo"</string>
+    <string name="core_first_meal_help" formatted="false">"Pumili ng pagkain at ilagay ang timbang nito sa gramo para makalkula ang kaloriya at mga makronutriyente."</string>
+    <string name="core_my_day" formatted="false">"Ang araw ko"</string>
+    <string name="core_my_day_help" formatted="false">"Timbang, baywang, hakbang, tulog — itala ang alam mo."</string>
+    <string name="core_record_metrics" formatted="false">"Itala ang mga sukat"</string>
+    <string name="core_edit_metrics" formatted="false">"I-edit ang mga sukat"</string>
+    <string name="core_food_state_hint" formatted="false">"Dapat tumukoy ang timbang at sustansiya sa parehong kalagayan ng pagkain: hilaw, tuyo o luto."</string>
+    <string name="core_weight" formatted="false">"Timbang"</string>
+    <string name="core_waist" formatted="false">"Baywang"</string>
+    <string name="core_my_diary" formatted="false">"Ang talaan ko"</string>
+    <string name="core_diary_tagline" formatted="false">"Araw-araw, sa sarili mong bilis"</string>
+    <string name="core_record_day" formatted="false">"+ Magtala ng araw"</string>
+    <string name="core_optional_diary_help" formatted="false">"Opsyonal ang lahat ng sukat. Maaari mong itala ang timbang, tulog o tala lamang. I-tap ang isang entry para i-edit ito."</string>
+    <string name="core_history_starts" formatted="false">"Dito nagsisimula ang iyong kasaysayan"</string>
+    <string name="core_history_help" formatted="false">"Itala ang mga sukat at subaybayan ang pagbabago sa Mga tsart."</string>
+    <string name="core_file_unavailable" formatted="false">"Hindi available ang file"</string>
+    <string name="core_backup_saved" formatted="false">"Na-save ang backup"</string>
+    <string name="core_export_error" formatted="false">"Hindi ma-export ang backup"</string>
+    <string name="core_read_error" formatted="false">"Hindi mabasa ang file"</string>
+    <string name="core_settings_tagline" formatted="false">"Mga setting at backup ng data"</string>
+    <string name="core_your_progress" formatted="false">"Ang pag-unlad mo"</string>
+    <string name="core_achievements_help" formatted="false">"Maliliit na tagumpay para maging ugali ang pagtatala."</string>
+    <string name="core_achievements" formatted="false">"Mga tagumpay"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Opsyonal na koneksyon para i-sync ang talaan sa iyong mga device."</string>
+    <string name="core_cloud_sync" formatted="false">"Pag-sync sa cloud"</string>
+    <string name="core_personal_goals" formatted="false">"Mga personal na layunin"</string>
+    <string name="core_personal_goals_help" formatted="false">"Manwal na itakda ang mga layunin sa kaloriya, makronutriyente at timbang. Maaaring iwang blangko ang anumang layunin."</string>
+    <string name="core_configure_goals" formatted="false">"Itakda ang mga layunin"</string>
+    <string name="core_backup" formatted="false">"Backup"</string>
+    <string name="core_backup_help" formatted="false">"Mga pagkain, kinain, talaan, layunin at tagumpay sa iisang file. Mag-save ng backup bago muling i-install ang app."</string>
+    <string name="core_save_file" formatted="false">"I-save sa file"</string>
+    <string name="core_restore_file" formatted="false">"Ipanumbalik mula sa file"</string>
+    <string name="core_write_locked" formatted="false">"Naka-disable ang pag-save upang protektahan ang orihinal na file. Magpanumbalik ng wastong backup."</string>
+    <string name="core_about_data" formatted="false">"Tungkol sa app at iyong data"</string>
+    <string name="core_about_data_help" formatted="false">"Paano iniimbak ang mga tala, gumagana ang pag-sync at binubura ang data."</string>
+    <string name="core_privacy" formatted="false">"Privacy at pagbura ng data"</string>
+    <string name="core_offline" formatted="false">"Gumagana offline"</string>
+    <string name="core_offline_help" formatted="false">"Opsyonal ang pag-sign in sa Google. Manwal na inilalagay ang mga hakbang at tulog. Kailangan ng internet para sa naka-enable na pag-sync at pag-load ng mga ad. Hindi ipinapadala ang mga tala sa network ng advertising."</string>
+    <string name="core_about_foods" formatted="false">"Tungkol sa mga pagkain"</string>
+    <string name="core_foods_reference" formatted="false">"Mga pagtatantiya bawat 100 g ng nakakain na bahagi ang mga nakalaang halaga. Tingnan ang pakete para sa eksaktong halaga. Hindi muling kinakalkula ang mga naunang tala kapag nag-edit ng pagkain."</string>
+    <string name="core_foods_source" formatted="false">"Pinagmulan ng database: USDA FoodData Central, SR Legacy. Kasama sa bawat pagkain ang kalagayan at detalye ng pinagmulan."</string>
+    <string name="core_restore_title" formatted="false">"Ipanumbalik ang backup na ito?"</string>
+    <string name="core_restore_warning" formatted="false">"Papalitan ng nilalaman ng file na ito ang kasalukuyang mga pagkain, talaan, layunin at tagumpay mo. Mag-save muna ng backup. Kung nakakonekta ang pag-sync, ipapadala rin sa Google Drive ang mga naipanumbalik na pagbabago."</string>
+    <string name="core_backup_restored" formatted="false">"Naipanumbalik ang backup"</string>
+    <string name="core_invalid_file" formatted="false">"Hindi wastong file"</string>
+    <string name="core_replace_data" formatted="false">"Palitan ang data"</string>
+    <string name="core_cancel" formatted="false">"Kanselahin"</string>
+    <string name="core_save" formatted="false">"I-save"</string>
+    <string name="core_calculate_portion" formatted="false">"Kalkulahin ang bahagi"</string>
+    <string name="core_edit_portion" formatted="false">"I-edit ang bahagi"</string>
+    <string name="core_portion_weight" formatted="false">"Timbang ng bahagi, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Maglagay ng timbang na higit sa 0 at hindi lalampas sa 100,000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Idagdag sa talaan"</string>
+    <string name="core_delete_entry" formatted="false">"Burahin ang entry"</string>
+    <string name="core_delete_portion_question" formatted="false">"Burahin ang bahaging ito mula sa talaan mo?"</string>
+    <string name="core_new_food" formatted="false">"Bagong pagkain o putahe"</string>
+    <string name="core_edit_nutrition" formatted="false">"I-edit ang mga halaga ng sustansiya"</string>
+    <string name="core_name" formatted="false">"Pangalan"</string>
+    <string name="core_food" formatted="false">"Pagkain"</string>
+    <string name="core_dish" formatted="false">"Inihandang putahe"</string>
+    <string name="core_category" formatted="false">"Kategorya"</string>
+    <string name="core_per100_hint" formatted="false">"Mga halaga bawat 100 g, mula sa pakete o resipe. Ilagay ang 0 kung walang ganoong sustansiya."</string>
+    <string name="core_kcal" formatted="false">"Kaloriya"</string>
+    <string name="core_protein_grams" formatted="false">"Protina, g"</string>
+    <string name="core_fat_grams" formatted="false">"Taba, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Karbohidrato, g"</string>
+    <string name="core_food_note" formatted="false">"Tala, mga sangkap (opsyonal)"</string>
+    <string name="core_favorite" formatted="false">"Idagdag sa mga paborito"</string>
+    <string name="core_name_category_required" formatted="false">"Maglagay ng pangalan at kategorya"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Maglagay ng mga halaga bawat 100 g: kaloriya 0–1,000; protina, taba at karbohidrato 0–100 g"</string>
+    <string name="core_delete_food" formatted="false">"Alisin sa mga pagkain"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Mananatili ang mga halaga ng mga naunang tala ng pagkain."</string>
+    <string name="core_delete_food_question" formatted="false">"Burahin ang pagkaing ito? Mananatili ang mga entry nito sa talaan."</string>
+    <string name="core_day_entry" formatted="false">"Tala ng araw"</string>
+    <string name="core_optional_fields" formatted="false">"Punan ang anumang field na gusto mo. Iwanang blangko ang iba."</string>
+    <string name="core_editing_existing" formatted="false">"May entry na para sa petsang ito. Ine-edit mo ito."</string>
+    <string name="core_weight_kg" formatted="false">"Timbang, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Baywang, cm"</string>
+    <string name="core_steps" formatted="false">"Mga hakbang"</string>
+    <string name="core_sleep" formatted="false">"Tulog"</string>
+    <string name="core_hours" formatted="false">"Oras"</string>
+    <string name="core_minutes" formatted="false">"Minuto"</string>
+    <string name="core_body_fat_optional" formatted="false">"Taba sa katawan mula sa timbangan, % (opsyonal)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Palatandaan ng takbo ang taba sa katawan mula sa timbangan, hindi eksaktong sukat."</string>
+    <string name="core_strength_training" formatted="false">"Pagsasanay sa lakas"</string>
+    <string name="core_training_example" formatted="false">"Halimbawa: squat 3×10, mga dumbbell na 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Manwal na kabuuan ng sustansiya"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Kung may inilagay, papalitan nito ang kabuuan ng pagkain sa araw. Iwanang blangko para sa awtomatikong pagkalkula."</string>
+    <string name="core_daily_calories" formatted="false">"Kaloriya bawat araw"</string>
+    <string name="core_daily_protein" formatted="false">"Protina bawat araw, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Mga tala at pakiramdam mo"</string>
+    <string name="core_steps_invalid" formatted="false">"Mga hakbang: buong bilang mula 0 hanggang 200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Tulog: 0–24 oras, minuto 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Taba sa katawan"</string>
+    <string name="core_calories" formatted="false">"Kaloriya"</string>
+    <string name="core_protein" formatted="false">"Protina"</string>
+    <string name="core_entry_required" formatted="false">"Magdagdag ng kahit isang sukat o tala"</string>
+    <string name="core_delete_day" formatted="false">"Burahin ang talang ito ng araw"</string>
+    <string name="core_optional_goals" formatted="false">"Opsyonal ang lahat ng layunin. Ang blangkong field ay nangangahulugang walang nakatakdang layunin."</string>
+    <string name="core_calories_per_day" formatted="false">"Kaloriya bawat araw"</string>
+    <string name="core_protein_per_day" formatted="false">"Protina bawat araw, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Taba bawat araw, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Karbohidrato bawat araw, g"</string>
+    <string name="core_target_weight" formatted="false">"Target na timbang, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Suriin ang mga layunin: kaloriya 0–10,000; protina, taba at karbohidrato 0–1,000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Target na timbang: mula 1 hanggang 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Burahin?"</string>
+    <string name="core_delete" formatted="false">"Burahin"</string>
+    <string name="core_select_food" formatted="false">"Pumili ng pagkain"</string>
+    <string name="core_foods_dishes" formatted="false">"Mga pagkain at putahe"</string>
+    <string name="core_search_food" formatted="false">"Maghanap ng pagkain o putahe"</string>
+    <string name="core_new_food_button" formatted="false">"+ Pagkain / putahe"</string>
+    <string name="core_recipe_button" formatted="false">"Mula sa resipe"</string>
+    <string name="core_no_results" formatted="false">"Walang resulta"</string>
+    <string name="core_no_results_help" formatted="false">"Sumubok ng ibang paghahanap o magdagdag ng sarili mong pagkain o inihandang putahe."</string>
+    <string name="core_edit" formatted="false">"I-edit"</string>
+    <string name="core_achievement_unlocked">"🏆 Nakamit na tagumpay! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal ang natitira · layunin %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal na lampas sa layunin mo"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Protina %1$s   Taba %2$s   Karbohidrato %3$s"</string>
+    <string name="core_weight_summary">"Timbang %1$s kg"</string>
+    <string name="core_waist_summary">"Baywang %1$s cm"</string>
+    <string name="core_steps_summary">"Mga hakbang: %1$s"</string>
+    <string name="core_fat_summary">"Taba sa katawan %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (manwal)"</string>
+    <string name="core_manual_protein">"Protina %1$s g (manwal)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Tulog %1$s"</string>
+    <string name="core_scale_fat">"Taba sa katawan mula sa timbangan %1$s%%"</string>
+    <string name="core_training_value">"Pagsasanay: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Protina %1$s g"</string>
+    <string name="core_app_version">"Talaan ng Diyeta · %1$s"</string>
+    <string name="core_per100_summary">"Bawat 100 g: %1$s kcal · Protina %2$s · Taba %3$s · Karbohidrato %4$s"</string>
+    <string name="core_range_invalid">"%1$s: maglagay ng halaga mula %2$s hanggang %3$s"</string>
+    <string name="core_delete_day_question">"Burahin ang mga sukat para sa %1$s? Mananatili ang mga tala ng pagkain."</string>
+    <string name="core_catalog_count">"Mga pagkain: %1$s · sustansiya bawat 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Protina %2$s   Taba %3$s   Karbohidrato %4$s"</string>
+    <string name="core_today_date">"Ngayon · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Manwal na kabuuan mula sa talaan mo ang kaloriya at protina"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Manwal na kabuuan mula sa talaan mo ang kaloriya"</string>
+    <string name="core_manual_protein_total" formatted="false">"Manwal na kabuuan mula sa talaan mo ang protina"</string>
+    <string name="core_macro_goals">"Layunin sa P / T / K: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (manwal)"</string>
+    <string name="core_all" formatted="false">"Lahat"</string>
+    <string name="core_favorites" formatted="false">"Mga paborito"</string>
+    <string name="core_sleep_duration">"%1$s oras %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Nakaraang araw"</string>
+    <string name="core_next_day" formatted="false">"Susunod na araw"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Hindi tugma ang backup ng paglilipat"</string>
+    <string name="data_entry_exists" formatted="false">"May ganitong tala ng pagkain na"</string>
+    <string name="data_entry_missing" formatted="false">"Hindi nakita ang tala ng pagkain"</string>
+    <string name="data_edited_date_changed" formatted="false">"Nagbago ang petsa ng entry na ine-edit"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Sira ang lokal na ID ng device; naka-block ang pagpapanumbalik"</string>
+    <string name="data_sync_invalid" formatted="false">"Hindi wastong data ng pag-sync"</string>
+    <string name="data_diary_read_only" formatted="false">"Protektado ang talaan laban sa pagpapatungan: magpanumbalik ng backup"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Hindi magkakatugma ang data ng talaan"</string>
+    <string name="data_backup_too_large" formatted="false">"Masyadong malaki ang backup"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Sira ang ID ng pag-install"</string>
+    <string name="data_save_verification_failed" formatted="false">"Hindi makumpirma na na-save ang talaan"</string>
+    <string name="data_save_failed" formatted="false">"Hindi mai-save ang talaan"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Mas malaki sa 50 MB ang backup"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Masyadong malaki ang file ng talaan"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Hindi wasto ang laki ng database ng pagkain"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Hindi suportadong bersyon ng backup"</string>
+    <string name="data_too_many_values">"Masyadong maraming halaga sa %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Masyadong maraming pagkain"</string>
+    <string name="data_too_many_entries" formatted="false">"Masyadong maraming tala ng pagkain"</string>
+    <string name="data_too_many_logs" formatted="false">"Masyadong maraming entry sa talaan"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Nauulit na ID ng pagkain"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Nauulit na ID ng tala ng pagkain"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Nauulit na petsa sa talaan"</string>
+    <string name="data_label_product_id" formatted="false">"ID ng pagkain"</string>
+    <string name="data_label_product_name" formatted="false">"Pangalan ng pagkain"</string>
+    <string name="data_label_category" formatted="false">"Kategorya"</string>
+    <string name="data_label_note" formatted="false">"Tala"</string>
+    <string name="data_label_entry_id" formatted="false">"ID ng entry"</string>
+    <string name="data_label_meal" formatted="false">"Pagkain sa araw"</string>
+    <string name="data_food_weight_range" formatted="false">"Dapat higit sa 0 at hindi lalampas sa 100000 g ang timbang ng pagkain"</string>
+    <string name="data_label_weight" formatted="false">"Timbang"</string>
+    <string name="data_label_waist" formatted="false">"Baywang"</string>
+    <string name="data_steps_range" formatted="false">"Dapat nasa pagitan ng 0 at 200000 ang bilang ng hakbang"</string>
+    <string name="data_label_sleep" formatted="false">"Tulog"</string>
+    <string name="data_label_body_fat" formatted="false">"Taba sa katawan"</string>
+    <string name="data_label_daily_calories" formatted="false">"Kaloriya bawat araw"</string>
+    <string name="data_label_daily_protein" formatted="false">"Protina bawat araw"</string>
+    <string name="data_label_workout" formatted="false">"Pagsasanay"</string>
+    <string name="data_label_log_note" formatted="false">"Tala"</string>
+    <string name="data_log_empty" formatted="false">"Maglagay ng kahit isang sukat o tala"</string>
+    <string name="data_label_goal_weight" formatted="false">"Layuning timbang"</string>
+    <string name="data_too_many_achievements" formatted="false">"Masyadong maraming tagumpay"</string>
+    <string name="data_achievement_invalid" formatted="false">"Hindi wastong tagumpay"</string>
+    <string name="data_setting_not_portable" formatted="false">"Hindi maililipat ang setting na ito"</string>
+    <string name="data_setting_invalid">"Hindi wastong halaga para sa setting na %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Kaloriya"</string>
+    <string name="data_label_protein" formatted="false">"Protina"</string>
+    <string name="data_label_fat" formatted="false">"Taba"</string>
+    <string name="data_label_carbs" formatted="false">"Karbohidrato"</string>
+    <string name="data_value_range">"%1$s: pinapayagang saklaw %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: hindi wastong haba"</string>
+    <string name="data_text_character_invalid">"%1$s: hindi wastong karakter"</string>
+    <string name="data_date_format_invalid" formatted="false">"Dapat nasa format na YYYY-MM-DD ang petsa"</string>
+    <string name="data_date_nonexistent">"Hindi wastong petsa: %1$s"</string>
+    <string name="data_field_string_required">"Dapat teksto ang field na %1$s"</string>
+    <string name="data_field_boolean_required">"Dapat halagang Boolean ang field na %1$s"</string>
+    <string name="data_field_number_required">"Dapat numero ang field na %1$s"</string>
+    <string name="data_field_finite_required">"Dapat may hangganang numero ang field na %1$s"</string>
+    <string name="data_field_integer_required">"Dapat buong bilang ang field na %1$s"</string>
+    <string name="data_too_many_items">"Masyadong maraming item sa %1$s"</string>
+    <string name="data_data_file_invalid">"Hindi wastong file ng data: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Wala ang ID ng device"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Naabot na ang limitasyon ng lohikal na orasan"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Masyadong maraming tala ng pag-sync"</string>
+    <string name="data_sync_version_required" formatted="false">"Kailangan ang bersyon 2 ng format para sa pag-sync"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Hindi wastong susi ng pag-sync"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Nauulit na susi ng pag-sync"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Hindi wastong palatandaan ng pagbura"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Hindi wastong data ng pag-sync"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Lampas sa lohikal na orasan ang bersyon ng tala"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Hindi tugma ang data sa metadata ng pag-sync"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Hindi wasto ang haba ng susi ng pag-sync"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Mali ang anyo ng susi ng pag-sync"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Hindi kilalang uri ng pag-sync"</string>
+    <string name="data_record_id_too_long" formatted="false">"Masyadong mahaba ang ID ng tala"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Hindi wastong pagbura ng tagumpay"</string>
+    <string name="data_log_key_invalid" formatted="false">"Hindi wastong susi ng talaan"</string>
+    <string name="data_log_field_unknown" formatted="false">"Hindi kilalang field sa talaan"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Hindi wastong palatandaan ng pagbura sa talaan"</string>
+    <string name="data_goal_unknown" formatted="false">"Hindi kilalang layunin"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"May data ang naburang tala"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Hindi wastong halaga ng pag-sync"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Hindi tugma ang ID ng tala sa susi"</string>
+    <string name="data_field_value_invalid" formatted="false">"Hindi wastong halaga ng field"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Hindi tugma ang petsa ng tagumpay sa susi"</string>
+    <string name="data_note_string_required" formatted="false">"Dapat teksto ang tala"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Hindi wastong naka-sync na tala"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Hindi wastong lohikal na orasan"</string>
+    <string name="data_device_invalid" formatted="false">"Hindi wastong device"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Hindi wastong tatak ng bersyon"</string>
+    <string name="data_google_login_required" formatted="false">"Mag-sign in muli sa Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Masyadong maraming backup sa cloud"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Nagbalik ang Google Drive ng nauulit na pahina"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Mas malaki sa 50 MB ang backup sa cloud"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Walang ibinalik na address ng pag-upload ang Google Drive"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Hindi wastong address ng pag-upload sa Google Drive"</string>
+    <string name="data_back" formatted="false">"‹  Bumalik"</string>
+    <string name="data_cloud_title" formatted="false">"Pag-sync sa cloud"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Ang talaan mo sa iyong mga device"</string>
+    <string name="data_no_account" formatted="false">"Walang nakakonektang account"</string>
+    <string name="data_cloud_intro" formatted="false">"Opsyonal ang pag-sign in. Nakaimbak sa telepono mo ang mga pagkain, kinain, sukat, layunin at tagumpay. Kapag nakakonekta, may kopyang maiimbak sa nakatagong folder sa Google Drive mo."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Pinagsasama ang mga entry sa unang koneksyon. Hindi maa-access ng app ang ibang file sa Drive mo."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Hindi pa na-configure ang pag-sign in sa Google para sa bersyong ito. Gumagana ang talaan at mga backup na file nang walang account."</string>
+    <string name="data_connect_google" formatted="false">"Ikonekta ang Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Awtomatikong pag-sync"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Kapag nagbago ang data at sa background kapag pinapayagan ng Android"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Hindi mabago ang iskedyul. Naka-save ang data mo sa device na ito."</string>
+    <string name="data_sync_start_failed" formatted="false">"Hindi masimulan ang pag-sync. Naka-save ang data mo sa device na ito."</string>
+    <string name="data_sync_now" formatted="false">"I-sync ngayon"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Mag-sign in muli sa Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Idiskonekta ang account"</string>
+    <string name="data_sync_never" formatted="false">"Wala pang pag-sync"</string>
+    <string name="data_offline_saved_title" formatted="false">"Naka-save offline ang data mo"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Kapag naka-enable ang awtomatikong pag-sync, ipinapadala ang mga pagbabago kapag may koneksyon. Kung nagbago ang parehong field sa dalawang device, ginagamit ang bersyon na may mas huling oras ng pagbabago. Pinagsasama ang magkakahiwalay na entry at field."</string>
+    <string name="data_cloud_password_description" formatted="false">"Sa pahina lang ng Google sa browser mo inilalagay ang password. Protektado ng Android Keystore ang mga access token at hindi kasama ang mga ito sa backup."</string>
+    <string name="data_google_connection_title" formatted="false">"Koneksyon sa Google"</string>
+    <string name="data_got_it" formatted="false">"Nauunawaan ko"</string>
+    <string name="data_connect_drive_title" formatted="false">"Ikonekta ang Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Pagsasamahin ang kasalukuyang talaan mo at ang data sa napiling Google account. Gamitin ang parehong personal na account sa iyong mga device. Magbubukas ang pag-sign in sa default na browser mo."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Hindi mabuksan ang pag-sign in. Mag-install o mag-enable ng default na browser at subukang muli."</string>
+    <string name="data_continue" formatted="false">"Magpatuloy"</string>
+    <string name="data_cancel" formatted="false">"Kanselahin"</string>
+    <string name="data_disconnect_title" formatted="false">"Idiskonekta ang account?"</string>
+    <string name="data_disconnect_description" formatted="false">"Hihinto ang pag-sync sa device na ito. Mananatili ang lokal na talaan at mga kopya sa Google Drive. Maaari mong pamahalaan ang pahintulot ng app sa mga setting ng Google Account mo."</string>
+    <string name="data_disconnect_failed" formatted="false">"Hindi maidiskonekta ang account. Subukang muli."</string>
+    <string name="data_disconnect" formatted="false">"Idiskonekta"</string>
+    <string name="data_google_not_connected" formatted="false">"Hindi nakakonekta ang Google"</string>
+    <string name="data_sync_ready" formatted="false">"Handa nang mag-sync"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Naghihintay ma-sync ang mga pagbabago…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Walang koneksyon sa internet. Naka-save ang mga pagbabago sa device na ito."</string>
+    <string name="data_google_not_configured" formatted="false">"Hindi pa na-configure ang pag-sign in sa Google para sa bersyong ito"</string>
+    <string name="data_sync_wait" formatted="false">"Hintaying matapos ang pag-sync"</string>
+    <string name="data_google_connecting" formatted="false">"Ikinokonekta ang Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Nakansela ang koneksyon"</string>
+    <string name="data_connection_rejected" formatted="false">"Nakansela o tinanggihan ng Google ang koneksyon"</string>
+    <string name="data_google_connected_merging" formatted="false">"Nakakonekta ang Google. Pinagsasama ang mga entry…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Hindi makakonekta sa Google. Suriin ang internet at mga setting ng access."</string>
+    <string name="data_account_disconnected" formatted="false">"Nadiskonekta ang account. Nananatili ang data mo sa device na ito."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Walang koneksyon sa internet. Naghihintay ng koneksyon ang pag-sync."</string>
+    <string name="data_sync_scheduled" formatted="false">"Nakaiskedyul ang pag-sync…"</string>
+    <string name="data_sync_running" formatted="false">"Nagsi-sync…"</string>
+    <string name="data_sync_complete" formatted="false">"Kumpleto ang pag-sync"</string>
+    <string name="data_no_internet" formatted="false">"Walang koneksyon sa internet"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Hindi ma-sync. Naka-save ang data mo sa device na ito"</string>
+    <string name="data_page_open_failed" formatted="false">"Hindi mabuksan ang pahina. Maaari mong kopyahin ang address nito mula sa teksto sa ibaba."</string>
+    <string name="data_privacy_title" formatted="false">"Privacy"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Mga tala mo at kontrol sa data"</string>
+    <string name="data_app_purpose" formatted="false">"Tungkol sa app na ito"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Hindi medikal na aparato ang app na ito. Hindi ito sumusuri, gumagamot, nagpapagaling o pumipigil sa anumang sakit. Kumonsulta sa kwalipikadong propesyonal sa kalusugan para sa medikal na payo, pagsusuri at paggamot."</string>
+    <string name="data_manage_delete_data" formatted="false">"Pamahalaan at burahin ang data"</string>
+    <string name="data_delete_data_intro" formatted="false">"Bago burahin ang lahat ng data, i-off ang pag-sync sa lahat ng device mo. Hindi nabubura ang mga kopya sa Google Drive o na-export na file kapag inalis ang app sa telepono."</string>
+    <string name="data_manage_drive_data" formatted="false">"Pamahalaan ang data sa Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Access sa Google Account"</string>
+    <string name="data_android_app_storage" formatted="false">"Storage ng app sa Android"</string>
+    <string name="data_contact_developer" formatted="false">"Makipag-ugnayan sa developer"</string>
+    <string name="data_opening_page" formatted="false">"Pagbubukas ng pahina"</string>
+    <string name="data_advertisement" formatted="false">"ANUNSIYO"</string>
+    <string name="data_ad_information" formatted="false">"Tungkol sa ad na ito"</string>
+    <string name="data_cloud_http_error">"Error sa HTTP ng cloud %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Masyadong malaki ang tugon ng cloud"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Hindi wastong naka-encrypt na sesyon ng pag-sign in"</string>
+    <string name="data_session_save_failed" formatted="false">"Hindi mai-save ang sesyon ng pag-sign in"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Hindi mai-refresh ang access sa Google"</string>
+    <string name="data_diary_read_failed">"Hindi mabasa ang talaan. Napanatili ang orihinal na file. Ipanumbalik ang data mula sa backup. %1$s"</string>
+    <string name="data_last_sync">"Huling pag-sync: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Mga prutas at berry"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Pinatuyong prutas"</string>
+    <string name="data_category_vegetables" formatted="false">"Mga gulay at halamang pampalasa"</string>
+    <string name="data_category_mushrooms" formatted="false">"Mga kabute"</string>
+    <string name="data_category_grains" formatted="false">"Mga butil at pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Mga legumbre"</string>
+    <string name="data_category_meat" formatted="false">"Karne at manok"</string>
+    <string name="data_category_fish" formatted="false">"Isda at pagkaing-dagat"</string>
+    <string name="data_category_dairy" formatted="false">"Mga produktong gatas"</string>
+    <string name="data_category_eggs" formatted="false">"Mga itlog"</string>
+    <string name="data_category_oils" formatted="false">"Mga langis at mantikilya"</string>
+    <string name="data_category_nuts" formatted="false">"Mga mani at buto"</string>
+    <string name="data_category_bread" formatted="false">"Tinapay"</string>
+    <string name="data_category_other" formatted="false">"Iba pang pagkain"</string>
+    <string name="data_category_dishes" formatted="false">"Mga inihandang putahe"</string>
+    <string name="data_category_custom" formatted="false">"Mga pagkain ko"</string>
+    <string name="data_category_other_short" formatted="false">"Iba pa"</string>
+    <string name="data_food_seed_9003" formatted="false">"Mansanas na may balat"</string>
+    <string name="data_catalog_note_1">"Mga halagang sanggunian bawat 100 g ng nakakain na bahagi. Hilaw na pagkain. Kasama ang hibla sa mga halaga ng karbohidrato ng USDA. Maaari mong ayusin ang mga halaga gamit ang label ng produkto. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Saging na binalatan"</string>
+    <string name="data_food_seed_9021" formatted="false">"Aprikot na walang buto"</string>
+    <string name="data_food_seed_9037" formatted="false">"Laman ng abokado"</string>
+    <string name="data_food_seed_9050" formatted="false">"Mga blueberry"</string>
+    <string name="data_food_seed_9070" formatted="false">"Matamis na seresa na walang buto"</string>
+    <string name="data_food_seed_9063" formatted="false">"Maasim na seresa na walang buto"</string>
+    <string name="data_food_seed_9078" formatted="false">"Mga cranberry"</string>
+    <string name="data_food_seed_9083" formatted="false">"Mga itim na currant"</string>
+    <string name="data_food_seed_9084" formatted="false">"Mga pula at puting currant"</string>
+    <string name="data_food_seed_9132" formatted="false">"Ubas"</string>
+    <string name="data_food_seed_9148" formatted="false">"Laman ng kiwi"</string>
+    <string name="data_food_seed_9150" formatted="false">"Limon na binalatan"</string>
+    <string name="data_food_seed_9181" formatted="false">"Laman ng melon na cantaloupe"</string>
+    <string name="data_food_seed_9200" formatted="false">"Laman ng dalandan na orange"</string>
+    <string name="data_food_seed_9218" formatted="false">"Laman ng mandarin"</string>
+    <string name="data_food_seed_9236" formatted="false">"Melokoton na walang buto"</string>
+    <string name="data_food_seed_9252" formatted="false">"Peras"</string>
+    <string name="data_food_seed_9266" formatted="false">"Laman ng pinya"</string>
+    <string name="data_food_seed_9279" formatted="false">"Plum na walang buto"</string>
+    <string name="data_food_seed_9286" formatted="false">"Mga butil ng granada"</string>
+    <string name="data_food_seed_9295" formatted="false">"Laman ng suha"</string>
+    <string name="data_food_seed_9302" formatted="false">"Mga raspberry"</string>
+    <string name="data_food_seed_9316" formatted="false">"Mga presa"</string>
+    <string name="data_food_seed_9326" formatted="false">"Laman ng pakwan"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektarina na walang buto"</string>
+    <string name="data_food_seed_9176" formatted="false">"Laman ng mangga"</string>
+    <string name="data_food_seed_9107" formatted="false">"Mga gooseberry"</string>
+    <string name="data_food_seed_9226" formatted="false">"Laman ng papaya"</string>
+    <string name="data_food_seed_9089" formatted="false">"Sariwang igos"</string>
+    <string name="data_food_seed_9111" formatted="false">"Laman ng grapefruit"</string>
+    <string name="data_food_seed_9032" formatted="false">"Pinatuyong aprikot na walang buto"</string>
+    <string name="data_catalog_note_2">"Mga halagang sanggunian bawat 100 g ng nakakain na bahagi. Kasama ang hibla sa mga halaga ng karbohidrato ng USDA. Maaari mong ayusin ang mga halaga gamit ang label ng produkto. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Prun na walang buto"</string>
+    <string name="data_food_seed_9087" formatted="false">"Datiles na walang buto"</string>
+    <string name="data_food_seed_9298" formatted="false">"Maitim na pasas na walang buto"</string>
+    <string name="data_food_seed_11529" formatted="false">"Sariwang kamatis"</string>
+    <string name="data_food_seed_11205" formatted="false">"Pipino na may balat"</string>
+    <string name="data_food_seed_11090" formatted="false">"Hilaw na brokoli"</string>
+    <string name="data_food_seed_11109" formatted="false">"Hilaw na puting repolyo"</string>
+    <string name="data_food_seed_11124" formatted="false">"Hilaw na karot"</string>
+    <string name="data_food_seed_11135" formatted="false">"Hilaw na koliplor"</string>
+    <string name="data_food_seed_11143" formatted="false">"Mga tangkay ng kintsay"</string>
+    <string name="data_food_seed_11282" formatted="false">"Hilaw na sibuyas"</string>
+    <string name="data_food_seed_11291" formatted="false">"Sibuyas na mura"</string>
+    <string name="data_food_seed_11304" formatted="false">"Hilaw na berdeng gisantes"</string>
+    <string name="data_food_seed_11333" formatted="false">"Berdeng bell pepper"</string>
+    <string name="data_food_seed_11821" formatted="false">"Pulang bell pepper"</string>
+    <string name="data_food_seed_11352" formatted="false">"Hilaw na patatas na may balat"</string>
+    <string name="data_food_seed_11367" formatted="false">"Nilagang patatas na binalatan"</string>
+    <string name="data_catalog_note_3">"Mga halagang sanggunian bawat 100 g ng nakakain na bahagi. Walang idinagdag na asin. Kasama ang hibla sa mga halaga ng karbohidrato ng USDA. Maaari mong ayusin ang mga halaga gamit ang label ng produkto. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Hilaw na zucchini"</string>
+    <string name="data_food_seed_11209" formatted="false">"Hilaw na talong"</string>
+    <string name="data_food_seed_11422" formatted="false">"Hilaw na kalabasa"</string>
+    <string name="data_food_seed_11429" formatted="false">"Labanos"</string>
+    <string name="data_food_seed_11564" formatted="false">"Hilaw na turnip"</string>
+    <string name="data_food_seed_11080" formatted="false">"Hilaw na beetroot"</string>
+    <string name="data_food_seed_11081" formatted="false">"Nilagang beetroot"</string>
+    <string name="data_food_seed_11215" formatted="false">"Bawang"</string>
+    <string name="data_food_seed_11216" formatted="false">"Luya"</string>
+    <string name="data_food_seed_11457" formatted="false">"Hilaw na espinaka"</string>
+    <string name="data_food_seed_11253" formatted="false">"Litsugas na dahon"</string>
+    <string name="data_food_seed_11297" formatted="false">"Sariwang perehil"</string>
+    <string name="data_food_seed_2045" formatted="false">"Sariwang dill"</string>
+    <string name="data_food_seed_11052" formatted="false">"Hilaw na berdeng beans"</string>
+    <string name="data_food_seed_11167" formatted="false">"Hilaw na butil ng matamis na mais"</string>
+    <string name="data_food_seed_11260" formatted="false">"Hilaw na kabuteng butones"</string>
+    <string name="data_food_seed_11261" formatted="false">"Nilagang kabuteng butones, walang asin"</string>
+    <string name="data_food_seed_11987" formatted="false">"Hilaw na kabuteng talaba"</string>
+    <string name="data_food_seed_20009" formatted="false">"Tuyong binalatang bakwit"</string>
+    <string name="data_catalog_note_4">"Mga halagang sanggunian bawat 100 g ng nakakain na bahagi. Inihaw na binalatang bakwit. Kasama ang hibla sa mga halaga ng karbohidrato ng USDA. Maaari mong ayusin ang mga halaga gamit ang label ng produkto. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Bakwit na niluto sa tubig"</string>
+    <string name="data_food_seed_20444" formatted="false">"Tuyong puting bigas"</string>
+    <string name="data_food_seed_20445" formatted="false">"Lutong puting kanin, walang asin"</string>
+    <string name="data_food_seed_20036" formatted="false">"Tuyong brown rice"</string>
+    <string name="data_food_seed_20037" formatted="false">"Lutong brown rice"</string>
+    <string name="data_food_seed_8120" formatted="false">"Tuyong pinatag na oats"</string>
+    <string name="data_food_seed_8121" formatted="false">"Oatmeal na niluto sa tubig, walang asin"</string>
+    <string name="data_food_seed_20005" formatted="false">"Tuyong perlado na sebada"</string>
+    <string name="data_food_seed_20006" formatted="false">"Nilagang perlado na sebada"</string>
+    <string name="data_food_seed_20031" formatted="false">"Tuyong dawa"</string>
+    <string name="data_food_seed_20032" formatted="false">"Nilagang dawa"</string>
+    <string name="data_food_seed_20420" formatted="false">"Tuyong pasta"</string>
+    <string name="data_food_seed_20421" formatted="false">"Nilagang pasta, walang asin"</string>
+    <string name="data_food_seed_16070" formatted="false">"Nilagang lentil, walang asin"</string>
+    <string name="data_food_seed_16057" formatted="false">"Nilagang garbansos, walang asin"</string>
+    <string name="data_food_seed_16033" formatted="false">"Nilagang pulang kidney beans, walang asin"</string>
+    <string name="data_food_seed_5062" formatted="false">"Hilaw na dibdib ng manok na walang balat"</string>
+    <string name="data_food_seed_5064" formatted="false">"Inihaw na dibdib ng manok na walang balat"</string>
+    <string name="data_food_seed_5219" formatted="false">"Hilaw na dibdib ng pabo na walang balat"</string>
+    <string name="data_food_seed_5220" formatted="false">"Inihaw na dibdib ng pabo na walang balat"</string>
+    <string name="data_food_seed_23562" formatted="false">"Hilaw na giniling na baka, 10% taba"</string>
+    <string name="data_food_seed_23566" formatted="false">"Inihaw na giniling na baka, 10% taba"</string>
+    <string name="data_food_seed_10060" formatted="false">"Hilaw na lomong-loob ng baboy, inalis ang nakikitang taba"</string>
+    <string name="data_food_seed_10061" formatted="false">"Inihaw na lomong-loob ng baboy"</string>
+    <string name="data_food_seed_15236" formatted="false">"Hilaw na salmon ng Atlantiko"</string>
+    <string name="data_catalog_note_5">"Mga halagang sanggunian bawat 100 g ng nakakain na bahagi. Hilaw na pagkain. Pinalaki sa palaisdaan. Kasama ang hibla sa mga halaga ng karbohidrato ng USDA. Maaari mong ayusin ang mga halaga gamit ang label ng produkto. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Inihaw na salmon ng Atlantiko"</string>
+    <string name="data_catalog_note_6">"Mga halagang sanggunian bawat 100 g ng nakakain na bahagi. Pinalaki sa palaisdaan. Kasama ang hibla sa mga halaga ng karbohidrato ng USDA. Maaari mong ayusin ang mga halaga gamit ang label ng produkto. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Hilaw na bakalaw ng Atlantiko"</string>
+    <string name="data_food_seed_15266" formatted="false">"Hilaw na pollock ng Alaska"</string>
+    <string name="data_food_seed_15121" formatted="false">"De-latang tuna sa tubig, pinatulo"</string>
+    <string name="data_food_seed_15271" formatted="false">"Lutong hipon na binalatan"</string>
+    <string name="data_food_seed_1211" formatted="false">"Gatas, 3.25% taba"</string>
+    <string name="data_food_seed_1174" formatted="false">"Gatas, 2% taba"</string>
+    <string name="data_food_seed_1082" formatted="false">"Gatas, 1% taba"</string>
+    <string name="data_food_seed_1116" formatted="false">"Plain yogurt na gawa sa buong gatas"</string>
+    <string name="data_food_seed_1256" formatted="false">"Greek yogurt na walang taba"</string>
+    <string name="data_food_seed_1015" formatted="false">"Keso na cottage, 2% taba"</string>
+    <string name="data_catalog_note_7">"Mga halagang sanggunian bawat 100 g ng nakakain na bahagi. Keso na cottage; iba ang halaga ng ibang uri ng kesong namuo. Kasama ang hibla sa mga halaga ng karbohidrato ng USDA. Maaari mong ayusin ang mga halaga gamit ang label ng produkto. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Maasim na krema, humigit-kumulang 19% taba"</string>
+    <string name="data_food_seed_1009" formatted="false">"Keso na cheddar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mozzarella na gawa sa buong gatas"</string>
+    <string name="data_food_seed_1019" formatted="false">"Keso na feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Hilaw na itlog ng manok na walang balat"</string>
+    <string name="data_food_seed_1129" formatted="false">"Nilagang itlog ng manok na walang balat"</string>
+    <string name="data_food_seed_1124" formatted="false">"Hilaw na puti ng itlog ng manok"</string>
+    <string name="data_food_seed_1001" formatted="false">"Mantikilyang may asin"</string>
+    <string name="data_food_seed_4053" formatted="false">"Langis ng oliba"</string>
+    <string name="data_food_seed_4506" formatted="false">"Langis ng mirasol"</string>
+    <string name="data_food_seed_12061" formatted="false">"Mga almendras"</string>
+    <string name="data_food_seed_12155" formatted="false">"Laman ng walnut"</string>
+    <string name="data_food_seed_12120" formatted="false">"Laman ng hazelnut"</string>
+    <string name="data_food_seed_12151" formatted="false">"Hilaw na laman ng pistachio"</string>
+    <string name="data_food_seed_12014" formatted="false">"Pinatuyong laman ng buto ng kalabasa"</string>
+    <string name="data_food_seed_16087" formatted="false">"Hilaw na maning binalatan"</string>
+    <string name="data_food_seed_18069" formatted="false">"Puting tinapay na trigo"</string>
+    <string name="data_food_seed_18075" formatted="false">"Tinapay na buong trigo"</string>
+    <string name="data_food_seed_18060" formatted="false">"Tinapay na rye"</string>
+    <string name="data_food_seed_19296" formatted="false">"Pulut-pukyutan"</string>
+    <string name="data_food_seed_19335" formatted="false">"Asukal"</string>
+    <string name="data_food_seed_19165" formatted="false">"Pulbos ng kakaw na walang pampatamis"</string>
+    <string name="data_food_seed_19904" formatted="false">"Maitim na tsokolate, 70–85% kakaw"</string>
+    <string name="data_meal_breakfast" formatted="false">"Almusal"</string>
+    <string name="data_meal_lunch" formatted="false">"Tanghalian"</string>
+    <string name="data_meal_dinner" formatted="false">"Hapunan"</string>
+    <string name="data_meal_snack" formatted="false">"Meryenda"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Patakaran sa privacy para sa Diet Diary\nRebisyon: Oktubre 9, 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"App: Diet Diary; pamagat sa Google Play sa wikang Ruso: «Дневник диеты: подсчёт калорий»; package: ru.dietdiary.offline.\nDeveloper ng proyekto: Efreitor2001. Para sa mga tanong tungkol sa app at pagproseso ng data, makipag-ugnayan sa https://github.com/Efreitor2001/kkalcal/issues . Pampubliko ang mga isyu sa GitHub: huwag mag-post ng mga tala sa kalusugan, backup, password o token doon."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Talaan sa device mo\nHindi kailangang magrehistro upang magtala. Iniimbak ng app ang mga pagkain at sustansiya ng mga ito, bahagi at petsa ng pagkain, timbang, sukat ng baywang, porsiyento ng taba sa katawan, hakbang, tulog, paglalarawan ng pagsasanay, tala, layunin, tagumpay at mga setting sa pribadong imbakan nito sa device mo. Maaaring iwang blangko ang mga opsyonal na field. Manwal na inilalagay ang mga hakbang, tulog at sukat; hindi binabasa ng app ang Health Connect, mga sensor ng pisikal na aktibidad o data ng medikal na aparato."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Ginagamit ang impormasyong ito upang kalkulahin ang kaloriya at makronutriyente at magbigay ng kasaysayan, mga tsart at tagumpay. Walang pinatatakbong server ang developer na tumatanggap ng nilalaman ng talaan. Kung hindi mo ikokonekta ang Google Drive o ibabahagi mismo ang backup, mananatili sa device mo ang mga tala."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Opsyonal na koneksyon sa Google Drive\nSa iyong kahilingan, binubuksan ng app ang pag-sign in sa Google sa default na browser at humihingi ng access sa nakatagong imbakan ng data ng app na ito sa Google Drive mo. Hindi nagbibigay ang pahintulot na ito ng access sa karaniwang mga dokumento o larawan sa Drive mo."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Kapag nakakonekta, ipinapadala sa Google ang mga pagkain, kinain, sukat sa talaan, tala, layunin, tagumpay, maililipat na setting at metadata ng pagbabago, kabilang ang mga random na ID ng pag-install at timestamp. Sinusuportahan nito ang mga kopyang backup at pagsasama ng mga entry sa iyong mga device. Kung naka-enable ang awtomatikong pag-sync, ipinapadala rin ang mga pagbabago sa background kapag may koneksyon sa network. Maaari mong i-off nang hiwalay ang awtomatikong pag-sync."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Natatanggap ng app ang email address at ID ng napiling Google account upang ipakita ang koneksyon at iugnay ito sa tamang imbakan. Hindi ibinibigay sa app ang Google password mo. Naka-encrypt ang sesyon ng pahintulot na iniimbak sa device gamit ang susi sa Android Keystore. Hindi kasama ang mga token, email address at Google ID sa mga na-export na talaan at naka-sync na kopyang JSON."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Ginagamit lang ang data ng Google para sa pahintulot at pag-sync, hindi kailanman sa advertising. Nalalapat ang patakaran sa privacy ng Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Mga file na backup\nLumilikha ang “I-save sa file” ng JSON file sa lokasyong pipiliin mo. File na pinili mo lang ang binabasa sa pagpapanumbalik. Kung pumili ka ng cloud file provider o nagbahagi ng kopya sa ibang tao, ikaw ang pumipili ng tatanggap. Hindi ine-encrypt ng app ang mga na-export na JSON file: naglalaman ang mga ito ng personal na tala at metadata ng pagbabago."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Advertising\nGumagamit ang app ng Yandex Mobile Ads SDK. Upang mag-load at magpakita ng mga ad, kumokonekta ang device mo sa mga serbisyo ng advertising. Maaaring iproseso ng Yandex ang IP address mo at iba pang teknikal na impormasyon tungkol sa kahilingan sa network, device at software, mga available na advertising o teknikal na ID, at impormasyon tungkol sa mga pagpapakita at pakikipag-ugnayan sa ad."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Sinasabi ng app sa SDK na walang ibinigay na pahintulot, dini-disable ang pagkolekta ng lokasyon at pag-uulat ng App Ad Analytics. Hindi ito humihingi ng pahintulot para sa eksakto o tinatayang lokasyon. Hindi nangangahulugan ang mga setting na ito na walang anumang komunikasyon sa network o pagproseso ng teknikal na data ang serbisyo ng advertising."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Hindi ginagamit ng app ang mga tala ng pagkain, timbang, sukat, tala, layunin, email address o Google ID para sa pag-target ng ad, at hindi idinadagdag ang mga ito sa mga parameter ng kahilingan sa ad. Hindi kailangang manood ng ad upang mag-save ng entry."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Mga tuntunin ng Yandex sa pagproseso, pagpapanatili at pagbura ng data: https://yandex.ru/legal/confidential/ . Maaari mong pamahalaan ang advertising ID sa mga setting ng Android kung sinusuportahan ito ng bersyon ng system mo. Tinutukoy ng patakaran ng serbisyo ng advertising ang tagal ng pagpapanatili ng teknikal na data nito; walang itinatakdang hiwalay na tagal ang developer ng talaan para sa data na iyon."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Proteksyon ng data\nGumagamit ng HTTPS ang komunikasyon sa Google; ayon sa Yandex, ipinapadala ang data ng SDK gamit ang HTTPS/TLS. Protektado ang lokal na talaan ng paghihiwalay ng mga app sa Android. Hindi hiwalay na ine-encrypt ng app ang nilalaman ng talaan o mga kopyang JSON; hindi ito nagbibigay ng end-to-end encryption sa pagitan ng mga device."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Naka-disable ang backup ng system para sa data ng app. Mga code ng resulta lang ang nasa diagnostic log na isinusulat ng sariling code ng app, walang nilalaman ng talaan, email address, token o katawan ng tugon sa network; hindi hiwalay na ipinapadala ng app ang mga log na ito sa developer."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Pagpapanatili at pagbura\nNananatili ang mga lokal na tala hanggang baguhin o burahin mo ang mga ito, o i-clear ang data ng app. Inaalis ng pagbura ng entry ang paglitaw nito sa interface at nagpapadala ng palatandaan ng pagbura sa pag-sync. Pinananatili ang metadata ng pagsasama upang hindi muling lumitaw ang lumang data; maaari itong maglaman ng mga dating halaga mula sa naburang entry. Maaari ring manatili ang mga dating halaga sa lumang kopya sa cloud at mga file na ginawa mo noon. Kaya hindi ganap na binubura ng pagbura ng isang entry ang lahat ng kopya nito."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"Pinatitigil ng “Idiskonekta ang account” ang pag-sync sa device na ito at binubura ang lokal na sesyon ng Google. Mananatili ang talaan at mga kopya sa Google Drive. Hindi nabubura ang Google account mo kapag idiniskonekta ang app."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Upang ganap na burahin ang data ng app na ito:\n• I-off ang pag-sync sa lahat ng device mo upang hindi ma-upload muli ang natitirang mga kopya.\n• Sa browser, buksan ang https://drive.google.com/drive/settings gamit ang Google account na ikinonekta. Piliin ang “Pamahalaan ang mga app”, hanapin ang “Diet Diary” (o «Дневник диеты»), at piliin ang “Mga Opsyon” → “Burahin ang nakatagong data ng app”. Kung hindi ipinapakita ng mobile na pahina ang seksyong ito, gamitin ang desktop na bersyon ng site o isang computer.\n• Bawiin ang access ng app sa https://myaccount.google.com/connections . Hindi sapat ang pagbawi ng access lamang para burahin ang mga naka-save na kopya.\n• I-clear ang storage ng app sa mga setting ng Android sa bawat device, o i-uninstall ang app.\n• Burahin ang hiwalay na na-save na JSON backup mula sa mga folder at cloud storage na pinili mo."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Kung wala ang iyong mga kredensyal, hindi kayang burahin ng developer mula sa malayo ang lokal na talaan o mga file sa personal mong Google Drive. Huwag ibahagi sa developer ang password o mga token mo. Para sa tulong sa pagbura, makipag-ugnayan sa proyekto gamit ang link sa simula ng patakarang ito. Hindi kailangang burahin ang Google account upang burahin ang data ng talaan."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Mga pagbabago at pakikipag-ugnayan\nKapag nagbago ang mga tampok ng app o paraan ng pagproseso ng data, ina-update ang patakarang ito kasama ang petsa ng rebisyon. Para sa mga tanong tungkol sa access, pagwawasto, pagbura ng data o paggana ng app, gamitin ang paraan ng pakikipag-ugnayan ng proyekto. Pinoproseso ang mga kahilingang ipinapadala mo upang makapagbigay ng tugon at iniimbak sa GitHub; nasa https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ang patakaran ng GitHub."</string>
+    <string name="data_category_my_dishes" formatted="false">"Mga putahe ko"</string>
+    <string name="secondary_metric_weight" formatted="false">"Timbang"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Taba sa katawan"</string>
+    <string name="secondary_metric_waist" formatted="false">"Baywang"</string>
+    <string name="secondary_metric_steps" formatted="false">"Mga hakbang"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Tulog"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kaloriya"</string>
+    <string name="secondary_metric_protein" formatted="false">"Protina"</string>
+    <string name="secondary_metric_fat" formatted="false">"Taba"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Karbohidrato"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"hakbang"</string>
+    <string name="secondary_unit_hours" formatted="false">"oras"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Hindi wastong saklaw ng petsa"</string>
+    <string name="secondary_stats_title" formatted="false">"Mga takbo"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Mga tala mo sa malinaw na mga tsart"</string>
+    <string name="secondary_metric" formatted="false">"Sukatan"</string>
+    <string name="secondary_week" formatted="false">"Linggo"</string>
+    <string name="secondary_month" formatted="false">"Buwan"</string>
+    <string name="secondary_year" formatted="false">"Taon"</string>
+    <string name="secondary_custom_period" formatted="false">"Sariling saklaw"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Hindi maaaring mas huli ang petsa ng simula kaysa sa petsa ng pagtatapos"</string>
+    <string name="secondary_no_records" formatted="false">"Wala pang mga tala"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Magdagdag ng pagkain sa talaan o pumili ng ibang panahon."</string>
+    <string name="secondary_chart_tap" formatted="false">"I-tap ang tsart upang pumili ng tala"</string>
+    <string name="secondary_chart_connected" formatted="false">"Pinagdurugtong ng linya ang mga naitalang sukat. Walang sukat sa pagitan ng mga ito."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Kapaki-pakinabang ang pagtatantiya ng timbangan para masubaybayan ang takbo."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Pinapalitan ng manwal na kabuuan ng araw ang kabuuan ng pagkain. Kung wala nito, pinagsasama ang naitalang pagkain. Nilalaktawan ang mga araw na walang tala."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Nakabatay ang mga kabuuan sa naitalang pagkain. Hindi binibilang na zero ang araw na walang tala."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Nilalaktawan ang mga araw na walang tala at hindi isinasama sa average."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Ngayon at kahapon"</string>
+    <string name="secondary_no_today" formatted="false">"Walang tala para ngayon"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Walang tala para kahapon"</string>
+    <string name="secondary_partial_today" formatted="false">"Ginagamit ng paghahambing na ito ang kasalukuyang mga tala. Maaaring hindi pa kumpleto ang data ngayon."</string>
+    <string name="secondary_period_summary" formatted="false">"Buod ng panahon"</string>
+    <string name="secondary_recorded_average" formatted="false">"Average ng mga araw na may tala"</string>
+    <string name="secondary_recorded_days" formatted="false">"Mga araw na may data"</string>
+    <string name="secondary_minimum" formatted="false">"Pinakamababa"</string>
+    <string name="secondary_maximum" formatted="false">"Pinakamataas"</string>
+    <string name="secondary_first_to_last" formatted="false">"Mula sa unang tala hanggang sa huli"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Kailangan ng hindi bababa sa dalawang araw na may tala upang makalkula ang pagbabago."</string>
+    <string name="secondary_history" formatted="false">"Kasaysayan"</string>
+    <string name="secondary_history_recent" formatted="false">"Ang pinakahuling 14 na araw na may data. Pumili ng sariling saklaw para sa mas lumang mga tala."</string>
+    <string name="secondary_history_all" formatted="false">"Lahat ng araw na may tala sa napiling panahon"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Mula %1$s"</string>
+    <string name="secondary_date_until">"Hanggang %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s sa panahong ito"</string>
+    <string name="secondary_weight_goal">"Layunin: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Magdagdag ng sukat sa talaan o pumili ng ibang panahon."</string>
+    <string name="secondary_latest_record">"Pinakahuling tala · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Ngayon: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Kahapon: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Pagbabago: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d sa %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Mga araw na may tala: %2$d, mula %3$s hanggang %4$s. Pinakamababa %5$s, pinakamataas %6$s %7$s. Nasa kasaysayan ang mga halaga."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Pagsisimula"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"I-save ang una mong sukat ng timbang."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Na-save ang una mong sukat ng timbang."</string>
+    <string name="secondary_award_first_food" formatted="false">"Unang entry"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Itala ang unang bahagi ng pagkain mo."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Naitala ang unang bahagi ng pagkain mo."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Isang linggo ng data"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Itala ang timbang sa 7 magkakaibang araw. Hindi kailangang magkakasunod."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"May tala ka ng timbang para sa 7 magkakaibang araw."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Pagiging tuloy-tuloy"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Itala ang timbang sa 30 magkakaibang araw."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"May tala ka ng timbang para sa 30 araw."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Tagapag-ingat ng tala"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Mag-save ng 100 bahagi ng pagkain sa talaan."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Nakapag-save ka na ng 100 bahagi ng pagkain."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Bagong ugali"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Magtala ng pagkain sa loob ng 7 magkakasunod na araw sa kalendaryo."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Nakapagtala ka ng pagkain sa loob ng 7 magkakasunod na araw."</string>
+    <string name="secondary_award_steps" formatted="false">"Bihasa sa paglalakad"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Magtala ng hindi bababa sa 10,000 hakbang sa isang araw."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Nakapagtala ka ng isang araw na may 10,000 hakbang."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Masipag na tagapagtala"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Mag-save ng 100 sukat ng timbang. Isang sukat ang binibilang bawat petsa."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Nakapag-save ka na ng 100 sukat ng timbang."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Beterano ng talaan"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Magtala ng pagkain o sukat sa 90 magkakaibang araw. Hindi kailangang magkakasunod."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"May mga tala ka para sa 90 magkakaibang araw."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"sukat"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"bahagi"</string>
+    <string name="secondary_award_unit_days" formatted="false">"araw"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"magkakasunod na araw"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"hakbang sa isang araw"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"araw na may tala"</string>
+    <string name="secondary_back" formatted="false">"‹  Bumalik"</string>
+    <string name="secondary_achievements" formatted="false">"Mga tagumpay"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Nagiging ugali ang maliliit na hakbang"</string>
+    <string name="secondary_your_progress" formatted="false">"ANG PAG-UNLAD MO"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Mananatili ang mga nakamit na tagumpay kahit i-edit mo ang mga tala."</string>
+    <string name="secondary_awards_regular" formatted="false">"Para sa pagiging tuloy-tuloy at pagpapanatili ng talaan"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Binibilang ang mga naka-save na tala hanggang sa at kasama ang araw na ito."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Nakatagong tagumpay"</string>
+    <string name="secondary_hidden_description" formatted="false">"Ipagpatuloy ang paggamit ng talaan upang makamit ang tagumpay na ito."</string>
+    <string name="secondary_earned" formatted="false">"Nakamit"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Nakatago · naka-lock"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Umuusad · naka-lock"</string>
+    <string name="secondary_locked" formatted="false">"Naka-lock"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Ipapakita ang kailangan at pag-unlad kapag nakamit mo ang gantimpalang ito."</string>
+    <string name="secondary_best_streak" formatted="false">"Pinakamahabang sunod-sunod"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Nakatagong gantimpala"</string>
+    <string name="secondary_unlocked_of">"sa %1$d na nakamit"</string>
+    <string name="secondary_unlocked_date">"Nakamit noong %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Bumalik"</string>
+    <string name="secondary_my_recipe" formatted="false">"Resipe ko"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Timbangin ang mga sangkap bago lutuin. Gamitin ang timbang kapag luto na upang kalkulahin ang mga bahagi. Isama ang mga langis at sarsa."</string>
+    <string name="secondary_recipe_name" formatted="false">"Pangalan ng resipe"</string>
+    <string name="secondary_recipe_example" formatted="false">"Halimbawa, nilagang gulay"</string>
+    <string name="secondary_ingredients" formatted="false">"Mga sangkap"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Magsimula sa mga sangkap"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Idagdag ang bawat sangkap at ilagay ang timbang nito sa gramo."</string>
+    <string name="secondary_edit_weight" formatted="false">"I-edit ang timbang"</string>
+    <string name="secondary_delete" formatted="false">"Burahin"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Magdagdag ng sangkap"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Buong resipe"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Nagbabago ang timbang sa pagluluto dahil nadaragdagan o nababawasan ang tubig. Timbangin ang natapos na putahe nang walang lalagyan."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Timbang kapag luto na, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Ilagay ang timbang pagkatapos maluto"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Maglagay ng timbang na higit sa 0 at hindi lalampas sa 100,000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Hindi awtomatikong pinupunan ang timbang"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Bawat 100 g ng lutong putahe"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Suriin ang timbang kapag luto na at mga sangkap: bawat 100 g ay maaaring maglaman ng hanggang 1,000 kcal at hanggang 100 g ng bawat makronutriyente."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Hindi mai-save ang resipe"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"I-save sa Mga resipe ko"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Kapag na-save, maaari mong itala ang putaheng ito ayon sa timbang ng bahagi."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Timbang ng sangkap bago lutuin"</string>
+    <string name="secondary_grams" formatted="false">"Gramo"</string>
+    <string name="secondary_weight_limits" formatted="false">"Higit sa 0 at hindi lalampas sa 100,000 g"</string>
+    <string name="secondary_add" formatted="false">"Idagdag"</string>
+    <string name="secondary_save" formatted="false">"I-save"</string>
+    <string name="secondary_cancel" formatted="false">"Kanselahin"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Pumili ng sangkap"</string>
+    <string name="secondary_search_food" formatted="false">"Maghanap ng pagkain"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Walang resulta. Maaari mong idagdag ang sarili mong pagkain sa tab na Mga pagkain."</string>
+    <string name="secondary_close" formatted="false">"Isara"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Protina %1$s · Taba %2$s · Karbohidrato %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Timbang ng mga sangkap: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Kinalabasan: %1$s g. Mga sangkap: %2$s"</string>
+</resources>

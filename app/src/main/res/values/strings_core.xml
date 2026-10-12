@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"Diet Diary"</string>
+    <string name="core_tagline" formatted="false">"Calories, weight and progress"</string>
+    <string name="core_open_diary" formatted="false">"Open diary"</string>
+    <string name="core_save_failed" formatted="false">"Could not save your data"</string>
+    <string name="core_day" formatted="false">"Today"</string>
+    <string name="core_products" formatted="false">"Foods"</string>
+    <string name="core_diary" formatted="false">"Diary"</string>
+    <string name="core_charts" formatted="false">"Charts"</string>
+    <string name="core_more" formatted="false">"More"</string>
+    <string name="core_recipe_saved" formatted="false">"Dish saved to your foods"</string>
+    <string name="core_back_to_day" formatted="false">"Back to your day"</string>
+    <string name="core_action_failed" formatted="false">"Could not complete this action"</string>
+    <string name="core_understood" formatted="false">"OK"</string>
+    <string name="core_restore_available" formatted="false">"You can restore a backup in More."</string>
+    <string name="core_eaten_today" formatted="false">"EATEN TODAY"</string>
+    <string name="core_set_goal_hint" formatted="false">"You can set a goal in More"</string>
+    <string name="core_add_food" formatted="false">"+ Add food"</string>
+    <string name="core_first_meal" formatted="false">"Start with your first meal"</string>
+    <string name="core_first_meal_help" formatted="false">"Choose a food and enter its weight in grams to calculate calories and macros."</string>
+    <string name="core_my_day" formatted="false">"My day"</string>
+    <string name="core_my_day_help" formatted="false">"Weight, waist, steps, sleep — record what you know."</string>
+    <string name="core_record_metrics" formatted="false">"Record measurements"</string>
+    <string name="core_edit_metrics" formatted="false">"Edit measurements"</string>
+    <string name="core_food_state_hint" formatted="false">"Food weight and nutrition values must refer to the same state: raw, dry or cooked."</string>
+    <string name="core_weight" formatted="false">"Weight"</string>
+    <string name="core_waist" formatted="false">"Waist"</string>
+    <string name="core_my_diary" formatted="false">"My diary"</string>
+    <string name="core_diary_tagline" formatted="false">"Every day at your own pace"</string>
+    <string name="core_record_day" formatted="false">"+ Record a day"</string>
+    <string name="core_optional_diary_help" formatted="false">"All measurements are optional. You can record just your weight, sleep or a note. Tap an entry to edit it."</string>
+    <string name="core_history_starts" formatted="false">"Your history starts here"</string>
+    <string name="core_history_help" formatted="false">"Record measurements and follow changes in Charts."</string>
+    <string name="core_file_unavailable" formatted="false">"File unavailable"</string>
+    <string name="core_backup_saved" formatted="false">"Backup saved"</string>
+    <string name="core_export_error" formatted="false">"Could not export the backup"</string>
+    <string name="core_read_error" formatted="false">"Could not read the file"</string>
+    <string name="core_settings_tagline" formatted="false">"Settings and data backup"</string>
+    <string name="core_your_progress" formatted="false">"Your progress"</string>
+    <string name="core_achievements_help" formatted="false">"Small achievements for building a diary habit."</string>
+    <string name="core_achievements" formatted="false">"Achievements"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"An optional connection to sync your diary across your devices."</string>
+    <string name="core_cloud_sync" formatted="false">"Cloud sync"</string>
+    <string name="core_personal_goals" formatted="false">"Personal goals"</string>
+    <string name="core_personal_goals_help" formatted="false">"Set your calorie, macro and target weight goals manually. Any goal can be left blank."</string>
+    <string name="core_configure_goals" formatted="false">"Set goals"</string>
+    <string name="core_backup" formatted="false">"Backup"</string>
+    <string name="core_backup_help" formatted="false">"Foods, meals, diary, goals and achievements in one file. Save a backup before reinstalling the app."</string>
+    <string name="core_save_file" formatted="false">"Save to a file"</string>
+    <string name="core_restore_file" formatted="false">"Restore from a file"</string>
+    <string name="core_write_locked" formatted="false">"Saving is disabled to protect the original file. Restore a valid backup."</string>
+    <string name="core_about_data" formatted="false">"About the app and your data"</string>
+    <string name="core_about_data_help" formatted="false">"How records are stored, sync works and data is deleted."</string>
+    <string name="core_privacy" formatted="false">"Privacy and data deletion"</string>
+    <string name="core_offline" formatted="false">"Works offline"</string>
+    <string name="core_offline_help" formatted="false">"Google sign-in is optional. Steps and sleep are entered manually. An internet connection is needed for enabled sync and loading ads. Diary entries are not sent to the advertising network."</string>
+    <string name="core_about_foods" formatted="false">"About foods"</string>
+    <string name="core_foods_reference" formatted="false">"Built-in values are estimates per 100 g of edible portion. Check the packaging for exact values. Editing a food does not recalculate previous meal entries."</string>
+    <string name="core_foods_source" formatted="false">"Database source: USDA FoodData Central, SR Legacy. Individual foods include their state and source details."</string>
+    <string name="core_restore_title" formatted="false">"Restore this backup?"</string>
+    <string name="core_restore_warning" formatted="false">"Your current foods, diary, goals and achievements will be replaced with the contents of this file. Save a backup first. If sync is connected, the restored changes will also be sent to Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Backup restored"</string>
+    <string name="core_invalid_file" formatted="false">"Invalid file"</string>
+    <string name="core_replace_data" formatted="false">"Replace data"</string>
+    <string name="core_cancel" formatted="false">"Cancel"</string>
+    <string name="core_save" formatted="false">"Save"</string>
+    <string name="core_calculate_portion" formatted="false">"Calculate a portion"</string>
+    <string name="core_edit_portion" formatted="false">"Edit portion"</string>
+    <string name="core_portion_weight" formatted="false">"Portion weight, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Enter a weight greater than 0 and no more than 100,000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Add to diary"</string>
+    <string name="core_delete_entry" formatted="false">"Delete entry"</string>
+    <string name="core_delete_portion_question" formatted="false">"Delete this portion from your diary?"</string>
+    <string name="core_new_food" formatted="false">"New food or dish"</string>
+    <string name="core_edit_nutrition" formatted="false">"Edit nutrition values"</string>
+    <string name="core_name" formatted="false">"Name"</string>
+    <string name="core_food" formatted="false">"Food"</string>
+    <string name="core_dish" formatted="false">"Prepared dish"</string>
+    <string name="core_category" formatted="false">"Category"</string>
+    <string name="core_per100_hint" formatted="false">"Values per 100 g, from the packaging or a recipe. Enter 0 if a nutrient is absent."</string>
+    <string name="core_kcal" formatted="false">"Calories"</string>
+    <string name="core_protein_grams" formatted="false">"Protein, g"</string>
+    <string name="core_fat_grams" formatted="false">"Fat, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Carbs, g"</string>
+    <string name="core_food_note" formatted="false">"Note, ingredients (optional)"</string>
+    <string name="core_favorite" formatted="false">"Add to favorites"</string>
+    <string name="core_name_category_required" formatted="false">"Enter a name and category"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Enter values per 100 g: calories 0–1,000; protein, fat and carbs 0–100 g"</string>
+    <string name="core_delete_food" formatted="false">"Delete from foods"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Previous meal entries will keep their values."</string>
+    <string name="core_delete_food_question" formatted="false">"Delete this food? Its diary entries will be kept."</string>
+    <string name="core_day_entry" formatted="false">"Daily entry"</string>
+    <string name="core_optional_fields" formatted="false">"Fill in any fields you want. Leave the rest blank."</string>
+    <string name="core_editing_existing" formatted="false">"There is already an entry for this date. You are editing it."</string>
+    <string name="core_weight_kg" formatted="false">"Weight, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Waist, cm"</string>
+    <string name="core_steps" formatted="false">"Steps"</string>
+    <string name="core_sleep" formatted="false">"Sleep"</string>
+    <string name="core_hours" formatted="false">"Hours"</string>
+    <string name="core_minutes" formatted="false">"Minutes"</string>
+    <string name="core_body_fat_optional" formatted="false">"Scale body fat, % (optional)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Body fat from a scale is a trend indicator, not a precise measurement."</string>
+    <string name="core_strength_training" formatted="false">"Strength training"</string>
+    <string name="core_training_example" formatted="false">"For example: squats 3×10, 12 kg dumbbells"</string>
+    <string name="core_manual_nutrition" formatted="false">"Manual nutrition totals"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"If entered, these values override the food totals for the day. Leave blank for automatic calculation."</string>
+    <string name="core_daily_calories" formatted="false">"Daily calories"</string>
+    <string name="core_daily_protein" formatted="false">"Daily protein, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Notes and how you feel"</string>
+    <string name="core_steps_invalid" formatted="false">"Steps: a whole number from 0 to 200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Sleep: 0–24 hours, minutes 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Body fat"</string>
+    <string name="core_calories" formatted="false">"Calories"</string>
+    <string name="core_protein" formatted="false">"Protein"</string>
+    <string name="core_entry_required" formatted="false">"Add at least one measurement or a note"</string>
+    <string name="core_delete_day" formatted="false">"Delete this daily entry"</string>
+    <string name="core_optional_goals" formatted="false">"All goals are optional. A blank field means no goal is set."</string>
+    <string name="core_calories_per_day" formatted="false">"Calories per day"</string>
+    <string name="core_protein_per_day" formatted="false">"Protein per day, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Fat per day, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Carbs per day, g"</string>
+    <string name="core_target_weight" formatted="false">"Target weight, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Check your goals: calories 0–10,000; protein, fat and carbs 0–1,000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Target weight: from 1 to 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Delete?"</string>
+    <string name="core_delete" formatted="false">"Delete"</string>
+    <string name="core_select_food" formatted="false">"Choose food"</string>
+    <string name="core_foods_dishes" formatted="false">"Foods and dishes"</string>
+    <string name="core_search_food" formatted="false">"Search for a food or dish"</string>
+    <string name="core_new_food_button" formatted="false">"+ Food / dish"</string>
+    <string name="core_recipe_button" formatted="false">"From a recipe"</string>
+    <string name="core_no_results" formatted="false">"No results"</string>
+    <string name="core_no_results_help" formatted="false">"Try another search or add your own food or prepared dish."</string>
+    <string name="core_edit" formatted="false">"Edit"</string>
+    <string name="core_achievement_unlocked">"🏆 Achievement unlocked! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal left · goal %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal above your goal"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Protein %1$s   Fat %2$s   Carbs %3$s"</string>
+    <string name="core_weight_summary">"Weight %1$s kg"</string>
+    <string name="core_waist_summary">"Waist %1$s cm"</string>
+    <string name="core_steps_summary">"Steps: %1$s"</string>
+    <string name="core_fat_summary">"Body fat %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (manual)"</string>
+    <string name="core_manual_protein">"Protein %1$s g (manual)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Sleep %1$s"</string>
+    <string name="core_scale_fat">"Scale body fat %1$s%%"</string>
+    <string name="core_training_value">"Training: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Protein %1$s g"</string>
+    <string name="core_app_version">"Diet Diary · %1$s"</string>
+    <string name="core_per100_summary">"Per 100 g: %1$s kcal · Protein %2$s · Fat %3$s · Carbs %4$s"</string>
+    <string name="core_range_invalid">"%1$s: enter a value from %2$s to %3$s"</string>
+    <string name="core_delete_day_question">"Delete measurements for %1$s? Food entries will be kept."</string>
+    <string name="core_catalog_count">"Foods: %1$s · nutrition per 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Protein %2$s   Fat %3$s   Carbs %4$s"</string>
+    <string name="core_today_date">"Today · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Calories and protein are manual totals from your diary"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Calories are a manual total from your diary"</string>
+    <string name="core_manual_protein_total" formatted="false">"Protein is a manual total from your diary"</string>
+    <string name="core_macro_goals">"P / F / C goals: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (manual)"</string>
+    <string name="core_all" formatted="false">"All"</string>
+    <string name="core_favorites" formatted="false">"Favorites"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Previous day"</string>
+    <string name="core_next_day" formatted="false">"Next day"</string>
+</resources>

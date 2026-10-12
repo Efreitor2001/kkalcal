@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_migration_backup_mismatch" formatted="false">"Не совпадает резервная копия миграции"</string>
+    <string name="data_entry_exists" formatted="false">"Такая запись еды уже существует"</string>
+    <string name="data_entry_missing" formatted="false">"Запись еды не найдена"</string>
+    <string name="data_edited_date_changed" formatted="false">"Изменилась дата редактируемой записи"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Повреждён локальный идентификатор устройства; восстановление заблокировано"</string>
+    <string name="data_sync_invalid" formatted="false">"Некорректные данные синхронизации"</string>
+    <string name="data_diary_read_only" formatted="false">"Дневник защищён от перезаписи: восстановите резервную копию"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Нарушена согласованность дневника"</string>
+    <string name="data_backup_too_large" formatted="false">"Резервная копия слишком большая"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Повреждён идентификатор установки"</string>
+    <string name="data_save_verification_failed" formatted="false">"Не удалось проверить сохранение дневника"</string>
+    <string name="data_save_failed" formatted="false">"Не удалось сохранить дневник"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Резервная копия больше 50 МБ"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Файл дневника слишком большой"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Неверный размер базы продуктов"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Неподдерживаемая версия резервной копии"</string>
+    <string name="data_too_many_values">"Слишком много значений %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Слишком много продуктов"</string>
+    <string name="data_too_many_entries" formatted="false">"Слишком много записей еды"</string>
+    <string name="data_too_many_logs" formatted="false">"Слишком много записей дневника"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Повторяющийся ID продукта"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Повторяющийся ID записи еды"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Повторяющаяся дата дневника"</string>
+    <string name="data_label_product_id" formatted="false">"ID продукта"</string>
+    <string name="data_label_product_name" formatted="false">"Название продукта"</string>
+    <string name="data_label_category" formatted="false">"Категория"</string>
+    <string name="data_label_note" formatted="false">"Примечание"</string>
+    <string name="data_label_entry_id" formatted="false">"ID записи"</string>
+    <string name="data_label_meal" formatted="false">"Приём пищи"</string>
+    <string name="data_food_weight_range" formatted="false">"Вес еды должен быть больше 0 и не больше 100000 г"</string>
+    <string name="data_label_weight" formatted="false">"Вес"</string>
+    <string name="data_label_waist" formatted="false">"Талия"</string>
+    <string name="data_steps_range" formatted="false">"Количество шагов должно быть от 0 до 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Сон"</string>
+    <string name="data_label_body_fat" formatted="false">"Доля жира"</string>
+    <string name="data_label_daily_calories" formatted="false">"Калории за день"</string>
+    <string name="data_label_daily_protein" formatted="false">"Белок за день"</string>
+    <string name="data_label_workout" formatted="false">"Тренировка"</string>
+    <string name="data_label_log_note" formatted="false">"Заметка"</string>
+    <string name="data_log_empty" formatted="false">"Укажите хотя бы один показатель или заметку"</string>
+    <string name="data_label_goal_weight" formatted="false">"Целевой вес"</string>
+    <string name="data_too_many_achievements" formatted="false">"Слишком много достижений"</string>
+    <string name="data_achievement_invalid" formatted="false">"Некорректное достижение"</string>
+    <string name="data_setting_not_portable" formatted="false">"Непереносимая настройка"</string>
+    <string name="data_setting_invalid">"Некорректное значение настройки %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Калории"</string>
+    <string name="data_label_protein" formatted="false">"Белки"</string>
+    <string name="data_label_fat" formatted="false">"Жиры"</string>
+    <string name="data_label_carbs" formatted="false">"Углеводы"</string>
+    <string name="data_value_range">"%1$s: допустимый диапазон %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: неверная длина"</string>
+    <string name="data_text_character_invalid">"%1$s: недопустимый символ"</string>
+    <string name="data_date_format_invalid" formatted="false">"Дата должна иметь формат ГГГГ-ММ-ДД"</string>
+    <string name="data_date_nonexistent">"Несуществующая дата: %1$s"</string>
+    <string name="data_field_string_required">"Поле %1$s должно быть строкой"</string>
+    <string name="data_field_boolean_required">"Поле %1$s должно быть логическим значением"</string>
+    <string name="data_field_number_required">"Поле %1$s должно быть числом"</string>
+    <string name="data_field_finite_required">"Поле %1$s должно быть конечным числом"</string>
+    <string name="data_field_integer_required">"Поле %1$s должно быть целым числом"</string>
+    <string name="data_too_many_items">"Слишком много элементов в %1$s"</string>
+    <string name="data_data_file_invalid">"Некорректный файл данных: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Нет идентификатора устройства"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Логические часы исчерпаны"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Слишком много записей синхронизации"</string>
+    <string name="data_sync_version_required" formatted="false">"Для синхронизации требуется формат версии 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Неверный ключ синхронизации"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Повторяющийся ключ синхронизации"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Неверный флаг удаления"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Неверные данные синхронизации"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Версия записи превышает логические часы"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Данные не совпадают с метаданными синхронизации"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Некорректная длина ключа синхронизации"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Некорректный ключ синхронизации"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Неизвестный тип синхронизации"</string>
+    <string name="data_record_id_too_long" formatted="false">"ID записи слишком длинный"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Неверное удаление достижения"</string>
+    <string name="data_log_key_invalid" formatted="false">"Некорректный ключ дневника"</string>
+    <string name="data_log_field_unknown" formatted="false">"Неизвестное поле дневника"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Неверная метка удаления дневника"</string>
+    <string name="data_goal_unknown" formatted="false">"Неизвестная цель"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Удалённая запись содержит данные"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Неверное значение синхронизации"</string>
+    <string name="data_record_id_mismatch" formatted="false">"ID записи не совпадает с ключом"</string>
+    <string name="data_field_value_invalid" formatted="false">"Неверное значение поля"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Дата достижения не совпадает с ключом"</string>
+    <string name="data_note_string_required" formatted="false">"Заметка должна быть строкой"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Некорректная заметка синхронизации"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Неверные логические часы"</string>
+    <string name="data_device_invalid" formatted="false">"Неверное устройство"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Неверная метка версии"</string>
+    <string name="data_google_login_required" formatted="false">"Необходим повторный вход в Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Слишком много облачных копий"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Повтор страницы Google Drive"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Облачная копия больше 50 МБ"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive не вернул адрес загрузки"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Недопустимый адрес загрузки Google Drive"</string>
+    <string name="data_back" formatted="false">"‹  Назад"</string>
+    <string name="data_cloud_title" formatted="false">"Облачная синхронизация"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Ваш дневник на ваших устройствах"</string>
+    <string name="data_no_account" formatted="false">"Без аккаунта"</string>
+    <string name="data_cloud_intro" formatted="false">"Вход необязателен. Продукты, еда, измерения, цели и достижения хранятся на телефоне. После подключения копия будет в скрытой папке вашего Google Drive."</string>
+    <string name="data_cloud_first_connection" formatted="false">"При первом подключении записи объединяются. Другие файлы на вашем Диске приложению недоступны."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Подключение Google ещё не настроено для этой сборки. Дневник и резервные копии работают без аккаунта."</string>
+    <string name="data_connect_google" formatted="false">"Подключить Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Автоматическая синхронизация"</string>
+    <string name="data_automatic_sync_description" formatted="false">"При изменениях и в фоне, когда разрешает Android"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Не удалось изменить расписание. Данные сохранены на устройстве."</string>
+    <string name="data_sync_start_failed" formatted="false">"Не удалось запустить синхронизацию. Данные сохранены на устройстве."</string>
+    <string name="data_sync_now" formatted="false">"Синхронизировать сейчас"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Повторный вход в Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Отключить аккаунт"</string>
+    <string name="data_sync_never" formatted="false">"Синхронизаций пока не было"</string>
+    <string name="data_offline_saved_title" formatted="false">"Без интернета всё сохраняется"</string>
+    <string name="data_cloud_merge_description" formatted="false">"С включённой автосинхронизацией изменения отправятся после появления сети. Если один и тот же показатель изменён на двух устройствах, применяется версия с более поздней отметкой изменения. Независимые записи и поля объединяются."</string>
+    <string name="data_cloud_password_description" formatted="false">"Пароль вводится только на странице Google в браузере. Токены доступа защищены хранилищем ключей Android и не включаются в резервные копии."</string>
+    <string name="data_google_connection_title" formatted="false">"Подключение Google"</string>
+    <string name="data_got_it" formatted="false">"Понятно"</string>
+    <string name="data_connect_drive_title" formatted="false">"Подключить Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Текущий дневник будет объединён с данными выбранного Google-аккаунта. Используйте один личный аккаунт на своих устройствах. Вход откроется в системном браузере."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Не удалось открыть вход. Установите или включите системный браузер и повторите попытку."</string>
+    <string name="data_continue" formatted="false">"Продолжить"</string>
+    <string name="data_cancel" formatted="false">"Отмена"</string>
+    <string name="data_disconnect_title" formatted="false">"Отключить аккаунт?"</string>
+    <string name="data_disconnect_description" formatted="false">"Синхронизация на этом устройстве остановится. Локальный дневник и копии в Google Drive сохранятся. Управлять разрешением приложения можно в настройках Google-аккаунта."</string>
+    <string name="data_disconnect_failed" formatted="false">"Не удалось отключить аккаунт. Повторите попытку."</string>
+    <string name="data_disconnect" formatted="false">"Отключить"</string>
+    <string name="data_google_not_connected" formatted="false">"Google не подключён"</string>
+    <string name="data_sync_ready" formatted="false">"Готово к синхронизации"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Изменения ожидают синхронизации…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Нет подключения к интернету. Изменения сохранены на устройстве."</string>
+    <string name="data_google_not_configured" formatted="false">"В этой сборке подключение Google ещё не настроено"</string>
+    <string name="data_sync_wait" formatted="false">"Дождитесь завершения синхронизации"</string>
+    <string name="data_google_connecting" formatted="false">"Подключение Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Подключение отменено"</string>
+    <string name="data_connection_rejected" formatted="false">"Подключение отменено или отклонено Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google подключён. Объединяем записи…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Не удалось подключить Google. Проверьте интернет и настройку доступа."</string>
+    <string name="data_account_disconnected" formatted="false">"Аккаунт отключён. Данные остались на устройстве."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Нет подключения к интернету. Синхронизация ожидает сеть."</string>
+    <string name="data_sync_scheduled" formatted="false">"Синхронизация запланирована…"</string>
+    <string name="data_sync_running" formatted="false">"Синхронизация…"</string>
+    <string name="data_sync_complete" formatted="false">"Синхронизация выполнена"</string>
+    <string name="data_no_internet" formatted="false">"Нет подключения к интернету"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Не удалось синхронизировать. Данные сохранены на устройстве"</string>
+    <string name="data_page_open_failed" formatted="false">"Не удалось открыть страницу. Её адрес можно скопировать из текста ниже."</string>
+    <string name="data_privacy_title" formatted="false">"Конфиденциальность"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Ваши записи и управление данными"</string>
+    <string name="data_app_purpose" formatted="false">"О назначении приложения"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Приложение не является медицинским изделием. Оно не диагностирует, не лечит, не излечивает и не предотвращает заболевания. За медицинскими рекомендациями, диагностикой и лечением обращайтесь к квалифицированному врачу."</string>
+    <string name="data_manage_delete_data" formatted="false">"Управление и удаление данных"</string>
+    <string name="data_delete_data_intro" formatted="false">"Перед полной очисткой отключите синхронизацию на всех своих устройствах. Удаление приложения с телефона не удаляет копии в Google Drive и экспортированные файлы."</string>
+    <string name="data_manage_drive_data" formatted="false">"Управление данными Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Доступ к Google-аккаунту"</string>
+    <string name="data_android_app_storage" formatted="false">"Хранилище приложения в Android"</string>
+    <string name="data_contact_developer" formatted="false">"Связаться с разработчиком"</string>
+    <string name="data_opening_page" formatted="false">"Открытие страницы"</string>
+    <string name="data_advertisement" formatted="false">"РЕКЛАМА"</string>
+    <string name="data_ad_information" formatted="false">"Информация о рекламе"</string>
+    <string name="data_cloud_http_error">"Cloud HTTP %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Cloud response too large"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Invalid encrypted session"</string>
+    <string name="data_session_save_failed" formatted="false">"Session persistence failed"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Token refresh unavailable"</string>
+    <string name="data_diary_read_failed">"Не удалось прочитать дневник. Исходный файл сохранён. Восстановите данные из резервной копии. %1$s"</string>
+    <string name="data_last_sync">"Последняя синхронизация: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Фрукты и ягоды"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Сухофрукты"</string>
+    <string name="data_category_vegetables" formatted="false">"Овощи и зелень"</string>
+    <string name="data_category_mushrooms" formatted="false">"Грибы"</string>
+    <string name="data_category_grains" formatted="false">"Крупы и макароны"</string>
+    <string name="data_category_legumes" formatted="false">"Бобовые"</string>
+    <string name="data_category_meat" formatted="false">"Мясо и птица"</string>
+    <string name="data_category_fish" formatted="false">"Рыба и морепродукты"</string>
+    <string name="data_category_dairy" formatted="false">"Молочные продукты"</string>
+    <string name="data_category_eggs" formatted="false">"Яйца"</string>
+    <string name="data_category_oils" formatted="false">"Масла"</string>
+    <string name="data_category_nuts" formatted="false">"Орехи и семена"</string>
+    <string name="data_category_bread" formatted="false">"Хлеб"</string>
+    <string name="data_category_other" formatted="false">"Другие продукты"</string>
+    <string name="data_category_dishes" formatted="false">"Готовые блюда"</string>
+    <string name="data_category_custom" formatted="false">"Мои продукты"</string>
+    <string name="data_category_other_short" formatted="false">"Другое"</string>
+    <string name="data_food_seed_9003" formatted="false">"Яблоко с кожурой"</string>
+    <string name="data_catalog_note_1">"Справочно на 100 г съедобной части. Сырой продукт. Углеводы USDA включают клетчатку. Значения можно изменить по этикетке. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Банан без кожуры"</string>
+    <string name="data_food_seed_9021" formatted="false">"Абрикос без косточки"</string>
+    <string name="data_food_seed_9037" formatted="false">"Авокадо, мякоть"</string>
+    <string name="data_food_seed_9050" formatted="false">"Голубика"</string>
+    <string name="data_food_seed_9070" formatted="false">"Черешня без косточки"</string>
+    <string name="data_food_seed_9063" formatted="false">"Вишня без косточки"</string>
+    <string name="data_food_seed_9078" formatted="false">"Клюква"</string>
+    <string name="data_food_seed_9083" formatted="false">"Смородина чёрная"</string>
+    <string name="data_food_seed_9084" formatted="false">"Смородина красная и белая"</string>
+    <string name="data_food_seed_9132" formatted="false">"Виноград"</string>
+    <string name="data_food_seed_9148" formatted="false">"Киви, мякоть"</string>
+    <string name="data_food_seed_9150" formatted="false">"Лимон без кожуры"</string>
+    <string name="data_food_seed_9181" formatted="false">"Дыня канталупа, мякоть"</string>
+    <string name="data_food_seed_9200" formatted="false">"Апельсин, мякоть"</string>
+    <string name="data_food_seed_9218" formatted="false">"Мандарин, мякоть"</string>
+    <string name="data_food_seed_9236" formatted="false">"Персик без косточки"</string>
+    <string name="data_food_seed_9252" formatted="false">"Груша"</string>
+    <string name="data_food_seed_9266" formatted="false">"Ананас, мякоть"</string>
+    <string name="data_food_seed_9279" formatted="false">"Слива без косточки"</string>
+    <string name="data_food_seed_9286" formatted="false">"Гранат, зёрна"</string>
+    <string name="data_food_seed_9295" formatted="false">"Помело, мякоть"</string>
+    <string name="data_food_seed_9302" formatted="false">"Малина"</string>
+    <string name="data_food_seed_9316" formatted="false">"Клубника"</string>
+    <string name="data_food_seed_9326" formatted="false">"Арбуз, мякоть"</string>
+    <string name="data_food_seed_9191" formatted="false">"Нектарин без косточки"</string>
+    <string name="data_food_seed_9176" formatted="false">"Манго, мякоть"</string>
+    <string name="data_food_seed_9107" formatted="false">"Крыжовник"</string>
+    <string name="data_food_seed_9226" formatted="false">"Папайя, мякоть"</string>
+    <string name="data_food_seed_9089" formatted="false">"Инжир свежий"</string>
+    <string name="data_food_seed_9111" formatted="false">"Грейпфрут, мякоть"</string>
+    <string name="data_food_seed_9032" formatted="false">"Курага без косточки"</string>
+    <string name="data_catalog_note_2">"Справочно на 100 г съедобной части. Углеводы USDA включают клетчатку. Значения можно изменить по этикетке. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Чернослив без косточки"</string>
+    <string name="data_food_seed_9087" formatted="false">"Финики без косточки"</string>
+    <string name="data_food_seed_9298" formatted="false">"Изюм тёмный без косточек"</string>
+    <string name="data_food_seed_11529" formatted="false">"Помидор свежий"</string>
+    <string name="data_food_seed_11205" formatted="false">"Огурец с кожурой"</string>
+    <string name="data_food_seed_11090" formatted="false">"Брокколи сырая"</string>
+    <string name="data_food_seed_11109" formatted="false">"Капуста белокочанная сырая"</string>
+    <string name="data_food_seed_11124" formatted="false">"Морковь сырая"</string>
+    <string name="data_food_seed_11135" formatted="false">"Капуста цветная сырая"</string>
+    <string name="data_food_seed_11143" formatted="false">"Сельдерей, стебли"</string>
+    <string name="data_food_seed_11282" formatted="false">"Лук репчатый сырой"</string>
+    <string name="data_food_seed_11291" formatted="false">"Лук зелёный"</string>
+    <string name="data_food_seed_11304" formatted="false">"Горошек зелёный сырой"</string>
+    <string name="data_food_seed_11333" formatted="false">"Перец сладкий зелёный"</string>
+    <string name="data_food_seed_11821" formatted="false">"Перец сладкий красный"</string>
+    <string name="data_food_seed_11352" formatted="false">"Картофель сырой с кожурой"</string>
+    <string name="data_food_seed_11367" formatted="false">"Картофель отварной без кожуры"</string>
+    <string name="data_catalog_note_3">"Справочно на 100 г съедобной части. Без добавленной соли. Углеводы USDA включают клетчатку. Значения можно изменить по этикетке. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Кабачок цукини сырой"</string>
+    <string name="data_food_seed_11209" formatted="false">"Баклажан сырой"</string>
+    <string name="data_food_seed_11422" formatted="false">"Тыква сырая"</string>
+    <string name="data_food_seed_11429" formatted="false">"Редис"</string>
+    <string name="data_food_seed_11564" formatted="false">"Репа сырая"</string>
+    <string name="data_food_seed_11080" formatted="false">"Свёкла сырая"</string>
+    <string name="data_food_seed_11081" formatted="false">"Свёкла отварная"</string>
+    <string name="data_food_seed_11215" formatted="false">"Чеснок"</string>
+    <string name="data_food_seed_11216" formatted="false">"Имбирь, корень"</string>
+    <string name="data_food_seed_11457" formatted="false">"Шпинат сырой"</string>
+    <string name="data_food_seed_11253" formatted="false">"Салат листовой"</string>
+    <string name="data_food_seed_11297" formatted="false">"Петрушка свежая"</string>
+    <string name="data_food_seed_2045" formatted="false">"Укроп свежий"</string>
+    <string name="data_food_seed_11052" formatted="false">"Фасоль стручковая сырая"</string>
+    <string name="data_food_seed_11167" formatted="false">"Кукуруза сладкая, сырые зёрна"</string>
+    <string name="data_food_seed_11260" formatted="false">"Шампиньоны сырые"</string>
+    <string name="data_food_seed_11261" formatted="false">"Шампиньоны отварные без соли"</string>
+    <string name="data_food_seed_11987" formatted="false">"Вешенки сырые"</string>
+    <string name="data_food_seed_20009" formatted="false">"Гречка, сухая крупа"</string>
+    <string name="data_catalog_note_4">"Справочно на 100 г съедобной части. Обжаренная гречневая крупа. Углеводы USDA включают клетчатку. Значения можно изменить по этикетке. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Гречка отварная на воде"</string>
+    <string name="data_food_seed_20444" formatted="false">"Рис белый, сухая крупа"</string>
+    <string name="data_food_seed_20445" formatted="false">"Рис белый отварной без соли"</string>
+    <string name="data_food_seed_20036" formatted="false">"Рис бурый, сухая крупа"</string>
+    <string name="data_food_seed_20037" formatted="false">"Рис бурый отварной"</string>
+    <string name="data_food_seed_8120" formatted="false">"Овсяные хлопья сухие"</string>
+    <string name="data_food_seed_8121" formatted="false">"Овсяная каша на воде без соли"</string>
+    <string name="data_food_seed_20005" formatted="false">"Перловка, сухая крупа"</string>
+    <string name="data_food_seed_20006" formatted="false">"Перловка отварная"</string>
+    <string name="data_food_seed_20031" formatted="false">"Пшено, сухая крупа"</string>
+    <string name="data_food_seed_20032" formatted="false">"Пшено отварное"</string>
+    <string name="data_food_seed_20420" formatted="false">"Макароны сухие"</string>
+    <string name="data_food_seed_20421" formatted="false">"Макароны отварные без соли"</string>
+    <string name="data_food_seed_16070" formatted="false">"Чечевица отварная без соли"</string>
+    <string name="data_food_seed_16057" formatted="false">"Нут отварной без соли"</string>
+    <string name="data_food_seed_16033" formatted="false">"Фасоль красная отварная без соли"</string>
+    <string name="data_food_seed_5062" formatted="false">"Куриная грудка сырая без кожи"</string>
+    <string name="data_food_seed_5064" formatted="false">"Куриная грудка запечённая без кожи"</string>
+    <string name="data_food_seed_5219" formatted="false">"Грудка индейки сырая без кожи"</string>
+    <string name="data_food_seed_5220" formatted="false">"Грудка индейки запечённая без кожи"</string>
+    <string name="data_food_seed_23562" formatted="false">"Говяжий фарш 10% жира, сырой"</string>
+    <string name="data_food_seed_23566" formatted="false">"Говяжий фарш 10% жира, запечённый"</string>
+    <string name="data_food_seed_10060" formatted="false">"Свиная вырезка сырая без видимого жира"</string>
+    <string name="data_food_seed_10061" formatted="false">"Свиная вырезка запечённая"</string>
+    <string name="data_food_seed_15236" formatted="false">"Лосось атлантический, сырой"</string>
+    <string name="data_catalog_note_5">"Справочно на 100 г съедобной части. Сырой продукт. Выращенный в хозяйстве. Углеводы USDA включают клетчатку. Значения можно изменить по этикетке. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Лосось атлантический, запечённый"</string>
+    <string name="data_catalog_note_6">"Справочно на 100 г съедобной части. Выращенный в хозяйстве. Углеводы USDA включают клетчатку. Значения можно изменить по этикетке. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Треска атлантическая, сырая"</string>
+    <string name="data_food_seed_15266" formatted="false">"Минтай сырой"</string>
+    <string name="data_food_seed_15121" formatted="false">"Тунец в собственном соку, без жидкости"</string>
+    <string name="data_food_seed_15271" formatted="false">"Креветки приготовленные, очищенные"</string>
+    <string name="data_food_seed_1211" formatted="false">"Молоко 3,25%"</string>
+    <string name="data_food_seed_1174" formatted="false">"Молоко 2%"</string>
+    <string name="data_food_seed_1082" formatted="false">"Молоко 1%"</string>
+    <string name="data_food_seed_1116" formatted="false">"Йогурт натуральный цельномолочный"</string>
+    <string name="data_food_seed_1256" formatted="false">"Йогурт греческий обезжиренный"</string>
+    <string name="data_food_seed_1015" formatted="false">"Творог зернёный 2%"</string>
+    <string name="data_catalog_note_7">"Справочно на 100 г съедобной части. Зернёный творог (cottage cheese); обычный творог отличается. Углеводы USDA включают клетчатку. Значения можно изменить по этикетке. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Сметана около 19% жирности"</string>
+    <string name="data_food_seed_1009" formatted="false">"Сыр чеддер"</string>
+    <string name="data_food_seed_1026" formatted="false">"Сыр моцарелла из цельного молока"</string>
+    <string name="data_food_seed_1019" formatted="false">"Сыр фета"</string>
+    <string name="data_food_seed_1123" formatted="false">"Яйцо куриное сырое без скорлупы"</string>
+    <string name="data_food_seed_1129" formatted="false">"Яйцо куриное варёное без скорлупы"</string>
+    <string name="data_food_seed_1124" formatted="false">"Белок куриного яйца сырой"</string>
+    <string name="data_food_seed_1001" formatted="false">"Масло сливочное солёное"</string>
+    <string name="data_food_seed_4053" formatted="false">"Масло оливковое"</string>
+    <string name="data_food_seed_4506" formatted="false">"Масло подсолнечное"</string>
+    <string name="data_food_seed_12061" formatted="false">"Миндаль"</string>
+    <string name="data_food_seed_12155" formatted="false">"Грецкий орех, ядра"</string>
+    <string name="data_food_seed_12120" formatted="false">"Фундук, ядра"</string>
+    <string name="data_food_seed_12151" formatted="false">"Фисташки сырые, ядра"</string>
+    <string name="data_food_seed_12014" formatted="false">"Тыквенные семечки, сушёные ядра"</string>
+    <string name="data_food_seed_16087" formatted="false">"Арахис сырой очищенный"</string>
+    <string name="data_food_seed_18069" formatted="false">"Хлеб белый пшеничный"</string>
+    <string name="data_food_seed_18075" formatted="false">"Хлеб цельнозерновой пшеничный"</string>
+    <string name="data_food_seed_18060" formatted="false">"Хлеб ржаной"</string>
+    <string name="data_food_seed_19296" formatted="false">"Мёд"</string>
+    <string name="data_food_seed_19335" formatted="false">"Сахар"</string>
+    <string name="data_food_seed_19165" formatted="false">"Какао-порошок без сахара"</string>
+    <string name="data_food_seed_19904" formatted="false">"Шоколад тёмный 70–85%"</string>
+    <string name="data_meal_breakfast" formatted="false">"Завтрак"</string>
+    <string name="data_meal_lunch" formatted="false">"Обед"</string>
+    <string name="data_meal_dinner" formatted="false">"Ужин"</string>
+    <string name="data_meal_snack" formatted="false">"Перекус"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Политика конфиденциальности приложения «Дневник диеты»\nРедакция от 9 октября 2026 года"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Приложение: «Дневник диеты»; название карточки Google Play — «Дневник диеты: подсчёт калорий»; пакет ru.dietdiary.offline.\nРазработчик проекта: Efreitor2001. Связь по вопросам приложения и обработки данных: https://github.com/Efreitor2001/kkalcal/issues . Обращения на GitHub публичны: не размещайте там записи о здоровье, резервные копии, пароли или токены."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Дневник на устройстве\nДля ведения дневника не требуется регистрация. Приложение хранит в своей закрытой области на устройстве продукты, их пищевую ценность, порции и даты питания, вес, талию, процент жира, шаги, сон, описание тренировок, заметки, цели, достижения и служебные настройки. Любое необязательное поле можно не заполнять. Шаги, сон и измерения вводятся вручную; приложение не читает Health Connect, датчики физической активности или данные медицинских устройств."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Эти сведения используются для расчёта КБЖУ, истории, графиков и достижений. У разработчика нет собственного сервера, принимающего содержимое дневника. Без подключения Google Drive и без самостоятельной передачи резервной копии записи остаются на устройстве."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Необязательное подключение Google Drive\nПо вашему действию приложение открывает вход Google в системном браузере и запрашивает доступ к скрытому хранилищу данных этого приложения на вашем Google Drive. Обычные документы и фотографии на Диске этому разрешению недоступны."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"После подключения в Google передаются продукты, питание, показатели дневника, заметки, цели, достижения, переносимые настройки и метаданные изменений, включая случайные идентификаторы установки и отметки времени. Это нужно для резервных снимков и объединения записей на ваших устройствах. Если включена автоматическая синхронизация, изменения передаются также в фоне при доступной сети. Автосинхронизацию можно выключить отдельно."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Приложение получает от Google адрес электронной почты и идентификатор выбранного аккаунта, чтобы показать подключение и связать его с нужным хранилищем. Пароль Google приложению не передаётся. Сеанс авторизации хранится на устройстве в зашифрованном виде с ключом Android Keystore. Токены, email и идентификатор Google не включаются в экспорт дневника и синхронизируемые JSON-снимки."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Данные Google используются только для авторизации и синхронизации, а не для рекламы. Применяется политика Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Файлы резервных копий\nКоманда «Сохранить в файл» создаёт JSON в выбранном вами месте. Команда восстановления читает только выбранный вами файл. Если вы выбираете облачного поставщика файлов или передаёте копию другому человеку, получателя выбираете вы. Приложение не шифрует экспортированный JSON: такой файл содержит личные записи и метаданные изменений."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Реклама\nВ приложении используется Yandex Mobile Ads SDK. Для загрузки и показа рекламы устройство соединяется с рекламными сервисами. При этом Яндекс может обрабатывать IP-адрес и другие технические сведения о сетевом запросе, устройстве и программном обеспечении, доступные рекламные или технические идентификаторы, сведения о показах и взаимодействии с рекламой."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Приложение сообщает SDK, что согласие не предоставлено, отключает сбор местоположения и отчёты App Ad Analytics. Разрешения на точное или приблизительное местоположение не запрашиваются. Эти настройки не означают отсутствия сетевого обмена и обработки технических данных рекламным сервисом."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Питание, вес, замеры, заметки, цели, email и идентификатор Google не используются приложением для рекламного таргетинга и не добавляются им в параметры рекламных запросов. Реклама не является условием сохранения записей."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Правила обработки, хранения и удаления данных Яндексом: https://yandex.ru/legal/confidential/ . Управление рекламным идентификатором доступно в настройках Android, если эта функция поддерживается вашей версией системы. Сроки хранения технических данных рекламного сервиса определяются его политикой; разработчик дневника не устанавливает для них отдельный срок."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Защита данных\nОбмен с Google выполняется по HTTPS; Яндекс сообщает об использовании HTTPS/TLS для передачи данных SDK. Локальный дневник защищён изоляцией приложения средствами Android. Отдельное шифрование содержимого дневника и JSON-снимков приложением не выполняется; это не сквозное шифрование между устройствами."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Системное резервное копирование данных приложения отключено. Журналы диагностики, которые пишет сам код приложения, содержат коды результата без содержимого дневника, email, токенов и тел сетевых ответов; отдельной отправки этих журналов разработчику нет."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Хранение и удаление\nЛокальные записи сохраняются до изменения, удаления или очистки данных приложения. Удаление записи убирает её из интерфейса и передаёт отметку удаления при синхронизации. Для защиты от восстановления старых данных сохраняются метаданные слияния; они могут содержать прежние значения удалённой записи дневника. Прежние значения также могут оставаться в старых облачных снимках и в ранее созданных вами файлах. Поэтому удаление одной записи не является полным стиранием всех её копий."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"Кнопка «Отключить аккаунт» прекращает синхронизацию на этом устройстве и удаляет локальный сеанс Google. Сам дневник и снимки в Google Drive сохраняются. Отключение приложения не удаляет ваш Google-аккаунт."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Для полного удаления данных этого приложения:\n• Отключите синхронизацию на всех своих устройствах, чтобы оставшиеся копии не загрузились повторно.\n• В браузере откройте https://drive.google.com/drive/settings под тем Google-аккаунтом, который был подключён. Выберите «Управление приложениями», найдите «Дневник диеты», затем «Параметры» → «Удалить скрытые данные приложения». Если мобильная страница не показывает этот раздел, используйте полную версию сайта или компьютер.\n• Отзовите доступ приложения на https://myaccount.google.com/connections . Сам отзыв доступа не стирает сохранённые копии.\n• Очистите хранилище приложения средствами Android на каждом устройстве или удалите приложение.\n• Удалите отдельно сохранённые JSON-копии из выбранных вами папок и облачных хранилищ."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Без ваших учётных данных разработчик не может удалённо стереть локальный дневник или файлы в вашем личном Google Drive. Не передавайте разработчику пароль или токены. За помощью с удалением можно обратиться через канал связи проекта, указанный в начале политики. Удалять сам Google-аккаунт для удаления данных дневника не требуется."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Изменения и обращения\nПри изменении функций и правил обработки данных эта политика обновляется с указанием даты редакции. По вопросам доступа, исправления, удаления данных и работы приложения используйте канал связи проекта. Отправленные вами обращения обрабатываются для ответа и хранятся в системе GitHub; правила GitHub доступны по адресу https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Мои блюда"</string>
+</resources>

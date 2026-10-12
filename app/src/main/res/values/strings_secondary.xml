@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="secondary_metric_weight" formatted="false">"Weight"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Body fat"</string>
+    <string name="secondary_metric_waist" formatted="false">"Waist"</string>
+    <string name="secondary_metric_steps" formatted="false">"Steps"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Sleep"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Calories"</string>
+    <string name="secondary_metric_protein" formatted="false">"Protein"</string>
+    <string name="secondary_metric_fat" formatted="false">"Fat"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Carbohydrates"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"steps"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Invalid date range"</string>
+    <string name="secondary_stats_title" formatted="false">"Trends"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Your records in clear charts"</string>
+    <string name="secondary_metric" formatted="false">"Metric"</string>
+    <string name="secondary_week" formatted="false">"Week"</string>
+    <string name="secondary_month" formatted="false">"Month"</string>
+    <string name="secondary_year" formatted="false">"Year"</string>
+    <string name="secondary_custom_period" formatted="false">"Custom range"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"The start date must not be after the end date"</string>
+    <string name="secondary_no_records" formatted="false">"No records yet"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Add food to your diary or choose another period."</string>
+    <string name="secondary_chart_tap" formatted="false">"Tap the chart to select a record"</string>
+    <string name="secondary_chart_connected" formatted="false">"The line connects recorded measurements. There are no measurements between them."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Scale estimates are useful for tracking trends."</string>
+    <string name="secondary_food_override_hint" formatted="false">"A manual daily total replaces the food total. Otherwise, logged food is added up. Days without records are skipped."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Totals are based on logged food. A day without records is not counted as zero."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Days without records are skipped and excluded from the average."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Today and yesterday"</string>
+    <string name="secondary_no_today" formatted="false">"No record for today"</string>
+    <string name="secondary_no_yesterday" formatted="false">"No record for yesterday"</string>
+    <string name="secondary_partial_today" formatted="false">"This comparison uses current records. Today’s data may still be incomplete."</string>
+    <string name="secondary_period_summary" formatted="false">"Period summary"</string>
+    <string name="secondary_recorded_average" formatted="false">"Average across recorded days"</string>
+    <string name="secondary_recorded_days" formatted="false">"Days with data"</string>
+    <string name="secondary_minimum" formatted="false">"Minimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maximum"</string>
+    <string name="secondary_first_to_last" formatted="false">"From first to last record"</string>
+    <string name="secondary_two_days_needed" formatted="false">"At least two recorded days are needed to calculate a change."</string>
+    <string name="secondary_history" formatted="false">"History"</string>
+    <string name="secondary_history_recent" formatted="false">"The latest 14 days with data. Choose a custom range for earlier records."</string>
+    <string name="secondary_history_all" formatted="false">"All recorded days in the selected period"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"From %1$s"</string>
+    <string name="secondary_date_until">"To %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s in this period"</string>
+    <string name="secondary_weight_goal">"Goal: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Add a measurement to your diary or choose another period."</string>
+    <string name="secondary_latest_record">"Latest record · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Today: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Yesterday: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Change: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d of %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Recorded days: %2$d, from %3$s to %4$s. Minimum %5$s, maximum %6$s %7$s. Values are listed in the history."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Getting started"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Save your first weight measurement."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Your first weight measurement is saved."</string>
+    <string name="secondary_award_first_food" formatted="false">"First entry"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Log your first food portion."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Your first food portion is logged."</string>
+    <string name="secondary_award_weight_week" formatted="false">"A week of data"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Record your weight on 7 different days. They do not need to be consecutive."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"You have weight records for 7 different days."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Consistency"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Record your weight on 30 different days."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"You have weight records for 30 days."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Archivist"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Save 100 food portions in your diary."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"You have saved 100 food portions."</string>
+    <string name="secondary_award_food_streak" formatted="false">"A new habit"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Log food for 7 consecutive calendar days."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"You have logged food for 7 consecutive days."</string>
+    <string name="secondary_award_steps" formatted="false">"Walking wonder"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Record at least 10,000 steps in one day."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"You have recorded a day with 10,000 steps."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Prolific recorder"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Save 100 weight measurements. One measurement counts per date."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"You have saved 100 weight measurements."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Diary veteran"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Log food or measurements on 90 different days. They do not need to be consecutive."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"You have diary records for 90 different days."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"measurements"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"portions"</string>
+    <string name="secondary_award_unit_days" formatted="false">"days"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"consecutive days"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"steps in one day"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"recorded days"</string>
+    <string name="secondary_back" formatted="false">"‹  Back"</string>
+    <string name="secondary_achievements" formatted="false">"Achievements"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Small steps become a habit"</string>
+    <string name="secondary_your_progress" formatted="false">"YOUR PROGRESS"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Earned achievements stay with you even if you edit your records."</string>
+    <string name="secondary_awards_regular" formatted="false">"For consistency and keeping your diary"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Saved records up to and including today are counted."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Hidden achievement"</string>
+    <string name="secondary_hidden_description" formatted="false">"Keep using your diary to unlock this achievement."</string>
+    <string name="secondary_earned" formatted="false">"Earned"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Hidden · locked"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"In progress · locked"</string>
+    <string name="secondary_locked" formatted="false">"Locked"</string>
+    <string name="secondary_hidden_progress" formatted="false">"The requirement and progress will be revealed when you earn this award."</string>
+    <string name="secondary_best_streak" formatted="false">"Best streak"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Hidden reward"</string>
+    <string name="secondary_unlocked_of">"of %1$d unlocked"</string>
+    <string name="secondary_unlocked_date">"Unlocked %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Back"</string>
+    <string name="secondary_my_recipe" formatted="false">"My recipe"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Weigh ingredients before cooking. Use the cooked weight to calculate portions. Include oils and sauces."</string>
+    <string name="secondary_recipe_name" formatted="false">"Recipe name"</string>
+    <string name="secondary_recipe_example" formatted="false">"For example, vegetable stew"</string>
+    <string name="secondary_ingredients" formatted="false">"Ingredients"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Start with the ingredients"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Add each ingredient and enter its weight in grams."</string>
+    <string name="secondary_edit_weight" formatted="false">"Edit weight"</string>
+    <string name="secondary_delete" formatted="false">"Delete"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Add ingredient"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Whole recipe"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Cooking changes the weight as water is added or lost. Weigh the finished dish without its container."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Cooked weight, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Enter the weight after cooking"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Enter a weight greater than 0 and no more than 100,000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"The weight is not filled in automatically"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Per 100 g of the cooked dish"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Check the cooked weight and ingredients: each 100 g can contain up to 1,000 kcal and up to 100 g of each macronutrient."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Could not save the recipe"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Save to My recipes"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Once saved, you can log this dish by its portion weight."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Ingredient weight before cooking"</string>
+    <string name="secondary_grams" formatted="false">"Grams"</string>
+    <string name="secondary_weight_limits" formatted="false">"Greater than 0 and no more than 100,000 g"</string>
+    <string name="secondary_add" formatted="false">"Add"</string>
+    <string name="secondary_save" formatted="false">"Save"</string>
+    <string name="secondary_cancel" formatted="false">"Cancel"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Choose an ingredient"</string>
+    <string name="secondary_search_food" formatted="false">"Search foods"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"No results. You can add your own food on the Foods tab."</string>
+    <string name="secondary_close" formatted="false">"Close"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Protein %1$s · Fat %2$s · Carbs %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Ingredient weight: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Yield: %1$s g. Ingredients: %2$s"</string>
+</resources>

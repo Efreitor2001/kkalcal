@@ -23,7 +23,11 @@ import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
 data class CloudStatus(val email: String? = null, val automatic: Boolean = true,
-    val busy: Boolean = false, val message: String = "Google не подключён", val lastSuccess: Long = 0L)
+    val busy: Boolean = false, val messageResource: Int = R.string.data_google_not_connected,
+    val lastSuccess: Long = 0L, val failed: Boolean = false) {
+    // Resolve on display, so changing the system language also updates an existing session.
+    val message: String get() = tr(messageResource)
+}
 
 class CloudSync private constructor(private val context: Context) {
     private val preferences = context.getSharedPreferences("cloud-device", Context.MODE_PRIVATE)
@@ -42,9 +46,9 @@ class CloudSync private constructor(private val context: Context) {
             session = vault.read()
             status = status.copy(email = session?.optString("email")?.takeIf { it.isNotBlank() },
                 lastSuccess = if (preferences.getString("cacheAccount", null) == session?.optString("sub")) preferences.getLong("lastSuccess", 0) else 0,
-                message = if (session != null) "Готово к синхронизации" else "Google не подключён")
+                messageResource = if (session != null) R.string.data_sync_ready else R.string.data_google_not_connected)
         } catch (_: Exception) {
-            status = status.copy(message = "Необходим повторный вход в Google")
+            status = status.copy(messageResource = R.string.data_google_login_required, failed = true)
         }
     }
 
@@ -55,7 +59,7 @@ class CloudSync private constructor(private val context: Context) {
         scope.launch {
             AppStore.get(context).localRevision.drop(1).debounce(5_000).collect {
                 if (status.email != null && status.automatic) {
-                    status = status.copy(message = if(hasNetwork()) "Изменения ожидают синхронизации…" else "Нет подключения к интернету. Изменения сохранены на устройстве.")
+                    status = status.copy(failed = false, messageResource = if(hasNetwork()) R.string.data_sync_changes_pending else R.string.data_offline_changes_saved)
                     scheduleSoon()
                 }
             }
@@ -77,8 +81,8 @@ class CloudSync private constructor(private val context: Context) {
     }
 
     fun authorizationIntent(): Intent {
-        check(configured) { "В этой сборке подключение Google ещё не настроено" }
-        check(!status.busy) { "Дождитесь завершения синхронизации" }
+        check(configured) { tr(R.string.data_google_not_configured) }
+        check(!status.busy) { tr(R.string.data_sync_wait) }
         val config = AuthorizationServiceConfiguration(Uri.parse("https://accounts.google.com/o/oauth2/v2/auth"),
             Uri.parse("https://oauth2.googleapis.com/token"))
         // AppAuth generates cryptographic state and S256 PKCE for every request.
@@ -95,14 +99,14 @@ class CloudSync private constructor(private val context: Context) {
 
     suspend fun completeAuthorization(intent: Intent?) = withContext(Dispatchers.IO) {
         lock.withLock {
-            status = status.copy(busy = true, message = "Подключение Google…")
+            status = status.copy(busy = true, failed = false, messageResource = R.string.data_google_connecting)
             try {
                 val expected = preferences.getString("pendingState", null)
                 val age = System.currentTimeMillis() - preferences.getLong("pendingAt", 0)
                 preferences.edit().remove("pendingState").remove("pendingAt").commit()
-                if (intent == null) { status = status.copy(message = "Подключение отменено"); return@withLock }
+                if (intent == null) { status = status.copy(messageResource = R.string.data_connection_cancelled); return@withLock }
                 val response = AuthorizationResponse.fromIntent(intent)
-                if (response == null) { status = status.copy(message = "Подключение отменено или отклонено Google"); return@withLock }
+                if (response == null) { status = status.copy(messageResource = R.string.data_connection_rejected); return@withLock }
                 require(expected != null && response.state == expected && age in 0..900_000)
                 require(response.request.clientId == BuildConfig.GOOGLE_CLIENT_ID && response.request.redirectUri.toString() == REDIRECT_URI)
                 require(response.request.configuration.tokenEndpoint.toString() == "https://oauth2.googleapis.com/token")
@@ -129,12 +133,12 @@ class CloudSync private constructor(private val context: Context) {
                 session = next
                 if (!sameAccount) preferences.edit().remove("lastHash").remove("lastSuccess").remove("seenFiles").commit()
                 status = status.copy(email = email, lastSuccess = if (sameAccount) status.lastSuccess else 0,
-                    message = "Google подключён. Объединяем записи…")
+                    messageResource = R.string.data_google_connected_merging)
                 reschedulePeriodic()
                 scheduleManual()
             } catch (cancelled: CancellationException) { throw cancelled }
             catch (_: Exception) {
-                status = status.copy(message = "Не удалось подключить Google. Проверьте интернет и настройку доступа.")
+                status = status.copy(messageResource = R.string.data_google_connection_failed, failed = true)
                 Log.w(TAG, "oauth_failed")
             } finally { status = status.copy(busy = false) }
         }
@@ -148,22 +152,22 @@ class CloudSync private constructor(private val context: Context) {
             session = null
             preferences.edit().remove("cacheAccount").remove("lastHash").remove("lastSuccess").remove("seenFiles")
                 .remove("pendingState").remove("pendingAt").commit()
-            status = CloudStatus(automatic = status.automatic, message = "Аккаунт отключён. Данные остались на устройстве.")
+            status = CloudStatus(automatic = status.automatic, messageResource = R.string.data_account_disconnected)
         }
     }
 
     fun syncNow() {
         if (status.email == null) return
         if (!hasNetwork()) {
-            status = status.copy(message = "Нет подключения к интернету. Синхронизация ожидает сеть.")
-        } else status = status.copy(message = "Синхронизация запланирована…")
+            status = status.copy(messageResource = R.string.data_sync_waiting_network, failed = false)
+        } else status = status.copy(messageResource = R.string.data_sync_scheduled, failed = false)
         scheduleManual()
     }
 
     internal suspend fun synchronize(): Boolean = withContext(Dispatchers.IO) {
         lock.withLock {
             if (session == null) return@withLock true
-            status = status.copy(busy = true, message = "Синхронизация…")
+            status = status.copy(busy = true, failed = false, messageResource = R.string.data_sync_running)
             try {
                 if (!hasNetwork()) throw java.net.UnknownHostException()
                 val store = AppStore.get(context)
@@ -199,18 +203,18 @@ class CloudSync private constructor(private val context: Context) {
                 check(preferences.edit().putString("cacheAccount", account).putString("lastHash", hash)
                     .putStringSet("seenFiles", seen.filter { it in known }.toSet())
                     .putLong("lastSuccess", now).commit())
-                status = status.copy(message = "Синхронизация выполнена", lastSuccess = now)
+                status = status.copy(messageResource = R.string.data_sync_complete, lastSuccess = now, failed = false)
                 Log.i(TAG, "sync_ok")
                 true
             } catch (cancelled: CancellationException) { throw cancelled }
             catch (problem: Exception) {
                 val login = problem is GoogleLoginRequired || problem is CloudHttpException && problem.status == 401
-                val message = when {
-                    login -> "Необходим повторный вход в Google"
-                    !hasNetwork() || problem is java.net.UnknownHostException -> "Нет подключения к интернету"
-                    else -> "Не удалось синхронизировать. Данные сохранены на устройстве"
+                val messageResource = when {
+                    login -> R.string.data_google_login_required
+                    !hasNetwork() || problem is java.net.UnknownHostException -> R.string.data_no_internet
+                    else -> R.string.data_sync_failed_saved
                 }
-                status = status.copy(message = message)
+                status = status.copy(messageResource = messageResource, failed = true)
                 Log.w(TAG, if (login) "sync_login_required" else "sync_retry")
                 // Invalid permission requires user action; transport/quota failures may retry.
                 login
@@ -227,7 +231,7 @@ class CloudSync private constructor(private val context: Context) {
                     if (access != null && error == null) continuation.resume(access)
                     else if (error?.error in setOf("invalid_grant", "invalid_client", "unauthorized_client", "access_denied"))
                         continuation.resumeWithException(GoogleLoginRequired())
-                    else continuation.resumeWithException(java.io.IOException("Token refresh unavailable"))
+                    else continuation.resumeWithException(java.io.IOException(tr(R.string.data_token_refresh_failed)))
                 }
             }
         }

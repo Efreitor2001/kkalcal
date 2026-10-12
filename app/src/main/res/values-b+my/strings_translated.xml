@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"အစားအသောက် ဒိုင်ယာရီ"</string>
+    <string name="core_app_name" formatted="false">"အစားအသောက် ဒိုင်ယာရီ"</string>
+    <string name="core_tagline" formatted="false">"ကယ်လိုရီများ၊ ကိုယ်အလေးချိန်နှင့် တိုးတက်မှု"</string>
+    <string name="core_open_diary" formatted="false">"ဒိုင်ယာရီကို ဖွင့်ပါ။"</string>
+    <string name="core_save_failed" formatted="false">"သင့်ဒေတာကို မသိမ်းဆည်းနိုင်ပါ။"</string>
+    <string name="core_day" formatted="false">"ယနေ့"</string>
+    <string name="core_products" formatted="false">"အစားအစာများ"</string>
+    <string name="core_diary" formatted="false">"ဒိုင်ယာရီ"</string>
+    <string name="core_charts" formatted="false">"ဇယားများ"</string>
+    <string name="core_more" formatted="false">"နောက်ထပ်"</string>
+    <string name="core_recipe_saved" formatted="false">"သင့်အစားအစာများတွင် သိမ်းဆည်းထားသော ပန်းကန်များ"</string>
+    <string name="core_back_to_day" formatted="false">"သင့်နေ့ကို ပြန်သွားပါ။"</string>
+    <string name="core_action_failed" formatted="false">"ဤလုပ်ဆောင်ချက်ကို မပြီးမြောက်နိုင်ခဲ့ပါ။"</string>
+    <string name="core_understood" formatted="false">"အိုကေ"</string>
+    <string name="core_restore_available" formatted="false">"More တွင် အရန်ကူးယူနိုင်ပါသည်။"</string>
+    <string name="core_eaten_today" formatted="false">"ယနေ့ စားသည်။"</string>
+    <string name="core_set_goal_hint" formatted="false">"More တွင် ပန်းတိုင်တစ်ခု သတ်မှတ်နိုင်သည်။"</string>
+    <string name="core_add_food" formatted="false">"+ အစာထည့်ပါ။"</string>
+    <string name="core_first_meal" formatted="false">"သင်၏ ပထမဆုံး အစားအစာဖြင့် စတင်ပါ။"</string>
+    <string name="core_first_meal_help" formatted="false">"ကယ်လိုရီနှင့် မက်ခရိုများကို တွက်ချက်ရန် အစားအစာကို ရွေးချယ်ပြီး ၎င်း၏အလေးချိန်ကို ဂရမ်ဖြင့် ထည့်ပါ။"</string>
+    <string name="core_my_day" formatted="false">"ငါ့နေ့"</string>
+    <string name="core_my_day_help" formatted="false">"ကိုယ်အလေးချိန်၊ ခါး၊ ခြေလှမ်းများ၊ အိပ်ခြင်း — သင်သိသောအရာကို မှတ်တမ်းတင်ပါ။"</string>
+    <string name="core_record_metrics" formatted="false">"တိုင်းတာမှု မှတ်တမ်း"</string>
+    <string name="core_edit_metrics" formatted="false">"တိုင်းတာမှုများကို တည်းဖြတ်ပါ။"</string>
+    <string name="core_food_state_hint" formatted="false">"အစားအစာအလေးချိန်နှင့် အာဟာရတန်ဖိုးများသည် တူညီသောအခြေအနေကို ရည်ညွှန်းရမည်- အစိမ်း၊ အခြောက် သို့မဟုတ် ချက်ပြုတ်သည်။"</string>
+    <string name="core_weight" formatted="false">"အလေးချိန်"</string>
+    <string name="core_waist" formatted="false">"ခါး"</string>
+    <string name="core_my_diary" formatted="false">"ငါ့ဒိုင်ယာရီ"</string>
+    <string name="core_diary_tagline" formatted="false">"နေ့တိုင်း မင်းရဲ့ကိုယ်ပိုင်အရှိန်နဲ့"</string>
+    <string name="core_record_day" formatted="false">"+ တစ်ရက်ကို မှတ်တမ်းတင်ပါ။"</string>
+    <string name="core_optional_diary_help" formatted="false">"တိုင်းတာမှုအားလုံးသည် ရွေးချယ်နိုင်သည်။ သင့်ကိုယ်အလေးချိန်၊ အိပ်ချိန် သို့မဟုတ် မှတ်စုတစ်ခုမျှသာ မှတ်တမ်းတင်နိုင်သည်။ ၎င်းကိုတည်းဖြတ်ရန် entry ကိုနှိပ်ပါ။"</string>
+    <string name="core_history_starts" formatted="false">"သင့်သမိုင်းသည် ဤနေရာတွင် စတင်ပါသည်။"</string>
+    <string name="core_history_help" formatted="false">"တိုင်းတာမှုများကို မှတ်တမ်းတင်ပြီး ဇယားများတွင် ပြောင်းလဲမှုများကို လိုက်နာပါ။"</string>
+    <string name="core_file_unavailable" formatted="false">"ဖိုင်မရနိုင်ပါ။"</string>
+    <string name="core_backup_saved" formatted="false">"အရန်သိမ်းပြီးပါပြီ။"</string>
+    <string name="core_export_error" formatted="false">"အရန်ကူးယူမှုကို မတင်ပို့နိုင်ခဲ့ပါ။"</string>
+    <string name="core_read_error" formatted="false">"ဖိုင်ကို ဖတ်၍မရပါ။"</string>
+    <string name="core_settings_tagline" formatted="false">"ဆက်တင်များနှင့် ဒေတာ အရန်သိမ်းဆည်းခြင်း။"</string>
+    <string name="core_your_progress" formatted="false">"သင်၏တိုးတက်မှု"</string>
+    <string name="core_achievements_help" formatted="false">"ဒိုင်ယာရီအလေ့အထတစ်ခုတည်ဆောက်ရန်အတွက် အသေးစားအောင်မြင်မှုများ။"</string>
+    <string name="core_achievements" formatted="false">"အောင်မြင်မှုများ"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"သင့်စက်ပစ္စည်းများတွင် သင့်ဒိုင်ယာရီကို စင့်ခ်လုပ်ရန် ရွေးချယ်နိုင်သောချိတ်ဆက်မှုတစ်ခု။"</string>
+    <string name="core_cloud_sync" formatted="false">"Cloud စင့်ခ်လုပ်ခြင်း။"</string>
+    <string name="core_personal_goals" formatted="false">"ကိုယ်ပိုင်ပန်းတိုင်များ"</string>
+    <string name="core_personal_goals_help" formatted="false">"သင်၏ကယ်လိုရီ၊ မက်ခရိုနှင့် ပစ်မှတ်အလေးချိန်ပန်းတိုင်များကို ကိုယ်တိုင်သတ်မှတ်ပါ။ မည်သည့်ပန်းတိုင်ကိုမဆို အလွတ်ချန်ထားနိုင်သည်။"</string>
+    <string name="core_configure_goals" formatted="false">"ပန်းတိုင်များသတ်မှတ်ပါ။"</string>
+    <string name="core_backup" formatted="false">"အရန်သိမ်းခြင်း။"</string>
+    <string name="core_backup_help" formatted="false">"အစားအစာများ၊ အစားအစာများ၊ ဒိုင်ယာရီ၊ ပန်းတိုင်များနှင့် အောင်မြင်မှုများကို ဖိုင်တစ်ခုတွင် ထားရှိပါ။ အက်ပ်ကို ပြန်လည်မတပ်ဆင်မီ အရန်ကူးယူပါ။"</string>
+    <string name="core_save_file" formatted="false">"ဖိုင်တစ်ခုသို့ သိမ်းဆည်းပါ။"</string>
+    <string name="core_restore_file" formatted="false">"ဖိုင်တစ်ခုမှ ပြန်လည်ရယူပါ။"</string>
+    <string name="core_write_locked" formatted="false">"မူရင်းဖိုင်ကို ကာကွယ်ရန် သိမ်းဆည်းခြင်းကို ပိတ်ထားသည်။ မှန်ကန်သော မိတ္တူကို ပြန်ယူပါ။"</string>
+    <string name="core_about_data" formatted="false">"အက်ပ်နှင့် သင့်ဒေတာအကြောင်း"</string>
+    <string name="core_about_data_help" formatted="false">"မှတ်တမ်းများကို သိမ်းဆည်းပုံ၊ စင့်ခ်လုပ်၍ ဒေတာကို ဖျက်လိုက်ပုံ။"</string>
+    <string name="core_privacy" formatted="false">"ကိုယ်ရေးကိုယ်တာနှင့် ဒေတာကို ဖျက်ခြင်း။"</string>
+    <string name="core_offline" formatted="false">"အော့ဖ်လိုင်းအလုပ်လုပ်သည်။"</string>
+    <string name="core_offline_help" formatted="false">"Google လက်မှတ်ထိုးဝင်ခြင်းသည် စိတ်ကြိုက်ရွေးချယ်နိုင်သည်။ ခြေလှမ်းများနှင့် အိပ်စက်ခြင်းကို ကိုယ်တိုင်ထည့်သွင်းပါသည်။ စင့်ခ်လုပ်ခြင်းနှင့် ကြော်ငြာများတင်ခြင်းအတွက် အင်တာနက်ချိတ်ဆက်မှု လိုအပ်ပါသည်။ ဒိုင်ယာရီ ထည့်သွင်းမှုများကို ကြော်ငြာကွန်ရက်သို့ မပို့ပါ။"</string>
+    <string name="core_about_foods" formatted="false">"အစားအစာများအကြောင်း"</string>
+    <string name="core_foods_reference" formatted="false">"Built-in တန်ဖိုးများသည် စားသုံးနိုင်သော အစိတ်အပိုင်း၏ 100 ဂရမ်လျှင် ခန့်မှန်းချက်ဖြစ်သည်။ တိကျသောတန်ဖိုးများအတွက်ထုပ်ပိုးစစ်ဆေးပါ။ အစားအသောက်ကို တည်းဖြတ်ခြင်းသည် ယခင် အစားအစာများကို ပြန်လည်တွက်ချက်ခြင်း မဟုတ်ပါ။"</string>
+    <string name="core_foods_source" formatted="false">"ဒေတာဘေ့စ်အရင်းအမြစ်- USDA FoodData Central၊ SR အမွေအနှစ်။ တစ်ဦးချင်း အစားအစာများတွင် ၎င်းတို့၏ အခြေအနေနှင့် အရင်းအမြစ်အသေးစိတ်များ ပါဝင်သည်။"</string>
+    <string name="core_restore_title" formatted="false">"ဤအရန်သိမ်းဆည်းမှုကို ပြန်ယူလိုပါသလား။"</string>
+    <string name="core_restore_warning" formatted="false">"သင်၏လက်ရှိအစားအစာများ၊ ဒိုင်ယာရီ၊ ပန်းတိုင်များနှင့် အောင်မြင်မှုများကို ဤဖိုင်၏ အကြောင်းအရာများဖြင့် အစားထိုးပါမည်။ အရန်သိမ်းခြင်းကို ဦးစွာသိမ်းဆည်းပါ။ စင့်ခ်လုပ်ခြင်းကို ချိတ်ဆက်ထားပါက၊ ပြန်လည်ရယူထားသော ပြောင်းလဲမှုများကို Google Drive သို့ ပေးပို့ပါမည်။"</string>
+    <string name="core_backup_restored" formatted="false">"အရန်သိမ်းခြင်းကို ပြန်လည်ရယူခဲ့သည်။"</string>
+    <string name="core_invalid_file" formatted="false">"မမှန်ကန်သော ဖိုင်"</string>
+    <string name="core_replace_data" formatted="false">"ဒေတာကို အစားထိုးပါ။"</string>
+    <string name="core_cancel" formatted="false">"မလုပ်တော့"</string>
+    <string name="core_save" formatted="false">"သိမ်းဆည်းပါ။"</string>
+    <string name="core_calculate_portion" formatted="false">"အပိုင်းတစ်ခုကို တွက်ချက်ပါ။"</string>
+    <string name="core_edit_portion" formatted="false">"အပိုင်းကို တည်းဖြတ်ပါ။"</string>
+    <string name="core_portion_weight" formatted="false">"အပိုင်းအလေးချိန်၊ g"</string>
+    <string name="core_portion_invalid" formatted="false">"0 ထက်ကြီးသောအလေးချိန်ကို 100,000 ဂရမ်ထက်မပိုစေရပါ။"</string>
+    <string name="core_add_to_diary" formatted="false">"ဒိုင်ယာရီသို့ ထည့်ပါ။"</string>
+    <string name="core_delete_entry" formatted="false">"ထည့်သွင်းမှုကို ဖျက်ပါ။"</string>
+    <string name="core_delete_portion_question" formatted="false">"ဤအပိုင်းကို သင့်ဒိုင်ယာရီမှ ဖျက်မလား။"</string>
+    <string name="core_new_food" formatted="false">"အစားအစာ သို့မဟုတ် ပန်းကန်အသစ်"</string>
+    <string name="core_edit_nutrition" formatted="false">"အာဟာရတန်ဖိုးများကို တည်းဖြတ်ပါ။"</string>
+    <string name="core_name" formatted="false">"အမည်"</string>
+    <string name="core_food" formatted="false">"အစားအသောက်"</string>
+    <string name="core_dish" formatted="false">"ပြင်ဆင်ထားသော ပန်းကန်"</string>
+    <string name="core_category" formatted="false">"အမျိုးအစား"</string>
+    <string name="core_per100_hint" formatted="false">"ထုပ်ပိုးမှု သို့မဟုတ် ဟင်းချက်ချက်မှ 100 ဂရမ်လျှင် တန်ဖိုးများ။ အာဟာရချို့တဲ့ရင် ၀ယ်ပါ။"</string>
+    <string name="core_kcal" formatted="false">"ကယ်လိုရီ"</string>
+    <string name="core_protein_grams" formatted="false">"ပရိုတင်း၊ ဂရမ်"</string>
+    <string name="core_fat_grams" formatted="false">"အဆီ၊ ဂရမ်"</string>
+    <string name="core_carbs_grams" formatted="false">"ကာဗိုဟိုက်ဒရိတ်၊ g"</string>
+    <string name="core_food_note" formatted="false">"မှတ်ချက်၊ ပါဝင်ပစ္စည်းများ (ချန်လှပ်ထားနိုင်သည်)"</string>
+    <string name="core_favorite" formatted="false">"စိတ်ကြိုက်များထဲသို့ ထည့်ပါ။"</string>
+    <string name="core_name_category_required" formatted="false">"အမည်နှင့် အမျိုးအစားကို ထည့်ပါ။"</string>
+    <string name="core_nutrition_invalid" formatted="false">"100 ဂရမ်လျှင် တန်ဖိုးများကို ထည့်ပါ- ကယ်လိုရီ 0–1,000; ပရိုတင်း၊ အဆီနှင့် ကာဗိုဟိုက်ဒရိတ် 0-100 ဂရမ်"</string>
+    <string name="core_delete_food" formatted="false">"အစားအစာများမှ ဖျက်ပါ။"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"ယခင် စားသောက်မှုစာရင်းများသည် ၎င်းတို့၏တန်ဖိုးများကို ထိန်းသိမ်းထားမည်ဖြစ်သည်။"</string>
+    <string name="core_delete_food_question" formatted="false">"ဤအစားအစာကို ဖျက်မလား။ ၎င်း၏ ဒိုင်ယာရီမှတ်တမ်းများကို သိမ်းဆည်းထားမည်ဖြစ်သည်။"</string>
+    <string name="core_day_entry" formatted="false">"နေ့စဉ်ဝင်ရောက်မှု"</string>
+    <string name="core_optional_fields" formatted="false">"သင်အလိုရှိသော မည်သည့်ကွက်လပ်ကိုမဆို ဖြည့်စွက်ပါ။ ကျန်တာကို ကွက်လပ်ထားပါ။"</string>
+    <string name="core_editing_existing" formatted="false">"ဤရက်စွဲအတွက် ဝင်ခွင့်တစ်ခု ရှိနှင့်ပြီးဖြစ်သည်။ သင် တည်းဖြတ်နေပါသည်။"</string>
+    <string name="core_weight_kg" formatted="false">"အလေးချိန်၊ ကီလိုဂရမ်"</string>
+    <string name="core_waist_cm" formatted="false">"ခါး၊ စင်တီမီတာ"</string>
+    <string name="core_steps" formatted="false">"အဆင့်များ"</string>
+    <string name="core_sleep" formatted="false">"အိပ်ပါ။"</string>
+    <string name="core_hours" formatted="false">"နာရီ"</string>
+    <string name="core_minutes" formatted="false">"မိနစ်"</string>
+    <string name="core_body_fat_optional" formatted="false">"ခန္ဓာကိုယ်အဆီပမာဏ၊ % (ချန်လှပ်ထားနိုင်သည်)"</string>
+    <string name="core_body_fat_hint" formatted="false">"အတိုင်းအတာတစ်ခုမှ ခန္ဓာကိုယ်အဆီသည် တိကျသောတိုင်းတာမှုမဟုတ်ဘဲ လမ်းကြောင်းသစ်ညွှန်ပြချက်တစ်ခုဖြစ်သည်။"</string>
+    <string name="core_strength_training" formatted="false">"ခွန်အားလေ့ကျင့်မှု"</string>
+    <string name="core_training_example" formatted="false">"ဥပမာ- 3×10 squats၊ 12 kg dumbbells"</string>
+    <string name="core_manual_nutrition" formatted="false">"လူကိုယ်တိုင် အာဟာရ စုစုပေါင်း"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"ထည့်သွင်းပါက၊ ဤတန်ဖိုးများသည် တစ်နေ့တာအတွက် အစားအစာစုစုပေါင်းကို လွှမ်းမိုးသည်။ အလိုအလျောက်တွက်ချက်မှုအတွက် ဗလာချန်ထားပါ။"</string>
+    <string name="core_daily_calories" formatted="false">"နေ့စဉ်ကယ်လိုရီ"</string>
+    <string name="core_daily_protein" formatted="false">"နေ့စဉ် ပရိုတင်း၊ ဂရမ်"</string>
+    <string name="core_wellbeing_notes" formatted="false">"မှတ်စုများနှင့် သင်မည်သို့ခံစားရသနည်း။"</string>
+    <string name="core_steps_invalid" formatted="false">"အဆင့်များ- 0 မှ 200,000 အထိ နံပါတ်တစ်ခုလုံး"</string>
+    <string name="core_sleep_invalid" formatted="false">"အိပ်ချိန်- 0-24 နာရီ၊ 0-59 မိနစ်"</string>
+    <string name="core_body_fat" formatted="false">"ခန္ဓာကိုယ်အဆီ"</string>
+    <string name="core_calories" formatted="false">"ကယ်လိုရီ"</string>
+    <string name="core_protein" formatted="false">"ပရိုတင်း"</string>
+    <string name="core_entry_required" formatted="false">"အနည်းဆုံး အတိုင်းအတာတစ်ခု သို့မဟုတ် မှတ်စုတစ်ခု ထည့်ပါ။"</string>
+    <string name="core_delete_day" formatted="false">"ဤနေ့စဉ်ထည့်သွင်းမှုကို ဖျက်ပါ။"</string>
+    <string name="core_optional_goals" formatted="false">"ပန်းတိုင်များအားလုံးသည် စိတ်ကြိုက်ရွေးချယ်နိုင်သည်။ အကွက်လွတ်ဆိုသည်မှာ ပန်းတိုင်ကို သတ်မှတ်မထားပေ။"</string>
+    <string name="core_calories_per_day" formatted="false">"တစ်နေ့လျှင် ကယ်လိုရီများ"</string>
+    <string name="core_protein_per_day" formatted="false">"တစ်နေ့လျှင် ပရိုတင်း၊ ဂရမ်"</string>
+    <string name="core_fat_per_day" formatted="false">"တစ်နေ့လျှင် အဆီ၊ g"</string>
+    <string name="core_carbs_per_day" formatted="false">"တစ်နေ့လျှင် ကာဗိုဟိုက်ဒရိတ်၊ g"</string>
+    <string name="core_target_weight" formatted="false">"ပစ်မှတ်အလေးချိန်၊ ကီလိုဂရမ်"</string>
+    <string name="core_goals_invalid" formatted="false">"သင့်ပန်းတိုင်များကို စစ်ဆေးပါ- ကယ်လိုရီ 0–10,000; ပရိုတင်း၊ အဆီနှင့် ကာဗိုဟိုက်ဒရိတ် 0-1,000 ဂရမ်"</string>
+    <string name="core_target_weight_invalid" formatted="false">"ပစ်မှတ်အလေးချိန်- 1 မှ 500 ကီလိုဂရမ်"</string>
+    <string name="core_delete_question" formatted="false">"ဖျက်မလား။"</string>
+    <string name="core_delete" formatted="false">"ဖျက်ရန်"</string>
+    <string name="core_select_food" formatted="false">"အစားအသောက် ရွေးပါ။"</string>
+    <string name="core_foods_dishes" formatted="false">"အစားအစာများနှင့် ဟင်းလျာများ"</string>
+    <string name="core_search_food" formatted="false">"အစားအစာ သို့မဟုတ် ပန်းကန်ကို ရှာပါ။"</string>
+    <string name="core_new_food_button" formatted="false">"+ အစားအသောက်/ပန်းကန်"</string>
+    <string name="core_recipe_button" formatted="false">"စာရွက်မှ"</string>
+    <string name="core_no_results" formatted="false">"ရလဒ်မရှိပါ။"</string>
+    <string name="core_no_results_help" formatted="false">"နောက်ထပ်ရှာဖွေကြည့်ပါ သို့မဟုတ် သင့်ကိုယ်ပိုင်အစားအစာ သို့မဟုတ် ပြင်ဆင်ထားသောပန်းကန်ကို ထည့်ပါ။"</string>
+    <string name="core_edit" formatted="false">"ပြင်ဆင်ရန်"</string>
+    <string name="core_achievement_unlocked">"🏆 အောင်မြင်မှု သော့ဖွင့်ခဲ့သည်။ %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal ကျန်သည် · ပန်းတိုင် %2$s"</string>
+    <string name="core_above_goal">"သင့်ပန်းတိုင်ထက် %1$s kcal"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"ပရိုတင်း %1$s   အဆီ %2$s   ကာဗိုဟိုက်ဒရိတ် %3$s"</string>
+    <string name="core_weight_summary">"အလေးချိန် %1$s ကီလိုဂရမ်"</string>
+    <string name="core_waist_summary">"ခါး %1$s စင်တီမီတာ"</string>
+    <string name="core_steps_summary">"အဆင့်များ- %1$s"</string>
+    <string name="core_fat_summary">"ခန္ဓာကိုယ်အဆီ %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (လက်စွဲ)"</string>
+    <string name="core_manual_protein">"ပရိုတင်း %1$s ဂရမ် (လက်စွဲ)"</string>
+    <string name="core_kg_value">"%1$s ကီလိုဂရမ်"</string>
+    <string name="core_cm_value">"%1$s စင်တီမီတာ"</string>
+    <string name="core_sleep_value">"အိပ်စက်ခြင်း %1$s"</string>
+    <string name="core_scale_fat">"ခန္ဓာကိုယ်အဆီပမာဏ %1$s%%"</string>
+    <string name="core_training_value">"သင်တန်း- %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"ပရိုတင်း %1$s ဂရမ်"</string>
+    <string name="core_app_version">"Diet Diary · %1$s"</string>
+    <string name="core_per100_summary">"၁၀၀ ဂရမ်လျှင်: %1$s kcal · ပရိုတင်း %2$s · အဆီ %3$s · ကာဗိုဟိုက်ဒရိတ် %4$s"</string>
+    <string name="core_range_invalid">"%1$s- %2$s မှ %3$s သို့ တန်ဖိုးတစ်ခု ထည့်ပါ"</string>
+    <string name="core_delete_day_question">"%1$s အတွက် တိုင်းတာမှုများကို ဖျက်မလား။ အစားအသောက်စာရင်းများကို သိမ်းဆည်းသွားမည်ဖြစ်သည်။"</string>
+    <string name="core_catalog_count">"အစားအစာများ: %1$s · ၁၀၀ ဂရမ်လျှင်"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   ပရိုတင်း %2$s   အဆီ %3$s   ကာဗိုဟိုက်ဒရိတ် %4$s"</string>
+    <string name="core_today_date">"ယနေ့ · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"ကယ်လိုရီများနှင့် ပရိုတင်းများသည် သင့်ဒိုင်ယာရီမှ လက်စွဲစာအုပ်စုစုပေါင်းဖြစ်သည်။"</string>
+    <string name="core_manual_calorie_total" formatted="false">"ကယ်လိုရီများသည် သင့်ဒိုင်ယာရီမှ လက်စွဲစာအုပ်စုစုပေါင်းဖြစ်သည်။"</string>
+    <string name="core_manual_protein_total" formatted="false">"ပရိုတင်းသည် သင့်ဒိုင်ယာရီမှ လက်စွဲစာအုပ်စုစုပေါင်းဖြစ်သည်။"</string>
+    <string name="core_macro_goals">"P/F/C ပန်းတိုင်များ- %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (လက်စွဲ)"</string>
+    <string name="core_all" formatted="false">"အားလုံး"</string>
+    <string name="core_favorites" formatted="false">"အကြိုက်ဆုံးများ"</string>
+    <string name="core_sleep_duration">"%1$s နာရီ %2$s မိနစ်"</string>
+    <string name="core_previous_day" formatted="false">"ယခင်နေ့"</string>
+    <string name="core_next_day" formatted="false">"နောက်တစ်နေ့"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"ရွှေ့ပြောင်းမှု အရန်ကူးသည် မကိုက်ညီပါ။"</string>
+    <string name="data_entry_exists" formatted="false">"ဤအစားအစာဝင်ရောက်မှု ရှိနှင့်ပြီးဖြစ်သည်။"</string>
+    <string name="data_entry_missing" formatted="false">"အစားအသောက် ဝင်ရောက်မှုကို မတွေ့ပါ။"</string>
+    <string name="data_edited_date_changed" formatted="false">"တည်းဖြတ်ထားသည့် ထည့်သွင်းသည့်ရက်စွဲကို ပြောင်းထားသည်။"</string>
+    <string name="data_device_id_corrupt" formatted="false">"စက်တွင်း စက် ID ပျက်စီးသွားသည်၊ ပြန်လည်ထူထောင်ရေးကို ပိတ်ဆို့ထားသည်။"</string>
+    <string name="data_sync_invalid" formatted="false">"မမှန်ကန်သော ထပ်တူပြုမှုဒေတာ"</string>
+    <string name="data_diary_read_only" formatted="false">"ဒိုင်ယာရီကို ထပ်ရေးခြင်းမှ ကာကွယ်ထားပါသည်- အရန်ကူးယူပါ။"</string>
+    <string name="data_diary_inconsistent" formatted="false">"ဒိုင်ယာရီဒေတာသည် ကွဲလွဲနေသည်။"</string>
+    <string name="data_backup_too_large" formatted="false">"အရန်သိမ်းဆည်းမှုသည် ကြီးလွန်းသည်။"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"တပ်ဆင်မှု ID ပျက်စီးသွားသည်။"</string>
+    <string name="data_save_verification_failed" formatted="false">"ဒိုင်ယာရီကို သိမ်းဆည်းထားကြောင်း အတည်မပြုနိုင်ပါ။"</string>
+    <string name="data_save_failed" formatted="false">"ဒိုင်ယာရီကို မသိမ်းဆည်းနိုင်ခဲ့ပါ။"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"အရန်သိမ်းဆည်းမှုသည် 50 MB ထက် ပိုကြီးသည်။"</string>
+    <string name="data_diary_file_too_large" formatted="false">"ဒိုင်ယာရီဖိုင်သည် ကြီးလွန်းသည်။"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"အစားအသောက်ဒေတာဘေ့စ် အရွယ်အစား မမှန်ကန်ပါ။"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"ပံ့ပိုးမထားသော အရန်ဗားရှင်း"</string>
+    <string name="data_too_many_values">"%1$s တွင် တန်ဖိုးများလွန်းသည်"</string>
+    <string name="data_too_many_products" formatted="false">"အစားအသောက်များလွန်းခြင်း။"</string>
+    <string name="data_too_many_entries" formatted="false">"အစားအသောက် ထည့်သွင်းမှုများ အလွန်များသည်။"</string>
+    <string name="data_too_many_logs" formatted="false">"ဒိုင်ယာရီ ထည့်သွင်းမှုများ များလွန်းသည်။"</string>
+    <string name="data_product_id_duplicate" formatted="false">"အစားအစာ ထပ်နေသည် ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"အစားအစာ ပွားခြင်း ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"ဒိုင်ယာရီ ရက်စွဲကို ပွားပါ။"</string>
+    <string name="data_label_product_id" formatted="false">"အစားအစာ ID"</string>
+    <string name="data_label_product_name" formatted="false">"အစားအသောက်အမည်"</string>
+    <string name="data_label_category" formatted="false">"အမျိုးအစား"</string>
+    <string name="data_label_note" formatted="false">"မှတ်ချက်"</string>
+    <string name="data_label_entry_id" formatted="false">"ဝင်ခွင့် ID"</string>
+    <string name="data_label_meal" formatted="false">"ထမင်း"</string>
+    <string name="data_food_weight_range" formatted="false">"အစားအစာအလေးချိန်သည် 0 ထက်ကြီးပြီး 100000 ဂရမ်ထက် မပိုရပါ။"</string>
+    <string name="data_label_weight" formatted="false">"အလေးချိန်"</string>
+    <string name="data_label_waist" formatted="false">"ခါး"</string>
+    <string name="data_steps_range" formatted="false">"အဆင့်များ၏ အရေအတွက်သည် 0 နှင့် 200000 ကြား ဖြစ်ရပါမည်။"</string>
+    <string name="data_label_sleep" formatted="false">"အိပ်ပါ။"</string>
+    <string name="data_label_body_fat" formatted="false">"ခန္ဓာကိုယ်အဆီ"</string>
+    <string name="data_label_daily_calories" formatted="false">"နေ့စဉ်ကယ်လိုရီ"</string>
+    <string name="data_label_daily_protein" formatted="false">"နေ့စဉ် ပရိုတင်း"</string>
+    <string name="data_label_workout" formatted="false">"လေ့ကျင့်ခန်း"</string>
+    <string name="data_label_log_note" formatted="false">"မှတ်ချက်"</string>
+    <string name="data_log_empty" formatted="false">"အနည်းဆုံး အတိုင်းအတာတစ်ခု သို့မဟုတ် မှတ်စုကို ထည့်ပါ။"</string>
+    <string name="data_label_goal_weight" formatted="false">"ပန်းတိုင်အလေးချိန်"</string>
+    <string name="data_too_many_achievements" formatted="false">"အောင်မြင်မှုများ အလွန်များသည်။"</string>
+    <string name="data_achievement_invalid" formatted="false">"မမှန်ကန်သော အောင်မြင်မှု"</string>
+    <string name="data_setting_not_portable" formatted="false">"ဤဆက်တင်ကို လွှဲပြောင်း၍မရပါ။"</string>
+    <string name="data_setting_invalid">"ဆက်တင်အတွက် မမှန်ကန်သောတန်ဖိုး %1$s"</string>
+    <string name="data_label_calories" formatted="false">"ကယ်လိုရီ"</string>
+    <string name="data_label_protein" formatted="false">"ပရိုတင်း"</string>
+    <string name="data_label_fat" formatted="false">"အဆီ"</string>
+    <string name="data_label_carbs" formatted="false">"ကာဘိုဟိုက်ဒရိတ်"</string>
+    <string name="data_value_range">"%1$s- ခွင့်ပြုထားသော အပိုင်းအခြား %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s- မမှန်ကန်သော အရှည်"</string>
+    <string name="data_text_character_invalid">"%1$s- မမှန်ကန်သော စာလုံး"</string>
+    <string name="data_date_format_invalid" formatted="false">"ရက်စွဲသည် YYYY-MM-DD ဖော်မတ်ကို အသုံးပြုရပါမည်။"</string>
+    <string name="data_date_nonexistent">"မမှန်ကန်သော ရက်စွဲ- %1$s"</string>
+    <string name="data_field_string_required">"အကွက် %1$s သည် စာသားဖြစ်ရမည်။"</string>
+    <string name="data_field_boolean_required">"အကွက် %1$s သည် Boolean တန်ဖိုး ဖြစ်ရပါမည်။"</string>
+    <string name="data_field_number_required">"အကွက် %1$s သည် နံပါတ်တစ်ခု ဖြစ်ရမည်။"</string>
+    <string name="data_field_finite_required">"အကွက် %1$s သည် ကန့်သတ်နံပါတ်ဖြစ်ရမည်။"</string>
+    <string name="data_field_integer_required">"အကွက် %1$s သည် ကိန်းပြည့်ဖြစ်ရမည်။"</string>
+    <string name="data_too_many_items">"%1$s ရှိ ပစ္စည်းများ များလွန်းသည်"</string>
+    <string name="data_data_file_invalid">"မမှန်ကန်သောဒေတာဖိုင်- %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"စက်ပစ္စည်း ID ပျောက်ဆုံးနေပါသည်။"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"ယုတ္တိတန်သော နာရီကန့်သတ်ချက်သို့ ရောက်ရှိသွားပါပြီ။"</string>
+    <string name="data_too_many_sync_records" formatted="false">"ထပ်တူပြုခြင်း မှတ်တမ်းများ အလွန်များသည်။"</string>
+    <string name="data_sync_version_required" formatted="false">"ထပ်တူပြုခြင်းသည် ဖော်မက်ဗားရှင်း 2 လိုအပ်သည်။"</string>
+    <string name="data_sync_key_invalid" formatted="false">"ထပ်တူပြုခြင်းကီး မမှန်ကန်ပါ။"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"ထပ်တူပြုခြင်းကီး"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"မမှန်ကန်သော ဖျက်မှုအလံ"</string>
+    <string name="data_sync_data_invalid" formatted="false">"မမှန်ကန်သော ထပ်တူပြုမှုဒေတာ"</string>
+    <string name="data_record_clock_invalid" formatted="false">"မှတ်တမ်းဗားရှင်းသည် ယုတ္တိနာရီထက် ကျော်လွန်နေသည်။"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"ဒေတာသည် ထပ်တူပြုခြင်း မက်တာဒေတာနှင့် မကိုက်ညီပါ။"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"ထပ်တူပြုခြင်း ကီးအရှည် မမှန်ကန်ပါ။"</string>
+    <string name="data_sync_key_malformed" formatted="false">"ပုံစံမမှန်သော ထပ်တူပြုခြင်းကီး"</string>
+    <string name="data_sync_type_unknown" formatted="false">"အမည်မသိ ထပ်တူပြုခြင်း အမျိုးအစား"</string>
+    <string name="data_record_id_too_long" formatted="false">"မှတ်တမ်း ID သည် ရှည်လွန်းသည်။"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"မမှန်ကန်သော အောင်မြင်မှုကို ဖျက်ခြင်း။"</string>
+    <string name="data_log_key_invalid" formatted="false">"ဒိုင်ယာရီကီး မမှန်ကန်ပါ။"</string>
+    <string name="data_log_field_unknown" formatted="false">"အမည်မသိ ဒိုင်ယာရီအကွက်"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"မမှန်ကန်သော ဒိုင်ယာရီ ဖျက်ခြင်း အမှတ်အသား"</string>
+    <string name="data_goal_unknown" formatted="false">"အမည်မသိပန်းတိုင်"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"ဖျက်လိုက်သောမှတ်တမ်းတွင် ဒေတာပါရှိသည်။"</string>
+    <string name="data_sync_value_invalid" formatted="false">"ထပ်တူပြုခြင်းတန်ဖိုး မမှန်ကန်ပါ။"</string>
+    <string name="data_record_id_mismatch" formatted="false">"မှတ်တမ်း ID သည် သော့နှင့် မကိုက်ညီပါ။"</string>
+    <string name="data_field_value_invalid" formatted="false">"အကွက်တန်ဖိုး မမှန်ကန်ပါ။"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"အောင်မြင်မှုရက်စွဲသည် သော့နှင့်မကိုက်ညီပါ။"</string>
+    <string name="data_note_string_required" formatted="false">"မှတ်စုသည် စာသားဖြစ်ရမည်။"</string>
+    <string name="data_sync_note_invalid" formatted="false">"မမှန်ကန်သော စင့်ခ်လုပ်ထားသော မှတ်စု"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"ယုတ္တိမမှန်ကန်သောနာရီ"</string>
+    <string name="data_device_invalid" formatted="false">"မမှန်ကန်သော စက်ပစ္စည်း"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"မမှန်ကန်သော ဗားရှင်းတံဆိပ်တုံး"</string>
+    <string name="data_google_login_required" formatted="false">"Google သို့ ထပ်မံဝင်ရောက်ပါ။"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"cloud အရန်ကူးယူမှုများ အလွန်များသည်။"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive သည် ထပ်ခါတလဲလဲ စာမျက်နှာကို ပြန်ပေးခဲ့သည်။"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"cloud backup သည် 50 MB ထက် ပိုကြီးသည်။"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive သည် အပ်လုဒ်လိပ်စာကို ပြန်မပေးခဲ့ပါ။"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Google Drive အပ်လုဒ်လိပ်စာ မမှန်ကန်ပါ။"</string>
+    <string name="data_back" formatted="false">"‹ နောက်ပြန်"</string>
+    <string name="data_cloud_title" formatted="false">"Cloud စင့်ခ်လုပ်ခြင်း။"</string>
+    <string name="data_cloud_subtitle" formatted="false">"သင့်စက်များတွင် သင့်ဒိုင်ယာရီ"</string>
+    <string name="data_no_account" formatted="false">"အကောင့်ချိတ်ဆက်ထားခြင်းမရှိပါ။"</string>
+    <string name="data_cloud_intro" formatted="false">"အကောင့်ဝင်ခြင်းသည် စိတ်ကြိုက်ရွေးချယ်နိုင်သည်။ အစားအစာများ၊ အစားအစာများ၊ တိုင်းတာချက်များ၊ ပန်းတိုင်များနှင့် အောင်မြင်မှုများကို သင့်ဖုန်းတွင် သိမ်းဆည်းထားသည်။ ချိတ်ဆက်ပြီးသည်နှင့်၊ သင့် Google Drive ရှိ လျှို့ဝှက်ဖိုင်တွဲတစ်ခုတွင် မိတ္တူတစ်ခုကို သိမ်းဆည်းပါမည်။"</string>
+    <string name="data_cloud_first_connection" formatted="false">"ပထမချိတ်ဆက်မှုတွင် ထည့်သွင်းမှုများကို ပေါင်းစပ်ထားသည်။ အပလီကေးရှင်းသည် သင့် Drive ရှိ အခြားဖိုင်များကို ဝင်သုံး၍မရပါ။"</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Google ဤတည်ဆောက်မှုအတွက် အကောင့်ဝင်ခြင်းကို မသတ်မှတ်ရသေးပါ။ ဒိုင်ယာရီနှင့် ဖိုင်အရန်ကူးခြင်းသည် အကောင့်မရှိဘဲ အလုပ်လုပ်သည်။"</string>
+    <string name="data_connect_google" formatted="false">"ချိတ်ဆက်ရန် Google"</string>
+    <string name="data_automatic_sync" formatted="false">"အလိုအလျောက် စင့်ခ်လုပ်ခြင်း။"</string>
+    <string name="data_automatic_sync_description" formatted="false">"ဒေတာပြောင်းလဲသည့်အခါနှင့် Android ခွင့်ပြုသည့်အခါ နောက်ခံတွင်"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"အချိန်ဇယားကို မပြောင်းလဲနိုင်ပါ။ သင့်ဒေတာကို ဤစက်ပစ္စည်းပေါ်တွင် သိမ်းဆည်းထားသည်။"</string>
+    <string name="data_sync_start_failed" formatted="false">"စင့်ခ်လုပ်ခြင်းကို မစတင်နိုင်ပါ။ သင့်ဒေတာကို ဤစက်ပစ္စည်းပေါ်တွင် သိမ်းဆည်းထားသည်။"</string>
+    <string name="data_sync_now" formatted="false">"ယခု စင့်ခ်လုပ်ပါ။"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Google သို့ ထပ်မံဝင်ရောက်ပါ။"</string>
+    <string name="data_disconnect_account" formatted="false">"အကောင့်ကို ချိတ်ဆက်မှုဖြုတ်ပါ။"</string>
+    <string name="data_sync_never" formatted="false">"စင့်ခ်မလုပ်ရသေးပါ။"</string>
+    <string name="data_offline_saved_title" formatted="false">"သင့်ဒေတာကို အော့ဖ်လိုင်းတွင် သိမ်းဆည်းထားသည်။"</string>
+    <string name="data_cloud_merge_description" formatted="false">"အလိုအလျောက် စင့်ခ်လုပ်ခြင်းကို ဖွင့်ထားခြင်းဖြင့် ချိတ်ဆက်မှုတစ်ခုရလာသောအခါတွင် အပြောင်းအလဲများကို ပေးပို့သည်။ တူညီသောအကွက်သည် စက်နှစ်လုံးတွင် ပြောင်းလဲပါက၊ နောက်ပိုင်းပြောင်းလဲမှုအချိန်တံဆိပ်ပါသည့်ဗားရှင်းကို အသုံးပြုပါသည်။ သီးခြားထည့်သွင်းမှုများနှင့် အကွက်များကို ပေါင်းစပ်ထားသည်။"</string>
+    <string name="data_cloud_password_description" formatted="false">"သင့်ဘရောက်ဆာရှိ Google စာမျက်နှာတွင်သာ သင့်စကားဝှက်ကို ထည့်သွင်းပါ။ အသုံးပြုခွင့် တိုကင်များကို Android Keystore မှ ကာကွယ်ထားပြီး အရန်သိမ်းဆည်းမှုများမှ ဖယ်ထုတ်ထားသည်။"</string>
+    <string name="data_google_connection_title" formatted="false">"Google ချိတ်ဆက်မှု"</string>
+    <string name="data_got_it" formatted="false">"ရပြီ။"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive ချိတ်ဆက်မလား။"</string>
+    <string name="data_connect_drive_description" formatted="false">"သင်၏ လက်ရှိဒိုင်ယာရီကို ရွေးချယ်ထားသည့် Google အကောင့်ရှိ ဒေတာများနှင့် ပေါင်းစည်းမည်ဖြစ်သည်။ သင့်စက်များတွင် တူညီသော ကိုယ်ရေးကိုယ်တာအကောင့်ကို အသုံးပြုပါ။ အကောင့်ဝင်ခြင်းသည် သင့်မူလဘရောက်ဆာတွင် ဖွင့်ပါမည်။"</string>
+    <string name="data_sign_in_open_failed" formatted="false">"လက်မှတ်ထိုးဝင်ခြင်းကို ဖွင့်၍မရပါ။ မူရင်းဘရောက်ဆာကို ထည့်သွင်းပါ သို့မဟုတ် ဖွင့်ပြီး ထပ်စမ်းကြည့်ပါ။"</string>
+    <string name="data_continue" formatted="false">"ဆက်ရန်"</string>
+    <string name="data_cancel" formatted="false">"မလုပ်တော့"</string>
+    <string name="data_disconnect_title" formatted="false">"အကောင့်ကို ချိတ်ဆက်မှုဖြုတ်လိုပါသလား။"</string>
+    <string name="data_disconnect_description" formatted="false">"စင့်ခ်လုပ်ခြင်းသည် ဤစက်ပစ္စည်းပေါ်တွင် ရပ်သွားပါမည်။ သင့်ဒေသခံဒိုင်ယာရီနှင့် Google Drive ရှိ မိတ္တူများကို သိမ်းဆည်းထားမည်ဖြစ်သည်။ သင်သည် သင်၏ Google အကောင့်ဆက်တင်များတွင် အက်ပ်ခွင့်ပြုချက်ကို စီမံခန့်ခွဲနိုင်သည်။"</string>
+    <string name="data_disconnect_failed" formatted="false">"အကောင့်ကို အဆက်ဖြတ်၍မရပါ။ ထပ်စမ်းကြည့်ပါ။"</string>
+    <string name="data_disconnect" formatted="false">"အဆက်ဖြတ်ပါ။"</string>
+    <string name="data_google_not_connected" formatted="false">"Google ချိတ်ဆက်မထားပါ။"</string>
+    <string name="data_sync_ready" formatted="false">"စင့်ခ်လုပ်ရန် အဆင်သင့်ဖြစ်ပါပြီ။"</string>
+    <string name="data_sync_changes_pending" formatted="false">"အပြောင်းအလဲများသည် စင့်ခ်လုပ်ရန် စောင့်ဆိုင်းနေသည်..."</string>
+    <string name="data_offline_changes_saved" formatted="false">"အင်တာနက်ချိတ်ဆက်မှု မရှိပါ။ အပြောင်းအလဲများကို ဤစက်ပစ္စည်းတွင် သိမ်းဆည်းထားသည်။"</string>
+    <string name="data_google_not_configured" formatted="false">"Google ဤတည်ဆောက်မှုအတွက် အကောင့်ဝင်ခြင်းကို မသတ်မှတ်ရသေးပါ။"</string>
+    <string name="data_sync_wait" formatted="false">"စင့်ခ်လုပ်ခြင်းကို အပြီးသတ်ရန် စောင့်ပါ။"</string>
+    <string name="data_google_connecting" formatted="false">"ချိတ်ဆက်နေသည် Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"ချိတ်ဆက်မှုကို ပယ်ဖျက်လိုက်ပါပြီ။"</string>
+    <string name="data_connection_rejected" formatted="false">"ချိတ်ဆက်မှုကို Google မှ ပယ်ဖျက်ခြင်း သို့မဟုတ် ငြင်းပယ်ခြင်း"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google ချိတ်ဆက်ထားသည်။ ထည့်သွင်းမှုများကို ပေါင်းစည်းခြင်း..."</string>
+    <string name="data_google_connection_failed" formatted="false">"Google ချိတ်ဆက်၍မရပါ။ သင်၏အင်တာနက်ချိတ်ဆက်မှုနှင့် ဆက်တင်များကို ဝင်ရောက်ကြည့်ရှုစစ်ဆေးပါ။"</string>
+    <string name="data_account_disconnected" formatted="false">"အကောင့် ချိတ်ဆက်မှု ပြတ်တောက်သွားသည်။ သင့်ဒေတာသည် ဤစက်ပစ္စည်းပေါ်တွင် ကျန်ရှိနေပါသည်။"</string>
+    <string name="data_sync_waiting_network" formatted="false">"အင်တာနက်ချိတ်ဆက်မှု မရှိပါ။ စင့်ခ်လုပ်ခြင်းသည် ချိတ်ဆက်မှုတစ်ခုကို စောင့်နေသည်။"</string>
+    <string name="data_sync_scheduled" formatted="false">"စင့်ခ်လုပ်ရန် စီစဉ်ထားသည်..."</string>
+    <string name="data_sync_running" formatted="false">"စင့်ခ်လုပ်နေသည်..."</string>
+    <string name="data_sync_complete" formatted="false">"စင့်ခ်လုပ်ခြင်း ပြီးပါပြီ။"</string>
+    <string name="data_no_internet" formatted="false">"အင်တာနက်ချိတ်ဆက်မှု မရှိပါ။"</string>
+    <string name="data_sync_failed_saved" formatted="false">"စင့်ခ်လုပ်၍မရပါ။ သင့်ဒေတာကို ဤစက်ပစ္စည်းပေါ်တွင် သိမ်းဆည်းထားသည်။"</string>
+    <string name="data_page_open_failed" formatted="false">"စာမျက်နှာကို ဖွင့်၍မရပါ။ ၎င်း၏လိပ်စာကို အောက်ပါစာသားမှ ကူးယူနိုင်ပါသည်။"</string>
+    <string name="data_privacy_title" formatted="false">"ကိုယ်ရေးကိုယ်တာ"</string>
+    <string name="data_privacy_subtitle" formatted="false">"သင့်မှတ်တမ်းများနှင့် ဒေတာထိန်းချုပ်မှုများ"</string>
+    <string name="data_app_purpose" formatted="false">"ဤအက်ပ်အကြောင်း"</string>
+    <string name="data_medical_disclaimer" formatted="false">"ဤအက်ပ်သည် ဆေးဘက်ဆိုင်ရာစက်ပစ္စည်းမဟုတ်ပါ။ မည်သည့်ရောဂါကိုမဆို ရောဂါရှာဖွေခြင်း၊ ကုသခြင်း၊ ကုသခြင်း သို့မဟုတ် ကာကွယ်ခြင်းမပြုပါ။ ဆေးဘက်ဆိုင်ရာအကြံဉာဏ်များ၊ ရောဂါရှာဖွေခြင်းနှင့် ကုသမှုများအတွက် အရည်အချင်းပြည့်မီသော ကျန်းမာရေးစောင့်ရှောက်မှုပညာရှင်နှင့် တိုင်ပင်ပါ။"</string>
+    <string name="data_manage_delete_data" formatted="false">"ဒေတာကို စီမံခန့်ခွဲပြီး ဖျက်ပါ။"</string>
+    <string name="data_delete_data_intro" formatted="false">"ဒေတာအားလုံးကို မဖျက်မီ သင့်စက်ပစ္စည်းများအားလုံးတွင် စင့်ခ်လုပ်ခြင်းကို ပိတ်ပါ။ သင့်ဖုန်းမှ အက်ပ်ကို ဖယ်ရှားခြင်းသည် Google Drive အတွင်းရှိ ကော်ပီများ သို့မဟုတ် ထုတ်ယူထားသော ဖိုင်များကို ဖျက်မည်မဟုတ်ပါ။"</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive ဒေတာကို စီမံပါ။"</string>
+    <string name="data_google_account_access" formatted="false">"Google အကောင့်ဝင်ရောက်ခွင့်"</string>
+    <string name="data_android_app_storage" formatted="false">"Android ရှိ အက်ပ်သိုလှောင်မှု"</string>
+    <string name="data_contact_developer" formatted="false">"ဆော့ဖ်ဝဲရေးသားသူကို ဆက်သွယ်ပါ။"</string>
+    <string name="data_opening_page" formatted="false">"စာမျက်နှာတစ်ခုဖွင့်ခြင်း။"</string>
+    <string name="data_advertisement" formatted="false">"ကြော်ငြာ"</string>
+    <string name="data_ad_information" formatted="false">"ဤကြော်ငြာအကြောင်း"</string>
+    <string name="data_cloud_http_error">"Cloud HTTP အမှား %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"cloud တုံ့ပြန်မှုသည် ကြီးမားလွန်းသည်။"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"မမှန်ကန်သော ကုဒ်ဝှက်ထားသော လက်မှတ်ထိုးဝင်ခြင်း စက်ရှင်"</string>
+    <string name="data_session_save_failed" formatted="false">"လက်မှတ်ထိုးဝင်သည့် စက်ရှင်ကို မသိမ်းဆည်းနိုင်ပါ။"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google သို့ ဝင်ရောက်ခွင့်ကို ပြန်လည်စတင်၍မရပါ"</string>
+    <string name="data_diary_read_failed">"ဒိုင်ယာရီကို မဖတ်နိုင်ခဲ့ပါ။ မူရင်းဖိုင်ကို သိမ်းဆည်းထားပါတယ်။ သင်၏ဒေတာကို အရန်သိမ်းဆည်းမှုမှ ပြန်လည်ရယူပါ။ %1$s"</string>
+    <string name="data_last_sync">"နောက်ဆုံး စင့်ခ်လုပ်ခြင်း- %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"သစ်သီးများနှင့် ဘယ်ရီသီးများ"</string>
+    <string name="data_category_dried_fruit" formatted="false">"အသီးခြောက်"</string>
+    <string name="data_category_vegetables" formatted="false">"ဟင်းသီးဟင်းရွက်နှင့် ဟင်းသီးဟင်းရွက်များ"</string>
+    <string name="data_category_mushrooms" formatted="false">"မှို"</string>
+    <string name="data_category_grains" formatted="false">"အစေ့အဆန်များနှင့် ခေါက်ဆွဲ"</string>
+    <string name="data_category_legumes" formatted="false">"ပဲပင်များ"</string>
+    <string name="data_category_meat" formatted="false">"အသားနှင့် ကြက်"</string>
+    <string name="data_category_fish" formatted="false">"ငါးနှင့် ပင်လယ်စာ"</string>
+    <string name="data_category_dairy" formatted="false">"နို့ထွက်ပစ္စည်း"</string>
+    <string name="data_category_eggs" formatted="false">"ကြက်ဥ"</string>
+    <string name="data_category_oils" formatted="false">"ဆီများနှင့် ထောပတ်"</string>
+    <string name="data_category_nuts" formatted="false">"အခွံမာသီးများနှင့် အစေ့များ"</string>
+    <string name="data_category_bread" formatted="false">"ပေါင်မုန့်"</string>
+    <string name="data_category_other" formatted="false">"အခြားအစားအစာများ"</string>
+    <string name="data_category_dishes" formatted="false">"ပြင်ဆင်ထားသော ဟင်းလျာများ"</string>
+    <string name="data_category_custom" formatted="false">"ကျွန်ုပ်၏ အစားအစာများ"</string>
+    <string name="data_category_other_short" formatted="false">"အခြား"</string>
+    <string name="data_food_seed_9003" formatted="false">"အရေပြားနှင့် ပန်းသီး"</string>
+    <string name="data_catalog_note_1">"စားသုံးနိုင်သောအပိုင်း၏ 100 ဂရမ်လျှင် ရည်ညွှန်းတန်ဖိုးများ။ အစားအစာစိမ်း။ USDA ကာဘိုဟိုက်ဒရိတ်တန်ဖိုးများတွင် အမျှင်ဓာတ် ပါဝင်သည်။ ထုတ်ကုန်တံဆိပ်ကို အသုံးပြု၍ တန်ဖိုးများကို ချိန်ညှိနိုင်သည်။ USDA SR Legacy၊ FDC %1$s။"</string>
+    <string name="data_food_seed_9040" formatted="false">"ငှက်ပျောခွံ၊"</string>
+    <string name="data_food_seed_9021" formatted="false">"Apricot, ချွတ်ချွတ်"</string>
+    <string name="data_food_seed_9037" formatted="false">"ထောပတ်သီးအသား"</string>
+    <string name="data_food_seed_9050" formatted="false">"ဘလူးဘယ်ရီ"</string>
+    <string name="data_food_seed_9070" formatted="false">"ချယ်ရီသီးမွှေး၊"</string>
+    <string name="data_food_seed_9063" formatted="false">"အချဉ်ဖောက်ထားသော ချယ်ရီသီးများ"</string>
+    <string name="data_food_seed_9078" formatted="false">"Cranberries"</string>
+    <string name="data_food_seed_9083" formatted="false">"Blackcurrants"</string>
+    <string name="data_food_seed_9084" formatted="false">"အနီရောင်နှင့် အဖြူရောင် Currants"</string>
+    <string name="data_food_seed_9132" formatted="false">"စပျစ်သီး"</string>
+    <string name="data_food_seed_9148" formatted="false">"ကီဝီအသား"</string>
+    <string name="data_food_seed_9150" formatted="false">"သံပယိုကို အခွံခွာထားပါ။"</string>
+    <string name="data_food_seed_9181" formatted="false">"သခွားမွှေးသီးအသား"</string>
+    <string name="data_food_seed_9200" formatted="false">"လိမ္မော်ရောင် အသား"</string>
+    <string name="data_food_seed_9218" formatted="false">"မန်ဒရင်းအသား"</string>
+    <string name="data_food_seed_9236" formatted="false">"မက်မွန်သီး ချွတ်ထားပါ။"</string>
+    <string name="data_food_seed_9252" formatted="false">"သစ်တော်သီး"</string>
+    <string name="data_food_seed_9266" formatted="false">"နာနတ်သီး အသား"</string>
+    <string name="data_food_seed_9279" formatted="false">"ဇီးသီး၊"</string>
+    <string name="data_food_seed_9286" formatted="false">"သလဲသီးအစေ့"</string>
+    <string name="data_food_seed_9295" formatted="false">"ကျွဲကောအသား"</string>
+    <string name="data_food_seed_9302" formatted="false">"Raspberry"</string>
+    <string name="data_food_seed_9316" formatted="false">"စတော်ဘယ်ရီ"</string>
+    <string name="data_food_seed_9326" formatted="false">"ဖရဲသီးအသား"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nectarine, ချွတ်ချွတ်"</string>
+    <string name="data_food_seed_9176" formatted="false">"သရက်သီးအသား"</string>
+    <string name="data_food_seed_9107" formatted="false">"ဆီးဖြူသီး"</string>
+    <string name="data_food_seed_9226" formatted="false">"သင်္ဘောသီးအသား"</string>
+    <string name="data_food_seed_9089" formatted="false">"လတ်ဆတ်သော သဖန်းသီးများ"</string>
+    <string name="data_food_seed_9111" formatted="false">"စပျစ်သီးအသား"</string>
+    <string name="data_food_seed_9032" formatted="false">"apricots အခြောက်၊ ချွတ်ထားပါ။"</string>
+    <string name="data_catalog_note_2">"စားသုံးနိုင်သောအပိုင်း၏ 100 ဂရမ်လျှင် ရည်ညွှန်းတန်ဖိုးများ။ USDA ကာဘိုဟိုက်ဒရိတ်တန်ဖိုးများတွင် အမျှင်ဓာတ် ပါဝင်သည်။ ထုတ်ကုန်တံဆိပ်ကို အသုံးပြု၍ တန်ဖိုးများကို ချိန်ညှိနိုင်သည်။ USDA SR Legacy၊ FDC %1$s။"</string>
+    <string name="data_food_seed_9291" formatted="false">"Prunes, ချွတ်ချွတ်"</string>
+    <string name="data_food_seed_9087" formatted="false">"ရက်စွဲများ၊"</string>
+    <string name="data_food_seed_9298" formatted="false">"အစေ့မပါသော အမှောင်ပျဉ်"</string>
+    <string name="data_food_seed_11529" formatted="false">"လတ်ဆတ်သော ခရမ်းချဉ်သီး"</string>
+    <string name="data_food_seed_11205" formatted="false">"အရေပြားနှင့်သခွားသီး"</string>
+    <string name="data_food_seed_11090" formatted="false">"ဘရိုကိုလီ အစိမ်း"</string>
+    <string name="data_food_seed_11109" formatted="false">"ဂေါ်ဖီစိမ်း"</string>
+    <string name="data_food_seed_11124" formatted="false">"မုန်လာဥနီ"</string>
+    <string name="data_food_seed_11135" formatted="false">"ပန်းဂေါ်ဖီစိမ်း"</string>
+    <string name="data_food_seed_11143" formatted="false">"ဆလရီရိုးတံ"</string>
+    <string name="data_food_seed_11282" formatted="false">"ကြက်သွန်စိမ်း"</string>
+    <string name="data_food_seed_11291" formatted="false">"နွေကြက်သွန်နီ"</string>
+    <string name="data_food_seed_11304" formatted="false">"ပဲစိမ်းစိမ်း"</string>
+    <string name="data_food_seed_11333" formatted="false">"ငရုတ်ကောင်းစိမ်း"</string>
+    <string name="data_food_seed_11821" formatted="false">"အနီရောင် ငရုတ်ကောင်း"</string>
+    <string name="data_food_seed_11352" formatted="false">"အရေခွံပါသော အာလူးစိမ်း"</string>
+    <string name="data_food_seed_11367" formatted="false">"အာလူးပြုတ်၊ အခွံခွာ"</string>
+    <string name="data_catalog_note_3">"စားသုံးနိုင်သောအပိုင်း၏ 100 ဂရမ်လျှင် ရည်ညွှန်းတန်ဖိုးများ။ ဆားမထည့်ဘူး။ USDA ကာဘိုဟိုက်ဒရိတ်တန်ဖိုးများတွင် အမျှင်ဓာတ် ပါဝင်သည်။ ထုတ်ကုန်တံဆိပ်ကို အသုံးပြု၍ တန်ဖိုးများကို ချိန်ညှိနိုင်သည်။ USDA SR Legacy၊ FDC %1$s။"</string>
+    <string name="data_food_seed_11477" formatted="false">"zucchini အစိမ်း"</string>
+    <string name="data_food_seed_11209" formatted="false">"ခရမ်းသီးစိမ်း"</string>
+    <string name="data_food_seed_11422" formatted="false">"ရွှေဖရုံသီးအစိမ်း"</string>
+    <string name="data_food_seed_11429" formatted="false">"မုန်လာဥ"</string>
+    <string name="data_food_seed_11564" formatted="false">"မုန်လာဥစိမ်း"</string>
+    <string name="data_food_seed_11080" formatted="false">"beetroot အစိမ်း"</string>
+    <string name="data_food_seed_11081" formatted="false">"မုန်လာဥပြုတ်"</string>
+    <string name="data_food_seed_11215" formatted="false">"ကြက်သွန်ဖြူ"</string>
+    <string name="data_food_seed_11216" formatted="false">"ဂျင်းအမြစ်"</string>
+    <string name="data_food_seed_11457" formatted="false">"ဟင်းနုနွယ်အစိမ်း"</string>
+    <string name="data_food_seed_11253" formatted="false">"အရွက်ဆလတ်"</string>
+    <string name="data_food_seed_11297" formatted="false">"လတ်ဆတ်သောနံနံပင်"</string>
+    <string name="data_food_seed_2045" formatted="false">"လတ်ဆတ်သောဇီယာစေ့"</string>
+    <string name="data_food_seed_11052" formatted="false">"ပဲစိမ်းစိမ်း"</string>
+    <string name="data_food_seed_11167" formatted="false">"ပြောင်းဖူး၊ အစိမ်းစေ့"</string>
+    <string name="data_food_seed_11260" formatted="false">"ခလုတ်မှိုအစိမ်း"</string>
+    <string name="data_food_seed_11261" formatted="false">"ဆားနယ်ထားသော မှိုပြုတ်"</string>
+    <string name="data_food_seed_11987" formatted="false">"ကမာစိမ်းမှို"</string>
+    <string name="data_food_seed_20009" formatted="false">"Buckwheat groats, ခြောက်သွေ့"</string>
+    <string name="data_catalog_note_4">"စားသုံးနိုင်သောအပိုင်း၏ 100 ဂရမ်လျှင် ရည်ညွှန်းတန်ဖိုးများ။ Buckwheat groats ကင်။ USDA ကာဘိုဟိုက်ဒရိတ်တန်ဖိုးများတွင် အမျှင်ဓာတ် ပါဝင်သည်။ ထုတ်ကုန်တံဆိပ်ကို အသုံးပြု၍ တန်ဖိုးများကို ချိန်ညှိနိုင်သည်။ USDA SR Legacy၊ FDC %1$s။"</string>
+    <string name="data_food_seed_20010" formatted="false">"ရေဖြင့် ချက်ထားသော Buckwheat"</string>
+    <string name="data_food_seed_20444" formatted="false">"ဆန်ဖြူခြောက်"</string>
+    <string name="data_food_seed_20445" formatted="false">"ဆားမပါသော ထမင်းဖြူပြုတ်"</string>
+    <string name="data_food_seed_20036" formatted="false">"ဆန်လုံးညို၊ခြောက်"</string>
+    <string name="data_food_seed_20037" formatted="false">"ဆန်လုံးညိုပြုတ်"</string>
+    <string name="data_food_seed_8120" formatted="false">"အခြောက်လှန်းထားသော ဂျုံ၊"</string>
+    <string name="data_food_seed_8121" formatted="false">"ဆားမပါသော ရေဖြင့်ချက်ပြုတ်ထားသော Oatmeal"</string>
+    <string name="data_food_seed_20005" formatted="false">"ပုလဲမုယောစပါးခြောက်"</string>
+    <string name="data_food_seed_20006" formatted="false">"ပုလဲမုယောပြုတ်"</string>
+    <string name="data_food_seed_20031" formatted="false">"ပြောင်းဆန်ခြောက်"</string>
+    <string name="data_food_seed_20032" formatted="false">"ပြောင်းဆန်ပြုတ်"</string>
+    <string name="data_food_seed_20420" formatted="false">"ခေါက်ဆွဲခြောက်"</string>
+    <string name="data_food_seed_20421" formatted="false">"ဆားမပါသောခေါက်ဆွဲပြုတ်"</string>
+    <string name="data_food_seed_16070" formatted="false">"ဆားမပါသော ပဲပြုတ်၊"</string>
+    <string name="data_food_seed_16057" formatted="false">"ဆားမပါသော ကုလားပဲပြုတ်"</string>
+    <string name="data_food_seed_16033" formatted="false">"အနီရောင်ကျောက်ကပ်စေ့ပြုတ်၊ ဆားမပါ၊"</string>
+    <string name="data_food_seed_5062" formatted="false">"အရေခွံမပါသော ကြက်သားအစိမ်း"</string>
+    <string name="data_food_seed_5064" formatted="false">"အသားမပါသော ကြက်ရင်အုံကင်"</string>
+    <string name="data_food_seed_5219" formatted="false">"အရေခွံမပါသော ကြက်ဆင်သား ရင်သားစိမ်း"</string>
+    <string name="data_food_seed_5220" formatted="false">"အသားမပါသော ကြက်ဆင်ကင် ရင်သား"</string>
+    <string name="data_food_seed_23562" formatted="false">"အမဲသား၊ 10% အဆီ၊ အစိမ်း"</string>
+    <string name="data_food_seed_23566" formatted="false">"အမဲသား၊ 10% အဆီ၊ လှော်"</string>
+    <string name="data_food_seed_10060" formatted="false">"ဝက်သားမိုးခိုသားစိမ်း၊ မြင်နိုင်သော အဆီများကို ဖယ်ရှားသည်။"</string>
+    <string name="data_food_seed_10061" formatted="false">"ဝက်သားမိုးခိုကင်"</string>
+    <string name="data_food_seed_15236" formatted="false">"အတ္တလန်တိတ် ဆော်လမွန်၊ အစိမ်း"</string>
+    <string name="data_catalog_note_5">"စားသုံးနိုင်သောအပိုင်း၏ 100 ဂရမ်လျှင် ရည်ညွှန်းတန်ဖိုးများ။ အစားအစာစိမ်း။ စိုက်ပျိုးသည်။ USDA ကာဘိုဟိုက်ဒရိတ်တန်ဖိုးများတွင် အမျှင်ဓာတ် ပါဝင်သည်။ ထုတ်ကုန်တံဆိပ်ကို အသုံးပြု၍ တန်ဖိုးများကို ချိန်ညှိနိုင်သည်။ USDA SR Legacy၊ FDC %1$s။"</string>
+    <string name="data_food_seed_15237" formatted="false">"အတ္တလန်တိတ်ဆော်လမွန်၊ လှော်"</string>
+    <string name="data_catalog_note_6">"စားသုံးနိုင်သောအပိုင်း၏ 100 ဂရမ်လျှင် ရည်ညွှန်းတန်ဖိုးများ။ စိုက်ပျိုးသည်။ USDA ကာဘိုဟိုက်ဒရိတ်တန်ဖိုးများတွင် အမျှင်ဓာတ် ပါဝင်သည်။ ထုတ်ကုန်တံဆိပ်ကို အသုံးပြု၍ တန်ဖိုးများကို ချိန်ညှိနိုင်သည်။ USDA SR Legacy၊ FDC %1$s။"</string>
+    <string name="data_food_seed_15015" formatted="false">"အတ္တလန်တိတ် ကော့ဒ်၊ ကုန်ကြမ်း"</string>
+    <string name="data_food_seed_15266" formatted="false">"Alaska pollock အစိမ်း"</string>
+    <string name="data_food_seed_15121" formatted="false">"တူနာငါးစည်သွပ်ဘူးကို ရေဖြင့် ညှစ်ထားပါ။"</string>
+    <string name="data_food_seed_15271" formatted="false">"ပြုတ်ထားသောပုစွန်ကို အခွံခွာထားပါ။"</string>
+    <string name="data_food_seed_1211" formatted="false">"နို့၊ 3.25% အဆီ"</string>
+    <string name="data_food_seed_1174" formatted="false">"နို့၊ 2% အဆီ"</string>
+    <string name="data_food_seed_1082" formatted="false">"နို့၊ 1% အဆီ"</string>
+    <string name="data_food_seed_1116" formatted="false">"ရိုးရိုးနို့ဒိန်ချဉ်"</string>
+    <string name="data_food_seed_1256" formatted="false">"Nonfat ဂရိဒိန်ချဉ်"</string>
+    <string name="data_food_seed_1015" formatted="false">"အိမ်တွင်းဒိန်ခဲ၊ 2% အဆီ"</string>
+    <string name="data_catalog_note_7">"စားသုံးနိုင်သောအပိုင်း၏ 100 ဂရမ်လျှင် ရည်ညွှန်းတန်ဖိုးများ။ ဒိန်ခဲပျော့; အခြားဒိန်ခဲအမျိုးအစားများသည် မတူညီသောတန်ဖိုးများရှိသည်။ USDA ကာဘိုဟိုက်ဒရိတ်တန်ဖိုးများတွင် အမျှင်ဓာတ် ပါဝင်သည်။ ထုတ်ကုန်တံဆိပ်ကို အသုံးပြု၍ တန်ဖိုးများကို ချိန်ညှိနိုင်သည်။ USDA SR Legacy၊ FDC %1$s။"</string>
+    <string name="data_food_seed_1056" formatted="false">"အချဉ်မုန့်၊ အဆီ ၁၉% ခန့်"</string>
+    <string name="data_food_seed_1009" formatted="false">"Cheddar ဒိန်ခဲ"</string>
+    <string name="data_food_seed_1026" formatted="false">"နို့လုံး mozzarella"</string>
+    <string name="data_food_seed_1019" formatted="false">"Feta ဒိန်ခဲ"</string>
+    <string name="data_food_seed_1123" formatted="false">"အခွံမပါသောကြက်ဥအစိမ်း"</string>
+    <string name="data_food_seed_1129" formatted="false">"အခွံမပါသောကြက်ဥပြုတ်"</string>
+    <string name="data_food_seed_1124" formatted="false">"ကြက်သားဥအဖြူ"</string>
+    <string name="data_food_seed_1001" formatted="false">"ဆားနယ် ထောပတ်"</string>
+    <string name="data_food_seed_4053" formatted="false">"သံလွင်ဆီ"</string>
+    <string name="data_food_seed_4506" formatted="false">"နေကြာဆီ"</string>
+    <string name="data_food_seed_12061" formatted="false">"ဗာဒံစေ့"</string>
+    <string name="data_food_seed_12155" formatted="false">"သစ်ကြားသီးစေ့များ"</string>
+    <string name="data_food_seed_12120" formatted="false">"Hazelnut စေ့များ"</string>
+    <string name="data_food_seed_12151" formatted="false">"pistachio အစိမ်းစေ့များ"</string>
+    <string name="data_food_seed_12014" formatted="false">"ဖရုံစေ့ခြောက်စေ့"</string>
+    <string name="data_food_seed_16087" formatted="false">"အခွံပါ မြေပဲစိမ်း"</string>
+    <string name="data_food_seed_18069" formatted="false">"ဂျုံဖြူပေါင်မုန့်"</string>
+    <string name="data_food_seed_18075" formatted="false">"ဂျုံလုံးပေါင်မုန့်"</string>
+    <string name="data_food_seed_18060" formatted="false">"ကောက်မုန့်"</string>
+    <string name="data_food_seed_19296" formatted="false">"ဟန်နီ"</string>
+    <string name="data_food_seed_19335" formatted="false">"သကြား"</string>
+    <string name="data_food_seed_19165" formatted="false">"အချိုမပါသော ကိုကိုးမှုန့်"</string>
+    <string name="data_food_seed_19904" formatted="false">"အနက်ရောင်ချောကလက်၊ 70-85% ကိုကိုး"</string>
+    <string name="data_meal_breakfast" formatted="false">"နံနက်စာ"</string>
+    <string name="data_meal_lunch" formatted="false">"နေ့လည်စာ"</string>
+    <string name="data_meal_dinner" formatted="false">"ညစာ"</string>
+    <string name="data_meal_snack" formatted="false">"မုံ့"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary အတွက် ကိုယ်ရေးကိုယ်တာမူဝါဒ\nတည်းဖြတ်မှု- အောက်တိုဘာ 9၊ 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"အက်ပ်- Diet Diary; Google Play ရုရှားဘာသာဖြင့် စာရင်းခေါင်းစဉ်- «Дневник диеты: подсчёт калорий»; အထုပ်- ru.dietdiary.offline။\nပရောဂျက်ပြုစုသူ- Efreitor2001။ အက်ပ်နှင့် ဒေတာလုပ်ဆောင်ခြင်းဆိုင်ရာ မေးခွန်းများအတွက် https://github.com/Efreitor2001/kkalcal/issues သို့ ဆက်သွယ်ပါ။ GitHub ပြဿနာများသည် အများသူငှာဖြစ်သည်- ကျန်းမာရေးမှတ်တမ်းများ၊ အရန်သိမ်းဆည်းမှုများ၊ စကားဝှက်များ သို့မဟုတ် တိုကင်များကို ထိုနေရာတွင် မတင်ပါနှင့်။"</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. သင့်စက်တွင် ဒိုင်ယာရီ\nဒိုင်ယာရီကို သိမ်းဆည်းထားရန် မှတ်ပုံတင်ရန် မလိုအပ်ပါ။ အက်ပ်သည် အစားအစာများနှင့် ၎င်းတို့၏ အာဟာရတန်ဖိုးများ၊ အပိုင်းများနှင့် အစားအသောက်ရက်စွဲများ၊ ကိုယ်အလေးချိန်၊ ခါးတိုင်းတာမှုများ၊ ခန္ဓာကိုယ်အဆီရာခိုင်နှုန်း၊ ခြေလှမ်းများ၊ အိပ်စက်ခြင်း၊ လေ့ကျင့်ခန်းဖော်ပြချက်များ၊ မှတ်စုများ၊ ပန်းတိုင်များ၊ အောင်မြင်မှုများနှင့် အက်ပ်ဆက်တင်များကို သင့်စက်ပစ္စည်းပေါ်ရှိ ၎င်း၏သီးသန့်သိုလှောင်မှုဧရိယာတွင် သိမ်းဆည်းထားသည်။ ရွေးချယ်နိုင်သော အကွက်များကို ကွက်လပ်ချန်ထားနိုင်သည်။ အဆင့်များ၊ အိပ်စက်ခြင်းနှင့် တိုင်းတာမှုများကို ကိုယ်တိုင်ထည့်သွင်းပါသည်။ အပလီကေးရှင်းသည် Health Connect၊ ကိုယ်လက်လှုပ်ရှားမှုအာရုံခံကိရိယာများ သို့မဟုတ် ဆေးဘက်ဆိုင်ရာစက်ပစ္စည်းဒေတာကို ဖတ်မည်မဟုတ်ပါ။"</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"ကယ်လိုရီနှင့် အာဟာရဓာတ်များကို တွက်ချက်ရန်နှင့် မှတ်တမ်း၊ ဇယားများနှင့် အောင်မြင်မှုများကို ပေးဆောင်ရန် ဤအချက်အလက်များကို အသုံးပြုပါသည်။ ဆော့ဖ်ဝဲရေးသားသူသည် ဒိုင်ယာရီအကြောင်းအရာများကို လက်ခံရရှိသည့် ဆာဗာကို မလည်ပတ်ပါ။ သင် Google Drive ကို မချိတ်ဆက်ပါက သို့မဟုတ် အရန်ကူးယူမှုကို သင်ကိုယ်တိုင် မျှဝေခြင်းမရှိပါက၊ သင့်မှတ်တမ်းများသည် သင့်စက်ပစ္စည်းပေါ်တွင် ရှိနေမည်ဖြစ်သည်။"</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. ရွေးချယ်နိုင်သော Google Drive ချိတ်ဆက်မှု\nသင့်တောင်းဆိုချက်အရ၊ အက်ပ်သည် သင့်မူရင်းဘရောက်ဆာတွင် Google အကောင့်ဝင်ရောက်မှုကိုဖွင့်ပြီး သင့် Google Drive တွင် ဤအက်ပ်၏လျှို့ဝှက်ဒေတာသိုလှောင်မှုသို့ ဝင်ရောက်ခွင့်တောင်းဆိုပါသည်။ ဤခွင့်ပြုချက်သည် သင်၏ သာမန် Drive စာရွက်စာတမ်းများ သို့မဟုတ် ဓာတ်ပုံများကို အသုံးပြုခွင့်မပေးပါ။"</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"ချိတ်ဆက်ပြီးသည်နှင့်၊ အစားအစာများ၊ အစားအစာများ၊ ဒိုင်ယာရီတိုင်းတာမှုများ၊ မှတ်စုများ၊ ပန်းတိုင်များ၊ အောင်မြင်မှုများ၊ လွှဲပြောင်းနိုင်သော ဆက်တင်များနှင့် ကျပန်းထည့်သွင်းမှုသတ်မှတ်စနစ်များနှင့် အချိန်တံဆိပ်တုံးများအပါအဝင် မက်တာဒေတာကို ပြောင်းလဲခြင်းတို့ကို Google သို့ ပေးပို့မည်ဖြစ်သည်။ ၎င်းသည် အရန်ကူးယူထားသော လျှပ်တစ်ပြက်ရိုက်ချက်များနှင့် သင့်စက်ပစ္စည်းများတစ်လျှောက်တွင် ထည့်သွင်းမှုများကို ပေါင်းစည်းခြင်းကို ပံ့ပိုးပေးပါသည်။ အလိုအလျောက် စင့်ခ်လုပ်ခြင်းကို ဖွင့်ထားပါက၊ ကွန်ရက်ချိတ်ဆက်မှုရနိုင်သည့်အခါ နောက်ခံတွင် အပြောင်းအလဲများကို ပေးပို့မည်ဖြစ်သည်။ အလိုအလျောက် စင့်ခ်လုပ်ခြင်းကို သီးခြားပိတ်နိုင်သည်။"</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"ချိတ်ဆက်မှုကိုပြသပြီး မှန်ကန်သောသိုလှောင်မှုသို့ လင့်ခ်ချိတ်ရန် ရွေးချယ်ထားသော Google အကောင့်၏ အီးမေးလ်လိပ်စာနှင့် အထောက်အထားကို အက်ပ်က လက်ခံရရှိမည်ဖြစ်သည်။ သင်၏ Google စကားဝှက်ကို အက်ပ်သို့ ပေးမထားပါ။ ခွင့်ပြုချက်စက်ရှင်အား Android သော့စတိုးရှိ သော့တစ်ခုအသုံးပြုကာ သင့်စက်ပစ္စည်းပေါ်တွင် ကုဒ်ဝှက်ထားသည်။ တိုကင်များ၊ အီးမေးလ်လိပ်စာများနှင့် Google အမှတ်အသားများကို ဒိုင်ယာရီ ထုတ်ယူမှုများမှ ဖယ်ထုတ်ပြီး ထပ်တူပြုထားသည့် JSON လျှပ်တစ်ပြက်ဓာတ်ပုံများ။"</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google ဒေတာကို တရားဝင်ခွင့်ပြုချက်နှင့် ထပ်တူပြုခြင်းအတွက်သာ အသုံးပြုသည်၊ ကြော်ငြာအတွက် ဘယ်သောအခါမှ မရှိပါ။ Google ၏ ကိုယ်ရေးကိုယ်တာ မူဝါဒ အကျုံးဝင်သည်- https://policies.google.com/privacy ။"</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. အရန်ဖိုင်များ\n\"ဖိုင်သို့ သိမ်းဆည်းပါ\" သည် သင်ရွေးချယ်သည့် တည်နေရာတွင် JSON ဖိုင်ကို ဖန်တီးပေးပါသည်။ သင်ရွေးချယ်ထားသောဖိုင်ကိုသာ ပြန်ယူပါ။ သင်သည် cloud ဖိုင်ဝန်ဆောင်မှုပေးသူကို ရွေးပါ သို့မဟုတ် မိတ္တူကို အခြားသူတစ်ဦးနှင့် မျှဝေပါက၊ လက်ခံသူကို သင်ရွေးချယ်ပါ။ အက်ပ်သည် ထုတ်ယူထားသော JSON ဖိုင်များကို စာဝှက်မထားပါ- ဤဖိုင်များတွင် ကိုယ်ရေးကိုယ်တာမှတ်တမ်းများ ပါဝင်ပြီး မက်တာဒေတာကို ပြောင်းလဲပါ။"</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. ကြော်ငြာ\nအက်ပ်သည် Yandex Mobile Ads SDK ကို အသုံးပြုသည်။ ကြော်ငြာများကို တင်ရန်နှင့် ပြသရန်၊ သင့်စက်ပစ္စည်းသည် ကြော်ငြာဝန်ဆောင်မှုများနှင့် ချိတ်ဆက်သည်။ Yandex သည် သင်၏ IP လိပ်စာနှင့် ကွန်ရက်တောင်းဆိုမှု၊ စက်ပစ္စည်းနှင့် ဆော့ဖ်ဝဲ၊ ရရှိနိုင်သော ကြော်ငြာများ သို့မဟုတ် နည်းပညာဆိုင်ရာ ခွဲခြားသတ်မှတ်မှုများ၊ နှင့် ကြော်ငြာ အထင်ကြီးစရာများနှင့် အပြန်အလှန်တုံ့ပြန်မှုများအကြောင်း အချက်အလက်များနှင့် ပတ်သက်သော အခြားနည်းပညာဆိုင်ရာ အချက်အလက်များကို လုပ်ဆောင်နိုင်သည်။"</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"အက်ပ်က ခွင့်ပြုချက်မပေးခဲ့ကြောင်း၊ တည်နေရာစုဆောင်းမှုကို ပိတ်ကာ အက်ပ်ကြော်ငြာခွဲခြမ်းစိတ်ဖြာမှု အစီရင်ခံခြင်းကို ပိတ်ကြောင်း SDK အား ပြောပြသည်။ ၎င်းသည် တိကျသော သို့မဟုတ် အနီးစပ်ဆုံးတည်နေရာခွင့်ပြုချက်များကို တောင်းဆိုခြင်းမရှိပါ။ ဤဆက်တင်များသည် ကြော်ငြာဝန်ဆောင်မှုသည် ကွန်ရက်ဆက်သွယ်မှု သို့မဟုတ် နည်းပညာဆိုင်ရာ အချက်အလက်လုပ်ဆောင်ခြင်းများကို လုပ်ဆောင်ခြင်းမရှိဟု မဆိုလိုပါ။"</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"အက်ပ်သည် အစားအသောက်မှတ်တမ်းများ၊ အလေးချိန်၊ တိုင်းတာမှုများ၊ မှတ်စုများ၊ ပန်းတိုင်များ၊ အီးမေးလ်လိပ်စာများ သို့မဟုတ် ကြော်ငြာပစ်မှတ်ထားမှုအတွက် Google အမှတ်အသားများကို အသုံးမပြုဘဲ ၎င်းတို့ကို ကြော်ငြာတောင်းဆိုမှုဘောင်များတွင် ထည့်မထားပါ။ ထည့်သွင်းမှုများကို သိမ်းဆည်းရန် ကြော်ငြာများကို ကြည့်ရှုရန် မလိုအပ်ပါ။"</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex ဒေတာလုပ်ဆောင်ခြင်း၊ ထိန်းသိမ်းခြင်းနှင့် ဖျက်ခြင်းအတွက် စည်းမျဉ်းများ- https://yandex.ru/legal/confidential/ ။ သင့်စနစ်ဗားရှင်းသည် ဤအင်္ဂါရပ်ကို ပံ့ပိုးပေးမည်ဆိုပါက သင့်ကြော်ငြာအမှတ်အသားကို Android ဆက်တင်များတွင် စီမံခန့်ခွဲနိုင်ပါသည်။ ကြော်ငြာဝန်ဆောင်မှု၏မူဝါဒသည် ၎င်း၏နည်းပညာဆိုင်ရာဒေတာအတွက် ထိန်းသိမ်းထားရမည့်ကာလများကို ဆုံးဖြတ်ပေးသည်။ ဒိုင်ယာရီဆော့ဖ်ဝဲရေးသားသူက ထိုဒေတာအတွက် သီးခြားထိန်းသိမ်းထားရမည့်ကာလကို မသတ်မှတ်ထားပေ။"</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. ဒေတာကာကွယ်ရေး\nGoogle နှင့် ဆက်သွယ်ရေးသည် HTTPS ကို အသုံးပြုသည်။ Yandex သည် HTTPS/TLS ကို အသုံးပြု၍ SDK ဒေတာကို ပို့လွှတ်သည်ဟု ဖော်ပြထားသည်။ ဒေသတွင်းဒိုင်ယာရီကို Android ၏အက်ပ် သီးခြားခွဲထားခြင်းဖြင့် ကာကွယ်ထားသည်။ အပလီကေးရှင်းသည် ဒိုင်ယာရီအကြောင်းအရာများ သို့မဟုတ် JSON လျှပ်တစ်ပြက်ရိုက်ချက်များကို သီးခြားစာဝှက်မထားပါ။ ၎င်းသည် စက်ပစ္စည်းများအကြား အဆုံးမှ အဆုံး ကုဒ်ဝှက်ခြင်းကို ပေးစွမ်းမည်မဟုတ်ပါ။"</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"အက်ပ်ဒေတာ၏ စနစ်အရန်ကူးခြင်းကို ပိတ်ထားသည်။ အက်ပ်၏ကိုယ်ပိုင်ကုဒ်ဖြင့်ရေးသော ဒိုင်ယာရီအကြောင်းအရာများ၊ အီးမေးလ်လိပ်စာများ၊ တိုကင်များ သို့မဟုတ် ကွန်ရက်တုံ့ပြန်မှုအဖွဲ့များမပါဘဲ ရလဒ်ကုဒ်များပါ၀င်သည် ။ အပလီကေးရှင်းသည် ဤမှတ်တမ်းများကို ဆော့ဖ်ဝဲရေးသားသူထံ သီးခြားမပေးပို့ပါ။"</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. ထိန်းသိမ်းခြင်းနှင့် ဖျက်ခြင်း\n၎င်းတို့ကို သင်ပြောင်းလဲခြင်း သို့မဟုတ် ဖျက်ခြင်း သို့မဟုတ် အက်ပ်၏ဒေတာကို မရှင်းလင်းမချင်း စက်တွင်းမှတ်တမ်းများ ကျန်ရှိနေမည်ဖြစ်သည်။ ထည့်သွင်းမှုကို ဖျက်ခြင်းသည် ၎င်းကို အင်တာဖေ့စ်မှ ဖယ်ရှားပြီး စင့်ခ်လုပ်နေစဉ်အတွင်း ဖျက်ခြင်းအမှတ်အသားတစ်ခု ပေးပို့သည်။ ဒေတာဟောင်းများ ပြန်မပေါ်စေရန် ကာကွယ်ရန်အတွက် ပေါင်းစပ် metadata ကို ထိန်းသိမ်းထားသည်။ ဖျက်လိုက်သော ဒိုင်ယာရီထည့်သွင်းမှုမှ ယခင်တန်ဖိုးများ ပါဝင်နိုင်သည်။ ယခင်တန်ဖိုးများသည် ယခင်က သင်ဖန်တီးခဲ့သော cloud လျှပ်တစ်ပြက်ရိုက်ချက်များနှင့် ဖိုင်ဟောင်းများတွင်လည်း ရှိနေနိုင်သည်။ ဝင်ခွင့်တစ်ခုအား ဖျက်ခြင်းသည် ၎င်း၏မိတ္တူတိုင်းကို လုံးဝဖျက်ပစ်မည်မဟုတ်ပါ။"</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“အကောင့်ကို ချိတ်ဆက်မှုဖြုတ်ပါ” သည် ဤစက်ပစ္စည်းပေါ်တွင် စင့်ခ်လုပ်ခြင်းကို ရပ်လိုက်ပြီး ဒေသတွင်း Google စက်ရှင်ကို ဖျက်ပစ်သည်။ ဒိုင်ယာရီနှင့် Google Drive ရှိ မှတ်တမ်းများကို သိမ်းဆည်းထားသည်။ အက်ပ်ကို ချိတ်ဆက်မှုဖြတ်ခြင်းသည် သင့် Google အကောင့်ကို ဖျက်ပစ်မည်မဟုတ်ပါ။"</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"ဤအက်ပ်၏ဒေတာကို လုံးလုံးဖျက်ရန်-\n• ကျန်ရှိသောမိတ္တူများကို ထပ်မံမအပ်လုဒ်လုပ်ရန် သင်၏စက်ပစ္စည်းများအားလုံးတွင် စင့်ခ်လုပ်ခြင်းကို ပိတ်ပါ။\n• ဘရောက်ဆာတစ်ခုတွင်၊ ချိတ်ဆက်ထားသည့် Google အကောင့်ကို အသုံးပြု၍ https://drive.google.com/drive/settings ကိုဖွင့်ပါ။ “အက်ပ်များကိုစီမံရန်” ကိုရွေးချယ်ပါ၊ “Diet Diary” (သို့မဟုတ် «Дневник диеты») ကိုရှာပါ၊ ထို့နောက် “ရွေးချယ်မှုများ” → “ဝှက်ထားသောအက်ပ်ဒေတာကိုဖျက်ပါ” ကိုရွေးချယ်ပါ။ မိုဘိုင်းစာမျက်နှာတွင် ဤကဏ္ဍကို မပြသပါက၊ ဆိုက်၏ ဒက်စ်တော့ဗားရှင်း သို့မဟုတ် ကွန်ပျူတာကို အသုံးပြုပါ။\n• https://myaccount.google.com/connections တွင် အက်ပ်၏ဝင်ရောက်ခွင့်ကို ရုပ်သိမ်းပါ။ ဝင်ရောက်ခွင့်ကို တစ်ခုတည်း ရုပ်သိမ်းခြင်းသည် သိမ်းဆည်းထားသော မိတ္တူများကို ဖျက်ပစ်မည်မဟုတ်ပါ။\n• စက်တစ်ခုစီရှိ Android ဆက်တင်များရှိ အက်ပ်၏သိုလှောင်မှုကို ရှင်းပါ သို့မဟုတ် အက်ပ်ကို ဖြုတ်ပါ။\n• သင်ရွေးချယ်ထားသော ဖိုင်တွဲများနှင့် cloud သိုလှောင်မှုတည်နေရာများမှ သီးခြားသိမ်းဆည်းထားသည့် JSON အရန်များကို ဖျက်ပါ။"</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"သင့်အထောက်အထားများမရှိဘဲ၊ ဆော့ဖ်ဝဲအင်ဂျင်နီယာသည် သင့်ကိုယ်ပိုင်ဒိုင်ယာရီ သို့မဟုတ် သင့်ကိုယ်ရေးကိုယ်တာ Google Drive ရှိဖိုင်များကို အဝေးမှ ဖျက်၍မရပါ။ သင့်စကားဝှက် သို့မဟုတ် တိုကင်များကို ဆော့ဖ်ဝဲအင်ဂျင်နီယာနှင့် မမျှဝေပါနှင့်။ ဖျက်ခြင်းအတွက် အကူအညီအတွက်၊ ဤမူဝါဒ၏အစတွင် လင့်ခ်ကို အသုံးပြု၍ ပရောဂျက်ကို ဆက်သွယ်ပါ။ ဒိုင်ယာရီဒေတာကိုဖျက်ရန် သင့် Google အကောင့်ကို ဖျက်ရန် မလိုအပ်ပါ။"</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. ပြောင်းလဲမှုများနှင့် ဆက်သွယ်ရန်\nအက်ပ်၏အင်္ဂါရပ်များ သို့မဟုတ် ဒေတာလုပ်ဆောင်ခြင်းဆိုင်ရာ အလေ့အကျင့်များ ပြောင်းလဲသည့်အခါ၊ ဤမူဝါဒကို ပြန်လည်ပြင်ဆင်သည့်ရက်စွဲဖြင့် အပ်ဒိတ်လုပ်ပါသည်။ အသုံးပြုခွင့်၊ ပြုပြင်ခြင်း၊ ဒေတာဖျက်ခြင်း သို့မဟုတ် အက်ပ်၏လုပ်ဆောင်ချက်ဆိုင်ရာ မေးခွန်းများအတွက်၊ ပရောဂျက်၏ အဆက်အသွယ်ချန်နယ်ကို အသုံးပြုပါ။ သင်တင်ပြသော တောင်းဆိုချက်များကို တုံ့ပြန်မှုတစ်ခုပေးရန် လုပ်ဆောင်ပြီး GitHub တွင် သိမ်းဆည်းထားသည်။ GitHub ၏မူဝါဒကို https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement တွင် ရနိုင်ပါသည်။"</string>
+    <string name="data_category_my_dishes" formatted="false">"ကျွန်ုပ်၏ဟင်းလျာများ"</string>
+    <string name="secondary_metric_weight" formatted="false">"အလေးချိန်"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"ခန္ဓာကိုယ်အဆီ"</string>
+    <string name="secondary_metric_waist" formatted="false">"ခါး"</string>
+    <string name="secondary_metric_steps" formatted="false">"အဆင့်များ"</string>
+    <string name="secondary_metric_sleep" formatted="false">"အိပ်ပါ။"</string>
+    <string name="secondary_metric_kcal" formatted="false">"ကယ်လိုရီ"</string>
+    <string name="secondary_metric_protein" formatted="false">"ပရိုတင်း"</string>
+    <string name="secondary_metric_fat" formatted="false">"အဆီ"</string>
+    <string name="secondary_metric_carbs" formatted="false">"ကာဘိုဟိုက်ဒရိတ်"</string>
+    <string name="secondary_unit_kg" formatted="false">"ကီလိုဂရမ်"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"စင်တီမီတာ"</string>
+    <string name="secondary_unit_steps" formatted="false">"ခြေလှမ်းများ"</string>
+    <string name="secondary_unit_hours" formatted="false">"ဇ"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"ဂရမ်"</string>
+    <string name="secondary_invalid_period" formatted="false">"ရက်စွဲအပိုင်းအခြား မမှန်ကန်ပါ။"</string>
+    <string name="secondary_stats_title" formatted="false">"ခေတ်ရေစီးကြောင်းများ"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"ရှင်းရှင်းလင်းလင်း ဇယားများဖြင့် သင့်မှတ်တမ်းများ"</string>
+    <string name="secondary_metric" formatted="false">"မက်ထရစ်"</string>
+    <string name="secondary_week" formatted="false">"ရက်သတ္တပတ်"</string>
+    <string name="secondary_month" formatted="false">"လ"</string>
+    <string name="secondary_year" formatted="false">"နှစ်"</string>
+    <string name="secondary_custom_period" formatted="false">"စိတ်ကြိုက်အပိုင်း"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"စတင်သည့်ရက်စွဲသည် ပြီးဆုံးသည့်ရက်စွဲနောက်တွင် မဖြစ်ရပါ။"</string>
+    <string name="secondary_no_records" formatted="false">"မှတ်တမ်းများ မရှိသေးပါ။"</string>
+    <string name="secondary_empty_food_period" formatted="false">"သင့်ဒိုင်ယာရီတွင် အစားအစာထည့်ပါ သို့မဟုတ် အခြားကာလကို ရွေးချယ်ပါ။"</string>
+    <string name="secondary_chart_tap" formatted="false">"မှတ်တမ်းတစ်ခုကို ရွေးချယ်ရန် ဇယားကို နှိပ်ပါ။"</string>
+    <string name="secondary_chart_connected" formatted="false">"မျဉ်းသည် မှတ်တမ်းတင်ထားသော တိုင်းတာမှုများကို ချိတ်ဆက်သည်။ ၎င်းတို့ကြားတွင် အတိုင်းအတာမရှိပါ။"</string>
+    <string name="secondary_body_fat_hint" formatted="false">"အတိုင်းအတာ ခန့်မှန်းချက်များသည် ခေတ်ရေစီးကြောင်းများကို ခြေရာခံရန်အတွက် အသုံးဝင်သည်။"</string>
+    <string name="secondary_food_override_hint" formatted="false">"နေ့စဉ်လက်စွဲစာအုပ်စုစုပေါင်းသည် အစားအစာစုစုပေါင်းကို အစားထိုးသည်။ မဟုတ်ပါက မှတ်တမ်းဝင်ထားသော အစားအစာများကို ပေါင်းထည့်သည်။ မှတ်တမ်းမရှိသောနေ့ရက်များကို ကျော်သွားပါသည်။"</string>
+    <string name="secondary_food_total_hint" formatted="false">"စုစုပေါင်းသည် စာရင်းသွင်းထားသော အစားအစာများအပေါ် အခြေခံထားသည်။ မှတ်တမ်းမရှိသောနေ့ကို သုညအဖြစ် မရေတွက်ပါ။"</string>
+    <string name="secondary_missing_days_hint" formatted="false">"မှတ်တမ်းမရှိသောရက်များကို ကျော်သွားကာ ပျမ်းမျှအား ဖယ်ထုတ်ထားသည်။"</string>
+    <string name="secondary_today_yesterday" formatted="false">"ယနေ့နှင့် မနေ့က"</string>
+    <string name="secondary_no_today" formatted="false">"ယနေ့အတွက် မှတ်တမ်းမရှိပါ။"</string>
+    <string name="secondary_no_yesterday" formatted="false">"မနေ့ကအတွက် မှတ်တမ်းမရှိပါ။"</string>
+    <string name="secondary_partial_today" formatted="false">"ဤနှိုင်းယှဉ်မှုသည် လက်ရှိမှတ်တမ်းများကို အသုံးပြုသည်။ ယနေ့ဒေတာ မပြည့်စုံသေးပါ။"</string>
+    <string name="secondary_period_summary" formatted="false">"ကာလအကျဉ်းချုပ်"</string>
+    <string name="secondary_recorded_average" formatted="false">"မှတ်တမ်းတင်ထားသော ရက်များတစ်လျှောက် ပျမ်းမျှ"</string>
+    <string name="secondary_recorded_days" formatted="false">"ဒေတာပါသော ရက်များ"</string>
+    <string name="secondary_minimum" formatted="false">"အနည်းဆုံး"</string>
+    <string name="secondary_maximum" formatted="false">"အများဆုံး"</string>
+    <string name="secondary_first_to_last" formatted="false">"ပထမမှနောက်ဆုံးမှတ်တမ်း"</string>
+    <string name="secondary_two_days_needed" formatted="false">"ပြောင်းလဲမှုတစ်ခုကို တွက်ချက်ရန် အနည်းဆုံး မှတ်တမ်းတင်ထားသော ရက်နှစ်ရက် လိုအပ်ပါသည်။"</string>
+    <string name="secondary_history" formatted="false">"သမိုင်း"</string>
+    <string name="secondary_history_recent" formatted="false">"ဒေတာပါသော နောက်ဆုံး 14 ရက်။ အစောပိုင်းမှတ်တမ်းများအတွက် စိတ်ကြိုက်အပိုင်းကို ရွေးပါ။"</string>
+    <string name="secondary_history_all" formatted="false">"ရွေးချယ်ထားသော ကာလရှိ မှတ်တမ်းတင်ထားသော ရက်များအားလုံး"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s မှ"</string>
+    <string name="secondary_date_until">"%1$s သို့"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s ဤကာလအတွင်း"</string>
+    <string name="secondary_weight_goal">"ပန်းတိုင်- %1$s ကီလိုဂရမ်"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"သင့်ဒိုင်ယာရီတွင် အတိုင်းအတာတစ်ခုထည့်ပါ သို့မဟုတ် အခြားကာလကို ရွေးချယ်ပါ။"</string>
+    <string name="secondary_latest_record">"နောက်ဆုံးစံချိန် · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s- %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"ယနေ့- %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"မနေ့က- %1$s %2$s"</string>
+    <string name="secondary_change_value">"ပြောင်းလဲခြင်း- %1$s %2$s"</string>
+    <string name="secondary_count_of">"%2$d ၏ %1$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s- %2$d မှတ်တမ်းတင်ထားသော ရက်များ၊ %3$s မှ %4$s အထိ။ အနည်းဆုံး %5$s၊ အမြင့်ဆုံး %6$s %7$s။ တန်ဖိုးများကို သမိုင်းတွင် ဖော်ပြထားပါသည်။"</string>
+    <string name="secondary_award_first_weight" formatted="false">"စတင်ခြင်း။"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"သင်၏ ပထမဆုံး ကိုယ်အလေးချိန် တိုင်းတာမှုကို သိမ်းဆည်းပါ။"</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"သင်၏ ပထမဆုံး ကိုယ်အလေးချိန် တိုင်းတာမှုကို သိမ်းဆည်းထားသည်။"</string>
+    <string name="secondary_award_first_food" formatted="false">"ပထမဆုံး ဝင်ခွင့်"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"သင်၏ ပထမဆုံး အစားအစာ အပိုင်းကို စာရင်းသွင်းပါ။"</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"သင်၏ ပထမဆုံး အစားအစာ အပိုင်းကို မှတ်တမ်းတင်ထားသည်။"</string>
+    <string name="secondary_award_weight_week" formatted="false">"တစ်ပတ်တာဒေတာ"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"မတူညီသော 7 ရက်အတွင်း သင့်ကိုယ်အလေးချိန်ကို မှတ်တမ်းတင်ပါ။ ဆက်တိုက်ဖြစ်ရန် မလိုအပ်ပါ။"</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"သင့်တွင် မတူညီသော 7 ရက်အတွက် ကိုယ်အလေးချိန် မှတ်တမ်းများ ရှိသည်။"</string>
+    <string name="secondary_award_weight_month" formatted="false">"ညီညွတ်မှု"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"မတူညီသောရက် 30 တွင် သင့်ကိုယ်အလေးချိန်ကို မှတ်တမ်းတင်ပါ။"</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"သင့်တွင် ရက် 30 အတွက် ကိုယ်အလေးချိန် မှတ်တမ်းများ ရှိသည်။"</string>
+    <string name="secondary_award_food_hundred" formatted="false">"မော်ကွန်းထိန်း"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"သင့်ဒိုင်ယာရီတွင် အစားအသောက်အပိုင်း 100 ကို သိမ်းဆည်းပါ။"</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"အစားအစာ အပိုင်း 100 ကို သင် သိမ်းဆည်းထားသည်။"</string>
+    <string name="secondary_award_food_streak" formatted="false">"အလေ့အကျင့်အသစ်"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"7 ရက်ဆက်တိုက် ပြက္ခဒိန်အတွက် အစားအစာကို စာရင်းသွင်းပါ။"</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"သင်သည် အစားအစာကို ၇ ရက်ဆက်တိုက် မှတ်တမ်းတင်ထားသည်။"</string>
+    <string name="secondary_award_steps" formatted="false">"လမ်းလျှောက်ရင်း တွေးမိသည်။"</string>
+    <string name="secondary_award_steps_description" formatted="false">"တစ်ရက်လျှင် အနည်းဆုံး ခြေလှမ်း 10,000 မှတ်တမ်းတင်ပါ။"</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"သင်သည် တစ်ရက်ကို ခြေလှမ်း 10,000 ဖြင့် မှတ်တမ်းတင်ထားသည်။"</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"တိုးတက်သော အသံဖမ်းစက်"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"ကိုယ်အလေးချိန် တိုင်းတာမှု 100 ကို ချွေတာပါ။ တိုင်းတာမှုတစ်ခုသည် ရက်စွဲတစ်ခုလျှင် ရေတွက်သည်။"</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"သင်သည် ကိုယ်အလေးချိန်တိုင်းတာမှု 100 ကို သိမ်းဆည်းထားသည်။"</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"ဒိုင်ယာရီ ဝါရင့်"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"မတူညီသော ရက်ပေါင်း 90 တွင် အစားအစာ သို့မဟုတ် တိုင်းတာမှုမှတ်တမ်း။ ဆက်တိုက်ဖြစ်ရန် မလိုအပ်ပါ။"</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"သင့်တွင် မတူညီသော ရက်ပေါင်း 90 အတွက် ဒိုင်ယာရီ မှတ်တမ်းများ ရှိသည်။"</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"တိုင်းတာမှုများ"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"အပိုင်းများ"</string>
+    <string name="secondary_award_unit_days" formatted="false">"နေ့ရက်များ"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"ဆက်တိုက်"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"တစ်နေ့တာအတွက် ခြေလှမ်းများ"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"မှတ်တမ်းတင်ထားသောနေ့ရက်များ"</string>
+    <string name="secondary_back" formatted="false">"‹ နောက်ပြန်"</string>
+    <string name="secondary_achievements" formatted="false">"အောင်မြင်မှုများ"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"သေးငယ်သော ခြေလှမ်းများသည် အလေ့အထဖြစ်လာသည်။"</string>
+    <string name="secondary_your_progress" formatted="false">"မင်းရဲ့တိုးတက်မှု"</string>
+    <string name="secondary_awards_permanent" formatted="false">"သင့်မှတ်တမ်းများကို တည်းဖြတ်ထားသော်လည်း ရရှိထားသော အောင်မြင်မှုများသည် သင်နှင့်အတူရှိနေပါသည်။"</string>
+    <string name="secondary_awards_regular" formatted="false">"သင့်ဒိုင်ယာရီကို လိုက်လျောညီထွေဖြစ်အောင် ထိန်းသိမ်းပါ။"</string>
+    <string name="secondary_awards_through_today" formatted="false">"ယနေ့အထိနှင့် ယနေ့အထိ သိမ်းဆည်းထားသော မှတ်တမ်းများကို ရေတွက်သည်။"</string>
+    <string name="secondary_hidden_achievement" formatted="false">"ဝှက်ထားသော အောင်မြင်မှု"</string>
+    <string name="secondary_hidden_description" formatted="false">"ဤအောင်မြင်မှုကို လော့ခ်ဖွင့်ရန် သင့်ဒိုင်ယာရီကို ဆက်လက်အသုံးပြုပါ။"</string>
+    <string name="secondary_earned" formatted="false">"ရရှိခဲ့သည်။"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Hidden · လော့ခ်ချထားသည်။"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"လုပ်ဆောင်နေဆဲ · လော့ခ်ချထားသည်။"</string>
+    <string name="secondary_locked" formatted="false">"လော့ခ်ချထားသည်။"</string>
+    <string name="secondary_hidden_progress" formatted="false">"သင်သည် ဤဆုရသောအခါ လိုအပ်ချက်နှင့် တိုးတက်မှုကို ထုတ်ဖော်လိမ့်မည်။"</string>
+    <string name="secondary_best_streak" formatted="false">"အကောင်းဆုံးအဆင့်"</string>
+    <string name="secondary_hidden_reward" formatted="false">"ဝှက်ထားသော ဆုလာဘ်"</string>
+    <string name="secondary_unlocked_of">"%1$d ၏ လော့ခ်ဖွင့်ထားသည်။"</string>
+    <string name="secondary_unlocked_date">"လော့ခ်ဖွင့်ပြီး %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← နောက်သို့"</string>
+    <string name="secondary_my_recipe" formatted="false">"ကျွန်ုပ်၏ ဟင်းချက်နည်း"</string>
+    <string name="secondary_recipe_intro" formatted="false">"မချက်ပြုတ်မီ ပါဝင်ပစ္စည်းများကို ချိန်ပါ။ အပိုင်းများကိုတွက်ချက်ရန် ချက်ပြုတ်ထားသောအလေးချိန်ကို အသုံးပြုပါ။ ဆီနှင့် ငံပြာရည်များ ပါဝင်သည်။"</string>
+    <string name="secondary_recipe_name" formatted="false">"ချက်နည်းအမည်"</string>
+    <string name="secondary_recipe_example" formatted="false">"ဥပမာ၊ ဟင်းသီးဟင်းရွက်စွပ်ပြုတ်"</string>
+    <string name="secondary_ingredients" formatted="false">"ပါဝင်ပစ္စည်းများ"</string>
+    <string name="secondary_start_ingredients" formatted="false">"ပါဝင်ပစ္စည်းများဖြင့် စတင်ပါ။"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"ပါဝင်ပစ္စည်းတစ်ခုစီကို ထည့်ပြီး ၎င်း၏အလေးချိန်ကို ဂရမ်ဖြင့်ထည့်ပါ။"</string>
+    <string name="secondary_edit_weight" formatted="false">"အလေးချိန်ကို တည်းဖြတ်ပါ။"</string>
+    <string name="secondary_delete" formatted="false">"ဖျက်ရန်"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ ပါဝင်ပစ္စည်းထည့်ပါ။"</string>
+    <string name="secondary_whole_recipe" formatted="false">"စာရွက်တစ်ခုလုံး"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"ရေထည့်သည် သို့မဟုတ် ဆုံးရှုံးသည်နှင့်အမျှ ဟင်းချက်ခြင်းသည် အလေးချိန်ကို ပြောင်းလဲစေသည်။ ကွန်တိန်နာမပါဘဲ ပြီးသောပန်းကန်ကို ချိန်ပါ။"</string>
+    <string name="secondary_cooked_weight" formatted="false">"ချက်ပြုတ်ထားသောအလေးချိန်၊ ဂရမ်"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"ချက်ပြုတ်ပြီးနောက် အလေးချိန်ကို ထည့်ပါ။"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0 ထက်ကြီးသောအလေးချိန်ကို 100,000 ဂရမ်ထက်မပိုစေရပါ။"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"အလေးချိန်သည် အလိုအလျောက် မပြည့်ပါ။"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"ချက်ပြုတ်ထားသောပန်းကန်၏ 100 ဂရမ်နှုန်း"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"ချက်ပြုတ်ထားသောအလေးချိန်နှင့် ပါဝင်ပစ္စည်းများကို စစ်ဆေးပါ- 100 g တစ်ခုစီတွင် 1,000 kcal အထိနှင့် macronutrient တစ်ခုစီ၏ 100 g အထိ ပါဝင်နိုင်သည်။"</string>
+    <string name="secondary_recipe_save_error" formatted="false">"စာရွက်ကို မသိမ်းဆည်းနိုင်ပါ။"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"ကျွန်ုပ်၏ ချက်ပြုတ်နည်းများပေါ်တွင် သိမ်းဆည်းပါ။"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"သိမ်းဆည်းပြီးသည်နှင့် သင်သည် ဤပန်းကန်၏ အစိတ်အပိုင်းအလေးချိန်ဖြင့် ဤပန်းကန်ကို မှတ်တမ်းတင်နိုင်သည်။"</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"မချက်ပြုတ်မီ ပါဝင်ပစ္စည်းအလေးချိန်"</string>
+    <string name="secondary_grams" formatted="false">"ဂရမ်"</string>
+    <string name="secondary_weight_limits" formatted="false">"0 ထက်ကြီးပြီး 100,000 g ထက်မပိုပါ။"</string>
+    <string name="secondary_add" formatted="false">"ထည့်ပါ။"</string>
+    <string name="secondary_save" formatted="false">"သိမ်းဆည်းပါ။"</string>
+    <string name="secondary_cancel" formatted="false">"မလုပ်တော့"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"ပါဝင်ပစ္စည်းတစ်ခုကို ရွေးပါ။"</string>
+    <string name="secondary_search_food" formatted="false">"အစားအစာများကို ရှာဖွေပါ။"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"ရလဒ်မရှိပါ။ Foods တက်ဘ်တွင် သင့်ကိုယ်ပိုင်အစားအစာကို သင်ထည့်နိုင်သည်။"</string>
+    <string name="secondary_close" formatted="false">"ပိတ်ပါ။"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"ပရိုတင်း %1$s · အဆီ %2$s · ကာဗိုဟိုက်ဒရိတ် %3$s g"</string>
+    <string name="secondary_ingredients_weight">"ပါဝင်ပစ္စည်းအလေးချိန်- %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"အထွက်နှုန်း- %1$s g။ ပါဝင်ပစ္စည်းများ- %2$s"</string>
+</resources>

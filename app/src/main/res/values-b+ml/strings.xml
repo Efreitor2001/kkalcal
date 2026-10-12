@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"ഭക്ഷണ ദിനപുസ്തകം"</string>
+    <string name="core_tagline" formatted="false">"കലോറി, ഭാരം, പുരോഗതി"</string>
+    <string name="core_open_diary" formatted="false">"ദിനപുസ്തകം തുറക്കുക"</string>
+    <string name="core_save_failed" formatted="false">"നിങ്ങളുടെ ഡാറ്റ സംരക്ഷിക്കാനായില്ല"</string>
+    <string name="core_day" formatted="false">"ഇന്ന്"</string>
+    <string name="core_products" formatted="false">"ഭക്ഷണങ്ങൾ"</string>
+    <string name="core_diary" formatted="false">"ദിനപുസ്തകം"</string>
+    <string name="core_charts" formatted="false">"ഗ്രാഫുകൾ"</string>
+    <string name="core_more" formatted="false">"കൂടുതൽ"</string>
+    <string name="core_recipe_saved" formatted="false">"വിഭവം നിങ്ങളുടെ ഭക്ഷണപ്പട്ടികയിൽ സംരക്ഷിച്ചു"</string>
+    <string name="core_back_to_day" formatted="false">"ദിവസത്തിന്റെ വിവരങ്ങളിലേക്ക് മടങ്ങുക"</string>
+    <string name="core_action_failed" formatted="false">"ഈ പ്രവർത്തനം പൂർത്തിയാക്കാനായില്ല"</string>
+    <string name="core_understood" formatted="false">"ശരി"</string>
+    <string name="core_restore_available" formatted="false">"കൂടുതൽ എന്ന വിഭാഗത്തിൽ ബാക്കപ്പ് പുനഃസ്ഥാപിക്കാം."</string>
+    <string name="core_eaten_today" formatted="false">"ഇന്ന് കഴിച്ചത്"</string>
+    <string name="core_set_goal_hint" formatted="false">"കൂടുതൽ എന്ന വിഭാഗത്തിൽ ലക്ഷ്യം നിശ്ചയിക്കാം"</string>
+    <string name="core_add_food" formatted="false">"+ ഭക്ഷണം ചേർക്കുക"</string>
+    <string name="core_first_meal" formatted="false">"ആദ്യ ഭക്ഷണം മുതൽ തുടങ്ങുക"</string>
+    <string name="core_first_meal_help" formatted="false">"ഭക്ഷണം തിരഞ്ഞെടുത്ത് ഭാരം ഗ്രാമിൽ നൽകുക. കലോറിയും പ്രധാന പോഷകങ്ങളും കണക്കാക്കും."</string>
+    <string name="core_my_day" formatted="false">"എന്റെ ദിവസം"</string>
+    <string name="core_my_day_help" formatted="false">"ഭാരം, അരക്കെട്ട്, ചുവടുകൾ, ഉറക്കം — അറിയാവുന്നവ രേഖപ്പെടുത്തുക."</string>
+    <string name="core_record_metrics" formatted="false">"അളവുകൾ രേഖപ്പെടുത്തുക"</string>
+    <string name="core_edit_metrics" formatted="false">"അളവുകൾ തിരുത്തുക"</string>
+    <string name="core_food_state_hint" formatted="false">"ഭക്ഷണത്തിന്റെ ഭാരവും പോഷകമൂല്യങ്ങളും ഒരേ അവസ്ഥയുടേതായിരിക്കണം: പച്ചയായത്, ഉണങ്ങിയത് അല്ലെങ്കിൽ പാകം ചെയ്തത്."</string>
+    <string name="core_weight" formatted="false">"ഭാരം"</string>
+    <string name="core_waist" formatted="false">"അരക്കെട്ടിന്റെ ചുറ്റളവ്"</string>
+    <string name="core_my_diary" formatted="false">"എന്റെ ദിനപുസ്തകം"</string>
+    <string name="core_diary_tagline" formatted="false">"ഓരോ ദിവസവും നിങ്ങളുടെ വേഗത്തിൽ"</string>
+    <string name="core_record_day" formatted="false">"+ ദിവസത്തെ രേഖ ചേർക്കുക"</string>
+    <string name="core_optional_diary_help" formatted="false">"എല്ലാ അളവുകളും ഐച്ഛികമാണ്. ഭാരം, ഉറക്കം അല്ലെങ്കിൽ കുറിപ്പ് മാത്രം നൽകാം. തിരുത്താൻ രേഖയിൽ തൊടുക."</string>
+    <string name="core_history_starts" formatted="false">"നിങ്ങളുടെ രേഖകൾ ഇവിടെ തുടങ്ങുന്നു"</string>
+    <string name="core_history_help" formatted="false">"അളവുകൾ രേഖപ്പെടുത്തി ഗ്രാഫുകളിൽ മാറ്റങ്ങൾ കാണുക."</string>
+    <string name="core_file_unavailable" formatted="false">"ഫയൽ ലഭ്യമല്ല"</string>
+    <string name="core_backup_saved" formatted="false">"ബാക്കപ്പ് സംരക്ഷിച്ചു"</string>
+    <string name="core_export_error" formatted="false">"ബാക്കപ്പ് എക്‌സ്‌പോർട്ട് ചെയ്യാനായില്ല"</string>
+    <string name="core_read_error" formatted="false">"ഫയൽ വായിക്കാനായില്ല"</string>
+    <string name="core_settings_tagline" formatted="false">"ക്രമീകരണങ്ങളും ഡാറ്റ ബാക്കപ്പും"</string>
+    <string name="core_your_progress" formatted="false">"നിങ്ങളുടെ പുരോഗതി"</string>
+    <string name="core_achievements_help" formatted="false">"ദിനപുസ്തകം എഴുതുന്നത് ശീലമാക്കാൻ ചെറിയ നേട്ടങ്ങൾ."</string>
+    <string name="core_achievements" formatted="false">"നേട്ടങ്ങൾ"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"നിങ്ങളുടെ ഉപകരണങ്ങൾക്കിടയിൽ ദിനപുസ്തകം സമന്വയിപ്പിക്കാനുള്ള ഐച്ഛിക ബന്ധം."</string>
+    <string name="core_cloud_sync" formatted="false">"ക്ലൗഡ് സമന്വയം"</string>
+    <string name="core_personal_goals" formatted="false">"വ്യക്തിഗത ലക്ഷ്യങ്ങൾ"</string>
+    <string name="core_personal_goals_help" formatted="false">"കലോറി, പ്രധാന പോഷകങ്ങൾ, ലക്ഷ്യഭാരം എന്നിവ സ്വയം നിശ്ചയിക്കുക. ഏത് ലക്ഷ്യവും ഒഴിച്ചിടാം."</string>
+    <string name="core_configure_goals" formatted="false">"ലക്ഷ്യങ്ങൾ നിശ്ചയിക്കുക"</string>
+    <string name="core_backup" formatted="false">"ബാക്കപ്പ്"</string>
+    <string name="core_backup_help" formatted="false">"ഭക്ഷണങ്ങൾ, കഴിച്ചവ, ദിനപുസ്തകം, ലക്ഷ്യങ്ങൾ, നേട്ടങ്ങൾ എന്നിവ ഒരു ഫയലിൽ. ആപ്പ് വീണ്ടും ഇൻസ്റ്റാൾ ചെയ്യുന്നതിന് മുമ്പ് ബാക്കപ്പ് സംരക്ഷിക്കുക."</string>
+    <string name="core_save_file" formatted="false">"ഫയലിൽ സംരക്ഷിക്കുക"</string>
+    <string name="core_restore_file" formatted="false">"ഫയലിൽ നിന്ന് പുനഃസ്ഥാപിക്കുക"</string>
+    <string name="core_write_locked" formatted="false">"യഥാർത്ഥ ഫയൽ സംരക്ഷിക്കാൻ സേവ് ചെയ്യുന്നത് നിർത്തിയിരിക്കുന്നു. സാധുവായ ബാക്കപ്പ് പുനഃസ്ഥാപിക്കുക."</string>
+    <string name="core_about_data" formatted="false">"ആപ്പിനെയും നിങ്ങളുടെ ഡാറ്റയെയും കുറിച്ച്"</string>
+    <string name="core_about_data_help" formatted="false">"രേഖകൾ സൂക്ഷിക്കുന്നതും സമന്വയിപ്പിക്കുന്നതും ഡാറ്റ ഇല്ലാതാക്കുന്നതും എങ്ങനെ."</string>
+    <string name="core_privacy" formatted="false">"സ്വകാര്യതയും ഡാറ്റ ഇല്ലാതാക്കലും"</string>
+    <string name="core_offline" formatted="false">"ഓഫ്‌ലൈനിൽ പ്രവർത്തിക്കും"</string>
+    <string name="core_offline_help" formatted="false">"Google സൈൻ-ഇൻ ഐച്ഛികമാണ്. ചുവടുകളും ഉറക്കവും സ്വയം നൽകണം. സമന്വയത്തിനും പരസ്യങ്ങൾ ലോഡ് ചെയ്യാനും ഇന്റർനെറ്റ് വേണം. ദിനപുസ്തകത്തിലെ രേഖകൾ പരസ്യ ശൃംഖലയിലേക്ക് അയയ്ക്കുന്നില്ല."</string>
+    <string name="core_about_foods" formatted="false">"ഭക്ഷണങ്ങളെക്കുറിച്ച്"</string>
+    <string name="core_foods_reference" formatted="false">"മുൻകൂട്ടി നൽകിയ മൂല്യങ്ങൾ ഭക്ഷ്യയോഗ്യമായ ഭാഗത്തിന്റെ 100 ഗ്രാമിനുള്ള ഏകദേശ കണക്കുകളാണ്. കൃത്യമായ മൂല്യങ്ങൾ പാക്കറ്റിൽ പരിശോധിക്കുക. ഭക്ഷണം തിരുത്തിയാൽ പഴയ ഭക്ഷണരേഖകൾ വീണ്ടും കണക്കാക്കില്ല."</string>
+    <string name="core_foods_source" formatted="false">"ഡാറ്റ ഉറവിടം: USDA FoodData Central, SR Legacy. ഓരോ ഭക്ഷണത്തിലും അതിന്റെ അവസ്ഥയും ഉറവിട വിവരങ്ങളും നൽകിയിട്ടുണ്ട്."</string>
+    <string name="core_restore_title" formatted="false">"ഈ ബാക്കപ്പ് പുനഃസ്ഥാപിക്കണോ?"</string>
+    <string name="core_restore_warning" formatted="false">"നിലവിലെ ഭക്ഷണങ്ങൾ, ദിനപുസ്തകം, ലക്ഷ്യങ്ങൾ, നേട്ടങ്ങൾ എന്നിവ ഈ ഫയലിന്റെ ഉള്ളടക്കം കൊണ്ട് മാറ്റും. ആദ്യം ബാക്കപ്പ് സംരക്ഷിക്കുക. സമന്വയം ബന്ധിപ്പിച്ചിട്ടുണ്ടെങ്കിൽ പുനഃസ്ഥാപിച്ച മാറ്റങ്ങൾ Google Drive ലേക്കും അയയ്ക്കും."</string>
+    <string name="core_backup_restored" formatted="false">"ബാക്കപ്പ് പുനഃസ്ഥാപിച്ചു"</string>
+    <string name="core_invalid_file" formatted="false">"അസാധുവായ ഫയൽ"</string>
+    <string name="core_replace_data" formatted="false">"ഡാറ്റ മാറ്റിസ്ഥാപിക്കുക"</string>
+    <string name="core_cancel" formatted="false">"റദ്ദാക്കുക"</string>
+    <string name="core_save" formatted="false">"സംരക്ഷിക്കുക"</string>
+    <string name="core_calculate_portion" formatted="false">"കഴിക്കുന്ന അളവ് കണക്കാക്കുക"</string>
+    <string name="core_edit_portion" formatted="false">"അളവ് തിരുത്തുക"</string>
+    <string name="core_portion_weight" formatted="false">"കഴിക്കുന്ന അളവിന്റെ ഭാരം, ഗ്രാം"</string>
+    <string name="core_portion_invalid" formatted="false">"0-ൽ കൂടുതലും 100,000 ഗ്രാം വരെയുമുള്ള ഭാരം നൽകുക"</string>
+    <string name="core_add_to_diary" formatted="false">"ദിനപുസ്തകത്തിൽ ചേർക്കുക"</string>
+    <string name="core_delete_entry" formatted="false">"രേഖ ഇല്ലാതാക്കുക"</string>
+    <string name="core_delete_portion_question" formatted="false">"ഈ അളവിന്റെ രേഖ ദിനപുസ്തകത്തിൽ നിന്ന് ഇല്ലാതാക്കണോ?"</string>
+    <string name="core_new_food" formatted="false">"പുതിയ ഭക്ഷണം അല്ലെങ്കിൽ വിഭവം"</string>
+    <string name="core_edit_nutrition" formatted="false">"പോഷകമൂല്യങ്ങൾ തിരുത്തുക"</string>
+    <string name="core_name" formatted="false">"പേര്"</string>
+    <string name="core_food" formatted="false">"ഭക്ഷണം"</string>
+    <string name="core_dish" formatted="false">"തയ്യാറായ വിഭവം"</string>
+    <string name="core_category" formatted="false">"വിഭാഗം"</string>
+    <string name="core_per100_hint" formatted="false">"പാക്കറ്റിലോ പാചകക്കുറിപ്പിലോ ഉള്ള 100 ഗ്രാമിനുള്ള മൂല്യങ്ങൾ നൽകുക. ഒരു പോഷകം ഇല്ലെങ്കിൽ 0 നൽകുക."</string>
+    <string name="core_kcal" formatted="false">"കലോറി"</string>
+    <string name="core_protein_grams" formatted="false">"പ്രോട്ടീൻ, ഗ്രാം"</string>
+    <string name="core_fat_grams" formatted="false">"കൊഴുപ്പ്, ഗ്രാം"</string>
+    <string name="core_carbs_grams" formatted="false">"കാർബോഹൈഡ്രേറ്റ്, ഗ്രാം"</string>
+    <string name="core_food_note" formatted="false">"കുറിപ്പ്, ചേരുവകൾ (ഐച്ഛികം)"</string>
+    <string name="core_favorite" formatted="false">"പ്രിയപ്പെട്ടവയിൽ ചേർക്കുക"</string>
+    <string name="core_name_category_required" formatted="false">"പേരും വിഭാഗവും നൽകുക"</string>
+    <string name="core_nutrition_invalid" formatted="false">"100 ഗ്രാമിനുള്ള മൂല്യങ്ങൾ നൽകുക: കലോറി 0–1,000; പ്രോട്ടീൻ, കൊഴുപ്പ്, കാർബോഹൈഡ്രേറ്റ് എന്നിവ ഓരോന്നും 0–100 ഗ്രാം"</string>
+    <string name="core_delete_food" formatted="false">"ഭക്ഷണപ്പട്ടികയിൽ നിന്ന് ഇല്ലാതാക്കുക"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"മുമ്പത്തെ ഭക്ഷണരേഖകളിലെ മൂല്യങ്ങൾ നിലനിൽക്കും."</string>
+    <string name="core_delete_food_question" formatted="false">"ഈ ഭക്ഷണം ഇല്ലാതാക്കണോ? ദിനപുസ്തകത്തിലെ അതിന്റെ രേഖകൾ നിലനിൽക്കും."</string>
+    <string name="core_day_entry" formatted="false">"ദിവസത്തെ രേഖ"</string>
+    <string name="core_optional_fields" formatted="false">"ആവശ്യമുള്ള വിവരങ്ങൾ മാത്രം നൽകുക. ബാക്കി ഒഴിച്ചിടുക."</string>
+    <string name="core_editing_existing" formatted="false">"ഈ തീയതിയിൽ നേരത്തേ രേഖയുണ്ട്. അതാണ് നിങ്ങൾ തിരുത്തുന്നത്."</string>
+    <string name="core_weight_kg" formatted="false">"ഭാരം, കിലോഗ്രാം"</string>
+    <string name="core_waist_cm" formatted="false">"അരക്കെട്ടിന്റെ ചുറ്റളവ്, സെമീ"</string>
+    <string name="core_steps" formatted="false">"ചുവടുകൾ"</string>
+    <string name="core_sleep" formatted="false">"ഉറക്കം"</string>
+    <string name="core_hours" formatted="false">"മണിക്കൂർ"</string>
+    <string name="core_minutes" formatted="false">"മിനിറ്റ്"</string>
+    <string name="core_body_fat_optional" formatted="false">"തൂക്കയന്ത്രത്തിലെ ശരീരക്കൊഴുപ്പ്, % (ഐച്ഛികം)"</string>
+    <string name="core_body_fat_hint" formatted="false">"തൂക്കയന്ത്രത്തിലെ കൊഴുപ്പ് ശതമാനം പ്രവണത കാണിക്കുന്നതാണ്, കൃത്യമായ അളവല്ല."</string>
+    <string name="core_strength_training" formatted="false">"ശക്തിവർധക വ്യായാമം"</string>
+    <string name="core_training_example" formatted="false">"ഉദാ: സ്‌ക്വാറ്റ് 3×10, 12 കിലോഗ്രാം ഡംബെല്ലുകൾ"</string>
+    <string name="core_manual_nutrition" formatted="false">"പോഷകങ്ങളുടെ ആകെ അളവ് സ്വയം നൽകുക"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"നൽകിയാൽ ദിവസത്തെ ഭക്ഷണങ്ങളുടെ ആകെ അളവിനു പകരം ഈ മൂല്യങ്ങൾ ഉപയോഗിക്കും. സ്വയമേവ കണക്കാക്കാൻ ഒഴിച്ചിടുക."</string>
+    <string name="core_daily_calories" formatted="false">"ദിവസത്തെ കലോറി"</string>
+    <string name="core_daily_protein" formatted="false">"ദിവസത്തെ പ്രോട്ടീൻ, ഗ്രാം"</string>
+    <string name="core_wellbeing_notes" formatted="false">"കുറിപ്പുകളും നിങ്ങളുടെ സുഖവിവരവും"</string>
+    <string name="core_steps_invalid" formatted="false">"ചുവടുകൾ: 0 മുതൽ 200,000 വരെയുള്ള പൂർണ്ണസംഖ്യ"</string>
+    <string name="core_sleep_invalid" formatted="false">"ഉറക്കം: 0–24 മണിക്കൂർ, മിനിറ്റ് 0–59"</string>
+    <string name="core_body_fat" formatted="false">"ശരീരക്കൊഴുപ്പ്"</string>
+    <string name="core_calories" formatted="false">"കലോറി"</string>
+    <string name="core_protein" formatted="false">"പ്രോട്ടീൻ"</string>
+    <string name="core_entry_required" formatted="false">"കുറഞ്ഞത് ഒരു അളവോ കുറിപ്പോ ചേർക്കുക"</string>
+    <string name="core_delete_day" formatted="false">"ഈ ദിവസത്തെ രേഖ ഇല്ലാതാക്കുക"</string>
+    <string name="core_optional_goals" formatted="false">"എല്ലാ ലക്ഷ്യങ്ങളും ഐച്ഛികമാണ്. ഒഴിഞ്ഞ കളം ലക്ഷ്യം നിശ്ചയിച്ചിട്ടില്ലെന്നർഥം."</string>
+    <string name="core_calories_per_day" formatted="false">"ദിവസവും കലോറി"</string>
+    <string name="core_protein_per_day" formatted="false">"ദിവസവും പ്രോട്ടീൻ, ഗ്രാം"</string>
+    <string name="core_fat_per_day" formatted="false">"ദിവസവും കൊഴുപ്പ്, ഗ്രാം"</string>
+    <string name="core_carbs_per_day" formatted="false">"ദിവസവും കാർബോഹൈഡ്രേറ്റ്, ഗ്രാം"</string>
+    <string name="core_target_weight" formatted="false">"ലക്ഷ്യഭാരം, കിലോഗ്രാം"</string>
+    <string name="core_goals_invalid" formatted="false">"ലക്ഷ്യങ്ങൾ പരിശോധിക്കുക: കലോറി 0–10,000; പ്രോട്ടീൻ, കൊഴുപ്പ്, കാർബോഹൈഡ്രേറ്റ് എന്നിവ ഓരോന്നും 0–1,000 ഗ്രാം"</string>
+    <string name="core_target_weight_invalid" formatted="false">"ലക്ഷ്യഭാരം: 1 മുതൽ 500 കിലോഗ്രാം വരെ"</string>
+    <string name="core_delete_question" formatted="false">"ഇല്ലാതാക്കണോ?"</string>
+    <string name="core_delete" formatted="false">"ഇല്ലാതാക്കുക"</string>
+    <string name="core_select_food" formatted="false">"ഭക്ഷണം തിരഞ്ഞെടുക്കുക"</string>
+    <string name="core_foods_dishes" formatted="false">"ഭക്ഷണങ്ങളും വിഭവങ്ങളും"</string>
+    <string name="core_search_food" formatted="false">"ഭക്ഷണമോ വിഭവമോ തിരയുക"</string>
+    <string name="core_new_food_button" formatted="false">"+ ഭക്ഷണം / വിഭവം"</string>
+    <string name="core_recipe_button" formatted="false">"പാചകക്കുറിപ്പിൽ നിന്ന്"</string>
+    <string name="core_no_results" formatted="false">"ഫലങ്ങളില്ല"</string>
+    <string name="core_no_results_help" formatted="false">"മറ്റൊരു വാക്ക് തിരയുക അല്ലെങ്കിൽ നിങ്ങളുടെ ഭക്ഷണമോ തയ്യാറായ വിഭവമോ ചേർക്കുക."</string>
+    <string name="core_edit" formatted="false">"തിരുത്തുക"</string>
+    <string name="core_achievement_unlocked">"🏆 നേട്ടം സ്വന്തമാക്കി! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s കിലോകലോറി ബാക്കി · ലക്ഷ്യം %2$s"</string>
+    <string name="core_above_goal">"ലക്ഷ്യത്തേക്കാൾ %1$s കിലോകലോറി കൂടുതൽ"</string>
+    <string name="core_portion_summary">"%1$s ഗ്രാം · %2$s കിലോകലോറി"</string>
+    <string name="core_macros_summary">"പ്രോട്ടീൻ %1$s   കൊഴുപ്പ് %2$s   കാർബോഹൈഡ്രേറ്റ് %3$s"</string>
+    <string name="core_weight_summary">"ഭാരം %1$s കിലോഗ്രാം"</string>
+    <string name="core_waist_summary">"അരക്കെട്ട് %1$s സെമീ"</string>
+    <string name="core_steps_summary">"ചുവടുകൾ: %1$s"</string>
+    <string name="core_fat_summary">"ശരീരക്കൊഴുപ്പ് %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s കിലോകലോറി (സ്വയം നൽകിയ)"</string>
+    <string name="core_manual_protein">"പ്രോട്ടീൻ %1$s ഗ്രാം (സ്വയം നൽകിയ)"</string>
+    <string name="core_kg_value">"%1$s കിലോഗ്രാം"</string>
+    <string name="core_cm_value">"%1$s സെമീ"</string>
+    <string name="core_sleep_value">"ഉറക്കം %1$s"</string>
+    <string name="core_scale_fat">"തൂക്കയന്ത്രത്തിലെ ശരീരക്കൊഴുപ്പ് %1$s%%"</string>
+    <string name="core_training_value">"വ്യായാമം: %1$s"</string>
+    <string name="core_kcal_value">"%1$s കിലോകലോറി"</string>
+    <string name="core_protein_value">"പ്രോട്ടീൻ %1$s ഗ്രാം"</string>
+    <string name="core_app_version">"ഭക്ഷണ ദിനപുസ്തകം · %1$s"</string>
+    <string name="core_per100_summary">"100 ഗ്രാമിൽ: %1$s കിലോകലോറി · പ്രോട്ടീൻ %2$s · കൊഴുപ്പ് %3$s · കാർബോഹൈഡ്രേറ്റ് %4$s"</string>
+    <string name="core_range_invalid">"%1$s: %2$s മുതൽ %3$s വരെയുള്ള മൂല്യം നൽകുക"</string>
+    <string name="core_delete_day_question">"%1$s-ലെ അളവുകൾ ഇല്ലാതാക്കണോ? ഭക്ഷണരേഖകൾ നിലനിൽക്കും."</string>
+    <string name="core_catalog_count">"ഭക്ഷണങ്ങൾ: %1$s · പോഷകമൂല്യങ്ങൾ 100 ഗ്രാമിന്"</string>
+    <string name="core_catalog_nutrition">"%1$s കിലോകലോറി   ·   പ്രോട്ടീൻ %2$s   കൊഴുപ്പ് %3$s   കാർബോഹൈഡ്രേറ്റ് %4$s"</string>
+    <string name="core_today_date">"ഇന്ന് · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"കലോറിയും പ്രോട്ടീനും ദിനപുസ്തകത്തിൽ സ്വയം നൽകിയ ആകെ അളവുകളാണ്"</string>
+    <string name="core_manual_calorie_total" formatted="false">"കലോറി ദിനപുസ്തകത്തിൽ സ്വയം നൽകിയ ആകെ അളവാണ്"</string>
+    <string name="core_manual_protein_total" formatted="false">"പ്രോട്ടീൻ ദിനപുസ്തകത്തിൽ സ്വയം നൽകിയ ആകെ അളവാണ്"</string>
+    <string name="core_macro_goals">"പ്രോട്ടീൻ / കൊഴുപ്പ് / കാർബോഹൈഡ്രേറ്റ് ലക്ഷ്യങ്ങൾ: %1$s / %2$s / %3$s ഗ്രാം"</string>
+    <string name="core_kcal_unit" formatted="false">"കിലോകലോറി"</string>
+    <string name="core_manual_values">"%1$s (സ്വയം നൽകിയ)"</string>
+    <string name="core_all" formatted="false">"എല്ലാം"</string>
+    <string name="core_favorites" formatted="false">"പ്രിയപ്പെട്ടവ"</string>
+    <string name="core_sleep_duration">"%1$s മണിക്കൂർ %2$s മിനിറ്റ്"</string>
+    <string name="core_previous_day" formatted="false">"മുൻ ദിവസം"</string>
+    <string name="core_next_day" formatted="false">"അടുത്ത ദിവസം"</string>
+    <string name="secondary_metric_weight" formatted="false">"ഭാരം"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"ശരീരക്കൊഴുപ്പ്"</string>
+    <string name="secondary_metric_waist" formatted="false">"അരക്കെട്ടിന്റെ ചുറ്റളവ്"</string>
+    <string name="secondary_metric_steps" formatted="false">"ചുവടുകൾ"</string>
+    <string name="secondary_metric_sleep" formatted="false">"ഉറക്കം"</string>
+    <string name="secondary_metric_kcal" formatted="false">"കലോറി"</string>
+    <string name="secondary_metric_protein" formatted="false">"പ്രോട്ടീൻ"</string>
+    <string name="secondary_metric_fat" formatted="false">"കൊഴുപ്പ്"</string>
+    <string name="secondary_metric_carbs" formatted="false">"കാർബോഹൈഡ്രേറ്റ്"</string>
+    <string name="secondary_unit_kg" formatted="false">"കിലോഗ്രാം"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"സെമീ"</string>
+    <string name="secondary_unit_steps" formatted="false">"ചുവടുകൾ"</string>
+    <string name="secondary_unit_hours" formatted="false">"മണിക്കൂർ"</string>
+    <string name="secondary_unit_kcal" formatted="false">"കിലോകലോറി"</string>
+    <string name="secondary_unit_grams" formatted="false">"ഗ്രാം"</string>
+    <string name="secondary_invalid_period" formatted="false">"അസാധുവായ തീയതി പരിധി"</string>
+    <string name="secondary_stats_title" formatted="false">"പ്രവണതകൾ"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"വ്യക്തമായ ഗ്രാഫുകളിൽ നിങ്ങളുടെ രേഖകൾ"</string>
+    <string name="secondary_metric" formatted="false">"അളവ്"</string>
+    <string name="secondary_week" formatted="false">"ആഴ്ച"</string>
+    <string name="secondary_month" formatted="false">"മാസം"</string>
+    <string name="secondary_year" formatted="false">"വർഷം"</string>
+    <string name="secondary_custom_period" formatted="false">"ഇഷ്ടാനുസൃത കാലയളവ്"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"ആരംഭ തീയതി അവസാന തീയതിക്ക് ശേഷമാകരുത്"</string>
+    <string name="secondary_no_records" formatted="false">"ഇതുവരെ രേഖകളില്ല"</string>
+    <string name="secondary_empty_food_period" formatted="false">"ദിനപുസ്തകത്തിൽ ഭക്ഷണം ചേർക്കുക അല്ലെങ്കിൽ മറ്റൊരു കാലയളവ് തിരഞ്ഞെടുക്കുക."</string>
+    <string name="secondary_chart_tap" formatted="false">"രേഖ തിരഞ്ഞെടുക്കാൻ ഗ്രാഫിൽ തൊടുക"</string>
+    <string name="secondary_chart_connected" formatted="false">"രേഖപ്പെടുത്തിയ അളവുകളെയാണ് വര ബന്ധിപ്പിക്കുന്നത്. അവയ്ക്കിടയിൽ അളവുകളില്ല."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"തൂക്കയന്ത്രത്തിന്റെ ഏകദേശ കണക്കുകൾ പ്രവണത കാണാൻ സഹായിക്കും."</string>
+    <string name="secondary_food_override_hint" formatted="false">"സ്വയം നൽകിയ ദിവസത്തെ ആകെ അളവ് ഭക്ഷണങ്ങളുടെ ആകെ അളവിനു പകരം ഉപയോഗിക്കും. അല്ലെങ്കിൽ രേഖപ്പെടുത്തിയ ഭക്ഷണം കൂട്ടിച്ചേർക്കും. രേഖകളില്ലാത്ത ദിവസങ്ങൾ ഒഴിവാക്കും."</string>
+    <string name="secondary_food_total_hint" formatted="false">"ആകെ അളവ് രേഖപ്പെടുത്തിയ ഭക്ഷണത്തെ ആശ്രയിക്കുന്നു. രേഖയില്ലാത്ത ദിവസം പൂജ്യമായി കണക്കാക്കില്ല."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"രേഖകളില്ലാത്ത ദിവസങ്ങൾ ഒഴിവാക്കും; ശരാശരിയിലും ഉൾപ്പെടുത്തില്ല."</string>
+    <string name="secondary_today_yesterday" formatted="false">"ഇന്നും ഇന്നലെയും"</string>
+    <string name="secondary_no_today" formatted="false">"ഇന്നത്തെ രേഖയില്ല"</string>
+    <string name="secondary_no_yesterday" formatted="false">"ഇന്നലത്തെ രേഖയില്ല"</string>
+    <string name="secondary_partial_today" formatted="false">"ഇപ്പോഴുള്ള രേഖകളാണ് താരതമ്യത്തിന് ഉപയോഗിക്കുന്നത്. ഇന്നത്തെ വിവരങ്ങൾ ഇനിയും അപൂർണ്ണമായിരിക്കാം."</string>
+    <string name="secondary_period_summary" formatted="false">"കാലയളവിന്റെ സംഗ്രഹം"</string>
+    <string name="secondary_recorded_average" formatted="false">"രേഖപ്പെടുത്തിയ ദിവസങ്ങളുടെ ശരാശരി"</string>
+    <string name="secondary_recorded_days" formatted="false">"ഡാറ്റയുള്ള ദിവസങ്ങൾ"</string>
+    <string name="secondary_minimum" formatted="false">"കുറഞ്ഞത്"</string>
+    <string name="secondary_maximum" formatted="false">"കൂടിയത്"</string>
+    <string name="secondary_first_to_last" formatted="false">"ആദ്യ രേഖ മുതൽ അവസാനത്തേത് വരെ"</string>
+    <string name="secondary_two_days_needed" formatted="false">"മാറ്റം കണക്കാക്കാൻ കുറഞ്ഞത് രണ്ട് ദിവസത്തെ രേഖ വേണം."</string>
+    <string name="secondary_history" formatted="false">"മുൻ രേഖകൾ"</string>
+    <string name="secondary_history_recent" formatted="false">"ഡാറ്റയുള്ള ഏറ്റവും പുതിയ 14 ദിവസങ്ങൾ. പഴയ രേഖകൾക്ക് ഇഷ്ടാനുസൃത കാലയളവ് തിരഞ്ഞെടുക്കുക."</string>
+    <string name="secondary_history_all" formatted="false">"തിരഞ്ഞെടുത്ത കാലയളവിലെ രേഖകളുള്ള എല്ലാ ദിവസങ്ങളും"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s മുതൽ"</string>
+    <string name="secondary_date_until">"%1$s വരെ"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"ഈ കാലയളവിലെ %1$s"</string>
+    <string name="secondary_weight_goal">"ലക്ഷ്യം: %1$s കിലോഗ്രാം"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"ദിനപുസ്തകത്തിൽ അളവ് ചേർക്കുക അല്ലെങ്കിൽ മറ്റൊരു കാലയളവ് തിരഞ്ഞെടുക്കുക."</string>
+    <string name="secondary_latest_record">"ഏറ്റവും പുതിയ രേഖ · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"ഇന്ന്: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"ഇന്നലെ: %1$s %2$s"</string>
+    <string name="secondary_change_value">"മാറ്റം: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%2$d-ൽ %1$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. രേഖപ്പെടുത്തിയ ദിവസങ്ങൾ: %2$d, %3$s മുതൽ %4$s വരെ. കുറഞ്ഞത് %5$s, കൂടിയത് %6$s %7$s. മൂല്യങ്ങൾ മുൻ രേഖകളിൽ നൽകിയിരിക്കുന്നു."</string>
+    <string name="secondary_award_first_weight" formatted="false">"ആദ്യ ചുവട്"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"ആദ്യ ഭാരമളവ് സംരക്ഷിക്കുക."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"നിങ്ങളുടെ ആദ്യ ഭാരമളവ് സംരക്ഷിച്ചു."</string>
+    <string name="secondary_award_first_food" formatted="false">"ആദ്യ രേഖ"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"ആദ്യ ഭക്ഷണത്തിന്റെ അളവ് രേഖപ്പെടുത്തുക."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"ആദ്യ ഭക്ഷണത്തിന്റെ അളവ് രേഖപ്പെടുത്തി."</string>
+    <string name="secondary_award_weight_week" formatted="false">"ഒരാഴ്ചത്തെ ഡാറ്റ"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"7 വ്യത്യസ്ത ദിവസങ്ങളിൽ ഭാരം രേഖപ്പെടുത്തുക. തുടർച്ചയായിരിക്കണമെന്നില്ല."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"7 വ്യത്യസ്ത ദിവസങ്ങളിലെ ഭാരരേഖകൾ നിങ്ങൾക്കുണ്ട്."</string>
+    <string name="secondary_award_weight_month" formatted="false">"സ്ഥിരത"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"30 വ്യത്യസ്ത ദിവസങ്ങളിൽ ഭാരം രേഖപ്പെടുത്തുക."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"30 ദിവസങ്ങളിലെ ഭാരരേഖകൾ നിങ്ങൾക്കുണ്ട്."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"രേഖകളുടെ ശേഖരക്കാരൻ"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"ദിനപുസ്തകത്തിൽ ഭക്ഷണത്തിന്റെ 100 അളവുകൾ സംരക്ഷിക്കുക."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"ഭക്ഷണത്തിന്റെ 100 അളവുകൾ സംരക്ഷിച്ചു."</string>
+    <string name="secondary_award_food_streak" formatted="false">"പുതിയ ശീലം"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"തുടർച്ചയായി 7 കലണ്ടർ ദിവസങ്ങളിൽ ഭക്ഷണം രേഖപ്പെടുത്തുക."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"തുടർച്ചയായി 7 ദിവസങ്ങളിൽ ഭക്ഷണം രേഖപ്പെടുത്തി."</string>
+    <string name="secondary_award_steps" formatted="false">"നടത്തത്തിലെ മിടുക്കൻ"</string>
+    <string name="secondary_award_steps_description" formatted="false">"ഒരു ദിവസം കുറഞ്ഞത് 10,000 ചുവടുകൾ രേഖപ്പെടുത്തുക."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"10,000 ചുവടുകളുള്ള ഒരു ദിവസം രേഖപ്പെടുത്തി."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"രേഖപ്പെടുത്തലിലെ മിടുക്കൻ"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"100 ഭാരമളവുകൾ സംരക്ഷിക്കുക. ഓരോ തീയതിയിലും ഒരു അളവ് കണക്കാക്കും."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"100 ഭാരമളവുകൾ സംരക്ഷിച്ചു."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"ദിനപുസ്തകത്തിലെ പരിചയസമ്പന്നൻ"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"90 വ്യത്യസ്ത ദിവസങ്ങളിൽ ഭക്ഷണമോ അളവുകളോ രേഖപ്പെടുത്തുക. തുടർച്ചയായിരിക്കണമെന്നില്ല."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"90 വ്യത്യസ്ത ദിവസങ്ങളിലെ ദിനപുസ്തക രേഖകൾ നിങ്ങൾക്കുണ്ട്."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"അളവുകൾ"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"ഭക്ഷണ അളവുകൾ"</string>
+    <string name="secondary_award_unit_days" formatted="false">"ദിവസങ്ങൾ"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"തുടർച്ചയായ ദിവസങ്ങൾ"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"ഒരു ദിവസത്തെ ചുവടുകൾ"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"രേഖപ്പെടുത്തിയ ദിവസങ്ങൾ"</string>
+    <string name="secondary_back" formatted="false">"‹  മടങ്ങുക"</string>
+    <string name="secondary_achievements" formatted="false">"നേട്ടങ്ങൾ"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"ചെറിയ ചുവടുകൾ ശീലമാകുന്നു"</string>
+    <string name="secondary_your_progress" formatted="false">"നിങ്ങളുടെ പുരോഗതി"</string>
+    <string name="secondary_awards_permanent" formatted="false">"രേഖകൾ തിരുത്തിയാലും സ്വന്തമാക്കിയ നേട്ടങ്ങൾ നിലനിൽക്കും."</string>
+    <string name="secondary_awards_regular" formatted="false">"സ്ഥിരതയ്ക്കും ദിനപുസ്തകം സൂക്ഷിക്കുന്നതിനും"</string>
+    <string name="secondary_awards_through_today" formatted="false">"ഇന്നത്തേതടക്കം ഇന്നുവരെ സംരക്ഷിച്ച രേഖകൾ കണക്കാക്കും."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"മറഞ്ഞിരിക്കുന്ന നേട്ടം"</string>
+    <string name="secondary_hidden_description" formatted="false">"ഈ നേട്ടം നേടാൻ ദിനപുസ്തകം ഉപയോഗിക്കുന്നത് തുടരുക."</string>
+    <string name="secondary_earned" formatted="false">"നേടിയത്"</string>
+    <string name="secondary_hidden_locked" formatted="false">"മറഞ്ഞിരിക്കുന്നു · ഇതുവരെ നേടിയിട്ടില്ല"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"പുരോഗമിക്കുന്നു · ഇതുവരെ നേടിയിട്ടില്ല"</string>
+    <string name="secondary_locked" formatted="false">"ഇതുവരെ നേടിയിട്ടില്ല"</string>
+    <string name="secondary_hidden_progress" formatted="false">"ഈ നേട്ടം നേടുമ്പോൾ നിബന്ധനയും പുരോഗതിയും കാണിക്കും."</string>
+    <string name="secondary_best_streak" formatted="false">"ഏറ്റവും നീണ്ട തുടർച്ച"</string>
+    <string name="secondary_hidden_reward" formatted="false">"മറഞ്ഞിരിക്കുന്ന സമ്മാനം"</string>
+    <string name="secondary_unlocked_of">"ആകെ %1$d-ൽ നേടിയത്"</string>
+    <string name="secondary_unlocked_date">"%1$s-ന് നേടി"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← മടങ്ങുക"</string>
+    <string name="secondary_my_recipe" formatted="false">"എന്റെ പാചകക്കുറിപ്പ്"</string>
+    <string name="secondary_recipe_intro" formatted="false">"പാചകത്തിന് മുമ്പ് ചേരുവകൾ തൂക്കുക. കഴിക്കുന്ന അളവ് കണക്കാക്കാൻ പാകം ചെയ്ത ഭാരം ഉപയോഗിക്കുക. എണ്ണയും സോസും ഉൾപ്പെടുത്തുക."</string>
+    <string name="secondary_recipe_name" formatted="false">"പാചകക്കുറിപ്പിന്റെ പേര്"</string>
+    <string name="secondary_recipe_example" formatted="false">"ഉദാ: പച്ചക്കറി സ്റ്റ്യൂ"</string>
+    <string name="secondary_ingredients" formatted="false">"ചേരുവകൾ"</string>
+    <string name="secondary_start_ingredients" formatted="false">"ചേരുവകളിൽ നിന്ന് തുടങ്ങുക"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"ഓരോ ചേരുവയും ചേർത്ത് ഭാരം ഗ്രാമിൽ നൽകുക."</string>
+    <string name="secondary_edit_weight" formatted="false">"ഭാരം തിരുത്തുക"</string>
+    <string name="secondary_delete" formatted="false">"ഇല്ലാതാക്കുക"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ ചേരുവ ചേർക്കുക"</string>
+    <string name="secondary_whole_recipe" formatted="false">"മുഴുവൻ പാചകക്കുറിപ്പ്"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"പാചകത്തിൽ വെള്ളം കൂടുകയോ കുറയുകയോ ചെയ്യുന്നതിനാൽ ഭാരം മാറും. പാത്രമില്ലാതെ തയ്യാറായ വിഭവം തൂക്കുക."</string>
+    <string name="secondary_cooked_weight" formatted="false">"പാകം ചെയ്ത ഭാരം, ഗ്രാം"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"പാചകത്തിന് ശേഷമുള്ള ഭാരം നൽകുക"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0-ൽ കൂടുതലും 100,000 ഗ്രാം വരെയുമുള്ള ഭാരം നൽകുക"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"ഭാരം സ്വയമേവ നിറയ്ക്കില്ല"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"പാകം ചെയ്ത വിഭവത്തിന്റെ 100 ഗ്രാമിന്"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"പാകം ചെയ്ത ഭാരവും ചേരുവകളും പരിശോധിക്കുക: 100 ഗ്രാമിന് പരമാവധി 1,000 കിലോകലോറിയും ഓരോ പ്രധാന പോഷകവും പരമാവധി 100 ഗ്രാമും ആകാം."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"പാചകക്കുറിപ്പ് സംരക്ഷിക്കാനായില്ല"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"എന്റെ വിഭവങ്ങളിൽ സംരക്ഷിക്കുക"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"സംരക്ഷിച്ചാൽ കഴിച്ച അളവിന്റെ ഭാരം ഉപയോഗിച്ച് ഈ വിഭവം രേഖപ്പെടുത്താം."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"പാചകത്തിന് മുമ്പുള്ള ചേരുവയുടെ ഭാരം"</string>
+    <string name="secondary_grams" formatted="false">"ഗ്രാം"</string>
+    <string name="secondary_weight_limits" formatted="false">"0-ൽ കൂടുതലും 100,000 ഗ്രാം വരെയും"</string>
+    <string name="secondary_add" formatted="false">"ചേർക്കുക"</string>
+    <string name="secondary_save" formatted="false">"സംരക്ഷിക്കുക"</string>
+    <string name="secondary_cancel" formatted="false">"റദ്ദാക്കുക"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"ചേരുവ തിരഞ്ഞെടുക്കുക"</string>
+    <string name="secondary_search_food" formatted="false">"ഭക്ഷണങ്ങൾ തിരയുക"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"ഫലങ്ങളില്ല. ഭക്ഷണങ്ങൾ ടാബിൽ നിങ്ങളുടെ ഭക്ഷണം ചേർക്കാം."</string>
+    <string name="secondary_close" formatted="false">"അടയ്ക്കുക"</string>
+    <string name="secondary_portion_energy">"%1$s ഗ്രാം · %2$s കിലോകലോറി"</string>
+    <string name="secondary_portion_macros">"പ്രോട്ടീൻ %1$s · കൊഴുപ്പ് %2$s · കാർബോഹൈഡ്രേറ്റ് %3$s ഗ്രാം"</string>
+    <string name="secondary_ingredients_weight">"ചേരുവകളുടെ ഭാരം: %1$s ഗ്രാം"</string>
+    <string name="secondary_energy">"%1$s കിലോകലോറി"</string>
+    <string name="secondary_grams_value">"%1$s ഗ്രാം"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s കിലോകലോറി / 100 ഗ്രാം"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s ഗ്രാം"</string>
+    <string name="secondary_recipe_note">"തയ്യാറായ അളവ്: %1$s ഗ്രാം. ചേരുവകൾ: %2$s"</string>
+    <string name="app_name" formatted="false">"ഭക്ഷണ ദിനപുസ്തകം"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"മാറ്റിപ്പാർപ്പിക്കൽ ബാക്കപ്പ് പൊരുത്തപ്പെടുന്നില്ല"</string>
+    <string name="data_entry_exists" formatted="false">"ഈ ഭക്ഷണരേഖ നേരത്തേയുണ്ട്"</string>
+    <string name="data_entry_missing" formatted="false">"ഭക്ഷണരേഖ കണ്ടെത്തിയില്ല"</string>
+    <string name="data_edited_date_changed" formatted="false">"തിരുത്തുന്ന രേഖയുടെ തീയതി മാറിയിരിക്കുന്നു"</string>
+    <string name="data_device_id_corrupt" formatted="false">"ഉപകരണത്തിന്റെ പ്രാദേശിക തിരിച്ചറിയൽ കേടായി; പുനഃസ്ഥാപിക്കൽ തടഞ്ഞിരിക്കുന്നു"</string>
+    <string name="data_sync_invalid" formatted="false">"അസാധുവായ സമന്വയ ഡാറ്റ"</string>
+    <string name="data_diary_read_only" formatted="false">"ദിനപുസ്തകം മാറ്റിയെഴുതുന്നതിൽ നിന്ന് സംരക്ഷിച്ചിരിക്കുന്നു: ബാക്കപ്പ് പുനഃസ്ഥാപിക്കുക"</string>
+    <string name="data_diary_inconsistent" formatted="false">"ദിനപുസ്തകത്തിലെ ഡാറ്റയിൽ പൊരുത്തക്കേടുണ്ട്"</string>
+    <string name="data_backup_too_large" formatted="false">"ബാക്കപ്പ് വളരെ വലുതാണ്"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ഇൻസ്റ്റാളേഷന്റെ തിരിച്ചറിയൽ കേടായി"</string>
+    <string name="data_save_verification_failed" formatted="false">"ദിനപുസ്തകം സംരക്ഷിച്ചെന്ന് ഉറപ്പാക്കാനായില്ല"</string>
+    <string name="data_save_failed" formatted="false">"ദിനപുസ്തകം സംരക്ഷിക്കാനായില്ല"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"ബാക്കപ്പ് 50 MB-യിൽ കൂടുതലാണ്"</string>
+    <string name="data_diary_file_too_large" formatted="false">"ദിനപുസ്തക ഫയൽ വളരെ വലുതാണ്"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"ഭക്ഷണ ഡാറ്റാബേസിന്റെ വലുപ്പം അസാധുവാണ്"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"ഈ ബാക്കപ്പ് പതിപ്പിന് പിന്തുണയില്ല"</string>
+    <string name="data_too_many_values">"%1$s-ൽ വളരെയധികം മൂല്യങ്ങളുണ്ട്"</string>
+    <string name="data_too_many_products" formatted="false">"വളരെയധികം ഭക്ഷണങ്ങളുണ്ട്"</string>
+    <string name="data_too_many_entries" formatted="false">"വളരെയധികം ഭക്ഷണരേഖകളുണ്ട്"</string>
+    <string name="data_too_many_logs" formatted="false">"വളരെയധികം ദിനപുസ്തക രേഖകളുണ്ട്"</string>
+    <string name="data_product_id_duplicate" formatted="false">"ഭക്ഷണത്തിന്റെ തിരിച്ചറിയൽ ആവർത്തിക്കുന്നു"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"ഭക്ഷണരേഖയുടെ തിരിച്ചറിയൽ ആവർത്തിക്കുന്നു"</string>
+    <string name="data_log_date_duplicate" formatted="false">"ദിനപുസ്തകത്തിലെ തീയതി ആവർത്തിക്കുന്നു"</string>
+    <string name="data_label_product_id" formatted="false">"ഭക്ഷണത്തിന്റെ തിരിച്ചറിയൽ"</string>
+    <string name="data_label_product_name" formatted="false">"ഭക്ഷണത്തിന്റെ പേര്"</string>
+    <string name="data_label_category" formatted="false">"വിഭാഗം"</string>
+    <string name="data_label_note" formatted="false">"കുറിപ്പ്"</string>
+    <string name="data_label_entry_id" formatted="false">"രേഖയുടെ തിരിച്ചറിയൽ"</string>
+    <string name="data_label_meal" formatted="false">"ഭക്ഷണവേള"</string>
+    <string name="data_food_weight_range" formatted="false">"ഭക്ഷണത്തിന്റെ ഭാരം 0-ൽ കൂടുതലും 100000 ഗ്രാം വരെയും ആയിരിക്കണം"</string>
+    <string name="data_label_weight" formatted="false">"ഭാരം"</string>
+    <string name="data_label_waist" formatted="false">"അരക്കെട്ടിന്റെ ചുറ്റളവ്"</string>
+    <string name="data_steps_range" formatted="false">"ചുവടുകളുടെ എണ്ണം 0 മുതൽ 200000 വരെ ആയിരിക്കണം"</string>
+    <string name="data_label_sleep" formatted="false">"ഉറക്കം"</string>
+    <string name="data_label_body_fat" formatted="false">"ശരീരക്കൊഴുപ്പ്"</string>
+    <string name="data_label_daily_calories" formatted="false">"ദിവസത്തെ കലോറി"</string>
+    <string name="data_label_daily_protein" formatted="false">"ദിവസത്തെ പ്രോട്ടീൻ"</string>
+    <string name="data_label_workout" formatted="false">"വ്യായാമം"</string>
+    <string name="data_label_log_note" formatted="false">"കുറിപ്പ്"</string>
+    <string name="data_log_empty" formatted="false">"കുറഞ്ഞത് ഒരു അളവോ കുറിപ്പോ നൽകുക"</string>
+    <string name="data_label_goal_weight" formatted="false">"ലക്ഷ്യഭാരം"</string>
+    <string name="data_too_many_achievements" formatted="false">"വളരെയധികം നേട്ടങ്ങളുണ്ട്"</string>
+    <string name="data_achievement_invalid" formatted="false">"അസാധുവായ നേട്ടം"</string>
+    <string name="data_setting_not_portable" formatted="false">"ഈ ക്രമീകരണം കൈമാറാനാവില്ല"</string>
+    <string name="data_setting_invalid">"%1$s ക്രമീകരണത്തിന്റെ മൂല്യം അസാധുവാണ്"</string>
+    <string name="data_label_calories" formatted="false">"കലോറി"</string>
+    <string name="data_label_protein" formatted="false">"പ്രോട്ടീൻ"</string>
+    <string name="data_label_fat" formatted="false">"കൊഴുപ്പ്"</string>
+    <string name="data_label_carbs" formatted="false">"കാർബോഹൈഡ്രേറ്റ്"</string>
+    <string name="data_value_range">"%1$s: അനുവദനീയമായ പരിധി %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: അസാധുവായ നീളം"</string>
+    <string name="data_text_character_invalid">"%1$s: അസാധുവായ അക്ഷരം"</string>
+    <string name="data_date_format_invalid" formatted="false">"തീയതി YYYY-MM-DD രൂപത്തിലായിരിക്കണം"</string>
+    <string name="data_date_nonexistent">"അസാധുവായ തീയതി: %1$s"</string>
+    <string name="data_field_string_required">"%1$s കളത്തിൽ പാഠം ആയിരിക്കണം"</string>
+    <string name="data_field_boolean_required">"%1$s കളത്തിൽ ശരി/തെറ്റ് സൂചിപ്പിക്കുന്ന മൂല്യം ആയിരിക്കണം"</string>
+    <string name="data_field_number_required">"%1$s കളത്തിൽ സംഖ്യ ആയിരിക്കണം"</string>
+    <string name="data_field_finite_required">"%1$s കളത്തിൽ പരിമിത സംഖ്യ ആയിരിക്കണം"</string>
+    <string name="data_field_integer_required">"%1$s കളത്തിൽ പൂർണ്ണസംഖ്യ ആയിരിക്കണം"</string>
+    <string name="data_too_many_items">"%1$s-ൽ വളരെയധികം ഇനങ്ങളുണ്ട്"</string>
+    <string name="data_data_file_invalid">"അസാധുവായ ഡാറ്റ ഫയൽ: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"ഉപകരണത്തിന്റെ തിരിച്ചറിയൽ ഇല്ല"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"ലോജിക്കൽ ക്ലോക്കിന്റെ പരിധിയിലെത്തി"</string>
+    <string name="data_too_many_sync_records" formatted="false">"വളരെയധികം സമന്വയ രേഖകളുണ്ട്"</string>
+    <string name="data_sync_version_required" formatted="false">"സമന്വയത്തിന് ഫോർമാറ്റ് പതിപ്പ് 2 വേണം"</string>
+    <string name="data_sync_key_invalid" formatted="false">"അസാധുവായ സമന്വയ കീ"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"സമന്വയ കീ ആവർത്തിക്കുന്നു"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"ഇല്ലാതാക്കാനുള്ള സൂചകം അസാധുവാണ്"</string>
+    <string name="data_sync_data_invalid" formatted="false">"അസാധുവായ സമന്വയ ഡാറ്റ"</string>
+    <string name="data_record_clock_invalid" formatted="false">"രേഖയുടെ പതിപ്പ് ലോജിക്കൽ ക്ലോക്കിനെ മറികടക്കുന്നു"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"ഡാറ്റ സമന്വയ മെറ്റാഡാറ്റയുമായി പൊരുത്തപ്പെടുന്നില്ല"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"സമന്വയ കീയുടെ നീളം അസാധുവാണ്"</string>
+    <string name="data_sync_key_malformed" formatted="false">"സമന്വയ കീയുടെ ഘടന തെറ്റാണ്"</string>
+    <string name="data_sync_type_unknown" formatted="false">"അജ്ഞാത സമന്വയ തരം"</string>
+    <string name="data_record_id_too_long" formatted="false">"രേഖയുടെ തിരിച്ചറിയൽ വളരെ നീളമുള്ളതാണ്"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"നേട്ടം ഇല്ലാതാക്കുന്ന നടപടി അസാധുവാണ്"</string>
+    <string name="data_log_key_invalid" formatted="false">"അസാധുവായ ദിനപുസ്തക കീ"</string>
+    <string name="data_log_field_unknown" formatted="false">"ദിനപുസ്തകത്തിലെ അജ്ഞാത കളം"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"ദിനപുസ്തകം ഇല്ലാതാക്കാനുള്ള അടയാളം അസാധുവാണ്"</string>
+    <string name="data_goal_unknown" formatted="false">"അജ്ഞാത ലക്ഷ്യം"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"ഇല്ലാതാക്കിയ രേഖയിൽ ഡാറ്റയുണ്ട്"</string>
+    <string name="data_sync_value_invalid" formatted="false">"അസാധുവായ സമന്വയ മൂല്യം"</string>
+    <string name="data_record_id_mismatch" formatted="false">"രേഖയുടെ തിരിച്ചറിയൽ കീയുമായി പൊരുത്തപ്പെടുന്നില്ല"</string>
+    <string name="data_field_value_invalid" formatted="false">"കളത്തിലെ മൂല്യം അസാധുവാണ്"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"നേട്ടത്തിന്റെ തീയതി കീയുമായി പൊരുത്തപ്പെടുന്നില്ല"</string>
+    <string name="data_note_string_required" formatted="false">"കുറിപ്പ് പാഠമായിരിക്കണം"</string>
+    <string name="data_sync_note_invalid" formatted="false">"സമന്വയിപ്പിച്ച കുറിപ്പ് അസാധുവാണ്"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"അസാധുവായ ലോജിക്കൽ ക്ലോക്ക്"</string>
+    <string name="data_device_invalid" formatted="false">"അസാധുവായ ഉപകരണം"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"അസാധുവായ പതിപ്പ് അടയാളം"</string>
+    <string name="data_google_login_required" formatted="false">"Google-ൽ വീണ്ടും സൈൻ ഇൻ ചെയ്യുക"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"വളരെയധികം ക്ലൗഡ് ബാക്കപ്പുകളുണ്ട്"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive ഒരേ പേജ് വീണ്ടും നൽകി"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"ക്ലൗഡ് ബാക്കപ്പ് 50 MB-യിൽ കൂടുതലാണ്"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive അപ്‌ലോഡ് വിലാസം നൽകിയില്ല"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Google Drive അപ്‌ലോഡ് വിലാസം അസാധുവാണ്"</string>
+    <string name="data_back" formatted="false">"‹  മടങ്ങുക"</string>
+    <string name="data_cloud_title" formatted="false">"ക്ലൗഡ് സമന്വയം"</string>
+    <string name="data_cloud_subtitle" formatted="false">"നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിലും ഒരേ ദിനപുസ്തകം"</string>
+    <string name="data_no_account" formatted="false">"അക്കൗണ്ട് ബന്ധിപ്പിച്ചിട്ടില്ല"</string>
+    <string name="data_cloud_intro" formatted="false">"സൈൻ-ഇൻ ഐച്ഛികമാണ്. ഭക്ഷണങ്ങൾ, കഴിച്ചവ, അളവുകൾ, ലക്ഷ്യങ്ങൾ, നേട്ടങ്ങൾ എന്നിവ ഫോണിൽ സൂക്ഷിക്കും. ബന്ധിപ്പിച്ചാൽ Google Drive-ലെ മറഞ്ഞിരിക്കുന്ന ഫോൾഡറിൽ ഒരു പകർപ്പ് സൂക്ഷിക്കും."</string>
+    <string name="data_cloud_first_connection" formatted="false">"ആദ്യ ബന്ധത്തിൽ രേഖകൾ ലയിപ്പിക്കും. Drive-ലെ മറ്റ് ഫയലുകൾ ആപ്പിന് ആക്‌സസ് ചെയ്യാനാവില്ല."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"ഈ ബിൽഡിൽ Google സൈൻ-ഇൻ ഇതുവരെ ക്രമീകരിച്ചിട്ടില്ല. അക്കൗണ്ടില്ലാതെയും ദിനപുസ്തകവും ഫയൽ ബാക്കപ്പും ഉപയോഗിക്കാം."</string>
+    <string name="data_connect_google" formatted="false">"Google ബന്ധിപ്പിക്കുക"</string>
+    <string name="data_automatic_sync" formatted="false">"സ്വയമേവ സമന്വയം"</string>
+    <string name="data_automatic_sync_description" formatted="false">"ഡാറ്റ മാറുമ്പോഴും Android അനുവദിക്കുമ്പോൾ പശ്ചാത്തലത്തിലും"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"സമയക്രമം മാറ്റാനായില്ല. നിങ്ങളുടെ ഡാറ്റ ഈ ഉപകരണത്തിൽ സൂക്ഷിച്ചിട്ടുണ്ട്."</string>
+    <string name="data_sync_start_failed" formatted="false">"സമന്വയം തുടങ്ങാനായില്ല. നിങ്ങളുടെ ഡാറ്റ ഈ ഉപകരണത്തിൽ സൂക്ഷിച്ചിട്ടുണ്ട്."</string>
+    <string name="data_sync_now" formatted="false">"ഇപ്പോൾ സമന്വയിപ്പിക്കുക"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Google-ൽ വീണ്ടും സൈൻ ഇൻ ചെയ്യുക"</string>
+    <string name="data_disconnect_account" formatted="false">"അക്കൗണ്ടിന്റെ ബന്ധം വിച്ഛേദിക്കുക"</string>
+    <string name="data_sync_never" formatted="false">"ഇതുവരെ സമന്വയിപ്പിച്ചിട്ടില്ല"</string>
+    <string name="data_offline_saved_title" formatted="false">"നിങ്ങളുടെ ഡാറ്റ ഓഫ്‌ലൈനിൽ സംരക്ഷിച്ചിട്ടുണ്ട്"</string>
+    <string name="data_cloud_merge_description" formatted="false">"സ്വയമേവ സമന്വയം ഓണാണെങ്കിൽ ബന്ധം ലഭിക്കുമ്പോൾ മാറ്റങ്ങൾ അയയ്ക്കും. ഒരേ കളം രണ്ട് ഉപകരണങ്ങളിൽ മാറ്റിയാൽ പിന്നീട് മാറ്റിയ പതിപ്പ് ഉപയോഗിക്കും. വ്യത്യസ്ത രേഖകളും കളങ്ങളും ലയിപ്പിക്കും."</string>
+    <string name="data_cloud_password_description" formatted="false">"ബ്രൗസറിലെ Google പേജിൽ മാത്രമാണ് പാസ്‌വേഡ് നൽകുന്നത്. ആക്‌സസ് ടോക്കണുകൾ Android Keystore കൊണ്ട് സംരക്ഷിക്കുകയും ബാക്കപ്പുകളിൽ നിന്ന് ഒഴിവാക്കുകയും ചെയ്യുന്നു."</string>
+    <string name="data_google_connection_title" formatted="false">"Google ബന്ധം"</string>
+    <string name="data_got_it" formatted="false">"മനസ്സിലായി"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive ബന്ധിപ്പിക്കണോ?"</string>
+    <string name="data_connect_drive_description" formatted="false">"നിലവിലെ ദിനപുസ്തകം തിരഞ്ഞെടുത്ത Google അക്കൗണ്ടിലെ ഡാറ്റയുമായി ലയിപ്പിക്കും. ഉപകരണങ്ങളിൽ ഒരേ വ്യക്തിഗത അക്കൗണ്ട് ഉപയോഗിക്കുക. സൈൻ-ഇൻ ഡിഫോൾട്ട് ബ്രൗസറിൽ തുറക്കും."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"സൈൻ-ഇൻ തുറക്കാനായില്ല. ഡിഫോൾട്ട് ബ്രൗസർ ഇൻസ്റ്റാൾ ചെയ്യുകയോ പ്രവർത്തനക്ഷമമാക്കുകയോ ചെയ്ത് വീണ്ടും ശ്രമിക്കുക."</string>
+    <string name="data_continue" formatted="false">"തുടരുക"</string>
+    <string name="data_cancel" formatted="false">"റദ്ദാക്കുക"</string>
+    <string name="data_disconnect_title" formatted="false">"അക്കൗണ്ടിന്റെ ബന്ധം വിച്ഛേദിക്കണോ?"</string>
+    <string name="data_disconnect_description" formatted="false">"ഈ ഉപകരണത്തിലെ സമന്വയം നിർത്തും. ഫോണിലെ ദിനപുസ്തകവും Google Drive-ലെ പകർപ്പുകളും നിലനിൽക്കും. Google അക്കൗണ്ട് ക്രമീകരണങ്ങളിൽ ആപ്പിന്റെ അനുമതി നിയന്ത്രിക്കാം."</string>
+    <string name="data_disconnect_failed" formatted="false">"അക്കൗണ്ടിന്റെ ബന്ധം വിച്ഛേദിക്കാനായില്ല. വീണ്ടും ശ്രമിക്കുക."</string>
+    <string name="data_disconnect" formatted="false">"ബന്ധം വിച്ഛേദിക്കുക"</string>
+    <string name="data_google_not_connected" formatted="false">"Google ബന്ധിപ്പിച്ചിട്ടില്ല"</string>
+    <string name="data_sync_ready" formatted="false">"സമന്വയത്തിന് തയ്യാറാണ്"</string>
+    <string name="data_sync_changes_pending" formatted="false">"മാറ്റങ്ങൾ സമന്വയത്തിനായി കാത്തിരിക്കുന്നു…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"ഇന്റർനെറ്റ് ബന്ധമില്ല. മാറ്റങ്ങൾ ഈ ഉപകരണത്തിൽ സംരക്ഷിച്ചു."</string>
+    <string name="data_google_not_configured" formatted="false">"ഈ ബിൽഡിൽ Google സൈൻ-ഇൻ ഇതുവരെ ക്രമീകരിച്ചിട്ടില്ല"</string>
+    <string name="data_sync_wait" formatted="false">"സമന്വയം പൂർത്തിയാകുന്നതുവരെ കാത്തിരിക്കുക"</string>
+    <string name="data_google_connecting" formatted="false">"Google ബന്ധിപ്പിക്കുന്നു…"</string>
+    <string name="data_connection_cancelled" formatted="false">"ബന്ധം റദ്ദാക്കി"</string>
+    <string name="data_connection_rejected" formatted="false">"ബന്ധം റദ്ദാക്കിയോ Google നിരസിച്ചോ ഇരിക്കുന്നു"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google ബന്ധിപ്പിച്ചു. രേഖകൾ ലയിപ്പിക്കുന്നു…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google ബന്ധിപ്പിക്കാനായില്ല. ഇന്റർനെറ്റും ആക്‌സസ് ക്രമീകരണങ്ങളും പരിശോധിക്കുക."</string>
+    <string name="data_account_disconnected" formatted="false">"അക്കൗണ്ടിന്റെ ബന്ധം വിച്ഛേദിച്ചു. ഡാറ്റ ഈ ഉപകരണത്തിൽ തുടരും."</string>
+    <string name="data_sync_waiting_network" formatted="false">"ഇന്റർനെറ്റ് ബന്ധമില്ല. സമന്വയം ബന്ധത്തിനായി കാത്തിരിക്കുന്നു."</string>
+    <string name="data_sync_scheduled" formatted="false">"സമന്വയം സമയക്രമത്തിൽ ചേർത്തു…"</string>
+    <string name="data_sync_running" formatted="false">"സമന്വയിപ്പിക്കുന്നു…"</string>
+    <string name="data_sync_complete" formatted="false">"സമന്വയം പൂർത്തിയായി"</string>
+    <string name="data_no_internet" formatted="false">"ഇന്റർനെറ്റ് ബന്ധമില്ല"</string>
+    <string name="data_sync_failed_saved" formatted="false">"സമന്വയിപ്പിക്കാനായില്ല. നിങ്ങളുടെ ഡാറ്റ ഈ ഉപകരണത്തിൽ സൂക്ഷിച്ചിട്ടുണ്ട്"</string>
+    <string name="data_page_open_failed" formatted="false">"പേജ് തുറക്കാനായില്ല. താഴെയുള്ള പാഠത്തിൽ നിന്ന് വിലാസം പകർത്താം."</string>
+    <string name="data_privacy_title" formatted="false">"സ്വകാര്യത"</string>
+    <string name="data_privacy_subtitle" formatted="false">"നിങ്ങളുടെ രേഖകളും ഡാറ്റ നിയന്ത്രണവും"</string>
+    <string name="data_app_purpose" formatted="false">"ഈ ആപ്പിനെക്കുറിച്ച്"</string>
+    <string name="data_medical_disclaimer" formatted="false">"ഈ ആപ്പ് ഒരു മെഡിക്കൽ ഉപകരണമല്ല. ഇത് രോഗനിർണയം, ചികിത്സ, രോഗശാന്തി, രോഗപ്രതിരോധം എന്നിവ നടത്തുന്നതല്ല. വൈദ്യോപദേശം, രോഗനിർണയം, ചികിത്സ എന്നിവയ്ക്ക് യോഗ്യതയുള്ള ആരോഗ്യ വിദഗ്ധനെ സമീപിക്കുക."</string>
+    <string name="data_manage_delete_data" formatted="false">"ഡാറ്റ നിയന്ത്രിക്കുകയും ഇല്ലാതാക്കുകയും ചെയ്യുക"</string>
+    <string name="data_delete_data_intro" formatted="false">"എല്ലാ ഡാറ്റയും ഇല്ലാതാക്കുന്നതിന് മുമ്പ് എല്ലാ ഉപകരണങ്ങളിലും സമന്വയം ഓഫ് ചെയ്യുക. ഫോണിൽ നിന്ന് ആപ്പ് നീക്കിയാൽ Google Drive-ലെ പകർപ്പുകളോ എക്‌സ്‌പോർട്ട് ചെയ്ത ഫയലുകളോ ഇല്ലാതാകില്ല."</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive ഡാറ്റ നിയന്ത്രിക്കുക"</string>
+    <string name="data_google_account_access" formatted="false">"Google അക്കൗണ്ട് ആക്‌സസ്"</string>
+    <string name="data_android_app_storage" formatted="false">"Android-ലെ ആപ്പ് സംഭരണം"</string>
+    <string name="data_contact_developer" formatted="false">"ഡെവലപ്പറെ ബന്ധപ്പെടുക"</string>
+    <string name="data_opening_page" formatted="false">"പേജ് തുറക്കുന്നു"</string>
+    <string name="data_advertisement" formatted="false">"പരസ്യം"</string>
+    <string name="data_ad_information" formatted="false">"ഈ പരസ്യത്തെക്കുറിച്ച്"</string>
+    <string name="data_cloud_http_error">"ക്ലൗഡ് HTTP പിശക് %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"ക്ലൗഡ് പ്രതികരണം വളരെ വലുതാണ്"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"എൻക്രിപ്റ്റ് ചെയ്ത സൈൻ-ഇൻ സെഷൻ അസാധുവാണ്"</string>
+    <string name="data_session_save_failed" formatted="false">"സൈൻ-ഇൻ സെഷൻ സംരക്ഷിക്കാനായില്ല"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google ആക്‌സസ് പുതുക്കാനായില്ല"</string>
+    <string name="data_diary_read_failed">"ദിനപുസ്തകം വായിക്കാനായില്ല. യഥാർത്ഥ ഫയൽ സൂക്ഷിച്ചിട്ടുണ്ട്. ബാക്കപ്പിൽ നിന്ന് ഡാറ്റ പുനഃസ്ഥാപിക്കുക. %1$s"</string>
+    <string name="data_last_sync">"അവസാന സമന്വയം: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"പഴങ്ങളും ബെറികളും"</string>
+    <string name="data_category_dried_fruit" formatted="false">"ഉണക്കപ്പഴങ്ങൾ"</string>
+    <string name="data_category_vegetables" formatted="false">"പച്ചക്കറികളും സുഗന്ധ ഇലകളും"</string>
+    <string name="data_category_mushrooms" formatted="false">"കൂണുകൾ"</string>
+    <string name="data_category_grains" formatted="false">"ധാന്യങ്ങളും പാസ്തയും"</string>
+    <string name="data_category_legumes" formatted="false">"പയർവർഗങ്ങൾ"</string>
+    <string name="data_category_meat" formatted="false">"മാംസവും കോഴിയിറച്ചിയും"</string>
+    <string name="data_category_fish" formatted="false">"മത്സ്യവും കടൽവിഭവങ്ങളും"</string>
+    <string name="data_category_dairy" formatted="false">"പാലുൽപ്പന്നങ്ങൾ"</string>
+    <string name="data_category_eggs" formatted="false">"മുട്ടകൾ"</string>
+    <string name="data_category_oils" formatted="false">"എണ്ണയും വെണ്ണയും"</string>
+    <string name="data_category_nuts" formatted="false">"അണ്ടിപ്പരിപ്പുകളും വിത്തുകളും"</string>
+    <string name="data_category_bread" formatted="false">"ബ്രെഡ്"</string>
+    <string name="data_category_other" formatted="false">"മറ്റ് ഭക്ഷണങ്ങൾ"</string>
+    <string name="data_category_dishes" formatted="false">"തയ്യാറായ വിഭവങ്ങൾ"</string>
+    <string name="data_category_custom" formatted="false">"എന്റെ ഭക്ഷണങ്ങൾ"</string>
+    <string name="data_category_other_short" formatted="false">"മറ്റുള്ളവ"</string>
+    <string name="data_category_my_dishes" formatted="false">"എന്റെ വിഭവങ്ങൾ"</string>
+    <string name="data_meal_breakfast" formatted="false">"പ്രഭാതഭക്ഷണം"</string>
+    <string name="data_meal_lunch" formatted="false">"ഉച്ചഭക്ഷണം"</string>
+    <string name="data_meal_dinner" formatted="false">"അത്താഴം"</string>
+    <string name="data_meal_snack" formatted="false">"ലഘുഭക്ഷണം"</string>
+    <string name="data_food_seed_9003" formatted="false">"ആപ്പിൾ, തൊലിയോടെ"</string>
+    <string name="data_food_seed_9040" formatted="false">"വാഴപ്പഴം, തൊലി നീക്കിയത്"</string>
+    <string name="data_food_seed_9021" formatted="false">"ആപ്രിക്കോട്ട്, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9037" formatted="false">"അവക്കാഡോയുടെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9050" formatted="false">"ബ്ലൂബെറി"</string>
+    <string name="data_food_seed_9070" formatted="false">"മധുരച്ചെറി, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9063" formatted="false">"പുളിച്ചെറി, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9078" formatted="false">"ക്രാൻബെറി"</string>
+    <string name="data_food_seed_9083" formatted="false">"ബ്ലാക്ക് കറന്റ്"</string>
+    <string name="data_food_seed_9084" formatted="false">"ചുവന്നതും വെളുത്തതുമായ കറന്റ്"</string>
+    <string name="data_food_seed_9132" formatted="false">"മുന്തിരി"</string>
+    <string name="data_food_seed_9148" formatted="false">"കിവിയുടെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9150" formatted="false">"ലെമൺ നാരങ്ങ, തൊലി നീക്കിയത്"</string>
+    <string name="data_food_seed_9181" formatted="false">"കാന്റലൂപ്പ് തണ്ണിമത്തന്റെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9200" formatted="false">"ഓറഞ്ചിന്റെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9218" formatted="false">"മാൻഡറിൻ ഓറഞ്ചിന്റെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9236" formatted="false">"പീച്ച്, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9252" formatted="false">"പിയർ പഴം"</string>
+    <string name="data_food_seed_9266" formatted="false">"കൈതച്ചക്കയുടെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9279" formatted="false">"പ്ലം, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9286" formatted="false">"മാതളനാരങ്ങയുടെ മണികൾ"</string>
+    <string name="data_food_seed_9295" formatted="false">"പൊമേലോയുടെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9302" formatted="false">"റാസ്ബെറി"</string>
+    <string name="data_food_seed_9316" formatted="false">"സ്ട്രോബെറി"</string>
+    <string name="data_food_seed_9326" formatted="false">"തണ്ണിമത്തന്റെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9191" formatted="false">"നെക്ടറിൻ, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9176" formatted="false">"മാമ്പഴത്തിന്റെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9107" formatted="false">"യൂറോപ്യൻ ഗൂസ്ബെറി"</string>
+    <string name="data_food_seed_9226" formatted="false">"പപ്പായയുടെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9089" formatted="false">"പുതിയ അത്തിപ്പഴം"</string>
+    <string name="data_food_seed_9111" formatted="false">"ഗ്രേപ്ഫ്രൂട്ടിന്റെ മാംസളഭാഗം"</string>
+    <string name="data_food_seed_9032" formatted="false">"ഉണക്ക ആപ്രിക്കോട്ട്, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9291" formatted="false">"ഉണക്ക പ്ലം, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9087" formatted="false">"ഈന്തപ്പഴം, കുരു നീക്കിയത്"</string>
+    <string name="data_food_seed_9298" formatted="false">"ഇരുണ്ട ഉണക്കമുന്തിരി, കുരുവില്ലാത്തത്"</string>
+    <string name="data_food_seed_11529" formatted="false">"പുതിയ തക്കാളി"</string>
+    <string name="data_food_seed_11205" formatted="false">"വെള്ളരി, തൊലിയോടെ"</string>
+    <string name="data_food_seed_11090" formatted="false">"ബ്രോക്കോളി, പച്ച"</string>
+    <string name="data_food_seed_11109" formatted="false">"വെള്ള കാബേജ്, പച്ച"</string>
+    <string name="data_food_seed_11124" formatted="false">"കാരറ്റ്, പച്ച"</string>
+    <string name="data_food_seed_11135" formatted="false">"കോളിഫ്ലവർ, പച്ച"</string>
+    <string name="data_food_seed_11143" formatted="false">"സെലറിയുടെ തണ്ടുകൾ"</string>
+    <string name="data_food_seed_11282" formatted="false">"സവാള, പച്ച"</string>
+    <string name="data_food_seed_11291" formatted="false">"ഉള്ളിത്തണ്ട്"</string>
+    <string name="data_food_seed_11304" formatted="false">"ഗ്രീൻ പീസ്, പച്ച"</string>
+    <string name="data_food_seed_11333" formatted="false">"പച്ച കാപ്സിക്കം"</string>
+    <string name="data_food_seed_11821" formatted="false">"ചുവന്ന കാപ്സിക്കം"</string>
+    <string name="data_food_seed_11352" formatted="false">"ഉരുളക്കിഴങ്ങ്, തൊലിയോടെ, പച്ച"</string>
+    <string name="data_food_seed_11367" formatted="false">"വേവിച്ച ഉരുളക്കിഴങ്ങ്, തൊലി നീക്കിയത്"</string>
+    <string name="data_food_seed_11477" formatted="false">"സുക്കിനി, പച്ച"</string>
+    <string name="data_food_seed_11209" formatted="false">"വഴുതന, പച്ച"</string>
+    <string name="data_food_seed_11422" formatted="false">"മത്തങ്ങ, പച്ച"</string>
+    <string name="data_food_seed_11429" formatted="false">"ചെറിയ ചുവന്ന റാഡിഷ്"</string>
+    <string name="data_food_seed_11564" formatted="false">"ടേണിപ്പ്, പച്ച"</string>
+    <string name="data_food_seed_11080" formatted="false">"ബീറ്റ്റൂട്ട്, പച്ച"</string>
+    <string name="data_food_seed_11081" formatted="false">"വേവിച്ച ബീറ്റ്റൂട്ട്"</string>
+    <string name="data_food_seed_11215" formatted="false">"വെളുത്തുള്ളി"</string>
+    <string name="data_food_seed_11216" formatted="false">"ഇഞ്ചി"</string>
+    <string name="data_food_seed_11457" formatted="false">"പാലക് ചീര, പച്ച"</string>
+    <string name="data_food_seed_11253" formatted="false">"ഇല ലെറ്റ്യൂസ്"</string>
+    <string name="data_food_seed_11297" formatted="false">"പുതിയ പാർസ്ലി"</string>
+    <string name="data_food_seed_2045" formatted="false">"പുതിയ ഡിൽ ഇല"</string>
+    <string name="data_food_seed_11052" formatted="false">"പച്ച ബീൻസ്, വേവിക്കാത്തത്"</string>
+    <string name="data_food_seed_11167" formatted="false">"സ്വീറ്റ് കോൺ മണികൾ, പച്ച"</string>
+    <string name="data_food_seed_11260" formatted="false">"ബട്ടൺ കൂൺ, പച്ച"</string>
+    <string name="data_food_seed_11261" formatted="false">"വേവിച്ച ബട്ടൺ കൂൺ, ഉപ്പില്ലാതെ"</string>
+    <string name="data_food_seed_11987" formatted="false">"ചിപ്പിക്കൂൺ, പച്ച"</string>
+    <string name="data_food_seed_20009" formatted="false">"ബക്ക്വീറ്റ് ധാന്യം, ഉണങ്ങിയത്"</string>
+    <string name="data_food_seed_20010" formatted="false">"വെള്ളത്തിൽ വേവിച്ച ബക്ക്വീറ്റ്"</string>
+    <string name="data_food_seed_20444" formatted="false">"വെള്ള അരി, ഉണങ്ങിയത്"</string>
+    <string name="data_food_seed_20445" formatted="false">"വെള്ളച്ചോറ്, ഉപ്പില്ലാതെ"</string>
+    <string name="data_food_seed_20036" formatted="false">"തവിട്ട് അരി, ഉണങ്ങിയത്"</string>
+    <string name="data_food_seed_20037" formatted="false">"വേവിച്ച തവിട്ട് അരി"</string>
+    <string name="data_food_seed_8120" formatted="false">"പരത്തിയ ഓട്സ്, ഉണങ്ങിയത്"</string>
+    <string name="data_food_seed_8121" formatted="false">"വെള്ളത്തിൽ വേവിച്ച ഓട്സ്, ഉപ്പില്ലാതെ"</string>
+    <string name="data_food_seed_20005" formatted="false">"പേൾ ബാർലി, ഉണങ്ങിയത്"</string>
+    <string name="data_food_seed_20006" formatted="false">"വേവിച്ച പേൾ ബാർലി"</string>
+    <string name="data_food_seed_20031" formatted="false">"ചെറുധാന്യം, ഉണങ്ങിയത്"</string>
+    <string name="data_food_seed_20032" formatted="false">"വേവിച്ച ചെറുധാന്യം"</string>
+    <string name="data_food_seed_20420" formatted="false">"പാസ്ത, ഉണങ്ങിയത്"</string>
+    <string name="data_food_seed_20421" formatted="false">"വേവിച്ച പാസ്ത, ഉപ്പില്ലാതെ"</string>
+    <string name="data_food_seed_16070" formatted="false">"വേവിച്ച മസൂർ പരിപ്പ്, ഉപ്പില്ലാതെ"</string>
+    <string name="data_food_seed_16057" formatted="false">"വേവിച്ച കടല, ഉപ്പില്ലാതെ"</string>
+    <string name="data_food_seed_16033" formatted="false">"വേവിച്ച ചുവന്ന രാജ്മ, ഉപ്പില്ലാതെ"</string>
+    <string name="data_food_seed_5062" formatted="false">"കോഴിയുടെ നെഞ്ചിറച്ചി, തൊലിയില്ലാതെ, പച്ച"</string>
+    <string name="data_food_seed_5064" formatted="false">"റോസ്റ്റ് ചെയ്ത കോഴിയുടെ നെഞ്ചിറച്ചി, തൊലിയില്ലാതെ"</string>
+    <string name="data_food_seed_5219" formatted="false">"ടർക്കിയുടെ നെഞ്ചിറച്ചി, തൊലിയില്ലാതെ, പച്ച"</string>
+    <string name="data_food_seed_5220" formatted="false">"റോസ്റ്റ് ചെയ്ത ടർക്കിയുടെ നെഞ്ചിറച്ചി, തൊലിയില്ലാതെ"</string>
+    <string name="data_food_seed_23562" formatted="false">"അരച്ച ബീഫ്, 10% കൊഴുപ്പ്, പച്ച"</string>
+    <string name="data_food_seed_23566" formatted="false">"റോസ്റ്റ് ചെയ്ത അരച്ച ബീഫ്, 10% കൊഴുപ്പ്"</string>
+    <string name="data_food_seed_10060" formatted="false">"പന്നിയുടെ ടെൻഡർലോയിൻ, ദൃശ്യമായ കൊഴുപ്പ് നീക്കിയത്, പച്ച"</string>
+    <string name="data_food_seed_10061" formatted="false">"റോസ്റ്റ് ചെയ്ത പന്നിയുടെ ടെൻഡർലോയിൻ"</string>
+    <string name="data_food_seed_15236" formatted="false">"അറ്റ്ലാന്റിക് സാൽമൺ, പച്ച"</string>
+    <string name="data_food_seed_15237" formatted="false">"റോസ്റ്റ് ചെയ്ത അറ്റ്ലാന്റിക് സാൽമൺ"</string>
+    <string name="data_food_seed_15015" formatted="false">"അറ്റ്ലാന്റിക് കോഡ്, പച്ച"</string>
+    <string name="data_food_seed_15266" formatted="false">"അലാസ്ക പോളോക്ക്, പച്ച"</string>
+    <string name="data_food_seed_15121" formatted="false">"വെള്ളത്തിൽ ടിന്നിലടച്ച ട്യൂണ, വെള്ളം വാർന്നത്"</string>
+    <string name="data_food_seed_15271" formatted="false">"വേവിച്ച ചെമ്മീൻ, തോട് നീക്കിയത്"</string>
+    <string name="data_food_seed_1211" formatted="false">"പാൽ, 3.25% കൊഴുപ്പ്"</string>
+    <string name="data_food_seed_1174" formatted="false">"പാൽ, 2% കൊഴുപ്പ്"</string>
+    <string name="data_food_seed_1082" formatted="false">"പാൽ, 1% കൊഴുപ്പ്"</string>
+    <string name="data_food_seed_1116" formatted="false">"മുഴുവൻ കൊഴുപ്പുള്ള പാലിന്റെ സാധാരണ തൈര്"</string>
+    <string name="data_food_seed_1256" formatted="false">"കൊഴുപ്പില്ലാത്ത ഗ്രീക്ക് തൈര്"</string>
+    <string name="data_food_seed_1015" formatted="false">"കോട്ടേജ് ചീസ്, 2% കൊഴുപ്പ്"</string>
+    <string name="data_food_seed_1056" formatted="false">"പുളിച്ച ക്രീം, ഏകദേശം 19% കൊഴുപ്പ്"</string>
+    <string name="data_food_seed_1009" formatted="false">"ചെഡാർ ചീസ്"</string>
+    <string name="data_food_seed_1026" formatted="false">"മുഴുവൻ കൊഴുപ്പുള്ള പാലിന്റെ മൊസറെല്ല"</string>
+    <string name="data_food_seed_1019" formatted="false">"ഫെറ്റ ചീസ്"</string>
+    <string name="data_food_seed_1123" formatted="false">"കോഴിമുട്ട, തോട് നീക്കിയത്, പച്ച"</string>
+    <string name="data_food_seed_1129" formatted="false">"പുഴുങ്ങിയ കോഴിമുട്ട, തോട് നീക്കിയത്"</string>
+    <string name="data_food_seed_1124" formatted="false">"പച്ച കോഴിമുട്ടയുടെ വെള്ള"</string>
+    <string name="data_food_seed_1001" formatted="false">"ഉപ്പുള്ള വെണ്ണ"</string>
+    <string name="data_food_seed_4053" formatted="false">"ഒലിവ് എണ്ണ"</string>
+    <string name="data_food_seed_4506" formatted="false">"സൂര്യകാന്തി എണ്ണ"</string>
+    <string name="data_food_seed_12061" formatted="false">"ബദാം"</string>
+    <string name="data_food_seed_12155" formatted="false">"വാൾനട്ടിന്റെ പരിപ്പ്"</string>
+    <string name="data_food_seed_12120" formatted="false">"ഹേസൽനട്ടിന്റെ പരിപ്പ്"</string>
+    <string name="data_food_seed_12151" formatted="false">"പച്ച പിസ്തയുടെ പരിപ്പ്"</string>
+    <string name="data_food_seed_12014" formatted="false">"ഉണക്ക മത്തങ്ങവിത്ത്, പുറംതോട് നീക്കിയത്"</string>
+    <string name="data_food_seed_16087" formatted="false">"പച്ച നിലക്കടല, തോട് നീക്കിയത്"</string>
+    <string name="data_food_seed_18069" formatted="false">"വെള്ള ഗോതമ്പ് ബ്രെഡ്"</string>
+    <string name="data_food_seed_18075" formatted="false">"മുഴുഗോതമ്പ് ബ്രെഡ്"</string>
+    <string name="data_food_seed_18060" formatted="false">"റൈ ധാന്യത്തിന്റെ ബ്രെഡ്"</string>
+    <string name="data_food_seed_19296" formatted="false">"തേൻ"</string>
+    <string name="data_food_seed_19335" formatted="false">"പഞ്ചസാര"</string>
+    <string name="data_food_seed_19165" formatted="false">"പഞ്ചസാരയില്ലാത്ത കൊക്കോ പൊടി"</string>
+    <string name="data_food_seed_19904" formatted="false">"ഡാർക്ക് ചോക്ലേറ്റ്, 70–85% കൊക്കോ"</string>
+    <string name="data_catalog_note_1">"ഭക്ഷ്യയോഗ്യമായ ഭാഗത്തിന്റെ 100 ഗ്രാമിനുള്ള റഫറൻസ് മൂല്യങ്ങൾ. പച്ച ഭക്ഷണത്തിന്. USDA കാർബോഹൈഡ്രേറ്റ് മൂല്യങ്ങളിൽ നാരുകൾ ഉൾപ്പെടുന്നു. ഉൽപ്പന്ന ലേബൽ അനുസരിച്ച് മൂല്യങ്ങൾ മാറ്റാം. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_2">"ഭക്ഷ്യയോഗ്യമായ ഭാഗത്തിന്റെ 100 ഗ്രാമിനുള്ള റഫറൻസ് മൂല്യങ്ങൾ. USDA കാർബോഹൈഡ്രേറ്റ് മൂല്യങ്ങളിൽ നാരുകൾ ഉൾപ്പെടുന്നു. ഉൽപ്പന്ന ലേബൽ അനുസരിച്ച് മൂല്യങ്ങൾ മാറ്റാം. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_3">"ഭക്ഷ്യയോഗ്യമായ ഭാഗത്തിന്റെ 100 ഗ്രാമിനുള്ള റഫറൻസ് മൂല്യങ്ങൾ. ഉപ്പ് ചേർത്തിട്ടില്ല. USDA കാർബോഹൈഡ്രേറ്റ് മൂല്യങ്ങളിൽ നാരുകൾ ഉൾപ്പെടുന്നു. ഉൽപ്പന്ന ലേബൽ അനുസരിച്ച് മൂല്യങ്ങൾ മാറ്റാം. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_4">"ഭക്ഷ്യയോഗ്യമായ ഭാഗത്തിന്റെ 100 ഗ്രാമിനുള്ള റഫറൻസ് മൂല്യങ്ങൾ. വറുത്ത ബക്ക്വീറ്റ് ധാന്യത്തിന്. USDA കാർബോഹൈഡ്രേറ്റ് മൂല്യങ്ങളിൽ നാരുകൾ ഉൾപ്പെടുന്നു. ഉൽപ്പന്ന ലേബൽ അനുസരിച്ച് മൂല്യങ്ങൾ മാറ്റാം. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_5">"ഭക്ഷ്യയോഗ്യമായ ഭാഗത്തിന്റെ 100 ഗ്രാമിനുള്ള റഫറൻസ് മൂല്യങ്ങൾ. ഫാമിൽ വളർത്തിയ പച്ച ഭക്ഷണത്തിന്. USDA കാർബോഹൈഡ്രേറ്റ് മൂല്യങ്ങളിൽ നാരുകൾ ഉൾപ്പെടുന്നു. ഉൽപ്പന്ന ലേബൽ അനുസരിച്ച് മൂല്യങ്ങൾ മാറ്റാം. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_6">"ഭക്ഷ്യയോഗ്യമായ ഭാഗത്തിന്റെ 100 ഗ്രാമിനുള്ള റഫറൻസ് മൂല്യങ്ങൾ. ഫാമിൽ വളർത്തിയ ഭക്ഷണത്തിന്. USDA കാർബോഹൈഡ്രേറ്റ് മൂല്യങ്ങളിൽ നാരുകൾ ഉൾപ്പെടുന്നു. ഉൽപ്പന്ന ലേബൽ അനുസരിച്ച് മൂല്യങ്ങൾ മാറ്റാം. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_7">"ഭക്ഷ്യയോഗ്യമായ ഭാഗത്തിന്റെ 100 ഗ്രാമിനുള്ള റഫറൻസ് മൂല്യങ്ങൾ. കോട്ടേജ് ചീസിന്; മറ്റ് ഫ്രഷ് ചീസുകളുടെ മൂല്യങ്ങൾ വ്യത്യസ്തമാണ്. USDA കാർബോഹൈഡ്രേറ്റ് മൂല്യങ്ങളിൽ നാരുകൾ ഉൾപ്പെടുന്നു. ഉൽപ്പന്ന ലേബൽ അനുസരിച്ച് മൂല്യങ്ങൾ മാറ്റാം. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary സ്വകാര്യതാ നയം\nപരിഷ്കരണം: 2026 ഒക്ടോബർ 9"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"ആപ്പ്: Diet Diary; Google Play-ലെ റഷ്യൻ ലിസ്റ്റിംഗിന്റെ പേര്: «Дневник диеты: подсчёт калорий»; പാക്കേജ്: ru.dietdiary.offline.\nപ്രോജക്റ്റ് ഡെവലപ്പർ: Efreitor2001. ആപ്പിനെയും ഡാറ്റ പ്രോസസ്സിംഗിനെയും കുറിച്ചുള്ള ചോദ്യങ്ങൾക്ക് https://github.com/Efreitor2001/kkalcal/issues വഴി ബന്ധപ്പെടുക. GitHub ഇഷ്യൂകൾ പൊതുവാണ്: ആരോഗ്യരേഖകൾ, ബാക്കപ്പുകൾ, പാസ്‌വേഡുകൾ, ടോക്കണുകൾ എന്നിവ അവിടെ പോസ്റ്റ് ചെയ്യരുത്."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. നിങ്ങളുടെ ഉപകരണത്തിലെ ദിനപുസ്തകം\nദിനപുസ്തകം സൂക്ഷിക്കാൻ രജിസ്ട്രേഷൻ ആവശ്യമില്ല. ഭക്ഷണങ്ങളും അവയുടെ പോഷകമൂല്യങ്ങളും, കഴിച്ച അളവും തീയതിയും, ഭാരം, അരക്കെട്ടിന്റെ അളവ്, ശരീരക്കൊഴുപ്പ് ശതമാനം, ചുവടുകൾ, ഉറക്കം, വ്യായാമ വിവരണം, കുറിപ്പുകൾ, ലക്ഷ്യങ്ങൾ, നേട്ടങ്ങൾ, ക്രമീകരണങ്ങൾ എന്നിവ ആപ്പ് ഉപകരണത്തിലെ സ്വന്തം സ്വകാര്യ സംഭരണത്തിൽ സൂക്ഷിക്കുന്നു. ഐച്ഛിക കളങ്ങൾ ഒഴിച്ചിടാം. ചുവടുകൾ, ഉറക്കം, അളവുകൾ എന്നിവ സ്വയം നൽകണം; ആപ്പ് Health Connect, ശാരീരിക പ്രവർത്തന സെൻസറുകൾ, മെഡിക്കൽ ഉപകരണങ്ങൾ എന്നിവയിലെ ഡാറ്റ വായിക്കുന്നില്ല."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"കലോറിയും പ്രധാന പോഷകങ്ങളും കണക്കാക്കാനും മുൻ രേഖകൾ, ഗ്രാഫുകൾ, നേട്ടങ്ങൾ എന്നിവ നൽകാനുമാണ് ഈ വിവരം ഉപയോഗിക്കുന്നത്. ദിനപുസ്തകത്തിലെ ഉള്ളടക്കം സ്വീകരിക്കുന്ന സെർവർ ഡെവലപ്പർ പ്രവർത്തിപ്പിക്കുന്നില്ല. Google Drive ബന്ധിപ്പിക്കുകയോ സ്വയം ബാക്കപ്പ് പങ്കിടുകയോ ചെയ്യുന്നില്ലെങ്കിൽ രേഖകൾ ഉപകരണത്തിൽ തന്നെ തുടരും."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. ഐച്ഛിക Google Drive ബന്ധം\nനിങ്ങളുടെ അഭ്യർഥനപ്രകാരം ആപ്പ് ഡിഫോൾട്ട് ബ്രൗസറിൽ Google സൈൻ-ഇൻ തുറക്കുകയും നിങ്ങളുടെ Google Drive-ലെ ഈ ആപ്പിനുള്ള മറഞ്ഞ ഡാറ്റ സംഭരണത്തിലേക്ക് അനുമതി ചോദിക്കുകയും ചെയ്യുന്നു. സാധാരണ Drive പ്രമാണങ്ങളോ ഫോട്ടോകളോ ആക്‌സസ് ചെയ്യാൻ ഈ അനുമതി അനുവദിക്കുന്നില്ല."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"ബന്ധിപ്പിച്ചാൽ ഭക്ഷണങ്ങൾ, കഴിച്ചവ, ദിനപുസ്തകത്തിലെ അളവുകൾ, കുറിപ്പുകൾ, ലക്ഷ്യങ്ങൾ, നേട്ടങ്ങൾ, കൈമാറാവുന്ന ക്രമീകരണങ്ങൾ, മാറ്റങ്ങളുടെ മെറ്റാഡാറ്റ എന്നിവ Google-ലേക്ക് അയയ്ക്കുന്നു. ക്രമരഹിതമായി സൃഷ്ടിച്ച ഇൻസ്റ്റാളേഷൻ തിരിച്ചറിയലുകളും സമയമുദ്രകളും ഇതിൽ ഉൾപ്പെടും. ബാക്കപ്പ് സ്നാപ്പ്ഷോട്ടുകളും ഉപകരണങ്ങൾക്കിടയിൽ രേഖകൾ ലയിപ്പിക്കലും ഇതിലൂടെ സാധ്യമാകുന്നു. സ്വയമേവ സമന്വയം ഓണാണെങ്കിൽ നെറ്റ്‌വർക്ക് ലഭിക്കുമ്പോൾ പശ്ചാത്തലത്തിലും മാറ്റങ്ങൾ അയയ്ക്കും. സ്വയമേവ സമന്വയം പ്രത്യേകം ഓഫ് ചെയ്യാം."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"ബന്ധം കാണിക്കാനും ശരിയായ സംഭരണവുമായി ചേർക്കാനും തിരഞ്ഞെടുത്ത Google അക്കൗണ്ടിന്റെ ഇമെയിൽ വിലാസവും തിരിച്ചറിയലും ആപ്പ് സ്വീകരിക്കുന്നു. Google പാസ്‌വേഡ് ആപ്പിന് ലഭിക്കുന്നില്ല. അംഗീകാര സെഷൻ Android Keystore-ലെ കീ ഉപയോഗിച്ച് എൻക്രിപ്റ്റ് ചെയ്ത് ഉപകരണത്തിൽ സൂക്ഷിക്കുന്നു. ടോക്കണുകൾ, ഇമെയിൽ വിലാസങ്ങൾ, Google തിരിച്ചറിയലുകൾ എന്നിവ ദിനപുസ്തക എക്‌സ്‌പോർട്ടിലോ സമന്വയിപ്പിച്ച JSON സ്നാപ്പ്ഷോട്ടുകളിലോ ഉൾപ്പെടുന്നില്ല."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google ഡാറ്റ അംഗീകാരത്തിനും സമന്വയത്തിനും മാത്രമാണ് ഉപയോഗിക്കുന്നത്, പരസ്യത്തിന് ഒരിക്കലും ഉപയോഗിക്കുന്നില്ല. Google സ്വകാര്യതാ നയം ബാധകമാണ്: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. ബാക്കപ്പ് ഫയലുകൾ\n‘ഫയലിൽ സംരക്ഷിക്കുക’ നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന സ്ഥലത്ത് JSON ഫയൽ സൃഷ്ടിക്കുന്നു. പുനഃസ്ഥാപിക്കുമ്പോൾ തിരഞ്ഞെടുത്ത ഫയൽ മാത്രം വായിക്കുന്നു. ക്ലൗഡ് ഫയൽ സേവനം തിരഞ്ഞെടുക്കുകയോ മറ്റൊരാൾക്ക് പകർപ്പ് പങ്കിടുകയോ ചെയ്താൽ സ്വീകരിക്കുന്നയാളെ നിങ്ങൾ തീരുമാനിക്കുന്നു. എക്‌സ്‌പോർട്ട് ചെയ്ത JSON ഫയലുകൾ ആപ്പ് എൻക്രിപ്റ്റ് ചെയ്യുന്നില്ല: അവയിൽ വ്യക്തിഗത രേഖകളും മാറ്റങ്ങളുടെ മെറ്റാഡാറ്റയും അടങ്ങിയിരിക്കുന്നു."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. പരസ്യം\nആപ്പ് Yandex Mobile Ads SDK ഉപയോഗിക്കുന്നു. പരസ്യങ്ങൾ ലോഡ് ചെയ്യാനും കാണിക്കാനും ഉപകരണം പരസ്യ സേവനങ്ങളുമായി ബന്ധപ്പെടുന്നു. Yandex നിങ്ങളുടെ IP വിലാസം, നെറ്റ്‌വർക്ക് അഭ്യർഥന, ഉപകരണം, സോഫ്റ്റ്‌വെയർ എന്നിവയെക്കുറിച്ചുള്ള മറ്റ് സാങ്കേതിക വിവരങ്ങൾ, ലഭ്യമായ പരസ്യ അല്ലെങ്കിൽ സാങ്കേതിക തിരിച്ചറിയലുകൾ, പരസ്യ പ്രദർശനവും ഇടപെടലുകളും സംബന്ധിച്ച വിവരങ്ങൾ എന്നിവ പ്രോസസ്സ് ചെയ്തേക്കാം."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"സമ്മതം നൽകിയിട്ടില്ലെന്ന് ആപ്പ് SDK-യെ അറിയിക്കുന്നു; സ്ഥാനം ശേഖരിക്കുന്നതും App Ad Analytics റിപ്പോർട്ടിംഗും ഓഫ് ചെയ്യുന്നു. കൃത്യമായതോ ഏകദേശമോ ആയ സ്ഥാനത്തിനുള്ള അനുമതി ചോദിക്കുന്നില്ല. ഈ ക്രമീകരണങ്ങൾ പരസ്യ സേവനം നെറ്റ്‌വർക്ക് ആശയവിനിമയമോ സാങ്കേതിക ഡാറ്റ പ്രോസസ്സിംഗോ ഒന്നും നടത്തുന്നില്ലെന്ന് അർഥമാക്കുന്നില്ല."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"ഭക്ഷണരേഖകൾ, ഭാരം, അളവുകൾ, കുറിപ്പുകൾ, ലക്ഷ്യങ്ങൾ, ഇമെയിൽ വിലാസങ്ങൾ, Google തിരിച്ചറിയലുകൾ എന്നിവ ആപ്പ് പരസ്യ ലക്ഷ്യമിടലിന് ഉപയോഗിക്കുകയോ പരസ്യ അഭ്യർഥനയുടെ പാരാമീറ്ററുകളിൽ ചേർക്കുകയോ ചെയ്യുന്നില്ല. രേഖകൾ സംരക്ഷിക്കാൻ പരസ്യം കാണേണ്ടതില്ല."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"ഡാറ്റ പ്രോസസ്സ് ചെയ്യൽ, സൂക്ഷിക്കൽ, ഇല്ലാതാക്കൽ എന്നിവയ്ക്കുള്ള Yandex ചട്ടങ്ങൾ: https://yandex.ru/legal/confidential/ . സിസ്റ്റം പതിപ്പ് പിന്തുണയ്ക്കുന്നെങ്കിൽ Android ക്രമീകരണങ്ങളിൽ പരസ്യ തിരിച്ചറിയൽ നിയന്ത്രിക്കാം. പരസ്യ സേവനത്തിന്റെ സാങ്കേതിക ഡാറ്റ സൂക്ഷിക്കുന്ന കാലയളവ് അതിന്റെ നയമാണ് നിശ്ചയിക്കുന്നത്; ദിനപുസ്തക ഡെവലപ്പർ അതിന് വേറെ കാലയളവ് നിശ്ചയിക്കുന്നില്ല."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. ഡാറ്റ സംരക്ഷണം\nGoogle-മായുള്ള ആശയവിനിമയം HTTPS ഉപയോഗിക്കുന്നു; SDK ഡാറ്റ HTTPS/TLS വഴി അയയ്ക്കുന്നതായി Yandex പറയുന്നു. ഉപകരണത്തിലെ ദിനപുസ്തകം Android-ന്റെ ആപ്പ് വേർതിരിക്കൽ വഴി സംരക്ഷിക്കപ്പെടുന്നു. ദിനപുസ്തക ഉള്ളടക്കമോ JSON സ്നാപ്പ്ഷോട്ടുകളോ ആപ്പ് പ്രത്യേകം എൻക്രിപ്റ്റ് ചെയ്യുന്നില്ല; ഉപകരണങ്ങൾക്കിടയിൽ അറ്റംമുതൽ അറ്റംവരെയുള്ള എൻക്രിപ്ഷൻ നൽകുന്നില്ല."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"ആപ്പ് ഡാറ്റയുടെ സിസ്റ്റം ബാക്കപ്പ് ഓഫ് ചെയ്തിരിക്കുന്നു. ആപ്പിന്റെ സ്വന്തം കോഡ് എഴുതുന്ന തകരാർ പരിശോധനാ ലോഗുകളിൽ ഫല കോഡുകൾ ഉണ്ടാകും; ദിനപുസ്തക ഉള്ളടക്കം, ഇമെയിൽ വിലാസം, ടോക്കൺ, നെറ്റ്‌വർക്ക് പ്രതികരണത്തിന്റെ ഉള്ളടക്കം എന്നിവ ഉണ്ടാകില്ല. ഈ ലോഗുകൾ ആപ്പ് പ്രത്യേകം ഡെവലപ്പർക്ക് അയയ്ക്കുന്നില്ല."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. സൂക്ഷിക്കലും ഇല്ലാതാക്കലും\nനിങ്ങൾ മാറ്റുകയോ ഇല്ലാതാക്കുകയോ ആപ്പിന്റെ ഡാറ്റ മായ്ക്കുകയോ ചെയ്യുന്നതുവരെ ഉപകരണത്തിലെ രേഖകൾ നിലനിൽക്കും. രേഖ ഇല്ലാതാക്കിയാൽ അത് സ്ക്രീനിൽ നിന്ന് നീങ്ങുകയും സമന്വയ സമയത്ത് ഇല്ലാതാക്കാനുള്ള അടയാളം അയയ്ക്കുകയും ചെയ്യും. പഴയ ഡാറ്റ തിരികെ വരാതിരിക്കാൻ ലയിപ്പിക്കൽ മെറ്റാഡാറ്റ നിലനിർത്തും; ഇല്ലാതാക്കിയ രേഖയിലെ പഴയ മൂല്യങ്ങൾ അതിൽ ഉണ്ടായേക്കാം. പഴയ ക്ലൗഡ് സ്നാപ്പ്ഷോട്ടുകളിലും മുമ്പ് സൃഷ്ടിച്ച ഫയലുകളിലും പഴയ മൂല്യങ്ങൾ ശേഷിച്ചേക്കാം. അതിനാൽ ഒരു രേഖ ഇല്ലാതാക്കിയാൽ അതിന്റെ എല്ലാ പകർപ്പുകളും പൂർണ്ണമായി ഇല്ലാതാകില്ല."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"‘അക്കൗണ്ടിന്റെ ബന്ധം വിച്ഛേദിക്കുക’ ഈ ഉപകരണത്തിലെ സമന്വയം നിർത്തുകയും പ്രാദേശിക Google സെഷൻ ഇല്ലാതാക്കുകയും ചെയ്യുന്നു. ദിനപുസ്തകവും Google Drive-ലെ സ്നാപ്പ്ഷോട്ടുകളും നിലനിൽക്കും. ആപ്പിന്റെ ബന്ധം വിച്ഛേദിച്ചാൽ Google അക്കൗണ്ട് ഇല്ലാതാകില്ല."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"ഈ ആപ്പിന്റെ ഡാറ്റ പൂർണ്ണമായി ഇല്ലാതാക്കാൻ:\n• ശേഷിക്കുന്ന പകർപ്പുകൾ വീണ്ടും അപ്‌ലോഡ് ആകാതിരിക്കാൻ എല്ലാ ഉപകരണങ്ങളിലും സമന്വയം ഓഫ് ചെയ്യുക.\n• മുമ്പ് ബന്ധിപ്പിച്ച Google അക്കൗണ്ട് ഉപയോഗിച്ച് ബ്രൗസറിൽ https://drive.google.com/drive/settings തുറക്കുക. ‘ആപ്പുകൾ നിയന്ത്രിക്കുക’ തിരഞ്ഞെടുത്ത് ‘Diet Diary’ (അല്ലെങ്കിൽ «Дневник диеты») കണ്ടെത്തുക. തുടർന്ന് ‘ഓപ്ഷനുകൾ’ → ‘മറഞ്ഞ ആപ്പ് ഡാറ്റ ഇല്ലാതാക്കുക’ തിരഞ്ഞെടുക്കുക. മൊബൈൽ പേജിൽ ഈ ഭാഗം കാണുന്നില്ലെങ്കിൽ ഡെസ്ക്ടോപ്പ് സൈറ്റോ കമ്പ്യൂട്ടറോ ഉപയോഗിക്കുക.\n• https://myaccount.google.com/connections ൽ ആപ്പിന്റെ ആക്‌സസ് പിൻവലിക്കുക. ആക്‌സസ് മാത്രം പിൻവലിച്ചാൽ സംരക്ഷിച്ച പകർപ്പുകൾ മായില്ല.\n• ഓരോ ഉപകരണത്തിന്റെയും Android ക്രമീകരണങ്ങളിൽ ആപ്പ് സംഭരണം മായ്ക്കുക അല്ലെങ്കിൽ ആപ്പ് അൺഇൻസ്റ്റാൾ ചെയ്യുക.\n• പ്രത്യേകം സംരക്ഷിച്ച JSON ബാക്കപ്പുകൾ നിങ്ങൾ തിരഞ്ഞെടുത്ത ഫോൾഡറുകളിൽ നിന്നും ക്ലൗഡ് സംഭരണത്തിൽ നിന്നും ഇല്ലാതാക്കുക."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"നിങ്ങളുടെ പ്രവേശന വിവരങ്ങളില്ലാതെ ഉപകരണത്തിലെ ദിനപുസ്തകമോ വ്യക്തിഗത Google Drive ഫയലുകളോ ഡെവലപ്പർക്ക് ദൂരത്തുനിന്ന് മായ്ക്കാനാവില്ല. പാസ്‌വേഡോ ടോക്കണുകളോ ഡെവലപ്പറുമായി പങ്കിടരുത്. ഇല്ലാതാക്കാൻ സഹായം വേണമെങ്കിൽ ഈ നയത്തിന്റെ തുടക്കത്തിലെ ലിങ്ക് വഴി പ്രോജക്റ്റുമായി ബന്ധപ്പെടുക. ദിനപുസ്തക ഡാറ്റ ഇല്ലാതാക്കാൻ Google അക്കൗണ്ട് ഇല്ലാതാക്കേണ്ടതില്ല."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. മാറ്റങ്ങളും ബന്ധപ്പെടലും\nആപ്പിന്റെ സൗകര്യങ്ങളോ ഡാറ്റ പ്രോസസ്സിംഗ് രീതികളോ മാറുമ്പോൾ പരിഷ്കരണ തീയതിയോടെ ഈ നയം പുതുക്കും. ഡാറ്റ ആക്‌സസ്, തിരുത്തൽ, ഇല്ലാതാക്കൽ അല്ലെങ്കിൽ ആപ്പിന്റെ പ്രവർത്തനം സംബന്ധിച്ച ചോദ്യങ്ങൾക്ക് പ്രോജക്റ്റിന്റെ ബന്ധപ്പെടൽ മാർഗം ഉപയോഗിക്കുക. മറുപടി നൽകാനായി നിങ്ങളുടെ അഭ്യർഥനകൾ പ്രോസസ്സ് ചെയ്ത് GitHub-ൽ സൂക്ഷിക്കും; GitHub നയം ഇവിടെ ലഭ്യമാണ്: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+</resources>

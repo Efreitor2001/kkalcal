@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Shajara ya Lishe"</string>
+    <string name="core_app_name" formatted="false">"Shajara ya Lishe"</string>
+    <string name="core_tagline" formatted="false">"Kalori, uzito na maendeleo"</string>
+    <string name="core_open_diary" formatted="false">"Fungua shajara"</string>
+    <string name="core_save_failed" formatted="false">"Imeshindikana kuhifadhi data yako"</string>
+    <string name="core_day" formatted="false">"Leo"</string>
+    <string name="core_products" formatted="false">"Vyakula"</string>
+    <string name="core_diary" formatted="false">"Shajara"</string>
+    <string name="core_charts" formatted="false">"Chati"</string>
+    <string name="core_more" formatted="false">"Zaidi"</string>
+    <string name="core_recipe_saved" formatted="false">"Mlo umehifadhiwa kwenye vyakula vyako"</string>
+    <string name="core_back_to_day" formatted="false">"Rudi kwenye siku yako"</string>
+    <string name="core_action_failed" formatted="false">"Imeshindikana kukamilisha kitendo hiki"</string>
+    <string name="core_understood" formatted="false">"Sawa"</string>
+    <string name="core_restore_available" formatted="false">"Unaweza kurejesha nakala rudufu katika Zaidi."</string>
+    <string name="core_eaten_today" formatted="false">"ULICHOKULA LEO"</string>
+    <string name="core_set_goal_hint" formatted="false">"Unaweza kuweka lengo katika Zaidi"</string>
+    <string name="core_add_food" formatted="false">"+ Ongeza chakula"</string>
+    <string name="core_first_meal" formatted="false">"Anza na mlo wako wa kwanza"</string>
+    <string name="core_first_meal_help" formatted="false">"Chagua chakula na uweke uzito wake kwa gramu ili kukokotoa kalori na virutubishi vikuu."</string>
+    <string name="core_my_day" formatted="false">"Siku yangu"</string>
+    <string name="core_my_day_help" formatted="false">"Uzito, kiuno, hatua, usingizi — andika unachojua."</string>
+    <string name="core_record_metrics" formatted="false">"Rekodi vipimo"</string>
+    <string name="core_edit_metrics" formatted="false">"Hariri vipimo"</string>
+    <string name="core_food_state_hint" formatted="false">"Uzito na thamani za lishe lazima zihusiane na hali ileile ya chakula: kibichi, kikavu au kilichopikwa."</string>
+    <string name="core_weight" formatted="false">"Uzito"</string>
+    <string name="core_waist" formatted="false">"Kiuno"</string>
+    <string name="core_my_diary" formatted="false">"Shajara yangu"</string>
+    <string name="core_diary_tagline" formatted="false">"Kila siku kwa mwendo wako"</string>
+    <string name="core_record_day" formatted="false">"+ Rekodi siku"</string>
+    <string name="core_optional_diary_help" formatted="false">"Vipimo vyote ni vya hiari. Unaweza kurekodi uzito, usingizi au dokezo pekee. Gusa rekodi ili kuihariri."</string>
+    <string name="core_history_starts" formatted="false">"Historia yako inaanzia hapa"</string>
+    <string name="core_history_help" formatted="false">"Rekodi vipimo na ufuatilie mabadiliko katika Chati."</string>
+    <string name="core_file_unavailable" formatted="false">"Faili halipatikani"</string>
+    <string name="core_backup_saved" formatted="false">"Nakala rudufu imehifadhiwa"</string>
+    <string name="core_export_error" formatted="false">"Imeshindikana kuhamisha nakala rudufu"</string>
+    <string name="core_read_error" formatted="false">"Imeshindikana kusoma faili"</string>
+    <string name="core_settings_tagline" formatted="false">"Mipangilio na nakala rudufu ya data"</string>
+    <string name="core_your_progress" formatted="false">"Maendeleo yako"</string>
+    <string name="core_achievements_help" formatted="false">"Mafanikio madogo ya kujenga tabia ya kuandika shajara."</string>
+    <string name="core_achievements" formatted="false">"Mafanikio"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Muunganisho wa hiari wa kusawazisha shajara kwenye vifaa vyako."</string>
+    <string name="core_cloud_sync" formatted="false">"Usawazishaji wa wingu"</string>
+    <string name="core_personal_goals" formatted="false">"Malengo binafsi"</string>
+    <string name="core_personal_goals_help" formatted="false">"Weka mwenyewe malengo ya kalori, virutubishi vikuu na uzito. Lengo lolote linaweza kuachwa wazi."</string>
+    <string name="core_configure_goals" formatted="false">"Weka malengo"</string>
+    <string name="core_backup" formatted="false">"Nakala rudufu"</string>
+    <string name="core_backup_help" formatted="false">"Vyakula, milo, shajara, malengo na mafanikio katika faili moja. Hifadhi nakala rudufu kabla ya kusakinisha programu tena."</string>
+    <string name="core_save_file" formatted="false">"Hifadhi kwenye faili"</string>
+    <string name="core_restore_file" formatted="false">"Rejesha kutoka kwenye faili"</string>
+    <string name="core_write_locked" formatted="false">"Uhifadhi umezimwa ili kulinda faili asili. Rejesha nakala rudufu halali."</string>
+    <string name="core_about_data" formatted="false">"Kuhusu programu na data yako"</string>
+    <string name="core_about_data_help" formatted="false">"Jinsi rekodi zinavyohifadhiwa, usawazishaji unavyofanya kazi na data inavyofutwa."</string>
+    <string name="core_privacy" formatted="false">"Faragha na ufutaji wa data"</string>
+    <string name="core_offline" formatted="false">"Hufanya kazi bila intaneti"</string>
+    <string name="core_offline_help" formatted="false">"Kuingia kwa Google ni kwa hiari. Hatua na usingizi huingizwa mwenyewe. Intaneti inahitajika kwa usawazishaji uliowashwa na kupakia matangazo. Rekodi za shajara hazitumwi kwa mtandao wa matangazo."</string>
+    <string name="core_about_foods" formatted="false">"Kuhusu vyakula"</string>
+    <string name="core_foods_reference" formatted="false">"Thamani zilizojumuishwa ni makadirio kwa kila g 100 za sehemu inayoliwa. Angalia kifungashio kwa thamani sahihi. Kuhariri chakula hakuhesabu upya rekodi za milo iliyopita."</string>
+    <string name="core_foods_source" formatted="false">"Chanzo cha hifadhidata: USDA FoodData Central, SR Legacy. Kila chakula kina hali yake na maelezo ya chanzo."</string>
+    <string name="core_restore_title" formatted="false">"Ungependa kurejesha nakala hii rudufu?"</string>
+    <string name="core_restore_warning" formatted="false">"Vyakula, shajara, malengo na mafanikio yako ya sasa yatabadilishwa kwa yaliyomo kwenye faili hili. Hifadhi nakala rudufu kwanza. Ikiwa usawazishaji umeunganishwa, mabadiliko yaliyorejeshwa pia yatatumwa kwenye Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Nakala rudufu imerejeshwa"</string>
+    <string name="core_invalid_file" formatted="false">"Faili batili"</string>
+    <string name="core_replace_data" formatted="false">"Badilisha data"</string>
+    <string name="core_cancel" formatted="false">"Ghairi"</string>
+    <string name="core_save" formatted="false">"Hifadhi"</string>
+    <string name="core_calculate_portion" formatted="false">"Kokotoa kiasi"</string>
+    <string name="core_edit_portion" formatted="false">"Hariri kiasi"</string>
+    <string name="core_portion_weight" formatted="false">"Uzito wa kiasi, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Weka uzito zaidi ya 0 na usiozidi g 100,000"</string>
+    <string name="core_add_to_diary" formatted="false">"Ongeza kwenye shajara"</string>
+    <string name="core_delete_entry" formatted="false">"Futa rekodi"</string>
+    <string name="core_delete_portion_question" formatted="false">"Ungependa kufuta kiasi hiki kwenye shajara yako?"</string>
+    <string name="core_new_food" formatted="false">"Chakula au mlo mpya"</string>
+    <string name="core_edit_nutrition" formatted="false">"Hariri thamani za lishe"</string>
+    <string name="core_name" formatted="false">"Jina"</string>
+    <string name="core_food" formatted="false">"Chakula"</string>
+    <string name="core_dish" formatted="false">"Mlo ulioandaliwa"</string>
+    <string name="core_category" formatted="false">"Kategoria"</string>
+    <string name="core_per100_hint" formatted="false">"Thamani kwa kila g 100, kutoka kwenye kifungashio au mapishi. Weka 0 ikiwa kirutubishi hakipo."</string>
+    <string name="core_kcal" formatted="false">"Kalori"</string>
+    <string name="core_protein_grams" formatted="false">"Protini, g"</string>
+    <string name="core_fat_grams" formatted="false">"Mafuta, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Wanga, g"</string>
+    <string name="core_food_note" formatted="false">"Dokezo, viambato (hiari)"</string>
+    <string name="core_favorite" formatted="false">"Ongeza kwenye vipendwa"</string>
+    <string name="core_name_category_required" formatted="false">"Weka jina na kategoria"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Weka thamani kwa kila g 100: kalori 0–1,000; protini, mafuta na wanga g 0–100"</string>
+    <string name="core_delete_food" formatted="false">"Futa kwenye vyakula"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Rekodi za milo iliyopita zitahifadhi thamani zake."</string>
+    <string name="core_delete_food_question" formatted="false">"Ungependa kufuta chakula hiki? Rekodi zake za shajara zitabaki."</string>
+    <string name="core_day_entry" formatted="false">"Rekodi ya siku"</string>
+    <string name="core_optional_fields" formatted="false">"Jaza sehemu zozote unazotaka. Acha nyingine wazi."</string>
+    <string name="core_editing_existing" formatted="false">"Tayari kuna rekodi ya tarehe hii. Unaihariri."</string>
+    <string name="core_weight_kg" formatted="false">"Uzito, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Kiuno, cm"</string>
+    <string name="core_steps" formatted="false">"Hatua"</string>
+    <string name="core_sleep" formatted="false">"Usingizi"</string>
+    <string name="core_hours" formatted="false">"Saa"</string>
+    <string name="core_minutes" formatted="false">"Dakika"</string>
+    <string name="core_body_fat_optional" formatted="false">"Mafuta ya mwili kutoka kwenye mizani, % (hiari)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Mafuta ya mwili kutoka kwenye mizani ni kiashirio cha mwenendo, si kipimo sahihi."</string>
+    <string name="core_strength_training" formatted="false">"Mazoezi ya nguvu"</string>
+    <string name="core_training_example" formatted="false">"Kwa mfano: kuchuchumaa 3×10, dambeli za kg 12"</string>
+    <string name="core_manual_nutrition" formatted="false">"Jumla za lishe zilizowekwa mwenyewe"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Ikiwa zimewekwa, thamani hizi zitachukua nafasi ya jumla za chakula kwa siku. Acha wazi kwa ukokotoaji wa kiotomatiki."</string>
+    <string name="core_daily_calories" formatted="false">"Kalori za siku"</string>
+    <string name="core_daily_protein" formatted="false">"Protini za siku, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Maelezo na jinsi unavyohisi"</string>
+    <string name="core_steps_invalid" formatted="false">"Hatua: namba kamili kati ya 0 na 200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Usingizi: saa 0–24, dakika 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Mafuta ya mwili"</string>
+    <string name="core_calories" formatted="false">"Kalori"</string>
+    <string name="core_protein" formatted="false">"Protini"</string>
+    <string name="core_entry_required" formatted="false">"Ongeza angalau kipimo kimoja au dokezo"</string>
+    <string name="core_delete_day" formatted="false">"Futa rekodi hii ya siku"</string>
+    <string name="core_optional_goals" formatted="false">"Malengo yote ni ya hiari. Sehemu iliyo wazi inamaanisha hakuna lengo lililowekwa."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalori kwa siku"</string>
+    <string name="core_protein_per_day" formatted="false">"Protini kwa siku, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Mafuta kwa siku, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Wanga kwa siku, g"</string>
+    <string name="core_target_weight" formatted="false">"Uzito lengwa, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Kagua malengo yako: kalori 0–10,000; protini, mafuta na wanga g 0–1,000"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Uzito lengwa: kati ya kg 1 na 500"</string>
+    <string name="core_delete_question" formatted="false">"Ungependa kufuta?"</string>
+    <string name="core_delete" formatted="false">"Futa"</string>
+    <string name="core_select_food" formatted="false">"Chagua chakula"</string>
+    <string name="core_foods_dishes" formatted="false">"Vyakula na milo"</string>
+    <string name="core_search_food" formatted="false">"Tafuta chakula au mlo"</string>
+    <string name="core_new_food_button" formatted="false">"+ Chakula / mlo"</string>
+    <string name="core_recipe_button" formatted="false">"Kutoka kwenye mapishi"</string>
+    <string name="core_no_results" formatted="false">"Hakuna matokeo"</string>
+    <string name="core_no_results_help" formatted="false">"Jaribu utafutaji mwingine au ongeza chakula chako au mlo ulioandaliwa."</string>
+    <string name="core_edit" formatted="false">"Hariri"</string>
+    <string name="core_achievement_unlocked">"🏆 Mafanikio yamepatikana! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Zimebaki kcal %1$s · lengo %2$s"</string>
+    <string name="core_above_goal">"kcal %1$s juu ya lengo lako"</string>
+    <string name="core_portion_summary">"g %1$s · kcal %2$s"</string>
+    <string name="core_macros_summary">"Protini %1$s   Mafuta %2$s   Wanga %3$s"</string>
+    <string name="core_weight_summary">"Uzito kg %1$s"</string>
+    <string name="core_waist_summary">"Kiuno cm %1$s"</string>
+    <string name="core_steps_summary">"Hatua: %1$s"</string>
+    <string name="core_fat_summary">"Mafuta ya mwili %1$s%%"</string>
+    <string name="core_manual_calories">"kcal %1$s (mwenyewe)"</string>
+    <string name="core_manual_protein">"Protini g %1$s (mwenyewe)"</string>
+    <string name="core_kg_value">"kg %1$s"</string>
+    <string name="core_cm_value">"cm %1$s"</string>
+    <string name="core_sleep_value">"Usingizi %1$s"</string>
+    <string name="core_scale_fat">"Mafuta ya mwili kwenye mizani %1$s%%"</string>
+    <string name="core_training_value">"Mazoezi: %1$s"</string>
+    <string name="core_kcal_value">"kcal %1$s"</string>
+    <string name="core_protein_value">"Protini g %1$s"</string>
+    <string name="core_app_version">"Shajara ya Lishe · %1$s"</string>
+    <string name="core_per100_summary">"Kwa g 100: kcal %1$s · Protini %2$s · Mafuta %3$s · Wanga %4$s"</string>
+    <string name="core_range_invalid">"%1$s: weka thamani kati ya %2$s na %3$s"</string>
+    <string name="core_delete_day_question">"Ungependa kufuta vipimo vya %1$s? Rekodi za chakula zitabaki."</string>
+    <string name="core_catalog_count">"Vyakula: %1$s · lishe kwa kila g 100"</string>
+    <string name="core_catalog_nutrition">"kcal %1$s   ·   Protini %2$s   Mafuta %3$s   Wanga %4$s"</string>
+    <string name="core_today_date">"Leo · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalori na protini ni jumla ulizoweka mwenyewe kwenye shajara"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalori ni jumla uliyoweka mwenyewe kwenye shajara"</string>
+    <string name="core_manual_protein_total" formatted="false">"Protini ni jumla uliyoweka mwenyewe kwenye shajara"</string>
+    <string name="core_macro_goals">"Malengo P / M / W: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (mwenyewe)"</string>
+    <string name="core_all" formatted="false">"Vyote"</string>
+    <string name="core_favorites" formatted="false">"Vipendwa"</string>
+    <string name="core_sleep_duration">"saa %1$s dak %2$s"</string>
+    <string name="core_previous_day" formatted="false">"Siku iliyotangulia"</string>
+    <string name="core_next_day" formatted="false">"Siku inayofuata"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Nakala rudufu ya uhamishaji hailingani"</string>
+    <string name="data_entry_exists" formatted="false">"Rekodi hii ya chakula tayari ipo"</string>
+    <string name="data_entry_missing" formatted="false">"Rekodi ya chakula haikupatikana"</string>
+    <string name="data_edited_date_changed" formatted="false">"Tarehe ya rekodi inayohaririwa imebadilika"</string>
+    <string name="data_device_id_corrupt" formatted="false">"ID ya kifaa cha ndani imeharibika; urejeshaji umezuiwa"</string>
+    <string name="data_sync_invalid" formatted="false">"Data ya usawazishaji ni batili"</string>
+    <string name="data_diary_read_only" formatted="false">"Shajara imelindwa dhidi ya kuandikwa upya: rejesha nakala rudufu"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Data ya shajara hailingani"</string>
+    <string name="data_backup_too_large" formatted="false">"Nakala rudufu ni kubwa mno"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ID ya usakinishaji imeharibika"</string>
+    <string name="data_save_verification_failed" formatted="false">"Imeshindikana kuthibitisha kuwa shajara imehifadhiwa"</string>
+    <string name="data_save_failed" formatted="false">"Imeshindikana kuhifadhi shajara"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Nakala rudufu ni kubwa kuliko MB 50"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Faili la shajara ni kubwa mno"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Ukubwa wa hifadhidata ya vyakula ni batili"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Toleo la nakala rudufu halitumiki"</string>
+    <string name="data_too_many_values">"Thamani ni nyingi mno katika %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Vyakula ni vingi mno"</string>
+    <string name="data_too_many_entries" formatted="false">"Rekodi za chakula ni nyingi mno"</string>
+    <string name="data_too_many_logs" formatted="false">"Rekodi za shajara ni nyingi mno"</string>
+    <string name="data_product_id_duplicate" formatted="false">"ID ya chakula imerudiwa"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"ID ya rekodi ya chakula imerudiwa"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Tarehe ya shajara imerudiwa"</string>
+    <string name="data_label_product_id" formatted="false">"ID ya chakula"</string>
+    <string name="data_label_product_name" formatted="false">"Jina la chakula"</string>
+    <string name="data_label_category" formatted="false">"Kategoria"</string>
+    <string name="data_label_note" formatted="false">"Dokezo"</string>
+    <string name="data_label_entry_id" formatted="false">"ID ya rekodi"</string>
+    <string name="data_label_meal" formatted="false">"Mlo"</string>
+    <string name="data_food_weight_range" formatted="false">"Uzito wa chakula lazima uwe zaidi ya 0 na usizidi g 100000"</string>
+    <string name="data_label_weight" formatted="false">"Uzito"</string>
+    <string name="data_label_waist" formatted="false">"Kiuno"</string>
+    <string name="data_steps_range" formatted="false">"Idadi ya hatua lazima iwe kati ya 0 na 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Usingizi"</string>
+    <string name="data_label_body_fat" formatted="false">"Mafuta ya mwili"</string>
+    <string name="data_label_daily_calories" formatted="false">"Kalori za siku"</string>
+    <string name="data_label_daily_protein" formatted="false">"Protini za siku"</string>
+    <string name="data_label_workout" formatted="false">"Mazoezi"</string>
+    <string name="data_label_log_note" formatted="false">"Dokezo"</string>
+    <string name="data_log_empty" formatted="false">"Weka angalau kipimo kimoja au dokezo"</string>
+    <string name="data_label_goal_weight" formatted="false">"Uzito lengwa"</string>
+    <string name="data_too_many_achievements" formatted="false">"Mafanikio ni mengi mno"</string>
+    <string name="data_achievement_invalid" formatted="false">"Mafanikio batili"</string>
+    <string name="data_setting_not_portable" formatted="false">"Mpangilio huu hauwezi kuhamishwa"</string>
+    <string name="data_setting_invalid">"Thamani batili ya mpangilio %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Kalori"</string>
+    <string name="data_label_protein" formatted="false">"Protini"</string>
+    <string name="data_label_fat" formatted="false">"Mafuta"</string>
+    <string name="data_label_carbs" formatted="false">"Wanga"</string>
+    <string name="data_value_range">"%1$s: kiwango kinachoruhusiwa %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: urefu batili"</string>
+    <string name="data_text_character_invalid">"%1$s: herufi batili"</string>
+    <string name="data_date_format_invalid" formatted="false">"Tarehe lazima iwe katika muundo wa YYYY-MM-DD"</string>
+    <string name="data_date_nonexistent">"Tarehe batili: %1$s"</string>
+    <string name="data_field_string_required">"Sehemu %1$s lazima iwe maandishi"</string>
+    <string name="data_field_boolean_required">"Sehemu %1$s lazima iwe thamani ya Boolean"</string>
+    <string name="data_field_number_required">"Sehemu %1$s lazima iwe namba"</string>
+    <string name="data_field_finite_required">"Sehemu %1$s lazima iwe namba yenye kikomo"</string>
+    <string name="data_field_integer_required">"Sehemu %1$s lazima iwe namba kamili"</string>
+    <string name="data_too_many_items">"Vipengee ni vingi mno katika %1$s"</string>
+    <string name="data_data_file_invalid">"Faili la data ni batili: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"ID ya kifaa haipo"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Kikomo cha saa ya kimantiki kimefikiwa"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Rekodi za usawazishaji ni nyingi mno"</string>
+    <string name="data_sync_version_required" formatted="false">"Usawazishaji unahitaji toleo la 2 la muundo"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Ufunguo wa usawazishaji ni batili"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Ufunguo wa usawazishaji umerudiwa"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Alama ya ufutaji ni batili"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Data ya usawazishaji ni batili"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Toleo la rekodi linazidi saa ya kimantiki"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Data hailingani na metadata ya usawazishaji"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Urefu wa ufunguo wa usawazishaji ni batili"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Muundo wa ufunguo wa usawazishaji si sahihi"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Aina ya usawazishaji haijulikani"</string>
+    <string name="data_record_id_too_long" formatted="false">"ID ya rekodi ni ndefu mno"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Ufutaji wa mafanikio ni batili"</string>
+    <string name="data_log_key_invalid" formatted="false">"Ufunguo wa shajara ni batili"</string>
+    <string name="data_log_field_unknown" formatted="false">"Sehemu ya shajara haijulikani"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Alama ya ufutaji wa shajara ni batili"</string>
+    <string name="data_goal_unknown" formatted="false">"Lengo halijulikani"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Rekodi iliyofutwa ina data"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Thamani ya usawazishaji ni batili"</string>
+    <string name="data_record_id_mismatch" formatted="false">"ID ya rekodi hailingani na ufunguo"</string>
+    <string name="data_field_value_invalid" formatted="false">"Thamani ya sehemu ni batili"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Tarehe ya mafanikio hailingani na ufunguo"</string>
+    <string name="data_note_string_required" formatted="false">"Dokezo lazima liwe maandishi"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Dokezo lililosawazishwa ni batili"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Saa ya kimantiki ni batili"</string>
+    <string name="data_device_invalid" formatted="false">"Kifaa batili"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Alama ya toleo ni batili"</string>
+    <string name="data_google_login_required" formatted="false">"Ingia tena kwenye Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Nakala rudufu za wingu ni nyingi mno"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive imerudisha ukurasa uliorudiwa"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Nakala rudufu ya wingu ni kubwa kuliko MB 50"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive haikurudisha anwani ya kupakia"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Anwani ya kupakia ya Google Drive ni batili"</string>
+    <string name="data_back" formatted="false">"‹  Rudi"</string>
+    <string name="data_cloud_title" formatted="false">"Usawazishaji wa wingu"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Shajara yako kwenye vifaa vyako"</string>
+    <string name="data_no_account" formatted="false">"Hakuna akaunti iliyounganishwa"</string>
+    <string name="data_cloud_intro" formatted="false">"Kuingia ni kwa hiari. Vyakula, milo, vipimo, malengo na mafanikio huhifadhiwa kwenye simu yako. Baada ya kuunganisha, nakala itahifadhiwa katika folda iliyofichwa kwenye Google Drive yako."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Rekodi huunganishwa wakati wa muunganisho wa kwanza. Programu haiwezi kufikia faili nyingine katika Drive yako."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Kuingia kwa Google bado hakujasanidiwa kwa toleo hili. Shajara na nakala rudufu za faili hufanya kazi bila akaunti."</string>
+    <string name="data_connect_google" formatted="false">"Unganisha Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Usawazishaji wa kiotomatiki"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Data inapobadilika na chinichini Android inaporuhusu"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Imeshindikana kubadilisha ratiba. Data yako imehifadhiwa kwenye kifaa hiki."</string>
+    <string name="data_sync_start_failed" formatted="false">"Imeshindikana kuanza usawazishaji. Data yako imehifadhiwa kwenye kifaa hiki."</string>
+    <string name="data_sync_now" formatted="false">"Sawazisha sasa"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Ingia tena kwenye Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Tenganisha akaunti"</string>
+    <string name="data_sync_never" formatted="false">"Bado hakuna usawazishaji"</string>
+    <string name="data_offline_saved_title" formatted="false">"Data yako imehifadhiwa bila intaneti"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Usawazishaji wa kiotomatiki ukiwashwa, mabadiliko hutumwa muunganisho unapopatikana. Ikiwa sehemu ileile itabadilika kwenye vifaa viwili, toleo lenye muda wa mabadiliko wa baadaye hutumika. Rekodi na sehemu zinazojitegemea huunganishwa."</string>
+    <string name="data_cloud_password_description" formatted="false">"Unaingiza nenosiri kwenye ukurasa wa Google katika kivinjari pekee. Tokeni za ufikiaji zinalindwa na Android Keystore na hazijumuishwi katika nakala rudufu."</string>
+    <string name="data_google_connection_title" formatted="false">"Muunganisho wa Google"</string>
+    <string name="data_got_it" formatted="false">"Nimeelewa"</string>
+    <string name="data_connect_drive_title" formatted="false">"Ungependa kuunganisha Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Shajara yako ya sasa itaunganishwa na data katika akaunti ya Google iliyochaguliwa. Tumia akaunti binafsi ileile kwenye vifaa vyako. Kuingia kutafunguliwa katika kivinjari chako chaguomsingi."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Imeshindikana kufungua kuingia. Sakinisha au washa kivinjari chaguomsingi na ujaribu tena."</string>
+    <string name="data_continue" formatted="false">"Endelea"</string>
+    <string name="data_cancel" formatted="false">"Ghairi"</string>
+    <string name="data_disconnect_title" formatted="false">"Ungependa kutenganisha akaunti?"</string>
+    <string name="data_disconnect_description" formatted="false">"Usawazishaji utasimama kwenye kifaa hiki. Shajara yako ya ndani na nakala katika Google Drive zitabaki. Unaweza kudhibiti ruhusa ya programu katika mipangilio ya Akaunti yako ya Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Imeshindikana kutenganisha akaunti. Tafadhali jaribu tena."</string>
+    <string name="data_disconnect" formatted="false">"Tenganisha"</string>
+    <string name="data_google_not_connected" formatted="false">"Google haijaunganishwa"</string>
+    <string name="data_sync_ready" formatted="false">"Tayari kusawazisha"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Mabadiliko yanasubiri kusawazishwa…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Hakuna muunganisho wa intaneti. Mabadiliko yamehifadhiwa kwenye kifaa hiki."</string>
+    <string name="data_google_not_configured" formatted="false">"Kuingia kwa Google bado hakujasanidiwa kwa toleo hili"</string>
+    <string name="data_sync_wait" formatted="false">"Subiri usawazishaji ukamilike"</string>
+    <string name="data_google_connecting" formatted="false">"Inaunganisha Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Muunganisho umeghairiwa"</string>
+    <string name="data_connection_rejected" formatted="false">"Muunganisho umeghairiwa au kukataliwa na Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google imeunganishwa. Inaunganisha rekodi…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Imeshindikana kuunganisha Google. Kagua intaneti na mipangilio ya ufikiaji."</string>
+    <string name="data_account_disconnected" formatted="false">"Akaunti imetenganishwa. Data yako inabaki kwenye kifaa hiki."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Hakuna intaneti. Usawazishaji unasubiri muunganisho."</string>
+    <string name="data_sync_scheduled" formatted="false">"Usawazishaji umeratibiwa…"</string>
+    <string name="data_sync_running" formatted="false">"Inasawazisha…"</string>
+    <string name="data_sync_complete" formatted="false">"Usawazishaji umekamilika"</string>
+    <string name="data_no_internet" formatted="false">"Hakuna muunganisho wa intaneti"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Imeshindikana kusawazisha. Data yako imehifadhiwa kwenye kifaa hiki"</string>
+    <string name="data_page_open_failed" formatted="false">"Imeshindikana kufungua ukurasa. Unaweza kunakili anwani yake kutoka kwenye maandishi yaliyo hapa chini."</string>
+    <string name="data_privacy_title" formatted="false">"Faragha"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Rekodi zako na udhibiti wa data"</string>
+    <string name="data_app_purpose" formatted="false">"Kuhusu programu hii"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Programu hii si kifaa cha matibabu. Haitambui, haitibu, haiponyi wala kuzuia ugonjwa wowote. Wasiliana na mtaalamu wa afya aliyehitimu kwa ushauri wa matibabu, utambuzi na matibabu."</string>
+    <string name="data_manage_delete_data" formatted="false">"Dhibiti na ufute data"</string>
+    <string name="data_delete_data_intro" formatted="false">"Kabla ya kufuta data yote, zima usawazishaji kwenye vifaa vyako vyote. Kuondoa programu kwenye simu hakufuti nakala katika Google Drive au faili zilizohamishwa."</string>
+    <string name="data_manage_drive_data" formatted="false">"Dhibiti data ya Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Ufikiaji wa Akaunti ya Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Hifadhi ya programu katika Android"</string>
+    <string name="data_contact_developer" formatted="false">"Wasiliana na msanidi"</string>
+    <string name="data_opening_page" formatted="false">"Inafungua ukurasa"</string>
+    <string name="data_advertisement" formatted="false">"TANGAZO"</string>
+    <string name="data_ad_information" formatted="false">"Kuhusu tangazo hili"</string>
+    <string name="data_cloud_http_error">"Hitilafu ya HTTP ya wingu %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Jibu la wingu ni kubwa mno"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Kipindi cha kuingia kilichosimbwa ni batili"</string>
+    <string name="data_session_save_failed" formatted="false">"Imeshindikana kuhifadhi kipindi cha kuingia"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Imeshindikana kufanya upya ufikiaji wa Google"</string>
+    <string name="data_diary_read_failed">"Imeshindikana kusoma shajara. Faili asili limehifadhiwa. Rejesha data yako kutoka kwenye nakala rudufu. %1$s"</string>
+    <string name="data_last_sync">"Usawazishaji wa mwisho: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Matunda na beri"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Matunda yaliyokaushwa"</string>
+    <string name="data_category_vegetables" formatted="false">"Mboga na mimea ya viungo"</string>
+    <string name="data_category_mushrooms" formatted="false">"Uyoga"</string>
+    <string name="data_category_grains" formatted="false">"Nafaka na pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Jamii ya kunde"</string>
+    <string name="data_category_meat" formatted="false">"Nyama na kuku"</string>
+    <string name="data_category_fish" formatted="false">"Samaki na vyakula vya baharini"</string>
+    <string name="data_category_dairy" formatted="false">"Bidhaa za maziwa"</string>
+    <string name="data_category_eggs" formatted="false">"Mayai"</string>
+    <string name="data_category_oils" formatted="false">"Mafuta na siagi"</string>
+    <string name="data_category_nuts" formatted="false">"Karanga na mbegu"</string>
+    <string name="data_category_bread" formatted="false">"Mkate"</string>
+    <string name="data_category_other" formatted="false">"Vyakula vingine"</string>
+    <string name="data_category_dishes" formatted="false">"Milo iliyoandaliwa"</string>
+    <string name="data_category_custom" formatted="false">"Vyakula vyangu"</string>
+    <string name="data_category_other_short" formatted="false">"Nyingine"</string>
+    <string name="data_food_seed_9003" formatted="false">"Tufaha lenye ganda"</string>
+    <string name="data_catalog_note_1">"Thamani za marejeo kwa kila g 100 za sehemu inayoliwa. Chakula kibichi. Thamani za wanga za USDA zinajumuisha nyuzinyuzi. Unaweza kurekebisha thamani kwa kutumia lebo ya bidhaa. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Ndizi iliyomenywa"</string>
+    <string name="data_food_seed_9021" formatted="false">"Aprikoti isiyo na kokwa"</string>
+    <string name="data_food_seed_9037" formatted="false">"Nyama ya parachichi"</string>
+    <string name="data_food_seed_9050" formatted="false">"Beri za buluu"</string>
+    <string name="data_food_seed_9070" formatted="false">"Cheri tamu zisizo na kokwa"</string>
+    <string name="data_food_seed_9063" formatted="false">"Cheri chachu zisizo na kokwa"</string>
+    <string name="data_food_seed_9078" formatted="false">"Kranberi"</string>
+    <string name="data_food_seed_9083" formatted="false">"Karanti nyeusi"</string>
+    <string name="data_food_seed_9084" formatted="false">"Karanti nyekundu na nyeupe"</string>
+    <string name="data_food_seed_9132" formatted="false">"Zabibu"</string>
+    <string name="data_food_seed_9148" formatted="false">"Nyama ya kiwi"</string>
+    <string name="data_food_seed_9150" formatted="false">"Limau iliyomenywa"</string>
+    <string name="data_food_seed_9181" formatted="false">"Nyama ya tikiti kantalupe"</string>
+    <string name="data_food_seed_9200" formatted="false">"Nyama ya chungwa"</string>
+    <string name="data_food_seed_9218" formatted="false">"Nyama ya chenza"</string>
+    <string name="data_food_seed_9236" formatted="false">"Pichi isiyo na kokwa"</string>
+    <string name="data_food_seed_9252" formatted="false">"Pea"</string>
+    <string name="data_food_seed_9266" formatted="false">"Nyama ya nanasi"</string>
+    <string name="data_food_seed_9279" formatted="false">"Plamu isiyo na kokwa"</string>
+    <string name="data_food_seed_9286" formatted="false">"Mbegu za komamanga"</string>
+    <string name="data_food_seed_9295" formatted="false">"Nyama ya pomelo"</string>
+    <string name="data_food_seed_9302" formatted="false">"Rasiberi"</string>
+    <string name="data_food_seed_9316" formatted="false">"Stroberi"</string>
+    <string name="data_food_seed_9326" formatted="false">"Nyama ya tikiti maji"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektarini isiyo na kokwa"</string>
+    <string name="data_food_seed_9176" formatted="false">"Nyama ya embe"</string>
+    <string name="data_food_seed_9107" formatted="false">"Gusiberi"</string>
+    <string name="data_food_seed_9226" formatted="false">"Nyama ya papai"</string>
+    <string name="data_food_seed_9089" formatted="false">"Tini mbichi"</string>
+    <string name="data_food_seed_9111" formatted="false">"Nyama ya balungi"</string>
+    <string name="data_food_seed_9032" formatted="false">"Aprikoti zilizokaushwa zisizo na kokwa"</string>
+    <string name="data_catalog_note_2">"Thamani za marejeo kwa kila g 100 za sehemu inayoliwa. Thamani za wanga za USDA zinajumuisha nyuzinyuzi. Unaweza kurekebisha thamani kwa kutumia lebo ya bidhaa. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Pruni zisizo na kokwa"</string>
+    <string name="data_food_seed_9087" formatted="false">"Tende zisizo na kokwa"</string>
+    <string name="data_food_seed_9298" formatted="false">"Zabibu kavu nyeusi zisizo na mbegu"</string>
+    <string name="data_food_seed_11529" formatted="false">"Nyanya mbichi"</string>
+    <string name="data_food_seed_11205" formatted="false">"Tango lenye ganda"</string>
+    <string name="data_food_seed_11090" formatted="false">"Brokoli mbichi"</string>
+    <string name="data_food_seed_11109" formatted="false">"Kabichi nyeupe mbichi"</string>
+    <string name="data_food_seed_11124" formatted="false">"Karoti mbichi"</string>
+    <string name="data_food_seed_11135" formatted="false">"Koliflawa mbichi"</string>
+    <string name="data_food_seed_11143" formatted="false">"Mashina ya seleri"</string>
+    <string name="data_food_seed_11282" formatted="false">"Kitunguu kibichi"</string>
+    <string name="data_food_seed_11291" formatted="false">"Vitunguu vya majani"</string>
+    <string name="data_food_seed_11304" formatted="false">"Njegere mbichi"</string>
+    <string name="data_food_seed_11333" formatted="false">"Pilipili hoho ya kijani"</string>
+    <string name="data_food_seed_11821" formatted="false">"Pilipili hoho nyekundu"</string>
+    <string name="data_food_seed_11352" formatted="false">"Kiazi kibichi chenye ganda"</string>
+    <string name="data_food_seed_11367" formatted="false">"Kiazi kilichochemshwa na kumenywa"</string>
+    <string name="data_catalog_note_3">"Thamani za marejeo kwa kila g 100 za sehemu inayoliwa. Hakuna chumvi iliyoongezwa. Thamani za wanga za USDA zinajumuisha nyuzinyuzi. Unaweza kurekebisha thamani kwa kutumia lebo ya bidhaa. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Zukini mbichi"</string>
+    <string name="data_food_seed_11209" formatted="false">"Biringanya mbichi"</string>
+    <string name="data_food_seed_11422" formatted="false">"Boga bichi"</string>
+    <string name="data_food_seed_11429" formatted="false">"Figili"</string>
+    <string name="data_food_seed_11564" formatted="false">"Tanipu mbichi"</string>
+    <string name="data_food_seed_11080" formatted="false">"Bitiruti mbichi"</string>
+    <string name="data_food_seed_11081" formatted="false">"Bitiruti iliyochemshwa"</string>
+    <string name="data_food_seed_11215" formatted="false">"Kitunguu saumu"</string>
+    <string name="data_food_seed_11216" formatted="false">"Tangawizi"</string>
+    <string name="data_food_seed_11457" formatted="false">"Spinachi mbichi"</string>
+    <string name="data_food_seed_11253" formatted="false">"Majani ya letusi"</string>
+    <string name="data_food_seed_11297" formatted="false">"Pasili mbichi"</string>
+    <string name="data_food_seed_2045" formatted="false">"Dili mbichi"</string>
+    <string name="data_food_seed_11052" formatted="false">"Maharagwe mabichi ya kijani"</string>
+    <string name="data_food_seed_11167" formatted="false">"Punje mbichi za mahindi matamu"</string>
+    <string name="data_food_seed_11260" formatted="false">"Uyoga vitufe mbichi"</string>
+    <string name="data_food_seed_11261" formatted="false">"Uyoga vitufe uliochemshwa bila chumvi"</string>
+    <string name="data_food_seed_11987" formatted="false">"Uyoga chaza mbichi"</string>
+    <string name="data_food_seed_20009" formatted="false">"Buckwheat kavu iliyomenywa"</string>
+    <string name="data_catalog_note_4">"Thamani za marejeo kwa kila g 100 za sehemu inayoliwa. Buckwheat iliyomenywa na kukaangwa bila mafuta. Thamani za wanga za USDA zinajumuisha nyuzinyuzi. Unaweza kurekebisha thamani kwa kutumia lebo ya bidhaa. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Buckwheat iliyopikwa kwa maji"</string>
+    <string name="data_food_seed_20444" formatted="false">"Mchele mweupe mkavu"</string>
+    <string name="data_food_seed_20445" formatted="false">"Wali mweupe uliochemshwa bila chumvi"</string>
+    <string name="data_food_seed_20036" formatted="false">"Mchele wa kahawia mkavu"</string>
+    <string name="data_food_seed_20037" formatted="false">"Wali wa kahawia uliochemshwa"</string>
+    <string name="data_food_seed_8120" formatted="false">"Oti bapa kavu"</string>
+    <string name="data_food_seed_8121" formatted="false">"Uji wa oti uliopikwa kwa maji bila chumvi"</string>
+    <string name="data_food_seed_20005" formatted="false">"Shayiri iliyokobolewa kavu"</string>
+    <string name="data_food_seed_20006" formatted="false">"Shayiri iliyokobolewa na kuchemshwa"</string>
+    <string name="data_food_seed_20031" formatted="false">"Uwele kavu"</string>
+    <string name="data_food_seed_20032" formatted="false">"Uwele uliochemshwa"</string>
+    <string name="data_food_seed_20420" formatted="false">"Pasta kavu"</string>
+    <string name="data_food_seed_20421" formatted="false">"Pasta iliyochemshwa bila chumvi"</string>
+    <string name="data_food_seed_16070" formatted="false">"Dengu zilizochemshwa bila chumvi"</string>
+    <string name="data_food_seed_16057" formatted="false">"Chana zilizochemshwa bila chumvi"</string>
+    <string name="data_food_seed_16033" formatted="false">"Maharagwe mekundu yaliyochemshwa bila chumvi"</string>
+    <string name="data_food_seed_5062" formatted="false">"Kifua kibichi cha kuku kisicho na ngozi"</string>
+    <string name="data_food_seed_5064" formatted="false">"Kifua cha kuku kilichochomwa kisicho na ngozi"</string>
+    <string name="data_food_seed_5219" formatted="false">"Kifua kibichi cha bata mzinga kisicho na ngozi"</string>
+    <string name="data_food_seed_5220" formatted="false">"Kifua cha bata mzinga kilichochomwa kisicho na ngozi"</string>
+    <string name="data_food_seed_23562" formatted="false">"Nyama mbichi ya ng\'ombe iliyosagwa, mafuta 10%"</string>
+    <string name="data_food_seed_23566" formatted="false">"Nyama ya ng\'ombe iliyosagwa na kuchomwa, mafuta 10%"</string>
+    <string name="data_food_seed_10060" formatted="false">"Nyama laini ya ndani ya kiuno cha nguruwe, mbichi, mafuta yanayoonekana yameondolewa"</string>
+    <string name="data_food_seed_10061" formatted="false">"Nyama laini ya ndani ya kiuno cha nguruwe iliyochomwa"</string>
+    <string name="data_food_seed_15236" formatted="false">"Samoni wa Atlantiki mbichi"</string>
+    <string name="data_catalog_note_5">"Thamani za marejeo kwa kila g 100 za sehemu inayoliwa. Chakula kibichi. Cha ufugaji. Thamani za wanga za USDA zinajumuisha nyuzinyuzi. Unaweza kurekebisha thamani kwa kutumia lebo ya bidhaa. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Samoni wa Atlantiki aliyechomwa"</string>
+    <string name="data_catalog_note_6">"Thamani za marejeo kwa kila g 100 za sehemu inayoliwa. Cha ufugaji. Thamani za wanga za USDA zinajumuisha nyuzinyuzi. Unaweza kurekebisha thamani kwa kutumia lebo ya bidhaa. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Kodi wa Atlantiki mbichi"</string>
+    <string name="data_food_seed_15266" formatted="false">"Poloki wa Alaska mbichi"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuna wa kopo katika maji, maji yameondolewa"</string>
+    <string name="data_food_seed_15271" formatted="false">"Kamba waliopikwa na kumenywa"</string>
+    <string name="data_food_seed_1211" formatted="false">"Maziwa, mafuta 3.25%"</string>
+    <string name="data_food_seed_1174" formatted="false">"Maziwa, mafuta 2%"</string>
+    <string name="data_food_seed_1082" formatted="false">"Maziwa, mafuta 1%"</string>
+    <string name="data_food_seed_1116" formatted="false">"Mtindi usio na ladha wa maziwa yenye mafuta kamili"</string>
+    <string name="data_food_seed_1256" formatted="false">"Mtindi wa Kigiriki usio na mafuta"</string>
+    <string name="data_food_seed_1015" formatted="false">"Jibini la cottage, mafuta 2%"</string>
+    <string name="data_catalog_note_7">"Thamani za marejeo kwa kila g 100 za sehemu inayoliwa. Jibini la cottage; aina nyingine za jibini la maziwa yaliyoganda zina thamani tofauti. Thamani za wanga za USDA zinajumuisha nyuzinyuzi. Unaweza kurekebisha thamani kwa kutumia lebo ya bidhaa. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Krimu chachu, mafuta takriban 19%"</string>
+    <string name="data_food_seed_1009" formatted="false">"Jibini la cheddar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mozarela wa maziwa yenye mafuta kamili"</string>
+    <string name="data_food_seed_1019" formatted="false">"Jibini la feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Yai bichi la kuku lisilo na ganda"</string>
+    <string name="data_food_seed_1129" formatted="false">"Yai la kuku lililochemshwa lisilo na ganda"</string>
+    <string name="data_food_seed_1124" formatted="false">"Ute mbichi wa yai la kuku"</string>
+    <string name="data_food_seed_1001" formatted="false">"Siagi yenye chumvi"</string>
+    <string name="data_food_seed_4053" formatted="false">"Mafuta ya zeituni"</string>
+    <string name="data_food_seed_4506" formatted="false">"Mafuta ya alizeti"</string>
+    <string name="data_food_seed_12061" formatted="false">"Lozi"</string>
+    <string name="data_food_seed_12155" formatted="false">"Kokwa za jozi"</string>
+    <string name="data_food_seed_12120" formatted="false">"Kokwa za hazeli"</string>
+    <string name="data_food_seed_12151" formatted="false">"Kokwa mbichi za pistachio"</string>
+    <string name="data_food_seed_12014" formatted="false">"Kokwa zilizokaushwa za mbegu za boga"</string>
+    <string name="data_food_seed_16087" formatted="false">"Karanga mbichi zilizomenywa"</string>
+    <string name="data_food_seed_18069" formatted="false">"Mkate mweupe wa ngano"</string>
+    <string name="data_food_seed_18075" formatted="false">"Mkate wa ngano nzima"</string>
+    <string name="data_food_seed_18060" formatted="false">"Mkate wa rai"</string>
+    <string name="data_food_seed_19296" formatted="false">"Asali"</string>
+    <string name="data_food_seed_19335" formatted="false">"Sukari"</string>
+    <string name="data_food_seed_19165" formatted="false">"Unga wa kakao usio na kitamu kilichoongezwa"</string>
+    <string name="data_food_seed_19904" formatted="false">"Chokoleti nyeusi, kakao 70–85%"</string>
+    <string name="data_meal_breakfast" formatted="false">"Kiamsha kinywa"</string>
+    <string name="data_meal_lunch" formatted="false">"Chakula cha mchana"</string>
+    <string name="data_meal_dinner" formatted="false">"Chakula cha jioni"</string>
+    <string name="data_meal_snack" formatted="false">"Kitafunwa"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Sera ya faragha ya Diet Diary\nMarekebisho: Oktoba 9, 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Programu: Diet Diary; jina la tangazo la Google Play kwa Kirusi: «Дневник диеты: подсчёт калорий»; kifurushi: ru.dietdiary.offline.\nMsanidi wa mradi: Efreitor2001. Kwa maswali kuhusu programu na uchakataji wa data, wasiliana kupitia https://github.com/Efreitor2001/kkalcal/issues . Masuala ya GitHub yanaonekana kwa umma: usiweke rekodi za afya, nakala rudufu, manenosiri au tokeni huko."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Shajara kwenye kifaa chako\nUsajili hauhitajiki ili kuweka shajara. Programu huhifadhi vyakula na thamani zake za lishe, kiasi na tarehe za milo, uzito, vipimo vya kiuno, asilimia ya mafuta ya mwili, hatua, usingizi, maelezo ya mazoezi, madokezo, malengo, mafanikio na mipangilio ya programu katika eneo lake binafsi la hifadhi kwenye kifaa chako. Sehemu za hiari zinaweza kuachwa wazi. Hatua, usingizi na vipimo huingizwa mwenyewe; programu haisomi Health Connect, vihisi vya shughuli za mwili au data ya vifaa vya matibabu."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Taarifa hizi hutumiwa kukokotoa kalori na virutubishi vikuu na kutoa historia, chati na mafanikio. Msanidi haendeshi seva inayopokea yaliyomo kwenye shajara. Usipounganisha Google Drive au kushiriki nakala rudufu mwenyewe, rekodi zako hubaki kwenye kifaa chako."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Muunganisho wa hiari wa Google Drive\nKwa ombi lako, programu hufungua kuingia kwa Google katika kivinjari chaguomsingi na kuomba ufikiaji wa hifadhi iliyofichwa ya data ya programu hii katika Google Drive yako. Ruhusa hii haitoi ufikiaji wa hati au picha zako za kawaida za Drive."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Baada ya kuunganisha, vyakula, milo, vipimo vya shajara, madokezo, malengo, mafanikio, mipangilio inayohamishika na metadata ya mabadiliko, ikijumuisha vitambulishi nasibu vya usakinishaji na mihuri ya muda, hutumwa kwa Google. Hii huwezesha nakala rudufu za wakati fulani na kuunganisha rekodi kwenye vifaa vyako. Usawazishaji wa kiotomatiki ukiwashwa, mabadiliko pia hutumwa chinichini muunganisho wa mtandao unapopatikana. Unaweza kuzima usawazishaji wa kiotomatiki kando."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Programu hupokea anwani ya barua pepe na kitambulishi cha akaunti ya Google iliyochaguliwa ili kuonyesha muunganisho na kuuhusisha na hifadhi sahihi. Programu haipewi nenosiri lako la Google. Kipindi cha uidhinishaji huhifadhiwa kwa usimbaji fiche kwenye kifaa chako kwa kutumia ufunguo katika Android Keystore. Tokeni, anwani za barua pepe na vitambulishi vya Google hazijumuishwi katika shajara zinazohamishwa na nakala za JSON zinazosawazishwa."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Data ya Google hutumiwa tu kwa uidhinishaji na usawazishaji, kamwe si kwa matangazo. Sera ya faragha ya Google inatumika: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Faili za nakala rudufu\n“Hifadhi kwenye faili” huunda faili la JSON katika eneo unalochagua. Urejeshaji husoma faili unalochagua pekee. Ukichagua mtoa huduma wa faili za wingu au kushiriki nakala na mtu mwingine, wewe ndiye unayechagua mpokeaji. Programu haisimbi kwa fiche faili za JSON zinazohamishwa: faili hizi zina rekodi binafsi na metadata ya mabadiliko."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Matangazo\nProgramu hutumia Yandex Mobile Ads SDK. Ili kupakia na kuonyesha matangazo, kifaa chako huunganishwa na huduma za matangazo. Yandex inaweza kuchakata anwani yako ya IP na taarifa nyingine za kiufundi kuhusu ombi la mtandao, kifaa na programu, vitambulishi vya matangazo au vya kiufundi vinavyopatikana, na taarifa kuhusu kuonyeshwa na kuingiliana na matangazo."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Programu huiambia SDK kwamba idhini haijatolewa, huzima ukusanyaji wa eneo na huzima utoaji wa ripoti wa App Ad Analytics. Haiombi ruhusa za eneo sahihi au la kukadiria. Mipangilio hii haimaanishi kwamba huduma ya matangazo haifanyi mawasiliano yoyote ya mtandao au uchakataji wa data ya kiufundi."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Programu haitumii rekodi za chakula, uzito, vipimo, madokezo, malengo, anwani za barua pepe au vitambulishi vya Google kulenga matangazo, wala haiviongezi kwenye vigezo vya maombi ya matangazo. Kutazama matangazo si lazima ili kuhifadhi rekodi."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Kanuni za Yandex kuhusu uchakataji, uhifadhi na ufutaji wa data: https://yandex.ru/legal/confidential/ . Unaweza kudhibiti kitambulishi chako cha matangazo katika mipangilio ya Android ikiwa toleo la mfumo wako linaunga mkono kipengele hiki. Sera ya huduma ya matangazo huamua muda wa kuhifadhi data yake ya kiufundi; msanidi wa shajara haweki muda tofauti wa kuhifadhi data hiyo."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Ulinzi wa data\nMawasiliano na Google hutumia HTTPS; Yandex inasema data ya SDK hutumwa kwa HTTPS/TLS. Shajara ya ndani inalindwa na utenganishaji wa programu wa Android. Programu haisimbi kwa fiche yaliyomo kwenye shajara au nakala za JSON kando; haitoi usimbaji fiche wa mwanzo hadi mwisho kati ya vifaa."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Nakala rudufu ya mfumo ya data ya programu imezimwa. Kumbukumbu za uchunguzi zinazoandikwa na msimbo wa programu yenyewe zina misimbo ya matokeo bila yaliyomo kwenye shajara, anwani za barua pepe, tokeni au maudhui ya majibu ya mtandao; programu haitumi kumbukumbu hizi kando kwa msanidi."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Uhifadhi na ufutaji\nRekodi za ndani hubaki hadi uzibadilishe au uzifute, au uondoe data ya programu. Kufuta rekodi huiondoa kwenye kiolesura na hutuma alama ya ufutaji wakati wa usawazishaji. Metadata ya kuunganisha huhifadhiwa ili kuzuia data ya zamani kujitokeza tena; inaweza kuwa na thamani za awali za rekodi ya shajara iliyofutwa. Thamani za awali zinaweza pia kubaki katika nakala za zamani za wingu na faili ulizounda awali. Kwa hiyo, kufuta rekodi moja hakufuti kabisa kila nakala yake."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“Tenganisha akaunti” husimamisha usawazishaji kwenye kifaa hiki na kufuta kipindi cha Google cha ndani. Shajara na nakala katika Google Drive hubaki. Kutenganisha programu hakufuti akaunti yako ya Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Ili kufuta kabisa data ya programu hii:\n• Zima usawazishaji kwenye vifaa vyako vyote ili nakala zilizobaki zisipakiwe tena.\n• Katika kivinjari, fungua https://drive.google.com/drive/settings kwa kutumia akaunti ya Google iliyokuwa imeunganishwa. Chagua “Dhibiti programu”, tafuta “Diet Diary” (au «Дневник диеты»), kisha chagua “Chaguo” → “Futa data ya programu iliyofichwa”. Ikiwa ukurasa wa simu hauonyeshi sehemu hii, tumia toleo la tovuti la kompyuta au kompyuta.\n• Batilisha ufikiaji wa programu katika https://myaccount.google.com/connections . Kubatilisha ufikiaji pekee hakufuti nakala zilizohifadhiwa.\n• Futa hifadhi ya programu katika mipangilio ya Android kwenye kila kifaa, au ondoa programu.\n• Futa nakala rudufu za JSON ulizohifadhi kando kutoka kwenye folda na maeneo ya hifadhi ya wingu uliyochagua."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Bila taarifa zako za kuingia, msanidi hawezi kufuta kwa mbali shajara ya ndani au faili katika Google Drive yako binafsi. Usishiriki nenosiri au tokeni zako na msanidi. Kwa msaada wa ufutaji, wasiliana na mradi kupitia kiungo kilicho mwanzoni mwa sera hii. Huhitaji kufuta akaunti yako ya Google ili kufuta data ya shajara."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Mabadiliko na mawasiliano\nVipengele vya programu au mbinu za kuchakata data zinapobadilika, sera hii husasishwa pamoja na tarehe ya marekebisho. Kwa maswali kuhusu ufikiaji, usahihishaji, ufutaji wa data au utendaji wa programu, tumia njia ya mawasiliano ya mradi. Maombi unayotuma huchakatwa ili kutoa jibu na huhifadhiwa katika GitHub; sera ya GitHub inapatikana katika https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Milo yangu"</string>
+    <string name="secondary_metric_weight" formatted="false">"Uzito"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Mafuta ya mwili"</string>
+    <string name="secondary_metric_waist" formatted="false">"Kiuno"</string>
+    <string name="secondary_metric_steps" formatted="false">"Hatua"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Usingizi"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalori"</string>
+    <string name="secondary_metric_protein" formatted="false">"Protini"</string>
+    <string name="secondary_metric_fat" formatted="false">"Mafuta"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Wanga"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"hatua"</string>
+    <string name="secondary_unit_hours" formatted="false">"saa"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Kipindi cha tarehe ni batili"</string>
+    <string name="secondary_stats_title" formatted="false">"Mienendo"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Rekodi zako katika chati zilizo wazi"</string>
+    <string name="secondary_metric" formatted="false">"Kipimo"</string>
+    <string name="secondary_week" formatted="false">"Wiki"</string>
+    <string name="secondary_month" formatted="false">"Mwezi"</string>
+    <string name="secondary_year" formatted="false">"Mwaka"</string>
+    <string name="secondary_custom_period" formatted="false">"Kipindi maalumu"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Tarehe ya kuanza haipaswi kuwa baada ya tarehe ya mwisho"</string>
+    <string name="secondary_no_records" formatted="false">"Bado hakuna rekodi"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Ongeza chakula kwenye shajara au chagua kipindi kingine."</string>
+    <string name="secondary_chart_tap" formatted="false">"Gusa chati kuchagua rekodi"</string>
+    <string name="secondary_chart_connected" formatted="false">"Mstari unaunganisha vipimo vilivyorekodiwa. Hakuna vipimo kati yake."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Makadirio ya mizani yanafaa kufuatilia mienendo."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Jumla ya siku iliyowekwa mwenyewe hubadilisha jumla ya chakula. Vinginevyo, chakula kilichorekodiwa hujumlishwa. Siku zisizo na rekodi hurukwa."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Jumla hutegemea chakula kilichorekodiwa. Siku isiyo na rekodi haihesabiwi kama sifuri."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Siku zisizo na rekodi hurukwa na hazijumuishwi katika wastani."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Leo na jana"</string>
+    <string name="secondary_no_today" formatted="false">"Hakuna rekodi ya leo"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Hakuna rekodi ya jana"</string>
+    <string name="secondary_partial_today" formatted="false">"Ulinganisho huu hutumia rekodi za sasa. Data ya leo huenda bado haijakamilika."</string>
+    <string name="secondary_period_summary" formatted="false">"Muhtasari wa kipindi"</string>
+    <string name="secondary_recorded_average" formatted="false">"Wastani wa siku zilizorekodiwa"</string>
+    <string name="secondary_recorded_days" formatted="false">"Siku zenye data"</string>
+    <string name="secondary_minimum" formatted="false">"Kiwango cha chini"</string>
+    <string name="secondary_maximum" formatted="false">"Kiwango cha juu"</string>
+    <string name="secondary_first_to_last" formatted="false">"Kutoka rekodi ya kwanza hadi ya mwisho"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Angalau siku mbili zilizorekodiwa zinahitajika kukokotoa mabadiliko."</string>
+    <string name="secondary_history" formatted="false">"Historia"</string>
+    <string name="secondary_history_recent" formatted="false">"Siku 14 za karibuni zenye data. Chagua kipindi maalumu kwa rekodi za zamani zaidi."</string>
+    <string name="secondary_history_all" formatted="false">"Siku zote zilizorekodiwa katika kipindi kilichochaguliwa"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Kuanzia %1$s"</string>
+    <string name="secondary_date_until">"Hadi %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s katika kipindi hiki"</string>
+    <string name="secondary_weight_goal">"Lengo: kg %1$s"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Ongeza kipimo kwenye shajara au chagua kipindi kingine."</string>
+    <string name="secondary_latest_record">"Rekodi ya hivi karibuni · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Leo: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Jana: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Mabadiliko: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d kati ya %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Siku zilizorekodiwa: %2$d, kuanzia %3$s hadi %4$s. Kiwango cha chini %5$s, kiwango cha juu %6$s %7$s. Thamani zimeorodheshwa katika historia."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Mwanzo"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Hifadhi kipimo chako cha kwanza cha uzito."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Kipimo chako cha kwanza cha uzito kimehifadhiwa."</string>
+    <string name="secondary_award_first_food" formatted="false">"Rekodi ya kwanza"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Rekodi kiasi chako cha kwanza cha chakula."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Kiasi chako cha kwanza cha chakula kimerekodiwa."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Wiki ya data"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Rekodi uzito kwa siku 7 tofauti. Si lazima zifuatane."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Una rekodi za uzito kwa siku 7 tofauti."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Uthabiti"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Rekodi uzito kwa siku 30 tofauti."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Una rekodi za uzito kwa siku 30."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Mtunza kumbukumbu"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Hifadhi kiasi 100 za chakula kwenye shajara."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Umehifadhi kiasi 100 za chakula."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Tabia mpya"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Rekodi chakula kwa siku 7 mfululizo za kalenda."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Umerekodi chakula kwa siku 7 mfululizo."</string>
+    <string name="secondary_award_steps" formatted="false">"Bingwa wa kutembea"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Rekodi angalau hatua 10,000 kwa siku moja."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Umerekodi siku yenye hatua 10,000."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Mwandishi hodari"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Hifadhi vipimo 100 vya uzito. Kipimo kimoja huhesabiwa kwa kila tarehe."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Umehifadhi vipimo 100 vya uzito."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Mzoefu wa shajara"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Rekodi chakula au vipimo kwa siku 90 tofauti. Si lazima zifuatane."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Una rekodi za shajara kwa siku 90 tofauti."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"vipimo"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"kiasi"</string>
+    <string name="secondary_award_unit_days" formatted="false">"siku"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"siku mfululizo"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"hatua kwa siku moja"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"siku zilizorekodiwa"</string>
+    <string name="secondary_back" formatted="false">"‹  Rudi"</string>
+    <string name="secondary_achievements" formatted="false">"Mafanikio"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Hatua ndogo huwa tabia"</string>
+    <string name="secondary_your_progress" formatted="false">"MAENDELEO YAKO"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Mafanikio uliyopata yanabaki hata ukihariri rekodi zako."</string>
+    <string name="secondary_awards_regular" formatted="false">"Kwa uthabiti na utunzaji wa shajara"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Rekodi zilizohifadhiwa hadi na ikijumuisha leo huhesabiwa."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Mafanikio yaliyofichwa"</string>
+    <string name="secondary_hidden_description" formatted="false">"Endelea kutumia shajara kupata mafanikio haya."</string>
+    <string name="secondary_earned" formatted="false">"Yamepatikana"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Yamefichwa · yamefungwa"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Yanaendelea · yamefungwa"</string>
+    <string name="secondary_locked" formatted="false">"Yamefungwa"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Sharti na maendeleo yataonyeshwa utakapopata tuzo hii."</string>
+    <string name="secondary_best_streak" formatted="false">"Mfululizo bora"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Tuzo iliyofichwa"</string>
+    <string name="secondary_unlocked_of">"kati ya %1$d yamepatikana"</string>
+    <string name="secondary_unlocked_date">"Yamepatikana %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Rudi"</string>
+    <string name="secondary_my_recipe" formatted="false">"Mapishi yangu"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Pima viambato kabla ya kupika. Tumia uzito baada ya kupika kukokotoa kiasi. Jumuisha mafuta na michuzi."</string>
+    <string name="secondary_recipe_name" formatted="false">"Jina la mapishi"</string>
+    <string name="secondary_recipe_example" formatted="false">"Kwa mfano, mchuzi wa mboga"</string>
+    <string name="secondary_ingredients" formatted="false">"Viambato"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Anza na viambato"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Ongeza kila kiambato na uweke uzito wake kwa gramu."</string>
+    <string name="secondary_edit_weight" formatted="false">"Hariri uzito"</string>
+    <string name="secondary_delete" formatted="false">"Futa"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Ongeza kiambato"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Mapishi yote"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Kupika hubadilisha uzito maji yanapoongezwa au kupotea. Pima mlo uliokamilika bila chombo chake."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Uzito baada ya kupika, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Weka uzito baada ya kupika"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Weka uzito zaidi ya 0 na usiozidi g 100,000"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Uzito haujazwi kiotomatiki"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Kwa kila g 100 za mlo uliopikwa"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Kagua uzito baada ya kupika na viambato: kila g 100 zinaweza kuwa na hadi kcal 1,000 na hadi g 100 za kila kirutubishi kikuu."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Imeshindikana kuhifadhi mapishi"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Hifadhi kwenye Mapishi yangu"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Baada ya kuhifadhi, unaweza kurekodi mlo huu kwa uzito wa kiasi chake."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Uzito wa kiambato kabla ya kupika"</string>
+    <string name="secondary_grams" formatted="false">"Gramu"</string>
+    <string name="secondary_weight_limits" formatted="false">"Zaidi ya 0 na usiozidi g 100,000"</string>
+    <string name="secondary_add" formatted="false">"Ongeza"</string>
+    <string name="secondary_save" formatted="false">"Hifadhi"</string>
+    <string name="secondary_cancel" formatted="false">"Ghairi"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Chagua kiambato"</string>
+    <string name="secondary_search_food" formatted="false">"Tafuta vyakula"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Hakuna matokeo. Unaweza kuongeza chakula chako kwenye kichupo cha Vyakula."</string>
+    <string name="secondary_close" formatted="false">"Funga"</string>
+    <string name="secondary_portion_energy">"g %1$s · kcal %2$s"</string>
+    <string name="secondary_portion_macros">"Protini %1$s · Mafuta %2$s · Wanga %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Uzito wa viambato: g %1$s"</string>
+    <string name="secondary_energy">"kcal %1$s"</string>
+    <string name="secondary_grams_value">"g %1$s"</string>
+    <string name="secondary_food_per_hundred">"%1$s · kcal %2$s / g 100"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — g %2$s"</string>
+    <string name="secondary_recipe_note">"Matokeo: g %1$s. Viambato: %2$s"</string>
+</resources>

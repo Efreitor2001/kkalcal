@@ -513,7 +513,7 @@ private object NativeRequestPace {
 /** All assets belong to this NativeAdView; the SDK supplies text, images and click handling. */
 private class NativeCard(context: Context, assets: NativeAdAssets, palette: NativePalette) {
     val view = NativeAdView(context)
-    private val label = text(context, 11f).apply { text = "РЕКЛАМА"; letterSpacing = .08f }
+    private val label = text(context, 11f).apply { text = tr(R.string.data_advertisement); letterSpacing = .08f }
     private val sponsored = text(context, 12f)
     private val age = text(context, 12f)
     private val title = text(context, 18f).apply { setTypeface(typeface, Typeface.BOLD) }
@@ -533,7 +533,7 @@ private class NativeCard(context: Context, assets: NativeAdAssets, palette: Nati
     private val feedback = image(context).apply {
         setImageResource(android.R.drawable.ic_menu_more)
         setPadding(context.nativeDp(8), context.nativeDp(8), context.nativeDp(8), context.nativeDp(8))
-        contentDescription = "Информация о рекламе"
+        contentDescription = tr(R.string.data_ad_information)
     }
     private val rating = NativeRating(context).apply { numStars = 5; stepSize = .5f; setIsIndicator(true) }
     private val media = MediaView(context)

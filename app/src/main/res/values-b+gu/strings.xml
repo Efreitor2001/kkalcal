@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"આહાર ડાયરી"</string>
+    <string name="core_tagline" formatted="false">"કૅલરી, વજન અને પ્રગતિ"</string>
+    <string name="core_open_diary" formatted="false">"ડાયરી ખોલો"</string>
+    <string name="core_save_failed" formatted="false">"તમારો ડેટા સાચવી શકાયો નહીં"</string>
+    <string name="core_day" formatted="false">"આજે"</string>
+    <string name="core_products" formatted="false">"ખાદ્ય પદાર્થો"</string>
+    <string name="core_diary" formatted="false">"ડાયરી"</string>
+    <string name="core_charts" formatted="false">"આલેખ"</string>
+    <string name="core_more" formatted="false">"વધુ"</string>
+    <string name="core_recipe_saved" formatted="false">"વાનગી તમારી ખાદ્ય સૂચિમાં સાચવી છે"</string>
+    <string name="core_back_to_day" formatted="false">"દિવસની વિગતો પર પાછા જાઓ"</string>
+    <string name="core_action_failed" formatted="false">"આ ક્રિયા પૂરી થઈ શકી નહીં"</string>
+    <string name="core_understood" formatted="false">"ઠીક છે"</string>
+    <string name="core_restore_available" formatted="false">"વધુ વિભાગમાં જઈને બૅકઅપ પુનઃસ્થાપિત કરી શકો છો."</string>
+    <string name="core_eaten_today" formatted="false">"આજે લીધેલો આહાર"</string>
+    <string name="core_set_goal_hint" formatted="false">"વધુ વિભાગમાં લક્ષ્ય નક્કી કરી શકો છો"</string>
+    <string name="core_add_food" formatted="false">"+ ખોરાક ઉમેરો"</string>
+    <string name="core_first_meal" formatted="false">"તમારા પહેલા ભોજનથી શરૂઆત કરો"</string>
+    <string name="core_first_meal_help" formatted="false">"ખાદ્ય પદાર્થ પસંદ કરો અને તેનું વજન ગ્રામમાં દાખલ કરો. કૅલરી અને મુખ્ય પોષક તત્ત્વોની ગણતરી થશે."</string>
+    <string name="core_my_day" formatted="false">"મારો દિવસ"</string>
+    <string name="core_my_day_help" formatted="false">"વજન, કમર, પગલાં, ઊંઘ — જે માહિતી હોય તે નોંધો."</string>
+    <string name="core_record_metrics" formatted="false">"માપ નોંધો"</string>
+    <string name="core_edit_metrics" formatted="false">"માપ બદલો"</string>
+    <string name="core_food_state_hint" formatted="false">"ખોરાકનું વજન અને પોષણ મૂલ્યો એક જ સ્થિતિના હોવા જોઈએ: કાચો, સૂકો કે રાંધેલો."</string>
+    <string name="core_weight" formatted="false">"વજન"</string>
+    <string name="core_waist" formatted="false">"કમર"</string>
+    <string name="core_my_diary" formatted="false">"મારી ડાયરી"</string>
+    <string name="core_diary_tagline" formatted="false">"દરરોજ તમારી પોતાની ગતિએ"</string>
+    <string name="core_record_day" formatted="false">"+ દિવસની નોંધ કરો"</string>
+    <string name="core_optional_diary_help" formatted="false">"બધાં માપ વૈકલ્પિક છે. માત્ર વજન, ઊંઘ કે ટિપ્પણી પણ નોંધી શકો છો. ફેરફાર કરવા નોંધ પર ટૅપ કરો."</string>
+    <string name="core_history_starts" formatted="false">"તમારી નોંધો અહીંથી શરૂ થાય છે"</string>
+    <string name="core_history_help" formatted="false">"માપ નોંધો અને આલેખમાં ફેરફારો જુઓ."</string>
+    <string name="core_file_unavailable" formatted="false">"ફાઇલ ઉપલબ્ધ નથી"</string>
+    <string name="core_backup_saved" formatted="false">"બૅકઅપ સાચવ્યો છે"</string>
+    <string name="core_export_error" formatted="false">"બૅકઅપ નિકાસ કરી શકાયો નહીં"</string>
+    <string name="core_read_error" formatted="false">"ફાઇલ વાંચી શકાઈ નહીં"</string>
+    <string name="core_settings_tagline" formatted="false">"સેટિંગ અને ડેટાનો બૅકઅપ"</string>
+    <string name="core_your_progress" formatted="false">"તમારી પ્રગતિ"</string>
+    <string name="core_achievements_help" formatted="false">"ડાયરી લખવાની ટેવ માટે નાની સિદ્ધિઓ."</string>
+    <string name="core_achievements" formatted="false">"સિદ્ધિઓ"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"તમારા ઉપકરણો વચ્ચે ડાયરી સિંક કરવા માટે વૈકલ્પિક જોડાણ."</string>
+    <string name="core_cloud_sync" formatted="false">"ક્લાઉડ સિંક"</string>
+    <string name="core_personal_goals" formatted="false">"વ્યક્તિગત લક્ષ્યો"</string>
+    <string name="core_personal_goals_help" formatted="false">"કૅલરી, મુખ્ય પોષક તત્ત્વો અને વજનનાં લક્ષ્યો જાતે નક્કી કરો. કોઈ પણ લક્ષ્ય ખાલી રાખી શકો છો."</string>
+    <string name="core_configure_goals" formatted="false">"લક્ષ્યો નક્કી કરો"</string>
+    <string name="core_backup" formatted="false">"બૅકઅપ"</string>
+    <string name="core_backup_help" formatted="false">"ખાદ્ય પદાર્થો, ભોજન, ડાયરી, લક્ષ્યો અને સિદ્ધિઓ એક ફાઇલમાં. ઍપ ફરી ઇન્સ્ટૉલ કરતાં પહેલાં બૅકઅપ સાચવો."</string>
+    <string name="core_save_file" formatted="false">"ફાઇલમાં સાચવો"</string>
+    <string name="core_restore_file" formatted="false">"ફાઇલમાંથી પુનઃસ્થાપિત કરો"</string>
+    <string name="core_write_locked" formatted="false">"મૂળ ફાઇલને સુરક્ષિત રાખવા સાચવવાનું બંધ છે. માન્ય બૅકઅપ પુનઃસ્થાપિત કરો."</string>
+    <string name="core_about_data" formatted="false">"ઍપ અને તમારા ડેટા વિશે"</string>
+    <string name="core_about_data_help" formatted="false">"નોંધો કેવી રીતે સચવાય છે, સિંક કેવી રીતે થાય છે અને ડેટા કેવી રીતે કાઢવો."</string>
+    <string name="core_privacy" formatted="false">"ગોપનીયતા અને ડેટા કાઢવો"</string>
+    <string name="core_offline" formatted="false">"ઑફલાઇન કામ કરે છે"</string>
+    <string name="core_offline_help" formatted="false">"Google સાઇન-ઇન વૈકલ્પિક છે. પગલાં અને ઊંઘ જાતે દાખલ કરવાનાં છે. સિંક અને જાહેરાતો લોડ કરવા ઇન્ટરનેટ જોઈએ. ડાયરીની નોંધો જાહેરાત નેટવર્કને મોકલાતી નથી."</string>
+    <string name="core_about_foods" formatted="false">"ખાદ્ય પદાર્થો વિશે"</string>
+    <string name="core_foods_reference" formatted="false">"તૈયાર મૂલ્યો ખાવાલાયક ભાગના દર 100 ગ્રામના અંદાજ છે. ચોક્કસ મૂલ્યો પૅકેટ પર તપાસો. ખાદ્ય પદાર્થ બદલવાથી જૂની ભોજન નોંધોની ગણતરી બદલાતી નથી."</string>
+    <string name="core_foods_source" formatted="false">"ડેટા સ્ત્રોત: USDA FoodData Central, SR Legacy. દરેક ખાદ્ય પદાર્થ સાથે તેની સ્થિતિ અને સ્ત્રોતની વિગતો છે."</string>
+    <string name="core_restore_title" formatted="false">"આ બૅકઅપ પુનઃસ્થાપિત કરવો છે?"</string>
+    <string name="core_restore_warning" formatted="false">"હાલના ખાદ્ય પદાર્થો, ડાયરી, લક્ષ્યો અને સિદ્ધિઓ આ ફાઇલની સામગ્રીથી બદલાશે. પહેલાં બૅકઅપ સાચવો. સિંક જોડાયેલ હોય તો પુનઃસ્થાપિત ફેરફારો Google Drive પર પણ મોકલાશે."</string>
+    <string name="core_backup_restored" formatted="false">"બૅકઅપ પુનઃસ્થાપિત થયો"</string>
+    <string name="core_invalid_file" formatted="false">"અમાન્ય ફાઇલ"</string>
+    <string name="core_replace_data" formatted="false">"ડેટા બદલો"</string>
+    <string name="core_cancel" formatted="false">"રદ કરો"</string>
+    <string name="core_save" formatted="false">"સાચવો"</string>
+    <string name="core_calculate_portion" formatted="false">"ખાધેલી માત્રાની ગણતરી કરો"</string>
+    <string name="core_edit_portion" formatted="false">"માત્રા બદલો"</string>
+    <string name="core_portion_weight" formatted="false">"માત્રાનું વજન, ગ્રામ"</string>
+    <string name="core_portion_invalid" formatted="false">"0 કરતાં વધુ અને 100,000 ગ્રામ સુધીનું વજન દાખલ કરો"</string>
+    <string name="core_add_to_diary" formatted="false">"ડાયરીમાં ઉમેરો"</string>
+    <string name="core_delete_entry" formatted="false">"નોંધ કાઢો"</string>
+    <string name="core_delete_portion_question" formatted="false">"આ માત્રાની નોંધ ડાયરીમાંથી કાઢવી છે?"</string>
+    <string name="core_new_food" formatted="false">"નવો ખાદ્ય પદાર્થ કે વાનગી"</string>
+    <string name="core_edit_nutrition" formatted="false">"પોષણ મૂલ્યો બદલો"</string>
+    <string name="core_name" formatted="false">"નામ"</string>
+    <string name="core_food" formatted="false">"ખાદ્ય પદાર્થ"</string>
+    <string name="core_dish" formatted="false">"તૈયાર વાનગી"</string>
+    <string name="core_category" formatted="false">"શ્રેણી"</string>
+    <string name="core_per100_hint" formatted="false">"પૅકેટ અથવા બનાવવાની રીત મુજબ દર 100 ગ્રામનાં મૂલ્યો દાખલ કરો. કોઈ પોષક તત્ત્વ ન હોય તો 0 લખો."</string>
+    <string name="core_kcal" formatted="false">"કૅલરી"</string>
+    <string name="core_protein_grams" formatted="false">"પ્રોટીન, ગ્રામ"</string>
+    <string name="core_fat_grams" formatted="false">"ચરબી, ગ્રામ"</string>
+    <string name="core_carbs_grams" formatted="false">"કાર્બોહાઇડ્રેટ્સ, ગ્રામ"</string>
+    <string name="core_food_note" formatted="false">"ટિપ્પણી, સામગ્રી (વૈકલ્પિક)"</string>
+    <string name="core_favorite" formatted="false">"મનપસંદમાં ઉમેરો"</string>
+    <string name="core_name_category_required" formatted="false">"નામ અને શ્રેણી દાખલ કરો"</string>
+    <string name="core_nutrition_invalid" formatted="false">"દર 100 ગ્રામનાં મૂલ્યો: કૅલરી 0–1,000; પ્રોટીન, ચરબી અને કાર્બોહાઇડ્રેટ્સ 0–100 ગ્રામ"</string>
+    <string name="core_delete_food" formatted="false">"ખાદ્ય સૂચિમાંથી કાઢો"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"જૂની ભોજન નોંધોમાં તેમનાં મૂલ્યો જળવાશે."</string>
+    <string name="core_delete_food_question" formatted="false">"આ ખાદ્ય પદાર્થ કાઢવો છે? તેની ડાયરી નોંધો જળવાશે."</string>
+    <string name="core_day_entry" formatted="false">"દૈનિક નોંધ"</string>
+    <string name="core_optional_fields" formatted="false">"ઇચ્છો તે ખાના ભરો. બાકીનાં ખાલી રાખો."</string>
+    <string name="core_editing_existing" formatted="false">"આ તારીખની નોંધ પહેલેથી છે. તમે તેમાં ફેરફાર કરી રહ્યા છો."</string>
+    <string name="core_weight_kg" formatted="false">"વજન, કિગ્રા"</string>
+    <string name="core_waist_cm" formatted="false">"કમર, સેમી"</string>
+    <string name="core_steps" formatted="false">"પગલાં"</string>
+    <string name="core_sleep" formatted="false">"ઊંઘ"</string>
+    <string name="core_hours" formatted="false">"કલાક"</string>
+    <string name="core_minutes" formatted="false">"મિનિટ"</string>
+    <string name="core_body_fat_optional" formatted="false">"વજનકાંટા મુજબ શરીરની ચરબી, % (વૈકલ્પિક)"</string>
+    <string name="core_body_fat_hint" formatted="false">"વજનકાંટાનું ચરબીનું પ્રમાણ વલણ બતાવે છે, તે ચોક્કસ માપ નથી."</string>
+    <string name="core_strength_training" formatted="false">"શક્તિની કસરત"</string>
+    <string name="core_training_example" formatted="false">"દા.ત.: સ્ક્વૉટ 3×10, 12 કિગ્રા ડમ્બેલ"</string>
+    <string name="core_manual_nutrition" formatted="false">"પોષણનો સરવાળો જાતે દાખલ કરો"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"આ મૂલ્યો ભરશો તો તે દિવસના ખોરાકના સરવાળાને બદલે વપરાશે. આપમેળે ગણતરી માટે ખાલી રાખો."</string>
+    <string name="core_daily_calories" formatted="false">"દિવસની કૅલરી"</string>
+    <string name="core_daily_protein" formatted="false">"દિવસનું પ્રોટીન, ગ્રામ"</string>
+    <string name="core_wellbeing_notes" formatted="false">"ટિપ્પણીઓ અને તમારી તબિયત"</string>
+    <string name="core_steps_invalid" formatted="false">"પગલાં: 0 થી 200,000 વચ્ચેનો પૂર્ણાંક"</string>
+    <string name="core_sleep_invalid" formatted="false">"ઊંઘ: 0–24 કલાક, મિનિટ 0–59"</string>
+    <string name="core_body_fat" formatted="false">"શરીરની ચરબી"</string>
+    <string name="core_calories" formatted="false">"કૅલરી"</string>
+    <string name="core_protein" formatted="false">"પ્રોટીન"</string>
+    <string name="core_entry_required" formatted="false">"ઓછામાં ઓછું એક માપ કે ટિપ્પણી ઉમેરો"</string>
+    <string name="core_delete_day" formatted="false">"આ દૈનિક નોંધ કાઢો"</string>
+    <string name="core_optional_goals" formatted="false">"બધાં લક્ષ્યો વૈકલ્પિક છે. ખાલી ખાનાનો અર્થ કોઈ લક્ષ્ય નક્કી નથી."</string>
+    <string name="core_calories_per_day" formatted="false">"દરરોજ કૅલરી"</string>
+    <string name="core_protein_per_day" formatted="false">"દરરોજ પ્રોટીન, ગ્રામ"</string>
+    <string name="core_fat_per_day" formatted="false">"દરરોજ ચરબી, ગ્રામ"</string>
+    <string name="core_carbs_per_day" formatted="false">"દરરોજ કાર્બોહાઇડ્રેટ્સ, ગ્રામ"</string>
+    <string name="core_target_weight" formatted="false">"લક્ષિત વજન, કિગ્રા"</string>
+    <string name="core_goals_invalid" formatted="false">"લક્ષ્યો તપાસો: કૅલરી 0–10,000; પ્રોટીન, ચરબી અને કાર્બોહાઇડ્રેટ્સ 0–1,000 ગ્રામ"</string>
+    <string name="core_target_weight_invalid" formatted="false">"લક્ષિત વજન: 1 થી 500 કિગ્રા"</string>
+    <string name="core_delete_question" formatted="false">"કાઢવું છે?"</string>
+    <string name="core_delete" formatted="false">"કાઢો"</string>
+    <string name="core_select_food" formatted="false">"ખાદ્ય પદાર્થ પસંદ કરો"</string>
+    <string name="core_foods_dishes" formatted="false">"ખાદ્ય પદાર્થો અને વાનગીઓ"</string>
+    <string name="core_search_food" formatted="false">"ખાદ્ય પદાર્થ કે વાનગી શોધો"</string>
+    <string name="core_new_food_button" formatted="false">"+ ખાદ્ય પદાર્થ / વાનગી"</string>
+    <string name="core_recipe_button" formatted="false">"રીત પરથી બનાવો"</string>
+    <string name="core_no_results" formatted="false">"કોઈ પરિણામ નથી"</string>
+    <string name="core_no_results_help" formatted="false">"બીજા શબ્દોથી શોધો અથવા તમારો ખાદ્ય પદાર્થ કે તૈયાર વાનગી ઉમેરો."</string>
+    <string name="core_edit" formatted="false">"ફેરફાર કરો"</string>
+    <string name="core_achievement_unlocked">"🏆 સિદ્ધિ મળી! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s કિલોકૅલરી બાકી · લક્ષ્ય %2$s"</string>
+    <string name="core_above_goal">"લક્ષ્ય કરતાં %1$s કિલોકૅલરી વધુ"</string>
+    <string name="core_portion_summary">"%1$s ગ્રામ · %2$s કિલોકૅલરી"</string>
+    <string name="core_macros_summary">"પ્રોટીન %1$s   ચરબી %2$s   કાર્બોહાઇડ્રેટ્સ %3$s"</string>
+    <string name="core_weight_summary">"વજન %1$s કિગ્રા"</string>
+    <string name="core_waist_summary">"કમર %1$s સેમી"</string>
+    <string name="core_steps_summary">"પગલાં: %1$s"</string>
+    <string name="core_fat_summary">"શરીરની ચરબી %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s કિલોકૅલરી (જાતે દાખલ)"</string>
+    <string name="core_manual_protein">"પ્રોટીન %1$s ગ્રામ (જાતે દાખલ)"</string>
+    <string name="core_kg_value">"%1$s કિગ્રા"</string>
+    <string name="core_cm_value">"%1$s સેમી"</string>
+    <string name="core_sleep_value">"ઊંઘ %1$s"</string>
+    <string name="core_scale_fat">"વજનકાંટા મુજબ શરીરની ચરબી %1$s%%"</string>
+    <string name="core_training_value">"કસરત: %1$s"</string>
+    <string name="core_kcal_value">"%1$s કિલોકૅલરી"</string>
+    <string name="core_protein_value">"પ્રોટીન %1$s ગ્રામ"</string>
+    <string name="core_app_version">"આહાર ડાયરી · %1$s"</string>
+    <string name="core_per100_summary">"દર 100 ગ્રામ: %1$s કિલોકૅલરી · પ્રોટીન %2$s · ચરબી %3$s · કાર્બોહાઇડ્રેટ્સ %4$s"</string>
+    <string name="core_range_invalid">"%1$s: %2$s થી %3$s વચ્ચેનું મૂલ્ય દાખલ કરો"</string>
+    <string name="core_delete_day_question">"%1$sનાં માપ કાઢવાં છે? ભોજન નોંધો જળવાશે."</string>
+    <string name="core_catalog_count">"ખાદ્ય પદાર્થો: %1$s · પોષણ દર 100 ગ્રામ"</string>
+    <string name="core_catalog_nutrition">"%1$s કિલોકૅલરી   ·   પ્રોટીન %2$s   ચરબી %3$s   કાર્બોહાઇડ્રેટ્સ %4$s"</string>
+    <string name="core_today_date">"આજે · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"કૅલરી અને પ્રોટીનના સરવાળા ડાયરીમાં જાતે દાખલ કરેલા છે"</string>
+    <string name="core_manual_calorie_total" formatted="false">"કૅલરીનો સરવાળો ડાયરીમાં જાતે દાખલ કરેલો છે"</string>
+    <string name="core_manual_protein_total" formatted="false">"પ્રોટીનનો સરવાળો ડાયરીમાં જાતે દાખલ કરેલો છે"</string>
+    <string name="core_macro_goals">"પ્રોટીન / ચરબી / કાર્બોહાઇડ્રેટ્સનાં લક્ષ્યો: %1$s / %2$s / %3$s ગ્રામ"</string>
+    <string name="core_kcal_unit" formatted="false">"કિલોકૅલરી"</string>
+    <string name="core_manual_values">"%1$s (જાતે દાખલ)"</string>
+    <string name="core_all" formatted="false">"બધાં"</string>
+    <string name="core_favorites" formatted="false">"મનપસંદ"</string>
+    <string name="core_sleep_duration">"%1$s કલાક %2$s મિનિટ"</string>
+    <string name="core_previous_day" formatted="false">"પાછલો દિવસ"</string>
+    <string name="core_next_day" formatted="false">"આગલો દિવસ"</string>
+    <string name="secondary_metric_weight" formatted="false">"વજન"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"શરીરની ચરબી"</string>
+    <string name="secondary_metric_waist" formatted="false">"કમર"</string>
+    <string name="secondary_metric_steps" formatted="false">"પગલાં"</string>
+    <string name="secondary_metric_sleep" formatted="false">"ઊંઘ"</string>
+    <string name="secondary_metric_kcal" formatted="false">"કૅલરી"</string>
+    <string name="secondary_metric_protein" formatted="false">"પ્રોટીન"</string>
+    <string name="secondary_metric_fat" formatted="false">"ચરબી"</string>
+    <string name="secondary_metric_carbs" formatted="false">"કાર્બોહાઇડ્રેટ્સ"</string>
+    <string name="secondary_unit_kg" formatted="false">"કિગ્રા"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"સેમી"</string>
+    <string name="secondary_unit_steps" formatted="false">"પગલાં"</string>
+    <string name="secondary_unit_hours" formatted="false">"કલાક"</string>
+    <string name="secondary_unit_kcal" formatted="false">"કિલોકૅલરી"</string>
+    <string name="secondary_unit_grams" formatted="false">"ગ્રામ"</string>
+    <string name="secondary_invalid_period" formatted="false">"અમાન્ય તારીખનો ગાળો"</string>
+    <string name="secondary_stats_title" formatted="false">"વલણો"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"તમારી નોંધો, સ્પષ્ટ આલેખમાં"</string>
+    <string name="secondary_metric" formatted="false">"માપદંડ"</string>
+    <string name="secondary_week" formatted="false">"અઠવાડિયું"</string>
+    <string name="secondary_month" formatted="false">"મહિનો"</string>
+    <string name="secondary_year" formatted="false">"વર્ષ"</string>
+    <string name="secondary_custom_period" formatted="false">"પસંદગીનો ગાળો"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"શરૂઆતની તારીખ અંતની તારીખ પછી ન હોઈ શકે"</string>
+    <string name="secondary_no_records" formatted="false">"હજી કોઈ નોંધ નથી"</string>
+    <string name="secondary_empty_food_period" formatted="false">"ડાયરીમાં ખોરાક ઉમેરો અથવા બીજો ગાળો પસંદ કરો."</string>
+    <string name="secondary_chart_tap" formatted="false">"નોંધ પસંદ કરવા આલેખ પર ટૅપ કરો"</string>
+    <string name="secondary_chart_connected" formatted="false">"રેખા નોંધેલાં માપને જોડે છે. તેમની વચ્ચે કોઈ માપ નથી."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"વજનકાંટાના અંદાજ વલણ જોવા ઉપયોગી છે."</string>
+    <string name="secondary_food_override_hint" formatted="false">"જાતે દાખલ કરેલો દૈનિક સરવાળો ખોરાકના સરવાળાને બદલે વપરાય છે. નહિતર નોંધેલો ખોરાક ઉમેરાય છે. નોંધ વિનાના દિવસો છોડવામાં આવે છે."</string>
+    <string name="secondary_food_total_hint" formatted="false">"સરવાળા નોંધેલા ખોરાક પર આધારિત છે. નોંધ વિનાનો દિવસ શૂન્ય ગણાતો નથી."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"નોંધ વિનાના દિવસો છોડવામાં આવે છે અને સરેરાશમાં ગણાતા નથી."</string>
+    <string name="secondary_today_yesterday" formatted="false">"આજે અને ગઈકાલે"</string>
+    <string name="secondary_no_today" formatted="false">"આજની નોંધ નથી"</string>
+    <string name="secondary_no_yesterday" formatted="false">"ગઈકાલની નોંધ નથી"</string>
+    <string name="secondary_partial_today" formatted="false">"આ સરખામણી હાલની નોંધો પર આધારિત છે. આજનો ડેટા હજી અધૂરો હોઈ શકે છે."</string>
+    <string name="secondary_period_summary" formatted="false">"ગાળાનો સાર"</string>
+    <string name="secondary_recorded_average" formatted="false">"નોંધવાળા દિવસોની સરેરાશ"</string>
+    <string name="secondary_recorded_days" formatted="false">"ડેટાવાળા દિવસો"</string>
+    <string name="secondary_minimum" formatted="false">"લઘુતમ"</string>
+    <string name="secondary_maximum" formatted="false">"મહત્તમ"</string>
+    <string name="secondary_first_to_last" formatted="false">"પહેલીથી છેલ્લી નોંધ સુધી"</string>
+    <string name="secondary_two_days_needed" formatted="false">"ફેરફારની ગણતરી માટે ઓછામાં ઓછા બે દિવસની નોંધો જોઈએ."</string>
+    <string name="secondary_history" formatted="false">"જૂની નોંધો"</string>
+    <string name="secondary_history_recent" formatted="false">"ડેટાવાળા સૌથી તાજેતરના 14 દિવસ. જૂની નોંધો માટે પસંદગીનો ગાળો પસંદ કરો."</string>
+    <string name="secondary_history_all" formatted="false">"પસંદ કરેલા ગાળાના બધા નોંધવાળા દિવસો"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s થી"</string>
+    <string name="secondary_date_until">"%1$s સુધી"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"આ ગાળામાં %1$s"</string>
+    <string name="secondary_weight_goal">"લક્ષ્ય: %1$s કિગ્રા"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"ડાયરીમાં માપ ઉમેરો અથવા બીજો ગાળો પસંદ કરો."</string>
+    <string name="secondary_latest_record">"છેલ્લી નોંધ · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"આજે: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"ગઈકાલે: %1$s %2$s"</string>
+    <string name="secondary_change_value">"ફેરફાર: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%2$d માંથી %1$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. નોંધવાળા દિવસો: %2$d, %3$s થી %4$s સુધી. લઘુતમ %5$s, મહત્તમ %6$s %7$s. મૂલ્યો જૂની નોંધોમાં આપેલા છે."</string>
+    <string name="secondary_award_first_weight" formatted="false">"શરૂઆત"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"વજનનું પહેલું માપ સાચવો."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"તમારા વજનનું પહેલું માપ સચવાયું છે."</string>
+    <string name="secondary_award_first_food" formatted="false">"પહેલી નોંધ"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"તમારી પહેલી ખોરાકની માત્રા નોંધો."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"તમારી પહેલી ખોરાકની માત્રા નોંધાઈ છે."</string>
+    <string name="secondary_award_weight_week" formatted="false">"અઠવાડિયાનો ડેટા"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"7 જુદા દિવસો પર વજન નોંધો. સળંગ હોવું જરૂરી નથી."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"તમારી પાસે 7 જુદા દિવસોના વજનની નોંધો છે."</string>
+    <string name="secondary_award_weight_month" formatted="false">"નિયમિતતા"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"30 જુદા દિવસો પર વજન નોંધો."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"તમારી પાસે 30 દિવસોના વજનની નોંધો છે."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"નોંધ સંગ્રાહક"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"ડાયરીમાં ખોરાકની 100 માત્રાઓ સાચવો."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"તમે ખોરાકની 100 માત્રાઓ સાચવી છે."</string>
+    <string name="secondary_award_food_streak" formatted="false">"નવી ટેવ"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"સળંગ 7 કૅલેન્ડર દિવસો સુધી ખોરાક નોંધો."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"તમે સળંગ 7 દિવસો સુધી ખોરાક નોંધ્યો છે."</string>
+    <string name="secondary_award_steps" formatted="false">"ચાલવાના ચૅમ્પિયન"</string>
+    <string name="secondary_award_steps_description" formatted="false">"એક દિવસમાં ઓછામાં ઓછાં 10,000 પગલાં નોંધો."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"તમે 10,000 પગલાંવાળો દિવસ નોંધ્યો છે."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"નોંધના નિષ્ણાત"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"વજનનાં 100 માપ સાચવો. દરેક તારીખનું એક માપ ગણાય છે."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"તમે વજનનાં 100 માપ સાચવ્યાં છે."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"ડાયરીના અનુભવી"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"90 જુદા દિવસો પર ખોરાક કે માપ નોંધો. સળંગ હોવું જરૂરી નથી."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"તમારી પાસે 90 જુદા દિવસોની ડાયરી નોંધો છે."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"માપ"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"માત્રાઓ"</string>
+    <string name="secondary_award_unit_days" formatted="false">"દિવસ"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"સળંગ દિવસ"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"એક દિવસમાં પગલાં"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"નોંધવાળા દિવસ"</string>
+    <string name="secondary_back" formatted="false">"‹  પાછા"</string>
+    <string name="secondary_achievements" formatted="false">"સિદ્ધિઓ"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"નાનાં પગલાં ટેવ બને છે"</string>
+    <string name="secondary_your_progress" formatted="false">"તમારી પ્રગતિ"</string>
+    <string name="secondary_awards_permanent" formatted="false">"નોંધો બદલ્યા પછી પણ મળેલી સિદ્ધિઓ જળવાય છે."</string>
+    <string name="secondary_awards_regular" formatted="false">"નિયમિતતા અને ડાયરી લખવા બદલ"</string>
+    <string name="secondary_awards_through_today" formatted="false">"આજ સહિત આજ સુધી સાચવેલી નોંધો ગણાય છે."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"છુપી સિદ્ધિ"</string>
+    <string name="secondary_hidden_description" formatted="false">"આ સિદ્ધિ મેળવવા ડાયરીનો ઉપયોગ ચાલુ રાખો."</string>
+    <string name="secondary_earned" formatted="false">"મળી ગઈ"</string>
+    <string name="secondary_hidden_locked" formatted="false">"છુપી · હજી મળી નથી"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"પ્રગતિમાં · હજી મળી નથી"</string>
+    <string name="secondary_locked" formatted="false">"હજી મળી નથી"</string>
+    <string name="secondary_hidden_progress" formatted="false">"આ સિદ્ધિ મળ્યા પછી શરત અને પ્રગતિ દેખાશે."</string>
+    <string name="secondary_best_streak" formatted="false">"સૌથી લાંબો સળંગ ક્રમ"</string>
+    <string name="secondary_hidden_reward" formatted="false">"છુપો પુરસ્કાર"</string>
+    <string name="secondary_unlocked_of">"કુલ %1$d માંથી મળેલી"</string>
+    <string name="secondary_unlocked_date">"%1$s ના રોજ મળી"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← પાછા"</string>
+    <string name="secondary_my_recipe" formatted="false">"મારી રસોઈની રીત"</string>
+    <string name="secondary_recipe_intro" formatted="false">"રાંધતાં પહેલાં સામગ્રી તોલો. માત્રાની ગણતરી માટે રાંધેલું વજન વાપરો. તેલ અને સૉસ પણ ઉમેરો."</string>
+    <string name="secondary_recipe_name" formatted="false">"રીતનું નામ"</string>
+    <string name="secondary_recipe_example" formatted="false">"દા.ત., શાકભાજીનો સ્ટ્યૂ"</string>
+    <string name="secondary_ingredients" formatted="false">"સામગ્રી"</string>
+    <string name="secondary_start_ingredients" formatted="false">"સામગ્રીથી શરૂઆત કરો"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"દરેક સામગ્રી ઉમેરો અને તેનું વજન ગ્રામમાં દાખલ કરો."</string>
+    <string name="secondary_edit_weight" formatted="false">"વજન બદલો"</string>
+    <string name="secondary_delete" formatted="false">"કાઢો"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ સામગ્રી ઉમેરો"</string>
+    <string name="secondary_whole_recipe" formatted="false">"આખી વાનગી"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"રાંધતી વખતે પાણી વધવા કે ઘટવાથી વજન બદલાય છે. તૈયાર વાનગીને વાસણ વગર તોલો."</string>
+    <string name="secondary_cooked_weight" formatted="false">"રાંધેલું વજન, ગ્રામ"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"રાંધ્યા પછીનું વજન દાખલ કરો"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0 કરતાં વધુ અને 100,000 ગ્રામ સુધીનું વજન દાખલ કરો"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"વજન આપમેળે ભરાતું નથી"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"રાંધેલી વાનગીના દર 100 ગ્રામ"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"રાંધેલું વજન અને સામગ્રી તપાસો: દર 100 ગ્રામમાં વધુમાં વધુ 1,000 કિલોકૅલરી અને દરેક મુખ્ય પોષક તત્ત્વ 100 ગ્રામ સુધી હોઈ શકે છે."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"રીત સાચવી શકાઈ નહીં"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"મારી વાનગીઓમાં સાચવો"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"સાચવ્યા પછી ખાધેલી માત્રાના વજનથી વાનગી નોંધી શકો છો."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"રાંધતાં પહેલાં સામગ્રીનું વજન"</string>
+    <string name="secondary_grams" formatted="false">"ગ્રામ"</string>
+    <string name="secondary_weight_limits" formatted="false">"0 કરતાં વધુ અને 100,000 ગ્રામ સુધી"</string>
+    <string name="secondary_add" formatted="false">"ઉમેરો"</string>
+    <string name="secondary_save" formatted="false">"સાચવો"</string>
+    <string name="secondary_cancel" formatted="false">"રદ કરો"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"સામગ્રી પસંદ કરો"</string>
+    <string name="secondary_search_food" formatted="false">"ખાદ્ય પદાર્થો શોધો"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"કોઈ પરિણામ નથી. ખાદ્ય પદાર્થો ટૅબમાં પોતાનો પદાર્થ ઉમેરી શકો છો."</string>
+    <string name="secondary_close" formatted="false">"બંધ કરો"</string>
+    <string name="secondary_portion_energy">"%1$s ગ્રામ · %2$s કિલોકૅલરી"</string>
+    <string name="secondary_portion_macros">"પ્રોટીન %1$s · ચરબી %2$s · કાર્બોહાઇડ્રેટ્સ %3$s ગ્રામ"</string>
+    <string name="secondary_ingredients_weight">"સામગ્રીનું વજન: %1$s ગ્રામ"</string>
+    <string name="secondary_energy">"%1$s કિલોકૅલરી"</string>
+    <string name="secondary_grams_value">"%1$s ગ્રામ"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s કિલોકૅલરી / 100 ગ્રામ"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s ગ્રામ"</string>
+    <string name="secondary_recipe_note">"તૈયાર માત્રા: %1$s ગ્રામ. સામગ્રી: %2$s"</string>
+    <string name="app_name" formatted="false">"આહાર ડાયરી"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"સ્થળાંતરનો બૅકઅપ મેળ ખાતો નથી"</string>
+    <string name="data_entry_exists" formatted="false">"આ ભોજન નોંધ પહેલેથી છે"</string>
+    <string name="data_entry_missing" formatted="false">"ભોજન નોંધ મળી નથી"</string>
+    <string name="data_edited_date_changed" formatted="false">"બદલાઈ રહેલી નોંધની તારીખ બદલાઈ ગઈ છે"</string>
+    <string name="data_device_id_corrupt" formatted="false">"સ્થાનિક ઉપકરણનું ઓળખચિહ્ન બગડેલું છે; પુનઃસ્થાપન રોક્યું છે"</string>
+    <string name="data_sync_invalid" formatted="false">"અમાન્ય સિંક ડેટા"</string>
+    <string name="data_diary_read_only" formatted="false">"ડાયરી ઉપર ફરી લખવાથી સુરક્ષિત છે: બૅકઅપ પુનઃસ્થાપિત કરો"</string>
+    <string name="data_diary_inconsistent" formatted="false">"ડાયરીના ડેટામાં અસંગતતા છે"</string>
+    <string name="data_backup_too_large" formatted="false">"બૅકઅપ બહુ મોટો છે"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ઇન્સ્ટૉલેશનનું ઓળખચિહ્ન બગડેલું છે"</string>
+    <string name="data_save_verification_failed" formatted="false">"ડાયરી સચવાઈ હોવાની ખાતરી થઈ શકી નહીં"</string>
+    <string name="data_save_failed" formatted="false">"ડાયરી સાચવી શકાઈ નહીં"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"બૅકઅપ 50 MB કરતાં મોટો છે"</string>
+    <string name="data_diary_file_too_large" formatted="false">"ડાયરીની ફાઇલ બહુ મોટી છે"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"ખાદ્ય ડેટાબેઝનું કદ અમાન્ય છે"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"બૅકઅપનું આ સંસ્કરણ સમર્થિત નથી"</string>
+    <string name="data_too_many_values">"%1$s માં ઘણાં વધારે મૂલ્યો છે"</string>
+    <string name="data_too_many_products" formatted="false">"ઘણા વધારે ખાદ્ય પદાર્થો છે"</string>
+    <string name="data_too_many_entries" formatted="false">"ઘણી વધારે ભોજન નોંધો છે"</string>
+    <string name="data_too_many_logs" formatted="false">"ઘણી વધારે ડાયરી નોંધો છે"</string>
+    <string name="data_product_id_duplicate" formatted="false">"ખાદ્ય પદાર્થનું ઓળખચિહ્ન પુનરાવર્તિત છે"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"ભોજન નોંધનું ઓળખચિહ્ન પુનરાવર્તિત છે"</string>
+    <string name="data_log_date_duplicate" formatted="false">"ડાયરીની તારીખ પુનરાવર્તિત છે"</string>
+    <string name="data_label_product_id" formatted="false">"ખાદ્ય પદાર્થનું ઓળખચિહ્ન"</string>
+    <string name="data_label_product_name" formatted="false">"ખાદ્ય પદાર્થનું નામ"</string>
+    <string name="data_label_category" formatted="false">"શ્રેણી"</string>
+    <string name="data_label_note" formatted="false">"ટિપ્પણી"</string>
+    <string name="data_label_entry_id" formatted="false">"નોંધનું ઓળખચિહ્ન"</string>
+    <string name="data_label_meal" formatted="false">"ભોજન"</string>
+    <string name="data_food_weight_range" formatted="false">"ખોરાકનું વજન 0 કરતાં વધુ અને 100000 ગ્રામ સુધી હોવું જોઈએ"</string>
+    <string name="data_label_weight" formatted="false">"વજન"</string>
+    <string name="data_label_waist" formatted="false">"કમર"</string>
+    <string name="data_steps_range" formatted="false">"પગલાંની સંખ્યા 0 થી 200000 વચ્ચે હોવી જોઈએ"</string>
+    <string name="data_label_sleep" formatted="false">"ઊંઘ"</string>
+    <string name="data_label_body_fat" formatted="false">"શરીરની ચરબી"</string>
+    <string name="data_label_daily_calories" formatted="false">"દિવસની કૅલરી"</string>
+    <string name="data_label_daily_protein" formatted="false">"દિવસનું પ્રોટીન"</string>
+    <string name="data_label_workout" formatted="false">"કસરત"</string>
+    <string name="data_label_log_note" formatted="false">"ટિપ્પણી"</string>
+    <string name="data_log_empty" formatted="false">"ઓછામાં ઓછું એક માપ કે ટિપ્પણી દાખલ કરો"</string>
+    <string name="data_label_goal_weight" formatted="false">"લક્ષિત વજન"</string>
+    <string name="data_too_many_achievements" formatted="false">"ઘણી વધારે સિદ્ધિઓ છે"</string>
+    <string name="data_achievement_invalid" formatted="false">"અમાન્ય સિદ્ધિ"</string>
+    <string name="data_setting_not_portable" formatted="false">"આ સેટિંગ સ્થાનાંતરિત કરી શકાતું નથી"</string>
+    <string name="data_setting_invalid">"%1$s સેટિંગનું મૂલ્ય અમાન્ય છે"</string>
+    <string name="data_label_calories" formatted="false">"કૅલરી"</string>
+    <string name="data_label_protein" formatted="false">"પ્રોટીન"</string>
+    <string name="data_label_fat" formatted="false">"ચરબી"</string>
+    <string name="data_label_carbs" formatted="false">"કાર્બોહાઇડ્રેટ્સ"</string>
+    <string name="data_value_range">"%1$s: માન્ય મર્યાદા %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: અમાન્ય લંબાઈ"</string>
+    <string name="data_text_character_invalid">"%1$s: અમાન્ય અક્ષર"</string>
+    <string name="data_date_format_invalid" formatted="false">"તારીખ YYYY-MM-DD બંધારણમાં હોવી જોઈએ"</string>
+    <string name="data_date_nonexistent">"અમાન્ય તારીખ: %1$s"</string>
+    <string name="data_field_string_required">"%1$s ખાનામાં લખાણ હોવું જોઈએ"</string>
+    <string name="data_field_boolean_required">"%1$s ખાનામાં સાચું/ખોટું દર્શાવતું મૂલ્ય હોવું જોઈએ"</string>
+    <string name="data_field_number_required">"%1$s ખાનામાં સંખ્યા હોવી જોઈએ"</string>
+    <string name="data_field_finite_required">"%1$s ખાનામાં સીમિત સંખ્યા હોવી જોઈએ"</string>
+    <string name="data_field_integer_required">"%1$s ખાનામાં પૂર્ણાંક હોવો જોઈએ"</string>
+    <string name="data_too_many_items">"%1$s માં ઘણી વધારે વસ્તુઓ છે"</string>
+    <string name="data_data_file_invalid">"અમાન્ય ડેટા ફાઇલ: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"ઉપકરણનું ઓળખચિહ્ન નથી"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"તાર્કિક ઘડિયાળની મર્યાદા પૂરી થઈ છે"</string>
+    <string name="data_too_many_sync_records" formatted="false">"ઘણી વધારે સિંક નોંધો છે"</string>
+    <string name="data_sync_version_required" formatted="false">"સિંક માટે બંધારણ સંસ્કરણ 2 જોઈએ"</string>
+    <string name="data_sync_key_invalid" formatted="false">"અમાન્ય સિંક કી"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"સિંક કી પુનરાવર્તિત છે"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"કાઢી નાખવાનો સંકેત અમાન્ય છે"</string>
+    <string name="data_sync_data_invalid" formatted="false">"અમાન્ય સિંક ડેટા"</string>
+    <string name="data_record_clock_invalid" formatted="false">"નોંધનું સંસ્કરણ તાર્કિક ઘડિયાળ કરતાં આગળ છે"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"ડેટા સિંક મેટાડેટા સાથે મેળ ખાતો નથી"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"સિંક કીની લંબાઈ અમાન્ય છે"</string>
+    <string name="data_sync_key_malformed" formatted="false">"સિંક કીનું બંધારણ ખોટું છે"</string>
+    <string name="data_sync_type_unknown" formatted="false">"અજ્ઞાત સિંક પ્રકાર"</string>
+    <string name="data_record_id_too_long" formatted="false">"નોંધનું ઓળખચિહ્ન બહુ લાંબું છે"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"સિદ્ધિ કાઢવાની ક્રિયા અમાન્ય છે"</string>
+    <string name="data_log_key_invalid" formatted="false">"અમાન્ય ડાયરી કી"</string>
+    <string name="data_log_field_unknown" formatted="false">"અજ્ઞાત ડાયરી ખાનુ"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"ડાયરી કાઢી નાખવાનું ચિહ્ન અમાન્ય છે"</string>
+    <string name="data_goal_unknown" formatted="false">"અજ્ઞાત લક્ષ્ય"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"કાઢેલી નોંધમાં ડેટા છે"</string>
+    <string name="data_sync_value_invalid" formatted="false">"અમાન્ય સિંક મૂલ્ય"</string>
+    <string name="data_record_id_mismatch" formatted="false">"નોંધનું ઓળખચિહ્ન કી સાથે મેળ ખાતું નથી"</string>
+    <string name="data_field_value_invalid" formatted="false">"ખાનાનું મૂલ્ય અમાન્ય છે"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"સિદ્ધિની તારીખ કી સાથે મેળ ખાતી નથી"</string>
+    <string name="data_note_string_required" formatted="false">"ટિપ્પણી લખાણ સ્વરૂપે હોવી જોઈએ"</string>
+    <string name="data_sync_note_invalid" formatted="false">"સિંક થયેલી ટિપ્પણી અમાન્ય છે"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"અમાન્ય તાર્કિક ઘડિયાળ"</string>
+    <string name="data_device_invalid" formatted="false">"અમાન્ય ઉપકરણ"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"અમાન્ય સંસ્કરણ ચિહ્ન"</string>
+    <string name="data_google_login_required" formatted="false">"Google માં ફરી સાઇન ઇન કરો"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"ઘણા વધારે ક્લાઉડ બૅકઅપ છે"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive એ એક જ પાનું ફરી મોકલ્યું"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"ક્લાઉડ બૅકઅપ 50 MB કરતાં મોટો છે"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive એ અપલોડનું સરનામું આપ્યું નથી"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Google Drive નું અપલોડ સરનામું અમાન્ય છે"</string>
+    <string name="data_back" formatted="false">"‹  પાછા"</string>
+    <string name="data_cloud_title" formatted="false">"ક્લાઉડ સિંક"</string>
+    <string name="data_cloud_subtitle" formatted="false">"તમારી ડાયરી, તમારા બધા ઉપકરણો પર"</string>
+    <string name="data_no_account" formatted="false">"કોઈ ખાતું જોડાયેલું નથી"</string>
+    <string name="data_cloud_intro" formatted="false">"સાઇન-ઇન વૈકલ્પિક છે. ખાદ્ય પદાર્થો, ભોજન, માપ, લક્ષ્યો અને સિદ્ધિઓ તમારા ફોનમાં સચવાય છે. જોડાણ થયા પછી એક નકલ તમારા Google Drive ના છુપા ફોલ્ડરમાં સચવાશે."</string>
+    <string name="data_cloud_first_connection" formatted="false">"પહેલી વાર જોડાણ થાય ત્યારે નોંધો ભેગી થાય છે. ઍપ તમારા Drive ની બીજી ફાઇલો જોઈ શકતી નથી."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"આ બિલ્ડ માટે Google સાઇન-ઇન હજી ગોઠવાયું નથી. ખાતા વગર પણ ડાયરી અને ફાઇલ બૅકઅપ ચાલે છે."</string>
+    <string name="data_connect_google" formatted="false">"Google જોડો"</string>
+    <string name="data_automatic_sync" formatted="false">"આપમેળે સિંક"</string>
+    <string name="data_automatic_sync_description" formatted="false">"ડેટા બદલાય ત્યારે અને Android પરવાનગી આપે ત્યારે પૃષ્ઠભૂમિમાં"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"સમયપત્રક બદલી શકાયું નહીં. તમારો ડેટા આ ઉપકરણમાં સચવાયેલો છે."</string>
+    <string name="data_sync_start_failed" formatted="false">"સિંક શરૂ થઈ શક્યું નહીં. તમારો ડેટા આ ઉપકરણમાં સચવાયેલો છે."</string>
+    <string name="data_sync_now" formatted="false">"હમણાં સિંક કરો"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Google માં ફરી સાઇન ઇન કરો"</string>
+    <string name="data_disconnect_account" formatted="false">"ખાતાનું જોડાણ તોડો"</string>
+    <string name="data_sync_never" formatted="false">"હજી સિંક થયું નથી"</string>
+    <string name="data_offline_saved_title" formatted="false">"તમારો ડેટા ઑફલાઇન સચવાયેલો છે"</string>
+    <string name="data_cloud_merge_description" formatted="false">"આપમેળે સિંક ચાલુ હોય ત્યારે જોડાણ મળતાં ફેરફારો મોકલાય છે. બે ઉપકરણમાં એક જ ખાનુ બદલાય તો પછીના સમયવાળો ફેરફાર વપરાય છે. અલગ નોંધો અને ખાના ભેગાં થાય છે."</string>
+    <string name="data_cloud_password_description" formatted="false">"પાસવર્ડ ફક્ત બ્રાઉઝરના Google પાના પર દાખલ કરો છો. ઍક્સેસ ટોકન Android Keystore થી સુરક્ષિત છે અને બૅકઅપમાં સમાવાતાં નથી."</string>
+    <string name="data_google_connection_title" formatted="false">"Google જોડાણ"</string>
+    <string name="data_got_it" formatted="false">"સમજાયું"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive જોડવું છે?"</string>
+    <string name="data_connect_drive_description" formatted="false">"હાલની ડાયરી પસંદ કરેલા Google ખાતાના ડેટા સાથે ભેગી થશે. તમારા ઉપકરણોમાં એક જ વ્યક્તિગત ખાતું વાપરો. સાઇન-ઇન ડિફૉલ્ટ બ્રાઉઝરમાં ખુલશે."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"સાઇન-ઇન ખૂલી શક્યું નહીં. ડિફૉલ્ટ બ્રાઉઝર ઇન્સ્ટૉલ અથવા ચાલુ કરીને ફરી પ્રયાસ કરો."</string>
+    <string name="data_continue" formatted="false">"ચાલુ રાખો"</string>
+    <string name="data_cancel" formatted="false">"રદ કરો"</string>
+    <string name="data_disconnect_title" formatted="false">"ખાતાનું જોડાણ તોડવું છે?"</string>
+    <string name="data_disconnect_description" formatted="false">"આ ઉપકરણમાં સિંક બંધ થશે. સ્થાનિક ડાયરી અને Google Drive ની નકલો જળવાશે. Google ખાતાની સેટિંગમાં ઍપની પરવાનગી સંભાળી શકો છો."</string>
+    <string name="data_disconnect_failed" formatted="false">"ખાતાનું જોડાણ તોડી શકાયું નહીં. ફરી પ્રયાસ કરો."</string>
+    <string name="data_disconnect" formatted="false">"જોડાણ તોડો"</string>
+    <string name="data_google_not_connected" formatted="false">"Google જોડાયેલું નથી"</string>
+    <string name="data_sync_ready" formatted="false">"સિંક માટે તૈયાર"</string>
+    <string name="data_sync_changes_pending" formatted="false">"ફેરફારો સિંકની રાહ જુએ છે…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"ઇન્ટરનેટ જોડાણ નથી. ફેરફારો આ ઉપકરણમાં સચવાયેલા છે."</string>
+    <string name="data_google_not_configured" formatted="false">"આ બિલ્ડ માટે Google સાઇન-ઇન હજી ગોઠવાયું નથી"</string>
+    <string name="data_sync_wait" formatted="false">"સિંક પૂરું થાય ત્યાં સુધી રાહ જુઓ"</string>
+    <string name="data_google_connecting" formatted="false">"Google જોડાઈ રહ્યું છે…"</string>
+    <string name="data_connection_cancelled" formatted="false">"જોડાણ રદ થયું"</string>
+    <string name="data_connection_rejected" formatted="false">"જોડાણ રદ થયું અથવા Google એ નકાર્યું"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google જોડાયું. નોંધો ભેગી થાય છે…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google જોડાઈ શક્યું નહીં. ઇન્ટરનેટ અને ઍક્સેસ સેટિંગ તપાસો."</string>
+    <string name="data_account_disconnected" formatted="false">"ખાતાનું જોડાણ તૂટ્યું. તમારો ડેટા આ ઉપકરણમાં છે."</string>
+    <string name="data_sync_waiting_network" formatted="false">"ઇન્ટરનેટ જોડાણ નથી. સિંક જોડાણની રાહ જુએ છે."</string>
+    <string name="data_sync_scheduled" formatted="false">"સિંક નિર્ધારિત છે…"</string>
+    <string name="data_sync_running" formatted="false">"સિંક થાય છે…"</string>
+    <string name="data_sync_complete" formatted="false">"સિંક પૂરું થયું"</string>
+    <string name="data_no_internet" formatted="false">"ઇન્ટરનેટ જોડાણ નથી"</string>
+    <string name="data_sync_failed_saved" formatted="false">"સિંક થઈ શક્યું નહીં. તમારો ડેટા આ ઉપકરણમાં છે"</string>
+    <string name="data_page_open_failed" formatted="false">"પાનું ખૂલી શક્યું નહીં. નીચેના લખાણમાંથી સરનામું કૉપી કરી શકો છો."</string>
+    <string name="data_privacy_title" formatted="false">"ગોપનીયતા"</string>
+    <string name="data_privacy_subtitle" formatted="false">"તમારી નોંધો અને ડેટા પર નિયંત્રણ"</string>
+    <string name="data_app_purpose" formatted="false">"આ ઍપ વિશે"</string>
+    <string name="data_medical_disclaimer" formatted="false">"આ ઍપ તબીબી ઉપકરણ નથી. તે કોઈ રોગનું નિદાન, સારવાર, ઉપચાર કે નિવારણ કરતી નથી. તબીબી સલાહ, નિદાન અને સારવાર માટે લાયક આરોગ્ય નિષ્ણાતની સલાહ લો."</string>
+    <string name="data_manage_delete_data" formatted="false">"ડેટા સંભાળો અને કાઢો"</string>
+    <string name="data_delete_data_intro" formatted="false">"બધો ડેટા કાઢતાં પહેલાં બધાં ઉપકરણો પર સિંક બંધ કરો. ફોનમાંથી ઍપ દૂર કરવાથી Google Drive ની નકલો કે નિકાસ કરેલી ફાઇલો મટતી નથી."</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive નો ડેટા સંભાળો"</string>
+    <string name="data_google_account_access" formatted="false">"Google ખાતાની ઍક્સેસ"</string>
+    <string name="data_android_app_storage" formatted="false">"Android માં ઍપનો સંગ્રહ"</string>
+    <string name="data_contact_developer" formatted="false">"ડેવલપરનો સંપર્ક કરો"</string>
+    <string name="data_opening_page" formatted="false">"પાનું ખોલવું"</string>
+    <string name="data_advertisement" formatted="false">"જાહેરાત"</string>
+    <string name="data_ad_information" formatted="false">"આ જાહેરાત વિશે"</string>
+    <string name="data_cloud_http_error">"ક્લાઉડ HTTP ભૂલ %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"ક્લાઉડનો જવાબ બહુ મોટો છે"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"એન્ક્રિપ્ટ કરેલું સાઇન-ઇન સત્ર અમાન્ય છે"</string>
+    <string name="data_session_save_failed" formatted="false">"સાઇન-ઇન સત્ર સાચવી શકાયું નહીં"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google ની ઍક્સેસ નવી કરી શકાઈ નહીં"</string>
+    <string name="data_diary_read_failed">"ડાયરી વાંચી શકાઈ નહીં. મૂળ ફાઇલ જાળવી રાખી છે. બૅકઅપમાંથી ડેટા પુનઃસ્થાપિત કરો. %1$s"</string>
+    <string name="data_last_sync">"છેલ્લું સિંક: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"ફળો અને બેરી"</string>
+    <string name="data_category_dried_fruit" formatted="false">"સૂકાં ફળો"</string>
+    <string name="data_category_vegetables" formatted="false">"શાકભાજી અને સુગંધી વનસ્પતિ"</string>
+    <string name="data_category_mushrooms" formatted="false">"મશરૂમ"</string>
+    <string name="data_category_grains" formatted="false">"અનાજ અને પાસ્તા"</string>
+    <string name="data_category_legumes" formatted="false">"કઠોળ"</string>
+    <string name="data_category_meat" formatted="false">"માંસ અને મરઘાં"</string>
+    <string name="data_category_fish" formatted="false">"માછલી અને દરિયાઈ ખોરાક"</string>
+    <string name="data_category_dairy" formatted="false">"દૂધની બનાવટો"</string>
+    <string name="data_category_eggs" formatted="false">"ઈંડાં"</string>
+    <string name="data_category_oils" formatted="false">"તેલ અને માખણ"</string>
+    <string name="data_category_nuts" formatted="false">"મેવા અને બીજ"</string>
+    <string name="data_category_bread" formatted="false">"બ્રેડ"</string>
+    <string name="data_category_other" formatted="false">"બીજા ખાદ્ય પદાર્થો"</string>
+    <string name="data_category_dishes" formatted="false">"તૈયાર વાનગીઓ"</string>
+    <string name="data_category_custom" formatted="false">"મારા ખાદ્ય પદાર્થો"</string>
+    <string name="data_category_other_short" formatted="false">"અન્ય"</string>
+    <string name="data_category_my_dishes" formatted="false">"મારી વાનગીઓ"</string>
+    <string name="data_meal_breakfast" formatted="false">"સવારનો નાસ્તો"</string>
+    <string name="data_meal_lunch" formatted="false">"બપોરનું ભોજન"</string>
+    <string name="data_meal_dinner" formatted="false">"રાતનું ભોજન"</string>
+    <string name="data_meal_snack" formatted="false">"હળવો નાસ્તો"</string>
+    <string name="data_food_seed_9003" formatted="false">"સફરજન, છાલ સાથે"</string>
+    <string name="data_food_seed_9040" formatted="false">"કેળું, છાલ વગર"</string>
+    <string name="data_food_seed_9021" formatted="false">"જરદાળુ, ગોટલી વગર"</string>
+    <string name="data_food_seed_9037" formatted="false">"એવોકાડોનો ગર"</string>
+    <string name="data_food_seed_9050" formatted="false">"બ્લૂબેરી"</string>
+    <string name="data_food_seed_9070" formatted="false">"મીઠી ચેરી, ગોટલી વગર"</string>
+    <string name="data_food_seed_9063" formatted="false">"ખાટી ચેરી, ગોટલી વગર"</string>
+    <string name="data_food_seed_9078" formatted="false">"ક્રૅનબેરી"</string>
+    <string name="data_food_seed_9083" formatted="false">"બ્લૅકકરન્ટ"</string>
+    <string name="data_food_seed_9084" formatted="false">"લાલ અને સફેદ કરન્ટ"</string>
+    <string name="data_food_seed_9132" formatted="false">"દ્રાક્ષ"</string>
+    <string name="data_food_seed_9148" formatted="false">"કીવીનો ગર"</string>
+    <string name="data_food_seed_9150" formatted="false">"લીંબુ, છાલ વગર"</string>
+    <string name="data_food_seed_9181" formatted="false">"કૅન્ટાલૂપ ટેટીનો ગર"</string>
+    <string name="data_food_seed_9200" formatted="false">"નારંગીનો ગર"</string>
+    <string name="data_food_seed_9218" formatted="false">"મેન્ડરિન નારંગીનો ગર"</string>
+    <string name="data_food_seed_9236" formatted="false">"પીચ, ગોટલી વગર"</string>
+    <string name="data_food_seed_9252" formatted="false">"નાસપતી"</string>
+    <string name="data_food_seed_9266" formatted="false">"અનનસનો ગર"</string>
+    <string name="data_food_seed_9279" formatted="false">"આલુબુખારું, ગોટલી વગર"</string>
+    <string name="data_food_seed_9286" formatted="false">"દાડમના દાણા"</string>
+    <string name="data_food_seed_9295" formatted="false">"પોમેલોનો ગર"</string>
+    <string name="data_food_seed_9302" formatted="false">"રાસ્પબેરી"</string>
+    <string name="data_food_seed_9316" formatted="false">"સ્ટ્રૉબેરી"</string>
+    <string name="data_food_seed_9326" formatted="false">"તરબૂચનો ગર"</string>
+    <string name="data_food_seed_9191" formatted="false">"નેક્ટરીન, ગોટલી વગર"</string>
+    <string name="data_food_seed_9176" formatted="false">"કેરીનો ગર"</string>
+    <string name="data_food_seed_9107" formatted="false">"યુરોપિયન ગૂઝબેરી"</string>
+    <string name="data_food_seed_9226" formatted="false">"પપૈયાનો ગર"</string>
+    <string name="data_food_seed_9089" formatted="false">"તાજાં અંજીર"</string>
+    <string name="data_food_seed_9111" formatted="false">"ગ્રેપફ્રૂટનો ગર"</string>
+    <string name="data_food_seed_9032" formatted="false">"સૂકાં જરદાળુ, ગોટલી વગર"</string>
+    <string name="data_food_seed_9291" formatted="false">"સૂકાં આલુબુખારાં, ગોટલી વગર"</string>
+    <string name="data_food_seed_9087" formatted="false">"ખજૂર, ઠળિયા વગર"</string>
+    <string name="data_food_seed_9298" formatted="false">"ઘેરી કિસમિસ, બીજ વગર"</string>
+    <string name="data_food_seed_11529" formatted="false">"તાજું ટામેટું"</string>
+    <string name="data_food_seed_11205" formatted="false">"કાકડી, છાલ સાથે"</string>
+    <string name="data_food_seed_11090" formatted="false">"કાચી બ્રોકોલી"</string>
+    <string name="data_food_seed_11109" formatted="false">"કાચું સફેદ કોબીજ"</string>
+    <string name="data_food_seed_11124" formatted="false">"કાચું ગાજર"</string>
+    <string name="data_food_seed_11135" formatted="false">"કાચું ફૂલકોબી"</string>
+    <string name="data_food_seed_11143" formatted="false">"સેલરીની દાંડીઓ"</string>
+    <string name="data_food_seed_11282" formatted="false">"કાચી ડુંગળી"</string>
+    <string name="data_food_seed_11291" formatted="false">"લીલી ડુંગળી"</string>
+    <string name="data_food_seed_11304" formatted="false">"કાચા લીલા વટાણા"</string>
+    <string name="data_food_seed_11333" formatted="false">"લીલું કેપ્સિકમ"</string>
+    <string name="data_food_seed_11821" formatted="false">"લાલ કેપ્સિકમ"</string>
+    <string name="data_food_seed_11352" formatted="false">"કાચું બટેટું, છાલ સાથે"</string>
+    <string name="data_food_seed_11367" formatted="false">"બાફેલું બટેટું, છાલ વગર"</string>
+    <string name="data_food_seed_11477" formatted="false">"કાચી ઝુકીની"</string>
+    <string name="data_food_seed_11209" formatted="false">"કાચું રીંગણું"</string>
+    <string name="data_food_seed_11422" formatted="false">"કાચું કોળું"</string>
+    <string name="data_food_seed_11429" formatted="false">"નાનો લાલ મૂળો"</string>
+    <string name="data_food_seed_11564" formatted="false">"કાચું શલગમ"</string>
+    <string name="data_food_seed_11080" formatted="false">"કાચું બીટ"</string>
+    <string name="data_food_seed_11081" formatted="false">"બાફેલું બીટ"</string>
+    <string name="data_food_seed_11215" formatted="false">"લસણ"</string>
+    <string name="data_food_seed_11216" formatted="false">"આદુ"</string>
+    <string name="data_food_seed_11457" formatted="false">"કાચી પાલક"</string>
+    <string name="data_food_seed_11253" formatted="false">"પાંદડાવાળું લેટ્યુસ"</string>
+    <string name="data_food_seed_11297" formatted="false">"તાજી પાર્સલી"</string>
+    <string name="data_food_seed_2045" formatted="false">"તાજી સુવાની ભાજી"</string>
+    <string name="data_food_seed_11052" formatted="false">"કાચી લીલી ફણસી"</string>
+    <string name="data_food_seed_11167" formatted="false">"મીઠી મકાઈના કાચા દાણા"</string>
+    <string name="data_food_seed_11260" formatted="false">"કાચાં બટન મશરૂમ"</string>
+    <string name="data_food_seed_11261" formatted="false">"બાફેલાં બટન મશરૂમ, મીઠા વગર"</string>
+    <string name="data_food_seed_11987" formatted="false">"કાચાં ઑઇસ્ટર મશરૂમ"</string>
+    <string name="data_food_seed_20009" formatted="false">"કુટ્ટુના સૂકા દાણા"</string>
+    <string name="data_food_seed_20010" formatted="false">"પાણીમાં રાંધેલું કુટ્ટુ"</string>
+    <string name="data_food_seed_20444" formatted="false">"સફેદ ચોખા, સૂકા"</string>
+    <string name="data_food_seed_20445" formatted="false">"બાફેલા સફેદ ચોખા, મીઠા વગર"</string>
+    <string name="data_food_seed_20036" formatted="false">"બ્રાઉન ચોખા, સૂકા"</string>
+    <string name="data_food_seed_20037" formatted="false">"બાફેલા બ્રાઉન ચોખા"</string>
+    <string name="data_food_seed_8120" formatted="false">"ચપટા ઓટ્સ, સૂકા"</string>
+    <string name="data_food_seed_8121" formatted="false">"પાણીમાં રાંધેલા ઓટ્સ, મીઠા વગર"</string>
+    <string name="data_food_seed_20005" formatted="false">"છડેલા જવ, સૂકા"</string>
+    <string name="data_food_seed_20006" formatted="false">"બાફેલા છડેલા જવ"</string>
+    <string name="data_food_seed_20031" formatted="false">"મિલેટના દાણા, સૂકા"</string>
+    <string name="data_food_seed_20032" formatted="false">"બાફેલા મિલેટના દાણા"</string>
+    <string name="data_food_seed_20420" formatted="false">"પાસ્તા, સૂકા"</string>
+    <string name="data_food_seed_20421" formatted="false">"બાફેલા પાસ્તા, મીઠા વગર"</string>
+    <string name="data_food_seed_16070" formatted="false">"બાફેલા મસૂર, મીઠા વગર"</string>
+    <string name="data_food_seed_16057" formatted="false">"બાફેલા કાબુલી ચણા, મીઠા વગર"</string>
+    <string name="data_food_seed_16033" formatted="false">"બાફેલા લાલ રાજમા, મીઠા વગર"</string>
+    <string name="data_food_seed_5062" formatted="false">"કાચું ચિકન બ્રેસ્ટ, ચામડી વગર"</string>
+    <string name="data_food_seed_5064" formatted="false">"શેકેલું ચિકન બ્રેસ્ટ, ચામડી વગર"</string>
+    <string name="data_food_seed_5219" formatted="false">"કાચું ટર્કી બ્રેસ્ટ, ચામડી વગર"</string>
+    <string name="data_food_seed_5220" formatted="false">"શેકેલું ટર્કી બ્રેસ્ટ, ચામડી વગર"</string>
+    <string name="data_food_seed_23562" formatted="false">"ગોમાંસનો કીમો, 10% ચરબી, કાચો"</string>
+    <string name="data_food_seed_23566" formatted="false">"ગોમાંસનો કીમો, 10% ચરબી, શેકેલો"</string>
+    <string name="data_food_seed_10060" formatted="false">"કાચું ડુક્કરનું ટેન્ડરલોઇન, દેખાતી ચરબી કાઢેલી"</string>
+    <string name="data_food_seed_10061" formatted="false">"શેકેલું ડુક્કરનું ટેન્ડરલોઇન"</string>
+    <string name="data_food_seed_15236" formatted="false">"ઍટલાન્ટિક સૅલ્મન, કાચી"</string>
+    <string name="data_food_seed_15237" formatted="false">"ઍટલાન્ટિક સૅલ્મન, શેકેલી"</string>
+    <string name="data_food_seed_15015" formatted="false">"ઍટલાન્ટિક કૉડ, કાચી"</string>
+    <string name="data_food_seed_15266" formatted="false">"કાચી અલાસ્કા પોલોક"</string>
+    <string name="data_food_seed_15121" formatted="false">"પાણીમાં ડબ્બાબંધ ટુના, પાણી નિતારેલી"</string>
+    <string name="data_food_seed_15271" formatted="false">"રાંધેલા ઝીંગા, કવચ વગર"</string>
+    <string name="data_food_seed_1211" formatted="false">"દૂધ, 3.25% ચરબી"</string>
+    <string name="data_food_seed_1174" formatted="false">"દૂધ, 2% ચરબી"</string>
+    <string name="data_food_seed_1082" formatted="false">"દૂધ, 1% ચરબી"</string>
+    <string name="data_food_seed_1116" formatted="false">"પૂર્ણ ચરબીવાળા દૂધનું સાદું દહીં"</string>
+    <string name="data_food_seed_1256" formatted="false">"ચરબી વગરનું ગ્રીક દહીં"</string>
+    <string name="data_food_seed_1015" formatted="false">"કૉટેજ ચીઝ, 2% ચરબી"</string>
+    <string name="data_food_seed_1056" formatted="false">"ખાટી ક્રીમ, આશરે 19% ચરબી"</string>
+    <string name="data_food_seed_1009" formatted="false">"ચેડર ચીઝ"</string>
+    <string name="data_food_seed_1026" formatted="false">"પૂર્ણ ચરબીવાળા દૂધનું મોઝરેલા"</string>
+    <string name="data_food_seed_1019" formatted="false">"ફેટા ચીઝ"</string>
+    <string name="data_food_seed_1123" formatted="false">"કાચું મરઘીનું ઈંડું, છાલ વગર"</string>
+    <string name="data_food_seed_1129" formatted="false">"બાફેલું મરઘીનું ઈંડું, છાલ વગર"</string>
+    <string name="data_food_seed_1124" formatted="false">"કાચા મરઘીના ઈંડાનો સફેદ ભાગ"</string>
+    <string name="data_food_seed_1001" formatted="false">"મીઠાવાળું માખણ"</string>
+    <string name="data_food_seed_4053" formatted="false">"ઑલિવ તેલ"</string>
+    <string name="data_food_seed_4506" formatted="false">"સૂર્યમુખી તેલ"</string>
+    <string name="data_food_seed_12061" formatted="false">"બદામ"</string>
+    <string name="data_food_seed_12155" formatted="false">"અખરોટની ગીરી"</string>
+    <string name="data_food_seed_12120" formatted="false">"હેઝલનટની ગીરી"</string>
+    <string name="data_food_seed_12151" formatted="false">"કાચા પિસ્તાની ગીરી"</string>
+    <string name="data_food_seed_12014" formatted="false">"કોળાનાં સૂકાં બીજ, છાલ વગર"</string>
+    <string name="data_food_seed_16087" formatted="false">"કાચી મગફળી, ફોતરાં વગર"</string>
+    <string name="data_food_seed_18069" formatted="false">"સફેદ ઘઉંની બ્રેડ"</string>
+    <string name="data_food_seed_18075" formatted="false">"આખા ઘઉંની બ્રેડ"</string>
+    <string name="data_food_seed_18060" formatted="false">"રાઈ અનાજની બ્રેડ"</string>
+    <string name="data_food_seed_19296" formatted="false">"મધ"</string>
+    <string name="data_food_seed_19335" formatted="false">"ખાંડ"</string>
+    <string name="data_food_seed_19165" formatted="false">"ખાંડ વગરનો કોકો પાઉડર"</string>
+    <string name="data_food_seed_19904" formatted="false">"ડાર્ક ચોકલેટ, 70–85% કોકો"</string>
+    <string name="data_catalog_note_1">"ખાવાલાયક ભાગના દર 100 ગ્રામનાં સંદર્ભ મૂલ્યો. કાચા ખોરાક માટે. USDA ના કાર્બોહાઇડ્રેટ મૂલ્યોમાં રેસા સામેલ છે. ઉત્પાદનના લેબલ મુજબ મૂલ્યો બદલી શકો છો. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_2">"ખાવાલાયક ભાગના દર 100 ગ્રામનાં સંદર્ભ મૂલ્યો. USDA ના કાર્બોહાઇડ્રેટ મૂલ્યોમાં રેસા સામેલ છે. ઉત્પાદનના લેબલ મુજબ મૂલ્યો બદલી શકો છો. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_3">"ખાવાલાયક ભાગના દર 100 ગ્રામનાં સંદર્ભ મૂલ્યો. વધારાના મીઠા વગર. USDA ના કાર્બોહાઇડ્રેટ મૂલ્યોમાં રેસા સામેલ છે. ઉત્પાદનના લેબલ મુજબ મૂલ્યો બદલી શકો છો. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_4">"ખાવાલાયક ભાગના દર 100 ગ્રામનાં સંદર્ભ મૂલ્યો. શેકેલા કુટ્ટુના દાણા માટે. USDA ના કાર્બોહાઇડ્રેટ મૂલ્યોમાં રેસા સામેલ છે. ઉત્પાદનના લેબલ મુજબ મૂલ્યો બદલી શકો છો. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_5">"ખાવાલાયક ભાગના દર 100 ગ્રામનાં સંદર્ભ મૂલ્યો. ઉછેરથી મેળવેલા કાચા ખોરાક માટે. USDA ના કાર્બોહાઇડ્રેટ મૂલ્યોમાં રેસા સામેલ છે. ઉત્પાદનના લેબલ મુજબ મૂલ્યો બદલી શકો છો. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_6">"ખાવાલાયક ભાગના દર 100 ગ્રામનાં સંદર્ભ મૂલ્યો. ઉછેરથી મેળવેલા ખોરાક માટે. USDA ના કાર્બોહાઇડ્રેટ મૂલ્યોમાં રેસા સામેલ છે. ઉત્પાદનના લેબલ મુજબ મૂલ્યો બદલી શકો છો. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_catalog_note_7">"ખાવાલાયક ભાગના દર 100 ગ્રામનાં સંદર્ભ મૂલ્યો. કૉટેજ ચીઝ માટે; બીજી તાજી ચીઝનાં મૂલ્યો અલગ હોય છે. USDA ના કાર્બોહાઇડ્રેટ મૂલ્યોમાં રેસા સામેલ છે. ઉત્પાદનના લેબલ મુજબ મૂલ્યો બદલી શકો છો. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary ની ગોપનીયતા નીતિ\nસુધારો: 9 ઑક્ટોબર 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"ઍપ: Diet Diary; Google Play માં રશિયન સૂચિનું નામ: «Дневник диеты: подсчёт калорий»; પૅકેજ: ru.dietdiary.offline.\nપ્રોજેક્ટ ડેવલપર: Efreitor2001. ઍપ અને ડેટા પ્રક્રિયા વિશેના પ્રશ્નો માટે https://github.com/Efreitor2001/kkalcal/issues પર સંપર્ક કરો. GitHub ના મુદ્દા જાહેર હોય છે: ત્યાં આરોગ્યની નોંધો, બૅકઅપ, પાસવર્ડ કે ટોકન મૂકશો નહીં."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. તમારા ઉપકરણ પર ડાયરી\nડાયરી રાખવા નોંધણી જરૂરી નથી. ઍપ ખાદ્ય પદાર્થો અને તેમનાં પોષણ મૂલ્યો, માત્રાઓ અને ભોજનની તારીખો, વજન, કમરનાં માપ, શરીરની ચરબીનું પ્રમાણ, પગલાં, ઊંઘ, કસરતનું વર્ણન, ટિપ્પણીઓ, લક્ષ્યો, સિદ્ધિઓ અને સેટિંગ તમારા ઉપકરણના પોતાના ખાનગી સંગ્રહમાં રાખે છે. વૈકલ્પિક ખાના ખાલી રાખી શકાય છે. પગલાં, ઊંઘ અને માપ જાતે દાખલ થાય છે; ઍપ Health Connect, શારીરિક પ્રવૃત્તિનાં સેન્સર કે તબીબી ઉપકરણોનો ડેટા વાંચતી નથી."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"આ માહિતી કૅલરી અને મુખ્ય પોષક તત્ત્વો ગણવા તથા જૂની નોંધો, આલેખ અને સિદ્ધિઓ બતાવવા વપરાય છે. ડેવલપર ડાયરીની સામગ્રી સ્વીકારતું સર્વર ચલાવતો નથી. Google Drive ન જોડો અને જાતે બૅકઅપ શેર ન કરો તો તમારી નોંધો ઉપકરણમાં જ રહે છે."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. વૈકલ્પિક Google Drive જોડાણ\nતમારી વિનંતી પર ઍપ ડિફૉલ્ટ બ્રાઉઝરમાં Google સાઇન-ઇન ખોલે છે અને તમારા Google Drive માં આ ઍપના છુપા ડેટા સંગ્રહની ઍક્સેસ માંગે છે. આ પરવાનગીથી સામાન્ય Drive દસ્તાવેજો કે ફોટાની ઍક્સેસ મળતી નથી."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"જોડાણ પછી ખાદ્ય પદાર્થો, ભોજન, ડાયરીનાં માપ, ટિપ્પણીઓ, લક્ષ્યો, સિદ્ધિઓ, સ્થાનાંતરિત થઈ શકે તેવી સેટિંગ અને ફેરફારોનો મેટાડેટા Google ને મોકલાય છે. તેમાં અનિયમિત રીતે બનાવેલા ઇન્સ્ટૉલેશન ઓળખચિહ્નો અને સમયચિહ્નો સામેલ છે. આથી બૅકઅપની સમયબિંદુ નકલો અને અલગ ઉપકરણોની નોંધો ભેગી કરી શકાય છે. આપમેળે સિંક ચાલુ હોય તો નેટવર્ક મળતાં પૃષ્ઠભૂમિમાં પણ ફેરફારો મોકલાય છે. આપમેળે સિંક અલગથી બંધ કરી શકો છો."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"જોડાણ બતાવવા અને યોગ્ય સંગ્રહ સાથે જોડવા ઍપ પસંદ કરેલા Google ખાતાનું ઇમેઇલ સરનામું અને ઓળખચિહ્ન મેળવે છે. તમારો Google પાસવર્ડ ઍપને મળતો નથી. અધિકૃતતાનું સત્ર Android Keystore ની કીથી એન્ક્રિપ્ટ થઈને ઉપકરણમાં સચવાય છે. ટોકન, ઇમેઇલ સરનામાં અને Google ઓળખચિહ્નો ડાયરીની નિકાસ કે સિંક થયેલી JSON નકલોમાં સામેલ નથી."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google ડેટા ફક્ત અધિકૃતતા અને સિંક માટે વપરાય છે, જાહેરાત માટે ક્યારેય નહીં. Google ની ગોપનીયતા નીતિ લાગુ પડે છે: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. બૅકઅપ ફાઇલો\n‘ફાઇલમાં સાચવો’ તમારી પસંદગીના સ્થળે JSON ફાઇલ બનાવે છે. પુનઃસ્થાપન વખતે ફક્ત પસંદ કરેલી ફાઇલ વંચાય છે. ક્લાઉડ ફાઇલ સેવા પસંદ કરો કે બીજાને નકલ આપો તો મેળવનાર તમે પસંદ કરો છો. ઍપ નિકાસ કરેલી JSON ફાઇલો એન્ક્રિપ્ટ કરતી નથી: તેમાં વ્યક્તિગત નોંધો અને ફેરફારોનો મેટાડેટા હોય છે."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. જાહેરાત\nઍપ Yandex Mobile Ads SDK વાપરે છે. જાહેરાત લોડ કરવા અને બતાવવા ઉપકરણ જાહેરાત સેવાઓ સાથે જોડાય છે. Yandex તમારું IP સરનામું, નેટવર્ક વિનંતી, ઉપકરણ અને સૉફ્ટવેર વિશેની તકનીકી માહિતી, ઉપલબ્ધ જાહેરાત કે તકનીકી ઓળખચિહ્નો અને જાહેરાતના પ્રદર્શન તથા તેની સાથે કરેલી ક્રિયાઓની માહિતી પર પ્રક્રિયા કરી શકે છે."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"ઍપ SDK ને જણાવે છે કે સંમતિ અપાઈ નથી, સ્થાન એકત્ર કરવાનું બંધ કરે છે અને App Ad Analytics રિપોર્ટિંગ બંધ કરે છે. ચોક્કસ કે અંદાજિત સ્થાનની પરવાનગી માંગતી નથી. આ સેટિંગનો અર્થ એ નથી કે જાહેરાત સેવા કોઈ નેટવર્ક સંચાર કે તકનીકી ડેટાની પ્રક્રિયા કરતી નથી."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"ઍપ ભોજન નોંધો, વજન, માપ, ટિપ્પણીઓ, લક્ષ્યો, ઇમેઇલ સરનામાં કે Google ઓળખચિહ્નોનો જાહેરાતના લક્ષ્યીકરણ માટે ઉપયોગ કરતી નથી અને જાહેરાત વિનંતીના પરિમાણોમાં ઉમેરતી નથી. નોંધ સાચવવા જાહેરાત જોવી જરૂરી નથી."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"ડેટા પ્રક્રિયા, જાળવણી અને કાઢી નાખવા માટે Yandex ના નિયમો: https://yandex.ru/legal/confidential/ . તમારું સિસ્ટમ સંસ્કરણ સમર્થન કરતું હોય તો Android સેટિંગમાં જાહેરાત ઓળખચિહ્ન સંભાળી શકો છો. જાહેરાત સેવાના તકનીકી ડેટાની જાળવણી અવધિ તેની નીતિ નક્કી કરે છે; ડાયરીનો ડેવલપર તે માટે અલગ અવધિ નક્કી કરતો નથી."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. ડેટાનું રક્ષણ\nGoogle સાથેનો સંચાર HTTPS વાપરે છે; Yandex મુજબ SDK ડેટા HTTPS/TLS થી મોકલાય છે. સ્થાનિક ડાયરી Android ની ઍપ અલગતાથી સુરક્ષિત છે. ઍપ ડાયરીની સામગ્રી કે JSON નકલો અલગથી એન્ક્રિપ્ટ કરતી નથી અને ઉપકરણો વચ્ચે છેડાથી છેડા સુધીનું એન્ક્રિપ્શન આપતી નથી."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"ઍપ ડેટાનો સિસ્ટમ બૅકઅપ બંધ છે. ઍપના પોતાના કોડથી લખાતા નિદાન લૉગમાં પરિણામના કોડ હોય છે, ડાયરીની સામગ્રી, ઇમેઇલ સરનામાં, ટોકન કે નેટવર્ક જવાબનો મુખ્ય ભાગ નથી હોતો. ઍપ આ લૉગ અલગથી ડેવલપરને મોકલતી નથી."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. જાળવણી અને કાઢી નાખવું\nસ્થાનિક નોંધો તમે બદલો, કાઢો કે ઍપનો ડેટા સાફ કરો ત્યાં સુધી રહે છે. નોંધ કાઢવાથી તે સ્ક્રીન પરથી દૂર થાય છે અને સિંક વખતે કાઢી નાખવાનું ચિહ્ન મોકલાય છે. જૂનો ડેટા ફરી ન આવે તે માટે ભેગું કરવાનો મેટાડેટા રાખવામાં આવે છે; તેમાં કાઢેલી ડાયરી નોંધનાં જૂનાં મૂલ્યો હોઈ શકે છે. જૂનાં મૂલ્યો અગાઉની ક્લાઉડ નકલો અને પહેલાં બનાવેલી ફાઇલોમાં પણ રહી શકે છે. તેથી એક નોંધ કાઢવાથી તેની બધી નકલો સંપૂર્ણપણે મટતી નથી."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"‘ખાતાનું જોડાણ તોડો’ આ ઉપકરણ પર સિંક રોકે છે અને સ્થાનિક Google સત્ર કાઢે છે. ડાયરી અને Google Drive ની નકલો જળવાય છે. ઍપનું જોડાણ તોડવાથી Google ખાતું મટતું નથી."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"આ ઍપનો ડેટા સંપૂર્ણ કાઢવા માટે:\n• બધી જગ્યાએ સિંક બંધ કરો જેથી બાકી નકલો ફરી અપલોડ ન થાય.\n• પહેલાં જોડેલા Google ખાતાથી બ્રાઉઝરમાં https://drive.google.com/drive/settings ખોલો. ‘ઍપ મેનેજ કરો’ પસંદ કરો, ‘Diet Diary’ (અથવા «Дневник диеты») શોધો, પછી ‘વિકલ્પો’ → ‘છુપો ઍપ ડેટા કાઢો’ પસંદ કરો. મોબાઇલ પાના પર આ વિભાગ ન દેખાય તો ડેસ્કટૉપ સાઇટ કે કમ્પ્યુટર વાપરો.\n• https://myaccount.google.com/connections પર ઍપની ઍક્સેસ પાછી ખેંચો. ફક્ત ઍક્સેસ દૂર કરવાથી સાચવેલી નકલો મટતી નથી.\n• દરેક ઉપકરણની Android સેટિંગમાં ઍપનો સંગ્રહ સાફ કરો અથવા ઍપ અનઇન્સ્ટૉલ કરો.\n• અલગ સાચવેલા JSON બૅકઅપ તમારી પસંદગીના ફોલ્ડરો અને ક્લાઉડ સંગ્રહમાંથી કાઢો."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"તમારી લૉગિન માહિતી વગર ડેવલપર તમારી સ્થાનિક ડાયરી કે વ્યક્તિગત Google Drive ની ફાઇલો દૂરથી મટાડી શકતો નથી. ડેવલપર સાથે પાસવર્ડ કે ટોકન શેર કરશો નહીં. કાઢવામાં મદદ માટે આ નીતિની શરૂઆતની લિંકથી પ્રોજેક્ટનો સંપર્ક કરો. ડાયરીનો ડેટા કાઢવા Google ખાતું કાઢવું જરૂરી નથી."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. ફેરફારો અને સંપર્ક\nઍપની સુવિધાઓ કે ડેટાની પ્રક્રિયા બદલાય ત્યારે આ નીતિ સુધારાની તારીખ સાથે બદલાય છે. ડેટાની ઍક્સેસ, સુધારો, કાઢી નાખવું કે ઍપના કાર્ય વિશેના પ્રશ્નો માટે પ્રોજેક્ટનું સંપર્ક માધ્યમ વાપરો. તમારી વિનંતીઓ જવાબ આપવા માટે પ્રક્રિયા થાય છે અને GitHub માં સચવાય છે; GitHub ની નીતિ અહીં છે: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+</resources>

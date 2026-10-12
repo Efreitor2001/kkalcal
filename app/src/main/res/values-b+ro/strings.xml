@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Jurnal alimentar"</string>
+    <string name="core_app_name" formatted="false">"Jurnal alimentar"</string>
+    <string name="core_tagline" formatted="false">"Calorii, greutate și progres"</string>
+    <string name="core_open_diary" formatted="false">"Deschide jurnalul"</string>
+    <string name="core_save_failed" formatted="false">"Datele tale nu au putut fi salvate"</string>
+    <string name="core_day" formatted="false">"Astăzi"</string>
+    <string name="core_products" formatted="false">"Alimente"</string>
+    <string name="core_diary" formatted="false">"Jurnal"</string>
+    <string name="core_charts" formatted="false">"Grafice"</string>
+    <string name="core_more" formatted="false">"Mai multe"</string>
+    <string name="core_recipe_saved" formatted="false">"Preparatul a fost salvat în alimentele tale"</string>
+    <string name="core_back_to_day" formatted="false">"Înapoi la ziua ta"</string>
+    <string name="core_action_failed" formatted="false">"Acțiunea nu a putut fi efectuată"</string>
+    <string name="core_understood" formatted="false">"Am înțeles"</string>
+    <string name="core_restore_available" formatted="false">"Poți restaura o copie de siguranță din Mai multe."</string>
+    <string name="core_eaten_today" formatted="false">"CONSUMAT ASTĂZI"</string>
+    <string name="core_set_goal_hint" formatted="false">"Poți stabili un obiectiv din Mai multe"</string>
+    <string name="core_add_food" formatted="false">"+ Adaugă aliment"</string>
+    <string name="core_first_meal" formatted="false">"Începe cu prima ta masă"</string>
+    <string name="core_first_meal_help" formatted="false">"Alege un aliment și introdu greutatea în grame pentru a calcula caloriile și macronutrienții."</string>
+    <string name="core_my_day" formatted="false">"Ziua mea"</string>
+    <string name="core_my_day_help" formatted="false">"Greutate, talie, pași, somn — notează informațiile pe care le ai."</string>
+    <string name="core_record_metrics" formatted="false">"Înregistrează măsurători"</string>
+    <string name="core_edit_metrics" formatted="false">"Editează măsurătorile"</string>
+    <string name="core_food_state_hint" formatted="false">"Greutatea și valorile nutriționale trebuie să corespundă aceleiași stări a alimentului: crud, uscat sau gătit."</string>
+    <string name="core_weight" formatted="false">"Greutate"</string>
+    <string name="core_waist" formatted="false">"Talie"</string>
+    <string name="core_my_diary" formatted="false">"Jurnalul meu"</string>
+    <string name="core_diary_tagline" formatted="false">"Fiecare zi în ritmul tău"</string>
+    <string name="core_record_day" formatted="false">"+ Înregistrează o zi"</string>
+    <string name="core_optional_diary_help" formatted="false">"Toate măsurătorile sunt opționale. Poți nota doar greutatea, somnul sau o observație. Atinge o înregistrare pentru a o edita."</string>
+    <string name="core_history_starts" formatted="false">"Istoricul tău începe aici"</string>
+    <string name="core_history_help" formatted="false">"Notează măsurătorile și urmărește schimbările în Grafice."</string>
+    <string name="core_file_unavailable" formatted="false">"Fișier indisponibil"</string>
+    <string name="core_backup_saved" formatted="false">"Copie de siguranță salvată"</string>
+    <string name="core_export_error" formatted="false">"Copia de siguranță nu a putut fi exportată"</string>
+    <string name="core_read_error" formatted="false">"Fișierul nu a putut fi citit"</string>
+    <string name="core_settings_tagline" formatted="false">"Setări și copii de siguranță"</string>
+    <string name="core_your_progress" formatted="false">"Progresul tău"</string>
+    <string name="core_achievements_help" formatted="false">"Mici realizări care te ajută să îți formezi obiceiul de a ține un jurnal."</string>
+    <string name="core_achievements" formatted="false">"Realizări"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Conectare opțională pentru sincronizarea jurnalului între dispozitive."</string>
+    <string name="core_cloud_sync" formatted="false">"Sincronizare în cloud"</string>
+    <string name="core_personal_goals" formatted="false">"Obiective personale"</string>
+    <string name="core_personal_goals_help" formatted="false">"Stabilește manual obiective pentru calorii, macronutrienți și greutate. Poți lăsa orice obiectiv necompletat."</string>
+    <string name="core_configure_goals" formatted="false">"Stabilește obiective"</string>
+    <string name="core_backup" formatted="false">"Copie de siguranță"</string>
+    <string name="core_backup_help" formatted="false">"Alimente, mese, jurnal, obiective și realizări într-un singur fișier. Creează o copie înainte de a reinstala aplicația."</string>
+    <string name="core_save_file" formatted="false">"Salvează în fișier"</string>
+    <string name="core_restore_file" formatted="false">"Restaurează din fișier"</string>
+    <string name="core_write_locked" formatted="false">"Salvarea este dezactivată pentru a proteja fișierul original. Restaurează o copie de siguranță validă."</string>
+    <string name="core_about_data" formatted="false">"Despre aplicație și datele tale"</string>
+    <string name="core_about_data_help" formatted="false">"Cum sunt păstrate, sincronizate și șterse înregistrările."</string>
+    <string name="core_privacy" formatted="false">"Confidențialitate și ștergerea datelor"</string>
+    <string name="core_offline" formatted="false">"Funcționează fără internet"</string>
+    <string name="core_offline_help" formatted="false">"Conectarea cu Google este opțională. Pașii și somnul se introduc manual. Internetul este necesar pentru sincronizare, când este activată, și pentru încărcarea reclamelor. Înregistrările din jurnal nu sunt trimise rețelei de publicitate."</string>
+    <string name="core_about_foods" formatted="false">"Despre alimente"</string>
+    <string name="core_foods_reference" formatted="false">"Valorile incluse sunt estimări pentru 100 g de parte comestibilă. Verifică ambalajul pentru valori exacte. Editarea unui aliment nu recalculează mesele deja înregistrate."</string>
+    <string name="core_foods_source" formatted="false">"Sursa bazei: USDA FoodData Central, SR Legacy. Fiecare aliment precizează starea și sursa sa."</string>
+    <string name="core_restore_title" formatted="false">"Restaurezi această copie?"</string>
+    <string name="core_restore_warning" formatted="false">"Alimentele, jurnalul, obiectivele și realizările actuale vor fi înlocuite cu datele din acest fișier. Creează mai întâi o copie de siguranță. Dacă sincronizarea este conectată, datele restaurate vor fi trimise și în Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Copie de siguranță restaurată"</string>
+    <string name="core_invalid_file" formatted="false">"Fișier nevalid"</string>
+    <string name="core_replace_data" formatted="false">"Înlocuiește datele"</string>
+    <string name="core_cancel" formatted="false">"Anulează"</string>
+    <string name="core_save" formatted="false">"Salvează"</string>
+    <string name="core_calculate_portion" formatted="false">"Calculează porția"</string>
+    <string name="core_edit_portion" formatted="false">"Editează porția"</string>
+    <string name="core_portion_weight" formatted="false">"Greutatea porției, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Introdu o greutate mai mare de 0 și de cel mult 100.000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Adaugă în jurnal"</string>
+    <string name="core_delete_entry" formatted="false">"Șterge înregistrarea"</string>
+    <string name="core_delete_portion_question" formatted="false">"Ștergi această porție din jurnal?"</string>
+    <string name="core_new_food" formatted="false">"Aliment sau preparat nou"</string>
+    <string name="core_edit_nutrition" formatted="false">"Editează valorile nutriționale"</string>
+    <string name="core_name" formatted="false">"Denumire"</string>
+    <string name="core_food" formatted="false">"Aliment"</string>
+    <string name="core_dish" formatted="false">"Preparat gata de consum"</string>
+    <string name="core_category" formatted="false">"Categorie"</string>
+    <string name="core_per100_hint" formatted="false">"Valori pentru 100 g de pe ambalaj sau din rețetă. Introdu 0 dacă un nutrient lipsește."</string>
+    <string name="core_kcal" formatted="false">"Calorii"</string>
+    <string name="core_protein_grams" formatted="false">"Proteine, g"</string>
+    <string name="core_fat_grams" formatted="false">"Grăsimi, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Carbohidrați, g"</string>
+    <string name="core_food_note" formatted="false">"Notă, ingrediente (opțional)"</string>
+    <string name="core_favorite" formatted="false">"Adaugă la favorite"</string>
+    <string name="core_name_category_required" formatted="false">"Introdu o denumire și o categorie"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Introdu valori pentru 100 g: calorii între 0 și 1.000; proteine, grăsimi și carbohidrați între 0 și 100 g"</string>
+    <string name="core_delete_food" formatted="false">"Șterge din alimente"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Mesele deja înregistrate își vor păstra valorile."</string>
+    <string name="core_delete_food_question" formatted="false">"Ștergi acest aliment? Înregistrările sale din jurnal vor fi păstrate."</string>
+    <string name="core_day_entry" formatted="false">"Înregistrare zilnică"</string>
+    <string name="core_optional_fields" formatted="false">"Completează câmpurile dorite. Lasă-le goale pe celelalte."</string>
+    <string name="core_editing_existing" formatted="false">"Există deja o înregistrare pentru această dată. Acum o editezi."</string>
+    <string name="core_weight_kg" formatted="false">"Greutate, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Talie, cm"</string>
+    <string name="core_steps" formatted="false">"Pași"</string>
+    <string name="core_sleep" formatted="false">"Somn"</string>
+    <string name="core_hours" formatted="false">"Ore"</string>
+    <string name="core_minutes" formatted="false">"Minute"</string>
+    <string name="core_body_fat_optional" formatted="false">"Grăsime indicată de cântar, % (opțional)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Procentul de grăsime indicat de cântar ajută la urmărirea tendinței; nu este o măsurătoare exactă."</string>
+    <string name="core_strength_training" formatted="false">"Antrenament de forță"</string>
+    <string name="core_training_example" formatted="false">"De exemplu: genuflexiuni 3×10, gantere de 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Totaluri nutriționale manuale"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Dacă sunt completate, aceste valori înlocuiesc totalurile zilnice din alimente. Lasă-le goale pentru calcul automat."</string>
+    <string name="core_daily_calories" formatted="false">"Calorii zilnice"</string>
+    <string name="core_daily_protein" formatted="false">"Proteine zilnice, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Note și stare de bine"</string>
+    <string name="core_steps_invalid" formatted="false">"Pași: număr întreg între 0 și 200.000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Somn: 0–24 de ore, 0–59 de minute"</string>
+    <string name="core_body_fat" formatted="false">"Grăsime corporală"</string>
+    <string name="core_calories" formatted="false">"Calorii"</string>
+    <string name="core_protein" formatted="false">"Proteine"</string>
+    <string name="core_entry_required" formatted="false">"Adaugă cel puțin o măsurătoare sau o notă"</string>
+    <string name="core_delete_day" formatted="false">"Șterge înregistrarea zilnică"</string>
+    <string name="core_optional_goals" formatted="false">"Toate obiectivele sunt opționale. Un câmp gol înseamnă că nu este stabilit un obiectiv."</string>
+    <string name="core_calories_per_day" formatted="false">"Calorii pe zi"</string>
+    <string name="core_protein_per_day" formatted="false">"Proteine pe zi, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Grăsimi pe zi, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Carbohidrați pe zi, g"</string>
+    <string name="core_target_weight" formatted="false">"Greutate țintă, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Verifică obiectivele: calorii între 0 și 10.000; proteine, grăsimi și carbohidrați între 0 și 1.000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Greutate țintă: între 1 și 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Ștergi?"</string>
+    <string name="core_delete" formatted="false">"Șterge"</string>
+    <string name="core_select_food" formatted="false">"Alege un aliment"</string>
+    <string name="core_foods_dishes" formatted="false">"Alimente și preparate"</string>
+    <string name="core_search_food" formatted="false">"Caută un aliment sau preparat"</string>
+    <string name="core_new_food_button" formatted="false">"+ Aliment / preparat"</string>
+    <string name="core_recipe_button" formatted="false">"Dintr-o rețetă"</string>
+    <string name="core_no_results" formatted="false">"Niciun rezultat"</string>
+    <string name="core_no_results_help" formatted="false">"Încearcă altă căutare sau adaugă propriul aliment ori preparat."</string>
+    <string name="core_edit" formatted="false">"Editează"</string>
+    <string name="core_achievement_unlocked">"🏆 Realizare deblocată! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Au rămas %1$s kcal · obiectiv %2$s"</string>
+    <string name="core_above_goal">"Cu %1$s kcal peste obiectiv"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Proteine %1$s   Grăsimi %2$s   Carbohidrați %3$s"</string>
+    <string name="core_weight_summary">"Greutate %1$s kg"</string>
+    <string name="core_waist_summary">"Talie %1$s cm"</string>
+    <string name="core_steps_summary">"Pași: %1$s"</string>
+    <string name="core_fat_summary">"Grăsime corporală %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (manual)"</string>
+    <string name="core_manual_protein">"Proteine %1$s g (manual)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Somn %1$s"</string>
+    <string name="core_scale_fat">"Grăsime indicată de cântar %1$s%%"</string>
+    <string name="core_training_value">"Antrenament: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Proteine %1$s g"</string>
+    <string name="core_app_version">"Jurnal alimentar · %1$s"</string>
+    <string name="core_per100_summary">"La 100 g: %1$s kcal · Proteine %2$s · Grăsimi %3$s · Carbohidrați %4$s"</string>
+    <string name="core_range_invalid">"%1$s: introdu o valoare între %2$s și %3$s"</string>
+    <string name="core_delete_day_question">"Ștergi măsurătorile din %1$s? Mesele vor fi păstrate."</string>
+    <string name="core_catalog_count">"Alimente: %1$s · valori la 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Proteine %2$s   Grăsimi %3$s   Carbohidrați %4$s"</string>
+    <string name="core_today_date">"Astăzi · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Caloriile și proteinele sunt totalurile introduse manual în jurnal"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Caloriile reprezintă totalul introdus manual în jurnal"</string>
+    <string name="core_manual_protein_total" formatted="false">"Proteinele reprezintă totalul introdus manual în jurnal"</string>
+    <string name="core_macro_goals">"Obiective P / G / C: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (manual)"</string>
+    <string name="core_all" formatted="false">"Toate"</string>
+    <string name="core_favorites" formatted="false">"Favorite"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Ziua precedentă"</string>
+    <string name="core_next_day" formatted="false">"Ziua următoare"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Copia de migrare nu corespunde"</string>
+    <string name="data_entry_exists" formatted="false">"Această înregistrare alimentară există deja"</string>
+    <string name="data_entry_missing" formatted="false">"Înregistrarea alimentară nu a fost găsită"</string>
+    <string name="data_edited_date_changed" formatted="false">"Data înregistrării editate s-a schimbat"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Identificatorul local al dispozitivului este deteriorat; restaurarea este blocată"</string>
+    <string name="data_sync_invalid" formatted="false">"Date de sincronizare nevalide"</string>
+    <string name="data_diary_read_only" formatted="false">"Jurnalul este protejat împotriva suprascrierii: restaurează o copie de siguranță"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Datele jurnalului sunt incoerente"</string>
+    <string name="data_backup_too_large" formatted="false">"Copia de siguranță este prea mare"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Identificatorul instalării este deteriorat"</string>
+    <string name="data_save_verification_failed" formatted="false">"Salvarea jurnalului nu a putut fi verificată"</string>
+    <string name="data_save_failed" formatted="false">"Jurnalul nu a putut fi salvat"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Copia de siguranță depășește 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Fișierul jurnalului este prea mare"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Dimensiune nevalidă a bazei de alimente"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Versiune de copie de siguranță neacceptată"</string>
+    <string name="data_too_many_values">"Prea multe valori în %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Prea multe alimente"</string>
+    <string name="data_too_many_entries" formatted="false">"Prea multe înregistrări alimentare"</string>
+    <string name="data_too_many_logs" formatted="false">"Prea multe înregistrări în jurnal"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Identificator de aliment duplicat"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Identificator de înregistrare alimentară duplicat"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Dată duplicată în jurnal"</string>
+    <string name="data_label_product_id" formatted="false">"Identificatorul alimentului"</string>
+    <string name="data_label_product_name" formatted="false">"Denumirea alimentului"</string>
+    <string name="data_label_category" formatted="false">"Categorie"</string>
+    <string name="data_label_note" formatted="false">"Notă"</string>
+    <string name="data_label_entry_id" formatted="false">"Identificatorul înregistrării"</string>
+    <string name="data_label_meal" formatted="false">"Masă"</string>
+    <string name="data_food_weight_range" formatted="false">"Greutatea alimentului trebuie să fie mai mare de 0 și de cel mult 100.000 g"</string>
+    <string name="data_label_weight" formatted="false">"Greutate"</string>
+    <string name="data_label_waist" formatted="false">"Talie"</string>
+    <string name="data_steps_range" formatted="false">"Numărul de pași trebuie să fie între 0 și 200.000"</string>
+    <string name="data_label_sleep" formatted="false">"Somn"</string>
+    <string name="data_label_body_fat" formatted="false">"Grăsime corporală"</string>
+    <string name="data_label_daily_calories" formatted="false">"Calorii zilnice"</string>
+    <string name="data_label_daily_protein" formatted="false">"Proteine zilnice"</string>
+    <string name="data_label_workout" formatted="false">"Antrenament"</string>
+    <string name="data_label_log_note" formatted="false">"Notă"</string>
+    <string name="data_log_empty" formatted="false">"Introdu cel puțin o măsurătoare sau o notă"</string>
+    <string name="data_label_goal_weight" formatted="false">"Greutate țintă"</string>
+    <string name="data_too_many_achievements" formatted="false">"Prea multe realizări"</string>
+    <string name="data_achievement_invalid" formatted="false">"Realizare nevalidă"</string>
+    <string name="data_setting_not_portable" formatted="false">"Această setare nu poate fi transferată"</string>
+    <string name="data_setting_invalid">"Valoare nevalidă pentru setarea %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Calorii"</string>
+    <string name="data_label_protein" formatted="false">"Proteine"</string>
+    <string name="data_label_fat" formatted="false">"Grăsimi"</string>
+    <string name="data_label_carbs" formatted="false">"Carbohidrați"</string>
+    <string name="data_value_range">"%1$s: interval permis de la %2$s la %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: lungime nevalidă"</string>
+    <string name="data_text_character_invalid">"%1$s: caracter nepermis"</string>
+    <string name="data_date_format_invalid" formatted="false">"Data trebuie să aibă formatul AAAA-LL-ZZ"</string>
+    <string name="data_date_nonexistent">"Dată nevalidă: %1$s"</string>
+    <string name="data_field_string_required">"Câmpul %1$s trebuie să conțină text"</string>
+    <string name="data_field_boolean_required">"Câmpul %1$s trebuie să fie o valoare logică"</string>
+    <string name="data_field_number_required">"Câmpul %1$s trebuie să fie un număr"</string>
+    <string name="data_field_finite_required">"Câmpul %1$s trebuie să fie un număr finit"</string>
+    <string name="data_field_integer_required">"Câmpul %1$s trebuie să fie un număr întreg"</string>
+    <string name="data_too_many_items">"Prea multe elemente în %1$s"</string>
+    <string name="data_data_file_invalid">"Fișier de date nevalid: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Lipsește identificatorul dispozitivului"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"S-a atins limita ceasului logic"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Prea multe înregistrări de sincronizare"</string>
+    <string name="data_sync_version_required" formatted="false">"Sincronizarea necesită formatul versiunii 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Cheie de sincronizare nevalidă"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Cheie de sincronizare duplicată"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Indicator de ștergere nevalid"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Date de sincronizare nevalide"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Versiunea înregistrării depășește ceasul logic"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Datele nu corespund metadatelor de sincronizare"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Lungime nevalidă a cheii de sincronizare"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Cheie de sincronizare formatată incorect"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Tip de sincronizare necunoscut"</string>
+    <string name="data_record_id_too_long" formatted="false">"Identificatorul înregistrării este prea lung"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Ștergere nevalidă a realizării"</string>
+    <string name="data_log_key_invalid" formatted="false">"Cheie de jurnal nevalidă"</string>
+    <string name="data_log_field_unknown" formatted="false">"Câmp de jurnal necunoscut"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Marcaj de ștergere a jurnalului nevalid"</string>
+    <string name="data_goal_unknown" formatted="false">"Obiectiv necunoscut"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"O înregistrare ștearsă conține date"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Valoare de sincronizare nevalidă"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Identificatorul înregistrării nu corespunde cheii"</string>
+    <string name="data_field_value_invalid" formatted="false">"Valoare de câmp nevalidă"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Data realizării nu corespunde cheii"</string>
+    <string name="data_note_string_required" formatted="false">"Nota trebuie să conțină text"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Notă sincronizată nevalidă"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Ceas logic nevalid"</string>
+    <string name="data_device_invalid" formatted="false">"Dispozitiv nevalid"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Marcaj de versiune nevalid"</string>
+    <string name="data_google_login_required" formatted="false">"Conectează-te din nou la Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Prea multe copii de siguranță în cloud"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive a returnat o pagină repetată"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Copia din cloud depășește 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive nu a returnat o adresă de încărcare"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Adresă de încărcare Google Drive nevalidă"</string>
+    <string name="data_back" formatted="false">"‹  Înapoi"</string>
+    <string name="data_cloud_title" formatted="false">"Sincronizare în cloud"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Jurnalul tău pe toate dispozitivele"</string>
+    <string name="data_no_account" formatted="false">"Niciun cont conectat"</string>
+    <string name="data_cloud_intro" formatted="false">"Conectarea este opțională. Alimentele, mesele, măsurătorile, obiectivele și realizările sunt păstrate pe telefon. După conectare, o copie va fi păstrată într-un dosar ascuns din Google Drive."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Înregistrările sunt îmbinate la prima conectare. Aplicația nu poate accesa celelalte fișiere din Drive."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Conectarea cu Google nu este încă configurată pentru această versiune. Jurnalul și copiile în fișiere funcționează fără cont."</string>
+    <string name="data_connect_google" formatted="false">"Conectează Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Sincronizare automată"</string>
+    <string name="data_automatic_sync_description" formatted="false">"La modificări și în fundal, când Android permite"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Programarea nu a putut fi modificată. Datele tale sunt salvate pe acest dispozitiv."</string>
+    <string name="data_sync_start_failed" formatted="false">"Sincronizarea nu a putut fi pornită. Datele tale sunt salvate pe acest dispozitiv."</string>
+    <string name="data_sync_now" formatted="false">"Sincronizează acum"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Conectează-te din nou la Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Deconectează contul"</string>
+    <string name="data_sync_never" formatted="false">"Încă nu s-a efectuat nicio sincronizare"</string>
+    <string name="data_offline_saved_title" formatted="false">"Datele tale sunt salvate offline"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Când sincronizarea automată este activă, modificările sunt trimise când există conexiune. Dacă același câmp este editat pe două dispozitive, se folosește versiunea cu marcajul temporal de modificare mai recent. Înregistrările și câmpurile independente sunt îmbinate."</string>
+    <string name="data_cloud_password_description" formatted="false">"Introduci parola numai pe pagina Google din browser. Tokenurile de acces sunt protejate prin Android Keystore și excluse din copiile de siguranță."</string>
+    <string name="data_google_connection_title" formatted="false">"Conexiune Google"</string>
+    <string name="data_got_it" formatted="false">"Am înțeles"</string>
+    <string name="data_connect_drive_title" formatted="false">"Conectezi Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Jurnalul actual va fi îmbinat cu datele din contul Google ales. Folosește același cont personal pe dispozitivele tale. Conectarea se va deschide în browserul implicit."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Conectarea nu a putut fi deschisă. Instalează sau activează un browser implicit și încearcă din nou."</string>
+    <string name="data_continue" formatted="false">"Continuă"</string>
+    <string name="data_cancel" formatted="false">"Anulează"</string>
+    <string name="data_disconnect_title" formatted="false">"Deconectezi contul?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sincronizarea se va opri pe acest dispozitiv. Jurnalul local și copiile din Google Drive vor fi păstrate. Poți gestiona permisiunea aplicației din setările contului Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Contul nu a putut fi deconectat. Încearcă din nou."</string>
+    <string name="data_disconnect" formatted="false">"Deconectează"</string>
+    <string name="data_google_not_connected" formatted="false">"Google nu este conectat"</string>
+    <string name="data_sync_ready" formatted="false">"Pregătit pentru sincronizare"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Modificările așteaptă sincronizarea…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Fără internet. Modificările sunt salvate pe acest dispozitiv."</string>
+    <string name="data_google_not_configured" formatted="false">"Conectarea cu Google nu este încă configurată pentru această versiune"</string>
+    <string name="data_sync_wait" formatted="false">"Așteaptă finalizarea sincronizării"</string>
+    <string name="data_google_connecting" formatted="false">"Se conectează la Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Conectare anulată"</string>
+    <string name="data_connection_rejected" formatted="false">"Conectarea a fost anulată sau refuzată de Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google este conectat. Se îmbină înregistrările…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google nu a putut fi conectat. Verifică internetul și setările de acces."</string>
+    <string name="data_account_disconnected" formatted="false">"Cont deconectat. Datele rămân pe acest dispozitiv."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Fără internet. Sincronizarea așteaptă o conexiune."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sincronizare programată…"</string>
+    <string name="data_sync_running" formatted="false">"Se sincronizează…"</string>
+    <string name="data_sync_complete" formatted="false">"Sincronizare finalizată"</string>
+    <string name="data_no_internet" formatted="false">"Fără conexiune la internet"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Sincronizarea nu a reușit. Datele tale sunt salvate pe acest dispozitiv"</string>
+    <string name="data_page_open_failed" formatted="false">"Pagina nu a putut fi deschisă. Poți copia adresa din textul de mai jos."</string>
+    <string name="data_privacy_title" formatted="false">"Confidențialitate"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Înregistrările tale și controlul datelor"</string>
+    <string name="data_app_purpose" formatted="false">"Despre această aplicație"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Această aplicație nu este un dispozitiv medical. Nu diagnostichează, tratează, vindecă sau previne boli. Consultă un profesionist medical calificat pentru sfaturi medicale, diagnostic și tratament."</string>
+    <string name="data_manage_delete_data" formatted="false">"Gestionează și șterge datele"</string>
+    <string name="data_delete_data_intro" formatted="false">"Înainte de a șterge toate datele, dezactivează sincronizarea pe fiecare dispozitiv. Dezinstalarea aplicației de pe telefon nu șterge copiile din Google Drive sau fișierele exportate."</string>
+    <string name="data_manage_drive_data" formatted="false">"Gestionează datele Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Acces la contul Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Stocarea aplicației în Android"</string>
+    <string name="data_contact_developer" formatted="false">"Contactează dezvoltatorul"</string>
+    <string name="data_opening_page" formatted="false">"Se deschide pagina"</string>
+    <string name="data_advertisement" formatted="false">"PUBLICITATE"</string>
+    <string name="data_ad_information" formatted="false">"Despre această reclamă"</string>
+    <string name="data_cloud_http_error">"Eroare HTTP în cloud %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Răspunsul din cloud este prea mare"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Sesiune de conectare criptată nevalidă"</string>
+    <string name="data_session_save_failed" formatted="false">"Sesiunea de conectare nu a putut fi salvată"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Accesul Google nu a putut fi reînnoit"</string>
+    <string name="data_diary_read_failed">"Jurnalul nu a putut fi citit. Fișierul original a fost păstrat. Restaurează datele dintr-o copie de siguranță. %1$s"</string>
+    <string name="data_last_sync">"Ultima sincronizare: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Fructe și fructe de pădure"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Fructe uscate"</string>
+    <string name="data_category_vegetables" formatted="false">"Legume și verdețuri"</string>
+    <string name="data_category_mushrooms" formatted="false">"Ciuperci"</string>
+    <string name="data_category_grains" formatted="false">"Cereale și paste"</string>
+    <string name="data_category_legumes" formatted="false">"Leguminoase"</string>
+    <string name="data_category_meat" formatted="false">"Carne și pasăre"</string>
+    <string name="data_category_fish" formatted="false">"Pește și fructe de mare"</string>
+    <string name="data_category_dairy" formatted="false">"Lactate"</string>
+    <string name="data_category_eggs" formatted="false">"Ouă"</string>
+    <string name="data_category_oils" formatted="false">"Uleiuri și unt"</string>
+    <string name="data_category_nuts" formatted="false">"Nuci și semințe"</string>
+    <string name="data_category_bread" formatted="false">"Pâine"</string>
+    <string name="data_category_other" formatted="false">"Alte alimente"</string>
+    <string name="data_category_dishes" formatted="false">"Preparate gata de consum"</string>
+    <string name="data_category_custom" formatted="false">"Alimentele mele"</string>
+    <string name="data_category_other_short" formatted="false">"Altele"</string>
+    <string name="data_food_seed_9003" formatted="false">"Măr cu coajă"</string>
+    <string name="data_catalog_note_1">"Valori de referință pentru 100 g de parte comestibilă. Aliment crud. Valorile USDA pentru carbohidrați includ fibrele. Poți ajusta valorile după eticheta produsului. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Banană fără coajă"</string>
+    <string name="data_food_seed_9021" formatted="false">"Caisă fără sâmbure"</string>
+    <string name="data_food_seed_9037" formatted="false">"Pulpă de avocado"</string>
+    <string name="data_food_seed_9050" formatted="false">"Afine"</string>
+    <string name="data_food_seed_9070" formatted="false">"Cireșe fără sâmburi"</string>
+    <string name="data_food_seed_9063" formatted="false">"Vișine fără sâmburi"</string>
+    <string name="data_food_seed_9078" formatted="false">"Merișoare"</string>
+    <string name="data_food_seed_9083" formatted="false">"Coacăze negre"</string>
+    <string name="data_food_seed_9084" formatted="false">"Coacăze roșii și albe"</string>
+    <string name="data_food_seed_9132" formatted="false">"Struguri"</string>
+    <string name="data_food_seed_9148" formatted="false">"Pulpă de kiwi"</string>
+    <string name="data_food_seed_9150" formatted="false">"Lămâie fără coajă"</string>
+    <string name="data_food_seed_9181" formatted="false">"Pulpă de pepene galben cantalup"</string>
+    <string name="data_food_seed_9200" formatted="false">"Pulpă de portocală"</string>
+    <string name="data_food_seed_9218" formatted="false">"Pulpă de mandarină"</string>
+    <string name="data_food_seed_9236" formatted="false">"Piersică fără sâmbure"</string>
+    <string name="data_food_seed_9252" formatted="false">"Pară"</string>
+    <string name="data_food_seed_9266" formatted="false">"Pulpă de ananas"</string>
+    <string name="data_food_seed_9279" formatted="false">"Prună fără sâmbure"</string>
+    <string name="data_food_seed_9286" formatted="false">"Semințe de rodie"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pulpă de pomelo"</string>
+    <string name="data_food_seed_9302" formatted="false">"Zmeură"</string>
+    <string name="data_food_seed_9316" formatted="false">"Căpșuni"</string>
+    <string name="data_food_seed_9326" formatted="false">"Pulpă de pepene verde"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nectarină fără sâmbure"</string>
+    <string name="data_food_seed_9176" formatted="false">"Pulpă de mango"</string>
+    <string name="data_food_seed_9107" formatted="false">"Agrișe"</string>
+    <string name="data_food_seed_9226" formatted="false">"Pulpă de papaya"</string>
+    <string name="data_food_seed_9089" formatted="false">"Smochine proaspete"</string>
+    <string name="data_food_seed_9111" formatted="false">"Pulpă de grepfrut"</string>
+    <string name="data_food_seed_9032" formatted="false">"Caise uscate fără sâmburi"</string>
+    <string name="data_catalog_note_2">"Valori de referință pentru 100 g de parte comestibilă. Valorile USDA pentru carbohidrați includ fibrele. Poți ajusta valorile după eticheta produsului. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Prune uscate fără sâmburi"</string>
+    <string name="data_food_seed_9087" formatted="false">"Curmale fără sâmburi"</string>
+    <string name="data_food_seed_9298" formatted="false">"Stafide închise la culoare, fără sâmburi"</string>
+    <string name="data_food_seed_11529" formatted="false">"Roșie proaspătă"</string>
+    <string name="data_food_seed_11205" formatted="false">"Castravete cu coajă"</string>
+    <string name="data_food_seed_11090" formatted="false">"Broccoli crud"</string>
+    <string name="data_food_seed_11109" formatted="false">"Varză albă crudă"</string>
+    <string name="data_food_seed_11124" formatted="false">"Morcov crud"</string>
+    <string name="data_food_seed_11135" formatted="false">"Conopidă crudă"</string>
+    <string name="data_food_seed_11143" formatted="false">"Tulpini de țelină"</string>
+    <string name="data_food_seed_11282" formatted="false">"Ceapă crudă"</string>
+    <string name="data_food_seed_11291" formatted="false">"Ceapă verde"</string>
+    <string name="data_food_seed_11304" formatted="false">"Mazăre verde crudă"</string>
+    <string name="data_food_seed_11333" formatted="false">"Ardei gras verde"</string>
+    <string name="data_food_seed_11821" formatted="false">"Ardei gras roșu"</string>
+    <string name="data_food_seed_11352" formatted="false">"Cartof crud cu coajă"</string>
+    <string name="data_food_seed_11367" formatted="false">"Cartof fiert fără coajă"</string>
+    <string name="data_catalog_note_3">"Valori de referință pentru 100 g de parte comestibilă. Fără sare adăugată. Valorile USDA pentru carbohidrați includ fibrele. Poți ajusta valorile după eticheta produsului. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Dovlecel crud"</string>
+    <string name="data_food_seed_11209" formatted="false">"Vânătă crudă"</string>
+    <string name="data_food_seed_11422" formatted="false">"Dovleac crud"</string>
+    <string name="data_food_seed_11429" formatted="false">"Ridiche"</string>
+    <string name="data_food_seed_11564" formatted="false">"Nap crud"</string>
+    <string name="data_food_seed_11080" formatted="false">"Sfeclă roșie crudă"</string>
+    <string name="data_food_seed_11081" formatted="false">"Sfeclă roșie fiartă"</string>
+    <string name="data_food_seed_11215" formatted="false">"Usturoi"</string>
+    <string name="data_food_seed_11216" formatted="false">"Rădăcină de ghimbir"</string>
+    <string name="data_food_seed_11457" formatted="false">"Spanac crud"</string>
+    <string name="data_food_seed_11253" formatted="false">"Salată verde cu frunze"</string>
+    <string name="data_food_seed_11297" formatted="false">"Pătrunjel proaspăt"</string>
+    <string name="data_food_seed_2045" formatted="false">"Mărar proaspăt"</string>
+    <string name="data_food_seed_11052" formatted="false">"Fasole verde crudă"</string>
+    <string name="data_food_seed_11167" formatted="false">"Boabe crude de porumb dulce"</string>
+    <string name="data_food_seed_11260" formatted="false">"Ciuperci champignon crude"</string>
+    <string name="data_food_seed_11261" formatted="false">"Ciuperci champignon fierte fără sare"</string>
+    <string name="data_food_seed_11987" formatted="false">"Ciuperci pleurotus crude"</string>
+    <string name="data_food_seed_20009" formatted="false">"Hrișcă uscată"</string>
+    <string name="data_catalog_note_4">"Valori de referință pentru 100 g de parte comestibilă. Boabe de hrișcă prăjite. Valorile USDA pentru carbohidrați includ fibrele. Poți ajusta valorile după eticheta produsului. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Hrișcă fiartă în apă"</string>
+    <string name="data_food_seed_20444" formatted="false">"Orez alb uscat"</string>
+    <string name="data_food_seed_20445" formatted="false">"Orez alb fiert fără sare"</string>
+    <string name="data_food_seed_20036" formatted="false">"Orez brun uscat"</string>
+    <string name="data_food_seed_20037" formatted="false">"Orez brun fiert"</string>
+    <string name="data_food_seed_8120" formatted="false">"Fulgi de ovăz uscați"</string>
+    <string name="data_food_seed_8121" formatted="false">"Terci de ovăz cu apă, fără sare"</string>
+    <string name="data_food_seed_20005" formatted="false">"Arpacaș de orz uscat"</string>
+    <string name="data_food_seed_20006" formatted="false">"Arpacaș de orz fiert"</string>
+    <string name="data_food_seed_20031" formatted="false">"Mei uscat"</string>
+    <string name="data_food_seed_20032" formatted="false">"Mei fiert"</string>
+    <string name="data_food_seed_20420" formatted="false">"Paste uscate"</string>
+    <string name="data_food_seed_20421" formatted="false">"Paste fierte fără sare"</string>
+    <string name="data_food_seed_16070" formatted="false">"Linte fiartă fără sare"</string>
+    <string name="data_food_seed_16057" formatted="false">"Năut fiert fără sare"</string>
+    <string name="data_food_seed_16033" formatted="false">"Fasole roșie fiartă fără sare"</string>
+    <string name="data_food_seed_5062" formatted="false">"Piept de pui crud fără piele"</string>
+    <string name="data_food_seed_5064" formatted="false">"Piept de pui copt fără piele"</string>
+    <string name="data_food_seed_5219" formatted="false">"Piept de curcan crud fără piele"</string>
+    <string name="data_food_seed_5220" formatted="false">"Piept de curcan copt fără piele"</string>
+    <string name="data_food_seed_23562" formatted="false">"Carne tocată de vită cu 10% grăsime, crudă"</string>
+    <string name="data_food_seed_23566" formatted="false">"Carne tocată de vită cu 10% grăsime, coaptă"</string>
+    <string name="data_food_seed_10060" formatted="false">"Mușchiuleț de porc crud, fără grăsime vizibilă"</string>
+    <string name="data_food_seed_10061" formatted="false">"Mușchiuleț de porc copt"</string>
+    <string name="data_food_seed_15236" formatted="false">"Somon atlantic crud"</string>
+    <string name="data_catalog_note_5">"Valori de referință pentru 100 g de parte comestibilă. Aliment crud. Crescut în fermă. Valorile USDA pentru carbohidrați includ fibrele. Poți ajusta valorile după eticheta produsului. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Somon atlantic copt"</string>
+    <string name="data_catalog_note_6">"Valori de referință pentru 100 g de parte comestibilă. Crescut în fermă. Valorile USDA pentru carbohidrați includ fibrele. Poți ajusta valorile după eticheta produsului. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Cod atlantic crud"</string>
+    <string name="data_food_seed_15266" formatted="false">"Pollock de Alaska crud"</string>
+    <string name="data_food_seed_15121" formatted="false">"Ton conservat în apă, scurs"</string>
+    <string name="data_food_seed_15271" formatted="false">"Creveți gătiți și decorticați"</string>
+    <string name="data_food_seed_1211" formatted="false">"Lapte cu 3,25% grăsime"</string>
+    <string name="data_food_seed_1174" formatted="false">"Lapte cu 2% grăsime"</string>
+    <string name="data_food_seed_1082" formatted="false">"Lapte cu 1% grăsime"</string>
+    <string name="data_food_seed_1116" formatted="false">"Iaurt simplu din lapte integral"</string>
+    <string name="data_food_seed_1256" formatted="false">"Iaurt grecesc degresat"</string>
+    <string name="data_food_seed_1015" formatted="false">"Brânză cottage cu 2% grăsime"</string>
+    <string name="data_catalog_note_7">"Valori de referință pentru 100 g de parte comestibilă. Brânză cottage; alte tipuri de brânză proaspătă au valori diferite. Valorile USDA pentru carbohidrați includ fibrele. Poți ajusta valorile după eticheta produsului. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Smântână cu aproximativ 19% grăsime"</string>
+    <string name="data_food_seed_1009" formatted="false">"Brânză cheddar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mozzarella din lapte integral"</string>
+    <string name="data_food_seed_1019" formatted="false">"Brânză feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Ou de găină crud fără coajă"</string>
+    <string name="data_food_seed_1129" formatted="false">"Ou de găină fiert fără coajă"</string>
+    <string name="data_food_seed_1124" formatted="false">"Albuș crud de ou de găină"</string>
+    <string name="data_food_seed_1001" formatted="false">"Unt sărat"</string>
+    <string name="data_food_seed_4053" formatted="false">"Ulei de măsline"</string>
+    <string name="data_food_seed_4506" formatted="false">"Ulei de floarea-soarelui"</string>
+    <string name="data_food_seed_12061" formatted="false">"Migdale"</string>
+    <string name="data_food_seed_12155" formatted="false">"Miez de nucă"</string>
+    <string name="data_food_seed_12120" formatted="false">"Miez de alune de pădure"</string>
+    <string name="data_food_seed_12151" formatted="false">"Miez de fistic crud"</string>
+    <string name="data_food_seed_12014" formatted="false">"Miez de semințe de dovleac uscate"</string>
+    <string name="data_food_seed_16087" formatted="false">"Arahide crude decojite"</string>
+    <string name="data_food_seed_18069" formatted="false">"Pâine albă de grâu"</string>
+    <string name="data_food_seed_18075" formatted="false">"Pâine integrală de grâu"</string>
+    <string name="data_food_seed_18060" formatted="false">"Pâine de secară"</string>
+    <string name="data_food_seed_19296" formatted="false">"Miere"</string>
+    <string name="data_food_seed_19335" formatted="false">"Zahăr"</string>
+    <string name="data_food_seed_19165" formatted="false">"Pudră de cacao neîndulcită"</string>
+    <string name="data_food_seed_19904" formatted="false">"Ciocolată neagră cu 70–85% cacao"</string>
+    <string name="data_meal_breakfast" formatted="false">"Mic dejun"</string>
+    <string name="data_meal_lunch" formatted="false">"Prânz"</string>
+    <string name="data_meal_dinner" formatted="false">"Cină"</string>
+    <string name="data_meal_snack" formatted="false">"Gustare"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Politica de confidențialitate Diet Diary\nRevizuită la 9 octombrie 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Aplicație: Diet Diary; titlul în limba rusă din Google Play: «Дневник диеты: подсчёт калорий»; nume pachet: ru.dietdiary.offline.\nDezvoltatorul proiectului: Efreitor2001. Pentru întrebări despre aplicație sau prelucrarea datelor, contactează-ne prin https://github.com/Efreitor2001/kkalcal/issues . Solicitările GitHub sunt publice: nu publica date despre sănătate, copii de siguranță, parole sau tokenuri."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Jurnalul de pe dispozitivul tău\nNu este necesară înregistrarea pentru a ține un jurnal. Aplicația păstrează alimentele și valorile nutriționale, porțiile și datele meselor, greutatea, talia, procentul de grăsime, pașii, somnul, descrierile antrenamentelor, notele, obiectivele, realizările și setările în spațiul privat al aplicației de pe dispozitiv. Câmpurile opționale pot rămâne necompletate. Pașii, somnul și măsurătorile se introduc manual; aplicația nu citește date din Health Connect, din senzorii de activitate fizică sau din dispozitive medicale."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Aceste informații sunt folosite pentru calcularea caloriilor și macronutrienților și pentru afișarea istoricului, graficelor și realizărilor. Dezvoltatorul nu are un server care primește conținutul jurnalului. Dacă nu conectezi Google Drive și nu distribui personal o copie de siguranță, înregistrările rămân pe dispozitiv."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Conectare opțională la Google Drive\nLa cererea ta, aplicația deschide conectarea Google în browserul implicit și solicită acces la spațiul ascuns de date al aplicației din Google Drive. Această permisiune nu oferă acces la documentele și fotografiile obișnuite din Drive."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"După conectare, alimentele, mesele, măsurătorile din jurnal, notele, obiectivele, realizările, setările transferabile și metadatele modificărilor, inclusiv identificatori aleatorii de instalare și marcaje temporale, sunt trimise către Google. Acestea sunt folosite pentru a crea instantanee de siguranță și a îmbina înregistrările între dispozitive. Dacă sincronizarea automată este activă, modificările sunt trimise și în fundal când există conexiune la rețea. Poți dezactiva separat sincronizarea automată."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Aplicația primește adresa de e-mail și identificatorul contului Google selectat pentru a afișa conexiunea și a o asocia spațiului de stocare corect. Parola Google nu este transmisă aplicației. Sesiunea de autorizare este păstrată criptat pe dispozitiv, folosind o cheie din Android Keystore. Tokenurile, adresele de e-mail și identificatorii Google sunt excluși din exporturile jurnalului și din instantaneele JSON sincronizate."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Datele Google sunt folosite doar pentru autorizare și sincronizare, niciodată pentru publicitate. Se aplică politica de confidențialitate Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Fișiere de siguranță\n„Salvează în fișier” creează un fișier JSON în locul ales de tine. Restaurarea citește doar fișierul selectat. Dacă alegi un furnizor de fișiere în cloud sau distribui o copie altei persoane, tu alegi destinatarul. Aplicația nu criptează fișierele JSON exportate: acestea conțin date personale și metadate ale modificărilor."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Publicitate\nAplicația folosește Yandex Mobile Ads SDK. Pentru a încărca și afișa reclame, dispozitivul se conectează la servicii de publicitate. Yandex poate prelucra adresa IP și alte informații tehnice despre cererea de rețea, dispozitiv și software, identificatorii publicitari sau tehnici disponibili, precum și informații despre afișările reclamelor și interacțiunile cu acestea."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Aplicația indică SDK-ului că nu a fost acordat consimțământul, dezactivează colectarea locației și rapoartele App Ad Analytics. Nu solicită permisiuni pentru locație exactă sau aproximativă. Aceste setări nu înseamnă că serviciul de publicitate nu efectuează deloc comunicări în rețea sau prelucrări de date tehnice."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Aplicația nu folosește mesele, greutatea, măsurătorile, notele, obiectivele, adresele de e-mail sau identificatorii Google pentru direcționarea reclamelor și nu le adaugă parametrilor cererilor publicitare. Nu este necesar să vizionezi reclame pentru a salva înregistrări."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Regulile Yandex privind prelucrarea, păstrarea și ștergerea datelor: https://yandex.ru/legal/confidential/ . Poți gestiona identificatorul publicitar din setările Android dacă versiunea sistemului permite. Politica serviciului de publicitate stabilește durata de păstrare a datelor sale tehnice; dezvoltatorul jurnalului nu stabilește o durată separată pentru acestea."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Protecția datelor\nComunicarea cu Google folosește HTTPS; Yandex declară că datele SDK sunt transmise prin HTTPS/TLS. Jurnalul local este protejat prin izolarea aplicațiilor Android. Aplicația nu criptează separat conținutul jurnalului sau instantaneele JSON; nu oferă criptare de la un capăt la altul între dispozitive."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Copierea de siguranță a datelor aplicației prin sistem este dezactivată. Jurnalele de diagnostic scrise de codul aplicației conțin coduri de rezultat, fără conținutul jurnalului, adrese de e-mail, tokenuri sau corpuri ale răspunsurilor de rețea; aplicația nu trimite separat aceste jurnale dezvoltatorului."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Păstrare și ștergere\nÎnregistrările locale sunt păstrate până când le editezi, le ștergi sau golești datele aplicației. Ștergerea unei înregistrări o elimină din interfață și transmite un marcaj de ștergere la sincronizare. Metadatele de îmbinare sunt păstrate pentru a împiedica reapariția datelor vechi; pot conține valori anterioare ale unei înregistrări șterse din jurnal. Valorile anterioare pot rămâne și în instantanee cloud mai vechi și în fișiere create anterior. Prin urmare, ștergerea unei înregistrări nu șterge complet toate copiile sale."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"„Deconectează contul” oprește sincronizarea pe acest dispozitiv și șterge sesiunea Google locală. Jurnalul și instantaneele din Google Drive sunt păstrate. Deconectarea aplicației nu șterge contul Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Pentru a șterge complet datele acestei aplicații:\n• Dezactivează sincronizarea pe toate dispozitivele pentru a nu încărca din nou copiile rămase.\n• În browser, deschide https://drive.google.com/drive/settings cu contul Google care era conectat. Alege „Gestionează aplicațiile”, găsește „Diet Diary” (sau „Дневник диеты”), apoi alege „Opțiuni” → „Șterge datele ascunse ale aplicației”. Dacă pagina mobilă nu afișează această secțiune, folosește versiunea pentru computer a site-ului sau un computer.\n• Revocă accesul aplicației la https://myaccount.google.com/connections . Revocarea accesului în sine nu șterge copiile salvate.\n• Golește spațiul de stocare al aplicației din setările Android pe fiecare dispozitiv sau dezinstalează aplicația.\n• Șterge copiile JSON salvate separat în dosarele și spațiile cloud alese de tine."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Fără datele tale de autentificare, dezvoltatorul nu poate șterge de la distanță jurnalul local sau fișierele din Google Drive personal. Nu transmite dezvoltatorului parola sau tokenurile. Pentru ajutor la ștergere, contactează proiectul prin linkul de la începutul acestei politici. Nu trebuie să ștergi contul Google pentru a șterge datele jurnalului."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Modificări și contact\nCând funcțiile aplicației sau practicile de prelucrare a datelor se schimbă, această politică este actualizată cu o dată de revizuire. Pentru întrebări despre acces, rectificare, ștergerea datelor sau funcționarea aplicației, folosește canalul de contact al proiectului. Solicitările trimise sunt prelucrate pentru a-ți răspunde și păstrate în GitHub; politica GitHub este disponibilă la https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Preparatele mele"</string>
+    <string name="secondary_metric_weight" formatted="false">"Greutate"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Grăsime corporală"</string>
+    <string name="secondary_metric_waist" formatted="false">"Talie"</string>
+    <string name="secondary_metric_steps" formatted="false">"Pași"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Somn"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Calorii"</string>
+    <string name="secondary_metric_protein" formatted="false">"Proteine"</string>
+    <string name="secondary_metric_fat" formatted="false">"Grăsimi"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Carbohidrați"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"pași"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Perioadă nevalidă"</string>
+    <string name="secondary_stats_title" formatted="false">"Evoluție"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Datele tale în grafice clare"</string>
+    <string name="secondary_metric" formatted="false">"Indicator"</string>
+    <string name="secondary_week" formatted="false">"Săptămână"</string>
+    <string name="secondary_month" formatted="false">"Lună"</string>
+    <string name="secondary_year" formatted="false">"An"</string>
+    <string name="secondary_custom_period" formatted="false">"Perioadă proprie"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Data de început nu poate fi după data de sfârșit"</string>
+    <string name="secondary_no_records" formatted="false">"Încă nu există date"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Adaugă alimente în jurnal sau alege altă perioadă."</string>
+    <string name="secondary_chart_tap" formatted="false">"Atinge graficul pentru a selecta o înregistrare"</string>
+    <string name="secondary_chart_connected" formatted="false">"Linia unește măsurătorile înregistrate. Între aceste puncte nu există măsurători."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Estimările cântarului sunt utile pentru urmărirea tendințelor."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Un total zilnic introdus manual înlocuiește totalul alimentelor. Altfel, alimentele înregistrate sunt însumate. Zilele fără date sunt omise."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Totalurile se bazează pe alimentele înregistrate. O zi fără date nu este considerată zero."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Zilele fără date sunt omise și excluse din medie."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Astăzi și ieri"</string>
+    <string name="secondary_no_today" formatted="false">"Nu există date pentru astăzi"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Nu există date pentru ieri"</string>
+    <string name="secondary_partial_today" formatted="false">"Comparația folosește datele curente. Datele de astăzi pot fi încă incomplete."</string>
+    <string name="secondary_period_summary" formatted="false">"Rezumatul perioadei"</string>
+    <string name="secondary_recorded_average" formatted="false">"Media zilelor înregistrate"</string>
+    <string name="secondary_recorded_days" formatted="false">"Zile cu date"</string>
+    <string name="secondary_minimum" formatted="false">"Minim"</string>
+    <string name="secondary_maximum" formatted="false">"Maxim"</string>
+    <string name="secondary_first_to_last" formatted="false">"De la prima la ultima înregistrare"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Sunt necesare cel puțin două zile cu date pentru a calcula schimbarea."</string>
+    <string name="secondary_history" formatted="false">"Istoric"</string>
+    <string name="secondary_history_recent" formatted="false">"Ultimele 14 zile cu date. Alege o perioadă proprie pentru înregistrări mai vechi."</string>
+    <string name="secondary_history_all" formatted="false">"Toate zilele înregistrate din perioada aleasă"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"De la %1$s"</string>
+    <string name="secondary_date_until">"Până la %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s în această perioadă"</string>
+    <string name="secondary_weight_goal">"Obiectiv: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Adaugă o măsurătoare în jurnal sau alege altă perioadă."</string>
+    <string name="secondary_latest_record">"Ultima înregistrare · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Astăzi: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Ieri: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Schimbare: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d din %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Zile înregistrate: %2$d, de la %3$s până la %4$s. Minim %5$s, maxim %6$s %7$s. Valorile detaliate apar în istoric."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Primul pas"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Înregistrează prima măsurătoare a greutății."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Prima măsurătoare a greutății a fost înregistrată."</string>
+    <string name="secondary_award_first_food" formatted="false">"Prima înregistrare"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Înregistrează prima porție de mâncare."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Prima porție de mâncare a fost înregistrată."</string>
+    <string name="secondary_award_weight_week" formatted="false">"O săptămână de date"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Înregistrează greutatea în 7 zile diferite. Nu trebuie să fie consecutive."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Ai măsurători ale greutății pentru 7 zile diferite."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Consecvență"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Înregistrează greutatea în 30 de zile diferite."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Ai măsurători ale greutății pentru 30 de zile."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Arhivar"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Înregistrează 100 de porții de mâncare în jurnal."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Ai înregistrat 100 de porții de mâncare."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Un obicei nou"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Înregistrează alimente timp de 7 zile calendaristice consecutive."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Ai înregistrat alimente timp de 7 zile consecutive."</string>
+    <string name="secondary_award_steps" formatted="false">"Campion la mers"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Înregistrează cel puțin 10.000 de pași într-o zi."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Ai înregistrat o zi cu 10.000 de pași."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Monitorizare constantă"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Înregistrează 100 de măsurători ale greutății. Se numără una pentru fiecare dată."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Ai înregistrat 100 de măsurători ale greutății."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Obișnuit cu jurnalul"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Înregistrează mese sau măsurători în 90 de zile diferite. Nu trebuie să fie consecutive."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Jurnalul tău conține înregistrări pentru 90 de zile diferite."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"măsurători"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porții"</string>
+    <string name="secondary_award_unit_days" formatted="false">"zile"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"zile consecutive"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"pași într-o zi"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"zile înregistrate"</string>
+    <string name="secondary_back" formatted="false">"‹  Înapoi"</string>
+    <string name="secondary_achievements" formatted="false">"Realizări"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Pașii mici devin un obicei"</string>
+    <string name="secondary_your_progress" formatted="false">"PROGRESUL TĂU"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Realizările obținute rămân chiar dacă editezi înregistrările."</string>
+    <string name="secondary_awards_regular" formatted="false">"Pentru consecvență și ținerea jurnalului"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Sunt luate în calcul înregistrările până astăzi inclusiv."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Realizare ascunsă"</string>
+    <string name="secondary_hidden_description" formatted="false">"Continuă să folosești jurnalul pentru a debloca această realizare."</string>
+    <string name="secondary_earned" formatted="false">"Obținută"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Ascunsă · blocată"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"În curs · blocată"</string>
+    <string name="secondary_locked" formatted="false">"Blocată"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Condiția și progresul vor fi dezvăluite când obții această realizare."</string>
+    <string name="secondary_best_streak" formatted="false">"Cea mai lungă serie"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Recompensă ascunsă"</string>
+    <string name="secondary_unlocked_of">"din %1$d deblocate"</string>
+    <string name="secondary_unlocked_date">"Deblocată la %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Înapoi"</string>
+    <string name="secondary_my_recipe" formatted="false">"Rețeta mea"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Cântărește ingredientele înainte de gătire. Folosește greutatea preparatului gătit pentru calculul porțiilor. Nu uita uleiurile și sosurile."</string>
+    <string name="secondary_recipe_name" formatted="false">"Denumirea rețetei"</string>
+    <string name="secondary_recipe_example" formatted="false">"De exemplu, tocăniță de legume"</string>
+    <string name="secondary_ingredients" formatted="false">"Ingrediente"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Începe cu ingredientele"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Adaugă fiecare ingredient și introdu greutatea în grame."</string>
+    <string name="secondary_edit_weight" formatted="false">"Editează greutatea"</string>
+    <string name="secondary_delete" formatted="false">"Șterge"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Adaugă ingredient"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Rețeta întreagă"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Gătirea modifică greutatea când se adaugă sau se evaporă apă. Cântărește preparatul gata fără recipient."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Greutatea preparatului gătit, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Introdu greutatea după gătire"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Introdu o greutate mai mare de 0 și de cel mult 100.000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Greutatea nu se completează automat"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"La 100 g de preparat gătit"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Verifică greutatea preparatului gătit și ingredientele: 100 g pot conține cel mult 1.000 kcal și 100 g din fiecare macronutrient."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Rețeta nu a putut fi salvată"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Salvează în rețetele mele"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"După salvare, preparatul poate fi adăugat în jurnal după greutatea porției."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Greutatea ingredientului înainte de gătire"</string>
+    <string name="secondary_grams" formatted="false">"Grame"</string>
+    <string name="secondary_weight_limits" formatted="false">"Mai mare de 0 și de cel mult 100.000 g"</string>
+    <string name="secondary_add" formatted="false">"Adaugă"</string>
+    <string name="secondary_save" formatted="false">"Salvează"</string>
+    <string name="secondary_cancel" formatted="false">"Anulează"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Alege ingredientul"</string>
+    <string name="secondary_search_food" formatted="false">"Caută alimente"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Niciun rezultat. Poți adăuga propriul aliment în fila Alimente."</string>
+    <string name="secondary_close" formatted="false">"Închide"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Proteine %1$s · Grăsimi %2$s · Carbohidrați %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Greutatea ingredientelor: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Greutate finală: %1$s g. Ingrediente: %2$s"</string>
+</resources>

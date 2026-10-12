@@ -128,7 +128,7 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
                         .joinToString("") { "%02x".format(it.toInt() and 255) }
                     val backup = AtomicFile(File(directory, "balance_data.v1-backup-$hash.json"))
                     if (!backup.baseFile.exists()) atomicWrite(backup, original)
-                    else require(backup.readFully().contentEquals(original)) { "Не совпадает резервная копия миграции" }
+                    else require(backup.readFully().contentEquals(original)) { tr(R.string.data_migration_backup_mismatch) }
                     val awarded = withAchievements(decoded).first
                     val state = SyncMerge.initial(awarded, catalog.products, deviceId, wallClock())
                     write(awarded, state)
@@ -149,8 +149,7 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
                 data = catalog; syncState = state
             }
         } catch (problem: Exception) {
-            error = "Не удалось прочитать дневник. Исходный файл сохранён. " +
-                "Восстановите данные из резервной копии. ${problem.message.orEmpty()}"
+            error = tr(R.string.data_diary_read_failed, problem.message.orEmpty())
             data = runCatching { loadCatalog(context) }.getOrElse { AppData(emptyList()) }
             syncState = SyncState(emptyMap())
         }
@@ -168,13 +167,13 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
 
     @Synchronized
     fun addEntry(entry: Entry) {
-        require(data.entries.none { it.id == entry.id }) { "Такая запись еды уже существует" }
+        require(data.entries.none { it.id == entry.id }) { tr(R.string.data_entry_exists) }
         commit(data.copy(entries = data.entries + entry))
     }
 
     @Synchronized
     fun updateEntry(entry: Entry) {
-        require(data.entries.any { it.id == entry.id }) { "Запись еды не найдена" }
+        require(data.entries.any { it.id == entry.id }) { tr(R.string.data_entry_missing) }
         commit(data.copy(entries = data.entries.map { if (it.id == entry.id) entry else it }))
     }
 
@@ -191,7 +190,7 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
     /** Apply only edits made since the form opened; preserve fields merged in the meantime. */
     @Synchronized
     fun saveLog(log: DailyLog, baseline: DailyLog?) {
-        require(baseline == null || baseline.date == log.date) { "Изменилась дата редактируемой записи" }
+        require(baseline == null || baseline.date == log.date) { tr(R.string.data_edited_date_changed) }
         val initial = baseline ?: DailyLog(log.date)
         val current = data.logs.find { it.date == log.date } ?: DailyLog(log.date)
         val edited = current.copy(
@@ -270,7 +269,7 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
     /** Parses and validates the whole file before writing; a failed import cannot change data. */
     @Synchronized
     fun importJson(json: String) {
-        require(deviceId.isNotBlank()) { "Повреждён локальный идентификатор устройства; восстановление заблокировано" }
+        require(deviceId.isNotBlank()) { tr(R.string.data_device_id_corrupt) }
         val parsed = DataJson.decode(json)
         // Validate v2 metadata even though manual restore deliberately replaces visible data.
         val importedState = if (JSONObject(json).getInt("version") == 2) decodeSync(json).state else null
@@ -313,18 +312,18 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
     } catch (problem: IllegalArgumentException) {
         throw problem
     } catch (problem: Exception) {
-        throw IllegalArgumentException("Некорректные данные синхронизации", problem)
+        throw IllegalArgumentException(tr(R.string.data_sync_invalid), problem)
     }
 
     private fun checkWritable() {
-        if (isReadOnly) throw IOException("Дневник защищён от перезаписи: восстановите резервную копию")
+        if (isReadOnly) throw IOException(tr(R.string.data_diary_read_only))
     }
 
     private fun write(candidate: AppData, state: SyncState) {
         DataJson.validate(candidate)
-        require(SyncMerge.equivalent(candidate, SyncMerge.materialize(state))) { "Нарушена согласованность дневника" }
+        require(SyncMerge.equivalent(candidate, SyncMerge.materialize(state))) { tr(R.string.data_diary_inconsistent) }
         val bytes = SyncMerge.encode(candidate, state).toByteArray(Charsets.UTF_8)
-        require(bytes.size <= MAX_BACKUP_BYTES) { "Резервная копия слишком большая" }
+        require(bytes.size <= MAX_BACKUP_BYTES) { tr(R.string.data_backup_too_large) }
         atomicWrite(file, bytes)
     }
 
@@ -333,7 +332,7 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
         if (identity.baseFile.exists() || File(identity.baseFile.path + ".bak").exists()) {
             val value = readLimited(identity)
             require(runCatching { UUID.fromString(value).toString() == value }.getOrDefault(false)) {
-                "Повреждён идентификатор установки"
+                tr(R.string.data_installation_id_corrupt)
             }
             return value
         }
@@ -352,12 +351,12 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
             // AtomicFile can report a failed rename only to Logcat on some Android releases.
             // Verify the committed bytes before publishing them to the UI.
             if (!target.readFully().contentEquals(bytes)) {
-                throw IOException("Не удалось проверить сохранение дневника")
+                throw IOException(tr(R.string.data_save_verification_failed))
             }
         } catch (problem: Exception) {
             if (stream != null) target.failWrite(stream)
             if (problem is IOException) throw problem
-            throw IOException("Не удалось сохранить дневник", problem)
+            throw IOException(tr(R.string.data_save_failed), problem)
         }
     }
 
@@ -379,19 +378,19 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
                 val count = input.read(buffer)
                 if (count < 0) break
                 if (count == 0) continue
-                require(bytes.size() + count <= MAX_BACKUP_BYTES) { "Резервная копия больше 50 МБ" }
+                require(bytes.size() + count <= MAX_BACKUP_BYTES) { tr(R.string.data_backup_over_50_mb) }
                 bytes.write(buffer, 0, count)
             }
             return bytes.toString(Charsets.UTF_8.name())
         }
 
         private fun readLimited(file: AtomicFile): String = file.openRead().use { input ->
-            require(input.channel.size() <= MAX_BACKUP_BYTES) { "Файл дневника слишком большой" }
+            require(input.channel.size() <= MAX_BACKUP_BYTES) { tr(R.string.data_diary_file_too_large) }
             readBackup(input)
         }
 
         private fun readBytesLimited(file: AtomicFile): ByteArray = file.openRead().use { input ->
-            require(input.channel.size() <= MAX_BACKUP_BYTES) { "Файл дневника слишком большой" }
+            require(input.channel.size() <= MAX_BACKUP_BYTES) { tr(R.string.data_diary_file_too_large) }
             input.readBytes()
         }
 
@@ -414,7 +413,7 @@ internal object DataJson {
 
     fun decodeCatalog(text: String): AppData = parseSafely {
         val array = JSONArray(text)
-        require(array.length() in 1..MAX_PRODUCTS) { "Неверный размер базы продуктов" }
+        require(array.length() in 1..MAX_PRODUCTS) { tr(R.string.data_catalog_size_invalid) }
         val products = List(array.length()) { index ->
             val item = array.getJSONObject(index)
             Product(
@@ -430,12 +429,12 @@ internal object DataJson {
     }
 
     fun decode(text: String): AppData = parseSafely {
-        require(text.length <= AppStore.MAX_BACKUP_BYTES) { "Резервная копия слишком большая" }
+        require(text.length <= AppStore.MAX_BACKUP_BYTES) { tr(R.string.data_backup_too_large) }
         require(text.toByteArray(Charsets.UTF_8).size <= AppStore.MAX_BACKUP_BYTES) {
-            "Резервная копия слишком большая"
+            tr(R.string.data_backup_too_large)
         }
         val root = JSONObject(text)
-        require(root.integer("version") in 1..2) { "Неподдерживаемая версия резервной копии" }
+        require(root.integer("version") in 1..2) { tr(R.string.data_backup_version_unsupported) }
         val products = root.array("products", MAX_PRODUCTS).mapObjects { item ->
             Product(
                 item.string("id"), item.string("name"), item.string("category"),
@@ -464,7 +463,7 @@ internal object DataJson {
         fun stringMap(key: String): Map<String, String> {
             if (!root.has(key)) return emptyMap()
             val obj = root.getJSONObject(key)
-            require(obj.length() <= 100) { "Слишком много значений $key" }
+            require(obj.length() <= 100) { tr(R.string.data_too_many_values, key) }
             return obj.keys().asSequence().associateWith { obj.string(it) }
         }
         AppData(products, entries, logs, goals, stringMap("achievements"), stringMap("settings")).also(::validate)
@@ -522,88 +521,91 @@ internal object DataJson {
     }.toString(2)
 
     fun validate(data: AppData) {
-        require(data.products.size <= MAX_PRODUCTS) { "Слишком много продуктов" }
-        require(data.entries.size <= MAX_ENTRIES) { "Слишком много записей еды" }
-        require(data.logs.size <= MAX_LOGS) { "Слишком много записей дневника" }
-        require(data.products.map { it.id }.distinct().size == data.products.size) { "Повторяющийся ID продукта" }
-        require(data.entries.map { it.id }.distinct().size == data.entries.size) { "Повторяющийся ID записи еды" }
-        require(data.logs.map { it.date }.distinct().size == data.logs.size) { "Повторяющаяся дата дневника" }
+        require(data.products.size <= MAX_PRODUCTS) { tr(R.string.data_too_many_products) }
+        require(data.entries.size <= MAX_ENTRIES) { tr(R.string.data_too_many_entries) }
+        require(data.logs.size <= MAX_LOGS) { tr(R.string.data_too_many_logs) }
+        require(data.products.map { it.id }.distinct().size == data.products.size) { tr(R.string.data_product_id_duplicate) }
+        require(data.entries.map { it.id }.distinct().size == data.entries.size) { tr(R.string.data_entry_id_duplicate) }
+        require(data.logs.map { it.date }.distinct().size == data.logs.size) { tr(R.string.data_log_date_duplicate) }
         data.products.forEach { product ->
-            validText(product.id, "ID продукта", 120)
-            validText(product.name, "Название продукта", 160)
-            validText(product.category, "Категория", 80)
-            validText(product.note, "Примечание", 2_000, allowEmpty = true)
+            validText(product.id, tr(R.string.data_label_product_id), 120)
+            validText(product.name, tr(R.string.data_label_product_name), 160)
+            validText(product.category, tr(R.string.data_label_category), 80)
+            validText(product.note, tr(R.string.data_label_note), 2_000, allowEmpty = true)
             validMacros(product.macros)
         }
         data.entries.forEach { entry ->
-            validText(entry.id, "ID записи", 120)
+            validText(entry.id, tr(R.string.data_label_entry_id), 120)
             validDate(entry.date)
-            validText(entry.meal, "Приём пищи", 80)
-            validText(entry.productId, "ID продукта", 120)
-            validText(entry.name, "Название продукта", 160)
+            validText(entry.meal, tr(R.string.data_label_meal), 80)
+            validText(entry.productId, tr(R.string.data_label_product_id), 120)
+            validText(entry.name, tr(R.string.data_label_product_name), 160)
             require(entry.grams.isFinite() && entry.grams > 0.0 && entry.grams <= 100_000.0) {
-                "Вес еды должен быть больше 0 и не больше 100000 г"
+                tr(R.string.data_food_weight_range)
             }
             validMacros(entry.per100)
         }
         data.logs.forEach { log ->
             validDate(log.date)
-            log.weight?.let { validNumber(it, 1.0, 500.0, "Вес") }
-            log.waist?.let { validNumber(it, 20.0, 400.0, "Талия") }
-            log.steps?.let { require(it in 0..200_000) { "Количество шагов должно быть от 0 до 200000" } }
-            log.sleep?.let { validNumber(it, 0.0, 24.0, "Сон") }
-            log.bodyFat?.let { validNumber(it, 0.0, 100.0, "Доля жира") }
-            log.calories?.let { validNumber(it, 0.0, 100_000.0, "Калории за день") }
-            log.protein?.let { validNumber(it, 0.0, 10_000.0, "Белок за день") }
-            validText(log.training, "Тренировка", 2_000, allowEmpty = true)
-            validText(log.note, "Заметка", 2_000, allowEmpty = true)
+            log.weight?.let { validNumber(it, 1.0, 500.0, tr(R.string.data_label_weight)) }
+            log.waist?.let { validNumber(it, 20.0, 400.0, tr(R.string.data_label_waist)) }
+            log.steps?.let { require(it in 0..200_000) { tr(R.string.data_steps_range) } }
+            log.sleep?.let { validNumber(it, 0.0, 24.0, tr(R.string.data_label_sleep)) }
+            log.bodyFat?.let { validNumber(it, 0.0, 100.0, tr(R.string.data_label_body_fat)) }
+            log.calories?.let { validNumber(it, 0.0, 100_000.0, tr(R.string.data_label_daily_calories)) }
+            log.protein?.let { validNumber(it, 0.0, 10_000.0, tr(R.string.data_label_daily_protein)) }
+            validText(log.training, tr(R.string.data_label_workout), 2_000, allowEmpty = true)
+            validText(log.note, tr(R.string.data_label_log_note), 2_000, allowEmpty = true)
             require(log.weight != null || log.waist != null || log.steps != null || log.sleep != null ||
                 log.bodyFat != null || log.calories != null || log.protein != null ||
                 log.training.isNotBlank() || log.note.isNotBlank()) {
-                "Укажите хотя бы один показатель или заметку"
+                tr(R.string.data_log_empty)
             }
         }
         validMacros(data.goals.macros, isGoal = true)
-        data.goals.weight?.let { validNumber(it, 1.0, 500.0, "Целевой вес") }
-        require(data.achievements.size <= 100) { "Слишком много достижений" }
+        data.goals.weight?.let { validNumber(it, 1.0, 500.0, tr(R.string.data_label_goal_weight)) }
+        require(data.achievements.size <= 100) { tr(R.string.data_too_many_achievements) }
         data.achievements.forEach { (id, date) ->
-            require(id.matches(Regex("[a-zA-Z0-9_]{1,100}"))) { "Некорректное достижение" }
+            require(id.matches(Regex("[a-zA-Z0-9_]{1,100}"))) { tr(R.string.data_achievement_invalid) }
             validDate(date)
         }
-        require(data.settings.keys.all { it in setOf("theme", "startTab", "weekStartsOn") }) { "Непереносимая настройка" }
+        require(data.settings.keys.all { it in setOf("theme", "startTab", "weekStartsOn") }) { tr(R.string.data_setting_not_portable) }
         data.settings.forEach { (key, value) ->
             val allowed = when (key) {
                 "theme" -> setOf("system", "light", "dark")
                 "startTab" -> setOf("day", "products", "diary", "stats", "settings")
                 else -> setOf("monday", "sunday")
             }
-            require(value in allowed) { "Некорректное значение настройки $key" }
+            require(value in allowed) { tr(R.string.data_setting_invalid, key) }
         }
     }
 
     private fun validMacros(macros: Macros, isGoal: Boolean = false) {
-        validNumber(macros.kcal, 0.0, if (isGoal) 10_000.0 else 1_000.0, "Калории")
+        validNumber(macros.kcal, 0.0, if (isGoal) 10_000.0 else 1_000.0, tr(R.string.data_label_calories))
         val max = if (isGoal) 1_000.0 else 100.0
-        validNumber(macros.protein, 0.0, max, "Белки")
-        validNumber(macros.fat, 0.0, max, "Жиры")
-        validNumber(macros.carbs, 0.0, max, "Углеводы")
+        validNumber(macros.protein, 0.0, max, tr(R.string.data_label_protein))
+        validNumber(macros.fat, 0.0, max, tr(R.string.data_label_fat))
+        validNumber(macros.carbs, 0.0, max, tr(R.string.data_label_carbs))
     }
 
     private fun validNumber(value: Double, min: Double, max: Double, label: String) {
-        require(value.isFinite() && value in min..max) { "$label: допустимый диапазон $min–$max" }
+        require(value.isFinite() && value in min..max) {
+            val formatter = java.text.NumberFormat.getNumberInstance(appLocale()).apply { isGroupingUsed = false }
+            tr(R.string.data_value_range, label, formatter.format(min), formatter.format(max))
+        }
     }
 
     private fun validText(value: String, label: String, max: Int, allowEmpty: Boolean = false) {
-        require(value.length <= max && (allowEmpty || value.isNotBlank())) { "$label: неверная длина" }
-        require(value.none { it.isISOControl() && it != '\n' && it != '\t' }) { "$label: недопустимый символ" }
+        require(value.length <= max && (allowEmpty || value.isNotBlank())) { tr(R.string.data_text_length_invalid, label) }
+        require(value.none { it.isISOControl() && it != '\n' && it != '\t' }) { tr(R.string.data_text_character_invalid, label) }
     }
 
     internal fun validDate(value: String) {
-        require(datePattern.matches(value)) { "Дата должна иметь формат ГГГГ-ММ-ДД" }
+        require(datePattern.matches(value)) { tr(R.string.data_date_format_invalid) }
         try {
             LocalDate.parse(value)
         } catch (_: Exception) {
-            throw IllegalArgumentException("Несуществующая дата: $value")
+            throw IllegalArgumentException(tr(R.string.data_date_nonexistent, value))
         }
     }
 
@@ -620,7 +622,7 @@ internal object DataJson {
 
     private fun JSONObject.string(key: String): String {
         val value = get(key)
-        require(value is String) { "Поле $key должно быть строкой" }
+        require(value is String) { tr(R.string.data_field_string_required, key) }
         return value
     }
 
@@ -629,20 +631,20 @@ internal object DataJson {
     private fun JSONObject.optionalBoolean(key: String): Boolean {
         if (!has(key)) return false
         val value = get(key)
-        require(value is Boolean) { "Поле $key должно быть логическим значением" }
+        require(value is Boolean) { tr(R.string.data_field_boolean_required, key) }
         return value
     }
 
     private fun JSONObject.number(key: String): Double {
         val value = get(key)
-        require(value is Number) { "Поле $key должно быть числом" }
-        return value.toDouble().also { require(it.isFinite()) { "Поле $key должно быть конечным числом" } }
+        require(value is Number) { tr(R.string.data_field_number_required, key) }
+        return value.toDouble().also { require(it.isFinite()) { tr(R.string.data_field_finite_required, key) } }
     }
 
     private fun JSONObject.integer(key: String): Int {
         val value = number(key)
         require(value >= Int.MIN_VALUE && value <= Int.MAX_VALUE && value == value.toInt().toDouble()) {
-            "Поле $key должно быть целым числом"
+            tr(R.string.data_field_integer_required, key)
         }
         return value.toInt()
     }
@@ -651,7 +653,7 @@ internal object DataJson {
     private fun JSONObject.nullableInteger(key: String): Int? = if (isNull(key)) null else integer(key)
 
     private fun JSONObject.array(key: String, limit: Int): JSONArray = getJSONArray(key).also {
-        require(it.length() <= limit) { "Слишком много элементов в $key" }
+        require(it.length() <= limit) { tr(R.string.data_too_many_items, key) }
     }
 
     private fun <T> JSONArray.mapObjects(transform: (JSONObject) -> T): List<T> =
@@ -662,6 +664,6 @@ internal object DataJson {
     } catch (problem: IllegalArgumentException) {
         throw problem
     } catch (problem: Exception) {
-        throw IllegalArgumentException("Некорректный файл данных: ${problem.message.orEmpty()}", problem)
+        throw IllegalArgumentException(tr(R.string.data_data_file_invalid, problem.message.orEmpty()), problem)
     }
 }

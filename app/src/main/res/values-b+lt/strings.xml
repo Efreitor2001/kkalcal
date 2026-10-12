@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Mitybos dienoraštis"</string>
+    <string name="core_app_name" formatted="false">"Mitybos dienoraštis"</string>
+    <string name="core_tagline" formatted="false">"Kalorijos, svoris ir pažanga"</string>
+    <string name="core_open_diary" formatted="false">"Atverti dienoraštį"</string>
+    <string name="core_save_failed" formatted="false">"Nepavyko išsaugoti duomenų"</string>
+    <string name="core_day" formatted="false">"Šiandien"</string>
+    <string name="core_products" formatted="false">"Produktai"</string>
+    <string name="core_diary" formatted="false">"Dienoraštis"</string>
+    <string name="core_charts" formatted="false">"Diagramos"</string>
+    <string name="core_more" formatted="false">"Daugiau"</string>
+    <string name="core_recipe_saved" formatted="false">"Patiekalas išsaugotas jūsų produktų sąraše"</string>
+    <string name="core_back_to_day" formatted="false">"Grįžti į dieną"</string>
+    <string name="core_action_failed" formatted="false">"Nepavyko atlikti veiksmo"</string>
+    <string name="core_understood" formatted="false">"Gerai"</string>
+    <string name="core_restore_available" formatted="false">"Atsarginę kopiją galite atkurti skiltyje Daugiau."</string>
+    <string name="core_eaten_today" formatted="false">"ŠIANDIEN SUVALGYTA"</string>
+    <string name="core_set_goal_hint" formatted="false">"Tikslą galite nustatyti skiltyje Daugiau"</string>
+    <string name="core_add_food" formatted="false">"+ Pridėti maisto"</string>
+    <string name="core_first_meal" formatted="false">"Pradėkite nuo pirmojo valgymo"</string>
+    <string name="core_first_meal_help" formatted="false">"Pasirinkite produktą ir įveskite svorį gramais, kad apskaičiuotumėte kalorijas ir maistines medžiagas."</string>
+    <string name="core_my_day" formatted="false">"Mano diena"</string>
+    <string name="core_my_day_help" formatted="false">"Svoris, liemuo, žingsniai, miegas — įrašykite turimus duomenis."</string>
+    <string name="core_record_metrics" formatted="false">"Įrašyti matavimus"</string>
+    <string name="core_edit_metrics" formatted="false">"Redaguoti matavimus"</string>
+    <string name="core_food_state_hint" formatted="false">"Svoris ir maistinė vertė turi atitikti tą pačią produkto būseną: žalią, sausą arba paruoštą."</string>
+    <string name="core_weight" formatted="false">"Svoris"</string>
+    <string name="core_waist" formatted="false">"Liemens apimtis"</string>
+    <string name="core_my_diary" formatted="false">"Mano dienoraštis"</string>
+    <string name="core_diary_tagline" formatted="false">"Kiekvieną dieną savo tempu"</string>
+    <string name="core_record_day" formatted="false">"+ Įrašyti dieną"</string>
+    <string name="core_optional_diary_help" formatted="false">"Visi matavimai neprivalomi. Galite įrašyti tik svorį, miegą ar pastabą. Palieskite įrašą, kad jį redaguotumėte."</string>
+    <string name="core_history_starts" formatted="false">"Čia prasideda jūsų istorija"</string>
+    <string name="core_history_help" formatted="false">"Įrašykite matavimus ir stebėkite pokyčius diagramose."</string>
+    <string name="core_file_unavailable" formatted="false">"Failas nepasiekiamas"</string>
+    <string name="core_backup_saved" formatted="false">"Atsarginė kopija išsaugota"</string>
+    <string name="core_export_error" formatted="false">"Nepavyko eksportuoti atsarginės kopijos"</string>
+    <string name="core_read_error" formatted="false">"Nepavyko perskaityti failo"</string>
+    <string name="core_settings_tagline" formatted="false">"Nustatymai ir atsarginės kopijos"</string>
+    <string name="core_your_progress" formatted="false">"Jūsų pažanga"</string>
+    <string name="core_achievements_help" formatted="false">"Maži pasiekimai padeda įprasti pildyti dienoraštį."</string>
+    <string name="core_achievements" formatted="false">"Pasiekimai"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Neprivalomas prisijungimas dienoraščiui sinchronizuoti tarp įrenginių."</string>
+    <string name="core_cloud_sync" formatted="false">"Sinchronizavimas debesyje"</string>
+    <string name="core_personal_goals" formatted="false">"Asmeniniai tikslai"</string>
+    <string name="core_personal_goals_help" formatted="false">"Rankiniu būdu nustatykite kalorijų, maistinių medžiagų ir svorio tikslus. Bet kurį tikslą galite palikti tuščią."</string>
+    <string name="core_configure_goals" formatted="false">"Nustatyti tikslus"</string>
+    <string name="core_backup" formatted="false">"Atsarginė kopija"</string>
+    <string name="core_backup_help" formatted="false">"Produktai, valgymai, dienoraštis, tikslai ir pasiekimai viename faile. Prieš iš naujo diegdami programėlę sukurkite kopiją."</string>
+    <string name="core_save_file" formatted="false">"Išsaugoti į failą"</string>
+    <string name="core_restore_file" formatted="false">"Atkurti iš failo"</string>
+    <string name="core_write_locked" formatted="false">"Saugojimas išjungtas, kad būtų apsaugotas pradinis failas. Atkurkite tinkamą atsarginę kopiją."</string>
+    <string name="core_about_data" formatted="false">"Apie programėlę ir jūsų duomenis"</string>
+    <string name="core_about_data_help" formatted="false">"Kaip įrašai saugomi, sinchronizuojami ir šalinami."</string>
+    <string name="core_privacy" formatted="false">"Privatumas ir duomenų šalinimas"</string>
+    <string name="core_offline" formatted="false">"Veikia be interneto"</string>
+    <string name="core_offline_help" formatted="false">"Prisijungti per Google neprivaloma. Žingsniai ir miegas įvedami rankiniu būdu. Internetas reikalingas įjungtam sinchronizavimui ir reklamai įkelti. Dienoraščio įrašai nesiunčiami reklamos tinklui."</string>
+    <string name="core_about_foods" formatted="false">"Apie produktus"</string>
+    <string name="core_foods_reference" formatted="false">"Įdiegtos vertės apytikslės, nurodytos 100 g valgomosios dalies. Tikslius duomenis tikrinkite ant pakuotės. Pakeitus produktą anksčiau įrašyti valgymai neperskaičiuojami."</string>
+    <string name="core_foods_source" formatted="false">"Duomenų šaltinis: USDA FoodData Central, SR Legacy. Kiekvienam produktui nurodyta būsena ir šaltinis."</string>
+    <string name="core_restore_title" formatted="false">"Atkurti šią kopiją?"</string>
+    <string name="core_restore_warning" formatted="false">"Dabartiniai produktai, dienoraštis, tikslai ir pasiekimai bus pakeisti šio failo duomenimis. Pirmiausia sukurkite atsarginę kopiją. Jei sinchronizavimas prijungtas, atkurti duomenys bus išsiųsti ir į Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Atsarginė kopija atkurta"</string>
+    <string name="core_invalid_file" formatted="false">"Netinkamas failas"</string>
+    <string name="core_replace_data" formatted="false">"Pakeisti duomenis"</string>
+    <string name="core_cancel" formatted="false">"Atšaukti"</string>
+    <string name="core_save" formatted="false">"Išsaugoti"</string>
+    <string name="core_calculate_portion" formatted="false">"Apskaičiuoti porciją"</string>
+    <string name="core_edit_portion" formatted="false">"Redaguoti porciją"</string>
+    <string name="core_portion_weight" formatted="false">"Porcijos svoris, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Įveskite svorį, didesnį už 0 ir ne didesnį nei 100 000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Pridėti į dienoraštį"</string>
+    <string name="core_delete_entry" formatted="false">"Ištrinti įrašą"</string>
+    <string name="core_delete_portion_question" formatted="false">"Ištrinti šią porciją iš dienoraščio?"</string>
+    <string name="core_new_food" formatted="false">"Naujas produktas arba patiekalas"</string>
+    <string name="core_edit_nutrition" formatted="false">"Redaguoti maistinę vertę"</string>
+    <string name="core_name" formatted="false">"Pavadinimas"</string>
+    <string name="core_food" formatted="false">"Produktas"</string>
+    <string name="core_dish" formatted="false">"Paruoštas patiekalas"</string>
+    <string name="core_category" formatted="false">"Kategorija"</string>
+    <string name="core_per100_hint" formatted="false">"100 g vertės iš pakuotės arba recepto. Įveskite 0, jei maistinės medžiagos nėra."</string>
+    <string name="core_kcal" formatted="false">"Kalorijos"</string>
+    <string name="core_protein_grams" formatted="false">"Baltymai, g"</string>
+    <string name="core_fat_grams" formatted="false">"Riebalai, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Angliavandeniai, g"</string>
+    <string name="core_food_note" formatted="false">"Pastaba, sudėtis (neprivaloma)"</string>
+    <string name="core_favorite" formatted="false">"Pridėti prie mėgstamų"</string>
+    <string name="core_name_category_required" formatted="false">"Įveskite pavadinimą ir kategoriją"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Įveskite 100 g vertes: kalorijos nuo 0 iki 1000; baltymai, riebalai ir angliavandeniai nuo 0 iki 100 g"</string>
+    <string name="core_delete_food" formatted="false">"Pašalinti iš produktų"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Jau įrašyti valgymai išsaugo savo vertes."</string>
+    <string name="core_delete_food_question" formatted="false">"Ištrinti šį produktą? Jo dienoraščio įrašai liks."</string>
+    <string name="core_day_entry" formatted="false">"Dienos įrašas"</string>
+    <string name="core_optional_fields" formatted="false">"Užpildykite norimus laukus. Kitus palikite tuščius."</string>
+    <string name="core_editing_existing" formatted="false">"Šiai datai įrašas jau yra. Dabar jį redaguojate."</string>
+    <string name="core_weight_kg" formatted="false">"Svoris, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Liemens apimtis, cm"</string>
+    <string name="core_steps" formatted="false">"Žingsniai"</string>
+    <string name="core_sleep" formatted="false">"Miegas"</string>
+    <string name="core_hours" formatted="false">"Valandos"</string>
+    <string name="core_minutes" formatted="false">"Minutės"</string>
+    <string name="core_body_fat_optional" formatted="false">"Svarstyklių rodomi riebalai, % (neprivaloma)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Svarstyklių rodomas riebalų procentas padeda stebėti tendenciją; tai nėra tikslus matavimas."</string>
+    <string name="core_strength_training" formatted="false">"Jėgos treniruotė"</string>
+    <string name="core_training_example" formatted="false">"Pavyzdžiui: pritūpimai 3×10, 12 kg hanteliai"</string>
+    <string name="core_manual_nutrition" formatted="false">"Rankiniu būdu įvestos mitybos sumos"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Užpildžius šios vertės pakeis iš produktų apskaičiuotas dienos sumas. Automatiniam skaičiavimui palikite tuščia."</string>
+    <string name="core_daily_calories" formatted="false">"Dienos kalorijos"</string>
+    <string name="core_daily_protein" formatted="false">"Dienos baltymai, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Pastabos ir savijauta"</string>
+    <string name="core_steps_invalid" formatted="false">"Žingsniai: sveikasis skaičius nuo 0 iki 200 000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Miegas: 0–24 valandos, 0–59 minutės"</string>
+    <string name="core_body_fat" formatted="false">"Kūno riebalai"</string>
+    <string name="core_calories" formatted="false">"Kalorijos"</string>
+    <string name="core_protein" formatted="false">"Baltymai"</string>
+    <string name="core_entry_required" formatted="false">"Pridėkite bent vieną matavimą arba pastabą"</string>
+    <string name="core_delete_day" formatted="false">"Ištrinti dienos įrašą"</string>
+    <string name="core_optional_goals" formatted="false">"Visi tikslai neprivalomi. Tuščias laukas reiškia, kad tikslas nenustatytas."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalorijos per dieną"</string>
+    <string name="core_protein_per_day" formatted="false">"Baltymai per dieną, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Riebalai per dieną, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Angliavandeniai per dieną, g"</string>
+    <string name="core_target_weight" formatted="false">"Tikslinis svoris, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Patikrinkite tikslus: kalorijos nuo 0 iki 10 000; baltymai, riebalai ir angliavandeniai nuo 0 iki 1000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Tikslinis svoris: nuo 1 iki 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Ištrinti?"</string>
+    <string name="core_delete" formatted="false">"Ištrinti"</string>
+    <string name="core_select_food" formatted="false">"Pasirinkti produktą"</string>
+    <string name="core_foods_dishes" formatted="false">"Produktai ir patiekalai"</string>
+    <string name="core_search_food" formatted="false">"Ieškoti produkto ar patiekalo"</string>
+    <string name="core_new_food_button" formatted="false">"+ Produktas / patiekalas"</string>
+    <string name="core_recipe_button" formatted="false">"Pagal receptą"</string>
+    <string name="core_no_results" formatted="false">"Nieko nerasta"</string>
+    <string name="core_no_results_help" formatted="false">"Bandykite kitą paiešką arba pridėkite savo produktą ar paruoštą patiekalą."</string>
+    <string name="core_edit" formatted="false">"Redaguoti"</string>
+    <string name="core_achievement_unlocked">"🏆 Pasiekimas atrakintas! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Liko %1$s kcal · tikslas %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal virš tikslo"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Baltymai %1$s   Riebalai %2$s   Angliavandeniai %3$s"</string>
+    <string name="core_weight_summary">"Svoris %1$s kg"</string>
+    <string name="core_waist_summary">"Liemuo %1$s cm"</string>
+    <string name="core_steps_summary">"Žingsniai: %1$s"</string>
+    <string name="core_fat_summary">"Kūno riebalai %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (rankiniu būdu)"</string>
+    <string name="core_manual_protein">"Baltymai %1$s g (rankiniu būdu)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Miegas %1$s"</string>
+    <string name="core_scale_fat">"Svarstyklių rodomi riebalai %1$s%%"</string>
+    <string name="core_training_value">"Treniruotė: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Baltymai %1$s g"</string>
+    <string name="core_app_version">"Mitybos dienoraštis · %1$s"</string>
+    <string name="core_per100_summary">"100 g: %1$s kcal · Baltymai %2$s · Riebalai %3$s · Angliavandeniai %4$s"</string>
+    <string name="core_range_invalid">"%1$s: įveskite vertę nuo %2$s iki %3$s"</string>
+    <string name="core_delete_day_question">"Ištrinti %1$s matavimus? Valgymai liks."</string>
+    <string name="core_catalog_count">"Produktai: %1$s · vertės 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Baltymai %2$s   Riebalai %3$s   Angliavandeniai %4$s"</string>
+    <string name="core_today_date">"Šiandien · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalorijos ir baltymai yra rankiniu būdu dienoraštyje įvestos sumos"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalorijos yra rankiniu būdu dienoraštyje įvesta suma"</string>
+    <string name="core_manual_protein_total" formatted="false">"Baltymai yra rankiniu būdu dienoraštyje įvesta suma"</string>
+    <string name="core_macro_goals">"Baltymų / riebalų / angliav. tikslai: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (rankiniu būdu)"</string>
+    <string name="core_all" formatted="false">"Visi"</string>
+    <string name="core_favorites" formatted="false">"Mėgstami"</string>
+    <string name="core_sleep_duration">"%1$s val. %2$s min."</string>
+    <string name="core_previous_day" formatted="false">"Ankstesnė diena"</string>
+    <string name="core_next_day" formatted="false">"Kita diena"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Migravimo kopija neatitinka"</string>
+    <string name="data_entry_exists" formatted="false">"Toks maisto įrašas jau yra"</string>
+    <string name="data_entry_missing" formatted="false">"Maisto įrašas nerastas"</string>
+    <string name="data_edited_date_changed" formatted="false">"Redaguojamo įrašo data pasikeitė"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Vietinis įrenginio identifikatorius sugadintas; atkūrimas užblokuotas"</string>
+    <string name="data_sync_invalid" formatted="false">"Netinkami sinchronizavimo duomenys"</string>
+    <string name="data_diary_read_only" formatted="false">"Dienoraštis apsaugotas nuo perrašymo: atkurkite atsarginę kopiją"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Dienoraščio duomenys nesuderinti"</string>
+    <string name="data_backup_too_large" formatted="false">"Atsarginė kopija per didelė"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Diegimo identifikatorius sugadintas"</string>
+    <string name="data_save_verification_failed" formatted="false">"Nepavyko patikrinti dienoraščio išsaugojimo"</string>
+    <string name="data_save_failed" formatted="false">"Nepavyko išsaugoti dienoraščio"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Atsarginė kopija viršija 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Dienoraščio failas per didelis"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Netinkamas produktų duomenų bazės dydis"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Nepalaikoma atsarginės kopijos versija"</string>
+    <string name="data_too_many_values">"Per daug reikšmių lauke %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Per daug produktų"</string>
+    <string name="data_too_many_entries" formatted="false">"Per daug maisto įrašų"</string>
+    <string name="data_too_many_logs" formatted="false">"Per daug dienoraščio įrašų"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Pasikartojantis produkto identifikatorius"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Pasikartojantis maisto įrašo identifikatorius"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Pasikartojanti dienoraščio data"</string>
+    <string name="data_label_product_id" formatted="false">"Produkto identifikatorius"</string>
+    <string name="data_label_product_name" formatted="false">"Produkto pavadinimas"</string>
+    <string name="data_label_category" formatted="false">"Kategorija"</string>
+    <string name="data_label_note" formatted="false">"Pastaba"</string>
+    <string name="data_label_entry_id" formatted="false">"Įrašo identifikatorius"</string>
+    <string name="data_label_meal" formatted="false">"Valgymas"</string>
+    <string name="data_food_weight_range" formatted="false">"Maisto svoris turi būti didesnis nei 0 ir ne didesnis nei 100 000 g"</string>
+    <string name="data_label_weight" formatted="false">"Svoris"</string>
+    <string name="data_label_waist" formatted="false">"Liemens apimtis"</string>
+    <string name="data_steps_range" formatted="false">"Žingsnių skaičius turi būti nuo 0 iki 200 000"</string>
+    <string name="data_label_sleep" formatted="false">"Miegas"</string>
+    <string name="data_label_body_fat" formatted="false">"Kūno riebalai"</string>
+    <string name="data_label_daily_calories" formatted="false">"Dienos kalorijos"</string>
+    <string name="data_label_daily_protein" formatted="false">"Dienos baltymai"</string>
+    <string name="data_label_workout" formatted="false">"Treniruotė"</string>
+    <string name="data_label_log_note" formatted="false">"Pastaba"</string>
+    <string name="data_log_empty" formatted="false">"Įveskite bent vieną matavimą arba pastabą"</string>
+    <string name="data_label_goal_weight" formatted="false">"Tikslinis svoris"</string>
+    <string name="data_too_many_achievements" formatted="false">"Per daug pasiekimų"</string>
+    <string name="data_achievement_invalid" formatted="false">"Netinkamas pasiekimas"</string>
+    <string name="data_setting_not_portable" formatted="false">"Šio nustatymo negalima perkelti"</string>
+    <string name="data_setting_invalid">"Netinkama nustatymo %1$s reikšmė"</string>
+    <string name="data_label_calories" formatted="false">"Kalorijos"</string>
+    <string name="data_label_protein" formatted="false">"Baltymai"</string>
+    <string name="data_label_fat" formatted="false">"Riebalai"</string>
+    <string name="data_label_carbs" formatted="false">"Angliavandeniai"</string>
+    <string name="data_value_range">"%1$s: leidžiama nuo %2$s iki %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: netinkamas ilgis"</string>
+    <string name="data_text_character_invalid">"%1$s: neleidžiamas simbolis"</string>
+    <string name="data_date_format_invalid" formatted="false">"Data turi būti formatu MMMM-MM-DD"</string>
+    <string name="data_date_nonexistent">"Netinkama data: %1$s"</string>
+    <string name="data_field_string_required">"Lauke %1$s turi būti tekstas"</string>
+    <string name="data_field_boolean_required">"Lauke %1$s turi būti loginė reikšmė"</string>
+    <string name="data_field_number_required">"Lauke %1$s turi būti skaičius"</string>
+    <string name="data_field_finite_required">"Lauke %1$s turi būti baigtinis skaičius"</string>
+    <string name="data_field_integer_required">"Lauke %1$s turi būti sveikasis skaičius"</string>
+    <string name="data_too_many_items">"Per daug elementų lauke %1$s"</string>
+    <string name="data_data_file_invalid">"Netinkamas duomenų failas: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Trūksta įrenginio identifikatoriaus"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Pasiekta loginio laikrodžio riba"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Per daug sinchronizavimo įrašų"</string>
+    <string name="data_sync_version_required" formatted="false">"Sinchronizavimui reikia 2 versijos formato"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Netinkamas sinchronizavimo raktas"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Pasikartojantis sinchronizavimo raktas"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Netinkama šalinimo žyma"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Netinkami sinchronizavimo duomenys"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Įrašo versija viršija loginį laikrodį"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Duomenys neatitinka sinchronizavimo metaduomenų"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Netinkamas sinchronizavimo rakto ilgis"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Netinkamas sinchronizavimo rakto formatas"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Nežinomas sinchronizavimo tipas"</string>
+    <string name="data_record_id_too_long" formatted="false">"Įrašo identifikatorius per ilgas"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Netinkamas pasiekimo šalinimas"</string>
+    <string name="data_log_key_invalid" formatted="false">"Netinkamas dienoraščio raktas"</string>
+    <string name="data_log_field_unknown" formatted="false">"Nežinomas dienoraščio laukas"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Netinkama dienoraščio šalinimo žyma"</string>
+    <string name="data_goal_unknown" formatted="false">"Nežinomas tikslas"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Ištrintame įraše yra duomenų"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Netinkama sinchronizavimo reikšmė"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Įrašo identifikatorius neatitinka rakto"</string>
+    <string name="data_field_value_invalid" formatted="false">"Netinkama lauko reikšmė"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Pasiekimo data neatitinka rakto"</string>
+    <string name="data_note_string_required" formatted="false">"Pastaba turi būti tekstas"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Netinkama sinchronizuota pastaba"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Netinkamas loginis laikrodis"</string>
+    <string name="data_device_invalid" formatted="false">"Netinkamas įrenginys"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Netinkama versijos žyma"</string>
+    <string name="data_google_login_required" formatted="false">"Prisijunkite prie Google dar kartą"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Per daug atsarginių kopijų debesyje"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive grąžino pasikartojantį puslapį"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Debesies kopija viršija 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive negrąžino įkėlimo adreso"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Netinkamas Google Drive įkėlimo adresas"</string>
+    <string name="data_back" formatted="false">"‹  Atgal"</string>
+    <string name="data_cloud_title" formatted="false">"Sinchronizavimas debesyje"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Jūsų dienoraštis visuose įrenginiuose"</string>
+    <string name="data_no_account" formatted="false">"Paskyra neprijungta"</string>
+    <string name="data_cloud_intro" formatted="false">"Prisijungti neprivaloma. Produktai, valgymai, matavimai, tikslai ir pasiekimai saugomi telefone. Prisijungus kopija saugoma paslėptame jūsų Google Drive aplanke."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Pirmą kartą prisijungus įrašai sujungiami. Programėlė neturi prieigos prie kitų Drive failų."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Šioje versijoje prisijungimas per Google dar nesukonfigūruotas. Dienoraštis ir failų atsarginės kopijos veikia be paskyros."</string>
+    <string name="data_connect_google" formatted="false">"Prijungti Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Automatinis sinchronizavimas"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Po pakeitimų ir fone, kai leidžia Android"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Nepavyko pakeisti tvarkaraščio. Jūsų duomenys išsaugoti šiame įrenginyje."</string>
+    <string name="data_sync_start_failed" formatted="false">"Nepavyko pradėti sinchronizavimo. Jūsų duomenys išsaugoti šiame įrenginyje."</string>
+    <string name="data_sync_now" formatted="false">"Sinchronizuoti dabar"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Prisijunkite prie Google dar kartą"</string>
+    <string name="data_disconnect_account" formatted="false">"Atjungti paskyrą"</string>
+    <string name="data_sync_never" formatted="false">"Dar nesinchronizuota"</string>
+    <string name="data_offline_saved_title" formatted="false">"Jūsų duomenys išsaugoti neprisijungus"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Kai automatinis sinchronizavimas įjungtas, pakeitimai siunčiami atsiradus ryšiui. Jei tas pats laukas pakeistas dviejuose įrenginiuose, naudojama versija su vėlesne pakeitimo laiko žyma. Nepriklausomi įrašai ir laukai sujungiami."</string>
+    <string name="data_cloud_password_description" formatted="false">"Slaptažodį įvedate tik Google puslapyje naršyklėje. Prieigos raktus saugo Android Keystore; jie neįtraukiami į atsargines kopijas."</string>
+    <string name="data_google_connection_title" formatted="false">"Google ryšys"</string>
+    <string name="data_got_it" formatted="false">"Supratau"</string>
+    <string name="data_connect_drive_title" formatted="false">"Prijungti Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Dabartinis dienoraštis bus sujungtas su pasirinktos Google paskyros duomenimis. Savo įrenginiuose naudokite tą pačią asmeninę paskyrą. Prisijungimas bus atvertas numatytojoje naršyklėje."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Nepavyko atverti prisijungimo. Įdiekite arba įjunkite numatytąją naršyklę ir bandykite dar kartą."</string>
+    <string name="data_continue" formatted="false">"Tęsti"</string>
+    <string name="data_cancel" formatted="false">"Atšaukti"</string>
+    <string name="data_disconnect_title" formatted="false">"Atjungti paskyrą?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sinchronizavimas šiame įrenginyje sustos. Vietinis dienoraštis ir Google Drive kopijos liks. Programėlės prieigą galite valdyti Google paskyros nustatymuose."</string>
+    <string name="data_disconnect_failed" formatted="false">"Nepavyko atjungti paskyros. Bandykite dar kartą."</string>
+    <string name="data_disconnect" formatted="false">"Atjungti"</string>
+    <string name="data_google_not_connected" formatted="false">"Google neprijungta"</string>
+    <string name="data_sync_ready" formatted="false">"Paruošta sinchronizuoti"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Pakeitimai laukia sinchronizavimo…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Nėra interneto. Pakeitimai išsaugoti šiame įrenginyje."</string>
+    <string name="data_google_not_configured" formatted="false">"Šioje versijoje prisijungimas per Google dar nesukonfigūruotas"</string>
+    <string name="data_sync_wait" formatted="false">"Palaukite, kol sinchronizavimas bus baigtas"</string>
+    <string name="data_google_connecting" formatted="false">"Jungiamasi prie Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Prisijungimas atšauktas"</string>
+    <string name="data_connection_rejected" formatted="false">"Prisijungimas atšauktas arba Google jį atmetė"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google prijungta. Jungiami įrašai…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Nepavyko prijungti Google. Patikrinkite internetą ir prieigos nustatymus."</string>
+    <string name="data_account_disconnected" formatted="false">"Paskyra atjungta. Duomenys lieka šiame įrenginyje."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Nėra interneto. Sinchronizavimas laukia ryšio."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sinchronizavimas suplanuotas…"</string>
+    <string name="data_sync_running" formatted="false">"Sinchronizuojama…"</string>
+    <string name="data_sync_complete" formatted="false">"Sinchronizavimas baigtas"</string>
+    <string name="data_no_internet" formatted="false">"Nėra interneto ryšio"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Sinchronizuoti nepavyko. Duomenys išsaugoti šiame įrenginyje"</string>
+    <string name="data_page_open_failed" formatted="false">"Nepavyko atverti puslapio. Adresą galite nukopijuoti iš toliau pateikto teksto."</string>
+    <string name="data_privacy_title" formatted="false">"Privatumas"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Jūsų įrašai ir duomenų valdymas"</string>
+    <string name="data_app_purpose" formatted="false">"Apie šią programėlę"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Ši programėlė nėra medicinos priemonė. Ji nediagnozuoja, negydo, neišgydo ir neužkerta kelio ligoms. Dėl medicininės konsultacijos, diagnozės ir gydymo kreipkitės į kvalifikuotą sveikatos priežiūros specialistą."</string>
+    <string name="data_manage_delete_data" formatted="false">"Duomenų valdymas ir šalinimas"</string>
+    <string name="data_delete_data_intro" formatted="false">"Prieš šalindami visus duomenis išjunkite sinchronizavimą visuose įrenginiuose. Pašalinus programėlę iš telefono Google Drive kopijos ir eksportuoti failai neištrinami."</string>
+    <string name="data_manage_drive_data" formatted="false">"Tvarkyti Google Drive duomenis"</string>
+    <string name="data_google_account_access" formatted="false">"Google paskyros prieiga"</string>
+    <string name="data_android_app_storage" formatted="false">"Programėlės saugykla Android įrenginyje"</string>
+    <string name="data_contact_developer" formatted="false">"Susisiekti su kūrėju"</string>
+    <string name="data_opening_page" formatted="false">"Atveriamas puslapis"</string>
+    <string name="data_advertisement" formatted="false">"REKLAMA"</string>
+    <string name="data_ad_information" formatted="false">"Apie šią reklamą"</string>
+    <string name="data_cloud_http_error">"Debesies HTTP klaida %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Debesies atsakymas per didelis"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Netinkama šifruota prisijungimo sesija"</string>
+    <string name="data_session_save_failed" formatted="false">"Nepavyko išsaugoti prisijungimo sesijos"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Nepavyko atnaujinti prieigos prie Google"</string>
+    <string name="data_diary_read_failed">"Nepavyko perskaityti dienoraščio. Pradinis failas išsaugotas. Atkurkite duomenis iš atsarginės kopijos. %1$s"</string>
+    <string name="data_last_sync">"Paskutinis sinchronizavimas: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Vaisiai ir uogos"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Džiovinti vaisiai"</string>
+    <string name="data_category_vegetables" formatted="false">"Daržovės ir žalumynai"</string>
+    <string name="data_category_mushrooms" formatted="false">"Grybai"</string>
+    <string name="data_category_grains" formatted="false">"Kruopos ir makaronai"</string>
+    <string name="data_category_legumes" formatted="false">"Ankštiniai"</string>
+    <string name="data_category_meat" formatted="false">"Mėsa ir paukštiena"</string>
+    <string name="data_category_fish" formatted="false">"Žuvis ir jūrų gėrybės"</string>
+    <string name="data_category_dairy" formatted="false">"Pieno produktai"</string>
+    <string name="data_category_eggs" formatted="false">"Kiaušiniai"</string>
+    <string name="data_category_oils" formatted="false">"Aliejus ir sviestas"</string>
+    <string name="data_category_nuts" formatted="false">"Riešutai ir sėklos"</string>
+    <string name="data_category_bread" formatted="false">"Duona"</string>
+    <string name="data_category_other" formatted="false">"Kiti produktai"</string>
+    <string name="data_category_dishes" formatted="false">"Paruošti patiekalai"</string>
+    <string name="data_category_custom" formatted="false">"Mano produktai"</string>
+    <string name="data_category_other_short" formatted="false">"Kita"</string>
+    <string name="data_food_seed_9003" formatted="false">"Obuolys su odele"</string>
+    <string name="data_catalog_note_1">"Orientacinės vertės 100 g valgomosios dalies. Žalias produktas. USDA angliavandenių vertės apima skaidulas. Vertes galite pritaikyti pagal produkto etiketę. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Bananas, nuluptas"</string>
+    <string name="data_food_seed_9021" formatted="false">"Abrikosas be kauliuko"</string>
+    <string name="data_food_seed_9037" formatted="false">"Avokado minkštimas"</string>
+    <string name="data_food_seed_9050" formatted="false">"Šilauogės"</string>
+    <string name="data_food_seed_9070" formatted="false">"Trešnės be kauliukų"</string>
+    <string name="data_food_seed_9063" formatted="false">"Vyšnios be kauliukų"</string>
+    <string name="data_food_seed_9078" formatted="false">"Spanguolės"</string>
+    <string name="data_food_seed_9083" formatted="false">"Juodieji serbentai"</string>
+    <string name="data_food_seed_9084" formatted="false">"Raudonieji ir baltieji serbentai"</string>
+    <string name="data_food_seed_9132" formatted="false">"Vynuogės"</string>
+    <string name="data_food_seed_9148" formatted="false">"Kivio minkštimas"</string>
+    <string name="data_food_seed_9150" formatted="false">"Citrina, nulupta"</string>
+    <string name="data_food_seed_9181" formatted="false">"Kantalupos meliono minkštimas"</string>
+    <string name="data_food_seed_9200" formatted="false">"Apelsino minkštimas"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mandarino minkštimas"</string>
+    <string name="data_food_seed_9236" formatted="false">"Persikas be kauliuko"</string>
+    <string name="data_food_seed_9252" formatted="false">"Kriaušė"</string>
+    <string name="data_food_seed_9266" formatted="false">"Ananaso minkštimas"</string>
+    <string name="data_food_seed_9279" formatted="false">"Slyva be kauliuko"</string>
+    <string name="data_food_seed_9286" formatted="false">"Granato sėklos"</string>
+    <string name="data_food_seed_9295" formatted="false">"Didžiojo greipfruto minkštimas"</string>
+    <string name="data_food_seed_9302" formatted="false">"Avietės"</string>
+    <string name="data_food_seed_9316" formatted="false">"Braškės"</string>
+    <string name="data_food_seed_9326" formatted="false">"Arbūzo minkštimas"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektarinas be kauliuko"</string>
+    <string name="data_food_seed_9176" formatted="false">"Mango minkštimas"</string>
+    <string name="data_food_seed_9107" formatted="false">"Agrastai"</string>
+    <string name="data_food_seed_9226" formatted="false">"Papajos minkštimas"</string>
+    <string name="data_food_seed_9089" formatted="false">"Šviežios figos"</string>
+    <string name="data_food_seed_9111" formatted="false">"Greipfruto minkštimas"</string>
+    <string name="data_food_seed_9032" formatted="false">"Džiovinti abrikosai be kauliukų"</string>
+    <string name="data_catalog_note_2">"Orientacinės vertės 100 g valgomosios dalies. USDA angliavandenių vertės apima skaidulas. Vertes galite pritaikyti pagal produkto etiketę. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Džiovintos slyvos be kauliukų"</string>
+    <string name="data_food_seed_9087" formatted="false">"Datulės be kauliukų"</string>
+    <string name="data_food_seed_9298" formatted="false">"Tamsios razinos be sėklų"</string>
+    <string name="data_food_seed_11529" formatted="false">"Šviežias pomidoras"</string>
+    <string name="data_food_seed_11205" formatted="false">"Agurkas su odele"</string>
+    <string name="data_food_seed_11090" formatted="false">"Žalias brokolis"</string>
+    <string name="data_food_seed_11109" formatted="false">"Žalias baltagūžis kopūstas"</string>
+    <string name="data_food_seed_11124" formatted="false">"Žalia morka"</string>
+    <string name="data_food_seed_11135" formatted="false">"Žalias žiedinis kopūstas"</string>
+    <string name="data_food_seed_11143" formatted="false">"Salierų stiebai"</string>
+    <string name="data_food_seed_11282" formatted="false">"Žalias svogūnas"</string>
+    <string name="data_food_seed_11291" formatted="false">"Svogūnų laiškai"</string>
+    <string name="data_food_seed_11304" formatted="false">"Žali žalieji žirneliai"</string>
+    <string name="data_food_seed_11333" formatted="false">"Žalia saldžioji paprika"</string>
+    <string name="data_food_seed_11821" formatted="false">"Raudona saldžioji paprika"</string>
+    <string name="data_food_seed_11352" formatted="false">"Žalia bulvė su lupena"</string>
+    <string name="data_food_seed_11367" formatted="false">"Virta bulvė be lupenos"</string>
+    <string name="data_catalog_note_3">"Orientacinės vertės 100 g valgomosios dalies. Be pridėtinės druskos. USDA angliavandenių vertės apima skaidulas. Vertes galite pritaikyti pagal produkto etiketę. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Žalia cukinija"</string>
+    <string name="data_food_seed_11209" formatted="false">"Žalias baklažanas"</string>
+    <string name="data_food_seed_11422" formatted="false">"Žalias moliūgas"</string>
+    <string name="data_food_seed_11429" formatted="false">"Ridikėlis"</string>
+    <string name="data_food_seed_11564" formatted="false">"Žalia ropė"</string>
+    <string name="data_food_seed_11080" formatted="false">"Žalias burokėlis"</string>
+    <string name="data_food_seed_11081" formatted="false">"Virtas burokėlis"</string>
+    <string name="data_food_seed_11215" formatted="false">"Česnakas"</string>
+    <string name="data_food_seed_11216" formatted="false">"Imbiero šaknis"</string>
+    <string name="data_food_seed_11457" formatted="false">"Žali špinatai"</string>
+    <string name="data_food_seed_11253" formatted="false">"Lapinės salotos"</string>
+    <string name="data_food_seed_11297" formatted="false">"Šviežios petražolės"</string>
+    <string name="data_food_seed_2045" formatted="false">"Švieži krapai"</string>
+    <string name="data_food_seed_11052" formatted="false">"Žalios šparaginės pupelės"</string>
+    <string name="data_food_seed_11167" formatted="false">"Saldieji kukurūzai, žali grūdai"</string>
+    <string name="data_food_seed_11260" formatted="false">"Žali pievagrybiai"</string>
+    <string name="data_food_seed_11261" formatted="false">"Virti pievagrybiai be druskos"</string>
+    <string name="data_food_seed_11987" formatted="false">"Žalios kreivabudės"</string>
+    <string name="data_food_seed_20009" formatted="false">"Grikiai, sausi"</string>
+    <string name="data_catalog_note_4">"Orientacinės vertės 100 g valgomosios dalies. Skrudinti grikiai. USDA angliavandenių vertės apima skaidulas. Vertes galite pritaikyti pagal produkto etiketę. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Vandenyje virti grikiai"</string>
+    <string name="data_food_seed_20444" formatted="false">"Baltieji ryžiai, sausi"</string>
+    <string name="data_food_seed_20445" formatted="false">"Virti baltieji ryžiai be druskos"</string>
+    <string name="data_food_seed_20036" formatted="false">"Rudieji ryžiai, sausi"</string>
+    <string name="data_food_seed_20037" formatted="false">"Virti rudieji ryžiai"</string>
+    <string name="data_food_seed_8120" formatted="false">"Avižiniai dribsniai, sausi"</string>
+    <string name="data_food_seed_8121" formatted="false">"Avižinė košė su vandeniu, be druskos"</string>
+    <string name="data_food_seed_20005" formatted="false">"Perlinės kruopos, sausos"</string>
+    <string name="data_food_seed_20006" formatted="false">"Virtos perlinės kruopos"</string>
+    <string name="data_food_seed_20031" formatted="false">"Soros, sausos"</string>
+    <string name="data_food_seed_20032" formatted="false">"Virtos soros"</string>
+    <string name="data_food_seed_20420" formatted="false">"Makaronai, sausi"</string>
+    <string name="data_food_seed_20421" formatted="false">"Virti makaronai be druskos"</string>
+    <string name="data_food_seed_16070" formatted="false">"Virti lęšiai be druskos"</string>
+    <string name="data_food_seed_16057" formatted="false">"Virti avinžirniai be druskos"</string>
+    <string name="data_food_seed_16033" formatted="false">"Virtos raudonosios pupelės be druskos"</string>
+    <string name="data_food_seed_5062" formatted="false">"Žalia vištienos krūtinėlė be odos"</string>
+    <string name="data_food_seed_5064" formatted="false">"Kepta vištienos krūtinėlė be odos"</string>
+    <string name="data_food_seed_5219" formatted="false">"Žalia kalakutienos krūtinėlė be odos"</string>
+    <string name="data_food_seed_5220" formatted="false">"Kepta kalakutienos krūtinėlė be odos"</string>
+    <string name="data_food_seed_23562" formatted="false">"Malta jautiena su 10% riebalų, žalia"</string>
+    <string name="data_food_seed_23566" formatted="false">"Malta jautiena su 10% riebalų, kepta"</string>
+    <string name="data_food_seed_10060" formatted="false">"Žalia kiaulienos išpjova be matomų riebalų"</string>
+    <string name="data_food_seed_10061" formatted="false">"Kepta kiaulienos išpjova"</string>
+    <string name="data_food_seed_15236" formatted="false">"Atlantinė lašiša, žalia"</string>
+    <string name="data_catalog_note_5">"Orientacinės vertės 100 g valgomosios dalies. Žalias produktas. Užaugintas ūkyje. USDA angliavandenių vertės apima skaidulas. Vertes galite pritaikyti pagal produkto etiketę. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Atlantinė lašiša, kepta"</string>
+    <string name="data_catalog_note_6">"Orientacinės vertės 100 g valgomosios dalies. Užaugintas ūkyje. USDA angliavandenių vertės apima skaidulas. Vertes galite pritaikyti pagal produkto etiketę. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Atlantinė menkė, žalia"</string>
+    <string name="data_food_seed_15266" formatted="false">"Aliaskinė rudagalvė menkė, žalia"</string>
+    <string name="data_food_seed_15121" formatted="false">"Vandenyje konservuotas tunas, nusausintas"</string>
+    <string name="data_food_seed_15271" formatted="false">"Virtos krevetės, nuluptos"</string>
+    <string name="data_food_seed_1211" formatted="false">"3,25% riebumo pienas"</string>
+    <string name="data_food_seed_1174" formatted="false">"2% riebumo pienas"</string>
+    <string name="data_food_seed_1082" formatted="false">"1% riebumo pienas"</string>
+    <string name="data_food_seed_1116" formatted="false">"Natūralus nenugriebto pieno jogurtas"</string>
+    <string name="data_food_seed_1256" formatted="false">"Neriebus graikiškas jogurtas"</string>
+    <string name="data_food_seed_1015" formatted="false">"2% riebumo grūdėta varškė"</string>
+    <string name="data_catalog_note_7">"Orientacinės vertės 100 g valgomosios dalies. Grūdėta varškė; kitų šviežio sūrio rūšių vertės skiriasi. USDA angliavandenių vertės apima skaidulas. Vertes galite pritaikyti pagal produkto etiketę. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Apie 19% riebumo grietinė"</string>
+    <string name="data_food_seed_1009" formatted="false">"Čederio sūris"</string>
+    <string name="data_food_seed_1026" formatted="false">"Nenugriebto pieno mocarela"</string>
+    <string name="data_food_seed_1019" formatted="false">"Fetos sūris"</string>
+    <string name="data_food_seed_1123" formatted="false">"Žalias vištos kiaušinis be lukšto"</string>
+    <string name="data_food_seed_1129" formatted="false">"Virtas vištos kiaušinis be lukšto"</string>
+    <string name="data_food_seed_1124" formatted="false">"Žalias vištos kiaušinio baltymas"</string>
+    <string name="data_food_seed_1001" formatted="false">"Sūdytas sviestas"</string>
+    <string name="data_food_seed_4053" formatted="false">"Alyvuogių aliejus"</string>
+    <string name="data_food_seed_4506" formatted="false">"Saulėgrąžų aliejus"</string>
+    <string name="data_food_seed_12061" formatted="false">"Migdolai"</string>
+    <string name="data_food_seed_12155" formatted="false">"Graikinių riešutų branduoliai"</string>
+    <string name="data_food_seed_12120" formatted="false">"Lazdynų riešutų branduoliai"</string>
+    <string name="data_food_seed_12151" formatted="false">"Žali pistacijų branduoliai"</string>
+    <string name="data_food_seed_12014" formatted="false">"Džiovinti moliūgų sėklų branduoliai"</string>
+    <string name="data_food_seed_16087" formatted="false">"Žali lukštenti žemės riešutai"</string>
+    <string name="data_food_seed_18069" formatted="false">"Balta kvietinė duona"</string>
+    <string name="data_food_seed_18075" formatted="false">"Visų grūdo dalių kvietinė duona"</string>
+    <string name="data_food_seed_18060" formatted="false">"Ruginė duona"</string>
+    <string name="data_food_seed_19296" formatted="false">"Medus"</string>
+    <string name="data_food_seed_19335" formatted="false">"Cukrus"</string>
+    <string name="data_food_seed_19165" formatted="false">"Nesaldinti kakavos milteliai"</string>
+    <string name="data_food_seed_19904" formatted="false">"Juodasis šokoladas su 70–85% kakavos"</string>
+    <string name="data_meal_breakfast" formatted="false">"Pusryčiai"</string>
+    <string name="data_meal_lunch" formatted="false">"Pietūs"</string>
+    <string name="data_meal_dinner" formatted="false">"Vakarienė"</string>
+    <string name="data_meal_snack" formatted="false">"Užkandis"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Privatumo politika — Diet Diary\nPaskutinį kartą atnaujinta: 2026 m. spalio 9 d."</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Programėlė: Diet Diary («Дневник диеты: подсчёт калорий»), paketas ru.dietdiary.offline.\nKūrėjas: Efreitor2001. Kontaktas privatumo klausimams: https://github.com/Efreitor2001/kkalcal/issues . Tai viešas puslapis; neskelbkite sveikatos duomenų, atsarginių kopijų, slaptažodžių ar prieigos raktų."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Vietinis dienoraštis\nProgramėlė veikia be registracijos. Įrenginyje ji saugo jūsų įvestus produktus, patiekalus, maistines vertes, porcijas, datas, svorį, liemens apimtį, riebalų procentą, žingsnius, miegą, treniruočių aprašymus, pastabas, tikslus, pasiekimus ir nustatymus. Neprivalomus laukus galima palikti tuščius. Duomenys įvedami rankiniu būdu; programėlė jų neskaito iš Health Connect, aktyvumo jutiklių ar medicinos prietaisų."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Dienoraščio duomenys naudojami kalorijoms ir maistinėms medžiagoms skaičiuoti, istorijai ir diagramoms rodyti bei pasiekimams stebėti. Kūrėjas neturi serverio, kuris gautų šiuos įrašus. Jei neprijungiate Google Drive ir nesidalijate atsargine kopija, įrašai lieka jūsų įrenginyje."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Neprivalomas sinchronizavimas su Google Drive\nPrijungimas pradedamas jūsų prašymu. Programėlė atveria Google prisijungimą numatytojoje naršyklėje ir prašo prieigos tik prie savo paslėptų programėlės duomenų Google Drive. Ji neprašo prieigos prie įprastų jūsų Drive failų, nuotraukų ar dokumentų."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Prijungus Google Drive, programėlė siunčia Google jūsų produktus ir patiekalus, mitybos įrašus, kūno matavimus, aktyvumą, miegą, pastabas, tikslus, pasiekimus, perkeliamus nustatymus ir pakeitimų metaduomenis, įskaitant atsitiktinius diegimo identifikatorius bei laiko žymas. Šie duomenys naudojami atsarginėms momentinėms kopijoms kurti ir jūsų įrenginių pakeitimams sujungti. Įjungtas automatinis sinchronizavimas gali veikti fone, kai yra internetas; jį galima išjungti atskirai."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Programėlė gauna jūsų Google paskyros el. pašto adresą ir identifikatorių, kad parodytų prisijungimą ir susietų debesies saugyklą su tinkama paskyra. Google slaptažodžio ji negauna. Vietinės autorizavimo sesijos apsaugotos šifravimu naudojant Android Keystore. Prieigos raktai, el. pašto adresai ir Google paskyrų identifikatoriai neįtraukiami į eksportuotus JSON failus ar sinchronizuojamas dienoraščio kopijas."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Iš Google gauti duomenys naudojami tik autorizavimui ir sinchronizavimui, o ne reklamai. Google duomenų tvarkymas aprašytas https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Atsarginių kopijų failai\nVeiksmas „Išsaugoti į failą“ sukuria JSON failą jūsų pasirinktoje vietoje. Atkūrimas skaito tik jūsų pasirinktą failą. Jei pasirenkate debesies paslaugą arba dalijatės failu, gavėją pasirenkate jūs. Eksportuotas JSON failas nešifruojamas ir gali turėti asmeninių dienoraščio duomenų bei pakeitimų metaduomenų."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Reklama\nProgramėlė naudoja Yandex Mobile Ads SDK. Reklamai įkelti įrenginys jungiasi prie reklamos paslaugų. Yandex gali tvarkyti IP adresą, tinklo užklausas, techninius įrenginio ir programinės įrangos duomenis, prieinamus reklamos bei techninius identifikatorius ir informaciją apie reklamos parodymus bei sąveiką."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Programėlė nurodo SDK, kad nėra sutikimo suasmenintai reklamai, išjungia vietos duomenų rinkimą ir App Ad Analytics bei neprašo tikslios ar apytikslės vietos leidimų. Tai nereiškia, kad nėra tinklo užklausų arba kad reklamos SDK visiškai netvarko techninių duomenų."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Maisto įrašai, svoris, kūno matavimai, pastabos, tikslai, el. pašto adresas ir Google paskyros identifikatorius nenaudojami reklamos taikymui ir nesiunčiami kaip reklamos užklausų parametrai. Kad išsaugotumėte dienoraščio įrašą, neprivalote žiūrėti reklamos."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex duomenų tvarkymas aprašytas https://yandex.ru/legal/confidential/ . Jei įrenginys palaiko, reklamos identifikatorių galite valdyti Android nustatymuose. Techninių reklamos duomenų saugojimo laikotarpius nustato paslaugos teikėjas, o ne dienoraščio kūrėjas."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Duomenų apsauga\nRyšiui su Google naudojamas HTTPS, o reklamos SDK naudoja teikėjo HTTPS/TLS mechanizmus. Vietinius failus apsaugo Android programėlių izoliavimas. Dienoraštis ir eksportuoti JSON failai programėlėje neturi atskiro šifravimo sluoksnio; sinchronizavimas neužtikrina ištisinio šifravimo tarp įrenginių."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Sisteminis programėlės duomenų atsarginių kopijų kūrimas išjungtas. Programėlės žurnaluose yra rezultatų kodai, bet nėra dienoraščio įrašų, el. pašto adresų, prieigos raktų ar tinklo atsakymų turinio. Programėlė atskirai nesiunčia šių žurnalų kūrėjui."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Saugojimas ir šalinimas\nVietiniai įrašai saugomi, kol juos pakeičiate, ištrinate arba išvalote programėlės duomenis. Ištrynus sąsajoje įrašas pašalinamas iš dienoraščio ir sinchronizuojant perduodama šalinimo žyma. Sujungimo metaduomenys gali būti išsaugoti, kad ištrinti įrašai neatsirastų iš naujo; juose gali būti ankstesnių ištrinto įrašo reikšmių. Senose debesies kopijose ir eksportuotuose failuose taip pat gali likti ankstesnių reikšmių. Vieno įrašo ištrynimas automatiškai neištrina visų jo kopijų."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"„Atjungti“ sustabdo sinchronizavimą šiame įrenginyje ir ištrina vietinę Google sesiją. Vietinis dienoraštis ir Google Drive momentinės kopijos lieka. Šis veiksmas neištrina jūsų Google paskyros."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Norėdami visiškai ištrinti šios programėlės duomenis:\n• Išjunkite sinchronizavimą visuose įrenginiuose, kad likusios kopijos nebūtų vėl įkeltos.\n• Naršyklėje atverkite https://drive.google.com/drive/settings su anksčiau prijungta Google paskyra, pasirinkite programų valdymą, raskite Diet Diary («Дневник диеты») ir jos parinktyse pasirinkite paslėptų programos duomenų šalinimą. Jei telefone šios skilties nėra, naudokite svetainės kompiuterio versiją arba kompiuterį.\n• Atšaukite programėlės prieigą adresu https://myaccount.google.com/connections . Vien prieigos atšaukimas neištrina išsaugotų kopijų.\n• Kiekviename įrenginyje išvalykite programėlės saugyklą Android nustatymuose arba pašalinkite programėlę.\n• Atskirai ištrinkite eksportuotas JSON atsargines kopijas iš pasirinktų aplankų ir debesies saugyklų."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Be jūsų prisijungimo duomenų kūrėjas negali nuotoliniu būdu ištrinti vietinių įrašų ar failų jūsų asmeniniame Google Drive. Nesiųskite slaptažodžių ar prieigos raktų. Pagalbos kreipkitės šios politikos pradžioje nurodytu kontaktu. Norint ištrinti programėlės duomenis, nereikia ištrinti Google paskyros."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Pakeitimai ir kontaktai\nPolitika gali būti atnaujinta pasikeitus funkcijoms ar duomenų tvarkymui; naujausios versijos data nurodyta pradžioje. Dėl prieigos, taisymo, šalinimo ar programėlės veikimo kreipkitės projekto kontaktu. Jūsų užklausos tvarkomos siekiant atsakyti ir saugomos pagal GitHub politiką: https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Mano patiekalai"</string>
+    <string name="secondary_metric_weight" formatted="false">"Svoris"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Kūno riebalai"</string>
+    <string name="secondary_metric_waist" formatted="false">"Liemens apimtis"</string>
+    <string name="secondary_metric_steps" formatted="false">"Žingsniai"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Miegas"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalorijos"</string>
+    <string name="secondary_metric_protein" formatted="false">"Baltymai"</string>
+    <string name="secondary_metric_fat" formatted="false">"Riebalai"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Angliavandeniai"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"žingsniai"</string>
+    <string name="secondary_unit_hours" formatted="false">"val."</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Netinkamas laikotarpis"</string>
+    <string name="secondary_stats_title" formatted="false">"Tendencijos"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Jūsų duomenys aiškiose diagramose"</string>
+    <string name="secondary_metric" formatted="false">"Rodiklis"</string>
+    <string name="secondary_week" formatted="false">"Savaitė"</string>
+    <string name="secondary_month" formatted="false">"Mėnuo"</string>
+    <string name="secondary_year" formatted="false">"Metai"</string>
+    <string name="secondary_custom_period" formatted="false">"Pasirinktas laikotarpis"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Pradžios data negali būti vėlesnė už pabaigos datą"</string>
+    <string name="secondary_no_records" formatted="false">"Duomenų dar nėra"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Pridėkite maisto į dienoraštį arba pasirinkite kitą laikotarpį."</string>
+    <string name="secondary_chart_tap" formatted="false">"Palieskite diagramą, kad pasirinktumėte įrašą"</string>
+    <string name="secondary_chart_connected" formatted="false">"Linija jungia įrašytus matavimus. Tarp šių taškų matavimų nėra."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Svarstyklių įverčiai naudingi tendencijoms stebėti."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Rankiniu būdu įvesta dienos suma pakeičia produktų sumą. Kitu atveju sudedami įrašyti produktai. Dienos be duomenų praleidžiamos."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Sumos pagrįstos įrašytais produktais. Diena be duomenų nelaikoma nuliu."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Dienos be duomenų praleidžiamos ir neįtraukiamos į vidurkį."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Šiandien ir vakar"</string>
+    <string name="secondary_no_today" formatted="false">"Nėra šiandienos duomenų"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Nėra vakarykščių duomenų"</string>
+    <string name="secondary_partial_today" formatted="false">"Palyginimui naudojami dabartiniai duomenys. Šiandienos duomenys dar gali būti nepilni."</string>
+    <string name="secondary_period_summary" formatted="false">"Laikotarpio apžvalga"</string>
+    <string name="secondary_recorded_average" formatted="false">"Įrašytų dienų vidurkis"</string>
+    <string name="secondary_recorded_days" formatted="false">"Dienos su duomenimis"</string>
+    <string name="secondary_minimum" formatted="false">"Minimumas"</string>
+    <string name="secondary_maximum" formatted="false">"Maksimumas"</string>
+    <string name="secondary_first_to_last" formatted="false">"Nuo pirmojo iki paskutinio įrašo"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Pokyčiui apskaičiuoti reikia bent dviejų dienų su duomenimis."</string>
+    <string name="secondary_history" formatted="false">"Istorija"</string>
+    <string name="secondary_history_recent" formatted="false">"Paskutinės 14 dienų su duomenimis. Senesniems įrašams pasirinkite savo laikotarpį."</string>
+    <string name="secondary_history_all" formatted="false">"Visos pasirinkto laikotarpio įrašytos dienos"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Nuo %1$s"</string>
+    <string name="secondary_date_until">"Iki %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s šiuo laikotarpiu"</string>
+    <string name="secondary_weight_goal">"Tikslas: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Pridėkite matavimą į dienoraštį arba pasirinkite kitą laikotarpį."</string>
+    <string name="secondary_latest_record">"Paskutinis įrašas · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Šiandien: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Vakar: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Pokytis: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d iš %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Įrašyta dienų: %2$d, nuo %3$s iki %4$s. Minimumas %5$s, maksimumas %6$s %7$s. Išsamios vertės pateiktos istorijoje."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Pirmas žingsnis"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Įrašykite pirmąjį svorio matavimą."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Pirmasis jūsų svorio matavimas įrašytas."</string>
+    <string name="secondary_award_first_food" formatted="false">"Pirmas įrašas"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Įrašykite pirmąją maisto porciją."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Pirmoji jūsų maisto porcija įrašyta."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Duomenų savaitė"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Įrašykite svorį 7 skirtingomis dienomis. Jos neprivalo eiti iš eilės."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Turite svorio matavimus 7 skirtingomis dienomis."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Pastovumas"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Įrašykite svorį 30 skirtingų dienų."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Turite 30 dienų svorio matavimus."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Archyvaras"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Dienoraštyje įrašykite 100 maisto porcijų."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Įrašėte 100 maisto porcijų."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Naujas įprotis"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Įrašykite maistą 7 kalendorines dienas iš eilės."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Maistą įrašėte 7 dienas iš eilės."</string>
+    <string name="secondary_award_steps" formatted="false">"Ėjimo meistras"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Įrašykite bent 10 000 žingsnių per vieną dieną."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Įrašėte dieną su 10 000 žingsnių."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Reguliarus stebėjimas"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Įrašykite 100 svorio matavimų. Kiekvienai datai skaičiuojamas vienas matavimas."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Įrašėte 100 svorio matavimų."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Patyręs dienoraščio autorius"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Įrašykite valgymus arba matavimus 90 skirtingų dienų. Jos neprivalo eiti iš eilės."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Jūsų dienoraštyje yra 90 skirtingų dienų įrašai."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"matavimai"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porcijos"</string>
+    <string name="secondary_award_unit_days" formatted="false">"dienos"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"dienos iš eilės"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"žingsniai per dieną"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"įrašytos dienos"</string>
+    <string name="secondary_back" formatted="false">"‹  Atgal"</string>
+    <string name="secondary_achievements" formatted="false">"Pasiekimai"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Maži žingsniai tampa įpročiu"</string>
+    <string name="secondary_your_progress" formatted="false">"JŪSŲ PAŽANGA"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Pelnyti pasiekimai išlieka ir po įrašų redagavimo."</string>
+    <string name="secondary_awards_regular" formatted="false">"Už reguliarumą ir dienoraščio pildymą"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Skaičiuojami įrašai iki šiandien imtinai."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Paslėptas pasiekimas"</string>
+    <string name="secondary_hidden_description" formatted="false">"Toliau pildykite dienoraštį, kad atrakintumėte šį pasiekimą."</string>
+    <string name="secondary_earned" formatted="false">"Pelnyta"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Paslėpta · užrakinta"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Vykdoma · užrakinta"</string>
+    <string name="secondary_locked" formatted="false">"Užrakinta"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Sąlyga ir pažanga bus atskleistos pelnius šį pasiekimą."</string>
+    <string name="secondary_best_streak" formatted="false">"Ilgiausia seka"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Paslėptas apdovanojimas"</string>
+    <string name="secondary_unlocked_of">"iš %1$d atrakinta"</string>
+    <string name="secondary_unlocked_date">"Atrakinta %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Atgal"</string>
+    <string name="secondary_my_recipe" formatted="false">"Mano receptas"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Pasverkite ingredientus prieš gamindami. Porcijų skaičiavimui naudokite pagaminto patiekalo svorį. Nepamirškite aliejaus ir padažų."</string>
+    <string name="secondary_recipe_name" formatted="false">"Recepto pavadinimas"</string>
+    <string name="secondary_recipe_example" formatted="false">"Pavyzdžiui, daržovių troškinys"</string>
+    <string name="secondary_ingredients" formatted="false">"Ingredientai"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Pradėkite nuo ingredientų"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Pridėkite kiekvieną ingredientą ir įveskite jo svorį gramais."</string>
+    <string name="secondary_edit_weight" formatted="false">"Redaguoti svorį"</string>
+    <string name="secondary_delete" formatted="false">"Ištrinti"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Pridėti ingredientą"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Visas receptas"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Gaminant svoris keičiasi, nes vanduo pridedamas arba išgaruoja. Pasverkite pagamintą patiekalą be indo."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Pagaminto patiekalo svoris, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Įveskite svorį po gaminimo"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Įveskite svorį, didesnį už 0 ir ne didesnį nei 100 000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Svoris neužpildomas automatiškai"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"100 g pagaminto patiekalo"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Patikrinkite pagaminto patiekalo svorį ir ingredientus: 100 g gali būti ne daugiau kaip 1000 kcal ir 100 g kiekvienos maistinės medžiagos."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Nepavyko išsaugoti recepto"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Išsaugoti mano receptuose"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Išsaugoję patiekalą galėsite pridėti į dienoraštį pagal porcijos svorį."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Ingrediento svoris prieš gaminimą"</string>
+    <string name="secondary_grams" formatted="false">"Gramai"</string>
+    <string name="secondary_weight_limits" formatted="false">"Daugiau nei 0 ir ne daugiau nei 100 000 g"</string>
+    <string name="secondary_add" formatted="false">"Pridėti"</string>
+    <string name="secondary_save" formatted="false">"Išsaugoti"</string>
+    <string name="secondary_cancel" formatted="false">"Atšaukti"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Pasirinkti ingredientą"</string>
+    <string name="secondary_search_food" formatted="false">"Ieškoti produktų"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Nieko nerasta. Savo produktą galite pridėti kortelėje Produktai."</string>
+    <string name="secondary_close" formatted="false">"Uždaryti"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Baltymai %1$s · Riebalai %2$s · Angliavandeniai %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Ingredientų svoris: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Galutinis svoris: %1$s g. Ingredientai: %2$s"</string>
+</resources>

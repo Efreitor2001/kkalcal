@@ -20,7 +20,7 @@ internal class CloudVault(context: Context) {
     @Synchronized fun read(): JSONObject? {
         if (!file.baseFile.exists() && !File(file.baseFile.path + ".bak").exists()) return null
         val bytes = file.readFully()
-        require(bytes.size in 29..262144) { "Invalid encrypted session" }
+        require(bytes.size in 29..262144) { tr(R.string.data_encrypted_session_invalid) }
         val cipher = Cipher.getInstance("AES/GCM/NoPadding")
         cipher.init(Cipher.DECRYPT_MODE, key(), GCMParameterSpec(128, bytes.copyOfRange(0, 12)))
         return JSONObject(String(cipher.doFinal(bytes.copyOfRange(12, bytes.size)), Charsets.UTF_8))
@@ -33,7 +33,7 @@ internal class CloudVault(context: Context) {
         val stream = file.startWrite()
         try {
             stream.write(bytes); file.finishWrite(stream)
-            if (!file.readFully().contentEquals(bytes)) throw java.io.IOException("Session persistence failed")
+            if (!file.readFully().contentEquals(bytes)) throw java.io.IOException(tr(R.string.data_session_save_failed))
         }
         catch (problem: Exception) { file.failWrite(stream); throw problem }
     }

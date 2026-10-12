@@ -42,6 +42,10 @@ import java.util.UUID
 /** Screenshots contain only synthetic fixtures; the installed application's diary is untouched. */
 @RunWith(AndroidJUnit4::class)
 class PresentationSmokeTest {
+    private var russianLocale: AutoCloseable? = null
+
+    @After fun restoreTestLocale() { russianLocale?.close(); russianLocale = null }
+
     @get:Rule val compose = createComposeRule()
     private lateinit var testRoot: File
     private lateinit var application: Context
@@ -51,6 +55,7 @@ class PresentationSmokeTest {
 
     @Before fun setUp() {
         application = ApplicationProvider.getApplicationContext()
+        russianLocale = installRussianTestLocale(application)
         testRoot = File(application.cacheDir, "presentation-${UUID.randomUUID()}")
         val testFiles = File(testRoot, "files").apply { check(mkdirs()) }
         val isolated = object : ContextWrapper(application) { override fun getFilesDir(): File = testFiles }
@@ -78,7 +83,7 @@ class PresentationSmokeTest {
         store.addEntry(Entry("smoke-snack", today.toString(), "Перекус", apple.id, apple.name, 180.0, apple.macros))
         store.saveGoals(Goals(Macros(2200.0, 110.0, 70.0, 270.0), weight = 80.0))
 
-        compose.setContent {
+        compose.setContent { RussianTestContent {
             val nativeDensity = LocalDensity.current
             CompositionLocalProvider(LocalDensity provides Density(nativeDensity.density, if (compact.value) 1.5f else nativeDensity.fontScale)) {
                 Box(Modifier.fillMaxSize()) {
@@ -87,7 +92,7 @@ class PresentationSmokeTest {
                     }
                 }
             }
-        }
+        } }
     }
 
     @After fun tearDown() {

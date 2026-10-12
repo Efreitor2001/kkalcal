@@ -42,6 +42,10 @@ import java.util.UUID
 /** Store listing captures are real application composables with an isolated, synthetic diary. */
 @RunWith(AndroidJUnit4::class)
 class StoreListingCaptureTest {
+    private var russianLocale: AutoCloseable? = null
+
+    @After fun restoreTestLocale() { russianLocale?.close(); russianLocale = null }
+
     @get:Rule val compose = createAndroidComposeRule<ComponentActivity>()
     private lateinit var application: Context
     private lateinit var fixtureRoot: File
@@ -51,6 +55,7 @@ class StoreListingCaptureTest {
 
     @Before fun prepareFixture() {
         application = ApplicationProvider.getApplicationContext()
+        russianLocale = installRussianTestLocale(application)
         fixtureRoot = File(application.cacheDir, "store-listing-${UUID.randomUUID()}")
         val files = File(fixtureRoot, "files").apply { check(mkdirs()) }
         val isolated = object : ContextWrapper(application) { override fun getFilesDir() = files }
@@ -98,7 +103,7 @@ class StoreListingCaptureTest {
             WindowCompat.setDecorFitsSystemWindows(compose.activity.window, false)
             compose.activity.window.insetsController?.hide(WindowInsets.Type.systemBars())
         }
-        compose.setContent { DietDiaryTheme(darkTheme = dark.value) { DietDiaryApp(store) } }
+        compose.setContent { RussianTestContent { DietDiaryTheme(darkTheme = dark.value) { DietDiaryApp(store) } } }
     }
 
     @After fun removeFixture() {

@@ -7,14 +7,19 @@ enum class AchievementSymbol { WEIGHT, FOOD, CALENDAR, STEPS, NOTEBOOK }
 
 data class AchievementDefinition(
     val id: String,
-    val title: String,
-    val description: String,
-    val unlockedMessage: String,
+    private val titleRes: Int,
+    private val descriptionRes: Int,
+    private val unlockedMessageRes: Int,
     val target: Int,
-    val unit: String,
+    private val unitRes: Int,
     val kind: AchievementKind,
     val symbol: AchievementSymbol,
-)
+) {
+    val title: String get() = tr(titleRes)
+    val description: String get() = tr(descriptionRes)
+    val unlockedMessage: String get() = tr(unlockedMessageRes)
+    val unit: String get() = tr(unitRes)
+}
 
 data class AchievementProgress(
     val definition: AchievementDefinition,
@@ -45,24 +50,24 @@ object AchievementEngine {
     const val DIARY_90_DAYS = "diary_90_days"
 
     val definitions: List<AchievementDefinition> = listOf(
-        AchievementDefinition(FIRST_WEIGHT, "Начало положено", "Сохраните первый замер веса.",
-            "Первый замер веса записан.", 1, "замеров", AchievementKind.REGULAR, AchievementSymbol.WEIGHT),
-        AchievementDefinition(FIRST_FOOD, "Первая запись", "Добавьте первую порцию еды в дневник.",
-            "Первая порция еды добавлена в дневник.", 1, "порций", AchievementKind.REGULAR, AchievementSymbol.FOOD),
-        AchievementDefinition(WEIGHT_7_DAYS, "Неделя данных", "Запишите вес за 7 разных дней. Дни могут идти с перерывами.",
-            "В дневнике есть вес за 7 разных дней.", 7, "дней", AchievementKind.PROGRESSIVE, AchievementSymbol.CALENDAR),
-        AchievementDefinition(WEIGHT_30_DAYS, "Стабильность", "Запишите вес за 30 разных дней.",
-            "Уже 30 дней с измерениями веса.", 30, "дней", AchievementKind.PROGRESSIVE, AchievementSymbol.WEIGHT),
-        AchievementDefinition(FOOD_100_ENTRIES, "Архивариус", "Сохраните 100 порций еды в дневнике.",
-            "В дневнике сохранено 100 порций еды.", 100, "порций", AchievementKind.PROGRESSIVE, AchievementSymbol.NOTEBOOK),
-        AchievementDefinition(FOOD_7_DAY_STREAK, "Привычка", "Добавляйте еду в дневник 7 календарных дней подряд.",
-            "Питание записано за 7 дней подряд.", 7, "дней подряд", AchievementKind.PROGRESSIVE, AchievementSymbol.CALENDAR),
-        AchievementDefinition(STEPS_10000, "Ходячая катастрофа", "Запишите не менее 10 000 шагов за один день.",
-            "В дневнике есть день с 10 000 шагов.", 10_000, "шагов за день", AchievementKind.REGULAR, AchievementSymbol.STEPS),
-        AchievementDefinition(WEIGHT_100_MEASUREMENTS, "Графоман", "Сохраните 100 замеров веса. На каждую дату учитывается один замер.",
-            "В дневнике уже 100 замеров веса.", 100, "замеров", AchievementKind.HIDDEN, AchievementSymbol.NOTEBOOK),
-        AchievementDefinition(DIARY_90_DAYS, "Ветеран дневника", "Сохраните еду или показатели за 90 разных дней. Дни могут идти с перерывами.",
-            "Дневник заполнен за 90 разных дней.", 90, "дней с записями", AchievementKind.PROGRESSIVE, AchievementSymbol.NOTEBOOK),
+        AchievementDefinition(FIRST_WEIGHT, R.string.secondary_award_first_weight, R.string.secondary_award_first_weight_description,
+            R.string.secondary_award_first_weight_unlocked, 1, R.string.secondary_award_unit_measurements, AchievementKind.REGULAR, AchievementSymbol.WEIGHT),
+        AchievementDefinition(FIRST_FOOD, R.string.secondary_award_first_food, R.string.secondary_award_first_food_description,
+            R.string.secondary_award_first_food_unlocked, 1, R.string.secondary_award_unit_portions, AchievementKind.REGULAR, AchievementSymbol.FOOD),
+        AchievementDefinition(WEIGHT_7_DAYS, R.string.secondary_award_weight_week, R.string.secondary_award_weight_week_description,
+            R.string.secondary_award_weight_week_unlocked, 7, R.string.secondary_award_unit_days, AchievementKind.PROGRESSIVE, AchievementSymbol.CALENDAR),
+        AchievementDefinition(WEIGHT_30_DAYS, R.string.secondary_award_weight_month, R.string.secondary_award_weight_month_description,
+            R.string.secondary_award_weight_month_unlocked, 30, R.string.secondary_award_unit_days, AchievementKind.PROGRESSIVE, AchievementSymbol.WEIGHT),
+        AchievementDefinition(FOOD_100_ENTRIES, R.string.secondary_award_food_hundred, R.string.secondary_award_food_hundred_description,
+            R.string.secondary_award_food_hundred_unlocked, 100, R.string.secondary_award_unit_portions, AchievementKind.PROGRESSIVE, AchievementSymbol.NOTEBOOK),
+        AchievementDefinition(FOOD_7_DAY_STREAK, R.string.secondary_award_food_streak, R.string.secondary_award_food_streak_description,
+            R.string.secondary_award_food_streak_unlocked, 7, R.string.secondary_award_unit_consecutive, AchievementKind.PROGRESSIVE, AchievementSymbol.CALENDAR),
+        AchievementDefinition(STEPS_10000, R.string.secondary_award_steps, R.string.secondary_award_steps_description,
+            R.string.secondary_award_steps_unlocked, 10_000, R.string.secondary_award_unit_steps, AchievementKind.REGULAR, AchievementSymbol.STEPS),
+        AchievementDefinition(WEIGHT_100_MEASUREMENTS, R.string.secondary_award_weight_hundred, R.string.secondary_award_weight_hundred_description,
+            R.string.secondary_award_weight_hundred_unlocked, 100, R.string.secondary_award_unit_measurements, AchievementKind.HIDDEN, AchievementSymbol.NOTEBOOK),
+        AchievementDefinition(DIARY_90_DAYS, R.string.secondary_award_diary_ninety, R.string.secondary_award_diary_ninety_description,
+            R.string.secondary_award_diary_ninety_unlocked, 90, R.string.secondary_award_unit_recorded_days, AchievementKind.PROGRESSIVE, AchievementSymbol.NOTEBOOK),
     )
 
     fun find(id: String): AchievementDefinition? = definitions.firstOrNull { it.id == id }

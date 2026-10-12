@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Ημερολόγιο διατροφής"</string>
+    <string name="core_app_name" formatted="false">"Ημερολόγιο διατροφής"</string>
+    <string name="core_tagline" formatted="false">"Θερμίδες, βάρος και πρόοδος"</string>
+    <string name="core_open_diary" formatted="false">"Άνοιγμα ημερολογίου"</string>
+    <string name="core_save_failed" formatted="false">"Δεν ήταν δυνατή η αποθήκευση των δεδομένων σας"</string>
+    <string name="core_day" formatted="false">"Σήμερα"</string>
+    <string name="core_products" formatted="false">"Τρόφιμα"</string>
+    <string name="core_diary" formatted="false">"Ημερολόγιο"</string>
+    <string name="core_charts" formatted="false">"Γραφήματα"</string>
+    <string name="core_more" formatted="false">"Περισσότερα"</string>
+    <string name="core_recipe_saved" formatted="false">"Το πιάτο αποθηκεύτηκε στα τρόφιμά σας"</string>
+    <string name="core_back_to_day" formatted="false">"Επιστροφή στη μέρα σας"</string>
+    <string name="core_action_failed" formatted="false">"Δεν ήταν δυνατή η εκτέλεση της ενέργειας"</string>
+    <string name="core_understood" formatted="false">"Εντάξει"</string>
+    <string name="core_restore_available" formatted="false">"Μπορείτε να επαναφέρετε ένα αντίγραφο ασφαλείας από τα Περισσότερα."</string>
+    <string name="core_eaten_today" formatted="false">"ΚΑΤΑΝΑΛΩΘΗΚΑΝ ΣΗΜΕΡΑ"</string>
+    <string name="core_set_goal_hint" formatted="false">"Μπορείτε να ορίσετε στόχο στα Περισσότερα"</string>
+    <string name="core_add_food" formatted="false">"+ Προσθήκη τροφίμου"</string>
+    <string name="core_first_meal" formatted="false">"Ξεκινήστε με το πρώτο σας γεύμα"</string>
+    <string name="core_first_meal_help" formatted="false">"Επιλέξτε ένα τρόφιμο και καταχωρίστε το βάρος του σε γραμμάρια για να υπολογίσετε θερμίδες και μακροθρεπτικά συστατικά."</string>
+    <string name="core_my_day" formatted="false">"Η μέρα μου"</string>
+    <string name="core_my_day_help" formatted="false">"Βάρος, περίμετρος μέσης, βήματα, ύπνος — καταγράψτε όσα στοιχεία διαθέτετε."</string>
+    <string name="core_record_metrics" formatted="false">"Καταγραφή μετρήσεων"</string>
+    <string name="core_edit_metrics" formatted="false">"Επεξεργασία μετρήσεων"</string>
+    <string name="core_food_state_hint" formatted="false">"Το βάρος και οι διατροφικές τιμές πρέπει να αντιστοιχούν στην ίδια κατάσταση του τροφίμου: ωμό, ξηρό ή μαγειρεμένο."</string>
+    <string name="core_weight" formatted="false">"Βάρος"</string>
+    <string name="core_waist" formatted="false">"Περίμετρος μέσης"</string>
+    <string name="core_my_diary" formatted="false">"Το ημερολόγιό μου"</string>
+    <string name="core_diary_tagline" formatted="false">"Κάθε μέρα με τον δικό σας ρυθμό"</string>
+    <string name="core_record_day" formatted="false">"+ Καταγραφή ημέρας"</string>
+    <string name="core_optional_diary_help" formatted="false">"Όλες οι μετρήσεις είναι προαιρετικές. Μπορείτε να καταγράψετε μόνο βάρος, ύπνο ή μια σημείωση. Πατήστε μια εγγραφή για να την επεξεργαστείτε."</string>
+    <string name="core_history_starts" formatted="false">"Το ιστορικό σας ξεκινά εδώ"</string>
+    <string name="core_history_help" formatted="false">"Καταγράψτε τις μετρήσεις σας και παρακολουθήστε τις αλλαγές στα Γραφήματα."</string>
+    <string name="core_file_unavailable" formatted="false">"Το αρχείο δεν είναι διαθέσιμο"</string>
+    <string name="core_backup_saved" formatted="false">"Το αντίγραφο ασφαλείας αποθηκεύτηκε"</string>
+    <string name="core_export_error" formatted="false">"Δεν ήταν δυνατή η εξαγωγή του αντιγράφου ασφαλείας"</string>
+    <string name="core_read_error" formatted="false">"Δεν ήταν δυνατή η ανάγνωση του αρχείου"</string>
+    <string name="core_settings_tagline" formatted="false">"Ρυθμίσεις και αντίγραφα ασφαλείας"</string>
+    <string name="core_your_progress" formatted="false">"Η πρόοδός σας"</string>
+    <string name="core_achievements_help" formatted="false">"Μικρά επιτεύγματα που σας βοηθούν να συνηθίσετε την καταγραφή."</string>
+    <string name="core_achievements" formatted="false">"Επιτεύγματα"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Προαιρετική σύνδεση για συγχρονισμό του ημερολογίου μεταξύ συσκευών."</string>
+    <string name="core_cloud_sync" formatted="false">"Συγχρονισμός στο cloud"</string>
+    <string name="core_personal_goals" formatted="false">"Προσωπικοί στόχοι"</string>
+    <string name="core_personal_goals_help" formatted="false">"Ορίστε μόνοι σας στόχους θερμίδων, μακροθρεπτικών συστατικών και βάρους. Κάθε στόχος μπορεί να μείνει κενός."</string>
+    <string name="core_configure_goals" formatted="false">"Ορισμός στόχων"</string>
+    <string name="core_backup" formatted="false">"Αντίγραφο ασφαλείας"</string>
+    <string name="core_backup_help" formatted="false">"Τρόφιμα, γεύματα, ημερολόγιο, στόχοι και επιτεύγματα σε ένα αρχείο. Δημιουργήστε αντίγραφο πριν εγκαταστήσετε ξανά την εφαρμογή."</string>
+    <string name="core_save_file" formatted="false">"Αποθήκευση σε αρχείο"</string>
+    <string name="core_restore_file" formatted="false">"Επαναφορά από αρχείο"</string>
+    <string name="core_write_locked" formatted="false">"Η αποθήκευση έχει απενεργοποιηθεί για την προστασία του αρχικού αρχείου. Επαναφέρετε έγκυρο αντίγραφο ασφαλείας."</string>
+    <string name="core_about_data" formatted="false">"Σχετικά με την εφαρμογή και τα δεδομένα σας"</string>
+    <string name="core_about_data_help" formatted="false">"Πώς αποθηκεύονται, συγχρονίζονται και διαγράφονται οι εγγραφές."</string>
+    <string name="core_privacy" formatted="false">"Απόρρητο και διαγραφή δεδομένων"</string>
+    <string name="core_offline" formatted="false">"Λειτουργεί εκτός σύνδεσης"</string>
+    <string name="core_offline_help" formatted="false">"Η σύνδεση Google είναι προαιρετική. Τα βήματα και ο ύπνος καταχωρίζονται χειροκίνητα. Απαιτείται διαδίκτυο για τον ενεργοποιημένο συγχρονισμό και τη φόρτωση διαφημίσεων. Οι εγγραφές του ημερολογίου δεν αποστέλλονται στο διαφημιστικό δίκτυο."</string>
+    <string name="core_about_foods" formatted="false">"Σχετικά με τα τρόφιμα"</string>
+    <string name="core_foods_reference" formatted="false">"Οι ενσωματωμένες τιμές είναι εκτιμήσεις ανά 100 g βρώσιμου μέρους. Ελέγξτε τη συσκευασία για ακριβείς τιμές. Η επεξεργασία ενός τροφίμου δεν υπολογίζει ξανά τα ήδη καταγεγραμμένα γεύματα."</string>
+    <string name="core_foods_source" formatted="false">"Πηγή βάσης: USDA FoodData Central, SR Legacy. Κάθε τρόφιμο αναφέρει την κατάστασή του και την πηγή του."</string>
+    <string name="core_restore_title" formatted="false">"Επαναφορά αυτού του αντιγράφου;"</string>
+    <string name="core_restore_warning" formatted="false">"Τα τρέχοντα τρόφιμα, το ημερολόγιο, οι στόχοι και τα επιτεύγματά σας θα αντικατασταθούν από τα δεδομένα αυτού του αρχείου. Δημιουργήστε πρώτα αντίγραφο ασφαλείας. Αν έχει συνδεθεί ο συγχρονισμός, τα δεδομένα που επαναφέρετε θα σταλούν και στο Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Το αντίγραφο ασφαλείας επαναφέρθηκε"</string>
+    <string name="core_invalid_file" formatted="false">"Μη έγκυρο αρχείο"</string>
+    <string name="core_replace_data" formatted="false">"Αντικατάσταση δεδομένων"</string>
+    <string name="core_cancel" formatted="false">"Ακύρωση"</string>
+    <string name="core_save" formatted="false">"Αποθήκευση"</string>
+    <string name="core_calculate_portion" formatted="false">"Υπολογισμός μερίδας"</string>
+    <string name="core_edit_portion" formatted="false">"Επεξεργασία μερίδας"</string>
+    <string name="core_portion_weight" formatted="false">"Βάρος μερίδας, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Καταχωρίστε βάρος μεγαλύτερο από 0 και έως 100 000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Προσθήκη στο ημερολόγιο"</string>
+    <string name="core_delete_entry" formatted="false">"Διαγραφή εγγραφής"</string>
+    <string name="core_delete_portion_question" formatted="false">"Να διαγραφεί αυτή η μερίδα από το ημερολόγιό σας;"</string>
+    <string name="core_new_food" formatted="false">"Νέο τρόφιμο ή πιάτο"</string>
+    <string name="core_edit_nutrition" formatted="false">"Επεξεργασία διατροφικών τιμών"</string>
+    <string name="core_name" formatted="false">"Όνομα"</string>
+    <string name="core_food" formatted="false">"Τρόφιμο"</string>
+    <string name="core_dish" formatted="false">"Έτοιμο πιάτο"</string>
+    <string name="core_category" formatted="false">"Κατηγορία"</string>
+    <string name="core_per100_hint" formatted="false">"Τιμές ανά 100 g από τη συσκευασία ή τη συνταγή. Καταχωρίστε 0 αν κάποιο θρεπτικό συστατικό απουσιάζει."</string>
+    <string name="core_kcal" formatted="false">"Θερμίδες"</string>
+    <string name="core_protein_grams" formatted="false">"Πρωτεΐνες, g"</string>
+    <string name="core_fat_grams" formatted="false">"Λιπαρά, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Υδατάνθρακες, g"</string>
+    <string name="core_food_note" formatted="false">"Σημείωση, συστατικά (προαιρετικά)"</string>
+    <string name="core_favorite" formatted="false">"Προσθήκη στα αγαπημένα"</string>
+    <string name="core_name_category_required" formatted="false">"Καταχωρίστε όνομα και κατηγορία"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Καταχωρίστε τιμές ανά 100 g: θερμίδες από 0 έως 1 000· πρωτεΐνες, λιπαρά και υδατάνθρακες από 0 έως 100 g"</string>
+    <string name="core_delete_food" formatted="false">"Διαγραφή από τα τρόφιμα"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Τα ήδη καταγεγραμμένα γεύματα θα διατηρήσουν τις τιμές τους."</string>
+    <string name="core_delete_food_question" formatted="false">"Να διαγραφεί αυτό το τρόφιμο; Οι εγγραφές του στο ημερολόγιο θα διατηρηθούν."</string>
+    <string name="core_day_entry" formatted="false">"Ημερήσια εγγραφή"</string>
+    <string name="core_optional_fields" formatted="false">"Συμπληρώστε όσα πεδία θέλετε. Αφήστε τα υπόλοιπα κενά."</string>
+    <string name="core_editing_existing" formatted="false">"Υπάρχει ήδη εγγραφή για αυτή την ημερομηνία. Την επεξεργάζεστε τώρα."</string>
+    <string name="core_weight_kg" formatted="false">"Βάρος, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Περίμετρος μέσης, cm"</string>
+    <string name="core_steps" formatted="false">"Βήματα"</string>
+    <string name="core_sleep" formatted="false">"Ύπνος"</string>
+    <string name="core_hours" formatted="false">"Ώρες"</string>
+    <string name="core_minutes" formatted="false">"Λεπτά"</string>
+    <string name="core_body_fat_optional" formatted="false">"Λίπος από τη ζυγαριά, % (προαιρετικά)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Το ποσοστό λίπους της ζυγαριάς βοηθά στην παρακολούθηση της τάσης· δεν αποτελεί ακριβή μέτρηση."</string>
+    <string name="core_strength_training" formatted="false">"Προπόνηση δύναμης"</string>
+    <string name="core_training_example" formatted="false">"Για παράδειγμα: καθίσματα 3×10, αλτήρες 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Χειροκίνητα διατροφικά σύνολα"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Αν συμπληρωθούν, αυτές οι τιμές αντικαθιστούν τα ημερήσια σύνολα από τα τρόφιμα. Αφήστε τις κενές για αυτόματο υπολογισμό."</string>
+    <string name="core_daily_calories" formatted="false">"Θερμίδες ημέρας"</string>
+    <string name="core_daily_protein" formatted="false">"Πρωτεΐνες ημέρας, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Σημειώσεις και ευεξία"</string>
+    <string name="core_steps_invalid" formatted="false">"Βήματα: ακέραιος από 0 έως 200 000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Ύπνος: 0–24 ώρες, 0–59 λεπτά"</string>
+    <string name="core_body_fat" formatted="false">"Σωματικό λίπος"</string>
+    <string name="core_calories" formatted="false">"Θερμίδες"</string>
+    <string name="core_protein" formatted="false">"Πρωτεΐνες"</string>
+    <string name="core_entry_required" formatted="false">"Προσθέστε τουλάχιστον μία μέτρηση ή σημείωση"</string>
+    <string name="core_delete_day" formatted="false">"Διαγραφή ημερήσιας εγγραφής"</string>
+    <string name="core_optional_goals" formatted="false">"Όλοι οι στόχοι είναι προαιρετικοί. Κενό πεδίο σημαίνει ότι δεν έχει οριστεί στόχος."</string>
+    <string name="core_calories_per_day" formatted="false">"Θερμίδες ανά ημέρα"</string>
+    <string name="core_protein_per_day" formatted="false">"Πρωτεΐνες ανά ημέρα, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Λιπαρά ανά ημέρα, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Υδατάνθρακες ανά ημέρα, g"</string>
+    <string name="core_target_weight" formatted="false">"Επιθυμητό βάρος, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Ελέγξτε τους στόχους: θερμίδες από 0 έως 10 000· πρωτεΐνες, λιπαρά και υδατάνθρακες από 0 έως 1 000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Επιθυμητό βάρος: από 1 έως 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Διαγραφή;"</string>
+    <string name="core_delete" formatted="false">"Διαγραφή"</string>
+    <string name="core_select_food" formatted="false">"Επιλογή τροφίμου"</string>
+    <string name="core_foods_dishes" formatted="false">"Τρόφιμα και πιάτα"</string>
+    <string name="core_search_food" formatted="false">"Αναζήτηση τροφίμου ή πιάτου"</string>
+    <string name="core_new_food_button" formatted="false">"+ Τρόφιμο / πιάτο"</string>
+    <string name="core_recipe_button" formatted="false">"Από συνταγή"</string>
+    <string name="core_no_results" formatted="false">"Δεν βρέθηκαν αποτελέσματα"</string>
+    <string name="core_no_results_help" formatted="false">"Δοκιμάστε διαφορετική αναζήτηση ή προσθέστε δικό σας τρόφιμο ή έτοιμο πιάτο."</string>
+    <string name="core_edit" formatted="false">"Επεξεργασία"</string>
+    <string name="core_achievement_unlocked">"🏆 Ξεκλειδώθηκε επίτευγμα! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Απομένουν %1$s kcal · στόχος %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal πάνω από τον στόχο σας"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Πρωτεΐνες %1$s   Λιπαρά %2$s   Υδατάνθρακες %3$s"</string>
+    <string name="core_weight_summary">"Βάρος %1$s kg"</string>
+    <string name="core_waist_summary">"Περίμετρος μέσης %1$s cm"</string>
+    <string name="core_steps_summary">"Βήματα: %1$s"</string>
+    <string name="core_fat_summary">"Σωματικό λίπος %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (χειροκίνητα)"</string>
+    <string name="core_manual_protein">"Πρωτεΐνες %1$s g (χειροκίνητα)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Ύπνος %1$s"</string>
+    <string name="core_scale_fat">"Λίπος από τη ζυγαριά %1$s%%"</string>
+    <string name="core_training_value">"Προπόνηση: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Πρωτεΐνες %1$s g"</string>
+    <string name="core_app_version">"Ημερολόγιο διατροφής · %1$s"</string>
+    <string name="core_per100_summary">"Ανά 100 g: %1$s kcal · Πρωτεΐνες %2$s · Λιπαρά %3$s · Υδατάνθρακες %4$s"</string>
+    <string name="core_range_invalid">"%1$s: καταχωρίστε τιμή από %2$s έως %3$s"</string>
+    <string name="core_delete_day_question">"Να διαγραφούν οι μετρήσεις της %1$s; Τα γεύματα θα διατηρηθούν."</string>
+    <string name="core_catalog_count">"Τρόφιμα: %1$s · τιμές ανά 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Πρωτεΐνες %2$s   Λιπαρά %3$s   Υδατάνθρακες %4$s"</string>
+    <string name="core_today_date">"Σήμερα · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Οι θερμίδες και οι πρωτεΐνες είναι τα χειροκίνητα σύνολα του ημερολογίου σας"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Οι θερμίδες είναι το χειροκίνητο σύνολο του ημερολογίου σας"</string>
+    <string name="core_manual_protein_total" formatted="false">"Οι πρωτεΐνες είναι το χειροκίνητο σύνολο του ημερολογίου σας"</string>
+    <string name="core_macro_goals">"Στόχοι Π / Λ / Υ: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (χειροκίνητα)"</string>
+    <string name="core_all" formatted="false">"Όλα"</string>
+    <string name="core_favorites" formatted="false">"Αγαπημένα"</string>
+    <string name="core_sleep_duration">"%1$s ώρ. %2$s λεπ."</string>
+    <string name="core_previous_day" formatted="false">"Προηγούμενη ημέρα"</string>
+    <string name="core_next_day" formatted="false">"Επόμενη ημέρα"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Το αντίγραφο ασφαλείας μεταφοράς δεν αντιστοιχεί"</string>
+    <string name="data_entry_exists" formatted="false">"Αυτή η εγγραφή τροφίμου υπάρχει ήδη"</string>
+    <string name="data_entry_missing" formatted="false">"Η εγγραφή τροφίμου δεν βρέθηκε"</string>
+    <string name="data_edited_date_changed" formatted="false">"Η ημερομηνία της εγγραφής που επεξεργάζεστε έχει αλλάξει"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Το τοπικό αναγνωριστικό συσκευής είναι κατεστραμμένο· η επαναφορά έχει αποκλειστεί"</string>
+    <string name="data_sync_invalid" formatted="false">"Μη έγκυρα δεδομένα συγχρονισμού"</string>
+    <string name="data_diary_read_only" formatted="false">"Το ημερολόγιο προστατεύεται από αντικατάσταση: επαναφέρετε αντίγραφο ασφαλείας"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Τα δεδομένα του ημερολογίου είναι ασυνεπή"</string>
+    <string name="data_backup_too_large" formatted="false">"Το αντίγραφο ασφαλείας είναι πολύ μεγάλο"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Το αναγνωριστικό εγκατάστασης είναι κατεστραμμένο"</string>
+    <string name="data_save_verification_failed" formatted="false">"Δεν ήταν δυνατή η επιβεβαίωση αποθήκευσης του ημερολογίου"</string>
+    <string name="data_save_failed" formatted="false">"Δεν ήταν δυνατή η αποθήκευση του ημερολογίου"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Το αντίγραφο ασφαλείας υπερβαίνει τα 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Το αρχείο του ημερολογίου είναι πολύ μεγάλο"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Μη έγκυρο μέγεθος βάσης τροφίμων"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Μη υποστηριζόμενη έκδοση αντιγράφου ασφαλείας"</string>
+    <string name="data_too_many_values">"Πάρα πολλές τιμές στο %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Πάρα πολλά τρόφιμα"</string>
+    <string name="data_too_many_entries" formatted="false">"Πάρα πολλές εγγραφές τροφίμων"</string>
+    <string name="data_too_many_logs" formatted="false">"Πάρα πολλές εγγραφές ημερολογίου"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Διπλό αναγνωριστικό τροφίμου"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Διπλό αναγνωριστικό εγγραφής τροφίμου"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Διπλή ημερομηνία ημερολογίου"</string>
+    <string name="data_label_product_id" formatted="false">"Αναγνωριστικό τροφίμου"</string>
+    <string name="data_label_product_name" formatted="false">"Όνομα τροφίμου"</string>
+    <string name="data_label_category" formatted="false">"Κατηγορία"</string>
+    <string name="data_label_note" formatted="false">"Σημείωση"</string>
+    <string name="data_label_entry_id" formatted="false">"Αναγνωριστικό εγγραφής"</string>
+    <string name="data_label_meal" formatted="false">"Γεύμα"</string>
+    <string name="data_food_weight_range" formatted="false">"Το βάρος τροφίμου πρέπει να είναι μεγαλύτερο από 0 και έως 100 000 g"</string>
+    <string name="data_label_weight" formatted="false">"Βάρος"</string>
+    <string name="data_label_waist" formatted="false">"Περίμετρος μέσης"</string>
+    <string name="data_steps_range" formatted="false">"Τα βήματα πρέπει να είναι από 0 έως 200 000"</string>
+    <string name="data_label_sleep" formatted="false">"Ύπνος"</string>
+    <string name="data_label_body_fat" formatted="false">"Σωματικό λίπος"</string>
+    <string name="data_label_daily_calories" formatted="false">"Θερμίδες ημέρας"</string>
+    <string name="data_label_daily_protein" formatted="false">"Πρωτεΐνες ημέρας"</string>
+    <string name="data_label_workout" formatted="false">"Προπόνηση"</string>
+    <string name="data_label_log_note" formatted="false">"Σημείωση"</string>
+    <string name="data_log_empty" formatted="false">"Καταχωρίστε τουλάχιστον μία μέτρηση ή σημείωση"</string>
+    <string name="data_label_goal_weight" formatted="false">"Επιθυμητό βάρος"</string>
+    <string name="data_too_many_achievements" formatted="false">"Πάρα πολλά επιτεύγματα"</string>
+    <string name="data_achievement_invalid" formatted="false">"Μη έγκυρο επίτευγμα"</string>
+    <string name="data_setting_not_portable" formatted="false">"Αυτή η ρύθμιση δεν μπορεί να μεταφερθεί"</string>
+    <string name="data_setting_invalid">"Μη έγκυρη τιμή για τη ρύθμιση %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Θερμίδες"</string>
+    <string name="data_label_protein" formatted="false">"Πρωτεΐνες"</string>
+    <string name="data_label_fat" formatted="false">"Λιπαρά"</string>
+    <string name="data_label_carbs" formatted="false">"Υδατάνθρακες"</string>
+    <string name="data_value_range">"%1$s: επιτρεπόμενο εύρος από %2$s έως %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: μη έγκυρο μήκος"</string>
+    <string name="data_text_character_invalid">"%1$s: μη επιτρεπόμενος χαρακτήρας"</string>
+    <string name="data_date_format_invalid" formatted="false">"Η ημερομηνία πρέπει να έχει μορφή ΕΕΕΕ-ΜΜ-ΗΗ"</string>
+    <string name="data_date_nonexistent">"Μη έγκυρη ημερομηνία: %1$s"</string>
+    <string name="data_field_string_required">"Το πεδίο %1$s πρέπει να περιέχει κείμενο"</string>
+    <string name="data_field_boolean_required">"Το πεδίο %1$s πρέπει να είναι λογική τιμή"</string>
+    <string name="data_field_number_required">"Το πεδίο %1$s πρέπει να είναι αριθμός"</string>
+    <string name="data_field_finite_required">"Το πεδίο %1$s πρέπει να είναι πεπερασμένος αριθμός"</string>
+    <string name="data_field_integer_required">"Το πεδίο %1$s πρέπει να είναι ακέραιος"</string>
+    <string name="data_too_many_items">"Πάρα πολλά στοιχεία στο %1$s"</string>
+    <string name="data_data_file_invalid">"Μη έγκυρο αρχείο δεδομένων: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Λείπει το αναγνωριστικό συσκευής"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Συμπληρώθηκε το όριο του λογικού ρολογιού"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Πάρα πολλές εγγραφές συγχρονισμού"</string>
+    <string name="data_sync_version_required" formatted="false">"Ο συγχρονισμός απαιτεί μορφή έκδοσης 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Μη έγκυρο κλειδί συγχρονισμού"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Διπλό κλειδί συγχρονισμού"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Μη έγκυρη ένδειξη διαγραφής"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Μη έγκυρα δεδομένα συγχρονισμού"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Η έκδοση εγγραφής υπερβαίνει το λογικό ρολόι"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Τα δεδομένα δεν αντιστοιχούν στα μεταδεδομένα συγχρονισμού"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Μη έγκυρο μήκος κλειδιού συγχρονισμού"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Εσφαλμένη μορφή κλειδιού συγχρονισμού"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Άγνωστος τύπος συγχρονισμού"</string>
+    <string name="data_record_id_too_long" formatted="false">"Το αναγνωριστικό εγγραφής είναι πολύ μεγάλο"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Μη έγκυρη διαγραφή επιτεύγματος"</string>
+    <string name="data_log_key_invalid" formatted="false">"Μη έγκυρο κλειδί ημερολογίου"</string>
+    <string name="data_log_field_unknown" formatted="false">"Άγνωστο πεδίο ημερολογίου"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Μη έγκυρος δείκτης διαγραφής ημερολογίου"</string>
+    <string name="data_goal_unknown" formatted="false">"Άγνωστος στόχος"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Μια διαγραμμένη εγγραφή περιέχει δεδομένα"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Μη έγκυρη τιμή συγχρονισμού"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Το αναγνωριστικό εγγραφής δεν αντιστοιχεί στο κλειδί"</string>
+    <string name="data_field_value_invalid" formatted="false">"Μη έγκυρη τιμή πεδίου"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Η ημερομηνία επιτεύγματος δεν αντιστοιχεί στο κλειδί"</string>
+    <string name="data_note_string_required" formatted="false">"Η σημείωση πρέπει να περιέχει κείμενο"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Μη έγκυρη συγχρονισμένη σημείωση"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Μη έγκυρο λογικό ρολόι"</string>
+    <string name="data_device_invalid" formatted="false">"Μη έγκυρη συσκευή"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Μη έγκυρη σήμανση έκδοσης"</string>
+    <string name="data_google_login_required" formatted="false">"Συνδεθείτε ξανά στο Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Πάρα πολλά αντίγραφα ασφαλείας στο cloud"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Το Google Drive επέστρεψε επαναλαμβανόμενη σελίδα"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Το αντίγραφο ασφαλείας στο cloud υπερβαίνει τα 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Το Google Drive δεν επέστρεψε διεύθυνση μεταφόρτωσης"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Μη έγκυρη διεύθυνση μεταφόρτωσης Google Drive"</string>
+    <string name="data_back" formatted="false">"‹  Πίσω"</string>
+    <string name="data_cloud_title" formatted="false">"Συγχρονισμός στο cloud"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Το ημερολόγιό σας σε όλες τις συσκευές"</string>
+    <string name="data_no_account" formatted="false">"Δεν έχει συνδεθεί λογαριασμός"</string>
+    <string name="data_cloud_intro" formatted="false">"Η σύνδεση είναι προαιρετική. Τρόφιμα, γεύματα, μετρήσεις, στόχοι και επιτεύγματα αποθηκεύονται στο τηλέφωνό σας. Μετά τη σύνδεση, ένα αντίγραφο θα αποθηκεύεται σε κρυφό φάκελο του Google Drive σας."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Οι εγγραφές συγχωνεύονται κατά την πρώτη σύνδεση. Η εφαρμογή δεν μπορεί να αποκτήσει πρόσβαση σε άλλα αρχεία του Drive σας."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Η σύνδεση Google δεν έχει ρυθμιστεί ακόμη για αυτή την έκδοση. Το ημερολόγιο και τα αντίγραφα ασφαλείας σε αρχεία λειτουργούν χωρίς λογαριασμό."</string>
+    <string name="data_connect_google" formatted="false">"Σύνδεση Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Αυτόματος συγχρονισμός"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Κατά τις αλλαγές και στο παρασκήνιο όταν το επιτρέπει το Android"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Δεν ήταν δυνατή η αλλαγή του προγράμματος. Τα δεδομένα αποθηκεύτηκαν σε αυτή τη συσκευή."</string>
+    <string name="data_sync_start_failed" formatted="false">"Δεν ήταν δυνατή η έναρξη του συγχρονισμού. Τα δεδομένα αποθηκεύτηκαν σε αυτή τη συσκευή."</string>
+    <string name="data_sync_now" formatted="false">"Συγχρονισμός τώρα"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Συνδεθείτε ξανά στο Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Αποσύνδεση λογαριασμού"</string>
+    <string name="data_sync_never" formatted="false">"Δεν έχει γίνει ακόμη συγχρονισμός"</string>
+    <string name="data_offline_saved_title" formatted="false">"Τα δεδομένα σας αποθηκεύονται εκτός σύνδεσης"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Με ενεργό τον αυτόματο συγχρονισμό, οι αλλαγές αποστέλλονται όταν διατίθεται σύνδεση. Αν το ίδιο πεδίο αλλάξει σε δύο συσκευές, χρησιμοποιείται η έκδοση με τη μεταγενέστερη χρονική σήμανση αλλαγής. Οι ανεξάρτητες εγγραφές και τα πεδία συγχωνεύονται."</string>
+    <string name="data_cloud_password_description" formatted="false">"Καταχωρίζετε τον κωδικό σας μόνο στη σελίδα της Google στο πρόγραμμα περιήγησης. Τα διακριτικά πρόσβασης προστατεύονται από το Android Keystore και εξαιρούνται από τα αντίγραφα ασφαλείας."</string>
+    <string name="data_google_connection_title" formatted="false">"Σύνδεση Google"</string>
+    <string name="data_got_it" formatted="false">"Κατάλαβα"</string>
+    <string name="data_connect_drive_title" formatted="false">"Σύνδεση Google Drive;"</string>
+    <string name="data_connect_drive_description" formatted="false">"Το τρέχον ημερολόγιό σας θα συγχωνευτεί με τα δεδομένα του επιλεγμένου λογαριασμού Google. Χρησιμοποιήστε τον ίδιο προσωπικό λογαριασμό στις συσκευές σας. Η σύνδεση θα ανοίξει στο προεπιλεγμένο πρόγραμμα περιήγησης."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Δεν ήταν δυνατό το άνοιγμα σύνδεσης. Εγκαταστήστε ή ενεργοποιήστε προεπιλεγμένο πρόγραμμα περιήγησης και δοκιμάστε ξανά."</string>
+    <string name="data_continue" formatted="false">"Συνέχεια"</string>
+    <string name="data_cancel" formatted="false">"Ακύρωση"</string>
+    <string name="data_disconnect_title" formatted="false">"Αποσύνδεση λογαριασμού;"</string>
+    <string name="data_disconnect_description" formatted="false">"Ο συγχρονισμός θα σταματήσει σε αυτή τη συσκευή. Το τοπικό ημερολόγιο και τα αντίγραφα στο Google Drive θα διατηρηθούν. Μπορείτε να διαχειριστείτε την άδεια της εφαρμογής στις ρυθμίσεις του λογαριασμού Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Δεν ήταν δυνατή η αποσύνδεση του λογαριασμού. Δοκιμάστε ξανά."</string>
+    <string name="data_disconnect" formatted="false">"Αποσύνδεση"</string>
+    <string name="data_google_not_connected" formatted="false">"Το Google δεν είναι συνδεδεμένο"</string>
+    <string name="data_sync_ready" formatted="false">"Έτοιμο για συγχρονισμό"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Υπάρχουν αλλαγές που περιμένουν συγχρονισμό…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Χωρίς διαδίκτυο. Οι αλλαγές αποθηκεύτηκαν σε αυτή τη συσκευή."</string>
+    <string name="data_google_not_configured" formatted="false">"Η σύνδεση Google δεν έχει ρυθμιστεί ακόμη για αυτή την έκδοση"</string>
+    <string name="data_sync_wait" formatted="false">"Περιμένετε να ολοκληρωθεί ο συγχρονισμός"</string>
+    <string name="data_google_connecting" formatted="false">"Σύνδεση με το Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Η σύνδεση ακυρώθηκε"</string>
+    <string name="data_connection_rejected" formatted="false">"Η σύνδεση ακυρώθηκε ή απορρίφθηκε από την Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Το Google συνδέθηκε. Συγχώνευση εγγραφών…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Δεν ήταν δυνατή η σύνδεση Google. Ελέγξτε τη σύνδεση στο διαδίκτυο και τις ρυθμίσεις πρόσβασης."</string>
+    <string name="data_account_disconnected" formatted="false">"Ο λογαριασμός αποσυνδέθηκε. Τα δεδομένα παραμένουν στη συσκευή."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Χωρίς διαδίκτυο. Ο συγχρονισμός περιμένει σύνδεση."</string>
+    <string name="data_sync_scheduled" formatted="false">"Ο συγχρονισμός προγραμματίστηκε…"</string>
+    <string name="data_sync_running" formatted="false">"Συγχρονισμός…"</string>
+    <string name="data_sync_complete" formatted="false">"Ο συγχρονισμός ολοκληρώθηκε"</string>
+    <string name="data_no_internet" formatted="false">"Χωρίς σύνδεση στο διαδίκτυο"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Δεν ήταν δυνατός ο συγχρονισμός. Τα δεδομένα αποθηκεύτηκαν σε αυτή τη συσκευή"</string>
+    <string name="data_page_open_failed" formatted="false">"Δεν ήταν δυνατό το άνοιγμα της σελίδας. Μπορείτε να αντιγράψετε τη διεύθυνσή της από το παρακάτω κείμενο."</string>
+    <string name="data_privacy_title" formatted="false">"Απόρρητο"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Οι εγγραφές σας και ο έλεγχος των δεδομένων σας"</string>
+    <string name="data_app_purpose" formatted="false">"Σχετικά με αυτή την εφαρμογή"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Αυτή η εφαρμογή δεν είναι ιατροτεχνολογικό προϊόν. Δεν διαγιγνώσκει, δεν αντιμετωπίζει, δεν θεραπεύει και δεν προλαμβάνει ασθένειες. Συμβουλευτείτε ειδικευμένο επαγγελματία υγείας για ιατρικές συμβουλές, διάγνωση και θεραπεία."</string>
+    <string name="data_manage_delete_data" formatted="false">"Διαχείριση και διαγραφή δεδομένων"</string>
+    <string name="data_delete_data_intro" formatted="false">"Πριν διαγράψετε όλα τα δεδομένα, απενεργοποιήστε τον συγχρονισμό σε κάθε συσκευή. Η απεγκατάσταση από το τηλέφωνο δεν διαγράφει τα αντίγραφα στο Google Drive ούτε τα εξαγόμενα αρχεία."</string>
+    <string name="data_manage_drive_data" formatted="false">"Διαχείριση δεδομένων Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Πρόσβαση λογαριασμού Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Χώρος αποθήκευσης εφαρμογής στο Android"</string>
+    <string name="data_contact_developer" formatted="false">"Επικοινωνία με τον προγραμματιστή"</string>
+    <string name="data_opening_page" formatted="false">"Άνοιγμα σελίδας"</string>
+    <string name="data_advertisement" formatted="false">"ΔΙΑΦΗΜΙΣΗ"</string>
+    <string name="data_ad_information" formatted="false">"Σχετικά με αυτή τη διαφήμιση"</string>
+    <string name="data_cloud_http_error">"Σφάλμα HTTP του cloud %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Η απόκριση του cloud είναι πολύ μεγάλη"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Μη έγκυρη κρυπτογραφημένη συνεδρία σύνδεσης"</string>
+    <string name="data_session_save_failed" formatted="false">"Δεν ήταν δυνατή η αποθήκευση της συνεδρίας σύνδεσης"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Δεν ήταν δυνατή η ανανέωση της πρόσβασης Google"</string>
+    <string name="data_diary_read_failed">"Δεν ήταν δυνατή η ανάγνωση του ημερολογίου. Το αρχικό αρχείο διατηρήθηκε. Επαναφέρετε τα δεδομένα από αντίγραφο ασφαλείας. %1$s"</string>
+    <string name="data_last_sync">"Τελευταίος συγχρονισμός: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Φρούτα και μούρα"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Αποξηραμένα φρούτα"</string>
+    <string name="data_category_vegetables" formatted="false">"Λαχανικά και μυρωδικά"</string>
+    <string name="data_category_mushrooms" formatted="false">"Μανιτάρια"</string>
+    <string name="data_category_grains" formatted="false">"Δημητριακά και ζυμαρικά"</string>
+    <string name="data_category_legumes" formatted="false">"Όσπρια"</string>
+    <string name="data_category_meat" formatted="false">"Κρέας και πουλερικά"</string>
+    <string name="data_category_fish" formatted="false">"Ψάρια και θαλασσινά"</string>
+    <string name="data_category_dairy" formatted="false">"Γαλακτοκομικά"</string>
+    <string name="data_category_eggs" formatted="false">"Αυγά"</string>
+    <string name="data_category_oils" formatted="false">"Λάδια και βούτυρο"</string>
+    <string name="data_category_nuts" formatted="false">"Ξηροί καρποί και σπόροι"</string>
+    <string name="data_category_bread" formatted="false">"Ψωμί"</string>
+    <string name="data_category_other" formatted="false">"Άλλα τρόφιμα"</string>
+    <string name="data_category_dishes" formatted="false">"Έτοιμα πιάτα"</string>
+    <string name="data_category_custom" formatted="false">"Τα τρόφιμά μου"</string>
+    <string name="data_category_other_short" formatted="false">"Άλλο"</string>
+    <string name="data_food_seed_9003" formatted="false">"Μήλο με τη φλούδα"</string>
+    <string name="data_catalog_note_1">"Τιμές αναφοράς ανά 100 g βρώσιμου μέρους. Ωμό τρόφιμο. Οι τιμές υδατανθράκων του USDA περιλαμβάνουν φυτικές ίνες. Μπορείτε να προσαρμόσετε τις τιμές σύμφωνα με την ετικέτα του προϊόντος. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Μπανάνα χωρίς φλούδα"</string>
+    <string name="data_food_seed_9021" formatted="false">"Βερίκοκο χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_9037" formatted="false">"Σάρκα αβοκάντο"</string>
+    <string name="data_food_seed_9050" formatted="false">"Μύρτιλα"</string>
+    <string name="data_food_seed_9070" formatted="false">"Κεράσια χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_9063" formatted="false">"Βύσσινα χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_9078" formatted="false">"Κράνμπερι"</string>
+    <string name="data_food_seed_9083" formatted="false">"Μαύρα φραγκοστάφυλα"</string>
+    <string name="data_food_seed_9084" formatted="false">"Κόκκινα και λευκά φραγκοστάφυλα"</string>
+    <string name="data_food_seed_9132" formatted="false">"Σταφύλια"</string>
+    <string name="data_food_seed_9148" formatted="false">"Σάρκα ακτινιδίου"</string>
+    <string name="data_food_seed_9150" formatted="false">"Λεμόνι χωρίς φλούδα"</string>
+    <string name="data_food_seed_9181" formatted="false">"Σάρκα πεπονιού κανταλούπε"</string>
+    <string name="data_food_seed_9200" formatted="false">"Σάρκα πορτοκαλιού"</string>
+    <string name="data_food_seed_9218" formatted="false">"Σάρκα μανταρινιού"</string>
+    <string name="data_food_seed_9236" formatted="false">"Ροδάκινο χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_9252" formatted="false">"Αχλάδι"</string>
+    <string name="data_food_seed_9266" formatted="false">"Σάρκα ανανά"</string>
+    <string name="data_food_seed_9279" formatted="false">"Δαμάσκηνο χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_9286" formatted="false">"Σπόροι ροδιού"</string>
+    <string name="data_food_seed_9295" formatted="false">"Σάρκα πομέλο"</string>
+    <string name="data_food_seed_9302" formatted="false">"Σμέουρα"</string>
+    <string name="data_food_seed_9316" formatted="false">"Φράουλες"</string>
+    <string name="data_food_seed_9326" formatted="false">"Σάρκα καρπουζιού"</string>
+    <string name="data_food_seed_9191" formatted="false">"Νεκταρίνι χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_9176" formatted="false">"Σάρκα μάνγκο"</string>
+    <string name="data_food_seed_9107" formatted="false">"Λαγοκέρασα"</string>
+    <string name="data_food_seed_9226" formatted="false">"Σάρκα παπάγιας"</string>
+    <string name="data_food_seed_9089" formatted="false">"Φρέσκα σύκα"</string>
+    <string name="data_food_seed_9111" formatted="false">"Σάρκα γκρέιπφρουτ"</string>
+    <string name="data_food_seed_9032" formatted="false">"Αποξηραμένα βερίκοκα χωρίς κουκούτσι"</string>
+    <string name="data_catalog_note_2">"Τιμές αναφοράς ανά 100 g βρώσιμου μέρους. Οι τιμές υδατανθράκων του USDA περιλαμβάνουν φυτικές ίνες. Μπορείτε να προσαρμόσετε τις τιμές σύμφωνα με την ετικέτα του προϊόντος. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Αποξηραμένα δαμάσκηνα χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_9087" formatted="false">"Χουρμάδες χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_9298" formatted="false">"Μαύρες σταφίδες χωρίς κουκούτσι"</string>
+    <string name="data_food_seed_11529" formatted="false">"Φρέσκια ντομάτα"</string>
+    <string name="data_food_seed_11205" formatted="false">"Αγγούρι με τη φλούδα"</string>
+    <string name="data_food_seed_11090" formatted="false">"Ωμό μπρόκολο"</string>
+    <string name="data_food_seed_11109" formatted="false">"Ωμό λευκό λάχανο"</string>
+    <string name="data_food_seed_11124" formatted="false">"Ωμό καρότο"</string>
+    <string name="data_food_seed_11135" formatted="false">"Ωμό κουνουπίδι"</string>
+    <string name="data_food_seed_11143" formatted="false">"Κοτσάνια σέλινου"</string>
+    <string name="data_food_seed_11282" formatted="false">"Ωμό κρεμμύδι"</string>
+    <string name="data_food_seed_11291" formatted="false">"Φρέσκα κρεμμυδάκια"</string>
+    <string name="data_food_seed_11304" formatted="false">"Ωμός αρακάς"</string>
+    <string name="data_food_seed_11333" formatted="false">"Πράσινη γλυκιά πιπεριά"</string>
+    <string name="data_food_seed_11821" formatted="false">"Κόκκινη γλυκιά πιπεριά"</string>
+    <string name="data_food_seed_11352" formatted="false">"Ωμή πατάτα με τη φλούδα"</string>
+    <string name="data_food_seed_11367" formatted="false">"Βραστή πατάτα χωρίς φλούδα"</string>
+    <string name="data_catalog_note_3">"Τιμές αναφοράς ανά 100 g βρώσιμου μέρους. Χωρίς προσθήκη αλατιού. Οι τιμές υδατανθράκων του USDA περιλαμβάνουν φυτικές ίνες. Μπορείτε να προσαρμόσετε τις τιμές σύμφωνα με την ετικέτα του προϊόντος. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Ωμό κολοκυθάκι"</string>
+    <string name="data_food_seed_11209" formatted="false">"Ωμή μελιτζάνα"</string>
+    <string name="data_food_seed_11422" formatted="false">"Ωμή κολοκύθα"</string>
+    <string name="data_food_seed_11429" formatted="false">"Ραπανάκι"</string>
+    <string name="data_food_seed_11564" formatted="false">"Ωμό γογγύλι"</string>
+    <string name="data_food_seed_11080" formatted="false">"Ωμό παντζάρι"</string>
+    <string name="data_food_seed_11081" formatted="false">"Βραστό παντζάρι"</string>
+    <string name="data_food_seed_11215" formatted="false">"Σκόρδο"</string>
+    <string name="data_food_seed_11216" formatted="false">"Ρίζα τζίντζερ"</string>
+    <string name="data_food_seed_11457" formatted="false">"Ωμό σπανάκι"</string>
+    <string name="data_food_seed_11253" formatted="false">"Φυλλώδες μαρούλι"</string>
+    <string name="data_food_seed_11297" formatted="false">"Φρέσκος μαϊντανός"</string>
+    <string name="data_food_seed_2045" formatted="false">"Φρέσκος άνηθος"</string>
+    <string name="data_food_seed_11052" formatted="false">"Ωμά πράσινα φασολάκια"</string>
+    <string name="data_food_seed_11167" formatted="false">"Ωμοί κόκκοι γλυκού καλαμποκιού"</string>
+    <string name="data_food_seed_11260" formatted="false">"Ωμά λευκά μανιτάρια"</string>
+    <string name="data_food_seed_11261" formatted="false">"Βραστά λευκά μανιτάρια χωρίς αλάτι"</string>
+    <string name="data_food_seed_11987" formatted="false">"Ωμά μανιτάρια πλευρώτους"</string>
+    <string name="data_food_seed_20009" formatted="false">"Ξηροί κόκκοι φαγόπυρου"</string>
+    <string name="data_catalog_note_4">"Τιμές αναφοράς ανά 100 g βρώσιμου μέρους. Καβουρδισμένοι κόκκοι φαγόπυρου. Οι τιμές υδατανθράκων του USDA περιλαμβάνουν φυτικές ίνες. Μπορείτε να προσαρμόσετε τις τιμές σύμφωνα με την ετικέτα του προϊόντος. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Φαγόπυρο βρασμένο σε νερό"</string>
+    <string name="data_food_seed_20444" formatted="false">"Λευκό ρύζι, ξηρό"</string>
+    <string name="data_food_seed_20445" formatted="false">"Βραστό λευκό ρύζι χωρίς αλάτι"</string>
+    <string name="data_food_seed_20036" formatted="false">"Καστανό ρύζι, ξηρό"</string>
+    <string name="data_food_seed_20037" formatted="false">"Βραστό καστανό ρύζι"</string>
+    <string name="data_food_seed_8120" formatted="false">"Νιφάδες βρώμης, ξηρές"</string>
+    <string name="data_food_seed_8121" formatted="false">"Χυλός βρώμης με νερό, χωρίς αλάτι"</string>
+    <string name="data_food_seed_20005" formatted="false">"Κριθάρι αποφλοιωμένο, ξηρό"</string>
+    <string name="data_food_seed_20006" formatted="false">"Βραστό αποφλοιωμένο κριθάρι"</string>
+    <string name="data_food_seed_20031" formatted="false">"Κεχρί, ξηρό"</string>
+    <string name="data_food_seed_20032" formatted="false">"Βραστό κεχρί"</string>
+    <string name="data_food_seed_20420" formatted="false">"Ζυμαρικά, ξηρά"</string>
+    <string name="data_food_seed_20421" formatted="false">"Βραστά ζυμαρικά χωρίς αλάτι"</string>
+    <string name="data_food_seed_16070" formatted="false">"Βραστές φακές χωρίς αλάτι"</string>
+    <string name="data_food_seed_16057" formatted="false">"Βραστά ρεβίθια χωρίς αλάτι"</string>
+    <string name="data_food_seed_16033" formatted="false">"Βραστά κόκκινα φασόλια χωρίς αλάτι"</string>
+    <string name="data_food_seed_5062" formatted="false">"Ωμό στήθος κοτόπουλου χωρίς πέτσα"</string>
+    <string name="data_food_seed_5064" formatted="false">"Ψητό στήθος κοτόπουλου χωρίς πέτσα"</string>
+    <string name="data_food_seed_5219" formatted="false">"Ωμό στήθος γαλοπούλας χωρίς πέτσα"</string>
+    <string name="data_food_seed_5220" formatted="false">"Ψητό στήθος γαλοπούλας χωρίς πέτσα"</string>
+    <string name="data_food_seed_23562" formatted="false">"Μοσχαρίσιος κιμάς με 10% λίπος, ωμός"</string>
+    <string name="data_food_seed_23566" formatted="false">"Μοσχαρίσιος κιμάς με 10% λίπος, ψητός"</string>
+    <string name="data_food_seed_10060" formatted="false">"Ωμό χοιρινό ψαρονέφρι χωρίς ορατό λίπος"</string>
+    <string name="data_food_seed_10061" formatted="false">"Ψητό χοιρινό ψαρονέφρι"</string>
+    <string name="data_food_seed_15236" formatted="false">"Σολομός Ατλαντικού, ωμός"</string>
+    <string name="data_catalog_note_5">"Τιμές αναφοράς ανά 100 g βρώσιμου μέρους. Ωμό τρόφιμο. Προϊόν εκτροφής. Οι τιμές υδατανθράκων του USDA περιλαμβάνουν φυτικές ίνες. Μπορείτε να προσαρμόσετε τις τιμές σύμφωνα με την ετικέτα του προϊόντος. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Σολομός Ατλαντικού, ψητός"</string>
+    <string name="data_catalog_note_6">"Τιμές αναφοράς ανά 100 g βρώσιμου μέρους. Προϊόν εκτροφής. Οι τιμές υδατανθράκων του USDA περιλαμβάνουν φυτικές ίνες. Μπορείτε να προσαρμόσετε τις τιμές σύμφωνα με την ετικέτα του προϊόντος. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Μπακαλιάρος Ατλαντικού, ωμός"</string>
+    <string name="data_food_seed_15266" formatted="false">"Πόλοκ Αλάσκας, ωμό"</string>
+    <string name="data_food_seed_15121" formatted="false">"Τόνος σε κονσέρβα με νερό, στραγγισμένος"</string>
+    <string name="data_food_seed_15271" formatted="false">"Μαγειρεμένες γαρίδες, καθαρισμένες"</string>
+    <string name="data_food_seed_1211" formatted="false">"Γάλα με 3,25% λιπαρά"</string>
+    <string name="data_food_seed_1174" formatted="false">"Γάλα με 2% λιπαρά"</string>
+    <string name="data_food_seed_1082" formatted="false">"Γάλα με 1% λιπαρά"</string>
+    <string name="data_food_seed_1116" formatted="false">"Απλό γιαούρτι από πλήρες γάλα"</string>
+    <string name="data_food_seed_1256" formatted="false">"Στραγγιστό γιαούρτι χωρίς λιπαρά"</string>
+    <string name="data_food_seed_1015" formatted="false">"Τυρί κότατζ με 2% λιπαρά"</string>
+    <string name="data_catalog_note_7">"Τιμές αναφοράς ανά 100 g βρώσιμου μέρους. Τυρί κότατζ· άλλα φρέσκα τυριά έχουν διαφορετικές τιμές. Οι τιμές υδατανθράκων του USDA περιλαμβάνουν φυτικές ίνες. Μπορείτε να προσαρμόσετε τις τιμές σύμφωνα με την ετικέτα του προϊόντος. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Ξινή κρέμα με περίπου 19% λιπαρά"</string>
+    <string name="data_food_seed_1009" formatted="false">"Τυρί τσένταρ"</string>
+    <string name="data_food_seed_1026" formatted="false">"Μοτσαρέλα από πλήρες γάλα"</string>
+    <string name="data_food_seed_1019" formatted="false">"Φέτα"</string>
+    <string name="data_food_seed_1123" formatted="false">"Ωμό αυγό κότας χωρίς κέλυφος"</string>
+    <string name="data_food_seed_1129" formatted="false">"Βραστό αυγό κότας χωρίς κέλυφος"</string>
+    <string name="data_food_seed_1124" formatted="false">"Ωμό ασπράδι αυγού κότας"</string>
+    <string name="data_food_seed_1001" formatted="false">"Αλατισμένο βούτυρο"</string>
+    <string name="data_food_seed_4053" formatted="false">"Ελαιόλαδο"</string>
+    <string name="data_food_seed_4506" formatted="false">"Ηλιέλαιο"</string>
+    <string name="data_food_seed_12061" formatted="false">"Αμύγδαλα"</string>
+    <string name="data_food_seed_12155" formatted="false">"Ψίχα καρυδιών"</string>
+    <string name="data_food_seed_12120" formatted="false">"Ψίχα φουντουκιών"</string>
+    <string name="data_food_seed_12151" formatted="false">"Ωμή ψίχα φιστικιών Αιγίνης"</string>
+    <string name="data_food_seed_12014" formatted="false">"Αποξηραμένη ψίχα κολοκυθόσπορων"</string>
+    <string name="data_food_seed_16087" formatted="false">"Ωμα αποφλοιωμένα αράπικα φιστίκια"</string>
+    <string name="data_food_seed_18069" formatted="false">"Λευκό σταρένιο ψωμί"</string>
+    <string name="data_food_seed_18075" formatted="false">"Ψωμί ολικής άλεσης"</string>
+    <string name="data_food_seed_18060" formatted="false">"Ψωμί σίκαλης"</string>
+    <string name="data_food_seed_19296" formatted="false">"Μέλι"</string>
+    <string name="data_food_seed_19335" formatted="false">"Ζάχαρη"</string>
+    <string name="data_food_seed_19165" formatted="false">"Άγλυκο κακάο σε σκόνη"</string>
+    <string name="data_food_seed_19904" formatted="false">"Μαύρη σοκολάτα με 70–85% κακάο"</string>
+    <string name="data_meal_breakfast" formatted="false">"Πρωινό"</string>
+    <string name="data_meal_lunch" formatted="false">"Μεσημεριανό"</string>
+    <string name="data_meal_dinner" formatted="false">"Βραδινό"</string>
+    <string name="data_meal_snack" formatted="false">"Σνακ"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Πολιτική απορρήτου του Diet Diary\nΑναθεώρηση: 9 Οκτωβρίου 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Εφαρμογή: Diet Diary· ρωσικός τίτλος καταχώρισης στο Google Play: «Дневник диеты: подсчёт калорий»· όνομα πακέτου: ru.dietdiary.offline.\nΠρογραμματιστής έργου: Efreitor2001. Για ερωτήσεις σχετικά με την εφαρμογή ή την επεξεργασία δεδομένων, επικοινωνήστε μέσω https://github.com/Efreitor2001/kkalcal/issues . Τα αιτήματα στο GitHub είναι δημόσια: μην αναρτάτε δεδομένα υγείας, αντίγραφα ασφαλείας, κωδικούς πρόσβασης ή διακριτικά."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Ημερολόγιο στη συσκευή σας\nΔεν απαιτείται εγγραφή για την τήρηση ημερολογίου. Η εφαρμογή αποθηκεύει τρόφιμα και διατροφικές τιμές, μερίδες και ημερομηνίες γευμάτων, βάρος, περίμετρο μέσης, ποσοστό λίπους, βήματα, ύπνο, περιγραφές προπόνησης, σημειώσεις, στόχους, επιτεύγματα και ρυθμίσεις στον ιδιωτικό χώρο αποθήκευσής της στη συσκευή σας. Τα προαιρετικά πεδία μπορούν να μείνουν κενά. Τα βήματα, ο ύπνος και οι μετρήσεις καταχωρίζονται χειροκίνητα· η εφαρμογή δεν διαβάζει δεδομένα από το Health Connect, αισθητήρες φυσικής δραστηριότητας ή ιατροτεχνολογικά προϊόντα."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Αυτές οι πληροφορίες χρησιμοποιούνται για τον υπολογισμό θερμίδων και μακροθρεπτικών συστατικών, καθώς και για την προβολή ιστορικού, γραφημάτων και επιτευγμάτων. Ο προγραμματιστής δεν διαθέτει διακομιστή που να λαμβάνει το περιεχόμενο του ημερολογίου. Αν δεν συνδέσετε το Google Drive και δεν κοινοποιήσετε μόνοι σας αντίγραφο ασφαλείας, οι εγγραφές παραμένουν στη συσκευή σας."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Προαιρετική σύνδεση Google Drive\nΚατόπιν δικού σας αιτήματος, η εφαρμογή ανοίγει τη σύνδεση Google στο προεπιλεγμένο πρόγραμμα περιήγησης και ζητά πρόσβαση στον κρυφό χώρο δεδομένων εφαρμογής του Google Drive σας. Αυτή η άδεια δεν παρέχει πρόσβαση στα συνηθισμένα έγγραφα και τις φωτογραφίες σας στο Drive."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Μετά τη σύνδεση, τρόφιμα, γεύματα, μετρήσεις ημερολογίου, σημειώσεις, στόχοι, επιτεύγματα, μεταφερόμενες ρυθμίσεις και μεταδεδομένα αλλαγών, συμπεριλαμβανομένων τυχαίων αναγνωριστικών εγκατάστασης και χρονικών σημάνσεων, αποστέλλονται στην Google. Χρησιμοποιούνται για τη δημιουργία στιγμιότυπων ασφαλείας και τη συγχώνευση εγγραφών μεταξύ συσκευών. Αν είναι ενεργός ο αυτόματος συγχρονισμός, οι αλλαγές αποστέλλονται και στο παρασκήνιο όταν υπάρχει σύνδεση δικτύου. Μπορείτε να απενεργοποιήσετε ξεχωριστά τον αυτόματο συγχρονισμό."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Η εφαρμογή λαμβάνει τη διεύθυνση ηλεκτρονικού ταχυδρομείου και το αναγνωριστικό του επιλεγμένου λογαριασμού Google για να εμφανίζει τη σύνδεση και να τη συσχετίζει με τον σωστό χώρο αποθήκευσης. Ο κωδικός Google δεν γνωστοποιείται στην εφαρμογή. Η συνεδρία εξουσιοδότησης αποθηκεύεται κρυπτογραφημένη στη συσκευή, με κλειδί στο Android Keystore. Τα διακριτικά, οι διευθύνσεις ηλεκτρονικού ταχυδρομείου και τα αναγνωριστικά Google εξαιρούνται από τις εξαγωγές ημερολογίου και τα συγχρονισμένα στιγμιότυπα JSON."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Τα δεδομένα Google χρησιμοποιούνται μόνο για εξουσιοδότηση και συγχρονισμό, ποτέ για διαφήμιση. Ισχύει η πολιτική απορρήτου της Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Αρχεία αντιγράφων ασφαλείας\nΗ «Αποθήκευση σε αρχείο» δημιουργεί αρχείο JSON στην τοποθεσία που επιλέγετε. Η επαναφορά διαβάζει μόνο το επιλεγμένο αρχείο. Αν επιλέξετε πάροχο αρχείων στο cloud ή κοινοποιήσετε αντίγραφο σε άλλο άτομο, εσείς επιλέγετε τον παραλήπτη. Η εφαρμογή δεν κρυπτογραφεί τα εξαγόμενα αρχεία JSON: περιέχουν προσωπικά δεδομένα και μεταδεδομένα αλλαγών."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Διαφημίσεις\nΗ εφαρμογή χρησιμοποιεί το Yandex Mobile Ads SDK. Για τη φόρτωση και την προβολή διαφημίσεων, η συσκευή συνδέεται με διαφημιστικές υπηρεσίες. Η Yandex μπορεί να επεξεργάζεται τη διεύθυνση IP και άλλες τεχνικές πληροφορίες σχετικά με το αίτημα δικτύου, τη συσκευή και το λογισμικό, διαθέσιμα διαφημιστικά ή τεχνικά αναγνωριστικά, καθώς και πληροφορίες για προβολές διαφημίσεων και αλληλεπιδράσεις με αυτές."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Η εφαρμογή δηλώνει στο SDK ότι δεν έχει δοθεί συγκατάθεση, απενεργοποιεί τη συλλογή τοποθεσίας και τις αναφορές App Ad Analytics. Δεν ζητά άδειες ακριβούς ή κατά προσέγγιση τοποθεσίας. Αυτές οι ρυθμίσεις δεν σημαίνουν ότι η διαφημιστική υπηρεσία δεν πραγματοποιεί καθόλου επικοινωνία δικτύου ή επεξεργασία τεχνικών δεδομένων."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Η εφαρμογή δεν χρησιμοποιεί γεύματα, βάρος, μετρήσεις, σημειώσεις, στόχους, διευθύνσεις ηλεκτρονικού ταχυδρομείου ή αναγνωριστικά Google για διαφημιστική στόχευση και δεν τα προσθέτει στις παραμέτρους αιτημάτων διαφημίσεων. Δεν χρειάζεται να παρακολουθήσετε διαφήμιση για να αποθηκεύσετε εγγραφές."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Οι κανόνες της Yandex για επεξεργασία, διατήρηση και διαγραφή δεδομένων βρίσκονται στο https://yandex.ru/legal/confidential/ . Μπορείτε να διαχειριστείτε το διαφημιστικό αναγνωριστικό στις ρυθμίσεις Android, αν το υποστηρίζει η έκδοση του συστήματος. Η πολιτική της διαφημιστικής υπηρεσίας καθορίζει τον χρόνο διατήρησης των τεχνικών της δεδομένων· ο προγραμματιστής του ημερολογίου δεν ορίζει ξεχωριστό χρόνο διατήρησης για αυτά."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Προστασία δεδομένων\nΗ επικοινωνία με την Google χρησιμοποιεί HTTPS· η Yandex δηλώνει ότι τα δεδομένα του SDK μεταδίδονται μέσω HTTPS/TLS. Το τοπικό ημερολόγιο προστατεύεται από την απομόνωση εφαρμογών του Android. Η εφαρμογή δεν κρυπτογραφεί ξεχωριστά το περιεχόμενο του ημερολογίου ή τα στιγμιότυπα JSON· δεν παρέχει κρυπτογράφηση από άκρο σε άκρο μεταξύ συσκευών."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Το αντίγραφο ασφαλείας δεδομένων εφαρμογής του συστήματος είναι απενεργοποιημένο. Τα διαγνωστικά αρχεία καταγραφής που δημιουργεί ο κώδικας της εφαρμογής περιέχουν κωδικούς αποτελεσμάτων, χωρίς περιεχόμενο ημερολογίου, διευθύνσεις ηλεκτρονικού ταχυδρομείου, διακριτικά ή σώματα αποκρίσεων δικτύου· η εφαρμογή δεν αποστέλλει χωριστά αυτά τα αρχεία στον προγραμματιστή."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Διατήρηση και διαγραφή\nΟι τοπικές εγγραφές διατηρούνται μέχρι να τις επεξεργαστείτε, να τις διαγράψετε ή να εκκαθαρίσετε τα δεδομένα της εφαρμογής. Η διαγραφή αφαιρεί την εγγραφή από τη διεπαφή και μεταδίδει δείκτη διαγραφής κατά τον συγχρονισμό. Τα μεταδεδομένα συγχώνευσης διατηρούνται για να αποτρέπεται η επανεμφάνιση παλιών δεδομένων· μπορεί να περιλαμβάνουν προηγούμενες τιμές διαγραμμένης εγγραφής ημερολογίου. Παλιότερες τιμές μπορεί επίσης να παραμένουν σε προηγούμενα στιγμιότυπα cloud και σε αρχεία που είχατε δημιουργήσει. Επομένως, η διαγραφή μίας εγγραφής δεν διαγράφει πλήρως όλα τα αντίγραφά της."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"Η «Αποσύνδεση λογαριασμού» σταματά τον συγχρονισμό στη συγκεκριμένη συσκευή και διαγράφει την τοπική συνεδρία Google. Το ημερολόγιο και τα στιγμιότυπα στο Google Drive διατηρούνται. Η αποσύνδεση της εφαρμογής δεν διαγράφει τον λογαριασμό Google σας."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Για να διαγράψετε πλήρως τα δεδομένα αυτής της εφαρμογής:\n• Απενεργοποιήστε τον συγχρονισμό σε όλες τις συσκευές, ώστε να μην αποσταλούν ξανά αντίγραφα που απομένουν.\n• Σε πρόγραμμα περιήγησης, ανοίξτε το https://drive.google.com/drive/settings με τον λογαριασμό Google που είχατε συνδέσει. Επιλέξτε «Διαχείριση εφαρμογών», βρείτε το «Diet Diary» (ή «Дневник диеты») και επιλέξτε «Επιλογές» → «Διαγραφή κρυφών δεδομένων εφαρμογής». Αν η σελίδα κινητού δεν εμφανίζει αυτή την ενότητα, χρησιμοποιήστε την έκδοση για υπολογιστή ή έναν υπολογιστή.\n• Ανακαλέστε την πρόσβαση της εφαρμογής στο https://myaccount.google.com/connections . Η ανάκληση πρόσβασης από μόνη της δεν διαγράφει αποθηκευμένα αντίγραφα.\n• Εκκαθαρίστε τον χώρο αποθήκευσης της εφαρμογής στις ρυθμίσεις Android κάθε συσκευής ή απεγκαταστήστε την εφαρμογή.\n• Διαγράψτε τα αντίγραφα ασφαλείας JSON που έχετε αποθηκεύσει χωριστά στους φακέλους και τους χώρους cloud που επιλέξατε."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Χωρίς τα διαπιστευτήριά σας, ο προγραμματιστής δεν μπορεί να διαγράψει εξ αποστάσεως το τοπικό ημερολόγιο ή αρχεία από το προσωπικό σας Google Drive. Μην κοινοποιείτε κωδικούς ή διακριτικά στον προγραμματιστή. Για βοήθεια με τη διαγραφή, επικοινωνήστε με το έργο μέσω του συνδέσμου στην αρχή αυτής της πολιτικής. Δεν χρειάζεται να διαγράψετε τον λογαριασμό Google για να διαγράψετε τα δεδομένα ημερολογίου."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Αλλαγές και επικοινωνία\nΌταν αλλάζουν οι λειτουργίες της εφαρμογής ή οι πρακτικές επεξεργασίας δεδομένων, η πολιτική ενημερώνεται με ημερομηνία αναθεώρησης. Για ερωτήσεις σχετικά με πρόσβαση, διόρθωση, διαγραφή δεδομένων ή τη λειτουργία της εφαρμογής, χρησιμοποιήστε το κανάλι επικοινωνίας του έργου. Τα αιτήματά σας υποβάλλονται σε επεξεργασία για να σας απαντήσουμε και αποθηκεύονται στο GitHub· η πολιτική του GitHub είναι διαθέσιμη στο https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Τα πιάτα μου"</string>
+    <string name="secondary_metric_weight" formatted="false">"Βάρος"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Σωματικό λίπος"</string>
+    <string name="secondary_metric_waist" formatted="false">"Περίμετρος μέσης"</string>
+    <string name="secondary_metric_steps" formatted="false">"Βήματα"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Ύπνος"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Θερμίδες"</string>
+    <string name="secondary_metric_protein" formatted="false">"Πρωτεΐνες"</string>
+    <string name="secondary_metric_fat" formatted="false">"Λιπαρά"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Υδατάνθρακες"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"βήματα"</string>
+    <string name="secondary_unit_hours" formatted="false">"ώρ."</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Μη έγκυρη περίοδος"</string>
+    <string name="secondary_stats_title" formatted="false">"Εξέλιξη"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Τα δεδομένα σας σε κατανοητά γραφήματα"</string>
+    <string name="secondary_metric" formatted="false">"Δείκτης"</string>
+    <string name="secondary_week" formatted="false">"Εβδομάδα"</string>
+    <string name="secondary_month" formatted="false">"Μήνας"</string>
+    <string name="secondary_year" formatted="false">"Έτος"</string>
+    <string name="secondary_custom_period" formatted="false">"Δική σας περίοδος"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Η ημερομηνία έναρξης δεν μπορεί να είναι μετά την ημερομηνία λήξης"</string>
+    <string name="secondary_no_records" formatted="false">"Δεν υπάρχουν ακόμη δεδομένα"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Προσθέστε τρόφιμα στο ημερολόγιο ή επιλέξτε άλλη περίοδο."</string>
+    <string name="secondary_chart_tap" formatted="false">"Πατήστε το γράφημα για να επιλέξετε μια εγγραφή"</string>
+    <string name="secondary_chart_connected" formatted="false">"Η γραμμή ενώνει τις καταγεγραμμένες μετρήσεις. Δεν υπάρχουν μετρήσεις ανάμεσα στα σημεία."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Οι εκτιμήσεις της ζυγαριάς είναι χρήσιμες για την παρακολούθηση τάσεων."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Το χειροκίνητο ημερήσιο σύνολο αντικαθιστά το σύνολο από τα τρόφιμα. Διαφορετικά, αθροίζονται τα καταγεγραμμένα τρόφιμα. Οι ημέρες χωρίς δεδομένα παραλείπονται."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Τα σύνολα βασίζονται στα καταγεγραμμένα τρόφιμα. Μια ημέρα χωρίς δεδομένα δεν υπολογίζεται ως μηδέν."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Οι ημέρες χωρίς δεδομένα παραλείπονται και δεν περιλαμβάνονται στον μέσο όρο."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Σήμερα και χθες"</string>
+    <string name="secondary_no_today" formatted="false">"Δεν υπάρχουν δεδομένα για σήμερα"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Δεν υπάρχουν δεδομένα για χθες"</string>
+    <string name="secondary_partial_today" formatted="false">"Η σύγκριση χρησιμοποιεί τα τρέχοντα δεδομένα. Τα σημερινά στοιχεία μπορεί να μην έχουν συμπληρωθεί ακόμη."</string>
+    <string name="secondary_period_summary" formatted="false">"Σύνοψη περιόδου"</string>
+    <string name="secondary_recorded_average" formatted="false">"Μέσος όρος καταγεγραμμένων ημερών"</string>
+    <string name="secondary_recorded_days" formatted="false">"Ημέρες με δεδομένα"</string>
+    <string name="secondary_minimum" formatted="false">"Ελάχιστο"</string>
+    <string name="secondary_maximum" formatted="false">"Μέγιστο"</string>
+    <string name="secondary_first_to_last" formatted="false">"Από την πρώτη έως την τελευταία εγγραφή"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Χρειάζονται τουλάχιστον δύο καταγεγραμμένες ημέρες για τον υπολογισμό της μεταβολής."</string>
+    <string name="secondary_history" formatted="false">"Ιστορικό"</string>
+    <string name="secondary_history_recent" formatted="false">"Οι τελευταίες 14 ημέρες με δεδομένα. Επιλέξτε δική σας περίοδο για να δείτε παλαιότερες εγγραφές."</string>
+    <string name="secondary_history_all" formatted="false">"Όλες οι καταγεγραμμένες ημέρες της επιλεγμένης περιόδου"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Από %1$s"</string>
+    <string name="secondary_date_until">"Έως %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s στην περίοδο αυτή"</string>
+    <string name="secondary_weight_goal">"Στόχος: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Προσθέστε μια μέτρηση στο ημερολόγιο ή επιλέξτε άλλη περίοδο."</string>
+    <string name="secondary_latest_record">"Τελευταία εγγραφή · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Σήμερα: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Χθες: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Μεταβολή: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d από %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Καταγεγραμμένες ημέρες: %2$d, από %3$s έως %4$s. Ελάχιστο %5$s, μέγιστο %6$s %7$s. Οι αναλυτικές τιμές εμφανίζονται στο ιστορικό."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Πρώτο βήμα"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Καταγράψτε την πρώτη σας μέτρηση βάρους."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Η πρώτη σας μέτρηση βάρους καταγράφηκε."</string>
+    <string name="secondary_award_first_food" formatted="false">"Πρώτη εγγραφή"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Καταγράψτε την πρώτη σας μερίδα φαγητού."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Η πρώτη σας μερίδα φαγητού καταγράφηκε."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Μια εβδομάδα δεδομένων"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Καταγράψτε βάρος σε 7 διαφορετικές ημέρες. Δεν χρειάζεται να είναι συνεχόμενες."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Έχετε μετρήσεις βάρους για 7 διαφορετικές ημέρες."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Σταθερότητα"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Καταγράψτε βάρος σε 30 διαφορετικές ημέρες."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Έχετε μετρήσεις βάρους για 30 ημέρες."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Αρχειοθέτης"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Καταγράψτε 100 μερίδες φαγητού στο ημερολόγιό σας."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Έχετε καταγράψει 100 μερίδες φαγητού."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Νέα συνήθεια"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Καταγράψτε φαγητό για 7 συνεχόμενες ημερολογιακές ημέρες."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Έχετε καταγράψει φαγητό για 7 συνεχόμενες ημέρες."</string>
+    <string name="secondary_award_steps" formatted="false">"Πρωταθλητής στο περπάτημα"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Καταγράψτε τουλάχιστον 10 000 βήματα σε μία ημέρα."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Έχετε καταγράψει ημέρα με 10 000 βήματα."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Συνεπής παρακολούθηση"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Καταγράψτε 100 μετρήσεις βάρους. Μετράει μία ανά ημερομηνία."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Έχετε καταγράψει 100 μετρήσεις βάρους."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Έμπειρος στο ημερολόγιο"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Καταγράψτε γεύματα ή μετρήσεις σε 90 διαφορετικές ημέρες. Δεν χρειάζεται να είναι συνεχόμενες."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Το ημερολόγιό σας περιέχει εγγραφές για 90 διαφορετικές ημέρες."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"μετρήσεις"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"μερίδες"</string>
+    <string name="secondary_award_unit_days" formatted="false">"ημέρες"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"συνεχόμενες ημέρες"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"βήματα σε μία ημέρα"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"καταγεγραμμένες ημέρες"</string>
+    <string name="secondary_back" formatted="false">"‹  Πίσω"</string>
+    <string name="secondary_achievements" formatted="false">"Επιτεύγματα"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Τα μικρά βήματα γίνονται συνήθεια"</string>
+    <string name="secondary_your_progress" formatted="false">"Η ΠΡΟΟΔΟΣ ΣΑΣ"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Τα επιτεύγματα που αποκτάτε παραμένουν ακόμη και αν επεξεργαστείτε τις εγγραφές."</string>
+    <string name="secondary_awards_regular" formatted="false">"Για τη συνέπεια και την τήρηση ημερολογίου"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Λαμβάνονται υπόψη οι εγγραφές έως και σήμερα."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Κρυφό επίτευγμα"</string>
+    <string name="secondary_hidden_description" formatted="false">"Συνεχίστε να χρησιμοποιείτε το ημερολόγιο για να ξεκλειδώσετε αυτό το επίτευγμα."</string>
+    <string name="secondary_earned" formatted="false">"Αποκτήθηκε"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Κρυφό · κλειδωμένο"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Σε εξέλιξη · κλειδωμένο"</string>
+    <string name="secondary_locked" formatted="false">"Κλειδωμένο"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Η προϋπόθεση και η πρόοδός σας θα αποκαλυφθούν όταν αποκτήσετε αυτό το επίτευγμα."</string>
+    <string name="secondary_best_streak" formatted="false">"Μεγαλύτερο σερί"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Κρυφή ανταμοιβή"</string>
+    <string name="secondary_unlocked_of">"από %1$d ξεκλειδωμένα"</string>
+    <string name="secondary_unlocked_date">"Ξεκλειδώθηκε στις %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Πίσω"</string>
+    <string name="secondary_my_recipe" formatted="false">"Η συνταγή μου"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Ζυγίστε τα συστατικά πριν το μαγείρεμα. Χρησιμοποιήστε το βάρος του μαγειρεμένου πιάτου για τον υπολογισμό μερίδων. Μην ξεχνάτε τα λάδια και τις σάλτσες."</string>
+    <string name="secondary_recipe_name" formatted="false">"Όνομα συνταγής"</string>
+    <string name="secondary_recipe_example" formatted="false">"Για παράδειγμα, λαδερά λαχανικά"</string>
+    <string name="secondary_ingredients" formatted="false">"Συστατικά"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Ξεκινήστε με τα συστατικά"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Προσθέστε κάθε συστατικό και καταχωρίστε το βάρος του σε γραμμάρια."</string>
+    <string name="secondary_edit_weight" formatted="false">"Επεξεργασία βάρους"</string>
+    <string name="secondary_delete" formatted="false">"Διαγραφή"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Προσθήκη συστατικού"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Ολόκληρη συνταγή"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Το μαγείρεμα αλλάζει το βάρος όταν προστίθεται ή εξατμίζεται νερό. Ζυγίστε το έτοιμο πιάτο χωρίς το σκεύος."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Βάρος μαγειρεμένου πιάτου, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Καταχωρίστε βάρος μετά το μαγείρεμα"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Καταχωρίστε βάρος μεγαλύτερο από 0 και έως 100 000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Το βάρος δεν συμπληρώνεται αυτόματα"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Ανά 100 g μαγειρεμένου πιάτου"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Ελέγξτε το βάρος του έτοιμου πιάτου και τα συστατικά: ανά 100 g επιτρέπονται έως 1 000 kcal και 100 g από κάθε μακροθρεπτικό συστατικό."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Δεν ήταν δυνατή η αποθήκευση της συνταγής"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Αποθήκευση στις συνταγές μου"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Μετά την αποθήκευση μπορείτε να προσθέσετε το πιάτο στο ημερολόγιο με βάση το βάρος της μερίδας."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Βάρος συστατικού πριν το μαγείρεμα"</string>
+    <string name="secondary_grams" formatted="false">"Γραμμάρια"</string>
+    <string name="secondary_weight_limits" formatted="false">"Μεγαλύτερο από 0 και έως 100 000 g"</string>
+    <string name="secondary_add" formatted="false">"Προσθήκη"</string>
+    <string name="secondary_save" formatted="false">"Αποθήκευση"</string>
+    <string name="secondary_cancel" formatted="false">"Ακύρωση"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Επιλογή συστατικού"</string>
+    <string name="secondary_search_food" formatted="false">"Αναζήτηση τροφίμων"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Δεν βρέθηκαν αποτελέσματα. Μπορείτε να προσθέσετε δικό σας τρόφιμο στην καρτέλα Τρόφιμα."</string>
+    <string name="secondary_close" formatted="false">"Κλείσιμο"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Πρωτεΐνες %1$s · Λιπαρά %2$s · Υδατάνθρακες %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Βάρος συστατικών: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Τελικό βάρος: %1$s g. Συστατικά: %2$s"</string>
+</resources>

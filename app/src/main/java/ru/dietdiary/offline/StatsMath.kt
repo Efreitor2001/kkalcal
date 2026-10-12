@@ -7,12 +7,15 @@ import kotlin.math.log10
 import kotlin.math.max
 import kotlin.math.pow
 
-internal enum class StatsMetric(val title: String, val unit: String, val bars: Boolean = false, val food: Boolean = false) {
-    WEIGHT("Вес", "кг"), BODY_FAT("Жир тела", "%"), WAIST("Талия", "см"),
-    STEPS("Шаги", "шагов", bars = true), SLEEP("Сон", "ч"),
-    KCAL("Калории", "ккал", bars = true, food = true),
-    PROTEIN("Белки", "г", bars = true, food = true),
-    FAT("Жиры", "г", bars = true, food = true), CARBS("Углеводы", "г", bars = true, food = true)
+internal enum class StatsMetric(private val titleRes: Int, private val unitRes: Int, val bars: Boolean = false, val food: Boolean = false) {
+    WEIGHT(R.string.secondary_metric_weight, R.string.secondary_unit_kg), BODY_FAT(R.string.secondary_metric_fat_percent, R.string.secondary_unit_percent), WAIST(R.string.secondary_metric_waist, R.string.secondary_unit_cm),
+    STEPS(R.string.secondary_metric_steps, R.string.secondary_unit_steps, bars = true), SLEEP(R.string.secondary_metric_sleep, R.string.secondary_unit_hours),
+    KCAL(R.string.secondary_metric_kcal, R.string.secondary_unit_kcal, bars = true, food = true),
+    PROTEIN(R.string.secondary_metric_protein, R.string.secondary_unit_grams, bars = true, food = true),
+    FAT(R.string.secondary_metric_fat, R.string.secondary_unit_grams, bars = true, food = true), CARBS(R.string.secondary_metric_carbs, R.string.secondary_unit_grams, bars = true, food = true);
+
+    val title: String get() = tr(titleRes)
+    val unit: String get() = tr(unitRes)
 }
 
 internal data class StatsPoint(val date: LocalDate, val value: Double)
@@ -65,7 +68,7 @@ internal fun statsTodayAndYesterday(points: List<StatsPoint>, today: LocalDate):
 
 /** Calendar distance, not position in the list. A one-day interval is centered. */
 internal fun statsDayFraction(date: LocalDate, start: LocalDate, end: LocalDate): Double {
-    require(!end.isBefore(start)) { "Неверный период" }
+    require(!end.isBefore(start)) { tr(R.string.secondary_invalid_period) }
     if (start == end) return 0.5
     return ((date.toEpochDay() - start.toEpochDay()).toDouble() / (end.toEpochDay() - start.toEpochDay())).coerceIn(0.0, 1.0)
 }

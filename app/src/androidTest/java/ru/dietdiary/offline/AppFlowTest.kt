@@ -36,6 +36,10 @@ import java.util.UUID
  */
 @RunWith(AndroidJUnit4::class)
 class AppFlowTest {
+    private var russianLocale: AutoCloseable? = null
+
+    @After fun restoreTestLocale() { russianLocale?.close(); russianLocale = null }
+
     @get:Rule
     val compose = createComposeRule()
 
@@ -46,6 +50,7 @@ class AppFlowTest {
     @Before
     fun setUp() {
         val application = ApplicationProvider.getApplicationContext<Context>()
+        russianLocale = installRussianTestLocale(application)
         testRoot = File(application.cacheDir, "ui-flow-${UUID.randomUUID()}")
         val testFiles = File(testRoot, "files").apply { check(mkdirs()) }
         context = object : ContextWrapper(application) {
@@ -54,7 +59,7 @@ class AppFlowTest {
         store = AppStore(context)
         assertFalse(store.isReadOnly)
         assertTrue(store.data.products.size >= 100)
-        compose.setContent { DietDiaryTheme { DietDiaryApp(store) } }
+        compose.setContent { RussianTestContent { DietDiaryTheme { DietDiaryApp(store) } } }
     }
 
     @After

@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Dieetdagboek"</string>
+    <string name="core_app_name" formatted="false">"Dieetdagboek"</string>
+    <string name="core_tagline" formatted="false">"Kalorieë, gewig en vordering"</string>
+    <string name="core_open_diary" formatted="false">"Oop dagboek"</string>
+    <string name="core_save_failed" formatted="false">"Kon nie jou data stoor nie"</string>
+    <string name="core_day" formatted="false">"Vandag"</string>
+    <string name="core_products" formatted="false">"Voedsel"</string>
+    <string name="core_diary" formatted="false">"Dagboek"</string>
+    <string name="core_charts" formatted="false">"Kaarte"</string>
+    <string name="core_more" formatted="false">"Meer"</string>
+    <string name="core_recipe_saved" formatted="false">"Geregte gestoor by jou kosse"</string>
+    <string name="core_back_to_day" formatted="false">"Terug na jou dag"</string>
+    <string name="core_action_failed" formatted="false">"Kon nie hierdie aksie voltooi nie"</string>
+    <string name="core_understood" formatted="false">"OK"</string>
+    <string name="core_restore_available" formatted="false">"Jy kan \'n rugsteun in More herstel."</string>
+    <string name="core_eaten_today" formatted="false">"VANDAG GEEET"</string>
+    <string name="core_set_goal_hint" formatted="false">"Jy kan \'n doelwit in More stel"</string>
+    <string name="core_add_food" formatted="false">"+ Voeg kos by"</string>
+    <string name="core_first_meal" formatted="false">"Begin met jou eerste maaltyd"</string>
+    <string name="core_first_meal_help" formatted="false">"Kies \'n kos en voer sy gewig in gram in om kalorieë en makro\'s te bereken."</string>
+    <string name="core_my_day" formatted="false">"My dag"</string>
+    <string name="core_my_day_help" formatted="false">"Gewig, middellyf, treë, slaap - teken aan wat jy weet."</string>
+    <string name="core_record_metrics" formatted="false">"Teken metings aan"</string>
+    <string name="core_edit_metrics" formatted="false">"Wysig metings"</string>
+    <string name="core_food_state_hint" formatted="false">"Voedselgewig en voedingswaardes moet na dieselfde toestand verwys: rou, droog of gaar."</string>
+    <string name="core_weight" formatted="false">"Gewig"</string>
+    <string name="core_waist" formatted="false">"Middellyf"</string>
+    <string name="core_my_diary" formatted="false">"My dagboek"</string>
+    <string name="core_diary_tagline" formatted="false">"Elke dag in jou eie pas"</string>
+    <string name="core_record_day" formatted="false">"+ Teken \'n dag op"</string>
+    <string name="core_optional_diary_help" formatted="false">"Alle mates is opsioneel. Jy kan net jou gewig, slaap of \'n nota opneem. Tik \'n inskrywing om dit te wysig."</string>
+    <string name="core_history_starts" formatted="false">"Jou geskiedenis begin hier"</string>
+    <string name="core_history_help" formatted="false">"Teken metings op en volg veranderinge in kaarte."</string>
+    <string name="core_file_unavailable" formatted="false">"Lêer nie beskikbaar nie"</string>
+    <string name="core_backup_saved" formatted="false">"Rugsteun gestoor"</string>
+    <string name="core_export_error" formatted="false">"Kon nie die rugsteun uitvoer nie"</string>
+    <string name="core_read_error" formatted="false">"Kon nie die lêer lees nie"</string>
+    <string name="core_settings_tagline" formatted="false">"Instellings en data-rugsteun"</string>
+    <string name="core_your_progress" formatted="false">"Jou vordering"</string>
+    <string name="core_achievements_help" formatted="false">"Klein prestasies vir die bou van \'n dagboekgewoonte."</string>
+    <string name="core_achievements" formatted="false">"Prestasies"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"\'n Opsionele verbinding om jou dagboek oor jou toestelle te sinkroniseer."</string>
+    <string name="core_cloud_sync" formatted="false">"Wolk-sinkronisering"</string>
+    <string name="core_personal_goals" formatted="false">"Persoonlike doelwitte"</string>
+    <string name="core_personal_goals_help" formatted="false">"Stel jou kalorie-, makro- en teikengewigdoelwitte met die hand. Enige doelwit kan leeg gelaat word."</string>
+    <string name="core_configure_goals" formatted="false">"Stel doelwitte"</string>
+    <string name="core_backup" formatted="false">"Rugsteun"</string>
+    <string name="core_backup_help" formatted="false">"Kos, etes, dagboek, doelwitte en prestasies in een lêer. Stoor \'n rugsteun voordat u die toepassing herinstalleer."</string>
+    <string name="core_save_file" formatted="false">"Stoor na \'n lêer"</string>
+    <string name="core_restore_file" formatted="false">"Herstel vanaf \'n lêer"</string>
+    <string name="core_write_locked" formatted="false">"Stoor is gedeaktiveer om die oorspronklike lêer te beskerm. Herstel \'n geldige rugsteun."</string>
+    <string name="core_about_data" formatted="false">"Oor die toepassing en jou data"</string>
+    <string name="core_about_data_help" formatted="false">"Hoe rekords gestoor word, sinchroniseer werk en data word uitgevee."</string>
+    <string name="core_privacy" formatted="false">"Privaatheid en data-skrap"</string>
+    <string name="core_offline" formatted="false">"Werk vanlyn"</string>
+    <string name="core_offline_help" formatted="false">"Google-aanmelding is opsioneel. Trappe en slaap word met die hand ingevoer. \'n Internetverbinding is nodig vir geaktiveerde sinkronisering en laai van advertensies. Dagboekinskrywings word nie na die advertensienetwerk gestuur nie."</string>
+    <string name="core_about_foods" formatted="false">"Oor voedsel"</string>
+    <string name="core_foods_reference" formatted="false">"Ingeboude waardes is skattings per 100 g eetbare porsie. Gaan die verpakking na vir presiese waardes. Die wysiging van \'n kos herbereken nie vorige ete-inskrywings nie."</string>
+    <string name="core_foods_source" formatted="false">"Databasisbron: USDA FoodData Central, SR Legacy. Individuele kosse sluit hul toestand en bronbesonderhede in."</string>
+    <string name="core_restore_title" formatted="false">"Herstel hierdie rugsteun?"</string>
+    <string name="core_restore_warning" formatted="false">"Jou huidige kosse, dagboek, doelwitte en prestasies sal vervang word met die inhoud van hierdie lêer. Stoor eers \'n rugsteun. As sinchronisasie gekoppel is, sal die herstelde veranderinge ook na Google Drive gestuur word."</string>
+    <string name="core_backup_restored" formatted="false">"Rugsteun herstel"</string>
+    <string name="core_invalid_file" formatted="false">"Ongeldige lêer"</string>
+    <string name="core_replace_data" formatted="false">"Vervang data"</string>
+    <string name="core_cancel" formatted="false">"Kanselleer"</string>
+    <string name="core_save" formatted="false">"Stoor"</string>
+    <string name="core_calculate_portion" formatted="false">"Bereken \'n gedeelte"</string>
+    <string name="core_edit_portion" formatted="false">"Wysig gedeelte"</string>
+    <string name="core_portion_weight" formatted="false">"Gedeelte gewig, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Voer \'n gewig groter as 0 en nie meer as 100 000 g in nie"</string>
+    <string name="core_add_to_diary" formatted="false">"Voeg by dagboek"</string>
+    <string name="core_delete_entry" formatted="false">"Skrap inskrywing"</string>
+    <string name="core_delete_portion_question" formatted="false">"Skrap hierdie gedeelte uit jou dagboek?"</string>
+    <string name="core_new_food" formatted="false">"Nuwe kos of gereg"</string>
+    <string name="core_edit_nutrition" formatted="false">"Wysig voedingswaardes"</string>
+    <string name="core_name" formatted="false">"Naam"</string>
+    <string name="core_food" formatted="false">"Kos"</string>
+    <string name="core_dish" formatted="false">"Voorbereide gereg"</string>
+    <string name="core_category" formatted="false">"Kategorie"</string>
+    <string name="core_per100_hint" formatted="false">"Waardes per 100 g, uit die verpakking of \'n resep. Voer 0 in as \'n voedingstof afwesig is."</string>
+    <string name="core_kcal" formatted="false">"Kalorieë"</string>
+    <string name="core_protein_grams" formatted="false">"Proteïen, g"</string>
+    <string name="core_fat_grams" formatted="false">"Vet, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Koolhidrate, g"</string>
+    <string name="core_food_note" formatted="false">"Let wel, bestanddele (opsioneel)"</string>
+    <string name="core_favorite" formatted="false">"Voeg by gunstelinge"</string>
+    <string name="core_name_category_required" formatted="false">"Voer \'n naam en kategorie in"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Voer waardes per 100 g in: kalorieë 0–1 000; proteïen, vet en koolhidrate 0–100 g"</string>
+    <string name="core_delete_food" formatted="false">"Skrap uit voedsel"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Vorige ete-inskrywings sal hul waardes behou."</string>
+    <string name="core_delete_food_question" formatted="false">"Skrap hierdie kos? Sy dagboekinskrywings sal gehou word."</string>
+    <string name="core_day_entry" formatted="false">"Daaglikse inskrywing"</string>
+    <string name="core_optional_fields" formatted="false">"Vul enige velde in wat jy wil hê. Laat die res leeg."</string>
+    <string name="core_editing_existing" formatted="false">"Daar is reeds \'n inskrywing vir hierdie datum. Jy redigeer dit."</string>
+    <string name="core_weight_kg" formatted="false">"Gewig, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Middellyf, cm"</string>
+    <string name="core_steps" formatted="false">"Stappe"</string>
+    <string name="core_sleep" formatted="false">"Slaap"</string>
+    <string name="core_hours" formatted="false">"Ure"</string>
+    <string name="core_minutes" formatted="false">"Notule"</string>
+    <string name="core_body_fat_optional" formatted="false">"Skaal liggaamsvet, % (opsioneel)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Liggaamsvet vanaf \'n skaal is \'n neigingsaanwyser, nie \'n presiese meting nie."</string>
+    <string name="core_strength_training" formatted="false">"Krag opleiding"</string>
+    <string name="core_training_example" formatted="false">"Byvoorbeeld: hurk 3×10, 12 kg handgewigte"</string>
+    <string name="core_manual_nutrition" formatted="false">"Handmatige voedingtotale"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Indien ingevoer, ignoreer hierdie waardes die kostotale vir die dag. Laat leeg vir outomatiese berekening."</string>
+    <string name="core_daily_calories" formatted="false">"Daaglikse kalorieë"</string>
+    <string name="core_daily_protein" formatted="false">"Daaglikse proteïen, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Notas en hoe jy voel"</string>
+    <string name="core_steps_invalid" formatted="false">"Stappe: \'n heelgetal van 0 tot 200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Slaap: 0–24 uur, minute 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Liggaamsvet"</string>
+    <string name="core_calories" formatted="false">"Kalorieë"</string>
+    <string name="core_protein" formatted="false">"Proteïen"</string>
+    <string name="core_entry_required" formatted="false">"Voeg ten minste een meting of \'n nota by"</string>
+    <string name="core_delete_day" formatted="false">"Vee hierdie daaglikse inskrywing uit"</string>
+    <string name="core_optional_goals" formatted="false">"Alle doelwitte is opsioneel. \'n Leë veld beteken dat geen doelwit gestel is nie."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalorieë per dag"</string>
+    <string name="core_protein_per_day" formatted="false">"Proteïen per dag, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Vet per dag, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Koolhidrate per dag, g"</string>
+    <string name="core_target_weight" formatted="false">"Teikengewig, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Gaan jou doelwitte na: kalorieë 0–10 000; proteïen, vet en koolhidrate 0–1 000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Teikengewig: van 1 tot 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Skrap?"</string>
+    <string name="core_delete" formatted="false">"Skrap"</string>
+    <string name="core_select_food" formatted="false">"Kies kos"</string>
+    <string name="core_foods_dishes" formatted="false">"Kos en geregte"</string>
+    <string name="core_search_food" formatted="false">"Soek vir \'n kos of gereg"</string>
+    <string name="core_new_food_button" formatted="false">"+ Kos / gereg"</string>
+    <string name="core_recipe_button" formatted="false">"Uit \'n resep"</string>
+    <string name="core_no_results" formatted="false">"Geen resultate nie"</string>
+    <string name="core_no_results_help" formatted="false">"Probeer \'n ander soektog of voeg jou eie kos of voorbereide gereg by."</string>
+    <string name="core_edit" formatted="false">"Wysig"</string>
+    <string name="core_achievement_unlocked">"🏆 Prestasie ontsluit! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal oor · doelwit %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal bo jou doelwit"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Proteïen %1$s   Vet %2$s   Koolhidrate %3$s"</string>
+    <string name="core_weight_summary">"Gewig %1$s kg"</string>
+    <string name="core_waist_summary">"Middellyf %1$s cm"</string>
+    <string name="core_steps_summary">"Stappe: %1$s"</string>
+    <string name="core_fat_summary">"Liggaamsvet %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (handleiding)"</string>
+    <string name="core_manual_protein">"Proteïen %1$s g (handleiding)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Slaap %1$s"</string>
+    <string name="core_scale_fat">"Skaal liggaamsvet %1$s%%"</string>
+    <string name="core_training_value">"Opleiding: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Proteïen %1$s g"</string>
+    <string name="core_app_version">"Dieetdagboek · %1$s"</string>
+    <string name="core_per100_summary">"Per 100 g: %1$s kcal · Proteïen %2$s · Vet %3$s · Koolhidrate %4$s"</string>
+    <string name="core_range_invalid">"%1$s: voer \'n waarde van %2$s na %3$s in"</string>
+    <string name="core_delete_day_question">"Verwyder metings vir %1$s? Kosinskrywings sal gehou word."</string>
+    <string name="core_catalog_count">"Voedsel: %1$s · per 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Proteïen %2$s   Vet %3$s   Koolhidrate %4$s"</string>
+    <string name="core_today_date">"Vandag · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalorieë en proteïene is handtotale uit jou dagboek"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalorieë is \'n handmatige totaal uit jou dagboek"</string>
+    <string name="core_manual_protein_total" formatted="false">"Proteïen is \'n handtotaal uit jou dagboek"</string>
+    <string name="core_macro_goals">"P/V/C-doelwitte: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (handleiding)"</string>
+    <string name="core_all" formatted="false">"Almal"</string>
+    <string name="core_favorites" formatted="false">"Gunstelinge"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Vorige dag"</string>
+    <string name="core_next_day" formatted="false">"Volgende dag"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Die migrasie-rugsteun stem nie ooreen nie"</string>
+    <string name="data_entry_exists" formatted="false">"Hierdie voedselinskrywing bestaan reeds"</string>
+    <string name="data_entry_missing" formatted="false">"Kosinskrywing nie gevind nie"</string>
+    <string name="data_edited_date_changed" formatted="false">"Die datum van die inskrywing wat geredigeer word, het verander"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Die plaaslike toestel ID is beskadig; herstel word geblokkeer"</string>
+    <string name="data_sync_invalid" formatted="false">"Ongeldige sinchronisasiedata"</string>
+    <string name="data_diary_read_only" formatted="false">"Die dagboek is beskerm teen oorskryf: herstel \'n rugsteun"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Die dagboekdata is inkonsekwent"</string>
+    <string name="data_backup_too_large" formatted="false">"Die rugsteun is te groot"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Die installasie ID is beskadig"</string>
+    <string name="data_save_verification_failed" formatted="false">"Kon nie verifieer dat die dagboek gestoor is nie"</string>
+    <string name="data_save_failed" formatted="false">"Kon nie die dagboek stoor nie"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Die rugsteun is groter as 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Die dagboeklêer is te groot"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Ongeldige voedseldatabasisgrootte"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Ongesteunde rugsteunweergawe"</string>
+    <string name="data_too_many_values">"Te veel waardes in %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Te veel kosse"</string>
+    <string name="data_too_many_entries" formatted="false">"Te veel kosinskrywings"</string>
+    <string name="data_too_many_logs" formatted="false">"Te veel dagboekinskrywings"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Duplikaat kos ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Duplikaat kosinskrywing ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Duplikaat dagboek datum"</string>
+    <string name="data_label_product_id" formatted="false">"Kos ID"</string>
+    <string name="data_label_product_name" formatted="false">"Kosnaam"</string>
+    <string name="data_label_category" formatted="false">"Kategorie"</string>
+    <string name="data_label_note" formatted="false">"Let wel"</string>
+    <string name="data_label_entry_id" formatted="false">"Inskrywing ID"</string>
+    <string name="data_label_meal" formatted="false">"Ete"</string>
+    <string name="data_food_weight_range" formatted="false">"Voedselgewig moet groter as 0 en nie meer as 100000 g wees nie"</string>
+    <string name="data_label_weight" formatted="false">"Gewig"</string>
+    <string name="data_label_waist" formatted="false">"Middellyf"</string>
+    <string name="data_steps_range" formatted="false">"Die aantal stappe moet tussen 0 en 200000 wees"</string>
+    <string name="data_label_sleep" formatted="false">"Slaap"</string>
+    <string name="data_label_body_fat" formatted="false">"Liggaamsvet"</string>
+    <string name="data_label_daily_calories" formatted="false">"Daaglikse kalorieë"</string>
+    <string name="data_label_daily_protein" formatted="false">"Daaglikse proteïen"</string>
+    <string name="data_label_workout" formatted="false">"Oefensessie"</string>
+    <string name="data_label_log_note" formatted="false">"Let wel"</string>
+    <string name="data_log_empty" formatted="false">"Voer ten minste een maatstaf of noot in"</string>
+    <string name="data_label_goal_weight" formatted="false">"Doelgewig"</string>
+    <string name="data_too_many_achievements" formatted="false">"Te veel prestasies"</string>
+    <string name="data_achievement_invalid" formatted="false">"Ongeldige prestasie"</string>
+    <string name="data_setting_not_portable" formatted="false">"Hierdie instelling kan nie oorgedra word nie"</string>
+    <string name="data_setting_invalid">"Ongeldige waarde vir instelling %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Kalorieë"</string>
+    <string name="data_label_protein" formatted="false">"Proteïen"</string>
+    <string name="data_label_fat" formatted="false">"Vet"</string>
+    <string name="data_label_carbs" formatted="false">"Koolhidrate"</string>
+    <string name="data_value_range">"%1$s: toegelate reeks %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: ongeldige lengte"</string>
+    <string name="data_text_character_invalid">"%1$s: ongeldige karakter"</string>
+    <string name="data_date_format_invalid" formatted="false">"Die datum moet die JJJJ-MM-DD-formaat gebruik"</string>
+    <string name="data_date_nonexistent">"Ongeldige datum: %1$s"</string>
+    <string name="data_field_string_required">"Veld %1$s moet teks wees"</string>
+    <string name="data_field_boolean_required">"Veld %1$s moet \'n Boole-waarde wees"</string>
+    <string name="data_field_number_required">"Veld %1$s moet \'n nommer wees"</string>
+    <string name="data_field_finite_required">"Veld %1$s moet \'n eindige getal wees"</string>
+    <string name="data_field_integer_required">"Veld %1$s moet \'n heelgetal wees"</string>
+    <string name="data_too_many_items">"Te veel items in %1$s"</string>
+    <string name="data_data_file_invalid">"Ongeldige datalêer: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Toestel ID ontbreek"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Die logiese kloklimiet is bereik"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Te veel sinchronisasie rekords"</string>
+    <string name="data_sync_version_required" formatted="false">"Sinchronisasie vereis formaat weergawe 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Ongeldige sinchronisasiesleutel"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Duplikaat sinchronisasiesleutel"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Ongeldige skrapvlag"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Ongeldige sinchronisasiedata"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Die rekordweergawe oorskry die logiese klok"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Data stem nie ooreen met die sinchronisasie-metadata nie"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Ongeldige sinchronisasiesleutellengte"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Misvormde sinchronisasiesleutel"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Onbekende sinchronisasietipe"</string>
+    <string name="data_record_id_too_long" formatted="false">"Die rekord ID is te lank"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Ongeldige prestasie-skrapping"</string>
+    <string name="data_log_key_invalid" formatted="false">"Ongeldige dagboeksleutel"</string>
+    <string name="data_log_field_unknown" formatted="false">"Onbekende dagboekveld"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Ongeldige dagboek-skrapmerker"</string>
+    <string name="data_goal_unknown" formatted="false">"Onbekende doel"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"\'n Geskrapte rekord bevat data"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Ongeldige sinchronisasiewaarde"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Die rekord ID pas nie by die sleutel nie"</string>
+    <string name="data_field_value_invalid" formatted="false">"Ongeldige veldwaarde"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Die prestasiedatum stem nie ooreen met die sleutel nie"</string>
+    <string name="data_note_string_required" formatted="false">"Die nota moet teks wees"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Ongeldige gesinchroniseerde nota"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Ongeldige logiese horlosie"</string>
+    <string name="data_device_invalid" formatted="false">"Ongeldige toestel"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Ongeldige weergawestempel"</string>
+    <string name="data_google_login_required" formatted="false">"Meld weer aan by Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Te veel wolkrugsteun"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive het \'n herhaalde bladsy teruggestuur"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Die wolkrugsteun is groter as 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive het nie \'n oplaaiadres teruggestuur nie"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Ongeldige Google Drive-oplaaiadres"</string>
+    <string name="data_back" formatted="false">"‹ Terug"</string>
+    <string name="data_cloud_title" formatted="false">"Wolk-sinkronisering"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Jou dagboek oor jou toestelle"</string>
+    <string name="data_no_account" formatted="false">"Geen rekening gekoppel nie"</string>
+    <string name="data_cloud_intro" formatted="false">"Aanmelding is opsioneel. Kos, etes, mates, doelwitte en prestasies word op jou foon gestoor. Sodra dit gekoppel is, sal \'n kopie in \'n versteekte vouer in jou Google Drive gestoor word."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Inskrywings word saamgevoeg op die eerste verbinding. Die program kan nie toegang tot ander lêers in jou Drive kry nie."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Google-aanmelding is nog nie vir hierdie bou opgestel nie. Die dagboek en lêerrugsteun werk sonder \'n rekening."</string>
+    <string name="data_connect_google" formatted="false">"Koppel Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Outomatiese sinkronisering"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Wanneer data verander en in die agtergrond wanneer Android dit toelaat"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Kon nie die skedule verander nie. Jou data is op hierdie toestel gestoor."</string>
+    <string name="data_sync_start_failed" formatted="false">"Kon nie sinkronisering begin nie. Jou data is op hierdie toestel gestoor."</string>
+    <string name="data_sync_now" formatted="false">"Sinkroniseer nou"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Meld weer aan by Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Ontkoppel rekening"</string>
+    <string name="data_sync_never" formatted="false">"Nog geen sinchronisasie nie"</string>
+    <string name="data_offline_saved_title" formatted="false">"Jou data word vanlyn gestoor"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Met outomatiese sinkronisering geaktiveer, word veranderinge gestuur wanneer \'n verbinding beskikbaar word. As dieselfde veld op twee toestelle verander, word die weergawe met die latere veranderingstydstempel gebruik. Onafhanklike inskrywings en velde word saamgevoeg."</string>
+    <string name="data_cloud_password_description" formatted="false">"Jy voer jou wagwoord slegs op die Google-bladsy in jou blaaier in. Toegangtokens word deur Android Sleutelwinkel beskerm en word uitgesluit van rugsteun."</string>
+    <string name="data_google_connection_title" formatted="false">"Google verbinding"</string>
+    <string name="data_got_it" formatted="false">"Het dit"</string>
+    <string name="data_connect_drive_title" formatted="false">"Koppel Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Jou huidige dagboek sal saamgevoeg word met die data in die gekose Google rekening. Gebruik dieselfde persoonlike rekening op jou toestelle. Aanmelding sal in jou verstekblaaier oopmaak."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Kon nie aanmelding oopmaak nie. Installeer of aktiveer \'n verstekblaaier en probeer weer."</string>
+    <string name="data_continue" formatted="false">"Gaan voort"</string>
+    <string name="data_cancel" formatted="false">"Kanselleer"</string>
+    <string name="data_disconnect_title" formatted="false">"Ontkoppel rekening?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sinkronisering sal op hierdie toestel stop. Jou plaaslike dagboek en kopieë in Google Drive sal gehou word. Jy kan die programtoestemming in jou Google rekeninginstellings bestuur."</string>
+    <string name="data_disconnect_failed" formatted="false">"Kon nie die rekening ontkoppel nie. Probeer asseblief weer."</string>
+    <string name="data_disconnect" formatted="false">"Ontkoppel"</string>
+    <string name="data_google_not_connected" formatted="false">"Google is nie gekoppel nie"</string>
+    <string name="data_sync_ready" formatted="false">"Gereed om te sinkroniseer"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Veranderinge wag om te sinkroniseer ..."</string>
+    <string name="data_offline_changes_saved" formatted="false">"Geen internet konneksie nie. Veranderinge word op hierdie toestel gestoor."</string>
+    <string name="data_google_not_configured" formatted="false">"Google-aanmelding is nog nie vir hierdie bou opgestel nie"</string>
+    <string name="data_sync_wait" formatted="false">"Wag vir sinkronisering om klaar te maak"</string>
+    <string name="data_google_connecting" formatted="false">"Koppel tans Google..."</string>
+    <string name="data_connection_cancelled" formatted="false">"Verbinding gekanselleer"</string>
+    <string name="data_connection_rejected" formatted="false">"Verbinding gekanselleer of afgekeur deur Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google is gekoppel. Voeg tans inskrywings saam …"</string>
+    <string name="data_google_connection_failed" formatted="false">"Kon nie Google koppel nie. Gaan jou internetverbinding en toeganginstellings na."</string>
+    <string name="data_account_disconnected" formatted="false">"Rekening ontkoppel. Jou data bly op hierdie toestel."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Geen internet konneksie nie. Sinkronisering wag vir \'n verbinding."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sinkronisering is geskeduleer …"</string>
+    <string name="data_sync_running" formatted="false">"Sinkroniseer tans …"</string>
+    <string name="data_sync_complete" formatted="false">"Sinkronisering voltooi"</string>
+    <string name="data_no_internet" formatted="false">"Geen internet konneksie nie"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Kon nie sinkroniseer nie. Jou data is op hierdie toestel gestoor"</string>
+    <string name="data_page_open_failed" formatted="false">"Kon nie die bladsy oopmaak nie. U kan sy adres uit die teks hieronder kopieer."</string>
+    <string name="data_privacy_title" formatted="false">"Privaatheid"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Jou rekords en datakontroles"</string>
+    <string name="data_app_purpose" formatted="false">"Oor hierdie toepassing"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Hierdie toepassing is nie \'n mediese toestel nie. Dit diagnoseer, behandel, genees of voorkom geen siekte nie. Raadpleeg \'n gekwalifiseerde gesondheidswerker vir mediese advies, diagnose en behandeling."</string>
+    <string name="data_manage_delete_data" formatted="false">"Bestuur en verwyder data"</string>
+    <string name="data_delete_data_intro" formatted="false">"Voordat u alle data uitvee, skakel sinkronisering op al u toestelle af. As u die toepassing vanaf u foon deïnstalleer, word nie kopieë in Google Drive of uitgevoerde lêers uitgevee nie."</string>
+    <string name="data_manage_drive_data" formatted="false">"Bestuur Google Drive data"</string>
+    <string name="data_google_account_access" formatted="false">"Google Rekeningtoegang"</string>
+    <string name="data_android_app_storage" formatted="false">"Programberging in Android"</string>
+    <string name="data_contact_developer" formatted="false">"Kontak die ontwikkelaar"</string>
+    <string name="data_opening_page" formatted="false">"Maak \'n bladsy oop"</string>
+    <string name="data_advertisement" formatted="false">"ADVERTENSIE"</string>
+    <string name="data_ad_information" formatted="false">"Oor hierdie advertensie"</string>
+    <string name="data_cloud_http_error">"Wolk HTTP-fout %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Die wolkreaksie is te groot"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Ongeldige geënkripteerde aanmeldsessie"</string>
+    <string name="data_session_save_failed" formatted="false">"Kon nie die aanmeldsessie stoor nie"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Kon nie toegang tot Google herlaai nie"</string>
+    <string name="data_diary_read_failed">"Kon nie die dagboek lees nie. Die oorspronklike lêer is bewaar. Herstel jou data vanaf \'n rugsteun. %1$s"</string>
+    <string name="data_last_sync">"Laaste sinkronisering: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Vrugte en bessies"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Gedroogde vrugte"</string>
+    <string name="data_category_vegetables" formatted="false">"Groente en kruie"</string>
+    <string name="data_category_mushrooms" formatted="false">"Sampioene"</string>
+    <string name="data_category_grains" formatted="false">"Grane en pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Peulgewasse"</string>
+    <string name="data_category_meat" formatted="false">"Vleis en pluimvee"</string>
+    <string name="data_category_fish" formatted="false">"Vis en seekos"</string>
+    <string name="data_category_dairy" formatted="false">"Suiwel"</string>
+    <string name="data_category_eggs" formatted="false">"Eiers"</string>
+    <string name="data_category_oils" formatted="false">"Olies en botter"</string>
+    <string name="data_category_nuts" formatted="false">"Neute en sade"</string>
+    <string name="data_category_bread" formatted="false">"Brood"</string>
+    <string name="data_category_other" formatted="false">"Ander kosse"</string>
+    <string name="data_category_dishes" formatted="false">"Voorbereide geregte"</string>
+    <string name="data_category_custom" formatted="false">"My kos"</string>
+    <string name="data_category_other_short" formatted="false">"Ander"</string>
+    <string name="data_food_seed_9003" formatted="false">"Appel met vel"</string>
+    <string name="data_catalog_note_1">"Verwysingswaardes per 100 g van die eetbare gedeelte. Rou kos. USDA koolhidraatwaardes sluit vesel in. U kan die waardes aanpas deur die produketiket te gebruik. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Piesang, geskil"</string>
+    <string name="data_food_seed_9021" formatted="false">"Appelkoos, ontpit"</string>
+    <string name="data_food_seed_9037" formatted="false">"Avokadovleis"</string>
+    <string name="data_food_seed_9050" formatted="false">"Bloubessies"</string>
+    <string name="data_food_seed_9070" formatted="false">"Soetkersies, ontpit"</string>
+    <string name="data_food_seed_9063" formatted="false">"Suur kersies, ontpit"</string>
+    <string name="data_food_seed_9078" formatted="false">"Bosbessies"</string>
+    <string name="data_food_seed_9083" formatted="false">"Swartbessies"</string>
+    <string name="data_food_seed_9084" formatted="false">"Rooi en wit korente"</string>
+    <string name="data_food_seed_9132" formatted="false">"Druiwe"</string>
+    <string name="data_food_seed_9148" formatted="false">"Kiwi-vleis"</string>
+    <string name="data_food_seed_9150" formatted="false">"Suurlemoen, geskil"</string>
+    <string name="data_food_seed_9181" formatted="false">"Kantaloepvleis"</string>
+    <string name="data_food_seed_9200" formatted="false">"Oranje vleis"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mandaryns vleis"</string>
+    <string name="data_food_seed_9236" formatted="false">"Perske, ontpit"</string>
+    <string name="data_food_seed_9252" formatted="false">"Peer"</string>
+    <string name="data_food_seed_9266" formatted="false">"Pynappelvleis"</string>
+    <string name="data_food_seed_9279" formatted="false">"Pruim, ontpit"</string>
+    <string name="data_food_seed_9286" formatted="false">"Granaatpitte"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pomelo vleis"</string>
+    <string name="data_food_seed_9302" formatted="false">"Frambose"</string>
+    <string name="data_food_seed_9316" formatted="false">"Aarbeie"</string>
+    <string name="data_food_seed_9326" formatted="false">"Waatlemoenvleis"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektarien, ontpit"</string>
+    <string name="data_food_seed_9176" formatted="false">"Mango vleis"</string>
+    <string name="data_food_seed_9107" formatted="false">"Kruisbessies"</string>
+    <string name="data_food_seed_9226" formatted="false">"Papaja-vleis"</string>
+    <string name="data_food_seed_9089" formatted="false">"Vars vye"</string>
+    <string name="data_food_seed_9111" formatted="false">"Pomelo vleis"</string>
+    <string name="data_food_seed_9032" formatted="false">"Gedroogde appelkose, ontpit"</string>
+    <string name="data_catalog_note_2">"Verwysingswaardes per 100 g van die eetbare gedeelte. USDA koolhidraatwaardes sluit vesel in. U kan die waardes aanpas deur die produketiket te gebruik. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Pruimedante, ontpit"</string>
+    <string name="data_food_seed_9087" formatted="false">"Datums, ontpit"</string>
+    <string name="data_food_seed_9298" formatted="false">"Donker rosyne, pitloos"</string>
+    <string name="data_food_seed_11529" formatted="false">"Vars tamatie"</string>
+    <string name="data_food_seed_11205" formatted="false">"Komkommer met vel"</string>
+    <string name="data_food_seed_11090" formatted="false">"Rou broccoli"</string>
+    <string name="data_food_seed_11109" formatted="false">"Rou witkool"</string>
+    <string name="data_food_seed_11124" formatted="false">"Rou wortel"</string>
+    <string name="data_food_seed_11135" formatted="false">"Rou blomkool"</string>
+    <string name="data_food_seed_11143" formatted="false">"Selderystingels"</string>
+    <string name="data_food_seed_11282" formatted="false">"Rou ui"</string>
+    <string name="data_food_seed_11291" formatted="false">"Sprietuie"</string>
+    <string name="data_food_seed_11304" formatted="false">"Rou groen ertjies"</string>
+    <string name="data_food_seed_11333" formatted="false">"Groen soetrissie"</string>
+    <string name="data_food_seed_11821" formatted="false">"Rooi soetrissie"</string>
+    <string name="data_food_seed_11352" formatted="false">"Rou aartappel met skil"</string>
+    <string name="data_food_seed_11367" formatted="false">"Gekookte aartappel, geskil"</string>
+    <string name="data_catalog_note_3">"Verwysingswaardes per 100 g van die eetbare gedeelte. Geen bygevoegde sout nie. USDA koolhidraatwaardes sluit vesel in. U kan die waardes aanpas deur die produketiket te gebruik. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Rou courgette"</string>
+    <string name="data_food_seed_11209" formatted="false">"Rou eiervrug"</string>
+    <string name="data_food_seed_11422" formatted="false">"Rou pampoen"</string>
+    <string name="data_food_seed_11429" formatted="false">"Radyse"</string>
+    <string name="data_food_seed_11564" formatted="false">"Rou raap"</string>
+    <string name="data_food_seed_11080" formatted="false">"Rou beet"</string>
+    <string name="data_food_seed_11081" formatted="false">"Gekookte beet"</string>
+    <string name="data_food_seed_11215" formatted="false">"Knoffel"</string>
+    <string name="data_food_seed_11216" formatted="false">"Gemmerwortel"</string>
+    <string name="data_food_seed_11457" formatted="false">"Rou spinasie"</string>
+    <string name="data_food_seed_11253" formatted="false">"Blaar blaarslaai"</string>
+    <string name="data_food_seed_11297" formatted="false">"Vars pietersielie"</string>
+    <string name="data_food_seed_2045" formatted="false">"Vars dille"</string>
+    <string name="data_food_seed_11052" formatted="false">"Rou groenbone"</string>
+    <string name="data_food_seed_11167" formatted="false">"Suikermielies, rou pitte"</string>
+    <string name="data_food_seed_11260" formatted="false">"Rou knopie sampioene"</string>
+    <string name="data_food_seed_11261" formatted="false">"Gekookte knopiesampioene, ongesout"</string>
+    <string name="data_food_seed_11987" formatted="false">"Rou oestersampioene"</string>
+    <string name="data_food_seed_20009" formatted="false">"Bokwietgrys, droog"</string>
+    <string name="data_catalog_note_4">"Verwysingswaardes per 100 g van die eetbare gedeelte. Geroosterde bokwiet graan. USDA koolhidraatwaardes sluit vesel in. U kan die waardes aanpas deur die produketiket te gebruik. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Bokwiet, gekook in water"</string>
+    <string name="data_food_seed_20444" formatted="false">"Wit rys, droog"</string>
+    <string name="data_food_seed_20445" formatted="false">"Gekookte wit rys, ongesout"</string>
+    <string name="data_food_seed_20036" formatted="false">"Bruinrys, droog"</string>
+    <string name="data_food_seed_20037" formatted="false">"Gekookte bruinrys"</string>
+    <string name="data_food_seed_8120" formatted="false">"Gerolde hawer, droog"</string>
+    <string name="data_food_seed_8121" formatted="false">"Hawermout gekook in water, ongesout"</string>
+    <string name="data_food_seed_20005" formatted="false">"Pêrelgars, droog"</string>
+    <string name="data_food_seed_20006" formatted="false">"Gekookte pêrelgars"</string>
+    <string name="data_food_seed_20031" formatted="false">"Giers, droog"</string>
+    <string name="data_food_seed_20032" formatted="false">"Gekookte giers"</string>
+    <string name="data_food_seed_20420" formatted="false">"Pasta, droog"</string>
+    <string name="data_food_seed_20421" formatted="false">"Gekookte pasta, ongesout"</string>
+    <string name="data_food_seed_16070" formatted="false">"Gekookte lensies, ongesout"</string>
+    <string name="data_food_seed_16057" formatted="false">"Gekookte kekerertjies, ongesout"</string>
+    <string name="data_food_seed_16033" formatted="false">"Gekookte rooi nierbone, ongesout"</string>
+    <string name="data_food_seed_5062" formatted="false">"Rou hoenderborsie sonder vel"</string>
+    <string name="data_food_seed_5064" formatted="false">"Geroosterde hoenderborsie sonder vel"</string>
+    <string name="data_food_seed_5219" formatted="false">"Rou kalkoenbors sonder vel"</string>
+    <string name="data_food_seed_5220" formatted="false">"Geroosterde kalkoenbors sonder vel"</string>
+    <string name="data_food_seed_23562" formatted="false">"Maalbeesvleis, 10% vet, rou"</string>
+    <string name="data_food_seed_23566" formatted="false">"Maalvleis, 10% vet, gerooster"</string>
+    <string name="data_food_seed_10060" formatted="false">"Rou varkhaas, sigbare vet verwyder"</string>
+    <string name="data_food_seed_10061" formatted="false">"Geroosterde varkhaas"</string>
+    <string name="data_food_seed_15236" formatted="false">"Atlantiese salm, rou"</string>
+    <string name="data_catalog_note_5">"Verwysingswaardes per 100 g van die eetbare gedeelte. Rou kos. Geboer. USDA koolhidraatwaardes sluit vesel in. U kan die waardes aanpas deur die produketiket te gebruik. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Atlantiese salm, gerooster"</string>
+    <string name="data_catalog_note_6">"Verwysingswaardes per 100 g van die eetbare gedeelte. Geboer. USDA koolhidraatwaardes sluit vesel in. U kan die waardes aanpas deur die produketiket te gebruik. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Atlantiese kabeljou, rou"</string>
+    <string name="data_food_seed_15266" formatted="false">"Rou Alaska pollock"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuna ingemaak in water, gedreineer"</string>
+    <string name="data_food_seed_15271" formatted="false">"Gekookte garnale, geskil"</string>
+    <string name="data_food_seed_1211" formatted="false">"Melk, 3,25% vet"</string>
+    <string name="data_food_seed_1174" formatted="false">"Melk, 2% vet"</string>
+    <string name="data_food_seed_1082" formatted="false">"Melk, 1% vet"</string>
+    <string name="data_food_seed_1116" formatted="false">"Gewone volmelk-jogurt"</string>
+    <string name="data_food_seed_1256" formatted="false">"Nie-vet Griekse jogurt"</string>
+    <string name="data_food_seed_1015" formatted="false">"Maaskaas, 2% vet"</string>
+    <string name="data_catalog_note_7">"Verwysingswaardes per 100 g van die eetbare gedeelte. Maaskaas; ander soorte wrongelkaas het verskillende waardes. USDA koolhidraatwaardes sluit vesel in. U kan die waardes aanpas deur die produketiket te gebruik. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Suurroom, ongeveer 19% vet"</string>
+    <string name="data_food_seed_1009" formatted="false">"Cheddarkaas"</string>
+    <string name="data_food_seed_1026" formatted="false">"Volmelk mozzarella"</string>
+    <string name="data_food_seed_1019" formatted="false">"Fetakaas"</string>
+    <string name="data_food_seed_1123" formatted="false">"Rou hoendereier, sonder dop"</string>
+    <string name="data_food_seed_1129" formatted="false">"Gekookte hoendereier, sonder dop"</string>
+    <string name="data_food_seed_1124" formatted="false">"Rou hoender eierwit"</string>
+    <string name="data_food_seed_1001" formatted="false">"Gesoute botter"</string>
+    <string name="data_food_seed_4053" formatted="false">"Olyfolie"</string>
+    <string name="data_food_seed_4506" formatted="false">"Sonneblomolie"</string>
+    <string name="data_food_seed_12061" formatted="false">"Amandels"</string>
+    <string name="data_food_seed_12155" formatted="false">"Okkerneutpitte"</string>
+    <string name="data_food_seed_12120" formatted="false">"Hazelnootpitte"</string>
+    <string name="data_food_seed_12151" formatted="false">"Rou pistachio pitte"</string>
+    <string name="data_food_seed_12014" formatted="false">"Gedroogde pampoenpitpitte"</string>
+    <string name="data_food_seed_16087" formatted="false">"Rou uitgedopte grondboontjies"</string>
+    <string name="data_food_seed_18069" formatted="false">"Witkoringbrood"</string>
+    <string name="data_food_seed_18075" formatted="false">"Volkoringbrood"</string>
+    <string name="data_food_seed_18060" formatted="false">"Rogbrood"</string>
+    <string name="data_food_seed_19296" formatted="false">"Liefie"</string>
+    <string name="data_food_seed_19335" formatted="false">"Suiker"</string>
+    <string name="data_food_seed_19165" formatted="false">"Onversoete kakaopoeier"</string>
+    <string name="data_food_seed_19904" formatted="false">"Donkersjokolade, 70–85% kakao"</string>
+    <string name="data_meal_breakfast" formatted="false">"Ontbyt"</string>
+    <string name="data_meal_lunch" formatted="false">"Middagete"</string>
+    <string name="data_meal_dinner" formatted="false">"Aandete"</string>
+    <string name="data_meal_snack" formatted="false">"Snack"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Privaatheidsbeleid vir Diet Diary\nHersiening: 9 Oktober 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Toepassing: Diet Diary; Google Play lys titel in Russies: «Дневник диеты: подсчёт калорий»; pakket: ru.dietdiary.offline.\nProjekontwikkelaar: Efreitor2001. Kontak https://github.com/Efreitor2001/kkalcal/issues vir vrae oor die toepassing en dataverwerking. GitHub-kwessies is publiek: moenie gesondheidsrekords, rugsteun, wagwoorde of tekens daar plaas nie."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Dagboek op jou toestel\nGeen registrasie is nodig om \'n dagboek te hou nie. Die toepassing stoor kosse en hul voedingswaardes, porsies en maaltyddatums, gewig, middellyfmate, liggaamsvetpersentasie, stappe, slaap, oefensessiebeskrywings, notas, doelwitte, prestasies en toepassinginstellings in sy privaatbergingsarea op jou toestel. Opsionele velde kan leeg gelaat word. Stappe, slaap en mates word met die hand ingevoer; die toepassing lees nie Health Connect, fisieke aktiwiteitsensors of mediese toesteldata nie."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Hierdie inligting word gebruik om kalorieë en makrovoedingstowwe te bereken en om geskiedenis, kaarte en prestasies te verskaf. Die ontwikkelaar bedryf nie \'n bediener wat dagboekinhoud ontvang nie. As jy nie Google Drive koppel of self \'n rugsteun deel nie, bly jou rekords op jou toestel."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Opsionele Google Drive-verbinding\nOp jou versoek maak die toepassing Google-aanmelding in jou verstekblaaier oop en versoek toegang tot hierdie toepassing se versteekte databerging in jou Google Drive. Hierdie toestemming gee nie toegang tot jou gewone Drive-dokumente of foto\'s nie."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Sodra dit gekoppel is, word voedsel, etes, dagboekmetings, notas, doelwitte, prestasies, oordraagbare instellings en veranderingsmetadata, insluitend ewekansige installasie-identifiseerders en tydstempels, na Google gestuur. Dit ondersteun rugsteunfoto\'s en samevoeging van inskrywings oor jou toestelle. As outomatiese sinkronisering geaktiveer is, word veranderinge ook in die agtergrond gestuur wanneer \'n netwerkverbinding beskikbaar is. Jy kan outomatiese sinkronisering afsonderlik afskakel."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Die toepassing ontvang die e-posadres en identifiseerder van die gekose Google-rekening om die verbinding te wys en aan die korrekte berging te koppel. Jou Google wagwoord word nie aan die toepassing verskaf nie. Die magtigingsessie word geënkripteer op jou toestel gestoor met \'n sleutel in Android Sleutelstoor. Tekens, e-posadresse en Google identifiseerders word uitgesluit van dagboekuitvoere en gesinchroniseerde JSON-kiekies."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google data word slegs vir magtiging en sinkronisering gebruik, nooit vir advertensies nie. Google se privaatheidsbeleid is van toepassing: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Rugsteunlêers\n\"Stoor na lêer\" skep \'n JSON-lêer op die plek wat jy kies. Herstel lees slegs die lêer wat jy kies. As jy \'n wolklêerverskaffer kies of \'n kopie met \'n ander persoon deel, kies jy die ontvanger. Die toepassing enkripteer nie uitgevoerde JSON-lêers nie: hierdie lêers bevat persoonlike rekords en verander metadata."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Advertensies\nDie toepassing gebruik die Yandex Mobile Ads SDK. Om advertensies te laai en te vertoon, koppel jou toestel aan advertensiedienste. Yandex kan jou IP-adres en ander tegniese inligting oor die netwerkversoek, toestel en sagteware, beskikbare advertensies of tegniese identifiseerders en inligting oor advertensie-indrukke en -interaksies verwerk."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Die toepassing vertel die SDK dat toestemming nie gegee is nie, deaktiveer liggingversameling en deaktiveer App Ad Analytics-verslagdoening. Dit versoek nie presiese of benaderde liggingtoestemmings nie. Hierdie instellings beteken nie dat die advertensiediens geen netwerkkommunikasie of tegniese dataverwerking uitvoer nie."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Die toepassing gebruik nie voedselrekords, gewig, afmetings, notas, doelwitte, e-posadresse of Google identifiseerders vir advertensieteikening nie, en voeg dit nie by advertensieversoekparameters nie. Dit is nie nodig om advertensies te sien om inskrywings te stoor nie."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex se reëls vir dataverwerking, bewaring en verwydering: https://yandex.ru/legal/confidential/ . Jy kan jou advertensie-identifiseerder in Android-instellings bestuur as jou stelselweergawe hierdie kenmerk ondersteun. Die advertensiediens se beleid bepaal retensietydperke vir sy tegniese data; die dagboekontwikkelaar stel nie \'n aparte retensietydperk vir daardie data in nie."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Databeskerming\nKommunikasie met Google gebruik HTTPS; Yandex verklaar dat SDK-data met HTTPS/TLS oorgedra word. Die plaaslike dagboek word beskerm deur Android se app-isolasie. Die toepassing enkripteer nie dagboekinhoud of JSON-kiekies afsonderlik nie; dit verskaf nie end-tot-end-enkripsie tussen toestelle nie."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Stelselrugsteun van toepassingdata is gedeaktiveer. Diagnostiese logs wat deur die toepassing se eie kode geskryf is, bevat resultaatkodes sonder dagboekinhoud, e-posadresse, tekens of netwerkreaksieliggame; die toepassing stuur nie hierdie logs afsonderlik na die ontwikkelaar nie."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Behou en uitvee\nPlaaslike rekords bly totdat jy dit verander of uitvee, of die program se data uitvee. Deur \'n inskrywing uit te vee, verwyder dit van die koppelvlak en stuur \'n skrapmerker tydens sinkronisering. Voeg metadata word behou om te verhoed dat ou data weer verskyn; dit kan vorige waardes van \'n geskrapte dagboekinskrywing bevat. Vorige waardes kan ook in ou wolkkiekies en lêers bly wat jy vroeër geskep het. Deur een inskrywing uit te vee, word dus nie elke kopie daarvan heeltemal uitgevee nie."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"\"Ontkoppel rekening\" stop sinkronisering op hierdie toestel en vee die plaaslike Google sessie uit. Die dagboek en foto\'s in Google Drive word gehou. As u die toepassing ontkoppel, word u Google-rekening nie uitgevee nie."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Om hierdie toepassing se data heeltemal uit te vee:\n• Skakel sinkronisering op al jou toestelle af sodat oorblywende kopieë nie weer opgelaai word nie.\n• In \'n blaaier, maak https://drive.google.com/drive/settings oop met die Google-rekening wat gekoppel is. Kies \"Bestuur programme\", soek \"Diet Diary\" (of \"Дневник диеты\"), kies dan \"Opsies\" → \"Vee verborge toepassingdata uit\". As die mobiele bladsy nie hierdie afdeling wys nie, gebruik die rekenaarweergawe van die webwerf of \'n rekenaar.\n• Herroep die toepassing se toegang by https://myaccount.google.com/connections . Om toegang alleen te herroep, vee nie gestoorde kopieë uit nie.\n• Maak die toepassing se berging skoon in Android-instellings op elke toestel, of deïnstalleer die toepassing.\n• Vee afsonderlik gestoorde JSON-rugsteun uit die dopgehou en wolkbergingsliggings wat jy gekies het."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Sonder jou geloofsbriewe kan die ontwikkelaar nie jou plaaslike dagboek of lêers in jou persoonlike Google Drive oor \'n afstand uitvee nie. Moenie jou wagwoord of tekens met die ontwikkelaar deel nie. Vir hulp met uitvee, kontak die projek deur die skakel aan die begin van hierdie beleid te gebruik. Jy hoef nie jou Google rekening uit te vee om dagboekdata uit te vee nie."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Veranderinge en kontak\nWanneer toepassingskenmerke of dataverwerkingspraktyke verander, word hierdie beleid opgedateer met \'n hersieningsdatum. Vir vrae oor toegang, regstelling, uitvee van data of die toepassing se werking, gebruik die projek se kontakkanaal. Versoeke wat jy indien word verwerk om \'n antwoord te verskaf en word in GitHub gestoor; GitHub se beleid is beskikbaar by https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"My geregte"</string>
+    <string name="secondary_metric_weight" formatted="false">"Gewig"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Liggaamsvet"</string>
+    <string name="secondary_metric_waist" formatted="false">"Middellyf"</string>
+    <string name="secondary_metric_steps" formatted="false">"Stappe"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Slaap"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalorieë"</string>
+    <string name="secondary_metric_protein" formatted="false">"Proteïen"</string>
+    <string name="secondary_metric_fat" formatted="false">"Vet"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Koolhidrate"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"stappe"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Ongeldige datumreeks"</string>
+    <string name="secondary_stats_title" formatted="false">"Tendense"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Jou rekords in duidelike kaarte"</string>
+    <string name="secondary_metric" formatted="false">"Metrieke"</string>
+    <string name="secondary_week" formatted="false">"Week"</string>
+    <string name="secondary_month" formatted="false">"Maand"</string>
+    <string name="secondary_year" formatted="false">"Jaar"</string>
+    <string name="secondary_custom_period" formatted="false">"Pasgemaakte reeks"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Die begindatum moet nie na die einddatum wees nie"</string>
+    <string name="secondary_no_records" formatted="false">"Nog geen rekords nie"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Voeg kos by jou dagboek of kies \'n ander tydperk."</string>
+    <string name="secondary_chart_tap" formatted="false">"Tik die grafiek om \'n rekord te kies"</string>
+    <string name="secondary_chart_connected" formatted="false">"Die lyn verbind aangetekende metings. Daar is geen afmetings tussen hulle nie."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Skaalskattings is nuttig om neigings op te spoor."</string>
+    <string name="secondary_food_override_hint" formatted="false">"\'n Handmatige daaglikse totaal vervang die voedseltotaal. Andersins word aangetekende kos bygetel. Dae sonder rekords word oorgeslaan."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Totale is gebaseer op aangetekende voedsel. \'n Dag sonder rekords word nie as nul getel nie."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Dae sonder rekords word oorgeslaan en uitgesluit van die gemiddelde."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Vandag en gister"</string>
+    <string name="secondary_no_today" formatted="false">"Geen rekord vir vandag nie"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Geen rekord vir gister nie"</string>
+    <string name="secondary_partial_today" formatted="false">"Hierdie vergelyking gebruik huidige rekords. Vandag se data is dalk nog onvolledig."</string>
+    <string name="secondary_period_summary" formatted="false">"Periode opsomming"</string>
+    <string name="secondary_recorded_average" formatted="false">"Gemiddeld oor aangetekende dae"</string>
+    <string name="secondary_recorded_days" formatted="false">"Dae met data"</string>
+    <string name="secondary_minimum" formatted="false">"Minimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maksimum"</string>
+    <string name="secondary_first_to_last" formatted="false">"Van eerste tot laaste rekord"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Ten minste twee aangetekende dae is nodig om \'n verandering te bereken."</string>
+    <string name="secondary_history" formatted="false">"Geskiedenis"</string>
+    <string name="secondary_history_recent" formatted="false">"Die jongste 14 dae met data. Kies \'n pasgemaakte reeks vir vroeër rekords."</string>
+    <string name="secondary_history_all" formatted="false">"Alle aangetekende dae in die geselekteerde tydperk"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Vanaf %1$s"</string>
+    <string name="secondary_date_until">"Aan %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s in hierdie tydperk"</string>
+    <string name="secondary_weight_goal">"Doelwit: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Voeg \'n meting by jou dagboek of kies \'n ander periode."</string>
+    <string name="secondary_latest_record">"Jongste rekord · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Vandag: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Gister: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Verandering: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d van %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d aangetekende dae, vanaf %3$s tot %4$s. Minimum %5$s, maksimum %6$s %7$s. Waardes word in die geskiedenis gelys."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Aan die gang"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Stoor jou eerste gewigmeting."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Jou eerste gewigmeting is gestoor."</string>
+    <string name="secondary_award_first_food" formatted="false">"Eerste inskrywing"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Teken jou eerste kosporsie aan."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Jou eerste kosporsie word aangeteken."</string>
+    <string name="secondary_award_weight_week" formatted="false">"\'n Week van data"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Teken jou gewig op 7 verskillende dae aan. Hulle hoef nie opeenvolgend te wees nie."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Jy het gewigsrekords vir 7 verskillende dae."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Konsekwentheid"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Teken jou gewig op 30 verskillende dae aan."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Jy het gewigsrekords vir 30 dae."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Argivaris"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Stoor 100 kosporsies in jou dagboek."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Jy het 100 kosporsies gespaar."</string>
+    <string name="secondary_award_food_streak" formatted="false">"\'n Nuwe gewoonte"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Logvoedsel vir 7 opeenvolgende kalenderdae."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Jy het vir 7 opeenvolgende dae kos aangeteken."</string>
+    <string name="secondary_award_steps" formatted="false">"Wandelende wonder"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Teken ten minste 10 000 stappe op een dag aan."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Jy het \'n dag met 10 000 stappe aangeteken."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Produktiewe blokfluit"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Bespaar 100 gewigsmetings. Een meting tel per datum."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Jy het 100 gewigsmetings gestoor."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Dagboek-veteraan"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Teken voedsel of metings op 90 verskillende dae. Hulle hoef nie opeenvolgend te wees nie."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Jy het dagboekrekords vir 90 verskillende dae."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"metings"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"gedeeltes"</string>
+    <string name="secondary_award_unit_days" formatted="false">"dae"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"opeenvolgende dae"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"stappe in een dag"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"aangetekende dae"</string>
+    <string name="secondary_back" formatted="false">"‹ Terug"</string>
+    <string name="secondary_achievements" formatted="false">"Prestasies"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Klein treetjies word \'n gewoonte"</string>
+    <string name="secondary_your_progress" formatted="false">"JOU VORDERING"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Verdiende prestasies bly jou by, selfs al wysig jy jou rekords."</string>
+    <string name="secondary_awards_regular" formatted="false">"Vir konsekwentheid en die hou van jou dagboek"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Gestoorde rekords tot en met vandag word getel."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Versteekte prestasie"</string>
+    <string name="secondary_hidden_description" formatted="false">"Hou aan om jou dagboek te gebruik om hierdie prestasie te ontsluit."</string>
+    <string name="secondary_earned" formatted="false">"Verdien"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Versteek · gesluit"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Aan die gang · gesluit"</string>
+    <string name="secondary_locked" formatted="false">"Gesluit"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Die vereiste en vordering sal geopenbaar word wanneer jy hierdie toekenning verdien."</string>
+    <string name="secondary_best_streak" formatted="false">"Beste reeks"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Versteekte beloning"</string>
+    <string name="secondary_unlocked_of">"van %1$d ontsluit"</string>
+    <string name="secondary_unlocked_date">"Ontsluit %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Terug"</string>
+    <string name="secondary_my_recipe" formatted="false">"My resep"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Weeg bestanddele voor kook. Gebruik die gaar gewig om porsies te bereken. Sluit olies en souse in."</string>
+    <string name="secondary_recipe_name" formatted="false">"Resepnaam"</string>
+    <string name="secondary_recipe_example" formatted="false">"Byvoorbeeld, groentebredie"</string>
+    <string name="secondary_ingredients" formatted="false">"Bestanddele"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Begin met die bestanddele"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Voeg elke bestanddeel by en voer sy gewig in gram in."</string>
+    <string name="secondary_edit_weight" formatted="false">"Wysig gewig"</string>
+    <string name="secondary_delete" formatted="false">"Skrap"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Voeg bestanddeel by"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Hele resep"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Kook verander die gewig soos water bygevoeg of verloor word. Weeg die voltooide gereg sonder sy houer."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Gekookte gewig, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Voer die gewig na gaarmaak in"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Voer \'n gewig groter as 0 en nie meer as 100 000 g in nie"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Die gewig word nie outomaties ingevul nie"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Per 100 g van die gaar gereg"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Gaan die gaar gewig en bestanddele na: elke 100 g kan tot 1 000 kcal en tot 100 g van elke makrovoedingstof bevat."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Kon nie die resep stoor nie"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Stoor in My resepte"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Sodra dit gestoor is, kan jy hierdie gereg aanteken volgens sy porsiegewig."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Bestanddeelgewig voor kook"</string>
+    <string name="secondary_grams" formatted="false">"Gram"</string>
+    <string name="secondary_weight_limits" formatted="false">"Groter as 0 en nie meer as 100 000 g nie"</string>
+    <string name="secondary_add" formatted="false">"Voeg by"</string>
+    <string name="secondary_save" formatted="false">"Stoor"</string>
+    <string name="secondary_cancel" formatted="false">"Kanselleer"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Kies \'n bestanddeel"</string>
+    <string name="secondary_search_food" formatted="false">"Soek kos"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Geen resultate nie. Jy kan jou eie kos byvoeg op die Kos-oortjie."</string>
+    <string name="secondary_close" formatted="false">"Sluit"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Proteïen %1$s · Vet %2$s · Koolhidrate %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Bestanddeel gewig: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Opbrengs: %1$s g. Bestanddele: %2$s"</string>
+</resources>

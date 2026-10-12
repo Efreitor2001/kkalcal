@@ -7,3 +7,5 @@ local.properties
 *.keystore
 signing.properties
 integrations.properties
+__pycache__/
+*.pyc

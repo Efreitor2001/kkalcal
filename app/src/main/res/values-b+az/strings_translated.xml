@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Pəhriz gündəliyi"</string>
+    <string name="core_app_name" formatted="false">"Pəhriz gündəliyi"</string>
+    <string name="core_tagline" formatted="false">"Kalori, çəki və irəliləyiş"</string>
+    <string name="core_open_diary" formatted="false">"Gündəliyi açın"</string>
+    <string name="core_save_failed" formatted="false">"Datanızı saxlamaq mümkün olmadı"</string>
+    <string name="core_day" formatted="false">"Bu gün"</string>
+    <string name="core_products" formatted="false">"Qidalar"</string>
+    <string name="core_diary" formatted="false">"Gündəlik"</string>
+    <string name="core_charts" formatted="false">"Qrafiklər"</string>
+    <string name="core_more" formatted="false">"Daha çox"</string>
+    <string name="core_recipe_saved" formatted="false">"Yeməklərinizə saxlanılan yemək"</string>
+    <string name="core_back_to_day" formatted="false">"Gününüzə qayıdın"</string>
+    <string name="core_action_failed" formatted="false">"Bu əməliyyatı tamamlamaq mümkün olmadı"</string>
+    <string name="core_understood" formatted="false">"OK"</string>
+    <string name="core_restore_available" formatted="false">"Siz Daha çox bölməsində ehtiyat nüsxəsini bərpa edə bilərsiniz."</string>
+    <string name="core_eaten_today" formatted="false">"BU GÜN YEYİLİB"</string>
+    <string name="core_set_goal_hint" formatted="false">"Siz \"Daha çox\" bölməsində məqsəd təyin edə bilərsiniz"</string>
+    <string name="core_add_food" formatted="false">"+ Yemək əlavə edin"</string>
+    <string name="core_first_meal" formatted="false">"İlk yeməyinizlə başlayın"</string>
+    <string name="core_first_meal_help" formatted="false">"Kalori və makroları hesablamaq üçün qida seçin və çəkisini qramla daxil edin."</string>
+    <string name="core_my_day" formatted="false">"Mənim günüm"</string>
+    <string name="core_my_day_help" formatted="false">"Çəki, bel, addımlar, yuxu - bildiklərinizi qeyd edin."</string>
+    <string name="core_record_metrics" formatted="false">"Ölçmələri qeyd edin"</string>
+    <string name="core_edit_metrics" formatted="false">"Ölçmələri redaktə edin"</string>
+    <string name="core_food_state_hint" formatted="false">"Ərzaq çəkisi və qidalanma dəyərləri eyni vəziyyətə istinad etməlidir: xam, quru və ya bişmiş."</string>
+    <string name="core_weight" formatted="false">"Çəki"</string>
+    <string name="core_waist" formatted="false">"Bel"</string>
+    <string name="core_my_diary" formatted="false">"Gündəliyim"</string>
+    <string name="core_diary_tagline" formatted="false">"Hər gün öz sürətinizlə"</string>
+    <string name="core_record_day" formatted="false">"+ Bir gün qeyd edin"</string>
+    <string name="core_optional_diary_help" formatted="false">"Bütün ölçmələr isteğe bağlıdır. Siz yalnız çəki, yuxu və ya qeydinizi qeyd edə bilərsiniz. Redaktə etmək üçün qeydə toxunun."</string>
+    <string name="core_history_starts" formatted="false">"Tarixiniz buradan başlayır"</string>
+    <string name="core_history_help" formatted="false">"Ölçmələri qeyd edin və Diaqramlarda dəyişiklikləri izləyin."</string>
+    <string name="core_file_unavailable" formatted="false">"Fayl mövcud deyil"</string>
+    <string name="core_backup_saved" formatted="false">"Yedək saxlandı"</string>
+    <string name="core_export_error" formatted="false">"Yedəkləməni ixrac etmək mümkün olmadı"</string>
+    <string name="core_read_error" formatted="false">"Faylı oxumaq mümkün olmadı"</string>
+    <string name="core_settings_tagline" formatted="false">"Parametrlər və məlumatların ehtiyat nüsxəsi"</string>
+    <string name="core_your_progress" formatted="false">"Sizin tərəqqiniz"</string>
+    <string name="core_achievements_help" formatted="false">"Gündəlik vərdişi yaratmaq üçün kiçik nailiyyətlər."</string>
+    <string name="core_achievements" formatted="false">"Nailiyyətlər"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Gündəliyinizi cihazlar arasında sinxronlaşdırmaq üçün əlavə əlaqə."</string>
+    <string name="core_cloud_sync" formatted="false">"Bulud sinxronizasiyası"</string>
+    <string name="core_personal_goals" formatted="false">"Şəxsi məqsədlər"</string>
+    <string name="core_personal_goals_help" formatted="false">"Kalori, makro və hədəf çəki məqsədlərinizi əl ilə təyin edin. İstənilən məqsəd boş qala bilər."</string>
+    <string name="core_configure_goals" formatted="false">"Məqsədlər təyin edin"</string>
+    <string name="core_backup" formatted="false">"Yedəkləmə"</string>
+    <string name="core_backup_help" formatted="false">"Yeməklər, yeməklər, gündəlik, məqsədlər və nailiyyətlər bir faylda. Proqramı yenidən quraşdırmadan əvvəl ehtiyat nüsxəsini saxlayın."</string>
+    <string name="core_save_file" formatted="false">"Faylda saxla"</string>
+    <string name="core_restore_file" formatted="false">"Fayldan bərpa edin"</string>
+    <string name="core_write_locked" formatted="false">"Orijinal faylı qorumaq üçün saxlama deaktiv edilib. Etibarlı ehtiyat nüsxəsini bərpa edin."</string>
+    <string name="core_about_data" formatted="false">"Proqram və məlumatlarınız haqqında"</string>
+    <string name="core_about_data_help" formatted="false">"Qeydlər necə saxlanılır, sinxronizasiya işləyir və verilənlər silinir."</string>
+    <string name="core_privacy" formatted="false">"Məxfilik və məlumatların silinməsi"</string>
+    <string name="core_offline" formatted="false">"Oflayn işləyir"</string>
+    <string name="core_offline_help" formatted="false">"Google daxil olmaq isteğe bağlıdır. Addımlar və yuxu əl ilə daxil edilir. Aktiv sinxronizasiya və reklamların yüklənməsi üçün internet bağlantısı lazımdır. Gündəlik qeydləri reklam şəbəkəsinə göndərilmir."</string>
+    <string name="core_about_foods" formatted="false">"Qidalar haqqında"</string>
+    <string name="core_foods_reference" formatted="false">"Quraşdırılmış dəyərlər 100 q yeyilə bilən hissə üçün təxminlərdir. Dəqiq dəyərlər üçün qablaşdırmanı yoxlayın. Yeməyi redaktə etmək əvvəlki yemək qeydlərini yenidən hesablamır."</string>
+    <string name="core_foods_source" formatted="false">"Məlumat bazası mənbəyi: USDA FoodData Central, SR Legacy. Fərdi qidalara onların vəziyyəti və mənbə təfərrüatları daxildir."</string>
+    <string name="core_restore_title" formatted="false">"Bu ehtiyat nüsxə bərpa edilsin?"</string>
+    <string name="core_restore_warning" formatted="false">"Cari yeməkləriniz, gündəliyiniz, məqsədləriniz və nailiyyətləriniz bu faylın məzmunu ilə əvəz olunacaq. Əvvəlcə ehtiyat nüsxəsini saxlayın. Sinxronizasiya qoşulubsa, bərpa edilmiş dəyişikliklər də Google Drive ünvanına göndəriləcək."</string>
+    <string name="core_backup_restored" formatted="false">"Yedəkləmə bərpa edildi"</string>
+    <string name="core_invalid_file" formatted="false">"Yanlış fayl"</string>
+    <string name="core_replace_data" formatted="false">"Məlumatı dəyişdirin"</string>
+    <string name="core_cancel" formatted="false">"Ləğv et"</string>
+    <string name="core_save" formatted="false">"Saxla"</string>
+    <string name="core_calculate_portion" formatted="false">"Bir hissəni hesablayın"</string>
+    <string name="core_edit_portion" formatted="false">"Redaktə edin"</string>
+    <string name="core_portion_weight" formatted="false">"Porsiya çəkisi, q"</string>
+    <string name="core_portion_invalid" formatted="false">"0-dan çox və 100.000 q-dan çox olmayan çəki daxil edin"</string>
+    <string name="core_add_to_diary" formatted="false">"Gündəliyə əlavə edin"</string>
+    <string name="core_delete_entry" formatted="false">"Girişi silin"</string>
+    <string name="core_delete_portion_question" formatted="false">"Bu hissə gündəlikinizdən silinsin?"</string>
+    <string name="core_new_food" formatted="false">"Yeni yemək və ya yemək"</string>
+    <string name="core_edit_nutrition" formatted="false">"Qidalanma dəyərlərini redaktə edin"</string>
+    <string name="core_name" formatted="false">"Adı"</string>
+    <string name="core_food" formatted="false">"Qida"</string>
+    <string name="core_dish" formatted="false">"Hazırlanmış yemək"</string>
+    <string name="core_category" formatted="false">"Kateqoriya"</string>
+    <string name="core_per100_hint" formatted="false">"Qablaşdırmadan və ya reseptdən 100 q-a görə dəyərlər. Qida elementi yoxdursa, 0 daxil edin."</string>
+    <string name="core_kcal" formatted="false">"Kalori"</string>
+    <string name="core_protein_grams" formatted="false">"Zülal, g"</string>
+    <string name="core_fat_grams" formatted="false">"Yağ, q"</string>
+    <string name="core_carbs_grams" formatted="false">"Karbohidratlar, g"</string>
+    <string name="core_food_note" formatted="false">"Qeyd, inqrediyentlər (isteğe bağlı)"</string>
+    <string name="core_favorite" formatted="false">"Sevimlilərə əlavə et"</string>
+    <string name="core_name_category_required" formatted="false">"Ad və kateqoriya daxil edin"</string>
+    <string name="core_nutrition_invalid" formatted="false">"100 q üçün dəyərləri daxil edin: kalori 0-1000; protein, yağ və karbohidratlar 0-100 q"</string>
+    <string name="core_delete_food" formatted="false">"Qidalardan silin"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Əvvəlki yemək qeydləri öz dəyərlərini saxlayacaq."</string>
+    <string name="core_delete_food_question" formatted="false">"Bu yemək silinsin? Onun gündəlik qeydləri saxlanılacaq."</string>
+    <string name="core_day_entry" formatted="false">"Gündəlik giriş"</string>
+    <string name="core_optional_fields" formatted="false">"İstədiyiniz sahələri doldurun. Qalanını boş buraxın."</string>
+    <string name="core_editing_existing" formatted="false">"Bu tarix üçün artıq bir giriş var. Siz redaktə edirsiniz."</string>
+    <string name="core_weight_kg" formatted="false">"Çəki, kq"</string>
+    <string name="core_waist_cm" formatted="false">"Bel, sm"</string>
+    <string name="core_steps" formatted="false">"Addımlar"</string>
+    <string name="core_sleep" formatted="false">"Yuxu"</string>
+    <string name="core_hours" formatted="false">"Saat"</string>
+    <string name="core_minutes" formatted="false">"Dəqiqələr"</string>
+    <string name="core_body_fat_optional" formatted="false">"Bədən yağını ölçün, % (isteğe bağlı)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Tərəzidən bədən yağı dəqiq ölçü deyil, trend göstəricisidir."</string>
+    <string name="core_strength_training" formatted="false">"Güc təlimi"</string>
+    <string name="core_training_example" formatted="false">"Məsələn: çömbəlmək 3×10, 12 kq dumbbelllər"</string>
+    <string name="core_manual_nutrition" formatted="false">"Əl ilə qidalanmanın cəmi"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Daxil olunarsa, bu dəyərlər gün üçün yeməklərin cəmini əvəz edir. Avtomatik hesablama üçün boş buraxın."</string>
+    <string name="core_daily_calories" formatted="false">"Gündəlik kalori"</string>
+    <string name="core_daily_protein" formatted="false">"Gündəlik protein, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Qeydlər və necə hiss etdiyiniz"</string>
+    <string name="core_steps_invalid" formatted="false">"Addımlar: 0-dan 200.000-ə qədər tam ədəd"</string>
+    <string name="core_sleep_invalid" formatted="false">"Yuxu: 0-24 saat, dəqiqə 0-59"</string>
+    <string name="core_body_fat" formatted="false">"Bədən piyi"</string>
+    <string name="core_calories" formatted="false">"Kalori"</string>
+    <string name="core_protein" formatted="false">"Zülal"</string>
+    <string name="core_entry_required" formatted="false">"Ən azı bir ölçü və ya qeyd əlavə edin"</string>
+    <string name="core_delete_day" formatted="false">"Bu gündəlik girişi silin"</string>
+    <string name="core_optional_goals" formatted="false">"Bütün məqsədlər isteğe bağlıdır. Boş sahə heç bir məqsəd qoyulmadığını bildirir."</string>
+    <string name="core_calories_per_day" formatted="false">"Gündəlik kalori"</string>
+    <string name="core_protein_per_day" formatted="false">"Gündə zülal, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Gündə yağ, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Gündə karbohidratlar, g"</string>
+    <string name="core_target_weight" formatted="false">"Hədəf çəkisi, kq"</string>
+    <string name="core_goals_invalid" formatted="false">"Məqsədlərinizi yoxlayın: kalori 0-10,000; protein, yağ və karbohidratlar 0-1000 q"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Hədəf çəkisi: 1 ilə 500 kq arasında"</string>
+    <string name="core_delete_question" formatted="false">"Silinsin?"</string>
+    <string name="core_delete" formatted="false">"Sil"</string>
+    <string name="core_select_food" formatted="false">"Yemək seçin"</string>
+    <string name="core_foods_dishes" formatted="false">"Qidalar və qablar"</string>
+    <string name="core_search_food" formatted="false">"Yemək və ya yeməyi axtarın"</string>
+    <string name="core_new_food_button" formatted="false">"+ Yemək / yemək"</string>
+    <string name="core_recipe_button" formatted="false">"Reseptdən"</string>
+    <string name="core_no_results" formatted="false">"Nəticə yoxdur"</string>
+    <string name="core_no_results_help" formatted="false">"Başqa bir axtarışa cəhd edin və ya öz yeməyinizi və ya hazırlanmış yeməyinizi əlavə edin."</string>
+    <string name="core_edit" formatted="false">"Redaktə edin"</string>
+    <string name="core_achievement_unlocked">"🏆 Nailiyyət açıldı! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kkal qaldı · məqsəd %2$s"</string>
+    <string name="core_above_goal">"%1$s kkal hədəfinizdən yuxarıdır"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kkal"</string>
+    <string name="core_macros_summary">"Zülal %1$s   Yağ %2$s   Karbohidratlar %3$s"</string>
+    <string name="core_weight_summary">"Çəki %1$s kq"</string>
+    <string name="core_waist_summary">"Bel %1$s sm"</string>
+    <string name="core_steps_summary">"Addımlar: %1$s"</string>
+    <string name="core_fat_summary">"Bədən piyi %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kkal (əl ilə)"</string>
+    <string name="core_manual_protein">"Zülal %1$s q (dərslik)"</string>
+    <string name="core_kg_value">"%1$s kq"</string>
+    <string name="core_cm_value">"%1$s sm"</string>
+    <string name="core_sleep_value">"Yuxu %1$s"</string>
+    <string name="core_scale_fat">"Bədən yağını ölçün %1$s%%"</string>
+    <string name="core_training_value">"Təlim: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kkal"</string>
+    <string name="core_protein_value">"Zülal %1$s g"</string>
+    <string name="core_app_version">"Pəhriz Gündəliyi · %1$s"</string>
+    <string name="core_per100_summary">"100 q üçün: %1$s kcal · Zülal %2$s · Yağ %3$s · Karbohidratlar %4$s"</string>
+    <string name="core_range_invalid">"%1$s: %2$s ilə %3$s arasında dəyər daxil edin"</string>
+    <string name="core_delete_day_question">"%1$s üçün ölçmələr silinsin? Qida qeydləri saxlanılacaq."</string>
+    <string name="core_catalog_count">"Qidalar: %1$s · 100 q üçün"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Zülal %2$s   Yağ %3$s   Karbohidratlar %4$s"</string>
+    <string name="core_today_date">"Bu gün · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalori və zülal sizin gündəliyinizdən əldə edilən cəmidir"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalorilər gündəlikinizdən əldə edilən cəmidir"</string>
+    <string name="core_manual_protein_total" formatted="false">"Protein sizin gündəliyinizdən əldə edilən cəmidir"</string>
+    <string name="core_macro_goals">"P / F / C məqsədləri: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kkal"</string>
+    <string name="core_manual_values">"%1$s (əl ilə)"</string>
+    <string name="core_all" formatted="false">"Hamısı"</string>
+    <string name="core_favorites" formatted="false">"Sevimlilər"</string>
+    <string name="core_sleep_duration">"%1$s saat %2$s dəq"</string>
+    <string name="core_previous_day" formatted="false">"Əvvəlki gün"</string>
+    <string name="core_next_day" formatted="false">"Növbəti gün"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Miqrasiya ehtiyat nüsxəsi uyğun gəlmir"</string>
+    <string name="data_entry_exists" formatted="false">"Bu qida girişi artıq mövcuddur"</string>
+    <string name="data_entry_missing" formatted="false">"Qida girişi tapılmadı"</string>
+    <string name="data_edited_date_changed" formatted="false">"Redaktə edilən girişin tarixi dəyişdi"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Yerli cihaz ID zədələnib; bərpası bloklanır"</string>
+    <string name="data_sync_invalid" formatted="false">"Yanlış sinxronizasiya datası"</string>
+    <string name="data_diary_read_only" formatted="false">"Gündəlik yenidən yazmaqdan qorunur: ehtiyat nüsxəsini bərpa edin"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Gündəlik məlumatları uyğun deyil"</string>
+    <string name="data_backup_too_large" formatted="false">"Yedək çox böyükdür"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Quraşdırma ID zədələnib"</string>
+    <string name="data_save_verification_failed" formatted="false">"Gündəliyin saxlandığını yoxlamaq mümkün olmadı"</string>
+    <string name="data_save_failed" formatted="false">"Gündəliyi saxlamaq mümkün olmadı"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Yedək 50 MB-dan böyükdür"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Gündəlik faylı çox böyükdür"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Yanlış qida verilənlər bazası ölçüsü"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Dəstəklənməyən ehtiyat versiyası"</string>
+    <string name="data_too_many_values">"%1$s daxilində həddən artıq dəyər"</string>
+    <string name="data_too_many_products" formatted="false">"Çox yemək"</string>
+    <string name="data_too_many_entries" formatted="false">"Həddindən artıq çoxlu qida girişi"</string>
+    <string name="data_too_many_logs" formatted="false">"Gündəlik qeydləri həddən artıq çoxdur"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Dublikat qida ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Dublikat qida girişi ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Gündəlik tarixinin dublikatı"</string>
+    <string name="data_label_product_id" formatted="false">"Qida ID"</string>
+    <string name="data_label_product_name" formatted="false">"Yeməyin adı"</string>
+    <string name="data_label_category" formatted="false">"Kateqoriya"</string>
+    <string name="data_label_note" formatted="false">"Qeyd"</string>
+    <string name="data_label_entry_id" formatted="false">"Giriş ID"</string>
+    <string name="data_label_meal" formatted="false">"Yemək"</string>
+    <string name="data_food_weight_range" formatted="false">"Yeməyin çəkisi 0-dan çox və 100000 q-dan çox olmamalıdır"</string>
+    <string name="data_label_weight" formatted="false">"Çəki"</string>
+    <string name="data_label_waist" formatted="false">"Bel"</string>
+    <string name="data_steps_range" formatted="false">"Addımların sayı 0 ilə 200000 arasında olmalıdır"</string>
+    <string name="data_label_sleep" formatted="false">"Yuxu"</string>
+    <string name="data_label_body_fat" formatted="false">"Bədən piyi"</string>
+    <string name="data_label_daily_calories" formatted="false">"Gündəlik kalori"</string>
+    <string name="data_label_daily_protein" formatted="false">"Gündəlik protein"</string>
+    <string name="data_label_workout" formatted="false">"Məşq"</string>
+    <string name="data_label_log_note" formatted="false">"Qeyd"</string>
+    <string name="data_log_empty" formatted="false">"Ən azı bir ölçü və ya qeyd daxil edin"</string>
+    <string name="data_label_goal_weight" formatted="false">"Hədəf çəkisi"</string>
+    <string name="data_too_many_achievements" formatted="false">"Həddindən artıq nailiyyətlər"</string>
+    <string name="data_achievement_invalid" formatted="false">"Etibarsız nailiyyət"</string>
+    <string name="data_setting_not_portable" formatted="false">"Bu parametr ötürülə bilməz"</string>
+    <string name="data_setting_invalid">"%1$s ayarı üçün yanlış dəyər"</string>
+    <string name="data_label_calories" formatted="false">"Kalori"</string>
+    <string name="data_label_protein" formatted="false">"Zülal"</string>
+    <string name="data_label_fat" formatted="false">"Yağ"</string>
+    <string name="data_label_carbs" formatted="false">"Karbohidratlar"</string>
+    <string name="data_value_range">"%1$s: icazə verilən diapazon %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: yanlış uzunluq"</string>
+    <string name="data_text_character_invalid">"%1$s: etibarsız simvol"</string>
+    <string name="data_date_format_invalid" formatted="false">"Tarix YYYY-AA-GG formatından istifadə etməlidir"</string>
+    <string name="data_date_nonexistent">"Yanlış tarix: %1$s"</string>
+    <string name="data_field_string_required">"%1$s sahəsi mətn olmalıdır"</string>
+    <string name="data_field_boolean_required">"%1$s sahəsi Boolean dəyəri olmalıdır"</string>
+    <string name="data_field_number_required">"%1$s sahəsi nömrə olmalıdır"</string>
+    <string name="data_field_finite_required">"%1$s sahəsi sonlu ədəd olmalıdır"</string>
+    <string name="data_field_integer_required">"%1$s sahəsi tam ədəd olmalıdır"</string>
+    <string name="data_too_many_items">"%1$s daxilində həddən artıq çox element var"</string>
+    <string name="data_data_file_invalid">"Yanlış məlumat faylı: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Cihaz ID yoxdur"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Məntiqi saat limitinə çatıldı"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Həddindən artıq sinxronizasiya qeydləri"</string>
+    <string name="data_sync_version_required" formatted="false">"Sinxronizasiya 2 format versiyasını tələb edir"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Yanlış sinxronizasiya açarı"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Dublikat sinxronizasiya açarı"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Yanlış silinmə bayrağı"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Yanlış sinxronizasiya datası"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Rekord versiyası məntiqi saatdan artıqdır"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Məlumat sinxronizasiya metadatasına uyğun gəlmir"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Yanlış sinxronizasiya açarı uzunluğu"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Səhv formalaşmış sinxronizasiya açarı"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Naməlum sinxronizasiya növü"</string>
+    <string name="data_record_id_too_long" formatted="false">"Rekord ID çox uzundur"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Etibarsız nailiyyətin silinməsi"</string>
+    <string name="data_log_key_invalid" formatted="false">"Yanlış gündəlik açarı"</string>
+    <string name="data_log_field_unknown" formatted="false">"Naməlum gündəlik sahəsi"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Yanlış gündəlik silmə markeri"</string>
+    <string name="data_goal_unknown" formatted="false">"Naməlum məqsəd"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Silinmiş qeyd məlumat ehtiva edir"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Yanlış sinxronizasiya dəyəri"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Qeyd ID açarla uyğun gəlmir"</string>
+    <string name="data_field_value_invalid" formatted="false">"Yanlış sahə dəyəri"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Nailiyyət tarixi açarla uyğun gəlmir"</string>
+    <string name="data_note_string_required" formatted="false">"Qeyd mətn olmalıdır"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Yanlış sinxronlaşdırılmış qeyd"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Etibarsız məntiqi saat"</string>
+    <string name="data_device_invalid" formatted="false">"Yanlış cihaz"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Yanlış versiya möhürü"</string>
+    <string name="data_google_login_required" formatted="false">"Yenidən Google hesabına daxil olun"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Həddindən artıq bulud ehtiyat nüsxəsi"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive təkrar səhifəni qaytardı"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Bulud ehtiyat nüsxəsi 50 MB-dan böyükdür"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive yükləmə ünvanı qaytarmadı"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Yanlış Google Drive yükləmə ünvanı"</string>
+    <string name="data_back" formatted="false">"‹ Geri"</string>
+    <string name="data_cloud_title" formatted="false">"Bulud sinxronizasiyası"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Cihazlarınız arasında gündəliyiniz"</string>
+    <string name="data_no_account" formatted="false">"Heç bir hesab qoşulmadı"</string>
+    <string name="data_cloud_intro" formatted="false">"Daxil olmaq isteğe bağlıdır. Qidalar, yeməklər, ölçmələr, məqsədlər və nailiyyətlər telefonunuzda saxlanılır. Qoşulduqdan sonra surət Google Drive daxilində gizli qovluqda saxlanılacaq."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Girişlər ilk əlaqədə birləşdirilir. Tətbiq Diskinizdəki digər fayllara daxil ola bilməz."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Google giriş hələ bu quruluş üçün konfiqurasiya olunmayıb. Gündəlik və fayl ehtiyat nüsxələri hesab olmadan işləyir."</string>
+    <string name="data_connect_google" formatted="false">"Qoşulun Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Avtomatik sinxronizasiya"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Məlumat dəyişdikdə və Android icazə verdikdə fonda"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Cədvəli dəyişmək mümkün olmadı. Məlumatlarınız bu cihazda yadda saxlanılır."</string>
+    <string name="data_sync_start_failed" formatted="false">"Sinxronizasiyaya başlamaq mümkün olmadı. Məlumatlarınız bu cihazda yadda saxlanılır."</string>
+    <string name="data_sync_now" formatted="false">"İndi sinxronlaşdırın"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Yenidən Google hesabına daxil olun"</string>
+    <string name="data_disconnect_account" formatted="false">"Hesabı ayırın"</string>
+    <string name="data_sync_never" formatted="false">"Hələ sinxronizasiya yoxdur"</string>
+    <string name="data_offline_saved_title" formatted="false">"Məlumatlarınız oflayn saxlanılır"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Avtomatik sinxronizasiya aktiv olduqda, bağlantı mövcud olduqda dəyişikliklər göndərilir. Eyni sahə iki cihazda dəyişirsə, daha sonra dəyişiklik vaxt damğası olan versiya istifadə olunur. Müstəqil girişlər və sahələr birləşdirilir."</string>
+    <string name="data_cloud_password_description" formatted="false">"Siz parolunuzu yalnız brauzerinizin Google səhifəsində daxil edirsiniz. Giriş nişanları Android Keystore tərəfindən qorunur və ehtiyat nüsxələrdən xaric edilir."</string>
+    <string name="data_google_connection_title" formatted="false">"Google əlaqə"</string>
+    <string name="data_got_it" formatted="false">"Anladım"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive qoşulsun?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Cari gündəliyiniz seçilmiş Google hesabındakı data ilə birləşdiriləcək. Cihazlarınızda eyni şəxsi hesabdan istifadə edin. Giriş defolt brauzerinizdə açılacaq."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Girişi açmaq mümkün olmadı. Defolt brauzer quraşdırın və ya işə salın və yenidən cəhd edin."</string>
+    <string name="data_continue" formatted="false">"Davam et"</string>
+    <string name="data_cancel" formatted="false">"Ləğv et"</string>
+    <string name="data_disconnect_title" formatted="false">"Hesabın əlaqəsi kəsilsin?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sinxronizasiya bu cihazda dayanacaq. Yerli gündəliyiniz və Google Drive dilindəki nüsxələriniz saxlanılacaq. Siz tətbiq icazəsini Google Hesab ayarlarınızda idarə edə bilərsiniz."</string>
+    <string name="data_disconnect_failed" formatted="false">"Hesabla əlaqəni kəsmək mümkün olmadı. Yenidən cəhd edin."</string>
+    <string name="data_disconnect" formatted="false">"Bağlantını kəsin"</string>
+    <string name="data_google_not_connected" formatted="false">"Google qoşulmayıb"</string>
+    <string name="data_sync_ready" formatted="false">"Sinxronizasiyaya hazırdır"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Dəyişikliklər sinxronizasiyanı gözləyir..."</string>
+    <string name="data_offline_changes_saved" formatted="false">"İnternet bağlantısı yoxdur. Dəyişikliklər bu cihazda yadda saxlanılır."</string>
+    <string name="data_google_not_configured" formatted="false">"Google giriş hələ bu quruluş üçün konfiqurasiya olunmayıb"</string>
+    <string name="data_sync_wait" formatted="false">"Sinxronizasiyanın tamamlanmasını gözləyin"</string>
+    <string name="data_google_connecting" formatted="false">"Qoşulur Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Bağlantı ləğv edildi"</string>
+    <string name="data_connection_rejected" formatted="false">"Bağlantı Google tərəfindən ləğv edildi və ya rədd edildi"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google qoşulub. Girişlər birləşdirilir..."</string>
+    <string name="data_google_connection_failed" formatted="false">"Google qoşmaq mümkün olmadı. İnternet bağlantınızı və giriş parametrlərinizi yoxlayın."</string>
+    <string name="data_account_disconnected" formatted="false">"Hesabın əlaqəsi kəsildi. Məlumatlarınız bu cihazda qalır."</string>
+    <string name="data_sync_waiting_network" formatted="false">"İnternet bağlantısı yoxdur. Sinxronizasiya əlaqəni gözləyir."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sinxronizasiya planlaşdırılıb..."</string>
+    <string name="data_sync_running" formatted="false">"Sinxronizasiya edilir..."</string>
+    <string name="data_sync_complete" formatted="false">"Sinxronizasiya tamamlandı"</string>
+    <string name="data_no_internet" formatted="false">"İnternet bağlantısı yoxdur"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Sinxronizasiya edilə bilmədi. Məlumatlarınız bu cihazda yadda saxlanılır"</string>
+    <string name="data_page_open_failed" formatted="false">"Səhifəni açmaq mümkün olmadı. Onun ünvanını aşağıdakı mətndən köçürə bilərsiniz."</string>
+    <string name="data_privacy_title" formatted="false">"Məxfilik"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Qeydləriniz və məlumat nəzarətləriniz"</string>
+    <string name="data_app_purpose" formatted="false">"Bu proqram haqqında"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Bu proqram tibbi cihaz deyil. Heç bir xəstəliyin diaqnozu, müalicəsi, müalicəsi və ya qarşısının alınması deyil. Tibbi məsləhət, diaqnostika və müalicə üçün ixtisaslı tibb işçisi ilə məsləhətləşin."</string>
+    <string name="data_manage_delete_data" formatted="false">"Məlumatları idarə edin və silin"</string>
+    <string name="data_delete_data_intro" formatted="false">"Bütün məlumatları silməzdən əvvəl bütün cihazlarınızda sinxronizasiyanı söndürün. Proqramın telefonunuzdan silinməsi Google Drive və ya ixrac edilmiş fayllardakı nüsxələri silmir."</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive datanı idarə edin"</string>
+    <string name="data_google_account_access" formatted="false">"Google Hesaba giriş"</string>
+    <string name="data_android_app_storage" formatted="false">"Android daxilində tətbiq yaddaşı"</string>
+    <string name="data_contact_developer" formatted="false">"Tərtibatçı ilə əlaqə saxlayın"</string>
+    <string name="data_opening_page" formatted="false">"Səhifənin açılması"</string>
+    <string name="data_advertisement" formatted="false">"REKLAM"</string>
+    <string name="data_ad_information" formatted="false">"Bu elan haqqında"</string>
+    <string name="data_cloud_http_error">"Bulud HTTP xətası %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Bulud reaksiyası çox böyükdür"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Yanlış şifrələnmiş giriş sessiyası"</string>
+    <string name="data_session_save_failed" formatted="false">"Daxil olma sessiyasını saxlamaq mümkün olmadı"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google girişini yeniləmək mümkün olmadı"</string>
+    <string name="data_diary_read_failed">"Gündəliyi oxuya bilmədim. Orijinal fayl saxlanılıb. Məlumatlarınızı ehtiyat nüsxədən bərpa edin. %1$s"</string>
+    <string name="data_last_sync">"Son sinxronizasiya: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Meyvə və giləmeyvə"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Qurudulmuş meyvələr"</string>
+    <string name="data_category_vegetables" formatted="false">"Tərəvəz və göyərti"</string>
+    <string name="data_category_mushrooms" formatted="false">"Göbələklər"</string>
+    <string name="data_category_grains" formatted="false">"Taxıl və makaron"</string>
+    <string name="data_category_legumes" formatted="false">"Paxlalılar"</string>
+    <string name="data_category_meat" formatted="false">"Ət və quş əti"</string>
+    <string name="data_category_fish" formatted="false">"Balıq və dəniz məhsulları"</string>
+    <string name="data_category_dairy" formatted="false">"Süd məhsulları"</string>
+    <string name="data_category_eggs" formatted="false">"Yumurta"</string>
+    <string name="data_category_oils" formatted="false">"Yağlar və kərə yağı"</string>
+    <string name="data_category_nuts" formatted="false">"Fındıq və toxum"</string>
+    <string name="data_category_bread" formatted="false">"Çörək"</string>
+    <string name="data_category_other" formatted="false">"Digər qidalar"</string>
+    <string name="data_category_dishes" formatted="false">"Hazırlanmış yeməklər"</string>
+    <string name="data_category_custom" formatted="false">"Yeməklərim"</string>
+    <string name="data_category_other_short" formatted="false">"Digər"</string>
+    <string name="data_food_seed_9003" formatted="false">"Dərisi olan alma"</string>
+    <string name="data_catalog_note_1">"Yeməli hissənin 100 qramı üçün istinad dəyərləri. Çiy yemək. USDA karbohidrat dəyərlərinə lif daxildir. Məhsul etiketindən istifadə edərək dəyərləri tənzimləyə bilərsiniz. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Banan, qabığı soyulmuş"</string>
+    <string name="data_food_seed_9021" formatted="false">"Ərik, çəyirdəkli"</string>
+    <string name="data_food_seed_9037" formatted="false">"Avokado əti"</string>
+    <string name="data_food_seed_9050" formatted="false">"Qaragilə"</string>
+    <string name="data_food_seed_9070" formatted="false">"Çəkilmiş albalı"</string>
+    <string name="data_food_seed_9063" formatted="false">"Çəkilmiş albalı"</string>
+    <string name="data_food_seed_9078" formatted="false">"Zoğal"</string>
+    <string name="data_food_seed_9083" formatted="false">"Qara qarağat"</string>
+    <string name="data_food_seed_9084" formatted="false">"Qırmızı və ağ qarağat"</string>
+    <string name="data_food_seed_9132" formatted="false">"Üzüm"</string>
+    <string name="data_food_seed_9148" formatted="false">"Kivi əti"</string>
+    <string name="data_food_seed_9150" formatted="false">"Limon, qabığı soyulmuş"</string>
+    <string name="data_food_seed_9181" formatted="false">"Qovun əti"</string>
+    <string name="data_food_seed_9200" formatted="false">"Portağal əti"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mandarin əti"</string>
+    <string name="data_food_seed_9236" formatted="false">"Şaftalı, çəyirdəkli"</string>
+    <string name="data_food_seed_9252" formatted="false">"Armud"</string>
+    <string name="data_food_seed_9266" formatted="false">"Ananas əti"</string>
+    <string name="data_food_seed_9279" formatted="false">"Çuxurlu gavalı"</string>
+    <string name="data_food_seed_9286" formatted="false">"Nar dənələri"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pomelo əti"</string>
+    <string name="data_food_seed_9302" formatted="false">"Moruq"</string>
+    <string name="data_food_seed_9316" formatted="false">"Çiyələk"</string>
+    <string name="data_food_seed_9326" formatted="false">"Qarpız əti"</string>
+    <string name="data_food_seed_9191" formatted="false">"Çuxursuz nektarin"</string>
+    <string name="data_food_seed_9176" formatted="false">"Manqo əti"</string>
+    <string name="data_food_seed_9107" formatted="false">"Firəng üzümü"</string>
+    <string name="data_food_seed_9226" formatted="false">"Papaya əti"</string>
+    <string name="data_food_seed_9089" formatted="false">"Təzə əncir"</string>
+    <string name="data_food_seed_9111" formatted="false">"Qreypfrut əti"</string>
+    <string name="data_food_seed_9032" formatted="false">"Quru ərik, çəyirdəkli"</string>
+    <string name="data_catalog_note_2">"Yeməli hissənin 100 qramı üçün istinad dəyərləri. USDA karbohidrat dəyərlərinə lif daxildir. Məhsul etiketindən istifadə edərək dəyərləri tənzimləyə bilərsiniz. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Qara gavalı, çəyirdəkli"</string>
+    <string name="data_food_seed_9087" formatted="false">"Xurma, çuxurlu"</string>
+    <string name="data_food_seed_9298" formatted="false">"Tünd kişmiş, toxumsuz"</string>
+    <string name="data_food_seed_11529" formatted="false">"Təzə pomidor"</string>
+    <string name="data_food_seed_11205" formatted="false">"Dərisi olan xiyar"</string>
+    <string name="data_food_seed_11090" formatted="false">"Çiy brokoli"</string>
+    <string name="data_food_seed_11109" formatted="false">"Çiy ağ kələm"</string>
+    <string name="data_food_seed_11124" formatted="false">"Çiy kök"</string>
+    <string name="data_food_seed_11135" formatted="false">"Çiy gül kələmi"</string>
+    <string name="data_food_seed_11143" formatted="false">"Kərəviz sapı"</string>
+    <string name="data_food_seed_11282" formatted="false">"Çiy soğan"</string>
+    <string name="data_food_seed_11291" formatted="false">"Soğan"</string>
+    <string name="data_food_seed_11304" formatted="false">"Çiy yaşıl noxud"</string>
+    <string name="data_food_seed_11333" formatted="false">"Yaşıl bolqar bibəri"</string>
+    <string name="data_food_seed_11821" formatted="false">"Qırmızı bolqar bibəri"</string>
+    <string name="data_food_seed_11352" formatted="false">"Qabıqlı xam kartof"</string>
+    <string name="data_food_seed_11367" formatted="false">"Qaynadılmış kartof, soyulmuş"</string>
+    <string name="data_catalog_note_3">"Yeməli hissənin 100 qramı üçün istinad dəyərləri. Əlavə duz yoxdur. USDA karbohidrat dəyərlərinə lif daxildir. Məhsul etiketindən istifadə edərək dəyərləri tənzimləyə bilərsiniz. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Çiy balqabaq"</string>
+    <string name="data_food_seed_11209" formatted="false">"Çiy badımcan"</string>
+    <string name="data_food_seed_11422" formatted="false">"Çiy balqabaq"</string>
+    <string name="data_food_seed_11429" formatted="false">"Turp"</string>
+    <string name="data_food_seed_11564" formatted="false">"Çiy şalgam"</string>
+    <string name="data_food_seed_11080" formatted="false">"Çiy çuğundur"</string>
+    <string name="data_food_seed_11081" formatted="false">"Qaynadılmış çuğundur"</string>
+    <string name="data_food_seed_11215" formatted="false">"Sarımsaq"</string>
+    <string name="data_food_seed_11216" formatted="false">"Zəncəfil kökü"</string>
+    <string name="data_food_seed_11457" formatted="false">"Çiy ispanaq"</string>
+    <string name="data_food_seed_11253" formatted="false">"Yarpaq kahı"</string>
+    <string name="data_food_seed_11297" formatted="false">"Təzə cəfəri"</string>
+    <string name="data_food_seed_2045" formatted="false">"Təzə şüyüd"</string>
+    <string name="data_food_seed_11052" formatted="false">"Çiy yaşıl lobya"</string>
+    <string name="data_food_seed_11167" formatted="false">"Şirin qarğıdalı, xam ləpələr"</string>
+    <string name="data_food_seed_11260" formatted="false">"Çiy düymə göbələkləri"</string>
+    <string name="data_food_seed_11261" formatted="false">"Duzsuz qaynadılmış göbələklər"</string>
+    <string name="data_food_seed_11987" formatted="false">"Çiy istiridyə göbələkləri"</string>
+    <string name="data_food_seed_20009" formatted="false">"Qarabaşaq yarması, quru"</string>
+    <string name="data_catalog_note_4">"Yeməli hissənin 100 qramı üçün istinad dəyərləri. Qovrulmuş qarabaşaq yarması. USDA karbohidrat dəyərlərinə lif daxildir. Məhsul etiketindən istifadə edərək dəyərləri tənzimləyə bilərsiniz. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Suda bişmiş qarabaşaq yarması"</string>
+    <string name="data_food_seed_20444" formatted="false">"Ağ düyü, quru"</string>
+    <string name="data_food_seed_20445" formatted="false">"Qaynadılmış ağ düyü, duzsuz"</string>
+    <string name="data_food_seed_20036" formatted="false">"Qəhvəyi düyü, quru"</string>
+    <string name="data_food_seed_20037" formatted="false">"Qaynadılmış qəhvəyi düyü"</string>
+    <string name="data_food_seed_8120" formatted="false">"Yulaf ezmesi, quru"</string>
+    <string name="data_food_seed_8121" formatted="false">"Suda bişmiş yulaf ezmesi, duzsuz"</string>
+    <string name="data_food_seed_20005" formatted="false">"İnci arpa, quru"</string>
+    <string name="data_food_seed_20006" formatted="false">"Qaynadılmış mirvari arpa"</string>
+    <string name="data_food_seed_20031" formatted="false">"Darı, quru"</string>
+    <string name="data_food_seed_20032" formatted="false">"Qaynadılmış darı"</string>
+    <string name="data_food_seed_20420" formatted="false">"Makaron, quru"</string>
+    <string name="data_food_seed_20421" formatted="false">"Duzsuz qaynadılmış makaron"</string>
+    <string name="data_food_seed_16070" formatted="false">"Duzsuz qaynadılmış mərcimək"</string>
+    <string name="data_food_seed_16057" formatted="false">"Duzsuz qaynadılmış noxud"</string>
+    <string name="data_food_seed_16033" formatted="false">"Qaynadılmış qırmızı lobya, duzsuz"</string>
+    <string name="data_food_seed_5062" formatted="false">"Çiy dərisiz toyuq döşü"</string>
+    <string name="data_food_seed_5064" formatted="false">"Qızardılmış dərisiz toyuq döşü"</string>
+    <string name="data_food_seed_5219" formatted="false">"Çiy dərisiz hinduşka döşü"</string>
+    <string name="data_food_seed_5220" formatted="false">"Qovrulmuş dərisiz hinduşka döşü"</string>
+    <string name="data_food_seed_23562" formatted="false">"Kıyılmış mal əti, 10% yağ, çiy"</string>
+    <string name="data_food_seed_23566" formatted="false">"Kıyılmış mal əti, 10% yağ, qovrulmuş"</string>
+    <string name="data_food_seed_10060" formatted="false">"Çiy donuz əti, görünən yağ çıxarıldı"</string>
+    <string name="data_food_seed_10061" formatted="false">"Qovrulmuş donuz əti"</string>
+    <string name="data_food_seed_15236" formatted="false">"Atlantik qızılbalığı, xam"</string>
+    <string name="data_catalog_note_5">"Yeməli hissənin 100 qramı üçün istinad dəyərləri. Çiy yemək. Təsərrüfatçılıq. USDA karbohidrat dəyərlərinə lif daxildir. Məhsul etiketindən istifadə edərək dəyərləri tənzimləyə bilərsiniz. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Atlantik qızılbalığı, qovrulmuş"</string>
+    <string name="data_catalog_note_6">"Yeməli hissənin 100 qramı üçün istinad dəyərləri. Təsərrüfatçılıq. USDA karbohidrat dəyərlərinə lif daxildir. Məhsul etiketindən istifadə edərək dəyərləri tənzimləyə bilərsiniz. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Atlantik cod, xam"</string>
+    <string name="data_food_seed_15266" formatted="false">"Çiy Alyaska pollok"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuna suda konservləşdirilmiş, süzülmüşdür"</string>
+    <string name="data_food_seed_15271" formatted="false">"Bişmiş karides, qabığı soyulmuş"</string>
+    <string name="data_food_seed_1211" formatted="false">"Süd, 3,25% yağ"</string>
+    <string name="data_food_seed_1174" formatted="false">"Süd, 2% yağ"</string>
+    <string name="data_food_seed_1082" formatted="false">"Süd, 1% yağ"</string>
+    <string name="data_food_seed_1116" formatted="false">"Tam südlü qatıq"</string>
+    <string name="data_food_seed_1256" formatted="false">"Yağsız yunan qatığı"</string>
+    <string name="data_food_seed_1015" formatted="false">"Kəsmik, 2% yağ"</string>
+    <string name="data_catalog_note_7">"Yeməli hissənin 100 qramı üçün istinad dəyərləri. kəsmik; digər kəsmik pendir növləri fərqli dəyərlərə malikdir. USDA karbohidrat dəyərlərinə lif daxildir. Məhsul etiketindən istifadə edərək dəyərləri tənzimləyə bilərsiniz. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Xama, təxminən 19% yağ"</string>
+    <string name="data_food_seed_1009" formatted="false">"Çeddar pendiri"</string>
+    <string name="data_food_seed_1026" formatted="false">"Tam südlü mozzarella"</string>
+    <string name="data_food_seed_1019" formatted="false">"Feta pendiri"</string>
+    <string name="data_food_seed_1123" formatted="false">"Çiy toyuq yumurtası, qabıqsız"</string>
+    <string name="data_food_seed_1129" formatted="false">"Qabıqsız qaynadılmış toyuq yumurtası"</string>
+    <string name="data_food_seed_1124" formatted="false">"Çiy toyuq yumurtasının ağı"</string>
+    <string name="data_food_seed_1001" formatted="false">"Duzlu kərə yağı"</string>
+    <string name="data_food_seed_4053" formatted="false">"Zeytun yağı"</string>
+    <string name="data_food_seed_4506" formatted="false">"Günəbaxan yağı"</string>
+    <string name="data_food_seed_12061" formatted="false">"Badam"</string>
+    <string name="data_food_seed_12155" formatted="false">"Qoz ləpəsi"</string>
+    <string name="data_food_seed_12120" formatted="false">"Fındıq ləpəsi"</string>
+    <string name="data_food_seed_12151" formatted="false">"Çiy püstə ləpəsi"</string>
+    <string name="data_food_seed_12014" formatted="false">"Qurudulmuş balqabaq toxumu ləpəsi"</string>
+    <string name="data_food_seed_16087" formatted="false">"Çiy qabıqlı fıstıq"</string>
+    <string name="data_food_seed_18069" formatted="false">"Ağ buğda çörəyi"</string>
+    <string name="data_food_seed_18075" formatted="false">"Tam buğda çörəyi"</string>
+    <string name="data_food_seed_18060" formatted="false">"Çovdar çörəyi"</string>
+    <string name="data_food_seed_19296" formatted="false">"Bal"</string>
+    <string name="data_food_seed_19335" formatted="false">"Şəkər"</string>
+    <string name="data_food_seed_19165" formatted="false">"Şəkərsiz kakao tozu"</string>
+    <string name="data_food_seed_19904" formatted="false">"Tünd şokolad, 70-85% kakao"</string>
+    <string name="data_meal_breakfast" formatted="false">"Səhər yeməyi"</string>
+    <string name="data_meal_lunch" formatted="false">"Nahar"</string>
+    <string name="data_meal_dinner" formatted="false">"Şam yeməyi"</string>
+    <string name="data_meal_snack" formatted="false">"Qəlyanaltı"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary üçün məxfilik siyasəti\nBaxış: 9 oktyabr 2026-cı il"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Proqram: Diet Diary; Google Play siyahının rus dilində başlığı: «Дневник диеты: подсчёт калорий»; paket: ru.dietdiary.offline.\nLayihə tərtibatçısı: Efreitor2001. Tətbiq və məlumatların işlənməsi ilə bağlı suallarınız üçün https://github.com/Efreitor2001/kkalcal/issues ilə əlaqə saxlayın. GitHub problemləri açıqdır: sağlamlıq qeydlərini, ehtiyat nüsxələrini, parolları və ya nişanları orada yerləşdirməyin."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Cihazınızdakı gündəlik\nGündəlik saxlamaq üçün qeydiyyat tələb olunmur. Tətbiq qidaları və onların qida dəyərini, porsiyalarını və yemək tarixlərini, çəki, bel ölçüləri, bədən yağ faizi, addımlar, yuxu, məşq təsvirləri, qeydlər, məqsədlər, nailiyyətlər və proqram parametrlərini cihazınızdaki şəxsi saxlama sahəsində saxlayır. Əlavə sahələr boş qala bilər. Addımlar, yuxu və ölçmələr əl ilə daxil edilir; proqram Health Connect, fiziki fəaliyyət sensorları və ya tibbi cihaz məlumatlarını oxumur."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Bu məlumat kalori və makronutrientləri hesablamaq və tarix, qrafiklər və nailiyyətləri təmin etmək üçün istifadə olunur. Tərtibatçı gündəlik məzmunu qəbul edən serveri işlətmir. Google Drive qoşmasanız və ya ehtiyat nüsxəni özünüz paylaşmasanız, qeydləriniz cihazınızda qalır."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Könüllü Google Drive əlaqə\nSizin istəyinizlə proqram defolt brauzerinizdə Google girişi açır və Google Drive yaddaşınızda bu tətbiqin gizli məlumat yaddaşına giriş tələb edir. Bu icazə adi Disk sənədlərinizə və ya fotoşəkillərinizə girişi təmin etmir."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Qoşulduqdan sonra qidalar, yeməklər, gündəlik ölçüləri, qeydlər, məqsədlər, nailiyyətlər, ötürülə bilən parametrlər və metadata, o cümlədən təsadüfi quraşdırma identifikatorları və vaxt ştampları Google ünvanına göndərilir. Bu, ehtiyat nüsxə nüsxəsini və cihazlarınızda qeydləri birləşdirməyi dəstəkləyir. Avtomatik sinxronizasiya aktivdirsə, şəbəkə bağlantısı mövcud olduqda dəyişikliklər də fonda göndərilir. Avtomatik sinxronizasiyanı ayrıca söndürə bilərsiniz."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Tətbiq əlaqəni göstərmək və düzgün yaddaşla əlaqələndirmək üçün seçilmiş Google hesabının e-poçt ünvanını və identifikatorunu alır. Google parolunuz tətbiqə təqdim edilməyib. Avtorizasiya sessiyası Android Açar Anbarında açardan istifadə etməklə cihazınızda şifrələnmiş şəkildə saxlanılır. Tokenlər, e-poçt ünvanları və Google identifikatorları gündəlik ixracından və sinxronlaşdırılmış JSON anlıq görüntülərdən xaric edilir."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google data heç vaxt reklam üçün deyil, yalnız avtorizasiya və sinxronizasiya üçün istifadə olunur. Google məxfilik siyasəti tətbiq edilir: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Faylların ehtiyat nüsxəsi\n“Faylda saxla” seçdiyiniz yerdə JSON faylı yaradır. Bərpa yalnız seçdiyiniz faylı oxuyur. Bulud fayl provayderini seçsəniz və ya nüsxəsini başqa şəxslə paylaşsanız, alıcını seçirsiniz. Proqram ixrac edilmiş JSON faylları şifrələmir: bu fayllarda şəxsi qeydlər var və metadata dəyişir."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Reklam\nProqram Yandex Mobil Reklamlar SDK-dan istifadə edir. Reklamları yükləmək və göstərmək üçün cihazınız reklam xidmətlərinə qoşulur. Yandex IP ünvanınızı və şəbəkə sorğusu, cihaz və proqram təminatı, mövcud reklam və ya texniki identifikatorlar, reklam təəssüratları və qarşılıqlı əlaqə haqqında məlumat haqqında digər texniki məlumatları emal edə bilər."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Tətbiq SDK-ya razılığın verilmədiyini bildirir, məkan kolleksiyasını söndürür və App Ad Analytics hesabatını deaktiv edir. O, dəqiq və ya təxmini məkan icazələri tələb etmir. Bu parametrlər reklam xidmətinin heç bir şəbəkə əlaqəsi və ya texniki məlumatların işlənməsini həyata keçirməməsi demək deyil."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Tətbiq reklam hədəflənməsi üçün qida qeydləri, çəki, ölçülər, qeydlər, məqsədlər, e-poçt ünvanları və ya Google identifikatorlarından istifadə etmir və onları reklam sorğusu parametrlərinə əlavə etmir. Girişləri saxlamaq üçün reklamlara baxmaq tələb olunmur."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex məlumatların işlənməsi, saxlanması və silinməsi qaydaları: https://yandex.ru/legal/confidential/ . Sistem versiyanız bu funksiyanı dəstəkləyirsə, reklam identifikatorunuzu Android parametrlərində idarə edə bilərsiniz. Reklam xidmətinin siyasəti onun texniki məlumatlarının saxlanma müddətlərini müəyyən edir; gündəlik tərtibçisi həmin məlumat üçün ayrıca saxlama müddəti təyin etmir."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Məlumatın qorunması\nGoogle ilə əlaqə HTTPS-dən istifadə edir; Yandex bildirir ki, SDK verilənləri HTTPS/TLS istifadə edərək ötürülür. Yerli gündəlik Android tətbiqinin izolyasiyası ilə qorunur. Tətbiq gündəlik məzmunu və ya JSON anlıq görüntüləri ayrıca şifrələmir; cihazlar arasında uçdan-uca şifrələməni təmin etmir."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Tətbiq məlumatlarının sistem ehtiyat nüsxəsi deaktiv edilib. Tətbiqin öz kodu ilə yazılmış diaqnostik jurnallarda gündəlik məzmunu, e-poçt ünvanları, işarələri və ya şəbəkə cavab orqanları olmadan nəticə kodları var; proqram ayrıca bu qeydləri tərtibatçıya göndərmir."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Saxlanma və silinmə\nYerli qeydlər siz onları dəyişdirənə və ya silənə və ya proqram məlumatlarını təmizləyənə qədər qalır. Girişin silinməsi onu interfeysdən çıxarır və sinxronizasiya zamanı silmə markerini göndərir. Birləşmə metadata köhnə məlumatların yenidən görünməsinin qarşısını almaq üçün saxlanılır; o, silinmiş gündəlik qeydindən əvvəlki dəyərləri ehtiva edə bilər. Əvvəlki dəyərlər köhnə bulud görüntülərində və əvvəllər yaratdığınız fayllarda da qala bilər. Beləliklə, bir girişin silinməsi onun hər nüsxəsini tamamilə silmir."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"\"Hesabı ayır\" bu cihazda sinxronizasiyanı dayandırır və yerli Google sessiyasını silir. Google Drive-də gündəlik və snapshotlar saxlanılır. Tətbiqin ayrılması Google hesabınızı silmir."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Bu proqramın məlumatlarını tamamilə silmək üçün:\n• Qalan nüsxələrin yenidən yüklənməməsi üçün bütün cihazlarınızda sinxronizasiyanı söndürün.\n• Brauzerdə qoşulmuş Google hesabından istifadə edərək https://drive.google.com/drive/settings açın. \"Tətbiqləri idarə et\" seçin, \"Diet Diary\" (və ya \"Дневник диеты\") tapın, sonra \"Seçimlər\" → \"Gizli proqram məlumatlarını sil\" seçin. Mobil səhifə bu bölməni göstərmirsə, saytın masaüstü versiyasından və ya kompüterdən istifadə edin.\n• https://myaccount.google.com/connections ünvanında tətbiqin girişini ləğv edin. Təkcə girişin ləğvi saxlanılan nüsxələri silmir.\n• Hər bir cihazda Android parametrlərində proqramın yaddaşını silin və ya proqramı silin.\n• Seçdiyiniz qovluqlardan və bulud saxlama yerlərindən ayrıca saxlanılan JSON ehtiyat nüsxələrini silin."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Etibarnaməniz olmadan tərtibatçı yerli gündəlikinizi və ya şəxsi Google Drive faylınızdakı faylları uzaqdan silə bilməz. Parolunuzu və ya nişanlarınızı tərtibatçı ilə paylaşmayın. Silinmə ilə bağlı yardım üçün bu siyasətin başlanğıcındakı linkdən istifadə edərək layihə ilə əlaqə saxlayın. Gündəlik məlumatlarını silmək üçün Google hesabınızı silmək lazım deyil."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Dəyişikliklər və əlaqə saxlayın\nTətbiq funksiyaları və ya məlumatların işlənməsi təcrübələri dəyişdikdə, bu siyasət yenidən baxılma tarixi ilə yenilənir. Giriş, düzəliş, məlumatların silinməsi və ya tətbiqin işləməsi ilə bağlı suallarınız üçün layihənin əlaqə kanalından istifadə edin. Göndərdiyiniz sorğular cavab vermək üçün işlənir və GitHub-da saxlanılır; GitHub siyasəti https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ünvanında mövcuddur."</string>
+    <string name="data_category_my_dishes" formatted="false">"Yeməklərim"</string>
+    <string name="secondary_metric_weight" formatted="false">"Çəki"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Bədən piyi"</string>
+    <string name="secondary_metric_waist" formatted="false">"Bel"</string>
+    <string name="secondary_metric_steps" formatted="false">"Addımlar"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Yuxu"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalori"</string>
+    <string name="secondary_metric_protein" formatted="false">"Zülal"</string>
+    <string name="secondary_metric_fat" formatted="false">"Yağ"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Karbohidratlar"</string>
+    <string name="secondary_unit_kg" formatted="false">"kq"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"sm"</string>
+    <string name="secondary_unit_steps" formatted="false">"addımlar"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kkal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Yanlış tarix diapazonu"</string>
+    <string name="secondary_stats_title" formatted="false">"Trendlər"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Aydın qrafiklərdə qeydləriniz"</string>
+    <string name="secondary_metric" formatted="false">"Metrik"</string>
+    <string name="secondary_week" formatted="false">"Həftə"</string>
+    <string name="secondary_month" formatted="false">"Ay"</string>
+    <string name="secondary_year" formatted="false">"İl"</string>
+    <string name="secondary_custom_period" formatted="false">"Fərdi diapazon"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Başlama tarixi bitmə tarixindən sonra olmamalıdır"</string>
+    <string name="secondary_no_records" formatted="false">"Hələ qeyd yoxdur"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Gündəliyinizə yemək əlavə edin və ya başqa bir dövr seçin."</string>
+    <string name="secondary_chart_tap" formatted="false">"Yazı seçmək üçün diaqrama toxunun"</string>
+    <string name="secondary_chart_connected" formatted="false">"Xətt qeydə alınmış ölçmələri birləşdirir. Onların arasında heç bir ölçü yoxdur."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Ölçək təxminləri trendləri izləmək üçün faydalıdır."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Gündəlik əl ilə verilən ümumi yemək cəmini əvəz edir. Əks halda, daxil edilmiş qida əlavə olunur. Qeydlər olmayan günlər atlanır."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Cəmi qeyd olunan qidaya əsaslanır. Qeydlər olmayan bir gün sıfır hesab edilmir."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Qeydlər olmayan günlər atlanır və orta göstəricidən çıxarılır."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Bu gün və dünən"</string>
+    <string name="secondary_no_today" formatted="false">"Bu gün üçün rekord yoxdur"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Dünən üçün rekord yoxdur"</string>
+    <string name="secondary_partial_today" formatted="false">"Bu müqayisə cari qeydlərdən istifadə edir. Bugünkü məlumatlar hələ də natamam ola bilər."</string>
+    <string name="secondary_period_summary" formatted="false">"Dövrün xülasəsi"</string>
+    <string name="secondary_recorded_average" formatted="false">"Qeydə alınmış günlər üzrə orta"</string>
+    <string name="secondary_recorded_days" formatted="false">"Məlumatlı günlər"</string>
+    <string name="secondary_minimum" formatted="false">"Minimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maksimum"</string>
+    <string name="secondary_first_to_last" formatted="false">"İlk qeyddən sonuncuya qədər"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Dəyişikliyi hesablamaq üçün ən azı iki qeydə alınmış gün lazımdır."</string>
+    <string name="secondary_history" formatted="false">"Tarix"</string>
+    <string name="secondary_history_recent" formatted="false">"Data ilə son 14 gün. Əvvəlki qeydlər üçün fərdi sıra seçin."</string>
+    <string name="secondary_history_all" formatted="false">"Seçilmiş dövrdə bütün qeydə alınmış günlər"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s tarixindən"</string>
+    <string name="secondary_date_until">"%1$s üçün"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s bu dövrdə"</string>
+    <string name="secondary_weight_goal">"Məqsəd: %1$s kq"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Gündəliyinizə ölçü əlavə edin və ya başqa bir dövr seçin."</string>
+    <string name="secondary_latest_record">"Ən son qeyd · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Bu gün: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Dünən: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Dəyişiklik: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d/%2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d qeydə alınmış günlər, %3$s ilə %4$s arasında. Minimum %5$s, maksimum %6$s %7$s. Dəyərlər tarixdə qeyd olunur."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Başlamaq"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"İlk çəki ölçmənizi yadda saxlayın."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"İlk çəki ölçünüz yadda saxlanıldı."</string>
+    <string name="secondary_award_first_food" formatted="false">"İlk giriş"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"İlk yemək hissəsini qeyd edin."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"İlk yemək porsiyanız qeyd edildi."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Bir həftə məlumat"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Çəkinizi 7 fərqli gündə qeyd edin. Onların ardıcıl olması lazım deyil."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"7 müxtəlif gün ərzində çəki rekordlarınız var."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Davamlılıq"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Çəkinizi 30 fərqli gündə qeyd edin."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"30 gün ərzində çəki rekordlarınız var."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Arxivist"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Gündəlikinizdə 100 yemək hissəsini qeyd edin."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"100 yemək porsiyasına qənaət etmisiniz."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Yeni vərdiş"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Ardıcıl 7 təqvim günü üçün yeməklər."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Ardıcıl 7 gün ərzində yeməkləri qeyd etmisiniz."</string>
+    <string name="secondary_award_steps" formatted="false">"Gəzinti möcüzəsi"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Bir gündə ən azı 10.000 addım qeyd edin."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Siz 10.000 addımlı bir günü qeyd etmisiniz."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Məhsuldar yazıcı"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"100 çəki ölçüsünü yadda saxlayın. Hər tarix üçün bir ölçmə sayılır."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Siz 100 çəki ölçməni saxladınız."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Gündəlik veteran"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"90 müxtəlif gündə yemək və ya ölçmələri qeyd edin. Onların ardıcıl olması lazım deyil."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"90 müxtəlif gün üçün gündəlik qeydləriniz var."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"ölçmələr"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porsiyalar"</string>
+    <string name="secondary_award_unit_days" formatted="false">"gün"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"ardıcıl günlər"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"bir gündə addımlar"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"qeyd olunan günlər"</string>
+    <string name="secondary_back" formatted="false">"‹ Geri"</string>
+    <string name="secondary_achievements" formatted="false">"Nailiyyətlər"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Kiçik addımlar vərdişə çevrilir"</string>
+    <string name="secondary_your_progress" formatted="false">"SİZİN TƏRƏFLƏRİNİZ"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Qeydlərinizi redaktə etsəniz belə, qazanılmış nailiyyətlər sizinlə qalır."</string>
+    <string name="secondary_awards_regular" formatted="false">"Ardıcıllıq və gündəlik saxlamaq üçün"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Bu günə qədər və bu günə qədər saxlanılan qeydlər sayılır."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Gizli nailiyyət"</string>
+    <string name="secondary_hidden_description" formatted="false">"Bu nailiyyəti açmaq üçün gündəlikinizdən istifadə etməyə davam edin."</string>
+    <string name="secondary_earned" formatted="false">"Qazandı"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Gizli · kilidlidir"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Davam edir · kilidlidir"</string>
+    <string name="secondary_locked" formatted="false">"Bağlanıb"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Tələb və irəliləyiş bu mükafatı qazandığınız zaman aşkar olunacaq."</string>
+    <string name="secondary_best_streak" formatted="false">"Ən yaxşı seriya"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Gizli mükafat"</string>
+    <string name="secondary_unlocked_of">"/ %1$d kilidi açıldı"</string>
+    <string name="secondary_unlocked_date">"Kilidi açıldı %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Geri"</string>
+    <string name="secondary_my_recipe" formatted="false">"Mənim reseptim"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Bişirməzdən əvvəl inqrediyentləri çəkin. Porsiyaları hesablamaq üçün bişmiş çəkidən istifadə edin. Yağları və sousları daxil edin."</string>
+    <string name="secondary_recipe_name" formatted="false">"Reseptin adı"</string>
+    <string name="secondary_recipe_example" formatted="false">"Məsələn, tərəvəz güveç"</string>
+    <string name="secondary_ingredients" formatted="false">"Tərkibi"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Tərkiblərdən başlayın"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Hər bir inqrediyenti əlavə edin və onun çəkisini qramla daxil edin."</string>
+    <string name="secondary_edit_weight" formatted="false">"Çəkini redaktə edin"</string>
+    <string name="secondary_delete" formatted="false">"Sil"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Tərkib əlavə edin"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Bütün resept"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Su əlavə etdikcə və ya itirdikcə bişirmə çəki dəyişir. Hazır yeməyi qabı olmadan çəkin."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Bişmiş çəki, q"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Bişirdikdən sonra çəki daxil edin"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0-dan çox və 100.000 q-dan çox olmayan çəki daxil edin"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Çəki avtomatik olaraq doldurulmur"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Bişmiş yeməyin 100 qramı üçün"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Bişmiş çəki və inqrediyentləri yoxlayın: hər 100 q-da 1000 kkal və 100 q-a qədər hər bir makronutrient ola bilər."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Resepti saxlamaq mümkün olmadı"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Reseptlərimdə saxla"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Yadda saxlandıqdan sonra siz bu yeməyi porsiya çəkisinə görə qeyd edə bilərsiniz."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Bişirməzdən əvvəl inqrediyentin çəkisi"</string>
+    <string name="secondary_grams" formatted="false">"Qram"</string>
+    <string name="secondary_weight_limits" formatted="false">"0-dan çox və 100.000 q-dan çox deyil"</string>
+    <string name="secondary_add" formatted="false">"Əlavə et"</string>
+    <string name="secondary_save" formatted="false">"Saxla"</string>
+    <string name="secondary_cancel" formatted="false">"Ləğv et"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Tərkibini seçin"</string>
+    <string name="secondary_search_food" formatted="false">"Qidaları axtarın"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Nəticə yoxdur. Yeməklər sekmesinde öz yeməyinizi əlavə edə bilərsiniz."</string>
+    <string name="secondary_close" formatted="false">"Bağlayın"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kkal"</string>
+    <string name="secondary_portion_macros">"Zülal %1$s · Yağ %2$s · Karbohidratlar %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Tərkibinin çəkisi: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kkal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kkal / 100 q"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s q"</string>
+    <string name="secondary_recipe_note">"Məhsul: %1$s g. Tərkibi: %2$s"</string>
+</resources>

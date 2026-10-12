@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Diet Diary"</string>
+    <string name="core_app_name" formatted="false">"Diet Diary"</string>
+    <string name="core_tagline" formatted="false">"Calories, weight and progress"</string>
+    <string name="core_open_diary" formatted="false">"Open diary"</string>
+    <string name="core_save_failed" formatted="false">"Could not save your data"</string>
+    <string name="core_day" formatted="false">"Today"</string>
+    <string name="core_products" formatted="false">"Foods"</string>
+    <string name="core_diary" formatted="false">"Diary"</string>
+    <string name="core_charts" formatted="false">"Charts"</string>
+    <string name="core_more" formatted="false">"More"</string>
+    <string name="core_recipe_saved" formatted="false">"Dish saved to your foods"</string>
+    <string name="core_back_to_day" formatted="false">"Back to your day"</string>
+    <string name="core_action_failed" formatted="false">"Could not complete this action"</string>
+    <string name="core_understood" formatted="false">"OK"</string>
+    <string name="core_restore_available" formatted="false">"You can restore a backup in More."</string>
+    <string name="core_eaten_today" formatted="false">"EATEN TODAY"</string>
+    <string name="core_set_goal_hint" formatted="false">"You can set a goal in More"</string>
+    <string name="core_add_food" formatted="false">"+ Add food"</string>
+    <string name="core_first_meal" formatted="false">"Start with your first meal"</string>
+    <string name="core_first_meal_help" formatted="false">"Choose a food and enter its weight in grams to calculate calories and macros."</string>
+    <string name="core_my_day" formatted="false">"My day"</string>
+    <string name="core_my_day_help" formatted="false">"Weight, waist, steps, sleep — record what you know."</string>
+    <string name="core_record_metrics" formatted="false">"Record measurements"</string>
+    <string name="core_edit_metrics" formatted="false">"Edit measurements"</string>
+    <string name="core_food_state_hint" formatted="false">"Food weight and nutrition values must refer to the same state: raw, dry or cooked."</string>
+    <string name="core_weight" formatted="false">"Weight"</string>
+    <string name="core_waist" formatted="false">"Waist"</string>
+    <string name="core_my_diary" formatted="false">"My diary"</string>
+    <string name="core_diary_tagline" formatted="false">"Every day at your own pace"</string>
+    <string name="core_record_day" formatted="false">"+ Record a day"</string>
+    <string name="core_optional_diary_help" formatted="false">"All measurements are optional. You can record just your weight, sleep or a note. Tap an entry to edit it."</string>
+    <string name="core_history_starts" formatted="false">"Your history starts here"</string>
+    <string name="core_history_help" formatted="false">"Record measurements and follow changes in Charts."</string>
+    <string name="core_file_unavailable" formatted="false">"File unavailable"</string>
+    <string name="core_backup_saved" formatted="false">"Backup saved"</string>
+    <string name="core_export_error" formatted="false">"Could not export the backup"</string>
+    <string name="core_read_error" formatted="false">"Could not read the file"</string>
+    <string name="core_settings_tagline" formatted="false">"Settings and data backup"</string>
+    <string name="core_your_progress" formatted="false">"Your progress"</string>
+    <string name="core_achievements_help" formatted="false">"Small achievements for building a diary habit."</string>
+    <string name="core_achievements" formatted="false">"Achievements"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"An optional connection to sync your diary across your devices."</string>
+    <string name="core_cloud_sync" formatted="false">"Cloud sync"</string>
+    <string name="core_personal_goals" formatted="false">"Personal goals"</string>
+    <string name="core_personal_goals_help" formatted="false">"Set your calorie, macro and target weight goals manually. Any goal can be left blank."</string>
+    <string name="core_configure_goals" formatted="false">"Set goals"</string>
+    <string name="core_backup" formatted="false">"Backup"</string>
+    <string name="core_backup_help" formatted="false">"Foods, meals, diary, goals and achievements in one file. Save a backup before reinstalling the app."</string>
+    <string name="core_save_file" formatted="false">"Save to a file"</string>
+    <string name="core_restore_file" formatted="false">"Restore from a file"</string>
+    <string name="core_write_locked" formatted="false">"Saving is disabled to protect the original file. Restore a valid backup."</string>
+    <string name="core_about_data" formatted="false">"About the app and your data"</string>
+    <string name="core_about_data_help" formatted="false">"How records are stored, sync works and data is deleted."</string>
+    <string name="core_privacy" formatted="false">"Privacy and data deletion"</string>
+    <string name="core_offline" formatted="false">"Works offline"</string>
+    <string name="core_offline_help" formatted="false">"Google sign-in is optional. Steps and sleep are entered manually. An internet connection is needed for enabled sync and loading ads. Diary entries are not sent to the advertising network."</string>
+    <string name="core_about_foods" formatted="false">"About foods"</string>
+    <string name="core_foods_reference" formatted="false">"Built-in values are estimates per 100 g of edible portion. Check the packaging for exact values. Editing a food does not recalculate previous meal entries."</string>
+    <string name="core_foods_source" formatted="false">"Database source: USDA FoodData Central, SR Legacy. Individual foods include their state and source details."</string>
+    <string name="core_restore_title" formatted="false">"Restore this backup?"</string>
+    <string name="core_restore_warning" formatted="false">"Your current foods, diary, goals and achievements will be replaced with the contents of this file. Save a backup first. If sync is connected, the restored changes will also be sent to Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Backup restored"</string>
+    <string name="core_invalid_file" formatted="false">"Invalid file"</string>
+    <string name="core_replace_data" formatted="false">"Replace data"</string>
+    <string name="core_cancel" formatted="false">"Cancel"</string>
+    <string name="core_save" formatted="false">"Save"</string>
+    <string name="core_calculate_portion" formatted="false">"Calculate a portion"</string>
+    <string name="core_edit_portion" formatted="false">"Edit portion"</string>
+    <string name="core_portion_weight" formatted="false">"Portion weight, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Enter a weight greater than 0 and no more than 100,000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Add to diary"</string>
+    <string name="core_delete_entry" formatted="false">"Delete entry"</string>
+    <string name="core_delete_portion_question" formatted="false">"Delete this portion from your diary?"</string>
+    <string name="core_new_food" formatted="false">"New food or dish"</string>
+    <string name="core_edit_nutrition" formatted="false">"Edit nutrition values"</string>
+    <string name="core_name" formatted="false">"Name"</string>
+    <string name="core_food" formatted="false">"Food"</string>
+    <string name="core_dish" formatted="false">"Prepared dish"</string>
+    <string name="core_category" formatted="false">"Category"</string>
+    <string name="core_per100_hint" formatted="false">"Values per 100 g, from the packaging or a recipe. Enter 0 if a nutrient is absent."</string>
+    <string name="core_kcal" formatted="false">"Calories"</string>
+    <string name="core_protein_grams" formatted="false">"Protein, g"</string>
+    <string name="core_fat_grams" formatted="false">"Fat, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Carbs, g"</string>
+    <string name="core_food_note" formatted="false">"Note, ingredients (optional)"</string>
+    <string name="core_favorite" formatted="false">"Add to favorites"</string>
+    <string name="core_name_category_required" formatted="false">"Enter a name and category"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Enter values per 100 g: calories 0–1,000; protein, fat and carbs 0–100 g"</string>
+    <string name="core_delete_food" formatted="false">"Delete from foods"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Previous meal entries will keep their values."</string>
+    <string name="core_delete_food_question" formatted="false">"Delete this food? Its diary entries will be kept."</string>
+    <string name="core_day_entry" formatted="false">"Daily entry"</string>
+    <string name="core_optional_fields" formatted="false">"Fill in any fields you want. Leave the rest blank."</string>
+    <string name="core_editing_existing" formatted="false">"There is already an entry for this date. You are editing it."</string>
+    <string name="core_weight_kg" formatted="false">"Weight, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Waist, cm"</string>
+    <string name="core_steps" formatted="false">"Steps"</string>
+    <string name="core_sleep" formatted="false">"Sleep"</string>
+    <string name="core_hours" formatted="false">"Hours"</string>
+    <string name="core_minutes" formatted="false">"Minutes"</string>
+    <string name="core_body_fat_optional" formatted="false">"Scale body fat, % (optional)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Body fat from a scale is a trend indicator, not a precise measurement."</string>
+    <string name="core_strength_training" formatted="false">"Strength training"</string>
+    <string name="core_training_example" formatted="false">"For example: squats 3×10, 12 kg dumbbells"</string>
+    <string name="core_manual_nutrition" formatted="false">"Manual nutrition totals"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"If entered, these values override the food totals for the day. Leave blank for automatic calculation."</string>
+    <string name="core_daily_calories" formatted="false">"Daily calories"</string>
+    <string name="core_daily_protein" formatted="false">"Daily protein, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Notes and how you feel"</string>
+    <string name="core_steps_invalid" formatted="false">"Steps: a whole number from 0 to 200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Sleep: 0–24 hours, minutes 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Body fat"</string>
+    <string name="core_calories" formatted="false">"Calories"</string>
+    <string name="core_protein" formatted="false">"Protein"</string>
+    <string name="core_entry_required" formatted="false">"Add at least one measurement or a note"</string>
+    <string name="core_delete_day" formatted="false">"Delete this daily entry"</string>
+    <string name="core_optional_goals" formatted="false">"All goals are optional. A blank field means no goal is set."</string>
+    <string name="core_calories_per_day" formatted="false">"Calories per day"</string>
+    <string name="core_protein_per_day" formatted="false">"Protein per day, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Fat per day, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Carbs per day, g"</string>
+    <string name="core_target_weight" formatted="false">"Target weight, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Check your goals: calories 0–10,000; protein, fat and carbs 0–1,000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Target weight: from 1 to 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Delete?"</string>
+    <string name="core_delete" formatted="false">"Delete"</string>
+    <string name="core_select_food" formatted="false">"Choose food"</string>
+    <string name="core_foods_dishes" formatted="false">"Foods and dishes"</string>
+    <string name="core_search_food" formatted="false">"Search for a food or dish"</string>
+    <string name="core_new_food_button" formatted="false">"+ Food / dish"</string>
+    <string name="core_recipe_button" formatted="false">"From a recipe"</string>
+    <string name="core_no_results" formatted="false">"No results"</string>
+    <string name="core_no_results_help" formatted="false">"Try another search or add your own food or prepared dish."</string>
+    <string name="core_edit" formatted="false">"Edit"</string>
+    <string name="core_achievement_unlocked">"🏆 Achievement unlocked! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal left · goal %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal above your goal"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Protein %1$s   Fat %2$s   Carbs %3$s"</string>
+    <string name="core_weight_summary">"Weight %1$s kg"</string>
+    <string name="core_waist_summary">"Waist %1$s cm"</string>
+    <string name="core_steps_summary">"Steps: %1$s"</string>
+    <string name="core_fat_summary">"Body fat %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (manual)"</string>
+    <string name="core_manual_protein">"Protein %1$s g (manual)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Sleep %1$s"</string>
+    <string name="core_scale_fat">"Scale body fat %1$s%%"</string>
+    <string name="core_training_value">"Training: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Protein %1$s g"</string>
+    <string name="core_app_version">"Diet Diary · %1$s"</string>
+    <string name="core_per100_summary">"Per 100 g: %1$s kcal · Protein %2$s · Fat %3$s · Carbs %4$s"</string>
+    <string name="core_range_invalid">"%1$s: enter a value from %2$s to %3$s"</string>
+    <string name="core_delete_day_question">"Delete measurements for %1$s? Food entries will be kept."</string>
+    <string name="core_catalog_count">"Foods: %1$s · nutrition per 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Protein %2$s   Fat %3$s   Carbs %4$s"</string>
+    <string name="core_today_date">"Today · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Calories and protein are manual totals from your diary"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Calories are a manual total from your diary"</string>
+    <string name="core_manual_protein_total" formatted="false">"Protein is a manual total from your diary"</string>
+    <string name="core_macro_goals">"P / F / C goals: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (manual)"</string>
+    <string name="core_all" formatted="false">"All"</string>
+    <string name="core_favorites" formatted="false">"Favorites"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Previous day"</string>
+    <string name="core_next_day" formatted="false">"Next day"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"The migration backup does not match"</string>
+    <string name="data_entry_exists" formatted="false">"This food entry already exists"</string>
+    <string name="data_entry_missing" formatted="false">"Food entry not found"</string>
+    <string name="data_edited_date_changed" formatted="false">"The date of the entry being edited has changed"</string>
+    <string name="data_device_id_corrupt" formatted="false">"The local device ID is damaged; restoration is blocked"</string>
+    <string name="data_sync_invalid" formatted="false">"Invalid synchronization data"</string>
+    <string name="data_diary_read_only" formatted="false">"The diary is protected from overwriting: restore a backup"</string>
+    <string name="data_diary_inconsistent" formatted="false">"The diary data is inconsistent"</string>
+    <string name="data_backup_too_large" formatted="false">"The backup is too large"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"The installation ID is damaged"</string>
+    <string name="data_save_verification_failed" formatted="false">"Could not verify that the diary was saved"</string>
+    <string name="data_save_failed" formatted="false">"Could not save the diary"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"The backup is larger than 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"The diary file is too large"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Invalid food database size"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Unsupported backup version"</string>
+    <string name="data_too_many_values">"Too many values in %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Too many foods"</string>
+    <string name="data_too_many_entries" formatted="false">"Too many food entries"</string>
+    <string name="data_too_many_logs" formatted="false">"Too many diary entries"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Duplicate food ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Duplicate food entry ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Duplicate diary date"</string>
+    <string name="data_label_product_id" formatted="false">"Food ID"</string>
+    <string name="data_label_product_name" formatted="false">"Food name"</string>
+    <string name="data_label_category" formatted="false">"Category"</string>
+    <string name="data_label_note" formatted="false">"Note"</string>
+    <string name="data_label_entry_id" formatted="false">"Entry ID"</string>
+    <string name="data_label_meal" formatted="false">"Meal"</string>
+    <string name="data_food_weight_range" formatted="false">"Food weight must be greater than 0 and no more than 100000 g"</string>
+    <string name="data_label_weight" formatted="false">"Weight"</string>
+    <string name="data_label_waist" formatted="false">"Waist"</string>
+    <string name="data_steps_range" formatted="false">"The number of steps must be between 0 and 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Sleep"</string>
+    <string name="data_label_body_fat" formatted="false">"Body fat"</string>
+    <string name="data_label_daily_calories" formatted="false">"Daily calories"</string>
+    <string name="data_label_daily_protein" formatted="false">"Daily protein"</string>
+    <string name="data_label_workout" formatted="false">"Workout"</string>
+    <string name="data_label_log_note" formatted="false">"Note"</string>
+    <string name="data_log_empty" formatted="false">"Enter at least one measurement or note"</string>
+    <string name="data_label_goal_weight" formatted="false">"Goal weight"</string>
+    <string name="data_too_many_achievements" formatted="false">"Too many achievements"</string>
+    <string name="data_achievement_invalid" formatted="false">"Invalid achievement"</string>
+    <string name="data_setting_not_portable" formatted="false">"This setting cannot be transferred"</string>
+    <string name="data_setting_invalid">"Invalid value for setting %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Calories"</string>
+    <string name="data_label_protein" formatted="false">"Protein"</string>
+    <string name="data_label_fat" formatted="false">"Fat"</string>
+    <string name="data_label_carbs" formatted="false">"Carbohydrates"</string>
+    <string name="data_value_range">"%1$s: allowed range %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: invalid length"</string>
+    <string name="data_text_character_invalid">"%1$s: invalid character"</string>
+    <string name="data_date_format_invalid" formatted="false">"The date must use the YYYY-MM-DD format"</string>
+    <string name="data_date_nonexistent">"Invalid date: %1$s"</string>
+    <string name="data_field_string_required">"Field %1$s must be text"</string>
+    <string name="data_field_boolean_required">"Field %1$s must be a Boolean value"</string>
+    <string name="data_field_number_required">"Field %1$s must be a number"</string>
+    <string name="data_field_finite_required">"Field %1$s must be a finite number"</string>
+    <string name="data_field_integer_required">"Field %1$s must be an integer"</string>
+    <string name="data_too_many_items">"Too many items in %1$s"</string>
+    <string name="data_data_file_invalid">"Invalid data file: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Device ID is missing"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"The logical clock limit has been reached"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Too many synchronization records"</string>
+    <string name="data_sync_version_required" formatted="false">"Synchronization requires format version 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Invalid synchronization key"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Duplicate synchronization key"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Invalid deletion flag"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Invalid synchronization data"</string>
+    <string name="data_record_clock_invalid" formatted="false">"The record version exceeds the logical clock"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Data does not match the synchronization metadata"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Invalid synchronization key length"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Malformed synchronization key"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Unknown synchronization type"</string>
+    <string name="data_record_id_too_long" formatted="false">"The record ID is too long"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Invalid achievement deletion"</string>
+    <string name="data_log_key_invalid" formatted="false">"Invalid diary key"</string>
+    <string name="data_log_field_unknown" formatted="false">"Unknown diary field"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Invalid diary deletion marker"</string>
+    <string name="data_goal_unknown" formatted="false">"Unknown goal"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"A deleted record contains data"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Invalid synchronization value"</string>
+    <string name="data_record_id_mismatch" formatted="false">"The record ID does not match the key"</string>
+    <string name="data_field_value_invalid" formatted="false">"Invalid field value"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"The achievement date does not match the key"</string>
+    <string name="data_note_string_required" formatted="false">"The note must be text"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Invalid synchronized note"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Invalid logical clock"</string>
+    <string name="data_device_invalid" formatted="false">"Invalid device"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Invalid version stamp"</string>
+    <string name="data_google_login_required" formatted="false">"Sign in to Google again"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Too many cloud backups"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive returned a repeated page"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"The cloud backup is larger than 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive did not return an upload address"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Invalid Google Drive upload address"</string>
+    <string name="data_back" formatted="false">"‹  Back"</string>
+    <string name="data_cloud_title" formatted="false">"Cloud sync"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Your diary across your devices"</string>
+    <string name="data_no_account" formatted="false">"No account connected"</string>
+    <string name="data_cloud_intro" formatted="false">"Sign-in is optional. Foods, meals, measurements, goals and achievements are stored on your phone. Once connected, a copy will be stored in a hidden folder in your Google Drive."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Entries are merged on the first connection. The app cannot access other files in your Drive."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Google sign-in has not been configured for this build yet. The diary and file backups work without an account."</string>
+    <string name="data_connect_google" formatted="false">"Connect Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Automatic sync"</string>
+    <string name="data_automatic_sync_description" formatted="false">"When data changes and in the background when Android allows it"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Could not change the schedule. Your data is saved on this device."</string>
+    <string name="data_sync_start_failed" formatted="false">"Could not start sync. Your data is saved on this device."</string>
+    <string name="data_sync_now" formatted="false">"Sync now"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Sign in to Google again"</string>
+    <string name="data_disconnect_account" formatted="false">"Disconnect account"</string>
+    <string name="data_sync_never" formatted="false">"No sync yet"</string>
+    <string name="data_offline_saved_title" formatted="false">"Your data is saved offline"</string>
+    <string name="data_cloud_merge_description" formatted="false">"With automatic sync enabled, changes are sent when a connection becomes available. If the same field changes on two devices, the version with the later change timestamp is used. Independent entries and fields are merged."</string>
+    <string name="data_cloud_password_description" formatted="false">"You enter your password only on the Google page in your browser. Access tokens are protected by Android Keystore and are excluded from backups."</string>
+    <string name="data_google_connection_title" formatted="false">"Google connection"</string>
+    <string name="data_got_it" formatted="false">"Got it"</string>
+    <string name="data_connect_drive_title" formatted="false">"Connect Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Your current diary will be merged with the data in the selected Google account. Use the same personal account on your devices. Sign-in will open in your default browser."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Could not open sign-in. Install or enable a default browser and try again."</string>
+    <string name="data_continue" formatted="false">"Continue"</string>
+    <string name="data_cancel" formatted="false">"Cancel"</string>
+    <string name="data_disconnect_title" formatted="false">"Disconnect account?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sync will stop on this device. Your local diary and copies in Google Drive will be kept. You can manage the app permission in your Google Account settings."</string>
+    <string name="data_disconnect_failed" formatted="false">"Could not disconnect the account. Please try again."</string>
+    <string name="data_disconnect" formatted="false">"Disconnect"</string>
+    <string name="data_google_not_connected" formatted="false">"Google is not connected"</string>
+    <string name="data_sync_ready" formatted="false">"Ready to sync"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Changes are waiting to sync…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"No internet connection. Changes are saved on this device."</string>
+    <string name="data_google_not_configured" formatted="false">"Google sign-in has not been configured for this build yet"</string>
+    <string name="data_sync_wait" formatted="false">"Wait for sync to finish"</string>
+    <string name="data_google_connecting" formatted="false">"Connecting Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Connection cancelled"</string>
+    <string name="data_connection_rejected" formatted="false">"Connection cancelled or declined by Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google is connected. Merging entries…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Could not connect Google. Check your internet connection and access settings."</string>
+    <string name="data_account_disconnected" formatted="false">"Account disconnected. Your data remains on this device."</string>
+    <string name="data_sync_waiting_network" formatted="false">"No internet connection. Sync is waiting for a connection."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sync is scheduled…"</string>
+    <string name="data_sync_running" formatted="false">"Syncing…"</string>
+    <string name="data_sync_complete" formatted="false">"Sync complete"</string>
+    <string name="data_no_internet" formatted="false">"No internet connection"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Could not sync. Your data is saved on this device"</string>
+    <string name="data_page_open_failed" formatted="false">"Could not open the page. You can copy its address from the text below."</string>
+    <string name="data_privacy_title" formatted="false">"Privacy"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Your records and data controls"</string>
+    <string name="data_app_purpose" formatted="false">"About this app"</string>
+    <string name="data_medical_disclaimer" formatted="false">"This app is not a medical device. It does not diagnose, treat, cure or prevent any disease. Consult a qualified healthcare professional for medical advice, diagnosis and treatment."</string>
+    <string name="data_manage_delete_data" formatted="false">"Manage and delete data"</string>
+    <string name="data_delete_data_intro" formatted="false">"Before deleting all data, turn off sync on all your devices. Uninstalling the app from your phone does not delete copies in Google Drive or exported files."</string>
+    <string name="data_manage_drive_data" formatted="false">"Manage Google Drive data"</string>
+    <string name="data_google_account_access" formatted="false">"Google Account access"</string>
+    <string name="data_android_app_storage" formatted="false">"App storage in Android"</string>
+    <string name="data_contact_developer" formatted="false">"Contact the developer"</string>
+    <string name="data_opening_page" formatted="false">"Opening a page"</string>
+    <string name="data_advertisement" formatted="false">"ADVERTISEMENT"</string>
+    <string name="data_ad_information" formatted="false">"About this ad"</string>
+    <string name="data_cloud_http_error">"Cloud HTTP error %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"The cloud response is too large"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Invalid encrypted sign-in session"</string>
+    <string name="data_session_save_failed" formatted="false">"Could not save the sign-in session"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Could not refresh access to Google"</string>
+    <string name="data_diary_read_failed">"Could not read the diary. The original file has been kept. Restore your data from a backup. %1$s"</string>
+    <string name="data_last_sync">"Last sync: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Fruit and berries"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Dried fruit"</string>
+    <string name="data_category_vegetables" formatted="false">"Vegetables and herbs"</string>
+    <string name="data_category_mushrooms" formatted="false">"Mushrooms"</string>
+    <string name="data_category_grains" formatted="false">"Grains and pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Legumes"</string>
+    <string name="data_category_meat" formatted="false">"Meat and poultry"</string>
+    <string name="data_category_fish" formatted="false">"Fish and seafood"</string>
+    <string name="data_category_dairy" formatted="false">"Dairy"</string>
+    <string name="data_category_eggs" formatted="false">"Eggs"</string>
+    <string name="data_category_oils" formatted="false">"Oils and butter"</string>
+    <string name="data_category_nuts" formatted="false">"Nuts and seeds"</string>
+    <string name="data_category_bread" formatted="false">"Bread"</string>
+    <string name="data_category_other" formatted="false">"Other foods"</string>
+    <string name="data_category_dishes" formatted="false">"Prepared dishes"</string>
+    <string name="data_category_custom" formatted="false">"My foods"</string>
+    <string name="data_category_other_short" formatted="false">"Other"</string>
+    <string name="data_food_seed_9003" formatted="false">"Apple with skin"</string>
+    <string name="data_catalog_note_1">"Reference values per 100 g of the edible portion. Raw food. USDA carbohydrate values include fiber. You can adjust the values using the product label. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Banana, peeled"</string>
+    <string name="data_food_seed_9021" formatted="false">"Apricot, pitted"</string>
+    <string name="data_food_seed_9037" formatted="false">"Avocado flesh"</string>
+    <string name="data_food_seed_9050" formatted="false">"Blueberries"</string>
+    <string name="data_food_seed_9070" formatted="false">"Sweet cherries, pitted"</string>
+    <string name="data_food_seed_9063" formatted="false">"Sour cherries, pitted"</string>
+    <string name="data_food_seed_9078" formatted="false">"Cranberries"</string>
+    <string name="data_food_seed_9083" formatted="false">"Blackcurrants"</string>
+    <string name="data_food_seed_9084" formatted="false">"Red and white currants"</string>
+    <string name="data_food_seed_9132" formatted="false">"Grapes"</string>
+    <string name="data_food_seed_9148" formatted="false">"Kiwi flesh"</string>
+    <string name="data_food_seed_9150" formatted="false">"Lemon, peeled"</string>
+    <string name="data_food_seed_9181" formatted="false">"Cantaloupe flesh"</string>
+    <string name="data_food_seed_9200" formatted="false">"Orange flesh"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mandarin flesh"</string>
+    <string name="data_food_seed_9236" formatted="false">"Peach, pitted"</string>
+    <string name="data_food_seed_9252" formatted="false">"Pear"</string>
+    <string name="data_food_seed_9266" formatted="false">"Pineapple flesh"</string>
+    <string name="data_food_seed_9279" formatted="false">"Plum, pitted"</string>
+    <string name="data_food_seed_9286" formatted="false">"Pomegranate seeds"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pomelo flesh"</string>
+    <string name="data_food_seed_9302" formatted="false">"Raspberries"</string>
+    <string name="data_food_seed_9316" formatted="false">"Strawberries"</string>
+    <string name="data_food_seed_9326" formatted="false">"Watermelon flesh"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nectarine, pitted"</string>
+    <string name="data_food_seed_9176" formatted="false">"Mango flesh"</string>
+    <string name="data_food_seed_9107" formatted="false">"Gooseberries"</string>
+    <string name="data_food_seed_9226" formatted="false">"Papaya flesh"</string>
+    <string name="data_food_seed_9089" formatted="false">"Fresh figs"</string>
+    <string name="data_food_seed_9111" formatted="false">"Grapefruit flesh"</string>
+    <string name="data_food_seed_9032" formatted="false">"Dried apricots, pitted"</string>
+    <string name="data_catalog_note_2">"Reference values per 100 g of the edible portion. USDA carbohydrate values include fiber. You can adjust the values using the product label. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Prunes, pitted"</string>
+    <string name="data_food_seed_9087" formatted="false">"Dates, pitted"</string>
+    <string name="data_food_seed_9298" formatted="false">"Dark raisins, seedless"</string>
+    <string name="data_food_seed_11529" formatted="false">"Fresh tomato"</string>
+    <string name="data_food_seed_11205" formatted="false">"Cucumber with skin"</string>
+    <string name="data_food_seed_11090" formatted="false">"Raw broccoli"</string>
+    <string name="data_food_seed_11109" formatted="false">"Raw white cabbage"</string>
+    <string name="data_food_seed_11124" formatted="false">"Raw carrot"</string>
+    <string name="data_food_seed_11135" formatted="false">"Raw cauliflower"</string>
+    <string name="data_food_seed_11143" formatted="false">"Celery stalks"</string>
+    <string name="data_food_seed_11282" formatted="false">"Raw onion"</string>
+    <string name="data_food_seed_11291" formatted="false">"Spring onions"</string>
+    <string name="data_food_seed_11304" formatted="false">"Raw green peas"</string>
+    <string name="data_food_seed_11333" formatted="false">"Green bell pepper"</string>
+    <string name="data_food_seed_11821" formatted="false">"Red bell pepper"</string>
+    <string name="data_food_seed_11352" formatted="false">"Raw potato with skin"</string>
+    <string name="data_food_seed_11367" formatted="false">"Boiled potato, peeled"</string>
+    <string name="data_catalog_note_3">"Reference values per 100 g of the edible portion. No added salt. USDA carbohydrate values include fiber. You can adjust the values using the product label. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Raw zucchini"</string>
+    <string name="data_food_seed_11209" formatted="false">"Raw eggplant"</string>
+    <string name="data_food_seed_11422" formatted="false">"Raw pumpkin"</string>
+    <string name="data_food_seed_11429" formatted="false">"Radish"</string>
+    <string name="data_food_seed_11564" formatted="false">"Raw turnip"</string>
+    <string name="data_food_seed_11080" formatted="false">"Raw beetroot"</string>
+    <string name="data_food_seed_11081" formatted="false">"Boiled beetroot"</string>
+    <string name="data_food_seed_11215" formatted="false">"Garlic"</string>
+    <string name="data_food_seed_11216" formatted="false">"Ginger root"</string>
+    <string name="data_food_seed_11457" formatted="false">"Raw spinach"</string>
+    <string name="data_food_seed_11253" formatted="false">"Leaf lettuce"</string>
+    <string name="data_food_seed_11297" formatted="false">"Fresh parsley"</string>
+    <string name="data_food_seed_2045" formatted="false">"Fresh dill"</string>
+    <string name="data_food_seed_11052" formatted="false">"Raw green beans"</string>
+    <string name="data_food_seed_11167" formatted="false">"Sweetcorn, raw kernels"</string>
+    <string name="data_food_seed_11260" formatted="false">"Raw button mushrooms"</string>
+    <string name="data_food_seed_11261" formatted="false">"Boiled button mushrooms, unsalted"</string>
+    <string name="data_food_seed_11987" formatted="false">"Raw oyster mushrooms"</string>
+    <string name="data_food_seed_20009" formatted="false">"Buckwheat groats, dry"</string>
+    <string name="data_catalog_note_4">"Reference values per 100 g of the edible portion. Roasted buckwheat groats. USDA carbohydrate values include fiber. You can adjust the values using the product label. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Buckwheat, cooked in water"</string>
+    <string name="data_food_seed_20444" formatted="false">"White rice, dry"</string>
+    <string name="data_food_seed_20445" formatted="false">"Boiled white rice, unsalted"</string>
+    <string name="data_food_seed_20036" formatted="false">"Brown rice, dry"</string>
+    <string name="data_food_seed_20037" formatted="false">"Boiled brown rice"</string>
+    <string name="data_food_seed_8120" formatted="false">"Rolled oats, dry"</string>
+    <string name="data_food_seed_8121" formatted="false">"Oatmeal cooked in water, unsalted"</string>
+    <string name="data_food_seed_20005" formatted="false">"Pearl barley, dry"</string>
+    <string name="data_food_seed_20006" formatted="false">"Boiled pearl barley"</string>
+    <string name="data_food_seed_20031" formatted="false">"Millet, dry"</string>
+    <string name="data_food_seed_20032" formatted="false">"Boiled millet"</string>
+    <string name="data_food_seed_20420" formatted="false">"Pasta, dry"</string>
+    <string name="data_food_seed_20421" formatted="false">"Boiled pasta, unsalted"</string>
+    <string name="data_food_seed_16070" formatted="false">"Boiled lentils, unsalted"</string>
+    <string name="data_food_seed_16057" formatted="false">"Boiled chickpeas, unsalted"</string>
+    <string name="data_food_seed_16033" formatted="false">"Boiled red kidney beans, unsalted"</string>
+    <string name="data_food_seed_5062" formatted="false">"Raw skinless chicken breast"</string>
+    <string name="data_food_seed_5064" formatted="false">"Roasted skinless chicken breast"</string>
+    <string name="data_food_seed_5219" formatted="false">"Raw skinless turkey breast"</string>
+    <string name="data_food_seed_5220" formatted="false">"Roasted skinless turkey breast"</string>
+    <string name="data_food_seed_23562" formatted="false">"Ground beef, 10% fat, raw"</string>
+    <string name="data_food_seed_23566" formatted="false">"Ground beef, 10% fat, roasted"</string>
+    <string name="data_food_seed_10060" formatted="false">"Raw pork tenderloin, visible fat removed"</string>
+    <string name="data_food_seed_10061" formatted="false">"Roasted pork tenderloin"</string>
+    <string name="data_food_seed_15236" formatted="false">"Atlantic salmon, raw"</string>
+    <string name="data_catalog_note_5">"Reference values per 100 g of the edible portion. Raw food. Farmed. USDA carbohydrate values include fiber. You can adjust the values using the product label. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Atlantic salmon, roasted"</string>
+    <string name="data_catalog_note_6">"Reference values per 100 g of the edible portion. Farmed. USDA carbohydrate values include fiber. You can adjust the values using the product label. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Atlantic cod, raw"</string>
+    <string name="data_food_seed_15266" formatted="false">"Raw Alaska pollock"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuna canned in water, drained"</string>
+    <string name="data_food_seed_15271" formatted="false">"Cooked shrimp, peeled"</string>
+    <string name="data_food_seed_1211" formatted="false">"Milk, 3.25% fat"</string>
+    <string name="data_food_seed_1174" formatted="false">"Milk, 2% fat"</string>
+    <string name="data_food_seed_1082" formatted="false">"Milk, 1% fat"</string>
+    <string name="data_food_seed_1116" formatted="false">"Plain whole-milk yogurt"</string>
+    <string name="data_food_seed_1256" formatted="false">"Nonfat Greek yogurt"</string>
+    <string name="data_food_seed_1015" formatted="false">"Cottage cheese, 2% fat"</string>
+    <string name="data_catalog_note_7">"Reference values per 100 g of the edible portion. Cottage cheese; other types of curd cheese have different values. USDA carbohydrate values include fiber. You can adjust the values using the product label. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Sour cream, about 19% fat"</string>
+    <string name="data_food_seed_1009" formatted="false">"Cheddar cheese"</string>
+    <string name="data_food_seed_1026" formatted="false">"Whole-milk mozzarella"</string>
+    <string name="data_food_seed_1019" formatted="false">"Feta cheese"</string>
+    <string name="data_food_seed_1123" formatted="false">"Raw chicken egg, without shell"</string>
+    <string name="data_food_seed_1129" formatted="false">"Boiled chicken egg, without shell"</string>
+    <string name="data_food_seed_1124" formatted="false">"Raw chicken egg white"</string>
+    <string name="data_food_seed_1001" formatted="false">"Salted butter"</string>
+    <string name="data_food_seed_4053" formatted="false">"Olive oil"</string>
+    <string name="data_food_seed_4506" formatted="false">"Sunflower oil"</string>
+    <string name="data_food_seed_12061" formatted="false">"Almonds"</string>
+    <string name="data_food_seed_12155" formatted="false">"Walnut kernels"</string>
+    <string name="data_food_seed_12120" formatted="false">"Hazelnut kernels"</string>
+    <string name="data_food_seed_12151" formatted="false">"Raw pistachio kernels"</string>
+    <string name="data_food_seed_12014" formatted="false">"Dried pumpkin seed kernels"</string>
+    <string name="data_food_seed_16087" formatted="false">"Raw shelled peanuts"</string>
+    <string name="data_food_seed_18069" formatted="false">"White wheat bread"</string>
+    <string name="data_food_seed_18075" formatted="false">"Whole-wheat bread"</string>
+    <string name="data_food_seed_18060" formatted="false">"Rye bread"</string>
+    <string name="data_food_seed_19296" formatted="false">"Honey"</string>
+    <string name="data_food_seed_19335" formatted="false">"Sugar"</string>
+    <string name="data_food_seed_19165" formatted="false">"Unsweetened cocoa powder"</string>
+    <string name="data_food_seed_19904" formatted="false">"Dark chocolate, 70–85% cocoa"</string>
+    <string name="data_meal_breakfast" formatted="false">"Breakfast"</string>
+    <string name="data_meal_lunch" formatted="false">"Lunch"</string>
+    <string name="data_meal_dinner" formatted="false">"Dinner"</string>
+    <string name="data_meal_snack" formatted="false">"Snack"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Privacy policy for Diet Diary\nRevision: October 9, 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"App: Diet Diary; Google Play listing title in Russian: «Дневник диеты: подсчёт калорий»; package: ru.dietdiary.offline.\nProject developer: Efreitor2001. For questions about the app and data processing, contact https://github.com/Efreitor2001/kkalcal/issues . GitHub issues are public: do not post health records, backups, passwords or tokens there."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Diary on your device\nNo registration is required to keep a diary. The app stores foods and their nutritional values, portions and meal dates, weight, waist measurements, body fat percentage, steps, sleep, workout descriptions, notes, goals, achievements and app settings in its private storage area on your device. Optional fields may be left blank. Steps, sleep and measurements are entered manually; the app does not read Health Connect, physical activity sensors or medical device data."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"This information is used to calculate calories and macronutrients and to provide history, charts and achievements. The developer does not operate a server that receives diary contents. If you do not connect Google Drive or share a backup yourself, your records remain on your device."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Optional Google Drive connection\nAt your request, the app opens Google sign-in in your default browser and requests access to this app’s hidden data storage in your Google Drive. This permission does not provide access to your ordinary Drive documents or photos."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Once connected, foods, meals, diary measurements, notes, goals, achievements, transferable settings and change metadata, including random installation identifiers and timestamps, are sent to Google. This supports backup snapshots and merging entries across your devices. If automatic sync is enabled, changes are also sent in the background when a network connection is available. You can turn off automatic sync separately."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"The app receives the email address and identifier of the selected Google account to show the connection and link it to the correct storage. Your Google password is not provided to the app. The authorization session is stored encrypted on your device using a key in Android Keystore. Tokens, email addresses and Google identifiers are excluded from diary exports and synchronized JSON snapshots."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google data is used only for authorization and sync, never for advertising. Google’s privacy policy applies: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Backup files\n“Save to file” creates a JSON file in the location you choose. Restore reads only the file you select. If you select a cloud file provider or share a copy with another person, you choose the recipient. The app does not encrypt exported JSON files: these files contain personal records and change metadata."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Advertising\nThe app uses the Yandex Mobile Ads SDK. To load and display ads, your device connects to advertising services. Yandex may process your IP address and other technical information about the network request, device and software, available advertising or technical identifiers, and information about ad impressions and interactions."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"The app tells the SDK that consent has not been given, disables location collection and disables App Ad Analytics reporting. It does not request precise or approximate location permissions. These settings do not mean that the advertising service performs no network communication or technical data processing."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"The app does not use food records, weight, measurements, notes, goals, email addresses or Google identifiers for ad targeting, and does not add them to ad request parameters. Viewing ads is not required to save entries."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex’s rules for data processing, retention and deletion: https://yandex.ru/legal/confidential/ . You can manage your advertising identifier in Android settings if your system version supports this feature. The advertising service’s policy determines retention periods for its technical data; the diary developer does not set a separate retention period for that data."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Data protection\nCommunication with Google uses HTTPS; Yandex states that SDK data is transmitted using HTTPS/TLS. The local diary is protected by Android’s app isolation. The app does not separately encrypt diary contents or JSON snapshots; it does not provide end-to-end encryption between devices."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"System backup of app data is disabled. Diagnostic logs written by the app’s own code contain result codes without diary contents, email addresses, tokens or network response bodies; the app does not separately send these logs to the developer."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Retention and deletion\nLocal records remain until you change or delete them, or clear the app’s data. Deleting an entry removes it from the interface and sends a deletion marker during sync. Merge metadata is retained to prevent old data from reappearing; it may contain previous values from a deleted diary entry. Previous values may also remain in old cloud snapshots and files you created earlier. Deleting one entry therefore does not completely erase every copy of it."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"“Disconnect account” stops sync on this device and deletes the local Google session. The diary and snapshots in Google Drive are kept. Disconnecting the app does not delete your Google account."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"To completely delete this app’s data:\n• Turn off sync on all your devices so that remaining copies are not uploaded again.\n• In a browser, open https://drive.google.com/drive/settings using the Google account that was connected. Select “Manage apps”, find “Diet Diary” (or «Дневник диеты»), then choose “Options” → “Delete hidden app data”. If the mobile page does not show this section, use the desktop version of the site or a computer.\n• Revoke the app’s access at https://myaccount.google.com/connections . Revoking access alone does not erase saved copies.\n• Clear the app’s storage in Android settings on each device, or uninstall the app.\n• Delete separately saved JSON backups from the folders and cloud storage locations you chose."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Without your credentials, the developer cannot remotely erase your local diary or files in your personal Google Drive. Do not share your password or tokens with the developer. For help with deletion, contact the project using the link at the start of this policy. You do not need to delete your Google account to delete diary data."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Changes and contact\nWhen app features or data processing practices change, this policy is updated with a revision date. For questions about access, correction, deletion of data or the app’s operation, use the project’s contact channel. Requests you submit are processed to provide a response and are stored in GitHub; GitHub’s policy is available at https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"My dishes"</string>
+    <string name="secondary_metric_weight" formatted="false">"Weight"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Body fat"</string>
+    <string name="secondary_metric_waist" formatted="false">"Waist"</string>
+    <string name="secondary_metric_steps" formatted="false">"Steps"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Sleep"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Calories"</string>
+    <string name="secondary_metric_protein" formatted="false">"Protein"</string>
+    <string name="secondary_metric_fat" formatted="false">"Fat"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Carbohydrates"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"steps"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Invalid date range"</string>
+    <string name="secondary_stats_title" formatted="false">"Trends"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Your records in clear charts"</string>
+    <string name="secondary_metric" formatted="false">"Metric"</string>
+    <string name="secondary_week" formatted="false">"Week"</string>
+    <string name="secondary_month" formatted="false">"Month"</string>
+    <string name="secondary_year" formatted="false">"Year"</string>
+    <string name="secondary_custom_period" formatted="false">"Custom range"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"The start date must not be after the end date"</string>
+    <string name="secondary_no_records" formatted="false">"No records yet"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Add food to your diary or choose another period."</string>
+    <string name="secondary_chart_tap" formatted="false">"Tap the chart to select a record"</string>
+    <string name="secondary_chart_connected" formatted="false">"The line connects recorded measurements. There are no measurements between them."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Scale estimates are useful for tracking trends."</string>
+    <string name="secondary_food_override_hint" formatted="false">"A manual daily total replaces the food total. Otherwise, logged food is added up. Days without records are skipped."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Totals are based on logged food. A day without records is not counted as zero."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Days without records are skipped and excluded from the average."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Today and yesterday"</string>
+    <string name="secondary_no_today" formatted="false">"No record for today"</string>
+    <string name="secondary_no_yesterday" formatted="false">"No record for yesterday"</string>
+    <string name="secondary_partial_today" formatted="false">"This comparison uses current records. Today’s data may still be incomplete."</string>
+    <string name="secondary_period_summary" formatted="false">"Period summary"</string>
+    <string name="secondary_recorded_average" formatted="false">"Average across recorded days"</string>
+    <string name="secondary_recorded_days" formatted="false">"Days with data"</string>
+    <string name="secondary_minimum" formatted="false">"Minimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maximum"</string>
+    <string name="secondary_first_to_last" formatted="false">"From first to last record"</string>
+    <string name="secondary_two_days_needed" formatted="false">"At least two recorded days are needed to calculate a change."</string>
+    <string name="secondary_history" formatted="false">"History"</string>
+    <string name="secondary_history_recent" formatted="false">"The latest 14 days with data. Choose a custom range for earlier records."</string>
+    <string name="secondary_history_all" formatted="false">"All recorded days in the selected period"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"From %1$s"</string>
+    <string name="secondary_date_until">"To %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s in this period"</string>
+    <string name="secondary_weight_goal">"Goal: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Add a measurement to your diary or choose another period."</string>
+    <string name="secondary_latest_record">"Latest record · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Today: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Yesterday: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Change: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d of %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Recorded days: %2$d, from %3$s to %4$s. Minimum %5$s, maximum %6$s %7$s. Values are listed in the history."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Getting started"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Save your first weight measurement."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Your first weight measurement is saved."</string>
+    <string name="secondary_award_first_food" formatted="false">"First entry"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Log your first food portion."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Your first food portion is logged."</string>
+    <string name="secondary_award_weight_week" formatted="false">"A week of data"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Record your weight on 7 different days. They do not need to be consecutive."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"You have weight records for 7 different days."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Consistency"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Record your weight on 30 different days."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"You have weight records for 30 days."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Archivist"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Save 100 food portions in your diary."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"You have saved 100 food portions."</string>
+    <string name="secondary_award_food_streak" formatted="false">"A new habit"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Log food for 7 consecutive calendar days."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"You have logged food for 7 consecutive days."</string>
+    <string name="secondary_award_steps" formatted="false">"Walking wonder"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Record at least 10,000 steps in one day."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"You have recorded a day with 10,000 steps."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Prolific recorder"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Save 100 weight measurements. One measurement counts per date."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"You have saved 100 weight measurements."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Diary veteran"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Log food or measurements on 90 different days. They do not need to be consecutive."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"You have diary records for 90 different days."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"measurements"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"portions"</string>
+    <string name="secondary_award_unit_days" formatted="false">"days"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"consecutive days"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"steps in one day"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"recorded days"</string>
+    <string name="secondary_back" formatted="false">"‹  Back"</string>
+    <string name="secondary_achievements" formatted="false">"Achievements"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Small steps become a habit"</string>
+    <string name="secondary_your_progress" formatted="false">"YOUR PROGRESS"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Earned achievements stay with you even if you edit your records."</string>
+    <string name="secondary_awards_regular" formatted="false">"For consistency and keeping your diary"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Saved records up to and including today are counted."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Hidden achievement"</string>
+    <string name="secondary_hidden_description" formatted="false">"Keep using your diary to unlock this achievement."</string>
+    <string name="secondary_earned" formatted="false">"Earned"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Hidden · locked"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"In progress · locked"</string>
+    <string name="secondary_locked" formatted="false">"Locked"</string>
+    <string name="secondary_hidden_progress" formatted="false">"The requirement and progress will be revealed when you earn this award."</string>
+    <string name="secondary_best_streak" formatted="false">"Best streak"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Hidden reward"</string>
+    <string name="secondary_unlocked_of">"of %1$d unlocked"</string>
+    <string name="secondary_unlocked_date">"Unlocked %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Back"</string>
+    <string name="secondary_my_recipe" formatted="false">"My recipe"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Weigh ingredients before cooking. Use the cooked weight to calculate portions. Include oils and sauces."</string>
+    <string name="secondary_recipe_name" formatted="false">"Recipe name"</string>
+    <string name="secondary_recipe_example" formatted="false">"For example, vegetable stew"</string>
+    <string name="secondary_ingredients" formatted="false">"Ingredients"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Start with the ingredients"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Add each ingredient and enter its weight in grams."</string>
+    <string name="secondary_edit_weight" formatted="false">"Edit weight"</string>
+    <string name="secondary_delete" formatted="false">"Delete"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Add ingredient"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Whole recipe"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Cooking changes the weight as water is added or lost. Weigh the finished dish without its container."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Cooked weight, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Enter the weight after cooking"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Enter a weight greater than 0 and no more than 100,000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"The weight is not filled in automatically"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Per 100 g of the cooked dish"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Check the cooked weight and ingredients: each 100 g can contain up to 1,000 kcal and up to 100 g of each macronutrient."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Could not save the recipe"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Save to My recipes"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Once saved, you can log this dish by its portion weight."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Ingredient weight before cooking"</string>
+    <string name="secondary_grams" formatted="false">"Grams"</string>
+    <string name="secondary_weight_limits" formatted="false">"Greater than 0 and no more than 100,000 g"</string>
+    <string name="secondary_add" formatted="false">"Add"</string>
+    <string name="secondary_save" formatted="false">"Save"</string>
+    <string name="secondary_cancel" formatted="false">"Cancel"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Choose an ingredient"</string>
+    <string name="secondary_search_food" formatted="false">"Search foods"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"No results. You can add your own food on the Foods tab."</string>
+    <string name="secondary_close" formatted="false">"Close"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Protein %1$s · Fat %2$s · Carbs %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Ingredient weight: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Yield: %1$s g. Ingredients: %2$s"</string>
+</resources>

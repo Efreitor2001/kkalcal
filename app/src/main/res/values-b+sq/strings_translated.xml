@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Ditari i dietës"</string>
+    <string name="core_app_name" formatted="false">"Ditari i dietës"</string>
+    <string name="core_tagline" formatted="false">"Kaloritë, pesha dhe përparimi"</string>
+    <string name="core_open_diary" formatted="false">"Ditari i hapur"</string>
+    <string name="core_save_failed" formatted="false">"Nuk mund të ruheshin të dhënat tuaja"</string>
+    <string name="core_day" formatted="false">"Sot"</string>
+    <string name="core_products" formatted="false">"Ushqime"</string>
+    <string name="core_diary" formatted="false">"Ditari"</string>
+    <string name="core_charts" formatted="false">"Listat"</string>
+    <string name="core_more" formatted="false">"Më shumë"</string>
+    <string name="core_recipe_saved" formatted="false">"Pjata e ruajtur në ushqimet tuaja"</string>
+    <string name="core_back_to_day" formatted="false">"Kthehu në ditën tënde"</string>
+    <string name="core_action_failed" formatted="false">"Ky veprim nuk mund të përfundohej"</string>
+    <string name="core_understood" formatted="false">"Në rregull"</string>
+    <string name="core_restore_available" formatted="false">"Mund të rivendosni një kopje rezervë në Më shumë."</string>
+    <string name="core_eaten_today" formatted="false">"E ngrënë SOT"</string>
+    <string name="core_set_goal_hint" formatted="false">"Mund të vendosni një objektiv në Më shumë"</string>
+    <string name="core_add_food" formatted="false">"+ Shtoni ushqim"</string>
+    <string name="core_first_meal" formatted="false">"Filloni me vaktin tuaj të parë"</string>
+    <string name="core_first_meal_help" formatted="false">"Zgjidhni një ushqim dhe futni peshën e tij në gram për të llogaritur kaloritë dhe makro."</string>
+    <string name="core_my_day" formatted="false">"Dita ime"</string>
+    <string name="core_my_day_help" formatted="false">"Pesha, beli, hapat, gjumi - regjistroni atë që dini."</string>
+    <string name="core_record_metrics" formatted="false">"Regjistroni matjet"</string>
+    <string name="core_edit_metrics" formatted="false">"Redakto matjet"</string>
+    <string name="core_food_state_hint" formatted="false">"Pesha e ushqimit dhe vlerat ushqyese duhet t\'i referohen të njëjtës gjendje: të papërpunuara, të thata ose të gatuara."</string>
+    <string name="core_weight" formatted="false">"Pesha"</string>
+    <string name="core_waist" formatted="false">"Bel"</string>
+    <string name="core_my_diary" formatted="false">"Ditari im"</string>
+    <string name="core_diary_tagline" formatted="false">"Çdo ditë me ritmin tuaj"</string>
+    <string name="core_record_day" formatted="false">"+ Regjistro një ditë"</string>
+    <string name="core_optional_diary_help" formatted="false">"Të gjitha matjet janë opsionale. Ju mund të regjistroni vetëm peshën tuaj, gjumin ose një shënim. Prekni një hyrje për ta modifikuar."</string>
+    <string name="core_history_starts" formatted="false">"Historia juaj fillon këtu"</string>
+    <string name="core_history_help" formatted="false">"Regjistroni matjet dhe ndiqni ndryshimet në grafikët."</string>
+    <string name="core_file_unavailable" formatted="false">"Skedari i padisponueshëm"</string>
+    <string name="core_backup_saved" formatted="false">"Rezervimi u ruajt"</string>
+    <string name="core_export_error" formatted="false">"Rezervimi nuk mund të eksportohej"</string>
+    <string name="core_read_error" formatted="false">"Skedari nuk mund të lexohej"</string>
+    <string name="core_settings_tagline" formatted="false">"Cilësimet dhe rezervimi i të dhënave"</string>
+    <string name="core_your_progress" formatted="false">"Përparimi juaj"</string>
+    <string name="core_achievements_help" formatted="false">"Arritje të vogla për ndërtimin e një zakoni ditar."</string>
+    <string name="core_achievements" formatted="false">"Arritjet"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Një lidhje opsionale për të sinkronizuar ditarin tuaj nëpër pajisjet tuaja."</string>
+    <string name="core_cloud_sync" formatted="false">"Sinkronizimi në renë kompjuterike"</string>
+    <string name="core_personal_goals" formatted="false">"Qëllimet personale"</string>
+    <string name="core_personal_goals_help" formatted="false">"Vendosni manualisht objektivat tuaja të kalorive, makro dhe peshës së synuar. Çdo gol mund të lihet bosh."</string>
+    <string name="core_configure_goals" formatted="false">"Vendosni qëllime"</string>
+    <string name="core_backup" formatted="false">"Rezervimi"</string>
+    <string name="core_backup_help" formatted="false">"Ushqimet, vaktet, ditari, synimet dhe arritjet në një dosje. Ruani një kopje rezervë përpara se të riinstaloni aplikacionin."</string>
+    <string name="core_save_file" formatted="false">"Ruani në një skedar"</string>
+    <string name="core_restore_file" formatted="false">"Rivendosja nga një skedar"</string>
+    <string name="core_write_locked" formatted="false">"Ruajtja është çaktivizuar për të mbrojtur skedarin origjinal. Rivendos një kopje rezervë të vlefshme."</string>
+    <string name="core_about_data" formatted="false">"Rreth aplikacionit dhe të dhënave tuaja"</string>
+    <string name="core_about_data_help" formatted="false">"Si ruhen të dhënat, funksionon sinkronizimi dhe fshihen të dhënat."</string>
+    <string name="core_privacy" formatted="false">"Privatësia dhe fshirja e të dhënave"</string>
+    <string name="core_offline" formatted="false">"Punon jashtë linje"</string>
+    <string name="core_offline_help" formatted="false">"Identifikimi i Google është opsional. Hapat dhe gjumi futen manualisht. Nevojitet një lidhje interneti për sinkronizimin e aktivizuar dhe ngarkimin e reklamave. Regjistrimet e ditarit nuk dërgohen në rrjetin e reklamave."</string>
+    <string name="core_about_foods" formatted="false">"Rreth ushqimeve"</string>
+    <string name="core_foods_reference" formatted="false">"Vlerat e integruara janë vlerësime për 100 g pjesë të ngrënshme. Kontrolloni paketimin për vlerat e sakta. Redaktimi i një ushqimi nuk rillogarit shënimet e vakteve të mëparshme."</string>
+    <string name="core_foods_source" formatted="false">"Burimi i bazës së të dhënave: USDA FoodData Central, SR Legacy. Ushqimet individuale përfshijnë detajet e gjendjes dhe burimit të tyre."</string>
+    <string name="core_restore_title" formatted="false">"Të rivendoset ky rezervë?"</string>
+    <string name="core_restore_warning" formatted="false">"Ushqimet, ditari, qëllimet dhe arritjet tuaja aktuale do të zëvendësohen me përmbajtjen e këtij skedari. Ruani fillimisht një kopje rezervë. Nëse sinkronizimi është i lidhur, ndryshimet e rivendosura do të dërgohen gjithashtu te Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Rezervimi u rivendos"</string>
+    <string name="core_invalid_file" formatted="false">"Skedar i pavlefshëm"</string>
+    <string name="core_replace_data" formatted="false">"Zëvendësoni të dhënat"</string>
+    <string name="core_cancel" formatted="false">"Anulo"</string>
+    <string name="core_save" formatted="false">"Ruaj"</string>
+    <string name="core_calculate_portion" formatted="false">"Llogaritni një pjesë"</string>
+    <string name="core_edit_portion" formatted="false">"Redakto pjesën"</string>
+    <string name="core_portion_weight" formatted="false">"Pesha e porcionit, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Shkruani një peshë më të madhe se 0 dhe jo më shumë se 100,000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Shto në ditar"</string>
+    <string name="core_delete_entry" formatted="false">"Fshi hyrjen"</string>
+    <string name="core_delete_portion_question" formatted="false">"Të fshihet ky pjesë nga ditari juaj?"</string>
+    <string name="core_new_food" formatted="false">"Ushqim ose pjatë e re"</string>
+    <string name="core_edit_nutrition" formatted="false">"Redakto vlerat ushqyese"</string>
+    <string name="core_name" formatted="false">"Emri"</string>
+    <string name="core_food" formatted="false">"Ushqimi"</string>
+    <string name="core_dish" formatted="false">"Pjatë e përgatitur"</string>
+    <string name="core_category" formatted="false">"Kategoria"</string>
+    <string name="core_per100_hint" formatted="false">"Vlerat për 100 g, nga paketimi ose recetë. Futni 0 nëse mungon një lëndë ushqyese."</string>
+    <string name="core_kcal" formatted="false">"Kalori"</string>
+    <string name="core_protein_grams" formatted="false">"Proteina, g"</string>
+    <string name="core_fat_grams" formatted="false">"Yndyrë, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Karbohidratet, g"</string>
+    <string name="core_food_note" formatted="false">"Shënim, përbërësit (opsionale)"</string>
+    <string name="core_favorite" formatted="false">"Shto në të preferuarat"</string>
+    <string name="core_name_category_required" formatted="false">"Futni një emër dhe kategori"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Futni vlerat për 100 g: kalori 0–1000; proteina, yndyra dhe karbohidrate 0-100 g"</string>
+    <string name="core_delete_food" formatted="false">"Fshij nga ushqimet"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Regjistrimet e vakteve të mëparshme do të ruajnë vlerat e tyre."</string>
+    <string name="core_delete_food_question" formatted="false">"Të fshihet ky ushqim? Regjistrimet e tij në ditar do të mbahen."</string>
+    <string name="core_day_entry" formatted="false">"Hyrja ditore"</string>
+    <string name="core_optional_fields" formatted="false">"Plotësoni çdo fushë që dëshironi. Lëreni pjesën tjetër bosh."</string>
+    <string name="core_editing_existing" formatted="false">"Ka tashmë një hyrje për këtë datë. Ju jeni duke e redaktuar atë."</string>
+    <string name="core_weight_kg" formatted="false">"Pesha, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Bel, cm"</string>
+    <string name="core_steps" formatted="false">"Hapat"</string>
+    <string name="core_sleep" formatted="false">"Flini"</string>
+    <string name="core_hours" formatted="false">"Orë"</string>
+    <string name="core_minutes" formatted="false">"Minuta"</string>
+    <string name="core_body_fat_optional" formatted="false">"Shkallëzimi i yndyrës trupore, % (opsionale)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Yndyra e trupit nga një peshore është një tregues trendi, jo një matje e saktë."</string>
+    <string name="core_strength_training" formatted="false">"Stërvitje për forcë"</string>
+    <string name="core_training_example" formatted="false">"Për shembull: shtangë dore 3×10, 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Totali manual i të ushqyerit"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Nëse futen, këto vlera tejkalojnë totalet e ushqimit për ditën. Lëreni bosh për llogaritjen automatike."</string>
+    <string name="core_daily_calories" formatted="false">"Kaloritë ditore"</string>
+    <string name="core_daily_protein" formatted="false">"Proteina ditore, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Shënime dhe si ndiheni"</string>
+    <string name="core_steps_invalid" formatted="false">"Hapat: një numër i plotë nga 0 në 200,000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Gjumi: 0–24 orë, minuta 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Yndyra trupore"</string>
+    <string name="core_calories" formatted="false">"Kalori"</string>
+    <string name="core_protein" formatted="false">"Proteina"</string>
+    <string name="core_entry_required" formatted="false">"Shtoni të paktën një matje ose një shënim"</string>
+    <string name="core_delete_day" formatted="false">"Fshije këtë hyrje ditore"</string>
+    <string name="core_optional_goals" formatted="false">"Të gjitha golat janë fakultative. Një fushë e zbrazët do të thotë se nuk është vendosur asnjë objektiv."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalori në ditë"</string>
+    <string name="core_protein_per_day" formatted="false">"Proteina në ditë, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Yndyrë në ditë, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Karbohidratet në ditë, g"</string>
+    <string name="core_target_weight" formatted="false">"Pesha e synuar, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Kontrolloni qëllimet tuaja: kalori 0–10,000; proteina, yndyra dhe karbohidrate 0-1000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Pesha e synuar: nga 1 deri në 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Të fshihet?"</string>
+    <string name="core_delete" formatted="false">"Fshij"</string>
+    <string name="core_select_food" formatted="false">"Zgjidhni ushqimin"</string>
+    <string name="core_foods_dishes" formatted="false">"Ushqime dhe gatime"</string>
+    <string name="core_search_food" formatted="false">"Kërko për një ushqim ose pjatë"</string>
+    <string name="core_new_food_button" formatted="false">"+ Ushqim / gjellë"</string>
+    <string name="core_recipe_button" formatted="false">"Nga një recetë"</string>
+    <string name="core_no_results" formatted="false">"Nuk ka rezultate"</string>
+    <string name="core_no_results_help" formatted="false">"Provoni një kërkim tjetër ose shtoni ushqimin tuaj ose pjatën e përgatitur."</string>
+    <string name="core_edit" formatted="false">"Edit"</string>
+    <string name="core_achievement_unlocked">"🏆 Arritja e zhbllokuar! %1$s - %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal mbetur · qëllimi %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal mbi objektivin tuaj"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Proteina %1$s   Yndyrna %2$s   Karbohidrate %3$s"</string>
+    <string name="core_weight_summary">"Pesha %1$s kg"</string>
+    <string name="core_waist_summary">"Bel %1$s cm"</string>
+    <string name="core_steps_summary">"Hapat: %1$s"</string>
+    <string name="core_fat_summary">"Yndyra e trupit %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (manual)"</string>
+    <string name="core_manual_protein">"Proteina %1$s g (manual)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Flini %1$s"</string>
+    <string name="core_scale_fat">"Shkallëzimi i yndyrës së trupit %1$s%%"</string>
+    <string name="core_training_value">"Trajnimi: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Proteina %1$s g"</string>
+    <string name="core_app_version">"Ditari diete · %1$s"</string>
+    <string name="core_per100_summary">"Për 100 g: %1$s kcal · Proteina %2$s · Yndyrna %3$s · Karbohidrate %4$s"</string>
+    <string name="core_range_invalid">"%1$s: fut një vlerë nga %2$s në %3$s"</string>
+    <string name="core_delete_day_question">"Të fshihen matjet për %1$s? Regjistrimet e ushqimit do të mbahen."</string>
+    <string name="core_catalog_count">"Ushqime: %1$s · për 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Proteina %2$s   Yndyrna %3$s   Karbohidrate %4$s"</string>
+    <string name="core_today_date">"Sot · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kaloritë dhe proteinat janë totale manuale nga ditari juaj"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kaloritë janë një total manual nga ditari juaj"</string>
+    <string name="core_manual_protein_total" formatted="false">"Proteina është një total manual nga ditari juaj"</string>
+    <string name="core_macro_goals">"Golat P / F / C: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (manual)"</string>
+    <string name="core_all" formatted="false">"Të gjitha"</string>
+    <string name="core_favorites" formatted="false">"Të preferuarat"</string>
+    <string name="core_sleep_duration">"%1$s orë %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Ditën e mëparshme"</string>
+    <string name="core_next_day" formatted="false">"Ditën tjetër"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Rezervimi i migrimit nuk përputhet"</string>
+    <string name="data_entry_exists" formatted="false">"Kjo hyrje ushqimore ekziston tashmë"</string>
+    <string name="data_entry_missing" formatted="false">"Hyrja e ushqimit nuk u gjet"</string>
+    <string name="data_edited_date_changed" formatted="false">"Data e hyrjes që po redaktohet ka ndryshuar"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Pajisja lokale ID është dëmtuar; restaurimi është i bllokuar"</string>
+    <string name="data_sync_invalid" formatted="false">"Të dhëna të pavlefshme sinkronizimi"</string>
+    <string name="data_diary_read_only" formatted="false">"Ditari mbrohet nga mbishkrimi: rivendos një kopje rezervë"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Të dhënat e ditarit janë të paqëndrueshme"</string>
+    <string name="data_backup_too_large" formatted="false">"Rezervimi është shumë i madh"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Instalimi ID është dëmtuar"</string>
+    <string name="data_save_verification_failed" formatted="false">"Nuk mund të verifikohej që ditari ishte ruajtur"</string>
+    <string name="data_save_failed" formatted="false">"Ditari nuk u ruajt"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Rezervimi është më i madh se 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Skedari i ditarit është shumë i madh"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Madhësi e pavlefshme e bazës së të dhënave ushqimore"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Versioni rezervë i pambështetur"</string>
+    <string name="data_too_many_values">"Shumë vlera në %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Shumë ushqime"</string>
+    <string name="data_too_many_entries" formatted="false">"Shumë hyrje ushqimore"</string>
+    <string name="data_too_many_logs" formatted="false">"Shumë shënime në ditar"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Ushqim i kopjuar ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Hyrja e dyfishtë e ushqimit ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Dublikatë datë ditari"</string>
+    <string name="data_label_product_id" formatted="false">"Ushqim ID"</string>
+    <string name="data_label_product_name" formatted="false">"Emri i ushqimit"</string>
+    <string name="data_label_category" formatted="false">"Kategoria"</string>
+    <string name="data_label_note" formatted="false">"Shënim"</string>
+    <string name="data_label_entry_id" formatted="false">"Hyrja ID"</string>
+    <string name="data_label_meal" formatted="false">"Vakt"</string>
+    <string name="data_food_weight_range" formatted="false">"Pesha e ushqimit duhet të jetë më e madhe se 0 dhe jo më shumë se 100 000 g"</string>
+    <string name="data_label_weight" formatted="false">"Pesha"</string>
+    <string name="data_label_waist" formatted="false">"Bel"</string>
+    <string name="data_steps_range" formatted="false">"Numri i hapave duhet të jetë ndërmjet 0 dhe 200000"</string>
+    <string name="data_label_sleep" formatted="false">"Flini"</string>
+    <string name="data_label_body_fat" formatted="false">"Yndyra trupore"</string>
+    <string name="data_label_daily_calories" formatted="false">"Kaloritë ditore"</string>
+    <string name="data_label_daily_protein" formatted="false">"Proteina ditore"</string>
+    <string name="data_label_workout" formatted="false">"Stërvitje"</string>
+    <string name="data_label_log_note" formatted="false">"Shënim"</string>
+    <string name="data_log_empty" formatted="false">"Futni të paktën një matje ose shënim"</string>
+    <string name="data_label_goal_weight" formatted="false">"Pesha e golit"</string>
+    <string name="data_too_many_achievements" formatted="false">"Shumë arritje"</string>
+    <string name="data_achievement_invalid" formatted="false">"Arritje e pavlefshme"</string>
+    <string name="data_setting_not_portable" formatted="false">"Ky cilësim nuk mund të transferohet"</string>
+    <string name="data_setting_invalid">"Vlera e pavlefshme për cilësimin %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Kalori"</string>
+    <string name="data_label_protein" formatted="false">"Proteina"</string>
+    <string name="data_label_fat" formatted="false">"Yndyrë"</string>
+    <string name="data_label_carbs" formatted="false">"Karbohidratet"</string>
+    <string name="data_value_range">"%1$s: diapazoni i lejuar %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: gjatësi e pavlefshme"</string>
+    <string name="data_text_character_invalid">"%1$s: karakter i pavlefshëm"</string>
+    <string name="data_date_format_invalid" formatted="false">"Data duhet të përdorë formatin VVVV-MM-DD"</string>
+    <string name="data_date_nonexistent">"Data e pavlefshme: %1$s"</string>
+    <string name="data_field_string_required">"Fusha %1$s duhet të jetë tekst"</string>
+    <string name="data_field_boolean_required">"Fusha %1$s duhet të jetë një vlerë Boolean"</string>
+    <string name="data_field_number_required">"Fusha %1$s duhet të jetë një numër"</string>
+    <string name="data_field_finite_required">"Fusha %1$s duhet të jetë një numër i kufizuar"</string>
+    <string name="data_field_integer_required">"Fusha %1$s duhet të jetë një numër i plotë"</string>
+    <string name="data_too_many_items">"Shumë artikuj në %1$s"</string>
+    <string name="data_data_file_invalid">"Skedar i pavlefshëm i të dhënave: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Pajisja ID mungon"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Kufiri logjik i orës është arritur"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Shumë regjistrime sinkronizimi"</string>
+    <string name="data_sync_version_required" formatted="false">"Sinkronizimi kërkon versionin 2 të formatit"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Çelësi i pavlefshëm sinkronizimi"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Dyfishim i çelësit të sinkronizimit"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Flamuri i fshirjes i pavlefshëm"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Të dhëna të pavlefshme sinkronizimi"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Versioni i rekordit tejkalon orën logjike"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Të dhënat nuk përputhen me të dhënat meta të sinkronizimit"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Gjatësi e pavlefshme e çelësit të sinkronizimit"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Çelësi i sinkronizimit i keqformuar"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Lloj i panjohur sinkronizimi"</string>
+    <string name="data_record_id_too_long" formatted="false">"Regjistri ID është shumë i gjatë"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Fshirje e pavlefshme e arritjes"</string>
+    <string name="data_log_key_invalid" formatted="false">"Çelësi i ditarit i pavlefshëm"</string>
+    <string name="data_log_field_unknown" formatted="false">"Fushë ditari e panjohur"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Shënues i pavlefshëm i fshirjes së ditarit"</string>
+    <string name="data_goal_unknown" formatted="false">"Gol i panjohur"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Një regjistrim i fshirë përmban të dhëna"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Vlera e pavlefshme sinkronizimi"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Regjistri ID nuk përputhet me çelësin"</string>
+    <string name="data_field_value_invalid" formatted="false">"Vlera e pavlefshme e fushës"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Data e arritjes nuk përputhet me çelësin"</string>
+    <string name="data_note_string_required" formatted="false">"Shënimi duhet të jetë tekst"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Shënim i sinkronizuar i pavlefshëm"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Orë logjike e pavlefshme"</string>
+    <string name="data_device_invalid" formatted="false">"Pajisja e pavlefshme"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Vula e versionit të pavlefshëm"</string>
+    <string name="data_google_login_required" formatted="false">"Identifikohu përsëri në Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Shumë kopje rezervë të resë kompjuterike"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive ktheu një faqe të përsëritur"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Rezervimi i resë kompjuterike është më i madh se 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive nuk ktheu një adresë ngarkimi"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Adresa e pavlefshme e ngarkimit Google Drive"</string>
+    <string name="data_back" formatted="false">"‹ Kthehu"</string>
+    <string name="data_cloud_title" formatted="false">"Sinkronizimi në renë kompjuterike"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Ditari juaj në pajisjet tuaja"</string>
+    <string name="data_no_account" formatted="false">"Asnjë llogari e lidhur"</string>
+    <string name="data_cloud_intro" formatted="false">"Identifikimi është opsional. Ushqimet, vaktet, matjet, qëllimet dhe arritjet ruhen në telefonin tuaj. Pasi të lidhet, një kopje do të ruhet në një dosje të fshehur në Google Drive tuaj."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Regjistrimet bashkohen në lidhjen e parë. Aplikacioni nuk mund të qaset në skedarë të tjerë në \"Diskun\"."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Identifikimi i Google nuk është konfiguruar ende për këtë ndërtim. Ditari dhe kopjet rezervë të skedarëve funksionojnë pa një llogari."</string>
+    <string name="data_connect_google" formatted="false">"Lidhu Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Sinkronizimi automatik"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Kur të dhënat ndryshojnë dhe në sfond kur Android e lejon atë"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Orari nuk mund të ndryshohej. Të dhënat tuaja ruhen në këtë pajisje."</string>
+    <string name="data_sync_start_failed" formatted="false">"Sinkronizimi nuk mund të nisej. Të dhënat tuaja ruhen në këtë pajisje."</string>
+    <string name="data_sync_now" formatted="false">"Sinkronizoni tani"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Identifikohu përsëri në Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Shkëput llogarinë"</string>
+    <string name="data_sync_never" formatted="false">"Nuk ka ende sinkronizim"</string>
+    <string name="data_offline_saved_title" formatted="false">"Të dhënat tuaja ruhen jashtë linje"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Me sinkronizimin automatik të aktivizuar, ndryshimet dërgohen kur një lidhje bëhet e disponueshme. Nëse e njëjta fushë ndryshon në dy pajisje, përdoret versioni me vulën kohore të ndryshimit të mëvonshëm. Fushat dhe hyrjet e pavarura janë bashkuar."</string>
+    <string name="data_cloud_password_description" formatted="false">"Ju shkruani fjalëkalimin tuaj vetëm në faqen Google në shfletuesin tuaj. Shenjat e aksesit mbrohen nga Android Keystore dhe përjashtohen nga rezervimet."</string>
+    <string name="data_google_connection_title" formatted="false">"Google lidhje"</string>
+    <string name="data_got_it" formatted="false">"E kuptova"</string>
+    <string name="data_connect_drive_title" formatted="false">"Lidhe Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Ditari juaj aktual do të shkrihet me të dhënat në llogarinë e zgjedhur Google. Përdorni të njëjtën llogari personale në pajisjet tuaja. Hyrja do të hapet në shfletuesin tuaj të paracaktuar."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Identifikimi nuk mund të hapej. Instaloni ose aktivizoni një shfletues të paracaktuar dhe provoni përsëri."</string>
+    <string name="data_continue" formatted="false">"Vazhdo"</string>
+    <string name="data_cancel" formatted="false">"Anulo"</string>
+    <string name="data_disconnect_title" formatted="false">"Shkëput llogarinë?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sinkronizimi do të ndalojë në këtë pajisje. Ditari juaj lokal dhe kopjet në Google Drive do të mbahen. Mund ta menaxhosh lejen e aplikacionit në cilësimet e llogarisë Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Llogaria nuk mund të shkëputej. Ju lutemi provoni përsëri."</string>
+    <string name="data_disconnect" formatted="false">"Shkëputje"</string>
+    <string name="data_google_not_connected" formatted="false">"Google nuk është i lidhur"</string>
+    <string name="data_sync_ready" formatted="false">"Gati për sinkronizim"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Ndryshimet janë në pritje të sinkronizimit…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Nuk ka lidhje interneti. Ndryshimet ruhen në këtë pajisje."</string>
+    <string name="data_google_not_configured" formatted="false">"Identifikimi i Google nuk është konfiguruar ende për këtë ndërtim"</string>
+    <string name="data_sync_wait" formatted="false">"Prisni që sinkronizimi të përfundojë"</string>
+    <string name="data_google_connecting" formatted="false">"Po lidh Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Lidhja u anulua"</string>
+    <string name="data_connection_rejected" formatted="false">"Lidhja u anulua ose u refuzua nga Google"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google është i lidhur. Shkrimet po bashkohen…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Nuk mund të lidhej Google. Kontrolloni lidhjen tuaj të internetit dhe cilësimet e aksesit."</string>
+    <string name="data_account_disconnected" formatted="false">"Llogaria u shkëput. Të dhënat tuaja mbeten në këtë pajisje."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Nuk ka lidhje interneti. Sinkronizimi është duke pritur për një lidhje."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sinkronizimi është planifikuar…"</string>
+    <string name="data_sync_running" formatted="false">"Po sinkronizohet…"</string>
+    <string name="data_sync_complete" formatted="false">"Sinkronizimi përfundoi"</string>
+    <string name="data_no_internet" formatted="false">"Nuk ka lidhje interneti"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Nuk mund të sinkronizohej. Të dhënat tuaja ruhen në këtë pajisje"</string>
+    <string name="data_page_open_failed" formatted="false">"Faqja nuk mund të hapej. Ju mund të kopjoni adresën e saj nga teksti më poshtë."</string>
+    <string name="data_privacy_title" formatted="false">"Privatësia"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Të dhënat tuaja dhe kontrollet e të dhënave"</string>
+    <string name="data_app_purpose" formatted="false">"Rreth këtij aplikacioni"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Ky aplikacion nuk është një pajisje mjekësore. Nuk diagnostikon, trajton, kuron apo parandalon asnjë sëmundje. Konsultohuni me një profesionist të kualifikuar të kujdesit shëndetësor për këshilla mjekësore, diagnozë dhe trajtim."</string>
+    <string name="data_manage_delete_data" formatted="false">"Menaxho dhe fshi të dhënat"</string>
+    <string name="data_delete_data_intro" formatted="false">"Përpara se të fshini të gjitha të dhënat, çaktivizoni sinkronizimin në të gjitha pajisjet tuaja. Çinstalimi i aplikacionit nga telefoni juaj nuk fshin kopjet në Google Drive ose skedarët e eksportuar."</string>
+    <string name="data_manage_drive_data" formatted="false">"Menaxho të dhënat Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Google Qasje në llogari"</string>
+    <string name="data_android_app_storage" formatted="false">"Hapësira ruajtëse e aplikacionit në Android"</string>
+    <string name="data_contact_developer" formatted="false">"Kontaktoni zhvilluesin"</string>
+    <string name="data_opening_page" formatted="false">"Hapja e një faqeje"</string>
+    <string name="data_advertisement" formatted="false">"REKLAMA"</string>
+    <string name="data_ad_information" formatted="false">"Rreth kësaj reklame"</string>
+    <string name="data_cloud_http_error">"Gabim HTTP në renë kompjuterike %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Përgjigja e resë kompjuterike është shumë e madhe"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Sesion identifikimi i koduar i pavlefshëm"</string>
+    <string name="data_session_save_failed" formatted="false">"Sesioni i identifikimit nuk mund të ruhej"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Nuk mund të rifreskohej qasja te Google"</string>
+    <string name="data_diary_read_failed">"Nuk mund ta lexoja ditarin. Dosja origjinale është ruajtur. Rivendosni të dhënat tuaja nga një kopje rezervë. %1$s"</string>
+    <string name="data_last_sync">"Sinkronizimi i fundit: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Fruta dhe manaferrat"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Fruta të thata"</string>
+    <string name="data_category_vegetables" formatted="false">"Perime dhe barishte"</string>
+    <string name="data_category_mushrooms" formatted="false">"Kërpudha"</string>
+    <string name="data_category_grains" formatted="false">"Drithëra dhe makarona"</string>
+    <string name="data_category_legumes" formatted="false">"Bishtajoret"</string>
+    <string name="data_category_meat" formatted="false">"Mish dhe shpendë"</string>
+    <string name="data_category_fish" formatted="false">"Peshku dhe prodhimet e detit"</string>
+    <string name="data_category_dairy" formatted="false">"Qumështore"</string>
+    <string name="data_category_eggs" formatted="false">"Vezë"</string>
+    <string name="data_category_oils" formatted="false">"Vajra dhe gjalpë"</string>
+    <string name="data_category_nuts" formatted="false">"Arra dhe fara"</string>
+    <string name="data_category_bread" formatted="false">"Bukë"</string>
+    <string name="data_category_other" formatted="false">"Ushqime të tjera"</string>
+    <string name="data_category_dishes" formatted="false">"Gatime të përgatitura"</string>
+    <string name="data_category_custom" formatted="false">"Ushqimet e mia"</string>
+    <string name="data_category_other_short" formatted="false">"Të tjera"</string>
+    <string name="data_food_seed_9003" formatted="false">"Mollë me lëkurë"</string>
+    <string name="data_catalog_note_1">"Vlerat e referencës për 100 g të pjesës së ngrënshme. Ushqim i papërpunuar. Vlerat e USDA të karbohidrateve përfshijnë fibrat. Ju mund t\'i rregulloni vlerat duke përdorur etiketën e produktit. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Banane e qëruar"</string>
+    <string name="data_food_seed_9021" formatted="false">"Kajsi, pa gropa"</string>
+    <string name="data_food_seed_9037" formatted="false">"Mishi i avokados"</string>
+    <string name="data_food_seed_9050" formatted="false">"Boronica"</string>
+    <string name="data_food_seed_9070" formatted="false">"Qershi të ëmbla, pa gropa"</string>
+    <string name="data_food_seed_9063" formatted="false">"Vishnje, pa fara"</string>
+    <string name="data_food_seed_9078" formatted="false">"Kastrati"</string>
+    <string name="data_food_seed_9083" formatted="false">"Rrush pa fara e zezë"</string>
+    <string name="data_food_seed_9084" formatted="false">"Rrush pa fara e kuqe dhe e bardhë"</string>
+    <string name="data_food_seed_9132" formatted="false">"Rrushi"</string>
+    <string name="data_food_seed_9148" formatted="false">"Mishi i kivit"</string>
+    <string name="data_food_seed_9150" formatted="false">"Limon i qëruar"</string>
+    <string name="data_food_seed_9181" formatted="false">"Mishi i pjepërit"</string>
+    <string name="data_food_seed_9200" formatted="false">"Mish portokalli"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mishi i mandarinës"</string>
+    <string name="data_food_seed_9236" formatted="false">"Pjeshkë, pa gropë"</string>
+    <string name="data_food_seed_9252" formatted="false">"Dardhë"</string>
+    <string name="data_food_seed_9266" formatted="false">"Mishi i ananasit"</string>
+    <string name="data_food_seed_9279" formatted="false">"Kumbull, pa gropë"</string>
+    <string name="data_food_seed_9286" formatted="false">"Farat e shegës"</string>
+    <string name="data_food_seed_9295" formatted="false">"Mish pomelo"</string>
+    <string name="data_food_seed_9302" formatted="false">"Mjedra"</string>
+    <string name="data_food_seed_9316" formatted="false">"Luleshtrydhe"</string>
+    <string name="data_food_seed_9326" formatted="false">"Mishi i shalqirit"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektarinë, me gropa"</string>
+    <string name="data_food_seed_9176" formatted="false">"Mishi i mangos"</string>
+    <string name="data_food_seed_9107" formatted="false">"Gooseberries"</string>
+    <string name="data_food_seed_9226" formatted="false">"Mishi papaja"</string>
+    <string name="data_food_seed_9089" formatted="false">"Fiq të freskët"</string>
+    <string name="data_food_seed_9111" formatted="false">"Mishi i grejpfrutit"</string>
+    <string name="data_food_seed_9032" formatted="false">"Kajsi të thata, pa fara"</string>
+    <string name="data_catalog_note_2">"Vlerat e referencës për 100 g të pjesës së ngrënshme. USDA vlerat e karbohidrateve përfshijnë fibrat. Ju mund t\'i rregulloni vlerat duke përdorur etiketën e produktit. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Kumbulla të thata, pa gropa"</string>
+    <string name="data_food_seed_9087" formatted="false">"Hurma, me gropë"</string>
+    <string name="data_food_seed_9298" formatted="false">"Rrush i errët, pa fara"</string>
+    <string name="data_food_seed_11529" formatted="false">"Domate e freskët"</string>
+    <string name="data_food_seed_11205" formatted="false">"Kastravec me lëkurë"</string>
+    <string name="data_food_seed_11090" formatted="false">"Brokoli i papërpunuar"</string>
+    <string name="data_food_seed_11109" formatted="false">"Lakra e bardhë e papërpunuar"</string>
+    <string name="data_food_seed_11124" formatted="false">"Karrota e papërpunuar"</string>
+    <string name="data_food_seed_11135" formatted="false">"Lulelakra e papërpunuar"</string>
+    <string name="data_food_seed_11143" formatted="false">"Kërcell selino"</string>
+    <string name="data_food_seed_11282" formatted="false">"Qepë e papërpunuar"</string>
+    <string name="data_food_seed_11291" formatted="false">"Qepë të pranverës"</string>
+    <string name="data_food_seed_11304" formatted="false">"Bizele të gjelbra të papërpunuara"</string>
+    <string name="data_food_seed_11333" formatted="false">"Piper zile jeshile"</string>
+    <string name="data_food_seed_11821" formatted="false">"Piper zile i kuq"</string>
+    <string name="data_food_seed_11352" formatted="false">"Patate e papërpunuar me lëkurë"</string>
+    <string name="data_food_seed_11367" formatted="false">"Patate e zier, e qëruar"</string>
+    <string name="data_catalog_note_3">"Vlerat e referencës për 100 g të pjesës së ngrënshme. Pa kripë të shtuar. USDA vlerat e karbohidrateve përfshijnë fibrat. Ju mund t\'i rregulloni vlerat duke përdorur etiketën e produktit. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Kunguj të njomë"</string>
+    <string name="data_food_seed_11209" formatted="false">"Patëllxhan i papërpunuar"</string>
+    <string name="data_food_seed_11422" formatted="false">"Kungull i papërpunuar"</string>
+    <string name="data_food_seed_11429" formatted="false">"Rrepkë"</string>
+    <string name="data_food_seed_11564" formatted="false">"Rrepë e papërpunuar"</string>
+    <string name="data_food_seed_11080" formatted="false">"Panxhari i papërpunuar"</string>
+    <string name="data_food_seed_11081" formatted="false">"Panxhari i zier"</string>
+    <string name="data_food_seed_11215" formatted="false">"Hudhra"</string>
+    <string name="data_food_seed_11216" formatted="false">"Rrënja e xhenxhefilit"</string>
+    <string name="data_food_seed_11457" formatted="false">"Spinaq i papërpunuar"</string>
+    <string name="data_food_seed_11253" formatted="false">"Marule me gjethe"</string>
+    <string name="data_food_seed_11297" formatted="false">"Majdanoz i freskët"</string>
+    <string name="data_food_seed_2045" formatted="false">"Kopër e freskët"</string>
+    <string name="data_food_seed_11052" formatted="false">"Fasule jeshile të papërpunuara"</string>
+    <string name="data_food_seed_11167" formatted="false">"Misër i ëmbël, kokrra të papërpunuara"</string>
+    <string name="data_food_seed_11260" formatted="false">"Kërpudha të papërpunuara me butona"</string>
+    <string name="data_food_seed_11261" formatted="false">"Kërpudha me butona të ziera, pa kripë"</string>
+    <string name="data_food_seed_11987" formatted="false">"Kërpudha deti të papërpunuara"</string>
+    <string name="data_food_seed_20009" formatted="false">"Kokrra hikërror, të thatë"</string>
+    <string name="data_catalog_note_4">"Vlerat e referencës për 100 g të pjesës së ngrënshme. Kokrra hikërror të pjekur. USDA vlerat e karbohidrateve përfshijnë fibrat. Ju mund t\'i rregulloni vlerat duke përdorur etiketën e produktit. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Hikërror, i gatuar në ujë"</string>
+    <string name="data_food_seed_20444" formatted="false">"Oriz i bardhë, i thatë"</string>
+    <string name="data_food_seed_20445" formatted="false">"Oriz i bardhë i zier, pa kripë"</string>
+    <string name="data_food_seed_20036" formatted="false">"Oriz i kaftë, i thatë"</string>
+    <string name="data_food_seed_20037" formatted="false">"Oriz kaf i zier"</string>
+    <string name="data_food_seed_8120" formatted="false">"Tërshërë e mbështjellë, e thatë"</string>
+    <string name="data_food_seed_8121" formatted="false">"Bollgur i gatuar në ujë, pa kripë"</string>
+    <string name="data_food_seed_20005" formatted="false">"Elbi perla, i thatë"</string>
+    <string name="data_food_seed_20006" formatted="false">"Elbi margaritar i zier"</string>
+    <string name="data_food_seed_20031" formatted="false">"Meli i thatë"</string>
+    <string name="data_food_seed_20032" formatted="false">"Meli i zier"</string>
+    <string name="data_food_seed_20420" formatted="false">"Makarona të thata"</string>
+    <string name="data_food_seed_20421" formatted="false">"Makarona të ziera, pa kripë"</string>
+    <string name="data_food_seed_16070" formatted="false">"Thjerrëza të ziera, pa kripë"</string>
+    <string name="data_food_seed_16057" formatted="false">"Qiqrra të ziera, pa kripë"</string>
+    <string name="data_food_seed_16033" formatted="false">"Fasule të kuqe të ziera, pa kripë"</string>
+    <string name="data_food_seed_5062" formatted="false">"Gjoks pule pa lëkurë të papërpunuar"</string>
+    <string name="data_food_seed_5064" formatted="false">"Gjoks pule i pjekur pa lëkurë"</string>
+    <string name="data_food_seed_5219" formatted="false">"Gjoks gjeli i papërpunuar pa lëkurë"</string>
+    <string name="data_food_seed_5220" formatted="false">"Gjoks gjeli i pjekur pa lëkurë"</string>
+    <string name="data_food_seed_23562" formatted="false">"Mish viçi i bluar, 10% yndyrë, i papërpunuar"</string>
+    <string name="data_food_seed_23566" formatted="false">"Mish viçi i bluar, 10% yndyrë, i pjekur"</string>
+    <string name="data_food_seed_10060" formatted="false">"Filetë derri e papërpunuar, yndyra e dukshme e hequr"</string>
+    <string name="data_food_seed_10061" formatted="false">"Fileto derri e pjekur"</string>
+    <string name="data_food_seed_15236" formatted="false">"Salmoni i Atlantikut, i papërpunuar"</string>
+    <string name="data_catalog_note_5">"Vlerat e referencës për 100 g të pjesës së ngrënshme. Ushqim i papërpunuar. I kultivuar. USDA vlerat e karbohidrateve përfshijnë fibrat. Ju mund t\'i rregulloni vlerat duke përdorur etiketën e produktit. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Salmon i Atlantikut, i pjekur"</string>
+    <string name="data_catalog_note_6">"Vlerat e referencës për 100 g të pjesës së ngrënshme. I kultivuar. USDA vlerat e karbohidrateve përfshijnë fibrat. Ju mund t\'i rregulloni vlerat duke përdorur etiketën e produktit. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Merluci i Atlantikut, i papërpunuar"</string>
+    <string name="data_food_seed_15266" formatted="false">"Pollock i papërpunuar i Alaskës"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tun i konservuar në ujë, i kulluar"</string>
+    <string name="data_food_seed_15271" formatted="false">"Karkaleca të gatuara, të qëruara"</string>
+    <string name="data_food_seed_1211" formatted="false">"Qumësht, 3,25% yndyrë"</string>
+    <string name="data_food_seed_1174" formatted="false">"Qumësht, 2% yndyrë"</string>
+    <string name="data_food_seed_1082" formatted="false">"Qumësht, 1% yndyrë"</string>
+    <string name="data_food_seed_1116" formatted="false">"Kos i thjeshtë me qumësht të plotë"</string>
+    <string name="data_food_seed_1256" formatted="false">"Kos grek pa yndyrë"</string>
+    <string name="data_food_seed_1015" formatted="false">"Gjizë, 2% yndyrë"</string>
+    <string name="data_catalog_note_7">"Vlerat e referencës për 100 g të pjesës së ngrënshme. Gjizë; llojet e tjera të gjizës kanë vlera të ndryshme. USDA vlerat e karbohidrateve përfshijnë fibrat. Ju mund t\'i rregulloni vlerat duke përdorur etiketën e produktit. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Kosi, rreth 19% yndyrë"</string>
+    <string name="data_food_seed_1009" formatted="false">"Djathë çedër"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mocarela me qumësht të plotë"</string>
+    <string name="data_food_seed_1019" formatted="false">"Djathë feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Vezë pule e papërpunuar, pa lëvozhgë"</string>
+    <string name="data_food_seed_1129" formatted="false">"Vezë pule e zier, pa lëvozhgë"</string>
+    <string name="data_food_seed_1124" formatted="false">"E bardha e vezës së pulës së papërpunuar"</string>
+    <string name="data_food_seed_1001" formatted="false">"Gjalpë i kripur"</string>
+    <string name="data_food_seed_4053" formatted="false">"Vaj ulliri"</string>
+    <string name="data_food_seed_4506" formatted="false">"Vaj luledielli"</string>
+    <string name="data_food_seed_12061" formatted="false">"Bajame"</string>
+    <string name="data_food_seed_12155" formatted="false">"Kokrrat e arrës"</string>
+    <string name="data_food_seed_12120" formatted="false">"Kokrrat e lajthisë"</string>
+    <string name="data_food_seed_12151" formatted="false">"Kokrrat e papërpunuara të fëstëkut"</string>
+    <string name="data_food_seed_12014" formatted="false">"Bërthamat e thara të farave të kungujve"</string>
+    <string name="data_food_seed_16087" formatted="false">"Kikirikë të papërpunuar me lëvozhgë"</string>
+    <string name="data_food_seed_18069" formatted="false">"Bukë e bardhë gruri"</string>
+    <string name="data_food_seed_18075" formatted="false">"Bukë me grurë integrale"</string>
+    <string name="data_food_seed_18060" formatted="false">"Bukë thekre"</string>
+    <string name="data_food_seed_19296" formatted="false">"I dashur"</string>
+    <string name="data_food_seed_19335" formatted="false">"Sheqeri"</string>
+    <string name="data_food_seed_19165" formatted="false">"Pluhur kakao pa sheqer"</string>
+    <string name="data_food_seed_19904" formatted="false">"Çokollatë e zezë, 70-85% kakao"</string>
+    <string name="data_meal_breakfast" formatted="false">"Mëngjesi"</string>
+    <string name="data_meal_lunch" formatted="false">"Dreka"</string>
+    <string name="data_meal_dinner" formatted="false">"Darka"</string>
+    <string name="data_meal_snack" formatted="false">"Rostiçeri"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Politika e privatësisë për Diet Diary\nRishikimi: 9 tetor 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Aplikacioni: Diet Diary; Google Play titulli i listimit në Rusisht: «Дневник диеты: подсчёт калорий»; paketa: ru.dietdiary.offline.\nZhvilluesi i projektit: Efreitor2001. Për pyetje rreth aplikacionit dhe përpunimit të të dhënave, kontaktoni https://github.com/Efreitor2001/kkalcal/issues . Çështjet e GitHub janë publike: mos postoni të dhëna shëndetësore, kopje rezervë, fjalëkalime ose argumente atje."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Ditari në pajisjen tuaj\nNuk kërkohet regjistrim për të mbajtur një ditar. Aplikacioni ruan ushqimet dhe vlerat e tyre ushqyese, porcionet dhe datat e vakteve, peshën, matjet e belit, përqindjen e yndyrës trupore, hapat, gjumin, përshkrimet e stërvitjeve, shënimet, qëllimet, arritjet dhe cilësimet e aplikacionit në zonën e ruajtjes private në pajisjen tuaj. Fushat opsionale mund të lihen bosh. Hapat, gjumi dhe matjet futen manualisht; aplikacioni nuk lexon Health Connect, sensorët e aktivitetit fizik ose të dhënat e pajisjes mjekësore."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Ky informacion përdoret për të llogaritur kaloritë dhe makronutrientët dhe për të dhënë historinë, grafikët dhe arritjet. Zhvilluesi nuk përdor një server që merr përmbajtjen e ditarit. Nëse nuk e lidhni Google Drive ose nuk ndani vetë një kopje rezervë, të dhënat tuaja mbeten në pajisjen tuaj."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Lidhja opsionale Google Drive\nMe kërkesën tuaj, aplikacioni hap identifikimin Google në shfletuesin tuaj të parazgjedhur dhe kërkon qasje në hapësirën ruajtëse të fshehur të të dhënave të këtij aplikacioni në Google Drive tuaj. Kjo leje nuk ofron qasje në dokumentet ose fotot tuaja të zakonshme të \"Diskut\"."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Pasi të lidhen, ushqimet, vaktet, matjet e ditarit, shënimet, qëllimet, arritjet, cilësimet e transferueshme dhe të dhënat e ndryshimit, duke përfshirë identifikuesit e rastësishëm të instalimit dhe vulat kohore, dërgohen te Google. Kjo mbështet fotografitë rezervë dhe bashkimin e hyrjeve në pajisjet tuaja. Nëse aktivizohet sinkronizimi automatik, ndryshimet dërgohen gjithashtu në sfond kur disponohet një lidhje rrjeti. Mund ta çaktivizoni veçmas sinkronizimin automatik."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Aplikacioni merr adresën e emailit dhe identifikuesin e llogarisë Google të zgjedhur për të treguar lidhjen dhe për ta lidhur atë me hapësirën e duhur ruajtëse. Fjalëkalimi yt Google nuk i është dhënë aplikacionit. Sesioni i autorizimit ruhet i koduar në pajisjen tuaj duke përdorur një çelës në Android Keystore. Shenjat, adresat e emailit dhe identifikuesit Google përjashtohen nga eksportet e ditarit dhe fotografitë e sinkronizuara JSON."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Të dhënat Google përdoren vetëm për autorizim dhe sinkronizim, kurrë për reklamim. Zbatohet politika e privatësisë së Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Skedarët rezervë\n“Ruaj në skedar” krijon një skedar JSON në vendndodhjen që zgjidhni. Rivendosja lexon vetëm skedarin që zgjidhni. Nëse zgjidhni një ofrues skedari cloud ose ndani një kopje me një person tjetër, ju zgjidhni marrësin. Aplikacioni nuk kodon skedarët JSON të eksportuara: këta skedarë përmbajnë të dhëna personale dhe ndryshojnë meta të dhënat."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Reklamimi\nAplikacioni përdor Yandex Mobile Ads SDK. Për të ngarkuar dhe shfaqur reklama, pajisja juaj lidhet me shërbimet e reklamimit. Yandex mund të përpunojë adresën tuaj IP dhe informacione të tjera teknike në lidhje me kërkesën e rrjetit, pajisjen dhe softuerin, reklamat e disponueshme ose identifikuesit teknikë dhe informacionin rreth përshtypjeve dhe ndërveprimeve të reklamave."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Aplikacioni i tregon SDK-së se pëlqimi nuk është dhënë, çaktivizon mbledhjen e vendndodhjes dhe çaktivizon raportimin e analitikës së reklamave të aplikacionit. Nuk kërkon leje të sakta ose të përafërta të vendndodhjes. Këto cilësime nuk nënkuptojnë që shërbimi i reklamimit nuk kryen komunikim në rrjet ose përpunim teknik të të dhënave."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Aplikacioni nuk përdor të dhëna ushqimore, peshë, matjet, shënime, qëllime, adresa emaili ose Google identifikues për shënjestrimin e reklamave dhe nuk i shton ato në parametrat e kërkesës për reklamë. Shikimi i reklamave nuk kërkohet për të ruajtur hyrjet."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Rregullat e Yandex për përpunimin, ruajtjen dhe fshirjen e të dhënave: https://yandex.ru/legal/confidential/ . Mund ta menaxhosh identifikuesin e reklamave në cilësimet Android nëse versioni i sistemit e mbështet këtë veçori. Politika e shërbimit të reklamave përcakton periudhat e ruajtjes për të dhënat e tij teknike; zhvilluesi i ditarit nuk cakton një periudhë të veçantë ruajtjeje për ato të dhëna."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Mbrojtja e të dhënave\nKomunikimi me Google përdor HTTPS; Yandex deklaron se të dhënat SDK transmetohen duke përdorur HTTPS/TLS. Ditari lokal mbrohet nga izolimi i aplikacionit të Android. Aplikacioni nuk enkripton veçmas përmbajtjen e ditarit ose fotografitë JSON; ai nuk ofron kriptim nga skaji në fund midis pajisjeve."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Rezervimi i sistemit të të dhënave të aplikacionit është i çaktivizuar. Regjistrat diagnostikues të shkruar nga kodi i vetë aplikacionit përmbajnë kode rezultati pa përmbajtje ditari, adresa emaili, shenja ose trupa të përgjigjes së rrjetit; aplikacioni nuk i dërgon veçmas këto regjistra te zhvilluesi."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Ruajtja dhe fshirja\nRegjistrimet lokale mbeten derisa t\'i ndryshoni ose t\'i fshini ato ose t\'i pastroni të dhënat e aplikacionit. Fshirja e një hyrjeje e heq atë nga ndërfaqja dhe dërgon një shënues fshirjeje gjatë sinkronizimit. Meta të dhënat e bashkimit ruhen për të parandaluar rishfaqjen e të dhënave të vjetra; mund të përmbajë vlera të mëparshme nga një shënim i fshirë në ditar. Vlerat e mëparshme mund të mbeten gjithashtu në fotografitë dhe skedarët e vjetër të resë kompjuterike që keni krijuar më parë. Prandaj, fshirja e një hyrjeje nuk fshin plotësisht çdo kopje të tij."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"\"Shkëput llogarinë\" ndalon sinkronizimin në këtë pajisje dhe fshin sesionin lokal Google. Ditari dhe fotografitë në Google Drive mbahen. Shkëputja e aplikacionit nuk e fshin llogarinë tuaj Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Për të fshirë plotësisht të dhënat e këtij aplikacioni:\n• Çaktivizoni sinkronizimin në të gjitha pajisjet tuaja në mënyrë që kopjet e mbetura të mos ngarkohen përsëri.\n• Në një shfletues, hapni https://drive.google.com/drive/settings duke përdorur llogarinë Google që ishte lidhur. Zgjidhni \"Menaxho aplikacionet\", gjeni \"Diet Diary\" (ose \"Дневник диеты\"), më pas zgjidhni \"Opsionet\" → \"Fshi të dhënat e fshehura të aplikacionit\". Nëse faqja celulare nuk e shfaq këtë seksion, përdorni versionin desktop të faqes ose një kompjuter.\n• Anuloni aksesin e aplikacionit në https://myaccount.google.com/connections . Revokimi vetëm i aksesit nuk i fshin kopjet e ruajtura.\n• Pastro hapësirën ruajtëse të aplikacionit në cilësimet Android në secilën pajisje ose çinstaloje aplikacionin.\n• Fshini kopjet rezervë JSON të ruajtura veçmas nga dosjet dhe vendndodhjet e ruajtjes së resë kompjuterike që keni zgjedhur."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Pa kredencialet tuaja, zhvilluesi nuk mund të fshijë nga ditari juaj lokal ose skedarët në Google Drive tuaj personale. Mos ndani fjalëkalimin ose argumentet tuaja me zhvilluesin. Për ndihmë me fshirjen, kontaktoni projektin duke përdorur lidhjen në fillim të kësaj politike. Nuk keni nevojë të fshini llogarinë tuaj Google për të fshirë të dhënat e ditarit."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Ndryshimet dhe kontakti\nKur veçoritë e aplikacionit ose praktikat e përpunimit të të dhënave ndryshojnë, kjo politikë përditësohet me një datë rishikimi. Për pyetje në lidhje me aksesin, korrigjimin, fshirjen e të dhënave ose funksionimin e aplikacionit, përdorni kanalin e kontaktit të projektit. Kërkesat që dorëzoni përpunohen për të dhënë një përgjigje dhe ruhen në GitHub; Politika e GitHub ofrohet në https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Pjatat e mia"</string>
+    <string name="secondary_metric_weight" formatted="false">"Pesha"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Yndyra trupore"</string>
+    <string name="secondary_metric_waist" formatted="false">"Bel"</string>
+    <string name="secondary_metric_steps" formatted="false">"Hapat"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Flini"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalori"</string>
+    <string name="secondary_metric_protein" formatted="false">"Proteina"</string>
+    <string name="secondary_metric_fat" formatted="false">"Yndyrë"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Karbohidratet"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"hapa"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Gama e datave të pavlefshme"</string>
+    <string name="secondary_stats_title" formatted="false">"Tendencat"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Të dhënat tuaja në tabela të qarta"</string>
+    <string name="secondary_metric" formatted="false">"Metrikë"</string>
+    <string name="secondary_week" formatted="false">"Javë"</string>
+    <string name="secondary_month" formatted="false">"Muaj"</string>
+    <string name="secondary_year" formatted="false">"Viti"</string>
+    <string name="secondary_custom_period" formatted="false">"Gama e personalizuar"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Data e fillimit nuk duhet të jetë pas datës së përfundimit"</string>
+    <string name="secondary_no_records" formatted="false">"Nuk ka ende të dhëna"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Shtoni ushqim në ditarin tuaj ose zgjidhni një periudhë tjetër."</string>
+    <string name="secondary_chart_tap" formatted="false">"Prekni grafikun për të zgjedhur një regjistrim"</string>
+    <string name="secondary_chart_connected" formatted="false">"Linja lidh matjet e regjistruara. Nuk ka matje mes tyre."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Vlerësimet e shkallës janë të dobishme për ndjekjen e tendencave."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Një total ditor manual zëvendëson totalin e ushqimit. Përndryshe, ushqimi i regjistruar shtohet. Ditët pa regjistrime janë anashkaluar."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Totali bazohet në ushqimin e regjistruar. Një ditë pa regjistrime nuk llogaritet si zero."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Ditët pa regjistrime anashkalohen dhe përjashtohen nga mesatarja."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Sot dhe dje"</string>
+    <string name="secondary_no_today" formatted="false">"Asnjë rekord për sot"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Asnjë rekord për dje"</string>
+    <string name="secondary_partial_today" formatted="false">"Ky krahasim përdor të dhënat aktuale. Të dhënat e sotme mund të jenë ende të paplota."</string>
+    <string name="secondary_period_summary" formatted="false">"Përmbledhje e periudhës"</string>
+    <string name="secondary_recorded_average" formatted="false">"Mesatarja në ditët e regjistruara"</string>
+    <string name="secondary_recorded_days" formatted="false">"Ditë me të dhëna"</string>
+    <string name="secondary_minimum" formatted="false">"Minimumi"</string>
+    <string name="secondary_maximum" formatted="false">"Maksimumi"</string>
+    <string name="secondary_first_to_last" formatted="false">"Nga rekordi i parë tek i fundit"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Duhen të paktën dy ditë të regjistruara për të llogaritur një ndryshim."</string>
+    <string name="secondary_history" formatted="false">"Histori"</string>
+    <string name="secondary_history_recent" formatted="false">"14 ditët e fundit me të dhëna. Zgjidhni një gamë të personalizuar për regjistrimet e mëparshme."</string>
+    <string name="secondary_history_all" formatted="false">"Të gjitha ditët e regjistruara në periudhën e zgjedhur"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Nga %1$s"</string>
+    <string name="secondary_date_until">"Për %1$s"</string>
+    <string name="secondary_date_range">"%1$s - %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s në këtë periudhë"</string>
+    <string name="secondary_weight_goal">"Objektivi: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Shtoni një matje në ditarin tuaj ose zgjidhni një periudhë tjetër."</string>
+    <string name="secondary_latest_record">"Regjistrimi i fundit · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Sot: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Dje: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Ndryshimi: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d nga %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d ditë të regjistruara, nga %3$s në %4$s. Minimumi %5$s, maksimumi %6$s %7$s. Vlerat janë të shënuara në histori."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Fillimi"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Ruani matjen tuaj të parë të peshës."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Matja juaj e parë e peshës është ruajtur."</string>
+    <string name="secondary_award_first_food" formatted="false">"Hyrja e parë"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Regjistroni pjesën tuaj të parë të ushqimit."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Pjesa juaj e parë e ushqimit është regjistruar."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Një javë me të dhëna"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Regjistroni peshën tuaj në 7 ditë të ndryshme. Ata nuk kanë nevojë të jenë të njëpasnjëshme."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Ju keni rekorde peshe për 7 ditë të ndryshme."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Konsistenca"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Regjistroni peshën tuaj në 30 ditë të ndryshme."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Ju keni rekorde peshe për 30 ditë."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Arkivist"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Ruani 100 porcione ushqimi në ditarin tuaj."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Keni kursyer 100 porcione ushqimi."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Një zakon i ri"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Regjistroni ushqimin për 7 ditë kalendarike të njëpasnjëshme."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Ju keni regjistruar ushqimin për 7 ditë rresht."</string>
+    <string name="secondary_award_steps" formatted="false">"Çudia në këmbë"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Regjistroni të paktën 10,000 hapa në një ditë."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Ju keni regjistruar një ditë me 10,000 hapa."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Regjistrues pjellor"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Kurseni 100 matje peshe. Një matje llogaritet për datë."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Keni ruajtur 100 matje peshe."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Ditari veteran"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Regjistroni ushqimin ose matjet në 90 ditë të ndryshme. Ata nuk kanë nevojë të jenë të njëpasnjëshme."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Ju keni shënime ditari për 90 ditë të ndryshme."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"matje"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porcione"</string>
+    <string name="secondary_award_unit_days" formatted="false">"ditë"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"ditë të njëpasnjëshme"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"hapa në një ditë"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"ditë të regjistruara"</string>
+    <string name="secondary_back" formatted="false">"‹ Kthehu"</string>
+    <string name="secondary_achievements" formatted="false">"Arritjet"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Hapat e vegjël bëhen zakon"</string>
+    <string name="secondary_your_progress" formatted="false">"PËRPARIMI JUAJ"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Arritjet e fituara mbeten me ju edhe nëse redaktoni të dhënat tuaja."</string>
+    <string name="secondary_awards_regular" formatted="false">"Për qëndrueshmëri dhe mbajtjen e ditarit tuaj"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Regjistrimet e ruajtura deri dhe duke përfshirë sot numërohen."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Arritje e fshehur"</string>
+    <string name="secondary_hidden_description" formatted="false">"Vazhdoni të përdorni ditarin tuaj për të zhbllokuar këtë arritje."</string>
+    <string name="secondary_earned" formatted="false">"Fituar"</string>
+    <string name="secondary_hidden_locked" formatted="false">"I fshehur · i kyçur"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Në vazhdim · i kyçur"</string>
+    <string name="secondary_locked" formatted="false">"E kyçur"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Kërkesat dhe përparimi do të zbulohen kur të fitoni këtë çmim."</string>
+    <string name="secondary_best_streak" formatted="false">"Rrjedha më e mirë"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Shpërblim i fshehur"</string>
+    <string name="secondary_unlocked_of">"nga %1$d të shkyçura"</string>
+    <string name="secondary_unlocked_date">"E shkyçur %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Kthehu"</string>
+    <string name="secondary_my_recipe" formatted="false">"Receta ime"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Peshoni përbërësit përpara gatimit. Përdorni peshën e gatuar për të llogaritur porcionet. Përfshini vajra dhe salca."</string>
+    <string name="secondary_recipe_name" formatted="false">"Emri i recetës"</string>
+    <string name="secondary_recipe_example" formatted="false">"Për shembull, zierja me perime"</string>
+    <string name="secondary_ingredients" formatted="false">"Përbërësit"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Filloni me përbërësit"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Shtoni çdo përbërës dhe vendosni peshën e tij në gram."</string>
+    <string name="secondary_edit_weight" formatted="false">"Redakto peshën"</string>
+    <string name="secondary_delete" formatted="false">"Fshij"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Shtoni përbërës"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Recetë e plotë"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Gatimi ndryshon peshën kur shtohet ose humbet uji. Peshoni pjatën e përfunduar pa enën e saj."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Pesha e gatuar, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Shkruani peshën pas gatimit"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Shkruani një peshë më të madhe se 0 dhe jo më shumë se 100,000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Pesha nuk plotësohet automatikisht"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Për 100 g gjellë të gatuar"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Kontrolloni peshën e gatuar dhe përbërësit: çdo 100 g mund të përmbajë deri në 1000 kcal dhe deri në 100 g të çdo makronutrienti."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Receta nuk mund të ruhet"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Ruaj te Recetat e Mia"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Pasi të ruhet, mund ta regjistroni këtë pjatë sipas peshës së porcionit."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Pesha e përbërësve përpara gatimit"</string>
+    <string name="secondary_grams" formatted="false">"gram"</string>
+    <string name="secondary_weight_limits" formatted="false">"Më e madhe se 0 dhe jo më shumë se 100,000 g"</string>
+    <string name="secondary_add" formatted="false">"Shto"</string>
+    <string name="secondary_save" formatted="false">"Ruaj"</string>
+    <string name="secondary_cancel" formatted="false">"Anulo"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Zgjidhni një përbërës"</string>
+    <string name="secondary_search_food" formatted="false">"Kërko ushqime"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Nuk ka rezultate. Ju mund të shtoni ushqimin tuaj në skedën Ushqime."</string>
+    <string name="secondary_close" formatted="false">"Mbylle"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Proteina %1$s · Yndyrna %2$s · Karbohidrate %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Pesha e përbërësit: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s - %2$s g"</string>
+    <string name="secondary_recipe_note">"Rendimenti: %1$s g. Përbërësit: %2$s"</string>
+</resources>

@@ -6,8 +6,8 @@ import java.io.IOException
 import java.net.URL
 import javax.net.ssl.HttpsURLConnection
 
-internal class CloudHttpException(val status: Int) : IOException("Cloud HTTP $status")
-internal class GoogleLoginRequired : IOException("Необходим повторный вход в Google")
+internal class CloudHttpException(val status: Int) : IOException(tr(R.string.data_cloud_http_error, status))
+internal class GoogleLoginRequired : IOException(tr(R.string.data_google_login_required))
 internal data class CloudHttpResponse(val body: String, val location: String? = null)
 
 /** No request/response bodies, URLs with credentials, or diary values are logged. */
@@ -48,7 +48,7 @@ internal object CloudHttp {
                 while (true) {
                     val count = input.read(buffer)
                     if (count < 0) break
-                    if (out.size().toLong() + count > maxBytes) throw IOException("Cloud response too large")
+                    if (out.size().toLong() + count > maxBytes) throw IOException(tr(R.string.data_cloud_response_too_large))
                     out.write(buffer, 0, count)
                 }
                 out.toString(Charsets.UTF_8.name())

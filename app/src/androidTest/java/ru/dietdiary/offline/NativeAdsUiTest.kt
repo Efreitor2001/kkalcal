@@ -43,6 +43,10 @@ import java.util.UUID
  */
 @RunWith(AndroidJUnit4::class)
 class NativeAdsUiTest {
+    private var russianLocale: AutoCloseable? = null
+
+    @After fun restoreTestLocale() { russianLocale?.close(); russianLocale = null }
+
     @get:Rule val compose = createAndroidComposeRule<ComponentActivity>()
 
     private lateinit var fixtureRoot: File
@@ -53,6 +57,7 @@ class NativeAdsUiTest {
 
     @Before fun prepare() {
         val application = ApplicationProvider.getApplicationContext<Context>()
+        russianLocale = installRussianTestLocale(application)
         fixtureRoot = File(application.cacheDir, "native-ad-ui-${UUID.randomUUID()}")
         val files = File(fixtureRoot, "files").apply { check(mkdirs()) }
         store = AppStore(object : ContextWrapper(application) {
@@ -64,7 +69,7 @@ class NativeAdsUiTest {
             hooks = NativeAdsTestHooks.install(transport, scheduler)
             NativeAdsTestHooks.networkChanged(true)
         }
-        compose.setContent { DietDiaryTheme { DietDiaryApp(store) } }
+        compose.setContent { RussianTestContent { DietDiaryTheme { DietDiaryApp(store) } } }
     }
 
     @After fun cleanUp() {

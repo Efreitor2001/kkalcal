@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name" formatted="false">"Дневник диеты"</string>
+    <string name="core_tagline" formatted="false">"Калории, вес и прогресс"</string>
+    <string name="core_open_diary" formatted="false">"Перейти в дневник"</string>
+    <string name="core_save_failed" formatted="false">"Не удалось сохранить данные"</string>
+    <string name="core_day" formatted="false">"День"</string>
+    <string name="core_products" formatted="false">"Продукты"</string>
+    <string name="core_diary" formatted="false">"Дневник"</string>
+    <string name="core_charts" formatted="false">"Графики"</string>
+    <string name="core_more" formatted="false">"Ещё"</string>
+    <string name="core_recipe_saved" formatted="false">"Блюдо сохранено в продуктах"</string>
+    <string name="core_back_to_day" formatted="false">"‹  Назад к дню"</string>
+    <string name="core_action_failed" formatted="false">"Не удалось выполнить действие"</string>
+    <string name="core_understood" formatted="false">"Понятно"</string>
+    <string name="core_restore_available" formatted="false">"Восстановление копии доступно в разделе «Ещё»."</string>
+    <string name="core_eaten_today" formatted="false">"СЪЕДЕНО ЗА ДЕНЬ"</string>
+    <string name="core_set_goal_hint" formatted="false">"Цель можно задать в разделе «Ещё»"</string>
+    <string name="core_add_food" formatted="false">"+  Добавить еду"</string>
+    <string name="core_first_meal" formatted="false">"Начнём с первого приёма пищи"</string>
+    <string name="core_first_meal_help" formatted="false">"Выберите продукт, введите граммы — КБЖУ посчитается сразу."</string>
+    <string name="core_my_day" formatted="false">"Мой день"</string>
+    <string name="core_my_day_help" formatted="false">"Вес, талия, шаги, сон — запишите то, что знаете."</string>
+    <string name="core_record_metrics" formatted="false">"Записать показатели"</string>
+    <string name="core_edit_metrics" formatted="false">"Изменить показатели"</string>
+    <string name="core_food_state_hint" formatted="false">"Вес и КБЖУ продукта должны относиться к одному состоянию: сырому, сухому или готовому."</string>
+    <string name="core_weight" formatted="false">"Вес"</string>
+    <string name="core_waist" formatted="false">"Талия"</string>
+    <string name="core_my_diary" formatted="false">"Мой дневник"</string>
+    <string name="core_diary_tagline" formatted="false">"Каждый день — в своём ритме"</string>
+    <string name="core_record_day" formatted="false">"+  Записать день"</string>
+    <string name="core_optional_diary_help" formatted="false">"Все показатели необязательны. Можно добавить только вес, сон или заметку. Нажмите на запись, чтобы изменить её."</string>
+    <string name="core_history_starts" formatted="false">"История начинается здесь"</string>
+    <string name="core_history_help" formatted="false">"Записывайте измерения и смотрите изменения на вкладке «Графики»."</string>
+    <string name="core_file_unavailable" formatted="false">"Файл недоступен"</string>
+    <string name="core_backup_saved" formatted="false">"Резервная копия сохранена"</string>
+    <string name="core_export_error" formatted="false">"Ошибка экспорта"</string>
+    <string name="core_read_error" formatted="false">"Ошибка чтения"</string>
+    <string name="core_settings_tagline" formatted="false">"Настройки и сохранность данных"</string>
+    <string name="core_your_progress" formatted="false">"Ваш прогресс"</string>
+    <string name="core_achievements_help" formatted="false">"Небольшие достижения за привычку вести дневник."</string>
+    <string name="core_achievements" formatted="false">"Достижения"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Необязательное подключение для объединения дневника на ваших устройствах."</string>
+    <string name="core_cloud_sync" formatted="false">"Облачная синхронизация"</string>
+    <string name="core_personal_goals" formatted="false">"Личные цели"</string>
+    <string name="core_personal_goals_help" formatted="false">"Калории, БЖУ и желаемый вес задаются вручную. Любую цель можно оставить пустой."</string>
+    <string name="core_configure_goals" formatted="false">"Настроить цели"</string>
+    <string name="core_backup" formatted="false">"Резервная копия"</string>
+    <string name="core_backup_help" formatted="false">"Продукты, питание, дневник, цели и достижения — в одном файле. Сохраните копию перед переустановкой приложения."</string>
+    <string name="core_save_file" formatted="false">"Сохранить в файл"</string>
+    <string name="core_restore_file" formatted="false">"Восстановить из файла"</string>
+    <string name="core_write_locked" formatted="false">"Запись заблокирована, чтобы сохранить исходный файл. Восстановите корректную резервную копию."</string>
+    <string name="core_about_data" formatted="false">"О приложении и данных"</string>
+    <string name="core_about_data_help" formatted="false">"Как хранятся записи, работает синхронизация и удаляются данные."</string>
+    <string name="core_privacy" formatted="false">"Конфиденциальность и удаление данных"</string>
+    <string name="core_offline" formatted="false">"Работает без интернета"</string>
+    <string name="core_offline_help" formatted="false">"Вход в Google необязателен. Шаги и сон вводятся вручную. Сеть нужна для подключённой синхронизации и загрузки рекламы. Записи дневника в рекламную сеть не передаются."</string>
+    <string name="core_about_foods" formatted="false">"О продуктах"</string>
+    <string name="core_foods_reference" formatted="false">"Встроенные значения — справочные, на 100 г съедобной части. Уточняйте их по упаковке. Изменение продукта не пересчитывает старые записи питания."</string>
+    <string name="core_foods_source" formatted="false">"Источник базы: USDA FoodData Central, SR Legacy. У конкретных продуктов указано состояние и описание источника."</string>
+    <string name="core_restore_title" formatted="false">"Восстановить копию?"</string>
+    <string name="core_restore_warning" formatted="false">"Текущие продукты, дневник, цели и достижения будут заменены содержимым файла. Сначала сохраните текущую копию. При подключённой синхронизации восстановленные изменения передадутся и в Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Копия восстановлена"</string>
+    <string name="core_invalid_file" formatted="false">"Неверный файл"</string>
+    <string name="core_replace_data" formatted="false">"Заменить данные"</string>
+    <string name="core_cancel" formatted="false">"Отмена"</string>
+    <string name="core_save" formatted="false">"Сохранить"</string>
+    <string name="core_calculate_portion" formatted="false">"Рассчитать порцию"</string>
+    <string name="core_edit_portion" formatted="false">"Изменить порцию"</string>
+    <string name="core_portion_weight" formatted="false">"Вес порции, г"</string>
+    <string name="core_portion_invalid" formatted="false">"Введите вес больше 0 и не больше 100 000 г"</string>
+    <string name="core_add_to_diary" formatted="false">"В дневник"</string>
+    <string name="core_delete_entry" formatted="false">"Удалить запись"</string>
+    <string name="core_delete_portion_question" formatted="false">"Удалить порцию из дневника?"</string>
+    <string name="core_new_food" formatted="false">"Новый продукт или блюдо"</string>
+    <string name="core_edit_nutrition" formatted="false">"Редактировать КБЖУ"</string>
+    <string name="core_name" formatted="false">"Название"</string>
+    <string name="core_food" formatted="false">"Продукт"</string>
+    <string name="core_dish" formatted="false">"Готовое блюдо"</string>
+    <string name="core_category" formatted="false">"Категория"</string>
+    <string name="core_per100_hint" formatted="false">"Значения на 100 г — с упаковки или из рецепта. Укажите 0, если нутриента нет."</string>
+    <string name="core_kcal" formatted="false">"Ккал"</string>
+    <string name="core_protein_grams" formatted="false">"Белки, г"</string>
+    <string name="core_fat_grams" formatted="false">"Жиры, г"</string>
+    <string name="core_carbs_grams" formatted="false">"Углеводы, г"</string>
+    <string name="core_food_note" formatted="false">"Примечание, состав (необязательно)"</string>
+    <string name="core_favorite" formatted="false">"В избранное"</string>
+    <string name="core_name_category_required" formatted="false">"Укажите название и категорию"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Укажите КБЖУ на 100 г: калории 0–1000, Б/Ж/У 0–100 г"</string>
+    <string name="core_delete_food" formatted="false">"Удалить из базы"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Старые записи питания сохранят свои значения."</string>
+    <string name="core_delete_food_question" formatted="false">"Удалить продукт? Его записи в дневнике останутся."</string>
+    <string name="core_day_entry" formatted="false">"Запись дня"</string>
+    <string name="core_optional_fields" formatted="false">"Заполните любые поля. Остальные оставьте пустыми."</string>
+    <string name="core_editing_existing" formatted="false">"На эту дату уже есть запись — редактируем её."</string>
+    <string name="core_weight_kg" formatted="false">"Вес, кг"</string>
+    <string name="core_waist_cm" formatted="false">"Талия, см"</string>
+    <string name="core_steps" formatted="false">"Шаги"</string>
+    <string name="core_sleep" formatted="false">"Сон"</string>
+    <string name="core_hours" formatted="false">"Часы"</string>
+    <string name="core_minutes" formatted="false">"Минуты"</string>
+    <string name="core_body_fat_optional" formatted="false">"Жир по весам, % (необязательно)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Процент жира с весов — ориентир для тренда, не точное измерение."</string>
+    <string name="core_strength_training" formatted="false">"Силовая тренировка"</string>
+    <string name="core_training_example" formatted="false">"Например: присед 3×10, гантели 12 кг"</string>
+    <string name="core_manual_nutrition" formatted="false">"Итоги питания вручную"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Если заполнить, эти значения заменят сумму еды за день. Оставьте пустыми для автоматического подсчёта."</string>
+    <string name="core_daily_calories" formatted="false">"Калории за день"</string>
+    <string name="core_daily_protein" formatted="false">"Белок за день, г"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Заметки, самочувствие"</string>
+    <string name="core_steps_invalid" formatted="false">"Шаги: целое число от 0 до 200 000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Сон: 0–24 часа, минуты 0–59"</string>
+    <string name="core_body_fat" formatted="false">"Процент жира"</string>
+    <string name="core_calories" formatted="false">"Калории"</string>
+    <string name="core_protein" formatted="false">"Белок"</string>
+    <string name="core_entry_required" formatted="false">"Добавьте хотя бы один показатель или заметку"</string>
+    <string name="core_delete_day" formatted="false">"Удалить день из дневника"</string>
+    <string name="core_optional_goals" formatted="false">"Все цели необязательны. Пустое поле означает, что цель не задана."</string>
+    <string name="core_calories_per_day" formatted="false">"Калории в день"</string>
+    <string name="core_protein_per_day" formatted="false">"Белки в день, г"</string>
+    <string name="core_fat_per_day" formatted="false">"Жиры в день, г"</string>
+    <string name="core_carbs_per_day" formatted="false">"Углеводы в день, г"</string>
+    <string name="core_target_weight" formatted="false">"Желаемый вес, кг"</string>
+    <string name="core_goals_invalid" formatted="false">"Проверьте цели: калории 0–10 000, БЖУ 0–1000 г"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Желаемый вес: от 1 до 500 кг"</string>
+    <string name="core_delete_question" formatted="false">"Удалить?"</string>
+    <string name="core_delete" formatted="false">"Удалить"</string>
+    <string name="core_select_food" formatted="false">"Выберите еду"</string>
+    <string name="core_foods_dishes" formatted="false">"Продукты и блюда"</string>
+    <string name="core_search_food" formatted="false">"Поиск продукта или блюда"</string>
+    <string name="core_new_food_button" formatted="false">"+ Продукт / блюдо"</string>
+    <string name="core_recipe_button" formatted="false">"По рецепту"</string>
+    <string name="core_no_results" formatted="false">"Ничего не найдено"</string>
+    <string name="core_no_results_help" formatted="false">"Измените поиск или добавьте свой продукт либо готовое блюдо."</string>
+    <string name="core_edit" formatted="false">"Править"</string>
+    <string name="core_achievement_unlocked">"🏆 Достижение разблокировано! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"До цели %1$s ккал · цель %2$s"</string>
+    <string name="core_above_goal">"Выше цели на %1$s ккал"</string>
+    <string name="core_portion_summary">"%1$s г · %2$s ккал"</string>
+    <string name="core_macros_summary">"Б %1$s   Ж %2$s   У %3$s"</string>
+    <string name="core_weight_summary">"Вес %1$s кг"</string>
+    <string name="core_waist_summary">"Талия %1$s см"</string>
+    <string name="core_steps_summary">"%1$s шагов"</string>
+    <string name="core_fat_summary">"Жир %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s ккал вручную"</string>
+    <string name="core_manual_protein">"Белок %1$s г вручную"</string>
+    <string name="core_kg_value">"%1$s кг"</string>
+    <string name="core_cm_value">"%1$s см"</string>
+    <string name="core_sleep_value">"Сон %1$s"</string>
+    <string name="core_scale_fat">"Жир по весам %1$s%%"</string>
+    <string name="core_training_value">"Тренировка: %1$s"</string>
+    <string name="core_kcal_value">"%1$s ккал"</string>
+    <string name="core_protein_value">"Белок %1$s г"</string>
+    <string name="core_app_version">"Дневник диеты · %1$s"</string>
+    <string name="core_per100_summary">"На 100 г: %1$s ккал · Б %2$s · Ж %3$s · У %4$s"</string>
+    <string name="core_range_invalid">"%1$s: допустимо от %2$s до %3$s"</string>
+    <string name="core_delete_day_question">"Удалить показатели за %1$s? Питание останется."</string>
+    <string name="core_catalog_count">"%1$s в базе · КБЖУ на 100 г"</string>
+    <string name="core_catalog_nutrition">"%1$s ккал   ·   Б %2$s   Ж %3$s   У %4$s"</string>
+    <string name="core_today_date">"Сегодня · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Калории и белок — итог вручную из дневника"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Калории — итог вручную из дневника"</string>
+    <string name="core_manual_protein_total" formatted="false">"Белок — итог вручную из дневника"</string>
+    <string name="core_macro_goals">"Цели Б / Ж / У: %1$s / %2$s / %3$s г"</string>
+    <string name="core_kcal_unit" formatted="false">"ккал"</string>
+    <string name="core_manual_values">"%1$s (вручную)"</string>
+    <string name="core_all" formatted="false">"Все"</string>
+    <string name="core_favorites" formatted="false">"Избранное"</string>
+    <string name="core_sleep_duration">"%1$s ч %2$s мин"</string>
+    <string name="core_previous_day" formatted="false">"Предыдущий день"</string>
+    <string name="core_next_day" formatted="false">"Следующий день"</string>
+</resources>

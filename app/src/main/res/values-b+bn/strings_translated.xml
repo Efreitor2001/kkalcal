@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"ডায়েট ডায়েরি"</string>
+    <string name="core_app_name" formatted="false">"ডায়েট ডায়েরি"</string>
+    <string name="core_tagline" formatted="false">"ক্যালোরি, ওজন এবং অগ্রগতি"</string>
+    <string name="core_open_diary" formatted="false">"ডায়েরি খুলুন"</string>
+    <string name="core_save_failed" formatted="false">"আপনার তথ্য সংরক্ষণ করা যায়নি"</string>
+    <string name="core_day" formatted="false">"আজ"</string>
+    <string name="core_products" formatted="false">"খাদ্য"</string>
+    <string name="core_diary" formatted="false">"ডায়েরি"</string>
+    <string name="core_charts" formatted="false">"চার্ট"</string>
+    <string name="core_more" formatted="false">"আরো"</string>
+    <string name="core_recipe_saved" formatted="false">"ডিশ আপনার খাবার সংরক্ষণ"</string>
+    <string name="core_back_to_day" formatted="false">"আপনার দিনে ফিরে যান"</string>
+    <string name="core_action_failed" formatted="false">"এই ক্রিয়াটি সম্পূর্ণ করা যায়নি৷"</string>
+    <string name="core_understood" formatted="false">"ঠিক আছে"</string>
+    <string name="core_restore_available" formatted="false">"আপনি মোরে একটি ব্যাকআপ পুনরুদ্ধার করতে পারেন।"</string>
+    <string name="core_eaten_today" formatted="false">"আজ খাওয়া"</string>
+    <string name="core_set_goal_hint" formatted="false">"আপনি আরো একটি লক্ষ্য সেট করতে পারেন"</string>
+    <string name="core_add_food" formatted="false">"+ খাদ্য যোগ করুন"</string>
+    <string name="core_first_meal" formatted="false">"আপনার প্রথম খাবার দিয়ে শুরু করুন"</string>
+    <string name="core_first_meal_help" formatted="false">"ক্যালোরি এবং ম্যাক্রো গণনা করার জন্য একটি খাদ্য চয়ন করুন এবং গ্রাম এর ওজন লিখুন।"</string>
+    <string name="core_my_day" formatted="false">"আমার দিন"</string>
+    <string name="core_my_day_help" formatted="false">"ওজন, কোমর, পদক্ষেপ, ঘুম — আপনি যা জানেন তা রেকর্ড করুন।"</string>
+    <string name="core_record_metrics" formatted="false">"রেকর্ড পরিমাপ"</string>
+    <string name="core_edit_metrics" formatted="false">"পরিমাপ সম্পাদনা করুন"</string>
+    <string name="core_food_state_hint" formatted="false">"খাদ্য ওজন এবং পুষ্টির মান একই অবস্থা উল্লেখ করা আবশ্যক: কাঁচা, শুকনো বা রান্না করা."</string>
+    <string name="core_weight" formatted="false">"ওজন"</string>
+    <string name="core_waist" formatted="false">"কোমর"</string>
+    <string name="core_my_diary" formatted="false">"আমার ডায়েরি"</string>
+    <string name="core_diary_tagline" formatted="false">"প্রতিদিন আপনার নিজের গতিতে"</string>
+    <string name="core_record_day" formatted="false">"+ একটি দিন রেকর্ড করুন"</string>
+    <string name="core_optional_diary_help" formatted="false">"সমস্ত পরিমাপ ঐচ্ছিক. আপনি শুধু আপনার ওজন, ঘুম বা একটি নোট রেকর্ড করতে পারেন। এটি সম্পাদনা করতে একটি এন্ট্রি আলতো চাপুন৷"</string>
+    <string name="core_history_starts" formatted="false">"আপনার ইতিহাস এখানে শুরু হয়"</string>
+    <string name="core_history_help" formatted="false">"পরিমাপ রেকর্ড করুন এবং চার্টে পরিবর্তনগুলি অনুসরণ করুন।"</string>
+    <string name="core_file_unavailable" formatted="false">"ফাইল অনুপলব্ধ"</string>
+    <string name="core_backup_saved" formatted="false">"ব্যাকআপ সংরক্ষিত"</string>
+    <string name="core_export_error" formatted="false">"ব্যাকআপ রপ্তানি করা যায়নি"</string>
+    <string name="core_read_error" formatted="false">"ফাইল পড়া যায়নি"</string>
+    <string name="core_settings_tagline" formatted="false">"সেটিংস এবং ডেটা ব্যাকআপ"</string>
+    <string name="core_your_progress" formatted="false">"আপনার অগ্রগতি"</string>
+    <string name="core_achievements_help" formatted="false">"একটি ডায়েরি অভ্যাস গড়ে তোলার জন্য ছোট অর্জন।"</string>
+    <string name="core_achievements" formatted="false">"অর্জন"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"আপনার ডিভাইস জুড়ে আপনার ডায়েরি সিঙ্ক করার জন্য একটি ঐচ্ছিক সংযোগ।"</string>
+    <string name="core_cloud_sync" formatted="false">"ক্লাউড সিঙ্ক"</string>
+    <string name="core_personal_goals" formatted="false">"ব্যক্তিগত লক্ষ্য"</string>
+    <string name="core_personal_goals_help" formatted="false">"আপনার ক্যালোরি, ম্যাক্রো এবং লক্ষ্য ওজন লক্ষ্য ম্যানুয়ালি সেট করুন। যে কোনো গোল ফাঁকা রাখা যেতে পারে।"</string>
+    <string name="core_configure_goals" formatted="false">"লক্ষ্য নির্ধারণ করুন"</string>
+    <string name="core_backup" formatted="false">"ব্যাকআপ"</string>
+    <string name="core_backup_help" formatted="false">"খাবার, খাবার, ডায়েরি, লক্ষ্য এবং অর্জন এক ফাইলে। অ্যাপটি পুনরায় ইনস্টল করার আগে একটি ব্যাকআপ সংরক্ষণ করুন।"</string>
+    <string name="core_save_file" formatted="false">"একটি ফাইল সংরক্ষণ করুন"</string>
+    <string name="core_restore_file" formatted="false">"একটি ফাইল থেকে পুনরুদ্ধার করুন"</string>
+    <string name="core_write_locked" formatted="false">"মূল ফাইল রক্ষা করার জন্য সংরক্ষণ নিষ্ক্রিয় করা হয়েছে। একটি বৈধ ব্যাকআপ পুনরুদ্ধার করুন।"</string>
+    <string name="core_about_data" formatted="false">"অ্যাপ এবং আপনার ডেটা সম্পর্কে"</string>
+    <string name="core_about_data_help" formatted="false">"কিভাবে রেকর্ড সংরক্ষণ করা হয়, সিঙ্ক কাজ করে এবং ডেটা মুছে ফেলা হয়।"</string>
+    <string name="core_privacy" formatted="false">"গোপনীয়তা এবং ডেটা মুছে ফেলা"</string>
+    <string name="core_offline" formatted="false">"অফলাইনে কাজ করে"</string>
+    <string name="core_offline_help" formatted="false">"Google সাইন-ইন ঐচ্ছিক। ধাপ এবং ঘুম ম্যানুয়ালি প্রবেশ করা হয়. সক্ষম সিঙ্ক এবং বিজ্ঞাপন লোড করার জন্য একটি ইন্টারনেট সংযোগ প্রয়োজন৷ ডায়েরি এন্ট্রি বিজ্ঞাপন নেটওয়ার্কে পাঠানো হয় না."</string>
+    <string name="core_about_foods" formatted="false">"খাবার সম্পর্কে"</string>
+    <string name="core_foods_reference" formatted="false">"অন্তর্নির্মিত মানগুলি প্রতি 100 গ্রাম ভোজ্য অংশের অনুমান। সঠিক মানগুলির জন্য প্যাকেজিং পরীক্ষা করুন। একটি খাদ্য সম্পাদনা পূর্ববর্তী খাবার এন্ট্রি পুনঃগণনা করে না।"</string>
+    <string name="core_foods_source" formatted="false">"ডাটাবেস উৎস: USDA ফুডডেটা সেন্ট্রাল, এসআর লিগ্যাসি। পৃথক খাদ্য তাদের রাষ্ট্র এবং উত্স বিবরণ অন্তর্ভুক্ত."</string>
+    <string name="core_restore_title" formatted="false">"এই ব্যাকআপ পুনরুদ্ধার করবেন?"</string>
+    <string name="core_restore_warning" formatted="false">"আপনার বর্তমান খাবার, ডায়েরি, লক্ষ্য এবং অর্জন এই ফাইলের বিষয়বস্তুর সাথে প্রতিস্থাপিত হবে। প্রথমে একটি ব্যাকআপ সংরক্ষণ করুন। সিঙ্ক সংযুক্ত থাকলে, পুনরুদ্ধার করা পরিবর্তনগুলিও Google Drive এ পাঠানো হবে৷"</string>
+    <string name="core_backup_restored" formatted="false">"ব্যাকআপ পুনরুদ্ধার করা হয়েছে"</string>
+    <string name="core_invalid_file" formatted="false">"অবৈধ ফাইল"</string>
+    <string name="core_replace_data" formatted="false">"ডেটা প্রতিস্থাপন করুন"</string>
+    <string name="core_cancel" formatted="false">"বাতিল করুন"</string>
+    <string name="core_save" formatted="false">"সংরক্ষণ করুন"</string>
+    <string name="core_calculate_portion" formatted="false">"একটি অংশ গণনা"</string>
+    <string name="core_edit_portion" formatted="false">"অংশ সম্পাদনা করুন"</string>
+    <string name="core_portion_weight" formatted="false">"অংশ ওজন, ছ"</string>
+    <string name="core_portion_invalid" formatted="false">"0-এর বেশি এবং 100,000 গ্রামের বেশি নয় এমন একটি ওজন লিখুন"</string>
+    <string name="core_add_to_diary" formatted="false">"ডায়েরিতে যোগ করুন"</string>
+    <string name="core_delete_entry" formatted="false">"এন্ট্রি মুছুন"</string>
+    <string name="core_delete_portion_question" formatted="false">"আপনার ডায়েরি থেকে এই অংশটি মুছবেন?"</string>
+    <string name="core_new_food" formatted="false">"নতুন খাবার বা থালা"</string>
+    <string name="core_edit_nutrition" formatted="false">"পুষ্টির মান সম্পাদনা করুন"</string>
+    <string name="core_name" formatted="false">"নাম"</string>
+    <string name="core_food" formatted="false">"খাদ্য"</string>
+    <string name="core_dish" formatted="false">"প্রস্তুত থালা"</string>
+    <string name="core_category" formatted="false">"বিভাগ"</string>
+    <string name="core_per100_hint" formatted="false">"প্যাকেজিং বা একটি রেসিপি থেকে প্রতি 100 গ্রাম মান। একটি পুষ্টি অনুপস্থিত থাকলে 0 লিখুন।"</string>
+    <string name="core_kcal" formatted="false">"ক্যালোরি"</string>
+    <string name="core_protein_grams" formatted="false">"প্রোটিন, জি"</string>
+    <string name="core_fat_grams" formatted="false">"চর্বি, ছ"</string>
+    <string name="core_carbs_grams" formatted="false">"কার্বোহাইড্রেট, জি"</string>
+    <string name="core_food_note" formatted="false">"নোট, উপাদান (ঐচ্ছিক)"</string>
+    <string name="core_favorite" formatted="false">"ফেভারিটে যোগ করুন"</string>
+    <string name="core_name_category_required" formatted="false">"একটি নাম এবং বিভাগ লিখুন"</string>
+    <string name="core_nutrition_invalid" formatted="false">"প্রতি 100 গ্রাম মান লিখুন: ক্যালোরি 0-1,000; প্রোটিন, চর্বি এবং কার্বোহাইড্রেট 0-100 গ্রাম"</string>
+    <string name="core_delete_food" formatted="false">"খাবার থেকে মুছুন"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"পূর্ববর্তী খাবার এন্ট্রি তাদের মান রাখা হবে."</string>
+    <string name="core_delete_food_question" formatted="false">"এই খাবারটি মুছবেন? এর ডায়েরি এন্ট্রি রাখা হবে।"</string>
+    <string name="core_day_entry" formatted="false">"দৈনিক এন্ট্রি"</string>
+    <string name="core_optional_fields" formatted="false">"আপনি চান যে কোনো ক্ষেত্র পূরণ করুন. বাকিগুলো ফাঁকা রেখে দিন।"</string>
+    <string name="core_editing_existing" formatted="false">"এই তারিখের জন্য ইতিমধ্যে একটি এন্ট্রি আছে. আপনি এটি সম্পাদনা করছেন."</string>
+    <string name="core_weight_kg" formatted="false">"ওজন, কেজি"</string>
+    <string name="core_waist_cm" formatted="false">"কোমর, সেমি"</string>
+    <string name="core_steps" formatted="false">"ধাপ"</string>
+    <string name="core_sleep" formatted="false">"ঘুম"</string>
+    <string name="core_hours" formatted="false">"ঘন্টা"</string>
+    <string name="core_minutes" formatted="false">"মিনিট"</string>
+    <string name="core_body_fat_optional" formatted="false">"স্কেল শরীরের চর্বি,% (ঐচ্ছিক)"</string>
+    <string name="core_body_fat_hint" formatted="false">"একটি স্কেল থেকে শরীরের চর্বি একটি প্রবণতা সূচক, একটি সুনির্দিষ্ট পরিমাপ নয়।"</string>
+    <string name="core_strength_training" formatted="false">"শক্তি প্রশিক্ষণ"</string>
+    <string name="core_training_example" formatted="false">"উদাহরণস্বরূপ: স্কোয়াটস 3×10, 12 কেজি ডাম্বেল"</string>
+    <string name="core_manual_nutrition" formatted="false">"ম্যানুয়াল পুষ্টি মোট"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"প্রবেশ করা হলে, এই মানগুলি দিনের জন্য খাদ্যের মোটকে ওভাররাইড করে। স্বয়ংক্রিয় গণনার জন্য ফাঁকা রাখুন।"</string>
+    <string name="core_daily_calories" formatted="false">"দৈনিক ক্যালোরি"</string>
+    <string name="core_daily_protein" formatted="false">"দৈনিক প্রোটিন, জি"</string>
+    <string name="core_wellbeing_notes" formatted="false">"নোট এবং আপনি কেমন অনুভব করেন"</string>
+    <string name="core_steps_invalid" formatted="false">"ধাপ: 0 থেকে 200,000 পর্যন্ত একটি পূর্ণ সংখ্যা"</string>
+    <string name="core_sleep_invalid" formatted="false">"ঘুম: 0-24 ঘন্টা, মিনিট 0-59"</string>
+    <string name="core_body_fat" formatted="false">"শরীরের চর্বি"</string>
+    <string name="core_calories" formatted="false">"ক্যালোরি"</string>
+    <string name="core_protein" formatted="false">"প্রোটিন"</string>
+    <string name="core_entry_required" formatted="false">"কমপক্ষে একটি পরিমাপ বা একটি নোট যোগ করুন"</string>
+    <string name="core_delete_day" formatted="false">"এই দৈনিক এন্ট্রি মুছুন"</string>
+    <string name="core_optional_goals" formatted="false">"সমস্ত লক্ষ্য ঐচ্ছিক। একটি ফাঁকা ক্ষেত্র মানে কোন লক্ষ্য সেট করা নেই।"</string>
+    <string name="core_calories_per_day" formatted="false">"প্রতিদিন ক্যালোরি"</string>
+    <string name="core_protein_per_day" formatted="false">"প্রতিদিন প্রোটিন, ছ"</string>
+    <string name="core_fat_per_day" formatted="false">"প্রতিদিন ফ্যাট, ছ"</string>
+    <string name="core_carbs_per_day" formatted="false">"প্রতিদিন কার্বোহাইড্রেট, ছ"</string>
+    <string name="core_target_weight" formatted="false">"লক্ষ্য ওজন, কেজি"</string>
+    <string name="core_goals_invalid" formatted="false">"আপনার লক্ষ্য পরীক্ষা করুন: ক্যালোরি 0-10,000; প্রোটিন, চর্বি এবং কার্বোহাইড্রেট 0-1,000 গ্রাম"</string>
+    <string name="core_target_weight_invalid" formatted="false">"লক্ষ্য ওজন: 1 থেকে 500 কেজি পর্যন্ত"</string>
+    <string name="core_delete_question" formatted="false">"মুছবেন?"</string>
+    <string name="core_delete" formatted="false">"মুছুন"</string>
+    <string name="core_select_food" formatted="false">"খাদ্য চয়ন করুন"</string>
+    <string name="core_foods_dishes" formatted="false">"খাবার এবং খাবার"</string>
+    <string name="core_search_food" formatted="false">"একটি খাবার বা থালা সন্ধান করুন"</string>
+    <string name="core_new_food_button" formatted="false">"+ খাবার / থালা"</string>
+    <string name="core_recipe_button" formatted="false">"একটি রেসিপি থেকে"</string>
+    <string name="core_no_results" formatted="false">"কোন ফলাফল নেই"</string>
+    <string name="core_no_results_help" formatted="false">"অন্য অনুসন্ধান চেষ্টা করুন বা আপনার নিজের খাবার বা প্রস্তুত থালা যোগ করুন."</string>
+    <string name="core_edit" formatted="false">"সম্পাদনা করুন"</string>
+    <string name="core_achievement_unlocked">"🏆 অর্জন আনলক করা হয়েছে! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal বাকি · লক্ষ্য %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal আপনার লক্ষ্যের উপরে"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"প্রোটিন %1$s   চর্বি %2$s   কার্বোহাইড্রেট %3$s"</string>
+    <string name="core_weight_summary">"ওজন %1$s কেজি"</string>
+    <string name="core_waist_summary">"কোমর %1$s সেমি"</string>
+    <string name="core_steps_summary">"ধাপ: %1$s"</string>
+    <string name="core_fat_summary">"শরীরের চর্বি %1$s_%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (ম্যানুয়াল)"</string>
+    <string name="core_manual_protein">"প্রোটিন %1$s গ্রাম (ম্যানুয়াল)"</string>
+    <string name="core_kg_value">"%1$s কেজি"</string>
+    <string name="core_cm_value">"%1$s সেমি"</string>
+    <string name="core_sleep_value">"ঘুম %1$s"</string>
+    <string name="core_scale_fat">"স্কেল শরীরের চর্বি %1$s_%%"</string>
+    <string name="core_training_value">"প্রশিক্ষণ: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"প্রোটিন %1$s গ্রাম"</string>
+    <string name="core_app_version">"ডায়েট ডায়েরি · %1$s"</string>
+    <string name="core_per100_summary">"প্রতি 100 গ্রাম: %1$s kcal · প্রোটিন %2$s · চর্বি %3$s · কার্বোহাইড্রেট %4$s"</string>
+    <string name="core_range_invalid">"%1$s: %2$s থেকে %3$s পর্যন্ত একটি মান লিখুন"</string>
+    <string name="core_delete_day_question">"%1$s এর পরিমাপ মুছবেন? খাবারের এন্ট্রি রাখা হবে।"</string>
+    <string name="core_catalog_count">"খাবার: %1$s · প্রতি 100 গ্রাম"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   প্রোটিন %2$s   চর্বি %3$s   কার্বোহাইড্রেট %4$s"</string>
+    <string name="core_today_date">"আজ · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"ক্যালোরি এবং প্রোটিন আপনার ডায়েরি থেকে ম্যানুয়াল টোটাল"</string>
+    <string name="core_manual_calorie_total" formatted="false">"ক্যালোরি আপনার ডায়েরি থেকে ম্যানুয়াল মোট"</string>
+    <string name="core_manual_protein_total" formatted="false">"প্রোটিন আপনার ডায়েরি থেকে একটি ম্যানুয়াল মোট"</string>
+    <string name="core_macro_goals">"P / F / C লক্ষ্য: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"কিলোক্যালরি"</string>
+    <string name="core_manual_values">"%1$s (ম্যানুয়াল)"</string>
+    <string name="core_all" formatted="false">"সব"</string>
+    <string name="core_favorites" formatted="false">"প্রিয়"</string>
+    <string name="core_sleep_duration">"%1$s ঘন্টা %2$s মিনিট"</string>
+    <string name="core_previous_day" formatted="false">"আগের দিন"</string>
+    <string name="core_next_day" formatted="false">"পরের দিন"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"মাইগ্রেশন ব্যাকআপ মেলে না"</string>
+    <string name="data_entry_exists" formatted="false">"এই খাদ্য এন্ট্রি ইতিমধ্যেই বিদ্যমান"</string>
+    <string name="data_entry_missing" formatted="false">"খাদ্য এন্ট্রি পাওয়া যায়নি"</string>
+    <string name="data_edited_date_changed" formatted="false">"সম্পাদনা করা হচ্ছে এন্ট্রি তারিখ পরিবর্তিত হয়েছে"</string>
+    <string name="data_device_id_corrupt" formatted="false">"স্থানীয় ডিভাইস ID ক্ষতিগ্রস্ত হয়েছে; পুনরুদ্ধার অবরুদ্ধ"</string>
+    <string name="data_sync_invalid" formatted="false">"অবৈধ সিঙ্ক্রোনাইজেশন ডেটা"</string>
+    <string name="data_diary_read_only" formatted="false">"ডায়েরিটি ওভাররাইটিং থেকে সুরক্ষিত: একটি ব্যাকআপ পুনরুদ্ধার করুন"</string>
+    <string name="data_diary_inconsistent" formatted="false">"ডায়েরি তথ্য অসঙ্গত"</string>
+    <string name="data_backup_too_large" formatted="false">"ব্যাকআপ খুব বড়"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ইনস্টলেশন ID ক্ষতিগ্রস্ত হয়েছে"</string>
+    <string name="data_save_verification_failed" formatted="false">"ডায়েরিটি সংরক্ষিত ছিল তা যাচাই করা যায়নি"</string>
+    <string name="data_save_failed" formatted="false">"ডায়েরি সংরক্ষণ করা যায়নি"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"ব্যাকআপ 50 MB এর চেয়ে বড়"</string>
+    <string name="data_diary_file_too_large" formatted="false">"ডায়েরি ফাইলটি খুব বড়"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"অবৈধ খাদ্য ডাটাবেস আকার"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"অসমর্থিত ব্যাকআপ সংস্করণ"</string>
+    <string name="data_too_many_values">"%1$s এ অনেক বেশি মান"</string>
+    <string name="data_too_many_products" formatted="false">"অনেক খাবার"</string>
+    <string name="data_too_many_entries" formatted="false">"অনেক খাদ্য এন্ট্রি"</string>
+    <string name="data_too_many_logs" formatted="false">"অনেক ডায়েরি এন্ট্রি"</string>
+    <string name="data_product_id_duplicate" formatted="false">"ডুপ্লিকেট খাবার ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"ডুপ্লিকেট খাদ্য এন্ট্রি ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"ডুপ্লিকেট ডায়েরি তারিখ"</string>
+    <string name="data_label_product_id" formatted="false">"খাদ্য ID"</string>
+    <string name="data_label_product_name" formatted="false">"খাবারের নাম"</string>
+    <string name="data_label_category" formatted="false">"বিভাগ"</string>
+    <string name="data_label_note" formatted="false">"নোট"</string>
+    <string name="data_label_entry_id" formatted="false">"এন্ট্রি ID"</string>
+    <string name="data_label_meal" formatted="false">"খাবার"</string>
+    <string name="data_food_weight_range" formatted="false">"খাদ্যের ওজন অবশ্যই 0 এর বেশি এবং 100000 গ্রাম এর বেশি হওয়া উচিত নয়"</string>
+    <string name="data_label_weight" formatted="false">"ওজন"</string>
+    <string name="data_label_waist" formatted="false">"কোমর"</string>
+    <string name="data_steps_range" formatted="false">"ধাপের সংখ্যা অবশ্যই 0 থেকে 200000 এর মধ্যে হতে হবে"</string>
+    <string name="data_label_sleep" formatted="false">"ঘুম"</string>
+    <string name="data_label_body_fat" formatted="false">"শরীরের চর্বি"</string>
+    <string name="data_label_daily_calories" formatted="false">"দৈনিক ক্যালোরি"</string>
+    <string name="data_label_daily_protein" formatted="false">"দৈনিক প্রোটিন"</string>
+    <string name="data_label_workout" formatted="false">"ওয়ার্কআউট"</string>
+    <string name="data_label_log_note" formatted="false">"নোট"</string>
+    <string name="data_log_empty" formatted="false">"কমপক্ষে একটি পরিমাপ বা নোট লিখুন"</string>
+    <string name="data_label_goal_weight" formatted="false">"লক্ষ্য ওজন"</string>
+    <string name="data_too_many_achievements" formatted="false">"অনেক অর্জন"</string>
+    <string name="data_achievement_invalid" formatted="false">"অবৈধ অর্জন"</string>
+    <string name="data_setting_not_portable" formatted="false">"এই সেটিং স্থানান্তর করা যাবে না"</string>
+    <string name="data_setting_invalid">"%1$s সেটিং এর জন্য অবৈধ মান"</string>
+    <string name="data_label_calories" formatted="false">"ক্যালোরি"</string>
+    <string name="data_label_protein" formatted="false">"প্রোটিন"</string>
+    <string name="data_label_fat" formatted="false">"চর্বি"</string>
+    <string name="data_label_carbs" formatted="false">"কার্বোহাইড্রেট"</string>
+    <string name="data_value_range">"%1$s: অনুমোদিত পরিসীমা %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: অবৈধ দৈর্ঘ্য"</string>
+    <string name="data_text_character_invalid">"%1$s: অবৈধ অক্ষর"</string>
+    <string name="data_date_format_invalid" formatted="false">"তারিখটি অবশ্যই YYYY-MM-DD ফর্ম্যাট ব্যবহার করবে৷"</string>
+    <string name="data_date_nonexistent">"অবৈধ তারিখ: %1$s"</string>
+    <string name="data_field_string_required">"ফিল্ড %1$s টেক্সট হতে হবে"</string>
+    <string name="data_field_boolean_required">"ফিল্ড %1$s একটি বুলিয়ান মান হতে হবে"</string>
+    <string name="data_field_number_required">"ক্ষেত্র %1$s একটি সংখ্যা হতে হবে"</string>
+    <string name="data_field_finite_required">"ক্ষেত্র %1$s একটি সসীম সংখ্যা হতে হবে"</string>
+    <string name="data_field_integer_required">"ক্ষেত্র %1$s একটি পূর্ণসংখ্যা হতে হবে"</string>
+    <string name="data_too_many_items">"%1$s এ অনেকগুলি আইটেম"</string>
+    <string name="data_data_file_invalid">"অবৈধ ডেটা ফাইল: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"ডিভাইস ID অনুপস্থিত"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"লজিক্যাল ঘড়ির সীমা পৌঁছে গেছে"</string>
+    <string name="data_too_many_sync_records" formatted="false">"অনেক বেশি সিঙ্ক্রোনাইজেশন রেকর্ড"</string>
+    <string name="data_sync_version_required" formatted="false">"সিঙ্ক্রোনাইজেশন ফর্ম্যাট সংস্করণ 2 প্রয়োজন"</string>
+    <string name="data_sync_key_invalid" formatted="false">"অবৈধ সিঙ্ক্রোনাইজেশন কী"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"ডুপ্লিকেট সিঙ্ক্রোনাইজেশন কী"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"অবৈধ মুছে ফেলা পতাকা"</string>
+    <string name="data_sync_data_invalid" formatted="false">"অবৈধ সিঙ্ক্রোনাইজেশন ডেটা"</string>
+    <string name="data_record_clock_invalid" formatted="false">"রেকর্ড সংস্করণ লজিক্যাল ঘড়ি ছাড়িয়ে গেছে"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"ডেটা সিঙ্ক্রোনাইজেশন মেটাডেটার সাথে মেলে না"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"অবৈধ সিঙ্ক্রোনাইজেশন কী দৈর্ঘ্য"</string>
+    <string name="data_sync_key_malformed" formatted="false">"বিকৃত সিঙ্ক্রোনাইজেশন কী"</string>
+    <string name="data_sync_type_unknown" formatted="false">"অজানা সিঙ্ক্রোনাইজেশন প্রকার"</string>
+    <string name="data_record_id_too_long" formatted="false">"রেকর্ড ID খুব দীর্ঘ"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"অবৈধ অর্জন মুছে ফেলা"</string>
+    <string name="data_log_key_invalid" formatted="false">"অবৈধ ডায়েরি কী"</string>
+    <string name="data_log_field_unknown" formatted="false">"অজানা ডায়েরি ক্ষেত্র"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"অবৈধ ডায়েরি মুছে ফেলার মার্কার"</string>
+    <string name="data_goal_unknown" formatted="false">"অজানা গোল"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"একটি মুছে ফেলা রেকর্ডে ডেটা রয়েছে"</string>
+    <string name="data_sync_value_invalid" formatted="false">"অবৈধ সিঙ্ক্রোনাইজেশন মান"</string>
+    <string name="data_record_id_mismatch" formatted="false">"রেকর্ড ID কী এর সাথে মেলে না"</string>
+    <string name="data_field_value_invalid" formatted="false">"অবৈধ ক্ষেত্রের মান"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"কৃতিত্বের তারিখ কী এর সাথে মেলে না"</string>
+    <string name="data_note_string_required" formatted="false">"নোটটি অবশ্যই পাঠ্য হতে হবে"</string>
+    <string name="data_sync_note_invalid" formatted="false">"অবৈধ সিঙ্ক্রোনাইজড নোট"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"অবৈধ লজিক্যাল ঘড়ি"</string>
+    <string name="data_device_invalid" formatted="false">"অবৈধ ডিভাইস"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"অবৈধ সংস্করণ স্ট্যাম্প"</string>
+    <string name="data_google_login_required" formatted="false">"আবার Google এ সাইন ইন করুন"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"অনেক ক্লাউড ব্যাকআপ"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive একটি পুনরাবৃত্তি পৃষ্ঠা ফিরিয়ে দিয়েছে"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"ক্লাউড ব্যাকআপ 50 MB এর থেকে বড়"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive একটি আপলোড ঠিকানা ফেরত দেয়নি৷"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"অবৈধ Google Drive আপলোড ঠিকানা"</string>
+    <string name="data_back" formatted="false">"‹ ফিরে"</string>
+    <string name="data_cloud_title" formatted="false">"ক্লাউড সিঙ্ক"</string>
+    <string name="data_cloud_subtitle" formatted="false">"আপনার ডিভাইস জুড়ে আপনার ডায়েরি"</string>
+    <string name="data_no_account" formatted="false">"কোনো অ্যাকাউন্ট সংযুক্ত নেই"</string>
+    <string name="data_cloud_intro" formatted="false">"সাইন-ইন ঐচ্ছিক। খাবার, খাবার, পরিমাপ, লক্ষ্য এবং কৃতিত্ব আপনার ফোনে সংরক্ষণ করা হয়। একবার সংযুক্ত হলে, একটি অনুলিপি আপনার Google Drive-এ একটি লুকানো ফোল্ডারে সংরক্ষণ করা হবে৷"</string>
+    <string name="data_cloud_first_connection" formatted="false">"এন্ট্রিগুলি প্রথম সংযোগে একত্রিত হয়। অ্যাপটি আপনার ড্রাইভের অন্যান্য ফাইল অ্যাক্সেস করতে পারবে না।"</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Google সাইন-ইন এখনও এই বিল্ডের জন্য কনফিগার করা হয়নি৷ ডায়েরি এবং ফাইল ব্যাকআপ একটি অ্যাকাউন্ট ছাড়া কাজ."</string>
+    <string name="data_connect_google" formatted="false">"সংযোগ করুন Google"</string>
+    <string name="data_automatic_sync" formatted="false">"স্বয়ংক্রিয় সিঙ্ক"</string>
+    <string name="data_automatic_sync_description" formatted="false">"যখন ডেটা পরিবর্তন হয় এবং পটভূমিতে যখন Android অনুমতি দেয়"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"সময়সূচী পরিবর্তন করা যায়নি. আপনার ডেটা এই ডিভাইসে সংরক্ষিত আছে।"</string>
+    <string name="data_sync_start_failed" formatted="false">"সিঙ্ক শুরু করা যায়নি। আপনার ডেটা এই ডিভাইসে সংরক্ষিত আছে।"</string>
+    <string name="data_sync_now" formatted="false">"এখন সিঙ্ক করুন"</string>
+    <string name="data_google_sign_in_again" formatted="false">"আবার Google এ সাইন ইন করুন"</string>
+    <string name="data_disconnect_account" formatted="false">"অ্যাকাউন্ট সংযোগ বিচ্ছিন্ন করুন"</string>
+    <string name="data_sync_never" formatted="false">"এখনও কোন সিঙ্ক"</string>
+    <string name="data_offline_saved_title" formatted="false">"আপনার ডেটা অফলাইনে সংরক্ষিত হয়"</string>
+    <string name="data_cloud_merge_description" formatted="false">"স্বয়ংক্রিয় সিঙ্ক সক্ষম হলে, একটি সংযোগ উপলব্ধ হলে পরিবর্তনগুলি পাঠানো হয়। যদি একই ক্ষেত্র দুটি ডিভাইসে পরিবর্তিত হয়, তাহলে পরবর্তী পরিবর্তনের টাইমস্ট্যাম্প সহ সংস্করণটি ব্যবহার করা হয়। স্বাধীন এন্ট্রি এবং ক্ষেত্র একত্রিত করা হয়."</string>
+    <string name="data_cloud_password_description" formatted="false">"আপনি আপনার ব্রাউজারে শুধুমাত্র Google পৃষ্ঠায় আপনার পাসওয়ার্ড লিখুন। অ্যাক্সেস টোকেনগুলি Android কীস্টোর দ্বারা সুরক্ষিত এবং ব্যাকআপ থেকে বাদ দেওয়া হয়েছে৷"</string>
+    <string name="data_google_connection_title" formatted="false">"Google সংযোগ"</string>
+    <string name="data_got_it" formatted="false">"বুঝেছি"</string>
+    <string name="data_connect_drive_title" formatted="false">"Google Drive সংযোগ করবেন?"</string>
+    <string name="data_connect_drive_description" formatted="false">"আপনার বর্তমান ডায়েরি নির্বাচিত Google অ্যাকাউন্টের ডেটার সাথে একত্রিত হবে। আপনার ডিভাইসে একই ব্যক্তিগত অ্যাকাউন্ট ব্যবহার করুন। সাইন-ইন আপনার ডিফল্ট ব্রাউজারে খুলবে।"</string>
+    <string name="data_sign_in_open_failed" formatted="false">"সাইন-ইন খুলতে পারেনি৷ একটি ডিফল্ট ব্রাউজার ইনস্টল বা সক্ষম করুন এবং আবার চেষ্টা করুন৷"</string>
+    <string name="data_continue" formatted="false">"চালিয়ে যান"</string>
+    <string name="data_cancel" formatted="false">"বাতিল করুন"</string>
+    <string name="data_disconnect_title" formatted="false">"অ্যাকাউন্ট সংযোগ বিচ্ছিন্ন করবেন?"</string>
+    <string name="data_disconnect_description" formatted="false">"এই ডিভাইসে সিঙ্ক বন্ধ হয়ে যাবে। আপনার স্থানীয় ডায়েরি এবং Google Drive এর কপি রাখা হবে। আপনি আপনার Google অ্যাকাউন্ট সেটিংসে অ্যাপের অনুমতি পরিচালনা করতে পারেন।"</string>
+    <string name="data_disconnect_failed" formatted="false">"অ্যাকাউন্ট সংযোগ বিচ্ছিন্ন করা যায়নি. আবার চেষ্টা করুন."</string>
+    <string name="data_disconnect" formatted="false">"সংযোগ বিচ্ছিন্ন করুন"</string>
+    <string name="data_google_not_connected" formatted="false">"Google সংযুক্ত নয়"</string>
+    <string name="data_sync_ready" formatted="false">"সিঙ্ক করার জন্য প্রস্তুত"</string>
+    <string name="data_sync_changes_pending" formatted="false">"পরিবর্তনগুলি সিঙ্কের জন্য অপেক্ষা করছে..."</string>
+    <string name="data_offline_changes_saved" formatted="false">"ইন্টারনেট সংযোগ নেই। পরিবর্তন এই ডিভাইসে সংরক্ষিত হয়."</string>
+    <string name="data_google_not_configured" formatted="false">"Google সাইন-ইন এখনও এই বিল্ডের জন্য কনফিগার করা হয়নি৷"</string>
+    <string name="data_sync_wait" formatted="false">"সিঙ্ক শেষ হওয়ার জন্য অপেক্ষা করুন"</string>
+    <string name="data_google_connecting" formatted="false">"সংযোগ করা হচ্ছে Google..."</string>
+    <string name="data_connection_cancelled" formatted="false">"সংযোগ বাতিল করা হয়েছে"</string>
+    <string name="data_connection_rejected" formatted="false">"সংযোগ Google দ্বারা বাতিল বা প্রত্যাখ্যান করা হয়েছে"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google সংযুক্ত। এন্ট্রি মার্জ করা হচ্ছে..."</string>
+    <string name="data_google_connection_failed" formatted="false">"Google সংযোগ করা যায়নি। আপনার ইন্টারনেট সংযোগ এবং অ্যাক্সেস সেটিংস পরীক্ষা করুন।"</string>
+    <string name="data_account_disconnected" formatted="false">"অ্যাকাউন্ট সংযোগ বিচ্ছিন্ন। আপনার ডেটা এই ডিভাইসে থেকে যায়।"</string>
+    <string name="data_sync_waiting_network" formatted="false">"ইন্টারনেট সংযোগ নেই। সিঙ্ক একটি সংযোগের জন্য অপেক্ষা করছে৷"</string>
+    <string name="data_sync_scheduled" formatted="false">"সিঙ্ক নির্ধারিত হয়েছে..."</string>
+    <string name="data_sync_running" formatted="false">"সিঙ্ক হচ্ছে..."</string>
+    <string name="data_sync_complete" formatted="false">"সিঙ্ক সম্পূর্ণ"</string>
+    <string name="data_no_internet" formatted="false">"ইন্টারনেট সংযোগ নেই"</string>
+    <string name="data_sync_failed_saved" formatted="false">"সিঙ্ক করা যায়নি। আপনার ডেটা এই ডিভাইসে সংরক্ষিত আছে"</string>
+    <string name="data_page_open_failed" formatted="false">"পৃষ্ঠা খুলতে পারেনি. আপনি নীচের পাঠ্য থেকে এর ঠিকানা অনুলিপি করতে পারেন।"</string>
+    <string name="data_privacy_title" formatted="false">"গোপনীয়তা"</string>
+    <string name="data_privacy_subtitle" formatted="false">"আপনার রেকর্ড এবং ডেটা নিয়ন্ত্রণ"</string>
+    <string name="data_app_purpose" formatted="false">"এই অ্যাপ সম্পর্কে"</string>
+    <string name="data_medical_disclaimer" formatted="false">"এই অ্যাপটি কোনো মেডিকেল ডিভাইস নয়। এটি কোনো রোগ নির্ণয়, চিকিৎসা, নিরাময় বা প্রতিরোধ করে না। চিকিৎসা পরামর্শ, রোগ নির্ণয় এবং চিকিৎসার জন্য একজন যোগ্য স্বাস্থ্যসেবা পেশাদারের সাথে পরামর্শ করুন।"</string>
+    <string name="data_manage_delete_data" formatted="false">"ডেটা পরিচালনা এবং মুছুন"</string>
+    <string name="data_delete_data_intro" formatted="false">"সমস্ত ডেটা মুছে ফেলার আগে, আপনার সমস্ত ডিভাইসে সিঙ্ক বন্ধ করুন৷ আপনার ফোন থেকে অ্যাপ আনইনস্টল করলে Google Drive বা এক্সপোর্ট করা ফাইলের কপি মুছে যায় না।"</string>
+    <string name="data_manage_drive_data" formatted="false">"Google Drive ডেটা পরিচালনা করুন"</string>
+    <string name="data_google_account_access" formatted="false">"Google অ্যাকাউন্ট অ্যাক্সেস"</string>
+    <string name="data_android_app_storage" formatted="false">"Android এ অ্যাপ স্টোরেজ"</string>
+    <string name="data_contact_developer" formatted="false">"বিকাশকারীর সাথে যোগাযোগ করুন"</string>
+    <string name="data_opening_page" formatted="false">"একটি পৃষ্ঠা খোলা হচ্ছে"</string>
+    <string name="data_advertisement" formatted="false">"বিজ্ঞাপন"</string>
+    <string name="data_ad_information" formatted="false">"এই বিজ্ঞাপন সম্পর্কে"</string>
+    <string name="data_cloud_http_error">"ক্লাউড HTTP ত্রুটি %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"ক্লাউড প্রতিক্রিয়া খুব বড়"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"অবৈধ এনক্রিপ্ট করা সাইন-ইন সেশন"</string>
+    <string name="data_session_save_failed" formatted="false">"সাইন-ইন সেশন সংরক্ষণ করা যায়নি৷"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Google এ অ্যাক্সেস রিফ্রেশ করা যায়নি"</string>
+    <string name="data_diary_read_failed">"ডায়েরি পড়তে পারিনি। মূল ফাইলটি রাখা হয়েছে। একটি ব্যাকআপ থেকে আপনার ডেটা পুনরুদ্ধার করুন। %1$s"</string>
+    <string name="data_last_sync">"শেষ সিঙ্ক: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"ফল এবং বেরি"</string>
+    <string name="data_category_dried_fruit" formatted="false">"শুকনো ফল"</string>
+    <string name="data_category_vegetables" formatted="false">"শাকসবজি এবং ভেষজ"</string>
+    <string name="data_category_mushrooms" formatted="false">"মাশরুম"</string>
+    <string name="data_category_grains" formatted="false">"শস্য এবং পাস্তা"</string>
+    <string name="data_category_legumes" formatted="false">"লেগুস"</string>
+    <string name="data_category_meat" formatted="false">"মাংস এবং হাঁস"</string>
+    <string name="data_category_fish" formatted="false">"মাছ এবং সীফুড"</string>
+    <string name="data_category_dairy" formatted="false">"ডেইরি"</string>
+    <string name="data_category_eggs" formatted="false">"ডিম"</string>
+    <string name="data_category_oils" formatted="false">"তেল এবং মাখন"</string>
+    <string name="data_category_nuts" formatted="false">"বাদাম এবং বীজ"</string>
+    <string name="data_category_bread" formatted="false">"রুটি"</string>
+    <string name="data_category_other" formatted="false">"অন্যান্য খাবার"</string>
+    <string name="data_category_dishes" formatted="false">"প্রস্তুত খাবার"</string>
+    <string name="data_category_custom" formatted="false">"আমার খাবার"</string>
+    <string name="data_category_other_short" formatted="false">"অন্যান্য"</string>
+    <string name="data_food_seed_9003" formatted="false">"ত্বক সহ আপেল"</string>
+    <string name="data_catalog_note_1">"ভোজ্য অংশের প্রতি 100 গ্রাম রেফারেন্স মান। কাঁচা খাবার। USDA কার্বোহাইড্রেট মান ফাইবার অন্তর্ভুক্ত। আপনি পণ্য লেবেল ব্যবহার করে মান সমন্বয় করতে পারেন. USDA SR Legacy, FDC %1$s।"</string>
+    <string name="data_food_seed_9040" formatted="false">"কলা, খোসা ছাড়ানো"</string>
+    <string name="data_food_seed_9021" formatted="false">"এপ্রিকট, পিটেড"</string>
+    <string name="data_food_seed_9037" formatted="false">"অ্যাভোকাডো মাংস"</string>
+    <string name="data_food_seed_9050" formatted="false">"ব্লুবেরি"</string>
+    <string name="data_food_seed_9070" formatted="false">"মিষ্টি চেরি, pitted"</string>
+    <string name="data_food_seed_9063" formatted="false">"টক চেরি, pitted"</string>
+    <string name="data_food_seed_9078" formatted="false">"ক্র্যানবেরি"</string>
+    <string name="data_food_seed_9083" formatted="false">"Blackcurrants"</string>
+    <string name="data_food_seed_9084" formatted="false">"লাল এবং সাদা currants"</string>
+    <string name="data_food_seed_9132" formatted="false">"আঙ্গুর"</string>
+    <string name="data_food_seed_9148" formatted="false">"কিউই মাংস"</string>
+    <string name="data_food_seed_9150" formatted="false">"লেবু, খোসা ছাড়ানো"</string>
+    <string name="data_food_seed_9181" formatted="false">"Cantaloupe মাংস"</string>
+    <string name="data_food_seed_9200" formatted="false">"কমলার মাংস"</string>
+    <string name="data_food_seed_9218" formatted="false">"ম্যান্ডারিন মাংস"</string>
+    <string name="data_food_seed_9236" formatted="false">"পীচ, পিট করা"</string>
+    <string name="data_food_seed_9252" formatted="false">"নাশপাতি"</string>
+    <string name="data_food_seed_9266" formatted="false">"আনারসের মাংস"</string>
+    <string name="data_food_seed_9279" formatted="false">"বরই, গর্ত"</string>
+    <string name="data_food_seed_9286" formatted="false">"ডালিমের বীজ"</string>
+    <string name="data_food_seed_9295" formatted="false">"পোমেলো মাংস"</string>
+    <string name="data_food_seed_9302" formatted="false">"রাস্পবেরি"</string>
+    <string name="data_food_seed_9316" formatted="false">"স্ট্রবেরি"</string>
+    <string name="data_food_seed_9326" formatted="false">"তরমুজের মাংস"</string>
+    <string name="data_food_seed_9191" formatted="false">"নেক্টারিন, পিটেড"</string>
+    <string name="data_food_seed_9176" formatted="false">"আমের মাংস"</string>
+    <string name="data_food_seed_9107" formatted="false">"গুজবেরি"</string>
+    <string name="data_food_seed_9226" formatted="false">"পেঁপের মাংস"</string>
+    <string name="data_food_seed_9089" formatted="false">"তাজা ডুমুর"</string>
+    <string name="data_food_seed_9111" formatted="false">"জাম্বুরার মাংস"</string>
+    <string name="data_food_seed_9032" formatted="false">"শুকনো এপ্রিকট, পিটেড"</string>
+    <string name="data_catalog_note_2">"ভোজ্য অংশের প্রতি 100 গ্রাম রেফারেন্স মান। USDA কার্বোহাইড্রেট মান ফাইবার অন্তর্ভুক্ত। আপনি পণ্য লেবেল ব্যবহার করে মান সমন্বয় করতে পারেন. USDA SR Legacy, FDC %1$s।"</string>
+    <string name="data_food_seed_9291" formatted="false">"ছাঁটাই, পিট করা"</string>
+    <string name="data_food_seed_9087" formatted="false">"তারিখ, pitted"</string>
+    <string name="data_food_seed_9298" formatted="false">"গাঢ় কিশমিশ, বীজহীন"</string>
+    <string name="data_food_seed_11529" formatted="false">"টাটকা টমেটো"</string>
+    <string name="data_food_seed_11205" formatted="false">"চামড়া সঙ্গে শসা"</string>
+    <string name="data_food_seed_11090" formatted="false">"কাঁচা ব্রকলি"</string>
+    <string name="data_food_seed_11109" formatted="false">"কাঁচা সাদা বাঁধাকপি"</string>
+    <string name="data_food_seed_11124" formatted="false">"কাঁচা গাজর"</string>
+    <string name="data_food_seed_11135" formatted="false">"কাঁচা ফুলকপি"</string>
+    <string name="data_food_seed_11143" formatted="false">"সেলারি ডালপালা"</string>
+    <string name="data_food_seed_11282" formatted="false">"কাঁচা পেঁয়াজ"</string>
+    <string name="data_food_seed_11291" formatted="false">"বসন্ত পেঁয়াজ"</string>
+    <string name="data_food_seed_11304" formatted="false">"কাঁচা সবুজ মটর"</string>
+    <string name="data_food_seed_11333" formatted="false">"সবুজ বেল মরিচ"</string>
+    <string name="data_food_seed_11821" formatted="false">"লাল মরিচ"</string>
+    <string name="data_food_seed_11352" formatted="false">"চামড়া সহ কাঁচা আলু"</string>
+    <string name="data_food_seed_11367" formatted="false">"সেদ্ধ আলু, খোসা ছাড়ানো"</string>
+    <string name="data_catalog_note_3">"ভোজ্য অংশের প্রতি 100 গ্রাম রেফারেন্স মান। যোগ করা লবণ নেই। USDA কার্বোহাইড্রেট মান ফাইবার অন্তর্ভুক্ত। আপনি পণ্য লেবেল ব্যবহার করে মান সমন্বয় করতে পারেন. USDA SR Legacy, FDC %1$s।"</string>
+    <string name="data_food_seed_11477" formatted="false">"কাঁচা জুচিনি"</string>
+    <string name="data_food_seed_11209" formatted="false">"কাঁচা বেগুন"</string>
+    <string name="data_food_seed_11422" formatted="false">"কাঁচা কুমড়া"</string>
+    <string name="data_food_seed_11429" formatted="false">"মূলা"</string>
+    <string name="data_food_seed_11564" formatted="false">"কাঁচা শালগম"</string>
+    <string name="data_food_seed_11080" formatted="false">"কাঁচা বীটরুট"</string>
+    <string name="data_food_seed_11081" formatted="false">"সিদ্ধ বীটরুট"</string>
+    <string name="data_food_seed_11215" formatted="false">"রসুন"</string>
+    <string name="data_food_seed_11216" formatted="false">"আদা মূল"</string>
+    <string name="data_food_seed_11457" formatted="false">"কাঁচা পালং শাক"</string>
+    <string name="data_food_seed_11253" formatted="false">"লেটুস পাতা"</string>
+    <string name="data_food_seed_11297" formatted="false">"টাটকা পার্সলে"</string>
+    <string name="data_food_seed_2045" formatted="false">"টাটকা ডিল"</string>
+    <string name="data_food_seed_11052" formatted="false">"কাঁচা সবুজ মটরশুটি"</string>
+    <string name="data_food_seed_11167" formatted="false">"সুইটকর্ন, কাঁচা দানা"</string>
+    <string name="data_food_seed_11260" formatted="false">"কাঁচা বোতাম মাশরুম"</string>
+    <string name="data_food_seed_11261" formatted="false">"সেদ্ধ বোতাম মাশরুম, লবণ ছাড়া"</string>
+    <string name="data_food_seed_11987" formatted="false">"কাঁচা ঝিনুক মাশরুম"</string>
+    <string name="data_food_seed_20009" formatted="false">"বকওয়াট শুষ্ক"</string>
+    <string name="data_catalog_note_4">"ভোজ্য অংশের প্রতি 100 গ্রাম রেফারেন্স মান। রোস্ট করা বাকউইট groats. USDA কার্বোহাইড্রেট মান ফাইবার অন্তর্ভুক্ত। আপনি পণ্য লেবেল ব্যবহার করে মান সমন্বয় করতে পারেন. USDA SR Legacy, FDC %1$s।"</string>
+    <string name="data_food_seed_20010" formatted="false">"বাকউইট, জলে রান্না করা"</string>
+    <string name="data_food_seed_20444" formatted="false">"সাদা চাল, শুকনো"</string>
+    <string name="data_food_seed_20445" formatted="false">"সেদ্ধ সাদা চাল, লবণ ছাড়া"</string>
+    <string name="data_food_seed_20036" formatted="false">"বাদামী চাল, শুকনো"</string>
+    <string name="data_food_seed_20037" formatted="false">"সেদ্ধ বাদামী চাল"</string>
+    <string name="data_food_seed_8120" formatted="false">"ঘূর্ণিত ওটস, শুকনো"</string>
+    <string name="data_food_seed_8121" formatted="false">"জলে রান্না করা ওটমিল, লবণ ছাড়া"</string>
+    <string name="data_food_seed_20005" formatted="false">"মুক্তা বার্লি, শুকনো"</string>
+    <string name="data_food_seed_20006" formatted="false">"সিদ্ধ মুক্তা বার্লি"</string>
+    <string name="data_food_seed_20031" formatted="false">"বাজরা, শুকনো"</string>
+    <string name="data_food_seed_20032" formatted="false">"সেদ্ধ বাজরা"</string>
+    <string name="data_food_seed_20420" formatted="false">"পাস্তা, শুকনো"</string>
+    <string name="data_food_seed_20421" formatted="false">"সেদ্ধ পাস্তা, লবণ ছাড়া"</string>
+    <string name="data_food_seed_16070" formatted="false">"সেদ্ধ মসুর ডাল, লবণ ছাড়া"</string>
+    <string name="data_food_seed_16057" formatted="false">"সেদ্ধ ছোলা, লবণ ছাড়া"</string>
+    <string name="data_food_seed_16033" formatted="false">"সেদ্ধ লাল কিডনি বিন, লবণ ছাড়া"</string>
+    <string name="data_food_seed_5062" formatted="false">"কাঁচা চামড়াবিহীন মুরগির স্তন"</string>
+    <string name="data_food_seed_5064" formatted="false">"রোস্টেড চামড়াবিহীন মুরগির স্তন"</string>
+    <string name="data_food_seed_5219" formatted="false">"কাঁচা চামড়াবিহীন টার্কির স্তন"</string>
+    <string name="data_food_seed_5220" formatted="false">"রোস্টেড চামড়াবিহীন টার্কির স্তন"</string>
+    <string name="data_food_seed_23562" formatted="false">"গ্রাউন্ড গরুর মাংস, 10% চর্বি, কাঁচা"</string>
+    <string name="data_food_seed_23566" formatted="false">"গ্রাউন্ড গরুর মাংস, 10% চর্বি, ভাজা"</string>
+    <string name="data_food_seed_10060" formatted="false">"কাঁচা শুয়োরের মাংস টেন্ডারলাইন, দৃশ্যমান চর্বি অপসারণ"</string>
+    <string name="data_food_seed_10061" formatted="false">"রোস্টেড শুয়োরের মাংস টেন্ডারলাইন"</string>
+    <string name="data_food_seed_15236" formatted="false">"আটলান্টিক স্যামন, কাঁচা"</string>
+    <string name="data_catalog_note_5">"ভোজ্য অংশের প্রতি 100 গ্রাম রেফারেন্স মান। কাঁচা খাবার। চাষ করা হয়েছে। USDA কার্বোহাইড্রেট মান ফাইবার অন্তর্ভুক্ত। আপনি পণ্য লেবেল ব্যবহার করে মান সমন্বয় করতে পারেন. USDA SR Legacy, FDC %1$s।"</string>
+    <string name="data_food_seed_15237" formatted="false">"আটলান্টিক স্যামন, ভাজা"</string>
+    <string name="data_catalog_note_6">"ভোজ্য অংশের প্রতি 100 গ্রাম রেফারেন্স মান। চাষ করা হয়েছে। USDA কার্বোহাইড্রেট মান ফাইবার অন্তর্ভুক্ত। আপনি পণ্য লেবেল ব্যবহার করে মান সমন্বয় করতে পারেন. USDA SR Legacy, FDC %1$s।"</string>
+    <string name="data_food_seed_15015" formatted="false">"আটলান্টিক কড, কাঁচা"</string>
+    <string name="data_food_seed_15266" formatted="false">"কাঁচা আলাস্কা পোলক"</string>
+    <string name="data_food_seed_15121" formatted="false">"টুনা জলে ক্যানড, নিষ্কাশন"</string>
+    <string name="data_food_seed_15271" formatted="false">"রান্না করা চিংড়ি, খোসা ছাড়ানো"</string>
+    <string name="data_food_seed_1211" formatted="false">"দুধ, 3.25% চর্বি"</string>
+    <string name="data_food_seed_1174" formatted="false">"দুধ, 2% চর্বি"</string>
+    <string name="data_food_seed_1082" formatted="false">"দুধ, 1% চর্বি"</string>
+    <string name="data_food_seed_1116" formatted="false">"সাধারণ পুরো-দুধ দই"</string>
+    <string name="data_food_seed_1256" formatted="false">"ননফ্যাট গ্রীক দই"</string>
+    <string name="data_food_seed_1015" formatted="false">"কুটির পনির, 2% চর্বি"</string>
+    <string name="data_catalog_note_7">"ভোজ্য অংশের প্রতি 100 গ্রাম রেফারেন্স মান। কুটির পনির; অন্যান্য ধরনের দই পনির বিভিন্ন মান আছে. USDA কার্বোহাইড্রেট মান ফাইবার অন্তর্ভুক্ত। আপনি পণ্য লেবেল ব্যবহার করে মান সমন্বয় করতে পারেন. USDA SR Legacy, FDC %1$s।"</string>
+    <string name="data_food_seed_1056" formatted="false">"টক ক্রিম, প্রায় 19% চর্বি"</string>
+    <string name="data_food_seed_1009" formatted="false">"চেডার পনির"</string>
+    <string name="data_food_seed_1026" formatted="false">"পুরো দুধ মোজারেলা"</string>
+    <string name="data_food_seed_1019" formatted="false">"ফেটা পনির"</string>
+    <string name="data_food_seed_1123" formatted="false">"খোসা ছাড়াই কাঁচা মুরগির ডিম"</string>
+    <string name="data_food_seed_1129" formatted="false">"সেদ্ধ মুরগির ডিম, খোসা ছাড়াই"</string>
+    <string name="data_food_seed_1124" formatted="false">"কাঁচা মুরগির ডিমের সাদা অংশ"</string>
+    <string name="data_food_seed_1001" formatted="false">"লবণাক্ত মাখন"</string>
+    <string name="data_food_seed_4053" formatted="false">"জলপাই তেল"</string>
+    <string name="data_food_seed_4506" formatted="false">"সূর্যমুখী তেল"</string>
+    <string name="data_food_seed_12061" formatted="false">"বাদাম"</string>
+    <string name="data_food_seed_12155" formatted="false">"আখরোট কার্নেল"</string>
+    <string name="data_food_seed_12120" formatted="false">"হ্যাজেলনাট কার্নেল"</string>
+    <string name="data_food_seed_12151" formatted="false">"কাঁচা পেস্তার দানা"</string>
+    <string name="data_food_seed_12014" formatted="false">"শুকনো কুমড়া বীজ কার্নেল"</string>
+    <string name="data_food_seed_16087" formatted="false">"কাঁচা খোসাযুক্ত চিনাবাদাম"</string>
+    <string name="data_food_seed_18069" formatted="false">"সাদা গমের রুটি"</string>
+    <string name="data_food_seed_18075" formatted="false">"পুরো গমের রুটি"</string>
+    <string name="data_food_seed_18060" formatted="false">"রাই রুটি"</string>
+    <string name="data_food_seed_19296" formatted="false">"মধু"</string>
+    <string name="data_food_seed_19335" formatted="false">"চিনি"</string>
+    <string name="data_food_seed_19165" formatted="false">"unsweetened কোকো পাউডার"</string>
+    <string name="data_food_seed_19904" formatted="false">"ডার্ক চকোলেট, 70-85% কোকো"</string>
+    <string name="data_meal_breakfast" formatted="false">"প্রাতঃরাশ"</string>
+    <string name="data_meal_lunch" formatted="false">"দুপুরের খাবার"</string>
+    <string name="data_meal_dinner" formatted="false">"রাতের খাবার"</string>
+    <string name="data_meal_snack" formatted="false">"জলখাবার"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary-এর গোপনীয়তা নীতি\nসংশোধন: 9 অক্টোবর, 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"অ্যাপ: Diet Diary; রাশিয়ান ভাষায় Google Play তালিকার শিরোনাম: «Дневник диеты: подсчёт калорий»; প্যাকেজ: ru.dietdiary.offline।\nপ্রজেক্ট ডেভেলপার: Efreitor2001। অ্যাপ এবং ডেটা প্রসেসিং সম্পর্কে প্রশ্নের জন্য, https://github.com/Efreitor2001/kkalcal/issues এ যোগাযোগ করুন। GitHub সমস্যাগুলি সর্বজনীন: সেখানে স্বাস্থ্য রেকর্ড, ব্যাকআপ, পাসওয়ার্ড বা টোকেন পোস্ট করবেন না।"</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. আপনার ডিভাইসে ডায়েরি\nএকটি ডায়েরি রাখার জন্য কোনো নিবন্ধনের প্রয়োজন নেই। অ্যাপটি আপনার ডিভাইসে তার ব্যক্তিগত স্টোরেজ এলাকায় খাবার এবং তাদের পুষ্টির মান, অংশ এবং খাবারের তারিখ, ওজন, কোমরের পরিমাপ, শরীরের চর্বি শতাংশ, পদক্ষেপ, ঘুম, ওয়ার্কআউটের বিবরণ, নোট, লক্ষ্য, অর্জন এবং অ্যাপ সেটিংস সংরক্ষণ করে। ঐচ্ছিক ক্ষেত্র ফাঁকা রাখা হতে পারে. পদক্ষেপ, ঘুম এবং পরিমাপ ম্যানুয়ালি প্রবেশ করা হয়; অ্যাপটি স্বাস্থ্য সংযোগ, শারীরিক কার্যকলাপ সেন্সর বা মেডিকেল ডিভাইস ডেটা পড়ে না।"</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"এই তথ্য ক্যালোরি এবং ম্যাক্রোনিউট্রিয়েন্ট গণনা করতে এবং ইতিহাস, চার্ট এবং কৃতিত্ব প্রদান করতে ব্যবহৃত হয়। বিকাশকারী এমন একটি সার্ভার পরিচালনা করে না যা ডায়েরি বিষয়বস্তু গ্রহণ করে। আপনি যদি Google Drive সংযোগ না করেন বা নিজে একটি ব্যাকআপ ভাগ না করেন, তাহলে আপনার রেকর্ডগুলি আপনার ডিভাইসে থাকবে৷"</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. ঐচ্ছিক Google Drive সংযোগ\nআপনার অনুরোধে, অ্যাপটি আপনার ডিফল্ট ব্রাউজারে Google সাইন-ইন করে এবং আপনার Google Drive-এ এই অ্যাপের লুকানো ডেটা স্টোরেজ অ্যাক্সেসের অনুরোধ করে। এই অনুমতি আপনার সাধারণ ড্রাইভ নথি বা ফটো অ্যাক্সেস প্রদান করে না."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"একবার সংযুক্ত হয়ে গেলে, খাবার, খাবার, ডায়েরি পরিমাপ, নোট, লক্ষ্য, অর্জন, স্থানান্তরযোগ্য সেটিংস এবং পরিবর্তনযোগ্য মেটাডেটা, র্যান্ডম ইনস্টলেশন শনাক্তকারী এবং টাইমস্ট্যাম্প সহ, Google এ পাঠানো হয়। এটি আপনার ডিভাইস জুড়ে ব্যাকআপ স্ন্যাপশট এবং মার্জ এন্ট্রি সমর্থন করে। যদি স্বয়ংক্রিয় সিঙ্ক সক্ষম করা থাকে, নেটওয়ার্ক সংযোগ উপলব্ধ হলে পটভূমিতেও পরিবর্তনগুলি পাঠানো হয়৷ আপনি আলাদাভাবে স্বয়ংক্রিয় সিঙ্ক বন্ধ করতে পারেন।"</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"অ্যাপটি সংযোগ দেখাতে এবং সঠিক স্টোরেজের সাথে লিঙ্ক করতে নির্বাচিত Google অ্যাকাউন্টের ইমেল ঠিকানা এবং সনাক্তকারী গ্রহণ করে। আপনার Google পাসওয়ার্ড অ্যাপে প্রদান করা হয়নি। অনুমোদন সেশনটি Android কীস্টোরে একটি কী ব্যবহার করে আপনার ডিভাইসে এনক্রিপ্ট করা হয়। টোকেন, ইমেল ঠিকানা এবং Google সনাক্তকারীগুলি ডায়েরি রপ্তানি থেকে বাদ দেওয়া হয়েছে এবং JSON স্ন্যাপশটগুলি সিঙ্ক্রোনাইজ করা হয়েছে৷"</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google ডেটা শুধুমাত্র অনুমোদন এবং সিঙ্কের জন্য ব্যবহার করা হয়, বিজ্ঞাপনের জন্য কখনই নয়। Google এর গোপনীয়তা নীতি প্রযোজ্য: https://policies.google.com/privacy ।"</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. ব্যাকআপ ফাইল\n\"ফাইলে সংরক্ষণ করুন\" আপনার চয়ন করা অবস্থানে একটি JSON ফাইল তৈরি করে। পুনরুদ্ধার শুধুমাত্র আপনার নির্বাচিত ফাইলটি পড়ে। আপনি যদি একটি ক্লাউড ফাইল প্রদানকারী নির্বাচন করেন বা অন্য ব্যক্তির সাথে একটি অনুলিপি ভাগ করেন, আপনি প্রাপক নির্বাচন করুন৷ অ্যাপটি এক্সপোর্ট করা JSON ফাইল এনক্রিপ্ট করে না: এই ফাইলগুলিতে ব্যক্তিগত রেকর্ড থাকে এবং মেটাডেটা পরিবর্তন করে।"</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. বিজ্ঞাপন\nঅ্যাপটি Yandex মোবাইল বিজ্ঞাপন SDK ব্যবহার করে। বিজ্ঞাপন লোড এবং প্রদর্শন করতে, আপনার ডিভাইস বিজ্ঞাপন পরিষেবার সাথে সংযোগ করে৷ Yandex আপনার IP ঠিকানা এবং নেটওয়ার্ক অনুরোধ, ডিভাইস এবং সফ্টওয়্যার, উপলব্ধ বিজ্ঞাপন বা প্রযুক্তিগত শনাক্তকারী, এবং বিজ্ঞাপন ইমপ্রেশন এবং মিথস্ক্রিয়া সম্পর্কে তথ্য সম্পর্কে অন্যান্য প্রযুক্তিগত তথ্য প্রক্রিয়া করতে পারে।"</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"অ্যাপটি SDK কে বলে যে সম্মতি দেওয়া হয়নি, অবস্থান সংগ্রহ অক্ষম করে এবং অ্যাপ বিজ্ঞাপন বিশ্লেষণ প্রতিবেদন অক্ষম করে। এটি সুনির্দিষ্ট বা আনুমানিক অবস্থানের অনুমতির অনুরোধ করে না। এই সেটিংসের অর্থ এই নয় যে বিজ্ঞাপন পরিষেবা কোনও নেটওয়ার্ক যোগাযোগ বা প্রযুক্তিগত ডেটা প্রক্রিয়াকরণ করে না৷"</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"অ্যাপটি বিজ্ঞাপন লক্ষ্য করার জন্য খাদ্য রেকর্ড, ওজন, পরিমাপ, নোট, লক্ষ্য, ইমেল ঠিকানা বা Google শনাক্তকারী ব্যবহার করে না এবং সেগুলিকে বিজ্ঞাপন অনুরোধের প্যারামিটারে যুক্ত করে না। এন্ট্রি সংরক্ষণ করার জন্য বিজ্ঞাপন দেখার প্রয়োজন নেই।"</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex-এর ডেটা প্রক্রিয়াকরণ, ধারণ এবং মুছে ফেলার নিয়ম: https://yandex.ru/legal/confidential/ । যদি আপনার সিস্টেম সংস্করণ এই বৈশিষ্ট্যটিকে সমর্থন করে তাহলে আপনি Android সেটিংসে আপনার বিজ্ঞাপন সনাক্তকারী পরিচালনা করতে পারেন৷ বিজ্ঞাপন পরিষেবার নীতি তার প্রযুক্তিগত ডেটার জন্য ধরে রাখার সময়কাল নির্ধারণ করে; ডায়েরি ডেভেলপার সেই ডেটার জন্য আলাদা ধরে রাখার সময়কাল সেট করে না।"</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. ডেটা সুরক্ষা\nGoogle এর সাথে যোগাযোগ HTTPS ব্যবহার করে; Yandex বলে যে SDK ডেটা HTTPS/TLS ব্যবহার করে প্রেরণ করা হয়। স্থানীয় ডায়েরিটি Android-এর অ্যাপ আইসোলেশন দ্বারা সুরক্ষিত। অ্যাপটি আলাদাভাবে ডায়েরির বিষয়বস্তু বা JSON স্ন্যাপশট এনক্রিপ্ট করে না; এটি ডিভাইসগুলির মধ্যে এন্ড-টু-এন্ড এনক্রিপশন প্রদান করে না।"</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"অ্যাপ ডেটার সিস্টেম ব্যাকআপ নিষ্ক্রিয় করা হয়েছে। অ্যাপের নিজস্ব কোড দ্বারা লিখিত ডায়াগনস্টিক লগগুলিতে ডায়েরি বিষয়বস্তু, ইমেল ঠিকানা, টোকেন বা নেটওয়ার্ক প্রতিক্রিয়া সংস্থা ছাড়া ফলাফলের কোড থাকে; অ্যাপটি আলাদাভাবে এই লগগুলি বিকাশকারীকে পাঠায় না।"</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. ধারণ এবং মুছে ফেলা\nস্থানীয় রেকর্ডগুলি যতক্ষণ না আপনি পরিবর্তন বা মুছে ফেলছেন, বা অ্যাপের ডেটা সাফ করবেন না ততক্ষণ পর্যন্ত। একটি এন্ট্রি মুছে ফেলার ফলে এটি ইন্টারফেস থেকে মুছে যায় এবং সিঙ্কের সময় একটি মুছে ফেলার মার্কার পাঠায়। পুরানো ডেটা পুনরায় উপস্থিত হওয়া থেকে রোধ করতে মেটাডেটা মার্জ রাখা হয়; এটি একটি মুছে ফেলা ডায়েরি এন্ট্রি থেকে পূর্ববর্তী মান থাকতে পারে। আগের মানগুলি পুরানো ক্লাউড স্ন্যাপশট এবং আপনার আগে তৈরি করা ফাইলগুলিতেও থাকতে পারে। একটি এন্ট্রি মুছে ফেলার ফলে এটির প্রতিটি অনুলিপি সম্পূর্ণরূপে মুছে যায় না।"</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"\"অ্যাকাউন্ট বিচ্ছিন্ন করুন\" এই ডিভাইসে সিঙ্ক বন্ধ করে এবং স্থানীয় Google সেশন মুছে দেয়। Google Drive-এ ডায়েরি এবং স্ন্যাপশট রাখা আছে। অ্যাপটি সংযোগ বিচ্ছিন্ন করলে আপনার Google অ্যাকাউন্ট মুছে যাবে না।"</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"এই অ্যাপের ডেটা সম্পূর্ণরূপে মুছে ফেলতে:\n• আপনার সমস্ত ডিভাইসে সিঙ্ক বন্ধ করুন যাতে অবশিষ্ট কপিগুলি আবার আপলোড না হয়৷\n• একটি ব্রাউজারে, সংযোগ করা Google অ্যাকাউন্ট ব্যবহার করে https://drive.google.com/drive/settings খুলুন। \"অ্যাপগুলি পরিচালনা করুন\" নির্বাচন করুন, \"Diet Diary\" খুঁজুন (বা «Дневник диеты»), তারপরে \"বিকল্পগুলি\" → \"লুকানো অ্যাপ ডেটা মুছুন\" নির্বাচন করুন। যদি মোবাইল পৃষ্ঠাটি এই বিভাগটি না দেখায় তবে সাইটের ডেস্কটপ সংস্করণ বা একটি কম্পিউটার ব্যবহার করুন৷\n• https://myaccount.google.com/connections এ অ্যাপের অ্যাক্সেস প্রত্যাহার করুন। একা অ্যাক্সেস প্রত্যাহার করা সংরক্ষিত কপি মুছে ফেলা হয় না.\n• প্রতিটি ডিভাইসে Android সেটিংসে অ্যাপের স্টোরেজ সাফ করুন, অথবা অ্যাপটি আনইনস্টল করুন।\n• আপনার বেছে নেওয়া ফোল্ডার এবং ক্লাউড স্টোরেজ অবস্থান থেকে আলাদাভাবে সংরক্ষিত JSON ব্যাকআপ মুছুন।"</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"আপনার শংসাপত্র ছাড়া, বিকাশকারী আপনার ব্যক্তিগত Google Drive-এ আপনার স্থানীয় ডায়েরি বা ফাইলগুলি দূরবর্তীভাবে মুছে ফেলতে পারে না। বিকাশকারীর সাথে আপনার পাসওয়ার্ড বা টোকেন শেয়ার করবেন না। মুছে ফেলার বিষয়ে সাহায্যের জন্য, এই নীতির শুরুতে লিঙ্কটি ব্যবহার করে প্রকল্পের সাথে যোগাযোগ করুন। ডায়েরি ডেটা মুছে ফেলার জন্য আপনাকে আপনার Google অ্যাকাউন্ট মুছতে হবে না।"</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. পরিবর্তন এবং যোগাযোগ\nযখন অ্যাপের বৈশিষ্ট্য বা ডেটা প্রসেসিং অনুশীলনগুলি পরিবর্তিত হয়, এই নীতিটি একটি পুনর্বিবেচনার তারিখের সাথে আপডেট করা হয়। অ্যাক্সেস, সংশোধন, ডেটা মুছে ফেলা বা অ্যাপের অপারেশন সম্পর্কে প্রশ্নগুলির জন্য, প্রকল্পের যোগাযোগ চ্যানেল ব্যবহার করুন। আপনার জমা দেওয়া অনুরোধগুলি একটি প্রতিক্রিয়া প্রদানের জন্য প্রক্রিয়া করা হয় এবং GitHub এ সংরক্ষণ করা হয়; GitHub এর নীতি https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement এ উপলব্ধ।"</string>
+    <string name="data_category_my_dishes" formatted="false">"আমার পদ"</string>
+    <string name="secondary_metric_weight" formatted="false">"ওজন"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"শরীরের চর্বি"</string>
+    <string name="secondary_metric_waist" formatted="false">"কোমর"</string>
+    <string name="secondary_metric_steps" formatted="false">"ধাপ"</string>
+    <string name="secondary_metric_sleep" formatted="false">"ঘুম"</string>
+    <string name="secondary_metric_kcal" formatted="false">"ক্যালোরি"</string>
+    <string name="secondary_metric_protein" formatted="false">"প্রোটিন"</string>
+    <string name="secondary_metric_fat" formatted="false">"চর্বি"</string>
+    <string name="secondary_metric_carbs" formatted="false">"কার্বোহাইড্রেট"</string>
+    <string name="secondary_unit_kg" formatted="false">"কেজি"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"সেমি"</string>
+    <string name="secondary_unit_steps" formatted="false">"ধাপ"</string>
+    <string name="secondary_unit_hours" formatted="false">"জ"</string>
+    <string name="secondary_unit_kcal" formatted="false">"কিলোক্যালরি"</string>
+    <string name="secondary_unit_grams" formatted="false">"ছ"</string>
+    <string name="secondary_invalid_period" formatted="false">"অবৈধ তারিখ পরিসীমা"</string>
+    <string name="secondary_stats_title" formatted="false">"প্রবণতা"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"স্পষ্ট চার্টে আপনার রেকর্ড"</string>
+    <string name="secondary_metric" formatted="false">"মেট্রিক"</string>
+    <string name="secondary_week" formatted="false">"সপ্তাহ"</string>
+    <string name="secondary_month" formatted="false">"মাস"</string>
+    <string name="secondary_year" formatted="false">"বছর"</string>
+    <string name="secondary_custom_period" formatted="false">"কাস্টম পরিসীমা"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"শুরুর তারিখ শেষ তারিখের পরে হওয়া উচিত নয়"</string>
+    <string name="secondary_no_records" formatted="false">"এখনও কোন রেকর্ড"</string>
+    <string name="secondary_empty_food_period" formatted="false">"আপনার ডায়েরিতে খাবার যোগ করুন বা অন্য সময় বেছে নিন।"</string>
+    <string name="secondary_chart_tap" formatted="false">"একটি রেকর্ড নির্বাচন করতে চার্টে আলতো চাপুন"</string>
+    <string name="secondary_chart_connected" formatted="false">"লাইনটি রেকর্ড করা পরিমাপকে সংযুক্ত করে। তাদের মধ্যে কোন পরিমাপ নেই।"</string>
+    <string name="secondary_body_fat_hint" formatted="false">"স্কেল অনুমান ট্রেন্ড ট্র্যাকিং জন্য দরকারী."</string>
+    <string name="secondary_food_override_hint" formatted="false">"একটি ম্যানুয়াল দৈনিক মোট খাদ্য মোট প্রতিস্থাপন. অন্যথায়, লগ করা খাবার যোগ করা হয়। রেকর্ড ছাড়া দিন বাদ দেওয়া হয়."</string>
+    <string name="secondary_food_total_hint" formatted="false">"মোট লগ করা খাবারের উপর ভিত্তি করে। রেকর্ড ছাড়া একটি দিন শূন্য হিসাবে গণনা করা হয় না."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"রেকর্ড ছাড়া দিনগুলি এড়িয়ে যায় এবং গড় থেকে বাদ দেওয়া হয়।"</string>
+    <string name="secondary_today_yesterday" formatted="false">"আজ এবং গতকাল"</string>
+    <string name="secondary_no_today" formatted="false">"আজকের জন্য কোন রেকর্ড নেই"</string>
+    <string name="secondary_no_yesterday" formatted="false">"গতকাল জন্য কোন রেকর্ড"</string>
+    <string name="secondary_partial_today" formatted="false">"এই তুলনা বর্তমান রেকর্ড ব্যবহার করে. আজকের ডেটা এখনও অসম্পূর্ণ হতে পারে।"</string>
+    <string name="secondary_period_summary" formatted="false">"সময়ের সারাংশ"</string>
+    <string name="secondary_recorded_average" formatted="false">"রেকর্ড করা দিন জুড়ে গড়"</string>
+    <string name="secondary_recorded_days" formatted="false">"ডেটা সহ দিন"</string>
+    <string name="secondary_minimum" formatted="false">"সর্বনিম্ন"</string>
+    <string name="secondary_maximum" formatted="false">"সর্বোচ্চ"</string>
+    <string name="secondary_first_to_last" formatted="false">"প্রথম থেকে শেষ রেকর্ড পর্যন্ত"</string>
+    <string name="secondary_two_days_needed" formatted="false">"একটি পরিবর্তন গণনা করার জন্য কমপক্ষে দুটি রেকর্ড করা দিন প্রয়োজন।"</string>
+    <string name="secondary_history" formatted="false">"ইতিহাস"</string>
+    <string name="secondary_history_recent" formatted="false">"ডেটা সহ সর্বশেষ 14 দিন। পূর্ববর্তী রেকর্ডের জন্য একটি কাস্টম পরিসীমা চয়ন করুন।"</string>
+    <string name="secondary_history_all" formatted="false">"নির্বাচিত সময়ের মধ্যে সমস্ত রেকর্ড করা দিন"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s থেকে"</string>
+    <string name="secondary_date_until">"থেকে %1$s"</string>
+    <string name="secondary_date_range">"%1$s - %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s এই সময়ের মধ্যে"</string>
+    <string name="secondary_weight_goal">"লক্ষ্য: %1$s কেজি"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"আপনার ডায়েরিতে একটি পরিমাপ যোগ করুন বা অন্য একটি সময়কাল বেছে নিন।"</string>
+    <string name="secondary_latest_record">"সর্বশেষ রেকর্ড · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"আজ: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"গতকাল: %1$s %2$s"</string>
+    <string name="secondary_change_value">"পরিবর্তন: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%2$d এর %1$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d রেকর্ড করা দিন, %3$s থেকে %4$s পর্যন্ত। সর্বনিম্ন %5$s, সর্বোচ্চ %6$s %7$s। মান ইতিহাসে তালিকাভুক্ত করা হয়."</string>
+    <string name="secondary_award_first_weight" formatted="false">"শুরু করা হচ্ছে"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"আপনার প্রথম ওজন পরিমাপ সংরক্ষণ করুন."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"আপনার প্রথম ওজন পরিমাপ সংরক্ষিত হয়."</string>
+    <string name="secondary_award_first_food" formatted="false">"প্রথম এন্ট্রি"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"আপনার প্রথম খাদ্য অংশ লগ."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"আপনার প্রথম খাদ্য অংশ লগ করা হয়."</string>
+    <string name="secondary_award_weight_week" formatted="false">"ডেটার এক সপ্তাহ"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"7টি ভিন্ন দিনে আপনার ওজন রেকর্ড করুন। তাদের ধারাবাহিক হওয়ার দরকার নেই।"</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"আপনার 7 টি ভিন্ন দিনের ওজন রেকর্ড আছে।"</string>
+    <string name="secondary_award_weight_month" formatted="false">"ধারাবাহিকতা"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"30টি ভিন্ন দিনে আপনার ওজন রেকর্ড করুন।"</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"আপনার 30 দিনের ওজন রেকর্ড আছে।"</string>
+    <string name="secondary_award_food_hundred" formatted="false">"আর্কাইভিস্ট"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"আপনার ডায়েরিতে 100টি খাবারের অংশ সংরক্ষণ করুন।"</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"আপনি 100টি খাবারের অংশ সংরক্ষণ করেছেন।"</string>
+    <string name="secondary_award_food_streak" formatted="false">"একটি নতুন অভ্যাস"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"একটানা 7 ক্যালেন্ডার দিনের জন্য লগ খাদ্য."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"আপনি টানা 7 দিন ধরে খাবার লগ করেছেন।"</string>
+    <string name="secondary_award_steps" formatted="false">"বিস্ময় হাঁটা"</string>
+    <string name="secondary_award_steps_description" formatted="false">"একদিনে কমপক্ষে 10,000টি পদক্ষেপ রেকর্ড করুন।"</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"আপনি 10,000 পদক্ষেপ সহ একটি দিন রেকর্ড করেছেন।"</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"প্রফুল্ল রেকর্ডার"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"100 ওজন পরিমাপ সংরক্ষণ করুন. প্রতি তারিখে একটি পরিমাপ গণনা করা হয়।"</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"আপনি 100টি ওজন পরিমাপ সংরক্ষণ করেছেন।"</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"ডায়েরি অভিজ্ঞ"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"90টি ভিন্ন দিনে খাদ্য বা পরিমাপ লগ করুন। তাদের ধারাবাহিক হওয়ার দরকার নেই।"</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"আপনার কাছে 90টি বিভিন্ন দিনের ডায়েরি রেকর্ড রয়েছে।"</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"পরিমাপ"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"অংশ"</string>
+    <string name="secondary_award_unit_days" formatted="false">"দিন"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"টানা দিন"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"ধাপ"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"রেকর্ড করা দিন"</string>
+    <string name="secondary_back" formatted="false">"‹ ফিরে"</string>
+    <string name="secondary_achievements" formatted="false">"অর্জন"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"ছোট পদক্ষেপ একটি অভ্যাসে পরিণত"</string>
+    <string name="secondary_your_progress" formatted="false">"আপনার অগ্রগতি"</string>
+    <string name="secondary_awards_permanent" formatted="false">"আপনি আপনার রেকর্ড সম্পাদনা করলেও অর্জিত কৃতিত্ব আপনার সাথে থাকে।"</string>
+    <string name="secondary_awards_regular" formatted="false">"ধারাবাহিকতা এবং আপনার ডায়েরি রাখার জন্য"</string>
+    <string name="secondary_awards_through_today" formatted="false">"সংরক্ষিত রেকর্ডগুলি আজ পর্যন্ত এবং সহ গণনা করা হয়৷"</string>
+    <string name="secondary_hidden_achievement" formatted="false">"লুকানো অর্জন"</string>
+    <string name="secondary_hidden_description" formatted="false">"এই অর্জন আনলক করতে আপনার ডায়েরি ব্যবহার করতে থাকুন।"</string>
+    <string name="secondary_earned" formatted="false">"অর্জিত"</string>
+    <string name="secondary_hidden_locked" formatted="false">"লুকানো · লক করা"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"চলছে · লক করা আছে"</string>
+    <string name="secondary_locked" formatted="false">"তালাবদ্ধ"</string>
+    <string name="secondary_hidden_progress" formatted="false">"আপনি যখন এই পুরস্কার অর্জন করবেন তখন প্রয়োজনীয়তা এবং অগ্রগতি প্রকাশ করা হবে।"</string>
+    <string name="secondary_best_streak" formatted="false">"সেরা ধারা"</string>
+    <string name="secondary_hidden_reward" formatted="false">"লুকানো পুরস্কার"</string>
+    <string name="secondary_unlocked_of">"এর %1$d আনলক করা হয়েছে"</string>
+    <string name="secondary_unlocked_date">"আনলক করা হয়েছে %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← পিছনে"</string>
+    <string name="secondary_my_recipe" formatted="false">"আমার রেসিপি"</string>
+    <string name="secondary_recipe_intro" formatted="false">"রান্নার আগে উপাদান ওজন করুন। অংশ গণনা করতে রান্না করা ওজন ব্যবহার করুন। তেল এবং সস অন্তর্ভুক্ত করুন।"</string>
+    <string name="secondary_recipe_name" formatted="false">"রেসিপির নাম"</string>
+    <string name="secondary_recipe_example" formatted="false">"উদাহরণস্বরূপ, উদ্ভিজ্জ স্টু"</string>
+    <string name="secondary_ingredients" formatted="false">"উপাদান"</string>
+    <string name="secondary_start_ingredients" formatted="false">"উপাদান দিয়ে শুরু করুন"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"প্রতিটি উপাদান যোগ করুন এবং গ্রাম এর ওজন লিখুন।"</string>
+    <string name="secondary_edit_weight" formatted="false">"ওজন সম্পাদনা করুন"</string>
+    <string name="secondary_delete" formatted="false">"মুছুন"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ উপাদান যোগ করুন"</string>
+    <string name="secondary_whole_recipe" formatted="false">"পুরো রেসিপি"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"পানি যোগ বা হারানোর সাথে সাথে রান্না ওজন পরিবর্তন করে। ধারক ছাড়া সমাপ্ত থালা ওজন করুন।"</string>
+    <string name="secondary_cooked_weight" formatted="false">"রান্না করা ওজন, ছ"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"রান্নার পর ওজন লিখুন"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"0-এর বেশি এবং 100,000 গ্রামের বেশি নয় এমন একটি ওজন লিখুন"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"ওজন স্বয়ংক্রিয়ভাবে পূরণ করা হয় না"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"প্রতি 100 গ্রাম রান্না করা থালা"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"রান্না করা ওজন এবং উপাদানগুলি পরীক্ষা করুন: প্রতিটি 100 গ্রাম 1,000 কিলোক্যালরি পর্যন্ত এবং প্রতিটি ম্যাক্রোনিউট্রিয়েন্ট 100 গ্রাম পর্যন্ত থাকতে পারে।"</string>
+    <string name="secondary_recipe_save_error" formatted="false">"রেসিপি সংরক্ষণ করা যায়নি"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"আমার রেসিপি সংরক্ষণ করুন"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"একবার সংরক্ষণ করা হলে, আপনি এই থালাটির অংশ ওজন দ্বারা লগ করতে পারেন।"</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"রান্নার আগে উপাদান ওজন"</string>
+    <string name="secondary_grams" formatted="false">"গ্রাম"</string>
+    <string name="secondary_weight_limits" formatted="false">"0 এর বেশি এবং 100,000 গ্রাম এর বেশি নয়"</string>
+    <string name="secondary_add" formatted="false">"যোগ করুন"</string>
+    <string name="secondary_save" formatted="false">"সংরক্ষণ করুন"</string>
+    <string name="secondary_cancel" formatted="false">"বাতিল করুন"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"একটি উপাদান চয়ন করুন"</string>
+    <string name="secondary_search_food" formatted="false">"খাদ্য অনুসন্ধান করুন"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"কোন ফলাফল নেই. আপনি Foods ট্যাবে আপনার নিজের খাবার যোগ করতে পারেন।"</string>
+    <string name="secondary_close" formatted="false">"বন্ধ"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"প্রোটিন %1$s · চর্বি %2$s · কার্বোহাইড্রেট %3$s g"</string>
+    <string name="secondary_ingredients_weight">"উপাদানের ওজন: %1$s গ্রাম"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s গ্রাম"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 গ্রাম"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s গ্রাম"</string>
+    <string name="secondary_recipe_note">"ফলন: %1$s গ্রাম। উপাদান: %2$s"</string>
+</resources>

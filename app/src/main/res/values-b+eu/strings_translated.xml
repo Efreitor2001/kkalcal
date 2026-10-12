@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Dietaren egunkaria"</string>
+    <string name="core_app_name" formatted="false">"Dietaren egunkaria"</string>
+    <string name="core_tagline" formatted="false">"Kaloriak, pisua eta aurrerapena"</string>
+    <string name="core_open_diary" formatted="false">"Egunkari irekia"</string>
+    <string name="core_save_failed" formatted="false">"Ezin izan dira zure datuak gorde"</string>
+    <string name="core_day" formatted="false">"Gaur"</string>
+    <string name="core_products" formatted="false">"Elikagaiak"</string>
+    <string name="core_diary" formatted="false">"Egunkaria"</string>
+    <string name="core_charts" formatted="false">"Grafikoak"</string>
+    <string name="core_more" formatted="false">"Gehiago"</string>
+    <string name="core_recipe_saved" formatted="false">"Platera zure janarietan gordeta"</string>
+    <string name="core_back_to_day" formatted="false">"Itzuli zure egunera"</string>
+    <string name="core_action_failed" formatted="false">"Ezin izan da ekintza hau burutu"</string>
+    <string name="core_understood" formatted="false">"Ados"</string>
+    <string name="core_restore_available" formatted="false">"Babeskopia bat leheneratu dezakezu Gehiago atalean."</string>
+    <string name="core_eaten_today" formatted="false">"GAUR JATEN"</string>
+    <string name="core_set_goal_hint" formatted="false">"Helburu bat ezar dezakezu Gehiago atalean"</string>
+    <string name="core_add_food" formatted="false">"+ Gehitu janaria"</string>
+    <string name="core_first_meal" formatted="false">"Hasi zure lehen otorduarekin"</string>
+    <string name="core_first_meal_help" formatted="false">"Aukeratu elikagai bat eta idatzi bere pisua gramotan kaloriak eta makroak kalkulatzeko."</string>
+    <string name="core_my_day" formatted="false">"Nire eguna"</string>
+    <string name="core_my_day_help" formatted="false">"Pisua, gerria, urratsak, loa — grabatu dakizuna."</string>
+    <string name="core_record_metrics" formatted="false">"Erregistratu neurketak"</string>
+    <string name="core_edit_metrics" formatted="false">"Editatu neurriak"</string>
+    <string name="core_food_state_hint" formatted="false">"Elikagaien pisuak eta nutrizio-balioek egoera bera izan behar dute erreferentzia: gordina, lehorra edo egosita."</string>
+    <string name="core_weight" formatted="false">"Pisua"</string>
+    <string name="core_waist" formatted="false">"Gerria"</string>
+    <string name="core_my_diary" formatted="false">"Nire egunkaria"</string>
+    <string name="core_diary_tagline" formatted="false">"Egunero zure erritmoan"</string>
+    <string name="core_record_day" formatted="false">"+ Grabatu egun bat"</string>
+    <string name="core_optional_diary_help" formatted="false">"Neurketa guztiak aukerakoak dira. Zure pisua, loa edo ohar bat bakarrik graba ditzakezu. Sakatu sarrera bat editatzeko."</string>
+    <string name="core_history_starts" formatted="false">"Zure historia hemen hasten da"</string>
+    <string name="core_history_help" formatted="false">"Grabatu neurketak eta jarraitu zerrendetako aldaketak."</string>
+    <string name="core_file_unavailable" formatted="false">"Fitxategia ez dago erabilgarri"</string>
+    <string name="core_backup_saved" formatted="false">"Babeskopia gorde da"</string>
+    <string name="core_export_error" formatted="false">"Ezin izan da babeskopia esportatu"</string>
+    <string name="core_read_error" formatted="false">"Ezin izan da fitxategia irakurri"</string>
+    <string name="core_settings_tagline" formatted="false">"Ezarpenak eta datuen babeskopia"</string>
+    <string name="core_your_progress" formatted="false">"Zure aurrerapena"</string>
+    <string name="core_achievements_help" formatted="false">"Egunkari-ohitura eraikitzeko lorpen txikiak."</string>
+    <string name="core_achievements" formatted="false">"Lorpenak"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Zure agenda zure gailuetan sinkronizatzeko aukerako konexioa."</string>
+    <string name="core_cloud_sync" formatted="false">"Hodeiaren sinkronizazioa"</string>
+    <string name="core_personal_goals" formatted="false">"Helburu pertsonalak"</string>
+    <string name="core_personal_goals_help" formatted="false">"Ezarri zure kaloria, makro eta helburuko pisuaren helburuak eskuz. Edozein helburu hutsik utz daiteke."</string>
+    <string name="core_configure_goals" formatted="false">"Helburuak ezarri"</string>
+    <string name="core_backup" formatted="false">"Babeskopia"</string>
+    <string name="core_backup_help" formatted="false">"Elikagaiak, otorduak, egunkaria, helburuak eta lorpenak fitxategi bakarrean. Gorde babeskopia bat aplikazioa berriro instalatu aurretik."</string>
+    <string name="core_save_file" formatted="false">"Gorde fitxategi batean"</string>
+    <string name="core_restore_file" formatted="false">"Leheneratu fitxategi batetik"</string>
+    <string name="core_write_locked" formatted="false">"Gordetzea desgaituta dago jatorrizko fitxategia babesteko. Berrezarri baliozko babeskopia bat."</string>
+    <string name="core_about_data" formatted="false">"Aplikazioari eta zure datuei buruz"</string>
+    <string name="core_about_data_help" formatted="false">"Erregistroak nola gordetzen diren, sinkronizazioak funtzionatzen du eta datuak ezabatzen dira."</string>
+    <string name="core_privacy" formatted="false">"Pribatutasuna eta datuak ezabatzea"</string>
+    <string name="core_offline" formatted="false">"Lineaz kanpo funtzionatzen du"</string>
+    <string name="core_offline_help" formatted="false">"Google saioa hastea aukerakoa da. Urratsak eta loa eskuz sartzen dira. Interneteko konexioa behar da iragarkiak sinkronizatzeko eta kargatzeko. Egunkariko sarrerak ez dira publizitate sarera bidaltzen."</string>
+    <string name="core_about_foods" formatted="false">"Elikagaiei buruz"</string>
+    <string name="core_foods_reference" formatted="false">"Eraikitako balioak 100 g zati jangarri bakoitzeko estimazioak dira. Egiaztatu ontziaren balio zehatzak ikusteko. Janari bat editatzeak ez ditu aurreko otorduen sarrerak berriro kalkulatzen."</string>
+    <string name="core_foods_source" formatted="false">"Datu-basearen iturria: USDA FoodData Central, SR Legacy. Banakako elikagaiek beren egoera eta iturriaren xehetasunak biltzen dituzte."</string>
+    <string name="core_restore_title" formatted="false">"Babeskopia hau leheneratu?"</string>
+    <string name="core_restore_warning" formatted="false">"Zure egungo janariak, egunkariak, helburuak eta lorpenak fitxategi honen edukiekin ordezkatuko dira. Gorde babeskopia bat lehenik. Sinkronizazioa konektatuta badago, leheneratu diren aldaketak Google Drive-ra ere bidaliko dira."</string>
+    <string name="core_backup_restored" formatted="false">"Babeskopia leheneratu da"</string>
+    <string name="core_invalid_file" formatted="false">"Fitxategi baliogabea"</string>
+    <string name="core_replace_data" formatted="false">"Ordeztu datuak"</string>
+    <string name="core_cancel" formatted="false">"Utzi"</string>
+    <string name="core_save" formatted="false">"Gorde"</string>
+    <string name="core_calculate_portion" formatted="false">"Kalkulatu zati bat"</string>
+    <string name="core_edit_portion" formatted="false">"Editatu zatia"</string>
+    <string name="core_portion_weight" formatted="false">"Zatiaren pisua, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Sartu 0 baino handiagoa eta 100.000 g baino gehiagoko pisua"</string>
+    <string name="core_add_to_diary" formatted="false">"Gehitu egunkarira"</string>
+    <string name="core_delete_entry" formatted="false">"Ezabatu sarrera"</string>
+    <string name="core_delete_portion_question" formatted="false">"Zati hau zure egunkaritik ezabatu?"</string>
+    <string name="core_new_food" formatted="false">"Janari edo plater berria"</string>
+    <string name="core_edit_nutrition" formatted="false">"Editatu nutrizio-balioak"</string>
+    <string name="core_name" formatted="false">"Izena"</string>
+    <string name="core_food" formatted="false">"Janaria"</string>
+    <string name="core_dish" formatted="false">"Prestatutako platera"</string>
+    <string name="core_category" formatted="false">"Kategoria"</string>
+    <string name="core_per100_hint" formatted="false">"100 g-ko balioak, ontzi edo errezeta batetik. Idatzi 0 mantenugai bat falta bada."</string>
+    <string name="core_kcal" formatted="false">"Kaloriak"</string>
+    <string name="core_protein_grams" formatted="false">"Proteina, g"</string>
+    <string name="core_fat_grams" formatted="false">"Koipea, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Karbohidratoak, g"</string>
+    <string name="core_food_note" formatted="false">"Oharra, osagaiak (aukerakoa)"</string>
+    <string name="core_favorite" formatted="false">"Gehitu gogokoetara"</string>
+    <string name="core_name_category_required" formatted="false">"Sartu izena eta kategoria"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Sartu balioak 100 g bakoitzeko: kaloria 0-1.000; proteinak, gantzak eta karbohidratoak 0-100 g"</string>
+    <string name="core_delete_food" formatted="false">"Ezabatu elikagaietatik"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Aurreko otorduen sarrerek beren balioak mantenduko dituzte."</string>
+    <string name="core_delete_food_question" formatted="false">"Janari hau ezabatu? Bere egunkariko sarrerak gordeko dira."</string>
+    <string name="core_day_entry" formatted="false">"Eguneko sarrera"</string>
+    <string name="core_optional_fields" formatted="false">"Bete nahi dituzun eremuak. Utzi gainerakoa hutsik."</string>
+    <string name="core_editing_existing" formatted="false">"Dagoeneko data honetarako sarrera bat dago. Editatzen ari zara."</string>
+    <string name="core_weight_kg" formatted="false">"Pisua, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Gerria, cm"</string>
+    <string name="core_steps" formatted="false">"Urratsak"</string>
+    <string name="core_sleep" formatted="false">"Lo egin"</string>
+    <string name="core_hours" formatted="false">"Orduak"</string>
+    <string name="core_minutes" formatted="false">"Akta"</string>
+    <string name="core_body_fat_optional" formatted="false">"Gorputzeko gantz eskala, % (aukerakoa)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Eskala bateko gorputz-koipea joera-adierazlea da, ez neurketa zehatza."</string>
+    <string name="core_strength_training" formatted="false">"Indarra entrenamendua"</string>
+    <string name="core_training_example" formatted="false">"Adibidez: squats 3×10, 12 kg-ko dumbbells"</string>
+    <string name="core_manual_nutrition" formatted="false">"Eskuzko elikaduraren guztizkoak"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Idatziz gero, balio hauek eguneko elikagaien guztirakoak gainidazten dituzte. Utzi hutsik kalkulu automatikorako."</string>
+    <string name="core_daily_calories" formatted="false">"Eguneko kaloriak"</string>
+    <string name="core_daily_protein" formatted="false">"Eguneko proteina, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Oharrak eta nola sentitzen zaren"</string>
+    <string name="core_steps_invalid" formatted="false">"Urratsak: 0tik 200.000 bitarteko zenbaki oso bat"</string>
+    <string name="core_sleep_invalid" formatted="false">"Loa: 0–24 ordu, 0–59 minutu"</string>
+    <string name="core_body_fat" formatted="false">"Gorputzeko gantza"</string>
+    <string name="core_calories" formatted="false">"Kaloriak"</string>
+    <string name="core_protein" formatted="false">"Proteina"</string>
+    <string name="core_entry_required" formatted="false">"Gehitu gutxienez neurketa edo nota bat"</string>
+    <string name="core_delete_day" formatted="false">"Ezabatu eguneroko sarrera hau"</string>
+    <string name="core_optional_goals" formatted="false">"Helburu guztiak aukerakoak dira. Eremu hutsak esan nahi du ez dagoela helbururik ezarri."</string>
+    <string name="core_calories_per_day" formatted="false">"Kaloriak eguneko"</string>
+    <string name="core_protein_per_day" formatted="false">"Proteina eguneko, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Gantz eguneko, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Karbohidratoak eguneko, g"</string>
+    <string name="core_target_weight" formatted="false">"Helburuko pisua, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Egiaztatu zure helburuak: 0-10.000 kaloria; proteinak, gantzak eta karbohidratoak 0-1.000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Helburuko pisua: 1etik 500 kg-ra"</string>
+    <string name="core_delete_question" formatted="false">"Ezabatu?"</string>
+    <string name="core_delete" formatted="false">"Ezabatu"</string>
+    <string name="core_select_food" formatted="false">"Aukeratu janaria"</string>
+    <string name="core_foods_dishes" formatted="false">"Elikagaiak eta platerak"</string>
+    <string name="core_search_food" formatted="false">"Janari edo plater bat bilatu"</string>
+    <string name="core_new_food_button" formatted="false">"+ Janaria / platera"</string>
+    <string name="core_recipe_button" formatted="false">"Errezeta batetik"</string>
+    <string name="core_no_results" formatted="false">"Ez dago emaitzarik"</string>
+    <string name="core_no_results_help" formatted="false">"Saiatu beste bilaketa bat edo gehitu zure janaria edo prestatutako platera."</string>
+    <string name="core_edit" formatted="false">"Editatu"</string>
+    <string name="core_achievement_unlocked">"🏆 Lorpena desblokeatu da! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"%1$s kcal faltan · helburua %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal zure helburuaren gainetik"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Proteina %1$s   Koipea %2$s   Karbohidratoak %3$s"</string>
+    <string name="core_weight_summary">"Pisua %1$s kg"</string>
+    <string name="core_waist_summary">"Gerria %1$s cm"</string>
+    <string name="core_steps_summary">"Urratsak: %1$s"</string>
+    <string name="core_fat_summary">"Gorputzeko gantz %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (eskuz)"</string>
+    <string name="core_manual_protein">"Proteina %1$s g (eskuz)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Lo %1$s"</string>
+    <string name="core_scale_fat">"Gorputzeko gantz eskala %1$s%%"</string>
+    <string name="core_training_value">"Prestakuntza: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Proteina %1$s g"</string>
+    <string name="core_app_version">"Dietaren egunkaria · %1$s"</string>
+    <string name="core_per100_summary">"100 g-ko: %1$s kcal · Proteina %2$s · Koipea %3$s · Karbohidratoak %4$s"</string>
+    <string name="core_range_invalid">"%1$s: sartu balio bat %2$s-tik %3$s-ra"</string>
+    <string name="core_delete_day_question">"%1$s-ren neurriak ezabatu? Elikagaien sarrerak gordeko dira."</string>
+    <string name="core_catalog_count">"Elikagaiak: %1$s · 100 g-ko"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Proteina %2$s   Koipea %3$s   Karbohidratoak %4$s"</string>
+    <string name="core_today_date">"Gaur · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kaloriak eta proteinak zure egunkariko eskuzko guztirakoak dira"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kaloriak zure egunkariko eskuzko guztirakoak dira"</string>
+    <string name="core_manual_protein_total" formatted="false">"Proteina zure egunkariko eskuzko guztirakoa da"</string>
+    <string name="core_macro_goals">"P / F / C helburuak: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (eskuliburua)"</string>
+    <string name="core_all" formatted="false">"Guztiak"</string>
+    <string name="core_favorites" formatted="false">"Gogokoak"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Aurreko eguna"</string>
+    <string name="core_next_day" formatted="false">"Hurrengo egunean"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Migrazioaren babeskopia ez dator bat"</string>
+    <string name="data_entry_exists" formatted="false">"Dagoeneko existitzen da janari-sarrera hau"</string>
+    <string name="data_entry_missing" formatted="false">"Ez da aurkitu elikagaien sarrera"</string>
+    <string name="data_edited_date_changed" formatted="false">"Editatzen ari den sarreraren data aldatu da"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Tokiko gailua ID hondatuta dago; zaharberritzea blokeatuta dago"</string>
+    <string name="data_sync_invalid" formatted="false">"Sinkronizazio datu baliogabeak"</string>
+    <string name="data_diary_read_only" formatted="false">"Egunkaria gainidazketatik babestuta dago: berrezarri babeskopia"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Egunkariko datuak ez dira koherenteak"</string>
+    <string name="data_backup_too_large" formatted="false">"Babeskopia handiegia da"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"ID instalazioa hondatuta dago"</string>
+    <string name="data_save_verification_failed" formatted="false">"Ezin izan da egiaztatu egunkaria gorde zenik"</string>
+    <string name="data_save_failed" formatted="false">"Ezin izan da egunkaria gorde"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Babeskopia 50 MB baino handiagoa da"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Egunkariaren fitxategia handiegia da"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Elikagaien datu-basearen tamaina baliogabea"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Onartu gabeko babeskopia bertsioa"</string>
+    <string name="data_too_many_values">"Balio gehiegi %1$s-n"</string>
+    <string name="data_too_many_products" formatted="false">"Elikagai gehiegi"</string>
+    <string name="data_too_many_entries" formatted="false">"Janari sarrera gehiegi"</string>
+    <string name="data_too_many_logs" formatted="false">"Egunkariko sarrera gehiegi"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Janari bikoiztuak ID"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Janari sarrera bikoiztua ID"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Egunkariaren data bikoiztua"</string>
+    <string name="data_label_product_id" formatted="false">"Janaria ID"</string>
+    <string name="data_label_product_name" formatted="false">"Janariaren izena"</string>
+    <string name="data_label_category" formatted="false">"Kategoria"</string>
+    <string name="data_label_note" formatted="false">"Oharra"</string>
+    <string name="data_label_entry_id" formatted="false">"Sarrera ID"</string>
+    <string name="data_label_meal" formatted="false">"Bazkaria"</string>
+    <string name="data_food_weight_range" formatted="false">"Elikagaiaren pisua 0 baino handiagoa eta 100.000 g baino handiagoa izan behar da"</string>
+    <string name="data_label_weight" formatted="false">"Pisua"</string>
+    <string name="data_label_waist" formatted="false">"Gerria"</string>
+    <string name="data_steps_range" formatted="false">"Pauso kopurua 0 eta 200000 artekoa izan behar da"</string>
+    <string name="data_label_sleep" formatted="false">"Lo egin"</string>
+    <string name="data_label_body_fat" formatted="false">"Gorputzeko gantza"</string>
+    <string name="data_label_daily_calories" formatted="false">"Eguneko kaloriak"</string>
+    <string name="data_label_daily_protein" formatted="false">"Eguneko proteina"</string>
+    <string name="data_label_workout" formatted="false">"Entrenamendua"</string>
+    <string name="data_label_log_note" formatted="false">"Oharra"</string>
+    <string name="data_log_empty" formatted="false">"Sartu gutxienez neurketa edo nota bat"</string>
+    <string name="data_label_goal_weight" formatted="false">"Golaren pisua"</string>
+    <string name="data_too_many_achievements" formatted="false">"Lorpen gehiegi"</string>
+    <string name="data_achievement_invalid" formatted="false">"Lorpen baliogabea"</string>
+    <string name="data_setting_not_portable" formatted="false">"Ezarpen hau ezin da transferitu"</string>
+    <string name="data_setting_invalid">"Balio baliogabea %1$s ezartzeko"</string>
+    <string name="data_label_calories" formatted="false">"Kaloriak"</string>
+    <string name="data_label_protein" formatted="false">"Proteina"</string>
+    <string name="data_label_fat" formatted="false">"Koipea"</string>
+    <string name="data_label_carbs" formatted="false">"Karbohidratoak"</string>
+    <string name="data_value_range">"%1$s: baimendutako tartea %2$s–%3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: luzera baliogabea"</string>
+    <string name="data_text_character_invalid">"%1$s: karaktere baliogabea"</string>
+    <string name="data_date_format_invalid" formatted="false">"Datak AAAA-MM-DD formatua erabili behar du"</string>
+    <string name="data_date_nonexistent">"Data baliogabea: %1$s"</string>
+    <string name="data_field_string_required">"%1$s eremuak testua izan behar du"</string>
+    <string name="data_field_boolean_required">"%1$s eremuak balio boolearra izan behar du"</string>
+    <string name="data_field_number_required">"%1$s eremuak zenbaki bat izan behar du"</string>
+    <string name="data_field_finite_required">"%1$s eremuak zenbaki finitua izan behar du"</string>
+    <string name="data_field_integer_required">"%1$s eremuak zenbaki oso bat izan behar du"</string>
+    <string name="data_too_many_items">"Elementu gehiegi %1$s-n"</string>
+    <string name="data_data_file_invalid">"Datu-fitxategi baliogabea: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"ID gailua falta da"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Erloju logikoaren mugara iritsi da"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Sinkronizazio-erregistro gehiegi"</string>
+    <string name="data_sync_version_required" formatted="false">"Sinkronizazioak 2. bertsioa behar du"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Sinkronizazio-gako baliogabea"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Sinkronizazio-gako bikoiztua"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Ezabatze-marka baliogabea"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Sinkronizazio datu baliogabeak"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Erregistroaren bertsioak erloju logikoa gainditzen du"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Datuak ez datoz bat sinkronizazio metadatuekin"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Sinkronizazio-gakoen luzera baliogabea"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Okerreko sinkronizazio-gakoa"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Sinkronizazio mota ezezaguna"</string>
+    <string name="data_record_id_too_long" formatted="false">"ID erregistroa luzeegia da"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Lorpen ezabatzeak baliogabea"</string>
+    <string name="data_log_key_invalid" formatted="false">"Egunkari-gako baliogabea"</string>
+    <string name="data_log_field_unknown" formatted="false">"Egunkariaren eremu ezezaguna"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Egunkaria ezabatzeko markatzaile baliogabea"</string>
+    <string name="data_goal_unknown" formatted="false">"Helburu ezezaguna"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Ezabatutako erregistro batek datuak ditu"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Sinkronizazio balio baliogabea"</string>
+    <string name="data_record_id_mismatch" formatted="false">"ID erregistroa ez dator bat gakoarekin"</string>
+    <string name="data_field_value_invalid" formatted="false">"Eremuaren balio baliogabea"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Lorpen-data ez dator bat gakoarekin"</string>
+    <string name="data_note_string_required" formatted="false">"Oharrak testua izan behar du"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Sinkronizatutako ohar baliogabea"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Erloju logiko baliogabea"</string>
+    <string name="data_device_invalid" formatted="false">"Gailu baliogabea"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Bertsio-zigilu baliogabea"</string>
+    <string name="data_google_login_required" formatted="false">"Hasi saioa berriro Google-n"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Hodeiko babeskopia gehiegi"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive-k orrialde errepikatu bat itzuli du"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Hodeiko babeskopia 50 MB baino handiagoa da"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive-k ez du kargatzeko helbiderik itzuli"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Google Drive kargatzeko helbide baliogabea"</string>
+    <string name="data_back" formatted="false">"‹ Itzuli"</string>
+    <string name="data_cloud_title" formatted="false">"Hodeiaren sinkronizazioa"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Zure egunerokoa zure gailu guztietan"</string>
+    <string name="data_no_account" formatted="false">"Ez dago konturik konektatuta"</string>
+    <string name="data_cloud_intro" formatted="false">"Saioa hastea aukerakoa da. Elikagaiak, otorduak, neurketak, helburuak eta lorpenak zure telefonoan gordetzen dira. Konektatu ondoren, kopia bat zure Google Drive ezkutuko karpeta batean gordeko da."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Sarrerak lehen konexioan batzen dira. Aplikazioak ezin du atzitu zure Drive-ko ​​beste fitxategi batzuk."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Google saioa ez da konfiguratu oraindik konfigurazio honetarako. Egunkaria eta fitxategien babeskopiek konturik gabe funtzionatzen dute."</string>
+    <string name="data_connect_google" formatted="false">"Konektatu Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Sinkronizazio automatikoa"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Datuak aldatzen direnean eta atzeko planoan Androidk ahalbidetzen duenean"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Ezin izan da ordutegia aldatu. Zure datuak gailu honetan gordetzen dira."</string>
+    <string name="data_sync_start_failed" formatted="false">"Ezin izan da sinkronizazioa hasi. Zure datuak gailu honetan gordetzen dira."</string>
+    <string name="data_sync_now" formatted="false">"Sinkronizatu orain"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Hasi saioa berriro Google-n"</string>
+    <string name="data_disconnect_account" formatted="false">"Deskonektatu kontua"</string>
+    <string name="data_sync_never" formatted="false">"Oraindik ez dago sinkronizaziorik"</string>
+    <string name="data_offline_saved_title" formatted="false">"Zure datuak lineaz kanpo gordetzen dira"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Sinkronizazio automatikoa gaituta, aldaketak bidaltzen dira konexio bat erabilgarri dagoenean. Eremu bera bi gailutan aldatzen bada, aldaketaren denbora-zigilua duen bertsioa erabiltzen da. Sarrera eta eremu independenteak bateratzen dira."</string>
+    <string name="data_cloud_password_description" formatted="false">"Zure pasahitza zure arakatzaileko Google orrian bakarrik sartzen duzu. Sarbide-tokenak Android Keystore-k babestuta daude eta babeskopietatik kanpo daude."</string>
+    <string name="data_google_connection_title" formatted="false">"Google konexioa"</string>
+    <string name="data_got_it" formatted="false">"Lortu dut"</string>
+    <string name="data_connect_drive_title" formatted="false">"Konektatu Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Zure uneko egunkaria hautatutako Google kontuko datuekin bateratuko da. Erabili kontu pertsonal bera zure gailuetan. Saioa hasteko zure arakatzaile lehenetsian irekiko da."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Ezin izan da saioa hasi. Instalatu edo gaitu arakatzaile lehenetsi bat eta saiatu berriro."</string>
+    <string name="data_continue" formatted="false">"Jarraitu"</string>
+    <string name="data_cancel" formatted="false">"Utzi"</string>
+    <string name="data_disconnect_title" formatted="false">"Kontua deskonektatu?"</string>
+    <string name="data_disconnect_description" formatted="false">"Sinkronizazioa geldituko da gailu honetan. Zure tokiko egunkaria eta Google Drive dokumentuan gordeko dira. Aplikazioaren baimena kudea dezakezu zure Google kontuaren ezarpenetan."</string>
+    <string name="data_disconnect_failed" formatted="false">"Ezin izan da kontua deskonektatu. Mesedez, saiatu berriro."</string>
+    <string name="data_disconnect" formatted="false">"Deskonektatu"</string>
+    <string name="data_google_not_connected" formatted="false">"Google ez dago konektatuta"</string>
+    <string name="data_sync_ready" formatted="false">"Sinkronizatzeko prest"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Aldaketak sinkronizatzeko zain daude..."</string>
+    <string name="data_offline_changes_saved" formatted="false">"Ez dago Interneteko konexiorik. Aldaketak gailu honetan gordetzen dira."</string>
+    <string name="data_google_not_configured" formatted="false">"Google saioa ez da konfiguratu oraindik konfigurazio honetarako"</string>
+    <string name="data_sync_wait" formatted="false">"Itxaron sinkronizazioa amaitu arte"</string>
+    <string name="data_google_connecting" formatted="false">"Google konektatzen…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Konexioa bertan behera utzi da"</string>
+    <string name="data_connection_rejected" formatted="false">"Konexioa bertan behera utzi edo baztertu du Googlek"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google konektatuta dago. Sarrerak bateratzen…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Ezin izan da Google konektatu. Egiaztatu Interneteko konexioa eta sarbide-ezarpenak."</string>
+    <string name="data_account_disconnected" formatted="false">"Kontua deskonektatu da. Zure datuak gailu honetan geratzen dira."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Ez dago Interneteko konexiorik. Sinkronizazioa konexio baten zain dago."</string>
+    <string name="data_sync_scheduled" formatted="false">"Sinkronizazioa programatuta dago..."</string>
+    <string name="data_sync_running" formatted="false">"Sinkronizatzen…"</string>
+    <string name="data_sync_complete" formatted="false">"Sinkronizazioa amaituta"</string>
+    <string name="data_no_internet" formatted="false">"Ez dago Interneteko konexiorik"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Ezin izan da sinkronizatu. Zure datuak gailu honetan gordetzen dira"</string>
+    <string name="data_page_open_failed" formatted="false">"Ezin izan da orria ireki. Bere helbidea kopia dezakezu beheko testutik."</string>
+    <string name="data_privacy_title" formatted="false">"Pribatutasuna"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Zure erregistroak eta datuen kontrolak"</string>
+    <string name="data_app_purpose" formatted="false">"Aplikazio honi buruz"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Aplikazio hau ez da gailu medikoa. Ez du gaixotasunik diagnostikatzen, tratatzen, sendatzen edo prebenitzen. Kontsultatu osasun-profesional kualifikatu bati aholkularitza medikoa, diagnostikoa eta tratamendua lortzeko."</string>
+    <string name="data_manage_delete_data" formatted="false">"Kudeatu eta ezabatu datuak"</string>
+    <string name="data_delete_data_intro" formatted="false">"Datu guztiak ezabatu aurretik, desaktibatu sinkronizazioa zure gailu guztietan. Aplikazioa telefonotik desinstalatzeak ez ditu ezabatzen Google Drive edo esportatutako fitxategietako kopiak."</string>
+    <string name="data_manage_drive_data" formatted="false">"Kudeatu Google Drive datuak"</string>
+    <string name="data_google_account_access" formatted="false">"Google Konturako sarbidea"</string>
+    <string name="data_android_app_storage" formatted="false">"Aplikazioen biltegiratzea Android-n"</string>
+    <string name="data_contact_developer" formatted="false">"Jarri harremanetan garatzailearekin"</string>
+    <string name="data_opening_page" formatted="false">"Orrialde bat irekitzea"</string>
+    <string name="data_advertisement" formatted="false">"IRAGARKIA"</string>
+    <string name="data_ad_information" formatted="false">"Iragarki honi buruz"</string>
+    <string name="data_cloud_http_error">"Hodeiko HTTP errorea %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Hodeiaren erantzuna handiegia da"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Enkriptatutako saioa hasteko saio baliogabea"</string>
+    <string name="data_session_save_failed" formatted="false">"Ezin izan da saioa hasteko saioa gorde"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Ezin izan da freskatu Google-rako sarbidea"</string>
+    <string name="data_diary_read_failed">"Ezin izan da egunkaria irakurri. Jatorrizko fitxategia gorde da. Leheneratu zure datuak babeskopia batetik. %1$s"</string>
+    <string name="data_last_sync">"Azken sinkronizazioa: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Fruta eta baia"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Fruitu lehorrak"</string>
+    <string name="data_category_vegetables" formatted="false">"Barazkiak eta belarrak"</string>
+    <string name="data_category_mushrooms" formatted="false">"Perretxikoak"</string>
+    <string name="data_category_grains" formatted="false">"Aleak eta pasta"</string>
+    <string name="data_category_legumes" formatted="false">"Lekaleak"</string>
+    <string name="data_category_meat" formatted="false">"Haragia eta hegaztiak"</string>
+    <string name="data_category_fish" formatted="false">"Arraina eta itsaskia"</string>
+    <string name="data_category_dairy" formatted="false">"Esnekiak"</string>
+    <string name="data_category_eggs" formatted="false">"Arrautzak"</string>
+    <string name="data_category_oils" formatted="false">"Olioak eta gurina"</string>
+    <string name="data_category_nuts" formatted="false">"Fruitu lehorrak eta haziak"</string>
+    <string name="data_category_bread" formatted="false">"Ogia"</string>
+    <string name="data_category_other" formatted="false">"Beste elikagai batzuk"</string>
+    <string name="data_category_dishes" formatted="false">"Prestatutako platerak"</string>
+    <string name="data_category_custom" formatted="false">"Nire janariak"</string>
+    <string name="data_category_other_short" formatted="false">"Bestelakoak"</string>
+    <string name="data_food_seed_9003" formatted="false">"Sagarra azalarekin"</string>
+    <string name="data_catalog_note_1">"Erreferentzia-balioak jateko zatiaren 100 g bakoitzeko. Janari gordinak. USDA karbohidratoen balioek zuntza dute. Balioak produktuaren etiketa erabiliz doi ditzakezu. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Banana, zurituta"</string>
+    <string name="data_food_seed_9021" formatted="false">"Abricoka, pikua"</string>
+    <string name="data_food_seed_9037" formatted="false">"Ahuakatearen haragia"</string>
+    <string name="data_food_seed_9050" formatted="false">"Ahabiak"</string>
+    <string name="data_food_seed_9070" formatted="false">"Gerezi gozoak, zurbilak"</string>
+    <string name="data_food_seed_9063" formatted="false">"Gerezi garratzak, pittinka"</string>
+    <string name="data_food_seed_9078" formatted="false">"Arabiarrak"</string>
+    <string name="data_food_seed_9083" formatted="false">"Korrona beltzak"</string>
+    <string name="data_food_seed_9084" formatted="false">"Currants gorriak eta zuriak"</string>
+    <string name="data_food_seed_9132" formatted="false">"Mahatsa"</string>
+    <string name="data_food_seed_9148" formatted="false">"Kiwi-haragia"</string>
+    <string name="data_food_seed_9150" formatted="false">"Limoia, zurituta"</string>
+    <string name="data_food_seed_9181" formatted="false">"Kantaupearen haragia"</string>
+    <string name="data_food_seed_9200" formatted="false">"Laranja haragia"</string>
+    <string name="data_food_seed_9218" formatted="false">"Mandarinaren haragia"</string>
+    <string name="data_food_seed_9236" formatted="false">"Melokotoi, pikua"</string>
+    <string name="data_food_seed_9252" formatted="false">"Udarea"</string>
+    <string name="data_food_seed_9266" formatted="false">"Anana-haragia"</string>
+    <string name="data_food_seed_9279" formatted="false">"Inhara, zuloa"</string>
+    <string name="data_food_seed_9286" formatted="false">"Granada-haziak"</string>
+    <string name="data_food_seed_9295" formatted="false">"Pomelo-haragia"</string>
+    <string name="data_food_seed_9302" formatted="false">"Mugurdiak"</string>
+    <string name="data_food_seed_9316" formatted="false">"Marrubiak"</string>
+    <string name="data_food_seed_9326" formatted="false">"Sandia haragia"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nectarina, zuloa"</string>
+    <string name="data_food_seed_9176" formatted="false">"Mango haragia"</string>
+    <string name="data_food_seed_9107" formatted="false">"Goratxoak"</string>
+    <string name="data_food_seed_9226" formatted="false">"Papaiaren haragia"</string>
+    <string name="data_food_seed_9089" formatted="false">"Piku freskoak"</string>
+    <string name="data_food_seed_9111" formatted="false">"Pomeloaren haragia"</string>
+    <string name="data_food_seed_9032" formatted="false">"Abricoka lehorrak, pikorrak"</string>
+    <string name="data_catalog_note_2">"Erreferentzia-balioak jateko zatiaren 100 g bakoitzeko. USDA karbohidratoen balioek zuntza dute. Balioak produktuaren etiketa erabiliz doi ditzakezu. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Prunak, zurbilak"</string>
+    <string name="data_food_seed_9087" formatted="false">"Datak, zulotxoak"</string>
+    <string name="data_food_seed_9298" formatted="false">"Mahaspasa ilunak, hazirik gabekoak"</string>
+    <string name="data_food_seed_11529" formatted="false">"Tomate freskoa"</string>
+    <string name="data_food_seed_11205" formatted="false">"Pepinoa azalarekin"</string>
+    <string name="data_food_seed_11090" formatted="false">"Brokoli gordina"</string>
+    <string name="data_food_seed_11109" formatted="false">"Aza zuri gordina"</string>
+    <string name="data_food_seed_11124" formatted="false">"Azenario gordina"</string>
+    <string name="data_food_seed_11135" formatted="false">"Azalore gordina"</string>
+    <string name="data_food_seed_11143" formatted="false">"Apioaren zurtoinak"</string>
+    <string name="data_food_seed_11282" formatted="false">"Tipula gordina"</string>
+    <string name="data_food_seed_11291" formatted="false">"Udaberriko tipula"</string>
+    <string name="data_food_seed_11304" formatted="false">"Ilar berde gordinak"</string>
+    <string name="data_food_seed_11333" formatted="false">"Piper berdea"</string>
+    <string name="data_food_seed_11821" formatted="false">"Piper gorria"</string>
+    <string name="data_food_seed_11352" formatted="false">"Patata gordina azalarekin"</string>
+    <string name="data_food_seed_11367" formatted="false">"Patata egosia, zurituta"</string>
+    <string name="data_catalog_note_3">"Erreferentzia-balioak jateko zatiaren 100 g bakoitzeko. Gatzik gehitu gabe. USDA karbohidratoen balioek zuntza dute. Balioak produktuaren etiketa erabiliz doi ditzakezu. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Kalabazin gordina"</string>
+    <string name="data_food_seed_11209" formatted="false">"Berenjena gordina"</string>
+    <string name="data_food_seed_11422" formatted="false">"Kalabaza gordina"</string>
+    <string name="data_food_seed_11429" formatted="false">"Errefaua"</string>
+    <string name="data_food_seed_11564" formatted="false">"Arbi gordina"</string>
+    <string name="data_food_seed_11080" formatted="false">"Erremolatxa gordina"</string>
+    <string name="data_food_seed_11081" formatted="false">"Erremolatxa egosia"</string>
+    <string name="data_food_seed_11215" formatted="false">"Baratxuria"</string>
+    <string name="data_food_seed_11216" formatted="false">"Jengibre-erroa"</string>
+    <string name="data_food_seed_11457" formatted="false">"Espinaka gordinak"</string>
+    <string name="data_food_seed_11253" formatted="false">"Hosto-letxuga"</string>
+    <string name="data_food_seed_11297" formatted="false">"Perrexil freskoa"</string>
+    <string name="data_food_seed_2045" formatted="false">"Aneta freskoa"</string>
+    <string name="data_food_seed_11052" formatted="false">"Babarrun gordinak"</string>
+    <string name="data_food_seed_11167" formatted="false">"Arto gozoa, ale gordinak"</string>
+    <string name="data_food_seed_11260" formatted="false">"Perretxiko botoi gordinak"</string>
+    <string name="data_food_seed_11261" formatted="false">"Perretxiko botoi egosiak, gatzik gabe"</string>
+    <string name="data_food_seed_11987" formatted="false">"Perretxiko gordinak"</string>
+    <string name="data_food_seed_20009" formatted="false">"Buckwheat lurrinak, lehorra"</string>
+    <string name="data_catalog_note_4">"Erreferentzia-balioak jateko zatiaren 100 g bakoitzeko. Buckwheat lurrinak erreak. USDA karbohidratoen balioek zuntza dute. Balioak produktuaren etiketa erabiliz doi ditzakezu. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Buckwheat, uretan egosita"</string>
+    <string name="data_food_seed_20444" formatted="false">"Arroz zuria, lehorra"</string>
+    <string name="data_food_seed_20445" formatted="false">"Arroz zuri egosia, gatzik gabea"</string>
+    <string name="data_food_seed_20036" formatted="false">"Arroz marroia, lehorra"</string>
+    <string name="data_food_seed_20037" formatted="false">"Arroz marroi egosia"</string>
+    <string name="data_food_seed_8120" formatted="false">"Oloa, lehorra"</string>
+    <string name="data_food_seed_8121" formatted="false">"Uretan egositako oloa, gatzik gabe"</string>
+    <string name="data_food_seed_20005" formatted="false">"Garagar perla, lehorra"</string>
+    <string name="data_food_seed_20006" formatted="false">"Garagar perla egosia"</string>
+    <string name="data_food_seed_20031" formatted="false">"Artatxikia, lehorra"</string>
+    <string name="data_food_seed_20032" formatted="false">"Artatxiki egosia"</string>
+    <string name="data_food_seed_20420" formatted="false">"Pasta, lehorra"</string>
+    <string name="data_food_seed_20421" formatted="false">"Pasta egosia, gatzik gabea"</string>
+    <string name="data_food_seed_16070" formatted="false">"Dilista egosiak, gatzik gabe"</string>
+    <string name="data_food_seed_16057" formatted="false">"Garbantzu egosiak, gatzik gabe"</string>
+    <string name="data_food_seed_16033" formatted="false">"Babarrun gorriak egosiak, gatzik gabeak"</string>
+    <string name="data_food_seed_5062" formatted="false">"Azalarik gabeko oilasko-bularki gordina"</string>
+    <string name="data_food_seed_5064" formatted="false">"Azalarik gabeko oilasko bularkia errea"</string>
+    <string name="data_food_seed_5219" formatted="false">"Azalarik gabeko indioilar bularra gordina"</string>
+    <string name="data_food_seed_5220" formatted="false">"Azalarik gabeko indioilar bularkia errea"</string>
+    <string name="data_food_seed_23562" formatted="false">"Behi lurra, %10eko koipea, gordina"</string>
+    <string name="data_food_seed_23566" formatted="false">"Behi lurra, %10eko koipea, errea"</string>
+    <string name="data_food_seed_10060" formatted="false">"Txerri solomo gordina, koipe ikusgaia kenduta"</string>
+    <string name="data_food_seed_10061" formatted="false">"Txerri solomo errea"</string>
+    <string name="data_food_seed_15236" formatted="false">"Atlantikoko izokina, gordina"</string>
+    <string name="data_catalog_note_5">"Erreferentzia-balioak jateko zatiaren 100 g bakoitzeko. Janari gordinak. Baserritarra. USDA karbohidratoen balioek zuntza dute. Balioak produktuaren etiketa erabiliz doi ditzakezu. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Atlantikoko izokina, errea"</string>
+    <string name="data_catalog_note_6">"Erreferentzia-balioak jateko zatiaren 100 g bakoitzeko. Baserritarra. USDA karbohidratoen balioek zuntza dute. Balioak produktuaren etiketa erabiliz doi ditzakezu. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Bakailao atlantikoa, gordina"</string>
+    <string name="data_food_seed_15266" formatted="false">"Alaskako abadejo gordina"</string>
+    <string name="data_food_seed_15121" formatted="false">"Hegaluzea uretan kontserbatua, xukatua"</string>
+    <string name="data_food_seed_15271" formatted="false">"Ganba egosita, zurituta"</string>
+    <string name="data_food_seed_1211" formatted="false">"Esnea, %3,25 koipea"</string>
+    <string name="data_food_seed_1174" formatted="false">"Esnea, %2 koipea"</string>
+    <string name="data_food_seed_1082" formatted="false">"Esnea, %1 koipea"</string>
+    <string name="data_food_seed_1116" formatted="false">"Esne osoko jogurt arrunta"</string>
+    <string name="data_food_seed_1256" formatted="false">"Gantzarik gabeko jogurt greziarra"</string>
+    <string name="data_food_seed_1015" formatted="false">"Gazta, %2 koipea"</string>
+    <string name="data_catalog_note_7">"Erreferentzia-balioak jateko zatiaren 100 g bakoitzeko. Landa gazta; beste gazta mamia batzuek balio desberdinak dituzte. USDA karbohidratoen balioek zuntza dute. Balioak produktuaren etiketa erabiliz doi ditzakezu. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Krema garratza, %19 inguru koipea"</string>
+    <string name="data_food_seed_1009" formatted="false">"Cheddar gazta"</string>
+    <string name="data_food_seed_1026" formatted="false">"Esne osoko mozzarella"</string>
+    <string name="data_food_seed_1019" formatted="false">"Feta gazta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Oilasko arrautza gordina, oskolarik gabe"</string>
+    <string name="data_food_seed_1129" formatted="false">"Oilasko arrautza egosia, oskolarik gabe"</string>
+    <string name="data_food_seed_1124" formatted="false">"Oilasko arrautza zuringo gordina"</string>
+    <string name="data_food_seed_1001" formatted="false">"Gurina gatzatua"</string>
+    <string name="data_food_seed_4053" formatted="false">"Oliba olioa"</string>
+    <string name="data_food_seed_4506" formatted="false">"Ekilore olioa"</string>
+    <string name="data_food_seed_12061" formatted="false">"Almendrak"</string>
+    <string name="data_food_seed_12155" formatted="false">"Intxaur-aleak"</string>
+    <string name="data_food_seed_12120" formatted="false">"Hur-aleak"</string>
+    <string name="data_food_seed_12151" formatted="false">"Pistatxo-ale gordinak"</string>
+    <string name="data_food_seed_12014" formatted="false">"Kalabaza-hazien ale lehorrak"</string>
+    <string name="data_food_seed_16087" formatted="false">"Kakahueteak oskol gordinak"</string>
+    <string name="data_food_seed_18069" formatted="false">"Gari ogi zuria"</string>
+    <string name="data_food_seed_18075" formatted="false">"Osoko ogia"</string>
+    <string name="data_food_seed_18060" formatted="false">"Zekale-ogia"</string>
+    <string name="data_food_seed_19296" formatted="false">"Eztia"</string>
+    <string name="data_food_seed_19335" formatted="false">"Azukrea"</string>
+    <string name="data_food_seed_19165" formatted="false">"Gozotu gabeko kakao-hautsa"</string>
+    <string name="data_food_seed_19904" formatted="false">"Txokolate beltza, %70-85 kakaoa"</string>
+    <string name="data_meal_breakfast" formatted="false">"Gosaria"</string>
+    <string name="data_meal_lunch" formatted="false">"Bazkaria"</string>
+    <string name="data_meal_dinner" formatted="false">"Afaria"</string>
+    <string name="data_meal_snack" formatted="false">"Merienda"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Diet Diary aplikazioaren pribatutasun-politika\nBerrikuspena: 2026ko urriaren 9a"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Aplikazioa: Diet Diary; Google Play zerrendaren izenburua errusieraz: «Дневник диеты: подсчёт калорий»; paketea: ru.dietdiary.offline.\nProiektuaren garatzailea: Efreitor2001. Aplikazioari eta datuen tratamenduari buruzko galderak egiteko, jarri harremanetan https://github.com/Efreitor2001/kkalcal/issues . GitHub-en arazoak publikoak dira: ez bidali osasun-erregistroak, babeskopiak, pasahitzak edo tokenak bertan."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Egunkaria zure gailuan\nEz da erregistratu behar egunkari bat gordetzeko. Aplikazioak elikagaiak eta haien nutrizio-balioak, zatiak eta otorduen datak, pisua, gerriaren neurriak, gorputz-gantz-ehunekoa, urratsak, loa, entrenamenduen deskribapenak, oharrak, helburuak, lorpenak eta aplikazioaren ezarpenak gordetzen ditu zure gailuko biltegiratze eremu pribatuan. Aukerako eremuak hutsik utz daitezke. Urratsak, loa eta neurriak eskuz sartzen dira; Aplikazioak ez ditu Health Connect, jarduera fisikoko sentsoreak edo gailu medikoen datuak irakurtzen."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Informazio hau kaloriak eta makronutrienteak kalkulatzeko eta historia, grafikoak eta lorpenak emateko erabiltzen da. Garatzaileak ez du egunkariaren edukia jasotzen duen zerbitzaririk erabiltzen. Ez baduzu Google Drive konektatzen edo babeskopiarik partekatzen, zure erregistroak zure gailuan jarraituko du."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Aukerako Google Drive konexioa\nZuk hala eskatuta, aplikazioak Google saioa hasten du zure arakatzaile lehenetsian eta aplikazio honen ezkutuko datu biltegirako sarbidea eskatzen du zure Google Drive-n. Baimen honek ez du zure Drive dokumentu edo argazki arruntetarako sarbiderik ematen."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Konektatu ondoren, janariak, otorduak, eguneroko neurketak, oharrak, helburuak, lorpenak, transferi daitezkeen ezarpenak eta aldaketen metadatuak, ausazko instalazio-identifikatzaileak eta denbora-zigiluak barne, Google-ra bidaltzen dira. Honek babeskopien argazkiak eta sarrerak bateratzea onartzen ditu zure gailuetan. Sinkronizazio automatikoa gaituta badago, aldaketak atzeko planoan ere bidaltzen dira sareko konexio bat erabilgarri dagoenean. Sinkronizazio automatikoa bereizita desaktiba dezakezu."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Aplikazioak hautatutako Google kontuaren helbide elektronikoa eta identifikatzailea jasotzen ditu konexioa erakusteko eta biltegiratze zuzenarekin lotzeko. Zure Google pasahitza ez zaio aplikazioari ematen. Baimen saioa zure gailuan zifratuta gordetzen da Android Keystore-ko gako bat erabiliz. Tokenak, helbide elektronikoak eta Google identifikatzaileak egunkarien esportazioetatik eta sinkronizatutako JSON argazkietatik kanpo geratzen dira."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Google datuak baimentzeko eta sinkronizatzeko soilik erabiltzen dira, inoiz ez iragarkietarako. Google-ren pribatutasun-politika aplikatzen da: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Babeskopia fitxategiak\n\"Gorde fitxategian\" JSON fitxategi bat sortzen du zuk aukeratzen duzun tokian. Berreskuratu hautatutako fitxategia soilik irakurtzen du. Hodeiko fitxategi-hornitzaile bat hautatzen baduzu edo kopia bat beste pertsona batekin partekatzen baduzu, hartzailea aukeratuko duzu. Aplikazioak ez ditu esportatutako JSON fitxategiak enkriptatzen: fitxategi hauek erregistro pertsonalak dituzte eta metadatuak aldatzen dituzte."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Publizitatea\nAplikazioak Yandex Mobile Ads SDK erabiltzen du. Iragarkiak kargatzeko eta bistaratzeko, zure gailua publizitate zerbitzuetara konektatzen da. Yandex-k zure IP helbidea eta sareko eskaerari, gailuari eta softwareari, erabilgarri dauden publizitate edo identifikatzaile teknikoei eta iragarkien inpresioari eta interakzioei buruzko informazioa prozesatu ditzake."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Aplikazioak SDK-ri baimenik eman ez dela esaten dio, kokapena bilketa desgaitzen du eta App Ad Analytics txostena desgaitzen du. Ez du eskatzen kokapen-baimen zehatz edo gutxi gorabehera. Ezarpen hauek ez dute esan nahi publizitate-zerbitzuak sareko komunikaziorik edo datu teknikoen tratamendurik egiten ez duenik."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Aplikazioak ez ditu elikagaien erregistroak, pisuak, neurriak, oharrak, helburuak, helbide elektronikoak edo Google identifikatzaileak erabiltzen iragarkiak bideratzeko, eta ez ditu iragarkien eskaeraren parametroetan gehitzen. Iragarkiak ikustea ez da beharrezkoa sarrerak gordetzeko."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Yandex-ren datuak tratatzeko, gordetzeko eta ezabatzeko arauak: https://yandex.ru/legal/confidential/ . Zure publizitate-identifikatzailea kudea dezakezu Android ezarpenetan, zure sistemaren bertsioak eginbide hau onartzen badu. Publizitate-zerbitzuaren politikak bere datu teknikoak gordetzeko epeak zehazten ditu; egunkariaren garatzaileak ez du datu horietarako gordetze-epe bereizirik ezartzen."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Datuen babesa\nGoogle-rekin komunikazioak HTTPS erabiltzen du; Yandex-k dio SDK datuak HTTPS/TLS erabiliz transmititzen direla. Tokiko egunkaria Android-ren aplikazioaren isolamenduarekin babestuta dago. Aplikazioak ez ditu egunkariko edukiak edo JSON argazkiak bereizita enkriptatzen; ez du gailuen artean muturreko enkriptatzea eskaintzen."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Aplikazioen datuen sistemaren babeskopia desgaituta dago. Aplikazioaren berezko kodearen bidez idatzitako diagnostiko-erregistroek egunkariko edukirik, helbide elektronikorik, token edo sareko erantzun-organorik gabeko emaitza-kodeak dituzte; Aplikazioak ez dizkio bereizita bidaltzen erregistro hauek garatzaileari."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Atxikitzea eta ezabatzea\nTokiko erregistroak aldatu edo ezabatu arte edo aplikazioaren datuak garbitu arte geratzen dira. Sarrera bat ezabatzeak interfazetik kentzen du eta ezabatze-markatzailea bidaltzen du sinkronizazioan. Batu metadatuak gordetzen dira datu zaharrak berriro ager ez daitezen; ezabatutako egunkariko sarrera baten aurreko balioak izan ditzake. Baliteke aurreko balioak lehenago sortutako hodeiko argazki eta fitxategi zaharretan ere gera daitezen. Beraz, sarrera bat ezabatzeak ez du guztiz ezabatzen kopia guztiak."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"\"Deskonektatu kontua\" gailu honetan sinkronizazioa gelditzen da eta tokiko Google saioa ezabatzen du. Google Drive-n egunkaria eta argazkiak gordetzen dira. Aplikazioa deskonektatzeak ez du zure Google kontua ezabatzen."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Aplikazio honen datuak guztiz ezabatzeko:\n• Desaktibatu sinkronizazioa zure gailu guztietan, gainerako kopiak berriro kargatu ez daitezen.\n• Arakatzaile batean, ireki https://drive.google.com/drive/settings konektatuta zegoen Google kontua erabiliz. Hautatu \"Kudeatu aplikazioak\", bilatu \"Diet Diary\" (edo \"Дневник диеты\"), eta gero aukeratu \"Aukerak\" → \"Ezabatu ezkutuko aplikazioen datuak\". Mugikorreko orrialdeak atal hau erakusten ez badu, erabili gunearen mahaigaineko bertsioa edo ordenagailu bat.\n• Ezeztatu aplikazioaren sarbidea https://myaccount.google.com/connections helbidean. Sarbidea ezeztatzeak ez ditu gordetako kopiak ezabatzen.\n• Garbitu aplikazioaren biltegiratzea gailu bakoitzean Android ezarpenetan, edo desinstalatu aplikazioa.\n• Ezabatu bereizita gordetako JSON babeskopiak aukeratu dituzun karpetetatik eta hodeiko biltegiratze-kokapenetatik."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Zure kredentzialak gabe, garatzaileak ezin du urrunetik ezabatu zure tokiko egunkaria edo fitxategiak zure Google Drive pertsonalean. Ez partekatu zure pasahitza edo tokenak garatzailearekin. Ezabatzeko laguntza lortzeko, jarri harremanetan proiektuarekin gidalerro honen hasieran dagoen esteka erabiliz. Ez duzu zure Google kontua ezabatu behar egunkariko datuak ezabatzeko."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Aldaketak eta kontaktua\nAplikazioen eginbideak edo datuak prozesatzeko praktikak aldatzen direnean, politika hau berrikuspen-data batekin eguneratzen da. Sarbide, zuzenketa, datuak ezabatzea edo aplikazioaren funtzionamenduari buruzko galderak egiteko, erabili proiektuaren kontaktu-kanala. Bidaltzen dituzun eskaerak erantzun bat emateko prozesatzen dira eta GitHub-en gordetzen dira; GitHub-en politika https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement helbidean dago eskuragarri."</string>
+    <string name="data_category_my_dishes" formatted="false">"Nire platerak"</string>
+    <string name="secondary_metric_weight" formatted="false">"Pisua"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Gorputzeko gantza"</string>
+    <string name="secondary_metric_waist" formatted="false">"Gerria"</string>
+    <string name="secondary_metric_steps" formatted="false">"Urratsak"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Lo egin"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kaloriak"</string>
+    <string name="secondary_metric_protein" formatted="false">"Proteina"</string>
+    <string name="secondary_metric_fat" formatted="false">"Koipea"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Karbohidratoak"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"urratsak"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Data tarte baliogabea"</string>
+    <string name="secondary_stats_title" formatted="false">"Joerak"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Zure erregistroak grafiko argietan"</string>
+    <string name="secondary_metric" formatted="false">"Metrikoa"</string>
+    <string name="secondary_week" formatted="false">"Astea"</string>
+    <string name="secondary_month" formatted="false">"Hilabetea"</string>
+    <string name="secondary_year" formatted="false">"Urtea"</string>
+    <string name="secondary_custom_period" formatted="false">"Barruti pertsonalizatua"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Hasiera-datak ez du amaiera-dataren ondorengoa izan behar"</string>
+    <string name="secondary_no_records" formatted="false">"Oraindik ez dago erregistrorik"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Gehitu janaria zure egunkarira edo aukeratu beste epe bat."</string>
+    <string name="secondary_chart_tap" formatted="false">"Ukitu taula erregistro bat hautatzeko"</string>
+    <string name="secondary_chart_connected" formatted="false">"Lerroak grabatutako neurketak lotzen ditu. Ez dago haien artean neurketarik."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Eskala-kalkuluak baliagarriak dira joerak jarraitzeko."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Eskuzko eguneko guztirako batek janariaren guztizkoa ordezkatzen du. Bestela, erregistratutako janaria gehitzen da. Erregistrorik gabeko egunak saltatzen dira."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Totalak erregistratutako elikagaietan oinarritzen dira. Erregistrorik gabeko egun bat ez da zero gisa zenbatzen."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Erregistrorik gabeko egunak saltatzen dira eta batez bestekotik kanpo geratzen dira."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Gaur eta atzo"</string>
+    <string name="secondary_no_today" formatted="false">"Ez dago gaurko erregistrorik"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Atzoko erregistrorik ez"</string>
+    <string name="secondary_partial_today" formatted="false">"Konparazio honek egungo erregistroak erabiltzen ditu. Baliteke gaurko datuak oraindik osatu gabe egotea."</string>
+    <string name="secondary_period_summary" formatted="false">"Aldiaren laburpena"</string>
+    <string name="secondary_recorded_average" formatted="false">"Erregistratutako egunetan batez bestekoa"</string>
+    <string name="secondary_recorded_days" formatted="false">"Datuekin egunak"</string>
+    <string name="secondary_minimum" formatted="false">"Gutxienekoa"</string>
+    <string name="secondary_maximum" formatted="false">"Gehienez"</string>
+    <string name="secondary_first_to_last" formatted="false">"Lehenengo erregistrotik azkenera"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Gutxienez bi egun erregistratu behar dira aldaketa kalkulatzeko."</string>
+    <string name="secondary_history" formatted="false">"Historia"</string>
+    <string name="secondary_history_recent" formatted="false">"Azken 14 egunak datuekin. Aukeratu barruti pertsonalizatu bat lehenagoko erregistroetarako."</string>
+    <string name="secondary_history_all" formatted="false">"Hautatutako aldian erregistratutako egun guztiak"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"%1$s-tik"</string>
+    <string name="secondary_date_until">"%1$s-ri"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s aldi honetan"</string>
+    <string name="secondary_weight_goal">"Helburua: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Gehitu neurketa bat zure agendan edo aukeratu beste epe bat."</string>
+    <string name="secondary_latest_record">"Azken erregistroa · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Gaur: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Atzo: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Aldaketa: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d/%2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s: %2$d erregistratutako egunak, %3$s-tik %4$s-ra. Gutxienez %5$s, gehienez %6$s %7$s. Balioak historian agertzen dira."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Hasteko"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Gorde zure lehen pisuaren neurketa."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Zure lehen pisuaren neurketa gordetzen da."</string>
+    <string name="secondary_award_first_food" formatted="false">"Lehenengo sarrera"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Erregistratu zure lehen janari zatia."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Zure lehen janari zatia erregistratuta dago."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Aste bat datu"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Grabatu zure pisua 7 egun ezberdinetan. Ez dute segidakoak izan behar."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"7 egun ezberdinetarako pisu-erregistroak dituzu."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Koherentzia"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Grabatu zure pisua 30 egun ezberdinetan."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"30 eguneko pisu-erregistroak dituzu."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Artxibozaina"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Gorde 100 janari-atal zure egunkarian."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"100 janari-atal gorde dituzu."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Ohitura berri bat"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Janaria erregistratu 7 egun naturalez jarraian."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"7 egun jarraian janaria erregistratu duzu."</string>
+    <string name="secondary_award_steps" formatted="false">"Mirari ibiltaria"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Grabatu gutxienez 10.000 urrats egun batean."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Egun bat grabatu duzu 10.000 urratsekin."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Grabagailu oparoa"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Gorde 100 pisu-neurketa. Neurketa bat balio du data bakoitzeko."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"100 pisu-neurketa gorde dituzu."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Egunkariko beteranoa"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Janaria edo neurketak erregistratu 90 egun ezberdinetan. Ez dute segidakoak izan behar."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"90 egun ezberdinetako eguneroko erregistroak dituzu."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"neurketak"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"zatiak"</string>
+    <string name="secondary_award_unit_days" formatted="false">"egun"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"jarraian egun"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"urratsak egun batean"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"grabatutako egunak"</string>
+    <string name="secondary_back" formatted="false">"‹ Itzuli"</string>
+    <string name="secondary_achievements" formatted="false">"Lorpenak"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Pauso txikiak ohitura bihurtzen dira"</string>
+    <string name="secondary_your_progress" formatted="false">"ZURE AURRERAPENAK"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Lortutako lorpenak zurekin geratzen dira zure erregistroak editatzen badituzu ere."</string>
+    <string name="secondary_awards_regular" formatted="false">"Koherentziagatik eta zure egunkaria gordetzeko"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Gaur arte gordetako erregistroak zenbatzen dira."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Ezkutuko lorpena"</string>
+    <string name="secondary_hidden_description" formatted="false">"Jarraitu zure egunkaria erabiltzen lorpen hau desblokeatzeko."</string>
+    <string name="secondary_earned" formatted="false">"Irabaziak"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Ezkutatuta · blokeatuta"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Abian · blokeatuta"</string>
+    <string name="secondary_locked" formatted="false">"Blokeatua"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Eskakizuna eta aurrerapena sari hau irabazten duzunean agerian geratuko dira."</string>
+    <string name="secondary_best_streak" formatted="false">"Bolarik onena"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Ezkutuko saria"</string>
+    <string name="secondary_unlocked_of">"%1$d-tik desblokeatu da"</string>
+    <string name="secondary_unlocked_date">"Desblokeatua %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Itzuli"</string>
+    <string name="secondary_my_recipe" formatted="false">"Nire errezeta"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Pisatu osagaiak egosi aurretik. Erabili egositako pisua zatiak kalkulatzeko. Sartu olioak eta saltsak."</string>
+    <string name="secondary_recipe_name" formatted="false">"Errezetaren izena"</string>
+    <string name="secondary_recipe_example" formatted="false">"Adibidez, barazki gisatua"</string>
+    <string name="secondary_ingredients" formatted="false">"Osagaiak"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Hasi osagaiekin"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Gehitu osagai bakoitza eta idatzi bere pisua gramotan."</string>
+    <string name="secondary_edit_weight" formatted="false">"Pisua editatu"</string>
+    <string name="secondary_delete" formatted="false">"Ezabatu"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Gehitu osagaia"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Errezeta osoa"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Sukaldatzeak pisua aldatzen du ura gehitu edo galdu ahala. Pisatu amaitutako platera bere edukiontzirik gabe."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Pisu egosi, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Sartu pisua egosi ondoren"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Sartu 0 baino handiagoa eta 100.000 g baino gehiagoko pisua"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Pisua ez da automatikoki betetzen"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Egositako plateraren 100 g bakoitzeko"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Egiaztatu egositako pisua eta osagaiak: 100 g bakoitzak 1.000 kcal eta 100 g makronutriente bakoitzeko izan ditzake gehienez."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Ezin izan da errezeta gorde"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Gorde Nire errezetetan"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Gorde ondoren, plater hau bere zatiaren pisuaren arabera erregistra dezakezu."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Osagaien pisua egosi aurretik"</string>
+    <string name="secondary_grams" formatted="false">"Gramo"</string>
+    <string name="secondary_weight_limits" formatted="false">"0 baino handiagoa eta 100.000 g baino gehiago"</string>
+    <string name="secondary_add" formatted="false">"Gehitu"</string>
+    <string name="secondary_save" formatted="false">"Gorde"</string>
+    <string name="secondary_cancel" formatted="false">"Utzi"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Aukeratu osagai bat"</string>
+    <string name="secondary_search_food" formatted="false">"Bilatu elikagaiak"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Ez dago emaitzarik. Zure janaria gehi dezakezu Elikagaiak fitxan."</string>
+    <string name="secondary_close" formatted="false">"Itxi"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Proteina %1$s · Koipea %2$s · Karbohidratoak %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Osagaien pisua: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Etekina: %1$s g. Osagaiak: %2$s"</string>
+</resources>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Дневник диеты</string>
+    <string name="app_name" formatted="false">"Diet Diary"</string>
 </resources>

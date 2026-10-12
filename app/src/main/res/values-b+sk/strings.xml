@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" formatted="false">"Stravovací denník"</string>
+    <string name="core_app_name" formatted="false">"Stravovací denník"</string>
+    <string name="core_tagline" formatted="false">"Kalórie, hmotnosť a pokrok"</string>
+    <string name="core_open_diary" formatted="false">"Otvoriť denník"</string>
+    <string name="core_save_failed" formatted="false">"Údaje sa nepodarilo uložiť"</string>
+    <string name="core_day" formatted="false">"Dnes"</string>
+    <string name="core_products" formatted="false">"Potraviny"</string>
+    <string name="core_diary" formatted="false">"Denník"</string>
+    <string name="core_charts" formatted="false">"Grafy"</string>
+    <string name="core_more" formatted="false">"Viac"</string>
+    <string name="core_recipe_saved" formatted="false">"Jedlo bolo uložené medzi vaše potraviny"</string>
+    <string name="core_back_to_day" formatted="false">"Späť na váš deň"</string>
+    <string name="core_action_failed" formatted="false">"Akciu sa nepodarilo vykonať"</string>
+    <string name="core_understood" formatted="false">"Rozumiem"</string>
+    <string name="core_restore_available" formatted="false">"Zálohu môžete obnoviť v časti Viac."</string>
+    <string name="core_eaten_today" formatted="false">"DNES ZJEDENÉ"</string>
+    <string name="core_set_goal_hint" formatted="false">"Cieľ môžete nastaviť v časti Viac"</string>
+    <string name="core_add_food" formatted="false">"+ Pridať jedlo"</string>
+    <string name="core_first_meal" formatted="false">"Začnite prvým jedlom"</string>
+    <string name="core_first_meal_help" formatted="false">"Vyberte potravinu a zadajte jej hmotnosť v gramoch na výpočet kalórií a makroživín."</string>
+    <string name="core_my_day" formatted="false">"Môj deň"</string>
+    <string name="core_my_day_help" formatted="false">"Hmotnosť, pás, kroky, spánok — zapisujte údaje, ktoré máte."</string>
+    <string name="core_record_metrics" formatted="false">"Zapísať merania"</string>
+    <string name="core_edit_metrics" formatted="false">"Upraviť merania"</string>
+    <string name="core_food_state_hint" formatted="false">"Hmotnosť a výživové hodnoty musia zodpovedať rovnakému stavu potraviny: surovému, suchému alebo hotovému."</string>
+    <string name="core_weight" formatted="false">"Hmotnosť"</string>
+    <string name="core_waist" formatted="false">"Obvod pása"</string>
+    <string name="core_my_diary" formatted="false">"Môj denník"</string>
+    <string name="core_diary_tagline" formatted="false">"Každý deň vlastným tempom"</string>
+    <string name="core_record_day" formatted="false">"+ Zapísať deň"</string>
+    <string name="core_optional_diary_help" formatted="false">"Všetky merania sú voliteľné. Môžete zapísať iba hmotnosť, spánok alebo poznámku. Ťuknutím na záznam ho upravíte."</string>
+    <string name="core_history_starts" formatted="false">"Vaša história sa začína tu"</string>
+    <string name="core_history_help" formatted="false">"Zapisujte merania a sledujte zmeny v grafoch."</string>
+    <string name="core_file_unavailable" formatted="false">"Súbor nie je dostupný"</string>
+    <string name="core_backup_saved" formatted="false">"Záloha bola uložená"</string>
+    <string name="core_export_error" formatted="false">"Zálohu sa nepodarilo exportovať"</string>
+    <string name="core_read_error" formatted="false">"Súbor sa nepodarilo prečítať"</string>
+    <string name="core_settings_tagline" formatted="false">"Nastavenia a zálohovanie údajov"</string>
+    <string name="core_your_progress" formatted="false">"Váš pokrok"</string>
+    <string name="core_achievements_help" formatted="false">"Malé úspechy vám pomôžu vytvoriť si návyk viesť denník."</string>
+    <string name="core_achievements" formatted="false">"Úspechy"</string>
+    <string name="core_google_drive" formatted="false">"Google Drive"</string>
+    <string name="core_cloud_help" formatted="false">"Voliteľné prihlásenie na synchronizáciu denníka medzi zariadeniami."</string>
+    <string name="core_cloud_sync" formatted="false">"Cloudová synchronizácia"</string>
+    <string name="core_personal_goals" formatted="false">"Osobné ciele"</string>
+    <string name="core_personal_goals_help" formatted="false">"Ručne nastavte ciele kalórií, makroživín a hmotnosti. Ktorýkoľvek cieľ môžete nechať prázdny."</string>
+    <string name="core_configure_goals" formatted="false">"Nastaviť ciele"</string>
+    <string name="core_backup" formatted="false">"Záloha"</string>
+    <string name="core_backup_help" formatted="false">"Potraviny, jedlá, denník, ciele a úspechy v jednom súbore. Pred preinštalovaním aplikácie vytvorte zálohu."</string>
+    <string name="core_save_file" formatted="false">"Uložiť do súboru"</string>
+    <string name="core_restore_file" formatted="false">"Obnoviť zo súboru"</string>
+    <string name="core_write_locked" formatted="false">"Ukladanie je vypnuté na ochranu pôvodného súboru. Obnovte platnú zálohu."</string>
+    <string name="core_about_data" formatted="false">"O aplikácii a vašich údajoch"</string>
+    <string name="core_about_data_help" formatted="false">"Ako sa záznamy ukladajú, synchronizujú a odstraňujú."</string>
+    <string name="core_privacy" formatted="false">"Súkromie a odstránenie údajov"</string>
+    <string name="core_offline" formatted="false">"Funguje bez internetu"</string>
+    <string name="core_offline_help" formatted="false">"Prihlásenie cez Google je voliteľné. Kroky a spánok sa zadávajú ručne. Internet je potrebný na zapnutú synchronizáciu a načítanie reklám. Záznamy denníka sa neposielajú reklamnej sieti."</string>
+    <string name="core_about_foods" formatted="false">"O potravinách"</string>
+    <string name="core_foods_reference" formatted="false">"Vstavané hodnoty sú odhady na 100 g jedlej časti. Presné hodnoty overte na obale. Úprava potraviny neprepočítava už zapísané jedlá."</string>
+    <string name="core_foods_source" formatted="false">"Zdroj databázy: USDA FoodData Central, SR Legacy. Pri každej potravine je uvedený jej stav a zdroj."</string>
+    <string name="core_restore_title" formatted="false">"Obnoviť túto zálohu?"</string>
+    <string name="core_restore_warning" formatted="false">"Aktuálne potraviny, denník, ciele a úspechy budú nahradené údajmi z tohto súboru. Najprv vytvorte zálohu. Ak je synchronizácia pripojená, obnovené údaje sa odošlú aj do Google Drive."</string>
+    <string name="core_backup_restored" formatted="false">"Záloha bola obnovená"</string>
+    <string name="core_invalid_file" formatted="false">"Neplatný súbor"</string>
+    <string name="core_replace_data" formatted="false">"Nahradiť údaje"</string>
+    <string name="core_cancel" formatted="false">"Zrušiť"</string>
+    <string name="core_save" formatted="false">"Uložiť"</string>
+    <string name="core_calculate_portion" formatted="false">"Vypočítať porciu"</string>
+    <string name="core_edit_portion" formatted="false">"Upraviť porciu"</string>
+    <string name="core_portion_weight" formatted="false">"Hmotnosť porcie, g"</string>
+    <string name="core_portion_invalid" formatted="false">"Zadajte hmotnosť väčšiu ako 0 a najviac 100 000 g"</string>
+    <string name="core_add_to_diary" formatted="false">"Pridať do denníka"</string>
+    <string name="core_delete_entry" formatted="false">"Odstrániť záznam"</string>
+    <string name="core_delete_portion_question" formatted="false">"Odstrániť túto porciu z denníka?"</string>
+    <string name="core_new_food" formatted="false">"Nová potravina alebo jedlo"</string>
+    <string name="core_edit_nutrition" formatted="false">"Upraviť výživové hodnoty"</string>
+    <string name="core_name" formatted="false">"Názov"</string>
+    <string name="core_food" formatted="false">"Potravina"</string>
+    <string name="core_dish" formatted="false">"Hotové jedlo"</string>
+    <string name="core_category" formatted="false">"Kategória"</string>
+    <string name="core_per100_hint" formatted="false">"Hodnoty na 100 g z obalu alebo receptu. Ak živina nie je prítomná, zadajte 0."</string>
+    <string name="core_kcal" formatted="false">"Kalórie"</string>
+    <string name="core_protein_grams" formatted="false">"Bielkoviny, g"</string>
+    <string name="core_fat_grams" formatted="false">"Tuky, g"</string>
+    <string name="core_carbs_grams" formatted="false">"Sacharidy, g"</string>
+    <string name="core_food_note" formatted="false">"Poznámka, zloženie (voliteľné)"</string>
+    <string name="core_favorite" formatted="false">"Pridať medzi obľúbené"</string>
+    <string name="core_name_category_required" formatted="false">"Zadajte názov a kategóriu"</string>
+    <string name="core_nutrition_invalid" formatted="false">"Zadajte hodnoty na 100 g: kalórie od 0 do 1 000; bielkoviny, tuky a sacharidy od 0 do 100 g"</string>
+    <string name="core_delete_food" formatted="false">"Odstrániť z potravín"</string>
+    <string name="core_old_entries_unchanged" formatted="false">"Už zapísané jedlá si zachovajú svoje hodnoty."</string>
+    <string name="core_delete_food_question" formatted="false">"Odstrániť túto potravinu? Jej záznamy v denníku zostanú."</string>
+    <string name="core_day_entry" formatted="false">"Denný záznam"</string>
+    <string name="core_optional_fields" formatted="false">"Vyplňte ľubovoľné polia. Ostatné nechajte prázdne."</string>
+    <string name="core_editing_existing" formatted="false">"Pre tento dátum už existuje záznam. Teraz ho upravujete."</string>
+    <string name="core_weight_kg" formatted="false">"Hmotnosť, kg"</string>
+    <string name="core_waist_cm" formatted="false">"Obvod pása, cm"</string>
+    <string name="core_steps" formatted="false">"Kroky"</string>
+    <string name="core_sleep" formatted="false">"Spánok"</string>
+    <string name="core_hours" formatted="false">"Hodiny"</string>
+    <string name="core_minutes" formatted="false">"Minúty"</string>
+    <string name="core_body_fat_optional" formatted="false">"Tuk podľa váhy, % (voliteľné)"</string>
+    <string name="core_body_fat_hint" formatted="false">"Percento tuku z váhy pomáha sledovať trend; nie je presným meraním."</string>
+    <string name="core_strength_training" formatted="false">"Silový tréning"</string>
+    <string name="core_training_example" formatted="false">"Napríklad: drepy 3×10, činky po 12 kg"</string>
+    <string name="core_manual_nutrition" formatted="false">"Ručné výživové súčty"</string>
+    <string name="core_manual_nutrition_hint" formatted="false">"Ak sú vyplnené, tieto hodnoty nahradia denné súčty z potravín. Pre automatický výpočet ich nechajte prázdne."</string>
+    <string name="core_daily_calories" formatted="false">"Kalórie za deň"</string>
+    <string name="core_daily_protein" formatted="false">"Bielkoviny za deň, g"</string>
+    <string name="core_wellbeing_notes" formatted="false">"Poznámky a ako sa cítite"</string>
+    <string name="core_steps_invalid" formatted="false">"Kroky: celé číslo od 0 do 200 000"</string>
+    <string name="core_sleep_invalid" formatted="false">"Spánok: 0–24 hodín, 0–59 minút"</string>
+    <string name="core_body_fat" formatted="false">"Telesný tuk"</string>
+    <string name="core_calories" formatted="false">"Kalórie"</string>
+    <string name="core_protein" formatted="false">"Bielkoviny"</string>
+    <string name="core_entry_required" formatted="false">"Pridajte aspoň jedno meranie alebo poznámku"</string>
+    <string name="core_delete_day" formatted="false">"Odstrániť denný záznam"</string>
+    <string name="core_optional_goals" formatted="false">"Všetky ciele sú voliteľné. Prázdne pole znamená, že cieľ nie je nastavený."</string>
+    <string name="core_calories_per_day" formatted="false">"Kalórie denne"</string>
+    <string name="core_protein_per_day" formatted="false">"Bielkoviny denne, g"</string>
+    <string name="core_fat_per_day" formatted="false">"Tuky denne, g"</string>
+    <string name="core_carbs_per_day" formatted="false">"Sacharidy denne, g"</string>
+    <string name="core_target_weight" formatted="false">"Cieľová hmotnosť, kg"</string>
+    <string name="core_goals_invalid" formatted="false">"Skontrolujte ciele: kalórie od 0 do 10 000; bielkoviny, tuky a sacharidy od 0 do 1 000 g"</string>
+    <string name="core_target_weight_invalid" formatted="false">"Cieľová hmotnosť: od 1 do 500 kg"</string>
+    <string name="core_delete_question" formatted="false">"Odstrániť?"</string>
+    <string name="core_delete" formatted="false">"Odstrániť"</string>
+    <string name="core_select_food" formatted="false">"Vybrať potravinu"</string>
+    <string name="core_foods_dishes" formatted="false">"Potraviny a jedlá"</string>
+    <string name="core_search_food" formatted="false">"Hľadať potravinu alebo jedlo"</string>
+    <string name="core_new_food_button" formatted="false">"+ Potravina / jedlo"</string>
+    <string name="core_recipe_button" formatted="false">"Z receptu"</string>
+    <string name="core_no_results" formatted="false">"Nič sa nenašlo"</string>
+    <string name="core_no_results_help" formatted="false">"Skúste iné vyhľadávanie alebo pridajte vlastnú potravinu či hotové jedlo."</string>
+    <string name="core_edit" formatted="false">"Upraviť"</string>
+    <string name="core_achievement_unlocked">"🏆 Odomknutý úspech! %1$s — %2$s"</string>
+    <string name="core_remaining_goal">"Zostáva %1$s kcal · cieľ %2$s"</string>
+    <string name="core_above_goal">"%1$s kcal nad cieľom"</string>
+    <string name="core_portion_summary">"%1$s g · %2$s kcal"</string>
+    <string name="core_macros_summary">"Bielkoviny %1$s   Tuky %2$s   Sacharidy %3$s"</string>
+    <string name="core_weight_summary">"Hmotnosť %1$s kg"</string>
+    <string name="core_waist_summary">"Pás %1$s cm"</string>
+    <string name="core_steps_summary">"Kroky: %1$s"</string>
+    <string name="core_fat_summary">"Telesný tuk %1$s%%"</string>
+    <string name="core_manual_calories">"%1$s kcal (ručne)"</string>
+    <string name="core_manual_protein">"Bielkoviny %1$s g (ručne)"</string>
+    <string name="core_kg_value">"%1$s kg"</string>
+    <string name="core_cm_value">"%1$s cm"</string>
+    <string name="core_sleep_value">"Spánok %1$s"</string>
+    <string name="core_scale_fat">"Tuk podľa váhy %1$s%%"</string>
+    <string name="core_training_value">"Tréning: %1$s"</string>
+    <string name="core_kcal_value">"%1$s kcal"</string>
+    <string name="core_protein_value">"Bielkoviny %1$s g"</string>
+    <string name="core_app_version">"Stravovací denník · %1$s"</string>
+    <string name="core_per100_summary">"Na 100 g: %1$s kcal · Bielkoviny %2$s · Tuky %3$s · Sacharidy %4$s"</string>
+    <string name="core_range_invalid">"%1$s: zadajte hodnotu od %2$s do %3$s"</string>
+    <string name="core_delete_day_question">"Odstrániť merania z %1$s? Jedlá zostanú."</string>
+    <string name="core_catalog_count">"Potraviny: %1$s · hodnoty na 100 g"</string>
+    <string name="core_catalog_nutrition">"%1$s kcal   ·   Bielkoviny %2$s   Tuky %3$s   Sacharidy %4$s"</string>
+    <string name="core_today_date">"Dnes · %1$s"</string>
+    <string name="core_manual_both" formatted="false">"Kalórie a bielkoviny sú súčty zadané ručne v denníku"</string>
+    <string name="core_manual_calorie_total" formatted="false">"Kalórie sú súčet zadaný ručne v denníku"</string>
+    <string name="core_manual_protein_total" formatted="false">"Bielkoviny sú súčet zadaný ručne v denníku"</string>
+    <string name="core_macro_goals">"Ciele B / T / S: %1$s / %2$s / %3$s g"</string>
+    <string name="core_kcal_unit" formatted="false">"kcal"</string>
+    <string name="core_manual_values">"%1$s (ručne)"</string>
+    <string name="core_all" formatted="false">"Všetky"</string>
+    <string name="core_favorites" formatted="false">"Obľúbené"</string>
+    <string name="core_sleep_duration">"%1$s h %2$s min"</string>
+    <string name="core_previous_day" formatted="false">"Predchádzajúci deň"</string>
+    <string name="core_next_day" formatted="false">"Nasledujúci deň"</string>
+    <string name="data_migration_backup_mismatch" formatted="false">"Migračná záloha sa nezhoduje"</string>
+    <string name="data_entry_exists" formatted="false">"Tento záznam jedla už existuje"</string>
+    <string name="data_entry_missing" formatted="false">"Záznam jedla sa nenašiel"</string>
+    <string name="data_edited_date_changed" formatted="false">"Dátum upravovaného záznamu sa zmenil"</string>
+    <string name="data_device_id_corrupt" formatted="false">"Miestny identifikátor zariadenia je poškodený; obnovenie je zablokované"</string>
+    <string name="data_sync_invalid" formatted="false">"Neplatné údaje synchronizácie"</string>
+    <string name="data_diary_read_only" formatted="false">"Denník je chránený pred prepísaním: obnovte zálohu"</string>
+    <string name="data_diary_inconsistent" formatted="false">"Údaje denníka sú nekonzistentné"</string>
+    <string name="data_backup_too_large" formatted="false">"Záloha je príliš veľká"</string>
+    <string name="data_installation_id_corrupt" formatted="false">"Identifikátor inštalácie je poškodený"</string>
+    <string name="data_save_verification_failed" formatted="false">"Uloženie denníka sa nepodarilo overiť"</string>
+    <string name="data_save_failed" formatted="false">"Denník sa nepodarilo uložiť"</string>
+    <string name="data_backup_over_50_mb" formatted="false">"Záloha presahuje 50 MB"</string>
+    <string name="data_diary_file_too_large" formatted="false">"Súbor denníka je príliš veľký"</string>
+    <string name="data_catalog_size_invalid" formatted="false">"Neplatná veľkosť databázy potravín"</string>
+    <string name="data_backup_version_unsupported" formatted="false">"Nepodporovaná verzia zálohy"</string>
+    <string name="data_too_many_values">"Príliš veľa hodnôt v %1$s"</string>
+    <string name="data_too_many_products" formatted="false">"Príliš veľa potravín"</string>
+    <string name="data_too_many_entries" formatted="false">"Príliš veľa záznamov jedla"</string>
+    <string name="data_too_many_logs" formatted="false">"Príliš veľa záznamov denníka"</string>
+    <string name="data_product_id_duplicate" formatted="false">"Duplicitný identifikátor potraviny"</string>
+    <string name="data_entry_id_duplicate" formatted="false">"Duplicitný identifikátor záznamu jedla"</string>
+    <string name="data_log_date_duplicate" formatted="false">"Duplicitný dátum denníka"</string>
+    <string name="data_label_product_id" formatted="false">"Identifikátor potraviny"</string>
+    <string name="data_label_product_name" formatted="false">"Názov potraviny"</string>
+    <string name="data_label_category" formatted="false">"Kategória"</string>
+    <string name="data_label_note" formatted="false">"Poznámka"</string>
+    <string name="data_label_entry_id" formatted="false">"Identifikátor záznamu"</string>
+    <string name="data_label_meal" formatted="false">"Jedlo"</string>
+    <string name="data_food_weight_range" formatted="false">"Hmotnosť jedla musí byť väčšia ako 0 a najviac 100 000 g"</string>
+    <string name="data_label_weight" formatted="false">"Hmotnosť"</string>
+    <string name="data_label_waist" formatted="false">"Obvod pása"</string>
+    <string name="data_steps_range" formatted="false">"Počet krokov musí byť od 0 do 200 000"</string>
+    <string name="data_label_sleep" formatted="false">"Spánok"</string>
+    <string name="data_label_body_fat" formatted="false">"Telesný tuk"</string>
+    <string name="data_label_daily_calories" formatted="false">"Kalórie za deň"</string>
+    <string name="data_label_daily_protein" formatted="false">"Bielkoviny za deň"</string>
+    <string name="data_label_workout" formatted="false">"Tréning"</string>
+    <string name="data_label_log_note" formatted="false">"Poznámka"</string>
+    <string name="data_log_empty" formatted="false">"Zadajte aspoň jedno meranie alebo poznámku"</string>
+    <string name="data_label_goal_weight" formatted="false">"Cieľová hmotnosť"</string>
+    <string name="data_too_many_achievements" formatted="false">"Príliš veľa úspechov"</string>
+    <string name="data_achievement_invalid" formatted="false">"Neplatný úspech"</string>
+    <string name="data_setting_not_portable" formatted="false">"Toto nastavenie nemožno preniesť"</string>
+    <string name="data_setting_invalid">"Neplatná hodnota nastavenia %1$s"</string>
+    <string name="data_label_calories" formatted="false">"Kalórie"</string>
+    <string name="data_label_protein" formatted="false">"Bielkoviny"</string>
+    <string name="data_label_fat" formatted="false">"Tuky"</string>
+    <string name="data_label_carbs" formatted="false">"Sacharidy"</string>
+    <string name="data_value_range">"%1$s: povolený rozsah od %2$s do %3$s"</string>
+    <string name="data_text_length_invalid">"%1$s: neplatná dĺžka"</string>
+    <string name="data_text_character_invalid">"%1$s: nepovolený znak"</string>
+    <string name="data_date_format_invalid" formatted="false">"Dátum musí byť vo formáte RRRR-MM-DD"</string>
+    <string name="data_date_nonexistent">"Neplatný dátum: %1$s"</string>
+    <string name="data_field_string_required">"Pole %1$s musí obsahovať text"</string>
+    <string name="data_field_boolean_required">"Pole %1$s musí byť logická hodnota"</string>
+    <string name="data_field_number_required">"Pole %1$s musí byť číslo"</string>
+    <string name="data_field_finite_required">"Pole %1$s musí byť konečné číslo"</string>
+    <string name="data_field_integer_required">"Pole %1$s musí byť celé číslo"</string>
+    <string name="data_too_many_items">"Príliš veľa položiek v %1$s"</string>
+    <string name="data_data_file_invalid">"Neplatný dátový súbor: %1$s"</string>
+    <string name="data_device_id_missing" formatted="false">"Chýba identifikátor zariadenia"</string>
+    <string name="data_logical_clock_exhausted" formatted="false">"Bol dosiahnutý limit logických hodín"</string>
+    <string name="data_too_many_sync_records" formatted="false">"Príliš veľa synchronizačných záznamov"</string>
+    <string name="data_sync_version_required" formatted="false">"Synchronizácia vyžaduje formát verzie 2"</string>
+    <string name="data_sync_key_invalid" formatted="false">"Neplatný synchronizačný kľúč"</string>
+    <string name="data_sync_key_duplicate" formatted="false">"Duplicitný synchronizačný kľúč"</string>
+    <string name="data_deletion_flag_invalid" formatted="false">"Neplatný príznak odstránenia"</string>
+    <string name="data_sync_data_invalid" formatted="false">"Neplatné údaje synchronizácie"</string>
+    <string name="data_record_clock_invalid" formatted="false">"Verzia záznamu presahuje logické hodiny"</string>
+    <string name="data_sync_metadata_mismatch" formatted="false">"Údaje nezodpovedajú metadátam synchronizácie"</string>
+    <string name="data_sync_key_length_invalid" formatted="false">"Neplatná dĺžka synchronizačného kľúča"</string>
+    <string name="data_sync_key_malformed" formatted="false">"Nesprávny formát synchronizačného kľúča"</string>
+    <string name="data_sync_type_unknown" formatted="false">"Neznámy typ synchronizácie"</string>
+    <string name="data_record_id_too_long" formatted="false">"Identifikátor záznamu je príliš dlhý"</string>
+    <string name="data_achievement_deletion_invalid" formatted="false">"Neplatné odstránenie úspechu"</string>
+    <string name="data_log_key_invalid" formatted="false">"Neplatný kľúč denníka"</string>
+    <string name="data_log_field_unknown" formatted="false">"Neznáme pole denníka"</string>
+    <string name="data_log_deletion_invalid" formatted="false">"Neplatná značka odstránenia denníka"</string>
+    <string name="data_goal_unknown" formatted="false">"Neznámy cieľ"</string>
+    <string name="data_deleted_record_has_data" formatted="false">"Odstránený záznam obsahuje údaje"</string>
+    <string name="data_sync_value_invalid" formatted="false">"Neplatná synchronizačná hodnota"</string>
+    <string name="data_record_id_mismatch" formatted="false">"Identifikátor záznamu nezodpovedá kľúču"</string>
+    <string name="data_field_value_invalid" formatted="false">"Neplatná hodnota poľa"</string>
+    <string name="data_achievement_date_mismatch" formatted="false">"Dátum úspechu nezodpovedá kľúču"</string>
+    <string name="data_note_string_required" formatted="false">"Poznámka musí obsahovať text"</string>
+    <string name="data_sync_note_invalid" formatted="false">"Neplatná synchronizovaná poznámka"</string>
+    <string name="data_logical_clock_invalid" formatted="false">"Neplatné logické hodiny"</string>
+    <string name="data_device_invalid" formatted="false">"Neplatné zariadenie"</string>
+    <string name="data_version_stamp_invalid" formatted="false">"Neplatná značka verzie"</string>
+    <string name="data_google_login_required" formatted="false">"Prihláste sa znova do Google"</string>
+    <string name="data_too_many_cloud_snapshots" formatted="false">"Príliš veľa cloudových záloh"</string>
+    <string name="data_drive_page_repeated" formatted="false">"Google Drive vrátil opakovanú stránku"</string>
+    <string name="data_cloud_snapshot_over_50_mb" formatted="false">"Cloudová záloha presahuje 50 MB"</string>
+    <string name="data_drive_upload_address_missing" formatted="false">"Google Drive nevrátil adresu na nahrávanie"</string>
+    <string name="data_drive_upload_address_invalid" formatted="false">"Neplatná adresa na nahrávanie Google Drive"</string>
+    <string name="data_back" formatted="false">"‹  Späť"</string>
+    <string name="data_cloud_title" formatted="false">"Cloudová synchronizácia"</string>
+    <string name="data_cloud_subtitle" formatted="false">"Váš denník na všetkých zariadeniach"</string>
+    <string name="data_no_account" formatted="false">"Nie je pripojený žiadny účet"</string>
+    <string name="data_cloud_intro" formatted="false">"Prihlásenie je voliteľné. Potraviny, jedlá, merania, ciele a úspechy sa ukladajú v telefóne. Po pripojení sa kópia uloží do skrytého priečinka vášho Google Drive."</string>
+    <string name="data_cloud_first_connection" formatted="false">"Pri prvom pripojení sa záznamy zlúčia. Aplikácia nemá prístup k ostatným súborom na Disku."</string>
+    <string name="data_cloud_not_configured_notice" formatted="false">"Prihlásenie cez Google ešte nie je nastavené pre túto verziu. Denník a zálohy v súboroch fungujú bez účtu."</string>
+    <string name="data_connect_google" formatted="false">"Pripojiť Google"</string>
+    <string name="data_automatic_sync" formatted="false">"Automatická synchronizácia"</string>
+    <string name="data_automatic_sync_description" formatted="false">"Pri zmenách a na pozadí, keď to Android dovolí"</string>
+    <string name="data_sync_schedule_failed" formatted="false">"Plán sa nepodarilo zmeniť. Vaše údaje sú uložené v tomto zariadení."</string>
+    <string name="data_sync_start_failed" formatted="false">"Synchronizáciu sa nepodarilo spustiť. Vaše údaje sú uložené v tomto zariadení."</string>
+    <string name="data_sync_now" formatted="false">"Synchronizovať teraz"</string>
+    <string name="data_google_sign_in_again" formatted="false">"Prihláste sa znova do Google"</string>
+    <string name="data_disconnect_account" formatted="false">"Odpojiť účet"</string>
+    <string name="data_sync_never" formatted="false">"Synchronizácia ešte neprebehla"</string>
+    <string name="data_offline_saved_title" formatted="false">"Vaše údaje sú uložené offline"</string>
+    <string name="data_cloud_merge_description" formatted="false">"Pri zapnutej automatickej synchronizácii sa zmeny odošlú, keď je dostupné pripojenie. Ak sa rovnaké pole zmení na dvoch zariadeniach, použije sa verzia s neskoršou časovou značkou zmeny. Nezávislé záznamy a polia sa zlúčia."</string>
+    <string name="data_cloud_password_description" formatted="false">"Heslo zadávate iba na stránke Google v prehliadači. Prístupové tokeny chráni Android Keystore a nie sú súčasťou záloh."</string>
+    <string name="data_google_connection_title" formatted="false">"Pripojenie Google"</string>
+    <string name="data_got_it" formatted="false">"Rozumiem"</string>
+    <string name="data_connect_drive_title" formatted="false">"Pripojiť Google Drive?"</string>
+    <string name="data_connect_drive_description" formatted="false">"Aktuálny denník sa zlúči s údajmi vo vybranom účte Google. Na svojich zariadeniach používajte ten istý osobný účet. Prihlásenie sa otvorí v predvolenom prehliadači."</string>
+    <string name="data_sign_in_open_failed" formatted="false">"Prihlásenie sa nepodarilo otvoriť. Nainštalujte alebo zapnite predvolený prehliadač a skúste to znova."</string>
+    <string name="data_continue" formatted="false">"Pokračovať"</string>
+    <string name="data_cancel" formatted="false">"Zrušiť"</string>
+    <string name="data_disconnect_title" formatted="false">"Odpojiť účet?"</string>
+    <string name="data_disconnect_description" formatted="false">"Synchronizácia sa na tomto zariadení zastaví. Miestny denník a kópie v Google Drive zostanú. Povolenie aplikácie môžete spravovať v nastaveniach účtu Google."</string>
+    <string name="data_disconnect_failed" formatted="false">"Účet sa nepodarilo odpojiť. Skúste to znova."</string>
+    <string name="data_disconnect" formatted="false">"Odpojiť"</string>
+    <string name="data_google_not_connected" formatted="false">"Google nie je pripojený"</string>
+    <string name="data_sync_ready" formatted="false">"Pripravené na synchronizáciu"</string>
+    <string name="data_sync_changes_pending" formatted="false">"Zmeny čakajú na synchronizáciu…"</string>
+    <string name="data_offline_changes_saved" formatted="false">"Nie je internet. Zmeny sú uložené v tomto zariadení."</string>
+    <string name="data_google_not_configured" formatted="false">"Prihlásenie cez Google ešte nie je nastavené pre túto verziu"</string>
+    <string name="data_sync_wait" formatted="false">"Počkajte na dokončenie synchronizácie"</string>
+    <string name="data_google_connecting" formatted="false">"Pripájanie ku Google…"</string>
+    <string name="data_connection_cancelled" formatted="false">"Pripojenie bolo zrušené"</string>
+    <string name="data_connection_rejected" formatted="false">"Pripojenie bolo zrušené alebo ho Google odmietol"</string>
+    <string name="data_google_connected_merging" formatted="false">"Google je pripojený. Zlučujú sa záznamy…"</string>
+    <string name="data_google_connection_failed" formatted="false">"Google sa nepodarilo pripojiť. Skontrolujte internet a nastavenia prístupu."</string>
+    <string name="data_account_disconnected" formatted="false">"Účet bol odpojený. Vaše údaje zostávajú v tomto zariadení."</string>
+    <string name="data_sync_waiting_network" formatted="false">"Nie je internet. Synchronizácia čaká na pripojenie."</string>
+    <string name="data_sync_scheduled" formatted="false">"Synchronizácia je naplánovaná…"</string>
+    <string name="data_sync_running" formatted="false">"Synchronizácia…"</string>
+    <string name="data_sync_complete" formatted="false">"Synchronizácia dokončená"</string>
+    <string name="data_no_internet" formatted="false">"Nie je pripojenie k internetu"</string>
+    <string name="data_sync_failed_saved" formatted="false">"Synchronizácia sa nepodarila. Vaše údaje sú uložené v tomto zariadení"</string>
+    <string name="data_page_open_failed" formatted="false">"Stránku sa nepodarilo otvoriť. Jej adresu môžete skopírovať z textu nižšie."</string>
+    <string name="data_privacy_title" formatted="false">"Súkromie"</string>
+    <string name="data_privacy_subtitle" formatted="false">"Vaše záznamy a kontrola nad údajmi"</string>
+    <string name="data_app_purpose" formatted="false">"O tejto aplikácii"</string>
+    <string name="data_medical_disclaimer" formatted="false">"Táto aplikácia nie je zdravotnícka pomôcka. Nediagnostikuje, nelieči ani nevylieči choroby a nepredchádza im. O zdravotné rady, diagnózu a liečbu požiadajte kvalifikovaného zdravotníckeho pracovníka."</string>
+    <string name="data_manage_delete_data" formatted="false">"Správa a odstránenie údajov"</string>
+    <string name="data_delete_data_intro" formatted="false">"Pred odstránením všetkých údajov vypnite synchronizáciu na každom zariadení. Odinštalovanie aplikácie z telefónu neodstráni kópie v Google Drive ani exportované súbory."</string>
+    <string name="data_manage_drive_data" formatted="false">"Spravovať údaje Google Drive"</string>
+    <string name="data_google_account_access" formatted="false">"Prístup účtu Google"</string>
+    <string name="data_android_app_storage" formatted="false">"Úložisko aplikácie v Androide"</string>
+    <string name="data_contact_developer" formatted="false">"Kontaktovať vývojára"</string>
+    <string name="data_opening_page" formatted="false">"Otváranie stránky"</string>
+    <string name="data_advertisement" formatted="false">"REKLAMA"</string>
+    <string name="data_ad_information" formatted="false">"O tejto reklame"</string>
+    <string name="data_cloud_http_error">"Chyba HTTP cloudu %1$s"</string>
+    <string name="data_cloud_response_too_large" formatted="false">"Odpoveď cloudu je príliš veľká"</string>
+    <string name="data_encrypted_session_invalid" formatted="false">"Neplatná šifrovaná relácia prihlásenia"</string>
+    <string name="data_session_save_failed" formatted="false">"Reláciu prihlásenia sa nepodarilo uložiť"</string>
+    <string name="data_token_refresh_failed" formatted="false">"Prístup ku Google sa nepodarilo obnoviť"</string>
+    <string name="data_diary_read_failed">"Denník sa nepodarilo prečítať. Pôvodný súbor bol zachovaný. Obnovte údaje zo zálohy. %1$s"</string>
+    <string name="data_last_sync">"Posledná synchronizácia: %1$s"</string>
+    <string name="data_category_fruit" formatted="false">"Ovocie a bobule"</string>
+    <string name="data_category_dried_fruit" formatted="false">"Sušené ovocie"</string>
+    <string name="data_category_vegetables" formatted="false">"Zelenina a bylinky"</string>
+    <string name="data_category_mushrooms" formatted="false">"Huby"</string>
+    <string name="data_category_grains" formatted="false">"Obilniny a cestoviny"</string>
+    <string name="data_category_legumes" formatted="false">"Strukoviny"</string>
+    <string name="data_category_meat" formatted="false">"Mäso a hydina"</string>
+    <string name="data_category_fish" formatted="false">"Ryby a morské plody"</string>
+    <string name="data_category_dairy" formatted="false">"Mliečne výrobky"</string>
+    <string name="data_category_eggs" formatted="false">"Vajcia"</string>
+    <string name="data_category_oils" formatted="false">"Oleje a maslo"</string>
+    <string name="data_category_nuts" formatted="false">"Orechy a semená"</string>
+    <string name="data_category_bread" formatted="false">"Chlieb"</string>
+    <string name="data_category_other" formatted="false">"Iné potraviny"</string>
+    <string name="data_category_dishes" formatted="false">"Hotové jedlá"</string>
+    <string name="data_category_custom" formatted="false">"Moje potraviny"</string>
+    <string name="data_category_other_short" formatted="false">"Iné"</string>
+    <string name="data_food_seed_9003" formatted="false">"Jablko so šupkou"</string>
+    <string name="data_catalog_note_1">"Referenčné hodnoty na 100 g jedlej časti. Surová potravina. Sacharidy podľa USDA zahŕňajú vlákninu. Hodnoty môžete upraviť podľa etikety výrobku. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9040" formatted="false">"Banán bez šupky"</string>
+    <string name="data_food_seed_9021" formatted="false">"Marhuľa bez kôstky"</string>
+    <string name="data_food_seed_9037" formatted="false">"Dužina avokáda"</string>
+    <string name="data_food_seed_9050" formatted="false">"Čučoriedky"</string>
+    <string name="data_food_seed_9070" formatted="false">"Čerešne bez kôstok"</string>
+    <string name="data_food_seed_9063" formatted="false">"Višne bez kôstok"</string>
+    <string name="data_food_seed_9078" formatted="false">"Brusnice"</string>
+    <string name="data_food_seed_9083" formatted="false">"Čierne ríbezle"</string>
+    <string name="data_food_seed_9084" formatted="false">"Červené a biele ríbezle"</string>
+    <string name="data_food_seed_9132" formatted="false">"Hrozno"</string>
+    <string name="data_food_seed_9148" formatted="false">"Dužina kivi"</string>
+    <string name="data_food_seed_9150" formatted="false">"Citrón bez šupky"</string>
+    <string name="data_food_seed_9181" formatted="false">"Dužina melóna kantalup"</string>
+    <string name="data_food_seed_9200" formatted="false">"Dužina pomaranča"</string>
+    <string name="data_food_seed_9218" formatted="false">"Dužina mandarínky"</string>
+    <string name="data_food_seed_9236" formatted="false">"Broskyňa bez kôstky"</string>
+    <string name="data_food_seed_9252" formatted="false">"Hruška"</string>
+    <string name="data_food_seed_9266" formatted="false">"Dužina ananásu"</string>
+    <string name="data_food_seed_9279" formatted="false">"Slivka bez kôstky"</string>
+    <string name="data_food_seed_9286" formatted="false">"Zrnká granátového jablka"</string>
+    <string name="data_food_seed_9295" formatted="false">"Dužina pomela"</string>
+    <string name="data_food_seed_9302" formatted="false">"Maliny"</string>
+    <string name="data_food_seed_9316" formatted="false">"Jahody"</string>
+    <string name="data_food_seed_9326" formatted="false">"Dužina vodného melóna"</string>
+    <string name="data_food_seed_9191" formatted="false">"Nektárinka bez kôstky"</string>
+    <string name="data_food_seed_9176" formatted="false">"Dužina manga"</string>
+    <string name="data_food_seed_9107" formatted="false">"Egreše"</string>
+    <string name="data_food_seed_9226" formatted="false">"Dužina papáje"</string>
+    <string name="data_food_seed_9089" formatted="false">"Čerstvé figy"</string>
+    <string name="data_food_seed_9111" formatted="false">"Dužina grapefruitu"</string>
+    <string name="data_food_seed_9032" formatted="false">"Sušené marhule bez kôstok"</string>
+    <string name="data_catalog_note_2">"Referenčné hodnoty na 100 g jedlej časti. Sacharidy podľa USDA zahŕňajú vlákninu. Hodnoty môžete upraviť podľa etikety výrobku. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_9291" formatted="false">"Sušené slivky bez kôstok"</string>
+    <string name="data_food_seed_9087" formatted="false">"Datle bez kôstok"</string>
+    <string name="data_food_seed_9298" formatted="false">"Tmavé hrozienka bez semien"</string>
+    <string name="data_food_seed_11529" formatted="false">"Čerstvá paradajka"</string>
+    <string name="data_food_seed_11205" formatted="false">"Uhorka so šupkou"</string>
+    <string name="data_food_seed_11090" formatted="false">"Surová brokolica"</string>
+    <string name="data_food_seed_11109" formatted="false">"Surová biela kapusta"</string>
+    <string name="data_food_seed_11124" formatted="false">"Surová mrkva"</string>
+    <string name="data_food_seed_11135" formatted="false">"Surový karfiol"</string>
+    <string name="data_food_seed_11143" formatted="false">"Stonkový zeler"</string>
+    <string name="data_food_seed_11282" formatted="false">"Surová cibuľa"</string>
+    <string name="data_food_seed_11291" formatted="false">"Jarná cibuľka"</string>
+    <string name="data_food_seed_11304" formatted="false">"Surový zelený hrášok"</string>
+    <string name="data_food_seed_11333" formatted="false">"Zelená sladká paprika"</string>
+    <string name="data_food_seed_11821" formatted="false">"Červená sladká paprika"</string>
+    <string name="data_food_seed_11352" formatted="false">"Surový zemiak so šupkou"</string>
+    <string name="data_food_seed_11367" formatted="false">"Varený zemiak bez šupky"</string>
+    <string name="data_catalog_note_3">"Referenčné hodnoty na 100 g jedlej časti. Bez pridanej soli. Sacharidy podľa USDA zahŕňajú vlákninu. Hodnoty môžete upraviť podľa etikety výrobku. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_11477" formatted="false">"Surová cuketa"</string>
+    <string name="data_food_seed_11209" formatted="false">"Surový baklažán"</string>
+    <string name="data_food_seed_11422" formatted="false">"Surová tekvica"</string>
+    <string name="data_food_seed_11429" formatted="false">"Reďkovka"</string>
+    <string name="data_food_seed_11564" formatted="false">"Surová okrúhlica"</string>
+    <string name="data_food_seed_11080" formatted="false">"Surová červená repa"</string>
+    <string name="data_food_seed_11081" formatted="false">"Varená červená repa"</string>
+    <string name="data_food_seed_11215" formatted="false">"Cesnak"</string>
+    <string name="data_food_seed_11216" formatted="false">"Koreň zázvoru"</string>
+    <string name="data_food_seed_11457" formatted="false">"Surový špenát"</string>
+    <string name="data_food_seed_11253" formatted="false">"Listový šalát"</string>
+    <string name="data_food_seed_11297" formatted="false">"Čerstvá petržlenová vňať"</string>
+    <string name="data_food_seed_2045" formatted="false">"Čerstvý kôpor"</string>
+    <string name="data_food_seed_11052" formatted="false">"Surová zelená fazuľka"</string>
+    <string name="data_food_seed_11167" formatted="false">"Surové zrná sladkej kukurice"</string>
+    <string name="data_food_seed_11260" formatted="false">"Surové šampiňóny"</string>
+    <string name="data_food_seed_11261" formatted="false">"Varené šampiňóny bez soli"</string>
+    <string name="data_food_seed_11987" formatted="false">"Surová hliva ustricová"</string>
+    <string name="data_food_seed_20009" formatted="false">"Suchá pohánka"</string>
+    <string name="data_catalog_note_4">"Referenčné hodnoty na 100 g jedlej časti. Pražená pohánka. Sacharidy podľa USDA zahŕňajú vlákninu. Hodnoty môžete upraviť podľa etikety výrobku. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_20010" formatted="false">"Pohánka varená vo vode"</string>
+    <string name="data_food_seed_20444" formatted="false">"Suchá biela ryža"</string>
+    <string name="data_food_seed_20445" formatted="false">"Varená biela ryža bez soli"</string>
+    <string name="data_food_seed_20036" formatted="false">"Suchá hnedá ryža"</string>
+    <string name="data_food_seed_20037" formatted="false">"Varená hnedá ryža"</string>
+    <string name="data_food_seed_8120" formatted="false">"Suché ovsené vločky"</string>
+    <string name="data_food_seed_8121" formatted="false">"Ovsená kaša na vode bez soli"</string>
+    <string name="data_food_seed_20005" formatted="false">"Suché jačmenné krúpy"</string>
+    <string name="data_food_seed_20006" formatted="false">"Varené jačmenné krúpy"</string>
+    <string name="data_food_seed_20031" formatted="false">"Suché pšeno"</string>
+    <string name="data_food_seed_20032" formatted="false">"Varené pšeno"</string>
+    <string name="data_food_seed_20420" formatted="false">"Suché cestoviny"</string>
+    <string name="data_food_seed_20421" formatted="false">"Varené cestoviny bez soli"</string>
+    <string name="data_food_seed_16070" formatted="false">"Varená šošovica bez soli"</string>
+    <string name="data_food_seed_16057" formatted="false">"Varený cícer bez soli"</string>
+    <string name="data_food_seed_16033" formatted="false">"Varená červená fazuľa bez soli"</string>
+    <string name="data_food_seed_5062" formatted="false">"Surové kuracie prsia bez kože"</string>
+    <string name="data_food_seed_5064" formatted="false">"Pečené kuracie prsia bez kože"</string>
+    <string name="data_food_seed_5219" formatted="false">"Surové morčacie prsia bez kože"</string>
+    <string name="data_food_seed_5220" formatted="false">"Pečené morčacie prsia bez kože"</string>
+    <string name="data_food_seed_23562" formatted="false">"Surové mleté hovädzie mäso, 10% tuku"</string>
+    <string name="data_food_seed_23566" formatted="false">"Pečené mleté hovädzie mäso, 10% tuku"</string>
+    <string name="data_food_seed_10060" formatted="false">"Surová bravčová panenka bez viditeľného tuku"</string>
+    <string name="data_food_seed_10061" formatted="false">"Pečená bravčová panenka"</string>
+    <string name="data_food_seed_15236" formatted="false">"Surový atlantický losos"</string>
+    <string name="data_catalog_note_5">"Referenčné hodnoty na 100 g jedlej časti. Surová potravina. Z chovu. Sacharidy podľa USDA zahŕňajú vlákninu. Hodnoty môžete upraviť podľa etikety výrobku. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15237" formatted="false">"Pečený atlantický losos"</string>
+    <string name="data_catalog_note_6">"Referenčné hodnoty na 100 g jedlej časti. Z chovu. Sacharidy podľa USDA zahŕňajú vlákninu. Hodnoty môžete upraviť podľa etikety výrobku. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_15015" formatted="false">"Surová atlantická treska"</string>
+    <string name="data_food_seed_15266" formatted="false">"Surová aljašská treska"</string>
+    <string name="data_food_seed_15121" formatted="false">"Tuniak v konzerve vo vode, odkvapkaný"</string>
+    <string name="data_food_seed_15271" formatted="false">"Varené lúpané krevety"</string>
+    <string name="data_food_seed_1211" formatted="false">"Mlieko s 3,25% tuku"</string>
+    <string name="data_food_seed_1174" formatted="false">"Mlieko s 2% tuku"</string>
+    <string name="data_food_seed_1082" formatted="false">"Mlieko s 1% tuku"</string>
+    <string name="data_food_seed_1116" formatted="false">"Biely jogurt z plnotučného mlieka"</string>
+    <string name="data_food_seed_1256" formatted="false">"Odtučnený grécky jogurt"</string>
+    <string name="data_food_seed_1015" formatted="false">"Syr cottage s 2% tuku"</string>
+    <string name="data_catalog_note_7">"Referenčné hodnoty na 100 g jedlej časti. Syr cottage; iné druhy tvarohu majú odlišné hodnoty. Sacharidy podľa USDA zahŕňajú vlákninu. Hodnoty môžete upraviť podľa etikety výrobku. USDA SR Legacy, FDC %1$s."</string>
+    <string name="data_food_seed_1056" formatted="false">"Kyslá smotana, približne 19% tuku"</string>
+    <string name="data_food_seed_1009" formatted="false">"Syr čedar"</string>
+    <string name="data_food_seed_1026" formatted="false">"Mozzarella z plnotučného mlieka"</string>
+    <string name="data_food_seed_1019" formatted="false">"Syr feta"</string>
+    <string name="data_food_seed_1123" formatted="false">"Surové slepačie vajce bez škrupiny"</string>
+    <string name="data_food_seed_1129" formatted="false">"Varené slepačie vajce bez škrupiny"</string>
+    <string name="data_food_seed_1124" formatted="false">"Surový bielok slepačieho vajca"</string>
+    <string name="data_food_seed_1001" formatted="false">"Solené maslo"</string>
+    <string name="data_food_seed_4053" formatted="false">"Olivový olej"</string>
+    <string name="data_food_seed_4506" formatted="false">"Slnečnicový olej"</string>
+    <string name="data_food_seed_12061" formatted="false">"Mandle"</string>
+    <string name="data_food_seed_12155" formatted="false">"Jadrá vlašských orechov"</string>
+    <string name="data_food_seed_12120" formatted="false">"Jadrá lieskových orechov"</string>
+    <string name="data_food_seed_12151" formatted="false">"Surové lúpané pistácie"</string>
+    <string name="data_food_seed_12014" formatted="false">"Sušené lúpané tekvicové semená"</string>
+    <string name="data_food_seed_16087" formatted="false">"Surové lúpané arašidy"</string>
+    <string name="data_food_seed_18069" formatted="false">"Biely pšeničný chlieb"</string>
+    <string name="data_food_seed_18075" formatted="false">"Celozrnný pšeničný chlieb"</string>
+    <string name="data_food_seed_18060" formatted="false">"Ražný chlieb"</string>
+    <string name="data_food_seed_19296" formatted="false">"Med"</string>
+    <string name="data_food_seed_19335" formatted="false">"Cukor"</string>
+    <string name="data_food_seed_19165" formatted="false">"Nesladený kakaový prášok"</string>
+    <string name="data_food_seed_19904" formatted="false">"Horká čokoláda, 70–85% kakaa"</string>
+    <string name="data_meal_breakfast" formatted="false">"Raňajky"</string>
+    <string name="data_meal_lunch" formatted="false">"Obed"</string>
+    <string name="data_meal_dinner" formatted="false">"Večera"</string>
+    <string name="data_meal_snack" formatted="false">"Občerstvenie"</string>
+    <string name="data_privacy_paragraph_1" formatted="false">"Zásady ochrany súkromia Diet Diary\nRevízia z 9. októbra 2026"</string>
+    <string name="data_privacy_paragraph_2" formatted="false">"Aplikácia: Diet Diary; ruský názov v Google Play: «Дневник диеты: подсчёт калорий»; názov balíka: ru.dietdiary.offline.\nVývojár projektu: Efreitor2001. S otázkami o aplikácii alebo spracúvaní údajov sa obráťte na https://github.com/Efreitor2001/kkalcal/issues . Hlásenia na GitHube sú verejné: nezverejňujte zdravotné údaje, zálohy, heslá ani tokeny."</string>
+    <string name="data_privacy_paragraph_3" formatted="false">"1. Denník vo vašom zariadení\nNa vedenie denníka sa netreba registrovať. Aplikácia ukladá potraviny a ich výživové hodnoty, porcie a dátumy jedál, hmotnosť, obvod pása, percento tuku, kroky, spánok, opisy tréningov, poznámky, ciele, úspechy a nastavenia do svojho súkromného úložiska v zariadení. Voliteľné polia môžu zostať prázdne. Kroky, spánok a merania sa zadávajú ručne; aplikácia nečíta údaje z Health Connect, snímačov fyzickej aktivity ani zdravotníckych zariadení."</string>
+    <string name="data_privacy_paragraph_4" formatted="false">"Tieto údaje sa používajú na výpočet kalórií a makroživín a na zobrazenie histórie, grafov a úspechov. Vývojár nemá server, ktorý prijíma obsah denníka. Ak nepripojíte Google Drive a sami nezdieľate zálohu, záznamy zostávajú vo vašom zariadení."</string>
+    <string name="data_privacy_paragraph_5" formatted="false">"2. Voliteľné pripojenie Google Drive\nNa vašu žiadosť aplikácia otvorí prihlásenie Google v predvolenom prehliadači a požiada o prístup k svojmu skrytému priestoru údajov vo vašom Google Drive. Toto povolenie neposkytuje prístup k bežným dokumentom a fotografiám na Disku."</string>
+    <string name="data_privacy_paragraph_6" formatted="false">"Po pripojení sa potraviny, jedlá, merania denníka, poznámky, ciele, úspechy, prenosné nastavenia a metadáta zmien vrátane náhodných identifikátorov inštalácie a časových značiek posielajú Googlu. Používajú sa na vytváranie záložných snímok a zlučovanie záznamov medzi zariadeniami. Ak je zapnutá automatická synchronizácia, zmeny sa pri dostupnej sieti posielajú aj na pozadí. Automatickú synchronizáciu môžete vypnúť samostatne."</string>
+    <string name="data_privacy_paragraph_7" formatted="false">"Aplikácia získava e-mailovú adresu a identifikátor vybraného účtu Google, aby zobrazila pripojenie a priradila ho k správnemu úložisku. Vaše heslo Google sa aplikácii neposkytuje. Autorizačná relácia sa v zariadení ukladá šifrovane pomocou kľúča v Android Keystore. Tokeny, e-mailové adresy a identifikátory Google sú vylúčené z exportov denníka a synchronizovaných snímok JSON."</string>
+    <string name="data_privacy_paragraph_8" formatted="false">"Údaje Google sa používajú iba na autorizáciu a synchronizáciu, nikdy nie na reklamu. Platia zásady ochrany súkromia Google: https://policies.google.com/privacy ."</string>
+    <string name="data_privacy_paragraph_9" formatted="false">"3. Súbory záloh\n„Uložiť do súboru“ vytvorí súbor JSON na mieste, ktoré vyberiete. Obnovenie číta iba vybraný súbor. Ak vyberiete cloudového poskytovateľa súborov alebo zdieľate kópiu s inou osobou, príjemcu určujete vy. Aplikácia nešifruje exportované súbory JSON: obsahujú osobné údaje a metadáta zmien."</string>
+    <string name="data_privacy_paragraph_10" formatted="false">"4. Reklama\nAplikácia používa Yandex Mobile Ads SDK. Na načítanie a zobrazenie reklám sa zariadenie pripája k reklamným službám. Yandex môže spracúvať vašu IP adresu a ďalšie technické informácie o sieťovej požiadavke, zariadení a softvéri, dostupné reklamné alebo technické identifikátory a informácie o zobrazeniach reklám a interakciách s nimi."</string>
+    <string name="data_privacy_paragraph_11" formatted="false">"Aplikácia odovzdáva SDK informáciu, že súhlas nebol udelený, vypína zhromažďovanie polohy a prehľady App Ad Analytics. Nežiada o povolenie presnej ani približnej polohy. Tieto nastavenia neznamenajú, že reklamná služba nevykonáva vôbec žiadnu sieťovú komunikáciu ani spracúvanie technických údajov."</string>
+    <string name="data_privacy_paragraph_12" formatted="false">"Aplikácia nepoužíva jedlá, hmotnosť, merania, poznámky, ciele, e-mailové adresy ani identifikátory Google na cielenie reklamy a nepridáva ich do parametrov reklamných požiadaviek. Na ukladanie záznamov nemusíte sledovať reklamy."</string>
+    <string name="data_privacy_paragraph_13" formatted="false">"Pravidlá Yandex pre spracúvanie, uchovávanie a odstraňovanie údajov: https://yandex.ru/legal/confidential/ . Reklamný identifikátor môžete spravovať v nastaveniach Androidu, ak to vaša verzia systému podporuje. Dobu uchovávania technických údajov reklamnej služby určujú jej zásady; vývojár denníka pre ne neurčuje osobitnú dobu."</string>
+    <string name="data_privacy_paragraph_14" formatted="false">"5. Ochrana údajov\nKomunikácia s Googlom používa HTTPS; Yandex uvádza, že údaje SDK sa prenášajú cez HTTPS/TLS. Miestny denník chráni izolácia aplikácií v Androide. Aplikácia nešifruje samostatne obsah denníka ani snímky JSON; neposkytuje šifrovanie medzi koncovými zariadeniami."</string>
+    <string name="data_privacy_paragraph_15" formatted="false">"Systémové zálohovanie údajov aplikácie je vypnuté. Diagnostické denníky zapisované kódom aplikácie obsahujú kódy výsledkov bez obsahu denníka, e-mailových adries, tokenov alebo tiel sieťových odpovedí; aplikácia tieto denníky samostatne neposiela vývojárovi."</string>
+    <string name="data_privacy_paragraph_16" formatted="false">"6. Uchovávanie a odstránenie\nMiestne záznamy sa uchovávajú, kým ich neupravíte, neodstránite alebo nevymažete údaje aplikácie. Odstránenie záznamu ho odstráni z rozhrania a pri synchronizácii odošle značku odstránenia. Metadáta zlučovania sa zachovávajú, aby sa staré údaje znova neobjavili; môžu obsahovať predchádzajúce hodnoty odstráneného záznamu denníka. Predchádzajúce hodnoty môžu zostať aj v starých cloudových snímkach a skôr vytvorených súboroch. Odstránenie záznamu preto neznamená úplné odstránenie všetkých jeho kópií."</string>
+    <string name="data_privacy_paragraph_17" formatted="false">"„Odpojiť účet“ zastaví synchronizáciu na tomto zariadení a odstráni miestnu reláciu Google. Denník a snímky v Google Drive zostanú. Odpojenie aplikácie neodstráni váš účet Google."</string>
+    <string name="data_privacy_paragraph_18" formatted="false">"Ak chcete úplne odstrániť údaje tejto aplikácie:\n• Vypnite synchronizáciu na všetkých zariadeniach, aby sa zostávajúce kópie nenahrali znova.\n• V prehliadači otvorte https://drive.google.com/drive/settings s účtom Google, ktorý bol pripojený. Vyberte „Spravovať aplikácie“, nájdite „Diet Diary“ (alebo „Дневник диеты“) a vyberte „Možnosti“ → „Odstrániť skryté údaje aplikácie“. Ak mobilná stránka túto sekciu nezobrazuje, použite počítačovú verziu webu alebo počítač.\n• Odvolajte prístup aplikácie na https://myaccount.google.com/connections . Samotné odvolanie prístupu neodstráni uložené kópie.\n• Vymažte úložisko aplikácie v nastaveniach Androidu na každom zariadení alebo aplikáciu odinštalujte.\n• Odstráňte samostatne uložené zálohy JSON z vybraných priečinkov a cloudových úložísk."</string>
+    <string name="data_privacy_paragraph_19" formatted="false">"Bez vašich prihlasovacích údajov vývojár nemôže na diaľku vymazať miestny denník ani súbory z vášho osobného Google Drive. Vývojárovi neposkytujte heslo ani tokeny. O pomoc s odstránením požiadajte projekt cez odkaz na začiatku týchto zásad. Na odstránenie údajov denníka nemusíte odstrániť účet Google."</string>
+    <string name="data_privacy_paragraph_20" formatted="false">"7. Zmeny a kontakt\nPri zmene funkcií aplikácie alebo postupov spracúvania údajov sa tieto zásady aktualizujú s dátumom revízie. S otázkami o prístupe, oprave, odstránení údajov alebo fungovaní aplikácie použite kontaktný kanál projektu. Vaše žiadosti sa spracúvajú na účely odpovede a uchovávajú na GitHube; zásady GitHubu sú dostupné na https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement ."</string>
+    <string name="data_category_my_dishes" formatted="false">"Moje jedlá"</string>
+    <string name="secondary_metric_weight" formatted="false">"Hmotnosť"</string>
+    <string name="secondary_metric_fat_percent" formatted="false">"Telesný tuk"</string>
+    <string name="secondary_metric_waist" formatted="false">"Obvod pása"</string>
+    <string name="secondary_metric_steps" formatted="false">"Kroky"</string>
+    <string name="secondary_metric_sleep" formatted="false">"Spánok"</string>
+    <string name="secondary_metric_kcal" formatted="false">"Kalórie"</string>
+    <string name="secondary_metric_protein" formatted="false">"Bielkoviny"</string>
+    <string name="secondary_metric_fat" formatted="false">"Tuky"</string>
+    <string name="secondary_metric_carbs" formatted="false">"Sacharidy"</string>
+    <string name="secondary_unit_kg" formatted="false">"kg"</string>
+    <string name="secondary_unit_percent" formatted="false">"%"</string>
+    <string name="secondary_unit_cm" formatted="false">"cm"</string>
+    <string name="secondary_unit_steps" formatted="false">"krokov"</string>
+    <string name="secondary_unit_hours" formatted="false">"h"</string>
+    <string name="secondary_unit_kcal" formatted="false">"kcal"</string>
+    <string name="secondary_unit_grams" formatted="false">"g"</string>
+    <string name="secondary_invalid_period" formatted="false">"Neplatné obdobie"</string>
+    <string name="secondary_stats_title" formatted="false">"Vývoj"</string>
+    <string name="secondary_stats_subtitle" formatted="false">"Vaše údaje v prehľadných grafoch"</string>
+    <string name="secondary_metric" formatted="false">"Ukazovateľ"</string>
+    <string name="secondary_week" formatted="false">"Týždeň"</string>
+    <string name="secondary_month" formatted="false">"Mesiac"</string>
+    <string name="secondary_year" formatted="false">"Rok"</string>
+    <string name="secondary_custom_period" formatted="false">"Vlastné obdobie"</string>
+    <string name="secondary_invalid_period_order" formatted="false">"Dátum začiatku nemôže byť po dátume konca"</string>
+    <string name="secondary_no_records" formatted="false">"Zatiaľ nie sú žiadne údaje"</string>
+    <string name="secondary_empty_food_period" formatted="false">"Pridajte jedlo do denníka alebo vyberte iné obdobie."</string>
+    <string name="secondary_chart_tap" formatted="false">"Ťuknutím na graf vyberiete záznam"</string>
+    <string name="secondary_chart_connected" formatted="false">"Čiara spája zaznamenané merania. Medzi týmito bodmi merania nie sú."</string>
+    <string name="secondary_body_fat_hint" formatted="false">"Odhady váhy sú užitočné na sledovanie trendov."</string>
+    <string name="secondary_food_override_hint" formatted="false">"Ručne zadaný denný súčet nahradí súčet z potravín. Inak sa sčítajú zaznamenané potraviny. Dni bez údajov sa vynechávajú."</string>
+    <string name="secondary_food_total_hint" formatted="false">"Súčty vychádzajú zo zaznamenaných potravín. Deň bez údajov sa nepočíta ako nula."</string>
+    <string name="secondary_missing_days_hint" formatted="false">"Dni bez údajov sa vynechávajú a nezapočítavajú do priemeru."</string>
+    <string name="secondary_today_yesterday" formatted="false">"Dnes a včera"</string>
+    <string name="secondary_no_today" formatted="false">"Chýbajú údaje za dnešok"</string>
+    <string name="secondary_no_yesterday" formatted="false">"Chýbajú údaje za včerajšok"</string>
+    <string name="secondary_partial_today" formatted="false">"Porovnanie používa aktuálne údaje. Dnešné údaje môžu byť ešte neúplné."</string>
+    <string name="secondary_period_summary" formatted="false">"Súhrn obdobia"</string>
+    <string name="secondary_recorded_average" formatted="false">"Priemer zaznamenaných dní"</string>
+    <string name="secondary_recorded_days" formatted="false">"Dni s údajmi"</string>
+    <string name="secondary_minimum" formatted="false">"Minimum"</string>
+    <string name="secondary_maximum" formatted="false">"Maximum"</string>
+    <string name="secondary_first_to_last" formatted="false">"Od prvého po posledný záznam"</string>
+    <string name="secondary_two_days_needed" formatted="false">"Na výpočet zmeny sú potrebné aspoň dva dni s údajmi."</string>
+    <string name="secondary_history" formatted="false">"História"</string>
+    <string name="secondary_history_recent" formatted="false">"Posledných 14 dní s údajmi. Pre staršie záznamy vyberte vlastné obdobie."</string>
+    <string name="secondary_history_all" formatted="false">"Všetky zaznamenané dni vybraného obdobia"</string>
+    <string name="secondary_metric_picker">"%1$s · %2$s  ▾"</string>
+    <string name="secondary_metric_unit">"%1$s · %2$s"</string>
+    <string name="secondary_date_from">"Od %1$s"</string>
+    <string name="secondary_date_until">"Do %1$s"</string>
+    <string name="secondary_date_range">"%1$s — %2$s"</string>
+    <string name="secondary_metric_in_period">"%1$s v tomto období"</string>
+    <string name="secondary_weight_goal">"Cieľ: %1$s kg"</string>
+    <string name="secondary_empty_metric_period" formatted="false">"Pridajte meranie do denníka alebo vyberte iné obdobie."</string>
+    <string name="secondary_latest_record">"Posledný záznam · %1$s"</string>
+    <string name="secondary_selected_record">"%1$s: %2$s %3$s"</string>
+    <string name="secondary_comparison_dates">"%1$s / %2$s"</string>
+    <string name="secondary_today_value">"Dnes: %1$s %2$s"</string>
+    <string name="secondary_yesterday_value">"Včera: %1$s %2$s"</string>
+    <string name="secondary_change_value">"Zmena: %1$s %2$s"</string>
+    <string name="secondary_count_of">"%1$d z %2$d"</string>
+    <string name="secondary_first_last_dates">"%1$s → %2$s"</string>
+    <string name="secondary_value_unit">"%1$s %2$s"</string>
+    <string name="secondary_chart_description">"%1$s. Zaznamenaných dní: %2$d, od %3$s do %4$s. Minimum %5$s, maximum %6$s %7$s. Podrobné hodnoty sú uvedené v histórii."</string>
+    <string name="secondary_award_first_weight" formatted="false">"Prvý krok"</string>
+    <string name="secondary_award_first_weight_description" formatted="false">"Zapíšte prvé meranie hmotnosti."</string>
+    <string name="secondary_award_first_weight_unlocked" formatted="false">"Vaše prvé meranie hmotnosti je zapísané."</string>
+    <string name="secondary_award_first_food" formatted="false">"Prvý záznam"</string>
+    <string name="secondary_award_first_food_description" formatted="false">"Zapíšte prvú porciu jedla."</string>
+    <string name="secondary_award_first_food_unlocked" formatted="false">"Vaša prvá porcia jedla je zapísaná."</string>
+    <string name="secondary_award_weight_week" formatted="false">"Týždeň údajov"</string>
+    <string name="secondary_award_weight_week_description" formatted="false">"Zapíšte hmotnosť v 7 rôznych dňoch. Nemusia ísť za sebou."</string>
+    <string name="secondary_award_weight_week_unlocked" formatted="false">"Máte merania hmotnosti zo 7 rôznych dní."</string>
+    <string name="secondary_award_weight_month" formatted="false">"Pravidelnosť"</string>
+    <string name="secondary_award_weight_month_description" formatted="false">"Zapíšte hmotnosť v 30 rôznych dňoch."</string>
+    <string name="secondary_award_weight_month_unlocked" formatted="false">"Máte merania hmotnosti z 30 dní."</string>
+    <string name="secondary_award_food_hundred" formatted="false">"Archivár"</string>
+    <string name="secondary_award_food_hundred_description" formatted="false">"Zapíšte do denníka 100 porcií jedla."</string>
+    <string name="secondary_award_food_hundred_unlocked" formatted="false">"Máte zapísaných 100 porcií jedla."</string>
+    <string name="secondary_award_food_streak" formatted="false">"Nový návyk"</string>
+    <string name="secondary_award_food_streak_description" formatted="false">"Zapisujte jedlo 7 kalendárnych dní za sebou."</string>
+    <string name="secondary_award_food_streak_unlocked" formatted="false">"Máte zapísané jedlo za 7 dní za sebou."</string>
+    <string name="secondary_award_steps" formatted="false">"Majster chôdze"</string>
+    <string name="secondary_award_steps_description" formatted="false">"Zapíšte aspoň 10 000 krokov za jeden deň."</string>
+    <string name="secondary_award_steps_unlocked" formatted="false">"Máte zapísaný deň s 10 000 krokmi."</string>
+    <string name="secondary_award_weight_hundred" formatted="false">"Pravidelné merania"</string>
+    <string name="secondary_award_weight_hundred_description" formatted="false">"Zapíšte 100 meraní hmotnosti. Počíta sa jedno meranie na dátum."</string>
+    <string name="secondary_award_weight_hundred_unlocked" formatted="false">"Máte zapísaných 100 meraní hmotnosti."</string>
+    <string name="secondary_award_diary_ninety" formatted="false">"Skúsený denníkár"</string>
+    <string name="secondary_award_diary_ninety_description" formatted="false">"Zapíšte jedlo alebo merania v 90 rôznych dňoch. Nemusia ísť za sebou."</string>
+    <string name="secondary_award_diary_ninety_unlocked" formatted="false">"Váš denník obsahuje záznamy z 90 rôznych dní."</string>
+    <string name="secondary_award_unit_measurements" formatted="false">"meraní"</string>
+    <string name="secondary_award_unit_portions" formatted="false">"porcií"</string>
+    <string name="secondary_award_unit_days" formatted="false">"dní"</string>
+    <string name="secondary_award_unit_consecutive" formatted="false">"dní za sebou"</string>
+    <string name="secondary_award_unit_steps" formatted="false">"krokov za deň"</string>
+    <string name="secondary_award_unit_recorded_days" formatted="false">"zaznamenaných dní"</string>
+    <string name="secondary_back" formatted="false">"‹  Späť"</string>
+    <string name="secondary_achievements" formatted="false">"Úspechy"</string>
+    <string name="secondary_achievements_subtitle" formatted="false">"Malé kroky sa menia na návyk"</string>
+    <string name="secondary_your_progress" formatted="false">"VÁŠ POKROK"</string>
+    <string name="secondary_awards_permanent" formatted="false">"Získané úspechy zostávajú aj po úprave záznamov."</string>
+    <string name="secondary_awards_regular" formatted="false">"Za pravidelnosť a vedenie denníka"</string>
+    <string name="secondary_awards_through_today" formatted="false">"Počítajú sa záznamy až do dneška vrátane."</string>
+    <string name="secondary_hidden_achievement" formatted="false">"Skrytý úspech"</string>
+    <string name="secondary_hidden_description" formatted="false">"Pokračujte vo vedení denníka, aby ste odomkli tento úspech."</string>
+    <string name="secondary_earned" formatted="false">"Získané"</string>
+    <string name="secondary_hidden_locked" formatted="false">"Skryté · zamknuté"</string>
+    <string name="secondary_in_progress_locked" formatted="false">"Prebieha · zamknuté"</string>
+    <string name="secondary_locked" formatted="false">"Zamknuté"</string>
+    <string name="secondary_hidden_progress" formatted="false">"Podmienka a váš pokrok sa odhalia po získaní tohto úspechu."</string>
+    <string name="secondary_best_streak" formatted="false">"Najdlhšia séria"</string>
+    <string name="secondary_hidden_reward" formatted="false">"Skrytá odmena"</string>
+    <string name="secondary_unlocked_of">"z %1$d odomknutých"</string>
+    <string name="secondary_unlocked_date">"Odomknuté %1$s"</string>
+    <string name="secondary_award_progress">"%1$d / %2$d %3$s"</string>
+    <string name="secondary_recipe_back" formatted="false">"← Späť"</string>
+    <string name="secondary_my_recipe" formatted="false">"Môj recept"</string>
+    <string name="secondary_recipe_intro" formatted="false">"Odvážte suroviny pred prípravou. Na výpočet porcií použite hmotnosť hotového jedla. Nezabudnite na oleje a omáčky."</string>
+    <string name="secondary_recipe_name" formatted="false">"Názov receptu"</string>
+    <string name="secondary_recipe_example" formatted="false">"Napríklad zeleninový prívarok"</string>
+    <string name="secondary_ingredients" formatted="false">"Suroviny"</string>
+    <string name="secondary_start_ingredients" formatted="false">"Začnite surovinami"</string>
+    <string name="secondary_ingredients_hint" formatted="false">"Pridajte každú surovinu a zadajte jej hmotnosť v gramoch."</string>
+    <string name="secondary_edit_weight" formatted="false">"Upraviť hmotnosť"</string>
+    <string name="secondary_delete" formatted="false">"Odstrániť"</string>
+    <string name="secondary_add_ingredient" formatted="false">"+ Pridať surovinu"</string>
+    <string name="secondary_whole_recipe" formatted="false">"Celý recept"</string>
+    <string name="secondary_cooked_weight_hint" formatted="false">"Varenie mení hmotnosť pridaním alebo odparením vody. Odvážte hotové jedlo bez nádoby."</string>
+    <string name="secondary_cooked_weight" formatted="false">"Hmotnosť hotového jedla, g"</string>
+    <string name="secondary_cooked_weight_placeholder" formatted="false">"Zadajte hmotnosť po príprave"</string>
+    <string name="secondary_cooked_weight_error" formatted="false">"Zadajte hmotnosť väčšiu ako 0 a najviac 100 000 g"</string>
+    <string name="secondary_weight_not_automatic" formatted="false">"Hmotnosť sa nevyplní automaticky"</string>
+    <string name="secondary_recipe_per_hundred" formatted="false">"Na 100 g hotového jedla"</string>
+    <string name="secondary_recipe_macros_error" formatted="false">"Skontrolujte hmotnosť hotového jedla a suroviny: 100 g môže obsahovať najviac 1 000 kcal a 100 g každej makroživiny."</string>
+    <string name="secondary_recipe_save_error" formatted="false">"Recept sa nepodarilo uložiť"</string>
+    <string name="secondary_save_my_recipes" formatted="false">"Uložiť do mojich receptov"</string>
+    <string name="secondary_recipe_saved_hint" formatted="false">"Po uložení môžete jedlo pridať do denníka podľa hmotnosti porcie."</string>
+    <string name="secondary_ingredient_raw_weight" formatted="false">"Hmotnosť suroviny pred prípravou"</string>
+    <string name="secondary_grams" formatted="false">"Gramy"</string>
+    <string name="secondary_weight_limits" formatted="false">"Viac ako 0 a najviac 100 000 g"</string>
+    <string name="secondary_add" formatted="false">"Pridať"</string>
+    <string name="secondary_save" formatted="false">"Uložiť"</string>
+    <string name="secondary_cancel" formatted="false">"Zrušiť"</string>
+    <string name="secondary_choose_ingredient" formatted="false">"Vybrať surovinu"</string>
+    <string name="secondary_search_food" formatted="false">"Hľadať potraviny"</string>
+    <string name="secondary_recipe_no_food" formatted="false">"Nič sa nenašlo. Vlastnú potravinu môžete pridať na karte Potraviny."</string>
+    <string name="secondary_close" formatted="false">"Zavrieť"</string>
+    <string name="secondary_portion_energy">"%1$s g · %2$s kcal"</string>
+    <string name="secondary_portion_macros">"Bielkoviny %1$s · Tuky %2$s · Sacharidy %3$s g"</string>
+    <string name="secondary_ingredients_weight">"Hmotnosť surovín: %1$s g"</string>
+    <string name="secondary_energy">"%1$s kcal"</string>
+    <string name="secondary_grams_value">"%1$s g"</string>
+    <string name="secondary_food_per_hundred">"%1$s · %2$s kcal / 100 g"</string>
+    <string name="secondary_recipe_ingredient_note">"%1$s — %2$s g"</string>
+    <string name="secondary_recipe_note">"Konečná hmotnosť: %1$s g. Suroviny: %2$s"</string>
+</resources>

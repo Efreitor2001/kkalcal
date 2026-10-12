@@ -33,9 +33,9 @@ internal class DriveSnapshots(
                 snapshots += DriveSnapshot(file.getString("id"),
                     file.optJSONObject("appProperties")?.optString("writer").orEmpty(), file.optString("createdTime"))
             }
-            require(snapshots.size <= 10_000) { "Слишком много облачных копий" }
+            require(snapshots.size <= 10_000) { tr(R.string.data_too_many_cloud_snapshots) }
             page = result.optString("nextPageToken").takeIf { it.isNotEmpty() }
-            if (page != null) check(seenPages.add(page)) { "Повтор страницы Google Drive" }
+            if (page != null) check(seenPages.add(page)) { tr(R.string.data_drive_page_repeated) }
         } while (page != null)
         return snapshots
     }
@@ -45,7 +45,7 @@ internal class DriveSnapshots(
 
     fun upload(json: String, writer: String): String {
         val payload = json.toByteArray(Charsets.UTF_8)
-        require(payload.size <= AppStore.MAX_BACKUP_BYTES) { "Облачная копия больше 50 МБ" }
+        require(payload.size <= AppStore.MAX_BACKUP_BYTES) { tr(R.string.data_cloud_snapshot_over_50_mb) }
         val metadata = JSONObject().put("name", "diet-diary-${UUID.randomUUID()}.json")
             .put("parents", org.json.JSONArray().put("appDataFolder"))
             .put("mimeType", "application/json")
@@ -78,13 +78,13 @@ internal class DriveSnapshots(
         transport(url, method, token, body, contentType, maxBytes).body
 
     private fun validatedUploadLocation(value: String?): String {
-        require(value != null && value == value.trim()) { "Google Drive не вернул адрес загрузки" }
+        require(value != null && value == value.trim()) { tr(R.string.data_drive_upload_address_missing) }
         val address = URI(value)
         val allowedPath = address.rawPath == "/upload/drive/v3/files" ||
             address.rawPath?.matches(Regex("/upload/drive/v3/files/[A-Za-z0-9_-]+")) == true
         require(address.scheme == "https" && address.host == "www.googleapis.com" &&
             address.rawUserInfo == null && address.port in setOf(-1, 443) && address.rawFragment == null && allowedPath) {
-            "Недопустимый адрес загрузки Google Drive"
+            tr(R.string.data_drive_upload_address_invalid)
         }
         return value
     }
