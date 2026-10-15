@@ -44,8 +44,8 @@ android {
         applicationId = "ru.dietdiary.offline"
         minSdk = 26
         targetSdk = 37
-        versionCode = 9
-        versionName = "1.2.0"
+        versionCode = 10
+        versionName = "1.2.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders["appAuthRedirectScheme"] = "ru.dietdiary.offline"
         buildConfigField("String", "GOOGLE_CLIENT_ID", quoted(integration("google.clientId")))

@@ -75,7 +75,7 @@ fun AdCard(placement: AdPlacement, modifier: Modifier = Modifier) {
         colors.onSurfaceVariant.toArgb(), colors.primary.toArgb(), colors.onPrimary.toArgb(), colors.outlineVariant.toArgb())
     key(activity, placement, id) {
         AndroidView(
-            factory = { NativeAdHost(activity, placement, NativeAdSessions.create(activity, id), palette) },
+            factory = { NativeAdHost(activity, placement, NativeAdSessions.get(activity, placement, id), palette) },
             update = { it.updatePalette(palette) },
             modifier = modifier.fillMaxWidth(),
             onReset = null,
@@ -88,7 +88,7 @@ internal data class NativePalette(val surface: Int, val text: Int, val muted: In
     val action: Int, val onAction: Int, val outline: Int)
 
 internal interface NativeAdCreative {
-    /** Called once in the owning host; later navigation requests a new creative. */
+    /** Called once; the bound view can move between hosts in the same Activity. */
     fun bind(activity: Activity, width: Int, palette: NativePalette, onClicked: () -> Unit, onImpression: () -> Unit): View?
     fun updatePalette(palette: NativePalette)
     fun dispose()
@@ -159,7 +159,7 @@ private object SdkNativeTransport : NativeAdTransport {
     }
 }
 
-/** Keep the loader and bound card alive only for the host that requested this creative. */
+/** Keep the loader and bound card alive together until the Activity releases this creative. */
 private class SdkNativeCreative(private val ad: NativeAd, private val loader: NativeAdLoader) : NativeAdCreative {
     private var card: NativeCard? = null
     override fun bind(activity: Activity, width: Int, palette: NativePalette, onClicked: () -> Unit, onImpression: () -> Unit): View? {
@@ -189,18 +189,22 @@ private class SdkNativeCreative(private val ad: NativeAd, private val loader: Na
     }
 }
 
-/** Track only live hosts for test cleanup; no creative survives a host's final release. */
+/** One card per placement and Activity, including while its Compose host is off screen. */
 private object NativeAdSessions {
-    private val sessions = mutableSetOf<NativeAdSession>()
-    fun create(activity: Activity, unitId: String): NativeAdSession {
-        val testing = NativeAdsTestHooks.configuration
-        return NativeAdSession(activity, unitId, testing?.transport ?: SdkNativeTransport,
-            testing?.scheduler ?: NativeScheduler, if (testing != null) true else null,
-            { sessions.remove(it) }).also { sessions.add(it) }
+    private data class Key(val activity: Activity, val placement: AdPlacement, val unitId: String)
+    private val sessions = mutableMapOf<Key, NativeAdSession>()
+    fun get(activity: Activity, placement: AdPlacement, unitId: String): NativeAdSession {
+        val key = Key(activity, placement, unitId)
+        return sessions.getOrPut(key) {
+            val testing = NativeAdsTestHooks.configuration
+            NativeAdSession(activity, unitId, testing?.transport ?: SdkNativeTransport,
+                testing?.scheduler ?: NativeScheduler, if (testing != null) true else null,
+                { if (sessions[key] === it) sessions.remove(key) })
+        }
     }
-    fun networkChanged(available: Boolean) { sessions.toList().forEach { it.networkChanged(available) } }
+    fun networkChanged(available: Boolean) { sessions.values.toList().forEach { it.networkChanged(available) } }
     fun clear() {
-        val old = sessions.toList()
+        val old = sessions.values.toList()
         sessions.clear()
         old.forEach { it.dispose() }
     }
@@ -228,6 +232,17 @@ private class NativeAdSession(
     private val retry = NativeAdRetryPolicy().apply { start(networkAvailable) }
     private var creative: NativeAdCreative? = null
     private var boundView: View? = null
+    private val lifecycle = (activity as LifecycleOwner).lifecycle
+    private val observer = LifecycleEventObserver { _, event ->
+        when (event) {
+            Lifecycle.Event.ON_START -> setForeground(true)
+            Lifecycle.Event.ON_STOP -> setForeground(false)
+            Lifecycle.Event.ON_DESTROY -> dispose()
+            else -> Unit
+        }
+    }
+
+    init { lifecycle.addObserver(observer) }
 
     fun attach(host: NativeAdHost) {
         if (disposed) return
@@ -243,20 +258,18 @@ private class NativeAdSession(
         host.unmount()
         owner = null
         cancelPending()
-        discardCreative()
     }
 
-    fun setForeground(value: Boolean) {
+    private fun setForeground(value: Boolean) {
         if (disposed) return
         foreground = value
         if (!value) {
             cancelPending()
-            discardCreative()
         }
         else {
             retry.start(networkAvailable)
             notBefore = 0L
-            ensureLoad()
+            if (creative != null) render() else ensureLoad()
         }
     }
 
@@ -412,6 +425,7 @@ private class NativeAdSession(
         cancelPending()
         discardCreative()
         owner = null
+        lifecycle.removeObserver(observer)
         onDisposed(this)
     }
 }
@@ -429,10 +443,9 @@ private class NativeAdHost(
     private val observer = LifecycleEventObserver { _, event ->
         when (event) {
             Lifecycle.Event.ON_START -> {
-                session.setForeground(true)
                 if (isAttachedToWindow) observeNetwork()
             }
-            Lifecycle.Event.ON_STOP -> { stopNetwork(); session.setForeground(false) }
+            Lifecycle.Event.ON_STOP -> stopNetwork()
             Lifecycle.Event.ON_DESTROY -> dispose()
             else -> Unit
         }
@@ -493,7 +506,7 @@ private class NativeAdHost(
         if (disposed) return
         disposed = true
         stopNetwork()
-        session.dispose()
+        session.detach(this)
         lifecycle.removeObserver(observer)
     }
 }

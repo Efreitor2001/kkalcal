@@ -25,9 +25,11 @@ import androidx.lifecycle.Lifecycle
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.Espresso
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNull
 import org.junit.Assert.assertSame
 import org.junit.Assert.assertTrue
 import org.junit.Before
@@ -77,7 +79,7 @@ class NativeAdsUiTest {
         if (::fixtureRoot.isInitialized) fixtureRoot.deleteRecursively()
     }
 
-    @Test fun repeatedTabsLoadAndDisplayNewCards() {
+    @Test fun repeatedTabsRestoreTheSameCardsWithoutLoadingOrBindingAgain() {
         showFooter(AdPlacement.DAY)
         val day = deliver(AdPlacement.DAY, "day-loaded")
         assertCardVisible(AdPlacement.DAY, day)
@@ -87,20 +89,20 @@ class NativeAdsUiTest {
         val more = deliver(AdPlacement.MORE, "more-loaded")
         assertCardVisible(AdPlacement.MORE, more)
 
-        repeat(2) { index ->
+        repeat(2) {
             compose.onNodeWithTag("tab_0").performClick()
-            awaitFreshRequest(AdPlacement.DAY, index + 2)
-            assertCardVisible(AdPlacement.DAY, deliver(AdPlacement.DAY, "day-return-$index", index + 2))
+            assertCardVisible(AdPlacement.DAY, day)
             compose.onNodeWithTag("tab_4").performClick()
-            awaitFreshRequest(AdPlacement.MORE, index + 2)
-            assertCardVisible(AdPlacement.MORE, deliver(AdPlacement.MORE, "more-return-$index", index + 2))
+            assertCardVisible(AdPlacement.MORE, more)
         }
 
         compose.runOnIdle {
-            assertEquals(3, transport.requestCount(AdPlacement.DAY))
-            assertEquals(3, transport.requestCount(AdPlacement.MORE))
-            assertEquals(1, day.disposeCount)
-            assertEquals(1, more.disposeCount)
+            assertEquals(1, transport.requestCount(AdPlacement.DAY))
+            assertEquals(1, transport.requestCount(AdPlacement.MORE))
+            assertEquals(1, day.bindCount)
+            assertEquals(1, more.bindCount)
+            assertEquals(0, day.disposeCount)
+            assertEquals(0, more.disposeCount)
         }
     }
 
@@ -125,12 +127,68 @@ class NativeAdsUiTest {
             assertEquals(250.0, entry.total.kcal, 0.000001)
         }
         // The empty-day panel has been replaced with a meal header and an actual food row.
-        awaitFreshRequest(AdPlacement.DAY, 2)
-        val afterSave = deliver(AdPlacement.DAY, "day-after-food", 2)
-        assertCardVisible(AdPlacement.DAY, afterSave)
+        assertCardVisible(AdPlacement.DAY, day)
         compose.runOnIdle {
-            assertEquals(2, transport.requestCount(AdPlacement.DAY))
+            assertEquals(1, transport.requestCount(AdPlacement.DAY))
+            assertEquals(1, day.bindCount)
+            assertEquals(0, day.disposeCount)
+        }
+    }
+
+    @Test fun loadedCardSurvivesRepeatedBackgroundWithoutLoadingOrBindingAgain() {
+        compose.onNodeWithTag("tab_4").performClick()
+        showFooter(AdPlacement.MORE)
+        val more = deliver(AdPlacement.MORE, "more-before-background")
+        assertCardVisible(AdPlacement.MORE, more)
+
+        repeat(3) {
+            compose.activityRule.scenario.moveToState(Lifecycle.State.CREATED)
+            InstrumentationRegistry.getInstrumentation().runOnMainSync {
+                // Cross the request pacing interval while stopped: preserving the card must
+                // not merely postpone a replacement request until the interval expires.
+                scheduler.advanceBy(60_000L)
+                assertEquals(1, transport.requestCount(AdPlacement.MORE))
+                assertEquals(1, more.bindCount)
+                assertEquals(0, more.disposeCount)
+            }
+            compose.activityRule.scenario.moveToState(Lifecycle.State.RESUMED)
+            assertCardVisible(AdPlacement.MORE, more)
+            compose.runOnIdle {
+                scheduler.advanceBy(60_000L)
+                assertEquals(1, transport.requestCount(AdPlacement.MORE))
+                assertEquals(1, more.bindCount)
+                assertEquals(0, more.disposeCount)
+            }
+            assertCardVisible(AdPlacement.MORE, more)
+        }
+    }
+
+    @Test fun activityDestructionDisposesVisibleAndOffscreenCachedCards() {
+        showFooter(AdPlacement.DAY)
+        val day = deliver(AdPlacement.DAY, "day-cached-offscreen")
+        assertCardVisible(AdPlacement.DAY, day)
+        compose.onNodeWithTag("tab_4").performClick()
+        showFooter(AdPlacement.MORE)
+        val more = deliver(AdPlacement.MORE, "more-visible-on-destroy")
+        assertCardVisible(AdPlacement.MORE, more)
+        compose.runOnIdle {
+            assertNull("The previous screen must leave its card cached and unmounted", day.view?.parent)
+            assertEquals(0, day.disposeCount)
+            assertEquals(0, more.disposeCount)
+        }
+
+        compose.activityRule.scenario.moveToState(Lifecycle.State.DESTROYED)
+        // The Activity no longer has a Compose hierarchy to wait for.
+        InstrumentationRegistry.getInstrumentation().runOnMainSync {
             assertEquals(1, day.disposeCount)
+            assertEquals(1, more.disposeCount)
+            assertNull(day.view?.parent)
+            assertNull(more.view?.parent)
+            scheduler.advanceBy(120_000L)
+            assertEquals(1, transport.requestCount(AdPlacement.DAY))
+            assertEquals(1, transport.requestCount(AdPlacement.MORE))
+            assertEquals(1, day.disposeCount)
+            assertEquals(1, more.disposeCount)
         }
     }
 
@@ -282,7 +340,7 @@ class NativeAdsUiTest {
     private fun awaitFreshRequest(placement: AdPlacement, count: Int) {
         showFooter(placement)
         compose.runOnIdle {
-            // Full page navigation intentionally creates a fresh ad. Respect the minimum
+            // A cancelled, unfinished load needs a fresh attempt. Respect the minimum
             // interval between requests without sleeping or expiring an already active load.
             if (transport.requestCount(placement) < count) scheduler.advanceBy(30_000L)
         }
