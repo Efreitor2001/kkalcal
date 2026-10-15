@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How Diet Diary handles data: on-device storage, Google Drive, advertising, SDKs, your choices and deletion.">
+<title>Privacy policy — Diet Diary</title>
+<link rel="canonical" href="https://diet.efreitor2001.ru/en/privacy/">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/privacy/">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/privacy/">
+<link rel="icon" href="../../assets/app-icon.png" type="image/png">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<main class="legal wrap">
+<p><a href="../">← About the app</a></p>
+<nav class="language-switch" aria-label="Language"><a href="../../privacy/" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/" lang="en" hreflang="en" aria-current="page">English</a> · <a href="../../zh-CN/privacy/" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
+
+<h1>Privacy policy</h1>
+<p class="meta">Diet Diary · Updated <time datetime="2026-10-15">15 October 2026</time></p>
+<p><strong>App developer and operator:</strong> Sergey Efremov (Efreitor2001), Russia. The app is also named <span lang="ru">«Дневник диеты»</span> and <span lang="zh-CN">饮食日记</span>; Android package <code>ru.dietdiary.offline</code>.</p>
+<p><strong>Privacy contact:</strong> <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. This policy, the <a href="./data-deletion.html">deletion instructions</a> and the <a href="./third-party.html">SDK and service list</a> are available without signing in or installing the app.</p>
+<nav class="toc" aria-label="Policy sections"><a href="#local-data">Diary</a> · <a href="#google-data">Google</a> · <a href="#limited-use">Limited Use</a> · <a href="#ads">Advertising</a> · <a href="#deletion">Deletion</a> · <a href="#rights">Your choices</a> · <a href="#contact">Contact</a></nav>
+<section aria-labelledby="local-data">
+<h2 id="local-data">1. Diary on your device</h2>
+<p>The main features work without registration or internet access. There is no separate Diet Diary account. The app stores the following in its private storage on your device: foods, nutritional values and food notes; portions, meal names and dates; weight, waist measurements, body fat percentage, steps, sleep, workout descriptions, notes, manually entered daily calories and protein; goals, achievements, settings and change metadata.</p>
+<p>This information is used to calculate calories, protein, fat and carbohydrates and provide history, charts, goals and achievements. You may leave optional fields empty. Steps, sleep and measurements are entered manually: the app does not read Health Connect, activity sensors or medical devices.</p>
+<div class="notice"><p><strong>Sensitive health information.</strong> Food records, weight, waist size, body-fat percentage, sleep, activity and wellbeing notes you enter may reveal health information. The app processes them on your device for calculations, history, charts and goals. If you choose to connect Google Drive, this information also forms part of complete diary snapshots for backup and synchronization between your devices; exports include it in the JSON file you choose. This information is not passed as advertising parameters.</p><p>You can leave optional fields empty and use the app without connecting Google Drive. Avoid unnecessary details in free-text notes. The developer does not operate a server that receives your diary. If you do not connect Google Drive or share a backup, your records remain on your device.</p></div>
+</section>
+<section aria-labelledby="google-data">
+<h2 id="google-data">2. Optional Google Drive connection</h2>
+<p>At your request, the app opens Google sign-in in the system browser. It requests these OAuth permissions:</p>
+<dl>
+<dt><code>openid</code></dt><dd>The selected Google account's unique identifier links synchronization state to the correct account when signing in or switching accounts.</dd>
+<dt><code>email</code></dt><dd>The email address and verification status are used to check and display the connected account.</dd>
+<dt><code>https://www.googleapis.com/auth/drive.appdata</code></dt><dd>Creates, lists, reads and deletes the app's own snapshots in your Google Drive's hidden <code>appDataFolder</code>. Access to ordinary Drive documents and photos is not requested.</dd>
+</dl>
+<p>The app does not request access to Gmail messages, contacts or your calendar. You enter your Google password on Google's side; it is not provided to the app.</p>
+<p><strong>Authorization data.</strong> The app receives your email, account identifier, email verification status, and access and refresh tokens. They support account connection, account display and authorized exchanges without repeated sign-in. The local session is encrypted; the synchronization cache, including the account identifier, is kept in private app preferences. This information is not uploaded to a developer server or included in diary JSON backups.</p>
+<p><strong>What goes into the cloud.</strong> Snapshots contain foods and nutritional values, portions and meal dates, measurements and other entered indicators, notes, workouts, goals, achievements, transferable settings and merge metadata: random installation identifiers, timestamps and deletion markers. The app reads its own snapshots, including those created on your other devices, merges them with local records and stores the result on your device. File identifiers, creation times and installation tags are also read to find and prune snapshots.</p>
+<p><strong>When exchanges occur.</strong> The first synchronization runs after connection. Automatic synchronization is enabled by default; you can turn it off on the cloud synchronization screen. When enabled, synchronization also runs after changes, at app launch and in the background when a network is available. Manual synchronization is available too. Turning off automatic mode does not delete existing copies.</p>
+<p><strong>Recipients.</strong> Authorization requests and snapshots go directly from your device to Google services. Your other devices receive snapshots when connected to the same account. The developer has no administrative access to your Drive. Google data is not supplied to the advertising SDK. Google's processing is described in the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>.</p>
+</section>
+<section aria-labelledby="limited-use">
+<h2 id="limited-use">Google data: Limited Use</h2>
+<p>The app complies with the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<p>Diet Diary uses data obtained through Google APIs exclusively for the account connection, backup and synchronization described above. Google data is not sold or transferred to advertising platforms, data brokers or resellers, or used to serve or personalize ads, determine creditworthiness or provide lending. These restrictions also apply to information derived from that data.</p>
+<p>Google data and Google Workspace API data are not used to develop, improve or train artificial intelligence or machine learning models, including generalized or non-personalized models. Diary processing includes no AI/ML functions. The developer does not view your Drive or diary contents. When you contact support, the developer sees only information you include in your request; a Google password, tokens or a complete diary backup are not needed for support.</p>
+</section>
+<section aria-labelledby="files">
+<h2 id="files">3. Export and restoration</h2>
+<p>“Save to file” creates a JSON file in a location you choose. Restoration reads only the file you select. The backup contains diary records and change metadata, but not your Google email, account identifier or tokens. The app does not encrypt this JSON file. If you choose a cloud file provider or send a backup to someone, you select the recipient, whose rules apply separately.</p>
+</section>
+<section aria-labelledby="ads">
+<h2 id="ads">4. Advertising and technical data</h2>
+<p>The app uses Yandex Mobile Ads SDK and its AppMetrica and Varioqub dependencies. Loading and displaying ads requires connections to advertising services. Yandex may process your IP address, technical request, device and software information, available advertising and technical identifiers, diagnostics, and ad impression and interaction information. Components and their purposes are listed in the <a href="./third-party.html#yandex">SDK and service list</a>.</p>
+<div class="notice"><p><strong>How the current version works.</strong> The advertising SDK may start when the app or ad placements open, without a separate prior consent dialog. The app sends a flag indicating that consent has not been given and disables location tracking and App Ad Analytics reporting. These settings do not disable the SDK or mean there is no network exchange. The app currently has no separate consent switch or option to turn off advertising.</p></div>
+<p>Precise and approximate location permissions are not requested. The Android build includes the advertising identifier permission <code>AD_ID</code>; its availability depends on the device and system. Where supported, you can manage the advertising identifier in Android settings; this does not stop all technical data processing.</p>
+<p>The app does not add food records, weight, measurements, notes, goals, Google email or Google account identifier to ad request parameters or use them for ad targeting. Watching an ad is not a condition for saving records. The offline diary works without a network, but disconnecting the network also prevents Google synchronization.</p>
+<p>Processing, retention and deletion requests for advertising service data are governed by the <a href="https://yandex.com/legal/confidential/en/">Yandex Privacy Policy</a>. The diary developer does not set a separate retention period for that data and cannot promise that clearing the diary deletes it.</p>
+</section>
+<section aria-labelledby="security">
+<h2 id="security">5. Security, permissions and processing locations</h2>
+<p>Google exchanges use HTTPS. Sign-in uses the system browser, request-state validation and PKCE. The local Google session, including tokens, is encrypted with AES-GCM using an Android Keystore key. Disconnecting the account deletes its local session file and connection cache. Yandex states that SDK data is transmitted using HTTPS/TLS.</p>
+<p>The local diary and settings are protected by Android app isolation. The app does not separately encrypt the diary, exported JSON or cloud JSON snapshots; there is no end-to-end encryption between devices. System backup of app data is disabled. Migration from an older format may leave an internal backup.</p>
+<p>The app uses internet and network-state access. Background work components also declare Android technical permissions for wake locks, rescheduling after device boot and foreground services. Import and export files are chosen through the system picker; broad access to all storage is not requested. Camera, microphone, contacts, SMS and location permissions are not requested.</p>
+<p>Diagnostic logs written by the app's own code contain result codes without diary contents, email, tokens or network response bodies; these logs are not separately sent to the developer. This statement does not exclude technical diagnostics by the third-party advertising SDK.</p>
+<p>The operator is located in Russia. Google, Yandex and GitHub may process data in countries different from yours according to their policies. The app does not offer a storage-region selector or promise storage in mainland China. Availability of third-party services depends on the region and network; the main offline diary features do not require them.</p>
+</section>
+<section aria-labelledby="deletion">
+<h2 id="deletion">6. Retention and deletion</h2>
+<p>Local records are retained until you change or delete them or clear app data. Deleting an individual record hides it from the interface and sends a deletion marker during synchronization. Merge metadata may retain earlier values of deleted diary fields so that old snapshots do not restore the record. Earlier values may also remain in old cloud snapshots and exported backups.</p>
+<p>When data changes, a new full snapshot is created in Google Drive. After a successful upload, the app attempts to delete older snapshots from the same installation, retaining the new snapshot and one previous snapshot. Snapshots from other installations are not affected; failed cleanup can leave extra copies. There is no fixed automatic deletion period for all snapshots.</p>
+<p>The Google session is retained until you disconnect it or clear app storage; an invalid token may require another sign-in. “Disconnect account” stops synchronization on this device and deletes the local session, but keeps the diary and cloud copies, does not revoke the Google permission itself and does not delete your Google account.</p>
+<p>To delete all copies:</p>
+<ol>
+<li>Disconnect Google on all devices. If you cannot access the app, first revoke its access in <a href="https://myaccount.google.com/connections">Google Account connections</a>.</li>
+<li>Open <a href="https://drive.google.com/drive/settings">Google Drive settings</a> for the relevant account, choose “Manage apps”, find the app under the name shown at sign-in, then choose “Options” → “Delete hidden app data”. Use desktop site mode or a computer if necessary.</li>
+<li>Revoke Google access if you have not already done so. Revoking access alone does not delete snapshots.</li>
+<li>Clear app data in Android settings or uninstall the app on every device. This also removes internal backups and the local session.</li>
+<li>Separately delete exported JSON files from your chosen folders and cloud storage.</li>
+</ol>
+<p>Reconnecting a device that still holds records can create a cloud copy again. <a href="./data-deletion.html">Detailed instructions</a> are available without reinstalling the app. The developer cannot remotely erase your devices or personal Drive; do not send passwords or tokens.</p>
+</section>
+<section aria-labelledby="rights">
+<h2 id="rights">7. Your choices and requests</h2>
+<p>You can use the diary without Google, leave optional fields empty, view and correct records, export them, disable automatic synchronization, disconnect Google and delete copies as described. The current version has no general advertising SDK switch. These available controls do not mean that consent is requested for every processing activity.</p>
+<p>For access, correction, copies, deletion, restriction of processing, withdrawal of a previously granted permission, or a complaint, email <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. <strong>We will receive and process your request and inform you of the outcome within 15 working days.</strong> Identify the app and explain your request. Minimal additional information may be needed to verify and answer it; a password, tokens and a complete diary backup are not needed. For data held only on your device or by an independent provider, we will explain the available actions and the limits of our access.</p>
+</section>
+<section aria-labelledby="minors">
+<h2 id="minors">8. Minors and health information</h2>
+<p>The app has no age verification or separate parental-consent mechanism. This policy should not be treated as confirmation that such consent has been obtained. If a minor uses the diary, a parent or legal guardian should assess use of the app and its cloud and advertising services; deletion questions can be sent to the contact email.</p>
+<p>The app is not a medical device and is not intended to diagnose, treat, cure or prevent disease. Consult a qualified professional for medical advice, diagnosis and treatment.</p>
+</section>
+<section aria-labelledby="contact">
+<h2 id="contact">9. Support, website and policy changes</h2>
+<p><strong>Sergey Efremov (Efreitor2001), Russia.</strong> Email: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>.</p>
+<p>If you contact support by email, the developer receives your sender address, message and any attachments you send. These are used to respond to and investigate the request and are stored in Gmail. The operator has not set a separate fixed retention period for correspondence; you can request its deletion at the same address. The email service is covered by the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>.</p>
+<p><a href="https://github.com/Efreitor2001/kkalcal/issues">GitHub Issues</a> is available for general questions. Issues are public: do not post health information, your Google account email, backups, passwords or tokens. This website uses GitHub Pages; GitHub processes technical web-request data under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. The developer does not add an advertising SDK, sign-in form or analytics counters to these pages.</p>
+<p>When functions or processing practices change, this policy is updated with a revision date. Before Google data is used for a new purpose, changes must be presented to the user and new consent requested where necessary. The Russian, English and Chinese pages describe the same processing.</p>
+</section>
+<p><a href="./data-deletion.html">Delete data</a> · <a href="./third-party.html">SDKs and third-party services</a></p>
+</main>
+</body>
+</html>

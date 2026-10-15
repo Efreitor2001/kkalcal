@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diet.efreitor2001.ru/sitemap.xml

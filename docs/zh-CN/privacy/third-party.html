@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Yandex Mobile Ads、AppMetrica、Varioqub、Google、AppAuth 和 GitHub 的用途、数据及处理政策。">
+<title>第三方 SDK 与服务 — 饮食日记</title>
+<link rel="canonical" href="https://diet.efreitor2001.ru/zh-CN/privacy/third-party.html">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/third-party.html">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/privacy/third-party.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/privacy/third-party.html">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/privacy/third-party.html">
+<link rel="icon" href="../../assets/app-icon.png" type="image/png">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<main class="legal wrap">
+<p><a href="../">← 关于应用</a></p>
+<nav class="language-switch" aria-label="语言"><a href="../../privacy/third-party.html" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/third-party.html" lang="en" hreflang="en">English</a> · <a href="../../zh-CN/privacy/third-party.html" lang="zh-CN" hreflang="zh-Hans" aria-current="page">简体中文</a></nav>
+
+<h1>第三方 SDK 与服务清单</h1>
+<p class="meta">饮食日记 · 更新日期：<time datetime="2026-10-15">2026 年 10 月 15 日</time> · Android 版本 1.2.1</p>
+<p>应用运营者：<strong>Sergey Efremov（Efreitor2001），俄罗斯</strong>。联系邮箱：<a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>。本页说明应用组件、外部接收方及网站服务。SDK 版本对应已检查的构建；一个软件库不一定是独立的数据接收方。</p>
+<nav class="toc" aria-label="服务目录"><a href="#yandex">Yandex</a> · <a href="#google">Google / AppAuth</a> · <a href="#website">GitHub / 支持</a> · <a href="./">隐私政策</a></nav>
+<section class="sdk-card" aria-labelledby="yandex">
+<h2 id="yandex">Yandex Mobile Ads 8.5.0</h2>
+<p><strong>提供者：</strong>Yandex（根据其政策，为 YANDEX LLC 及适用的关联公司）。<strong>用途：</strong>加载和展示广告、衡量广告互动，以及 SDK 的技术运行。</p>
+<p><strong>数据：</strong>IP 地址和网络请求信息；设备、操作系统及应用信息；可用的广告及技术标识符；广告请求、展示、点击和技术诊断信息。应用不会将日记内容、Google 电子邮件地址或 Google 账号标识符加入广告参数。</p>
+<p><strong>处理时间：</strong>应用或广告位打开时，SDK 可能在未先显示单独同意弹窗的情况下初始化。应用设置 <code>setUserConsent(false)</code>、<code>setLocationTracking(false)</code> 和 <code>setAppAdAnalyticsReporting(false)</code>。位置跟踪和 App Ad Analytics 报告已关闭，应用不请求精确或大致位置权限。这些设置不是对所有网络处理的统一禁止。应用没有禁用该 SDK 的开关。</p>
+<p><strong>提供者规则：</strong><a href="https://yandex.com/legal/confidential/en/">隐私政策及请求渠道</a>；<a href="https://ads.yandex.com/helpcenter/en/dev/android/app-privacy-android">SDK 数据说明</a>。保留期限及国际处理由提供者确定；清除日记并不等于向 Yandex 提出删除请求。</p>
+</section>
+<p class="notice">以下分别说明广告 SDK 的依赖组件。数据类别描述的是相应组件的能力，并不表示每台设备上都已开启全部功能。构建包含某个库，本身不证明其已启动或传输数据。应用不直接调用这些辅助 API，也不向其提供日记记录。</p>
+<section class="sdk-card" aria-labelledby="appmetrica">
+<h2 id="appmetrica">AppMetrica 8.5.0</h2>
+<p><strong>提供者：</strong>Yandex（YANDEX LLC 及适用的关联公司）。<strong>组件用途：</strong>技术诊断、应用及广告效果衡量；作为 Yandex Mobile Ads 的依赖包含在构建中。</p>
+<p><strong>数据类别：</strong>设备、操作系统及应用的技术信息、崩溃与性能信息，以及可用的 SDK 和广告标识符。广告事件取决于已启用的功能。应用未配置单独的日记操作统计，也不发送包含日记内容的自定义事件。</p>
+<p><strong>访问方式与条件：</strong>相应 SDK 模块在运行时通过 Android 及库的 API 获取技术信息，并可能将其发送至 Yandex 服务。本构建在广告初始化前关闭 App Ad Analytics 和位置跟踪；这并不证明所有 SDK 内部诊断均被关闭。</p>
+<p><a href="https://yandex.com/legal/confidential/en/">Yandex 隐私政策</a> · <a href="https://appmetrica.yandex.com/docs/en/data-security/google-data-safety">AppMetrica 数据类别</a> · <a href="https://appmetrica.yandex.com/docs/en/common/ads-sdk-integration">Ads 集成及报告控制</a>。</p>
+</section>
+<section class="sdk-card" aria-labelledby="varioqub">
+<h2 id="varioqub">Varioqub 适配器 0.6.0</h2>
+<p><strong>提供者：</strong>Yandex（YANDEX LLC 及适用的关联公司）。<strong>组件用途：</strong>连接 SDK 配置、实验及分析系统。广告依赖包含 Varioqub 适配器；开发者未对日记配置独立实验。</p>
+<p><strong>数据类别：</strong>使用相应集成时，涉及项目标识符、Varioqub 技术标识符、配置参数及激活事件。自定义参数需要集成代码明确提供；应用不向其提供日记内容、Google 邮箱或令牌。</p>
+<p><strong>访问方式与条件：</strong>适配器将调用它的 SDK 与 AppMetrica 连接；联网更新配置及发送事件取决于相应集成的初始化和调用。日记代码不直接调用 Varioqub；存在适配器不代表所有实验功能已开启。</p>
+<p><a href="https://yandex.com/legal/confidential/en/">Yandex 隐私政策</a> · <a href="https://yandex.ru/support/varioqub-app/en/sdk/android/integration">Varioqub 集成文档</a>。</p>
+</section>
+<section class="sdk-card" aria-labelledby="google-advertising-id">
+<h2 id="google-advertising-id">Google Advertising ID 18.1.0</h2>
+<p><strong>提供者：</strong>Google LLC 及适用的关联公司。<strong>组件用途：</strong>为广告组件及广告效果衡量提供广告标识符；该库通过 AppMetrica 依赖引入。</p>
+<p><strong>数据类别：</strong>Google 广告标识符（GAID）及限制广告跟踪的设置状态。它们不同于 Drive 使用的 Google 邮箱和账号标识符。</p>
+<p><strong>访问方式与条件：</strong>收到请求时，库调用设备上的 Google Play services API。可用性取决于服务、用户设置及 <code>AD_ID</code> 权限；本构建包含该权限。标识符受限时，可能返回全零值或无法访问。读取标识符与随后由广告 SDK 处理标识符是不同操作；存在依赖不证明一定传输了非零 GAID。</p>
+<p><a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私政策</a> · <a href="https://developers.google.com/android/reference/com/google/android/gms/ads/identifier/AdvertisingIdClient.Info">Advertising ID 文档</a>。</p>
+</section>
+<section class="sdk-card" aria-labelledby="google-app-set-id">
+<h2 id="google-app-set-id">Google App Set ID 16.1.0</h2>
+<p><strong>提供者：</strong>Google LLC 及适用的关联公司。<strong>组件用途：</strong>为分析用途在技术上识别设备上的应用或应用集合，与广告标识符不同。</p>
+<p><strong>数据类别：</strong>App Set ID 及其作用范围，即单个应用或某开发者的应用集合。它不是 Google 账号，也不是日记内容。</p>
+<p><strong>访问方式与条件：</strong>调用组件通过 App Set ID 库的 API 请求标识符。作用范围取决于安装来源及可用服务；文档规定，非 Google Play 安装使用单个应用范围。本构建中的第三方 SDK 可以使用该库，但日记代码没有单独发起请求。</p>
+<p><a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私政策</a> · <a href="https://developer.android.com/identity/app-set-id">App Set ID 文档</a>。</p>
+</section>
+<section class="sdk-card" aria-labelledby="install-referrer">
+<h2 id="install-referrer">Google Play Install Referrer 2.2</h2>
+<p><strong>提供者：</strong>Google LLC 及适用的关联公司。<strong>组件用途：</strong>获取安装来源信息，供第三方 SDK 进行安装归因。</p>
+<p><strong>数据类别：</strong>商店可提供的安装来源字符串、点击及开始安装时间、首次安装时的应用版本，以及 Instant experience 互动标记。</p>
+<p><strong>访问方式与条件：</strong>客户端库向设备上的 Google Play Store 服务查询，需要受支持的商店及可用数据。在 Huawei 构建中包含该库，并不表示每位 AppGallery 用户都有 Google Play 或相应的来源数据。日记不直接调用此库。</p>
+<p><a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私政策</a> · <a href="https://developer.android.com/google/play/installreferrer">Install Referrer 文档</a>。</p>
+</section>
+<section class="sdk-card" aria-labelledby="google">
+<h2 id="google">Google 登录与 Drive；AppAuth Android 0.11.1</h2>
+<p><strong>接收方：</strong>根据 Google 政策，为 Google LLC 及适用的关联公司。<strong>用途：</strong>可选的账号连接、备份快照及跨设备日记合并。</p>
+<p><strong>数据及时间：</strong>在你选择连接之后，处理 OAuth 请求、电子邮件地址、账号标识符及令牌；同步时，处理日记内容、设置及更改元数据。数据直接发送至 Google。访问权限仅限 <code>openid</code>、<code>email</code> 和 <code>drive.appdata</code>。登录后执行首次同步，之后按设置自动同步或由你手动启动。</p>
+<p><strong>AppAuth</strong> 是用于浏览器登录、令牌交换和刷新的开源客户端库。在本应用的集成中，它连接的是 Google；OpenID 组织不是独立接收日记的服务器。<a href="https://github.com/openid/AppAuth-Android">AppAuth 文档</a>。</p>
+<p><a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私政策</a> · <a href="./#google-data">权限与保护措施</a> · <a href="./#limited-use">Google Limited Use</a> · <a href="./data-deletion.html">断开连接与删除</a>。应用不选择 Drive 数据的存储国家，也不对 JSON 快照提供端到端加密。</p>
+</section>
+<section class="sdk-card" aria-labelledby="website">
+<h2 id="website">GitHub Pages 与 GitHub Issues</h2>
+<p><strong>提供者：</strong>依据服务政策，为 GitHub, Inc. / GitHub B.V.。本网站由 GitHub Pages 托管。打开页面时，GitHub 会接收提供网站服务所需的网络请求技术信息。开发者未在这里嵌入广告、统计分析工具或登录表单。</p>
+<p>如果你创建 GitHub Issue，GitHub 会处理你的账号信息和提交内容；该内容是公开的。请勿在那里发布日记或其他敏感信息。<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
+<h3>支持邮件 / Gmail</h3>
+<p>如果你发送邮件至 <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>，运营者会接收发件地址、正文及附件，以答复请求。邮件保存在 Gmail 中，邮件服务适用 <a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私政策</a>。运营者未设定独立的固定保留期限；可通过同一邮箱请求删除发送给支持的信息。</p>
+<h3>由你选择的文件接收方</h3>
+<p>保存或分享 JSON 备份时，你会选择文件夹、云端服务或接收方。其处理取决于你的选择及其自身规则；应用无法提供此类接收方的统一清单。</p>
+</section>
+<p class="notice">主要日记功能无需 Google 或互联网即可使用。各 SDK 和服务不会自动收到相同的数据：饮食记录不会发送给广告服务，Google 同步在连接后才开始。当前版本没有单独的通用广告开关，也没有针对广告 SDK 的事先同意弹窗。</p>
+<p><a href="./">隐私政策</a> · <a href="./data-deletion.html">删除数据</a></p>
+</main>
+</body>
+</html>

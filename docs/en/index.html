@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Diet Diary for Android: track food, calories, macronutrients and optional measurements. Use the diary offline, with optional Google Drive synchronization.">
+<meta name="theme-color" content="#285849">
+<title>Diet Diary — food, measurements and progress</title>
+<link rel="canonical" href="https://diet.efreitor2001.ru/en/">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/">
+<link rel="icon" type="image/png" href="../assets/app-icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header wrap">
+  <a class="brand" href="./" aria-label="Diet Diary home"><img src="../assets/app-icon.png" width="48" height="48" alt=""><span>Diet Diary</span></a>
+  <nav aria-label="Main navigation"><a href="#features">Features</a><a href="#download">Download</a><a href="privacy/index.html">Privacy</a><a href="#contact">Support</a></nav>
+</header>
+<nav class="wrap language-switch" aria-label="Website language"><a href="../" lang="ru" hreflang="ru">Русский</a><a href="./" lang="en" hreflang="en" aria-current="page">English</a><a href="../zh-CN/" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
+<main id="main" class="wrap">
+  <section class="hero" aria-labelledby="app-name">
+    <div>
+      <p class="eyebrow">Food · Measurements · Progress</p>
+      <h1 id="app-name">Your everyday food diary</h1>
+      <p class="lead">Count calories and macronutrients, record your weight, and see your habits over time.</p>
+      <p>For Android 8.0 and later. Choose a food or prepared dish and enter its weight in grams to add the portion and its nutritional values to your day.</p>
+      <div class="actions"><a class="button" href="#download">Download the app</a><a class="button secondary" href="#features">Explore features</a></div>
+      <p class="small">Core calculations and records work offline without an account. Google Drive synchronization is optional. The app contains advertisements.</p>
+    </div>
+    <figure class="hero-screen"><img src="../assets/food-diary.png" width="1080" height="1920" alt="Diet Diary daily calories, macronutrients and food portions, shown in the Russian interface"><figcaption>Actual app screen · Russian interface · sample data</figcaption></figure>
+  </section>
+  <section id="features" class="section" aria-labelledby="features-title">
+    <p class="eyebrow">At your own pace</p>
+    <h2 id="features-title">From a food portion to a clear chart</h2>
+    <div class="cards">
+      <article class="card"><span class="number">01</span><h3>Food and recipes</h3><p>Use the built-in food catalog, edit nutritional values per 100 g, or add your own foods and dishes. Combine ingredients into a recipe and set its cooked weight.</p><p>Organize portions by date and meal. Edit or remove entries whenever needed.</p></article>
+      <article class="card"><span class="number">02</span><h3>Optional measurements</h3><p>Record weight, waist, body fat, steps, sleep, strength training and notes. Leave any optional field empty.</p><p>Measurements, steps and sleep are entered manually. The app does not connect to watches, scales or Health Connect.</p></article>
+      <article class="card"><span class="number">03</span><h3>History and goals</h3><p>Set your own calorie, macronutrient and weight goals. View weekly, monthly, yearly or custom charts, compare days and earn diary achievements.</p><p>Light and dark themes follow your phone settings.</p></article>
+    </div>
+    <div class="showcase">
+      <figure><img src="../assets/weight-chart.png" width="1080" height="1920" loading="lazy" alt="A monthly weight history chart in the Russian interface"><figcaption>See measurements over time</figcaption></figure>
+      <div><h3>Keep control of your records</h3><p>Your main diary stays on your device. Export it as a JSON file and restore it from a backup you choose.</p><p>You can start without filling in every field or connecting an account. Food values are a reference: check product labels and choose your own goals.</p><a href="privacy/data-deletion.html">Manage data and delete copies →</a></div>
+      <figure><img src="../assets/measurements.png" width="1080" height="1920" loading="lazy" alt="Optional weight, sleep and activity entries in the Russian interface"><figcaption>Only the measurements you need</figcaption></figure>
+    </div>
+  </section>
+  <section id="google" class="section cloud" aria-labelledby="google-title">
+    <p class="eyebrow">An optional feature</p>
+    <h2 id="google-title">Why the app asks for Google access</h2>
+    <p class="lead">Google Drive stores diary backups and helps merge your entries across your devices.</p>
+    <ol class="steps"><li>Open More → Cloud sync in the app and choose to connect Google.</li><li>Select your account in the Google browser sign-in page and review the requested permissions. Your password is entered with Google.</li><li>The app reads and writes its own JSON snapshots in its hidden app-data folder in your Drive. Automatic sync can be switched off.</li></ol>
+    <div class="permissions"><article><h3>The account you choose</h3><p><code>openid</code> and <code>email</code> identify the selected Google account and display its email in connection settings.</p></article><article><h3>Only the app’s own data</h3><p><code>https://www.googleapis.com/auth/drive.appdata</code> provides access to this app’s hidden storage. It does not grant access to your ordinary Drive documents or photos.</p></article></div>
+    <p>Snapshots include foods, food entries, measurements, notes, goals, achievements and synchronization metadata. The app does not use diary contents or Google data for advertising, sell them, or use them to train AI models. The developer operates no server receiving the diary.</p>
+    <p>Disconnecting keeps your local diary and existing cloud copies. Follow the <a href="privacy/data-deletion.html">deletion instructions</a> to remove them. Google services are optional and may not be available in your region or network; the local diary still works without them.</p>
+    <p><a href="privacy/index.html">Read how data is accessed, used, stored and shared →</a></p>
+  </section>
+  <section id="download" class="section" aria-labelledby="download-title">
+    <p class="eyebrow">Android 8.0 and later</p>
+    <h2 id="download-title">Choose your app build</h2>
+    <p>Version 1.2.1. All builds support Russian, English and Simplified Chinese; the interface follows your Android language settings. APKs share the same signing key and can update an existing installation.</p>
+    <div class="download-options"><a class="button" href="https://github.com/Efreitor2001/kkalcal/releases/download/v1.2.1/DietDiary-1.2.1-Huawei-universal.apk">Huawei APK</a><a class="button secondary" href="https://github.com/Efreitor2001/kkalcal/releases/download/v1.2.1/DietDiary-1.2.1-GooglePlay-universal.apk">Google Play APK</a><a class="button secondary" href="https://github.com/Efreitor2001/kkalcal/releases/download/v1.2.1/DietDiary-1.2.1-RuStore-universal.apk">RuStore APK</a></div>
+    <p class="small">Files are hosted in <a href="https://github.com/Efreitor2001/kkalcal/releases/tag/v1.2.1">GitHub Releases</a>. These are direct APK downloads, not store listing links. Download availability depends on your region and network.</p>
+  </section>
+  <section id="contact" class="section contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">About the app and support</h2>
+    <p>Developer and operator: <strong>Sergey Efremov</strong>, Russia. Public project name: <strong>Efreitor2001</strong>. App: <strong>Diet Diary</strong> (<span lang="ru">Дневник диеты</span>; <span lang="zh-CN">饮食日记</span>). Android package: <code>ru.dietdiary.offline</code>.</p>
+    <p>For app, Google connection, privacy or deletion questions, email <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. You can also report a bug in the <a href="https://github.com/Efreitor2001/kkalcal/issues">project repository</a>. Do not include passwords, access tokens or your full diary. GitHub issues are public.</p>
+    <p class="small">The app is not a medical device. It does not diagnose, treat, cure or prevent disease. Consult a qualified healthcare professional for medical advice, diagnosis and treatment.</p>
+  </section>
+</main>
+<footer class="wrap footer"><span>Diet Diary · Sergey Efremov</span><a href="privacy/index.html">Privacy policy</a><a href="privacy/third-party.html">SDKs and third parties</a><a href="privacy/data-deletion.html">Delete data</a><a href="https://github.com/Efreitor2001/kkalcal">Source code</a></footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Yandex Mobile Ads, AppMetrica, Varioqub, Google, AppAuth and GitHub: purposes, data and processing policies.">
+<title>SDKs and third-party services — Diet Diary</title>
+<link rel="canonical" href="https://diet.efreitor2001.ru/en/privacy/third-party.html">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/third-party.html">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/privacy/third-party.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/privacy/third-party.html">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/privacy/third-party.html">
+<link rel="icon" href="../../assets/app-icon.png" type="image/png">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<main class="legal wrap">
+<p><a href="../">← About the app</a></p>
+<nav class="language-switch" aria-label="Language"><a href="../../privacy/third-party.html" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/third-party.html" lang="en" hreflang="en" aria-current="page">English</a> · <a href="../../zh-CN/privacy/third-party.html" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
+
+<h1>SDKs and third-party services</h1>
+<p class="meta">Diet Diary · Updated <time datetime="2026-10-15">15 October 2026</time> · Android version 1.2.1</p>
+<p>App operator: <strong>Sergey Efremov (Efreitor2001), Russia</strong>. Contact: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. This page describes app components, external recipients and website services. SDK versions refer to the inspected build; a library is not necessarily a separate data recipient.</p>
+<nav class="toc" aria-label="Services"><a href="#yandex">Yandex</a> · <a href="#google">Google / AppAuth</a> · <a href="#website">GitHub / support</a> · <a href="./">Privacy policy</a></nav>
+<section class="sdk-card" aria-labelledby="yandex">
+<h2 id="yandex">Yandex Mobile Ads 8.5.0</h2>
+<p><strong>Provider:</strong> Yandex (YANDEX LLC and applicable affiliates under its policy). <strong>Purpose:</strong> ad loading and display, ad-interaction measurement and technical SDK operation.</p>
+<p><strong>Data:</strong> IP address and network-request information; device, operating-system and app information; available advertising and technical identifiers; ad requests, impressions and clicks; technical diagnostics. The app does not supply diary contents, Google email or Google account identifier in advertising parameters.</p>
+<p><strong>When:</strong> the SDK may initialize when the app or ad placements open without a separate prior consent dialog. The app sets <code>setUserConsent(false)</code>, <code>setLocationTracking(false)</code> and <code>setAppAdAnalyticsReporting(false)</code>. Location tracking and App Ad Analytics reporting are disabled; precise and approximate location permissions are not requested. These settings are not a general prohibition of network processing. The app has no switch to disable the SDK.</p>
+<p><strong>Provider rules:</strong> <a href="https://yandex.com/legal/confidential/en/">privacy and requests</a>; <a href="https://ads.yandex.com/helpcenter/en/dev/android/app-privacy-android">SDK data description</a>. Retention and international processing are determined by the provider; clearing your diary is not a deletion request to Yandex.</p>
+</section>
+<p class="notice">The advertising SDK dependencies are described separately below. Data categories describe the relevant components' capabilities, not a claim that all are active on every device. Including a library does not by itself establish activation or data transmission. The app does not call these supporting APIs directly or supply diary records to them.</p>
+<section class="sdk-card" aria-labelledby="appmetrica">
+<h2 id="appmetrica">AppMetrica 8.5.0</h2>
+<p><strong>Provider:</strong> Yandex (YANDEX LLC and applicable affiliates). <strong>Component purpose:</strong> technical diagnostics and app/ad measurement; included as a Yandex Mobile Ads dependency.</p>
+<p><strong>Data categories:</strong> technical device, OS and app information, crashes and performance; available SDK and advertising identifiers. Advertising events depend on enabled features. The app does not configure separate diary-action analytics or send custom events containing diary contents.</p>
+<p><strong>Access method and condition:</strong> relevant SDK modules obtain technical information through Android and library APIs while operating and may send it to Yandex services. This build disables App Ad Analytics and location tracking before advertising initialization. This does not establish that all internal SDK diagnostics are disabled.</p>
+<p><a href="https://yandex.com/legal/confidential/en/">Yandex Privacy Policy</a> · <a href="https://appmetrica.yandex.com/docs/en/data-security/google-data-safety">AppMetrica data categories</a> · <a href="https://appmetrica.yandex.com/docs/en/common/ads-sdk-integration">Ads integration and reporting controls</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="varioqub">
+<h2 id="varioqub">Varioqub adapters 0.6.0</h2>
+<p><strong>Provider:</strong> Yandex (YANDEX LLC and applicable affiliates). <strong>Component purpose:</strong> connecting SDK configuration and experiments to an analytics system. The advertising dependency includes Varioqub adapters; the developer does not configure separate diary experiments.</p>
+<p><strong>Data categories:</strong> when the relevant integration is used — project identifier, technical Varioqub identifier, configuration parameters and activation events. Custom parameters require explicit input from the integrating code; the app does not supply diary contents, Google email or tokens.</p>
+<p><strong>Access method and condition:</strong> the adapter connects the calling SDK to AppMetrica; network configuration updates and event reporting depend on initialization and calls by the relevant integration. The diary code does not call Varioqub directly; adapter presence does not establish that all experiment features are active.</p>
+<p><a href="https://yandex.com/legal/confidential/en/">Yandex Privacy Policy</a> · <a href="https://yandex.ru/support/varioqub-app/en/sdk/android/integration">Varioqub integration documentation</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="google-advertising-id">
+<h2 id="google-advertising-id">Google Advertising ID 18.1.0</h2>
+<p><strong>Provider:</strong> Google LLC and applicable affiliates. <strong>Component purpose:</strong> providing an advertising identifier for advertising components and ad measurement; included through an AppMetrica dependency.</p>
+<p><strong>Data categories:</strong> Google Advertising ID (GAID) and the limit-ad-tracking setting. These are separate from the Google email and account identifier used for Drive.</p>
+<p><strong>Access method and condition:</strong> when requested, the library calls device Google Play services APIs. Availability depends on services, user settings and the <code>AD_ID</code> permission, which is present in the build. Restriction may result in a zero identifier or unavailable access. Retrieving the identifier and subsequently processing it through an advertising SDK are separate operations; dependency presence does not prove transmission of a nonzero GAID.</p>
+<p><a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a> · <a href="https://developers.google.com/android/reference/com/google/android/gms/ads/identifier/AdvertisingIdClient.Info">Advertising ID documentation</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="google-app-set-id">
+<h2 id="google-app-set-id">Google App Set ID 16.1.0</h2>
+<p><strong>Provider:</strong> Google LLC and applicable affiliates. <strong>Component purpose:</strong> technical identification of an app or app set on a device for analytics, separate from the advertising identifier.</p>
+<p><strong>Data categories:</strong> App Set ID and its scope — an individual app or a developer's set of apps. It is not a Google account or diary content.</p>
+<p><strong>Access method and condition:</strong> a calling component requests the identifier through the App Set ID library API. Its scope depends on the installation source and available services; the documentation specifies app scope for installation outside Google Play. The library is available to third-party SDKs in this build, but the diary code makes no separate request.</p>
+<p><a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a> · <a href="https://developer.android.com/identity/app-set-id">App Set ID documentation</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="install-referrer">
+<h2 id="install-referrer">Google Play Install Referrer 2.2</h2>
+<p><strong>Provider:</strong> Google LLC and applicable affiliates. <strong>Component purpose:</strong> obtaining installation-source information for third-party SDK attribution.</p>
+<p><strong>Data categories:</strong> the installation referral string, click and installation-start times, app version at first installation, and Instant experience interaction indicator, where supplied by the store.</p>
+<p><strong>Access method and condition:</strong> the client library queries the device's Google Play Store service. A supported store and available information are required; including this library in the Huawei build does not imply that every AppGallery user has Google Play or an available referrer. The diary does not call the library directly.</p>
+<p><a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a> · <a href="https://developer.android.com/google/play/installreferrer">Install Referrer documentation</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="google">
+<h2 id="google">Google sign-in and Drive; AppAuth Android 0.11.1</h2>
+<p><strong>Recipient:</strong> Google LLC and applicable affiliates under Google's policy. <strong>Purpose:</strong> optional account connection, backup snapshots and merging the diary across devices.</p>
+<p><strong>Data and timing:</strong> after you choose to connect — OAuth requests, email, account identifier and tokens; during synchronization — diary contents, settings and change metadata. Data goes directly to Google. Access is limited to <code>openid</code>, <code>email</code> and <code>drive.appdata</code>. The first synchronization follows sign-in, then runs manually or automatically according to your setting.</p>
+<p><strong>AppAuth</strong> is an open-source client library for browser sign-in and token exchange and refresh. In this integration, it contacts Google; the OpenID organization is not a separate diary-receiving server. <a href="https://github.com/openid/AppAuth-Android">AppAuth documentation</a>.</p>
+<p><a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a> · <a href="./#google-data">Permissions and protection</a> · <a href="./#limited-use">Google Limited Use</a> · <a href="./data-deletion.html">Disconnection and deletion</a>. The app does not select the country where Drive data is stored or apply end-to-end encryption to JSON snapshots.</p>
+</section>
+<section class="sdk-card" aria-labelledby="website">
+<h2 id="website">GitHub Pages and GitHub Issues</h2>
+<p><strong>Provider:</strong> GitHub, Inc. / GitHub B.V. under the service's policy. This website is hosted on GitHub Pages. When you open pages, GitHub receives technical web-request information needed to serve the website. The developer does not embed advertising, analytics counters or a sign-in form here.</p>
+<p>If you create a GitHub Issue, GitHub processes your account data and issue content; the issue is public. Do not post your diary or other sensitive information there. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+<h3>Support email / Gmail</h3>
+<p>If you email <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>, the operator receives your sender address, text and attachments to answer your request. Correspondence is stored in Gmail; the email service is covered by the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>. The operator has not set a separate fixed retention period; you may request deletion of information sent to support at the same address.</p>
+<h3>File recipients you select</h3>
+<p>When you save or share a JSON backup, you select its folder, cloud service or recipient. Their processing depends on your choice and their own rules; the app has no universal list of these recipients.</p>
+</section>
+<p class="notice">The diary's main features work without Google and without internet access. SDKs and services do not automatically receive the same data: food records are not sent to advertising, and Google synchronization starts after connection. The current version has no separate general advertising switch or prior consent dialog for its advertising SDK.</p>
+<p><a href="./">Privacy policy</a> · <a href="./data-deletion.html">Delete data</a></p>
+</main>
+</body>
+</html>

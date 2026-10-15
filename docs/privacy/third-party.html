@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Yandex Mobile Ads, AppMetrica, Varioqub, Google, AppAuth и GitHub: назначение, данные и правила обработки.">
+<title>SDK и сторонние сервисы — Дневник диеты</title>
+<link rel="canonical" href="https://diet.efreitor2001.ru/privacy/third-party.html">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/third-party.html">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/privacy/third-party.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/privacy/third-party.html">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/privacy/third-party.html">
+<link rel="icon" href="../assets/app-icon.png" type="image/png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<main class="legal wrap">
+<p><a href="../">← О приложении</a></p>
+<nav class="language-switch" aria-label="Язык"><a href="../privacy/third-party.html" lang="ru" hreflang="ru" aria-current="page">Русский</a> · <a href="../en/privacy/third-party.html" lang="en" hreflang="en">English</a> · <a href="../zh-CN/privacy/third-party.html" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
+
+<h1>SDK и сторонние сервисы</h1>
+<p class="meta">«Дневник диеты» · Обновлено <time datetime="2026-10-15">15 октября 2026 года</time> · Состав Android-версии 1.2.1</p>
+<p>Оператор приложения: <strong>Sergey Efremov (Efreitor2001), Россия</strong>. Контакт: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Здесь описаны компоненты приложения, внешние получатели и сервисы сайта. Версии SDK относятся к проверенной сборке; отдельная библиотека не обязательно является отдельным получателем данных.</p>
+<nav class="toc" aria-label="Сервисы"><a href="#yandex">Yandex</a> · <a href="#google">Google / AppAuth</a> · <a href="#website">GitHub / поддержка</a> · <a href="./">Политика</a></nav>
+<section class="sdk-card" aria-labelledby="yandex">
+<h2 id="yandex">Yandex Mobile Ads 8.5.0</h2>
+<p><strong>Поставщик:</strong> Яндекс (YANDEX LLC и применимые аффилированные компании согласно его политике). <strong>Назначение:</strong> загрузка и показ рекламы, учёт рекламных взаимодействий и техническая работа SDK.</p>
+<p><strong>Данные:</strong> IP-адрес и сведения сетевых запросов; сведения об устройстве, ОС и приложении; доступные рекламные и технические идентификаторы; информация о рекламных запросах, показах и кликах, техническая диагностика. Приложение не передаёт в рекламные параметры содержимое дневника, Google email или идентификатор Google.</p>
+<p><strong>Когда:</strong> SDK может инициализироваться при открытии приложения и рекламных мест без отдельного предварительного диалога согласия. Приложение передаёт <code>setUserConsent(false)</code>, <code>setLocationTracking(false)</code> и <code>setAppAdAnalyticsReporting(false)</code>. Отслеживание местоположения и отчёты App Ad Analytics отключены; точное и приблизительное местоположение не запрашиваются. Эти настройки не являются общим запретом сетевой обработки. Переключателя отключения SDK в приложении нет.</p>
+<p><strong>Правила поставщика:</strong> <a href="https://yandex.ru/legal/confidential/">конфиденциальность и обращения</a>; <a href="https://ads.yandex.com/helpcenter/en/dev/android/app-privacy-android">описание данных SDK</a>. Сроки хранения и международная обработка определяются поставщиком; очистка дневника не является запросом на удаление у Яндекса.</p>
+</section>
+<p class="notice">Ниже отдельно описаны зависимости рекламного SDK. Категории данных отражают возможности соответствующих компонентов, а не утверждение, что все они активны на каждом устройстве. Наличие библиотеки в сборке само по себе не доказывает её запуск или передачу данных. Приложение не вызывает эти вспомогательные API напрямую и не передаёт им записи дневника.</p>
+<section class="sdk-card" aria-labelledby="appmetrica">
+<h2 id="appmetrica">AppMetrica 8.5.0</h2>
+<p><strong>Поставщик:</strong> Яндекс (YANDEX LLC и применимые аффилированные компании). <strong>Назначение компонента:</strong> техническая диагностика, измерение работы приложения и рекламы; включён как зависимость Yandex Mobile Ads.</p>
+<p><strong>Категории данных:</strong> технические сведения об устройстве, ОС и приложении, сбоях и производительности; доступные SDK и рекламные идентификаторы. Рекламные события зависят от включённых функций. Приложение не настраивает отдельную аналитику действий в дневнике и не передаёт произвольные события с его содержимым.</p>
+<p><strong>Способ и условие доступа:</strong> соответствующие модули SDK получают технические сведения через API Android и библиотек при своей работе и могут отправлять их сервисам Яндекса. В этой сборке перед инициализацией рекламы отключаются App Ad Analytics и отслеживание местоположения. Это не подтверждение отключения всей внутренней диагностики SDK.</p>
+<p><a href="https://yandex.ru/legal/confidential/">Политика конфиденциальности Яндекса</a> · <a href="https://appmetrica.yandex.com/docs/en/data-security/google-data-safety">Категории данных AppMetrica</a> · <a href="https://appmetrica.yandex.com/docs/en/common/ads-sdk-integration">Связь с Ads и управление отчётами</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="varioqub">
+<h2 id="varioqub">Varioqub: адаптеры 0.6.0</h2>
+<p><strong>Поставщик:</strong> Яндекс (YANDEX LLC и применимые аффилированные компании). <strong>Назначение компонента:</strong> взаимодействие конфигурации и экспериментов SDK с аналитической системой. В рекламную зависимость входят адаптеры Varioqub; разработчик не настраивает отдельные эксперименты над дневником.</p>
+<p><strong>Категории данных:</strong> при использовании соответствующей интеграции — идентификатор проекта, технический идентификатор Varioqub, параметры конфигурации и события её активации. Пользовательские параметры возможны при явной передаче интегрирующим кодом; дневник, Google email и токены приложение туда не передаёт.</p>
+<p><strong>Способ и условие доступа:</strong> адаптер связывает вызывающий SDK с AppMetrica; сетевое обновление конфигурации и передача событий зависят от инициализации и вызовов соответствующей интеграции. Прямых вызовов Varioqub в коде дневника нет; наличие адаптеров не подтверждает, что все функции экспериментирования активированы.</p>
+<p><a href="https://yandex.ru/legal/confidential/">Политика конфиденциальности Яндекса</a> · <a href="https://yandex.ru/support/varioqub-app/en/sdk/android/integration">Документация интеграции Varioqub</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="google-advertising-id">
+<h2 id="google-advertising-id">Google Advertising ID 18.1.0</h2>
+<p><strong>Поставщик:</strong> Google LLC и применимые аффилированные компании. <strong>Назначение компонента:</strong> предоставление рекламного идентификатора для рекламных компонентов и измерения рекламы; библиотека включена через зависимость AppMetrica.</p>
+<p><strong>Категории данных:</strong> рекламный идентификатор Google (GAID) и состояние ограничения рекламного отслеживания. Это не email или идентификатор Google-аккаунта, используемый для Drive.</p>
+<p><strong>Способ и условие доступа:</strong> при запросе библиотека обращается к API Google Play services на устройстве. Доступность зависит от сервисов, настроек пользователя и разрешения <code>AD_ID</code>, которое присутствует в сборке. При ограничении идентификатора может возвращаться нулевое значение или доступ может отсутствовать. Получение идентификатора и его дальнейшая обработка рекламным SDK — разные операции; наличие зависимости не доказывает передачу ненулевого GAID.</p>
+<p><a href="https://policies.google.com/privacy?hl=ru">Политика Google</a> · <a href="https://developers.google.com/android/reference/com/google/android/gms/ads/identifier/AdvertisingIdClient.Info">Документация Advertising ID</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="google-app-set-id">
+<h2 id="google-app-set-id">Google App Set ID 16.1.0</h2>
+<p><strong>Поставщик:</strong> Google LLC и применимые аффилированные компании. <strong>Назначение компонента:</strong> техническая идентификация приложения или набора приложений на устройстве для аналитических задач, отличная от рекламного идентификатора.</p>
+<p><strong>Категории данных:</strong> App Set ID и область его действия — приложение либо набор приложений разработчика. Это не Google-аккаунт и не содержимое дневника.</p>
+<p><strong>Способ и условие доступа:</strong> вызывающий компонент запрашивает идентификатор через API библиотеки App Set ID. Область зависит от источника установки и доступных сервисов; для установки вне Google Play документация предусматривает область отдельного приложения. В сборке библиотека доступна сторонним SDK, но отдельного запроса из кода дневника нет.</p>
+<p><a href="https://policies.google.com/privacy?hl=ru">Политика Google</a> · <a href="https://developer.android.com/identity/app-set-id">Документация App Set ID</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="install-referrer">
+<h2 id="install-referrer">Google Play Install Referrer 2.2</h2>
+<p><strong>Поставщик:</strong> Google LLC и применимые аффилированные компании. <strong>Назначение компонента:</strong> получение сведений об источнике установки для её атрибуции сторонними SDK.</p>
+<p><strong>Категории данных:</strong> строка источника установки (referrer), время перехода и начала установки, версия приложения при первой установке, признак взаимодействия с Instant experience, если магазин предоставляет эти сведения.</p>
+<p><strong>Способ и условие доступа:</strong> клиентская библиотека запрашивает сведения у службы Google Play Store на устройстве. Нужны поддерживаемый магазин и доступные данные; наличие этой библиотеки в Huawei-сборке не означает, что у каждого пользователя AppGallery есть Google Play или соответствующий referrer. Дневник не делает прямого вызова этой библиотеки.</p>
+<p><a href="https://policies.google.com/privacy?hl=ru">Политика Google</a> · <a href="https://developer.android.com/google/play/installreferrer">Документация Install Referrer</a>.</p>
+</section>
+<section class="sdk-card" aria-labelledby="google">
+<h2 id="google">Google: вход и Drive; AppAuth Android 0.11.1</h2>
+<p><strong>Получатель:</strong> Google LLC и применимые аффилированные компании согласно политике Google. <strong>Назначение:</strong> необязательное подключение аккаунта, резервные снимки и слияние дневника между устройствами.</p>
+<p><strong>Данные и момент обработки:</strong> после выбранного вами подключения — OAuth-запросы, email, идентификатор аккаунта и токены; при синхронизации — содержимое дневника, настройки и метаданные изменений. Передача идёт непосредственно в Google. Объём доступа ограничен <code>openid</code>, <code>email</code> и <code>drive.appdata</code>. Первая синхронизация выполняется после входа, затем вручную или автоматически по настройке.</p>
+<p><strong>AppAuth</strong> — открытая клиентская библиотека для входа через браузер, обмена и обновления токенов. В данной интеграции она обращается к Google; организация OpenID не является отдельным сервером-получателем дневника. <a href="https://github.com/openid/AppAuth-Android">Документация AppAuth</a>.</p>
+<p><a href="https://policies.google.com/privacy?hl=ru">Политика Google</a> · <a href="./#google-data">Подробности разрешений и защиты</a> · <a href="./#limited-use">Google Limited Use</a> · <a href="./data-deletion.html">Отключение и удаление</a>. Приложение не выбирает страну размещения Drive и не шифрует JSON-снимки сквозным шифрованием.</p>
+</section>
+<section class="sdk-card" aria-labelledby="website">
+<h2 id="website">GitHub Pages и GitHub Issues</h2>
+<p><strong>Поставщик:</strong> GitHub, Inc. / GitHub B.V. в соответствии с политикой сервиса. Сайт размещён на GitHub Pages. При открытии страниц GitHub получает технические сведения веб-запроса, необходимые для обслуживания сайта. Разработчик не встраивает здесь рекламу, счётчики аналитики или форму входа.</p>
+<p>Если вы создаёте обращение в GitHub Issues, GitHub обрабатывает данные вашего аккаунта и содержание обращения; это обращение публично. Не размещайте там дневник или другие чувствительные сведения. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Политика GitHub</a>.</p>
+<h3>Электронная почта поддержки / Gmail</h3>
+<p>Если вы пишете на <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>, оператор получает адрес отправителя, текст и отправленные вложения для ответа на запрос. Переписка хранится в Gmail; к почтовому сервису применяется <a href="https://policies.google.com/privacy?hl=ru">политика Google</a>. Отдельный фиксированный срок хранения оператором не установлен; удалить отправленные в поддержку сведения можно попросить по тому же адресу.</p>
+<h3>Выбранные вами получатели файлов</h3>
+<p>При сохранении или передаче JSON-копии вы выбираете папку, облачный сервис или получателя. Их обработка зависит от вашего выбора и их собственных правил; универсального списка таких получателей у приложения нет.</p>
+</section>
+<p class="notice">Основные функции дневника доступны без Google и без интернета. SDK и сервисы не получают одинаковые данные автоматически: сведения о питании не направляются в рекламу, а Google-синхронизация начинается после подключения. Отдельного общего переключателя рекламы и предварительного согласия на её SDK в текущей версии нет.</p>
+<p><a href="./">Политика конфиденциальности</a> · <a href="./data-deletion.html">Удаление данных</a></p>
+</main>
+</body>
+</html>

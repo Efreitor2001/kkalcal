@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="如何删除设备、Google Drive 及备份中的饮食日记数据，以及如何联系开发者获取帮助。">
+<title>删除你的数据 — 饮食日记</title>
+<link rel="canonical" href="https://diet.efreitor2001.ru/zh-CN/privacy/data-deletion.html">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/privacy/data-deletion.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/privacy/data-deletion.html">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
+<link rel="icon" href="../../assets/app-icon.png" type="image/png">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<main class="legal wrap">
+<p><a href="../">← 关于应用</a></p>
+<nav class="language-switch" aria-label="语言"><a href="../../privacy/data-deletion.html" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/data-deletion.html" lang="en" hreflang="en">English</a> · <a href="../../zh-CN/privacy/data-deletion.html" lang="zh-CN" hreflang="zh-Hans" aria-current="page">简体中文</a></nav>
+
+<h1>删除你的数据</h1>
+<p class="meta">饮食日记 · 更新日期：<time datetime="2026-10-15">2026 年 10 月 15 日</time></p>
+<p>开发者及运营者：<strong>Sergey Efremov（Efreitor2001），俄罗斯</strong>。联系邮箱：<a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>。Android 软件包名：<code>ru.dietdiary.offline</code>。</p>
+<p>无需登录或重新安装应用即可阅读本说明。饮食日记不提供独立的应用账号；无需删除你的 Google 账号。日记保存在你的设备、可选的 Google Drive 快照，以及你自行导出的文件中。</p>
+<nav class="toc" aria-label="目录"><a href="#delete">删除全部副本</a> · <a href="#retention">可能保留的内容</a> · <a href="#help">获取帮助</a> · <a href="./">隐私政策</a></nav>
+<section aria-labelledby="delete">
+<h2 id="delete">如何删除日记的全部副本</h2>
+<ol>
+<li><strong>停止所有设备上的同步。</strong>打开“更多”→“云端同步”→“断开账号连接”。这会删除本地 Google 会话，但保留日记和云端快照。如果无法使用应用，请先在 <a href="https://myaccount.google.com/connections">Google 账号关联管理</a>中撤销其权限。</li>
+<li><strong>删除云端快照。</strong>如果连接过 Drive，请使用同一账号打开 <a href="https://drive.google.com/drive/settings">Google Drive 设置</a>。在“管理应用”中找到“饮食日记”、“Diet Diary”、“Дневник диеты”或 Google 登录时显示的名称。选择“选项”→“删除隐藏的应用数据”。如果手机版页面没有此部分，请使用桌面版网站或电脑。</li>
+<li><strong>撤销 Google 授权。</strong>在 <a href="https://myaccount.google.com/connections">Google 账号关联管理</a>中选择本应用，并移除其访问权限（如尚未完成）。仅撤销授权不会删除已有快照。</li>
+<li><strong>清除每台设备上的数据。</strong>在 Android 设置中打开应用信息→存储→清除数据/存储，或卸载应用。具体菜单名称因设备而异。请在每台安装过日记的设备上重复此操作。</li>
+<li><strong>删除单独保存的文件。</strong>在你选择的文件夹及云端存储中找到导出的 JSON 备份，也要检查曾发送到其他位置的副本。清除应用及 Drive 隐藏数据不会影响这些文件；其他接收方持有的副本由该接收方管理删除。</li>
+</ol>
+<div class="notice"><p>如果从未连接 Google Drive，可跳过 Drive 及 Google 授权步骤，只需清除各设备及单独保存的备份。重新连接仍有记录的设备，可能再次将这些记录上传。</p></div>
+</section>
+<section aria-labelledby="retention">
+<h2 id="retention">哪些内容会删除，哪些可能保留</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">操作</th><th scope="col">结果</th></tr></thead><tbody>
+<tr><td>删除单条日记记录</td><td>记录从界面中消失，删除标记会同步。日记字段的旧值可能保留在元数据、历史快照及导出文件中。</td></tr>
+<tr><td>关闭自动同步</td><td>停止自动交换；连接、记录和云端副本保留，仍可手动同步。</td></tr>
+<tr><td>在应用内断开 Google 连接</td><td>删除本地会话和连接缓存，停止本设备同步。不会撤销 Google 端的授权本身，也不会删除日记、快照或 Google 账号。</td></tr>
+<tr><td>清除 Android 应用存储 / 卸载</td><td>删除本设备上的记录、设置、元数据、内部备份及保存的 Google 会话。不会删除 Drive 副本或导出文件。</td></tr>
+<tr><td>删除 Google Drive 隐藏数据</td><td>删除所选账号中本应用的云端数据；本地及导出的副本仍保留。</td></tr>
+</tbody></table></div>
+<p>应用没有设定彻底清除全部日记的自动期限。同步成功后，应用会尝试只保留由本安装实例创建的新快照及上一份快照；其他安装实例的快照，以及清理失败的副本可能保留。因此，自动清理旧快照不能替代上述步骤。</p>
+<p>删除日记不会自动删除广告服务的技术数据、第三方服务历史或支持邮件。有关接收方及其规则，请参阅<a href="./third-party.html">第三方 SDK 与服务清单</a>。</p>
+</section>
+<section aria-labelledby="help">
+<h2 id="help">帮助及删除请求</h2>
+<p>请发送邮件至 <a href="mailto:pokimoha.123@gmail.com?subject=Diet%20Diary%20data%20deletion">pokimoha.123@gmail.com</a>，说明应用名称及遇到问题的步骤。也可要求删除此前发送给支持的信息，或咨询访问、更正及限制处理的问题。</p>
+<p>开发者没有你的设备或个人 Google Drive 的管理权限，无法代你删除其中的副本。请勿发送密码、令牌或完整的日记 JSON 备份。为核实并答复请求，可能需要最少限度的补充信息。请勿在公开的 GitHub Issues 中发布敏感信息。</p>
+<p>如果第三方页面无法从你的网络访问，该页面的访问由其运营者控制；可联系日记支持，了解可用的操作。这不会使开发者获得远程擦除他人存储空间的能力。</p>
+</section>
+<p><a href="./">完整隐私政策</a> · <a href="./third-party.html">第三方 SDK 与服务</a></p>
+</main>
+</body>
+</html>

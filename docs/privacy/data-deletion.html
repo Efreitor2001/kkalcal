@@ -3,49 +3,57 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Как удалить дневник, скрытые копии Google Drive и разрешение приложения «Дневник диеты».">
+<meta name="description" content="Как удалить данные Дневника диеты с устройства, из Google Drive и резервных копий; помощь разработчика.">
 <title>Удаление данных — Дневник диеты</title>
-<style>
-:root{color-scheme:light dark;--bg:#f6f5ed;--card:#fffef9;--ink:#20382d;--muted:#506357;--link:#236044}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:820px;margin:40px auto;padding:36px;background:var(--card);border-radius:24px}
-h1{font-size:clamp(1.7rem,5vw,2.25rem);line-height:1.2;margin-top:0}h2{font-size:1.25rem;margin-top:28px}p{margin:0 0 18px}li{margin-bottom:15px}
-a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid var(--link);outline-offset:4px}.note{color:var(--muted)}.action{display:inline-block;padding:10px 15px;border:1px solid var(--link);border-radius:12px;margin:4px 8px 4px 0}.overview{border:1px solid var(--muted);padding:22px;border-radius:18px;margin:24px 0}.overview h2{margin-top:0}.overview p:last-child{margin-bottom:0}code{overflow-wrap:anywhere}
-@media(max-width:600px){main{margin:0;padding:26px 20px;border-radius:0}}@media(prefers-color-scheme:dark){:root{--bg:#111d17;--card:#18291f;--ink:#eff2e8;--muted:#bbc9ba;--link:#b4d6ad}}
-</style>
+<link rel="canonical" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/privacy/data-deletion.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/privacy/data-deletion.html">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
+<link rel="icon" href="../assets/app-icon.png" type="image/png">
+<link rel="stylesheet" href="../assets/site.css">
 </head>
-<body><main>
-<p><a href="../">← Дневник диеты — о приложении</a> · <a href="./index.html">Политика конфиденциальности</a></p>
-<h1>«Дневник диеты»: удаление данных</h1>
-<p class="note">Приложение <code>ru.dietdiary.offline</code> · Разработчик Efreitor2001 · 10 октября 2026 года · 10.10.2026</p>
-<p>Контакт по вопросам удаления: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>.</p>
-<p>Эта страница помогает удалить данные приложения без его переустановки. Личный Google-аккаунт удалять не нужно. Разработчик не хранит дневник на собственном сервере: копии находятся на ваших устройствах, в вашем Google Drive и в самостоятельно сохранённых файлах.</p>
-<section class="overview" lang="en" aria-labelledby="english">
-<h2 id="english">Delete Diet Diary data</h2>
-<p>This page applies to <strong>“Дневник диеты” (Diet Diary)</strong> by <strong>Efreitor2001</strong>. No app login or reinstall is needed to read these instructions. Your Google account itself does not need to be deleted.</p>
+<body>
+<main class="legal wrap">
+<p><a href="../">← О приложении</a></p>
+<nav class="language-switch" aria-label="Язык"><a href="../privacy/data-deletion.html" lang="ru" hreflang="ru" aria-current="page">Русский</a> · <a href="../en/privacy/data-deletion.html" lang="en" hreflang="en">English</a> · <a href="../zh-CN/privacy/data-deletion.html" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
+
+<h1>Удаление данных</h1>
+<p class="meta">«Дневник диеты» · Обновлено <time datetime="2026-10-15">15 октября 2026 года</time></p>
+<p>Разработчик и оператор: <strong>Sergey Efremov (Efreitor2001), Россия</strong>. Контакт: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Android-пакет: <code>ru.dietdiary.offline</code>.</p>
+<p>Инструкция доступна без входа и переустановки. Отдельного аккаунта «Дневника диеты» нет; удалять сам Google-аккаунт не нужно. Дневник хранится на ваших устройствах, в необязательных снимках вашего Google Drive и в самостоятельно экспортированных файлах.</p>
+<nav class="toc" aria-label="Разделы"><a href="#delete">Удалить все копии</a> · <a href="#retention">Что остаётся</a> · <a href="#help">Помощь</a> · <a href="./">Политика</a></nav>
+<section class="notice" id="english" lang="en" aria-labelledby="english-title"><h2 id="english-title">English deletion instructions</h2><p>Read the <a href="../en/privacy/data-deletion.html" hreflang="en">complete English instructions</a>. You do not need to delete your Google account. Disconnecting the app alone keeps your diary copies.</p></section>
+<section aria-labelledby="delete">
+<h2 id="delete">Как удалить все копии дневника</h2>
 <ol>
-<li>Disconnect Google in the app on every device. If you cannot open the app, first revoke its permission in <a href="https://myaccount.google.com/connections">Google Account connections</a>.</li>
-<li>Open <a href="https://drive.google.com/drive/settings">Google Drive settings</a> for the connected account. Under <strong>Manage apps</strong>, find “Дневник диеты” (or the name shown at sign-in), then choose <strong>Options → Delete hidden app data</strong>. Use a desktop browser or desktop site mode if needed.</li>
-<li>Revoke the app’s Google permission if you have not done so. Revocation alone does not delete stored snapshots.</li>
-<li>Clear the app’s storage in Android settings or uninstall it on every device. Delete any JSON files you exported separately.</li>
+<li><strong>Остановите синхронизацию на всех устройствах.</strong> Откройте «Ещё» → «Облачная синхронизация» → «Отключить аккаунт». Это удаляет локальный сеанс Google, но сохраняет дневник и облачные снимки. Если приложение недоступно, сначала отзовите его разрешение через <a href="https://myaccount.google.com/connections">подключения Google-аккаунта</a>.</li>
+<li><strong>Удалите облачные снимки.</strong> Если вы подключали Drive, откройте <a href="https://drive.google.com/drive/settings">настройки Google Drive</a> под тем же аккаунтом. В разделе «Управление приложениями» найдите «Дневник диеты», «Diet Diary», «饮食日记» или имя, показанное Google при входе. Выберите «Параметры» → «Удалить скрытые данные приложения». Если раздела нет в мобильной версии, откройте полную версию сайта или используйте компьютер.</li>
+<li><strong>Отзовите разрешение Google.</strong> В <a href="https://myaccount.google.com/connections">подключениях Google</a> выберите это приложение и удалите его доступ, если ещё не сделали это. Один отзыв разрешения не стирает уже сохранённые снимки.</li>
+<li><strong>Очистите все устройства.</strong> В настройках Android откройте приложение → хранилище → очистка данных/хранилища либо удалите приложение. Названия пунктов зависят от устройства. Повторите на всех устройствах, где установлен дневник.</li>
+<li><strong>Удалите отдельно сохранённые файлы.</strong> Найдите экспортированные JSON-копии в выбранных вами папках и облачных хранилищах, а также копии, которые вы пересылали. Очистка приложения и скрытых данных Drive эти файлы не затрагивает; удалением у другого получателя управляет этот получатель.</li>
 </ol>
-<p>Disconnecting keeps diary copies. Deleting a single entry may leave earlier values in synchronization metadata or older snapshots; the steps above remove those app copies as well. Reconnecting a device that still holds entries can upload them again. For help, or to request deletion of information you sent to support, email <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Never send Google passwords or tokens.</p>
+<div class="notice"><p>Если Google Drive никогда не подключался, шаги про Drive и отзыв Google-доступа не нужны. Достаточно очистить все устройства и отдельно сохранённые копии. Повторное подключение устройства с оставшимися записями может заново загрузить их в облако.</p></div>
 </section>
-
-<h2 id="delete">Как удалить все копии</h2>
-<ol>
-<li><strong>Остановите синхронизацию.</strong> Если приложение доступно, откройте «Ещё» → «Облачная синхронизация» и отключите аккаунт на всех своих устройствах. Если доступа к приложению нет, отзовите его разрешение через <a href="https://myaccount.google.com/connections">подключения Google-аккаунта</a>. Это прекращает разрешённый доступ, но не стирает уже сохранённые данные.</li>
-<li><strong>Удалите облачные снимки.</strong> Откройте <a href="https://drive.google.com/drive/settings">настройки Google Drive</a> под аккаунтом, который использовался в дневнике. В разделе «Управление приложениями» найдите «Дневник диеты» или название, показанное Google при подключении. В его параметрах выберите удаление скрытых данных приложения. На телефоне может потребоваться полная версия сайта; можно воспользоваться компьютером.</li>
-<li><strong>Отзовите доступ Google, если этого ещё не сделали.</strong> В <a href="https://myaccount.google.com/connections">списке подключений</a> выберите это приложение и удалите разрешение. Повторное подключение устройства с сохранившимся дневником может снова создать облачную копию.</li>
-<li><strong>Очистите устройства и экспортированные файлы.</strong> В настройках Android откройте сведения о приложении → хранилище → очистка данных, либо удалите приложение. Повторите на остальных устройствах. Отдельно удалите сохранённые JSON-копии из выбранных вами папок и облачных хранилищ.</li>
-</ol>
-
-<h2>Какие сведения удаляются</h2>
-<p>Очистка хранилища приложения удаляет локальное питание, измерения, заметки, продукты, цели, достижения, настройки, служебные метаданные, внутренние резервные копии и сохранённый сеанс Google с токенами. Удаление скрытых данных в Google Drive удаляет облачные снимки этого приложения. Самостоятельно сохранённые JSON-файлы эти действия не затрагивают.</p>
-<p>Удаление отдельной записи внутри дневника скрывает её и синхронизирует отметку удаления. Старые значения могут оставаться в метаданных и резервных снимках. Для полной очистки всех копий используйте порядок выше. Автоматический срок удаления всех таких копий приложением не установлен.</p>
-
+<section aria-labelledby="retention">
+<h2 id="retention">Что удаляется и что может остаться</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">Действие</th><th scope="col">Результат</th></tr></thead><tbody>
+<tr><td>Удалить запись в дневнике</td><td>Запись исчезает из интерфейса, отметка удаления передаётся при синхронизации. Прежние значения дневниковых полей могут остаться в метаданных, старых снимках и экспортах.</td></tr>
+<tr><td>Выключить автосинхронизацию</td><td>Прекращает автоматический обмен; подключение, записи и облачные копии сохраняются. Ручная синхронизация остаётся доступной.</td></tr>
+<tr><td>Отключить Google в приложении</td><td>Удаляет локальный сеанс и кэш подключения, останавливает синхронизацию этого устройства. Не отзывает само разрешение Google и не удаляет дневник, снимки или Google-аккаунт.</td></tr>
+<tr><td>Очистить хранилище Android / удалить приложение</td><td>Удаляет локальные записи, настройки, метаданные, внутренние резервные копии и сохранённый сеанс Google на этом устройстве. Не удаляет Drive и экспортированные файлы.</td></tr>
+<tr><td>Удалить скрытые данные в Google Drive</td><td>Удаляет облачные данные этого приложения в выбранном аккаунте; локальные и экспортированные копии остаются.</td></tr>
+</tbody></table></div>
+<p>Автоматического срока полной очистки дневника нет. При успешной синхронизации приложение пытается оставить новый и один предыдущий снимок своей установки; снимки других установок и копии, которые не удалось очистить, могут сохраняться. Поэтому автоматическая очистка старых снимков не заменяет шаги выше.</p>
+<p>Удаление дневника не удаляет автоматически технические данные рекламного сервиса, историю сторонних сервисов или переписку поддержки. Информация об этих получателях и их правилах доступна в <a href="./third-party.html">списке SDK и сервисов</a>.</p>
+</section>
+<section aria-labelledby="help">
 <h2 id="help">Помощь и запрос об удалении</h2>
-<p>Если не удаётся удалить данные, напишите разработчику Efreitor2001 на <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Укажите приложение «Дневник диеты» и шаг, на котором возникла проблема. По этому же адресу можно запросить удаление информации, которую вы ранее отправили в поддержку. Пароли, токены и полная JSON-копия дневника для обращения не нужны.</p>
-<p>Разработчик не имеет административного доступа к вашим устройствам и Google Drive и не может выполнить удаление этих копий за вас. Управление данными Яндекса и сведения о почтовых обращениях описаны в <a href="./index.html">полной политике конфиденциальности</a>. Удаление дневника не удаляет автоматически данные, которые сторонние сервисы обрабатывают самостоятельно.</p>
-<p><a class="action" href="mailto:pokimoha.123@gmail.com?subject=Удаление%20данных%20—%20Дневник%20диеты">Написать по вопросу удаления</a><a class="action" href="./index.html#deletion">Политика конфиденциальности</a></p>
-</main></body>
+<p>Напишите на <a href="mailto:pokimoha.123@gmail.com?subject=Удаление%20данных%20—%20Дневник%20диеты">pokimoha.123@gmail.com</a> и укажите приложение и шаг, на котором возникла проблема. По этому же адресу можно попросить удалить сведения, ранее отправленные в поддержку, или обратиться по вопросам доступа, исправления и ограничения обработки.</p>
+<p>Разработчик не имеет административного доступа к вашим устройствам или личному Google Drive и не может стереть эти копии за вас. Не отправляйте пароль, токены или полную JSON-копию дневника. Для ответа и проверки запроса может потребоваться минимальная дополнительная информация. Не публикуйте чувствительные сведения в общедоступных GitHub Issues.</p>
+<p>Если сторонняя страница недоступна из вашей сети, её оператор управляет доступом к ней; напишите в поддержку дневника для помощи с доступными действиями. Возможность удалённо стереть чужое хранилище у разработчика от этого не появляется.</p>
+</section>
+<p><a href="./">Полная политика конфиденциальности</a> · <a href="./third-party.html">SDK и сторонние сервисы</a></p>
+</main>
+</body>
 </html>

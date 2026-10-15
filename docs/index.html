@@ -7,6 +7,10 @@
 <meta name="theme-color" content="#285849">
 <title>Дневник диеты</title>
 <link rel="canonical" href="https://diet.efreitor2001.ru/">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/">
 <link rel="icon" type="image/png" href="assets/app-icon.png">
 <link rel="stylesheet" href="assets/site.css">
 </head>
@@ -14,8 +18,9 @@
 <a class="skip" href="#main">Перейти к содержимому</a>
 <header class="header wrap">
   <a class="brand" href="./" aria-label="Дневник диеты — главная"><img src="assets/app-icon.png" width="48" height="48" alt=""><span>Дневник диеты</span></a>
-  <nav aria-label="Навигация"><a href="#features">Возможности</a><a href="#google">Google Drive</a><a href="privacy/">Конфиденциальность</a><a href="#english" lang="en">English</a></nav>
+  <nav aria-label="Навигация"><a href="#features">Возможности</a><a href="#download">Скачать</a><a href="privacy/index.html">Конфиденциальность</a><a href="#contact">Поддержка</a></nav>
 </header>
+<nav class="wrap language-switch" aria-label="Язык сайта"><a href="./" lang="ru" hreflang="ru" aria-current="page">Русский</a><a href="en/" lang="en" hreflang="en">English</a><a href="zh-CN/" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
 <main id="main" class="wrap">
   <section class="hero" aria-labelledby="app-name">
     <div>
@@ -23,7 +28,7 @@
       <h1 id="app-name">Дневник диеты</h1>
       <p class="lead">Считайте калории и БЖУ, записывайте вес и наблюдайте за своими привычками в одном дневнике.</p>
       <p>Приложение для Android 8.0 и новее. Выберите продукт или готовое блюдо, введите массу в граммах — порция и её пищевая ценность появятся в дневнике выбранного дня.</p>
-      <div class="actions"><a class="button" href="https://github.com/Efreitor2001/kkalcal/releases/latest">Скачать приложение</a><a class="button secondary" href="#features">Посмотреть возможности</a></div>
+      <div class="actions"><a class="button" href="#download">Скачать приложение</a><a class="button secondary" href="#features">Посмотреть возможности</a></div>
       <p class="small">Расчёты и записи работают без интернета и регистрации. Синхронизация через Google Drive подключается по желанию. Приложение содержит рекламу.</p>
     </div>
     <figure class="hero-screen"><img src="assets/food-diary.png" width="1080" height="1920" alt="Экран приложения: калории и БЖУ за день, список съеденных порций"><figcaption>Реальный экран · демонстрационные данные</figcaption></figure>
@@ -58,23 +63,32 @@
     <p><a href="privacy/">Политика конфиденциальности: доступ, использование, хранение и передача данных →</a></p>
   </section>
 
+  <section id="download" class="section" aria-labelledby="download-title">
+    <p class="eyebrow">Android 8.0 и новее</p>
+    <h2 id="download-title">Выберите сборку приложения</h2>
+    <p>Версия 1.2.1. Все варианты поддерживают русский, английский и упрощённый китайский; язык интерфейса выбирается по настройкам Android. APK подписаны одним ключом и устанавливаются как обновление приложения.</p>
+    <div class="download-options"><a class="button" href="https://github.com/Efreitor2001/kkalcal/releases/download/v1.2.1/DietDiary-1.2.1-Huawei-universal.apk">APK для Huawei</a><a class="button secondary" href="https://github.com/Efreitor2001/kkalcal/releases/download/v1.2.1/DietDiary-1.2.1-GooglePlay-universal.apk">APK для Google Play</a><a class="button secondary" href="https://github.com/Efreitor2001/kkalcal/releases/download/v1.2.1/DietDiary-1.2.1-RuStore-universal.apk">APK для RuStore</a></div>
+    <p class="small">Файлы размещены в <a href="https://github.com/Efreitor2001/kkalcal/releases/tag/v1.2.1">GitHub Releases</a>. Это прямые загрузки APK, а не ссылки на карточки в магазинах. Доступность загрузки и необязательных сервисов Google зависит от региона и сети.</p>
+  </section>
+
   <section id="english" class="section english" lang="en" aria-labelledby="english-title">
     <p class="eyebrow">About the app</p>
     <h2 id="english-title"><span lang="ru">Дневник диеты</span> — Diet Diary</h2>
-    <p><strong>Дневник диеты</strong> is an Android calorie and macronutrient diary developed by Efreitor2001. Users enter food portions in grams, calculate recipes, record optional weight, waist, steps, sleep and workout information, and view their history and charts. Core features work offline without an account.</p>
+    <p><a href="en/" hreflang="en">Read the full website in English →</a></p>
+    <p><strong>Дневник диеты</strong> is an Android calorie and macronutrient diary developed by Sergey Efremov (Efreitor2001), Russia. Users enter food portions in grams, calculate recipes, record optional weight, waist, steps, sleep and workout information, and view their history and charts. Core features work offline without an account.</p>
     <p>Optional Google sign-in and Google Drive synchronization use <code>openid</code>, <code>email</code> and <code>https://www.googleapis.com/auth/drive.appdata</code>. The app receives the selected account’s email address and identifier, and reads and writes its own diary snapshots in that account’s hidden app-data folder. It cannot access unrelated Drive documents or photos.</p>
     <p>Google user data is used only for account connection and diary synchronization. It is not sold, used for advertising, or used to train AI or machine-learning models. The app has no image generation or generative AI features. There is no developer-operated server that receives diary contents.</p>
     <p>The Android app contains Yandex advertisements. Advertising requests are separate from Google account and diary data. This informational website is public and requires no sign-in.</p>
-    <p><a href="privacy/#english">Privacy policy and Google data use</a> · <a href="privacy/data-deletion.html">Data deletion</a> · <a href="mailto:pokimoha.123@gmail.com">Contact the developer</a></p>
+    <p><a href="en/privacy/index.html">Privacy policy and Google data use</a> · <a href="en/privacy/data-deletion.html">Data deletion</a> · <a href="mailto:pokimoha.123@gmail.com">Contact the developer</a></p>
   </section>
 
   <section id="contact" class="section contact" aria-labelledby="contact-title">
     <h2 id="contact-title">О приложении и поддержке</h2>
-    <p>Разработчик: <strong>Efreitor2001</strong>. Название приложения: <strong>Дневник диеты</strong>. Пакет Android: <code>ru.dietdiary.offline</code>.</p>
+    <p>Разработчик и оператор: <strong>Sergey Efremov</strong>, Россия. Публичное имя проекта: <strong>Efreitor2001</strong>. Название приложения: <strong>Дневник диеты</strong>. Пакет Android: <code>ru.dietdiary.offline</code>.</p>
     <p>По вопросам приложения, Google-подключения или удаления данных: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Ошибку также можно описать в <a href="https://github.com/Efreitor2001/kkalcal/issues">репозитории проекта</a>. Не прикладывайте пароли, токены и личный дневник.</p>
     <p class="small">Приложение не является медицинским изделием. Оно не диагностирует, не лечит, не излечивает и не предотвращает заболевания. За медицинскими рекомендациями, диагностикой и лечением обращайтесь к квалифицированному врачу.</p>
   </section>
 </main>
-<footer class="wrap footer"><span>Дневник диеты · Efreitor2001</span><a href="privacy/">Конфиденциальность</a><a href="privacy/data-deletion.html">Удаление данных</a><a href="https://github.com/Efreitor2001/kkalcal">Исходный код</a></footer>
+<footer class="wrap footer"><span>Дневник диеты · Sergey Efremov</span><a href="privacy/index.html">Конфиденциальность</a><a href="privacy/third-party.html">SDK и сторонние сервисы</a><a href="privacy/data-deletion.html">Удаление данных</a><a href="https://github.com/Efreitor2001/kkalcal">Исходный код</a></footer>
 </body>
 </html>

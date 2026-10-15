@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How to delete Diet Diary records from your devices, Google Drive and backups, and contact the developer for help.">
+<title>Delete your data — Diet Diary</title>
+<link rel="canonical" href="https://diet.efreitor2001.ru/en/privacy/data-deletion.html">
+<link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
+<link rel="alternate" hreflang="en" href="https://diet.efreitor2001.ru/en/privacy/data-deletion.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://diet.efreitor2001.ru/zh-CN/privacy/data-deletion.html">
+<link rel="alternate" hreflang="x-default" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
+<link rel="icon" href="../../assets/app-icon.png" type="image/png">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<main class="legal wrap">
+<p><a href="../">← About the app</a></p>
+<nav class="language-switch" aria-label="Language"><a href="../../privacy/data-deletion.html" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/data-deletion.html" lang="en" hreflang="en" aria-current="page">English</a> · <a href="../../zh-CN/privacy/data-deletion.html" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
+
+<h1>Delete your data</h1>
+<p class="meta">Diet Diary · Updated <time datetime="2026-10-15">15 October 2026</time></p>
+<p>Developer and operator: <strong>Sergey Efremov (Efreitor2001), Russia</strong>. Contact: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Android package: <code>ru.dietdiary.offline</code>.</p>
+<p>These instructions are available without signing in or reinstalling. There is no separate Diet Diary account; you do not need to delete your Google account. Your diary is stored on your devices, in optional snapshots in your Google Drive, and in files you exported yourself.</p>
+<nav class="toc" aria-label="Sections"><a href="#delete">Delete all copies</a> · <a href="#retention">What remains</a> · <a href="#help">Help</a> · <a href="./">Privacy policy</a></nav>
+<section aria-labelledby="delete">
+<h2 id="delete">How to delete all diary copies</h2>
+<ol>
+<li><strong>Stop synchronization on every device.</strong> Open “More” → “Cloud synchronization” → “Disconnect account”. This deletes the local Google session but keeps the diary and cloud snapshots. If you cannot access the app, first revoke its permission in <a href="https://myaccount.google.com/connections">Google Account connections</a>.</li>
+<li><strong>Delete cloud snapshots.</strong> If you connected Drive, open <a href="https://drive.google.com/drive/settings">Google Drive settings</a> for that same account. Under “Manage apps”, find “Diet Diary”, “Дневник диеты”, “饮食日记” or the name Google showed at sign-in. Select “Options” → “Delete hidden app data”. If the mobile page does not show this section, use desktop site mode or a computer.</li>
+<li><strong>Revoke Google permission.</strong> In <a href="https://myaccount.google.com/connections">Google Account connections</a>, select this app and remove its access if you have not done so. Revocation alone does not erase existing snapshots.</li>
+<li><strong>Clear every device.</strong> In Android settings, open the app's information → storage → clear data/storage, or uninstall the app. Menu names vary by device. Repeat on every device where the diary is installed.</li>
+<li><strong>Delete separately saved files.</strong> Find exported JSON backups in the folders and cloud storage you selected, including copies you sent elsewhere. Clearing the app and hidden Drive data does not affect those files; deletion by another recipient is controlled by that recipient.</li>
+</ol>
+<div class="notice"><p>If you never connected Google Drive, skip the Drive and Google-permission steps. Clear your devices and separately saved backups. Reconnecting a device that still contains records may upload them again.</p></div>
+</section>
+<section aria-labelledby="retention">
+<h2 id="retention">What is deleted and what may remain</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">Action</th><th scope="col">Result</th></tr></thead><tbody>
+<tr><td>Delete a diary record</td><td>The record disappears from the interface; a deletion marker is synchronized. Earlier diary-field values may remain in metadata, older snapshots and exports.</td></tr>
+<tr><td>Turn off automatic synchronization</td><td>Stops automatic exchanges; the connection, records and cloud copies remain. Manual synchronization is still available.</td></tr>
+<tr><td>Disconnect Google in the app</td><td>Deletes the local session and connection cache and stops synchronization on this device. Does not revoke the Google permission itself or delete the diary, snapshots or Google account.</td></tr>
+<tr><td>Clear Android storage / uninstall</td><td>Deletes local records, settings, metadata, internal backups and the saved Google session on this device. Does not delete Drive copies or exported files.</td></tr>
+<tr><td>Delete hidden Google Drive data</td><td>Deletes the app's cloud data in the selected account; local and exported copies remain.</td></tr>
+</tbody></table></div>
+<p>There is no automatic period for complete diary deletion. After successful synchronization, the app attempts to retain the new snapshot and one previous snapshot from its own installation; other installations' snapshots and copies that could not be pruned may remain. Automatic pruning therefore does not replace the steps above.</p>
+<p>Deleting the diary does not automatically delete technical advertising-service data, third-party service history or support correspondence. See the <a href="./third-party.html">SDK and service list</a> for those recipients and their rules.</p>
+</section>
+<section aria-labelledby="help">
+<h2 id="help">Help and deletion requests</h2>
+<p>Email <a href="mailto:pokimoha.123@gmail.com?subject=Data%20deletion%20%E2%80%94%20Diet%20Diary">pokimoha.123@gmail.com</a> with the app name and the step causing difficulty. You can also request deletion of information previously sent to support or ask about access, correction and restriction of processing.</p>
+<p>The developer has no administrative access to your devices or personal Google Drive and cannot erase those copies for you. Do not send a password, tokens or a complete diary JSON backup. Minimal additional information may be needed to verify and answer your request. Do not post sensitive information in public GitHub Issues.</p>
+<p>If a third-party page is unavailable from your network, its operator controls access to it; contact diary support for help with available actions. This does not give the developer the ability to remotely erase storage controlled by others.</p>
+</section>
+<p><a href="./">Full privacy policy</a> · <a href="./third-party.html">SDKs and third-party services</a></p>
+</main>
+</body>
+</html>
