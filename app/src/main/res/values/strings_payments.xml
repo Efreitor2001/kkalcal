@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Payment/legal text is intentionally reviewed in English and Russian first.
+     Other locales use Android's English fallback for these new strings only. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="payment_title" formatted="false">"Ad-free diary"</string>
+    <string name="payment_free_features" formatted="false">"All diary features are free. The optional purchase removes advertising only."</string>
+    <string name="payment_price" formatted="false">"149 RUB · once"</string>
+    <string name="payment_price_help" formatted="false">"Remove all ads permanently for a single payment of 149 RUB. No subscription or recurring payments."</string>
+    <string name="payment_provider" formatted="false">"Payment is processed by Robokassa. Card details are entered on its payment page."</string>
+    <string name="payment_open_purchase" formatted="false">"Remove advertising"</string>
+    <string name="payment_manage" formatted="false">"Purchase and restoration"</string>
+    <string name="payment_buy" formatted="false">"Pay 149 RUB once"</string>
+    <string name="payment_continue" formatted="false">"Continue this payment"</string>
+    <string name="payment_offer_acceptance" formatted="false">"By starting payment, you accept the public offer. Please read the purchase, refund and data processing terms before paying."</string>
+    <string name="payment_offer" formatted="false">"Public offer and refunds"</string>
+    <string name="payment_active" formatted="false">"Ads are permanently disabled"</string>
+    <string name="payment_active_help" formatted="false">"Your purchase has been verified. The diary works without advertising, including offline."</string>
+    <string name="payment_backup_reminder" formatted="false">"Before reinstalling or changing your phone, sync with Google Drive or save a diary backup. It includes your purchase confirmation."</string>
+    <string name="payment_restore_title" formatted="false">"Restore a purchase"</string>
+    <string name="payment_restore_help_short" formatted="false">"You can restore a previous purchase from your diary backup."</string>
+    <string name="payment_restore_help" formatted="false">"Connect the same Google account that contains your diary backup, then sync. A valid purchase confirmation in that backup automatically removes ads. No new payment is needed."</string>
+    <string name="payment_restore_cloud" formatted="false">"Open Google Drive sync"</string>
+    <string name="payment_restore_file_help" formatted="false">"You can also restore a saved JSON backup in More → Restore from a file. Without a synced or saved purchase confirmation, reinstalling does not restore a purchase automatically. Use the seller’s contact details in the offer if you need help."</string>
+    <string name="payment_idle" formatted="false">"Your purchase status will appear here."</string>
+    <string name="payment_not_configured" formatted="false">"New purchases are not available yet. A previous purchase can still be restored from a backup."</string>
+    <string name="payment_unavailable" formatted="false">"New purchases are currently unavailable for this version or region. You can still check an earlier payment or restore a purchase."</string>
+    <string name="payment_availability_failed" formatted="false">"Could not check whether purchasing is available. Check your connection and try again."</string>
+    <string name="payment_retry_availability" formatted="false">"Check availability again"</string>
+    <string name="payment_preparing" formatted="false">"Preparing your payment…"</string>
+    <string name="payment_checking" formatted="false">"Checking your payment…"</string>
+    <string name="payment_waiting" formatted="false">"Payment has not been confirmed yet. If you have already paid, wait a little and check again. Do not pay a second time."</string>
+    <string name="payment_cancelled" formatted="false">"The payment window was closed. Payment has not been confirmed yet. If money was debited, check again; otherwise you can continue the same payment."</string>
+    <string name="payment_open_failed" formatted="false">"Could not complete the payment window. Your order is saved. Check the payment before trying again."</string>
+    <string name="payment_check" formatted="false">"Check payment"</string>
+    <string name="payment_order_id">"Order: %1$s"</string>
+    <string name="payment_check_failed" formatted="false">"Could not check the payment. Your saved order has been kept. Check your connection and tap Check payment again."</string>
+    <string name="payment_connection_failed" formatted="false">"Could not connect to the payment service. Check your connection and try again."</string>
+    <string name="payment_try_later" formatted="false">"Too many checks. Wait a little and try again."</string>
+    <string name="payment_invalid_response" formatted="false">"The payment service returned an unexpected response. The purchase has not been enabled. Check again later."</string>
+    <string name="payment_invalid_receipt" formatted="false">"The purchase confirmation could not be verified. Advertising is still enabled. Check payment again or contact the seller."</string>
+    <string name="payment_save_failed" formatted="false">"Could not safely save the payment. Free some device storage and check again before starting another payment."</string>
+    <string name="payment_recovery_damaged" formatted="false">"The saved payment information could not be read. Restore your purchase from a backup or contact the seller before paying again."</string>
+    <string name="payment_backend_changed" formatted="false">"This order belongs to a previous payment configuration. Restore your purchase from a backup or contact the seller before paying again."</string>
+    <string name="payment_test_notice" formatted="false">"Test payment: this is a debug build. Completing the test will not grant a permanent purchase."</string>
+    <string name="payment_test_complete" formatted="false">"The test payment completed. Advertising remains enabled; no permanent purchase was issued."</string>
+    <string name="data_privacy_paragraph_21" formatted="false">"8. Optional payment — supplement of 17 October 2026. Seller: individual entrepreneur Sergey Olegovich Efremov (ИП Ефремов Сергей Олегович); INN 471905964680; OGRNIP 326470400141351. Where purchases are enabled for the app version and region, all advertising can be removed permanently for one payment of 149 RUB, without a subscription. When you open settings or the purchase section, the app checks availability with the server. You enter payment details and email in the Robokassa form; the diary code does not read them from that form. The Cloudflare Workers/D1 server stores the invoice number, random order and license identifiers, access token hash, store and mode, merchant identifier, amount, currency, status, timestamps and signed license. D1 does not store diary entries, health data, Google data, email or card details. Robokassa notifications may contain email or payment account information: these may pass through the server during verification, but are not used for the license or saved to D1. Cloudflare processes the IP address to determine the country and limit requests; the original IP is not stored in D1, application logs are disabled, and the platform’s own processing is governed by its policy. The license travels with settings in Google Drive sync and JSON backups and is not technically bound to a Google account. Do not publish complete backups. The recovery secret for an unfinished payment stays only in the app’s private device storage and is excluded from those backups. After verifying a license, the app stops its own advertising requests and releases advertising objects; this does not guarantee that all background activity of a previously initialized SDK stops. Clearing the diary does not remove a server order or records that Robokassa and the seller are required to keep. Order data supports license preservation and restoration, accounting and applicable obligations; there is no single fixed retention period. Privacy, data deletion and technical support: pokimoha.123@gmail.com; payments and refunds: pokimoha.2010@mail.ru, telephone +79062280570, terms: https://diet.efreitor2001.ru/offer/ . Provider policies: https://robokassa.com/privacy-policy/ and https://www.cloudflare.com/privacypolicy/ ."</string>
+</resources>

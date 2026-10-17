@@ -153,6 +153,7 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
             data = runCatching { loadCatalog(context) }.getOrElse { AppData(emptyList()) }
             syncState = SyncState(emptyMap())
         }
+        PaymentEntitlements.refresh(data.settings[AD_FREE_RECEIPT_SETTING])
     }
 
     @Synchronized
@@ -230,7 +231,14 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
 
     @Synchronized
     fun saveSettings(settings: Map<String, String>) {
-        commit(data.copy(settings = settings.toMap()))
+        commit(PaymentEntitlements.preservingPurchase(data, data.copy(settings = settings.toMap())))
+    }
+
+    /** Merge a verified proof into the latest settings while holding the journal lock. */
+    @Synchronized
+    fun saveAdFreeReceipt(receipt: String) {
+        require(PaymentEntitlements.verify(receipt) != null) { tr(R.string.payment_invalid_receipt) }
+        commit(data.copy(settings = data.settings + (AD_FREE_RECEIPT_SETTING to receipt)))
     }
 
     @Synchronized
@@ -253,13 +261,16 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
         return synchronized(this) {
             checkWritable()
             var merged = SyncMerge.merge(syncState, incoming.state)
-            if (merged == syncState) return@synchronized false
-            var candidate = SyncMerge.materialize(merged)
-            val awarded = withAchievements(candidate).first
+            var candidate = if (merged == syncState) data else SyncMerge.materialize(merged)
+            // Purchase proofs are irrevocable local evidence, not ordinary LWW preferences.
+            // A valid proof in an older snapshot must survive a newer missing/invalid setting.
+            val withIncomingPurchase = PaymentEntitlements.preservingPurchase(incoming.data, candidate)
+            val awarded = withAchievements(PaymentEntitlements.preservingPurchase(data, withIncomingPurchase)).first
             if (awarded != candidate) {
                 merged = SyncMerge.change(candidate, awarded, merged, deviceId, wallClock())
                 candidate = awarded
             }
+            if (merged == syncState) return@synchronized false
             write(candidate, merged)
             publish(candidate, merged)
             true
@@ -273,7 +284,7 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
         val parsed = DataJson.decode(json)
         // Validate v2 metadata even though manual restore deliberately replaces visible data.
         val importedState = if (JSONObject(json).getInt("version") == 2) decodeSync(json).state else null
-        val candidate = withAchievements(parsed).first
+        val candidate = withAchievements(PaymentEntitlements.preservingPurchase(data, parsed)).first
         // Observe backup clocks, never its device identity. Fresh stamps beat every known version.
         val observed = if (importedState != null) SyncMerge.merge(syncState, importedState) else syncState
         val state = SyncMerge.change(data, candidate, observed, deviceId, wallClock(), replaceAll = true)
@@ -302,6 +313,7 @@ class AppStore(context: Context, private val wallClock: () -> Long = System::cur
 
     private fun publish(candidate: AppData, state: SyncState, local: Boolean = false) {
         syncState = state
+        PaymentEntitlements.refresh(candidate.settings[AD_FREE_RECEIPT_SETTING])
         data = candidate
         revisionState.value = revisionState.value + 1
         if (local) localRevisionState.value = localRevisionState.value + 1
@@ -569,8 +581,16 @@ internal object DataJson {
             require(id.matches(Regex("[a-zA-Z0-9_]{1,100}"))) { tr(R.string.data_achievement_invalid) }
             validDate(date)
         }
-        require(data.settings.keys.all { it in setOf("theme", "startTab", "weekStartsOn") }) { tr(R.string.data_setting_not_portable) }
+        require(data.settings.keys.all { it in setOf("theme", "startTab", "weekStartsOn", AD_FREE_RECEIPT_SETTING) }) { tr(R.string.data_setting_not_portable) }
         data.settings.forEach { (key, value) ->
+            if (key == AD_FREE_RECEIPT_SETTING) {
+                // Import syntax is not an entitlement check. Only PaymentReceiptVerifier
+                // grants access, so a bad proof cannot authorize an ad-free installation.
+                require(value.length in 1..12_000 && value.matches(Regex("[A-Za-z0-9_.-]+"))) {
+                    tr(R.string.data_setting_invalid, key)
+                }
+                return@forEach
+            }
             val allowed = when (key) {
                 "theme" -> setOf("system", "light", "dark")
                 "startTab" -> setOf("day", "products", "diary", "stats", "settings")

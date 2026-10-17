@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.lifecycle.lifecycleScope
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.lazy.LazyColumn
@@ -38,7 +39,8 @@ class MainActivity:LocalizedActivity() {
     override fun onCreate(savedInstanceState:Bundle?) {
         super.onCreate(savedInstanceState); enableEdgeToEdge()
         val store=AppStore.get(applicationContext)
-        DietAds.attachColdStart(this, savedInstanceState != null)
+        // A restored checkout must return to its result without an app-open advertisement.
+        DietAds.attachColdStart(this, savedInstanceState != null || Payments.get(applicationContext).hasPending)
         runCatching { CloudSync.get(applicationContext).onAppStart() }
         setContent { DietDiaryTheme {
             val opening = DietAds.waitingForStartup
@@ -60,6 +62,10 @@ class MainActivity:LocalizedActivity() {
                 } else SideEffect { DietAds.markDiaryVisible() }
             }
         } }
+    }
+    override fun onResume() {
+        super.onResume()
+        lifecycleScope.launch { Payments.get(applicationContext).checkPending(poll = true) }
     }
     override fun onUserInteraction() { super.onUserInteraction(); DietAds.onUserInteraction() }
 }
@@ -100,6 +106,7 @@ class MainActivity:LocalizedActivity() {
                 extraScreen=="cloud" -> CloudScreen(onBack={extraScreen=null})
                 extraScreen=="achievements" -> AchievementsScreen(store.data,onBack={extraScreen=null},footer={AdCard(AdPlacement.ACHIEVEMENTS)})
                 extraScreen=="privacy" -> PrivacyScreen(onBack={extraScreen=null})
+                extraScreen=="payments" -> PaymentScreen(onBack={extraScreen=null},onCloud={extraScreen="cloud"},onPrivacy={extraScreen="privacy"})
                 recipe -> RecipeScreen(store,onBack={recipe=false},onSaved={recipe=false;tab=1;scope.launch{snack.showSnackbar(tr(R.string.core_recipe_saved))}})
                 picker -> Column {
                     TextButton(onClick={picker=false}) { Text(tr(R.string.core_back_to_day)) }
@@ -109,7 +116,7 @@ class MainActivity:LocalizedActivity() {
                 tab==1 -> CatalogScreen(store,onSelect={portionId=it.id},onEdit={editProductId=it.id},onNew={newProduct=true},onRecipe={recipe=true},onInputFocusChange={searchEditing=it})
                 tab==2 -> DiaryScreen(store,onEdit={logDate=it},onNew={logDate=LocalDate.now().toString()})
                 tab==3 -> StatsScreen(store)
-                else -> SettingsScreen(store,onGoals={showGoals=true},onCloud={extraScreen="cloud"},onAchievements={extraScreen="achievements"},onPrivacy={extraScreen="privacy"},onBusyChange={backupEditing=it},onError={error=it},onMessage={scope.launch{snack.showSnackbar(it)}})
+                else -> SettingsScreen(store,onGoals={showGoals=true},onCloud={extraScreen="cloud"},onAchievements={extraScreen="achievements"},onPrivacy={extraScreen="privacy"},onPayments={extraScreen="payments"},onBusyChange={backupEditing=it},onError={error=it},onMessage={scope.launch{snack.showSnackbar(it)}})
             }
         }
     }
@@ -186,7 +193,7 @@ fun logSummary(l:DailyLog):String = listOfNotNull(l.weight?.let{tr(R.string.core
     }
 }
 
-@Composable private fun SettingsScreen(store:AppStore,onGoals:()->Unit,onCloud:()->Unit,onAchievements:()->Unit,onPrivacy:()->Unit,onBusyChange:(Boolean)->Unit,onError:(String)->Unit,onMessage:(String)->Unit) {
+@Composable private fun SettingsScreen(store:AppStore,onGoals:()->Unit,onCloud:()->Unit,onAchievements:()->Unit,onPrivacy:()->Unit,onPayments:()->Unit,onBusyChange:(Boolean)->Unit,onError:(String)->Unit,onMessage:(String)->Unit) {
     val context=LocalContext.current;val scope=rememberCoroutineScope()
     var pendingImport by remember { mutableStateOf<String?>(null) };var busy by remember{mutableStateOf(false)}
     SideEffect { onBusyChange(busy || pendingImport!=null) }
@@ -201,6 +208,7 @@ fun logSummary(l:DailyLog):String = listOfNotNull(l.weight?.let{tr(R.string.core
     }}
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),verticalArrangement=Arrangement.spacedBy(16.dp)) {
         PageTitle(tr(R.string.core_app_name),tr(R.string.core_settings_tagline))
+        PaymentSettingsCard(onOpen=onPayments)
         Panel { Text(tr(R.string.core_your_progress),fontWeight=FontWeight.Bold,fontSize=20.sp);Text(tr(R.string.core_achievements_help),color=Muted);OutlinedButton(onClick=onAchievements,modifier=Modifier.fillMaxWidth().testTag("open_achievements")){Text(tr(R.string.core_achievements))} }
         Panel { Text(tr(R.string.core_google_drive),fontWeight=FontWeight.Bold,fontSize=20.sp);Text(tr(R.string.core_cloud_help),color=Muted);OutlinedButton(onClick=onCloud,modifier=Modifier.fillMaxWidth().testTag("open_cloud")){Text(tr(R.string.core_cloud_sync))} }
         Panel { Text(tr(R.string.core_personal_goals),fontWeight=FontWeight.Bold,fontSize=20.sp);Text(tr(R.string.core_personal_goals_help),color=Muted);Button(onClick=onGoals,modifier=Modifier.fillMaxWidth()){Text(tr(R.string.core_configure_goals))} }

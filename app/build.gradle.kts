@@ -1,4 +1,9 @@
 import java.util.Properties
+import java.net.URI
+import java.security.KeyFactory
+import java.security.interfaces.RSAPublicKey
+import java.security.spec.X509EncodedKeySpec
+import java.util.Base64
 
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.plugin.compose") }
 val signingFile = rootProject.file("signing.properties")
@@ -7,6 +12,35 @@ val integrationFile = rootProject.file("integrations.properties")
 val integrations = Properties().apply { if (integrationFile.exists()) integrationFile.inputStream().use { load(it) } }
 val publicAdUnits = Properties().apply { rootProject.file("ad-units.properties").inputStream().use { load(it) } }
 val publicGoogleClient = Properties().apply { rootProject.file("google-client.properties").inputStream().use { load(it) } }
+// Only public configuration belongs here. Robokassa passwords and the receipt signing
+// private key belong exclusively to the payment backend, never to an Android build.
+val publicPayments = Properties().apply {
+    rootProject.file("payment-config.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
+}
+fun paymentSetting(key: String, environment: String, fallback: String = ""): String =
+    (providers.gradleProperty(key).orNull ?: providers.environmentVariable(environment).orNull
+        ?: publicPayments.getProperty(key, fallback)).trim()
+val paymentEnabled = paymentSetting("payment.enabled", "DIET_PAYMENT_ENABLED", "false")
+val paymentApiOrigin = paymentSetting("payment.apiBaseUrl", "DIET_PAYMENT_API_BASE_URL").trimEnd('/')
+val paymentPublicKey = paymentSetting("payment.publicKeyBase64", "DIET_PAYMENT_PUBLIC_KEY_BASE64")
+require(paymentEnabled in setOf("true", "false")) { "payment.enabled must be true or false" }
+if (paymentApiOrigin.isNotBlank()) {
+    val uri = URI(paymentApiOrigin)
+    require(uri.scheme == "https" && !uri.host.isNullOrBlank() && uri.userInfo == null && uri.port == -1 &&
+        uri.path.isNullOrEmpty() && uri.query == null && uri.fragment == null) {
+        "payment.apiBaseUrl must be an HTTPS origin without a port, path, credentials, query or fragment"
+    }
+}
+if (paymentPublicKey.isNotBlank()) {
+    val key = KeyFactory.getInstance("RSA").generatePublic(
+        X509EncodedKeySpec(Base64.getDecoder().decode(paymentPublicKey)))
+    require((key as RSAPublicKey).modulus.bitLength() in 2048..8192) {
+        "payment.publicKeyBase64 must be a 2048-bit or stronger X509 SPKI RSA public key"
+    }
+}
+require(paymentEnabled != "true" || (paymentApiOrigin.isNotBlank() && paymentPublicKey.isNotBlank())) {
+    "Enabled payments require payment.apiBaseUrl and payment.publicKeyBase64"
+}
 fun integration(key: String): String = integrations.getProperty(key, publicGoogleClient.getProperty(key, "")).trim()
 val nativePlacements = listOf("day", "products", "diary", "stats", "more", "achievements", "cloud")
 val storeNames = linkedMapOf("googlePlay" to "Google Play", "rustore" to "RuStore", "huawei" to "Huawei AppGallery")
@@ -44,11 +78,14 @@ android {
         applicationId = "ru.dietdiary.offline"
         minSdk = 26
         targetSdk = 37
-        versionCode = 10
-        versionName = "1.2.1"
+        versionCode = 11
+        versionName = "1.3.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         manifestPlaceholders["appAuthRedirectScheme"] = "ru.dietdiary.offline"
         buildConfigField("String", "GOOGLE_CLIENT_ID", quoted(integration("google.clientId")))
+        buildConfigField("boolean", "PAYMENT_ENABLED", paymentEnabled)
+        buildConfigField("String", "PAYMENT_API_BASE_URL", quoted(paymentApiOrigin))
+        buildConfigField("String", "PAYMENT_PUBLIC_KEY_BASE64", quoted(paymentPublicKey))
     }
     // Keep every language installed so changing the phone language also works offline.
     bundle { language { enableSplit = false } }
@@ -95,6 +132,7 @@ android {
     }
 }
 dependencies {
+    implementation(project(":robokassa-sdk"))
     implementation("androidx.core:core-ktx:1.19.1")
     implementation("androidx.activity:activity-compose:1.13.0")
     implementation(platform("androidx.compose:compose-bom:2026.09.00"))

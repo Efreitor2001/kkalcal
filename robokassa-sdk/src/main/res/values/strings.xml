@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="robokassa_checkout_close">Close</string>
+    <string name="robokassa_checkout_download_blocked">The receipt is sent by the payment service. Downloads are unavailable in this payment window.</string>
+    <string name="robokassa_checkout_unsafe_link">This link cannot be opened in the payment window.</string>
+    <string name="robokassa_checkout_connection_error">The payment page could not be opened securely. The app will check the payment status.</string>
+    <string name="robokassa_checkout_bank_unavailable">The bank app could not be opened. Choose another payment method.</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "diet-diary-payments",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-10-17",
+  "workers_dev": true,
+  "observability": { "enabled": false },
+  "vars": {
+    "PAYMENTS_ENABLED": "false",
+    "ROBOKASSA_MODE": "test",
+    "ROBOKASSA_MERCHANT_LOGIN": "",
+    "PUBLIC_BASE_URL": ""
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "diet-diary-payments",
+      "database_id": "REPLACE_WITH_CREATED_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "ORDER_RATE_LIMITER",
+      "namespace_id": "1001",
+      "simple": { "limit": 10, "period": 60 }
+    }
+  ]
+}

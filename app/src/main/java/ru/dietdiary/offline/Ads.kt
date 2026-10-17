@@ -54,6 +54,7 @@ object DietAds {
     /** Call before setContent. Eligible entries may use an explicit startup panel for <= 5s. */
     fun attachColdStart(activity: Activity, restored: Boolean) {
         install(activity.application)
+        if (PaymentEntitlements.adFree) { entitlementChanged(true); return }
         val gate = policy ?: return
         val launcher = activity.intent?.action == Intent.ACTION_MAIN &&
             activity.intent?.hasCategory(Intent.CATEGORY_LAUNCHER) == true
@@ -85,6 +86,18 @@ object DietAds {
 
     /** Forward MainActivity.onUserInteraction; no ad may follow the first touch of an entry. */
     fun onUserInteraction() { entry?.onUserInteraction() }
+
+    /** Every ad entry point also checks the proof, including callbacks already in flight. */
+    internal fun entitlementChanged(adFree: Boolean) {
+        if (!adFree) return
+        onAdMain {
+            entry?.dispose(); entry = null
+            cache?.dispose(); cache = null
+            waitingForStartup = false
+            AdSdk.cancelCallbacks()
+            releaseNativeAds()
+        }
+    }
 }
 
 internal fun configuredAdId(raw: String): String? = raw.trim().takeIf {
@@ -120,6 +133,7 @@ internal object AdSdk {
 
     /** The returned unsubscribe must run when the requesting UI is disposed. */
     fun whenReady(context: Context, callback: () -> Unit): () -> Unit {
+        if (PaymentEntitlements.adFree) return {}
         if (ready) { adSafely("ready callback", callback); return {} }
         if (failed) return {}
         val subscription = ++nextSubscription
@@ -133,11 +147,13 @@ internal object AdSdk {
                 YandexAds.enableLogging(false)
                 YandexAds.initialize(context.applicationContext) {
                     onAdMain {
-                        if (!failed) {
+                        if (!failed && !PaymentEntitlements.adFree) {
                             ready = true
                             val pending = callbacks.values.toList()
                             callbacks.clear()
-                            pending.forEach { adSafely("ready callback", it) }
+                            pending.forEach { if (!PaymentEntitlements.adFree) adSafely("ready callback", it) }
+                        } else {
+                            callbacks.clear()
                         }
                     }
                 }
@@ -146,6 +162,8 @@ internal object AdSdk {
         }
         return { callbacks.remove(subscription); Unit }
     }
+
+    fun cancelCallbacks() { callbacks.clear() }
 }
 
 private class PreferenceAdHistory(context: Context) : AppOpenHistoryStore {
@@ -173,11 +191,13 @@ private class AppOpenCache(private val application: Application, private val uni
     data class Ready(val ad: AppOpenAd, val loadedAt: Long)
     private var cached: Ready? = null
     private var loader: AppOpenAdLoader? = null
+    private var disposed = false
     private var nextSubscription = 0L
     private val readyObservers = linkedMapOf<Long, (Boolean) -> Unit>()
     private val expiry = Runnable { clear() }
 
     fun peek(): Ready? {
+        if (disposed || PaymentEntitlements.adFree) { clear(); return null }
         val ready = cached ?: return null
         if (!AppOpenPolicy.cacheIsFresh(ready.loadedAt, SystemClock.elapsedRealtime())) { clear(); return null }
         return ready
@@ -197,13 +217,17 @@ private class AppOpenCache(private val application: Application, private val uni
     }
 
     fun preload() {
-        if (peek() != null || loader != null) return
+        if (disposed || PaymentEntitlements.adFree || peek() != null || loader != null) return
         if (!adSafely("preload app-open ad") {
             val requestLoader = AppOpenAdLoader(application)
             loader = requestLoader
             requestLoader.loadAd(AdRequest.Builder(unitId).build(), object : AppOpenAdLoadListener {
                 override fun onAdLoaded(appOpenAd: AppOpenAd) = onAdMain {
                     loader = null
+                    if (disposed || PaymentEntitlements.adFree) {
+                        adSafely("release cancelled app-open ad") { appOpenAd.setAdEventListener(null) }
+                        return@onAdMain
+                    }
                     clear()
                     cached = Ready(appOpenAd, SystemClock.elapsedRealtime())
                     Log.i("DietDiaryAds", "App-open preloaded")
@@ -212,6 +236,7 @@ private class AppOpenCache(private val application: Application, private val uni
                 }
                 override fun onAdFailedToLoad(adRequestError: AdRequestError) = onAdMain {
                     loader = null
+                    if (disposed || PaymentEntitlements.adFree) return@onAdMain
                     Log.i("DietDiaryAds", "App-open preload unavailable code=${adRequestError.code}")
                     notifyLoadResult(false)
                     // No retry loop; the next eligible foreground can try once again.
@@ -232,6 +257,14 @@ private class AppOpenCache(private val application: Application, private val uni
         adMain.removeCallbacks(expiry)
         cached?.let { adSafely("release cached app-open ad") { it.ad.setAdEventListener(null) } }
         cached = null
+    }
+
+    fun dispose() {
+        disposed = true
+        loader?.let { adSafely("cancel paid app-open preload") { it.cancelLoading() } }
+        loader = null
+        readyObservers.clear()
+        clear()
     }
 }
 
@@ -265,11 +298,11 @@ private class AppOpenEntry(
     private var unsubscribeReady: (() -> Unit)? = null
     private val timeout = Runnable { closeGate(); schedulePreload() }
     private val preload = Runnable {
-        if (!disposed && foreground && resumed && frameSeen && !editing && !modalOpen && !showing && !waiting &&
+        if (!PaymentEntitlements.adFree && !disposed && foreground && resumed && frameSeen && !editing && !modalOpen && !showing && !waiting &&
             !attemptedPreload && policy.canPreload()) {
             attemptedPreload = true
             unsubscribe = AdSdk.whenReady(activity.applicationContext) {
-                if (!disposed && foreground && resumed && !editing && !modalOpen && !showing) cache.preload()
+                if (!PaymentEntitlements.adFree && !disposed && foreground && resumed && !editing && !modalOpen && !showing) cache.preload()
             }
         }
     }
@@ -337,7 +370,7 @@ private class AppOpenEntry(
     }
 
     private fun openGate() {
-        if (disposed || !policy.canLoad()) return
+        if (PaymentEntitlements.adFree || disposed || !policy.canLoad()) return
         waiting = true
         panelVisible = false
         Log.i("DietDiaryAds", "Startup wait started")
@@ -384,12 +417,13 @@ private class AppOpenEntry(
 
     private fun schedulePreload() {
         adMain.removeCallbacks(preload)
-        if (!disposed && foreground && resumed && frameSeen && !editing && !modalOpen && !showing && !waiting && !attemptedPreload) {
+        if (!PaymentEntitlements.adFree && !disposed && foreground && resumed && frameSeen && !editing && !modalOpen && !showing && !waiting && !attemptedPreload) {
             adMain.postDelayed(preload, 2_000L)
         }
     }
 
     private fun tryShow() {
+        if (PaymentEntitlements.adFree) { closeGate(); return }
         if (showing) return
         if (!waiting || !policy.canLoad()) {
             if (waiting) closeGate()

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="如何删除设备、Google Drive 及备份中的饮食日记数据，以及如何联系开发者获取帮助。">
+<meta name="description" content="如何删除设备、Google Drive 及备份中的饮食日记数据，许可与支付记录会如何处理，以及如何获取帮助。">
 <title>删除你的数据 — 饮食日记</title>
 <link rel="canonical" href="https://diet.efreitor2001.ru/zh-CN/privacy/data-deletion.html">
 <link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
@@ -19,10 +19,10 @@
 <nav class="language-switch" aria-label="语言"><a href="../../privacy/data-deletion.html" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/data-deletion.html" lang="en" hreflang="en">English</a> · <a href="../../zh-CN/privacy/data-deletion.html" lang="zh-CN" hreflang="zh-Hans" aria-current="page">简体中文</a></nav>
 
 <h1>删除你的数据</h1>
-<p class="meta">饮食日记 · 更新日期：<time datetime="2026-10-15">2026 年 10 月 15 日</time></p>
-<p>开发者及运营者：<strong>Sergey Efremov（Efreitor2001），俄罗斯</strong>。联系邮箱：<a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>。Android 软件包名：<code>ru.dietdiary.offline</code>。</p>
+<p class="meta">饮食日记 · 更新日期：<time datetime="2026-10-17">2026 年 10 月 17 日</time></p>
+<p>开发者及运营者：<strong>俄罗斯个体经营者 Sergey Olegovich Efremov（Efreitor2001）</strong>。联系邮箱：<a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>；<a href="https://diet.efreitor2001.ru/offer/#details">登记信息</a>。Android 软件包名：<code>ru.dietdiary.offline</code>。</p>
 <p>无需登录或重新安装应用即可阅读本说明。饮食日记不提供独立的应用账号；无需删除你的 Google 账号。日记保存在你的设备、可选的 Google Drive 快照，以及你自行导出的文件中。</p>
-<nav class="toc" aria-label="目录"><a href="#delete">删除全部副本</a> · <a href="#retention">可能保留的内容</a> · <a href="#help">获取帮助</a> · <a href="./">隐私政策</a></nav>
+<nav class="toc" aria-label="目录"><a href="#delete">删除全部副本</a> · <a href="#retention">可能保留的内容</a> · <a href="#payments">购买</a> · <a href="#help">获取帮助</a> · <a href="./">隐私政策</a></nav>
 <section aria-labelledby="delete">
 <h2 id="delete">如何删除日记的全部副本</h2>
 <ol>
@@ -40,11 +40,17 @@
 <tr><td>删除单条日记记录</td><td>记录从界面中消失，删除标记会同步。日记字段的旧值可能保留在元数据、历史快照及导出文件中。</td></tr>
 <tr><td>关闭自动同步</td><td>停止自动交换；连接、记录和云端副本保留，仍可手动同步。</td></tr>
 <tr><td>在应用内断开 Google 连接</td><td>删除本地会话和连接缓存，停止本设备同步。不会撤销 Google 端的授权本身，也不会删除日记、快照或 Google 账号。</td></tr>
-<tr><td>清除 Android 应用存储 / 卸载</td><td>删除本设备上的记录、设置、元数据、内部备份及保存的 Google 会话。不会删除 Drive 副本或导出文件。</td></tr>
+<tr><td>清除 Android 应用存储 / 卸载</td><td>删除本设备上的记录、设置、元数据、内部备份、保存的 Google 会话及本地许可文件。不会删除 Drive 副本、导出文件或服务器购买记录。</td></tr>
 <tr><td>删除 Google Drive 隐藏数据</td><td>删除所选账号中本应用的云端数据；本地及导出的副本仍保留。</td></tr>
 </tbody></table></div>
 <p>应用没有设定彻底清除全部日记的自动期限。同步成功后，应用会尝试只保留由本安装实例创建的新快照及上一份快照；其他安装实例的快照，以及清理失败的副本可能保留。因此，自动清理旧快照不能替代上述步骤。</p>
 <p>删除日记不会自动删除广告服务的技术数据、第三方服务历史或支持邮件。有关接收方及其规则，请参阅<a href="./third-party.html">第三方 SDK 与服务清单</a>。</p>
+</section>
+<section aria-labelledby="payments">
+<h2 id="payments">购买、许可及支付记录</h2>
+<p>如果你使用了可用的 149 俄罗斯卢布去广告购买功能，签名许可文件会保存在设置中。它还可能存在于 Google Drive 快照和导出的 JSON 中。这是用于在你自己的设备上恢复权益的可转移文件，技术上不与 Google 账号绑定。删除全部副本可能使应用失去购买证明；有关恢复问题，请联系支持。请勿公开许可文件或完整 JSON。</p>
+<p>清除设备、Drive 或 JSON 不会删除 Cloudflare Workers/D1 支付服务器的订单，也不会删除 Robokassa 和卖方依法必须保留的交易记录。服务器数据库含有订单标识符及状态、金额、币种、日期和许可文件，但没有日记内容、健康信息、Google 数据、付款人邮箱或银行卡信息。完整的数据清单及网络数据处理见<a href="./#payments">隐私政策</a>。</p>
+<p>在确认及恢复许可、交易记账、处理请求和满足适用要求仍有需要期间，会保留记录。各目的没有统一的固定保留期限。如需请求删除或询问期限，请发送邮件至 <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>，并尽可能提供支付单号及购买日期。我们会核实请求，说明哪些数据可以删除、哪些必须保留。请勿发送银行卡信息、密码、令牌或整个日记。Robokassa 持有的支付数据适用<a href="https://robokassa.com/privacy-policy/">其政策</a>；退款依照<a href="https://diet.efreitor2001.ru/offer/#refunds">卖方要约（俄文）</a>处理。</p>
 </section>
 <section aria-labelledby="help">
 <h2 id="help">帮助及删除请求</h2>

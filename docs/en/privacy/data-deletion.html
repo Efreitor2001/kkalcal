@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="How to delete Diet Diary records from your devices, Google Drive and backups, and contact the developer for help.">
+<meta name="description" content="How to delete Diet Diary records from your devices, Google Drive and backups, what happens to licenses and payment records, and how to get help.">
 <title>Delete your data — Diet Diary</title>
 <link rel="canonical" href="https://diet.efreitor2001.ru/en/privacy/data-deletion.html">
 <link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/data-deletion.html">
@@ -19,10 +19,10 @@
 <nav class="language-switch" aria-label="Language"><a href="../../privacy/data-deletion.html" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/data-deletion.html" lang="en" hreflang="en" aria-current="page">English</a> · <a href="../../zh-CN/privacy/data-deletion.html" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
 
 <h1>Delete your data</h1>
-<p class="meta">Diet Diary · Updated <time datetime="2026-10-15">15 October 2026</time></p>
-<p>Developer and operator: <strong>Sergey Efremov (Efreitor2001), Russia</strong>. Contact: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. Android package: <code>ru.dietdiary.offline</code>.</p>
+<p class="meta">Diet Diary · Updated <time datetime="2026-10-17">17 October 2026</time></p>
+<p>Developer and operator: <strong>individual entrepreneur Sergey Olegovich Efremov (Efreitor2001), Russia</strong>. Contact: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>; <a href="https://diet.efreitor2001.ru/offer/#details">registration details</a>. Android package: <code>ru.dietdiary.offline</code>.</p>
 <p>These instructions are available without signing in or reinstalling. There is no separate Diet Diary account; you do not need to delete your Google account. Your diary is stored on your devices, in optional snapshots in your Google Drive, and in files you exported yourself.</p>
-<nav class="toc" aria-label="Sections"><a href="#delete">Delete all copies</a> · <a href="#retention">What remains</a> · <a href="#help">Help</a> · <a href="./">Privacy policy</a></nav>
+<nav class="toc" aria-label="Sections"><a href="#delete">Delete all copies</a> · <a href="#retention">What remains</a> · <a href="#payments">Purchases</a> · <a href="#help">Help</a> · <a href="./">Privacy policy</a></nav>
 <section aria-labelledby="delete">
 <h2 id="delete">How to delete all diary copies</h2>
 <ol>
@@ -40,11 +40,17 @@
 <tr><td>Delete a diary record</td><td>The record disappears from the interface; a deletion marker is synchronized. Earlier diary-field values may remain in metadata, older snapshots and exports.</td></tr>
 <tr><td>Turn off automatic synchronization</td><td>Stops automatic exchanges; the connection, records and cloud copies remain. Manual synchronization is still available.</td></tr>
 <tr><td>Disconnect Google in the app</td><td>Deletes the local session and connection cache and stops synchronization on this device. Does not revoke the Google permission itself or delete the diary, snapshots or Google account.</td></tr>
-<tr><td>Clear Android storage / uninstall</td><td>Deletes local records, settings, metadata, internal backups and the saved Google session on this device. Does not delete Drive copies or exported files.</td></tr>
+<tr><td>Clear Android storage / uninstall</td><td>Deletes local records, settings, metadata, internal backups, the saved Google session and the local license document on this device. Does not delete Drive copies, exported files or server purchase records.</td></tr>
 <tr><td>Delete hidden Google Drive data</td><td>Deletes the app's cloud data in the selected account; local and exported copies remain.</td></tr>
 </tbody></table></div>
 <p>There is no automatic period for complete diary deletion. After successful synchronization, the app attempts to retain the new snapshot and one previous snapshot from its own installation; other installations' snapshots and copies that could not be pruned may remain. Automatic pruning therefore does not replace the steps above.</p>
 <p>Deleting the diary does not automatically delete technical advertising-service data, third-party service history or support correspondence. See the <a href="./third-party.html">SDK and service list</a> for those recipients and their rules.</p>
+</section>
+<section aria-labelledby="payments">
+<h2 id="payments">Purchases, licenses and payment records</h2>
+<p>If you used an available RUB 149 ad-removal purchase, the signed license document is stored in settings. It may also be present in Google Drive snapshots and exported JSON files. It is a portable document for restoration on your own devices, not technically bound to a Google account. Deleting every copy can leave the app without purchase confirmation; contact support about restoration. Do not publish the license document or a full JSON backup.</p>
+<p>Clearing the device, Drive or JSON does not delete the Cloudflare Workers/D1 payment server's order or mandatory transaction records held by Robokassa and the seller. The server database contains order identifiers and status, amount, currency, dates and the license document, but no diary contents, health information, Google data, payer email or card details. The complete data list and network processing are explained in the <a href="./#payments">privacy policy</a>.</p>
+<p>Records are retained while needed to confirm and restore the license, account for transactions, handle requests and meet applicable requirements. There is no single fixed period for all purposes. To request deletion or ask about retention, email <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>, providing the invoice number and purchase date if available. We will review the request and explain what can be deleted and what must be retained. Do not send card details, passwords, tokens or your entire diary. Payment data held by Robokassa follows <a href="https://robokassa.com/privacy-policy/">its policy</a>; refunds are handled under the <a href="https://diet.efreitor2001.ru/offer/#refunds">seller's offer (in Russian)</a>.</p>
 </section>
 <section aria-labelledby="help">
 <h2 id="help">Help and deletion requests</h2>

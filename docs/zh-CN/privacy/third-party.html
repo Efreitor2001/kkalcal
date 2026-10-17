@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Yandex Mobile Ads、AppMetrica、Varioqub、Google、AppAuth 和 GitHub 的用途、数据及处理政策。">
+<meta name="description" content="Yandex Mobile Ads、AppMetrica、Varioqub、Google、AppAuth、Robokassa、Cloudflare 和 GitHub 的用途、数据及处理政策。">
 <title>第三方 SDK 与服务 — 饮食日记</title>
 <link rel="canonical" href="https://diet.efreitor2001.ru/zh-CN/privacy/third-party.html">
 <link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/third-party.html">
@@ -19,14 +19,14 @@
 <nav class="language-switch" aria-label="语言"><a href="../../privacy/third-party.html" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/third-party.html" lang="en" hreflang="en">English</a> · <a href="../../zh-CN/privacy/third-party.html" lang="zh-CN" hreflang="zh-Hans" aria-current="page">简体中文</a></nav>
 
 <h1>第三方 SDK 与服务清单</h1>
-<p class="meta">饮食日记 · 更新日期：<time datetime="2026-10-15">2026 年 10 月 15 日</time> · Android 版本 1.2.1</p>
-<p>应用运营者：<strong>Sergey Efremov（Efreitor2001），俄罗斯</strong>。联系邮箱：<a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>。本页说明应用组件、外部接收方及网站服务。SDK 版本对应已检查的构建；一个软件库不一定是独立的数据接收方。</p>
-<nav class="toc" aria-label="服务目录"><a href="#yandex">Yandex</a> · <a href="#google">Google / AppAuth</a> · <a href="#website">GitHub / 支持</a> · <a href="./">隐私政策</a></nav>
+<p class="meta">饮食日记 · 更新日期：<time datetime="2026-10-17">2026 年 10 月 17 日</time> · Android 应用组件</p>
+<p>应用运营者：<strong>俄罗斯个体经营者 Sergey Olegovich Efremov（Efreitor2001）</strong>。联系邮箱：<a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>；<a href="https://diet.efreitor2001.ru/offer/#details">登记信息</a>。本页说明应用组件、外部接收方及网站服务。SDK 版本对应已检查的构建；一个软件库不一定是独立的数据接收方。支付组件仅在购买功能已开启的地方使用。</p>
+<nav class="toc" aria-label="服务目录"><a href="#yandex">Yandex</a> · <a href="#google">Google / AppAuth</a> · <a href="#robokassa">Robokassa</a> · <a href="#cloudflare">Cloudflare</a> · <a href="#website">GitHub / 支持</a> · <a href="./">隐私政策</a></nav>
 <section class="sdk-card" aria-labelledby="yandex">
 <h2 id="yandex">Yandex Mobile Ads 8.5.0</h2>
 <p><strong>提供者：</strong>Yandex（根据其政策，为 YANDEX LLC 及适用的关联公司）。<strong>用途：</strong>加载和展示广告、衡量广告互动，以及 SDK 的技术运行。</p>
 <p><strong>数据：</strong>IP 地址和网络请求信息；设备、操作系统及应用信息；可用的广告及技术标识符；广告请求、展示、点击和技术诊断信息。应用不会将日记内容、Google 电子邮件地址或 Google 账号标识符加入广告参数。</p>
-<p><strong>处理时间：</strong>应用或广告位打开时，SDK 可能在未先显示单独同意弹窗的情况下初始化。应用设置 <code>setUserConsent(false)</code>、<code>setLocationTracking(false)</code> 和 <code>setAppAdAnalyticsReporting(false)</code>。位置跟踪和 App Ad Analytics 报告已关闭，应用不请求精确或大致位置权限。这些设置不是对所有网络处理的统一禁止。应用没有禁用该 SDK 的开关。</p>
+<p><strong>处理时间：</strong>在已验证的去广告权益尚未生效时，应用或广告位打开可能初始化 SDK，而不先显示单独的同意弹窗。应用设置 <code>setUserConsent(false)</code>、<code>setLocationTracking(false)</code> 和 <code>setAppAdAnalyticsReporting(false)</code>。位置跟踪和 App Ad Analytics 报告已关闭，应用不请求精确或大致位置权限。这些设置不是对所有网络处理的统一禁止。有效的付费许可验证通过后，应用隐藏广告、停止自身发起的广告请求并释放缓存的广告对象；这不保证当前会话中已启动 SDK 的全部后台工作停止。应用没有单独的广告同意开关。</p>
 <p><strong>提供者规则：</strong><a href="https://yandex.com/legal/confidential/en/">隐私政策及请求渠道</a>；<a href="https://ads.yandex.com/helpcenter/en/dev/android/app-privacy-android">SDK 数据说明</a>。保留期限及国际处理由提供者确定；清除日记并不等于向 Yandex 提出删除请求。</p>
 </section>
 <p class="notice">以下分别说明广告 SDK 的依赖组件。数据类别描述的是相应组件的能力，并不表示每台设备上都已开启全部功能。构建包含某个库，本身不证明其已启动或传输数据。应用不直接调用这些辅助 API，也不向其提供日记记录。</p>
@@ -69,8 +69,23 @@
 <h2 id="google">Google 登录与 Drive；AppAuth Android 0.11.1</h2>
 <p><strong>接收方：</strong>根据 Google 政策，为 Google LLC 及适用的关联公司。<strong>用途：</strong>可选的账号连接、备份快照及跨设备日记合并。</p>
 <p><strong>数据及时间：</strong>在你选择连接之后，处理 OAuth 请求、电子邮件地址、账号标识符及令牌；同步时，处理日记内容、设置及更改元数据。数据直接发送至 Google。访问权限仅限 <code>openid</code>、<code>email</code> 和 <code>drive.appdata</code>。登录后执行首次同步，之后按设置自动同步或由你手动启动。</p>
+<p>如果购买已确认，可转移设置会包含签名去广告许可文件。根据你的选择，它可以进入 Google Drive 和 JSON 导出文件。文件不含银行卡信息或支付表单中的邮箱，在技术上也不与 Google 账号绑定；请勿公开该文件或包含它的完整备份。</p>
 <p><strong>AppAuth</strong> 是用于浏览器登录、令牌交换和刷新的开源客户端库。在本应用的集成中，它连接的是 Google；OpenID 组织不是独立接收日记的服务器。<a href="https://github.com/openid/AppAuth-Android">AppAuth 文档</a>。</p>
 <p><a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私政策</a> · <a href="./#google-data">权限与保护措施</a> · <a href="./#limited-use">Google Limited Use</a> · <a href="./data-deletion.html">断开连接与删除</a>。应用不选择 Drive 数据的存储国家，也不对 JSON 快照提供端到端加密。</p>
+</section>
+<section class="sdk-card" aria-labelledby="robokassa">
+<h2 id="robokassa">Robokassa：可选支付</h2>
+<p><strong>接收方：</strong>ООО «РОБОКАССА»（ROBOKASSA LLC）及你所选支付方式的服务提供者。<strong>用途：</strong>以一次性 149 俄罗斯卢布购买永久去广告权益，并出具支付凭证；没有订阅或自动重复支付。</p>
+<p><strong>数据及处理方式：</strong>选择支付后，经本地适配的 Robokassa Android SDK 会打开支付网页表单。你在其中填写支付信息和邮箱。Robokassa 还会接收订单参数及请求的技术数据。日记代码不会读取已填写的支付信息，也不会将其存入支付服务器的数据库。日记内容、健康信息和 Google 数据不会发送至 Robokassa。</p>
+<p><strong>处理时间：</strong>仅在你使用可用的购买功能时；构建包含 SDK 不表示真实支付已经启用。条款和处理规则见 <a href="https://robokassa.com/privacy-policy/">Robokassa 隐私政策</a>及<a href="https://diet.efreitor2001.ru/offer/">卖方要约（俄文）</a>。清除日记不会删除依法必须保留的交易记录及支付凭证。</p>
+</section>
+<section class="sdk-card" aria-labelledby="cloudflare">
+<h2 id="cloudflare">Cloudflare Workers 与 D1：购买服务器</h2>
+<p><strong>基础设施提供者：</strong>Cloudflare, Inc. 及其政策中适用的实体；日记运营者在该基础设施上配置支付服务。<strong>用途：</strong>检查购买可用性、创建和确认订单、签发及恢复签名许可，以及限制滥用。</p>
+<p><strong>D1 中的数据：</strong>支付单号、随机订单及许可标识符、订单访问令牌的哈希值、构建所属商店、测试或正式模式、技术用商户标识符、金额、币种、状态、交易日期及签名许可文件。D1 不保存邮箱、银行卡信息、Google 账号或其令牌、日记内容及健康信息。</p>
+<p>核验支付时，Robokassa 的通知和响应可能含有付款人邮箱及支付账户信息。基础设施可能将它们作为消息的一部分进行处理，但代码不使用它们签发许可，也不写入 D1。</p>
+<p><strong>网络数据：</strong>平台处理 IP 地址和请求的技术信息；IP 对应的国家用于判断购买可用性，包括 Google Play 的俄罗斯限制，IP 也用于限制请求频率。我方 D1 不保存原始 IP；支付应用的请求日志已关闭。Cloudflare 自身的技术处理和日志遵循其规则。使用随机标识符和哈希并不意味着处理完全匿名。</p>
+<p><strong>保留与删除：</strong>在确认或恢复许可、交易记账及适用要求仍有需要期间，会保留记录；有关期限和删除问题，请联系 <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>。我们不声称所有基础设施都位于俄罗斯。<a href="https://www.cloudflare.com/privacypolicy/">Cloudflare 隐私政策</a> · <a href="./#payments">支付详情</a> · <a href="./data-deletion.html#payments">购买与删除</a>。</p>
 </section>
 <section class="sdk-card" aria-labelledby="website">
 <h2 id="website">GitHub Pages 与 GitHub Issues</h2>
@@ -81,7 +96,7 @@
 <h3>由你选择的文件接收方</h3>
 <p>保存或分享 JSON 备份时，你会选择文件夹、云端服务或接收方。其处理取决于你的选择及其自身规则；应用无法提供此类接收方的统一清单。</p>
 </section>
-<p class="notice">主要日记功能无需 Google 或互联网即可使用。各 SDK 和服务不会自动收到相同的数据：饮食记录不会发送给广告服务，Google 同步在连接后才开始。当前版本没有单独的通用广告开关，也没有针对广告 SDK 的事先同意弹窗。</p>
+<p class="notice">主要日记功能无需 Google、购买或互联网即可使用。各 SDK 和服务不会自动收到相同的数据：饮食记录不会发送给广告服务或支付服务器，Google 同步在连接后才开始。在购买可用的地方，经过验证的许可可以关闭广告。应用没有单独的广告同意开关，也没有针对广告 SDK 的事先同意弹窗。</p>
 <p><a href="./">隐私政策</a> · <a href="./data-deletion.html">删除数据</a></p>
 </main>
 </body>
