@@ -24,7 +24,7 @@ internal data class SyncDocument(val data: AppData, val state: SyncState)
 internal object SyncMerge {
     val logFields = setOf("weight", "waist", "steps", "sleep", "note", "bodyFat", "training", "calories", "protein")
     private val goalFields = setOf("kcal", "protein", "fat", "carbs", "weight")
-    private val portableSettings = setOf("theme", "startTab", "weekStartsOn")
+    private val portableSettings = setOf("theme", "startTab", "weekStartsOn", AD_FREE_RECEIPT_SETTING)
     private const val MAX_RECORDS = 600_000
     private const val MAX_MILLIS = 253_402_300_799_999L // Last millisecond of year 9999.
 

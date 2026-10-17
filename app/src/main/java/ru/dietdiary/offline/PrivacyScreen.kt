@@ -38,6 +38,7 @@ import androidx.compose.ui.unit.dp
         tr(R.string.data_privacy_paragraph_18),
         tr(R.string.data_privacy_paragraph_19),
         tr(R.string.data_privacy_paragraph_20),
+        tr(R.string.data_privacy_paragraph_21),
     )
     var notice by remember { mutableStateOf<String?>(null) }
     fun open(intent: Intent) {

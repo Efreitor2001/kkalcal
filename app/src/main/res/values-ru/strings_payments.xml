@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="payment_title" formatted="false">"Дневник без рекламы"</string>
+    <string name="payment_free_features" formatted="false">"Все функции дневника бесплатны. Покупка отключает только рекламу."</string>
+    <string name="payment_price" formatted="false">"149 ₽ · один раз"</string>
+    <string name="payment_price_help" formatted="false">"Отключение всей рекламы навсегда за 149 ₽. Без подписки и повторных списаний."</string>
+    <string name="payment_provider" formatted="false">"Оплата через Робокассу. Реквизиты карты вводятся на её платёжной странице."</string>
+    <string name="payment_open_purchase" formatted="false">"Отключить рекламу"</string>
+    <string name="payment_manage" formatted="false">"Покупка и восстановление"</string>
+    <string name="payment_buy" formatted="false">"Оплатить 149 ₽ один раз"</string>
+    <string name="payment_continue" formatted="false">"Продолжить эту оплату"</string>
+    <string name="payment_offer_acceptance" formatted="false">"Начиная оплату, вы принимаете публичную оферту. Перед оплатой ознакомьтесь с условиями покупки, возврата и обработки данных."</string>
+    <string name="payment_offer" formatted="false">"Оферта и возвраты"</string>
+    <string name="payment_active" formatted="false">"Реклама отключена навсегда"</string>
+    <string name="payment_active_help" formatted="false">"Покупка подтверждена. Дневник работает без рекламы, в том числе без интернета."</string>
+    <string name="payment_backup_reminder" formatted="false">"Перед переустановкой или сменой телефона синхронизируйте дневник с Google Drive либо сохраните резервную копию. В ней будет подтверждение покупки."</string>
+    <string name="payment_restore_title" formatted="false">"Восстановление покупки"</string>
+    <string name="payment_restore_help_short" formatted="false">"Прежнюю покупку можно восстановить из резервной копии дневника."</string>
+    <string name="payment_restore_help" formatted="false">"Подключите тот же аккаунт Google, в котором сохранена копия дневника, и выполните синхронизацию. Действующее подтверждение покупки в копии автоматически отключит рекламу. Платить повторно не нужно."</string>
+    <string name="payment_restore_cloud" formatted="false">"Открыть синхронизацию с Google Drive"</string>
+    <string name="payment_restore_file_help" formatted="false">"Также можно восстановить сохранённый JSON через «Ещё» → «Восстановить из файла». Без сохранённого или синхронизированного подтверждения переустановка сама по себе не восстанавливает покупку. За помощью обратитесь к продавцу по контактам в оферте."</string>
+    <string name="payment_idle" formatted="false">"Здесь появится состояние покупки."</string>
+    <string name="payment_not_configured" formatted="false">"Новые покупки пока недоступны. Прежнюю покупку можно восстановить из резервной копии."</string>
+    <string name="payment_unavailable" formatted="false">"Новые покупки сейчас недоступны для этой версии или региона. Проверка прежней оплаты и восстановление покупки доступны."</string>
+    <string name="payment_availability_failed" formatted="false">"Не удалось проверить доступность покупки. Проверьте подключение к интернету и повторите попытку."</string>
+    <string name="payment_retry_availability" formatted="false">"Проверить доступность ещё раз"</string>
+    <string name="payment_preparing" formatted="false">"Подготавливаем оплату…"</string>
+    <string name="payment_checking" formatted="false">"Проверяем оплату…"</string>
+    <string name="payment_waiting" formatted="false">"Оплата пока не подтверждена. Если вы уже заплатили, немного подождите и проверьте ещё раз. Не оплачивайте повторно."</string>
+    <string name="payment_cancelled" formatted="false">"Окно оплаты закрыто. Оплата пока не подтверждена. Если деньги списались, повторите проверку; если нет — можно продолжить ту же оплату."</string>
+    <string name="payment_open_failed" formatted="false">"Не удалось завершить работу с окном оплаты. Заказ сохранён. Перед повторной попыткой проверьте оплату."</string>
+    <string name="payment_check" formatted="false">"Проверить оплату"</string>
+    <string name="payment_order_id">"Заказ: %1$s"</string>
+    <string name="payment_check_failed" formatted="false">"Не удалось проверить оплату. Сохранённый заказ не потерян. Проверьте интернет и нажмите «Проверить оплату» ещё раз."</string>
+    <string name="payment_connection_failed" formatted="false">"Не удалось подключиться к сервису оплаты. Проверьте интернет и повторите попытку."</string>
+    <string name="payment_try_later" formatted="false">"Слишком много проверок. Немного подождите и попробуйте ещё раз."</string>
+    <string name="payment_invalid_response" formatted="false">"Сервис оплаты вернул неожиданный ответ. Покупка не активирована. Повторите проверку позже."</string>
+    <string name="payment_invalid_receipt" formatted="false">"Подтверждение покупки не прошло проверку. Реклама пока включена. Проверьте оплату ещё раз или обратитесь к продавцу."</string>
+    <string name="payment_save_failed" formatted="false">"Не удалось надёжно сохранить оплату. Освободите память устройства и повторите проверку перед новой оплатой."</string>
+    <string name="payment_recovery_damaged" formatted="false">"Не удалось прочитать сохранённые сведения об оплате. Восстановите покупку из копии или обратитесь к продавцу перед повторной оплатой."</string>
+    <string name="payment_backend_changed" formatted="false">"Этот заказ относится к прежней конфигурации оплаты. Восстановите покупку из копии или обратитесь к продавцу перед повторной оплатой."</string>
+    <string name="payment_test_notice" formatted="false">"Тестовая оплата в отладочной сборке. Успешный тест не активирует постоянную покупку."</string>
+    <string name="payment_test_complete" formatted="false">"Тестовая оплата завершена. Реклама остаётся включённой: постоянная покупка не оформлена."</string>
+    <string name="data_privacy_paragraph_21" formatted="false">"8. Необязательная оплата — дополнение от 17 октября 2026 года. Продавец: индивидуальный предприниматель Ефремов Сергей Олегович; ИНН 471905964680; ОГРНИП 326470400141351. В сборках и регионах, где покупки включены, доступно бессрочное отключение рекламы за 149 ₽ одним платежом, без подписки. При открытии настроек или раздела покупки приложение проверяет доступность на сервере. Платёжные реквизиты и email вы вводите в форме Robokassa; код дневника их из формы не считывает. Сервер Cloudflare Workers/D1 сохраняет номер счёта, случайные идентификаторы заказа и лицензии, хэш токена доступа, магазин и режим, служебный идентификатор продавца, сумму, валюту, статус, даты и подписанную лицензию. В D1 нет дневника, данных о здоровье, Google-данных, email и реквизитов карты. Уведомления Robokassa могут содержать email или сведения о платёжном счёте: они могут пройти через сервер при проверке, но не используются для лицензии и не сохраняются в D1. Cloudflare обрабатывает IP для определения страны и ограничения запросов; исходный IP в D1 не хранится, прикладные журналы отключены, собственная обработка платформы регулируется её политикой. Лицензия переносится в Google Drive и JSON вместе с настройками и технически не привязана к Google-аккаунту. Не публикуйте полные копии. Секрет восстановления незавершённой оплаты остаётся только в закрытом хранилище приложения на устройстве и не попадает в эти копии. После подтверждения лицензии приложение прекращает свои рекламные запросы и освобождает рекламные объекты; это не гарантирует остановку всей фоновой работы ранее запущенного SDK. Очистка дневника не удаляет серверный заказ или обязательный учёт Robokassa и ИП. Данные заказа нужны для сохранения и восстановления лицензии, учёта и применимых требований; фиксированный общий срок не установлен. Конфиденциальность, удаление данных и техническая помощь: pokimoha.123@gmail.com; оплата и возвраты: pokimoha.2010@mail.ru, телефон +79062280570, условия: https://diet.efreitor2001.ru/offer/ . Правила поставщиков: https://robokassa.com/privacy-policy/ и https://www.cloudflare.com/privacypolicy/ ."</string>
+</resources>

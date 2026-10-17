@@ -1,0 +1,63 @@
+name: Verify Android and payments
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  payments:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: payments
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: payments/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npx wrangler deploy --dry-run
+        env:
+          WRANGLER_SEND_METRICS: 'false'
+
+  android:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Install Android platform
+        run: sdkmanager 'platforms;android-37.0' 'build-tools;37.0.0'
+      - name: Check resource structure (new payment strings fall back to English)
+        run: python3 tools/check_localization.py --allow-incomplete
+      - name: Verify payment security, SDK, existing unit tests and release variants
+        run: >-
+          bash gradlew --no-daemon --max-workers=2
+          :robokassa-sdk:testDebugUnitTest
+          :app:testGooglePlayDebugUnitTest
+          :app:lintGooglePlayRelease
+          :app:assembleGooglePlayRelease
+          :app:assembleRustoreRelease
+          :app:assembleHuaweiRelease
+          :app:bundleGooglePlayRelease
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-reports
+          path: |
+            app/build/reports/
+            robokassa-sdk/build/reports/
+          retention-days: 14

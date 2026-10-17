@@ -1,0 +1,92 @@
+name: Deploy Robokassa payment API
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Robokassa environment (live only after merchant activation)
+        type: choice
+        options: [test, live]
+        default: test
+      enable_payments:
+        description: Allow creating checkout orders
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+concurrency:
+  group: robokassa-deployment
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: payments
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+      PAYMENT_D1_DATABASE_ID: ${{ vars.PAYMENT_D1_DATABASE_ID }}
+      PAYMENT_API_BASE_URL: ${{ vars.PAYMENT_API_BASE_URL }}
+      ROBOKASSA_MERCHANT_LOGIN: ${{ vars.ROBOKASSA_MERCHANT_LOGIN }}
+      PAYMENT_MODE: ${{ inputs.mode }}
+      ENABLE_PAYMENTS: ${{ inputs.enable_payments && 'true' || 'false' }}
+      WRANGLER_SEND_METRICS: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: payments/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - name: Validate and stage secrets privately
+        env:
+          LICENSE_PRIVATE_KEY: ${{ secrets.LICENSE_PRIVATE_KEY }}
+          ROBOKASSA_TEST_PASSWORD1: ${{ secrets.ROBOKASSA_TEST_PASSWORD1 }}
+          ROBOKASSA_TEST_PASSWORD2: ${{ secrets.ROBOKASSA_TEST_PASSWORD2 }}
+          ROBOKASSA_PASSWORD1: ${{ secrets.ROBOKASSA_PASSWORD1 }}
+          ROBOKASSA_PASSWORD2: ${{ secrets.ROBOKASSA_PASSWORD2 }}
+        run: |
+          node --input-type=module <<'JS'
+          import { createPrivateKey } from 'node:crypto';
+          import { mkdirSync, writeFileSync } from 'node:fs';
+          const e = process.env;
+          for (const name of ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID', 'LICENSE_PRIVATE_KEY']) {
+            if (!e[name]) throw new Error('Missing required secret/variable: ' + name);
+          }
+          const names = ['LICENSE_PRIVATE_KEY', 'ROBOKASSA_TEST_PASSWORD1', 'ROBOKASSA_TEST_PASSWORD2',
+            'ROBOKASSA_PASSWORD1', 'ROBOKASSA_PASSWORD2'];
+          const passwords = e.PAYMENT_MODE === 'live' ? names.slice(1) : names.slice(1, 3);
+          for (const name of passwords) if ((e[name] || '').length < 8) throw new Error('Missing password: ' + name);
+          if (e.ROBOKASSA_PASSWORD1 && e.ROBOKASSA_PASSWORD1 === e.ROBOKASSA_TEST_PASSWORD1 ||
+              e.ROBOKASSA_PASSWORD2 && e.ROBOKASSA_PASSWORD2 === e.ROBOKASSA_TEST_PASSWORD2) {
+            throw new Error('Test and live passwords must differ.');
+          }
+          const pem = e.LICENSE_PRIVATE_KEY.includes('-----BEGIN');
+          const key = createPrivateKey(pem ? e.LICENSE_PRIVATE_KEY :
+            { key: Buffer.from(e.LICENSE_PRIVATE_KEY, 'base64'), format: 'der', type: 'pkcs8' });
+          if (key.asymmetricKeyType !== 'rsa' || key.asymmetricKeyDetails.modulusLength < 2048 ||
+              key.asymmetricKeyDetails.modulusLength > 8192) throw new Error('Invalid RSA signing key.');
+          mkdirSync('.secrets', { recursive: true, mode: 0o700 });
+          writeFileSync('.secrets/worker-secrets.json', JSON.stringify(Object.fromEntries(
+            names.filter(name => e[name]).map(name => [name, e[name]]))), { mode: 0o600 });
+          JS
+      - name: Prepare disabled deployment
+        run: node scripts/write-deploy-config.mjs --disabled
+      - name: Apply database migration
+        run: npx wrangler d1 migrations apply diet-diary-payments --remote --config wrangler.local.json
+      - name: Deploy with new purchases stopped
+        run: npx wrangler deploy --config wrangler.local.json
+      - name: Set Worker secrets
+        run: npx wrangler secret bulk .secrets/worker-secrets.json --config wrangler.local.json
+      - name: Apply selected mode and availability
+        run: |
+          node scripts/write-deploy-config.mjs
+          npx wrangler deploy --config wrangler.local.json
+      - name: Remove temporary secret files
+        if: always()
+        run: rm -f .secrets/worker-secrets.json wrangler.local.json

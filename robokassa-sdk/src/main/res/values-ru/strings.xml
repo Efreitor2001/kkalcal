@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="robokassa_checkout_close">Закрыть</string>
+    <string name="robokassa_checkout_download_blocked">Чек отправляет платёжный сервис. Скачивание в окне оплаты недоступно.</string>
+    <string name="robokassa_checkout_unsafe_link">Эту ссылку нельзя открыть в окне оплаты.</string>
+    <string name="robokassa_checkout_connection_error">Не удалось безопасно открыть платёжную страницу. Приложение проверит статус оплаты.</string>
+    <string name="robokassa_checkout_bank_unavailable">Не удалось открыть приложение банка. Выберите другой способ оплаты.</string>
+</resources>

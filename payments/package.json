@@ -1,0 +1,21 @@
+{
+  "name": "diet-diary-payments",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "keys": "node scripts/generate-license-key.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.151.1"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.2"
+  }
+}

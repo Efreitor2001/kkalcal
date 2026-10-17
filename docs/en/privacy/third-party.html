@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Yandex Mobile Ads, AppMetrica, Varioqub, Google, AppAuth and GitHub: purposes, data and processing policies.">
+<meta name="description" content="Yandex Mobile Ads, AppMetrica, Varioqub, Google, AppAuth, Robokassa, Cloudflare and GitHub: purposes, data and processing policies.">
 <title>SDKs and third-party services — Diet Diary</title>
 <link rel="canonical" href="https://diet.efreitor2001.ru/en/privacy/third-party.html">
 <link rel="alternate" hreflang="ru" href="https://diet.efreitor2001.ru/privacy/third-party.html">
@@ -19,14 +19,14 @@
 <nav class="language-switch" aria-label="Language"><a href="../../privacy/third-party.html" lang="ru" hreflang="ru">Русский</a> · <a href="../../en/privacy/third-party.html" lang="en" hreflang="en" aria-current="page">English</a> · <a href="../../zh-CN/privacy/third-party.html" lang="zh-CN" hreflang="zh-Hans">简体中文</a></nav>
 
 <h1>SDKs and third-party services</h1>
-<p class="meta">Diet Diary · Updated <time datetime="2026-10-15">15 October 2026</time> · Android version 1.2.1</p>
-<p>App operator: <strong>Sergey Efremov (Efreitor2001), Russia</strong>. Contact: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>. This page describes app components, external recipients and website services. SDK versions refer to the inspected build; a library is not necessarily a separate data recipient.</p>
-<nav class="toc" aria-label="Services"><a href="#yandex">Yandex</a> · <a href="#google">Google / AppAuth</a> · <a href="#website">GitHub / support</a> · <a href="./">Privacy policy</a></nav>
+<p class="meta">Diet Diary · Updated <time datetime="2026-10-17">17 October 2026</time> · Android app components</p>
+<p>App operator: <strong>individual entrepreneur Sergey Olegovich Efremov (Efreitor2001), Russia</strong>. Contact: <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a>; <a href="https://diet.efreitor2001.ru/offer/#details">registration details</a>. This page describes app components, external recipients and website services. SDK versions refer to the inspected build; a library is not necessarily a separate data recipient. Payment components are used only where the purchase feature is enabled.</p>
+<nav class="toc" aria-label="Services"><a href="#yandex">Yandex</a> · <a href="#google">Google / AppAuth</a> · <a href="#robokassa">Robokassa</a> · <a href="#cloudflare">Cloudflare</a> · <a href="#website">GitHub / support</a> · <a href="./">Privacy policy</a></nav>
 <section class="sdk-card" aria-labelledby="yandex">
 <h2 id="yandex">Yandex Mobile Ads 8.5.0</h2>
 <p><strong>Provider:</strong> Yandex (YANDEX LLC and applicable affiliates under its policy). <strong>Purpose:</strong> ad loading and display, ad-interaction measurement and technical SDK operation.</p>
 <p><strong>Data:</strong> IP address and network-request information; device, operating-system and app information; available advertising and technical identifiers; ad requests, impressions and clicks; technical diagnostics. The app does not supply diary contents, Google email or Google account identifier in advertising parameters.</p>
-<p><strong>When:</strong> the SDK may initialize when the app or ad placements open without a separate prior consent dialog. The app sets <code>setUserConsent(false)</code>, <code>setLocationTracking(false)</code> and <code>setAppAdAnalyticsReporting(false)</code>. Location tracking and App Ad Analytics reporting are disabled; precise and approximate location permissions are not requested. These settings are not a general prohibition of network processing. The app has no switch to disable the SDK.</p>
+<p><strong>When:</strong> while verified ad removal is not active, the SDK may initialize when the app or ad placements open without a separate prior consent dialog. The app sets <code>setUserConsent(false)</code>, <code>setLocationTracking(false)</code> and <code>setAppAdAnalyticsReporting(false)</code>. Location tracking and App Ad Analytics reporting are disabled; precise and approximate location permissions are not requested. These settings are not a general prohibition of network processing. After verifying a valid paid license, the app hides ads, stops its own ad requests and releases cached advertising objects; this does not guarantee that all background work of an SDK already running in the session stops. There is no separate advertising-consent switch.</p>
 <p><strong>Provider rules:</strong> <a href="https://yandex.com/legal/confidential/en/">privacy and requests</a>; <a href="https://ads.yandex.com/helpcenter/en/dev/android/app-privacy-android">SDK data description</a>. Retention and international processing are determined by the provider; clearing your diary is not a deletion request to Yandex.</p>
 </section>
 <p class="notice">The advertising SDK dependencies are described separately below. Data categories describe the relevant components' capabilities, not a claim that all are active on every device. Including a library does not by itself establish activation or data transmission. The app does not call these supporting APIs directly or supply diary records to them.</p>
@@ -69,8 +69,23 @@
 <h2 id="google">Google sign-in and Drive; AppAuth Android 0.11.1</h2>
 <p><strong>Recipient:</strong> Google LLC and applicable affiliates under Google's policy. <strong>Purpose:</strong> optional account connection, backup snapshots and merging the diary across devices.</p>
 <p><strong>Data and timing:</strong> after you choose to connect — OAuth requests, email, account identifier and tokens; during synchronization — diary contents, settings and change metadata. Data goes directly to Google. Access is limited to <code>openid</code>, <code>email</code> and <code>drive.appdata</code>. The first synchronization follows sign-in, then runs manually or automatically according to your setting.</p>
+<p>If a purchase is confirmed, transferable settings include a signed ad-removal document. It can be included in Google Drive and JSON exports at your choice. It contains no card details or payment-form email and is not technically bound to the Google account; do not publish it or a full backup containing it.</p>
 <p><strong>AppAuth</strong> is an open-source client library for browser sign-in and token exchange and refresh. In this integration, it contacts Google; the OpenID organization is not a separate diary-receiving server. <a href="https://github.com/openid/AppAuth-Android">AppAuth documentation</a>.</p>
 <p><a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a> · <a href="./#google-data">Permissions and protection</a> · <a href="./#limited-use">Google Limited Use</a> · <a href="./data-deletion.html">Disconnection and deletion</a>. The app does not select the country where Drive data is stored or apply end-to-end encryption to JSON snapshots.</p>
+</section>
+<section class="sdk-card" aria-labelledby="robokassa">
+<h2 id="robokassa">Robokassa: optional payment</h2>
+<p><strong>Recipient:</strong> ROBOKASSA LLC and the providers of your selected payment method. <strong>Purpose:</strong> a one-time RUB 149 payment for permanent ad removal and issuing payment documents; there is no subscription or automatic recurring payment.</p>
+<p><strong>Data and processing method:</strong> after you choose to pay, a locally adapted Robokassa Android SDK opens the payment web form. You enter payment details and email there. Robokassa also receives order parameters and technical request data. Diary code does not read the completed payment details or store them in the payment server's database. Diary contents, health information and Google data are not sent to Robokassa.</p>
+<p><strong>When:</strong> only when you use an available purchase feature; including the SDK in a build does not mean live payments are already enabled. Terms and processing are described in the <a href="https://robokassa.com/privacy-policy/">Robokassa Privacy Policy</a> and <a href="https://diet.efreitor2001.ru/offer/">seller's offer (in Russian)</a>. Clearing the diary does not erase mandatory transaction records or payment documents.</p>
+</section>
+<section class="sdk-card" aria-labelledby="cloudflare">
+<h2 id="cloudflare">Cloudflare Workers and D1: purchase server</h2>
+<p><strong>Infrastructure provider:</strong> Cloudflare, Inc. and the applicable entities under its policy; the diary operator configures the payment service on this infrastructure. <strong>Purpose:</strong> checking purchase availability, creating and confirming orders, issuing and restoring signed licenses, and limiting abuse.</p>
+<p><strong>Data in D1:</strong> an invoice number, random order and license identifiers, a hash of the order access token, the build's store, test or live mode, a technical merchant identifier, amount, currency, status, transaction dates and the signed license document. D1 does not store email, card details, the Google account or its tokens, diary contents or health information.</p>
+<p>During payment verification, Robokassa notifications and responses may include the payer's email and payment-account information. The infrastructure can process them as part of the message, but the code does not use them to issue the license or write them to D1.</p>
+<p><strong>Network data:</strong> the platform processes the IP address and technical request information; IP-derived country is used for purchase availability, including the Google Play restriction to Russia, and the IP is also used to limit request rates. The raw IP is not stored in our D1 database; request logs for our payment application are disabled. Cloudflare's own technical processing and logs follow its rules. Random identifiers and a hash do not make processing fully anonymous.</p>
+<p><strong>Retention and deletion:</strong> records are needed while the purposes of confirming/restoring the license, transaction accounting and applicable requirements remain; contact <a href="mailto:pokimoha.123@gmail.com">pokimoha.123@gmail.com</a> about retention and deletion. We do not claim that all infrastructure is located in Russia. <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a> · <a href="./#payments">Payment details</a> · <a href="./data-deletion.html#payments">Purchases and deletion</a>.</p>
 </section>
 <section class="sdk-card" aria-labelledby="website">
 <h2 id="website">GitHub Pages and GitHub Issues</h2>
@@ -81,7 +96,7 @@
 <h3>File recipients you select</h3>
 <p>When you save or share a JSON backup, you select its folder, cloud service or recipient. Their processing depends on your choice and their own rules; the app has no universal list of these recipients.</p>
 </section>
-<p class="notice">The diary's main features work without Google and without internet access. SDKs and services do not automatically receive the same data: food records are not sent to advertising, and Google synchronization starts after connection. The current version has no separate general advertising switch or prior consent dialog for its advertising SDK.</p>
+<p class="notice">The diary's main features work without Google, a purchase or internet access. SDKs and services do not automatically receive the same data: food records are not sent to advertising or the payment server, and Google synchronization starts after connection. Where purchasing is available, a verified license disables advertising. There is no separate advertising-consent switch or prior consent dialog for the advertising SDK.</p>
 <p><a href="./">Privacy policy</a> · <a href="./data-deletion.html">Delete data</a></p>
 </main>
 </body>

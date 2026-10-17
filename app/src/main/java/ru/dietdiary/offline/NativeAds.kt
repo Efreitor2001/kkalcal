@@ -66,6 +66,7 @@ enum class AdPlacement {
 /** One card at the page end. The one-dp empty host stays measurable in a lazy list. */
 @Composable
 fun AdCard(placement: AdPlacement, modifier: Modifier = Modifier) {
+    if (PaymentEntitlements.adFree) return
     val testing = NativeAdsTestHooks.configuration
     val id = if (testing != null) "test-" + placement.name else configuredAdId(placement.unitId) ?: return
     val activity = LocalContext.current.adActivity() ?: return
@@ -147,6 +148,7 @@ private object NativeScheduler : NativeAdScheduler {
 private object SdkNativeTransport : NativeAdTransport {
     override fun whenReady(context: Context, callback: () -> Unit) = AdSdk.whenReady(context, callback)
     override fun load(activity: Activity, unitId: String, onLoaded: (NativeAdCreative) -> Unit, onFailed: (Int) -> Unit): () -> Unit {
+        if (PaymentEntitlements.adFree) return {}
         YandexAds.adVolumeController.setMuted(true)
         val loader = NativeAdLoader(activity)
         loader.loadAd(AdRequest.Builder(unitId).build(),
@@ -208,6 +210,11 @@ private object NativeAdSessions {
         sessions.clear()
         old.forEach { it.dispose() }
     }
+}
+
+internal fun releaseNativeAds() {
+    NativeAdSessions.clear()
+    NativeRequestPace.clear()
 }
 
 private class NativeAdSession(
@@ -285,7 +292,7 @@ private class NativeAdSession(
     fun render() {
         val host = owner ?: return
         val item = creative ?: return
-        if (disposed || !foreground || !host.isAttachedToWindow || host.width <= 0) return
+        if (PaymentEntitlements.adFree || disposed || !foreground || !host.isAttachedToWindow || host.width <= 0) return
         if (boundView == null) {
             var view: View? = null
             val success = adSafely("bind native ad") {
@@ -312,7 +319,7 @@ private class NativeAdSession(
     }
 
     private fun ensureLoad() {
-        if (disposed || !foreground || owner == null || creative != null || loading || terminalFailure || cancelDeferred != null) return
+        if (PaymentEntitlements.adFree || disposed || !foreground || owner == null || creative != null || loading || terminalFailure || cancelDeferred != null) return
         val delay = (notBefore - scheduler.nowMillis()).coerceAtLeast(0)
         if (delay > 0) { defer(delay); return }
         loading = true
@@ -372,7 +379,7 @@ private class NativeAdSession(
         }
     }
 
-    private fun current(session: Long) = !disposed && foreground && generation == session && loading &&
+    private fun current(session: Long) = !PaymentEntitlements.adFree && !disposed && foreground && generation == session && loading &&
         !activity.isFinishing && !activity.isDestroyed
 
     private fun failed(code: Int) {
